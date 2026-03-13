@@ -6,7 +6,115 @@ import Button from '../ui/Button.astro';
   <!-- Subtle grain texture overlay -->
   <div class="absolute inset-0 opacity-[0.03]" style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 256 256%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noise%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%224%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noise)%22/%3E%3C/svg%3E'); background-size: 256px 256px;"></div>
 
-  <div class="relative max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-3xl)] md:py-[8rem]">
+  <!-- SVG artwork layer -->
+  <div class="hero-artwork absolute inset-0 pointer-events-none" aria-hidden="true">
+
+    <!-- Lighthouse + beams (tablet and up) -->
+    <svg
+      class="hero-lighthouse absolute right-[5%] top-1/2 -translate-y-1/2"
+      viewBox="0 0 320 520"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <defs>
+        <radialGradient id="lantern-glow" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#C4703C" stop-opacity="0.6" />
+          <stop offset="60%" stop-color="#C4703C" stop-opacity="0.15" />
+          <stop offset="100%" stop-color="#C4703C" stop-opacity="0" />
+        </radialGradient>
+        <radialGradient id="beam-fade" cx="0%" cy="50%" r="100%">
+          <stop offset="0%" stop-color="#C4703C" stop-opacity="0.08" />
+          <stop offset="100%" stop-color="#C4703C" stop-opacity="0" />
+        </radialGradient>
+      </defs>
+
+      <!-- Light beams (behind tower) -->
+      <g class="hero-beam hero-beam-left" style="transform-origin: 160px 100px;">
+        <polygon points="160,100 -60,0 -20,60" fill="url(#beam-fade)" />
+      </g>
+      <g class="hero-beam hero-beam-right" style="transform-origin: 160px 100px;">
+        <polygon points="160,100 380,0 340,60" fill="url(#beam-fade)" />
+      </g>
+
+      <!-- Lantern glow -->
+      <circle class="hero-lantern" cx="160" cy="100" r="40" fill="url(#lantern-glow)" />
+
+      <!-- Lantern housing -->
+      <rect x="145" y="85" width="30" height="30" rx="4" fill="#FAF7F4" opacity="0.15" />
+      <line x1="145" y1="85" x2="175" y2="85" stroke="#FAF7F4" stroke-width="1.5" opacity="0.18" />
+      <line x1="145" y1="115" x2="175" y2="115" stroke="#FAF7F4" stroke-width="1.5" opacity="0.18" />
+
+      <!-- Gallery/railing -->
+      <rect x="138" y="115" width="44" height="6" rx="1" fill="#FAF7F4" opacity="0.12" />
+      <line x1="148" y1="115" x2="148" y2="121" stroke="#FAF7F4" stroke-width="1" opacity="0.10" />
+      <line x1="160" y1="115" x2="160" y2="121" stroke="#FAF7F4" stroke-width="1" opacity="0.10" />
+      <line x1="172" y1="115" x2="172" y2="121" stroke="#FAF7F4" stroke-width="1" opacity="0.10" />
+
+      <!-- Tower body — upper section (wider) -->
+      <polygon points="140,121 180,121 185,260 135,260" fill="#FAF7F4" opacity="0.10" />
+      <line x1="140" y1="121" x2="135" y2="260" stroke="#FAF7F4" stroke-width="1" opacity="0.14" />
+      <line x1="180" y1="121" x2="185" y2="260" stroke="#FAF7F4" stroke-width="1" opacity="0.14" />
+
+      <!-- Tower body — lower section (tapered) -->
+      <polygon points="135,260 185,260 192,420 128,420" fill="#FAF7F4" opacity="0.07" />
+      <line x1="135" y1="260" x2="128" y2="420" stroke="#FAF7F4" stroke-width="1" opacity="0.12" />
+      <line x1="185" y1="260" x2="192" y2="420" stroke="#FAF7F4" stroke-width="1" opacity="0.12" />
+
+      <!-- Horizontal band at junction -->
+      <line x1="133" y1="260" x2="187" y2="260" stroke="#FAF7F4" stroke-width="1.5" opacity="0.15" />
+
+      <!-- Windows -->
+      <rect x="152" y="165" width="16" height="22" rx="8" fill="#C4703C" opacity="0.14" />
+      <rect x="154" y="220" width="12" height="18" rx="6" fill="#C4703C" opacity="0.10" />
+      <rect x="150" y="310" width="20" height="28" rx="10" fill="#C4703C" opacity="0.08" />
+
+      <!-- Door -->
+      <rect x="148" y="390" width="24" height="30" rx="12" fill="#C4703C" opacity="0.10" />
+
+      <!-- Base/foundation -->
+      <polygon points="120,420 200,420 210,440 110,440" fill="#2C2520" opacity="0.15" />
+
+      <!-- Rocks -->
+      <polygon points="100,440 130,430 140,445 95,450" fill="#2C2520" opacity="0.10" />
+      <polygon points="180,435 215,440 220,455 175,450" fill="#2C2520" opacity="0.08" />
+      <polygon points="85,445 110,440 120,460 80,458" fill="#2C2520" opacity="0.06" />
+      <polygon points="200,445 230,448 225,465 195,460" fill="#2C2520" opacity="0.06" />
+    </svg>
+
+    <!-- Star sparkles -->
+    <svg class="hero-stars absolute inset-0 w-full h-full" viewBox="0 0 1200 600" preserveAspectRatio="xMidYMid slice">
+      <circle class="star star-1" cx="920" cy="50" r="1.5" fill="#FAF7F4" opacity="0.18" />
+      <circle class="star star-2" cx="1050" cy="120" r="2" fill="#FAF7F4" opacity="0.14" />
+      <circle class="star star-3" cx="780" cy="90" r="1.2" fill="#FAF7F4" opacity="0.16" />
+      <circle class="star star-4" cx="1100" cy="200" r="1.5" fill="#FAF7F4" opacity="0.10" />
+      <circle class="star star-5" cx="850" cy="180" r="2" fill="#FAF7F4" opacity="0.08" />
+      <circle class="star star-6" cx="680" cy="40" r="1.2" fill="#FAF7F4" opacity="0.12" />
+      <circle class="star star-7" cx="960" cy="280" r="1.5" fill="#FAF7F4" opacity="0.07" />
+    </svg>
+
+    <!-- Wave pattern (bottom edge) -->
+    <svg class="hero-wave absolute bottom-0 left-0 w-full h-[40px]" viewBox="0 0 1600 40" preserveAspectRatio="none">
+      <path
+        class="wave-path"
+        d="M0,25 C100,15 200,35 300,25 C400,15 500,35 600,25 C700,15 800,35 900,25 C1000,15 1100,35 1200,25 C1300,15 1400,35 1500,25 C1600,15 1700,35 1800,25"
+        stroke="#2C2520"
+        stroke-width="1"
+        fill="none"
+        opacity="0.12"
+      />
+      <path
+        class="wave-path wave-path-2"
+        d="M-100,30 C0,20 100,40 200,30 C300,20 400,40 500,30 C600,20 700,40 800,30 C900,20 1000,40 1100,30 C1200,20 1300,40 1400,30 C1500,20 1600,40 1700,30"
+        stroke="#2C2520"
+        stroke-width="0.5"
+        fill="none"
+        opacity="0.06"
+      />
+    </svg>
+  </div>
+
+  <!-- Text content -->
+  <div class="relative z-10 max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-3xl)] md:py-[8rem]">
     <div class="max-w-[48rem]">
       <h1
         class="text-[2.5rem] md:text-[3.5rem] lg:text-[4rem] font-[800] tracking-[-0.02em] text-[var(--color-text-on-dark)] mb-[var(--spacing-lg)] fade-up"
@@ -26,3 +134,119 @@ import Button from '../ui/Button.astro';
     </div>
   </div>
 </section>
+
+<style>
+  /* Lighthouse positioning and responsive sizing */
+  .hero-lighthouse {
+    display: none;
+    width: 280px;
+    height: 460px;
+  }
+
+  @media (min-width: 768px) {
+    .hero-lighthouse {
+      display: block;
+      width: 240px;
+      height: 400px;
+      right: 2%;
+      opacity: 0.7;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .hero-lighthouse {
+      width: 320px;
+      height: 520px;
+      right: 5%;
+      opacity: 1;
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .hero-lighthouse {
+      width: 360px;
+      height: 580px;
+      right: 8%;
+    }
+  }
+
+  /* Beam sweep animation */
+  .hero-beam-left {
+    animation: beamSweepLeft 8s ease-in-out infinite;
+  }
+
+  .hero-beam-right {
+    animation: beamSweepRight 8s ease-in-out infinite;
+    animation-delay: 4s;
+  }
+
+  @keyframes beamSweepLeft {
+    0%, 100% { opacity: 0.6; transform: rotate(-5deg); }
+    50%      { opacity: 1; transform: rotate(5deg); }
+  }
+
+  @keyframes beamSweepRight {
+    0%, 100% { opacity: 1; transform: rotate(5deg); }
+    50%      { opacity: 0.6; transform: rotate(-5deg); }
+  }
+
+  /* Lantern glow pulse */
+  .hero-lantern {
+    animation: lanternGlow 4s ease-in-out infinite;
+  }
+
+  @keyframes lanternGlow {
+    0%, 100% { opacity: 0.8; filter: blur(0px); }
+    50%      { opacity: 1; filter: blur(3px); }
+  }
+
+  /* Star twinkle — each at a different rate */
+  .star { will-change: opacity; }
+
+  .star-1 { animation: twinkle 4s ease-in-out infinite; }
+  .star-2 { animation: twinkle 5.5s ease-in-out infinite; animation-delay: 1.2s; }
+  .star-3 { animation: twinkle 3.5s ease-in-out infinite; animation-delay: 0.5s; }
+  .star-4 { animation: twinkle 6s ease-in-out infinite; animation-delay: 2.8s; }
+  .star-5 { animation: twinkle 4.5s ease-in-out infinite; animation-delay: 1.8s; }
+  .star-6 { animation: twinkle 5s ease-in-out infinite; animation-delay: 3.2s; }
+  .star-7 { animation: twinkle 7s ease-in-out infinite; animation-delay: 0.8s; }
+
+  @keyframes twinkle {
+    0%, 100% { opacity: 0.04; }
+    50%      { opacity: 0.22; }
+  }
+
+  /* Wave drift */
+  .wave-path {
+    animation: waveDrift 14s linear infinite;
+    will-change: transform;
+  }
+
+  .wave-path-2 {
+    animation: waveDrift 18s linear infinite reverse;
+  }
+
+  @keyframes waveDrift {
+    0%   { transform: translateX(0); }
+    100% { transform: translateX(-200px); }
+  }
+
+  /* Hide stars on mobile (keep only 2-3) */
+  @media (max-width: 767px) {
+    .star-4, .star-5, .star-6, .star-7 {
+      display: none;
+    }
+  }
+
+  /* Accessibility: disable all animations for reduced motion */
+  @media (prefers-reduced-motion: reduce) {
+    .hero-artwork *,
+    .hero-beam-left,
+    .hero-beam-right,
+    .hero-lantern,
+    .star,
+    .wave-path {
+      animation: none !important;
+    }
+  }
+</style>
