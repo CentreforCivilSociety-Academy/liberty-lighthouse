@@ -1,0 +1,57 @@
+---
+import CrossLinkCard from './CrossLinkCard.astro';
+
+interface RelatedItem {
+  id: string;
+  data: {
+    topic: string;
+    question?: string;
+    title?: string;
+    description?: string;
+  };
+}
+
+interface Props {
+  faqs?: RelatedItem[];
+  videos?: RelatedItem[];
+  syllabus?: RelatedItem[];
+}
+
+const { faqs = [], videos = [], syllabus = [] } = Astro.props;
+const hasAny = faqs.length > 0 || videos.length > 0 || syllabus.length > 0;
+---
+
+{hasAny && (
+  <aside class="mt-[var(--spacing-3xl)] pt-[var(--spacing-2xl)] border-t border-[var(--color-border-default)]" aria-label="Related content">
+    <h2 class="text-[1.25rem] font-[600] text-[var(--color-text-primary)] mb-[var(--spacing-lg)]">Related Resources</h2>
+
+    <div class="space-y-[var(--spacing-sm)]">
+      {faqs.map((faq) => (
+        <CrossLinkCard
+          type="faq"
+          title={faq.data.question || ''}
+          topic={faq.data.topic}
+          id={faq.id}
+        />
+      ))}
+      {videos.map((video) => (
+        <CrossLinkCard
+          type="video"
+          title={video.data.title || ''}
+          topic={video.data.topic}
+          id={video.id}
+          description={video.data.description}
+        />
+      ))}
+      {syllabus.map((mod) => (
+        <CrossLinkCard
+          type="syllabus"
+          title={mod.data.title || ''}
+          topic={mod.data.topic}
+          id={mod.id}
+          description={mod.data.description}
+        />
+      ))}
+    </div>
+  </aside>
+)}

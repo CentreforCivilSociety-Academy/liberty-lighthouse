@@ -1,0 +1,104 @@
+---
+const currentPath = Astro.url.pathname;
+
+function isActive(path: string): boolean {
+  if (path === '/') return currentPath === '/';
+  return currentPath.startsWith(path);
+}
+
+const navLinks = [
+  { href: '/topics/', label: 'Topics' },
+  { href: '/about/', label: 'About' },
+];
+---
+
+<header class="sticky top-0 z-50 bg-[var(--color-bg-page)]/95 backdrop-blur-sm border-b border-[var(--color-border-subtle)]">
+  <nav class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] h-16 flex items-center justify-between" aria-label="Main navigation">
+
+    <!-- Logo -->
+    <a href="/" class="flex items-center gap-[var(--spacing-sm)] no-underline group">
+      <span class="text-[1.125rem] font-[700] text-[var(--color-primary)] tracking-[-0.01em]" style="font-family: var(--font-display);">
+        Liberty Lighthouse
+      </span>
+    </a>
+
+    <!-- Desktop Nav -->
+    <div class="hidden md:flex items-center gap-[var(--spacing-xl)]">
+      {navLinks.map((link) => (
+        <a
+          href={link.href}
+          class:list={[
+            'text-[0.9375rem] font-medium no-underline transition-colors duration-[var(--duration-fast)]',
+            isActive(link.href)
+              ? 'text-[var(--color-primary)]'
+              : 'text-[var(--color-text-secondary)] hover:text-[var(--color-primary)]',
+          ]}
+          aria-current={isActive(link.href) ? 'page' : undefined}
+        >
+          {link.label}
+        </a>
+      ))}
+
+      <!-- Search Link -->
+      <a
+        href="/search/"
+        class="text-[var(--color-text-secondary)] hover:text-[var(--color-primary)] transition-colors duration-[var(--duration-fast)] no-underline"
+        aria-label="Search"
+      >
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.3-4.3" />
+        </svg>
+      </a>
+    </div>
+
+    <!-- Mobile Menu Button -->
+    <button
+      class="md:hidden p-2 -mr-2 text-[var(--color-text-secondary)] hover:text-[var(--color-primary)]"
+      aria-label="Open menu"
+      aria-expanded="false"
+      data-menu-toggle
+    >
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+        <path d="M3 12h18M3 6h18M3 18h18" />
+      </svg>
+    </button>
+  </nav>
+
+  <!-- Mobile Menu Panel -->
+  <div class="md:hidden hidden" data-menu-panel>
+    <div class="px-[var(--spacing-lg)] py-[var(--spacing-md)] border-t border-[var(--color-border-subtle)] bg-[var(--color-bg-page)]">
+      {navLinks.map((link) => (
+        <a
+          href={link.href}
+          class:list={[
+            'block py-[var(--spacing-sm)] text-[0.9375rem] font-medium no-underline',
+            isActive(link.href)
+              ? 'text-[var(--color-primary)]'
+              : 'text-[var(--color-text-secondary)]',
+          ]}
+          aria-current={isActive(link.href) ? 'page' : undefined}
+        >
+          {link.label}
+        </a>
+      ))}
+      <a
+        href="/search/"
+        class="block py-[var(--spacing-sm)] text-[0.9375rem] font-medium no-underline text-[var(--color-text-secondary)]"
+      >
+        Search
+      </a>
+    </div>
+  </div>
+</header>
+
+<script>
+  const toggle = document.querySelector('[data-menu-toggle]');
+  const panel = document.querySelector('[data-menu-panel]');
+
+  toggle?.addEventListener('click', () => {
+    const expanded = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!expanded));
+    panel?.classList.toggle('hidden');
+  });
+</script>

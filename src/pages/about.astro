@@ -1,0 +1,50 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Breadcrumbs from '../components/global/Breadcrumbs.astro';
+import Button from '../components/ui/Button.astro';
+---
+
+<PageLayout title="About" description="About Liberty Lighthouse and the Centre for Civil Society — advancing classical liberal ideas for India.">
+  <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    <Breadcrumbs items={[{ label: 'About' }]} />
+
+    <article class="prose mx-auto">
+      <h1>About Liberty Lighthouse</h1>
+
+      <p>
+        Liberty Lighthouse is an open educational platform created by the <strong>Centre for Civil Society</strong> (CCS), one of India's most respected independent think tanks. Our mission is to make rigorous policy research accessible to students, educators, journalists, policymakers, and engaged citizens.
+      </p>
+
+      <p>
+        We believe that India's most pressing policy challenges — in education, agriculture, healthcare, governance, and livelihoods — deserve clear, evidence-based analysis grounded in the principles of individual liberty, free markets, rule of law, and limited government.
+      </p>
+
+      <h2>What You'll Find Here</h2>
+
+      <p>Liberty Lighthouse organises knowledge across policy topics through three complementary formats:</p>
+
+      <ul>
+        <li><strong>Frequently Asked Questions</strong> — concise, expert-written answers to common policy questions, each grounded in research and evidence.</li>
+        <li><strong>Video Curricula</strong> — curated video resources from leading scholars and practitioners, organised into structured learning sequences.</li>
+        <li><strong>Guided Syllabi</strong> — step-by-step learning paths that guide you through a topic, combining readings, key concepts, and discussion questions.</li>
+      </ul>
+
+      <h2>About the Centre for Civil Society</h2>
+
+      <p>
+        Founded in 1997, the Centre for Civil Society is an independent, non-partisan think tank that advances social change through public policy. CCS has consistently been ranked among the top think tanks in India and South Asia by the University of Pennsylvania's Global Go To Think Tank Index.
+      </p>
+
+      <p>
+        CCS pursues its mission through research, policy engagement, and education — training the next generation of policy leaders through programs like the Researching Reality Internship and iPolicy.
+      </p>
+
+      <div class="mt-[var(--spacing-xl)]">
+        <Button href="https://ccs.in" variant="secondary" size="md">
+          Visit CCS
+          <span aria-hidden="true">&rarr;</span>
+        </Button>
+      </div>
+    </article>
+  </div>
+</PageLayout>

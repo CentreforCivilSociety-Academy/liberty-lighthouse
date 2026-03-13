@@ -1,0 +1,40 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Breadcrumbs from '../../components/global/Breadcrumbs.astro';
+import TopicCard from '../../components/home/TopicCard.astro';
+import { getAllTopics, getTopicResourceCounts } from '../../lib/collections';
+
+const topics = await getAllTopics();
+const topicsWithCounts = await Promise.all(
+  topics.map(async (topic) => {
+    const counts = await getTopicResourceCounts(topic.data.slug);
+    return { ...topic, counts };
+  })
+);
+---
+
+<PageLayout title="Topics" description="Explore India's most pressing policy questions across education, agriculture, healthcare, governance, and more.">
+  <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    <Breadcrumbs items={[{ label: 'Topics' }]} />
+
+    <div class="mb-[var(--spacing-2xl)]">
+      <h1 class="text-[2.5rem] font-[700] text-[var(--color-text-primary)] mb-[var(--spacing-sm)]">Topics</h1>
+      <p class="text-[1.0625rem] text-[var(--color-text-secondary)] max-w-[var(--prose-max-width)]">
+        Dive into India's most pressing policy questions through curated FAQs, video curricula, and guided syllabi.
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[var(--spacing-lg)]">
+      {topicsWithCounts.map((topic) => (
+        <TopicCard
+          title={topic.data.title}
+          slug={topic.data.slug}
+          description={topic.data.description}
+          hasFAQ={topic.counts.hasFAQ}
+          hasVideo={topic.counts.hasVideo}
+          hasSyllabus={topic.counts.hasSyllabus}
+        />
+      ))}
+    </div>
+  </div>
+</PageLayout>

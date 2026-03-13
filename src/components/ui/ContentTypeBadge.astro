@@ -1,0 +1,26 @@
+---
+interface Props {
+  type: 'faq' | 'video' | 'syllabus';
+  class?: string;
+}
+
+const { type, class: className = '' } = Astro.props;
+
+const config = {
+  faq: { label: 'FAQ', icon: '?' },
+  video: { label: 'Video', icon: '▶' },
+  syllabus: { label: 'Syllabus', icon: '◈' },
+};
+
+const { label, icon } = config[type];
+---
+
+<span
+  class:list={[
+    'inline-flex items-center gap-[0.25rem] text-[0.6875rem] font-semibold uppercase tracking-[0.08em] px-[var(--spacing-sm)] py-[0.125rem] rounded-[var(--radius-sm)] bg-[var(--color-bg-section)] text-[var(--color-text-tertiary)] border border-[var(--color-border-default)]',
+    className,
+  ]}
+>
+  <span aria-hidden="true">{icon}</span>
+  {label}
+</span>

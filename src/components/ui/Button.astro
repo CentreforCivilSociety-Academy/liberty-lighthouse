@@ -1,0 +1,41 @@
+---
+interface Props {
+  href?: string;
+  variant?: 'primary' | 'secondary' | 'ghost';
+  size?: 'sm' | 'md' | 'lg';
+  class?: string;
+  [key: string]: any;
+}
+
+const {
+  href,
+  variant = 'primary',
+  size = 'md',
+  class: className = '',
+  ...rest
+} = Astro.props;
+
+const Tag = href ? 'a' : 'button';
+
+const baseClasses = 'inline-flex items-center justify-center font-semibold no-underline transition-all rounded-[var(--radius-md)] cursor-pointer';
+
+const variantClasses = {
+  primary: 'bg-[var(--color-primary)] text-[var(--color-text-on-dark)] hover:bg-[var(--color-primary-light)] active:scale-[0.98]',
+  secondary: 'bg-transparent text-[var(--color-primary)] border border-[var(--color-primary)] hover:bg-[var(--color-primary)] hover:text-[var(--color-text-on-dark)]',
+  ghost: 'bg-transparent text-[var(--color-text-secondary)] hover:text-[var(--color-primary)] hover:bg-[var(--color-bg-section)]',
+};
+
+const sizeClasses = {
+  sm: 'text-[0.8125rem] px-[var(--spacing-md)] py-[var(--spacing-xs)] gap-[var(--spacing-xs)]',
+  md: 'text-[0.9375rem] px-[var(--spacing-lg)] py-[var(--spacing-sm)] gap-[var(--spacing-sm)]',
+  lg: 'text-[1rem] px-[var(--spacing-xl)] py-[var(--spacing-md)] gap-[var(--spacing-sm)]',
+};
+---
+
+<Tag
+  href={href}
+  class:list={[baseClasses, variantClasses[variant], sizeClasses[size], `duration-[var(--duration-fast)]`, className]}
+  {...rest}
+>
+  <slot />
+</Tag>

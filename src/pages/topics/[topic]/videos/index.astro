@@ -1,0 +1,45 @@
+---
+import PageLayout from '../../../../layouts/PageLayout.astro';
+import TopicHeader from '../../../../components/topic/TopicHeader.astro';
+import ResourceTabs from '../../../../components/topic/ResourceTabs.astro';
+import VideoCard from '../../../../components/video/VideoCard.astro';
+import { getAllTopics, getVideosByTopic, getTopicResourceCounts } from '../../../../lib/collections';
+
+export async function getStaticPaths() {
+  const topics = await getAllTopics();
+  return topics.map((t) => ({
+    params: { topic: t.data.slug },
+    props: { topicData: t.data },
+  }));
+}
+
+const { topic: topicSlug } = Astro.params;
+const { topicData } = Astro.props;
+const videos = await getVideosByTopic(topicSlug!);
+const counts = await getTopicResourceCounts(topicSlug!);
+---
+
+<PageLayout title={`Videos — ${topicData.title}`} description={`Video curriculum on ${topicData.title.toLowerCase()} policy in India.`}>
+  <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    <TopicHeader title={topicData.title} description={topicData.description} slug={topicSlug!} />
+    <ResourceTabs topicSlug={topicSlug!} faqCount={counts.faqCount} videoCount={counts.videoCount} syllabusCount={counts.syllabusCount} activeTab="videos" />
+
+    {videos.length > 0 ? (
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-[var(--spacing-lg)]">
+        {videos.map((video) => (
+          <VideoCard
+            id={video.id}
+            title={video.data.title}
+            topic={video.data.topic}
+            youtubeId={video.data.youtubeId}
+            duration={video.data.duration}
+            speaker={video.data.speaker}
+            description={video.data.description}
+          />
+        ))}
+      </div>
+    ) : (
+      <p class="text-[var(--color-text-tertiary)] text-center py-[var(--spacing-2xl)]">No videos available yet.</p>
+    )}
+  </div>
+</PageLayout>

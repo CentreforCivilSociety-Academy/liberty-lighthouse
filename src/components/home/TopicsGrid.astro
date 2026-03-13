@@ -1,0 +1,36 @@
+---
+import TopicCard from './TopicCard.astro';
+import { getAllTopics, getTopicResourceCounts } from '../../lib/collections';
+
+const topics = await getAllTopics();
+const topicsWithCounts = await Promise.all(
+  topics.map(async (topic) => {
+    const counts = await getTopicResourceCounts(topic.data.slug);
+    return { ...topic, counts };
+  })
+);
+---
+
+<section class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-3xl)]">
+  <div class="text-center mb-[var(--spacing-2xl)] fade-up">
+    <h2 class="text-[2rem] md:text-[2.25rem] font-[700] text-[var(--color-text-primary)] mb-[var(--spacing-sm)]">
+      Explore by Topic
+    </h2>
+    <p class="text-[1.0625rem] text-[var(--color-text-secondary)] max-w-[var(--prose-max-width)] mx-auto">
+      Dive into India's most pressing policy questions through curated FAQs, video curricula, and guided syllabi.
+    </p>
+  </div>
+
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[var(--spacing-lg)] fade-up fade-up-delay-1">
+    {topicsWithCounts.map((topic) => (
+      <TopicCard
+        title={topic.data.title}
+        slug={topic.data.slug}
+        description={topic.data.description}
+        hasFAQ={topic.counts.hasFAQ}
+        hasVideo={topic.counts.hasVideo}
+        hasSyllabus={topic.counts.hasSyllabus}
+      />
+    ))}
+  </div>
+</section>

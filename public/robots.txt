@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://libertylighthouse.ccs.in/sitemap-index.xml

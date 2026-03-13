@@ -1,0 +1,208 @@
+backend:
+  name: git-gateway
+  branch: main
+
+local_backend: true
+
+publish_mode: editorial_workflow
+
+media_folder: "public/media"
+public_folder: "/media"
+
+collections:
+  - name: "topics"
+    label: "Topics"
+    folder: "src/content/topics"
+    format: "json"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string", pattern: ['^[a-z0-9-]+$', "Lowercase letters, numbers, and hyphens only"] }
+      - { label: "Description", name: "description", widget: "text" }
+      - { label: "Icon", name: "icon", widget: "string", required: false, hint: "Icon identifier (e.g., book-open, sprout)" }
+      - { label: "Display Order", name: "order", widget: "number", value_type: "int", min: 1 }
+
+  - name: "faqs"
+    label: "FAQs"
+    folder: "src/content/faqs"
+    format: "frontmatter"
+    extension: "mdx"
+    create: true
+    nested:
+      depth: 2
+    slug: "{{slug}}"
+    fields:
+      - { label: "Question", name: "question", widget: "string" }
+      - label: "Topic"
+        name: "topic"
+        widget: "relation"
+        collection: "topics"
+        value_field: "slug"
+        search_fields: ["title"]
+        display_fields: ["title"]
+      - { label: "Display Order", name: "order", widget: "number", value_type: "int", min: 1 }
+      - { label: "Author", name: "author", widget: "string", required: false }
+      - label: "Related Videos"
+        name: "relatedVideos"
+        widget: "list"
+        required: false
+        field:
+          label: "Video"
+          name: "video"
+          widget: "relation"
+          collection: "videos"
+          value_field: "{{slug}}"
+          search_fields: ["title"]
+          display_fields: ["title"]
+      - label: "Related Syllabus Modules"
+        name: "relatedSyllabus"
+        widget: "list"
+        required: false
+        field:
+          label: "Module"
+          name: "module"
+          widget: "relation"
+          collection: "syllabus"
+          value_field: "{{slug}}"
+          search_fields: ["title"]
+          display_fields: ["title"]
+      - label: "Related FAQs"
+        name: "relatedFAQs"
+        widget: "list"
+        required: false
+        field:
+          label: "FAQ"
+          name: "faq"
+          widget: "relation"
+          collection: "faqs"
+          value_field: "{{slug}}"
+          search_fields: ["question"]
+          display_fields: ["question"]
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Last Updated", name: "updatedAt", widget: "string", required: false, hint: "Format: YYYY-MM-DD" }
+      - { label: "Answer", name: "body", widget: "markdown" }
+
+  - name: "videos"
+    label: "Video Curriculum"
+    folder: "src/content/videos"
+    format: "frontmatter"
+    extension: "mdx"
+    create: true
+    nested:
+      depth: 2
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "Topic"
+        name: "topic"
+        widget: "relation"
+        collection: "topics"
+        value_field: "slug"
+        search_fields: ["title"]
+        display_fields: ["title"]
+      - { label: "YouTube Video ID", name: "youtubeId", widget: "string", hint: "The video ID from the YouTube URL (e.g., dQw4w9WgXcQ)" }
+      - { label: "Duration", name: "duration", widget: "string", required: false, hint: "Format: MM:SS or HH:MM:SS" }
+      - { label: "Sequence Order", name: "order", widget: "number", value_type: "int", min: 1 }
+      - { label: "Speaker", name: "speaker", widget: "string", required: false }
+      - { label: "Short Description", name: "description", widget: "text" }
+      - label: "Related FAQs"
+        name: "relatedFAQs"
+        widget: "list"
+        required: false
+        field:
+          label: "FAQ"
+          name: "faq"
+          widget: "relation"
+          collection: "faqs"
+          value_field: "{{slug}}"
+          search_fields: ["question"]
+          display_fields: ["question"]
+      - label: "Related Syllabus Modules"
+        name: "relatedSyllabus"
+        widget: "list"
+        required: false
+        field:
+          label: "Module"
+          name: "module"
+          widget: "relation"
+          collection: "syllabus"
+          value_field: "{{slug}}"
+          search_fields: ["title"]
+          display_fields: ["title"]
+      - label: "Related Videos"
+        name: "relatedVideos"
+        widget: "list"
+        required: false
+        field:
+          label: "Video"
+          name: "video"
+          widget: "relation"
+          collection: "videos"
+          value_field: "{{slug}}"
+          search_fields: ["title"]
+          display_fields: ["title"]
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Last Updated", name: "updatedAt", widget: "string", required: false, hint: "Format: YYYY-MM-DD" }
+      - { label: "Extended Notes", name: "body", widget: "markdown" }
+
+  - name: "syllabus"
+    label: "Guided Syllabus"
+    folder: "src/content/syllabus"
+    format: "frontmatter"
+    extension: "mdx"
+    create: true
+    nested:
+      depth: 2
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - label: "Topic"
+        name: "topic"
+        widget: "relation"
+        collection: "topics"
+        value_field: "slug"
+        search_fields: ["title"]
+        display_fields: ["title"]
+      - { label: "Module Number", name: "moduleNumber", widget: "number", value_type: "int", min: 1 }
+      - { label: "Estimated Time", name: "estimatedTime", widget: "string", required: false, hint: "e.g., 45 min, 1 hour" }
+      - { label: "Short Description", name: "description", widget: "text" }
+      - label: "Related FAQs"
+        name: "relatedFAQs"
+        widget: "list"
+        required: false
+        field:
+          label: "FAQ"
+          name: "faq"
+          widget: "relation"
+          collection: "faqs"
+          value_field: "{{slug}}"
+          search_fields: ["question"]
+          display_fields: ["question"]
+      - label: "Related Videos"
+        name: "relatedVideos"
+        widget: "list"
+        required: false
+        field:
+          label: "Video"
+          name: "video"
+          widget: "relation"
+          collection: "videos"
+          value_field: "{{slug}}"
+          search_fields: ["title"]
+          display_fields: ["title"]
+      - label: "Related Syllabus Modules"
+        name: "relatedSyllabus"
+        widget: "list"
+        required: false
+        field:
+          label: "Module"
+          name: "module"
+          widget: "relation"
+          collection: "syllabus"
+          value_field: "{{slug}}"
+          search_fields: ["title"]
+          display_fields: ["title"]
+      - { label: "Draft", name: "draft", widget: "boolean", default: false }
+      - { label: "Last Updated", name: "updatedAt", widget: "string", required: false, hint: "Format: YYYY-MM-DD" }
+      - { label: "Module Content", name: "body", widget: "markdown" }

@@ -1,0 +1,23 @@
+---
+import { getContentUrl } from '../../lib/collections';
+
+interface Props {
+  type: 'faq' | 'video' | 'syllabus';
+  title: string;
+  topic: string;
+  id: string;
+}
+
+const { type, title, topic, id } = Astro.props;
+const url = getContentUrl(type, topic, id);
+
+const typeIcon = { faq: '?', video: '▶', syllabus: '◈' };
+---
+
+<a
+  href={url}
+  class="inline-flex items-center gap-[0.25rem] text-[0.8125rem] font-medium text-[var(--color-accent-text)] bg-[var(--color-accent)]/5 px-[var(--spacing-sm)] py-[0.125rem] rounded-full no-underline hover:bg-[var(--color-accent)]/10 transition-colors duration-[var(--duration-fast)]"
+>
+  <span class="text-[0.6875rem]" aria-hidden="true">{typeIcon[type]}</span>
+  <span class="truncate max-w-[12rem]">{title}</span>
+</a>

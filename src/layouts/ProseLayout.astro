@@ -1,0 +1,31 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import Navbar from '../components/global/Navbar.astro';
+import Footer from '../components/global/Footer.astro';
+import Breadcrumbs from '../components/global/Breadcrumbs.astro';
+
+interface BreadcrumbItem {
+  label: string;
+  href?: string;
+}
+
+interface Props {
+  title: string;
+  description?: string;
+  ogImage?: string;
+  breadcrumbs?: BreadcrumbItem[];
+}
+
+const { title, description, ogImage, breadcrumbs = [] } = Astro.props;
+---
+
+<BaseLayout title={title} description={description} ogImage={ogImage}>
+  <Navbar />
+  <main id="main-content" class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    {breadcrumbs.length > 0 && <Breadcrumbs items={breadcrumbs} />}
+    <article class="prose mx-auto">
+      <slot />
+    </article>
+  </main>
+  <Footer />
+</BaseLayout>

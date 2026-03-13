@@ -1,0 +1,44 @@
+---
+import PageLayout from '../../../../layouts/PageLayout.astro';
+import TopicHeader from '../../../../components/topic/TopicHeader.astro';
+import ResourceTabs from '../../../../components/topic/ResourceTabs.astro';
+import SyllabusModule from '../../../../components/syllabus/SyllabusModule.astro';
+import { getAllTopics, getSyllabusByTopic, getTopicResourceCounts } from '../../../../lib/collections';
+
+export async function getStaticPaths() {
+  const topics = await getAllTopics();
+  return topics.map((t) => ({
+    params: { topic: t.data.slug },
+    props: { topicData: t.data },
+  }));
+}
+
+const { topic: topicSlug } = Astro.params;
+const { topicData } = Astro.props;
+const syllabus = await getSyllabusByTopic(topicSlug!);
+const counts = await getTopicResourceCounts(topicSlug!);
+---
+
+<PageLayout title={`Syllabus — ${topicData.title}`} description={`Guided learning path for ${topicData.title.toLowerCase()} policy in India.`}>
+  <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    <TopicHeader title={topicData.title} description={topicData.description} slug={topicSlug!} />
+    <ResourceTabs topicSlug={topicSlug!} faqCount={counts.faqCount} videoCount={counts.videoCount} syllabusCount={counts.syllabusCount} activeTab="syllabus" />
+
+    {syllabus.length > 0 ? (
+      <div class="space-y-[var(--spacing-sm)]">
+        {syllabus.map((mod) => (
+          <SyllabusModule
+            id={mod.id}
+            title={mod.data.title}
+            topic={mod.data.topic}
+            moduleNumber={mod.data.moduleNumber}
+            estimatedTime={mod.data.estimatedTime}
+            description={mod.data.description}
+          />
+        ))}
+      </div>
+    ) : (
+      <p class="text-[var(--color-text-tertiary)] text-center py-[var(--spacing-2xl)]">No syllabus modules available yet.</p>
+    )}
+  </div>
+</PageLayout>

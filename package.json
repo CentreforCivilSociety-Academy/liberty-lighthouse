@@ -1,0 +1,26 @@
+{
+  "name": "liberty-lighthouse",
+  "type": "module",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^5.0.0",
+    "@astrojs/preact": "^5.0.0",
+    "@astrojs/sitemap": "^3.7.1",
+    "@tailwindcss/vite": "^4.2.1",
+    "astro": "^6.0.4",
+    "fuse.js": "^7.1.0",
+    "lite-youtube-embed": "^0.3.4",
+    "preact": "^10.29.0",
+    "tailwindcss": "^4.2.1"
+  }
+}

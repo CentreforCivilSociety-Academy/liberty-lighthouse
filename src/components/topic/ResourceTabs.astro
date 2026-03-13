@@ -1,0 +1,43 @@
+---
+interface Props {
+  topicSlug: string;
+  faqCount: number;
+  videoCount: number;
+  syllabusCount: number;
+  activeTab?: 'faq' | 'videos' | 'syllabus';
+}
+
+const { topicSlug, faqCount, videoCount, syllabusCount, activeTab = 'faq' } = Astro.props;
+
+const tabs = [
+  { id: 'faq', label: 'FAQ', count: faqCount, href: `/topics/${topicSlug}/faq/` },
+  { id: 'videos', label: 'Videos', count: videoCount, href: `/topics/${topicSlug}/videos/` },
+  { id: 'syllabus', label: 'Syllabus', count: syllabusCount, href: `/topics/${topicSlug}/syllabus/` },
+].filter((tab) => tab.count > 0);
+---
+
+<nav aria-label="Resource types" class="mb-[var(--spacing-2xl)]">
+  <div class="flex gap-0 border-b border-[var(--color-border-default)]" role="tablist">
+    {tabs.map((tab) => (
+      <a
+        href={tab.href}
+        role="tab"
+        aria-selected={activeTab === tab.id ? 'true' : 'false'}
+        class:list={[
+          'relative px-[var(--spacing-lg)] py-[var(--spacing-md)] text-[0.9375rem] font-medium no-underline transition-colors duration-[var(--duration-fast)]',
+          activeTab === tab.id
+            ? 'text-[var(--color-primary)]'
+            : 'text-[var(--color-text-tertiary)] hover:text-[var(--color-text-primary)]',
+        ]}
+      >
+        {tab.label}
+        <span class="ml-[var(--spacing-xs)] text-[0.75rem] text-[var(--color-text-muted)]">
+          {tab.count}
+        </span>
+        {activeTab === tab.id && (
+          <span class="absolute bottom-0 left-0 right-0 h-[2px] bg-[var(--color-accent)]"></span>
+        )}
+      </a>
+    ))}
+  </div>
+</nav>

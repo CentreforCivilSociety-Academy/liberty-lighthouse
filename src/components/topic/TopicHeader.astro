@@ -1,0 +1,23 @@
+---
+import Breadcrumbs from '../global/Breadcrumbs.astro';
+
+interface Props {
+  title: string;
+  description: string;
+  slug: string;
+}
+
+const { title, description, slug } = Astro.props;
+---
+
+<div class="mb-[var(--spacing-2xl)]">
+  <Breadcrumbs items={[
+    { label: 'Topics', href: '/topics/' },
+    { label: title },
+  ]} />
+
+  <h1 class="text-[2.5rem] font-[700] text-[var(--color-text-primary)] mb-[var(--spacing-sm)]">{title}</h1>
+  <p class="text-[1.0625rem] text-[var(--color-text-secondary)] max-w-[var(--prose-max-width)] leading-relaxed">
+    {description}
+  </p>
+</div>

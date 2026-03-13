@@ -1,0 +1,55 @@
+---
+import ProseLayout from '../../../../layouts/ProseLayout.astro';
+import ContentTypeBadge from '../../../../components/ui/ContentTypeBadge.astro';
+import RelatedContent from '../../../../components/crosslinks/RelatedContent.astro';
+import { getCollection, render } from 'astro:content';
+import { getSlugFromId, getTopicBySlug, resolveRelatedFAQs, resolveRelatedVideos, resolveRelatedSyllabus } from '../../../../lib/collections';
+
+export async function getStaticPaths() {
+  const faqs = await getCollection('faqs');
+  return faqs.filter((f) => !f.data.draft).map((faq) => ({
+    params: {
+      topic: faq.data.topic,
+      slug: getSlugFromId(faq.id),
+    },
+    props: { entry: faq },
+  }));
+}
+
+const { entry } = Astro.props;
+const { topic: topicSlug } = Astro.params;
+const topic = await getTopicBySlug(topicSlug!);
+const { Content } = await render(entry);
+
+const relatedFAQs = await resolveRelatedFAQs(entry.data.relatedFAQs);
+const relatedVideos = await resolveRelatedVideos(entry.data.relatedVideos);
+const relatedSyllabus = await resolveRelatedSyllabus(entry.data.relatedSyllabus);
+---
+
+<ProseLayout
+  title={entry.data.question}
+  description={`FAQ: ${entry.data.question}`}
+  breadcrumbs={[
+    { label: 'Topics', href: '/topics/' },
+    { label: topic?.data.title || topicSlug!, href: `/topics/${topicSlug}/` },
+    { label: 'FAQ', href: `/topics/${topicSlug}/faq/` },
+    { label: entry.data.question },
+  ]}
+>
+  <div class="mb-[var(--spacing-lg)]">
+    <div class="flex items-center gap-[var(--spacing-sm)] mb-[var(--spacing-md)]">
+      <ContentTypeBadge type="faq" />
+      {entry.data.author && (
+        <span class="text-[0.875rem] text-[var(--color-text-tertiary)]">by {entry.data.author}</span>
+      )}
+      {entry.data.updatedAt && (
+        <span class="text-[0.875rem] text-[var(--color-text-muted)]">Updated {entry.data.updatedAt}</span>
+      )}
+    </div>
+    <h1>{entry.data.question}</h1>
+  </div>
+
+  <Content />
+
+  <RelatedContent faqs={relatedFAQs} videos={relatedVideos} syllabus={relatedSyllabus} />
+</ProseLayout>

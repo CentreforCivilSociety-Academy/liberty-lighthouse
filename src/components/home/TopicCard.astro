@@ -1,0 +1,29 @@
+---
+import Card from '../ui/Card.astro';
+import ContentTypeBadge from '../ui/ContentTypeBadge.astro';
+
+interface Props {
+  title: string;
+  slug: string;
+  description: string;
+  hasFAQ?: boolean;
+  hasVideo?: boolean;
+  hasSyllabus?: boolean;
+}
+
+const { title, slug, description, hasFAQ = false, hasVideo = false, hasSyllabus = false } = Astro.props;
+---
+
+<Card href={`/topics/${slug}/`} class="group">
+  <h3 class="text-[1.25rem] font-[600] text-[var(--color-text-primary)] mb-[var(--spacing-sm)] normal-case tracking-normal group-hover:text-[var(--color-primary)] transition-colors duration-[var(--duration-fast)]" style="font-family: var(--font-display);">
+    {title}
+  </h3>
+  <p class="text-[0.9375rem] text-[var(--color-text-secondary)] leading-relaxed mb-[var(--spacing-md)] line-clamp-3">
+    {description}
+  </p>
+  <div class="flex flex-wrap gap-[var(--spacing-xs)]">
+    {hasFAQ && <ContentTypeBadge type="faq" />}
+    {hasVideo && <ContentTypeBadge type="video" />}
+    {hasSyllabus && <ContentTypeBadge type="syllabus" />}
+  </div>
+</Card>

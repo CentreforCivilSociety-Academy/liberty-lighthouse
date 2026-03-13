@@ -1,0 +1,33 @@
+---
+import PageLayout from '../../../../layouts/PageLayout.astro';
+import TopicHeader from '../../../../components/topic/TopicHeader.astro';
+import ResourceTabs from '../../../../components/topic/ResourceTabs.astro';
+import FAQList from '../../../../components/faq/FAQList.astro';
+import { getAllTopics, getFaqsByTopic, getTopicResourceCounts } from '../../../../lib/collections';
+
+export async function getStaticPaths() {
+  const topics = await getAllTopics();
+  return topics.map((t) => ({
+    params: { topic: t.data.slug },
+    props: { topicData: t.data },
+  }));
+}
+
+const { topic: topicSlug } = Astro.params;
+const { topicData } = Astro.props;
+const faqs = await getFaqsByTopic(topicSlug!);
+const counts = await getTopicResourceCounts(topicSlug!);
+---
+
+<PageLayout title={`FAQ — ${topicData.title}`} description={`Frequently asked questions about ${topicData.title.toLowerCase()} policy in India.`}>
+  <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    <TopicHeader title={topicData.title} description={topicData.description} slug={topicSlug!} />
+    <ResourceTabs topicSlug={topicSlug!} faqCount={counts.faqCount} videoCount={counts.videoCount} syllabusCount={counts.syllabusCount} activeTab="faq" />
+
+    {faqs.length > 0 ? (
+      <FAQList faqs={faqs} topicSlug={topicSlug!} />
+    ) : (
+      <p class="text-[var(--color-text-tertiary)] text-center py-[var(--spacing-2xl)]">No FAQs available yet.</p>
+    )}
+  </div>
+</PageLayout>

@@ -1,0 +1,105 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Breadcrumbs from '../components/global/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+import { getSlugFromId, getContentUrl } from '../lib/collections';
+
+// Build search index at build time
+const faqs = await getCollection('faqs');
+const videos = await getCollection('videos');
+const syllabus = await getCollection('syllabus');
+
+const searchIndex = [
+  ...faqs.filter((f) => !f.data.draft).map((f) => ({
+    type: 'faq' as const,
+    title: f.data.question,
+    topic: f.data.topic,
+    url: getContentUrl('faq', f.data.topic, f.id),
+    excerpt: f.data.question,
+  })),
+  ...videos.filter((v) => !v.data.draft).map((v) => ({
+    type: 'video' as const,
+    title: v.data.title,
+    topic: v.data.topic,
+    url: getContentUrl('video', v.data.topic, v.id),
+    excerpt: v.data.description,
+  })),
+  ...syllabus.filter((s) => !s.data.draft).map((s) => ({
+    type: 'syllabus' as const,
+    title: s.data.title,
+    topic: s.data.topic,
+    url: getContentUrl('syllabus', s.data.topic, s.id),
+    excerpt: s.data.description,
+  })),
+];
+---
+
+<PageLayout title="Search" description="Search across all Liberty Lighthouse content.">
+  <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    <Breadcrumbs items={[{ label: 'Search' }]} />
+
+    <h1 class="text-[2rem] font-[700] mb-[var(--spacing-xl)]">Search</h1>
+
+    <div id="search-app" data-index={JSON.stringify(searchIndex)}>
+      <!-- Preact island will mount here -->
+    </div>
+  </div>
+</PageLayout>
+
+<script>
+  import { h, render } from 'preact';
+  import { useState, useMemo } from 'preact/hooks';
+
+  const typeLabels: Record<string, string> = { faq: 'FAQ', video: 'Video', syllabus: 'Syllabus' };
+
+  function SearchIsland({ index }: { index: any[] }) {
+    const [query, setQuery] = useState('');
+
+    const results = useMemo(() => {
+      if (!query.trim()) return [];
+      const q = query.toLowerCase();
+      return index.filter(
+        (item) =>
+          item.title.toLowerCase().includes(q) ||
+          item.excerpt.toLowerCase().includes(q) ||
+          item.topic.toLowerCase().includes(q)
+      );
+    }, [query, index]);
+
+    return h('div', null,
+      h('input', {
+        type: 'search',
+        value: query,
+        onInput: (e: any) => setQuery(e.target.value),
+        placeholder: 'Search FAQs, videos, and syllabi\u2026',
+        'aria-label': 'Search content',
+        class: 'w-full max-w-[36rem] px-[var(--spacing-lg)] py-[var(--spacing-md)] text-[1.0625rem] bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[var(--radius-md)] outline-none focus:border-[var(--color-border-focus)] focus:ring-2 focus:ring-[var(--color-border-focus)]/20 transition-all',
+      }),
+      query.trim() && h('p', {
+        class: 'mt-[var(--spacing-md)] text-[0.875rem] text-[var(--color-text-tertiary)]',
+      }, `${results.length} result${results.length !== 1 ? 's' : ''}`),
+      results.length > 0 && h('div', {
+        class: 'mt-[var(--spacing-lg)] space-y-[var(--spacing-sm)]',
+      }, results.map((item) =>
+        h('a', {
+          href: item.url,
+          class: 'block p-[var(--spacing-md)] bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[var(--radius-md)] no-underline hover:border-[var(--color-border-strong)] hover:shadow-[var(--shadow-sm)] transition-all group',
+        },
+          h('div', { class: 'flex items-center gap-[var(--spacing-xs)] mb-[var(--spacing-xs)]' },
+            h('span', { class: 'text-[0.6875rem] font-semibold uppercase tracking-[0.08em] text-[var(--color-text-tertiary)]' }, typeLabels[item.type] || item.type),
+            h('span', { class: 'text-[0.6875rem] text-[var(--color-text-muted)]' }, '\u00B7'),
+            h('span', { class: 'text-[0.6875rem] text-[var(--color-text-muted)] capitalize' }, item.topic),
+          ),
+          h('p', { class: 'text-[0.9375rem] font-medium text-[var(--color-text-primary)] group-hover:text-[var(--color-primary)] transition-colors' }, item.title),
+          item.excerpt !== item.title && h('p', { class: 'text-[0.8125rem] text-[var(--color-text-tertiary)] line-clamp-1 mt-[var(--spacing-xs)]' }, item.excerpt),
+        )
+      )),
+    );
+  }
+
+  const container = document.getElementById('search-app');
+  if (container) {
+    const index = JSON.parse(container.dataset.index || '[]');
+    render(h(SearchIsland, { index }), container);
+  }
+</script>

@@ -1,0 +1,78 @@
+---
+import ProseLayout from '../../../../layouts/ProseLayout.astro';
+import ContentTypeBadge from '../../../../components/ui/ContentTypeBadge.astro';
+import Button from '../../../../components/ui/Button.astro';
+import { getCollection, render } from 'astro:content';
+import RelatedContent from '../../../../components/crosslinks/RelatedContent.astro';
+import { getSlugFromId, getTopicBySlug, getSyllabusByTopic, resolveRelatedFAQs, resolveRelatedVideos, resolveRelatedSyllabus } from '../../../../lib/collections';
+
+export async function getStaticPaths() {
+  const syllabus = await getCollection('syllabus');
+  return syllabus.filter((s) => !s.data.draft).map((mod) => ({
+    params: {
+      topic: mod.data.topic,
+      slug: getSlugFromId(mod.id),
+    },
+    props: { entry: mod },
+  }));
+}
+
+const { entry } = Astro.props;
+const { topic: topicSlug } = Astro.params;
+const topic = await getTopicBySlug(topicSlug!);
+const { Content } = await render(entry);
+
+const relatedFAQs = await resolveRelatedFAQs(entry.data.relatedFAQs);
+const relatedVideos = await resolveRelatedVideos(entry.data.relatedVideos);
+const relatedSyllabus = await resolveRelatedSyllabus(entry.data.relatedSyllabus);
+
+// Get all modules for prev/next navigation
+const allModules = await getSyllabusByTopic(topicSlug!);
+const currentIndex = allModules.findIndex((m) => m.id === entry.id);
+const prevModule = currentIndex > 0 ? allModules[currentIndex - 1] : null;
+const nextModule = currentIndex < allModules.length - 1 ? allModules[currentIndex + 1] : null;
+---
+
+<ProseLayout
+  title={entry.data.title}
+  description={entry.data.description}
+  breadcrumbs={[
+    { label: 'Topics', href: '/topics/' },
+    { label: topic?.data.title || topicSlug!, href: `/topics/${topicSlug}/` },
+    { label: 'Syllabus', href: `/topics/${topicSlug}/syllabus/` },
+    { label: `Module ${entry.data.moduleNumber}` },
+  ]}
+>
+  <div class="mb-[var(--spacing-lg)]">
+    <div class="flex items-center gap-[var(--spacing-sm)] mb-[var(--spacing-md)]">
+      <ContentTypeBadge type="syllabus" />
+      <span class="text-[0.875rem] font-semibold text-[var(--color-accent-text)]">Module {entry.data.moduleNumber}</span>
+      {entry.data.estimatedTime && (
+        <span class="text-[0.875rem] text-[var(--color-text-tertiary)]">{entry.data.estimatedTime}</span>
+      )}
+    </div>
+    <h1>{entry.data.title}</h1>
+  </div>
+
+  <Content />
+
+  <RelatedContent faqs={relatedFAQs} videos={relatedVideos} syllabus={relatedSyllabus} />
+
+  <!-- Module Navigation -->
+  <nav class="mt-[var(--spacing-3xl)] pt-[var(--spacing-2xl)] border-t border-[var(--color-border-default)] flex justify-between items-center" aria-label="Module navigation">
+    {prevModule ? (
+      <Button href={`/topics/${topicSlug}/syllabus/${getSlugFromId(prevModule.id)}/`} variant="ghost" size="sm">
+        <span aria-hidden="true">&larr;</span> Previous Module
+      </Button>
+    ) : (
+      <div></div>
+    )}
+    {nextModule ? (
+      <Button href={`/topics/${topicSlug}/syllabus/${getSlugFromId(nextModule.id)}/`} variant="ghost" size="sm">
+        Next Module <span aria-hidden="true">&rarr;</span>
+      </Button>
+    ) : (
+      <div></div>
+    )}
+  </nav>
+</ProseLayout>

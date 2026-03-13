@@ -1,0 +1,57 @@
+---
+import { getSlugFromId } from '../../lib/collections';
+import Badge from '../ui/Badge.astro';
+
+interface Props {
+  id: string;
+  title: string;
+  topic: string;
+  youtubeId: string;
+  duration?: string;
+  speaker?: string;
+  description: string;
+}
+
+const { id, title, topic, youtubeId, duration, speaker, description } = Astro.props;
+const slug = getSlugFromId(id);
+const thumbnailUrl = `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`;
+---
+
+<a
+  href={`/topics/${topic}/videos/${slug}/`}
+  class="block bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[var(--radius-lg)] overflow-hidden no-underline hover:border-[var(--color-border-strong)] hover:shadow-[var(--shadow-md)] transition-all duration-[var(--duration-normal)] group"
+>
+  <!-- Thumbnail -->
+  <div class="relative aspect-video bg-[var(--color-bg-section)]">
+    <img
+      src={thumbnailUrl}
+      alt=""
+      class="w-full h-full object-cover"
+      loading="lazy"
+    />
+    <!-- Play overlay -->
+    <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-colors">
+      <div class="w-12 h-12 rounded-full bg-[var(--color-accent)] flex items-center justify-center">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+          <polygon points="5,3 19,12 5,21" />
+        </svg>
+      </div>
+    </div>
+    {duration && (
+      <span class="absolute bottom-2 right-2 text-[0.75rem] font-medium bg-black/70 text-white px-[var(--spacing-sm)] py-[0.125rem] rounded-[var(--radius-sm)]">
+        {duration}
+      </span>
+    )}
+  </div>
+
+  <!-- Content -->
+  <div class="p-[var(--spacing-lg)]">
+    <h3 class="text-[1rem] font-[600] text-[var(--color-text-primary)] mb-[var(--spacing-xs)] group-hover:text-[var(--color-primary)] transition-colors normal-case tracking-normal" style="font-family: var(--font-display);">
+      {title}
+    </h3>
+    {speaker && (
+      <p class="text-[0.8125rem] text-[var(--color-text-tertiary)] mb-[var(--spacing-sm)]">{speaker}</p>
+    )}
+    <p class="text-[0.875rem] text-[var(--color-text-secondary)] line-clamp-2">{description}</p>
+  </div>
+</a>
