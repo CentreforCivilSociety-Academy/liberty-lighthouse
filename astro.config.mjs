@@ -8,6 +8,7 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://libertylighthouse.ccs.in',
   integrations: [mdx(), preact(), sitemap()],
+  server: { port: 3219 },
   vite: {
     plugins: [tailwindcss()],
   },

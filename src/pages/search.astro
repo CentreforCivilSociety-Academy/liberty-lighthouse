@@ -23,6 +23,7 @@ const searchIndex = [
     topic: v.data.topic,
     url: getContentUrl('video', v.data.topic, v.id),
     excerpt: v.data.description,
+    duration: v.data.duration || null,
   })),
   ...syllabus.filter((s) => !s.data.draft).map((s) => ({
     type: 'syllabus' as const,
@@ -34,66 +35,261 @@ const searchIndex = [
 ];
 ---
 
-<PageLayout title="Search" description="Search across all Liberty Lighthouse content.">
+<PageLayout title="Search" description="Search across all Liberty Lighthouse content — FAQs, videos, and learning modules.">
   <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
-    <Breadcrumbs items={[{ label: 'Search' }]} />
+    <div class="fade-up">
+      <Breadcrumbs items={[{ label: 'Search' }]} />
+    </div>
 
-    <h1 class="text-[2rem] font-[700] mb-[var(--spacing-xl)]">Search</h1>
+    <div class="max-w-[48rem]">
+      <h1 class="text-[2.25rem] md:text-[2.75rem] font-[700] tracking-[-0.01em] mb-[var(--spacing-sm)] fade-up fade-up-delay-1" style="font-family: var(--font-display);">
+        Search
+      </h1>
+      <p class="text-[1.0625rem] text-[var(--color-text-secondary)] leading-relaxed mb-[var(--spacing-xl)] fade-up fade-up-delay-2">
+        Find answers across FAQs, videos, and learning modules.
+      </p>
+    </div>
 
-    <div id="search-app" data-index={JSON.stringify(searchIndex)}>
-      <!-- Preact island will mount here -->
+    <div id="search-app" class="fade-up fade-up-delay-3" data-index={JSON.stringify(searchIndex)}>
+      <!-- Preact island mounts here -->
+      <noscript>
+        <p class="text-[var(--color-text-tertiary)]">Search requires JavaScript to be enabled.</p>
+      </noscript>
     </div>
   </div>
 </PageLayout>
 
 <script>
   import { h, render } from 'preact';
-  import { useState, useMemo } from 'preact/hooks';
+  import { useState, useMemo, useRef, useEffect } from 'preact/hooks';
+  import Fuse from 'fuse.js';
 
-  const typeLabels: Record<string, string> = { faq: 'FAQ', video: 'Video', syllabus: 'Syllabus' };
+  type ContentType = 'faq' | 'video' | 'syllabus';
+  type FilterType = 'all' | ContentType;
 
-  function SearchIsland({ index }: { index: any[] }) {
+  interface SearchItem {
+    type: ContentType;
+    title: string;
+    topic: string;
+    url: string;
+    excerpt: string;
+    duration?: string | null;
+  }
+
+  const typeConfig: Record<ContentType, { label: string; icon: string }> = {
+    faq: { label: 'FAQ', icon: '?' },
+    video: { label: 'Video', icon: '\u25B6' },
+    syllabus: { label: 'Syllabus', icon: '\u25C8' },
+  };
+
+  const filterTabs: { key: FilterType; label: string }[] = [
+    { key: 'all', label: 'All' },
+    { key: 'faq', label: 'FAQs' },
+    { key: 'video', label: 'Videos' },
+    { key: 'syllabus', label: 'Syllabus' },
+  ];
+
+  // Search icon SVG path
+  const SearchIcon = () =>
+    h('svg', {
+      width: '20', height: '20', viewBox: '0 0 24 24',
+      fill: 'none', stroke: 'currentColor', 'stroke-width': '2',
+      'stroke-linecap': 'round', 'stroke-linejoin': 'round',
+      'aria-hidden': 'true',
+      class: 'shrink-0',
+    },
+      h('circle', { cx: '11', cy: '11', r: '8' }),
+      h('path', { d: 'm21 21-4.3-4.3' }),
+    );
+
+  function ContentBadge({ type }: { type: ContentType }) {
+    const { label, icon } = typeConfig[type];
+    return h('span', {
+      class: 'inline-flex items-center gap-[0.25rem] text-[0.6875rem] font-semibold uppercase tracking-[0.08em] px-[var(--spacing-sm)] py-[0.125rem] rounded-[var(--radius-sm)] bg-[var(--color-bg-section)] text-[var(--color-text-tertiary)] border border-[var(--color-border-default)]',
+    },
+      h('span', { 'aria-hidden': 'true' }, icon),
+      label,
+    );
+  }
+
+  function SearchIsland({ index }: { index: SearchItem[] }) {
     const [query, setQuery] = useState('');
+    const [activeFilter, setActiveFilter] = useState<FilterType>('all');
+    const inputRef = useRef<HTMLInputElement>(null);
 
-    const results = useMemo(() => {
+    // Read query from URL on mount
+    useEffect(() => {
+      const params = new URLSearchParams(window.location.search);
+      const q = params.get('q');
+      if (q) setQuery(q);
+      inputRef.current?.focus();
+    }, []);
+
+    // Fuse.js instance
+    const fuse = useMemo(() => new Fuse(index, {
+      keys: [
+        { name: 'title', weight: 0.6 },
+        { name: 'excerpt', weight: 0.3 },
+        { name: 'topic', weight: 0.1 },
+      ],
+      threshold: 0.4,
+      ignoreLocation: true,
+      includeScore: true,
+      minMatchCharLength: 2,
+    }), [index]);
+
+    // Search results from Fuse
+    const allResults = useMemo(() => {
       if (!query.trim()) return [];
-      const q = query.toLowerCase();
-      return index.filter(
-        (item) =>
-          item.title.toLowerCase().includes(q) ||
-          item.excerpt.toLowerCase().includes(q) ||
-          item.topic.toLowerCase().includes(q)
-      );
-    }, [query, index]);
+      return fuse.search(query).map((r) => r.item);
+    }, [query, fuse]);
+
+    // Filtered results by type
+    const filteredResults = useMemo(() => {
+      if (activeFilter === 'all') return allResults;
+      return allResults.filter((item) => item.type === activeFilter);
+    }, [allResults, activeFilter]);
+
+    // Counts per type
+    const counts = useMemo(() => {
+      const c: Record<FilterType, number> = { all: allResults.length, faq: 0, video: 0, syllabus: 0 };
+      for (const item of allResults) c[item.type]++;
+      return c;
+    }, [allResults]);
+
+    const hasQuery = query.trim().length > 0;
 
     return h('div', null,
-      h('input', {
-        type: 'search',
-        value: query,
-        onInput: (e: any) => setQuery(e.target.value),
-        placeholder: 'Search FAQs, videos, and syllabi\u2026',
-        'aria-label': 'Search content',
-        class: 'w-full max-w-[36rem] px-[var(--spacing-lg)] py-[var(--spacing-md)] text-[1.0625rem] bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[var(--radius-md)] outline-none focus:border-[var(--color-border-focus)] focus:ring-2 focus:ring-[var(--color-border-focus)]/20 transition-all',
-      }),
-      query.trim() && h('p', {
-        class: 'mt-[var(--spacing-md)] text-[0.875rem] text-[var(--color-text-tertiary)]',
-      }, `${results.length} result${results.length !== 1 ? 's' : ''}`),
-      results.length > 0 && h('div', {
-        class: 'mt-[var(--spacing-lg)] space-y-[var(--spacing-sm)]',
-      }, results.map((item) =>
-        h('a', {
-          href: item.url,
-          class: 'block p-[var(--spacing-md)] bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[var(--radius-md)] no-underline hover:border-[var(--color-border-strong)] hover:shadow-[var(--shadow-sm)] transition-all group',
-        },
-          h('div', { class: 'flex items-center gap-[var(--spacing-xs)] mb-[var(--spacing-xs)]' },
-            h('span', { class: 'text-[0.6875rem] font-semibold uppercase tracking-[0.08em] text-[var(--color-text-tertiary)]' }, typeLabels[item.type] || item.type),
-            h('span', { class: 'text-[0.6875rem] text-[var(--color-text-muted)]' }, '\u00B7'),
-            h('span', { class: 'text-[0.6875rem] text-[var(--color-text-muted)] capitalize' }, item.topic),
+      // Search input with icon
+      h('div', { class: 'relative max-w-[40rem]' },
+        h('div', {
+          class: 'absolute left-[var(--spacing-md)] top-1/2 -translate-y-1/2 text-[var(--color-text-muted)] pointer-events-none',
+        }, h(SearchIcon, null)),
+        h('input', {
+          ref: inputRef,
+          type: 'search',
+          value: query,
+          onInput: (e: any) => {
+            setQuery(e.target.value);
+            setActiveFilter('all');
+          },
+          placeholder: 'Search FAQs, videos, and syllabi\u2026',
+          'aria-label': 'Search content',
+          class: 'w-full pl-[2.75rem] pr-[var(--spacing-lg)] py-[0.875rem] text-[1.0625rem] bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[var(--radius-lg)] outline-none focus:border-[var(--color-border-focus)] focus:shadow-[0_0_0_3px_rgba(107,58,31,0.1)] transition-all duration-[var(--duration-normal)]',
+        }),
+      ),
+
+      // Filter tabs — only show when there are results
+      hasQuery && allResults.length > 0 && h('div', {
+        class: 'flex items-center gap-[var(--spacing-xs)] mt-[var(--spacing-lg)] border-b border-[var(--color-border-subtle)] overflow-x-auto',
+        role: 'tablist',
+        'aria-label': 'Filter results by type',
+      },
+        filterTabs.map((tab) =>
+          h('button', {
+            key: tab.key,
+            role: 'tab',
+            'aria-selected': activeFilter === tab.key ? 'true' : 'false',
+            onClick: () => setActiveFilter(tab.key),
+            class: [
+              'px-[var(--spacing-md)] py-[var(--spacing-sm)] text-[0.875rem] font-medium whitespace-nowrap border-b-2 -mb-px transition-colors duration-[var(--duration-fast)] cursor-pointer',
+              activeFilter === tab.key
+                ? 'border-[var(--color-accent)] text-[var(--color-primary)]'
+                : 'border-transparent text-[var(--color-text-tertiary)] hover:text-[var(--color-text-secondary)] hover:border-[var(--color-border-default)]',
+            ].join(' '),
+          },
+            tab.label,
+            ' ',
+            h('span', {
+              class: [
+                'text-[0.75rem] ml-[0.25rem]',
+                activeFilter === tab.key ? 'text-[var(--color-accent-text)]' : 'text-[var(--color-text-muted)]',
+              ].join(' '),
+            }, counts[tab.key]),
           ),
-          h('p', { class: 'text-[0.9375rem] font-medium text-[var(--color-text-primary)] group-hover:text-[var(--color-primary)] transition-colors' }, item.title),
-          item.excerpt !== item.title && h('p', { class: 'text-[0.8125rem] text-[var(--color-text-tertiary)] line-clamp-1 mt-[var(--spacing-xs)]' }, item.excerpt),
-        )
-      )),
+        ),
+      ),
+
+      // Result count
+      hasQuery && h('p', {
+        class: 'mt-[var(--spacing-md)] text-[0.8125rem] text-[var(--color-text-muted)]',
+        'aria-live': 'polite',
+      },
+        filteredResults.length === 0
+          ? (allResults.length === 0
+            ? `No results for \u201C${query}\u201D`
+            : `No ${typeConfig[activeFilter as ContentType]?.label || ''} results`)
+          : `${filteredResults.length} result${filteredResults.length !== 1 ? 's' : ''}${activeFilter !== 'all' ? ` in ${filterTabs.find((t) => t.key === activeFilter)?.label}` : ''}`,
+      ),
+
+      // Results list
+      filteredResults.length > 0 && h('div', {
+        class: 'mt-[var(--spacing-lg)] space-y-[var(--spacing-md)]',
+      },
+        filteredResults.map((item, i) =>
+          h('a', {
+            key: item.url,
+            href: item.url,
+            class: 'block bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[var(--radius-lg)] p-[var(--spacing-lg)] no-underline hover:border-[var(--color-border-strong)] hover:shadow-[var(--shadow-md)] transition-all duration-[var(--duration-normal)] group',
+            style: `animation: searchResultIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) ${Math.min(i * 50, 300)}ms both`,
+          },
+            // Top row: badge + topic
+            h('div', { class: 'flex items-center gap-[var(--spacing-sm)] mb-[var(--spacing-sm)]' },
+              h(ContentBadge, { type: item.type }),
+              h('span', { class: 'text-[0.75rem] text-[var(--color-text-muted)] capitalize' }, item.topic.replace(/-/g, ' ')),
+              item.type === 'video' && item.duration && h('span', {
+                class: 'ml-auto text-[0.75rem] text-[var(--color-text-muted)] tabular-nums',
+              }, item.duration),
+            ),
+            // Title
+            h('p', {
+              class: 'text-[1rem] font-[600] text-[var(--color-text-primary)] group-hover:text-[var(--color-primary)] transition-colors duration-[var(--duration-fast)] leading-snug',
+              style: 'font-family: var(--font-display)',
+            }, item.title),
+            // Excerpt (only if different from title)
+            item.excerpt !== item.title && h('p', {
+              class: 'text-[0.875rem] text-[var(--color-text-tertiary)] leading-relaxed mt-[var(--spacing-xs)] line-clamp-2',
+            }, item.excerpt),
+          ),
+        ),
+      ),
+
+      // No results state
+      hasQuery && allResults.length === 0 && h('div', {
+        class: 'text-center py-[var(--spacing-3xl)]',
+      },
+        h('div', {
+          class: 'inline-flex items-center justify-center w-[3.5rem] h-[3.5rem] rounded-full bg-[var(--color-bg-section)] text-[var(--color-text-muted)] mb-[var(--spacing-lg)]',
+        }, h(SearchIcon, null)),
+        h('p', {
+          class: 'text-[1.0625rem] text-[var(--color-text-secondary)] mb-[var(--spacing-sm)]',
+        }, `No results found for \u201C${query}\u201D`),
+        h('p', {
+          class: 'text-[0.875rem] text-[var(--color-text-tertiary)]',
+        },
+          'Try different keywords or ',
+          h('a', {
+            href: '/topics/',
+            class: 'text-[var(--color-accent-text)] hover:text-[var(--color-primary)]',
+          }, 'browse by topic'),
+          '.',
+        ),
+      ),
+
+      // Empty state (no query)
+      !hasQuery && h('div', {
+        class: 'text-center py-[var(--spacing-3xl)]',
+      },
+        h('div', {
+          class: 'inline-flex items-center justify-center w-[3.5rem] h-[3.5rem] rounded-full bg-[var(--color-bg-section)] text-[var(--color-text-muted)] mb-[var(--spacing-lg)]',
+        }, h(SearchIcon, null)),
+        h('p', {
+          class: 'text-[1.0625rem] text-[var(--color-text-tertiary)]',
+        }, 'Start typing to search across all topics.'),
+        h('p', {
+          class: 'text-[0.8125rem] text-[var(--color-text-muted)] mt-[var(--spacing-sm)]',
+        }, `${index.length} items across FAQs, videos, and learning modules`),
+      ),
     );
   }
 
@@ -103,3 +299,16 @@ const searchIndex = [
     render(h(SearchIsland, { index }), container);
   }
 </script>
+
+<style is:global>
+  @keyframes searchResultIn {
+    from {
+      opacity: 0;
+      transform: translateY(0.5rem);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+</style>
