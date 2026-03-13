@@ -22,3 +22,11 @@ pnpm-debug.log*
 
 # jetbrains setting folder
 .idea/
+
+# Claude Code internals
+.agents/
+.claude/skills/
+skills-lock.json
+
+# Source docx files (not needed in deployment)
+/Content/

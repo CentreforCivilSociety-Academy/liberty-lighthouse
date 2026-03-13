@@ -56,6 +56,19 @@ import '@/styles/global.css';
 
     <!-- Theme color -->
     <meta name="theme-color" content="#6B3A1F" />
+
+    <!-- Netlify Identity (redirects after CMS login) -->
+    <script is:inline>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
   </head>
   <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>

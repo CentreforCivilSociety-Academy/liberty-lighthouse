@@ -6,203 +6,196 @@ local_backend: true
 
 publish_mode: editorial_workflow
 
-media_folder: "public/media"
-public_folder: "/media"
+media_folder: "public/images/content"
+public_folder: "/images/content"
 
 collections:
+  # ─────────────────────────────────────────────
+  # Topics (admin-only — rarely edited)
+  # ─────────────────────────────────────────────
   - name: "topics"
     label: "Topics"
+    label_singular: "Topic"
+    description: "Manage the main topic categories (e.g., Agriculture, Education). Most users won't need to edit this."
     folder: "src/content/topics"
     format: "json"
     create: true
     slug: "{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Slug", name: "slug", widget: "string", pattern: ['^[a-z0-9-]+$', "Lowercase letters, numbers, and hyphens only"] }
-      - { label: "Description", name: "description", widget: "text" }
-      - { label: "Icon", name: "icon", widget: "string", required: false, hint: "Icon identifier (e.g., book-open, sprout)" }
-      - { label: "Display Order", name: "order", widget: "number", value_type: "int", min: 1 }
+      - label: "Topic Name"
+        name: "title"
+        widget: "string"
+        hint: "e.g., Agriculture, Education, Healthcare"
+      - label: "URL Slug"
+        name: "slug"
+        widget: "string"
+        pattern: ['^[a-z0-9-]+$', "Use only lowercase letters, numbers, and hyphens"]
+        hint: "This becomes part of the web address. Use lowercase, no spaces."
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        hint: "A short summary of what this topic covers (1–2 sentences)."
+      - label: "Icon"
+        name: "icon"
+        widget: "string"
+        required: false
+        hint: "Icon name (e.g., book-open, sprout). Ask the developer if unsure."
+      - label: "Display Order"
+        name: "order"
+        widget: "number"
+        value_type: "int"
+        min: 1
+        default: 1
+        hint: "Lower numbers appear first on the homepage."
 
+  # ─────────────────────────────────────────────
+  # FAQs
+  # ─────────────────────────────────────────────
   - name: "faqs"
     label: "FAQs"
+    label_singular: "FAQ"
+    description: "Frequently asked questions — each FAQ belongs to a topic and has a question + detailed answer."
     folder: "src/content/faqs"
     format: "frontmatter"
     extension: "mdx"
     create: true
-    nested:
-      depth: 2
     slug: "{{slug}}"
+    path: "{{topic}}/{{slug}}"
     fields:
-      - { label: "Question", name: "question", widget: "string" }
       - label: "Topic"
         name: "topic"
         widget: "relation"
         collection: "topics"
-        value_field: "slug"
         search_fields: ["title"]
+        value_field: "slug"
         display_fields: ["title"]
-      - { label: "Display Order", name: "order", widget: "number", value_type: "int", min: 1 }
-      - { label: "Author", name: "author", widget: "string", required: false }
-      - label: "Related Videos"
-        name: "relatedVideos"
-        widget: "list"
-        required: false
-        field:
-          label: "Video"
-          name: "video"
-          widget: "relation"
-          collection: "videos"
-          value_field: "{{slug}}"
-          search_fields: ["title"]
-          display_fields: ["title"]
-      - label: "Related Syllabus Modules"
-        name: "relatedSyllabus"
-        widget: "list"
-        required: false
-        field:
-          label: "Module"
-          name: "module"
-          widget: "relation"
-          collection: "syllabus"
-          value_field: "{{slug}}"
-          search_fields: ["title"]
-          display_fields: ["title"]
-      - label: "Related FAQs"
-        name: "relatedFAQs"
-        widget: "list"
-        required: false
-        field:
-          label: "FAQ"
-          name: "faq"
-          widget: "relation"
-          collection: "faqs"
-          value_field: "{{slug}}"
-          search_fields: ["question"]
-          display_fields: ["question"]
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Last Updated", name: "updatedAt", widget: "string", required: false, hint: "Format: YYYY-MM-DD" }
-      - { label: "Answer", name: "body", widget: "markdown" }
+        hint: "Which topic does this FAQ belong to?"
+      - label: "Question"
+        name: "question"
+        widget: "string"
+        hint: "Type the full question exactly as it should appear on the site."
+      - label: "Display Order"
+        name: "order"
+        widget: "number"
+        value_type: "int"
+        min: 1
+        default: 1
+        hint: "Controls the order FAQs appear in. Lower numbers show first."
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: false
+        hint: "Turn this on to hide this FAQ from the public site while you work on it."
+      - label: "Answer"
+        name: "body"
+        widget: "markdown"
+        hint: "Write the full answer here. You can use bold, links, and add images using the toolbar above."
 
+  # ─────────────────────────────────────────────
+  # Video Curriculum
+  # ─────────────────────────────────────────────
   - name: "videos"
-    label: "Video Curriculum"
+    label: "Videos"
+    label_singular: "Video"
+    description: "Video curriculum entries — each links to a YouTube video with notes."
     folder: "src/content/videos"
     format: "frontmatter"
     extension: "mdx"
     create: true
-    nested:
-      depth: 2
     slug: "{{slug}}"
+    path: "{{topic}}/{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
       - label: "Topic"
         name: "topic"
         widget: "relation"
         collection: "topics"
-        value_field: "slug"
         search_fields: ["title"]
+        value_field: "slug"
         display_fields: ["title"]
-      - { label: "YouTube Video ID", name: "youtubeId", widget: "string", hint: "The video ID from the YouTube URL (e.g., dQw4w9WgXcQ)" }
-      - { label: "Duration", name: "duration", widget: "string", required: false, hint: "Format: MM:SS or HH:MM:SS" }
-      - { label: "Sequence Order", name: "order", widget: "number", value_type: "int", min: 1 }
-      - { label: "Speaker", name: "speaker", widget: "string", required: false }
-      - { label: "Short Description", name: "description", widget: "text" }
-      - label: "Related FAQs"
-        name: "relatedFAQs"
-        widget: "list"
+        hint: "Which topic does this video belong to?"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "The title of the video as it should appear on the site."
+      - label: "YouTube Video ID"
+        name: "youtubeId"
+        widget: "string"
+        hint: "Open the video on YouTube. Copy just the code after 'v=' in the URL. For example, if the URL is youtube.com/watch?v=dQw4w9WgXcQ, enter: dQw4w9WgXcQ"
+      - label: "Short Description"
+        name: "description"
+        widget: "text"
+        hint: "A brief summary of what the video covers (1–3 sentences)."
+      - label: "Duration"
+        name: "duration"
+        widget: "string"
         required: false
-        field:
-          label: "FAQ"
-          name: "faq"
-          widget: "relation"
-          collection: "faqs"
-          value_field: "{{slug}}"
-          search_fields: ["question"]
-          display_fields: ["question"]
-      - label: "Related Syllabus Modules"
-        name: "relatedSyllabus"
-        widget: "list"
+        hint: "How long is the video? e.g., 18:42 or 1:05:30"
+      - label: "Speaker"
+        name: "speaker"
+        widget: "string"
         required: false
-        field:
-          label: "Module"
-          name: "module"
-          widget: "relation"
-          collection: "syllabus"
-          value_field: "{{slug}}"
-          search_fields: ["title"]
-          display_fields: ["title"]
-      - label: "Related Videos"
-        name: "relatedVideos"
-        widget: "list"
+        hint: "Who is speaking in this video? e.g., Dr. Parth Shah"
+      - label: "Display Order"
+        name: "order"
+        widget: "number"
+        value_type: "int"
+        min: 1
+        default: 1
+        hint: "Controls the order videos appear in. Lower numbers show first."
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: false
+        hint: "Turn this on to hide this video from the public site while you work on it."
+      - label: "Extended Notes"
+        name: "body"
+        widget: "markdown"
         required: false
-        field:
-          label: "Video"
-          name: "video"
-          widget: "relation"
-          collection: "videos"
-          value_field: "{{slug}}"
-          search_fields: ["title"]
-          display_fields: ["title"]
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Last Updated", name: "updatedAt", widget: "string", required: false, hint: "Format: YYYY-MM-DD" }
-      - { label: "Extended Notes", name: "body", widget: "markdown" }
+        hint: "Optional: add timestamps, key takeaways, or additional context about the video."
 
+  # ─────────────────────────────────────────────
+  # Guided Syllabus
+  # ─────────────────────────────────────────────
   - name: "syllabus"
     label: "Guided Syllabus"
+    label_singular: "Syllabus Module"
+    description: "Curated reading lists and resource collections — each module groups related materials (books, papers, reports, etc.)."
     folder: "src/content/syllabus"
     format: "frontmatter"
     extension: "mdx"
     create: true
-    nested:
-      depth: 2
     slug: "{{slug}}"
+    path: "{{topic}}/{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
       - label: "Topic"
         name: "topic"
         widget: "relation"
         collection: "topics"
-        value_field: "slug"
         search_fields: ["title"]
+        value_field: "slug"
         display_fields: ["title"]
-      - { label: "Module Number", name: "moduleNumber", widget: "number", value_type: "int", min: 1 }
-      - { label: "Estimated Time", name: "estimatedTime", widget: "string", required: false, hint: "e.g., 45 min, 1 hour" }
-      - { label: "Short Description", name: "description", widget: "text" }
-      - label: "Related FAQs"
-        name: "relatedFAQs"
-        widget: "list"
-        required: false
-        field:
-          label: "FAQ"
-          name: "faq"
-          widget: "relation"
-          collection: "faqs"
-          value_field: "{{slug}}"
-          search_fields: ["question"]
-          display_fields: ["question"]
-      - label: "Related Videos"
-        name: "relatedVideos"
-        widget: "list"
-        required: false
-        field:
-          label: "Video"
-          name: "video"
-          widget: "relation"
-          collection: "videos"
-          value_field: "{{slug}}"
-          search_fields: ["title"]
-          display_fields: ["title"]
-      - label: "Related Syllabus Modules"
-        name: "relatedSyllabus"
-        widget: "list"
-        required: false
-        field:
-          label: "Module"
-          name: "module"
-          widget: "relation"
-          collection: "syllabus"
-          value_field: "{{slug}}"
-          search_fields: ["title"]
-          display_fields: ["title"]
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Last Updated", name: "updatedAt", widget: "string", required: false, hint: "Format: YYYY-MM-DD" }
-      - { label: "Module Content", name: "body", widget: "markdown" }
+        hint: "Which topic does this syllabus module belong to?"
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        hint: "e.g., Books, Academic Papers, Reports, Podcasts & Videos"
+      - label: "Module Number"
+        name: "moduleNumber"
+        widget: "number"
+        value_type: "int"
+        min: 1
+        default: 1
+        hint: "Controls the order modules appear in. Lower numbers show first."
+      - label: "Short Description"
+        name: "description"
+        widget: "text"
+        hint: "A one-line summary of what this module contains."
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: false
+        hint: "Turn this on to hide this module from the public site while you work on it."
+      - label: "Resources"
+        name: "body"
+        widget: "markdown"
+        hint: "List the resources here. Use numbered lists for items, and add links by selecting text and clicking the link button in the toolbar."
