@@ -33,6 +33,8 @@ const videos = defineCollection({
     title: z.string(),
     topic: z.string(),
     youtubeId: z.string(),
+    format: z.enum(["video", "short"]).default("video"),
+    orientation: z.enum(["horizontal", "vertical"]).default("horizontal"),
     duration: z.string().optional(),
     order: z.number(),
     speaker: z.string().optional(),

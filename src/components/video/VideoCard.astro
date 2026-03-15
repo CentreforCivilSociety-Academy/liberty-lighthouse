@@ -1,6 +1,5 @@
 ---
 import { getSlugFromId } from '../../lib/collections';
-import Badge from '../ui/Badge.astro';
 
 interface Props {
   id: string;
@@ -10,48 +9,142 @@ interface Props {
   duration?: string;
   speaker?: string;
   description: string;
+  format: "video" | "short";
+  orientation: "horizontal" | "vertical";
 }
 
-const { id, title, topic, youtubeId, duration, speaker, description } = Astro.props;
+const { id, title, topic, youtubeId, duration, speaker, description, format, orientation } = Astro.props;
 const slug = getSlugFromId(id);
 const thumbnailUrl = `https://i.ytimg.com/vi/${youtubeId}/hqdefault.jpg`;
+
+// Shorts are always vertical regardless of orientation field
+const isVertical = format === "short" || orientation === "vertical";
+const isShort = format === "short";
 ---
 
-<a
-  href={`/topics/${topic}/videos/${slug}/`}
-  class="block bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[var(--radius-lg)] overflow-hidden no-underline hover:border-[var(--color-border-strong)] hover:shadow-[var(--shadow-md)] transition-all duration-[var(--duration-normal)] group"
->
-  <!-- Thumbnail -->
-  <div class="relative aspect-video bg-[var(--color-bg-section)]">
-    <img
-      src={thumbnailUrl}
-      alt=""
-      class="w-full h-full object-cover"
-      loading="lazy"
-    />
-    <!-- Play overlay -->
-    <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-colors">
-      <div class="w-12 h-12 rounded-full bg-[var(--color-accent)] flex items-center justify-center">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="white" aria-hidden="true">
-          <polygon points="5,3 19,12 5,21" />
+{isShort ? (
+  <!-- Short Card: overlay text, no text section below -->
+  <a
+    href={`/topics/${topic}/videos/${slug}/`}
+    class="short-card block rounded-[var(--radius-lg)] overflow-hidden no-underline relative group"
+  >
+    <div class="relative aspect-[4/3] bg-[var(--color-bg-section)]">
+      <img
+        src={thumbnailUrl}
+        alt=""
+        class="w-full h-full object-cover"
+        loading="lazy"
+      />
+      <!-- Shorts badge -->
+      <span class="absolute top-2 left-2 flex items-center gap-1 text-[0.6875rem] font-semibold bg-black/60 text-white px-2 py-0.5 rounded-[var(--radius-sm)]">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d="M10 15l5.19-3L10 9v6m11.56-7.83c.13.47.22.95.25 1.45.03.5.04 1.05.04 1.67 0 .62-.01 1.17-.04 1.67-.03.5-.12.98-.25 1.45-.27.95-1.01 1.69-1.97 1.97-.47.13-.95.22-1.45.25-.5.03-1.05.04-1.67.04H7.53c-.62 0-1.17-.01-1.67-.04-.5-.03-.98-.12-1.45-.25-.96-.28-1.7-1.02-1.97-1.97-.13-.47-.22-.95-.25-1.45C2.16 13.17 2.15 12.62 2.15 12s.01-1.17.04-1.67c.03-.5.12-.98.25-1.45.27-.95 1.01-1.69 1.97-1.97.47-.13.95-.22 1.45-.25.5-.03 1.05-.04 1.67-.04h8.94c.62 0 1.17.01 1.67.04.5.03.98.12 1.45.25.96.28 1.7 1.02 1.97 1.97z"/>
         </svg>
-      </div>
-    </div>
-    {duration && (
-      <span class="absolute bottom-2 right-2 text-[0.75rem] font-medium bg-black/70 text-white px-[var(--spacing-sm)] py-[0.125rem] rounded-[var(--radius-sm)]">
-        {duration}
+        Shorts
       </span>
-    )}
-  </div>
+      <!-- Gradient overlay with title -->
+      <div class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent p-[var(--spacing-lg)] pt-12">
+        <h3 class="text-[0.9375rem] font-[600] text-white leading-snug normal-case tracking-normal" style="font-family: var(--font-display);">
+          {title}
+        </h3>
+      </div>
+      {duration && (
+        <span class="absolute bottom-2 right-2 text-[0.75rem] font-medium bg-black/70 text-white px-[var(--spacing-sm)] py-[0.125rem] rounded-[var(--radius-sm)]">
+          {duration}
+        </span>
+      )}
+    </div>
+  </a>
+) : isVertical ? (
+  <!-- Vertical Video Card: 4:3 thumbnail, "Vertical" badge, text below -->
+  <a
+    href={`/topics/${topic}/videos/${slug}/`}
+    class="block bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[var(--radius-lg)] overflow-hidden no-underline hover:border-[var(--color-border-strong)] hover:shadow-[var(--shadow-md)] transition-all duration-[var(--duration-normal)] group"
+  >
+    <div class="relative aspect-[4/3] bg-[var(--color-bg-section)]">
+      <img
+        src={thumbnailUrl}
+        alt=""
+        class="w-full h-full object-cover"
+        loading="lazy"
+      />
+      <!-- Play overlay -->
+      <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-colors">
+        <div class="w-12 h-12 rounded-full bg-[var(--color-accent)] flex items-center justify-center">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+            <polygon points="5,3 19,12 5,21" />
+          </svg>
+        </div>
+      </div>
+      <!-- Vertical badge -->
+      <span class="absolute top-2 left-2 text-[0.6875rem] font-semibold bg-black/60 text-white px-2 py-0.5 rounded-[var(--radius-sm)]">
+        Vertical
+      </span>
+      {duration && (
+        <span class="absolute bottom-2 right-2 text-[0.75rem] font-medium bg-black/70 text-white px-[var(--spacing-sm)] py-[0.125rem] rounded-[var(--radius-sm)]">
+          {duration}
+        </span>
+      )}
+    </div>
+    <div class="p-[var(--spacing-lg)]">
+      <h3 class="text-[1rem] font-[600] text-[var(--color-text-primary)] mb-[var(--spacing-xs)] group-hover:text-[var(--color-primary)] transition-colors normal-case tracking-normal" style="font-family: var(--font-display);">
+        {title}
+      </h3>
+      {speaker && (
+        <p class="text-[0.8125rem] text-[var(--color-text-tertiary)] mb-[var(--spacing-sm)]">{speaker}</p>
+      )}
+      <p class="text-[0.875rem] text-[var(--color-text-secondary)] line-clamp-2">{description}</p>
+    </div>
+  </a>
+) : (
+  <!-- Horizontal Video Card: 16:9 thumbnail, text below -->
+  <a
+    href={`/topics/${topic}/videos/${slug}/`}
+    class="block bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[var(--radius-lg)] overflow-hidden no-underline hover:border-[var(--color-border-strong)] hover:shadow-[var(--shadow-md)] transition-all duration-[var(--duration-normal)] group"
+  >
+    <div class="relative aspect-video bg-[var(--color-bg-section)]">
+      <img
+        src={thumbnailUrl}
+        alt=""
+        class="w-full h-full object-cover"
+        loading="lazy"
+      />
+      <!-- Play overlay -->
+      <div class="absolute inset-0 flex items-center justify-center bg-black/20 group-hover:bg-black/30 transition-colors">
+        <div class="w-12 h-12 rounded-full bg-[var(--color-accent)] flex items-center justify-center">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="white" aria-hidden="true">
+            <polygon points="5,3 19,12 5,21" />
+          </svg>
+        </div>
+      </div>
+      {duration && (
+        <span class="absolute bottom-2 right-2 text-[0.75rem] font-medium bg-black/70 text-white px-[var(--spacing-sm)] py-[0.125rem] rounded-[var(--radius-sm)]">
+          {duration}
+        </span>
+      )}
+    </div>
+    <div class="p-[var(--spacing-lg)]">
+      <h3 class="text-[1rem] font-[600] text-[var(--color-text-primary)] mb-[var(--spacing-xs)] group-hover:text-[var(--color-primary)] transition-colors normal-case tracking-normal" style="font-family: var(--font-display);">
+        {title}
+      </h3>
+      {speaker && (
+        <p class="text-[0.8125rem] text-[var(--color-text-tertiary)] mb-[var(--spacing-sm)]">{speaker}</p>
+      )}
+      <p class="text-[0.875rem] text-[var(--color-text-secondary)] line-clamp-2">{description}</p>
+    </div>
+  </a>
+)}
 
-  <!-- Content -->
-  <div class="p-[var(--spacing-lg)]">
-    <h3 class="text-[1rem] font-[600] text-[var(--color-text-primary)] mb-[var(--spacing-xs)] group-hover:text-[var(--color-primary)] transition-colors normal-case tracking-normal" style="font-family: var(--font-display);">
-      {title}
-    </h3>
-    {speaker && (
-      <p class="text-[0.8125rem] text-[var(--color-text-tertiary)] mb-[var(--spacing-sm)]">{speaker}</p>
-    )}
-    <p class="text-[0.875rem] text-[var(--color-text-secondary)] line-clamp-2">{description}</p>
-  </div>
-</a>
+<style>
+  .short-card {
+    transition: transform var(--duration-normal) var(--ease-out);
+  }
+  .short-card:hover {
+    transform: scale(1.02);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .short-card:hover {
+      transform: none;
+    }
+  }
+</style>

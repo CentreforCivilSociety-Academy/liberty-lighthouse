@@ -2,7 +2,6 @@
 import PageLayout from '../../../../layouts/PageLayout.astro';
 import Breadcrumbs from '../../../../components/global/Breadcrumbs.astro';
 import ContentTypeBadge from '../../../../components/ui/ContentTypeBadge.astro';
-import Badge from '../../../../components/ui/Badge.astro';
 import { getCollection, render } from 'astro:content';
 import RelatedContent from '../../../../components/crosslinks/RelatedContent.astro';
 import { getSlugFromId, getTopicBySlug, resolveRelatedFAQs, resolveRelatedVideos, resolveRelatedSyllabus } from '../../../../lib/collections';
@@ -26,6 +25,10 @@ const { Content } = await render(entry);
 const relatedFAQs = await resolveRelatedFAQs(entry.data.relatedFAQs);
 const relatedVideos = await resolveRelatedVideos(entry.data.relatedVideos);
 const relatedSyllabus = await resolveRelatedSyllabus(entry.data.relatedSyllabus);
+
+// Determine if this is vertical content (short or vertical video)
+const isVertical = entry.data.format === "short" || entry.data.orientation === "vertical";
+const isShort = entry.data.format === "short";
 ---
 
 <PageLayout title={entry.data.title} description={entry.data.description}>
@@ -37,39 +40,80 @@ const relatedSyllabus = await resolveRelatedSyllabus(entry.data.relatedSyllabus)
       { label: entry.data.title },
     ]} />
 
-    <!-- Video Player (lite-youtube-embed) -->
-    <div class="video-wrapper mb-[var(--spacing-2xl)] rounded-[var(--radius-lg)] overflow-hidden">
-      <lite-youtube videoid={entry.data.youtubeId} playlabel={`Play: ${entry.data.title}`}>
-        <a href={`https://youtube.com/watch?v=${entry.data.youtubeId}`} class="lty-playbtn" title="Play Video">
-          <span class="lyt-visually-hidden">Play Video: {entry.data.title}</span>
-        </a>
-      </lite-youtube>
-    </div>
+    {isVertical ? (
+      <!-- Vertical / Short: side-by-side on desktop, stacked on mobile -->
+      <div class="vertical-layout mb-[var(--spacing-2xl)]">
+        <div class="vertical-player">
+          <div class="rounded-[var(--radius-lg)] overflow-hidden">
+            <lite-youtube videoid={entry.data.youtubeId} playlabel={`Play: ${entry.data.title}`} style="aspect-ratio: 9/16;">
+              <a href={`https://youtube.com/watch?v=${entry.data.youtubeId}`} class="lty-playbtn" title="Play Video">
+                <span class="lyt-visually-hidden">Play Video: {entry.data.title}</span>
+              </a>
+            </lite-youtube>
+          </div>
+        </div>
 
-    <!-- Video info -->
-    <div class="max-w-[var(--prose-max-width)] mx-auto">
-      <div class="flex items-center gap-[var(--spacing-sm)] mb-[var(--spacing-md)]">
-        <ContentTypeBadge type="video" />
-        {entry.data.duration && (
-          <span class="text-[0.875rem] text-[var(--color-text-tertiary)]">{entry.data.duration}</span>
-        )}
-        {entry.data.speaker && (
-          <span class="text-[0.875rem] text-[var(--color-text-tertiary)]">{entry.data.speaker}</span>
-        )}
+        <div class="vertical-content">
+          <div class="flex items-center gap-[var(--spacing-sm)] mb-[var(--spacing-md)]">
+            <ContentTypeBadge type="video" />
+            {isShort && (
+              <span class="text-[0.75rem] font-semibold bg-[var(--color-bg-section)] text-[var(--color-text-secondary)] px-2 py-0.5 rounded-[var(--radius-sm)]">Short</span>
+            )}
+            {entry.data.duration && (
+              <span class="text-[0.875rem] text-[var(--color-text-tertiary)]">{entry.data.duration}</span>
+            )}
+            {entry.data.speaker && (
+              <span class="text-[0.875rem] text-[var(--color-text-tertiary)]">{entry.data.speaker}</span>
+            )}
+          </div>
+
+          <h1 class="text-[2rem] font-[700] mb-[var(--spacing-md)]">{entry.data.title}</h1>
+          <p class="text-[1.0625rem] text-[var(--color-text-secondary)] mb-[var(--spacing-2xl)] leading-relaxed">
+            {entry.data.description}
+          </p>
+
+          <div class="prose">
+            <Content />
+          </div>
+
+          <RelatedContent faqs={relatedFAQs} videos={relatedVideos} syllabus={relatedSyllabus} />
+        </div>
       </div>
+    ) : (
+      <!-- Horizontal: full-width player, content below -->
+      <Fragment>
+        <div class="video-wrapper mb-[var(--spacing-2xl)] rounded-[var(--radius-lg)] overflow-hidden">
+          <lite-youtube videoid={entry.data.youtubeId} playlabel={`Play: ${entry.data.title}`}>
+            <a href={`https://youtube.com/watch?v=${entry.data.youtubeId}`} class="lty-playbtn" title="Play Video">
+              <span class="lyt-visually-hidden">Play Video: {entry.data.title}</span>
+            </a>
+          </lite-youtube>
+        </div>
 
-      <h1 class="text-[2rem] font-[700] mb-[var(--spacing-md)]">{entry.data.title}</h1>
-      <p class="text-[1.0625rem] text-[var(--color-text-secondary)] mb-[var(--spacing-2xl)] leading-relaxed">
-        {entry.data.description}
-      </p>
+        <div class="max-w-[var(--prose-max-width)] mx-auto">
+          <div class="flex items-center gap-[var(--spacing-sm)] mb-[var(--spacing-md)]">
+            <ContentTypeBadge type="video" />
+            {entry.data.duration && (
+              <span class="text-[0.875rem] text-[var(--color-text-tertiary)]">{entry.data.duration}</span>
+            )}
+            {entry.data.speaker && (
+              <span class="text-[0.875rem] text-[var(--color-text-tertiary)]">{entry.data.speaker}</span>
+            )}
+          </div>
 
-      {/* Extended notes from MDX body */}
-      <div class="prose">
-        <Content />
-      </div>
+          <h1 class="text-[2rem] font-[700] mb-[var(--spacing-md)]">{entry.data.title}</h1>
+          <p class="text-[1.0625rem] text-[var(--color-text-secondary)] mb-[var(--spacing-2xl)] leading-relaxed">
+            {entry.data.description}
+          </p>
 
-      <RelatedContent faqs={relatedFAQs} videos={relatedVideos} syllabus={relatedSyllabus} />
-    </div>
+          <div class="prose">
+            <Content />
+          </div>
+
+          <RelatedContent faqs={relatedFAQs} videos={relatedVideos} syllabus={relatedSyllabus} />
+        </div>
+      </Fragment>
+    )}
   </div>
 </PageLayout>
 
@@ -81,5 +125,32 @@ const relatedSyllabus = await resolveRelatedSyllabus(entry.data.relatedSyllabus)
   .video-wrapper lite-youtube {
     width: 100%;
     max-width: 100%;
+  }
+</style>
+<style>
+  .vertical-layout {
+    display: grid;
+    grid-template-columns: minmax(18rem, 24rem) 1fr;
+    gap: var(--spacing-2xl);
+    align-items: start;
+  }
+
+  .vertical-player {
+    width: 100%;
+  }
+
+  .vertical-player lite-youtube {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  @media (max-width: 767px) {
+    .vertical-layout {
+      grid-template-columns: 1fr;
+    }
+    .vertical-player {
+      max-width: 20rem;
+      margin: 0 auto;
+    }
   }
 </style>

@@ -24,6 +24,7 @@ const searchIndex = [
     url: getContentUrl('video', v.data.topic, v.id),
     excerpt: v.data.description,
     duration: v.data.duration || null,
+    format: v.data.format,
   })),
   ...syllabus.filter((s) => !s.data.draft).map((s) => ({
     type: 'syllabus' as const,

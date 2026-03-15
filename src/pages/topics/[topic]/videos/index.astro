@@ -25,7 +25,7 @@ const counts = await getTopicResourceCounts(topicSlug!);
     <ResourceTabs topicSlug={topicSlug!} faqCount={counts.faqCount} videoCount={counts.videoCount} syllabusCount={counts.syllabusCount} activeTab="videos" />
 
     {videos.length > 0 ? (
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-[var(--spacing-lg)]">
+      <div class="masonry-grid">
         {videos.map((video) => (
           <VideoCard
             id={video.id}
@@ -35,6 +35,8 @@ const counts = await getTopicResourceCounts(topicSlug!);
             duration={video.data.duration}
             speaker={video.data.speaker}
             description={video.data.description}
+            format={video.data.format}
+            orientation={video.data.orientation}
           />
         ))}
       </div>
@@ -43,3 +45,23 @@ const counts = await getTopicResourceCounts(topicSlug!);
     )}
   </div>
 </PageLayout>
+
+<style>
+  .masonry-grid {
+    columns: 3;
+    column-gap: var(--spacing-lg);
+  }
+
+  .masonry-grid > :global(*) {
+    break-inside: avoid;
+    margin-bottom: var(--spacing-lg);
+  }
+
+  @media (max-width: 1023px) {
+    .masonry-grid { columns: 2; }
+  }
+
+  @media (max-width: 767px) {
+    .masonry-grid { columns: 1; }
+  }
+</style>
