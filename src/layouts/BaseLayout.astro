@@ -57,7 +57,8 @@ import '@/styles/global.css';
     <!-- Theme color -->
     <meta name="theme-color" content="#6B3A1F" />
 
-    <!-- Netlify Identity (redirects after CMS login) -->
+    <!-- Netlify Identity widget (needed to handle invite/confirmation tokens) -->
+    <script is:inline src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script is:inline>
       if (window.netlifyIdentity) {
         window.netlifyIdentity.on("init", user => {
