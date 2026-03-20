@@ -487,6 +487,7 @@ export const TYPOGRAPHY_DEFAULTS = {
   monoFont: 'JetBrains Mono',
   baseFontSize: 106.25,
   baseLineHeight: 1.7,
+  heroTitleSize: 3.5,
   h1Size: 2,
   h2Size: 1.5,
   h3Size: 1.125,

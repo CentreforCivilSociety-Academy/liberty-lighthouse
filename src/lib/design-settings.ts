@@ -21,6 +21,7 @@ export async function getTypographySettings() {
   const monoFont = data.monoFont ?? TYPOGRAPHY_DEFAULTS.monoFont;
   const baseFontSize = data.baseFontSize ?? TYPOGRAPHY_DEFAULTS.baseFontSize;
   const baseLineHeight = data.baseLineHeight ?? TYPOGRAPHY_DEFAULTS.baseLineHeight;
+  const heroTitleSize = data.heroTitleSize ?? TYPOGRAPHY_DEFAULTS.heroTitleSize;
   const h1Size = data.h1Size ?? TYPOGRAPHY_DEFAULTS.h1Size;
   const h2Size = data.h2Size ?? TYPOGRAPHY_DEFAULTS.h2Size;
   const h3Size = data.h3Size ?? TYPOGRAPHY_DEFAULTS.h3Size;
@@ -31,6 +32,7 @@ export async function getTypographySettings() {
     monoFont,
     baseFontSize,
     baseLineHeight,
+    heroTitleSize,
     h1Size,
     h2Size,
     h3Size,

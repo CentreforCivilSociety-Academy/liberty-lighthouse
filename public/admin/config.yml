@@ -177,6 +177,16 @@ collections:
             default: 1.7
             hint: "Line spacing multiplier for body text — controls vertical rhythm in FAQ answers, video descriptions, and all paragraph content. Lower = tighter lines, higher = more breathing room. Default: 1.7"
 
+          - label: "Hero Title Size (rem)"
+            name: "heroTitleSize"
+            widget: "number"
+            value_type: "float"
+            min: 2.0
+            max: 6.0
+            step: 0.25
+            default: 3.5
+            hint: "Font size for the main 'Liberty Lighthouse' hero title on the homepage. This is independent of other heading sizes. Uses responsive clamping (min 2rem, max this value). Default: 3.5rem"
+
           - label: "H1 Size (rem)"
             name: "h1Size"
             widget: "number"
@@ -430,6 +440,11 @@ collections:
         min: 1
         default: 1
         hint: "Lower numbers appear first on the homepage."
+      - label: "Guided Syllabus"
+        name: "guidedSyllabus"
+        widget: "markdown"
+        required: false
+        hint: "Curated reading list for this topic. Use headings (## Books, ## Papers, etc.) and numbered lists with links. Leave empty if no syllabus is available yet."
 
   # ─────────────────────────────────────────────
   # FAQs
@@ -551,50 +566,3 @@ collections:
         widget: "markdown"
         required: false
         hint: "Optional: add timestamps, key takeaways, or additional context about the video."
-
-  # ─────────────────────────────────────────────
-  # Guided Syllabus
-  # ─────────────────────────────────────────────
-  - name: "syllabus"
-    label: "Guided Syllabus"
-    label_singular: "Syllabus Module"
-    description: "Curated reading lists and resource collections — each module groups related materials (books, papers, reports, etc.)."
-    folder: "src/content/syllabus"
-    format: "frontmatter"
-    extension: "mdx"
-    create: true
-    slug: "{{slug}}"
-    path: "{{topic}}/{{slug}}"
-    fields:
-      - label: "Topic"
-        name: "topic"
-        widget: "relation"
-        collection: "topics"
-        search_fields: ["title"]
-        value_field: "slug"
-        display_fields: ["title"]
-        hint: "Which topic does this syllabus module belong to?"
-      - label: "Title"
-        name: "title"
-        widget: "string"
-        hint: "e.g., Books, Academic Papers, Reports, Podcasts & Videos"
-      - label: "Module Number"
-        name: "moduleNumber"
-        widget: "number"
-        value_type: "int"
-        min: 1
-        default: 1
-        hint: "Controls the order modules appear in. Lower numbers show first."
-      - label: "Short Description"
-        name: "description"
-        widget: "text"
-        hint: "A one-line summary of what this module contains."
-      - label: "Draft"
-        name: "draft"
-        widget: "boolean"
-        default: false
-        hint: "Turn this on to hide this module from the public site while you work on it."
-      - label: "Resources"
-        name: "body"
-        widget: "markdown"
-        hint: "List the resources here. Use numbered lists for items, and add links by selecting text and clicking the link button in the toolbar."
