@@ -14,11 +14,10 @@ interface RelatedItem {
 interface Props {
   faqs?: RelatedItem[];
   videos?: RelatedItem[];
-  syllabus?: RelatedItem[];
 }
 
-const { faqs = [], videos = [], syllabus = [] } = Astro.props;
-const hasAny = faqs.length > 0 || videos.length > 0 || syllabus.length > 0;
+const { faqs = [], videos = [] } = Astro.props;
+const hasAny = faqs.length > 0 || videos.length > 0;
 ---
 
 {hasAny && (
@@ -41,15 +40,6 @@ const hasAny = faqs.length > 0 || videos.length > 0 || syllabus.length > 0;
           topic={video.data.topic}
           id={video.id}
           description={video.data.description}
-        />
-      ))}
-      {syllabus.map((mod) => (
-        <CrossLinkCard
-          type="syllabus"
-          title={mod.data.title || ''}
-          topic={mod.data.topic}
-          id={mod.id}
-          description={mod.data.description}
         />
       ))}
     </div>

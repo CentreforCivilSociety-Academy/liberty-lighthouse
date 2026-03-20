@@ -46,6 +46,36 @@ collections:
               - { label: "Zilla Slab — Mozilla's slab serif, bold and contemporary", value: "Zilla Slab" }
               - { label: "Josefin Slab — Geometric slab serif with vintage elegance", value: "Josefin Slab" }
               - { label: "Rokkitt — Friendly slab serif with a sturdy, approachable feel", value: "Rokkitt" }
+              - { label: "Crimson Pro — Modern update of Crimson Text with variable weight support", value: "Crimson Pro" }
+              - { label: "Newsreader — Designed for on-screen news reading, optical sizing", value: "Newsreader" }
+              - { label: "Literata — Google Books serif, updated with optical sizing", value: "Literata" }
+              - { label: "Gelasio — Georgia-compatible serif with a warm, professional feel", value: "Gelasio" }
+              - { label: "Domine — Sturdy serif optimized for body text on screens", value: "Domine" }
+              - { label: "Tinos — Times New Roman metric-compatible serif", value: "Tinos" }
+              - { label: "Noto Serif Display — Google's display-optimized serif for large headings", value: "Noto Serif Display" }
+              - { label: "Brygada 1918 — Polish heritage serif, elegant and dignified", value: "Brygada 1918" }
+              - { label: "Piazzolla — Argentine tango-inspired serif with optical sizing", value: "Piazzolla" }
+              - { label: "Yrsa — Compact serif designed for Indian and Latin scripts", value: "Yrsa" }
+              - { label: "Martel — Heavy-weight serif with Devanagari support", value: "Martel" }
+              - { label: "Lusitana — Portuguese-influenced classical serif", value: "Lusitana" }
+              - { label: "Noticia Text — Slab-influenced serif designed for digital news", value: "Noticia Text" }
+              - { label: "Old Standard TT — Late 19th century Didone revival, scholarly", value: "Old Standard TT" }
+              - { label: "Sorts Mill Goudy — Frederic Goudy revival, Arts & Crafts era elegance", value: "Sorts Mill Goudy" }
+              - { label: "Cinzel — Classically proportioned Roman capitals, monumental", value: "Cinzel" }
+              - { label: "Abril Fatface — Ultra-bold didone display face, dramatic impact", value: "Abril Fatface" }
+              - { label: "Bodoni Moda — Giambattista Bodoni revival with optical sizing", value: "Bodoni Moda" }
+              - { label: "Cormorant — Elegant display serif inspired by Garamond, lighter weight", value: "Cormorant" }
+              - { label: "Petrona — Warm editorial serif with personality", value: "Petrona" }
+              - { label: "Libre Caslon Text — William Caslon revival, classic English typography", value: "Libre Caslon Text" }
+              - { label: "DM Serif Text — Companion to DM Serif Display for body text", value: "DM Serif Text" }
+              - { label: "Arvo — Geometric slab serif, sturdy and confident", value: "Arvo" }
+              - { label: "Neuton — Elegant serif with a modern Dutch feel", value: "Neuton" }
+              - { label: "Mate — Warm text serif with a South American personality", value: "Mate" }
+              - { label: "Arapey — Delicate didone serif with Uruguayan flair", value: "Arapey" }
+              - { label: "Prata — High-contrast didone display serif, refined", value: "Prata" }
+              - { label: "Yeseva One — Decorative headline serif with Slavic warmth", value: "Yeseva One" }
+              - { label: "Cormorant Infant — Softer, rounded version of Cormorant", value: "Cormorant Infant" }
+              - { label: "Quando — Friendly, rounded serif with a vintage feel", value: "Quando" }
             default: "Fraunces"
             hint: "The serif font used for all headings across the site — page titles like 'Education', section headings like 'Explore by Topic', and the hero title 'Liberty Lighthouse'. Default: Fraunces"
 
@@ -73,6 +103,34 @@ collections:
               - { label: "Lexend — Designed to improve reading proficiency", value: "Lexend" }
               - { label: "Figtree — Friendly geometric sans with open apertures", value: "Figtree" }
               - { label: "Manrope — Semi-rounded geometric sans, modern and clean", value: "Manrope" }
+              - { label: "Montserrat — Geometric sans inspired by Buenos Aires signage", value: "Montserrat" }
+              - { label: "Barlow — Slightly condensed grotesk, inspired by California plates", value: "Barlow" }
+              - { label: "Josefin Sans — Elegant geometric sans with vintage Scandinavian flair", value: "Josefin Sans" }
+              - { label: "Quicksand — Rounded geometric sans, light and airy", value: "Quicksand" }
+              - { label: "Mulish — Clean geometric sans, formerly known as Muli", value: "Mulish" }
+              - { label: "Overpass — Open-source sans inspired by Highway Gothic", value: "Overpass" }
+              - { label: "Urbanist — Low-contrast geometric sans with modern minimalism", value: "Urbanist" }
+              - { label: "Red Hat Display — Red Hat's brand display typeface, bold and open", value: "Red Hat Display" }
+              - { label: "Albert Sans — Modern geometric sans with a friendly, open feel", value: "Albert Sans" }
+              - { label: "Sora — Japanese-influenced geometric sans, precise and minimal", value: "Sora" }
+              - { label: "Commissioner — Variable sans with Cyrillic optimization", value: "Commissioner" }
+              - { label: "Atkinson Hyperlegible — Braille Institute font optimized for low-vision readers", value: "Atkinson Hyperlegible" }
+              - { label: "Public Sans — US government open-source neutral sans-serif", value: "Public Sans" }
+              - { label: "Nunito Sans — Sans-serif companion to Nunito, cleaner curves", value: "Nunito Sans" }
+              - { label: "Exo 2 — Futuristic geometric sans with technological personality", value: "Exo 2" }
+              - { label: "Libre Franklin — Franklin Gothic revival, sturdy and versatile", value: "Libre Franklin" }
+              - { label: "IBM Plex Sans — IBM's corporate sans-serif, neutral and precise", value: "IBM Plex Sans" }
+              - { label: "PT Sans — ParaType's professional sans, clean proportions", value: "PT Sans" }
+              - { label: "Titillium Web — Born from the Accademia di Belle Arti di Urbino project", value: "Titillium Web" }
+              - { label: "Hind — Devanagari + Latin sans-serif, optimized for Indian languages", value: "Hind" }
+              - { label: "Signika — Warm semi-rounded sans for signage and wayfinding", value: "Signika" }
+              - { label: "Heebo — Hebrew + Latin sans-serif, clean and modern", value: "Heebo" }
+              - { label: "Asap — Slightly rounded contemporary sans, balanced and readable", value: "Asap" }
+              - { label: "Red Hat Text — Red Hat's brand text typeface for body copy", value: "Red Hat Text" }
+              - { label: "Bricolage Grotesque — Expressive variable grotesque with optical sizing", value: "Bricolage Grotesque" }
+              - { label: "Instrument Sans — Minimal geometric sans with technical precision", value: "Instrument Sans" }
+              - { label: "Wix Madefor Display — Wix's brand typeface, optimized for digital", value: "Wix Madefor Display" }
+              - { label: "Geist — Vercel's modern sans-serif, designed for developers", value: "Geist" }
             default: "Source Sans 3"
             hint: "The sans-serif font used for all body text — FAQ answers, video descriptions, navigation links, breadcrumbs, and buttons. Default: Source Sans 3"
 
@@ -87,6 +145,15 @@ collections:
               - { label: "Roboto Mono — Google's monospace companion to Roboto", value: "Roboto Mono" }
               - { label: "Space Mono — Fixed-width typeface with a retro, editorial feel", value: "Space Mono" }
               - { label: "Inconsolata — Classic programming font, clean and condensed", value: "Inconsolata" }
+              - { label: "Ubuntu Mono — Ubuntu's monospace, friendly and distinctive", value: "Ubuntu Mono" }
+              - { label: "Overpass Mono — Open-source mono inspired by Highway Gothic", value: "Overpass Mono" }
+              - { label: "DM Mono — Low-contrast monospace, clean and geometric", value: "DM Mono" }
+              - { label: "Anonymous Pro — Designed for coders, distinguishes similar characters", value: "Anonymous Pro" }
+              - { label: "Courier Prime — Enhanced Courier for screenwriting and prose", value: "Courier Prime" }
+              - { label: "Noto Sans Mono — Google's universal monospace, 1000+ language support", value: "Noto Sans Mono" }
+              - { label: "Red Hat Mono — Red Hat's brand monospace, bold and technical", value: "Red Hat Mono" }
+              - { label: "Martian Mono — Wide monospace with a sci-fi personality", value: "Martian Mono" }
+              - { label: "Geist Mono — Vercel's modern monospace for developer tools", value: "Geist Mono" }
             default: "JetBrains Mono"
             hint: "The monospace font used for code blocks and technical content. Default: JetBrains Mono"
 

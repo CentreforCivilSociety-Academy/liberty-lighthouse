@@ -3,7 +3,7 @@ import ProseLayout from '../../../../layouts/ProseLayout.astro';
 import ContentTypeBadge from '../../../../components/ui/ContentTypeBadge.astro';
 import RelatedContent from '../../../../components/crosslinks/RelatedContent.astro';
 import { getCollection, render } from 'astro:content';
-import { getSlugFromId, getTopicBySlug, resolveRelatedFAQs, resolveRelatedVideos, resolveRelatedSyllabus } from '../../../../lib/collections';
+import { getSlugFromId, getTopicBySlug, resolveRelatedFAQs, resolveRelatedVideos } from '../../../../lib/collections';
 
 export async function getStaticPaths() {
   const faqs = await getCollection('faqs');
@@ -23,7 +23,6 @@ const { Content } = await render(entry);
 
 const relatedFAQs = await resolveRelatedFAQs(entry.data.relatedFAQs);
 const relatedVideos = await resolveRelatedVideos(entry.data.relatedVideos);
-const relatedSyllabus = await resolveRelatedSyllabus(entry.data.relatedSyllabus);
 ---
 
 <ProseLayout
@@ -51,5 +50,5 @@ const relatedSyllabus = await resolveRelatedSyllabus(entry.data.relatedSyllabus)
 
   <Content />
 
-  <RelatedContent faqs={relatedFAQs} videos={relatedVideos} syllabus={relatedSyllabus} />
+  <RelatedContent faqs={relatedFAQs} videos={relatedVideos}  />
 </ProseLayout>

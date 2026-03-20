@@ -20,6 +20,7 @@
     "astro": "^6.0.4",
     "fuse.js": "^7.1.0",
     "lite-youtube-embed": "^0.3.4",
+    "marked": "^17.0.4",
     "preact": "^10.29.0",
     "tailwindcss": "^4.2.1"
   }

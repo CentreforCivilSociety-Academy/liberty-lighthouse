@@ -22,7 +22,7 @@ const counts = await getTopicResourceCounts(topicSlug!);
 <PageLayout title={`FAQ — ${topicData.title}`} description={`Frequently asked questions about ${topicData.title.toLowerCase()} policy in India.`}>
   <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
     <TopicHeader title={topicData.title} description={topicData.description} slug={topicSlug!} />
-    <ResourceTabs topicSlug={topicSlug!} faqCount={counts.faqCount} videoCount={counts.videoCount} syllabusCount={counts.syllabusCount} activeTab="faq" />
+    <ResourceTabs topicSlug={topicSlug!} faqCount={counts.faqCount} videoCount={counts.videoCount} hasSyllabus={counts.hasSyllabus} activeTab="faq" />
 
     {faqs.length > 0 ? (
       <FAQList faqs={faqs} topicSlug={topicSlug!} />

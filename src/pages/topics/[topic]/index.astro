@@ -1,8 +1,7 @@
 ---
 import PageLayout from '../../../layouts/PageLayout.astro';
 import TopicHeader from '../../../components/topic/TopicHeader.astro';
-import ResourceTabs from '../../../components/topic/ResourceTabs.astro';
-import { getAllTopics, getTopicBySlug, getTopicResourceCounts, getFaqsByTopic, getVideosByTopic, getSyllabusByTopic, getSlugFromId, getContentUrl } from '../../../lib/collections';
+import { getAllTopics, getTopicResourceCounts, getFaqsByTopic, getVideosByTopic } from '../../../lib/collections';
 import Card from '../../../components/ui/Card.astro';
 import ContentTypeBadge from '../../../components/ui/ContentTypeBadge.astro';
 
@@ -19,7 +18,6 @@ const { topicData } = Astro.props;
 const counts = await getTopicResourceCounts(topicSlug!);
 const faqs = await getFaqsByTopic(topicSlug!);
 const videos = await getVideosByTopic(topicSlug!);
-const syllabus = await getSyllabusByTopic(topicSlug!);
 ---
 
 <PageLayout title={topicData.title} description={topicData.description}>
@@ -66,27 +64,24 @@ const syllabus = await getSyllabusByTopic(topicSlug!);
       )}
 
       {/* Syllabus Summary */}
-      {syllabus.length > 0 && (
+      {counts.hasSyllabus && (
         <Card href={`/topics/${topicSlug}/syllabus/`} class="group">
           <div class="flex items-center gap-[var(--spacing-sm)] mb-[var(--spacing-md)]">
             <ContentTypeBadge type="syllabus" />
-            <span class="text-[0.875rem] text-[var(--color-text-tertiary)]">{syllabus.length} modules</span>
           </div>
           <h3 class="text-[1.125rem] font-[600] text-[var(--color-text-primary)] mb-[var(--spacing-sm)] normal-case tracking-normal group-hover:text-[var(--color-primary)] transition-colors" style="font-family: var(--font-display);">
             Guided Syllabus
           </h3>
-          <ul class="space-y-[var(--spacing-xs)] text-[0.875rem] text-[var(--color-text-secondary)]">
-            {syllabus.slice(0, 3).map((mod) => (
-              <li class="truncate">Module {mod.data.moduleNumber}: {mod.data.title}</li>
-            ))}
-          </ul>
+          <p class="text-[0.875rem] text-[var(--color-text-secondary)]">
+            A curated reading list of books, papers, reports, articles, and videos.
+          </p>
         </Card>
       )}
 
     </div>
 
     {/* Empty state when no content exists yet */}
-    {faqs.length === 0 && videos.length === 0 && syllabus.length === 0 && (
+    {faqs.length === 0 && videos.length === 0 && !counts.hasSyllabus && (
       <div class="text-center py-[var(--spacing-3xl)]">
         <p class="text-[var(--color-text-tertiary)] text-[1.0625rem]">Content for this topic is coming soon.</p>
       </div>

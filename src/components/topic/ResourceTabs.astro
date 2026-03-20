@@ -3,17 +3,17 @@ interface Props {
   topicSlug: string;
   faqCount: number;
   videoCount: number;
-  syllabusCount: number;
+  hasSyllabus: boolean;
   activeTab?: 'faq' | 'videos' | 'syllabus';
 }
 
-const { topicSlug, faqCount, videoCount, syllabusCount, activeTab = 'faq' } = Astro.props;
+const { topicSlug, faqCount, videoCount, hasSyllabus, activeTab = 'faq' } = Astro.props;
 
 const tabs = [
-  { id: 'faq', label: 'FAQ', count: faqCount, href: `/topics/${topicSlug}/faq/` },
-  { id: 'videos', label: 'Videos', count: videoCount, href: `/topics/${topicSlug}/videos/` },
-  { id: 'syllabus', label: 'Syllabus', count: syllabusCount, href: `/topics/${topicSlug}/syllabus/` },
-].filter((tab) => tab.count > 0);
+  { id: 'faq', label: 'FAQ', count: faqCount, show: faqCount > 0, href: `/topics/${topicSlug}/faq/` },
+  { id: 'videos', label: 'Videos', count: videoCount, show: videoCount > 0, href: `/topics/${topicSlug}/videos/` },
+  { id: 'syllabus', label: 'Syllabus', count: null, show: hasSyllabus, href: `/topics/${topicSlug}/syllabus/` },
+].filter((tab) => tab.show);
 ---
 
 <nav aria-label="Resource types" class="mb-[var(--spacing-2xl)]">
@@ -31,9 +31,11 @@ const tabs = [
         ]}
       >
         {tab.label}
-        <span class="ml-[var(--spacing-xs)] text-[0.75rem] text-[var(--color-text-muted)]">
-          {tab.count}
-        </span>
+        {tab.count !== null && (
+          <span class="ml-[var(--spacing-xs)] text-[0.75rem] text-[var(--color-text-muted)]">
+            {tab.count}
+          </span>
+        )}
         {activeTab === tab.id && (
           <span class="absolute bottom-0 left-0 right-0 h-[2px] bg-[var(--color-accent)]"></span>
         )}

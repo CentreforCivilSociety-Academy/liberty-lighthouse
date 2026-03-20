@@ -3,5 +3,6 @@
   "slug": "agriculture",
   "description": "Understanding agricultural policy in India through the lens of free markets — from APMC reform and contract farming to the economics of minimum support prices.",
   "icon": "sprout",
-  "order": 2
+  "order": 2,
+  "guidedSyllabus": ""
 }
