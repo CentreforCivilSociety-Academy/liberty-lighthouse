@@ -1,28 +1,28 @@
 // JSON-LD structured data helpers for Liberty Lighthouse
 
 // 1. Organization schema for Centre for Civil Society
-export function buildOrganizationSchema() {
+export function buildOrganizationSchema(siteUrl: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Organization',
     name: 'Centre for Civil Society',
     url: 'https://ccs.in',
-    logo: 'https://libertylighthouse.ccs.in/favicon.svg',
+    logo: new URL('/favicon.svg', siteUrl).href,
   };
 }
 
 // 2. WebSite schema with SearchAction
-export function buildWebSiteSchema() {
+export function buildWebSiteSchema(siteUrl: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     name: 'Liberty Lighthouse',
-    url: 'https://libertylighthouse.ccs.in',
+    url: siteUrl,
     description: "A classical liberal resource for understanding India's policy landscape.",
     publisher: { '@type': 'Organization', name: 'Centre for Civil Society' },
     potentialAction: {
       '@type': 'SearchAction',
-      target: 'https://libertylighthouse.ccs.in/search/?q={search_term_string}',
+      target: new URL('/search/?q={search_term_string}', siteUrl).href,
       'query-input': 'required name=search_term_string',
     },
   };

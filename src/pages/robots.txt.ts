@@ -14,7 +14,7 @@ const CRAWLER_MAP: Record<string, string> = {
   applebotExtended: 'Applebot-Extended',
 };
 
-export const GET: APIRoute = async () => {
+export const GET: APIRoute = async ({ site }) => {
   const settings = await getCollection('settings');
   const entry = settings.find((s) => s.id === 'crawlers');
   const data = (entry?.data ?? {}) as Record<string, string>;
@@ -37,7 +37,7 @@ export const GET: APIRoute = async () => {
     }
   }
 
-  lines.push(`Sitemap: https://libertylighthouse.ccs.in/sitemap-index.xml`);
+  lines.push(`Sitemap: ${new URL('/sitemap-index.xml', site).href}`);
   lines.push('');
 
   return new Response(lines.join('\n'), {
