@@ -211,6 +211,70 @@ const DISPLAY_FONTS: Record<string, FontEntry> = {
     param: 'Quando',
     fallback: "Georgia, 'Times New Roman', serif",
   },
+  'Tenor Sans': {
+    param: 'Tenor+Sans',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Philosopher': {
+    param: 'Philosopher:ital,wght@0,400;0,700;1,400;1,700',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Vidaloka': {
+    param: 'Vidaloka',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Oranienbaum': {
+    param: 'Oranienbaum',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Cambo': {
+    param: 'Cambo',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Italiana': {
+    param: 'Italiana',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Buenard': {
+    param: 'Buenard:wght@400;700',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Unna': {
+    param: 'Unna:ital,wght@0,400;0,700;1,400;1,700',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Headland One': {
+    param: 'Headland+One',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Fanwood Text': {
+    param: 'Fanwood+Text:ital@0;1',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Rufina': {
+    param: 'Rufina:wght@400;700',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'GFS Didot': {
+    param: 'GFS+Didot',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Vesper Libre': {
+    param: 'Vesper+Libre:wght@400;500;700',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Coustard': {
+    param: 'Coustard:wght@400;900',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Proza Libre': {
+    param: 'Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
+  'Alike': {
+    param: 'Alike',
+    fallback: "Georgia, 'Times New Roman', serif",
+  },
 };
 
 const BODY_FONTS: Record<string, FontEntry> = {

@@ -76,6 +76,22 @@ collections:
               - { label: "Yeseva One — Decorative headline serif with Slavic warmth", value: "Yeseva One" }
               - { label: "Cormorant Infant — Softer, rounded version of Cormorant", value: "Cormorant Infant" }
               - { label: "Quando — Friendly, rounded serif with a vintage feel", value: "Quando" }
+              - { label: "Tenor Sans — Elegant display sans with serif sensibility", value: "Tenor Sans" }
+              - { label: "Philosopher — Humanist serif with a classical, literary tone", value: "Philosopher" }
+              - { label: "Vidaloka — High-contrast display serif, elegant and sharp", value: "Vidaloka" }
+              - { label: "Oranienbaum — Classic Russian-influenced serif with refined elegance", value: "Oranienbaum" }
+              - { label: "Cambo — Sturdy slab serif with clear, confident letterforms", value: "Cambo" }
+              - { label: "Italiana — Tall, elegant italic-style display serif", value: "Italiana" }
+              - { label: "Buenard — Warm text serif with South American design roots", value: "Buenard" }
+              - { label: "Unna — Elegant transitional serif with a journalistic feel", value: "Unna" }
+              - { label: "Headland One — Display serif with optical-size optimized for headlines", value: "Headland One" }
+              - { label: "Fanwood Text — Inspired by Frederic Goudy, warm and literary", value: "Fanwood Text" }
+              - { label: "Rufina — High-contrast serif inspired by Latin American typography", value: "Rufina" }
+              - { label: "GFS Didot — Greek-influenced didone with exceptional elegance", value: "GFS Didot" }
+              - { label: "Vesper Libre — Devanagari-influenced serif, structured and scholarly", value: "Vesper Libre" }
+              - { label: "Coustard — Bold slab serif with a warm, editorial personality", value: "Coustard" }
+              - { label: "Proza Libre — Humanist serif designed for long-form reading", value: "Proza Libre" }
+              - { label: "Alike — Friendly display serif with rounded serifs", value: "Alike" }
             default: "Fraunces"
             hint: "The serif font used for all headings across the site — page titles like 'Education', section headings like 'Explore by Topic', and the hero title 'Liberty Lighthouse'. Default: Fraunces"
 
@@ -443,8 +459,10 @@ collections:
       - label: "Guided Syllabus"
         name: "guidedSyllabus"
         widget: "markdown"
+        default: ""
         required: false
-        hint: "Your curated reading list for this topic. The toolbar above lets you add bold text, links, images, and more. When organizing sections (like Books, Papers, Reports), use the 'Heading 2' option from the toolbar — it keeps things looking right on the site. If you need sub-sections within those, use 'Heading 3' or smaller. Avoid using 'Heading 1' here, since the page already has its own main title. Leave empty if no syllabus is available yet."
+        editor_components: []
+        hint: "Your curated reading list for this topic — use the formatting toolbar above to add bold text, links, bullet lists, and more. 📌 Quick tip on headings: When you want to break your syllabus into sections (like 'Books', 'Papers', 'Reports'), pick 'Heading 2' from the toolbar. Need a sub-section inside one of those? Use 'Heading 3' or smaller. Please don't use 'Heading 1' — the page already has its own main title, and using another one would look odd on the website. If no syllabus is ready yet, just leave this empty."
 
   # ─────────────────────────────────────────────
   # FAQs
@@ -487,7 +505,7 @@ collections:
       - label: "Answer"
         name: "body"
         widget: "markdown"
-        hint: "Write the full answer here. The toolbar above lets you format text with bold, links, lists, and images. If your answer needs sections, use 'Heading 2' from the toolbar. For sub-sections within those, use 'Heading 3' or smaller. Please avoid 'Heading 1' — the question itself already serves as the main heading on the page."
+        hint: "Write the full answer here — the toolbar above lets you format text with bold, links, bullet lists, images, and more. 📌 Quick tip on headings: Most answers won't need headings at all, and that's perfectly fine! But if your answer is long and has distinct sections, use 'Heading 2' from the toolbar for those section titles. If you need a sub-section inside one of those, use 'Heading 3' or smaller. Please don't use 'Heading 1' — the question itself already serves as the main heading on the page, and adding another one would create visual confusion."
 
   # ─────────────────────────────────────────────
   # Video Curriculum
@@ -565,4 +583,4 @@ collections:
         name: "body"
         widget: "markdown"
         required: false
-        hint: "Optional: add timestamps, key takeaways, or extra context. If you need sections, use 'Heading 2' from the toolbar. For sub-sections, use 'Heading 3' or smaller. Please avoid 'Heading 1' — the video title already serves as the main heading."
+        hint: "Optional: add timestamps, key takeaways, or extra context about the video. 📌 Quick tip on headings: If your notes have sections, use 'Heading 2' from the toolbar. For sub-sections, use 'Heading 3' or smaller. Please don't use 'Heading 1' — the video title already serves as the main heading on the page."
