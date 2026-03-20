@@ -2,9 +2,12 @@
 import PageLayout from '../../../../layouts/PageLayout.astro';
 import Breadcrumbs from '../../../../components/global/Breadcrumbs.astro';
 import ContentTypeBadge from '../../../../components/ui/ContentTypeBadge.astro';
+import CopyAsMarkdown from '../../../../components/ui/CopyAsMarkdown.astro';
+import ChatAboutThis from '../../../../components/ui/ChatAboutThis.astro';
 import { getCollection, render } from 'astro:content';
 import RelatedContent from '../../../../components/crosslinks/RelatedContent.astro';
 import { getSlugFromId, getTopicBySlug, resolveRelatedFAQs, resolveRelatedVideos } from '../../../../lib/collections';
+import { buildVideoSchema, buildBreadcrumbSchema } from '../../../../lib/structured-data';
 
 export async function getStaticPaths() {
   const videos = await getCollection('videos');
@@ -28,6 +31,20 @@ const relatedVideos = await resolveRelatedVideos(entry.data.relatedVideos);
 // Determine if this is vertical content (short or vertical video)
 const isVertical = entry.data.format === "short" || entry.data.orientation === "vertical";
 const isShort = entry.data.format === "short";
+
+const pageUrl = Astro.url.href;
+const videoSchema = buildVideoSchema({
+  title: entry.data.title,
+  description: entry.data.description || '',
+  youtubeId: entry.data.youtubeId,
+  duration: entry.data.duration,
+});
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Topics', url: new URL('/topics/', Astro.site).href },
+  { name: topic?.data.title || topicSlug!, url: new URL(`/topics/${topicSlug}/`, Astro.site).href },
+  { name: 'Videos', url: new URL(`/topics/${topicSlug}/videos/`, Astro.site).href },
+  { name: entry.data.title, url: pageUrl },
+]);
 ---
 
 <PageLayout title={entry.data.title} description={entry.data.description}>
@@ -38,6 +55,9 @@ const isShort = entry.data.format === "short";
       { label: 'Videos', href: `/topics/${topicSlug}/videos/` },
       { label: entry.data.title },
     ]} />
+
+    <script type="application/ld+json" set:html={JSON.stringify(videoSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 
     {isVertical ? (
       <!-- Vertical / Short: side-by-side on desktop, stacked on mobile -->
@@ -71,8 +91,13 @@ const isShort = entry.data.format === "short";
             {entry.data.description}
           </p>
 
-          <div class="prose">
+          <article class="prose">
             <Content />
+          </article>
+
+          <div class="mt-[var(--spacing-xl)] flex flex-wrap items-center gap-2 border-t border-[var(--color-border-default)] pt-[var(--spacing-lg)]">
+            <CopyAsMarkdown />
+            <ChatAboutThis title={entry.data.title} contentType="video" excerpt={entry.data.description || ''} pageUrl={pageUrl} />
           </div>
 
           <RelatedContent faqs={relatedFAQs} videos={relatedVideos}  />
@@ -105,8 +130,13 @@ const isShort = entry.data.format === "short";
             {entry.data.description}
           </p>
 
-          <div class="prose">
+          <article class="prose">
             <Content />
+          </article>
+
+          <div class="mt-[var(--spacing-xl)] flex flex-wrap items-center gap-2 border-t border-[var(--color-border-default)] pt-[var(--spacing-lg)]">
+            <CopyAsMarkdown />
+            <ChatAboutThis title={entry.data.title} contentType="video" excerpt={entry.data.description || ''} pageUrl={pageUrl} />
           </div>
 
           <RelatedContent faqs={relatedFAQs} videos={relatedVideos}  />

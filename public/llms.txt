@@ -1,0 +1,19 @@
+# Liberty Lighthouse
+
+> A classical liberal resource for understanding India's policy landscape through curated FAQs, video curricula, and guided syllabi. A project of the Centre for Civil Society.
+
+## Topics
+- [Education](/topics/education/): FAQs, videos, and syllabus on education policy in India
+- [Agriculture](/topics/agriculture/): FAQs, videos, and syllabus on agriculture policy in India
+
+## Content Types
+- FAQs: Curated question-answer pairs on Indian policy — available at /topics/{topic}/faq/
+- Videos: YouTube video curricula with notes — available at /topics/{topic}/videos/
+- Guided Syllabi: Curated reading lists with books, papers, articles — available at /topics/{topic}/syllabus/
+
+## About
+- [About Liberty Lighthouse](/about/): Mission, purpose, and the Centre for Civil Society
+- [Search](/search/): Full-text search across all content
+
+## Full Content
+- [Full content dump for LLMs](/llms-full.txt): All FAQ content, video descriptions, and syllabus text as plain Markdown

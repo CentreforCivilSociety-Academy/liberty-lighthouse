@@ -2,7 +2,10 @@
 import PageLayout from '../../../../layouts/PageLayout.astro';
 import TopicHeader from '../../../../components/topic/TopicHeader.astro';
 import ResourceTabs from '../../../../components/topic/ResourceTabs.astro';
+import CopyAsMarkdown from '../../../../components/ui/CopyAsMarkdown.astro';
+import ChatAboutThis from '../../../../components/ui/ChatAboutThis.astro';
 import { getAllTopics, getTopicBySlug, getTopicResourceCounts } from '../../../../lib/collections';
+import { buildBreadcrumbSchema } from '../../../../lib/structured-data';
 import { marked } from 'marked';
 
 export async function getStaticPaths() {
@@ -17,6 +20,13 @@ const { topic: topicSlug } = Astro.params;
 const { topicData } = Astro.props;
 const counts = await getTopicResourceCounts(topicSlug!);
 const syllabusHtml = topicData.guidedSyllabus ? await marked.parse(topicData.guidedSyllabus) : '';
+
+const pageUrl = Astro.url.href;
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Topics', url: new URL('/topics/', Astro.site).href },
+  { name: topicData.title, url: new URL(`/topics/${topicSlug}/`, Astro.site).href },
+  { name: 'Syllabus', url: pageUrl },
+]);
 ---
 
 <PageLayout title={`Syllabus — ${topicData.title}`} description={`Guided learning path for ${topicData.title.toLowerCase()} policy in India.`}>
@@ -24,10 +34,16 @@ const syllabusHtml = topicData.guidedSyllabus ? await marked.parse(topicData.gui
     <TopicHeader title={topicData.title} description={topicData.description} slug={topicSlug!} />
     <ResourceTabs topicSlug={topicSlug!} faqCount={counts.faqCount} videoCount={counts.videoCount} hasSyllabus={counts.hasSyllabus} activeTab="syllabus" />
 
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
     {syllabusHtml ? (
-      <article class="prose mx-auto">
+      <article class="prose mx-auto" data-content-body>
         <Fragment set:html={syllabusHtml} />
       </article>
+      <div class="max-w-[var(--prose-max-width)] mx-auto mt-[var(--spacing-xl)] flex flex-wrap items-center gap-2 border-t border-[var(--color-border-default)] pt-[var(--spacing-lg)]">
+        <CopyAsMarkdown />
+        <ChatAboutThis title={`${topicData.title} Guided Syllabus`} contentType="syllabus" excerpt={`Guided learning path for ${topicData.title.toLowerCase()} policy in India.`} pageUrl={pageUrl} />
+      </div>
     ) : (
       <p class="text-[var(--color-text-tertiary)] text-center py-[var(--spacing-2xl)]">No guided syllabus available yet.</p>
     )}

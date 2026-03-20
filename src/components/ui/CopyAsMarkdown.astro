@@ -1,0 +1,126 @@
+---
+// CopyAsMarkdown.astro — Copy page content as Markdown
+---
+
+<div class="copy-markdown-controls flex items-center gap-2 text-sm">
+  <button
+    id="copy-md-btn"
+    class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-[var(--radius-sm)] border border-[var(--color-border-default)] bg-[var(--color-bg-card)] text-[var(--color-text-secondary)] hover:bg-[var(--color-bg-section)] hover:text-[var(--color-text-primary)] transition-colors cursor-pointer"
+    title="Copy content as Markdown"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="14" height="14" x="8" y="8" rx="2" ry="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/></svg>
+    <span id="copy-md-label">Copy as Markdown</span>
+  </button>
+  <button
+    id="view-md-btn"
+    class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-[var(--radius-sm)] border border-[var(--color-border-default)] bg-[var(--color-bg-card)] text-[var(--color-text-secondary)] hover:bg-[var(--color-bg-section)] hover:text-[var(--color-text-primary)] transition-colors cursor-pointer"
+    title="Toggle Markdown view"
+  >
+    <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 7 4 4 20 4 20 7"/><line x1="9" x2="15" y1="20" y2="20"/><line x1="12" x2="12" y1="4" y2="20"/></svg>
+    <span id="view-md-label">View as Markdown</span>
+  </button>
+</div>
+
+<script is:inline>
+(function() {
+  let turndownLoaded = false;
+  let TurndownService = null;
+  let markdownVisible = false;
+  let originalHTML = null;
+  let markdownPre = null;
+
+  function loadTurndown() {
+    return new Promise(function(resolve, reject) {
+      if (turndownLoaded) { resolve(TurndownService); return; }
+      var script = document.createElement('script');
+      script.src = 'https://unpkg.com/turndown@7.2.0/dist/turndown.js';
+      script.onload = function() {
+        TurndownService = window.TurndownService;
+        turndownLoaded = true;
+        resolve(TurndownService);
+      };
+      script.onerror = reject;
+      document.head.appendChild(script);
+    });
+  }
+
+  function getArticle() {
+    return document.querySelector('article') || document.querySelector('[role="article"]') || document.querySelector('#main-content');
+  }
+
+  function getCleanContent() {
+    // Prefer a marked content body if available
+    var contentBody = document.querySelector('[data-content-body]');
+    if (contentBody) return contentBody.innerHTML;
+    // Otherwise clone the article and strip non-content elements
+    var article = getArticle();
+    if (!article) return '';
+    var clone = article.cloneNode(true);
+    clone.querySelectorAll('script, .copy-markdown-controls, .chat-about-this, [data-related-content], #copy-md-btn, #view-md-btn, #chat-dropdown-btn, #chat-dropdown-menu, #md-view-pre').forEach(function(el) { el.remove(); });
+    return clone.innerHTML;
+  }
+
+  function convertToMarkdown(Turndown) {
+    var html = getCleanContent();
+    if (!html) return '';
+    var td = new Turndown({
+      headingStyle: 'atx',
+      codeBlockStyle: 'fenced',
+      emDelimiter: '*',
+    });
+    return td.turndown(html);
+  }
+
+  var copyBtn = document.getElementById('copy-md-btn');
+  var copyLabel = document.getElementById('copy-md-label');
+  var viewBtn = document.getElementById('view-md-btn');
+  var viewLabel = document.getElementById('view-md-label');
+
+  if (copyBtn) {
+    copyBtn.addEventListener('click', function() {
+      loadTurndown().then(function(Turndown) {
+        var md = convertToMarkdown(Turndown);
+        navigator.clipboard.writeText(md).then(function() {
+          copyLabel.textContent = 'Copied!';
+          setTimeout(function() { copyLabel.textContent = 'Copy as Markdown'; }, 2000);
+        });
+      });
+    });
+  }
+
+  if (viewBtn) {
+    viewBtn.addEventListener('click', function() {
+      var article = getArticle();
+      if (!article) return;
+      if (!markdownVisible) {
+        loadTurndown().then(function(Turndown) {
+          var md = convertToMarkdown(Turndown);
+          // Hide all direct children of article except the buttons wrapper
+          Array.from(article.children).forEach(function(child) {
+            if (child.querySelector('#copy-md-btn') || child.querySelector('#chat-dropdown-btn') || child.id === 'md-view-pre') return;
+            child.setAttribute('data-md-hidden', '');
+            child.style.display = 'none';
+          });
+          markdownPre = document.createElement('pre');
+          markdownPre.id = 'md-view-pre';
+          markdownPre.textContent = md;
+          markdownPre.style.cssText = 'white-space: pre-wrap; word-wrap: break-word; font-family: var(--font-mono); font-size: 0.875rem; line-height: 1.6; padding: 1.5rem; background: var(--color-bg-section); color: var(--color-text-primary); border-radius: var(--radius-md); overflow-x: auto;';
+          article.appendChild(markdownPre);
+          viewLabel.textContent = 'View as HTML';
+          markdownVisible = true;
+        });
+      } else {
+        // Remove the pre, restore hidden children
+        var pre = document.getElementById('md-view-pre');
+        if (pre) pre.remove();
+        article.querySelectorAll('[data-md-hidden]').forEach(function(child) {
+          child.removeAttribute('data-md-hidden');
+          child.style.display = '';
+        });
+        viewLabel.textContent = 'View as Markdown';
+        markdownVisible = false;
+      }
+    });
+  }
+})();
+</script>

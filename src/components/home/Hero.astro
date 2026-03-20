@@ -20,8 +20,8 @@ import Button from '../ui/Button.astro';
 
       <!-- Display title -->
       <h1
-        class="hero-title text-[clamp(2rem,5vw,var(--hero-title-size))] font-[800] tracking-[-0.025em] leading-[1.05] text-[var(--color-text-on-dark)] mb-[var(--spacing-xl)] fade-up fade-up-delay-1"
-        style="font-family: var(--font-display); font-optical-sizing: auto; text-wrap: balance;"
+        class="hero-title font-[800] tracking-[-0.025em] leading-[1.05] text-[var(--color-text-on-dark)] mb-[var(--spacing-xl)] fade-up fade-up-delay-1"
+        style="font-family: var(--font-display); font-optical-sizing: auto; text-wrap: balance; font-size: clamp(2rem, calc(4vw + 1.5rem), var(--hero-title-size));"
       >
         Liberty Lighthouse
       </h1>

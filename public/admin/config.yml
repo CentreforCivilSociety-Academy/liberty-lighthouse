@@ -419,6 +419,102 @@ collections:
             default: "#6B3A1F"
             hint: "The color shown in the browser's address bar and tab on mobile devices. Usually matches the primary color. Default: #6B3A1F"
 
+      # ── AI & Search Crawlers ──
+      - name: "crawlers"
+        label: "AI & Search Crawlers"
+        file: "src/content/settings/crawlers.json"
+        description: "Control which AI services and search engines can access your site content."
+        fields:
+          - label: "OpenAI Training Bot (GPTBot)"
+            name: "gptBot"
+            widget: "select"
+            options:
+              - { label: "Allow (Recommended)", value: "allow" }
+              - { label: "Block", value: "block" }
+            default: "allow"
+            hint: "Collects content to train OpenAI models (like ChatGPT). Allowing means your content may help improve future AI responses about Indian policy."
+
+          - label: "Anthropic Training Bot (ClaudeBot)"
+            name: "claudeBot"
+            widget: "select"
+            options:
+              - { label: "Allow (Recommended)", value: "allow" }
+              - { label: "Block", value: "block" }
+            default: "allow"
+            hint: "Collects content to train Anthropic's Claude models. Allowing means your content may help Claude learn about Indian policy topics."
+
+          - label: "Google AI Training Bot (Google-Extended)"
+            name: "googleExtended"
+            widget: "select"
+            options:
+              - { label: "Allow (Recommended)", value: "allow" }
+              - { label: "Block", value: "block" }
+            default: "allow"
+            hint: "Collects content for Google AI products like Gemini and AI Overviews. Separate from regular Google Search, which always has access."
+
+          - label: "Common Crawl Bot (CCBot)"
+            name: "ccBot"
+            widget: "select"
+            options:
+              - { label: "Allow (Recommended)", value: "allow" }
+              - { label: "Block", value: "block" }
+            default: "allow"
+            hint: "Common Crawl is a non-profit open archive of the web. Many AI companies and researchers use this archive for training."
+
+          - label: "ChatGPT Search Bot (OAI-SearchBot)"
+            name: "oaiSearchBot"
+            widget: "select"
+            options:
+              - { label: "Allow (Recommended)", value: "allow" }
+              - { label: "Block", value: "block" }
+            default: "allow"
+            hint: "Fetches your page when someone asks ChatGPT a question, to include in the answer with a link back to your site."
+
+          - label: "Claude Search Bot (Claude-SearchBot)"
+            name: "claudeSearchBot"
+            widget: "select"
+            options:
+              - { label: "Allow (Recommended)", value: "allow" }
+              - { label: "Block", value: "block" }
+            default: "allow"
+            hint: "Fetches your page when someone asks Claude a question, to include in the answer with a link back to your site."
+
+          - label: "ChatGPT User Bot (ChatGPT-User)"
+            name: "chatgptUser"
+            widget: "select"
+            options:
+              - { label: "Allow (Recommended)", value: "allow" }
+              - { label: "Block", value: "block" }
+            default: "allow"
+            hint: "When a ChatGPT user shares a link to your site in a conversation, this bot fetches the page so ChatGPT can read and discuss it."
+
+          - label: "Claude User Bot (Claude-User)"
+            name: "claudeUser"
+            widget: "select"
+            options:
+              - { label: "Allow (Recommended)", value: "allow" }
+              - { label: "Block", value: "block" }
+            default: "allow"
+            hint: "When a Claude user shares a link to your site, this bot fetches the page so Claude can read and discuss it."
+
+          - label: "Perplexity Bot"
+            name: "perplexityBot"
+            widget: "select"
+            options:
+              - { label: "Allow (Recommended)", value: "allow" }
+              - { label: "Block", value: "block" }
+            default: "allow"
+            hint: "Perplexity is an AI-powered search engine. Fetches your content to include in search results with citations."
+
+          - label: "Apple AI Bot (Applebot-Extended)"
+            name: "applebotExtended"
+            widget: "select"
+            options:
+              - { label: "Allow (Recommended)", value: "allow" }
+              - { label: "Block", value: "block" }
+            default: "allow"
+            hint: "Apple uses this for Apple Intelligence features (Siri, Safari suggestions). Regular Apple search still works if blocked."
+
   # ─────────────────────────────────────────────
   # Topics (admin-only — rarely edited)
   # ─────────────────────────────────────────────

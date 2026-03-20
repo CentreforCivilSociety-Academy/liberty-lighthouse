@@ -2,8 +2,11 @@
 import ProseLayout from '../../../../layouts/ProseLayout.astro';
 import ContentTypeBadge from '../../../../components/ui/ContentTypeBadge.astro';
 import RelatedContent from '../../../../components/crosslinks/RelatedContent.astro';
+import CopyAsMarkdown from '../../../../components/ui/CopyAsMarkdown.astro';
+import ChatAboutThis from '../../../../components/ui/ChatAboutThis.astro';
 import { getCollection, render } from 'astro:content';
 import { getSlugFromId, getTopicBySlug, resolveRelatedFAQs, resolveRelatedVideos } from '../../../../lib/collections';
+import { buildFAQSchema, buildBreadcrumbSchema } from '../../../../lib/structured-data';
 
 export async function getStaticPaths() {
   const faqs = await getCollection('faqs');
@@ -23,6 +26,15 @@ const { Content } = await render(entry);
 
 const relatedFAQs = await resolveRelatedFAQs(entry.data.relatedFAQs);
 const relatedVideos = await resolveRelatedVideos(entry.data.relatedVideos);
+
+const pageUrl = Astro.url.href;
+const faqSchema = buildFAQSchema([{ question: entry.data.question, answer: entry.data.question }]);
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Topics', url: new URL('/topics/', Astro.site).href },
+  { name: topic?.data.title || topicSlug!, url: new URL(`/topics/${topicSlug}/`, Astro.site).href },
+  { name: 'FAQ', url: new URL(`/topics/${topicSlug}/faq/`, Astro.site).href },
+  { name: entry.data.question, url: pageUrl },
+]);
 ---
 
 <ProseLayout
@@ -35,6 +47,9 @@ const relatedVideos = await resolveRelatedVideos(entry.data.relatedVideos);
     { label: entry.data.question },
   ]}
 >
+  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
   <div class="mb-[var(--spacing-lg)]">
     <div class="flex items-center gap-[var(--spacing-sm)] mb-[var(--spacing-md)]">
       <ContentTypeBadge type="faq" />
@@ -45,10 +60,17 @@ const relatedVideos = await resolveRelatedVideos(entry.data.relatedVideos);
         <span class="text-[0.875rem] text-[var(--color-text-muted)]">Updated {entry.data.updatedAt}</span>
       )}
     </div>
-    <h1>{entry.data.question}</h1>
   </div>
 
-  <Content />
+  <div data-content-body>
+    <h1>{entry.data.question}</h1>
+    <Content />
+  </div>
+
+  <div class="mt-[var(--spacing-xl)] flex flex-wrap items-center gap-2 border-t border-[var(--color-border-default)] pt-[var(--spacing-lg)]">
+    <CopyAsMarkdown />
+    <ChatAboutThis title={entry.data.question} contentType="FAQ" excerpt={entry.data.question} pageUrl={pageUrl} />
+  </div>
 
   <RelatedContent faqs={relatedFAQs} videos={relatedVideos}  />
 </ProseLayout>

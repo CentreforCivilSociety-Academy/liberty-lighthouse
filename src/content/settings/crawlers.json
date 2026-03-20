@@ -1,0 +1,12 @@
+{
+  "gptBot": "allow",
+  "claudeBot": "allow",
+  "googleExtended": "allow",
+  "ccBot": "allow",
+  "oaiSearchBot": "allow",
+  "claudeSearchBot": "allow",
+  "chatgptUser": "allow",
+  "claudeUser": "allow",
+  "perplexityBot": "allow",
+  "applebotExtended": "allow"
+}

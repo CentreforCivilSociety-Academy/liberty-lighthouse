@@ -4,6 +4,7 @@ import TopicHeader from '../../../components/topic/TopicHeader.astro';
 import { getAllTopics, getTopicResourceCounts, getFaqsByTopic, getVideosByTopic } from '../../../lib/collections';
 import Card from '../../../components/ui/Card.astro';
 import ContentTypeBadge from '../../../components/ui/ContentTypeBadge.astro';
+import { buildBreadcrumbSchema } from '../../../lib/structured-data';
 
 export async function getStaticPaths() {
   const topics = await getAllTopics();
@@ -18,10 +19,16 @@ const { topicData } = Astro.props;
 const counts = await getTopicResourceCounts(topicSlug!);
 const faqs = await getFaqsByTopic(topicSlug!);
 const videos = await getVideosByTopic(topicSlug!);
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Topics', url: new URL('/topics/', Astro.site).href },
+  { name: topicData.title, url: Astro.url.href },
+]);
 ---
 
 <PageLayout title={topicData.title} description={topicData.description}>
   <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
     <TopicHeader title={topicData.title} description={topicData.description} slug={topicSlug!} />
 
     <!-- Inline summary of all resource types -->

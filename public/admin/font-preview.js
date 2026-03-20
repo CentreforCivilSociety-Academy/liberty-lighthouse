@@ -112,6 +112,204 @@
   document.head.appendChild(style);
 
   /* ═══════════════════════════════════════════════════
+   * Apply site typography to CMS markdown editors
+   * Fetches current font settings and injects CSS
+   * that styles all rich-text editors (ProseMirror,
+   * Slate, and raw textareas) with the site's fonts.
+   * ═══════════════════════════════════════════════════ */
+
+  function loadEditorTypography() {
+    fetch('/src/content/settings/typography.json')
+      .then(function (r) { return r.ok ? r.json() : null; })
+      .catch(function () { return null; })
+      .then(function (typo) {
+        if (!typo) {
+          typo = {
+            displayFont: 'Fraunces',
+            bodyFont: 'Source Sans 3',
+            monoFont: 'JetBrains Mono',
+            h1Size: 2,
+            h2Size: 1.5,
+            h3Size: 1.125,
+            baseLineHeight: 1.7,
+          };
+        }
+
+        var display = "'" + typo.displayFont + "'";
+        var body = "'" + typo.bodyFont + "'";
+        var mono = "'" + typo.monoFont + "'";
+        var lh = typo.baseLineHeight || 1.7;
+
+        // Load the active fonts specifically (with weights needed for editing)
+        var editorFontsLink = document.createElement('link');
+        editorFontsLink.rel = 'stylesheet';
+        editorFontsLink.href = 'https://fonts.googleapis.com/css2?family=' +
+          typo.displayFont.replace(/ /g, '+') + ':wght@400;600;700;800&family=' +
+          typo.bodyFont.replace(/ /g, '+') + ':wght@300;400;500;600;700&family=' +
+          typo.monoFont.replace(/ /g, '+') + ':wght@400;500&display=swap';
+        document.head.appendChild(editorFontsLink);
+
+        var editorCSS = [
+          '/* ── Liberty Lighthouse editor typography ── */',
+          '',
+          '/* Rich-text editor body (ProseMirror / Slate) */',
+          '[data-slate-editor], .ProseMirror, .cms-editor-visual, [contenteditable="true"] {',
+          '  font-family: ' + body + ' !important;',
+          '  line-height: ' + lh + ' !important;',
+          '  color: #1a1612 !important;',
+          '  font-size: 16px !important;',
+          '}',
+          '',
+          '/* Headings inside the editor */',
+          '[data-slate-editor] h1, .ProseMirror h1, [contenteditable="true"] h1 {',
+          '  font-family: ' + display + ' !important;',
+          '  font-size: ' + typo.h1Size + 'rem !important;',
+          '  font-weight: 700 !important;',
+          '  line-height: 1.15 !important;',
+          '  color: #1a1612 !important;',
+          '  margin: 1.2em 0 0.4em !important;',
+          '}',
+          '[data-slate-editor] h2, .ProseMirror h2, [contenteditable="true"] h2 {',
+          '  font-family: ' + display + ' !important;',
+          '  font-size: ' + typo.h2Size + 'rem !important;',
+          '  font-weight: 600 !important;',
+          '  line-height: 1.2 !important;',
+          '  color: #1a1612 !important;',
+          '  margin: 1em 0 0.4em !important;',
+          '}',
+          '[data-slate-editor] h3, .ProseMirror h3, [contenteditable="true"] h3 {',
+          '  font-family: ' + display + ' !important;',
+          '  font-size: ' + typo.h3Size + 'rem !important;',
+          '  font-weight: 600 !important;',
+          '  line-height: 1.25 !important;',
+          '  color: #1a1612 !important;',
+          '  margin: 0.8em 0 0.3em !important;',
+          '}',
+          '[data-slate-editor] h4, .ProseMirror h4, [contenteditable="true"] h4,',
+          '[data-slate-editor] h5, .ProseMirror h5, [contenteditable="true"] h5,',
+          '[data-slate-editor] h6, .ProseMirror h6, [contenteditable="true"] h6 {',
+          '  font-family: ' + display + ' !important;',
+          '  font-weight: 600 !important;',
+          '  line-height: 1.3 !important;',
+          '  color: #1a1612 !important;',
+          '}',
+          '',
+          '/* Paragraphs */',
+          '[data-slate-editor] p, .ProseMirror p, [contenteditable="true"] p {',
+          '  font-family: ' + body + ' !important;',
+          '  line-height: ' + lh + ' !important;',
+          '  margin: 0 0 0.8em !important;',
+          '}',
+          '',
+          '/* Lists */',
+          '[data-slate-editor] ul, [data-slate-editor] ol,',
+          '.ProseMirror ul, .ProseMirror ol,',
+          '[contenteditable="true"] ul, [contenteditable="true"] ol {',
+          '  font-family: ' + body + ' !important;',
+          '  line-height: ' + lh + ' !important;',
+          '}',
+          '',
+          '/* Inline code */',
+          '[data-slate-editor] code, .ProseMirror code, [contenteditable="true"] code {',
+          '  font-family: ' + mono + ' !important;',
+          '  font-size: 0.875em !important;',
+          '  background: #f7f3ef !important;',
+          '  padding: 2px 6px !important;',
+          '  border-radius: 4px !important;',
+          '}',
+          '',
+          '/* Code blocks */',
+          '[data-slate-editor] pre, .ProseMirror pre, [contenteditable="true"] pre {',
+          '  font-family: ' + mono + ' !important;',
+          '  font-size: 0.875em !important;',
+          '  background: #1a1612 !important;',
+          '  color: #faf7f4 !important;',
+          '  padding: 16px 20px !important;',
+          '  border-radius: 8px !important;',
+          '  overflow-x: auto !important;',
+          '}',
+          '[data-slate-editor] pre code, .ProseMirror pre code, [contenteditable="true"] pre code {',
+          '  background: transparent !important;',
+          '  padding: 0 !important;',
+          '  color: inherit !important;',
+          '}',
+          '',
+          '/* Blockquotes */',
+          '[data-slate-editor] blockquote, .ProseMirror blockquote, [contenteditable="true"] blockquote {',
+          '  font-family: ' + body + ' !important;',
+          '  border-left: 3px solid #c4703c !important;',
+          '  padding-left: 1em !important;',
+          '  color: #5c524a !important;',
+          '  font-style: italic !important;',
+          '}',
+          '',
+          '/* Links */',
+          '[data-slate-editor] a, .ProseMirror a, [contenteditable="true"] a {',
+          '  color: #a96032 !important;',
+          '  text-decoration: underline !important;',
+          '}',
+          '',
+          '/* Strong / Bold */',
+          '[data-slate-editor] strong, .ProseMirror strong, [contenteditable="true"] strong {',
+          '  font-weight: 600 !important;',
+          '}',
+          '',
+          '/* Tables */',
+          '[data-slate-editor] table, .ProseMirror table, [contenteditable="true"] table {',
+          '  width: 100% !important;',
+          '  border-collapse: collapse !important;',
+          '  margin: 1em 0 !important;',
+          '  font-family: ' + body + ' !important;',
+          '}',
+          '[data-slate-editor] th, .ProseMirror th, [contenteditable="true"] th {',
+          '  font-weight: 600 !important;',
+          '  background: #f7f3ef !important;',
+          '  border: 1px solid #e8e2dc !important;',
+          '  padding: 0.5rem 0.75rem !important;',
+          '  text-align: left !important;',
+          '  font-family: ' + body + ' !important;',
+          '}',
+          '[data-slate-editor] td, .ProseMirror td, [contenteditable="true"] td {',
+          '  border: 1px solid #e8e2dc !important;',
+          '  padding: 0.5rem 0.75rem !important;',
+          '  vertical-align: top !important;',
+          '  font-family: ' + body + ' !important;',
+          '}',
+          '[data-slate-editor] caption, .ProseMirror caption, [contenteditable="true"] caption {',
+          '  caption-side: top !important;',
+          '  text-align: left !important;',
+          '  font-size: 0.875em !important;',
+          '  font-weight: 600 !important;',
+          '  color: #5c524a !important;',
+          '  padding-bottom: 0.5em !important;',
+          '}',
+          '',
+          '/* Raw markdown textarea fallback */',
+          '.cms-editor-raw textarea, [class*="RawEditor"] textarea {',
+          '  font-family: ' + mono + ' !important;',
+          '  font-size: 14px !important;',
+          '  line-height: 1.6 !important;',
+          '}',
+        ].join('\n');
+
+        var editorStyle = document.createElement('style');
+        editorStyle.id = 'll-editor-typography';
+        editorStyle.textContent = editorCSS;
+        document.head.appendChild(editorStyle);
+
+        // Also register as a preview style for the right panel iframes
+        if (window.CMS && window.CMS.registerPreviewStyle) {
+          try {
+            window.CMS.registerPreviewStyle(editorFontsLink.href);
+            window.CMS.registerPreviewStyle(editorCSS, { raw: true });
+          } catch (e) {
+            // Silently ignore if CMS isn't ready
+          }
+        }
+      });
+  }
+
+  /* ═══════════════════════════════════════════════════
    * Utility: extract font name from react-select text
    * ═══════════════════════════════════════════════════ */
 
@@ -496,6 +694,7 @@
   });
 
   function init() {
+    loadEditorTypography();
     registerPreviewTemplate();
     observer.observe(document.body, { childList: true, subtree: true });
     styleDropdownOptions();

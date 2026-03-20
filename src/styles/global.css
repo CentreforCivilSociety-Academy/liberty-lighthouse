@@ -44,9 +44,9 @@
   --shadow-inner: inset 0 1px 2px rgba(26, 22, 18, 0.05);
 
   /* Typography */
-  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
-  --font-body: 'Source Sans 3', 'Segoe UI', system-ui, sans-serif;
-  --font-mono: 'JetBrains Mono', 'Fira Code', 'Consolas', monospace;
+  --font-display: 'Fraunces';
+  --font-body: 'Source Sans 3';
+  --font-mono: 'JetBrains Mono';
 
   /* Spacing Scale */
   --spacing-xs: 0.25rem;
@@ -268,22 +268,73 @@
     border-radius: var(--radius-md);
   }
 
-  .prose table {
+  /* ── Table Styles (HTML + Markdown, including merged cells) ── */
+
+  table, .prose table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 1.5em;
+    font-variant-numeric: tabular-nums;
+    font-family: var(--font-body);
   }
 
-  .prose th, .prose td {
+  caption, .prose caption {
+    caption-side: top;
+    text-align: left;
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    padding-bottom: 0.75rem;
+    font-family: var(--font-body);
+  }
+
+  thead th, .prose thead th {
+    font-weight: 600;
+    color: var(--color-text-primary);
+    border-bottom: 2px solid var(--color-border-strong);
+    text-align: left;
+    padding: 0.75rem 1rem;
+    font-family: var(--font-body);
+    background-color: var(--color-bg-section);
+  }
+
+  tfoot td, .prose tfoot td {
+    font-weight: 600;
+    border-top: 2px solid var(--color-border-strong);
+    color: var(--color-text-secondary);
+    padding: 0.75rem 1rem;
+  }
+
+  td, .prose td,
+  th, .prose th {
     text-align: left;
     padding: 0.75rem 1rem;
     border-bottom: 1px solid var(--color-border-default);
+    vertical-align: top;
   }
 
-  .prose th {
-    font-weight: 600;
-    color: var(--color-text-primary);
-    border-bottom-width: 2px;
+  tbody tr:nth-child(even), .prose tbody tr:nth-child(even) {
+    background-color: var(--color-bg-section);
+  }
+
+  tbody tr:hover, .prose tbody tr:hover {
+    background-color: var(--color-bg-elevated);
+  }
+
+  td[colspan], th[colspan],
+  td[rowspan], th[rowspan] {
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin-bottom: 1.5em;
+  }
+
+  .table-responsive table {
+    margin-bottom: 0;
   }
 }
 
