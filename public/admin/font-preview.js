@@ -70,7 +70,6 @@
       body: 'Ideas that advance freedom, markets, and the rule of law.',
       headingSize: '26px',
       bodySize: '15px',
-      fallback: 'serif',
     },
     bodyFont: {
       label: 'Body Font Preview',
@@ -78,7 +77,6 @@
       body: 'Dive into India\u2019s most pressing policy questions through curated FAQs, video curricula, and guided syllabi.',
       headingSize: '18px',
       bodySize: '15px',
-      fallback: 'sans-serif',
     },
     monoFont: {
       label: 'Monospace Font Preview',
@@ -86,7 +84,6 @@
       body: 'const freedom = markets + rule_of_law;\nfunction lighthouse(topic) {\n  return curate(faqs, videos);\n}',
       headingSize: '15px',
       bodySize: '13px',
-      fallback: 'monospace',
     },
   };
 
@@ -140,21 +137,19 @@
     panel.innerHTML = [
       '<span class="ll-fp-badge">' + cfg.label + '</span>',
       '<p class="ll-fp-heading" style="font-size:' + cfg.headingSize +
-        ';font-family:\'' + fontName + '\',' + cfg.fallback + '">' + cfg.heading + '</p>',
+        ';font-family:\'' + fontName + '\'">' + cfg.heading + '</p>',
       '<p class="ll-fp-body" style="font-size:' + cfg.bodySize +
-        ';font-family:\'' + fontName + '\',' + cfg.fallback + '">' + cfg.body + '</p>',
+        ';font-family:\'' + fontName + '\'">' + cfg.body + '</p>',
     ].join('');
 
     return panel;
   }
 
   function updatePanel(panel, fieldName, fontName) {
-    var cfg = PREVIEWS[fieldName];
-    if (!cfg) return;
     var h = panel.querySelector('.ll-fp-heading');
     var b = panel.querySelector('.ll-fp-body');
-    if (h) h.style.fontFamily = "'" + fontName + "'," + cfg.fallback;
-    if (b) b.style.fontFamily = "'" + fontName + "'," + cfg.fallback;
+    if (h) h.style.fontFamily = "'" + fontName + "'";
+    if (b) b.style.fontFamily = "'" + fontName + "'";
   }
 
   /* ═══════════════════════════════════════════════════
@@ -245,7 +240,7 @@
       var text = (opt.textContent || '').trim();
       var font = extractFont(text);
       if (font && !opt.getAttribute('data-ll-styled')) {
-        opt.style.fontFamily = "'" + font + "', sans-serif";
+        opt.style.fontFamily = "'" + font + "'";
         opt.style.fontSize = '14px';
         opt.style.lineHeight = '1.5';
         opt.setAttribute('data-ll-styled', '1');
@@ -257,7 +252,7 @@
     values.forEach(function (val) {
       var font = extractFont(val.textContent);
       if (font) {
-        val.style.fontFamily = "'" + font + "', sans-serif";
+        val.style.fontFamily = "'" + font + "'";
         val.style.fontSize = '14px';
       }
     });
@@ -266,13 +261,13 @@
     document.querySelectorAll('select').forEach(function (sel) {
       var font = fontSet[sel.value] ? sel.value : extractFont(sel.options[sel.selectedIndex] ? sel.options[sel.selectedIndex].text : '');
       if (font) {
-        sel.style.fontFamily = "'" + font + "', sans-serif";
+        sel.style.fontFamily = "'" + font + "'";
         sel.style.fontSize = '14px';
       }
       for (var i = 0; i < sel.options.length; i++) {
         var optFont = extractFont(sel.options[i].text) || (fontSet[sel.options[i].value] ? sel.options[i].value : null);
         if (optFont) {
-          sel.options[i].style.fontFamily = "'" + optFont + "', sans-serif";
+          sel.options[i].style.fontFamily = "'" + optFont + "'";
         }
       }
     });
@@ -342,7 +337,7 @@
         var containerStyle = {
           padding: '32px 28px',
           background: 'linear-gradient(135deg, #fdfbf9 0%, #f7f3ef 100%)',
-          fontFamily: "'" + bodyFont + "', sans-serif",
+          fontFamily: "'" + bodyFont + "'",
           fontSize: (baseFontSize / 100 * 16) + 'px',
           lineHeight: baseLineHeight,
           color: '#1a1612',
@@ -370,7 +365,7 @@
         };
 
         var heroStyle = {
-          fontFamily: "'" + displayFont + "', serif",
+          fontFamily: "'" + displayFont + "'",
           fontSize: heroTitleSize + 'rem',
           fontWeight: '800',
           lineHeight: '1.05',
@@ -384,7 +379,7 @@
         };
 
         var h1Style = {
-          fontFamily: "'" + displayFont + "', serif",
+          fontFamily: "'" + displayFont + "'",
           fontSize: h1Size + 'rem',
           fontWeight: '700',
           lineHeight: '1.15',
@@ -393,7 +388,7 @@
         };
 
         var h2Style = {
-          fontFamily: "'" + displayFont + "', serif",
+          fontFamily: "'" + displayFont + "'",
           fontSize: h2Size + 'rem',
           fontWeight: '600',
           lineHeight: '1.2',
@@ -402,7 +397,7 @@
         };
 
         var h3Style = {
-          fontFamily: "'" + displayFont + "', serif",
+          fontFamily: "'" + displayFont + "'",
           fontSize: h3Size + 'rem',
           fontWeight: '600',
           lineHeight: '1.25',
@@ -411,7 +406,7 @@
         };
 
         var bodyTextStyle = {
-          fontFamily: "'" + bodyFont + "', sans-serif",
+          fontFamily: "'" + bodyFont + "'",
           fontSize: '1rem',
           lineHeight: baseLineHeight,
           color: '#5c524a',
@@ -419,7 +414,7 @@
         };
 
         var monoStyle = {
-          fontFamily: "'" + monoFont + "', monospace",
+          fontFamily: "'" + monoFont + "'",
           fontSize: '0.875rem',
           lineHeight: '1.5',
           color: '#5c524a',
