@@ -18,6 +18,51 @@ const fullTitle = title === siteTitle ? title : `${title} — ${siteTitle}`;
 const canonical = canonicalUrl || Astro.url.href;
 
 import '@/styles/global.css';
+import { getTypographySettings, getColorSettings } from '@/lib/design-settings';
+
+const typo = await getTypographySettings();
+const colors = await getColorSettings();
+
+const designSystemCSS = `
+  :root {
+    --font-display: ${typo.displayFontFamily};
+    --font-body: ${typo.bodyFontFamily};
+    --font-mono: ${typo.monoFontFamily};
+  }
+  html {
+    font-size: ${typo.baseFontSize}%;
+    line-height: ${typo.baseLineHeight};
+    --color-primary: ${colors.colorPrimary};
+    --color-primary-light: ${colors.colorPrimaryLight};
+    --color-accent: ${colors.colorAccent};
+    --color-accent-text: ${colors.colorAccentText};
+    --color-accent-soft: ${colors.colorAccentSoft};
+    --color-text-primary: ${colors.colorTextPrimary};
+    --color-text-secondary: ${colors.colorTextSecondary};
+    --color-text-tertiary: ${colors.colorTextTertiary};
+    --color-text-muted: ${colors.colorTextMuted};
+    --color-text-on-dark: ${colors.colorTextOnDark};
+    --color-bg-page: ${colors.colorBgPage};
+    --color-bg-section: ${colors.colorBgSection};
+    --color-bg-card: ${colors.colorBgCard};
+    --color-bg-elevated: ${colors.colorBgElevated};
+    --color-bg-dark: ${colors.colorBgDark};
+    --color-bg-dark-soft: ${colors.colorBgDarkSoft};
+    --color-border-default: ${colors.colorBorderDefault};
+    --color-border-strong: ${colors.colorBorderStrong};
+    --color-border-subtle: ${colors.colorBorderSubtle};
+    --color-border-focus: ${colors.colorBorderFocus};
+    --color-success: ${colors.colorSuccess};
+    --color-warning: ${colors.colorWarning};
+    --color-error: ${colors.colorError};
+    --radius-sm: ${colors.radiusSm}px;
+    --radius-md: ${colors.radiusMd}px;
+    --radius-lg: ${colors.radiusLg}px;
+  }
+  h1, .prose h1 { font-size: ${typo.h1Size}rem; }
+  h2, .prose h2 { font-size: ${typo.h2Size}rem; }
+  h3, .prose h3 { font-size: ${typo.h3Size}rem; }
+`;
 ---
 
 <!doctype html>
@@ -26,6 +71,7 @@ import '@/styles/global.css';
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="referrer" content="origin" />
 
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
@@ -47,15 +93,19 @@ import '@/styles/global.css';
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={new URL(ogImage, Astro.site)} />
 
-    <!-- Fonts -->
+    <!-- Fonts (loaded dynamically from CMS settings) -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href={typo.fontsUrl} />
+
+    <!-- Design System Overrides (CMS-driven) -->
+    <Fragment set:html={`<style>${designSystemCSS}</style>`} />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <!-- Theme color -->
-    <meta name="theme-color" content="#6B3A1F" />
+    <!-- Theme color (CMS-driven) -->
+    <meta name="theme-color" content={colors.themeColor} />
 
     <!-- Netlify Identity widget (needed to handle invite/confirmation tokens) -->
     <script is:inline src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
@@ -74,5 +124,24 @@ import '@/styles/global.css';
   <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <slot />
+    <script is:inline>
+      document.addEventListener('DOMContentLoaded', function() {
+        var hostname = window.location.hostname;
+        var source = hostname || 'libertylighthouse';
+        document.querySelectorAll('a[href^="http://"], a[href^="https://"]').forEach(function(a) {
+          try {
+            var url = new URL(a.href);
+            if (url.hostname === hostname) return;
+            if (!a.target) a.target = '_blank';
+            if (!a.rel) a.rel = 'noopener noreferrer';
+            if (!url.searchParams.has('utm_source')) {
+              url.searchParams.set('utm_source', source);
+              url.searchParams.set('utm_medium', 'website');
+              a.href = url.toString();
+            }
+          } catch(e) {}
+        });
+      });
+    </script>
   </body>
 </html>

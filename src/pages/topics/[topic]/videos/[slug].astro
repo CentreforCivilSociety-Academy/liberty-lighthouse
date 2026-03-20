@@ -4,7 +4,7 @@ import Breadcrumbs from '../../../../components/global/Breadcrumbs.astro';
 import ContentTypeBadge from '../../../../components/ui/ContentTypeBadge.astro';
 import { getCollection, render } from 'astro:content';
 import RelatedContent from '../../../../components/crosslinks/RelatedContent.astro';
-import { getSlugFromId, getTopicBySlug, resolveRelatedFAQs, resolveRelatedVideos, resolveRelatedSyllabus } from '../../../../lib/collections';
+import { getSlugFromId, getTopicBySlug, resolveRelatedFAQs, resolveRelatedVideos } from '../../../../lib/collections';
 
 export async function getStaticPaths() {
   const videos = await getCollection('videos');
@@ -24,7 +24,6 @@ const { Content } = await render(entry);
 
 const relatedFAQs = await resolveRelatedFAQs(entry.data.relatedFAQs);
 const relatedVideos = await resolveRelatedVideos(entry.data.relatedVideos);
-const relatedSyllabus = await resolveRelatedSyllabus(entry.data.relatedSyllabus);
 
 // Determine if this is vertical content (short or vertical video)
 const isVertical = entry.data.format === "short" || entry.data.orientation === "vertical";
@@ -67,7 +66,7 @@ const isShort = entry.data.format === "short";
             )}
           </div>
 
-          <h1 class="text-[2rem] font-[700] mb-[var(--spacing-md)]">{entry.data.title}</h1>
+          <h1 class="text-[1.75rem] font-[700] mb-[var(--spacing-md)]">{entry.data.title}</h1>
           <p class="text-[1.0625rem] text-[var(--color-text-secondary)] mb-[var(--spacing-2xl)] leading-relaxed">
             {entry.data.description}
           </p>
@@ -76,7 +75,7 @@ const isShort = entry.data.format === "short";
             <Content />
           </div>
 
-          <RelatedContent faqs={relatedFAQs} videos={relatedVideos} syllabus={relatedSyllabus} />
+          <RelatedContent faqs={relatedFAQs} videos={relatedVideos}  />
         </div>
       </div>
     ) : (
@@ -101,7 +100,7 @@ const isShort = entry.data.format === "short";
             )}
           </div>
 
-          <h1 class="text-[2rem] font-[700] mb-[var(--spacing-md)]">{entry.data.title}</h1>
+          <h1 class="text-[1.75rem] font-[700] mb-[var(--spacing-md)]">{entry.data.title}</h1>
           <p class="text-[1.0625rem] text-[var(--color-text-secondary)] mb-[var(--spacing-2xl)] leading-relaxed">
             {entry.data.description}
           </p>
@@ -110,7 +109,7 @@ const isShort = entry.data.format === "short";
             <Content />
           </div>
 
-          <RelatedContent faqs={relatedFAQs} videos={relatedVideos} syllabus={relatedSyllabus} />
+          <RelatedContent faqs={relatedFAQs} videos={relatedVideos}  />
         </div>
       </Fragment>
     )}

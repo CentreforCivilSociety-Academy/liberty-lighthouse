@@ -7,8 +7,6 @@ import { getSlugFromId, getContentUrl } from '../lib/collections';
 // Build search index at build time
 const faqs = await getCollection('faqs');
 const videos = await getCollection('videos');
-const syllabus = await getCollection('syllabus');
-
 const searchIndex = [
   ...faqs.filter((f) => !f.data.draft).map((f) => ({
     type: 'faq' as const,
@@ -26,13 +24,6 @@ const searchIndex = [
     duration: v.data.duration || null,
     format: v.data.format,
   })),
-  ...syllabus.filter((s) => !s.data.draft).map((s) => ({
-    type: 'syllabus' as const,
-    title: s.data.title,
-    topic: s.data.topic,
-    url: getContentUrl('syllabus', s.data.topic, s.id),
-    excerpt: s.data.description,
-  })),
 ];
 ---
 
@@ -43,7 +34,7 @@ const searchIndex = [
     </div>
 
     <div class="max-w-[48rem]">
-      <h1 class="text-[2.25rem] md:text-[2.75rem] font-[700] tracking-[-0.01em] mb-[var(--spacing-sm)] fade-up fade-up-delay-1" style="font-family: var(--font-display);">
+      <h1 class="text-[1.75rem] md:text-[2rem] font-[700] tracking-[-0.01em] mb-[var(--spacing-sm)] fade-up fade-up-delay-1" style="font-family: var(--font-display);">
         Search
       </h1>
       <p class="text-[1.0625rem] text-[var(--color-text-secondary)] leading-relaxed mb-[var(--spacing-xl)] fade-up fade-up-delay-2">
@@ -65,7 +56,7 @@ const searchIndex = [
   import { useState, useMemo, useRef, useEffect } from 'preact/hooks';
   import Fuse from 'fuse.js';
 
-  type ContentType = 'faq' | 'video' | 'syllabus';
+  type ContentType = 'faq' | 'video';
   type FilterType = 'all' | ContentType;
 
   interface SearchItem {
@@ -80,14 +71,12 @@ const searchIndex = [
   const typeConfig: Record<ContentType, { label: string; icon: string }> = {
     faq: { label: 'FAQ', icon: '?' },
     video: { label: 'Video', icon: '\u25B6' },
-    syllabus: { label: 'Syllabus', icon: '\u25C8' },
   };
 
   const filterTabs: { key: FilterType; label: string }[] = [
     { key: 'all', label: 'All' },
     { key: 'faq', label: 'FAQs' },
     { key: 'video', label: 'Videos' },
-    { key: 'syllabus', label: 'Syllabus' },
   ];
 
   // Search icon SVG path
@@ -153,7 +142,7 @@ const searchIndex = [
 
     // Counts per type
     const counts = useMemo(() => {
-      const c: Record<FilterType, number> = { all: allResults.length, faq: 0, video: 0, syllabus: 0 };
+      const c: Record<FilterType, number> = { all: allResults.length, faq: 0, video: 0 };
       for (const item of allResults) c[item.type]++;
       return c;
     }, [allResults]);
@@ -174,7 +163,7 @@ const searchIndex = [
             setQuery(e.target.value);
             setActiveFilter('all');
           },
-          placeholder: 'Search FAQs, videos, and syllabi\u2026',
+          placeholder: 'Search FAQs and videos\u2026',
           'aria-label': 'Search content',
           class: 'w-full pl-[2.75rem] pr-[var(--spacing-lg)] py-[0.875rem] text-[1.0625rem] bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[var(--radius-lg)] outline-none focus:border-[var(--color-border-focus)] focus:shadow-[0_0_0_3px_rgba(107,58,31,0.1)] transition-all duration-[var(--duration-normal)]',
         }),

@@ -9,6 +9,7 @@ const topics = defineCollection({
     description: z.string(),
     icon: z.string().optional(),
     order: z.number(),
+    guidedSyllabus: z.string().default(""),
   }),
 });
 
@@ -20,7 +21,6 @@ const faqs = defineCollection({
     order: z.number(),
     author: z.string().optional(),
     relatedVideos: z.array(z.string()).default([]),
-    relatedSyllabus: z.array(z.string()).default([]),
     relatedFAQs: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
     updatedAt: z.string().optional(),
@@ -40,27 +40,15 @@ const videos = defineCollection({
     speaker: z.string().optional(),
     description: z.string(),
     relatedFAQs: z.array(z.string()).default([]),
-    relatedSyllabus: z.array(z.string()).default([]),
     relatedVideos: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
     updatedAt: z.string().optional(),
   }),
 });
 
-const syllabus = defineCollection({
-  loader: glob({ pattern: '**/*.mdx', base: './src/content/syllabus' }),
-  schema: z.object({
-    title: z.string(),
-    topic: z.string(),
-    moduleNumber: z.number(),
-    estimatedTime: z.string().optional(),
-    description: z.string(),
-    relatedFAQs: z.array(z.string()).default([]),
-    relatedVideos: z.array(z.string()).default([]),
-    relatedSyllabus: z.array(z.string()).default([]),
-    draft: z.boolean().default(false),
-    updatedAt: z.string().optional(),
-  }),
+const settings = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/settings' }),
+  schema: z.object({}).passthrough(),
 });
 
-export const collections = { topics, faqs, videos, syllabus };
+export const collections = { topics, faqs, videos, settings };

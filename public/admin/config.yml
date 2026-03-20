@@ -6,10 +6,326 @@ local_backend: true
 
 publish_mode: editorial_workflow
 
-media_folder: "public/images/content"
-public_folder: "/images/content"
+media_folder: "src/assets/images/content"
+public_folder: "/src/assets/images/content"
 
 collections:
+  # ─────────────────────────────────────────────
+  # Site Settings (singleton files)
+  # ─────────────────────────────────────────────
+  - name: "settings"
+    label: "Site Settings"
+    description: "Customize the site's visual identity — fonts, colors, and layout. Changes take effect after the next site build."
+    files:
+      # ── Typography & Fonts ──
+      - name: "typography"
+        label: "Typography & Fonts"
+        file: "src/content/settings/typography.json"
+        fields:
+          - label: "Display Font (Headings)"
+            name: "displayFont"
+            widget: "select"
+            options:
+              - { label: "Fraunces — Warm old-style serif with optical sizing (default)", value: "Fraunces" }
+              - { label: "Playfair Display — High-contrast transitional serif, elegant and editorial", value: "Playfair Display" }
+              - { label: "Merriweather — Sturdy screen-optimized serif, excellent readability", value: "Merriweather" }
+              - { label: "Lora — Calligraphic contemporary serif, balanced and friendly", value: "Lora" }
+              - { label: "Libre Baskerville — Classic Baskerville revival, refined and traditional", value: "Libre Baskerville" }
+              - { label: "Cormorant Garamond — Light, graceful Garamond-inspired display face", value: "Cormorant Garamond" }
+              - { label: "EB Garamond — Claude Garamond revival, timeless book typography", value: "EB Garamond" }
+              - { label: "Crimson Text — Inspired by old-style typefaces, warm and readable", value: "Crimson Text" }
+              - { label: "Spectral — Google-commissioned serif designed for screen reading", value: "Spectral" }
+              - { label: "DM Serif Display — Compact display serif with low contrast, modern feel", value: "DM Serif Display" }
+              - { label: "Bitter — Slab serif designed for comfortable screen reading", value: "Bitter" }
+              - { label: "Noto Serif — Google's universal serif, supports 1000+ languages", value: "Noto Serif" }
+              - { label: "Vollkorn — Organic, sturdy serif with generous curves", value: "Vollkorn" }
+              - { label: "Alegreya — Dynamic serif with rhythm, ideal for long-form reading", value: "Alegreya" }
+              - { label: "Cardo — Large Unicode serif, scholarly and refined", value: "Cardo" }
+              - { label: "Gentium Plus — Elegant serif designed for multilingual text", value: "Gentium Plus" }
+              - { label: "PT Serif — ParaType's professional serif, balanced proportions", value: "PT Serif" }
+              - { label: "Zilla Slab — Mozilla's slab serif, bold and contemporary", value: "Zilla Slab" }
+              - { label: "Josefin Slab — Geometric slab serif with vintage elegance", value: "Josefin Slab" }
+              - { label: "Rokkitt — Friendly slab serif with a sturdy, approachable feel", value: "Rokkitt" }
+            default: "Fraunces"
+            hint: "The serif font used for all headings across the site — page titles like 'Education', section headings like 'Explore by Topic', and the hero title 'Liberty Lighthouse'. Default: Fraunces"
+
+          - label: "Body Font"
+            name: "bodyFont"
+            widget: "select"
+            options:
+              - { label: "Source Sans 3 — Adobe's open-source sans-serif, neutral and clean (default)", value: "Source Sans 3" }
+              - { label: "Inter — Designed for screens, tall x-height, excellent legibility", value: "Inter" }
+              - { label: "Open Sans — Friendly humanist sans-serif, widely used for web content", value: "Open Sans" }
+              - { label: "Roboto — Google's signature typeface, geometric with open curves", value: "Roboto" }
+              - { label: "Lato — Warm, stable, semi-rounded sans-serif", value: "Lato" }
+              - { label: "Nunito — Rounded sans-serif, approachable and modern", value: "Nunito" }
+              - { label: "Work Sans — Grotesque sans optimized for screen use at medium sizes", value: "Work Sans" }
+              - { label: "DM Sans — Low-contrast geometric sans-serif, clean and minimal", value: "DM Sans" }
+              - { label: "Poppins — Geometric sans with circular letterforms, contemporary feel", value: "Poppins" }
+              - { label: "Raleway — Elegant thin-weight sans-serif, works well at large sizes", value: "Raleway" }
+              - { label: "Outfit — Modern geometric sans with a friendly personality", value: "Outfit" }
+              - { label: "Plus Jakarta Sans — Fresh geometric sans with distinctive character", value: "Plus Jakarta Sans" }
+              - { label: "Noto Sans — Google's universal sans-serif, supports 1000+ languages", value: "Noto Sans" }
+              - { label: "Mukta — Open-source sans-serif with Devanagari support", value: "Mukta" }
+              - { label: "Rubik — Rounded corners, slightly playful geometric sans", value: "Rubik" }
+              - { label: "Cabin — Humanist sans with a warm, modern personality", value: "Cabin" }
+              - { label: "Karla — Grotesque sans-serif with quirky charm", value: "Karla" }
+              - { label: "Lexend — Designed to improve reading proficiency", value: "Lexend" }
+              - { label: "Figtree — Friendly geometric sans with open apertures", value: "Figtree" }
+              - { label: "Manrope — Semi-rounded geometric sans, modern and clean", value: "Manrope" }
+            default: "Source Sans 3"
+            hint: "The sans-serif font used for all body text — FAQ answers, video descriptions, navigation links, breadcrumbs, and buttons. Default: Source Sans 3"
+
+          - label: "Monospace Font"
+            name: "monoFont"
+            widget: "select"
+            options:
+              - { label: "JetBrains Mono — Developer-focused mono with ligatures (default)", value: "JetBrains Mono" }
+              - { label: "Fira Code — Programming ligatures, designed by Mozilla", value: "Fira Code" }
+              - { label: "Source Code Pro — Adobe's monospace companion to Source Sans", value: "Source Code Pro" }
+              - { label: "IBM Plex Mono — IBM's corporate monospace, neutral and precise", value: "IBM Plex Mono" }
+              - { label: "Roboto Mono — Google's monospace companion to Roboto", value: "Roboto Mono" }
+              - { label: "Space Mono — Fixed-width typeface with a retro, editorial feel", value: "Space Mono" }
+              - { label: "Inconsolata — Classic programming font, clean and condensed", value: "Inconsolata" }
+            default: "JetBrains Mono"
+            hint: "The monospace font used for code blocks and technical content. Default: JetBrains Mono"
+
+          - label: "Base Font Size (%)"
+            name: "baseFontSize"
+            widget: "number"
+            value_type: "float"
+            min: 75
+            max: 150
+            step: 6.25
+            default: 106.25
+            hint: "Controls the root font size that all other sizes scale from. 100% = 16px, 106.25% = 17px (default), 112.5% = 18px. Affects all body text, buttons, navigation, and metadata across every page."
+
+          - label: "Base Line Height"
+            name: "baseLineHeight"
+            widget: "number"
+            value_type: "float"
+            min: 1.0
+            max: 2.5
+            step: 0.1
+            default: 1.7
+            hint: "Line spacing multiplier for body text — controls vertical rhythm in FAQ answers, video descriptions, and all paragraph content. Lower = tighter lines, higher = more breathing room. Default: 1.7"
+
+          - label: "H1 Size (rem)"
+            name: "h1Size"
+            widget: "number"
+            value_type: "float"
+            min: 1.0
+            max: 5.0
+            step: 0.125
+            default: 2.0
+            hint: "Font size for main page headings — e.g., 'Education', 'Search', 'Topics', 'Page Not Found'. Measured in rem (relative to base font size). Default: 2rem"
+
+          - label: "H2 Size (rem)"
+            name: "h2Size"
+            widget: "number"
+            value_type: "float"
+            min: 0.75
+            max: 4.0
+            step: 0.125
+            default: 1.5
+            hint: "Font size for section headings within pages — e.g., 'Explore by Topic', 'About Liberty Lighthouse', 'Frequently Asked Questions' cards. Default: 1.5rem"
+
+          - label: "H3 Size (rem)"
+            name: "h3Size"
+            widget: "number"
+            value_type: "float"
+            min: 0.75
+            max: 3.0
+            step: 0.125
+            default: 1.125
+            hint: "Font size for smaller headings — e.g., individual video titles in the grid, FAQ question titles, sidebar headings, and card subheadings. Default: 1.125rem"
+
+      # ── Colors & Theme ──
+      - name: "colors"
+        label: "Colors & Theme"
+        file: "src/content/settings/colors.json"
+        fields:
+          # ── Core Identity ──
+          - label: "Primary Color"
+            name: "colorPrimary"
+            widget: "color"
+            default: "#6B3A1F"
+            hint: "The main brand color — used for the navigation bar accent, focus rings, link hover states, primary buttons, and the browser theme color. Default: #6B3A1F (warm brown)"
+
+          - label: "Primary Light"
+            name: "colorPrimaryLight"
+            widget: "color"
+            default: "#8B5E3C"
+            hint: "A lighter shade of the primary color — used for button hover states and subtle emphasis. Default: #8B5E3C"
+
+          - label: "Accent Color"
+            name: "colorAccent"
+            widget: "color"
+            default: "#C4703C"
+            hint: "Used for decorative elements — the hero ornamental rule, highlighted interactive elements, and selection backgrounds. Default: #C4703C (warm orange-brown)"
+
+          - label: "Accent Text Color"
+            name: "colorAccentText"
+            widget: "color"
+            default: "#A96032"
+            hint: "The color used for hyperlinks and interactive text throughout all pages. Default: #A96032"
+
+          - label: "Accent Soft"
+            name: "colorAccentSoft"
+            widget: "color"
+            default: "#D4924F"
+            hint: "A softer accent used for text selection highlight backgrounds. Default: #D4924F"
+
+          # ── Text Hierarchy ──
+          - label: "Text Primary"
+            name: "colorTextPrimary"
+            widget: "color"
+            default: "#1A1612"
+            hint: "Color of all main body text, headings, FAQ answers, and important content. Default: #1A1612 (near-black brown)"
+
+          - label: "Text Secondary"
+            name: "colorTextSecondary"
+            widget: "color"
+            default: "#5C524A"
+            hint: "Used for supporting text — topic descriptions, video summaries, breadcrumbs, and secondary labels. Default: #5C524A"
+
+          - label: "Text Tertiary"
+            name: "colorTextTertiary"
+            widget: "color"
+            default: "#7D726A"
+            hint: "Used for metadata — video duration, speaker names, timestamps, and low-emphasis labels. Default: #7D726A"
+
+          - label: "Text Muted"
+            name: "colorTextMuted"
+            widget: "color"
+            default: "#A89E96"
+            hint: "Lowest emphasis text — placeholder text in search input, disabled states, and decorative text. Default: #A89E96"
+
+          - label: "Text On Dark"
+            name: "colorTextOnDark"
+            widget: "color"
+            default: "#FAF7F4"
+            hint: "Text color used on dark backgrounds — the hero section title, footer text, and buttons on dark surfaces. Default: #FAF7F4 (warm off-white)"
+
+          # ── Surfaces & Backgrounds ──
+          - label: "Page Background"
+            name: "colorBgPage"
+            widget: "color"
+            default: "#FDFBF9"
+            hint: "The main page background color visible behind all content on every page. Default: #FDFBF9 (warm cream)"
+
+          - label: "Section Background"
+            name: "colorBgSection"
+            widget: "color"
+            default: "#F7F3EF"
+            hint: "Used for alternating content sections — the 'About' area, FAQ answer backgrounds, and search result cards. Default: #F7F3EF (light warm gray)"
+
+          - label: "Card Background"
+            name: "colorBgCard"
+            widget: "color"
+            default: "#FFFFFF"
+            hint: "Background color for cards — topic cards, video cards, FAQ cards, and content containers. Default: #FFFFFF (white)"
+
+          - label: "Elevated Background"
+            name: "colorBgElevated"
+            widget: "color"
+            default: "#FFF9F4"
+            hint: "Used for elevated or highlighted surfaces — tooltips, dropdown menus, and hover states on cards. Default: #FFF9F4"
+
+          - label: "Dark Background"
+            name: "colorBgDark"
+            widget: "color"
+            default: "#1A1612"
+            hint: "Used for the hero section, footer, code blocks, and dark-themed areas. Default: #1A1612 (dark charcoal)"
+
+          - label: "Dark Background Soft"
+            name: "colorBgDarkSoft"
+            widget: "color"
+            default: "#2C2520"
+            hint: "A slightly lighter dark background — used for footer link hover states and subtle contrast within dark sections. Default: #2C2520"
+
+          # ── Borders & Dividers ──
+          - label: "Border Default"
+            name: "colorBorderDefault"
+            widget: "color"
+            default: "#E8E2DC"
+            hint: "Color of card borders, table lines, dividers, and horizontal rules throughout the site. Default: #E8E2DC"
+
+          - label: "Border Strong"
+            name: "colorBorderStrong"
+            widget: "color"
+            default: "#D4CCC4"
+            hint: "A more prominent border color — used for table header borders, active input borders, and emphasized dividers. Default: #D4CCC4"
+
+          - label: "Border Subtle"
+            name: "colorBorderSubtle"
+            widget: "color"
+            default: "#F0EBE6"
+            hint: "A very light border — used for section separators, breadcrumb dividers, and subtle card outlines. Default: #F0EBE6"
+
+          - label: "Border Focus"
+            name: "colorBorderFocus"
+            widget: "color"
+            default: "#6B3A1F"
+            hint: "The focus ring color shown when keyboard-navigating — appears around buttons, links, and form inputs when focused. Default: #6B3A1F"
+
+          # ── Functional Colors ──
+          - label: "Success Color"
+            name: "colorSuccess"
+            widget: "color"
+            default: "#5C7A52"
+            hint: "Used for success states — form submission confirmations, positive status badges, and success messages. Default: #5C7A52 (muted green)"
+
+          - label: "Warning Color"
+            name: "colorWarning"
+            widget: "color"
+            default: "#B8863A"
+            hint: "Used for warning states — caution messages, draft badges, and attention-needed indicators. Default: #B8863A (amber)"
+
+          - label: "Error Color"
+            name: "colorError"
+            widget: "color"
+            default: "#A04030"
+            hint: "Used for error states — form validation errors, error messages, and destructive action indicators. Default: #A04030 (muted red)"
+
+          # ── Border Radius ──
+          - label: "Border Radius Small (px)"
+            name: "radiusSm"
+            widget: "number"
+            value_type: "int"
+            min: 0
+            max: 20
+            step: 1
+            default: 4
+            hint: "Rounding for small elements — badges, inline code, focus outlines, skip-link, and small buttons. Default: 4px"
+
+          - label: "Border Radius Medium (px)"
+            name: "radiusMd"
+            widget: "number"
+            value_type: "int"
+            min: 0
+            max: 32
+            step: 1
+            default: 8
+            hint: "Rounding for medium elements — content cards, search input, code blocks, and images in articles. Default: 8px"
+
+          - label: "Border Radius Large (px)"
+            name: "radiusLg"
+            widget: "number"
+            value_type: "int"
+            min: 0
+            max: 48
+            step: 1
+            default: 12
+            hint: "Rounding for large elements — video player container, featured content cards, and modal dialogs. Default: 12px"
+
+          # ── Browser Theme ──
+          - label: "Browser Theme Color"
+            name: "themeColor"
+            widget: "color"
+            default: "#6B3A1F"
+            hint: "The color shown in the browser's address bar and tab on mobile devices. Usually matches the primary color. Default: #6B3A1F"
+
   # ─────────────────────────────────────────────
   # Topics (admin-only — rarely edited)
   # ─────────────────────────────────────────────
