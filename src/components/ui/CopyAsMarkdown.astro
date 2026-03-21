@@ -104,7 +104,7 @@
           markdownPre = document.createElement('pre');
           markdownPre.id = 'md-view-pre';
           markdownPre.textContent = md;
-          markdownPre.style.cssText = 'white-space: pre-wrap; word-wrap: break-word; font-family: var(--font-mono); font-size: 0.875rem; line-height: 1.6; padding: 1.5rem; background: var(--color-bg-section); color: var(--color-text-primary); border-radius: var(--radius-md); overflow-x: auto;';
+          markdownPre.style.cssText = 'white-space: pre-wrap; word-wrap: break-word; font-family: var(--font-mono); font-size: 0.875rem; line-height: 1.6; padding: 1.5rem; background: var(--color-bg-card, #FFFFFF); color: #1A1612; border: 1px solid var(--color-border-default, #D4CDC4); border-radius: var(--radius-md); overflow-x: auto;';
           article.appendChild(markdownPre);
           viewLabel.textContent = 'View as HTML';
           markdownVisible = true;

@@ -86,18 +86,20 @@ const breadcrumbSchema = buildBreadcrumbSchema([
             )}
           </div>
 
-          <h1 class="text-[1.75rem] font-[700] mb-[var(--spacing-md)]">{entry.data.title}</h1>
-          <p class="text-[1.0625rem] text-[var(--color-text-secondary)] mb-[var(--spacing-2xl)] leading-relaxed">
-            {entry.data.description}
-          </p>
+          <div data-content-body>
+            <h1 class="text-[1.75rem] font-[700] mb-[var(--spacing-md)]">{entry.data.title}</h1>
+            <p class="text-[1.0625rem] text-[var(--color-text-secondary)] mb-[var(--spacing-2xl)] leading-relaxed">
+              {entry.data.description}
+            </p>
 
-          <article class="prose">
-            <Content />
-          </article>
+            <article class="prose">
+              <Content />
+            </article>
+          </div>
 
           <div class="mt-[var(--spacing-xl)] flex flex-wrap items-center gap-2 border-t border-[var(--color-border-default)] pt-[var(--spacing-lg)]">
             <CopyAsMarkdown />
-            <ChatAboutThis title={entry.data.title} contentType="video" excerpt={entry.data.description || ''} pageUrl={pageUrl} />
+            <ChatAboutThis title={entry.data.title} contentType="video" excerpt={entry.data.description || ''} />
           </div>
 
           <RelatedContent faqs={relatedFAQs} videos={relatedVideos}  />
@@ -125,18 +127,20 @@ const breadcrumbSchema = buildBreadcrumbSchema([
             )}
           </div>
 
-          <h1 class="text-[1.75rem] font-[700] mb-[var(--spacing-md)]">{entry.data.title}</h1>
-          <p class="text-[1.0625rem] text-[var(--color-text-secondary)] mb-[var(--spacing-2xl)] leading-relaxed">
-            {entry.data.description}
-          </p>
+          <div data-content-body>
+            <h1 class="text-[1.75rem] font-[700] mb-[var(--spacing-md)]">{entry.data.title}</h1>
+            <p class="text-[1.0625rem] text-[var(--color-text-secondary)] mb-[var(--spacing-2xl)] leading-relaxed">
+              {entry.data.description}
+            </p>
 
-          <article class="prose">
-            <Content />
-          </article>
+            <article class="prose">
+              <Content />
+            </article>
+          </div>
 
           <div class="mt-[var(--spacing-xl)] flex flex-wrap items-center gap-2 border-t border-[var(--color-border-default)] pt-[var(--spacing-lg)]">
             <CopyAsMarkdown />
-            <ChatAboutThis title={entry.data.title} contentType="video" excerpt={entry.data.description || ''} pageUrl={pageUrl} />
+            <ChatAboutThis title={entry.data.title} contentType="video" excerpt={entry.data.description || ''} />
           </div>
 
           <RelatedContent faqs={relatedFAQs} videos={relatedVideos}  />

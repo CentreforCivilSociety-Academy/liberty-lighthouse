@@ -3,35 +3,19 @@ interface Props {
   title: string;
   contentType: string;
   excerpt: string;
-  pageUrl: string;
 }
 
-const { title, contentType, excerpt, pageUrl } = Astro.props;
+const { title, contentType, excerpt } = Astro.props;
 
-// Build prompt (keep under 1500 chars for URL length limits)
-const prompt = `Discuss this ${contentType} from Liberty Lighthouse:\n\nTitle: ${title}\nURL: ${pageUrl}\n\n${excerpt.slice(0, 500)}`;
-const encodedPrompt = encodeURIComponent(prompt);
-
-const chatLinks = [
-  {
-    name: 'ChatGPT',
-    url: `https://chatgpt.com/?q=${encodedPrompt}`,
-    icon: 'chatgpt',
-  },
-  {
-    name: 'Claude',
-    url: `https://claude.ai/new?q=${encodedPrompt}`,
-    icon: 'claude',
-  },
-  {
-    name: 'Gemini',
-    url: `https://gemini.google.com/app`,
-    icon: 'gemini',
-  },
-];
+// Store prompt parts as data attributes; URL will be injected client-side
+const safeTruncatedExcerpt = excerpt.slice(0, 500);
 ---
 
-<div class="chat-about-this relative inline-block">
+<div class="chat-about-this relative inline-block"
+  data-chat-title={title}
+  data-chat-type={contentType}
+  data-chat-excerpt={safeTruncatedExcerpt}
+>
   <button
     id="chat-dropdown-btn"
     class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-[var(--radius-sm)] border border-[var(--color-border-default)] bg-[var(--color-bg-card)] text-[var(--color-text-secondary)] hover:bg-[var(--color-bg-section)] hover:text-[var(--color-text-primary)] transition-colors cursor-pointer text-sm"
@@ -49,31 +33,68 @@ const chatLinks = [
     class="absolute right-0 mt-1 w-48 rounded-[var(--radius-md)] border border-[var(--color-border-default)] bg-[var(--color-bg-card)] shadow-[var(--shadow-md)] z-50 hidden"
     role="menu"
   >
-    {chatLinks.map((link) => (
-      <a
-        href={link.url}
-        target="_blank"
-        rel="noopener noreferrer"
-        class="flex items-center gap-2 px-3 py-2 text-sm text-[var(--color-text-secondary)] hover:bg-[var(--color-bg-section)] hover:text-[var(--color-text-primary)] no-underline first:rounded-t-[var(--radius-md)] last:rounded-b-[var(--radius-md)]"
-        role="menuitem"
-      >
-        {link.name}
-        {link.name === 'Gemini' && (
-          <span class="text-xs text-[var(--color-text-muted)]">(no pre-fill)</span>
-        )}
-      </a>
-    ))}
+    <a
+      data-chat-service="chatgpt"
+      href="#"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="flex items-center gap-2 px-3 py-2 text-sm text-[var(--color-text-secondary)] hover:bg-[var(--color-bg-section)] hover:text-[var(--color-text-primary)] no-underline rounded-t-[var(--radius-md)]"
+      role="menuitem"
+    >ChatGPT</a>
+    <a
+      data-chat-service="claude"
+      href="#"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="flex items-center gap-2 px-3 py-2 text-sm text-[var(--color-text-secondary)] hover:bg-[var(--color-bg-section)] hover:text-[var(--color-text-primary)] no-underline"
+      role="menuitem"
+    >Claude</a>
+    <a
+      data-chat-service="gemini"
+      href="#"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="flex items-center gap-2 px-3 py-2 text-sm text-[var(--color-text-secondary)] hover:bg-[var(--color-bg-section)] hover:text-[var(--color-text-primary)] no-underline rounded-b-[var(--radius-md)]"
+      role="menuitem"
+    >Gemini <span class="text-xs text-[var(--color-text-muted)]">(no pre-fill)</span></a>
   </div>
 </div>
 
 <script is:inline>
 (function() {
+  var wrapper = document.querySelector('.chat-about-this');
   var btn = document.getElementById('chat-dropdown-btn');
   var menu = document.getElementById('chat-dropdown-menu');
-  if (!btn || !menu) return;
+  if (!wrapper || !btn || !menu) return;
+
+  var title = wrapper.getAttribute('data-chat-title') || '';
+  var contentType = wrapper.getAttribute('data-chat-type') || '';
+  var excerpt = wrapper.getAttribute('data-chat-excerpt') || '';
+
+  // Build prompt with the real page URL at runtime
+  function buildPrompt() {
+    var url = window.location.href;
+    return 'Discuss this ' + contentType + ' from Liberty Lighthouse:\n\nTitle: ' + title + '\nURL: ' + url + '\n\n' + excerpt;
+  }
+
+  // Set hrefs on first open
+  var linksBuilt = false;
+  function buildLinks() {
+    if (linksBuilt) return;
+    var prompt = buildPrompt();
+    var encoded = encodeURIComponent(prompt);
+    var chatgpt = menu.querySelector('[data-chat-service="chatgpt"]');
+    var claude = menu.querySelector('[data-chat-service="claude"]');
+    var gemini = menu.querySelector('[data-chat-service="gemini"]');
+    if (chatgpt) chatgpt.href = 'https://chatgpt.com/?q=' + encoded;
+    if (claude) claude.href = 'https://claude.ai/new?q=' + encoded;
+    if (gemini) gemini.href = 'https://gemini.google.com/app';
+    linksBuilt = true;
+  }
 
   btn.addEventListener('click', function(e) {
     e.stopPropagation();
+    buildLinks();
     var isOpen = !menu.classList.contains('hidden');
     menu.classList.toggle('hidden');
     btn.setAttribute('aria-expanded', String(!isOpen));

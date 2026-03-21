@@ -542,9 +542,22 @@ collections:
         hint: "A short summary of what this topic covers (1–2 sentences)."
       - label: "Icon"
         name: "icon"
-        widget: "string"
+        widget: "select"
         required: false
-        hint: "Icon name (e.g., book-open, sprout). Ask the developer if unsure."
+        options:
+          - { label: "📖 Book Open (education, reading)", value: "book-open" }
+          - { label: "🌱 Sprout (agriculture, growth)", value: "sprout" }
+          - { label: "💓 Heart Pulse (healthcare)", value: "heart-pulse" }
+          - { label: "🏛️ Landmark (governance, law)", value: "landmark" }
+          - { label: "💵 Banknote (economics, finance)", value: "banknote" }
+          - { label: "⚖️ Scale (justice, regulation)", value: "scale" }
+          - { label: "🏭 Factory (industry, manufacturing)", value: "factory" }
+          - { label: "🌍 Globe (foreign policy, trade)", value: "globe" }
+          - { label: "🛡️ Shield (defense, security)", value: "shield" }
+          - { label: "💧 Droplets (water, environment)", value: "droplets" }
+          - { label: "⚡ Zap (energy, power)", value: "zap" }
+          - { label: "🏗️ Building (infrastructure, urban)", value: "building" }
+        hint: "Choose an icon that represents this topic. This icon may be used on topic cards in the future."
       - label: "Display Order"
         name: "order"
         widget: "number"
@@ -558,7 +571,7 @@ collections:
         default: ""
         required: false
         editor_components: []
-        hint: "Your curated reading list for this topic — use the formatting toolbar above to add bold text, links, bullet lists, and more. 📌 Quick tip on headings: When you want to break your syllabus into sections (like 'Books', 'Papers', 'Reports'), pick 'Heading 2' from the toolbar. Need a sub-section inside one of those? Use 'Heading 3' or smaller. Please don't use 'Heading 1' — the page already has its own main title, and using another one would look odd on the website. If no syllabus is ready yet, just leave this empty."
+        hint: "Your curated reading list for this topic — use the formatting toolbar above to add bold text, links, bullet lists, and more. 📌 Quick tip on headings: When you want to break your syllabus into sections (like 'Books', 'Papers', 'Reports'), pick 'Heading 2' from the toolbar. Need a sub-section inside one of those? Use 'Heading 3' or smaller. Please don't use 'Heading 1' — the page already has its own main title, and using another one would look odd on the website. If no syllabus is ready yet, just leave this empty. 📷 Images: Use the image button to add pictures. Recommended width: 800–1200 px. Keep files under 200 KB. Always add a brief description (alt text) when prompted. 📊 Tables: Avoid uploading images of tables. Instead, copy the image of the table and paste it into any AI tool (ChatGPT, Claude, or Gemini) with this prompt: 'Convert this table image into a plain HTML table. Only output the <table> element with <thead>, <tbody>, <th>, and <td> tags. Do not include any CSS, classes, or styling attributes.' Then switch to Markdown mode in the editor and paste the HTML table directly."
 
   # ─────────────────────────────────────────────
   # FAQs
@@ -566,7 +579,7 @@ collections:
   - name: "faqs"
     label: "FAQs"
     label_singular: "FAQ"
-    description: "Frequently asked questions — each FAQ belongs to a topic and has a question + detailed answer."
+    description: "Frequently asked questions — each FAQ belongs to a topic and has a question + detailed answer. Content goes through a workflow: save as Draft to work privately, set to 'In Review' when ready for feedback, then publish when finalised."
     folder: "src/content/faqs"
     format: "frontmatter"
     extension: "mdx"
@@ -598,10 +611,30 @@ collections:
         widget: "boolean"
         default: false
         hint: "Turn this on to hide this FAQ from the public site while you work on it."
+      - label: "Related FAQs"
+        name: "relatedFAQs"
+        widget: "relation"
+        collection: "faqs"
+        search_fields: ["question"]
+        value_field: "{{topic}}/{{slug}}"
+        display_fields: ["question"]
+        multiple: true
+        required: false
+        hint: "Link to other FAQs that readers might find useful. Start typing a question to search."
+      - label: "Related Videos"
+        name: "relatedVideos"
+        widget: "relation"
+        collection: "videos"
+        search_fields: ["title"]
+        value_field: "{{topic}}/{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        required: false
+        hint: "Link to videos that cover the same topic. Start typing a video title to search."
       - label: "Answer"
         name: "body"
         widget: "markdown"
-        hint: "Write the full answer here — the toolbar above lets you format text with bold, links, bullet lists, images, and more. 📌 Quick tip on headings: Most answers won't need headings at all, and that's perfectly fine! But if your answer is long and has distinct sections, use 'Heading 2' from the toolbar for those section titles. If you need a sub-section inside one of those, use 'Heading 3' or smaller. Please don't use 'Heading 1' — the question itself already serves as the main heading on the page, and adding another one would create visual confusion."
+        hint: "Write the full answer here — the toolbar above lets you format text with bold, links, bullet lists, images, and more. 📌 Quick tip on headings: Most answers won't need headings at all, and that's perfectly fine! But if your answer is long and has distinct sections, use 'Heading 2' from the toolbar for those section titles. If you need a sub-section inside one of those, use 'Heading 3' or smaller. Please don't use 'Heading 1' — the question itself already serves as the main heading on the page, and adding another one would create visual confusion. 📷 Images: Use the image button to add pictures. Recommended width: 800–1200 px. Keep files under 200 KB. Always add a brief description (alt text) when prompted. 📊 Tables: Avoid uploading images of tables. Instead, copy the image of the table and paste it into any AI tool (ChatGPT, Claude, or Gemini) with this prompt: 'Convert this table image into a plain HTML table. Only output the <table> element with <thead>, <tbody>, <th>, and <td> tags. Do not include any CSS, classes, or styling attributes.' Then switch to Markdown mode in the editor and paste the HTML table directly."
 
   # ─────────────────────────────────────────────
   # Video Curriculum
@@ -609,7 +642,7 @@ collections:
   - name: "videos"
     label: "Videos"
     label_singular: "Video"
-    description: "Video curriculum entries — each links to a YouTube video with notes."
+    description: "Video curriculum entries — each links to a YouTube video with notes. Content goes through a workflow: save as Draft to work privately, set to 'In Review' when ready for feedback, then publish when finalised."
     folder: "src/content/videos"
     format: "frontmatter"
     extension: "mdx"
@@ -632,7 +665,8 @@ collections:
       - label: "YouTube Video ID"
         name: "youtubeId"
         widget: "string"
-        hint: "Open the video on YouTube. Copy just the code after 'v=' in the URL. For example, if the URL is youtube.com/watch?v=dQw4w9WgXcQ, enter: dQw4w9WgXcQ"
+        pattern: ['^[A-Za-z0-9_-]{11}$', "Must be exactly 11 characters (letters, numbers, hyphens, or underscores). Don't paste the full URL — just the code after 'v='."]
+        hint: "The 11-character code from the YouTube URL. In youtube.com/watch?v=dQw4w9WgXcQ, the ID is dQw4w9WgXcQ. For Shorts like youtube.com/shorts/abc123DEFGH, the ID is abc123DEFGH. Don't paste the full URL — just the code."
       - label: "Format"
         name: "format"
         widget: "select"
@@ -657,7 +691,8 @@ collections:
         name: "duration"
         widget: "string"
         required: false
-        hint: "How long is the video? e.g., 18:42 or 1:05:30"
+        pattern: ['^\d{1,2}:\d{2}(:\d{2})?$', "Use MM:SS (e.g., 18:42) or H:MM:SS (e.g., 1:05:30) format."]
+        hint: "How long is the video? Use MM:SS for videos under an hour (e.g., 18:42) or H:MM:SS for longer videos (e.g., 1:05:30)."
       - label: "Speaker"
         name: "speaker"
         widget: "string"
@@ -675,8 +710,28 @@ collections:
         widget: "boolean"
         default: false
         hint: "Turn this on to hide this video from the public site while you work on it."
+      - label: "Related FAQs"
+        name: "relatedFAQs"
+        widget: "relation"
+        collection: "faqs"
+        search_fields: ["question"]
+        value_field: "{{topic}}/{{slug}}"
+        display_fields: ["question"]
+        multiple: true
+        required: false
+        hint: "Link to FAQs that cover the same topic as this video. Start typing a question to search."
+      - label: "Related Videos"
+        name: "relatedVideos"
+        widget: "relation"
+        collection: "videos"
+        search_fields: ["title"]
+        value_field: "{{topic}}/{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        required: false
+        hint: "Link to other videos that viewers might enjoy. Start typing a title to search."
       - label: "Extended Notes"
         name: "body"
         widget: "markdown"
         required: false
-        hint: "Optional: add timestamps, key takeaways, or extra context about the video. 📌 Quick tip on headings: If your notes have sections, use 'Heading 2' from the toolbar. For sub-sections, use 'Heading 3' or smaller. Please don't use 'Heading 1' — the video title already serves as the main heading on the page."
+        hint: "Optional: add timestamps, key takeaways, or extra context about the video. 📌 Quick tip on headings: If your notes have sections, use 'Heading 2' from the toolbar. For sub-sections, use 'Heading 3' or smaller. Please don't use 'Heading 1' — the video title already serves as the main heading on the page. 📷 Images: Use the image button to add pictures. Recommended width: 800–1200 px. Keep files under 200 KB. Always add a brief description (alt text) when prompted. 📊 Tables: Avoid uploading images of tables. Instead, copy the image of the table and paste it into any AI tool (ChatGPT, Claude, or Gemini) with this prompt: 'Convert this table image into a plain HTML table. Only output the <table> element with <thead>, <tbody>, <th>, and <td> tags. Do not include any CSS, classes, or styling attributes.' Then switch to Markdown mode in the editor and paste the HTML table directly."

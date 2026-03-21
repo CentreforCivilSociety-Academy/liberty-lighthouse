@@ -69,7 +69,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 
   <div class="mt-[var(--spacing-xl)] flex flex-wrap items-center gap-2 border-t border-[var(--color-border-default)] pt-[var(--spacing-lg)]">
     <CopyAsMarkdown />
-    <ChatAboutThis title={entry.data.question} contentType="FAQ" excerpt={entry.data.question} pageUrl={pageUrl} />
+    <ChatAboutThis title={entry.data.question} contentType="FAQ" excerpt={entry.data.question} />
   </div>
 
   <RelatedContent faqs={relatedFAQs} videos={relatedVideos}  />

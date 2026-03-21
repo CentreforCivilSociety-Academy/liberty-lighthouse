@@ -38,11 +38,12 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 
     {syllabusHtml ? (
       <article class="prose mx-auto" data-content-body>
+        <h1>{topicData.title} — Guided Syllabus</h1>
         <Fragment set:html={syllabusHtml} />
       </article>
       <div class="max-w-[var(--prose-max-width)] mx-auto mt-[var(--spacing-xl)] flex flex-wrap items-center gap-2 border-t border-[var(--color-border-default)] pt-[var(--spacing-lg)]">
         <CopyAsMarkdown />
-        <ChatAboutThis title={`${topicData.title} Guided Syllabus`} contentType="syllabus" excerpt={`Guided learning path for ${topicData.title.toLowerCase()} policy in India.`} pageUrl={pageUrl} />
+        <ChatAboutThis title={`${topicData.title} Guided Syllabus`} contentType="syllabus" excerpt={`Guided learning path for ${topicData.title.toLowerCase()} policy in India.`} />
       </div>
     ) : (
       <p class="text-[var(--color-text-tertiary)] text-center py-[var(--spacing-2xl)]">No guided syllabus available yet.</p>
