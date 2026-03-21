@@ -109,6 +109,26 @@
     if (!React) return;
     var el = React.createElement;
 
+    // ── Push fonts + base CSS into preview iframes ──
+    var previewFontsUrl = 'https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;500;600;700&family=Fraunces:wght@400;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap';
+    try {
+      CMS.registerPreviewStyle(previewFontsUrl);
+      CMS.registerPreviewStyle([
+        '* { box-sizing: border-box; }',
+        'body { margin: 0; font-family: "Source Sans 3", -apple-system, sans-serif; color: #1a1612; line-height: 1.65; }',
+        'h1, h2, h3, h4, h5, h6 { font-family: "Fraunces", serif; }',
+        'a { color: #a96032; }',
+        'code { font-family: "JetBrains Mono", monospace; font-size: 0.875em; background: #f7f3ef; padding: 2px 6px; border-radius: 4px; }',
+        'pre { font-family: "JetBrains Mono", monospace; font-size: 0.875em; background: #1a1612; color: #faf7f4; padding: 16px 20px; border-radius: 8px; overflow-x: auto; }',
+        'pre code { background: transparent; padding: 0; color: inherit; }',
+        'blockquote { border-left: 3px solid #c4703c; padding-left: 1em; color: #5c524a; font-style: italic; margin: 1em 0; }',
+        'table { width: 100%; border-collapse: collapse; margin: 1em 0; }',
+        'th { font-weight: 600; background: #f7f3ef; border: 1px solid #e8e2dc; padding: 0.5rem 0.75rem; text-align: left; }',
+        'td { border: 1px solid #e8e2dc; padding: 0.5rem 0.75rem; vertical-align: top; }',
+        'img { max-width: 100%; height: auto; border-radius: 8px; }',
+      ].join('\n'), { raw: true });
+    } catch (e) { console.warn('[cms-styles] Could not register preview styles:', e); }
+
     // ── Shared styles ──
     var wrap = { padding: '28px 24px', fontFamily: "'Source Sans 3', sans-serif", color: '#1a1612', background: 'linear-gradient(135deg, #fdfbf9, #f7f3ef)', minHeight: '100%', lineHeight: '1.65' };
     var badge = { display: 'inline-block', marginBottom: '10px', padding: '3px 10px', fontSize: '10px', fontWeight: '600', textTransform: 'uppercase', letterSpacing: '0.08em', color: '#7d726a', background: '#ece7e1', borderRadius: '4px', fontFamily: '-apple-system, sans-serif' };
