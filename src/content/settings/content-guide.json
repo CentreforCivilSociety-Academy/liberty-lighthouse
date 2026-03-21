@@ -1,0 +1,8 @@
+{
+  "_headingsGuide": "Use Heading 2 for sections, Heading 3 for sub-sections. Never use Heading 1 — the page title already serves as the main heading.",
+  "_imagesGuide": "Recommended width: 800–1200 px. Keep file size under 200 KB. Always add alt text when uploading.",
+  "_tablesGuide": "Don't upload images of tables. Instead, paste the table image into ChatGPT, Claude, or Gemini with this prompt:\n\n\"Convert this table image into a plain HTML table. Only output the <table> element with <thead>, <tbody>, <th>, and <td> tags. Do not include any CSS, classes, or styling attributes.\"\n\nThen switch to Markdown mode in the editor and paste the HTML.",
+  "_linksGuide": "Select text, click the link button, and paste the URL. External links automatically open in a new tab.",
+  "_workflowGuide": "Save as Draft to work privately. Set to 'In Review' when ready for feedback. Publish when finalised.",
+  "_youtubeGuide": "Copy the 11-character code after 'v=' in the URL. Example: youtube.com/watch?v=dQw4w9WgXcQ → dQw4w9WgXcQ"
+}

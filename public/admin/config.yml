@@ -419,6 +419,48 @@ collections:
             default: "#6B3A1F"
             hint: "The color shown in the browser's address bar and tab on mobile devices. Usually matches the primary color. Default: #6B3A1F"
 
+      # ── Content Guide ──
+      - name: "content-guide"
+        label: "Content Guide"
+        file: "src/content/settings/content-guide.json"
+        description: "A quick reference for writing and formatting content. Open this page whenever you need help."
+        fields:
+          - label: "Headings"
+            name: "_headingsGuide"
+            widget: "string"
+            default: "Use Heading 2 for sections, Heading 3 for sub-sections. Never use Heading 1 — the page title already serves as the main heading."
+            hint: "This is a reference — no need to edit."
+
+          - label: "Images"
+            name: "_imagesGuide"
+            widget: "string"
+            default: "Recommended width: 800–1200 px. Keep file size under 200 KB. Always add alt text when uploading."
+            hint: "This is a reference — no need to edit."
+
+          - label: "Tables"
+            name: "_tablesGuide"
+            widget: "text"
+            default: "Don't upload images of tables. Instead, paste the table image into ChatGPT, Claude, or Gemini with this prompt:\n\n\"Convert this table image into a plain HTML table. Only output the <table> element with <thead>, <tbody>, <th>, and <td> tags. Do not include any CSS, classes, or styling attributes.\"\n\nThen switch to Markdown mode in the editor and paste the HTML."
+            hint: "This is a reference — no need to edit."
+
+          - label: "Links"
+            name: "_linksGuide"
+            widget: "string"
+            default: "Select text, click the link button, and paste the URL. External links automatically open in a new tab."
+            hint: "This is a reference — no need to edit."
+
+          - label: "Workflow"
+            name: "_workflowGuide"
+            widget: "string"
+            default: "Save as Draft to work privately. Set to 'In Review' when ready for feedback. Publish when finalised."
+            hint: "This is a reference — no need to edit."
+
+          - label: "YouTube Video ID"
+            name: "_youtubeGuide"
+            widget: "string"
+            default: "Copy the 11-character code after 'v=' in the URL. Example: youtube.com/watch?v=dQw4w9WgXcQ → dQw4w9WgXcQ"
+            hint: "This is a reference — no need to edit."
+
       # ── AI & Search Crawlers ──
       - name: "crawlers"
         label: "AI & Search Crawlers"
@@ -571,7 +613,7 @@ collections:
         default: ""
         required: false
         editor_components: []
-        hint: "Your curated reading list for this topic — use the formatting toolbar above to add bold text, links, bullet lists, and more. 📌 Quick tip on headings: When you want to break your syllabus into sections (like 'Books', 'Papers', 'Reports'), pick 'Heading 2' from the toolbar. Need a sub-section inside one of those? Use 'Heading 3' or smaller. Please don't use 'Heading 1' — the page already has its own main title, and using another one would look odd on the website. If no syllabus is ready yet, just leave this empty. 📷 Images: Use the image button to add pictures. Recommended width: 800–1200 px. Keep files under 200 KB. Always add a brief description (alt text) when prompted. 📊 Tables: Avoid uploading images of tables. Instead, copy the image of the table and paste it into any AI tool (ChatGPT, Claude, or Gemini) with this prompt: 'Convert this table image into a plain HTML table. Only output the <table> element with <thead>, <tbody>, <th>, and <td> tags. Do not include any CSS, classes, or styling attributes.' Then switch to Markdown mode in the editor and paste the HTML table directly."
+        hint: "Use Heading 2 for sections (not Heading 1). See the Content Guide in Site Settings for tips on images, tables, and formatting."
 
   # ─────────────────────────────────────────────
   # FAQs
@@ -634,7 +676,7 @@ collections:
       - label: "Answer"
         name: "body"
         widget: "markdown"
-        hint: "Write the full answer here — the toolbar above lets you format text with bold, links, bullet lists, images, and more. 📌 Quick tip on headings: Most answers won't need headings at all, and that's perfectly fine! But if your answer is long and has distinct sections, use 'Heading 2' from the toolbar for those section titles. If you need a sub-section inside one of those, use 'Heading 3' or smaller. Please don't use 'Heading 1' — the question itself already serves as the main heading on the page, and adding another one would create visual confusion. 📷 Images: Use the image button to add pictures. Recommended width: 800–1200 px. Keep files under 200 KB. Always add a brief description (alt text) when prompted. 📊 Tables: Avoid uploading images of tables. Instead, copy the image of the table and paste it into any AI tool (ChatGPT, Claude, or Gemini) with this prompt: 'Convert this table image into a plain HTML table. Only output the <table> element with <thead>, <tbody>, <th>, and <td> tags. Do not include any CSS, classes, or styling attributes.' Then switch to Markdown mode in the editor and paste the HTML table directly."
+        hint: "Use Heading 2 for sections (not Heading 1 — the question is already the main heading). See the Content Guide in Site Settings for tips on images, tables, and formatting."
 
   # ─────────────────────────────────────────────
   # Video Curriculum
@@ -734,4 +776,4 @@ collections:
         name: "body"
         widget: "markdown"
         required: false
-        hint: "Optional: add timestamps, key takeaways, or extra context about the video. 📌 Quick tip on headings: If your notes have sections, use 'Heading 2' from the toolbar. For sub-sections, use 'Heading 3' or smaller. Please don't use 'Heading 1' — the video title already serves as the main heading on the page. 📷 Images: Use the image button to add pictures. Recommended width: 800–1200 px. Keep files under 200 KB. Always add a brief description (alt text) when prompted. 📊 Tables: Avoid uploading images of tables. Instead, copy the image of the table and paste it into any AI tool (ChatGPT, Claude, or Gemini) with this prompt: 'Convert this table image into a plain HTML table. Only output the <table> element with <thead>, <tbody>, <th>, and <td> tags. Do not include any CSS, classes, or styling attributes.' Then switch to Markdown mode in the editor and paste the HTML table directly."
+        hint: "Optional — add timestamps, key takeaways, or context. Use Heading 2 for sections (not Heading 1). See the Content Guide in Site Settings."
