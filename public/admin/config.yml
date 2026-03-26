@@ -6,8 +6,8 @@ local_backend: true
 
 publish_mode: editorial_workflow
 
-media_folder: "src/assets/images/content"
-public_folder: "/src/assets/images/content"
+media_folder: "public/images/content"
+public_folder: "/images/content"
 
 collections:
   # ─────────────────────────────────────────────
@@ -465,97 +465,109 @@ collections:
       - name: "crawlers"
         label: "AI & Search Crawlers"
         file: "src/content/settings/crawlers.json"
-        description: "Control which AI services and search engines can access your site content."
+        description: "These settings control which AI bots can read your site. There are two types: Training bots (they learn from your content to improve their AI models) and Search/Chat bots (they read your pages to answer user questions, with a link back to your site). Allowing all is recommended — it helps your content reach more people through AI tools."
         fields:
-          - label: "OpenAI Training Bot (GPTBot)"
+          - label: "── TRAINING BOTS ──"
+            name: "_trainingLabel"
+            widget: "hidden"
+            default: ""
+            hint: "These bots read your content to train AI models. Your pages become part of the AI's knowledge, which means future users who ask about Indian policy may get answers informed by your content — but without a direct link back."
+
+          - label: "OpenAI — GPTBot"
             name: "gptBot"
             widget: "select"
             options:
-              - { label: "Allow (Recommended)", value: "allow" }
-              - { label: "Block", value: "block" }
+              - { label: "✅ Allow (Recommended)", value: "allow" }
+              - { label: "🚫 Block", value: "block" }
             default: "allow"
-            hint: "Collects content to train OpenAI models (like ChatGPT). Allowing means your content may help improve future AI responses about Indian policy."
+            hint: "Reads your content to train ChatGPT and other OpenAI models. If allowed, future ChatGPT answers about Indian policy may be informed by your content."
 
-          - label: "Anthropic Training Bot (ClaudeBot)"
+          - label: "Anthropic — ClaudeBot"
             name: "claudeBot"
             widget: "select"
             options:
-              - { label: "Allow (Recommended)", value: "allow" }
-              - { label: "Block", value: "block" }
+              - { label: "✅ Allow (Recommended)", value: "allow" }
+              - { label: "🚫 Block", value: "block" }
             default: "allow"
-            hint: "Collects content to train Anthropic's Claude models. Allowing means your content may help Claude learn about Indian policy topics."
+            hint: "Reads your content to train Claude (Anthropic's AI). If allowed, Claude's knowledge of Indian policy topics may improve thanks to your content."
 
-          - label: "Google AI Training Bot (Google-Extended)"
+          - label: "Google — Google-Extended"
             name: "googleExtended"
             widget: "select"
             options:
-              - { label: "Allow (Recommended)", value: "allow" }
-              - { label: "Block", value: "block" }
+              - { label: "✅ Allow (Recommended)", value: "allow" }
+              - { label: "🚫 Block", value: "block" }
             default: "allow"
-            hint: "Collects content for Google AI products like Gemini and AI Overviews. Separate from regular Google Search, which always has access."
+            hint: "Reads your content for Google AI products like Gemini and AI Overviews. This is separate from regular Google Search — blocking this does NOT affect your Google search rankings."
 
-          - label: "Common Crawl Bot (CCBot)"
+          - label: "Common Crawl — CCBot"
             name: "ccBot"
             widget: "select"
             options:
-              - { label: "Allow (Recommended)", value: "allow" }
-              - { label: "Block", value: "block" }
+              - { label: "✅ Allow (Recommended)", value: "allow" }
+              - { label: "🚫 Block", value: "block" }
             default: "allow"
-            hint: "Common Crawl is a non-profit open archive of the web. Many AI companies and researchers use this archive for training."
+            hint: "Common Crawl is a non-profit that archives the open web. Many AI companies and academic researchers use this archive for training. Blocking removes your content from this public dataset."
 
-          - label: "ChatGPT Search Bot (OAI-SearchBot)"
-            name: "oaiSearchBot"
-            widget: "select"
-            options:
-              - { label: "Allow (Recommended)", value: "allow" }
-              - { label: "Block", value: "block" }
-            default: "allow"
-            hint: "Fetches your page when someone asks ChatGPT a question, to include in the answer with a link back to your site."
-
-          - label: "Claude Search Bot (Claude-SearchBot)"
-            name: "claudeSearchBot"
-            widget: "select"
-            options:
-              - { label: "Allow (Recommended)", value: "allow" }
-              - { label: "Block", value: "block" }
-            default: "allow"
-            hint: "Fetches your page when someone asks Claude a question, to include in the answer with a link back to your site."
-
-          - label: "ChatGPT User Bot (ChatGPT-User)"
-            name: "chatgptUser"
-            widget: "select"
-            options:
-              - { label: "Allow (Recommended)", value: "allow" }
-              - { label: "Block", value: "block" }
-            default: "allow"
-            hint: "When a ChatGPT user shares a link to your site in a conversation, this bot fetches the page so ChatGPT can read and discuss it."
-
-          - label: "Claude User Bot (Claude-User)"
-            name: "claudeUser"
-            widget: "select"
-            options:
-              - { label: "Allow (Recommended)", value: "allow" }
-              - { label: "Block", value: "block" }
-            default: "allow"
-            hint: "When a Claude user shares a link to your site, this bot fetches the page so Claude can read and discuss it."
-
-          - label: "Perplexity Bot"
-            name: "perplexityBot"
-            widget: "select"
-            options:
-              - { label: "Allow (Recommended)", value: "allow" }
-              - { label: "Block", value: "block" }
-            default: "allow"
-            hint: "Perplexity is an AI-powered search engine. Fetches your content to include in search results with citations."
-
-          - label: "Apple AI Bot (Applebot-Extended)"
+          - label: "Apple — Applebot-Extended"
             name: "applebotExtended"
             widget: "select"
             options:
-              - { label: "Allow (Recommended)", value: "allow" }
-              - { label: "Block", value: "block" }
+              - { label: "✅ Allow (Recommended)", value: "allow" }
+              - { label: "🚫 Block", value: "block" }
             default: "allow"
-            hint: "Apple uses this for Apple Intelligence features (Siri, Safari suggestions). Regular Apple search still works if blocked."
+            hint: "Reads your content for Apple Intelligence features (Siri, Safari suggestions). Blocking this does NOT affect regular Apple search or Safari browsing."
+
+          - label: "── SEARCH & CHAT BOTS ──"
+            name: "_searchLabel"
+            widget: "hidden"
+            default: ""
+            hint: "These bots fetch your pages in real time when a user asks a question. Your content appears in the AI's answer WITH a link back to your site — this drives traffic."
+
+          - label: "ChatGPT Search — OAI-SearchBot"
+            name: "oaiSearchBot"
+            widget: "select"
+            options:
+              - { label: "✅ Allow (Recommended)", value: "allow" }
+              - { label: "🚫 Block", value: "block" }
+            default: "allow"
+            hint: "When someone asks ChatGPT a question, this bot fetches your page to include in the answer — with a link back to your site. Blocking means ChatGPT search results won't cite your content."
+
+          - label: "Claude Search — Claude-SearchBot"
+            name: "claudeSearchBot"
+            widget: "select"
+            options:
+              - { label: "✅ Allow (Recommended)", value: "allow" }
+              - { label: "🚫 Block", value: "block" }
+            default: "allow"
+            hint: "When someone asks Claude a question, this bot fetches your page to include in the answer — with a link back to your site. Blocking means Claude search results won't cite your content."
+
+          - label: "ChatGPT Link Reader — ChatGPT-User"
+            name: "chatgptUser"
+            widget: "select"
+            options:
+              - { label: "✅ Allow (Recommended)", value: "allow" }
+              - { label: "🚫 Block", value: "block" }
+            default: "allow"
+            hint: "When a ChatGPT user pastes a link to your site in their conversation, this bot reads the page so ChatGPT can discuss it. Blocking means users can't share your articles with ChatGPT."
+
+          - label: "Claude Link Reader — Claude-User"
+            name: "claudeUser"
+            widget: "select"
+            options:
+              - { label: "✅ Allow (Recommended)", value: "allow" }
+              - { label: "🚫 Block", value: "block" }
+            default: "allow"
+            hint: "When a Claude user pastes a link to your site, this bot reads the page so Claude can discuss it. Blocking means users can't share your articles with Claude."
+
+          - label: "Perplexity Search — PerplexityBot"
+            name: "perplexityBot"
+            widget: "select"
+            options:
+              - { label: "✅ Allow (Recommended)", value: "allow" }
+              - { label: "🚫 Block", value: "block" }
+            default: "allow"
+            hint: "Perplexity is an AI search engine that cites its sources. If allowed, your content may appear in Perplexity answers with a direct link back to your site."
 
   # ─────────────────────────────────────────────
   # Topics (admin-only — rarely edited)
