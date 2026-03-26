@@ -54,9 +54,17 @@ const safeTruncatedExcerpt = excerpt.slice(0, 500);
       href="#"
       target="_blank"
       rel="noopener noreferrer"
-      class="flex items-center gap-2 px-3 py-2 text-sm text-[var(--color-text-secondary)] hover:bg-[var(--color-bg-section)] hover:text-[var(--color-text-primary)] no-underline rounded-b-[var(--radius-md)]"
+      class="flex items-center gap-2 px-3 py-2 text-sm text-[var(--color-text-secondary)] hover:bg-[var(--color-bg-section)] hover:text-[var(--color-text-primary)] no-underline"
       role="menuitem"
     >Gemini <span class="text-xs text-[var(--color-text-muted)]">(no pre-fill)</span></a>
+    <a
+      data-chat-service="perplexity"
+      href="#"
+      target="_blank"
+      rel="noopener noreferrer"
+      class="flex items-center gap-2 px-3 py-2 text-sm text-[var(--color-text-secondary)] hover:bg-[var(--color-bg-section)] hover:text-[var(--color-text-primary)] no-underline rounded-b-[var(--radius-md)]"
+      role="menuitem"
+    >Perplexity</a>
   </div>
 </div>
 
@@ -86,9 +94,11 @@ const safeTruncatedExcerpt = excerpt.slice(0, 500);
     var chatgpt = menu.querySelector('[data-chat-service="chatgpt"]');
     var claude = menu.querySelector('[data-chat-service="claude"]');
     var gemini = menu.querySelector('[data-chat-service="gemini"]');
+    var perplexity = menu.querySelector('[data-chat-service="perplexity"]');
     if (chatgpt) chatgpt.href = 'https://chatgpt.com/?q=' + encoded;
     if (claude) claude.href = 'https://claude.ai/new?q=' + encoded;
     if (gemini) gemini.href = 'https://gemini.google.com/app';
+    if (perplexity) perplexity.href = 'https://www.perplexity.ai/search?q=' + encoded;
     linksBuilt = true;
   }
 
