@@ -1,10 +1,11 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: CentreforCivilSociety-Academy/liberty-lighthouse
   branch: main
+  base_url: https://libertylighthouse.ccs.in
+  auth_endpoint: api/auth
 
 local_backend: true
-
-publish_mode: editorial_workflow
 
 media_folder: "public/images/content"
 public_folder: "/images/content"
