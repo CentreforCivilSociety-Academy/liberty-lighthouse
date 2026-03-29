@@ -5,9 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="robots" content="noindex" />
   <title>Content Manager — Liberty Lighthouse</title>
+  <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
 </head>
 <body>
+  <script>
+    // Prevent Decap from auto-loading config.yml
+    window.CMS_MANUAL_INIT = true;
+  </script>
   <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+  <script>
+    // Manually fetch and parse config.yml, then init CMS
+    fetch('/admin/config.yml')
+      .then(function(res) {
+        if (!res.ok) throw new Error('config.yml returned ' + res.status);
+        return res.text();
+      })
+      .then(function(yamlText) {
+        var config = jsyaml.load(yamlText);
+        window.CMS.init({ config: config });
+      })
+      .catch(function(err) {
+        console.error('Failed to fetch config.yml, loading inline:', err);
+        // Fallback: init with inline config
+        window.CMS.init({
+          config: {
+            backend: {
+              name: 'github',
+              repo: 'CentreforCivilSociety-Academy/liberty-lighthouse',
+              branch: 'main',
+              base_url: 'https://liberty-lighthouse.vercel.app',
+              auth_endpoint: 'api/auth'
+            },
+            local_backend: true,
+            media_folder: 'public/images/content',
+            public_folder: '/images/content',
+            load_config_file: false
+          }
+        });
+      });
+  </script>
   <script src="/admin/font-preview.js"></script>
   <script src="/admin/cms-styles.js"></script>
 </body>
