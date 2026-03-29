@@ -6,7 +6,7 @@ import preact from '@astrojs/preact';
 import sitemap from '@astrojs/sitemap';
 import rehypeExternalLinks from './src/lib/rehype-external-links.ts';
 
-const siteUrl = 'https://libertylighthouse.ccs.in';
+const siteUrl = 'https://liberty-lighthouse.vercel.app';
 const siteHostname = new URL(siteUrl).hostname;
 
 export default defineConfig({

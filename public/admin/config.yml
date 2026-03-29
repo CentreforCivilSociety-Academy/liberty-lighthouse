@@ -2,7 +2,7 @@ backend:
   name: github
   repo: CentreforCivilSociety-Academy/liberty-lighthouse
   branch: main
-  base_url: https://libertylighthouse.ccs.in
+  base_url: https://liberty-lighthouse.vercel.app
   auth_endpoint: api/auth
 
 local_backend: true
