@@ -67,10 +67,10 @@ function GlossaryCard({ anchor, slug, onClose }: CardProps) {
     const viewportW = window.innerWidth;
     const margin = 8;
 
-    let top = r.bottom + window.scrollY + 6;
+    let top = r.bottom + window.scrollY + 2;
     let flipped = false;
     if (r.bottom + cardH + margin > viewportH && r.top - cardH - margin > 0) {
-      top = r.top + window.scrollY - cardH - 6;
+      top = r.top + window.scrollY - cardH - 2;
       flipped = true;
     }
     let left = r.left + window.scrollX;
@@ -199,16 +199,39 @@ function scheduleClose() {
 }
 
 export function initGlossaryHover() {
+  function isInsideCard(target: EventTarget | null): boolean {
+    if (!mountState) return false;
+    return target instanceof Node && mountState.container.contains(target);
+  }
+
   // Pointer (desktop) — open on hover, close after grace.
+  // The card itself also counts as "still hovering" so the user can move
+  // from the anchor onto the card to click "Read more".
   document.addEventListener('pointerover', (e) => {
     if ((e as PointerEvent).pointerType === 'touch') return;
     const anchor = findGlossaryAnchor(e.target);
-    if (anchor) scheduleOpen(anchor);
+    if (anchor) {
+      scheduleOpen(anchor);
+      return;
+    }
+    if (isInsideCard(e.target)) {
+      // Cancel any pending close while the cursor is over the card.
+      if (closeTimer !== null) { window.clearTimeout(closeTimer); closeTimer = null; }
+    }
   });
   document.addEventListener('pointerout', (e) => {
     if ((e as PointerEvent).pointerType === 'touch') return;
     const anchor = findGlossaryAnchor(e.target);
-    if (anchor) scheduleClose();
+    const insideCard = isInsideCard(e.target);
+    if (!anchor && !insideCard) return;
+    // Don't close if the pointer is moving INTO the card from the anchor (or vice versa).
+    const related = (e as PointerEvent).relatedTarget;
+    const stillInside = isInsideCard(related) || !!findGlossaryAnchor(related);
+    if (stillInside) {
+      if (closeTimer !== null) { window.clearTimeout(closeTimer); closeTimer = null; }
+      return;
+    }
+    scheduleClose();
   });
 
   // Keyboard focus.
