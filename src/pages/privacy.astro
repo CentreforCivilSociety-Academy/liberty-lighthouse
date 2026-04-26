@@ -1,0 +1,84 @@
+---
+import ProseLayout from '../layouts/ProseLayout.astro';
+const updatedAt = '2026-04-26';
+---
+
+<ProseLayout
+  title="Privacy"
+  description="How Liberty Lighthouse handles cookies, analytics, and your data."
+  breadcrumbs={[{ label: 'Privacy' }]}
+>
+  <div data-content-body>
+    <h1>Privacy</h1>
+    <p><em>Last updated: {updatedAt}</em></p>
+
+    <p>
+      Liberty Lighthouse is a public-education site published by the
+      <a href="https://ccs.in" target="_blank" rel="noopener noreferrer">Centre for Civil Society</a>.
+      This page explains what we collect, why, and how to control it.
+    </p>
+
+    <h2>Short version</h2>
+    <ul>
+      <li>We use Google Analytics 4 to count visits and understand which articles get read.</li>
+      <li>We do not run advertising. We do not sell or share data with advertisers.</li>
+      <li>Analytics cookies only fire after you click <strong>Accept</strong> on the consent banner.</li>
+      <li>If you decline, we do not set analytics cookies and Google Analytics is sent only cookieless pings (no client identifier).</li>
+      <li>Your IP address is anonymised before it reaches Google's servers.</li>
+      <li>You can change your choice anytime via the <strong>Cookie settings</strong> link in the footer.</li>
+    </ul>
+
+    <h2>What Google Analytics collects (only with your consent)</h2>
+    <ul>
+      <li>Anonymised IP address (the last octet is masked).</li>
+      <li>A randomly generated client ID stored in a cookie, used to recognise return visits.</li>
+      <li>Page URL, referrer, browser, device type, country.</li>
+      <li>Session duration and engagement events (page views, scroll, outbound link clicks).</li>
+    </ul>
+    <p>
+      No name, email, account, or other personally identifying information is collected by Liberty Lighthouse. We do not link analytics data to any individual.
+    </p>
+
+    <h2>Data retention</h2>
+    <p>
+      Analytics events are retained by Google for the standard GA4 default of 14 months. After that the underlying event data is deleted from Google's servers. Aggregated reports may be retained beyond that.
+    </p>
+
+    <h2>Cookies we set</h2>
+    <ul>
+      <li><code>_ga</code>, <code>_ga_&lt;id&gt;</code> — Google Analytics 4. Set only after you accept. Persistent. Used to recognise return visits.</li>
+      <li><code>ll-consent-v1</code> — your cookie preference itself. Stored in <code>localStorage</code> on your device only. Never sent to a server.</li>
+    </ul>
+    <p>
+      We do not use any other tracking, advertising, or social-media cookies.
+    </p>
+
+    <h2>Your rights under GDPR</h2>
+    <p>
+      If you are in the European Union, the United Kingdom, or any jurisdiction with comparable rules, you have the right to:
+    </p>
+    <ul>
+      <li>Decline analytics, with no impact on access to the site.</li>
+      <li>Withdraw consent at any time using the <strong>Cookie settings</strong> link in the footer.</li>
+      <li>Request deletion of any data tied to your visits. Because we collect no identifiers tied to a person, the practical mechanism is to clear your cookies — which removes the GA client ID we have on you.</li>
+    </ul>
+    <p>
+      To raise a question, write to <a href="mailto:contact@ccs.in">contact@ccs.in</a>.
+    </p>
+
+    <h2>Embedded content</h2>
+    <p>
+      Some pages embed YouTube videos via <code>lite-youtube-embed</code>. The YouTube embed loads only after you click play. Until you do, no request is made to YouTube and no YouTube cookies are set. Once you click play, YouTube's own privacy policy applies.
+    </p>
+
+    <h2>Hosting</h2>
+    <p>
+      The site is statically generated and hosted on Vercel. Vercel may collect standard server access logs (IP, user-agent, timestamp) for reliability and abuse prevention. These logs are retained for a limited window per Vercel's policies and are not used for marketing.
+    </p>
+
+    <h2>Changes to this notice</h2>
+    <p>
+      If we change what we collect or how, we'll update the date at the top of this page. Material changes will trigger the consent banner again so you can re-decide.
+    </p>
+  </div>
+</ProseLayout>

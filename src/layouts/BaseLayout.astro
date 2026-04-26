@@ -19,6 +19,7 @@ const canonical = canonicalUrl || Astro.url.href;
 
 import '@/styles/global.css';
 import { getTypographySettings, getColorSettings } from '@/lib/design-settings';
+import Analytics from '@/components/global/Analytics.astro';
 
 const typo = await getTypographySettings();
 const colors = await getColorSettings();
@@ -133,6 +134,9 @@ const designSystemCSS = `
       },
     })} />
 
+    <!-- Google Analytics 4 (Consent Mode v2: default-deny until banner accepted) -->
+    <Analytics />
+
     <!-- Netlify Identity widget (needed to handle invite/confirmation tokens) -->
     <script is:inline src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     <script is:inline>
@@ -152,7 +156,11 @@ const designSystemCSS = `
     <slot />
     <script>
       import { initGlossaryHover } from '../components/global/GlossaryHover';
-      if (typeof window !== 'undefined') initGlossaryHover();
+      import { initCookieConsent } from '../components/global/CookieConsent';
+      if (typeof window !== 'undefined') {
+        initGlossaryHover();
+        initCookieConsent();
+      }
     </script>
     <script is:inline>
       document.addEventListener('DOMContentLoaded', function() {

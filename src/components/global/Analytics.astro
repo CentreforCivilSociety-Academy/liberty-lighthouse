@@ -1,0 +1,70 @@
+---
+/**
+ * Google Analytics 4 with Consent Mode v2.
+ *
+ * Behaviour:
+ *   - Default: every consent category is denied. GA tag still loads but
+ *     sends only cookieless pings (no cookies, no client ID, no PII).
+ *   - On user consent: a custom 'll-consent-update' event is dispatched
+ *     with detail.granted = true|false, which calls gtag('consent','update').
+ *   - Choice persists in localStorage under 'll-consent-v1'. On subsequent
+ *     visits, the stored choice is replayed before any pings fire.
+ *
+ * Set PUBLIC_GA_MEASUREMENT_ID on Vercel to override the default.
+ */
+const GA_ID = import.meta.env.PUBLIC_GA_MEASUREMENT_ID || 'G-BZV5DNKC76';
+---
+
+<!-- Consent Mode v2 default + gtag bootstrap. Inline so it runs before the GA script. -->
+<script is:inline define:vars={{ GA_ID }}>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){ window.dataLayer.push(arguments); }
+  window.gtag = gtag;
+
+  // Consent Mode v2: default-deny everything until user opts in.
+  gtag('consent', 'default', {
+    ad_storage: 'denied',
+    ad_user_data: 'denied',
+    ad_personalization: 'denied',
+    analytics_storage: 'denied',
+    functionality_storage: 'denied',
+    personalization_storage: 'denied',
+    security_storage: 'granted', // strictly necessary; no PII
+    wait_for_update: 500,
+  });
+
+  // Replay any stored consent decision before GA fires its first hit.
+  try {
+    var stored = localStorage.getItem('ll-consent-v1');
+    if (stored === 'granted') {
+      gtag('consent', 'update', {
+        ad_storage: 'granted',
+        ad_user_data: 'granted',
+        ad_personalization: 'granted',
+        analytics_storage: 'granted',
+        functionality_storage: 'granted',
+        personalization_storage: 'granted',
+      });
+    }
+  } catch (e) { /* localStorage blocked → keep defaults */ }
+
+  gtag('js', new Date());
+  gtag('config', GA_ID, { anonymize_ip: true });
+
+  // Listen for runtime consent changes from the banner.
+  window.addEventListener('ll-consent-update', function (e) {
+    var granted = e.detail && e.detail.granted;
+    var state = granted ? 'granted' : 'denied';
+    gtag('consent', 'update', {
+      ad_storage: state,
+      ad_user_data: state,
+      ad_personalization: state,
+      analytics_storage: state,
+      functionality_storage: state,
+      personalization_storage: state,
+    });
+    try { localStorage.setItem('ll-consent-v1', state); } catch (_) {}
+  });
+</script>
+
+<script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`}></script>

@@ -25,8 +25,10 @@ const currentYear = new Date().getFullYear();
         <nav aria-label="Footer navigation">
           <ul class="space-y-[var(--spacing-sm)] list-none p-0">
             <li><a href="/topics/" class="text-[0.875rem] text-[var(--color-text-on-dark)] opacity-80 hover:opacity-100 no-underline transition-opacity duration-[var(--duration-fast)]">Topics</a></li>
+            <li><a href="/glossary/" class="text-[0.875rem] text-[var(--color-text-on-dark)] opacity-80 hover:opacity-100 no-underline transition-opacity duration-[var(--duration-fast)]">Glossary</a></li>
             <li><a href="/about/" class="text-[0.875rem] text-[var(--color-text-on-dark)] opacity-80 hover:opacity-100 no-underline transition-opacity duration-[var(--duration-fast)]">About</a></li>
             <li><a href="/search/" class="text-[0.875rem] text-[var(--color-text-on-dark)] opacity-80 hover:opacity-100 no-underline transition-opacity duration-[var(--duration-fast)]">Search</a></li>
+            <li><a href="/privacy/" class="text-[0.875rem] text-[var(--color-text-on-dark)] opacity-80 hover:opacity-100 no-underline transition-opacity duration-[var(--duration-fast)]">Privacy</a></li>
           </ul>
         </nav>
       </div>
@@ -44,11 +46,25 @@ const currentYear = new Date().getFullYear();
     </div>
 
     <!-- Divider + Copyright -->
-    <div class="mt-[var(--spacing-2xl)] pt-[var(--spacing-lg)] border-t border-[var(--color-text-on-dark)]/10">
+    <div class="mt-[var(--spacing-2xl)] pt-[var(--spacing-lg)] border-t border-[var(--color-text-on-dark)]/10 flex flex-wrap items-center justify-between gap-[var(--spacing-md)]">
       <p class="text-[0.75rem] text-[var(--color-text-on-dark)] opacity-70">
         &copy; {currentYear} Centre for Civil Society. All rights reserved. Built with 💛 by <a href="https://meetadnan.com" class="underline text-[var(--color-accent)] hover:text-[var(--color-accent-soft)] transition-colors duration-[var(--duration-fast)]" target="_blank" rel="noopener noreferrer">Adnan</a>.
       </p>
+      <button
+        type="button"
+        data-cookie-settings
+        class="text-[0.75rem] text-[var(--color-text-on-dark)] opacity-70 hover:opacity-100 underline underline-offset-2 transition-opacity duration-[var(--duration-fast)] bg-transparent border-0 cursor-pointer p-0"
+      >
+        Cookie settings
+      </button>
     </div>
 
   </div>
 </footer>
+
+<script>
+  import { openCookieConsent } from './CookieConsent';
+  document.querySelectorAll('[data-cookie-settings]').forEach((btn) => {
+    btn.addEventListener('click', () => openCookieConsent());
+  });
+</script>
