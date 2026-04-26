@@ -65,7 +65,48 @@ export function buildVideoSchema(video: {
   };
 }
 
-// 5. Breadcrumb schema
+// 5. DefinedTerm schema (for a single glossary term page)
+export function buildDefinedTermSchema(term: {
+  name: string;
+  description: string;
+  url: string;
+  inDefinedTermSet: string;
+  alternateName?: string[];
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTerm',
+    name: term.name,
+    description: term.description,
+    url: term.url,
+    inDefinedTermSet: term.inDefinedTermSet,
+    ...(term.alternateName && term.alternateName.length > 0 && { alternateName: term.alternateName }),
+  };
+}
+
+// 6. DefinedTermSet schema (for the glossary index page)
+export function buildDefinedTermSetSchema(set: {
+  name: string;
+  description: string;
+  url: string;
+  hasDefinedTerm: Array<{ name: string; description: string; url: string }>;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'DefinedTermSet',
+    name: set.name,
+    description: set.description,
+    url: set.url,
+    hasDefinedTerm: set.hasDefinedTerm.map((t) => ({
+      '@type': 'DefinedTerm',
+      name: t.name,
+      description: t.description,
+      url: t.url,
+    })),
+  };
+}
+
+// 7. Breadcrumb schema
 export function buildBreadcrumbSchema(crumbs: Array<{ name: string; url: string }>) {
   return {
     '@context': 'https://schema.org',

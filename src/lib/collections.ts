@@ -66,6 +66,35 @@ export function getContentUrl(
   return `/topics/${topic}/${typeSegment}/${slug}/`;
 }
 
+/** Build the URL for a glossary term. Slug is derived from the file ID. */
+export function getGlossaryUrl(id: string): string {
+  return `/glossary/${getSlugFromId(id)}/`;
+}
+
+/** All non-draft glossary entries, sorted alphabetically by term. */
+export async function getAllGlossary() {
+  const entries = await getCollection('glossary');
+  return entries
+    .filter((g) => !g.data.draft)
+    .sort((a, b) => a.data.term.localeCompare(b.data.term, undefined, { sensitivity: 'base' }));
+}
+
+/** Find a single glossary entry by its derived slug. */
+export async function getGlossaryBySlug(slug: string) {
+  const entries = await getCollection('glossary');
+  return entries.find((g) => getSlugFromId(g.id) === slug && !g.data.draft);
+}
+
+/** Resolve an array of glossary slugs to their full entries (filters draft + missing). */
+export async function resolveRelatedTerms(slugs: string[]) {
+  if (!slugs.length) return [];
+  const all = await getCollection('glossary');
+  const set = new Set(slugs);
+  return all
+    .filter((g) => !g.data.draft && set.has(getSlugFromId(g.id)))
+    .sort((a, b) => a.data.term.localeCompare(b.data.term, undefined, { sensitivity: 'base' }));
+}
+
 /**
  * Check which resource types are available for a topic.
  */

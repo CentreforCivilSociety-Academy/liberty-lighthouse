@@ -6,6 +6,7 @@ import CopyAsMarkdown from '../../../../components/ui/CopyAsMarkdown.astro';
 import ChatAboutThis from '../../../../components/ui/ChatAboutThis.astro';
 import { getCollection, render } from 'astro:content';
 import RelatedContent from '../../../../components/crosslinks/RelatedContent.astro';
+import DefinedOnThisPage from '../../../../components/global/DefinedOnThisPage.astro';
 import { getSlugFromId, getTopicBySlug, resolveRelatedFAQs, resolveRelatedVideos } from '../../../../lib/collections';
 import { buildVideoSchema, buildBreadcrumbSchema } from '../../../../lib/structured-data';
 
@@ -102,6 +103,8 @@ const breadcrumbSchema = buildBreadcrumbSchema([
             <ChatAboutThis title={entry.data.title} contentType="video" excerpt={entry.data.description || ''} />
           </div>
 
+          <DefinedOnThisPage body={`${entry.data.description || ''}\n\n${entry.body || ''}`} />
+
           <RelatedContent faqs={relatedFAQs} videos={relatedVideos}  />
         </div>
       </div>
@@ -142,6 +145,8 @@ const breadcrumbSchema = buildBreadcrumbSchema([
             <CopyAsMarkdown />
             <ChatAboutThis title={entry.data.title} contentType="video" excerpt={entry.data.description || ''} />
           </div>
+
+          <DefinedOnThisPage body={`${entry.data.description || ''}\n\n${entry.body || ''}`} />
 
           <RelatedContent faqs={relatedFAQs} videos={relatedVideos}  />
         </div>

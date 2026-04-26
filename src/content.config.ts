@@ -46,9 +46,28 @@ const videos = defineCollection({
   }),
 });
 
+const glossary = defineCollection({
+  loader: glob({ pattern: '**/*.mdx', base: './src/content/glossary' }),
+  schema: z.object({
+    term: z.string().min(1),
+    definition: z.string().min(1).max(280),
+    aliases: z.array(z.string().min(1).max(60)).default([]),
+    relatedTerms: z.array(z.string()).default([]),
+    relatedFAQs: z.array(z.string()).default([]),
+    relatedVideos: z.array(z.string()).default([]),
+    citations: z.array(z.object({
+      title: z.string(),
+      url: z.string().url(),
+      author: z.string().optional(),
+    })).default([]),
+    draft: z.boolean().default(false),
+    updatedAt: z.string().optional(),
+  }),
+});
+
 const settings = defineCollection({
   loader: glob({ pattern: '**/*.json', base: './src/content/settings' }),
   schema: z.object({}).passthrough(),
 });
 
-export const collections = { topics, faqs, videos, settings };
+export const collections = { topics, faqs, videos, glossary, settings };

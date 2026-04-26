@@ -2,28 +2,62 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import Breadcrumbs from '../components/global/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
-import { getSlugFromId, getContentUrl } from '../lib/collections';
+import { getContentUrl, getGlossaryUrl, getSlugFromId } from '../lib/collections';
+import { stripMarkdown, makeExcerpt } from '../lib/text';
 
-// Build search index at build time
+// Build search index at build time.
 const faqs = await getCollection('faqs');
 const videos = await getCollection('videos');
+const topics = await getCollection('topics');
+const glossary = await getCollection('glossary');
+
 const searchIndex = [
-  ...faqs.filter((f) => !f.data.draft).map((f) => ({
-    type: 'faq' as const,
-    title: f.data.question,
-    topic: f.data.topic,
-    url: getContentUrl('faq', f.data.topic, f.id),
-    excerpt: f.data.question,
-  })),
+  ...faqs.filter((f) => !f.data.draft).map((f) => {
+    const body = stripMarkdown(f.body || '');
+    return {
+      type: 'faq' as const,
+      title: f.data.question,
+      topic: f.data.topic,
+      url: getContentUrl('faq', f.data.topic, f.id),
+      excerpt: makeExcerpt(body, f.data.question),
+      body,
+    };
+  }),
   ...videos.filter((v) => !v.data.draft).map((v) => ({
     type: 'video' as const,
     title: v.data.title,
     topic: v.data.topic,
     url: getContentUrl('video', v.data.topic, v.id),
     excerpt: v.data.description,
+    body: v.data.description,
     duration: v.data.duration || null,
     format: v.data.format,
   })),
+  ...topics
+    .filter((t) => t.data.guidedSyllabus && t.data.guidedSyllabus.trim().length > 0)
+    .map((t) => {
+      const body = stripMarkdown(t.data.guidedSyllabus);
+      return {
+        type: 'syllabus' as const,
+        title: `${t.data.title} syllabus`,
+        topic: t.data.slug,
+        url: `/topics/${t.data.slug}/syllabus/`,
+        excerpt: makeExcerpt(body, t.data.description),
+        body,
+      };
+    }),
+  ...glossary.filter((g) => !g.data.draft).map((g) => {
+    const body = stripMarkdown(g.body || '');
+    const aliasText = (g.data.aliases ?? []).join(' ');
+    return {
+      type: 'glossary' as const,
+      title: g.data.term,
+      topic: 'glossary',
+      url: getGlossaryUrl(g.id),
+      excerpt: g.data.definition,
+      body: `${g.data.definition} ${aliasText} ${body}`.trim(),
+    };
+  }),
 ];
 ---
 
@@ -56,7 +90,7 @@ const searchIndex = [
   import { useState, useMemo, useRef, useEffect } from 'preact/hooks';
   import Fuse from 'fuse.js';
 
-  type ContentType = 'faq' | 'video';
+  type ContentType = 'faq' | 'video' | 'syllabus' | 'glossary';
   type FilterType = 'all' | ContentType;
 
   interface SearchItem {
@@ -65,18 +99,23 @@ const searchIndex = [
     topic: string;
     url: string;
     excerpt: string;
+    body?: string;
     duration?: string | null;
   }
 
   const typeConfig: Record<ContentType, { label: string; icon: string }> = {
     faq: { label: 'FAQ', icon: '?' },
     video: { label: 'Video', icon: '\u25B6' },
+    syllabus: { label: 'Syllabus', icon: '\u2630' },
+    glossary: { label: 'Term', icon: 'A' },
   };
 
   const filterTabs: { key: FilterType; label: string }[] = [
     { key: 'all', label: 'All' },
     { key: 'faq', label: 'FAQs' },
     { key: 'video', label: 'Videos' },
+    { key: 'syllabus', label: 'Syllabi' },
+    { key: 'glossary', label: 'Terms' },
   ];
 
   // Search icon SVG path
@@ -118,9 +157,10 @@ const searchIndex = [
     // Fuse.js instance
     const fuse = useMemo(() => new Fuse(index, {
       keys: [
-        { name: 'title', weight: 0.6 },
-        { name: 'excerpt', weight: 0.3 },
-        { name: 'topic', weight: 0.1 },
+        { name: 'title', weight: 0.45 },
+        { name: 'body', weight: 0.35 },
+        { name: 'excerpt', weight: 0.15 },
+        { name: 'topic', weight: 0.05 },
       ],
       threshold: 0.4,
       ignoreLocation: true,
@@ -142,7 +182,7 @@ const searchIndex = [
 
     // Counts per type
     const counts = useMemo(() => {
-      const c: Record<FilterType, number> = { all: allResults.length, faq: 0, video: 0 };
+      const c: Record<FilterType, number> = { all: allResults.length, faq: 0, video: 0, syllabus: 0, glossary: 0 };
       for (const item of allResults) c[item.type]++;
       return c;
     }, [allResults]);

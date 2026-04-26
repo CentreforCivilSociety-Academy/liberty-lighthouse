@@ -1,0 +1,129 @@
+---
+import PageLayout from '../../layouts/PageLayout.astro';
+import Breadcrumbs from '../../components/global/Breadcrumbs.astro';
+import { getAllGlossary, getSlugFromId, getGlossaryUrl } from '../../lib/collections';
+import { buildDefinedTermSetSchema, buildBreadcrumbSchema } from '../../lib/structured-data';
+
+const entries = await getAllGlossary();
+
+// Group by first letter for A–Z anchors.
+type Group = { letter: string; entries: typeof entries };
+const groups: Group[] = [];
+const groupMap = new Map<string, typeof entries>();
+for (const entry of entries) {
+  const letter = entry.data.term.charAt(0).toUpperCase();
+  const key = /^[A-Z]$/.test(letter) ? letter : '#';
+  if (!groupMap.has(key)) groupMap.set(key, []);
+  groupMap.get(key)!.push(entry);
+}
+for (const [letter, items] of [...groupMap.entries()].sort(([a], [b]) => a.localeCompare(b))) {
+  groups.push({ letter, entries: items });
+}
+
+const allLetters = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
+const populatedLetters = new Set(groups.map((g) => g.letter));
+
+const pageUrl = new URL('/glossary/', Astro.site).href;
+const definedTermSetSchema = buildDefinedTermSetSchema({
+  name: 'Liberty Lighthouse Glossary',
+  description: 'Definitions of policy, economics, and civil-society terms used across Liberty Lighthouse.',
+  url: pageUrl,
+  hasDefinedTerm: entries.map((e) => ({
+    name: e.data.term,
+    description: e.data.definition,
+    url: new URL(getGlossaryUrl(e.id), Astro.site).href,
+  })),
+});
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Glossary', url: pageUrl },
+]);
+---
+
+<PageLayout
+  title="Glossary"
+  description="Definitions of policy, economics, and civil-society terms used across Liberty Lighthouse."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(definedTermSetSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    <div class="fade-up">
+      <Breadcrumbs items={[{ label: 'Glossary' }]} />
+    </div>
+
+    <div class="max-w-[48rem]">
+      <h1
+        class="text-[1.75rem] md:text-[2rem] font-[700] tracking-[-0.01em] mb-[var(--spacing-sm)] fade-up fade-up-delay-1"
+        style="font-family: var(--font-display);"
+      >
+        Glossary
+      </h1>
+      <p class="text-[1.0625rem] text-[var(--color-text-secondary)] leading-relaxed mb-[var(--spacing-xl)] fade-up fade-up-delay-2">
+        Definitions of policy, economics, and civil-society terms used across the site. Hover any highlighted term in an article to see its short definition; click for the full entry.
+      </p>
+    </div>
+
+    {entries.length === 0 ? (
+      <p class="text-[var(--color-text-tertiary)] text-center py-[var(--spacing-2xl)]">
+        No glossary entries yet.
+      </p>
+    ) : (
+      <>
+        <nav
+          aria-label="Jump to letter"
+          class="sticky top-[4rem] z-10 -mx-[var(--spacing-lg)] px-[var(--spacing-lg)] py-[var(--spacing-sm)] mb-[var(--spacing-xl)] bg-[var(--color-bg-page)]/95 backdrop-blur-sm border-b border-[var(--color-border-subtle)] fade-up fade-up-delay-3"
+        >
+          <ul class="flex flex-wrap items-center gap-x-[0.625rem] gap-y-[0.25rem]">
+            {allLetters.map((l) => (
+              <li>
+                {populatedLetters.has(l) ? (
+                  <a
+                    href={`#letter-${l}`}
+                    class="text-[0.8125rem] font-medium tabular-nums text-[var(--color-text-secondary)] hover:text-[var(--color-primary)] transition-colors no-underline"
+                  >
+                    {l}
+                  </a>
+                ) : (
+                  <span class="text-[0.8125rem] tabular-nums text-[var(--color-text-muted)] opacity-50">{l}</span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </nav>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-[var(--spacing-2xl)] gap-y-[var(--spacing-xs)]">
+          {groups.map((group) => (
+            <section id={`letter-${group.letter}`} class="md:col-span-2 mt-[var(--spacing-lg)]">
+              <h2
+                class="text-[1.5rem] font-[700] text-[var(--color-accent-text)] mb-[var(--spacing-md)] tracking-[-0.01em]"
+                style="font-family: var(--font-display);"
+              >
+                {group.letter}
+              </h2>
+              <ul class="grid grid-cols-1 md:grid-cols-2 gap-x-[var(--spacing-2xl)] gap-y-[var(--spacing-sm)]">
+                {group.entries.map((entry) => (
+                  <li>
+                    <a
+                      href={getGlossaryUrl(entry.id)}
+                      class="block py-[var(--spacing-sm)] no-underline group"
+                    >
+                      <span
+                        class="text-[1.0625rem] font-[600] text-[var(--color-text-primary)] group-hover:text-[var(--color-primary)] transition-colors"
+                        style="font-family: var(--font-display);"
+                      >
+                        {entry.data.term}
+                      </span>
+                      <span class="block text-[0.875rem] text-[var(--color-text-tertiary)] leading-relaxed line-clamp-2 mt-[0.125rem]">
+                        {entry.data.definition}
+                      </span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          ))}
+        </div>
+      </>
+    )}
+  </div>
+</PageLayout>

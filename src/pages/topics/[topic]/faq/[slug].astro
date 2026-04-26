@@ -4,6 +4,7 @@ import ContentTypeBadge from '../../../../components/ui/ContentTypeBadge.astro';
 import RelatedContent from '../../../../components/crosslinks/RelatedContent.astro';
 import CopyAsMarkdown from '../../../../components/ui/CopyAsMarkdown.astro';
 import ChatAboutThis from '../../../../components/ui/ChatAboutThis.astro';
+import DefinedOnThisPage from '../../../../components/global/DefinedOnThisPage.astro';
 import { getCollection, render } from 'astro:content';
 import { getSlugFromId, getTopicBySlug, resolveRelatedFAQs, resolveRelatedVideos } from '../../../../lib/collections';
 import { buildFAQSchema, buildBreadcrumbSchema } from '../../../../lib/structured-data';
@@ -71,6 +72,8 @@ const breadcrumbSchema = buildBreadcrumbSchema([
     <CopyAsMarkdown />
     <ChatAboutThis title={entry.data.question} contentType="FAQ" excerpt={entry.data.question} />
   </div>
+
+  <DefinedOnThisPage body={entry.body || ''} />
 
   <RelatedContent faqs={relatedFAQs} videos={relatedVideos}  />
 </ProseLayout>

@@ -1,0 +1,48 @@
+---
+import { getAllGlossary, getSlugFromId, getGlossaryUrl } from '../../lib/collections';
+import { stripMarkdown, escapeRegExp } from '../../lib/text';
+
+interface Props {
+  /** Raw markdown body of the article (FAQ body, video description+body, etc.). */
+  body: string;
+  /** Slug of the current article, used to skip a glossary entry's own page if relevant. */
+  selfSlug?: string;
+}
+
+const { body, selfSlug } = Astro.props;
+
+const all = await getAllGlossary();
+const plain = stripMarkdown(body || '').toLowerCase();
+
+type Match = { slug: string; term: string; url: string };
+const matches: Match[] = [];
+
+for (const entry of all) {
+  const slug = getSlugFromId(entry.id);
+  if (selfSlug && selfSlug === slug) continue;
+  const variants = [entry.data.term, ...(entry.data.aliases ?? [])]
+    .map((s) => s.trim())
+    .filter(Boolean);
+  if (!variants.length) continue;
+  const sorted = [...variants].sort((a, b) => b.length - a.length);
+  const re = new RegExp(`\\b(?:${sorted.map(escapeRegExp).join('|')})\\b`, 'i');
+  if (re.test(plain)) {
+    matches.push({ slug, term: entry.data.term, url: getGlossaryUrl(entry.id) });
+  }
+}
+
+matches.sort((a, b) => a.term.localeCompare(b.term, undefined, { sensitivity: 'base' }));
+---
+
+{matches.length > 0 && (
+  <aside class="defined-on-this-page" aria-labelledby="defined-on-this-page-heading">
+    <h2 id="defined-on-this-page-heading">Glossary terms on this page</h2>
+    <ul>
+      {matches.map((m) => (
+        <li>
+          <a href={m.url}>{m.term}</a>
+        </li>
+      ))}
+    </ul>
+  </aside>
+)}

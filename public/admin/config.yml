@@ -790,3 +790,81 @@ collections:
         widget: "markdown"
         required: false
         hint: "Optional — add timestamps, key takeaways, or context. Use Heading 2 for sections (not Heading 1). See the Content Guide in Site Settings."
+
+  # ─────────────────────────────────────────────
+  # Glossary
+  # ─────────────────────────────────────────────
+  - name: "glossary"
+    label: "Glossary"
+    label_singular: "Term"
+    description: "Glossary entries — each defines a term, its short definition (shown in hover popovers), and an optional long-form explanation. The filename becomes the URL slug. Wrap a phrase in <span data-no-gloss>...</span> in any article body to prevent it from being auto-linked there."
+    folder: "src/content/glossary"
+    format: "frontmatter"
+    extension: "mdx"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - label: "Term"
+        name: "term"
+        widget: "string"
+        hint: "The canonical name as it should appear on the site. e.g., MSP, voucher system, regulatory capture."
+      - label: "Short definition"
+        name: "definition"
+        widget: "text"
+        pattern: ['^.{1,280}$', "Keep the short definition under 280 characters."]
+        hint: "One-line definition shown in the hover popover, the glossary index, and search results. Keep it under 280 characters."
+      - label: "Aliases"
+        name: "aliases"
+        widget: "list"
+        field: { label: "Alias", name: "alias", widget: "string" }
+        required: false
+        hint: "Other forms of the term that should also auto-link. e.g., for MSP add 'Minimum Support Price' and 'MSPs'. Each alias must be unique across all glossary entries."
+      - label: "Related terms"
+        name: "relatedTerms"
+        widget: "relation"
+        collection: "glossary"
+        search_fields: ["term"]
+        value_field: "{{slug}}"
+        display_fields: ["term"]
+        multiple: true
+        required: false
+        hint: "Other glossary terms readers might want to explore next. Shown as chips under 'Related terms' on the term page."
+      - label: "Related FAQs"
+        name: "relatedFAQs"
+        widget: "relation"
+        collection: "faqs"
+        search_fields: ["question"]
+        value_field: "{{topic}}/{{slug}}"
+        display_fields: ["question"]
+        multiple: true
+        required: false
+        hint: "Hand-curated FAQ links. The term page also auto-finds mentions across all FAQs."
+      - label: "Related videos"
+        name: "relatedVideos"
+        widget: "relation"
+        collection: "videos"
+        search_fields: ["title"]
+        value_field: "{{topic}}/{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        required: false
+        hint: "Hand-curated video links. The term page also auto-finds mentions across all videos."
+      - label: "Recommended reading (citations)"
+        name: "citations"
+        widget: "list"
+        required: false
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "URL", name: "url", widget: "string", pattern: ['^https?://', "Must start with http:// or https://"] }
+          - { label: "Author", name: "author", widget: "string", required: false }
+        hint: "Books, papers, or articles to cite on this term's page. Curated; not auto-discovered from the syllabus."
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: false
+        hint: "Turn this on to hide this term from the public site while you work on it. Drafts are excluded from auto-linking."
+      - label: "Long explanation"
+        name: "body"
+        widget: "markdown"
+        required: false
+        hint: "Optional — full editorial explanation shown only on the term's own page. Leave blank if the short definition is enough; the page will still look complete."

@@ -150,6 +150,10 @@ const designSystemCSS = `
   <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <slot />
+    <script>
+      import { initGlossaryHover } from '../components/global/GlossaryHover';
+      if (typeof window !== 'undefined') initGlossaryHover();
+    </script>
     <script is:inline>
       document.addEventListener('DOMContentLoaded', function() {
         var hostname = window.location.hostname;

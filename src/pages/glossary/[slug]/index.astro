@@ -1,0 +1,203 @@
+---
+import ProseLayout from '../../../layouts/ProseLayout.astro';
+import { getCollection, render } from 'astro:content';
+import {
+  getAllGlossary,
+  getSlugFromId,
+  getGlossaryUrl,
+  resolveRelatedTerms,
+  resolveRelatedFAQs,
+  resolveRelatedVideos,
+  getContentUrl,
+} from '../../../lib/collections';
+import { stripMarkdown, escapeRegExp, snippetAroundMatch } from '../../../lib/text';
+import { buildDefinedTermSchema, buildBreadcrumbSchema } from '../../../lib/structured-data';
+
+export async function getStaticPaths() {
+  const entries = await getAllGlossary();
+  return entries.map((entry) => ({
+    params: { slug: getSlugFromId(entry.id) },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const slug = getSlugFromId(entry.id);
+const url = getGlossaryUrl(entry.id);
+const indexUrl = '/glossary/';
+
+// Build the alias regex for this term to find mentions across the corpus.
+const variants = [entry.data.term, ...(entry.data.aliases ?? [])]
+  .map((s) => s.trim())
+  .filter(Boolean);
+const sortedVariants = [...variants].sort((a, b) => b.length - a.length);
+const aliasPattern = sortedVariants.length
+  ? new RegExp(`\\b(?:${sortedVariants.map(escapeRegExp).join('|')})\\b`, 'i')
+  : null;
+
+// Mention map: walk every non-draft FAQ + video body for the first match.
+type Mention = {
+  type: 'faq' | 'video';
+  title: string;
+  url: string;
+  topic: string;
+  snippet: string;
+};
+
+const mentions: Mention[] = [];
+if (aliasPattern) {
+  const faqs = await getCollection('faqs');
+  for (const faq of faqs) {
+    if (faq.data.draft) continue;
+    const plain = stripMarkdown(faq.body || '');
+    const hit = snippetAroundMatch(plain, new RegExp(aliasPattern.source, 'i'));
+    if (hit) {
+      mentions.push({
+        type: 'faq',
+        title: faq.data.question,
+        url: getContentUrl('faq', faq.data.topic, faq.id),
+        topic: faq.data.topic,
+        snippet: hit.snippet,
+      });
+    }
+  }
+
+  const videos = await getCollection('videos');
+  for (const video of videos) {
+    if (video.data.draft) continue;
+    const plain = stripMarkdown((video.body || '') + ' ' + (video.data.description || ''));
+    const hit = snippetAroundMatch(plain, new RegExp(aliasPattern.source, 'i'));
+    if (hit) {
+      mentions.push({
+        type: 'video',
+        title: video.data.title,
+        url: getContentUrl('video', video.data.topic, video.id),
+        topic: video.data.topic,
+        snippet: hit.snippet,
+      });
+    }
+  }
+}
+
+const faqMentions = mentions.filter((m) => m.type === 'faq');
+const videoMentions = mentions.filter((m) => m.type === 'video');
+
+const relatedTerms = await resolveRelatedTerms(entry.data.relatedTerms);
+const relatedFAQs = await resolveRelatedFAQs(entry.data.relatedFAQs);
+const relatedVideos = await resolveRelatedVideos(entry.data.relatedVideos);
+
+// Render the optional MDX body (will only render if non-empty).
+const hasBody = (entry.body || '').trim().length > 0;
+const { Content } = hasBody ? await render(entry) : ({} as any);
+
+const pageUrl = new URL(url, Astro.site).href;
+const definedTermSetUrl = new URL(indexUrl, Astro.site).href;
+
+const definedTermSchema = buildDefinedTermSchema({
+  name: entry.data.term,
+  description: entry.data.definition,
+  url: pageUrl,
+  inDefinedTermSet: definedTermSetUrl,
+  alternateName: entry.data.aliases ?? [],
+});
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Glossary', url: definedTermSetUrl },
+  { name: entry.data.term, url: pageUrl },
+]);
+---
+
+<ProseLayout
+  title={`${entry.data.term} — Glossary`}
+  description={entry.data.definition}
+  breadcrumbs={[
+    { label: 'Glossary', href: indexUrl },
+    { label: entry.data.term },
+  ]}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(definedTermSchema)} />
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <div data-content-body data-glossary-self-slug={slug}>
+    <h1>{entry.data.term}</h1>
+    {entry.data.aliases.length > 0 && (
+      <p class="glossary-aliases">
+        Also known as: {entry.data.aliases.join(' · ')}
+      </p>
+    )}
+    <p class="glossary-definition">{entry.data.definition}</p>
+
+    {hasBody && (
+      <>
+        <hr class="glossary-rule" />
+        <Content />
+      </>
+    )}
+
+    {(faqMentions.length > 0 || videoMentions.length > 0) && <hr class="glossary-rule" />}
+
+    {faqMentions.length > 0 && (
+      <section class="glossary-mentions">
+        <h2 class="glossary-section-heading">Discussed in {faqMentions.length} {faqMentions.length === 1 ? 'FAQ' : 'FAQs'}</h2>
+        <ul class="glossary-mention-list">
+          {faqMentions.map((m) => (
+            <li>
+              <a href={m.url} class="glossary-mention">
+                <span class="glossary-mention-title">{m.title}</span>
+                <span class="glossary-mention-snippet">{m.snippet}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {videoMentions.length > 0 && (
+      <section class="glossary-mentions">
+        <h2 class="glossary-section-heading">Mentioned in {videoMentions.length} {videoMentions.length === 1 ? 'video' : 'videos'}</h2>
+        <ul class="glossary-mention-list">
+          {videoMentions.map((m) => (
+            <li>
+              <a href={m.url} class="glossary-mention">
+                <span class="glossary-mention-title">{m.title}</span>
+                <span class="glossary-mention-snippet">{m.snippet}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {entry.data.citations.length > 0 && (
+      <section class="glossary-mentions">
+        <h2 class="glossary-section-heading">Recommended reading</h2>
+        <ul class="glossary-citation-list">
+          {entry.data.citations.map((c) => (
+            <li>
+              <a href={c.url} class="glossary-citation" target="_blank" rel="noopener noreferrer">
+                <span class="glossary-citation-title">{c.title}</span>
+                {c.author && <span class="glossary-citation-author"> — {c.author}</span>}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {relatedTerms.length > 0 && (
+      <section class="glossary-related">
+        <h2 class="glossary-section-heading">Related terms</h2>
+        <ul class="glossary-chip-list">
+          {relatedTerms.map((rt) => (
+            <li><a href={getGlossaryUrl(rt.id)} class="glossary-chip">{rt.data.term}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {(faqMentions.length === 0 && videoMentions.length === 0 && !hasBody && relatedTerms.length === 0) && (
+      <p class="glossary-empty">
+        Not yet referenced in articles. <a href={indexUrl}>Browse all glossary terms</a>.
+      </p>
+    )}
+  </div>
+</ProseLayout>
