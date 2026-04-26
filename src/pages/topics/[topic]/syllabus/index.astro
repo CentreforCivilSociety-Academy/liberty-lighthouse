@@ -4,6 +4,7 @@ import TopicHeader from '../../../../components/topic/TopicHeader.astro';
 import ResourceTabs from '../../../../components/topic/ResourceTabs.astro';
 import CopyAsMarkdown from '../../../../components/ui/CopyAsMarkdown.astro';
 import ChatAboutThis from '../../../../components/ui/ChatAboutThis.astro';
+import DefinedOnThisPage from '../../../../components/global/DefinedOnThisPage.astro';
 import { getAllTopics, getTopicBySlug, getTopicResourceCounts } from '../../../../lib/collections';
 import { buildBreadcrumbSchema } from '../../../../lib/structured-data';
 import { renderMarkdownWithGlossary } from '../../../../lib/render-markdown';
@@ -46,6 +47,9 @@ const breadcrumbSchema = buildBreadcrumbSchema([
       <div class="max-w-[var(--prose-max-width)] mx-auto mt-[var(--spacing-xl)] flex flex-wrap items-center gap-2 border-t border-[var(--color-border-default)] pt-[var(--spacing-lg)]">
         <CopyAsMarkdown />
         <ChatAboutThis title={`${topicData.title} Guided Syllabus`} contentType="syllabus" excerpt={`Guided learning path for ${topicData.title.toLowerCase()} policy in India.`} />
+      </div>
+      <div class="max-w-[var(--prose-max-width)] mx-auto">
+        <DefinedOnThisPage body={topicData.guidedSyllabus} />
       </div>
     ) : (
       <p class="text-[var(--color-text-tertiary)] text-center py-[var(--spacing-2xl)]">No guided syllabus available yet.</p>

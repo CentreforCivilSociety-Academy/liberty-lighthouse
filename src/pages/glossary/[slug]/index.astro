@@ -35,9 +35,9 @@ const aliasPattern = sortedVariants.length
   ? new RegExp(`\\b(?:${sortedVariants.map(escapeRegExp).join('|')})\\b`, 'i')
   : null;
 
-// Mention map: walk every non-draft FAQ + video body for the first match.
+// Mention map: walk every non-draft FAQ + video body + topic syllabus for the first match.
 type Mention = {
-  type: 'faq' | 'video';
+  type: 'faq' | 'video' | 'syllabus';
   title: string;
   url: string;
   topic: string;
@@ -77,10 +77,28 @@ if (aliasPattern) {
       });
     }
   }
+
+  const topics = await getCollection('topics');
+  for (const topic of topics) {
+    const syllabus = topic.data.guidedSyllabus;
+    if (!syllabus || !syllabus.trim()) continue;
+    const plain = stripMarkdown(syllabus);
+    const hit = snippetAroundMatch(plain, new RegExp(aliasPattern.source, 'i'));
+    if (hit) {
+      mentions.push({
+        type: 'syllabus',
+        title: `${topic.data.title} syllabus`,
+        url: `/topics/${topic.data.slug}/syllabus/`,
+        topic: topic.data.slug,
+        snippet: hit.snippet,
+      });
+    }
+  }
 }
 
 const faqMentions = mentions.filter((m) => m.type === 'faq');
 const videoMentions = mentions.filter((m) => m.type === 'video');
+const syllabusMentions = mentions.filter((m) => m.type === 'syllabus');
 
 const relatedTerms = await resolveRelatedTerms(entry.data.relatedTerms);
 const relatedFAQs = await resolveRelatedFAQs(entry.data.relatedFAQs);
@@ -133,7 +151,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
       </>
     )}
 
-    {(faqMentions.length > 0 || videoMentions.length > 0) && <hr class="glossary-rule" />}
+    {(faqMentions.length > 0 || videoMentions.length > 0 || syllabusMentions.length > 0) && <hr class="glossary-rule" />}
 
     {faqMentions.length > 0 && (
       <section class="glossary-mentions">
@@ -156,6 +174,22 @@ const breadcrumbSchema = buildBreadcrumbSchema([
         <h2 class="glossary-section-heading">Mentioned in {videoMentions.length} {videoMentions.length === 1 ? 'video' : 'videos'}</h2>
         <ul class="glossary-mention-list">
           {videoMentions.map((m) => (
+            <li>
+              <a href={m.url} class="glossary-mention">
+                <span class="glossary-mention-title">{m.title}</span>
+                <span class="glossary-mention-snippet">{m.snippet}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {syllabusMentions.length > 0 && (
+      <section class="glossary-mentions">
+        <h2 class="glossary-section-heading">In {syllabusMentions.length === 1 ? 'a syllabus' : `${syllabusMentions.length} syllabi`}</h2>
+        <ul class="glossary-mention-list">
+          {syllabusMentions.map((m) => (
             <li>
               <a href={m.url} class="glossary-mention">
                 <span class="glossary-mention-title">{m.title}</span>
@@ -194,7 +228,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
       </section>
     )}
 
-    {(faqMentions.length === 0 && videoMentions.length === 0 && !hasBody && relatedTerms.length === 0) && (
+    {(faqMentions.length === 0 && videoMentions.length === 0 && syllabusMentions.length === 0 && !hasBody && relatedTerms.length === 0) && (
       <p class="glossary-empty">
         Not yet referenced in articles. <a href={indexUrl}>Browse all glossary terms</a>.
       </p>
