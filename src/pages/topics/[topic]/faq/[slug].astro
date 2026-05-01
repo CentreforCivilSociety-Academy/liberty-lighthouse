@@ -7,7 +7,7 @@ import ChatAboutThis from '../../../../components/ui/ChatAboutThis.astro';
 import DefinedOnThisPage from '../../../../components/global/DefinedOnThisPage.astro';
 import { getCollection, render } from 'astro:content';
 import { getSlugFromId, getTopicBySlug, resolveRelatedFAQs, resolveRelatedVideos } from '../../../../lib/collections';
-import { buildFAQSchema, buildBreadcrumbSchema } from '../../../../lib/structured-data';
+import { buildFAQSchema, buildFaqAnswer, buildBreadcrumbSchema } from '../../../../lib/structured-data';
 
 export async function getStaticPaths() {
   const faqs = await getCollection('faqs');
@@ -29,7 +29,10 @@ const relatedFAQs = await resolveRelatedFAQs(entry.data.relatedFAQs);
 const relatedVideos = await resolveRelatedVideos(entry.data.relatedVideos);
 
 const pageUrl = Astro.url.href;
-const faqSchema = buildFAQSchema([{ question: entry.data.question, answer: entry.data.question }]);
+const answer = buildFaqAnswer(entry.body);
+const faqSchema = answer
+  ? buildFAQSchema([{ question: entry.data.question, answer }])
+  : null;
 const breadcrumbSchema = buildBreadcrumbSchema([
   { name: 'Topics', url: new URL('/topics/', Astro.site).href },
   { name: topic?.data.title || topicSlug!, url: new URL(`/topics/${topicSlug}/`, Astro.site).href },
@@ -48,7 +51,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
     { label: entry.data.question },
   ]}
 >
-  <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+  {faqSchema && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
 
   <div class="mb-[var(--spacing-lg)]">
