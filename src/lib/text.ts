@@ -16,7 +16,9 @@ export function stripMarkdown(md: string): string {
     .replace(/^>\s?/gm, '')                    // blockquotes
     .replace(/(\*\*|__)(.+?)\1/g, '$2')        // bold
     .replace(/(\*|_)(.+?)\1/g, '$2')           // italic
-    .replace(/<[^>]+>/g, ' ')                  // HTML/JSX tags
+    // Match HTML/JSX tags only (start with letter or "/letter"), so prose with
+    // raw inequalities like "GDP < 5%" or "inflation > 3%" is preserved intact.
+    .replace(/<\/?[A-Za-z][^>]*>/g, ' ')       // HTML/JSX tags
     .replace(/\s+/g, ' ')                      // collapse whitespace
     .trim();
 }

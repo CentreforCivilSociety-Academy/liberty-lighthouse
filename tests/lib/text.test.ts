@@ -52,6 +52,18 @@ describe('stripMarkdown', () => {
     expect(stripMarkdown('<Aside>important note</Aside>')).toBe('important note');
   });
 
+  it('preserves raw less-than and greater-than in prose (regression: <[^>]+> ate inequalities)', () => {
+    expect(stripMarkdown('GDP grew by < 5% while inflation was > 3%.')).toBe('GDP grew by < 5% while inflation was > 3%.');
+  });
+
+  it('preserves bare numeric comparisons (< 3, > 100)', () => {
+    expect(stripMarkdown('Yields fell <3% across the region; subsidies rose >100bn.')).toBe('Yields fell <3% across the region; subsidies rose >100bn.');
+  });
+
+  it('still strips lowercase HTML tags between inequality-like text', () => {
+    expect(stripMarkdown('a < 5 then <span>x</span> > 3')).toBe('a < 5 then x > 3');
+  });
+
   it('collapses whitespace and trims', () => {
     expect(stripMarkdown('a   \n\n  b')).toBe('a b');
   });
