@@ -18,6 +18,7 @@ import { readFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import {
   htmlToMarkdown,
+  loadEnv,
   loadFrontmatterHashes,
   logStep,
   logWarn,
@@ -89,6 +90,7 @@ function deriveSlug(post: IncomingPost): string {
 }
 
 async function main() {
+  await loadEnv();
   const args = parseArgs(process.argv.slice(2));
   const rssUrl = typeof args['rss-url'] === 'string' ? (args['rss-url'] as string) : null;
   const backlogFile =

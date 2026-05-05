@@ -28,6 +28,7 @@ import { readFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import matter from 'gray-matter';
 import {
+  loadEnv,
   loadFrontmatterHashes,
   logStep,
   logWarn,
@@ -122,6 +123,7 @@ async function synthesise(
 }
 
 async function main() {
+  await loadEnv();
   const args = parseArgs(process.argv.slice(2));
   const filter = (args.source as string) || 'all';
   const limit =

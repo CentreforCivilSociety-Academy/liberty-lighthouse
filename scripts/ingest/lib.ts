@@ -5,6 +5,21 @@ import matter from 'gray-matter';
 
 // Shared helpers for all ingestion scripts in scripts/ingest/.
 
+// Load environment variables from .env and .env.local (in that order, with
+// .env.local overriding). Idempotent — safe to call from every script's
+// entry point. Silently no-ops if dotenv isn't installed (CI populates env
+// vars via GitHub Actions secrets directly, no .env file involved).
+let _envLoaded = false;
+export async function loadEnv(): Promise<void> {
+  if (_envLoaded) return;
+  _envLoaded = true;
+  const mod = await import('dotenv').catch(() => null);
+  if (!mod) return;
+  const dotenv = (mod as any).default ?? mod;
+  dotenv.config({ path: '.env' });
+  dotenv.config({ path: '.env.local', override: true });
+}
+
 export function sha256(s: string): string {
   return createHash('sha256').update(s).digest('hex');
 }

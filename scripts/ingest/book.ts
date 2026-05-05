@@ -25,6 +25,7 @@ import { readFile } from 'node:fs/promises';
 import { join, resolve } from 'node:path';
 import {
   htmlToMarkdown,
+  loadEnv,
   logStep,
   logWarn,
   parseArgs,
@@ -48,6 +49,7 @@ interface BookManifest {
 }
 
 async function main() {
+  await loadEnv();
   const args = parseArgs(process.argv.slice(2));
   const bookSlug = args['book-slug'];
   const bookTitle = args['book-title'];

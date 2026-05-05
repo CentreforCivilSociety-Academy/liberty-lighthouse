@@ -34,7 +34,7 @@
 import { readdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, join, resolve } from 'node:path';
 import { mkdir } from 'node:fs/promises';
-import { logStep, logWarn, parseArgs, slugify } from './lib';
+import { loadEnv, logStep, logWarn, parseArgs, slugify } from './lib';
 
 interface IncomingPost {
   title: string;
@@ -248,6 +248,7 @@ async function loadExistingBacklog(path: string): Promise<IncomingPost[]> {
 }
 
 async function main() {
+  await loadEnv();
   const args = parseArgs(process.argv.slice(2));
   const base =
     typeof args.base === 'string'
