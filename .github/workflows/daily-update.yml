@@ -1,0 +1,91 @@
+name: Daily update — fetch, ingest, regen wiki
+
+# Autonomous daily flow:
+#   1. Fetch new Spontaneous Order posts from the public Substack archive
+#      (skipping slugs already mirrored under src/content/external/spontaneous-order).
+#   2. Ingest them into the content collection.
+#   3. Regenerate the wiki layer (no-ops gracefully if OPENROUTER_API_KEY is unset).
+#   4. Commit + push if anything under src/content/ changed.
+#
+# Vercel auto-rebuilds on push, so the agent surface and HTML pages refresh
+# without any further action.
+
+on:
+  schedule:
+    - cron: "0 4 * * *"  # daily, 04:00 UTC (~09:30 IST)
+  workflow_dispatch:
+    inputs:
+      run_wiki_regen:
+        description: "Run the wiki regen step (set false to skip)"
+        required: false
+        default: true
+        type: boolean
+      dry_run_fetch:
+        description: "Run the fetch step in dry-run mode (preview only)"
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Fetch Spontaneous Order archive (skip already-mirrored)
+        env:
+          DRY_RUN: ${{ github.event.inputs.dry_run_fetch || 'false' }}
+        run: |
+          ARGS="--skip-from-dir src/content/external/spontaneous-order --out backlog.json"
+          if [ "$DRY_RUN" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          npm run ingest:rss:fetch-backlog -- $ARGS
+
+      - name: Ingest backlog into content collection
+        if: ${{ github.event.inputs.dry_run_fetch != 'true' }}
+        run: |
+          if [ ! -s backlog.json ] || [ "$(jq 'length' backlog.json)" = "0" ]; then
+            echo "backlog.json empty or missing — skipping ingest."
+            exit 0
+          fi
+          npm run ingest:rss -- --backlog-file backlog.json
+
+      - name: Regenerate wiki layer
+        if: ${{ github.event.inputs.dry_run_fetch != 'true' && github.event.inputs.run_wiki_regen != 'false' }}
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'x-ai/grok-4.1-fast' }}
+        run: |
+          if [ -z "$OPENROUTER_API_KEY" ]; then
+            echo "::warning::OPENROUTER_API_KEY not set. Wiki regen will no-op."
+          fi
+          npm run ingest:wiki -- --source all
+
+      - name: Commit and push if changed
+        if: ${{ github.event.inputs.dry_run_fetch != 'true' }}
+        run: |
+          git config user.name "liberty-lighthouse-bot"
+          git config user.email "bot@liberty-lighthouse.local"
+          if [ -n "$(git status --porcelain src/content)" ]; then
+            git add src/content
+            git commit -m "Daily update — $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No changes."
+          fi
