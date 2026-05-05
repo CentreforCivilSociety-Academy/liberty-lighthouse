@@ -72,14 +72,19 @@ interface PostDetail {
   post_tags?: Array<{ name?: string; slug?: string }>;
 }
 
-function slugFromUrl(u: string): string | null {
+function rawSlugFromUrl(u: string): string | null {
   try {
     const parsed = new URL(u);
     const last = parsed.pathname.split('/').filter(Boolean).pop();
-    return last ? slugify(last) : null;
+    return last ?? null;
   } catch {
     return null;
   }
+}
+
+function slugFromUrl(u: string): string | null {
+  const raw = rawSlugFromUrl(u);
+  return raw ? slugify(raw) : null;
 }
 
 function stripHtml(s: string): string {
@@ -155,7 +160,9 @@ async function buildSkipSet(opts: {
     try {
       const entries = await readdir(opts.skipFromDir);
       for (const e of entries) {
-        if (e.endsWith('.mdx')) set.add(e.replace(/\.mdx$/, ''));
+        if (e.endsWith('.md') || e.endsWith('.mdx')) {
+          set.add(e.replace(/\.mdx?$/, ''));
+        }
       }
     } catch {
       // dir doesn't exist — empty contribution
@@ -181,8 +188,20 @@ async function fetchPost(base: string, slug: string): Promise<PostDetail> {
   return getJSON(`${base}/api/v1/posts/${slug}`);
 }
 
-async function extractSlugsFromSitemap(base: string): Promise<Set<string>> {
-  const slugs = new Set<string>();
+interface SitemapResult {
+  // The set of canonical (slugify-truncated) slugs, used for matching against
+  // backlog entries and --skip-from-dir filenames (both of which already use
+  // the truncated form).
+  canonical: Set<string>;
+  // Map from canonical slug to the raw URL slug from Substack (which may
+  // exceed 80 chars). Used for the recovery fetch — Substack's
+  // /api/v1/posts/{slug} endpoint expects the FULL slug, not the truncated
+  // one.
+  rawByCanonical: Map<string, string>;
+}
+
+async function extractSlugsFromSitemap(base: string): Promise<SitemapResult> {
+  const out: SitemapResult = { canonical: new Set(), rawByCanonical: new Map() };
   const seen = new Set<string>();
 
   async function walk(url: string) {
@@ -208,21 +227,24 @@ async function extractSlugsFromSitemap(base: string): Promise<Set<string>> {
     }
     // Regular sitemap: each <loc> is a content URL. Filter to /p/<slug>.
     for (const loc of locs) {
-      const slug = slugFromPostUrl(loc);
-      if (slug) slugs.add(slug);
+      const raw = rawSlugFromPostUrl(loc);
+      if (!raw) continue;
+      const canonical = slugify(raw);
+      out.canonical.add(canonical);
+      out.rawByCanonical.set(canonical, raw);
     }
   }
 
   await walk(`${base}/sitemap.xml`);
-  return slugs;
+  return out;
 }
 
-function slugFromPostUrl(u: string): string | null {
+function rawSlugFromPostUrl(u: string): string | null {
   try {
     const parsed = new URL(u);
     const parts = parsed.pathname.split('/').filter(Boolean);
     // Substack post URLs: /p/<slug>
-    if (parts.length >= 2 && parts[0] === 'p') return slugify(parts[1]);
+    if (parts.length >= 2 && parts[0] === 'p') return parts[1];
     return null;
   } catch {
     return null;
@@ -334,7 +356,13 @@ async function main() {
 
     for (const item of page) {
       if (added >= limit) break outer;
-      const slug = item.slug ?? (item.canonical_url ? slugFromUrl(item.canonical_url) : null);
+      // Substack's archive item.slug is the raw string (e.g. with
+      // underscores). We normalize via slugify so it matches the slugified
+      // form we use in knownSlugs/skipSet (which derive from URL path
+      // segments). Without this, posts whose raw slugs contain underscores
+      // would dedup-miss and get re-fetched on every run.
+      const rawCandidate = item.slug ?? (item.canonical_url ? rawSlugFromUrl(item.canonical_url) : null);
+      const slug = rawCandidate ? slugify(rawCandidate) : null;
       if (!slug) {
         logWarn(`archive item has no slug, skipping: ${JSON.stringify(item).slice(0, 120)}`);
         continue;
@@ -362,34 +390,93 @@ async function main() {
     offset += archivePageSize;
   }
 
-  if (added > 0) {
-    await writeAtomic(out, JSON.stringify(collected, null, 2));
-    logStep(`wrote ${out} (${collected.length} total entries; ${added} new)`);
-  } else {
-    logStep(`nothing new. ${collected.length} entries already on disk.`);
+  // Recovery pass: Substack's archive endpoint can drop posts during long
+  // crawls (re-orders during sort=new shifts cause duplicate slugs across
+  // pages, which dedup to fewer than the actual unique post count). Use
+  // /sitemap.xml as ground truth and fetch any post that's in the sitemap
+  // but not in the backlog yet. Note: Substack truncates URL slugs at 80
+  // chars in canonical_url but the sitemap preserves the full slug; the API
+  // expects the FULL slug, so we recover by raw slug and compare by
+  // truncated slug.
+  logStep(`fetching ${base}/sitemap.xml for verification + recovery`);
+  const sitemap = await extractSlugsFromSitemap(base);
+  logStep(`sitemap has ${sitemap.canonical.size} post URL(s).`);
+
+  const liveSlugs = new Set(collected.map((p) => slugFromUrl(p.url)).filter(Boolean) as string[]);
+  const haveSet = new Set([...liveSlugs, ...skipSet]);
+  const recoveryTargets: string[] = [];  // raw slugs (full, untruncated)
+  for (const canonicalSlug of sitemap.canonical) {
+    if (haveSet.has(canonicalSlug)) continue;
+    const raw = sitemap.rawByCanonical.get(canonicalSlug);
+    if (raw) recoveryTargets.push(raw);
   }
-  logStep(`processed ${processed} fetch attempts.`);
 
-  // Verification: compare backlog slugs to sitemap slugs.
-  logStep(`verifying against ${base}/sitemap.xml`);
-  const sitemapSlugs = await extractSlugsFromSitemap(base);
-  logStep(`sitemap has ${sitemapSlugs.size} post URL(s).`);
-
-  const backlogSlugs = new Set(collected.map((p) => slugFromUrl(p.url)).filter(Boolean) as string[]);
-
-  // skipFromDir contributes to the "we already have this" set for verification.
-  const haveSet = new Set([...backlogSlugs, ...skipSet]);
-  const missing: string[] = [];
-  for (const s of sitemapSlugs) {
-    if (!haveSet.has(s)) missing.push(s);
+  if (recoveryTargets.length > 0) {
+    logStep(`recovering ${recoveryTargets.length} slug(s) missing from archive but present in sitemap`);
+    for (const rawSlug of recoveryTargets) {
+      if (added >= limit) break;
+      try {
+        if (delayMs) await sleep(delayMs);
+        const detail = await fetchPost(base, rawSlug);
+        const post = mapToIncoming(detail, base);
+        if (!post) {
+          logWarn(`could not map recovered post slug=${rawSlug}`);
+          continue;
+        }
+        collected.push(post);
+        const canonical = slugFromUrl(post.url);
+        if (canonical) knownSlugs.add(canonical);
+        added++;
+        logStep(`+ ${rawSlug} (recovered, ${added} new)`);
+      } catch (err) {
+        logWarn(`recovery failed for slug=${rawSlug}: ${(err as Error).message}`);
+      }
+    }
   }
 
-  if (missing.length === 0) {
-    logStep(`verification OK. All ${sitemapSlugs.size} sitemap slugs present.`);
+  // Dedupe by slug before writing. Earlier runs with a buggy dedup may have
+  // accumulated duplicates; this is the cleanup. Last entry for each slug
+  // wins (which is also the most recent fetch).
+  const beforeDedupe = collected.length;
+  const dedupedMap = new Map<string, IncomingPost>();
+  for (const post of collected) {
+    const slug = slugFromUrl(post.url);
+    if (!slug) continue;
+    dedupedMap.set(slug, post);
+  }
+  const deduped = Array.from(dedupedMap.values());
+  const dropped = beforeDedupe - deduped.length;
+  if (dropped > 0) {
+    logStep(`deduped ${dropped} duplicate slug(s) from backlog`);
+  }
+
+  if (added > 0 || dropped > 0) {
+    await writeAtomic(out, JSON.stringify(deduped, null, 2));
+    logStep(`wrote ${out} (${deduped.length} total entries; ${added} new)`);
   } else {
-    logWarn(`verification FAILED. ${missing.length} slug(s) in sitemap but not in backlog or content dir:`);
-    for (const s of missing.slice(0, 50)) logWarn(`  missing: ${s}`);
-    if (missing.length > 50) logWarn(`  ... and ${missing.length - 50} more`);
+    logStep(`nothing new. ${deduped.length} entries already on disk.`);
+  }
+  logStep(`processed ${processed} archive fetches; ${recoveryTargets.length} recovery attempts.`);
+
+  // Re-point collected to the deduped list so the verification below uses
+  // the same source-of-truth as the file we just wrote.
+  collected.length = 0;
+  collected.push(...deduped);
+
+  // Final verification.
+  const finalLiveSlugs = new Set(collected.map((p) => slugFromUrl(p.url)).filter(Boolean) as string[]);
+  const finalHaveSet = new Set([...finalLiveSlugs, ...skipSet]);
+  const stillMissing: string[] = [];
+  for (const canonicalSlug of sitemap.canonical) {
+    if (!finalHaveSet.has(canonicalSlug)) stillMissing.push(canonicalSlug);
+  }
+
+  if (stillMissing.length === 0) {
+    logStep(`verification OK. All ${sitemap.canonical.size} sitemap slugs present.`);
+  } else {
+    logWarn(`verification FAILED. ${stillMissing.length} slug(s) in sitemap but unfetchable:`);
+    for (const s of stillMissing.slice(0, 50)) logWarn(`  missing: ${s}`);
+    if (stillMissing.length > 50) logWarn(`  ... and ${stillMissing.length - 50} more`);
     process.exit(2);
   }
 }
