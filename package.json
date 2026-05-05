@@ -16,6 +16,7 @@
     "ingest:rss": "tsx scripts/ingest/spontaneous-order.ts",
     "ingest:rss:fetch-backlog": "tsx scripts/ingest/spontaneous-order-fetch.ts",
     "ingest:book": "tsx scripts/ingest/book.ts",
+    "ingest:summarize": "tsx scripts/ingest/summarize.ts",
     "ingest:wiki": "tsx scripts/ingest/wiki-regen.ts",
     "mcp:start": "tsx mcp/server.ts",
     "mcp:test": "tsx mcp/test-client.ts"

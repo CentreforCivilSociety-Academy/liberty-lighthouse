@@ -111,7 +111,14 @@ export const GET: APIRoute = async () => {
       lines.push(`## ${entry.data.title}`, '', `Original: ${entry.data.original_url}`, '');
       if (entry.data.author) lines.push(`Author: ${entry.data.author}`, '');
       if (entry.data.published_at) lines.push(`Published: ${entry.data.published_at}`, '');
+      if (entry.data.topics?.length) lines.push(`Topics: ${entry.data.topics.join(', ')}`, '');
       if (entry.data.excerpt) lines.push(`> ${entry.data.excerpt}`, '');
+      if (entry.data.summary) lines.push('**Summary:**', '', entry.data.summary, '');
+      if (entry.data.key_points?.length) {
+        lines.push('**Key points:**', '');
+        for (const p of entry.data.key_points) lines.push(`- ${p}`);
+        lines.push('');
+      }
       if (entry.body?.trim()) lines.push(entry.body.trim(), '');
     }
   }

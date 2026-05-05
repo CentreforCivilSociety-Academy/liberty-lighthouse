@@ -66,6 +66,18 @@ jobs:
           fi
           npm run ingest:rss -- --backlog-file backlog.json
 
+      - name: Summarise new/changed posts
+        if: ${{ github.event.inputs.dry_run_fetch != 'true' }}
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL || 'x-ai/grok-4.1-fast' }}
+        run: |
+          if [ -z "$OPENROUTER_API_KEY" ]; then
+            echo "::warning::OPENROUTER_API_KEY not set. Summarise step skipped."
+            exit 0
+          fi
+          npm run ingest:summarize
+
       - name: Regenerate wiki layer
         if: ${{ github.event.inputs.dry_run_fetch != 'true' && github.event.inputs.run_wiki_regen != 'false' }}
         env:

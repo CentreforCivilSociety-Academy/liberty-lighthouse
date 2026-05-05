@@ -295,12 +295,29 @@ export function buildSpontaneousOrderMarkdown(entry: CollectionEntry<'spontaneou
   };
   if (entry.data.author) fm.author = entry.data.author;
   if (entry.data.excerpt) fm.excerpt = entry.data.excerpt;
+  if (entry.data.summary) fm.summary = entry.data.summary;
+  if (entry.data.key_points?.length) fm.key_points = entry.data.key_points;
+  if (entry.data.topics?.length) fm.topics = entry.data.topics;
   if (entry.data.tags.length) fm.tags = entry.data.tags;
 
   const lines: string[] = [`# ${entry.data.title}`, ''];
   if (entry.data.author) lines.push(`*By ${entry.data.author}*`, '');
   lines.push(`Original: <${entry.data.original_url}>`, '');
   if (entry.data.excerpt) lines.push(`> ${entry.data.excerpt}`, '');
+  // Render the LLM summary inline at the top of the body so agents reading
+  // the body without parsing frontmatter still see the synopsis first.
+  if (entry.data.summary) {
+    lines.push('## Summary', '', entry.data.summary, '');
+    if (entry.data.key_points?.length) {
+      lines.push('### Key points', '');
+      for (const p of entry.data.key_points) lines.push(`- ${p}`);
+      lines.push('');
+    }
+    if (entry.data.topics?.length) {
+      lines.push(`*Topics: ${entry.data.topics.join(', ')}*`, '');
+    }
+    lines.push('## Original post', '');
+  }
   if (entry.body?.trim()) lines.push(entry.body.trim(), '');
 
   return matter.stringify(lines.join('\n').trimEnd() + '\n', fm);

@@ -89,6 +89,14 @@ const spontaneousOrder = defineCollection({
     excerpt: z.string().optional(),
     tags: z.array(z.string()).default([]),
     source_hash: z.string().optional(),
+    // LLM-generated summary fields. Populated by scripts/ingest/summarize.ts.
+    // summary_hash matches source_hash when these fields are up-to-date with
+    // the current body; the summarizer hash-skips matching entries.
+    summary: z.string().optional(),
+    key_points: z.array(z.string()).default([]),
+    topics: z.array(z.string()).default([]),
+    summary_hash: z.string().optional(),
+    summary_at: z.string().optional(),
   }),
 });
 

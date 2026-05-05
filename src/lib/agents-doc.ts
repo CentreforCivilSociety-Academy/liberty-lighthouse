@@ -53,7 +53,7 @@ Type-specific fields:
 - **\`video\`**: \`title\`, \`topic\`, \`youtube_id\`, \`youtube_url\`, \`format\`, \`orientation\`, \`duration\`, \`speaker\`, \`related_faqs\`, \`related_videos\`.
 - **\`glossary_term\`**: \`term\`, \`aliases\`, \`definition\`, \`related_terms\`, \`related_faqs\`, \`related_videos\`, \`citations\` (\`{title, url, author?}\`).
 - **\`topic\`**: \`title\`, \`slug\`, \`description\`, \`faq_count\`, \`video_count\`, \`has_syllabus\`, \`faq_index_url\`, \`video_index_url\`, \`syllabus_url\`.
-- **\`external_post\`** (Spontaneous Order Substack): \`title\`, \`canonical_url\` (= original Substack URL), \`published_at\`, \`ingested_at\`, \`author\`, \`excerpt\`, \`tags\`. Cite the original URL.
+- **\`external_post\`** (Spontaneous Order Substack): \`title\`, \`canonical_url\` (= original Substack URL), \`published_at\`, \`ingested_at\`, \`author\`, \`excerpt\` (Substack subtitle), \`tags\` (Substack post tags). When present: \`summary\` (LLM-generated 150-200 word abstract faithful to the author's argument), \`key_points\` (3-5 takeaways), \`topics\` (kebab-case topic tags). Cite the original URL.
 - **\`external_book_chapter\`** (CCS Books): \`book_slug\`, \`book_title\`, \`chapter_title\`, \`chapter_number\`, \`author\`, \`publisher\`, \`publication_year\`, \`ingested_at\`. Cite by book + chapter, attribute to publisher.
 - **\`wiki_*\`** (LLM-synthesised): \`name\`, \`description\`, \`canonical_url\` (= the on-site wiki HTML page), \`sources\` (collection IDs of raw content used to synthesise this page), \`related_terms\`, \`related_faqs\`, \`last_regen\`. Wiki entries are auto-generated; always corroborate with the listed \`sources\` if accuracy matters.
 

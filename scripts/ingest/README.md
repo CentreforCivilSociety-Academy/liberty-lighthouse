@@ -39,9 +39,10 @@ npm run ingest:rss -- --rss-url ... --dry-run
 | Input | Command | Output |
 |---|---|---|
 | Spontaneous Order historical archive | `npm run ingest:rss:fetch-backlog` | `./backlog.json` |
-| Latest ~20 posts from RSS | `npm run ingest:rss -- --rss-url <feed-url>` | `src/content/external/spontaneous-order/{slug}.mdx` |
-| A backlog.json file | `npm run ingest:rss -- --backlog-file ./backlog.json` | `src/content/external/spontaneous-order/{slug}.mdx` |
-| A book manifest | `npm run ingest:book -- --book-slug ... --source ./book.json` | `src/content/external/ccs-books/{slug}/{chapter}.mdx` |
+| Latest ~20 posts from RSS | `npm run ingest:rss -- --rss-url <feed-url>` | `src/content/external/spontaneous-order/{slug}.md` |
+| A backlog.json file | `npm run ingest:rss -- --backlog-file ./backlog.json` | `src/content/external/spontaneous-order/{slug}.md` |
+| A book manifest | `npm run ingest:book -- --book-slug ... --source ./book.json` | `src/content/external/ccs-books/{slug}/{chapter}.md` |
+| OpenRouter key + ingested SO posts | `OPENROUTER_API_KEY=... npm run ingest:summarize` | adds `summary`, `key_points`, `topics` to each post's frontmatter |
 | OpenRouter key + populated source content | `OPENROUTER_API_KEY=... npm run ingest:wiki` | `src/content/wiki/{slug}.mdx` |
 
 The daily GitHub Actions workflow at `.github/workflows/daily-update.yml` chains the first three rows automatically: fetch new posts → ingest → regenerate wiki. Schedule: `0 4 * * *` UTC.
@@ -63,6 +64,20 @@ Pulls Substack posts from RSS or a JSON backlog (the file emitted by `spontaneou
 
 ### `book.ts`
 Reads a JSON manifest of `{ chapters: [{number, title, html}, ...] }` and writes one MDX per chapter to `src/content/external/ccs-books/{book-slug}/{chapter-slug}.mdx`. Manifest format will be finalised when the first book arrives.
+
+### `summarize.ts`
+Walks every Spontaneous Order post and adds a structured summary to its frontmatter via OpenRouter. Three new fields per post:
+- `summary` — 150-200 word abstract of the post's argument, faithful to the author's framing.
+- `key_points` — 3-5 single-sentence takeaways.
+- `topics` — 2-4 short kebab-case topic tags (e.g. `school-choice`, `agricultural-subsidies`, `free-trade`).
+
+Hash-skip: each post stores `summary_hash` matching its `source_hash`. On rerun, posts whose body hasn't changed are skipped without an LLM call. Pass `--refresh` to force re-summarisation.
+
+Default model: `x-ai/grok-4.1-fast`. Estimated cost: ~$0.44 for the full ~1,000-post Spontaneous Order corpus, then pennies for new posts. Set a per-key spending cap on OpenRouter for safety.
+
+The summary fields are surfaced in:
+- `/external/spontaneous-order/{slug}.md` frontmatter and body (as a "## Summary" section above the original post).
+- `/external/spontaneous-order/llms-full.txt` and `/llms-full.txt` (each post's section includes the summary inline).
 
 ### `wiki-regen.ts`
 Walks every source file (FAQs, videos, glossary, federated externals), computes hashes, compares against the `source_hashes` recorded in existing wiki entries, and re-synthesises any wiki page whose source dependencies have changed.
