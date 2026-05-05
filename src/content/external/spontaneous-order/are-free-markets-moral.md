@@ -1,21 +1,62 @@
 ---
 title: Are Free Markets Moral?
 original_url: 'https://www.spontaneousorder.in/p/are-free-markets-moral'
+author: Spontaneous Order
 published_at: '2019-12-10T16:15:29.000Z'
 ingested_at: '2026-05-05T08:31:42.453Z'
-source_hash: 247e16d8a16862e1b3641bf3a1e12a9ba5421667858f733f770abbc721727398
-author: Spontaneous Order
 excerpt: >-
   The concept of morality concerns itself with principles that distinguish right
   from wrong. A free market, by definition, has a decentralised order of things
   where individuals are allowed to make independent economic decisions, without
   any government int..
+summary: >-
+  From a classical-liberal perspective, free markets are moral because they
+  emerge from decentralized individual economic decisions without government
+  intervention, making participants—not the market itself—responsible for
+  morality, unlike regulated economies emphasizing collective obligations. In a
+  pure free market, wages follow supply and demand without minimums; a
+  government-set ₹200/hour wage excludes desperate workers willing to accept
+  ₹150, harming them more than potential exploitation. The 2017 Maternity
+  Benefits Act amendment, extending paid leave from 12 to 26 weeks, mandating
+  creches for firms with over 50 employees, work-from-home, and bonuses, has
+  deterred Indian companies from hiring young women, denying them jobs
+  entirely—which is more immoral than lacking such benefits. Free markets allow
+  employee protests or exits, with social pressures enforcing norms, as in the
+  2018 All India Bakchod sexual harassment scandal forcing a hiatus. Mandates
+  curtail liberty; socialism and communism fare worse by suppressing
+  individuals. Subsidies mask taxpayer costs. Conclusion: Free markets are
+  fairer, as supply-demand ensures individuals bear their choices' costs without
+  societal impositions.
+key_points:
+  - >-
+    Free markets derive morality from individual choices, not inherent
+    obligations or government mandates.
+  - >-
+    Minimum wage laws like ₹200/hour exclude workers willing to accept less,
+    such as ₹150, reducing opportunities.
+  - >-
+    2017 Maternity Benefits Act's 26-week leave and creche mandates discourage
+    hiring young women, harming employment more than no benefits.
+  - >-
+    Social pressures and market competition in free markets enforce
+    accountability better than coercive regulations.
+  - >-
+    Individuals should bear personal choice costs via supply-demand, avoiding
+    hidden taxpayer burdens from subsidies.
+topics:
+  - free-markets
+  - labour-regulations
+  - minimum-wage
+  - maternity-leave
 tags:
   - Capitalism in the 21st Century
   - Morality of markets
   - morality
   - Capitalism
   - free markets
+source_hash: 247e16d8a16862e1b3641bf3a1e12a9ba5421667858f733f770abbc721727398
+summary_hash: 247e16d8a16862e1b3641bf3a1e12a9ba5421667858f733f770abbc721727398
+summary_at: '2026-05-05T13:13:07.384Z'
 ---
 **By Swati Singh**
 

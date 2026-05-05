@@ -2,20 +2,60 @@
 title: Did Corporate Lobbying Nurture British Imperialism?
 original_url: >-
   https://www.spontaneousorder.in/p/did-corporate-lobbying-nurture-british-imperialism
+author: Spontaneous Order
 published_at: '2021-10-08T12:38:19.000Z'
 ingested_at: '2026-05-05T08:31:42.289Z'
-source_hash: f3094240699b0745951bc796f2fb8a134c653ce9bd29a1d8e4eaf6e4bc1f0fd1
-author: Spontaneous Order
 excerpt: >-
   Corporate lobbying as a subject in this day and age is contentious. Is it
   pervasive, perverse, or perhaps both? The unequivocal truth is – it has been
   around far longer than we think. One may date it back all the way to 1845,
   when Frederic Bastiat wrote
+summary: >-
+  Corporate lobbying originated with the East India Company (EIC), founded in
+  the 1600s as the Governor and Company of Merchants of London trading into the
+  East Indies, which pioneered the practice by bribing British
+  Parliamentarians—spending £1,200 annually on prominent MPs and ministers as
+  early as 1693, securing crucial support that enabled its imperial dominance.
+  From a classical-liberal viewpoint, while lobbying itself is not inherently
+  bad and a conducive legal framework for market competition is essential,
+  illicit lobbying corrupts rules and regulations, transforming them from
+  efficient enablers of consumer-responsive competition into anticompetitive
+  'escape routes' for vested interests. Historical critiques by Adam Smith,
+  David Ricardo, James Mill, and John Stuart Mill highlight the EIC as a poster
+  child for regulatory capture, with parallels to modern scandals like India's
+  2G Spectrum Scam (1.76 lakh crores loss), where selective licensing and
+  distorted auctions concentrated power, benefiting cronies via investments like
+  214 crores into Kalaignar TV. The EIC's vulnerabilities during the 1770 Great
+  Bengal Famine echo 2008 financial crisis dynamics. The conclusion urges
+  preventing misuse of regulations for self-gain, promoting transparent lobbying
+  that fosters integrity and genuine competition rather than fraud or coercion.
+key_points:
+  - >-
+    The East India Company invented corporate lobbying by annually bribing
+    British MPs with £1,200 starting in 1693 to secure parliamentary support.
+  - >-
+    Illicit lobbying corrupts rules meant to enhance competition, creating
+    personal incentives like post-retirement jobs for regulators.
+  - >-
+    India's 2G Spectrum Scam exemplified anticompetitive rule-bending, with 1.76
+    lakh crores loss from selective licensing favoring cronies.
+  - >-
+    Lobbying should foster competition, integrity, and transparency within a
+    proper legal framework, not enable unscrupulous means as critiqued by
+    classical liberals like Adam Smith.
+topics:
+  - corporate-lobbying
+  - east-india-company
+  - crony-capitalism
+  - competition-policy
 tags:
   - lobbying
   - Economics
   - history
   - Government
+source_hash: f3094240699b0745951bc796f2fb8a134c653ce9bd29a1d8e4eaf6e4bc1f0fd1
+summary_hash: f3094240699b0745951bc796f2fb8a134c653ce9bd29a1d8e4eaf6e4bc1f0fd1
+summary_at: '2026-05-05T13:13:53.600Z'
 ---
 **By Sarthak Kwatra**
 
