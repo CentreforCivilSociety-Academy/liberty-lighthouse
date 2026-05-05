@@ -40,6 +40,26 @@ export function topicMdPath(topic: CollectionEntry<'topics'>): string {
   return `/topics/${topic.data.slug}.md`;
 }
 
+// External content has no HTML page — only .md endpoints. Slug is derived
+// from the file ID: e.g. "post-slug" or "book-slug/chapter-slug".
+export function spontaneousOrderMdPath(entry: CollectionEntry<'spontaneousOrder'>): string {
+  return `/external/spontaneous-order/${entry.id}.md`;
+}
+
+export function ccsBookMdPath(entry: CollectionEntry<'ccsBooks'>): string {
+  // entry.id is "book-slug/chapter-slug" (the glob preserves directory structure).
+  return `/external/ccs-books/${entry.id}.md`;
+}
+
+// Wiki content renders both HTML and .md.
+export function wikiHtmlPath(entry: CollectionEntry<'wiki'>): string {
+  return `/wiki/${entry.id}/`;
+}
+
+export function wikiMdPath(entry: CollectionEntry<'wiki'>): string {
+  return `/wiki/${entry.id}.md`;
+}
+
 export interface ExportContext {
   faqs: CollectionEntry<'faqs'>[];
   videos: CollectionEntry<'videos'>[];
@@ -259,6 +279,80 @@ export function buildSyllabusMarkdown(topic: CollectionEntry<'topics'>): string 
   const body = topic.data.guidedSyllabus?.trim();
   if (body) lines.push(body, '');
   else lines.push('_No guided syllabus available yet._', '');
+
+  return matter.stringify(lines.join('\n').trimEnd() + '\n', fm);
+}
+
+export function buildSpontaneousOrderMarkdown(entry: CollectionEntry<'spontaneousOrder'>): string {
+  const fm: Record<string, unknown> = {
+    type: 'external_post',
+    source: 'spontaneous-order',
+    title: entry.data.title,
+    canonical_url: entry.data.original_url,
+    markdown_url: abs(spontaneousOrderMdPath(entry)),
+    published_at: entry.data.published_at,
+    ingested_at: entry.data.ingested_at,
+  };
+  if (entry.data.author) fm.author = entry.data.author;
+  if (entry.data.excerpt) fm.excerpt = entry.data.excerpt;
+  if (entry.data.tags.length) fm.tags = entry.data.tags;
+
+  const lines: string[] = [`# ${entry.data.title}`, ''];
+  if (entry.data.author) lines.push(`*By ${entry.data.author}*`, '');
+  lines.push(`Original: <${entry.data.original_url}>`, '');
+  if (entry.data.excerpt) lines.push(`> ${entry.data.excerpt}`, '');
+  if (entry.body?.trim()) lines.push(entry.body.trim(), '');
+
+  return matter.stringify(lines.join('\n').trimEnd() + '\n', fm);
+}
+
+export function buildCcsBookMarkdown(entry: CollectionEntry<'ccsBooks'>): string {
+  const fm: Record<string, unknown> = {
+    type: 'external_book_chapter',
+    source: 'ccs-books',
+    book_slug: entry.data.book_slug,
+    book_title: entry.data.book_title,
+    chapter_title: entry.data.chapter_title,
+    markdown_url: abs(ccsBookMdPath(entry)),
+    publisher: entry.data.publisher,
+    ingested_at: entry.data.ingested_at,
+  };
+  if (entry.data.author) fm.author = entry.data.author;
+  if (entry.data.publication_year) fm.publication_year = entry.data.publication_year;
+  if (entry.data.chapter_number !== undefined) fm.chapter_number = entry.data.chapter_number;
+
+  const lines: string[] = [
+    `# ${entry.data.chapter_title}`,
+    '',
+    `*From ${entry.data.book_title}${entry.data.author ? ` by ${entry.data.author}` : ''}, published by ${entry.data.publisher}*`,
+    '',
+  ];
+  if (entry.body?.trim()) lines.push(entry.body.trim(), '');
+
+  return matter.stringify(lines.join('\n').trimEnd() + '\n', fm);
+}
+
+export function buildWikiMarkdown(entry: CollectionEntry<'wiki'>): string {
+  const fm: Record<string, unknown> = {
+    type: `wiki_${entry.data.type}`,
+    name: entry.data.name,
+    canonical_url: abs(wikiHtmlPath(entry)),
+    markdown_url: abs(wikiMdPath(entry)),
+    description: entry.data.description,
+    last_regen: entry.data.last_regen,
+  };
+  if (entry.data.sources.length) fm.sources = entry.data.sources;
+  if (entry.data.related_terms.length) fm.related_terms = entry.data.related_terms;
+  if (entry.data.related_faqs.length) fm.related_faqs = entry.data.related_faqs;
+
+  const lines: string[] = [`# ${entry.data.name}`, '', entry.data.description, ''];
+  if (entry.body?.trim()) lines.push(entry.body.trim(), '');
+
+  if (entry.data.sources.length) {
+    lines.push('---', '', '## Sources', '');
+    for (const s of entry.data.sources) lines.push(`- ${s}`);
+    lines.push('');
+  }
 
   return matter.stringify(lines.join('\n').trimEnd() + '\n', fm);
 }
