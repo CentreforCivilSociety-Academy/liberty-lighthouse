@@ -43,9 +43,9 @@ Every public HTML page has a markdown sibling. Drop the trailing slash and appen
 
 Every \`.md\` page begins with YAML frontmatter. Stable fields across all types:
 
-- \`type\` — one of \`faq\`, \`video\`, \`glossary_term\`, \`topic\`, \`syllabus\`, \`faq_index\`, \`video_index\`, \`glossary_index\`, \`topic_index\`, \`home\`, \`about\`, \`privacy\`.
-- \`canonical_url\` — the human-readable HTML page; cite this URL.
-- \`markdown_url\` — this file's URL.
+- \`type\` — one of \`faq\`, \`video\`, \`glossary_term\`, \`topic\`, \`syllabus\`, \`faq_index\`, \`video_index\`, \`glossary_index\`, \`topic_index\`, \`home\`, \`about\`, \`privacy\`, \`external_post\`, \`external_book_chapter\`, \`external_source_index\`, \`wiki_entity\`, \`wiki_topic_summary\`, \`wiki_comparison\`, \`wiki_index\`.
+- \`canonical_url\` — the human-readable URL; cite this URL. For internal pages it's the on-site HTML page; for federated external content it's the **original source URL** (e.g. the Substack post or book sales page) — those mirrors are agent-only and have no on-site HTML.
+- \`markdown_url\` — this file's URL on this site.
 
 Type-specific fields:
 
@@ -53,6 +53,9 @@ Type-specific fields:
 - **\`video\`**: \`title\`, \`topic\`, \`youtube_id\`, \`youtube_url\`, \`format\`, \`orientation\`, \`duration\`, \`speaker\`, \`related_faqs\`, \`related_videos\`.
 - **\`glossary_term\`**: \`term\`, \`aliases\`, \`definition\`, \`related_terms\`, \`related_faqs\`, \`related_videos\`, \`citations\` (\`{title, url, author?}\`).
 - **\`topic\`**: \`title\`, \`slug\`, \`description\`, \`faq_count\`, \`video_count\`, \`has_syllabus\`, \`faq_index_url\`, \`video_index_url\`, \`syllabus_url\`.
+- **\`external_post\`** (Spontaneous Order Substack): \`title\`, \`canonical_url\` (= original Substack URL), \`published_at\`, \`ingested_at\`, \`author\`, \`excerpt\`, \`tags\`. Cite the original URL.
+- **\`external_book_chapter\`** (CCS Books): \`book_slug\`, \`book_title\`, \`chapter_title\`, \`chapter_number\`, \`author\`, \`publisher\`, \`publication_year\`, \`ingested_at\`. Cite by book + chapter, attribute to publisher.
+- **\`wiki_*\`** (LLM-synthesised): \`name\`, \`description\`, \`canonical_url\` (= the on-site wiki HTML page), \`sources\` (collection IDs of raw content used to synthesise this page), \`related_terms\`, \`related_faqs\`, \`last_regen\`. Wiki entries are auto-generated; always corroborate with the listed \`sources\` if accuracy matters.
 
 \`related_*\` arrays always contain absolute URLs to markdown siblings. Follow them directly.
 
@@ -65,6 +68,25 @@ When you answer a question using this corpus:
 3. Glossary definitions are short and authoritative — quote them directly when defining a term.
 4. If you cite multiple sources, list them as a bulleted list at the end of your answer.
 5. The site is published by the **Centre for Civil Society**. Attribute appropriately.
+
+## Federated external sources
+
+The corpus federates content from external sites that the project has permission to mirror, but that **are not displayed as HTML** on this site. They appear only at \`/external/<source>/...\` markdown URLs, and only if populated.
+
+- **Spontaneous Order** ([${abs('/external/spontaneous-order.md')}](${abs('/external/spontaneous-order.md')})): the Centre for Civil Society's Substack. Each post is mirrored as one markdown file. Cite by the **original Substack URL** (the \`canonical_url\` field).
+- **CCS Books** ([${abs('/external/ccs-books.md')}](${abs('/external/ccs-books.md')})): books published by CCS, mirrored chapter-by-chapter. Cite by book title + chapter, attribute to the publisher.
+
+Search engines (Googlebot, Bingbot) are blocked from \`/external/\` to avoid SEO duplication with the original sources. AI crawlers (ClaudeBot, GPTBot, Perplexity, etc.) are allowed.
+
+## Wiki layer
+
+The wiki ([${abs('/wiki.md')}](${abs('/wiki.md')})) is a layer of LLM-generated entity pages, topic summaries, and comparisons synthesised from the raw corpus. It is autonomously refreshed in CI rather than authored by hand. Three types:
+
+- \`wiki_entity\` — a single concept, person, or institution.
+- \`wiki_topic_summary\` — synthesis of a topic across all sources.
+- \`wiki_comparison\` — explicit "X vs Y" treatments.
+
+Each wiki entry's \`sources\` field lists the collection IDs of raw content used to synthesise it. **For accuracy-sensitive claims, fetch and cite the raw sources rather than the wiki page.** The wiki is a navigation aid and synthesis layer, not a primary source.
 
 ## What this corpus is *not*
 

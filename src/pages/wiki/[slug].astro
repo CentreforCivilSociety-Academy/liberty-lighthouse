@@ -1,0 +1,54 @@
+---
+import ProseLayout from '../../layouts/ProseLayout.astro';
+import CopyAsMarkdown from '../../components/ui/CopyAsMarkdown.astro';
+import ChatAboutThis from '../../components/ui/ChatAboutThis.astro';
+import { getCollection, render } from 'astro:content';
+import { buildBreadcrumbSchema } from '../../lib/structured-data';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('wiki', ({ data }) => !data.draft);
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const hasBody = (entry.body || '').trim().length > 0;
+const { Content } = hasBody ? await render(entry) : ({} as any);
+
+const wikiIndexUrl = new URL('/wiki/', Astro.site).href;
+const pageUrl = Astro.url.href;
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Wiki', url: wikiIndexUrl },
+  { name: entry.data.name, url: pageUrl },
+]);
+---
+
+<ProseLayout
+  title={`${entry.data.name} — Wiki`}
+  description={entry.data.description}
+  breadcrumbs={[
+    { label: 'Wiki', href: '/wiki/' },
+    { label: entry.data.name },
+  ]}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <div data-content-body>
+    <h1>{entry.data.name}</h1>
+    <p class="wiki-description"><em>{entry.data.description}</em></p>
+    <p class="wiki-meta">
+      <small>
+        Auto-generated wiki entry · last refreshed {entry.data.last_regen}
+        {entry.data.sources.length > 0 && ` · synthesised from ${entry.data.sources.length} source${entry.data.sources.length === 1 ? '' : 's'}`}
+      </small>
+    </p>
+    {hasBody && <Content />}
+  </div>
+
+  <div class="mt-[var(--spacing-xl)] flex flex-wrap items-center gap-2 border-t border-[var(--color-border-default)] pt-[var(--spacing-lg)]">
+    <CopyAsMarkdown />
+    <ChatAboutThis title={entry.data.name} contentType="wiki entry" excerpt={entry.data.description} />
+  </div>
+</ProseLayout>

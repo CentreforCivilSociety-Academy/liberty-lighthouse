@@ -7,15 +7,19 @@ import {
   plainTextResponse,
   topicHtmlPath,
   videoHtmlPath,
+  wikiHtmlPath,
 } from '../lib/markdown-export';
 import { getAllGlossary } from '../lib/collections';
 
 export const GET: APIRoute = async () => {
-  const [topics, faqs, videos, glossary] = await Promise.all([
+  const [topics, faqs, videos, glossary, spontaneousOrder, ccsBooks, wiki] = await Promise.all([
     getCollection('topics'),
     getCollection('faqs', ({ data }) => !data.draft),
     getCollection('videos', ({ data }) => !data.draft),
     getAllGlossary(),
+    getCollection('spontaneousOrder'),
+    getCollection('ccsBooks'),
+    getCollection('wiki', ({ data }) => !data.draft),
   ]);
 
   const sortedTopics = topics.sort((a, b) => a.data.order - b.data.order);
@@ -85,6 +89,53 @@ export const GET: APIRoute = async () => {
           lines.push(`- [${c.title}](${c.url})${author}`);
         }
         lines.push('');
+      }
+    }
+  }
+
+  if (wiki.length > 0) {
+    lines.push('# Wiki', '', `Source: ${abs('/wiki/')}`, '');
+    for (const entry of wiki) {
+      lines.push(`## ${entry.data.name} (${entry.data.type})`, '', `Source: ${abs(wikiHtmlPath(entry))}`, '');
+      lines.push(entry.data.description, '');
+      if (entry.body?.trim()) lines.push(entry.body.trim(), '');
+    }
+  }
+
+  if (spontaneousOrder.length > 0) {
+    const sorted = [...spontaneousOrder].sort(
+      (a, b) => (b.data.published_at || '').localeCompare(a.data.published_at || ''),
+    );
+    lines.push('# Spontaneous Order (federated)', '', `Source: <https://spontaneousorder.in/>`, '');
+    for (const entry of sorted) {
+      lines.push(`## ${entry.data.title}`, '', `Original: ${entry.data.original_url}`, '');
+      if (entry.data.author) lines.push(`Author: ${entry.data.author}`, '');
+      if (entry.data.published_at) lines.push(`Published: ${entry.data.published_at}`, '');
+      if (entry.data.excerpt) lines.push(`> ${entry.data.excerpt}`, '');
+      if (entry.body?.trim()) lines.push(entry.body.trim(), '');
+    }
+  }
+
+  if (ccsBooks.length > 0) {
+    const byBook = new Map<string, Awaited<ReturnType<typeof getCollection<'ccsBooks'>>>>();
+    for (const ch of ccsBooks) {
+      if (!byBook.has(ch.data.book_slug)) byBook.set(ch.data.book_slug, []);
+      byBook.get(ch.data.book_slug)!.push(ch);
+    }
+    for (const chapters of byBook.values()) {
+      chapters.sort((a, b) => (a.data.chapter_number ?? 0) - (b.data.chapter_number ?? 0));
+    }
+    lines.push('# CCS Books (federated)', '');
+    for (const [, chapters] of byBook) {
+      const first = chapters[0];
+      lines.push(`# ${first.data.book_title}`, '');
+      if (first.data.author) lines.push(`Author: ${first.data.author}`, '');
+      if (first.data.publication_year) lines.push(`Year: ${first.data.publication_year}`, '');
+      lines.push('');
+      for (const ch of chapters) {
+        const num = ch.data.chapter_number !== undefined ? `Chapter ${ch.data.chapter_number}: ` : '';
+        lines.push(`## ${num}${ch.data.chapter_title}`, '');
+        if (ch.body?.trim()) lines.push(ch.body.trim(), '');
       }
     }
   }

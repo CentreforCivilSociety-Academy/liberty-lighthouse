@@ -1,0 +1,71 @@
+---
+import ProseLayout from '../../layouts/ProseLayout.astro';
+import { getCollection } from 'astro:content';
+import { buildBreadcrumbSchema } from '../../lib/structured-data';
+
+const entries = (await getCollection('wiki', ({ data }) => !data.draft)).sort((a, b) =>
+  a.data.name.localeCompare(b.data.name, undefined, { sensitivity: 'base' }),
+);
+
+const grouped = {
+  entity: entries.filter((e) => e.data.type === 'entity'),
+  topic_summary: entries.filter((e) => e.data.type === 'topic_summary'),
+  comparison: entries.filter((e) => e.data.type === 'comparison'),
+};
+
+const pageUrl = new URL('/wiki/', Astro.site).href;
+const breadcrumbSchema = buildBreadcrumbSchema([{ name: 'Wiki', url: pageUrl }]);
+---
+
+<ProseLayout
+  title="Wiki"
+  description="Auto-generated entity pages, topic summaries, and comparisons synthesised from the Liberty Lighthouse corpus."
+  breadcrumbs={[{ label: 'Wiki' }]}
+>
+  <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+
+  <h1>Wiki</h1>
+  <p>
+    The wiki is a layer of auto-generated entity pages, topic summaries, and comparisons synthesised from the Liberty Lighthouse corpus by an LLM and refreshed in CI. It is the "compounding artifact" pattern —
+    a persistent layer over the raw FAQs, videos, glossary, and federated external sources.
+  </p>
+
+  {entries.length === 0 ? (
+    <p>
+      <em>No wiki entries yet. The regeneration workflow at <code>.github/workflows/wiki-regen.yml</code> and the script at <code>scripts/ingest/wiki-regen.ts</code> will populate this once configured with an LLM API key.</em>
+    </p>
+  ) : (
+    <>
+      {grouped.entity.length > 0 && (
+        <>
+          <h2>Entities</h2>
+          <ul>
+            {grouped.entity.map((e) => (
+              <li><a href={`/wiki/${e.id}/`}>{e.data.name}</a> — {e.data.description}</li>
+            ))}
+          </ul>
+        </>
+      )}
+      {grouped.topic_summary.length > 0 && (
+        <>
+          <h2>Topic summaries</h2>
+          <ul>
+            {grouped.topic_summary.map((e) => (
+              <li><a href={`/wiki/${e.id}/`}>{e.data.name}</a> — {e.data.description}</li>
+            ))}
+          </ul>
+        </>
+      )}
+      {grouped.comparison.length > 0 && (
+        <>
+          <h2>Comparisons</h2>
+          <ul>
+            {grouped.comparison.map((e) => (
+              <li><a href={`/wiki/${e.id}/`}>{e.data.name}</a> — {e.data.description}</li>
+            ))}
+          </ul>
+        </>
+      )}
+    </>
+  )}
+</ProseLayout>
