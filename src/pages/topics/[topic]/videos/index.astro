@@ -4,6 +4,7 @@ import TopicHeader from '../../../../components/topic/TopicHeader.astro';
 import ResourceTabs from '../../../../components/topic/ResourceTabs.astro';
 import VideoCard from '../../../../components/video/VideoCard.astro';
 import { getAllTopics, getVideosByTopic, getTopicResourceCounts } from '../../../../lib/collections';
+import { buildBreadcrumbSchema } from '../../../../lib/structured-data';
 
 export async function getStaticPaths() {
   const topics = await getAllTopics();
@@ -17,10 +18,17 @@ const { topic: topicSlug } = Astro.params;
 const { topicData } = Astro.props;
 const videos = await getVideosByTopic(topicSlug!);
 const counts = await getTopicResourceCounts(topicSlug!);
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Topics', url: new URL('/topics/', Astro.site).href },
+  { name: topicData.title, url: new URL(`/topics/${topicSlug}/`, Astro.site).href },
+  { name: 'Videos', url: Astro.url.href },
+]);
 ---
 
 <PageLayout title={`Videos — ${topicData.title}`} description={`Video curriculum on ${topicData.title.toLowerCase()} policy in India.`}>
   <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
     <TopicHeader title={topicData.title} description={topicData.description} slug={topicSlug!} />
     <ResourceTabs topicSlug={topicSlug!} faqCount={counts.faqCount} videoCount={counts.videoCount} hasSyllabus={counts.hasSyllabus} activeTab="videos" />
 

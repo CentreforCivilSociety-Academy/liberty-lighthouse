@@ -17,6 +17,14 @@ const siteTitle = 'Liberty Lighthouse';
 const fullTitle = title === siteTitle ? title : `${title} — ${siteTitle}`;
 const canonical = canonicalUrl || Astro.url.href;
 
+// Derive the .md sibling URL for agent discoverability.
+// Convention: drop trailing slash, append .md. "/" itself maps to "/index.md".
+function markdownSiblingFor(pathname: string): string {
+  if (pathname === '/') return '/index.md';
+  return pathname.replace(/\/$/, '') + '.md';
+}
+const markdownSiblingUrl = new URL(markdownSiblingFor(Astro.url.pathname), Astro.site).href;
+
 import '@/styles/global.css';
 import { getTypographySettings, getColorSettings } from '@/lib/design-settings';
 import Analytics from '@/components/global/Analytics.astro';
@@ -111,6 +119,12 @@ const designSystemCSS = `
 
     <!-- LLM context file -->
     <link rel="alternate" type="text/plain" href="/llms.txt" title="LLM Context" />
+
+    <!-- Markdown sibling (twin-rendering for agents) -->
+    <link rel="alternate" type="text/markdown" href={markdownSiblingUrl} title="Markdown version" />
+
+    <!-- Agent schema -->
+    <link rel="alternate" type="text/markdown" href="/AGENTS.md" title="Agent guide" />
 
     <!-- Structured data: Organization + WebSite -->
     <script type="application/ld+json" set:html={JSON.stringify({

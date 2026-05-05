@@ -3,6 +3,7 @@ import PageLayout from '../../layouts/PageLayout.astro';
 import Breadcrumbs from '../../components/global/Breadcrumbs.astro';
 import TopicCard from '../../components/home/TopicCard.astro';
 import { getAllTopics, getTopicResourceCounts } from '../../lib/collections';
+import { buildBreadcrumbSchema } from '../../lib/structured-data';
 
 const topics = await getAllTopics();
 const topicsWithCounts = await Promise.all(
@@ -11,10 +12,15 @@ const topicsWithCounts = await Promise.all(
     return { ...topic, counts };
   })
 );
+
+const breadcrumbSchema = buildBreadcrumbSchema([
+  { name: 'Topics', url: Astro.url.href },
+]);
 ---
 
 <PageLayout title="Topics" description="Explore India's most pressing policy questions across education, agriculture, healthcare, governance, and more.">
   <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
     <Breadcrumbs items={[{ label: 'Topics' }]} />
 
     <div class="mb-[var(--spacing-2xl)]">
