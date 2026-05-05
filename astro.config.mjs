@@ -54,7 +54,12 @@ export default defineConfig({
       ],
     }),
     preact(),
-    sitemap(),
+    sitemap({
+      // Federated external content lives at /external/ for agent ingestion
+      // only. Exclude from sitemap to keep it out of search engine indexes
+      // (paired with robots.txt Disallow rules in src/pages/robots.txt.ts).
+      filter: (page) => !page.includes('/external/'),
+    }),
   ],
   server: { port: 3219 },
   vite: {

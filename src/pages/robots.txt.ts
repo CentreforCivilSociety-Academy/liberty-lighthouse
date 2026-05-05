@@ -28,13 +28,34 @@ export const GET: APIRoute = async ({ site }) => {
     '',
   ];
 
-  // Add Disallow rules for blocked crawlers
+  // Add Disallow rules for blocked crawlers (per CMS settings).
   for (const [key, userAgent] of Object.entries(CRAWLER_MAP)) {
     if (data[key] === 'block') {
       lines.push(`User-agent: ${userAgent}`);
       lines.push('Disallow: /');
       lines.push('');
     }
+  }
+
+  // Federated external content (/external/) is mirrored from third-party
+  // sources for agent ingestion. Block conventional search engines from
+  // indexing these URLs to avoid SEO duplication with the original sources;
+  // AI crawlers remain allowed because that is the point of mirroring.
+  const SEARCH_ENGINE_BOTS = [
+    'Googlebot',
+    'Googlebot-Image',
+    'Googlebot-News',
+    'Bingbot',
+    'Slurp',
+    'DuckDuckBot',
+    'Baiduspider',
+    'YandexBot',
+    'Applebot',
+  ];
+  for (const ua of SEARCH_ENGINE_BOTS) {
+    lines.push(`User-agent: ${ua}`);
+    lines.push('Disallow: /external/');
+    lines.push('');
   }
 
   lines.push(`Sitemap: ${new URL('/sitemap-index.xml', site).href}`);
