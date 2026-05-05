@@ -14,6 +14,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "ingest:rss": "tsx scripts/ingest/spontaneous-order.ts",
+    "ingest:rss:fetch-backlog": "tsx scripts/ingest/spontaneous-order-fetch.ts",
     "ingest:book": "tsx scripts/ingest/book.ts",
     "ingest:wiki": "tsx scripts/ingest/wiki-regen.ts"
   },
