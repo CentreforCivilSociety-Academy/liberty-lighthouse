@@ -143,7 +143,9 @@ async function main() {
     if (post.excerpt) fm.excerpt = post.excerpt;
     if (post.tags && post.tags.length) fm.tags = post.tags;
 
-    const filePath = join(OUT_DIR, `${slug}.mdx`);
+    // Plain .md (not .mdx) — third-party prose can contain "<1%", MathJax,
+    // and other characters MDX would try to parse as JSX. See content.config.
+    const filePath = join(OUT_DIR, `${slug}.md`);
     if (dryRun) {
       logStep(`would write ${filePath} (${body.length} chars body)`);
     } else {

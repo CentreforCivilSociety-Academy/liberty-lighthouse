@@ -72,7 +72,9 @@ async function walkMdxFiles(
     const full = join(dir, e.name);
     const rel = full.slice(base.length + 1);
     if (e.isDirectory()) await walkMdxFiles(full, onFile, base);
-    else if (e.isFile() && full.endsWith('.mdx')) await onFile(full, rel);
+    else if (e.isFile() && (full.endsWith('.mdx') || full.endsWith('.md'))) {
+      await onFile(full, rel);
+    }
   }
 }
 
@@ -92,7 +94,7 @@ async function collectSources(filter: string): Promise<SourceFile[]> {
 
     let count = 0;
     await walkMdxFiles(dir, async (path, relPath) => {
-      const id = relPath.replace(/\.mdx$/, '');
+      const id = relPath.replace(/\.mdx?$/, '');
       const fmHash = fmHashes.get(id);
       // Prefer the source_hash recorded by the ingester (which hashes the
       // upstream HTML, so it survives reformatting). Fall back to hashing the

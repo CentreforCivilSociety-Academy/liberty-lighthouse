@@ -77,7 +77,9 @@ const settings = defineCollection({
 // with the original sources while still making the content queryable for the
 // agentic wiki.
 const spontaneousOrder = defineCollection({
-  loader: glob({ pattern: '**/*.mdx', base: './src/content/external/spontaneous-order' }),
+  // Plain markdown, not MDX — third-party prose contains things like "<1%"
+  // that MDX would try to parse as JSX. We don't author JSX in these files.
+  loader: glob({ pattern: '**/*.md', base: './src/content/external/spontaneous-order' }),
   schema: z.object({
     title: z.string(),
     original_url: z.string().url(),
@@ -91,7 +93,8 @@ const spontaneousOrder = defineCollection({
 });
 
 const ccsBooks = defineCollection({
-  loader: glob({ pattern: '**/*.mdx', base: './src/content/external/ccs-books' }),
+  // Plain markdown, not MDX — same reason as spontaneousOrder above.
+  loader: glob({ pattern: '**/*.md', base: './src/content/external/ccs-books' }),
   schema: z.object({
     book_slug: z.string(),
     book_title: z.string(),

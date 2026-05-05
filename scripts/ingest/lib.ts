@@ -66,17 +66,17 @@ export async function writeMdxFile(filePath: string, file: MdxFile): Promise<voi
   await writeFile(filePath, text, 'utf8');
 }
 
-// Read every .mdx file in a directory tree and return { id -> source_hash }
-// based on the source_hash frontmatter field. Used for change detection in
-// the RSS poller and wiki regen scripts.
+// Read every .md or .mdx file in a directory tree and return
+// { id -> source_hash } based on the source_hash frontmatter field. Used for
+// change detection in the RSS poller and wiki regen scripts.
 export async function loadFrontmatterHashes(rootDir: string): Promise<Map<string, string>> {
   const map = new Map<string, string>();
   await walk(rootDir, async (filePath, relPath) => {
-    if (!filePath.endsWith('.mdx')) return;
+    if (!filePath.endsWith('.mdx') && !filePath.endsWith('.md')) return;
     const raw = await readFile(filePath, 'utf8');
     const { data } = matter(raw);
     if (typeof data.source_hash === 'string') {
-      const id = relPath.replace(/\.mdx$/, '');
+      const id = relPath.replace(/\.mdx?$/, '');
       map.set(id, data.source_hash);
     }
   });

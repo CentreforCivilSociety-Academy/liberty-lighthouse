@@ -90,7 +90,7 @@ async function main() {
     if (author) fm.author = author;
     if (year) fm.publication_year = year;
 
-    const filePath = join(outDir, `${chapterSlug}.mdx`);
+    const filePath = join(outDir, `${chapterSlug}.md`);
     if (dryRun) {
       logStep(`would write ${filePath} (${body.length} chars body)`);
     } else {
