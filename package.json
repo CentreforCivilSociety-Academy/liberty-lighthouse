@@ -16,12 +16,15 @@
     "ingest:rss": "tsx scripts/ingest/spontaneous-order.ts",
     "ingest:rss:fetch-backlog": "tsx scripts/ingest/spontaneous-order-fetch.ts",
     "ingest:book": "tsx scripts/ingest/book.ts",
-    "ingest:wiki": "tsx scripts/ingest/wiki-regen.ts"
+    "ingest:wiki": "tsx scripts/ingest/wiki-regen.ts",
+    "mcp:start": "tsx mcp/server.ts",
+    "mcp:test": "tsx mcp/test-client.ts"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.0",
     "@astrojs/preact": "^5.0.0",
     "@astrojs/sitemap": "^3.7.1",
+    "@modelcontextprotocol/sdk": "^1.21.0",
     "@tailwindcss/vite": "^4.2.1",
     "astro": "^6.0.4",
     "fuse.js": "^7.1.0",

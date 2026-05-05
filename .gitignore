@@ -21,6 +21,9 @@ pnpm-debug.log*
 # fetcher output (regenerable; see scripts/ingest/spontaneous-order-fetch.ts)
 backlog.json
 
+# local script logs
+.logs/
+
 # macOS-specific files
 .DS_Store
 
