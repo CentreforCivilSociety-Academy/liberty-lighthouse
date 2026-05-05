@@ -16,7 +16,7 @@
  *   OPENROUTER_API_KEY=... tsx scripts/ingest/wiki-regen.ts \
  *     [--source faqs|videos|glossary|spontaneous-order|ccs-books|all] \
  *     [--limit N] \
- *     [--model openrouter/anthropic/claude-sonnet-4.6] \
+ *     [--model x-ai/grok-4.1-fast] \
  *     [--dry-run]
  *
  * SCAFFOLD STATUS: This script has the hash-skip + file I/O wired up.
@@ -126,7 +126,8 @@ async function main() {
   const filter = (args.source as string) || 'all';
   const limit =
     typeof args.limit === 'string' ? parseInt(args.limit as string, 10) : Infinity;
-  const model = (args.model as string) || 'openrouter/anthropic/claude-sonnet-4.6';
+  const model =
+    (args.model as string) || process.env.OPENROUTER_MODEL || 'x-ai/grok-4.1-fast';
   const dryRun = Boolean(args['dry-run']);
   const apiKey = process.env.OPENROUTER_API_KEY;
 

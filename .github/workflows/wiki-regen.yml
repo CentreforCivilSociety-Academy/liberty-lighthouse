@@ -17,9 +17,9 @@ on:
         default: "50"
         type: string
       model:
-        description: "OpenRouter model id"
+        description: "OpenRouter model id (bare slug, no openrouter/ prefix)"
         required: false
-        default: "openrouter/anthropic/claude-sonnet-4.6"
+        default: "x-ai/grok-4.1-fast"
         type: string
       dry_run:
         description: "Print what would be written, don't write files"
@@ -57,7 +57,7 @@ jobs:
           OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           SOURCE: ${{ github.event.inputs.source || 'all' }}
           LIMIT: ${{ github.event.inputs.limit || '50' }}
-          MODEL: ${{ github.event.inputs.model || 'openrouter/anthropic/claude-sonnet-4.6' }}
+          MODEL: ${{ github.event.inputs.model || 'x-ai/grok-4.1-fast' }}
           DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
         run: |
           if [ -z "$OPENROUTER_API_KEY" ]; then
