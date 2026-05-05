@@ -1,21 +1,63 @@
 ---
 title: GG Agarkar- Modern Indian Liberal and Reformer
 original_url: 'https://www.spontaneousorder.in/p/gg-agarkar-indian-liberal-and-reformer'
+author: Spontaneous Order
 published_at: '2019-07-14T04:00:06.000Z'
 ingested_at: '2026-05-05T08:31:42.480Z'
-source_hash: b1dc70cc2dcd24eb7cd70a46e94032882f3996e6b02c08cd6c957a17964cbb54
-author: Spontaneous Order
 excerpt: >-
   The modern liberal tradition in Maharashtra has seen many remarkable
   individuals furthering the cause of individual dignity and human freedom. The
   prominent figures include western-educated M G Ranade, P M Mehta, K T Telang;
   orientalist R G Bhandarkar; ..
+summary: >-
+  Gopal Ganesh Agarkar stands out among Maharashtra's modern liberal luminaries
+  for his radical social reformism and commitment to rationality, inspired by
+  Enlightenment thinkers like Mill, Spencer, Voltaire, and Rousseau. A proponent
+  of scientific rationalism, he advocated women's liberation, opposition to
+  superstitious rituals and caste discrimination, and education for both sexes.
+  Collaborating with Bal Gangadhar Tilak, classmates at Deccan College, they
+  founded the New English School in Pune (1880), Deccan Education Society
+  (1884), and Fergusson College (1885), while editing Kesari to promote
+  literacy, reform, and patriotism. Their public prominence came via the 1882
+  Kolhapur affair, critiquing British interference in the Raja's rule, earning
+  public support despite legal charges. Diverging from Tilak's prioritization of
+  political freedom and conservative social views, Agarkar launched Sudharak,
+  insisting social reform precede independence. He backed the Age of Consent
+  Bill and Pandita Ramabai’s Widows’ Home, distinguishing morality from
+  religion. Historian Gordon Johnson deems him Maharashtra's most radical
+  reformer. Though criticized for overlooking Jyotiba Phule, Agarkar's legacy
+  shapes rationalist movements, influenced Hindutva figure Savarkar and even
+  1920s Marxism. Forgotten outside Maharashtra, he merits a place in India's
+  liberal pantheon.
+key_points:
+  - >-
+    Agarkar co-founded New English School (1880), Deccan Education Society
+    (1884), and Fergusson College (1885) with Tilak to advance education and
+    reform.
+  - >-
+    Prioritizing social reform over political freedom, Agarkar split from Tilak
+    and launched Sudharak after losing control of Kesari.
+  - >-
+    As a rationalist liberal, Agarkar supported women's education, anti-caste
+    efforts, Age of Consent Bill, and Pandita Ramabai’s initiatives.
+  - >-
+    Agarkar's Enlightenment-inspired views influenced Maharashtra's
+    rationalists, Savarkar, and indirectly Marxism, earning him recognition as
+    the state's most radical reformer.
+topics:
+  - indian-liberals
+  - social-reform
+  - rationalism
+  - education-reform
 tags:
   - Liberalism in India
   - Indian liberals
   - GG Agarkar
   - Maharashtra
   - Bal Gangadhar Tilak
+source_hash: b1dc70cc2dcd24eb7cd70a46e94032882f3996e6b02c08cd6c957a17964cbb54
+summary_hash: b1dc70cc2dcd24eb7cd70a46e94032882f3996e6b02c08cd6c957a17964cbb54
+summary_at: '2026-05-05T10:03:21.683Z'
 ---
 **By Sanjeet Kashyap**
 

@@ -1,20 +1,60 @@
 ---
 title: Does Electronic Media Need a Regulator?
 original_url: 'https://www.spontaneousorder.in/p/does-electronic-media-need-a-regulator'
+author: Spontaneous Order
 published_at: '2021-07-23T12:29:33.000Z'
 ingested_at: '2026-05-05T08:31:42.303Z'
-source_hash: 1294514a0c9dee7b7ecfdc4a8068cfcda3c35d89b039184981734e304193a52b
-author: Spontaneous Order
 excerpt: >-
   In a 2002 opinion piece, Chairman of the Press Council of India (PCI), Justice
   Markandey Katju, argued in favour of an electronic media regulatory authority.
   He proposed that the Press Council of India be renamed Media Council of India
   (to include telev..
+summary: >-
+  Paavi Kulshreshth evaluates Justice Markandey Katju's 2002 proposal for a
+  Media Council of India to regulate electronic media, modeled on the autonomous
+  Press Council of India (PCI), which has a majority of 20 press representatives
+  out of 28 members, a retired Supreme Court judge as chairperson selected
+  non-partisanly, and final decisions without court appeals. She distinguishes
+  state control from independent regulation, arguing electronic media's
+  agenda-setting and gatekeeping powers—evident in amplifying the 2020 migrant
+  exodus leading to NITI Aayog's 2021 policy draft, but neglecting COVID-19 amid
+  Sushant Singh Rajput sensationalism—demand ethical oversight akin to medicine
+  and law. While acknowledging risks from government misuse like UAPA arrests
+  (24 journalists in 2020 lockdown) and India's 142/180 World Press Freedom
+  Index rank, she posits PCI-like structure minimizes censorship.
+  Self-regulation via News Broadcasting Standards Authority fails: no channel
+  licenses suspended, fines rare (e.g., one channel withdrew then rejoined),
+  unpunished 2011 Mumbai attack leaks and fake news by Republic TV, Times Now. A
+  Media Council would enforce standards, protect press freedom, and allow PCI
+  evaluation, aligning classical-liberal emphasis on institutional autonomy over
+  unchecked power.
+key_points:
+  - >-
+    PCI's structure ensures independence with press majority and no appeals,
+    serving as a model for electronic media regulation.
+  - >-
+    Electronic media's influence on public opinion and policy justifies
+    regulation to penalize ethical violations, unlike limited-impact fields like
+    medicine.
+  - >-
+    Self-regulation by NBA lacks enforcement, with no suspensions, rare fines,
+    and unaddressed fake news incidents.
+  - >-
+    A Media Council of India could counter government overreach while upholding
+    journalistic standards and press freedom.
+topics:
+  - media-regulation
+  - press-freedom
+  - self-regulation
+  - journalistic-ethics
 tags:
   - news
   - Regulation
   - fake news
   - media
+source_hash: 1294514a0c9dee7b7ecfdc4a8068cfcda3c35d89b039184981734e304193a52b
+summary_hash: 1294514a0c9dee7b7ecfdc4a8068cfcda3c35d89b039184981734e304193a52b
+summary_at: '2026-05-05T09:35:48.414Z'
 ---
 **By Paavi Kulshreshth**
 

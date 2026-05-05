@@ -2,15 +2,57 @@
 title: Minoo Masani on the Raison D’être of Swatantra Party
 original_url: >-
   https://www.spontaneousorder.in/p/minoo-masani-on-the-raison-detre-of-swatantra-party
+author: Spontaneous Order
 published_at: '2020-06-04T11:37:38.000Z'
 ingested_at: '2026-05-05T08:31:42.413Z'
-source_hash: 6d234da49426aaf34e6840b42aafe24f7440130d31fc39d764e2e9d6d1f22af9
-author: Spontaneous Order
 excerpt: >-
   Founded in 1959, the Swatantra Party comprised of a diverse bunch of fellow
   travellers- Gandhian conservatives, zamindars, propertied peasants,
   businessmen, aristocrats, and classic liberals. The common rallying point was
   the increased threat of statis...
+summary: >-
+  Minoo Masani articulates the Swatantra Party's raison d’être as a
+  classical-liberal bulwark against Prime Minister Nehru's Soviet-inspired
+  economic planning and Fabian socialism, which dominated India's first decade
+  of independence and stifled enterprise through heavy taxation, inflation,
+  bureaucratic licenses, and regulations. He details growing discontent among
+  middle classes, entrepreneurs, and peasants, exacerbated by the Congress
+  Party's Nagpur Resolution—a three-pronged assault on rural life: land ceilings
+  limiting income to around Rs.3,600 annually, coercive 'joint co-operative
+  farming' akin to Soviet collectives, and state monopoly on foodgrains
+  wholesale trade, threatening to dispossess farmers who comprise 52% of India's
+  population. This sparked the 1959 formation of Swatantra as a broad
+  anti-statist coalition of liberals, Gandhian conservatives, businessmen, and
+  peasants, led by figures like Prof. N.G. Ranga. The party advocates peasant
+  proprietorship with incentives like stable prices and inputs for food
+  production, competitive private enterprise in industry supplemented by limited
+  state heavy industries, opposition to state trade, and balanced development
+  prioritizing consumer goods alongside capital goods. Masani contrasts this
+  with failed collectivism elsewhere, drawing parallels to Japan's smallholder
+  success and West Germany's social market economy, positioning Swatantra to
+  liberate productive forces, prevent power concentration, and counter
+  communism's drift.
+key_points:
+  - >-
+    Nehru's socialist planning prioritizes heavy industry over consumer goods,
+    imposing bureaucratic hurdles that harass entrepreneurs and inflate costs
+    for consumers.
+  - >-
+    The Nagpur Resolution's land ceilings, collective farming, and foodgrains
+    monopoly threaten peasant ownership, prompting Swatantra's formation.
+  - >-
+    Swatantra champions self-employed peasant proprietors with production
+    incentives and restricts state to essential heavy industries while favoring
+    competitive private enterprise.
+  - >-
+    The party seeks to avoid communism by promoting free enterprise, mirroring
+    successes in Japan and West Germany.
+topics:
+  - swatantra-party
+  - nehru-socialism
+  - nagpur-resolution
+  - economic-freedom
+  - peasant-proprietorship
 tags:
   - Minoo Masani
   - N G Ranga
@@ -20,6 +62,9 @@ tags:
   - AD Shroff
   - Libertarianism
   - Liberal Politics
+source_hash: 6d234da49426aaf34e6840b42aafe24f7440130d31fc39d764e2e9d6d1f22af9
+summary_hash: 6d234da49426aaf34e6840b42aafe24f7440130d31fc39d764e2e9d6d1f22af9
+summary_at: '2026-05-05T10:55:00.866Z'
 ---
 **By Spontaneous Order**
 

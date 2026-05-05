@@ -2,15 +2,49 @@
 title: 'Already in a Mega-Recession, India Needs a Venture Capitalist of Last Resort'
 original_url: >-
   https://www.spontaneousorder.in/p/already-in-a-mega-recession-india-needs-a-venture-capitalist-of-last-resort
+author: Spontaneous Order
 published_at: '2020-06-03T12:30:05.000Z'
 ingested_at: '2026-05-05T08:31:42.413Z'
-source_hash: 1e8cb0f1d79aefb7eac6e2d0cd76b2e18f3cf82c3d01c2dfa4c15651118221b8
-author: Spontaneous Order
 excerpt: >-
   The government is focused on saving companies from Covid-induced death. The
   Reserve Bank of India (RBI) has acted swiftly as lender of last resort. It has
   mandated loan moratoria, injected enormous liquidity into the financial
   system, and joined hands w..
+summary: >-
+  India faces a mega-recession with GDP potentially falling 5% or more, the
+  worst since 1929, leading to massive bankruptcies that the Insolvency and
+  Bankruptcy Code cannot handle efficiently. While the RBI has served as lender
+  of last resort through loan moratoria, liquidity injections, and guarantees,
+  this is insufficient for illiquid corporate giants. Harvard's Jeremy Stein
+  proposes a 'venture capitalist of last resort': government injecting equity
+  into too-big-to-fail firms, as the US did via TARP in 2008, nationalizing
+  Citibank, Bank of America, GM, Chrysler, AIG, Fannie Mae, and Freddie Mac
+  among 780 investments—yielding 637 profits, 138 losses, and a net $50 billion
+  gain upon re-privatization. India should emulate this classical-liberal
+  pragmatic approach: GoI buys equity cheaply in fallen giants, stabilizes them,
+  and re-privatizes at profit, avoiding bank-killing loans. However, India's
+  history of permanent nationalizations under Indira Gandhi, PSB mergers for
+  failed banks like Yes Bank, and reluctance to sell SUUTI's UTI shares (up
+  tenfold) poses risks—vested interests block re-privatization, potentially
+  turning crisis aid into enduring state ownership.
+key_points:
+  - >-
+    RBI's lender-of-last-resort measures are inadequate for mega-recession
+    bankruptcies; government must act as equity-injecting VC of last resort.
+  - >-
+    US TARP nationalized major firms temporarily, achieving $50 billion net
+    profit through re-privatization.
+  - >-
+    India needs a TARP-like program to buy low, nurse giants back to health, and
+    sell high, preventing bank collapses.
+  - >-
+    India's political history risks converting temporary equity stakes into
+    permanent nationalizations, as seen with SUUTI shares.
+topics:
+  - financial-crisis
+  - government-intervention
+  - privatization
+  - venture-capital
 tags:
   - banking governance
   - recapitalisation
@@ -19,6 +53,9 @@ tags:
   - pandemic
   - Indian Economy
   - central banking failure
+source_hash: 1e8cb0f1d79aefb7eac6e2d0cd76b2e18f3cf82c3d01c2dfa4c15651118221b8
+summary_hash: 1e8cb0f1d79aefb7eac6e2d0cd76b2e18f3cf82c3d01c2dfa4c15651118221b8
+summary_at: '2026-05-05T08:55:00.691Z'
 ---
 **By Swaminathan SA Aiyer**
 

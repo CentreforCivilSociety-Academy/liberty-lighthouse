@@ -2,15 +2,49 @@
 title: Government Requires IITs to Place More Weight on Board Exams
 original_url: >-
   https://www.spontaneousorder.in/p/government-requires-iits-to-place-more-weight-on-board-exams
+author: Spontaneous Order
 published_at: '2012-08-23T16:34:53.000Z'
 ingested_at: '2026-05-05T08:31:42.613Z'
-source_hash: 54f53ee37e5ef75516d2b5c75288957f2d86d5d24009694a95184c06970c966b
-author: Spontaneous Order
 excerpt: >-
   (This post is written by Sudershan Singh, Research Associate in CCS’ School
   Choice Campaign) The HRD ministry has decided to launch a new system of
   entrance test for admission to government funded technical institutes of
   India, notably, the IITs, NITs a
+summary: >-
+  The Indian HRD ministry has imposed a new two-tier entrance system (JEE-Main
+  and JEE-Advanced) for IITs, NITs, and similar institutes starting 2013, with
+  board exam marks weighted at 40%, JEE-Main at 30%, and JEE-Advanced at 30%;
+  applicants must now rank in the top 20% (80th percentile) of their board, up
+  from a prior 60% cutoff. This arbitrary threshold ignores past IIT admissions
+  of lower board scorers and boards' inconsistencies, necessitating score
+  normalization. The government claims it levels the playing field, reduces
+  coaching pressure, bridges board-IIT syllabus gaps, and aids rural and female
+  students disadvantaged by distant coaching hubs. However, from a
+  classical-liberal view, coaching centres flourish due to schools'
+  rote-memorization focus failing to build IIT-required aptitude and
+  understanding; they meet real market demand unmet by government schooling. The
+  new system won't eliminate coaching—instead, centres will adapt to boards and
+  the exam—while disadvantaging high-achievers who benefit from them. Rather
+  than market interventions that hurt merit, the solution is comprehensive
+  school reform to deliver quality education accessible to all.
+key_points:
+  - >-
+    Government's new IIT system mandates 80th percentile board ranking and 40%
+    board weightage, arbitrarily excluding past admits.
+  - >-
+    Boards emphasize rote learning unfit for IIT aptitude tests, fueling
+    coaching demand due to school failures.
+  - >-
+    Coaching centres respond to market gaps; new rules will prompt adaptation,
+    not elimination.
+  - >-
+    Suppressing coaching disadvantages merit-based students; improve schooling
+    system instead.
+topics:
+  - iit-admissions
+  - board-exams
+  - coaching-centres
+  - education-reform
 tags:
   - School Choice Campaign
   - IIT coaching
@@ -18,6 +52,9 @@ tags:
   - admission
   - IIT-JEE
   - IIT
+source_hash: 54f53ee37e5ef75516d2b5c75288957f2d86d5d24009694a95184c06970c966b
+summary_hash: 54f53ee37e5ef75516d2b5c75288957f2d86d5d24009694a95184c06970c966b
+summary_at: '2026-05-05T10:05:23.431Z'
 ---
 **By Andrew Humphries**
 

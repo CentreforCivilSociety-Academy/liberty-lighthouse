@@ -2,19 +2,55 @@
 title: 'Book Review: The case for privatization of water supply'
 original_url: >-
   https://www.spontaneousorder.in/p/book-review-the-case-for-privatization-of-water-supply
+author: Spontaneous Order
 published_at: '2010-08-23T11:18:53.000Z'
 ingested_at: '2026-05-05T08:31:42.647Z'
-source_hash: c6e73a20a6683b7a2bdaccdf4143fe258c427e05e1feb24bf97bae538eea47d3
-author: Spontaneous Order
 excerpt: >-
   That’s it, I did it and I want to tell the world about it. It’s been a long
   but entertaining journey of a bit more than 100 pages, and I finally went
   through. Deep down in the dark water of privatization but notwithstanding
   appealing intellectual idea
+summary: >-
+  Lucas Leger's review of Fredrik Segerfeldt's 2005 Cato Institute book 'Water
+  for Sale' argues from a classical-liberal standpoint that privatizing water
+  distribution and establishing defined property rights offers a practical
+  solution to the global water crisis, particularly in developing countries.
+  Drawing on empirical examples, the book shows that market forces reduce waste,
+  spillage, and misallocation compared to public systems. It challenges the
+  intuition that privatization raises prices unaffordably, noting that subsidies
+  have left one-sixth of the world's population without safe water, causing
+  deaths among the poorest while benefiting the rich connected to mains.
+  Subsidies ignore water's economic value—like food—and force the poor into
+  costly illegal channels, undermining justice. Leger appreciates the empirical
+  approach comparing successes and failures of privatization. However, he raises
+  a concern: as water supply is a natural monopoly requiring public intervention
+  via non-exclusive concessions, corruption in countries with weak rule of law
+  could undermine benefits.
+key_points:
+  - >-
+    Privatization of water distribution with property rights reduces waste and
+    improves allocation in developing countries, per empirical cases.
+  - >-
+    Subsidies exclude one-sixth of the global population from safe water,
+    killing the poorest while subsidizing the rich.
+  - >-
+    Markets recognize water's economic value, avoiding misallocation and illegal
+    fetching costs for the poor.
+  - >-
+    Water is a natural monopoly needing regulated non-exclusive concessions to
+    prevent abuse.
+topics:
+  - water-privatization
+  - natural-monopoly
+  - developing-countries
+  - market-solutions
 tags:
   - world's water crisis
   - subsidizing water
   - Privatization
+source_hash: c6e73a20a6683b7a2bdaccdf4143fe258c427e05e1feb24bf97bae538eea47d3
+summary_hash: c6e73a20a6683b7a2bdaccdf4143fe258c427e05e1feb24bf97bae538eea47d3
+summary_at: '2026-05-05T09:11:40.471Z'
 ---
 **By Lucas Leger**
 

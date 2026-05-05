@@ -1,17 +1,59 @@
 ---
 title: 'Air: A Tragedy of the Commons'
 original_url: 'https://www.spontaneousorder.in/p/air-a-tragedy-of-the-commons'
+author: Spontaneous Order
 published_at: '2021-03-26T12:56:17.000Z'
 ingested_at: '2026-05-05T08:31:42.338Z'
-source_hash: 203d17dca01471cb340e197ef9e946fa11fd922a0e71d39239fb3a4aad9f129e
-author: Spontaneous Order
 excerpt: >-
   Aristotle believed that any resource shared by a large number of users is the
   least cared for. The tragedy of the Commons, a global dilemma, is at the
   centre of this belief. The idea is that commonly held open-access resources
   like air, water bodies etc..
+summary: >-
+  Air pollution exemplifies Aristotle's tragedy of the commons, where shared
+  resources like air suffer over-exploitation due to lack of individual
+  incentives to restrain use. While global governments face increasing
+  accountability—such as a 2020 UK court ruling linking air pollution to a
+  nine-year-old girl's 2013 death—India treats deteriorating air quality as low
+  priority despite hosting six of the world's most polluted cities in 2019 and
+  ranking third in air pollution deaths in 2018 after Afghanistan and Pakistan.
+  The 2021-22 budget allocated far less than requested for pollution control.
+  From a classical-liberal perspective, effective public policy favors
+  incentives over mandates: promote affordable electric vehicles (EVs) via
+  market competition and manufacturer incentives under Make in India; impose
+  heavier taxes on diesel vehicles; electrify government buses like BEST and
+  PMT; offer corporates tax breaks for green initiatives, as Cisco powers 60% of
+  its Bangalore office with wind energy; incentivize states to expand forests
+  with higher budgets; mandate environmental projects in STEM curricula for
+  awareness; and establish well-defined property rights through pollution rights
+  markets for cost-efficient control. All stakeholders—from individuals to
+  corporates—must be incentivized to safeguard this shared resource.
+key_points:
+  - >-
+    Air pollution is a tragedy of the commons best addressed through incentives
+    rather than mandates.
+  - >-
+    Promote affordable EVs by fostering market competition, manufacturer
+    incentives, and heavier taxes on diesel vehicles.
+  - >-
+    Electrify public buses and incentivize corporates with tax benefits for
+    renewable energy adoption, like Cisco's 60% wind-powered Bangalore office.
+  - >-
+    Establish pollution rights markets and property rights to enable
+    cost-efficient pollution control.
+  - >-
+    Incentivize states for forest expansion and integrate environmental projects
+    into STEM education for public awareness.
+topics:
+  - tragedy-of-the-commons
+  - air-pollution
+  - market-incentives
+  - property-rights
 tags:
   - Air pollution
+source_hash: 203d17dca01471cb340e197ef9e946fa11fd922a0e71d39239fb3a4aad9f129e
+summary_hash: 203d17dca01471cb340e197ef9e946fa11fd922a0e71d39239fb3a4aad9f129e
+summary_at: '2026-05-05T08:52:35.522Z'
 ---
 **By Rafiya Sheikh**
 

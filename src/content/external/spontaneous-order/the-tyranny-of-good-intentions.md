@@ -1,15 +1,53 @@
 ---
 title: The Tyranny of Good Intentions
 original_url: 'https://www.spontaneousorder.in/p/the-tyranny-of-good-intentions'
+author: Spontaneous Order
 published_at: '2020-05-12T17:42:54.000Z'
 ingested_at: '2026-05-05T08:31:42.419Z'
-source_hash: 014ad8cb1927d655a94f2dd81c652edd6880e985236c1fb5b0553a1ed6fad901
-author: Spontaneous Order
 excerpt: >-
   Amidst the Corona fiasco, three State governments of Madhya Pradesh, Gujarat
   and Uttar Pradesh have relaxed their labour regulations to facilitate economic
   activity and to increase growth. As expected, the move was met with heavy
   criticisms accusing the..
+summary: >-
+  India's archaic labour regulations, rooted in the 1947 Industrial Disputes Act
+  and amplified in the 1970s, impose excessive red tape with 47 Union and 157
+  overlapping State laws, stifling economic growth and formal employment.
+  Despite GDP surging from $270 billion in 1991 to $2.8 trillion in 2018, labour
+  force participation fell from 58.4% to 49.3%, with formal jobs dropping (e.g.,
+  18.6 to 5.7 million from 2005-10) while informal jobs rose, pushing 94% of the
+  workforce into precarious conditions without social security. Strict laws
+  prevent small firms from scaling—India's largest garment units max at 1,000
+  workers versus 30,000 in China and 10,000 in Bangladesh—fostering jobless
+  growth amid plummeting poverty (45.3% in 1991 to 21.9% in 2011). Unions,
+  representing <10% of workers, oppose reforms despite evidence like
+  Besley-Burgess study showing pro-worker amendments reduce employment, output,
+  and productivity in formal manufacturing. Recent deregulations by Madhya
+  Pradesh, Gujarat, and Uttar Pradesh amid COVID-19 counter 'inhumane'
+  criticisms; true exploitation thrives in the informal sector due to rigid
+  rules. From a classical-liberal view, these 'tyranny of good intentions'
+  oppress employers, mechanize jobs, and block India's demographic dividend,
+  'Make in India', and global supply chain integration—reforms like simplified
+  compliance are essential now.
+key_points:
+  - >-
+    Strict Indian labour laws cap firm growth, limiting formal jobs and keeping
+    garment factories under 1,000 workers unlike competitors.
+  - >-
+    94% of workforce is informal due to regulatory burdens, taxes, and inspector
+    raj, despite lower productivity (1/10th of formal sector).
+  - >-
+    Pro-worker amendments correlate with reduced employment, output, and
+    investment per Besley-Burgess study; pro-business states like Gujarat
+    thrive.
+  - >-
+    Labour reforms during crises enable formalization, higher wages, and
+    competition with Vietnam/Bangladesh amid China risks.
+topics:
+  - labour-reforms
+  - jobless-growth
+  - informal-economy
+  - economic-liberalisation
 tags:
   - Healthcare in India
   - daily labourer
@@ -17,6 +55,9 @@ tags:
   - Restrictive regulations
   - pandemic
   - labour
+source_hash: 014ad8cb1927d655a94f2dd81c652edd6880e985236c1fb5b0553a1ed6fad901
+summary_hash: 014ad8cb1927d655a94f2dd81c652edd6880e985236c1fb5b0553a1ed6fad901
+summary_at: '2026-05-05T12:38:16.569Z'
 ---
 **By Benolin Kannadasan**
 

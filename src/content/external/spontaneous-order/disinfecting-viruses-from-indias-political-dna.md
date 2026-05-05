@@ -2,15 +2,46 @@
 title: Disinfecting Viruses from India’s Political DNA
 original_url: >-
   https://www.spontaneousorder.in/p/disinfecting-viruses-from-indias-political-dna
+author: Spontaneous Order
 published_at: '2012-05-21T09:39:31.000Z'
 ingested_at: '2026-05-05T08:31:42.618Z'
-source_hash: ba112600683ef1792ef78d8b04a6db65a21715072b6623c32db416d419bf0033
-author: Spontaneous Order
 excerpt: >-
   Acceptance of an expansive role for government in the daily lives of citizens
   is deeply-embedded in the psyche of India’s political leaders, babus &
   intellectuals. One possible explanation for this might come from a
   mischaracterization of colonialism as
+summary: >-
+  India's political leaders, bureaucrats, and intellectuals deeply accept
+  expansive government roles due to a mischaracterization of colonialism as
+  allied with capitalism, fostering anti-capitalist opposition. Freedom fighters
+  like Subhas Chandra Bose blended socialism with nationalism, while Gandhi's
+  swaraj rejected extensive markets and global trade. Most critically, Nehruvian
+  socialism at independence infected India's 'political DNA' with a viral belief
+  that state interference best organizes diverse communities. The author
+  counters that free market capitalism sharply opposes colonialism, viewing the
+  latter as state control akin to socialist intervention. Capitalism enables
+  free flows of trade, capital, and labor across borders; open competition
+  without privileges based on origin, gender, or other traits; moral outcomes
+  from voluntary exchanges rewarding merit; social cooperation and harmony by
+  valuing what others willingly pay for; innovation driving productivity, wage
+  growth, and better goods; and individual learning from mistakes borne
+  personally, without cost-shifting. This classical-liberal framing urges
+  rejecting statism for capitalism's superior coordination and prosperity.
+key_points:
+  - >-
+    Mischaracterizing colonialism as capitalism led Indian freedom fighters and
+    post-independence leaders to embrace socialism over markets.
+  - >-
+    Nehruvian socialism embedded a 'virus' in India's political DNA, promoting
+    state interference as optimal for diverse societies.
+  - >-
+    Free market capitalism contrasts with colonialism by enabling open trade,
+    competition, voluntary exchange, innovation, and personal responsibility.
+topics:
+  - free-markets
+  - nehruvian-socialism
+  - colonialism
+  - indian-politics
 tags:
   - capital
   - colonialism
@@ -19,6 +50,9 @@ tags:
   - free market capitalism
   - Capitalism
   - labor productivity
+source_hash: ba112600683ef1792ef78d8b04a6db65a21715072b6623c32db416d419bf0033
+summary_hash: ba112600683ef1792ef78d8b04a6db65a21715072b6623c32db416d419bf0033
+summary_at: '2026-05-05T09:34:20.531Z'
 ---
 **By Christopher Lingle**
 

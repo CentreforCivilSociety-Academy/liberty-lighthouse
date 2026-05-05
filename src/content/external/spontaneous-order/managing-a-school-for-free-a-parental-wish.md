@@ -1,20 +1,60 @@
 ---
 title: Managing a school for free – a parental wish?
 original_url: 'https://www.spontaneousorder.in/p/managing-a-school-for-free-a-parental-wish'
+author: Spontaneous Order
 published_at: '2010-02-27T18:52:20.000Z'
 ingested_at: '2026-05-05T08:31:42.653Z'
-source_hash: 42a95335386bd8023c8cb7f4124191d1729361458cf3a88ce83aad6bdeea9bd0
-author: Spontaneous Order
 excerpt: >-
   The Right to Education Act will soon be implemented (Apr 1, 2010) and that may
   be all well since some of CCS’ earlier critique in the 2005 and 2009 Bills
   actually was taken into account. From formerly six new bureaucratic levels in
   the earlier Bills to
+summary: >-
+  The post critiques India's Right to Education (RTE) Act, set for
+  implementation on April 1, 2010, praising reductions in bureaucracy from
+  earlier bills but questioning the new School Management Committee (SMC) and
+  School Tribunal. While the Tribunal may expedite teacher dismissals, the
+  SMC—composed of 75% parents and others like local politicians and teachers—is
+  a voluntary body with no financial reimbursements, tasked with extensive
+  professional duties under Model Rules 13 and 14. These include monthly
+  monitoring of child rights communication, teacher workloads, enrollment,
+  infrastructure norms, mid-day meals, disabled children's facilities, and
+  preparing detailed three-year School Development Plans with enrollment
+  estimates, teacher needs, infrastructure, and budgets—all without pay. The
+  author argues this burdens volunteers unrealistically, excludes resourceless
+  or working parents, invites meddlesome locals in government schools, and
+  undermines professionalism, noting 50% of Indian schools lack a good
+  headmaster part-time and 2% full-time. From a classical-liberal viewpoint,
+  SMCs will be inefficient and exclusionary; instead, empower parents via
+  vouchers for school choice, leaving management to competent principals or
+  private enterprises, with PTAs for voluntary involvement.
+key_points:
+  - >-
+    RTE's School Management Committee imposes unpaid, professional-level tasks
+    on mostly volunteer parents (75%), making it unfeasible for resourceless or
+    working families.
+  - >-
+    Voluntary SMCs risk domination by busybodies like sarpanch allies,
+    sidelining professionalism in school management.
+  - >-
+    Classical-liberal solution: Provide parental vouchers for school choice
+    rather than mandating SMCs, ensuring accountability through exit options.
+  - >-
+    Professional school management by headmasters or private entities is
+    preferable to volunteer committees for efficiency.
+topics:
+  - rte-act
+  - school-management
+  - school-choice
+  - parental-involvement
 tags:
   - Parent Teacher Associations
   - school legislation
   - RTE Act
   - School Management Committee
+source_hash: 42a95335386bd8023c8cb7f4124191d1729361458cf3a88ce83aad6bdeea9bd0
+summary_hash: 42a95335386bd8023c8cb7f4124191d1729361458cf3a88ce83aad6bdeea9bd0
+summary_at: '2026-05-05T10:49:09.023Z'
 ---
 **By jan**
 

@@ -1,19 +1,42 @@
 ---
 title: Assessment of Delhi Voucher Project
 original_url: 'https://www.spontaneousorder.in/p/assessment-of-delhi-voucher-project'
+author: Spontaneous Order
 published_at: '2009-02-21T13:48:16.000Z'
 ingested_at: '2026-05-05T08:31:42.664Z'
-source_hash: 180bb410a968602b3b4637f4252da7b78b0c21db4d4e7609e04d36dcfbb807d2
-author: Spontaneous Order
 excerpt: >-
   Since my talk at IIM-A on school vouchers on February 11, i have been off the
   blog. My father underwent a by-pass surgery (actually five bypasses) and the
   recovery has not been as smooth as expected. He is now stable and moving up on
   the improvement cu...
+summary: >-
+  This short post by Parth Shah, founder of Centre for Civil Society, provides a
+  personal update on his blogging hiatus due to his father's five-bypass
+  surgery, from which he is now recovering. It announces the release of the
+  first assessment of the Delhi Voucher Project, launched in the 2007 academic
+  year and evaluated by the Centre for Media Studies. Delhi Education Minister
+  Arvinder Singh Lovely praised the classical-liberal 'Fund Students, Not
+  Schools!' principle and promised to introduce a voucher scheme in Delhi,
+  aligning with advocacy for choice and competition in education.
+key_points:
+  - Parth Shah's father underwent five bypasses and is now stable and improving.
+  - >-
+    The first assessment of the Delhi Voucher Project (started 2007) was
+    released by Centre for Media Studies.
+  - >-
+    Delhi Education Minister Arvinder Singh Lovely endorsed 'Fund Students, Not
+    Schools!' and pledged a voucher scheme in Delhi.
+topics:
+  - school-vouchers
+  - school-choice
+  - education-reform
 tags:
   - CMS
   - Delhi Voucher Projects
   - Vouchers
+source_hash: 180bb410a968602b3b4637f4252da7b78b0c21db4d4e7609e04d36dcfbb807d2
+summary_hash: 180bb410a968602b3b4637f4252da7b78b0c21db4d4e7609e04d36dcfbb807d2
+summary_at: '2026-05-05T09:03:38.935Z'
 ---
 **By Parth Shah**
 

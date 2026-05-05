@@ -2,20 +2,61 @@
 title: 'Crisis of Interventionism: The Exhaustion of the Reserve Fund'
 original_url: >-
   https://www.spontaneousorder.in/p/crisis-of-interventionism-the-exhaustion-of-the-reserve-fund
+author: Spontaneous Order
 published_at: '2012-04-17T11:27:58.000Z'
 ingested_at: '2026-05-05T08:31:42.624Z'
-source_hash: e36eddb35f04dca60ca4948eaf5ee8c56011b06db371181816ba16ae7d3d2c98
-author: Spontaneous Order
 excerpt: >-
   It’s crucial to emphasize that what many people see as a “crisis of
   Capitalism” is really an inevitable crisis of Interventionism (where
   governments try to restrict and direct economic activity and redistribute its
   product). Steve Baker, Conservativ
+summary: >-
+  Andrew Humphries argues that the perceived 'crisis of Capitalism' is actually
+  an inevitable crisis of Interventionism, where governments restrict economic
+  activity and redistribute wealth, as illustrated by Ludwig von Mises in Human
+  Action chapter XXXVI. Mises contends that interventionist policies assume an
+  inexhaustible 'reserve fund' from the affluent can fund redistribution via
+  progressive income and estate taxes, higher wages, shorter hours, and deficits
+  in nationalized enterprises without burdening the masses. Public utilities'
+  losses are covered by taxing the wealthy rather than privatization or price
+  hikes, deemed 'antisocial' by interventionists. However, this fund is finite:
+  it has exhausted in most European countries, with the US approaching the same
+  due to high tax rates yielding negligible extra revenue. Interventionists
+  ignore budgetary trade-offs, treating public spending as unlimited. Once
+  depleted, additional spending must come from the masses, wage hikes raise
+  prices affecting consumers, and strikes burden everyone. The classical-liberal
+  critique holds that interventionism's 'Santa Claus principle' self-liquidates,
+  forcing governments to confront fiscal realities and choose between free
+  markets or full socialism.
+key_points:
+  - >-
+    Interventionism treats the wealth of the rich as an inexhaustible fund for
+    redistribution, but this reserve exhausts after heavy taxation.
+  - >-
+    Deficits in nationalized enterprises are financed by taxing the affluent
+    rather than raising prices or privatizing, until funds run out.
+  - >-
+    High progressive tax rates in the US produce only modest revenue gains,
+    shifting burdens to the masses as in Europe.
+  - >-
+    Wage increases and 'social gains' for workers ultimately raise consumer
+    prices once entrepreneurial buffers are depleted by interventions.
+  - >-
+    The interventionist system collapses when its core assumption of unlimited
+    funds fails, refuting lavish spending without revenue limits.
+topics:
+  - interventionism
+  - progressive-taxation
+  - government-spending
+  - austrian-economics
 tags:
   - Interventionism
   - inexhaustible fund
   - crisis of capitalism
   - reserve fund
+source_hash: e36eddb35f04dca60ca4948eaf5ee8c56011b06db371181816ba16ae7d3d2c98
+summary_hash: e36eddb35f04dca60ca4948eaf5ee8c56011b06db371181816ba16ae7d3d2c98
+summary_at: '2026-05-05T09:29:11.395Z'
 ---
 **By Andrew Humphries**
 

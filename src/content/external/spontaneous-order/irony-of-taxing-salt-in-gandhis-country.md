@@ -1,15 +1,50 @@
 ---
 title: Irony of taxing salt in Gandhi’s country
 original_url: 'https://www.spontaneousorder.in/p/irony-of-taxing-salt-in-gandhis-country'
+author: Spontaneous Order
 published_at: '2014-10-06T16:56:41.000Z'
 ingested_at: '2026-05-05T08:31:42.589Z'
-source_hash: e5cd2a5f2a175527aa2ed9db670971ae905ef1030bc0feeccb2dbe0856661772
-author: Spontaneous Order
 excerpt: >-
   Author: Beena Aiyar One of the most evocative moments of our independence
   struggle is Mahatma Gandhi’s Salt Satyagraha of 1930. Whether in Dandi,
   Dharasana or Vedaranyam—the simple act of walking to the shore and breaking
   British Salt laws shook up th
+summary: >-
+  In a classical-liberal critique, Beena Aiyar highlights the irony of taxing
+  salt in post-independence India, echoing Gandhi's 1930 Salt Satyagraha against
+  British salt laws, yet imposing a cess since 1947 to fund the Salt
+  Commissioner's Organisation (SCO). Despite 92% private salt production
+  post-1996 de-licensing, the Salt Cess Act 1953 funds regulation, land leasing
+  (62,000 acres), quality control, iodisation campaigns, and labour welfare. In
+  2013-14, cess collections were Rs 3.3 crores, with 50% collection costs and Rs
+  24 crores of Rs 27 crores SCO expenses on salaries for 800 officers (far
+  exceeding 50 sanctioned posts). Activities like eye camps and scholarships are
+  minimal. Aiyar argues this inefficient machinery—costing more to run than it
+  raises—should be abolished, with expenses met from general revenues, quality
+  control integrated under Food Safety and Standards Act 2006, welfare via
+  schemes like MGNREGS, and land management reformed to curb discretion. Echoing
+  Economic Survey, 13th Finance Commission, and experts like NK Singh, she calls
+  for eliminating all cesses to streamline taxes, reduce distortions, and shrink
+  government.
+key_points:
+  - >-
+    Abolish the Salt Cess Act 1953 as collections (Rs 3.3 crores in 2013-14) are
+    dwarfed by 50% collection costs and Rs 24 crores in salaries for 800 SCO
+    officers.
+  - >-
+    Integrate salt quality control into the Food Safety and Standards Act 2006
+    and shift worker welfare to broader schemes like MGNREGS.
+  - >-
+    Reform leasing of 62,000 acres under SCO to reduce bureaucratic discretion
+    without a vigilance officer.
+  - >-
+    Fund SCO via general revenues post-cess abolition to cut costs and boost
+    efficiency, aligning with calls to eliminate distortionary cesses.
+topics:
+  - salt-cess
+  - government-inefficiency
+  - tax-reform
+  - public-finance
 tags:
   - Salt Industry
   - Salt Law
@@ -19,6 +54,9 @@ tags:
   - Indian Salt Service
   - Mahatma Gandhi
   - Dandi March
+source_hash: e5cd2a5f2a175527aa2ed9db670971ae905ef1030bc0feeccb2dbe0856661772
+summary_hash: e5cd2a5f2a175527aa2ed9db670971ae905ef1030bc0feeccb2dbe0856661772
+summary_at: '2026-05-05T10:26:52.681Z'
 ---
 **By Beena Aiyar**
 

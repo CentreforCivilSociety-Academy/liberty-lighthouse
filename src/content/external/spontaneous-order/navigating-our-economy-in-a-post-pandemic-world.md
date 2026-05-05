@@ -2,20 +2,58 @@
 title: Navigating our economy in a post-pandemic world
 original_url: >-
   https://www.spontaneousorder.in/p/navigating-our-economy-in-a-post-pandemic-world
+author: Spontaneous Order
 published_at: '2021-10-25T14:07:54.000Z'
 ingested_at: '2026-05-05T08:31:42.287Z'
-source_hash: 9b4b981e23cd18499a7a6174a32eeffad093cb0b6975550afbf71ade62620547
-author: Spontaneous Order
 excerpt: >-
   Economists at the International Monetary Fund (IMF) provide estimates of the
   future trajectory of the global economy twice a year. The latest set of
   forecasts are out in the October 2021 edition of the World Economic Outlook.
   The numbers on India give u..
+summary: >-
+  The IMF's October 2021 World Economic Outlook reveals lasting pandemic damage
+  to India's economy: 2024 GDP projected at $4.08 trillion, $550 billion below
+  the pre-pandemic October 2019 forecast of $4.63 trillion, signaling permanent
+  output losses and reduced opportunities for ordinary Indians. Emerging markets
+  like India face steeper challenges than developed economies or peers like
+  Vietnam, which is now expected to reach $513 billion in 2024 versus a prior
+  $395 billion estimate. Despite recovery celebrations, India risks a lost
+  decade of slow growth and inflation unless it leverages disruptions for
+  Schumpeterian creative destruction. The IMF outlines four building blocks:
+  reversing human capital erosion from health shocks and school closures;
+  facilitating growth via green technology and digital networks; tackling rising
+  inequality post-uneven recovery; and restoring fiscal sustainability amid high
+  debt. From a classical-liberal lens, the most promising path is policy
+  enabling dual transitions to green (energy, transport, agriculture, cities)
+  and digital economies, building on private telecom expansion and public
+  digital goods to spur entrepreneurial investment and innovation, while
+  mitigating risks like digital access gaps, monopolies, and privacy issues.
+key_points:
+  - >-
+    IMF forecasts show India's 2024 GDP at $4.08 trillion, over $500 billion
+    below pre-pandemic projections, indicating permanent economic losses.
+  - >-
+    Emerging economies like India face greater post-pandemic trajectory
+    deviations than developed nations or outperformers like Vietnam.
+  - >-
+    Reverse human capital damage and facilitate green/digital transitions to
+    harness creative destruction for productivity gains.
+  - >-
+    Address inequality and fiscal burdens to sustain recovery, with policy
+    creating space for entrepreneurial innovation.
+topics:
+  - pandemic-recovery
+  - india-economy
+  - green-economy
+  - digital-economy
 tags:
   - economy
   - pandemic
   - Indian Economy
   - IMF
+source_hash: 9b4b981e23cd18499a7a6174a32eeffad093cb0b6975550afbf71ade62620547
+summary_hash: 9b4b981e23cd18499a7a6174a32eeffad093cb0b6975550afbf71ade62620547
+summary_at: '2026-05-05T11:00:56.825Z'
 ---
 **By Niranjan Rajadhyaksha**
 

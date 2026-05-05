@@ -2,19 +2,61 @@
 title: 'Land-Use Change for Harnessing Solar Energy in India: Too good to be true?'
 original_url: >-
   https://www.spontaneousorder.in/p/land-use-change-for-harnessing-solar-energy-in-india-too-good-to-be-true
+author: Spontaneous Order
 published_at: '2020-10-22T11:42:29.000Z'
 ingested_at: '2026-05-05T08:31:42.373Z'
-source_hash: 85df7b771e733a67138760a7d693bd0e5bbaaca44216e85ad68bb4a43f861f49
-author: Spontaneous Order
 excerpt: >-
   Despite the sun being a renewable source of energy, several state governments
   in India face problems of land possession and acquisition for construction of
   Ultra Mega Solar Power Parks. This happens because the livelihood of 70% of
   rural households in I..
+summary: >-
+  While solar parks promise renewable energy benefits like low carbon footprints
+  and job creation, India's state policies, such as Karnataka's Solar Policy
+  2014-21, enable rapid conversion of agricultural land without pollution
+  clearances or formal approvals, overlooking profound local harms. With 70% of
+  rural households dependent on agriculture, projects like the 2000 MW Pavagada
+  solar park in Tumkur district lease land from 3000 owners at 21,000 rupees per
+  acre annually (plus 2% increment every two years) for 28 years, locking assets
+  and illiquidating them. This exacerbates injustices for landless laborers,
+  dairy farmers losing grazing land, families without toilets relying on fields,
+  and disrupts biodiversity near Ramagiri West forest. Construction pits hinder
+  future agricultural viability, and panel cleaning demands 7 crore liters of
+  water fortnightly, depleting fluoride-laden groundwater. Citing studies on
+  procedural and distributional injustices, the author critiques the 'win-win'
+  narrative, noting unaddressed social unrest risks for marginalized
+  communities. A classical-liberal lens highlights how top-down policies burden
+  the poor without equitable outcomes or exit clauses. Compulsory Social Impact
+  Assessments are essential, alongside strategies for panel waste disposal
+  post-lease, to balance renewable ambitions with local livelihoods.
+key_points:
+  - >-
+    Karnataka's Solar Policy 2014-21 waives clearances for converting
+    agricultural land to solar parks, prioritizing speed over local impact
+    evaluation.
+  - >-
+    Pavagada's 2000 MW solar park leases 3000 farmers' land for 28 years at
+    21,000 Rs/acre/year but harms landless workers, grazing, sanitation,
+    biodiversity, and groundwater with 7 crore liters water use fortnightly.
+  - >-
+    Land-use changes cause procedural injustices like excluding marginalized
+    voices and distributional inequities, risking social unrest as per Yenneti
+    et al. studies.
+  - >-
+    Government must mandate Social Impact Assessments for solar projects and
+    plan waste disposal for decommissioned panels to protect rural poor.
+topics:
+  - solar-energy
+  - land-use-change
+  - social-impact-assessment
+  - rural-livelihoods
 tags:
   - Alumni Speaks
   - Solar Energy
   - environment
+source_hash: 85df7b771e733a67138760a7d693bd0e5bbaaca44216e85ad68bb4a43f861f49
+summary_hash: 85df7b771e733a67138760a7d693bd0e5bbaaca44216e85ad68bb4a43f861f49
+summary_at: '2026-05-05T10:39:22.147Z'
 ---
 **By Tarul Jain**
 

@@ -2,15 +2,54 @@
 title: Why Modi Must Not Repeat Nehru’s Mistakes on China
 original_url: >-
   https://www.spontaneousorder.in/p/why-modi-must-not-repeat-nehrus-mistakes-on-china
+author: Spontaneous Order
 published_at: '2020-06-22T17:44:42.000Z'
 ingested_at: '2026-05-05T08:31:42.407Z'
-source_hash: d61b868c1b8a26864299074eb44d0fce91c55f49e1322f2fcdb5f4ed18d0560a
-author: Spontaneous Order
 excerpt: >-
   After 20 Indian soldiers were killed by the Chinese in a border clash, there
   are jingoistic screams in the media. Critics want to delink India economically
   from China and boycott Chinese goods. Others want to teach China a military
   lesson, as already ta..
+summary: >-
+  Swaminathan S.A. Aiyar argues that Prime Minister Modi must avoid repeating
+  Jawaharlal Nehru's 1962 blunder of ordering the Indian Army to expel Chinese
+  troops from disputed territory, which led to a humiliating defeat; today,
+  China is ten times stronger economically and militarily. Jingoistic calls for
+  military retaliation, economic delinking, or boycotting Chinese goods would be
+  suicidal. Instead, Modi should pursue Atma-Nirbhar Bharat as self-reliance
+  through deep integration into global value chains, not Nehru-style import
+  substitution that stifled growth at 3.5% GDP from 1947-1980, doubling absolute
+  poverty as population grew. Liberalization under Narasimha Rao and Vajpayee
+  enabled 9%+ growth in the 2000s by attracting massive FDI from Samsung, Nokia,
+  auto giants, and Fortune 500 firms in software and R&D. As a WTO member, India
+  must apply uniform tariffs, using anti-dumping only exceptionally, to benefit
+  from rule-based trade. Limit Chinese imports and FDI only in national security
+  areas; otherwise, welcome them alongside others, mirroring ASEAN's strategy of
+  alliances without boycotts amid South China Sea disputes. This
+  classical-liberal path of openness builds a world-class economy, ending aid
+  dependency.
+key_points:
+  - >-
+    Modi must reject military action against China, far stronger than in 1962
+    when Nehru's order led to disaster.
+  - >-
+    Interpret Atma-Nirbhar as global value chain integration, not
+    self-sufficiency via import substitution that caused 3.5% GDP growth and
+    doubled poverty numbers from 1947-1980.
+  - >-
+    Attract more FDI like Samsung and Nokia factories to replicate
+    liberalization's 9%+ growth boom.
+  - >-
+    Adhere to WTO rules for uniform tariffs on China, limiting restrictions to
+    security essentials.
+  - >-
+    Emulate ASEAN by building alliances without trade boycotts despite
+    territorial disputes.
+topics:
+  - india-china-relations
+  - free-trade
+  - economic-liberalization
+  - global-value-chains
 tags:
   - Pakistan
   - World War
@@ -19,6 +58,9 @@ tags:
   - Jawaharlal Nehru
   - Nehruvian model
   - economic crisis
+source_hash: d61b868c1b8a26864299074eb44d0fce91c55f49e1322f2fcdb5f4ed18d0560a
+summary_hash: d61b868c1b8a26864299074eb44d0fce91c55f49e1322f2fcdb5f4ed18d0560a
+summary_at: '2026-05-05T13:06:37.831Z'
 ---
 **By Swaminathan SA Aiyer**
 

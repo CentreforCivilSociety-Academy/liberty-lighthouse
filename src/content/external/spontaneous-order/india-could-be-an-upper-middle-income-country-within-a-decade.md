@@ -2,15 +2,53 @@
 title: India could be an upper middle income country within a decade
 original_url: >-
   https://www.spontaneousorder.in/p/india-could-be-an-upper-middle-income-country-within-a-decade
+author: Spontaneous Order
 published_at: '2022-06-10T11:43:06.000Z'
 ingested_at: '2026-05-05T08:31:42.265Z'
-source_hash: 95390c26e0e1a8281307e5dd49d5be3ad568c8cb524dbf699e9973014212fed6
-author: Spontaneous Order
 excerpt: >-
   India is currently what the World Bank describes as a lower middle income
   country. The average income of an Indian was $1,935 in 2020. The International
   Monetary Fund (IMF) now estimates that number will go up to $3,769 in 2027,
   the latest year for whic..
+summary: >-
+  India, currently a lower middle-income country with $1,935 per capita income
+  in 2020, is projected by the IMF to reach $3,769 by 2027 and exceed $4,000 by
+  the decade's end, nearing upper middle-income status per World Bank
+  definitions. Comparable Asian transitions post-1980 show China doubling from
+  $2,000 to $4,000 in 4 years, Taiwan in 6, South Korea in 5, while Thailand,
+  Philippines, Indonesia, and Malaysia took over a decade; India's trajectory
+  aligns with the 10-year median, akin to Sri Lanka and Vietnam. While exchange
+  rates influence dollar-denominated incomes, real output growth—stripping
+  inflation—drives long-term standards of living, as exemplified by the Asian
+  Tigers despite varying global conditions (weak negative correlation with world
+  growth, R-squared 0.1203). RBI estimates 6.5-8.5% medium-term growth
+  potential, crucial for quality jobs amid a young population, pandemic output
+  gaps persisting a decade, and looming climate shocks. India may narrow income
+  gaps with Philippines and crisis-hit Sri Lanka, but catching others hinges on
+  the upper growth range, underscoring sustained domestic dynamism over external
+  factors.
+key_points:
+  - >-
+    India's per capita income is forecast to double from around $2,000 to over
+    $4,000 by the end of the decade, matching a 10-year median for Asian peers.
+  - >-
+    Real economic growth, not exchange rates or global conditions, primarily
+    determines successful income doublings, as in China, Taiwan, and South
+    Korea.
+  - >-
+    RBI projects 6.5-8.5% medium-term growth as essential for jobs, youth
+    opportunities, and absorbing shocks like pandemic lags and climate risks.
+  - >-
+    Achieving the higher growth end will determine if India closes gaps with
+    neighbors like Sri Lanka and Philippines faster.
+topics:
+  - economic-growth
+  - per-capita-income
+  - development-economics
+  - asian-tigers
+source_hash: 95390c26e0e1a8281307e5dd49d5be3ad568c8cb524dbf699e9973014212fed6
+summary_hash: 95390c26e0e1a8281307e5dd49d5be3ad568c8cb524dbf699e9973014212fed6
+summary_at: '2026-05-05T10:18:47.361Z'
 ---
 **By Niranjan Rajadhyaksha**
 

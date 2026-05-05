@@ -2,15 +2,48 @@
 title: Ease Shutdowns Or We May Get Worst Of Both Worlds
 original_url: >-
   https://www.spontaneousorder.in/p/ease-shutdowns-or-we-may-get-worst-of-both-worlds
+author: Spontaneous Order
 published_at: '2020-04-20T12:01:06.000Z'
 ingested_at: '2026-05-05T08:31:42.426Z'
-source_hash: 8b118325145bbbbe1bd0585465a3c25166346bbdeb42a388f35635df6e6764b8
-author: Spontaneous Order
 excerpt: >-
   Swaminathan S. Anklesaria Aiyar is currently Consulting Editor of The
   Economics Times and a research scholar at The Cato Institute. He has been
   editor of two of India’s biggest economic dailies, Financial Express in
   1988-90 and The Economic Times in 199
+summary: >-
+  Swaminathan S.A. Aiyar argues that India must rapidly ease COVID-19 shutdowns
+  to revive its economy, warning that prolonged restrictions will deliver the
+  worst of both worlds: economic collapse without containing the virus. Citing
+  Nobel laureate Angus Deaton, he notes poor countries like India lack the
+  administrative and medical capacity for effective social distancing, testing,
+  isolation, and treatment. India's testing is under 20,000 per day, with 0.7
+  hospital beds per 1,000 people, one doctor per 1,404 patients (below WHO's 1
+  per 1,000), and 1.7 nurses per 1,000 (below WHO's 3). Even Modi's allocation
+  of 602 hospitals, 100,000 isolation beds, and 12,000 ICU beds is inadequate
+  for 13 million infections if 1% of the population is hit. Social distancing is
+  impossible in slums, migrant worker marches, and crowded markets, while
+  agricultural losses mount. IMF forecasts GDP growth at 1.9% or deeply negative
+  without revival. Aiyar contrasts Sweden's no-shutdown approach, which
+  preserved its economy and achieved middling health outcomes, with global panic
+  from Imperial College models. Past pandemics like 2017-18 flu killed without
+  shutdowns. From a classical-liberal viewpoint, rapid easing averts greater
+  misery than uncertain virus deaths, preferring economic freedom over gradual
+  restrictions.
+key_points:
+  - >-
+    India's weak healthcare infrastructure—0.7 hospital beds/1,000 people, low
+    testing—makes effective lockdowns impossible.
+  - >-
+    Prolonged shutdowns risk IMF-predicted deeply negative GDP growth,
+    exacerbating misery beyond virus deaths.
+  - >-
+    Rapid easing of restrictions, like Sweden's model, prioritizes economic
+    revival over uncertain prolongation of infections.
+topics:
+  - covid-lockdowns
+  - india-economy
+  - economic-recovery
+  - public-health-policy
 tags:
   - government shutdown
   - Healthcare in India
@@ -18,6 +51,9 @@ tags:
   - School closure
   - Restrictive regulations
   - pandemic
+source_hash: 8b118325145bbbbe1bd0585465a3c25166346bbdeb42a388f35635df6e6764b8
+summary_hash: 8b118325145bbbbe1bd0585465a3c25166346bbdeb42a388f35635df6e6764b8
+summary_at: '2026-05-05T09:39:57.647Z'
 ---
 **By Swaminathan SA Aiyer**
 

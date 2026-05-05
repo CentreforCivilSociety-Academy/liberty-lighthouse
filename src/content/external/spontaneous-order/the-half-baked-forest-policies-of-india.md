@@ -1,20 +1,62 @@
 ---
 title: The Half-Baked Forest Policies of India
 original_url: 'https://www.spontaneousorder.in/p/the-half-baked-forest-policies-of-india'
+author: Spontaneous Order
 published_at: '2021-07-14T17:52:07.000Z'
 ingested_at: '2026-05-05T08:31:42.307Z'
-source_hash: 80bd4049960459f8e9c66489bf03ee92590659b544e0fbcc313d8d77f9236207
-author: Spontaneous Order
 excerpt: >-
   The Indian government’s efforts to maintain ecological balance and
   environmental stability culminated in the formulation of the National Forest
   Policy (NFP) in 1952, and in 1988, a new version of the policy came into
   being. Conserving the natural herita
+summary: >-
+  India's National Forest Policies of 1952 and 1988 promised forest communities
+  a 'first charge' on produce, leading to the Forest Rights Act (FRA) of 2006 to
+  recognize dwellers' rights over resources and undo colonial laws, yet
+  implementation has failed after over a decade. No national definition of
+  'forest' exists, leaving states to decide, while FRA claims cover only 14% of
+  eligible land—1.8 million titles for 5.7 million hectares by 2017—and 118
+  violations were documented in 2018. Contradictory laws, high rejection rates,
+  and a 2019 Supreme Court order for evicting over 1 million tribal households
+  (later stayed) highlight ongoing encroachments and injustices. The central
+  government prioritizes forest land diversions for projects and private sector
+  involvement, like 2018 recommendations to lease wasteland to corporates, over
+  community rights, as seen in withdrawn drafts empowering forest officials.
+  From a classical-liberal view, sound policy must prioritize individual rights
+  over collective interests, rejecting colonial state ownership; FRA lacks
+  community resource rights, exacerbating tragedy of the commons. Empower
+  self-governing institutions, equip communities with knowledge, and enact a
+  concrete National Forest Policy treating locals as right holders, not mere
+  stakeholders.
+key_points:
+  - >-
+    India's forest policies fail to deliver promised rights, with FRA
+    implementing only 14% of eligible claims (1.8M titles for 5.7M ha by 2017)
+    amid 118 documented violations.
+  - >-
+    Central government favors project clearances and private leasing over tribal
+    rights, as in 2018 expert committee recommendations and withdrawn drafts
+    empowering officials.
+  - >-
+    Reject colonial state control; empower forest communities as right holders
+    through self-governing institutions to manage resources and avoid tragedy of
+    the commons.
+  - >-
+    A new National Forest Policy must define 'forest' nationally and prioritize
+    individual rights, viewing locals as owners rather than stakeholders.
+topics:
+  - forest-policy
+  - tribal-rights
+  - forest-rights-act
+  - property-rights
 tags:
   - Public Policy
   - forests
   - India
   - environment
+source_hash: 80bd4049960459f8e9c66489bf03ee92590659b544e0fbcc313d8d77f9236207
+summary_hash: 80bd4049960459f8e9c66489bf03ee92590659b544e0fbcc313d8d77f9236207
+summary_at: '2026-05-05T12:28:32.654Z'
 ---
 **By Nilesh Goswami**
 

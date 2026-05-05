@@ -2,18 +2,64 @@
 title: Reimagining Targeted Public Distribution System with AI
 original_url: >-
   https://www.spontaneousorder.in/p/reimagining-targeted-public-distribution-system-with-ai
+author: Spontaneous Order
 published_at: '2024-05-25T13:21:59.000Z'
 ingested_at: '2026-05-05T08:31:42.717Z'
-source_hash: 9a4a652253a462fa347e037cb65a402c9b533d3fa2c48a540fcedf25b5f9bf34
-author: Spontaneous Order
 excerpt: >-
   The Targeted Public Distribution System (TPDS), the largest
   beneficiary-centric programme in India covering 81.35 crore population, is a
   well-planned policy with noble intentions meant to provide essential food
   commodities at affordable prices. However,..
+summary: >-
+  India's Targeted Public Distribution System (TPDS), covering 81.35 crore
+  people under the National Food Security Act 2013, aims to provide affordable
+  food grains but suffers from inaccurate beneficiary mapping, leakages,
+  inefficient supply chains, opacity, and limited portability. While SMART-PDS
+  addresses some issues like transparency and portability via technology, it
+  overlooks human psychology and structural flaws: top-down central allocation
+  from surplus states, weak incentives per Friedman's Law of Spending hierarchy
+  (participants lack economizing motives), and absence of spontaneous order from
+  voluntary exchanges. The author proposes a classical-liberal reversal:
+  AI-driven bottoms-up demand planning where states use big data on crop yields,
+  consumption, and health records to estimate district-level nutritional gaps,
+  shifting the Centre to bulk procurement and fortification. This decentralizes
+  incentives, expands grain variety, reduces pressure on water-intensive crops
+  in Punjab-Haryana, and promotes ecological sustainability. Rule-based AI
+  incentives link Fair Price Shop (FPS) grain allocations to beneficiary ratings
+  via ePOS and ONORC portability, fostering competition and customer-centricity.
+  AI optimizes transport/warehouses by minimizing wastage, with PPP enhancing
+  outcomes and elevating incentives up Friedman's hierarchy. Mimicking
+  spontaneous order, GPS data enables efficient routing. This yields nutritional
+  security, healthier workforces, job creation, and economic progress, provided
+  biases in data are addressed and skills/culture for Responsible AI are built.
+key_points:
+  - >-
+    Replace TPDS top-down allocation with AI-driven decentralized demand
+    planning using state-level data on crop yields, consumption, and nutritional
+    deficiencies from health records.
+  - >-
+    Implement rule-based AI incentives linking FPS grain allocations and margins
+    to beneficiary ratings and sales via ePOS, ONORC portability, and grievance
+    modules to drive competition and customer-centricity.
+  - >-
+    Apply AI to GPS and wastage data for optimizing transport routes/warehouses,
+    with payments tied to efficiency and PPP to introduce competition and mimic
+    spontaneous order.
+  - >-
+    Shift supply chain actors up Friedman's Law hierarchy through incentives,
+    reducing leakages and enabling ecological sustainability by diversifying
+    grains beyond wheat/rice.
+topics:
+  - public-distribution-system
+  - ai-in-policy
+  - decentralization
+  - spontaneous-order
 tags:
   - Artificial Intelligence
   - economy
+source_hash: 9a4a652253a462fa347e037cb65a402c9b533d3fa2c48a540fcedf25b5f9bf34
+summary_hash: 9a4a652253a462fa347e037cb65a402c9b533d3fa2c48a540fcedf25b5f9bf34
+summary_at: '2026-05-05T11:25:07.625Z'
 ---
 **By Kajal Kiran**
 

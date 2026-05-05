@@ -1,15 +1,50 @@
 ---
 title: Farm Loan Waivers – A Misguided Policy
 original_url: 'https://www.spontaneousorder.in/p/farm-loan-waivers-a-misguided-policy'
+author: Spontaneous Order
 published_at: '2019-05-02T11:02:14.000Z'
 ingested_at: '2026-05-05T08:31:42.490Z'
-source_hash: 25a1899007c5e26a05cbf21baaba3711940ec371327f2cba9b5f166e52fe1fc1
-author: Spontaneous Order
 excerpt: >-
   I recently stumbled upon a state government advertisement on its proposed loan
   waiver extended to over 40 lakh farmers. While this isn’t something new or
   special, what caught my attention was the hashtag used in the advertisement –
   ‘#TowardsDevelopm
+summary: >-
+  Farm loan waivers, often promoted with hashtags like '#TowardsDevelopment',
+  are a misguided policy that fails to address agrarian distress and instead
+  exacerbate economic problems from a classical-liberal viewpoint. Announced
+  around elections—eight states promised Rs. 1.9 trillion in 2018—they burden
+  state exchequers (up to 60.9% of Uttar Pradesh's 2017-18 gross fiscal deficit)
+  and taxpayers, while surging bank NPAs reduce lending capacity, as per RBI
+  studies. Waivers benefit only formal-sector borrowers (excluding two-thirds of
+  small farmers), disincentivize timely repayments, and fund non-agricultural
+  loans (8.5% per 2008 CAG report), pushing defaulters toward costlier informal
+  credit. They stifle rural credit institutions and divert funds from
+  infrastructure like irrigation. Politically populist, waivers yield no
+  agricultural productivity gains (World Bank study on 2008 scheme) or suicide
+  reductions (4,500 in Maharashtra post-2017 waiver). True solutions lie in
+  tackling root causes: unprofitable agriculture due to poor insurance,
+  financial inclusion, and market reforms. Policymakers should reframe
+  agriculture as an entrepreneurial economic activity, enabling farmers through
+  ease-of-doing-agriculture measures rather than bailouts.
+key_points:
+  - >-
+    Loan waivers transfer debt burdens to taxpayers and banks, increasing NPAs
+    and reducing future agricultural lending.
+  - >-
+    They primarily benefit formal borrowers, excluding most small farmers and
+    rewarding defaulters while funding non-agri loans.
+  - >-
+    Waivers fail to boost productivity or reduce suicides, diverting attention
+    from reforms like better insurance and market access.
+  - >-
+    Shift agricultural policy from 'saving' farmers to enabling them as
+    entrepreneurs to organically resolve distress.
+topics:
+  - farm-loan-waivers
+  - agricultural-policy
+  - agrarian-distress
+  - fiscal-policy
 tags:
   - agriculture in India
   - agriculture woes
@@ -19,6 +54,9 @@ tags:
   - agriculture
   - Agriculture policy
   - farm loan waiver
+source_hash: 25a1899007c5e26a05cbf21baaba3711940ec371327f2cba9b5f166e52fe1fc1
+summary_hash: 25a1899007c5e26a05cbf21baaba3711940ec371327f2cba9b5f166e52fe1fc1
+summary_at: '2026-05-05T09:52:12.543Z'
 ---
 **By Manasa Pidatala**
 

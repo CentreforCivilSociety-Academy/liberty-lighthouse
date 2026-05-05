@@ -2,15 +2,51 @@
 title: 'SO Musings: Swatantra Liberals and Indian Foreign Policy'
 original_url: >-
   https://www.spontaneousorder.in/p/so-musings-swatantra-liberals-and-indian-foreign-policy
+author: Spontaneous Order
 published_at: '2020-07-10T14:56:29.000Z'
 ingested_at: '2026-05-05T08:31:42.398Z'
-source_hash: f4dedcab8de3ff71725dc5823d6297964360d6e4ee423f8624b1a6db14fbcfd4
-author: Spontaneous Order
 excerpt: >-
   In the everyday politics of the chaotic democracy that India is, foreign
   policy issues figure down the priority list except when it comes to matters of
   Pakistan-sponsored terrorism and the Kashmir dispute. The recent border
   impasse with China, however,...
+summary: >-
+  In the context of India's recent border tensions with China prompting debates
+  on 'strategic autonomy'—a repackaged non-alignment—the post excerpts a 1965
+  parliamentary speech by Swatantra Party leader Minoo Masani advocating a
+  radical revision of India's foreign policy. Masani diagnoses India's isolation
+  during conflicts with Pakistan and China, exemplified by the 1965 UN General
+  Assembly where out of 110 nations, none supported India, 19 were hostile (11
+  from Arab League), 63 neutral, and 25 ignored the issue. He attributes this
+  not to diplomatic failures but to the unsellable 'product' of non-aligned
+  dogma, urging realistic diplomacy in a democracy's crisis. Masani's Swatantra
+  agenda includes building a regional collective security system from India to
+  Japan and Australasia; supporting South Vietnam and Malaysia against
+  aggression; liberating Tibet and recognizing the Dalai Lama; establishing ties
+  with Republic of China (Taiwan) and Israel; plus accepting aid from both US
+  and USSR while normalizing with Pakistan to focus on the main threat, China.
+  This classical-liberal vision prioritizes alliances with democratic nations
+  over isolationist autonomy, relevant to today's calls for US and Indo-Pacific
+  partnerships against China.
+key_points:
+  - >-
+    India's non-alignment policy led to complete isolation in the 1965 UN debate
+    on the Pakistan conflict, with no supporters among 110 nations.
+  - >-
+    Masani demands discarding non-alignment dogma for realistic diplomacy,
+    including regional security alliances from India to Japan and Australasia.
+  - >-
+    Swatantra proposals include supporting Tibet's liberation, recognizing Dalai
+    Lama, diplomatic ties with Taiwan and Israel, and defending Vietnam and
+    Malaysia.
+  - >-
+    India should accept aid from both US and USSR while normalizing relations
+    with Pakistan to counter China.
+topics:
+  - indian-foreign-policy
+  - non-alignment
+  - strategic-autonomy
+  - regional-security
 tags:
   - USSR
   - SO Musings
@@ -21,6 +57,9 @@ tags:
   - Indian Liberal Tradition
   - Indian liberals
   - India refugee policy
+source_hash: f4dedcab8de3ff71725dc5823d6297964360d6e4ee423f8624b1a6db14fbcfd4
+summary_hash: f4dedcab8de3ff71725dc5823d6297964360d6e4ee423f8624b1a6db14fbcfd4
+summary_at: '2026-05-05T12:01:42.973Z'
 ---
 **By Spontaneous Order**
 

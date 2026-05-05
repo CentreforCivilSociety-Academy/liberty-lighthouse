@@ -2,18 +2,57 @@
 title: How 100 unicorns are propelling India forward
 original_url: >-
   https://www.spontaneousorder.in/p/how-100-unicorns-are-propelling-india-forward
+author: Spontaneous Order
 published_at: '2021-03-15T14:43:06.000Z'
 ingested_at: '2026-05-05T08:31:42.339Z'
-source_hash: d667b1fa4c4307588eb28d7139a1464577699ec18e3e9d9c8a35f561f0a6fd7c
-author: Spontaneous Order
 excerpt: >-
   Many believe constant claims by Opposition parties and leftist journals that
   our economy is dominated by two-Modi-friendly conglomerates. Rubbish. A
   research paper by Neelkanth Mishra of Credit Suisse reveals India has spawned
   100 “unicorns”—unliste
+summary: >-
+  Swaminathan S.A. Aiyar debunks claims by opposition parties and leftists that
+  India's economy is dominated by two Modi-friendly conglomerates, citing Credit
+  Suisse research by Neelkanth Mishra identifying 100 unicorns—unlisted new
+  companies valued at over $1 billion each. These represent a broad-based surge
+  of entrepreneurs unconnected to old wealth or political favors, funded by
+  billions from global investors betting on innovative ideas despite high
+  failure risks. Two-thirds started post-2005, spanning IT, e-commerce, SaaS,
+  biotech, logistics, and more, atop 80,000 startups. Examples include Serum
+  Institute (world's top vaccine producer), Flipkart (sold for $16 billion to
+  Walmart), and Ola Cabs planning a 10 million electric two-wheeler factory.
+  Aiyar criticizes SEBI's obsolete IPO rules requiring three years of profits,
+  which exclude high-potential unicorns like Amazon or Facebook, while praising
+  globalization and SPACs (raising $83 billion in 2020) for bypassing red tape.
+  Most unicorns are foreign-owned with minimal Indian promoter stakes; he urges
+  Finance Minister Nirmala Sitharaman to allow differential voting rights like
+  Zuckerberg's to retain founder control, fostering classical-liberal
+  entrepreneurship over regulatory hurdles.
+key_points:
+  - >-
+    India hosts 100 unicorns per Credit Suisse, challenging dominance by old
+    conglomerates with new global-backed ventures.
+  - >-
+    SEBI's profit-based IPO rules block listing of high-potential unicorns, but
+    globalization enables funding via venture capital and SPACs.
+  - >-
+    Two-thirds of unicorns started after 2005, fueling 80,000 startups across
+    diverse sectors like SaaS, biotech, and logistics.
+  - >-
+    India should adopt differential voting rights to let promoters retain
+    control while raising foreign capital.
+topics:
+  - indian-economy
+  - startups
+  - unicorns
+  - regulatory-reform
+  - venture-capital
 tags:
   - Finance
   - economy
+source_hash: d667b1fa4c4307588eb28d7139a1464577699ec18e3e9d9c8a35f561f0a6fd7c
+summary_hash: d667b1fa4c4307588eb28d7139a1464577699ec18e3e9d9c8a35f561f0a6fd7c
+summary_at: '2026-05-05T10:10:48.226Z'
 ---
 **By Swaminathan SA Aiyer**
 

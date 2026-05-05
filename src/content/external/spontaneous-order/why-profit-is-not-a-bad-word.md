@@ -1,20 +1,57 @@
 ---
 title: Why ‘Profit’ Is Not A Bad Word
 original_url: 'https://www.spontaneousorder.in/p/why-profit-is-not-a-bad-word'
+author: Spontaneous Order
 published_at: '2018-08-06T11:15:03.000Z'
 ingested_at: '2026-05-05T08:31:42.516Z'
-source_hash: 0d51216bddad217bd6dca3914878c2e0eda1b99c6079ee242d20b2b876fc8e26
-author: Spontaneous Order
 excerpt: >-
   There are few areas where the difference between what Indians want for
   themselves and what the government of India wants for them is more alarming
   than in higher education. Six to eight hundred thousand Indians leave for
   foreign universities every year...
+summary: >-
+  India's higher education suffers from poor quality despite high per-student
+  costs of ₹2-3 lakh per year, with only IIT and Delhi University ranking in
+  Asia's top 100, while 600-800 thousand students emigrate annually for better
+  options abroad. Foreign universities are barred from operating in India or
+  repatriating profits, reflecting a flawed aversion to the profit motive. In
+  contrast, India's for-profit car industry produces quality exports through
+  competition. The profit motive incentivizes producers to improve products and
+  lower prices to serve consumers, explaining why ancient Rome and China—despite
+  advanced technologies like steam engines and gunpowder—never experienced an
+  industrial revolution, as for-profit activity was disdained. Meanwhile,
+  18th-century Britain and Holland, as for-profit economies, saw rising incomes
+  for ordinary people. In India, government-dominated sectors like education
+  exacerbate inequality, while competition reduces prices and benefits the poor.
+  Nehru and figures like Manish Sisodia viewed 'profit' as sinful, but economic
+  history shows for-profit competition is essential for quality education and
+  equity.
+key_points:
+  - >-
+    Allow foreign universities to operate and repatriate profits to improve
+    higher education quality through competition.
+  - >-
+    Profit motive drives innovation and affordability, as seen in India's car
+    industry versus stagnant education.
+  - >-
+    Historical evidence from Rome, China, Britain, and Holland proves for-profit
+    economies advance living standards.
+  - >-
+    Government aversion to profits in education widens inequality and fails the
+    poor.
+topics:
+  - higher-education
+  - profit-motive
+  - foreign-universities
+  - economic-history
 tags:
   - Vipin P Veetil
   - For-Profit education
   - Manasi Bose
   - Akshaya Vijayalakshmi
+source_hash: 0d51216bddad217bd6dca3914878c2e0eda1b99c6079ee242d20b2b876fc8e26
+summary_hash: 0d51216bddad217bd6dca3914878c2e0eda1b99c6079ee242d20b2b876fc8e26
+summary_at: '2026-05-05T13:07:05.438Z'
 ---
 **By Spontaneous Order**
 

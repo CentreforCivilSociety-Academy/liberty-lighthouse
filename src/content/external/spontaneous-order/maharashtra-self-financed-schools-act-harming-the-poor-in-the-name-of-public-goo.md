@@ -4,15 +4,51 @@ title: >-
   Good
 original_url: >-
   https://www.spontaneousorder.in/p/maharashtra-self-financed-schools-act-harming-the-poor-in-the-name-of-public-good
+author: Spontaneous Order
 published_at: '2013-06-19T13:34:30.000Z'
 ingested_at: '2026-05-05T08:31:42.727Z'
-source_hash: a038a6f0189e015236b9e59e230fefb1c8b5655341ef05d7e4d5e6e1ab6be088
-author: Spontaneous Order
 excerpt: >-
   The essence of regulation is the idea that regulations are required to
   safeguard constituencies a free-market fails to care for. The idea that market
   or private players when left to themselves will be unable to serve the needs
   of the people or public in..
+summary: >-
+  The Maharashtra Self-financed Schools (Establishment and Regulation) Act,
+  2012, exemplifies how government regulations create entry barriers that reduce
+  the supply of affordable private schools serving the poor and lower middle
+  class, contradicting the rationale for intervention to protect public
+  interest. These low-cost private schools, charging less than Rs. 300 per
+  student per month, deliver similar or better education than government schools
+  at lower expense, yet the Act mandates depositing funds in nationalized banks
+  as an 'endowment fund' and requires at least 0.5 acres (2000 sq.m) of land in
+  Mumbai or suburbs, costing crores—feasible only for government or wealthy
+  players. This restricts competition, raises fees, and lowers quality, harming
+  the poor most. Data from SES 2010-2011 reveals shortages: transition from
+  Class VIII (1,805,165 students) to IX (1,610,138) needs 3,000 more schools at
+  65 students per upper primary school and PTR of 32; Class X (1,465,538) to XI
+  (1,213,314) needs 2,305 more at PTR 40, with 85.7-89% schools private
+  (29-19.4% unaided). Amid teacher shortages, such barriers exacerbate dropouts
+  and poor education, as private unaided schools fill gaps government cannot.
+key_points:
+  - >-
+    Maharashtra's Act imposes land (0.5 acres in Mumbai costing crores) and
+    endowment fund requirements that block low-cost private schools charging
+    under Rs. 300/month.
+  - >-
+    Entry barriers reduce competition, forcing poor families into unaffordable
+    private options or low-quality government schools.
+  - >-
+    SES 2010-11 data shows need for 3,000 more secondary schools (Class VIII-IX
+    transition) and 2,305 higher secondary (X-XI), mostly reliant on private
+    unaided schools.
+  - >-
+    Regulations ignore ground realities like teacher shortages, hurting
+    students' futures in the name of public good.
+topics:
+  - education-regulation
+  - private-schools
+  - entry-barriers
+  - school-choice
 tags:
   - Private schools
   - Regulation
@@ -20,6 +56,9 @@ tags:
   - access to education
   - Maharashtra
   - civil liberties
+source_hash: a038a6f0189e015236b9e59e230fefb1c8b5655341ef05d7e4d5e6e1ab6be088
+summary_hash: a038a6f0189e015236b9e59e230fefb1c8b5655341ef05d7e4d5e6e1ab6be088
+summary_at: '2026-05-05T10:47:06.241Z'
 ---
 **By Arvind Ilamaran**
 

@@ -2,20 +2,61 @@
 title: 'Making Markets work for the Poor: How regulations act as entry barriers'
 original_url: >-
   https://www.spontaneousorder.in/p/making-markets-work-for-the-poor-how-regulations-act-as-entry-barriers
+author: Spontaneous Order
 published_at: '2018-10-17T11:23:26.000Z'
 ingested_at: '2026-05-05T08:31:42.513Z'
-source_hash: 0b6b2f4488c419a42319bc41f4c8a990579dc58c44971d80343bbba5a956ac8b
-author: Spontaneous Order
 excerpt: >-
   The world is thriving in the midst of innovations and growth the likes of
   which have never been experienced before. Yet the discourse of global economy
   is marked by recurrent concerns over the growing divide between the rich and
   the poor. Capitalism in ..
+summary: >-
+  Capitalism promises equal opportunities but fails due to restrictive
+  regulations that act as entry barriers, particularly for poor entrepreneurs,
+  exacerbating inequality despite India's shift toward market-liberal policies.
+  Input-heavy norms paralyze small-scale enterprises like street vendors—who
+  number 450,000 in Delhi alone—and budget private schools (BPS), which serve
+  80% of private-school children at fees below government per-pupil costs yet
+  deliver better outcomes. Street vendors lack property rights and legal
+  protections, confining them to survival-level operations without scaling
+  potential. BPS face the same infrastructure and teacher-ratio mandates as
+  elite schools, forcing closures and pushing poor students back to low-quality
+  public schools. The classical-liberal solution: grant vending zones property
+  rights to enable expansion, relax input norms for edupreneurs to spur
+  competition, lower costs, and improve quality. Policies must shift from
+  mossback, evidence-lacking input regulations to protean, outcome-focused
+  reforms that foster accessible markets, profitability, and innovation for the
+  bottom-of-the-pyramid livelihoods.
+key_points:
+  - >-
+    Input-heavy regulations create entry barriers that favor large businesses
+    over MSMEs and poor entrepreneurs like street vendors.
+  - >-
+    Delhi's 450,000 street vendors lack property rights, preventing business
+    scaling despite high employment potential.
+  - >-
+    Budget private schools, chosen by 80% of private students for better
+    outcomes at lower fees, face elite-level infrastructure norms leading to
+    shutdowns.
+  - >-
+    Relax regulations on inputs like infrastructure and ratios to boost
+    competition, quality, and affordability in education and vending.
+  - >-
+    Policies should prioritize outcome-based reforms over restrictive input
+    norms to enable market dynamism and reduce inequality.
+topics:
+  - entry-barriers
+  - street-vendors
+  - budget-private-schools
+  - market-reforms
 tags:
   - regulatory barriers
   - India
   - sunaina mathur
   - street vendors
+source_hash: 0b6b2f4488c419a42319bc41f4c8a990579dc58c44971d80343bbba5a956ac8b
+summary_hash: 0b6b2f4488c419a42319bc41f4c8a990579dc58c44971d80343bbba5a956ac8b
+summary_at: '2026-05-05T10:48:36.100Z'
 ---
 **By Sunaina Mathur**
 

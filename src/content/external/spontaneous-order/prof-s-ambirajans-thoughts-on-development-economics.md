@@ -2,18 +2,60 @@
 title: Prof S.Ambirajan’s Thoughts on Development Economics
 original_url: >-
   https://www.spontaneousorder.in/p/prof-s-ambirajans-thoughts-on-development-economics
+author: Spontaneous Order
 published_at: '2020-09-10T12:25:35.000Z'
 ingested_at: '2026-05-05T08:31:42.383Z'
-source_hash: a3d16584fb7ad57d786594610b797d1094540009d834489f2a6dc86501c18353
-author: Spontaneous Order
 excerpt: >-
   Prof Ambirajan had a profound understanding of the subject of development
   economics before many theories evolved around it.
+summary: >-
+  The post highlights Prof. S. Ambirajan's classical-liberal critique of
+  post-independence Indian development economics in his 1959 book 'The Grammar
+  of Indian Planning,' challenging Nehru-era centralized planning and socialism.
+  From a perspective emphasizing scarcity, opportunity costs, spontaneous order,
+  liberty, individual freedom, private property rights, free trade, and
+  institutional frameworks for good governance, Ambirajan argued these
+  principles are essential for competition, choice, and efficiency in delivering
+  public or private goods. He prophetically warned that economic development,
+  via industrialization, entrepreneurship promotion, resource optimization, and
+  infrastructure in communications, railways, health, hygiene, and education,
+  accompanies and remedies rapid population growth—'economic development alone
+  can be the effective remedy to the threat of overpopulation'—rather than
+  coercive birth control, abortion, or deficit financing, which prove dangerous.
+  Governments' misplaced focus on population control has failed, with only 13
+  states achieving below-replacement fertility by 2018 and states like Bihar
+  lagging, while neglecting growth. Advocating limited state power, profit
+  motives, and self-reliance over foreign capital dependence, his insights
+  critique ongoing policy flaws amid India's economic slowdown, border issues,
+  trade restrictions, and pandemic challenges.
+key_points:
+  - >-
+    Economic development, not coercive birth control, is the effective remedy
+    for overpopulation, as rapid population growth accompanies prosperity.
+  - >-
+    Promote entrepreneurship, private enterprise, and industrialization to
+    leverage division of labor and increasing returns for higher per capita
+    productivity.
+  - >-
+    Prioritize state investment in communications, railways, health, hygiene,
+    and education to raise productivity in early development stages.
+  - >-
+    Avoid deficit financing without firm monetary controls and over-reliance on
+    foreign capital; emphasize self-reliance and judicious democracy-state
+    balance.
+topics:
+  - development-economics
+  - indian-economic-policy
+  - classical-liberalism
+  - population-control
 tags:
   - Public Policy
   - Indian liberals
   - Economics
   - development
+source_hash: a3d16584fb7ad57d786594610b797d1094540009d834489f2a6dc86501c18353
+summary_hash: a3d16584fb7ad57d786594610b797d1094540009d834489f2a6dc86501c18353
+summary_at: '2026-05-05T11:19:07.732Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

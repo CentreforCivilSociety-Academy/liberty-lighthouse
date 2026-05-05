@@ -1,15 +1,52 @@
 ---
 title: '#ThrowbackThursday: M R Masani —Monopolies: State or Private? (1970)'
 original_url: 'https://www.spontaneousorder.in/p/tbt-monopoly-masani'
+author: Spontaneous Order
 published_at: '2015-07-09T17:58:30.000Z'
 ingested_at: '2026-05-05T08:31:42.579Z'
-source_hash: de56709688563b40151d5b1ef064eb42568d68ecc0a98518aedb9af55b49bdf2
-author: Spontaneous Order
 excerpt: >-
   This piece is based on a speech given in the Parliament by M R Masani, who was
   an MP at the time. It was published in the February 1970 issue of ‘Freedom
   First.’ In the piece, Masani talks about the problems with with the MRTP bill
   that had been intro
+summary: >-
+  M R Masani, speaking from a classical liberal perspective that champions
+  competition as a cure for exploitation and malpractices, vehemently opposes
+  the 1970 Monopolies and Restrictive Trade Practices (MRTP) Bill. He argues it
+  is not a genuine anti-monopoly measure, as it ignores India's only true
+  monopolies—100% state-controlled enterprises like the Life Insurance
+  Corporation (LIC), Indian Airlines, Air India, Railways, Telegraphs,
+  Telephones, All India Radio, and partial ones like STC, MMTC, and FCI—which
+  are explicitly excluded. These government monopolies are the worst, being
+  irresponsible without countervailing private checks, leaving consumers and
+  workers without appeal, embodying 'industrial feudalism.' The bill confuses
+  size with monopoly (e.g., small firms can monopolize, giant US auto firms
+  compete fiercely), downgrades the commission to advisory status while
+  empowering the minister, restricts private competition via licenses, and
+  protects a 'New Class' of political, official, and business interests
+  exploiting the economy. Masani concludes the bill is a fraud that pretends to
+  fight monopoly while fostering state dominance and stifling market freedoms.
+key_points:
+  - >-
+    The MRTP Bill fails as an anti-monopoly law by excluding all real state
+    monopolies like LIC, Indian Airlines, Railways, and others.
+  - >-
+    Government monopolies are uniquely dangerous due to their unchecked power,
+    lacking private sector countervailing forces.
+  - >-
+    The bill confuses company size with monopoly and restricts competition
+    between private firms via permit-license controls.
+  - >-
+    It empowers the minister over a mere advisory commission, undermining
+    genuine anti-monopoly efforts.
+  - >-
+    Masani identifies a corrupt 'New Class' of politicians, officials, and
+    businessmen as the true concentrators of economic power.
+topics:
+  - monopolies
+  - competition-policy
+  - state-enterprises
+  - economic-freedom
 tags:
   - Das Gupta's Commission Report
   - Monopolies and Restrictive Trade Practices Bill
@@ -17,6 +54,9 @@ tags:
   - feudalism
   - Economics
   - Monopoly
+source_hash: de56709688563b40151d5b1ef064eb42568d68ecc0a98518aedb9af55b49bdf2
+summary_hash: de56709688563b40151d5b1ef064eb42568d68ecc0a98518aedb9af55b49bdf2
+summary_at: '2026-05-05T12:16:20.489Z'
 ---
 **By Ujwal Batra**
 

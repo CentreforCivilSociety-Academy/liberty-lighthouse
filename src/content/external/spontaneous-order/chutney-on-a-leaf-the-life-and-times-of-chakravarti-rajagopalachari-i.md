@@ -2,19 +2,58 @@
 title: 'Chutney on a Leaf: The Life and Times of Chakravarti Rajagopalachari (I)'
 original_url: >-
   https://www.spontaneousorder.in/p/chutney-on-a-leaf-the-life-and-times-of-chakravarti-rajagopalachari-i
+author: Spontaneous Order
 published_at: '2018-08-03T13:06:09.000Z'
 ingested_at: '2026-05-05T08:31:42.531Z'
-source_hash: 54c5d19e24d270a3d8a72b30aa03aa58b4a81ef0713bae859c45d12a5b571c3c
-author: Spontaneous Order
 excerpt: >-
   Chakravarti Rajagopalachari, born on 10 Dec 1878, to Chakravarti Venkataryan
   and Chakravarti Singaramma, in the village of Thorapalli in Madras, was the
   youngest of three brothers. Early on Rajaji displayed two traits that would
   soon become unique to hi..
+summary: >-
+  Chakravarti Rajagopalachari (Rajaji), born 10 December 1878 in Thorapalli,
+  Madras, embodied an independent-minded rationalism within Gandhian satyagraha,
+  forsaking a lucrative Salem legal practice in 1900 to champion Gandhi early by
+  reprinting 'Jail Experiences' and hosting the planning of the Rowlatt
+  Satyagraha. Titled 'Gandhi’s Southern Commander' and 'conscience-keeper,' he
+  led the 1930 Tanjore Salt March, founded a Salem ashram modeled on Sabarmati,
+  and pursued constructive programs like prohibition and employment for the
+  oppressed. Under the 1935 Government of India Act, Rajaji pragmatically
+  participated in elections, securing 5326 of 5968 votes to become Madras
+  Premier, negotiating safeguards against viceregal overreach. His
+  administration showcased classical-liberal meritocracy: appointing a European
+  Presidency Magistrate, gifting khadi to his Chief Secretary, removing a
+  colonial statue, enforcing political neutrality in the bureaucracy against
+  Nehru's wishes, legalizing Harijan temple entry, and implementing selective
+  prohibition by raising alcohol prices. Diverging from Congress orthodoxy amid
+  WWII, he opposed Quit India—citing Japanese invasion risks, Muslim League
+  radicalism, and British vulnerability—advocating defence cooperation and the
+  'C.R. Formula' with plebiscites in Muslim-majority districts to avert or
+  mitigate Partition, prioritizing reason over ahimsa dogma.
+key_points:
+  - >-
+    Rajaji championed Gandhi's cause early, led the 1930 Tanjore Salt March, and
+    founded a Salem ashram while devising programs for Harijan emancipation.
+  - >-
+    As Madras Premier under the 1935 Act, he won election with 5326/5968 votes
+    and governed with merit-based appointments, bureaucracy neutrality, and
+    reforms like temple access for Harijans and selective prohibition.
+  - >-
+    He opposed Quit India in 1942, arguing for pragmatic defence cooperation
+    given Japanese threats and Muslim League demands, and proposed the C.R.
+    Formula featuring plebiscites in Muslim-majority districts.
+topics:
+  - rajagopalachari
+  - indian-independence
+  - administrative-reform
+  - gandhian-politics
 tags:
   - history of liberalism
   - Liberalism
   - Chakravarti Rajagopalachari
+source_hash: 54c5d19e24d270a3d8a72b30aa03aa58b4a81ef0713bae859c45d12a5b571c3c
+summary_hash: 54c5d19e24d270a3d8a72b30aa03aa58b4a81ef0713bae859c45d12a5b571c3c
+summary_at: '2026-05-05T09:21:50.837Z'
 ---
 **By Rishika Yadav**
 

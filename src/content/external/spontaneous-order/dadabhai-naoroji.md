@@ -3,21 +3,60 @@ title: >-
   Dadabhai Naoroji: Social Reforms, Transnational Connections and Statistical
   Liberalism
 original_url: 'https://www.spontaneousorder.in/p/dadabhai-naoroji'
+author: Spontaneous Order
 published_at: '2020-06-30T13:34:12.000Z'
 ingested_at: '2026-05-05T08:31:42.402Z'
-source_hash: c0f0b3f41dc5ab8b05dd10b2555bd634882e84a7f6de0ff9881142f81a1329c7
-author: Spontaneous Order
 excerpt: >-
   The early phase of nationalist movement in India, dominated by the largely
   liberal-minded moderate faction of the Indian National Congress (INC), saw
   them envision a wholesome agenda for the regeneration of India. Prior to
   creating an Indian political ...
+summary: >-
+  Dadabhai Naoroji exemplifies the early liberal phase of Indian nationalism,
+  pursuing social reforms, political rights, and economic regeneration through
+  education, public sphere creation, and statistical liberalism amid colonial
+  challenges. As a Young Bombay reformer, he founded institutions like the
+  Students’ Literary and Scientific Society (1848), Dnyan Prasarak Mandli, six
+  girls’ schools (1849), Rahnumae Mazdayasnan Sabha (1851), and Rast Goftar
+  newspaper to promote mass literacy, female education, and rationalized
+  Zoroastrian practices against orthodoxy. Transnationally, Naoroji advanced the
+  'drain of wealth' theory via statistical comparisons—e.g., Indian per capita
+  income below prisoner subsistence levels—comparing India to the US, Australia,
+  and Canada, influencing British socialists like Henry Hyndman, US
+  anti-imperialists, feminists, and anti-racists. His methods included turning
+  British officials' testimony and empirical critiques of official data. While
+  effective against Raj legitimacy, Naoroji's protectionist agenda, suspicion of
+  foreign capital, and state expansion shaped Gandhi's and Nehru's economic
+  nationalism, contributing to India's pre-1991 stagnation—a classical-liberal
+  critique of its enduring folly, seen in modern swadeshi echoes. Indian
+  liberalism, foundational yet forgotten, merits revival, as in Dinyar Patel's
+  biography.
+key_points:
+  - >-
+    Naoroji founded key institutions like SLSS, Dnyan Prasarak Mandli, and
+    girls’ schools to advance mass and female education in 1840s Bombay.
+  - >-
+    He popularized the drain theory through per capita income estimates and
+    international comparisons, allying with British socialists, US progressives,
+    feminists, and anti-racists.
+  - >-
+    Statistical liberalism challenged colonial narratives but fostered
+    protectionism that influenced Nehruvian socialism and delayed India's
+    economic liberalization until 1991.
+topics:
+  - indian-liberalism
+  - social-reform
+  - drain-theory
+  - statistical-liberalism
 tags:
   - Liberalism in India
   - Libertarian Scholars
   - Intellectuals
   - Indian liberals
   - Indian National Congress
+source_hash: c0f0b3f41dc5ab8b05dd10b2555bd634882e84a7f6de0ff9881142f81a1329c7
+summary_hash: c0f0b3f41dc5ab8b05dd10b2555bd634882e84a7f6de0ff9881142f81a1329c7
+summary_at: '2026-05-05T09:31:42.379Z'
 ---
 **By Sanjeet Kashyap**
 

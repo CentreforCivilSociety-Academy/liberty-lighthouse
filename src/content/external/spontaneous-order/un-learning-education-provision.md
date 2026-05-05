@@ -1,15 +1,58 @@
 ---
 title: Un-learning Education Provision
 original_url: 'https://www.spontaneousorder.in/p/un-learning-education-provision'
+author: Spontaneous Order
 published_at: '2005-04-22T07:21:11.000Z'
 ingested_at: '2026-05-05T08:31:42.687Z'
-source_hash: fc13819191507f5799000bf2c7a349c38fb1bafbaafe8ab9cf2e811ed2ec88d4
-author: Spontaneous Order
 excerpt: >-
   The Business Standard editorial Educating India may hold good lessons for
   understanding the “what” and “how” of the much needed education reforms. The
   article tells us that one, educational institutions are the single largest
   advertisers in the pr
+summary: >-
+  Naveen Mandava argues for treating education as an economic activity subject
+  to market laws, drawing from a Business Standard editorial highlighting
+  schools as major print advertisers, rising household education spending, and
+  poor quality. He advocates corporatization of institutions, active monitoring
+  by government and private bodies with public data availability. In an ideal
+  education market, individuals and corporates could open schools without
+  licenses—currently barred as education is deemed non-profit—potentially
+  listing education companies on Nasdaq. Government should redirect funds to
+  student vouchers for chosen schools, limiting rules to funded institutions and
+  eliminating profit bans, subsidized land, and licensing tied to government
+  land control. Govt-funded schools face scrutiny from taxpayers. Release
+  teacher certification from government monopoly, allow private training.
+  Dismantle territorial monopolies of boards and universities; permit private
+  alternatives with government providing grading info. For rural areas, build
+  roads and issue vouchers to spur innovation. Scrap vernacular medium mandates,
+  as elites choose English-medium private unaided schools, making denial
+  criminal. Declare education a free enterprise to make India the Pacific's
+  education hub, from a classical-liberal perspective critiquing state
+  overreach.
+key_points:
+  - >-
+    Allow individuals and corporates to open educational institutions without
+    licenses or non-profit restrictions.
+  - >-
+    Redirect government education spending to vouchers for students to choose
+    schools, eliminating broad mandates like profit bans.
+  - >-
+    End territorial monopolies of boards and universities, enabling private
+    alternatives with government grading and information provision.
+  - >-
+    Scrap vernacular medium requirements and government control over teacher
+    certification to promote English-medium private education.
+  - >-
+    Build rural roads and distribute vouchers to foster private schooling and
+    government school innovation.
+topics:
+  - education-reform
+  - school-choice
+  - education-vouchers
+  - deregulation
+source_hash: fc13819191507f5799000bf2c7a349c38fb1bafbaafe8ab9cf2e811ed2ec88d4
+summary_hash: fc13819191507f5799000bf2c7a349c38fb1bafbaafe8ab9cf2e811ed2ec88d4
+summary_at: '2026-05-05T12:48:12.130Z'
 ---
 **By Naveen Mandava**
 

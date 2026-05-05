@@ -1,20 +1,55 @@
 ---
 title: New Year Musings
 original_url: 'https://www.spontaneousorder.in/p/new-year-musings'
+author: Spontaneous Order
 published_at: '2009-01-02T19:58:00.000Z'
 ingested_at: '2026-05-05T08:31:42.669Z'
-source_hash: 1015fb9873cd923029061b9cff5b140474b076798c4ced1458e6eacc869c6780
-author: Spontaneous Order
 excerpt: >-
   2008 has indeed been an eventful year with a serious impact on how we think
   about ourselves and the world. My one learning was in preparing for a talk for
   the Foundation for Restoration of National Values. What are these values, how
   do we come to acqui...
+summary: >-
+  Parth Shah reflects on 2008's events, framing a talk on national values around
+  convincing his 11-year-old nephew to tell the truth. He groups his core values
+  as Personal (Rationality, Honesty, Integrity), Social (Tolerance, Benevolence,
+  Free Exchange), and Political (Liberty, Rule of Law, Subsidiarity),
+  questioning their haphazard acquisition amid life's influences and threats
+  from groups promoting opposite values, relativism, or nihilism. Linking recent
+  corporate frauds like Satyam to value deficits, he rejects this as
+  capitalism's end, reaffirming faith in a libertarian utopia of universal
+  peace, harmony, prosperity, and borderless individual potential. The year's
+  big lesson: strengthen checks and balances across state, market, and civil
+  society, with public policy playing a critical role in governance evolution to
+  guard against mis-governance everywhere and advance this classical-liberal
+  vision.
+key_points:
+  - >-
+    Core values divide into personal (rationality, honesty, integrity), social
+    (tolerance, benevolence, free exchange), and political (liberty, rule of
+    law, subsidiarity).
+  - >-
+    Corporate scandals like Satyam stem from value erosion, not capitalism's
+    failure.
+  - >-
+    Strengthen checks and balances in state, market, and civil society to
+    prevent mis-governance.
+  - >-
+    Public policy must critically support governance evolution toward a
+    libertarian utopia of peace and prosperity.
+topics:
+  - personal-values
+  - libertarianism
+  - corporate-governance
+  - checks-balances
 tags:
   - Public Policy
   - Civil Society
   - Satyam
   - FRNV
+source_hash: 1015fb9873cd923029061b9cff5b140474b076798c4ced1458e6eacc869c6780
+summary_hash: 1015fb9873cd923029061b9cff5b140474b076798c4ced1458e6eacc869c6780
+summary_at: '2026-05-05T11:03:59.776Z'
 ---
 **By Parth Shah**
 

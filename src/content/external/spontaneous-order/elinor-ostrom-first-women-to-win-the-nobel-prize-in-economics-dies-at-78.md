@@ -2,15 +2,52 @@
 title: 'Elinor Ostrom, First Women to Win the Nobel Prize in Economics, Dies at 78'
 original_url: >-
   https://www.spontaneousorder.in/p/elinor-ostrom-first-women-to-win-the-nobel-prize-in-economics-dies-at-78
+author: Spontaneous Order
 published_at: '2012-06-14T15:44:58.000Z'
 ingested_at: '2026-05-05T08:31:42.617Z'
-source_hash: 7e62d31e4b9cf0c9bb43592f1fefd685cf31ce385d6c11ea70c0c5c516012c0a
-author: Spontaneous Order
 excerpt: >-
   The American political economist, Elinor Ostrom, the first woman to win the
   Nobel Prize in economics in 2009, died of pancreatic cancer at the age of 78
   at Bloomington, Indiana on Tuesday. She was working at the Indiana University
   since 1965, predominan..
+summary: >-
+  Elinor Ostrom, the first woman to win the Nobel Prize in Economics in
+  2009—shared with Oliver Williamson—died at 78 from pancreatic cancer in
+  Bloomington, Indiana, after a career at Indiana University since 1965 focused
+  on public economics and public choice theory. Her research demonstrated how
+  local communities successfully manage common-pool resources like fisheries,
+  grazing fields, and water sources by overcoming selfish interests, rather than
+  relying on government intervention. With her husband, she founded Indiana
+  University’s Workshop in Political Theory and Policy Analysis in 1973 and
+  stayed active despite her late-2011 cancer diagnosis. Born in Los Angeles,
+  Ostrom earned master’s and PhD degrees in political science from UCLA,
+  overcoming discouragement to pursue economics. Upon winning the Nobel, she
+  critiqued top-down governance: “What we have ignored is what citizens can do
+  and the importance of real involvement of the people involved — versus just
+  having somebody in Washington … make a rule.” Colleague Prof. McGinnis praised
+  her for revealing the creativity of local communities beyond state or market
+  experts. Indiana University President Michael McRobbie called her an
+  irreplaceable treasure, a loss felt beyond the university, underscoring her
+  classical-liberal emphasis on polycentric, community-led resource management.
+key_points:
+  - >-
+    Elinor Ostrom won the 2009 Nobel Prize in Economics for proving communities
+    can manage common resources like fisheries and pastures more effectively
+    than governments.
+  - >-
+    She co-founded Indiana University’s Workshop in Political Theory and Policy
+    Analysis in 1973, promoting research into self-governing institutions.
+  - >-
+    Ostrom advocated citizen involvement over centralized rules, stating that
+    local people outperform distant authorities in resource stewardship.
+  - >-
+    Her work challenged reliance on state or expert systems by highlighting
+    community creativity in commons management.
+topics:
+  - elinor-ostrom
+  - common-pool-resources
+  - polycentric-governance
+  - public-choice
 tags:
   - Elinor Ostrom
   - Nobel Prize
@@ -18,6 +55,9 @@ tags:
   - Oliver Williamson
   - Workshop in Political Theory and Policy Analysis
   - eulogy
+source_hash: 7e62d31e4b9cf0c9bb43592f1fefd685cf31ce385d6c11ea70c0c5c516012c0a
+summary_hash: 7e62d31e4b9cf0c9bb43592f1fefd685cf31ce385d6c11ea70c0c5c516012c0a
+summary_at: '2026-05-05T09:47:09.771Z'
 ---
 **By Sudhanshu Neema**
 

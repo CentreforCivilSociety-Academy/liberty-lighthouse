@@ -2,17 +2,59 @@
 title: 'English, Education and Employment: Connecting the dots'
 original_url: >-
   https://www.spontaneousorder.in/p/english-education-and-employment-connecting-the-dots
+author: Spontaneous Order
 published_at: '2021-05-28T12:50:49.000Z'
 ingested_at: '2026-05-05T08:31:42.315Z'
-source_hash: d6f04fbdd74e1c21eadb62a07fe3601d2e1fa5381a8ff813f19ada5475a83bb4
-author: Spontaneous Order
 excerpt: >-
   Post liberalization, we’ve often come across the statement that “English is
   the language of the elite” However, with each passing day I feel this notion
   changing in ways that are not easy to comprehend. We come from a nation that
   has more than 19,50
+summary: >-
+  Post-liberalization India sees English evolving from an elite language to a
+  necessity for low-income students aspiring to global opportunities and
+  employment, driven by parental push for quality education. Despite over 19,500
+  mother tongues, parents from rural and low-income backgrounds enroll children
+  in English-medium schools for job prospects, communication, and confidence.
+  However, only 10.4% of government schools offer English as a subject, creating
+  a dilemma unaffordable for many private options. Budget Private Schools (BPS)
+  emerge as affordable revolutionaries, with 42% of unaided private schools
+  using English as the medium of instruction, narrowing the public-private
+  education gap through community-based access. The Centre for Civil Society's
+  Project Bolo English, launched in July 2020, addresses spoken English gaps in
+  grammar, vocabulary, and confidence via free premium mobile apps, reaching
+  over 30,000 students (1,200 completing a CEFR module) in Haryana, Tamil Nadu,
+  and Telangana amid the pandemic. Teachers, parents, principals, and
+  associations enable this two-way learning, proving students lack not potential
+  but nurturing environments. English is framed as a vital life skill linking
+  education to employment, urging classical-liberal support for such
+  market-driven interventions over state monopolies.
+key_points:
+  - >-
+    Only 10.4% of government schools offer English, pushing low-income parents
+    toward Budget Private Schools where 42% use English as the medium.
+  - >-
+    Project Bolo English has provided free app access to over 30,000 students
+    since July 2020, with 1,200 completing a CEFR module despite the pandemic.
+  - >-
+    Budget Private Schools improve education quality and access affordably for
+    low-income families, acting as silent revolutionaries.
+  - >-
+    Teachers and parental aspirations create nurturing environments to unlock
+    student potential in spoken English for employment.
+  - >-
+    English proficiency determines wages, expression, and confidence, making it
+    a necessity beyond an academic subject.
+topics:
+  - english-education
+  - budget-private-schools
+  - education-access
+  - spoken-english
 tags:
   - employment
+source_hash: d6f04fbdd74e1c21eadb62a07fe3601d2e1fa5381a8ff813f19ada5475a83bb4
+summary_hash: d6f04fbdd74e1c21eadb62a07fe3601d2e1fa5381a8ff813f19ada5475a83bb4
+summary_at: '2026-05-05T09:48:26.037Z'
 ---
 **By Simran Gulati**
 

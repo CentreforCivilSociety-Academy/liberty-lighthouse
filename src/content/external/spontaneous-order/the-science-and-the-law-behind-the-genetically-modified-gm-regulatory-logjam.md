@@ -2,15 +2,53 @@
 title: The Science and the Law Behind the Genetically Modified (GM) Regulatory Logjam
 original_url: >-
   https://www.spontaneousorder.in/p/the-science-and-the-law-behind-the-genetically-modified-gm-regulatory-logjam
+author: Spontaneous Order
 published_at: '2022-08-05T16:15:26.000Z'
 ingested_at: '2026-05-05T08:31:42.260Z'
-source_hash: 681180e3af2f12e361d0f6461653934a37b2fd5ce1c9153f23bd18a7bc844e5b
-author: Spontaneous Order
 excerpt: >-
   Abstract: Bt Cotton is the only GM crop that has been approved for commercial
   use in the country in the year 2002. Since then, all the other GM varieties
   have been entangled in a sea of bureaucratic scrutiny. The core discussion of
   this article is Aruna..
+summary: >-
+  The article critically examines the Aruna Rodrigues v. Union of India (2011)
+  Supreme Court case, which has stalled GM crop approvals in India since Bt
+  Cotton's 2002 commercialization, the only approved GM crop. Rodrigues bypassed
+  the National Green Tribunal by alleging GEAC's regulatory flaws and
+  independence, leading to court-imposed 2007 guidelines like 200-meter
+  separation distances and 0.01% LoD tests, criticized as excessively
+  precautionary with little evidence of rampant contamination—contrasting EU's
+  0.9% threshold. A 2012 Technical Expert Committee interim report recommended a
+  10-year moratorium on field trials, challenged by industry and government for
+  bias; the final report echoed an indefinite moratorium, dissented by Dr. R.S.
+  Paroda and backed by NAAS. Empirical science counters anti-GM claims: WHO, US
+  FDA, Health Canada affirm GM foods' safety, with no biodiversity harm observed
+  in Japan's 15-year GM rapeseed/soybean study. Bt Brinjal trials resumed only
+  in late 2021. From a classical-liberal view, the case exemplifies judicial
+  overreach on scientific matters, deepening divisions amid farmer protests and
+  natural farming pushes; regulation should rest with GEAC, not courts.
+key_points:
+  - >-
+    Supreme Court's 2007 guidelines imposed overly stringent measures like 200m
+    separation and 0.01% LoD, lacking evidence and hindering GM field trials.
+  - >-
+    TEC's 2012 interim report called for a 10-year moratorium on GM crops due to
+    regulatory flaws, opposed by biotech industry and NAAS.
+  - >-
+    Global scientific consensus, including WHO and studies from US, Canada,
+    Japan, confirms GM crops pose no greater risks to health or biodiversity
+    than non-GM.
+  - >-
+    Aruna Rodrigues case bypassed NGT, prolonging regulatory logjam; GEAC should
+    handle approvals scientifically, not courts.
+topics:
+  - gm-crops
+  - agricultural-regulation
+  - judicial-overreach
+  - biotech-safety
+source_hash: 681180e3af2f12e361d0f6461653934a37b2fd5ce1c9153f23bd18a7bc844e5b
+summary_hash: 681180e3af2f12e361d0f6461653934a37b2fd5ce1c9153f23bd18a7bc844e5b
+summary_at: '2026-05-05T12:36:03.842Z'
 ---
 **By Manickam Valliappan**
 

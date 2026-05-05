@@ -1,15 +1,58 @@
 ---
 title: An Open Letter to Aam Aadmi Party
 original_url: 'https://www.spontaneousorder.in/p/open-letter-aam-aadmi-party'
+author: Spontaneous Order
 published_at: '2013-12-21T16:47:03.000Z'
 ingested_at: '2026-05-05T08:31:42.598Z'
-source_hash: 22ee5cc8f80c37a7ec43908b43de3fd88a59011a8a1d360007aba1353bf152fb
-author: Spontaneous Order
 excerpt: >-
   Dear Mr. Kejriwal Please accept my heartiest congratulations on your party’s
   historic win in the Delhi Assembly Elections against all odds. It is clear to
   everyone now that Aam Aadmi Party (AAP) is a force to reckon with and has a
   mandate that will see
+summary: >-
+  Kumar Anand congratulates Arvind Kejriwal and the Aam Aadmi Party (AAP) on
+  their Delhi Assembly election victory, recognizing their anti-corruption
+  mandate and shift to lawmaking. However, from a classical-liberal economics
+  perspective, he critiques AAP's manifesto for policies that, despite good
+  intentions, will produce unintended consequences like higher unemployment and
+  inefficiency. Filling all vacant government posts ignores Delhi's advantages
+  in infrastructure and private business potential, advocating instead for
+  minimal government to foster private employment. Banning contractual jobs for
+  year-round work, enforcing minimum wages, and regulating domestic workers'
+  hours will deter hiring, push capital-intensive production, and squander
+  India's cheap labor advantage; better to enforce contracts and improve legal
+  systems. Improving government schools and hospitals to private standards
+  requires introducing choice and competition via vouchers, as in Nordic
+  countries, rather than direct provision. Regulating private school fees
+  addresses symptoms, not the supply shortage caused by onerous infrastructure
+  rules under Delhi RTE—ease entry barriers to boost low-fee private schools.
+  Opposing FDI in retail and targeting hoarders prevents efficient pricing;
+  promote competition and remove trade barriers. Anand urges AAP to prioritize
+  markets, incentives, and minimal intervention for the common man's benefit,
+  appreciating their elevated political discourse.
+key_points:
+  - >-
+    Filling vacant government posts will expand bureaucracy rather than create
+    sustainable private employment—focus on minimal government and
+    business-friendly conditions.
+  - >-
+    Banning contractual jobs and regulating wages will increase unemployment by
+    discouraging labor hiring and favoring capital—enforce contracts instead.
+  - >-
+    Introduce school and health vouchers to leverage competition and incentives,
+    emulating Nordic successes, over subsidizing government facilities.
+  - >-
+    Ease Delhi RTE infrastructure norms to increase private school supply and
+    curb high fees, avoiding price controls.
+  - >-
+    Support FDI in retail and remove trade barriers to ensure efficient pricing
+    and affordability, rejecting government price dictation.
+topics:
+  - minimal-government
+  - labour-regulation
+  - school-vouchers
+  - education-reform
+  - fdi-retail
 tags:
   - Elections
   - AAP ideology
@@ -17,6 +60,9 @@ tags:
   - AAP agenda
   - Economics
   - Delhi Assembly
+source_hash: 22ee5cc8f80c37a7ec43908b43de3fd88a59011a8a1d360007aba1353bf152fb
+summary_hash: 22ee5cc8f80c37a7ec43908b43de3fd88a59011a8a1d360007aba1353bf152fb
+summary_at: '2026-05-05T11:09:17.861Z'
 ---
 **By Kumar Anand**
 

@@ -1,19 +1,42 @@
 ---
 title: Nandita Das against Censorship
 original_url: 'https://www.spontaneousorder.in/p/nandita-das-against-censorship'
+author: Spontaneous Order
 published_at: '2009-01-18T15:20:35.000Z'
 ingested_at: '2026-05-05T08:31:42.667Z'
-source_hash: 42095d985e17be81a381fc45048c06b319f26e412d3e67dacc0901136876f5f3
-author: Spontaneous Order
 excerpt: >-
   Nandita Das takes on two members of the Censor Board, Deepmala Mohan and Aruna
   Mukim, and tells them where they should take their scissors! In the heat of
   the discussion, one member reveals that the Board is thinking of A+ rating for
   adult films for peo..
+summary: >-
+  This brief, fragmentary 2009 post by Parth Shah praises actress Nandita Das
+  for confronting Censor Board members Deepmala Mohan and Aruna Mukim over their
+  censorship demands, telling them metaphorically to 'take their scissors'
+  elsewhere. In the exchange, a board member reveals consideration of an 'A+
+  rating' for adult films restricted to those over 25, which Shah sarcastically
+  hails as innovative generosity from the board. From a classical-liberal
+  viewpoint, it critiques government censorship of films as overreach,
+  highlighting Das's bold stand for creative freedom.
+key_points:
+  - >-
+    Nandita Das publicly challenges Censor Board members Deepmala Mohan and
+    Aruna Mukim against cutting films.
+  - >-
+    Censor Board contemplates 'A+ rating' for adult content limited to viewers
+    over 25.
+  - Shah mocks the board's 'innovation' to underscore anti-censorship stance.
+topics:
+  - censorship
+  - free-speech
+  - film-regulation
 tags:
   - Nandita Das
   - Censor Board
   - A+ ratings
+source_hash: 42095d985e17be81a381fc45048c06b319f26e412d3e67dacc0901136876f5f3
+summary_hash: 42095d985e17be81a381fc45048c06b319f26e412d3e67dacc0901136876f5f3
+summary_at: '2026-05-05T11:00:32.510Z'
 ---
 **By Parth Shah**
 

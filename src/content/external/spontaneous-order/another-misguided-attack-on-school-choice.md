@@ -1,20 +1,62 @@
 ---
 title: Another Misguided Attack on School Choice
 original_url: 'https://www.spontaneousorder.in/p/another-misguided-attack-on-school-choice'
+author: Spontaneous Order
 published_at: '2019-04-01T09:28:40.000Z'
 ingested_at: '2026-05-05T08:31:42.494Z'
-source_hash: 11eb03ea9db080c27aadaeb6ad16b244cb157e4a2e1005ada45f3e134918c117
-author: Spontaneous Order
 excerpt: >-
   Anurag Behar’s article on ‘the OEPS Phenomenon’ is yet another tirade against
   low-fee private schools, and disdain for the school choices of poor parents.
   Invoking an Azim Premji University (APU) report on school choice in
   low-information environmen
+summary: >-
+  Tarini Sudhakar critiques Anurag Behar’s article and an Azim Premji University
+  (APU) report that portray low-fee private schools and poor parents' choices as
+  irrational, driven by 'educationally irrelevant factors' like teacher
+  characteristics, English medium, and marketing in low-information
+  environments. The report, surveying ten districts in four states, claims a
+  mismatch between parental perceptions and private school realities, but
+  Sudhakar identifies three key errors: it oversimplifies choice by focusing on
+  minor factors (teacher characteristics at 8%) while ignoring teaching-learning
+  (33%) monitoring; it judges teacher quality solely by qualifications and
+  experience, overlooking government teachers' 25% absenteeism and 55%
+  non-involvement versus private teachers' greater activity, homework, and
+  remedial classes; and it deems marketing of visible aspirations like English
+  offensive, despite alignment with parental goals and no evidence of false
+  advertising. APU ignores six of seven studies (2000-2017) showing low-fee
+  privates outperforming or matching government schools on learning. Parents pay
+  twice—taxes plus fees—for better options, prompting governments like Assam (14
+  English-medium model schools with 600+ students) to emulate privates. Sudhakar
+  advocates bridging information gaps via report cards (e.g., Pakistan's model),
+  ratings systems, and long-term reforms: easing school entry and funding
+  children, not institutions, to enhance choice.
+key_points:
+  - >-
+    APU report errs by ignoring parental monitoring of teaching-learning (33%
+    priority) and teacher presence, fixating on qualifications amid government
+    absenteeism (25%) and non-involvement (55%).
+  - >-
+    Private school marketing aligns with parents' aspirations for English and
+    visible features, with no evidence of deception.
+  - >-
+    Six of seven studies (2000-2017) show low-fee private schools match or
+    exceed government schools on learning outcomes.
+  - >-
+    Promote school choice via information tools like report cards and ratings,
+    plus easing entry for providers and child-based funding.
+topics:
+  - school-choice
+  - low-fee-private-schools
+  - teacher-quality
+  - education-reform
 tags:
   - Education
   - parental choice
   - School Choice Campaign
   - School Choice
+source_hash: 11eb03ea9db080c27aadaeb6ad16b244cb157e4a2e1005ada45f3e134918c117
+summary_hash: 11eb03ea9db080c27aadaeb6ad16b244cb157e4a2e1005ada45f3e134918c117
+summary_at: '2026-05-05T08:56:52.170Z'
 ---
 **By Tarini Sudhakar**
 

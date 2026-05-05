@@ -1,19 +1,53 @@
 ---
 title: 'Voucher Wars in Washington, DC'
 original_url: 'https://www.spontaneousorder.in/p/voucher-wars-in-washington-dc'
+author: Spontaneous Order
 published_at: '2009-02-28T23:12:43.000Z'
 ingested_at: '2026-05-05T08:31:42.664Z'
-source_hash: ba0254ae02e0d4e55521d4a8c914413634e2731b9b63dabb7d42aacaae09cc1e
-author: Spontaneous Order
 excerpt: >-
   NYT reports Democrats Limit Future Financing for Washington Voucher Program:
   “Congressional Democrats have put conditions on future federal financing for a
   small school voucher program here, and they are urging the schools chancellor
   to prepare the publ
+summary: >-
+  The New York Times reports that Congressional Democrats are imposing
+  conditions on future federal financing for Washington, DC's small school
+  voucher program, urging preparation to re-enroll 1,700 students from private
+  schools into public ones by fall 2010, highlighting the annual budgetary
+  battles faced by voucher advocates. DC Schools Chancellor Michelle Rhee
+  supports educational options across charter, parochial, and public schools,
+  stating that parents zoned to failing schools deserve better choices, though
+  she doubts vouchers alone fix public education woes. Amid declining US support
+  for vouchers, the author anticipates a pivot toward charter schools in
+  developed nations, where vested interests resist radical reforms. From a
+  classical-liberal standpoint emphasizing choice and competition, the author
+  argues that India possesses both the urgent need and opportunity for
+  large-scale voucher implementation, potentially catalyzing school choice
+  revolutions among developing countries, and challenges India to lead where
+  wealthy nations falter.
+key_points:
+  - >-
+    Congressional Democrats condition DC voucher funding, risking re-enrollment
+    of 1,700 students in public schools by 2010.
+  - >-
+    Michelle Rhee endorses parental school choices beyond failing public
+    options.
+  - 'US voucher support declines, favoring charters due to entrenched interests.'
+  - >-
+    India should pioneer large-scale vouchers to drive school choice in
+    developing nations.
+topics:
+  - school-vouchers
+  - school-choice
+  - education-reform
+  - india-education
 tags:
   - Opportunity Scholarships
   - Washignton
   - Vouchers
+source_hash: ba0254ae02e0d4e55521d4a8c914413634e2731b9b63dabb7d42aacaae09cc1e
+summary_hash: ba0254ae02e0d4e55521d4a8c914413634e2731b9b63dabb7d42aacaae09cc1e
+summary_at: '2026-05-05T12:54:15.614Z'
 ---
 **By Parth Shah**
 

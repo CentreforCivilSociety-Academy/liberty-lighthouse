@@ -2,11 +2,49 @@
 title: Justice or Illusion? The Case Against Capital Punishment
 original_url: >-
   https://www.spontaneousorder.in/p/justice-or-illusion-the-case-against-capital-punishment
+author: Spontaneous Order
 published_at: '2025-09-05T12:25:59.000Z'
 ingested_at: '2026-05-05T08:31:42.224Z'
-source_hash: e6251ec202f0dd7e3d504c0ee3e83961d7f55773252e95def4c61e372eb7fcee
-author: Spontaneous Order
 excerpt: Capital punishment serves no meaningful purpose.
+summary: >-
+  Chetna Sabarigreesan argues from a classical-liberal perspective that capital
+  punishment in India serves no societal good, imposing undue burdens on
+  taxpayers and the justice system while failing victims and risking
+  irreversible errors. Victims and families often find no closure from
+  executions, as the perpetrator's death neither undoes the loss nor prevents
+  accentuating violence. Contrary to assumptions, death penalty cases cost far
+  more than life imprisonment without parole, due to prolonged trials in
+  Sessions Courts, multiple appeals in High Courts and the Supreme Court, and
+  mercy petitions—often resulting in life terms after massive expenditure. This
+  creates opportunity costs, delaying other serious cases amid decreasing global
+  violence driven by social and economic development. Deterrence is
+  unsatisfactory, and errors persist despite safeguards: in the first seven
+  months of 2025, the Supreme Court acquitted or commuted 11 of 14 death
+  sentences from lower courts, highlighting risks to innocents exacerbated by
+  digital evidence tampering like deepfakes. A fair, efficient justice system
+  cannot sustain this costly, fallible practice; abolition aligns with
+  classical-liberal principles of limited state power and individual rights.
+key_points:
+  - >-
+    Capital punishment provides no closure to victims, failing those most
+    affected by crimes.
+  - >-
+    Death penalty cases in India cost more than life imprisonment due to
+    extended appeals and safeguards.
+  - >-
+    Supreme Court acquitted or commuted 11 of 14 death sentences in the first
+    seven months of 2025, risking innocents.
+  - >-
+    It drains public resources and delays other critical cases, imposing high
+    opportunity costs on taxpayers.
+topics:
+  - death-penalty
+  - criminal-justice
+  - judicial-efficiency
+  - victim-rights
+source_hash: e6251ec202f0dd7e3d504c0ee3e83961d7f55773252e95def4c61e372eb7fcee
+summary_hash: e6251ec202f0dd7e3d504c0ee3e83961d7f55773252e95def4c61e372eb7fcee
+summary_at: '2026-05-05T10:34:05.025Z'
 ---
 **By Chetna Sabarigreesan**
 

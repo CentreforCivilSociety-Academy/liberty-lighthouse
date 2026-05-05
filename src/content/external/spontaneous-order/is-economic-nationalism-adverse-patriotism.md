@@ -1,15 +1,56 @@
 ---
 title: Is economic nationalism adverse patriotism?
 original_url: 'https://www.spontaneousorder.in/p/is-economic-nationalism-adverse-patriotism'
+author: Spontaneous Order
 published_at: '2005-05-21T21:38:28.000Z'
 ingested_at: '2026-05-05T08:31:42.679Z'
-source_hash: 10f983bf0c82b592d751723d78fd6302caadf1c5f262e965934040b139cff7d4
-author: Spontaneous Order
 excerpt: >-
   I make decent shoes based in Delhi. However the quality and price of my
   leather is best for my customers if I can get it from Raman’s tanneries in
   Kolkata. I can make my products even more cheaper, competitive and better if I
   can get them from Rehman’
+summary: >-
+  Naveen Mandava argues that economic nationalism is misguided patriotism that
+  harms Indians, illustrated by a Delhi shoe-maker who sources better, cheaper
+  leather from Kolkata's Raman over local Jagguda without backlash, but faces
+  'unpatriotic' accusations for Karachi's Rehman despite identical job loss to
+  Jagguda and gains for Delhi producers and consumers. If internal
+  liberalization allows sourcing from competitive Indian markets like Kolkata,
+  consistency demands unrestricted global trade. Job losses from competition
+  mirror those from science and technology, yet governments fund innovation;
+  instead, they should free markets to enable wealth creation. Most cling to
+  nationalism's vain promise to help 'our people,' but it inflicts suffering, as
+  Deepak Lal critiques 'soft left' bleeding hearts as enemies of the poor.
+  Leftists hypocritically champion equality within borders while ignoring
+  universal equality. Personal love for countrymen is natural, but extrapolating
+  it to economic controls commits the fallacy of composition, hurting Indians
+  more than helping. Economic integration counters nationalism's intuition, per
+  referenced sources.
+key_points:
+  - >-
+    Economic nationalism wrongly labels cross-border sourcing as unpatriotic
+    even when it displaces local jobs identically to internal sourcing while
+    benefiting producers and consumers.
+  - >-
+    Internal liberalization within India logically extends to global free trade
+    to access competitive markets.
+  - >-
+    Job losses from market competition should prompt government deregulation to
+    foster wealth creation, not restrictions.
+  - >-
+    Nationalistic economic controls commit the fallacy of composition by
+    misapplying personal patriotic feelings to policy, harming the nation.
+  - >-
+    True equality in economics is universal, not confined to national borders,
+    critiquing leftist hypocrisy.
+topics:
+  - free-trade
+  - economic-nationalism
+  - protectionism
+  - globalization
+source_hash: 10f983bf0c82b592d751723d78fd6302caadf1c5f262e965934040b139cff7d4
+summary_hash: 10f983bf0c82b592d751723d78fd6302caadf1c5f262e965934040b139cff7d4
+summary_at: '2026-05-05T10:27:36.840Z'
 ---
 **By Naveen Mandava**
 

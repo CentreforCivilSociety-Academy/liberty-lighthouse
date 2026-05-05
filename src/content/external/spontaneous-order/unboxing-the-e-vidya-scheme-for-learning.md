@@ -1,15 +1,52 @@
 ---
 title: Unboxing the e-Vidya Scheme for Learning
 original_url: 'https://www.spontaneousorder.in/p/unboxing-the-e-vidya-scheme-for-learning'
+author: Spontaneous Order
 published_at: '2020-07-20T18:48:12.000Z'
 ingested_at: '2026-05-05T08:31:42.396Z'
-source_hash: b64e178f916d1b4b14781749a6e6897a8acd5dd6a0dace39bd2de239449e7a2f
-author: Spontaneous Order
 excerpt: >-
   As the new school session reopens, children smell their new books, try their
   uniforms and wait to share summer shenanigans with their friends and peers.
   Not this time though. With the global pandemic, the new school session will be
   different. Mobile ph...
+summary: >-
+  The PM e-Vidya scheme, announced as part of India's economic relief package,
+  promises multi-mode access to education via apps, TV, radio, and podcasts for
+  25 crore school students and 3.7 crore in higher education, but it largely
+  fails marginalized, rural, and low-income groups due to limited access—only
+  24% of Indians own smartphones, 15% of rural populations have internet, and
+  DTH subscribers number 69.3 million. The 'One Nation, One Platform' DIKSHA app
+  covers just 14 languages amid 47 mediums of instruction, sidelining linguistic
+  diversity, while 'One Class, One Channel' raises questions about state board
+  involvement versus centralized NCERT content and lacks mechanisms for teacher
+  monitoring. Community radio efforts, limited to one CBSE podcast amid 289
+  stations, add little without guidelines or training. Special content for
+  disabled students ignores broader needs beyond visual/hearing impairments.
+  From a classical-liberal lens, the scheme's top-down approach neglects
+  decentralization; states and districts should curate content, supplement with
+  SMS/IVR learning, distribute textbooks via ration shops (as 68% Delhi parents
+  desire), provide teachers student contacts for socio-emotional support and
+  WhatsApp groups, and plan post-scheme recovery with teacher training for a
+  shorter academic year.
+key_points:
+  - >-
+    PM e-Vidya assumes universal tech access, excluding rural and poor students
+    where smartphone ownership is 24% and rural internet 15%.
+  - >-
+    DIKSHA covers only 14 languages despite 47 mediums of instruction, and TV
+    channels unclear on state vs. NCERT control.
+  - >-
+    Decentralize implementation to states/districts for content curation on
+    DIKSHA, radios, and channels; add SMS/IVR and textbook distribution via
+    ration shops.
+  - >-
+    Equip teachers with student contacts for calls, WhatsApp groups, and
+    socio-emotional support; train for new normal and learning recovery.
+topics:
+  - education-policy
+  - online-education
+  - decentralization
+  - rural-education
 tags:
   - Internet Shutdown
   - education of choice
@@ -18,6 +55,9 @@ tags:
   - Education providers
   - Learning
   - NCERT
+source_hash: b64e178f916d1b4b14781749a6e6897a8acd5dd6a0dace39bd2de239449e7a2f
+summary_hash: b64e178f916d1b4b14781749a6e6897a8acd5dd6a0dace39bd2de239449e7a2f
+summary_at: '2026-05-05T12:48:27.873Z'
 ---
 **By Deepali Barapatre**
 

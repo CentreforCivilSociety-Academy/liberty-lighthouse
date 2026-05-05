@@ -1,21 +1,52 @@
 ---
 title: Poverty and Wealth
 original_url: 'https://www.spontaneousorder.in/p/poverty-and-wealth'
+author: Spontaneous Order
 published_at: '2011-07-15T22:12:46.000Z'
 ingested_at: '2026-05-05T08:31:42.633Z'
-source_hash: a6cee066d91fbb981065798c8282010ff39c67695aa1e9be5e51f691795744d5
-author: Spontaneous Order
 excerpt: >-
   India and the world are busy measuring poverty. According to World Bank
   numbers South Asia is amongst the poorest regions in the world, second only to
   Sub-Saharan Africa. Today we bring you an interesting essay from
   www.economicliberty.net on why everyo..
+summary: >-
+  The post highlights the global and Indian focus on measuring poverty, citing
+  World Bank data that ranks South Asia as the second poorest region after
+  Sub-Saharan Africa, and references a Livemint article on challenges in
+  defining poverty lines. It features a classical-liberal essay excerpt from
+  economicliberty.net critiquing the Left's worldview: wealth is assumed
+  natural, prompting intense scrutiny of poverty's causes, as seen in countless
+  Time and Newsweek articles, while treating poverty as unnatural and
+  solvable—as if understanding it would enable manufacturing more. This inverts
+  reality, the essay argues; poverty is the default human condition, and the
+  pivotal question, first systematically asked in 1776 with Adam Smith's inquiry
+  into wealth's sources, is what generates prosperity. Yet, much of the
+  political class remains oblivious to this insight, fixating on poverty
+  alleviation over wealth creation. The post urges shifting discourse from
+  poverty's 'causes' to unleashing economic liberty for riches.
+key_points:
+  - >-
+    South Asia ranks second only to Sub-Saharan Africa as the world's poorest
+    region per World Bank data.
+  - >-
+    The Left treats poverty as unnatural requiring explanation, while viewing
+    wealth as default.
+  - Poverty is natural; the key question since 1776 is what causes wealth.
+  - Political classes have not internalized lessons on wealth creation drivers.
+topics:
+  - poverty
+  - wealth-creation
+  - south-asia
+  - economic-freedom
 tags:
   - wealth
   - Third World countries
   - under developed countries
   - South Asia
   - poverty
+source_hash: a6cee066d91fbb981065798c8282010ff39c67695aa1e9be5e51f691795744d5
+summary_hash: a6cee066d91fbb981065798c8282010ff39c67695aa1e9be5e51f691795744d5
+summary_at: '2026-05-05T11:15:26.014Z'
 ---
 **By Vipin**
 

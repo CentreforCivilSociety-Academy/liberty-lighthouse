@@ -1,13 +1,47 @@
 ---
 title: 'SO Musings: Making Democracy Work'
 original_url: 'https://www.spontaneousorder.in/p/making-democracy-work'
+author: Spontaneous Order
 published_at: '2020-08-07T12:24:27.000Z'
 ingested_at: '2026-05-05T08:31:42.388Z'
-source_hash: 5a1cdac72603698a07e6e4cc9e9ab25a582fc8c5ee90eed0f03a168045825f24
-author: Spontaneous Order
 excerpt: >-
   In order to make democracy work, a morality development programme is futile
   and structural changes in the political system might just yield good results.
+summary: >-
+  The republished 1994 article by Y.D. Altekar argues from a classical-liberal
+  perspective that making Indian democracy work demands structural institutional
+  changes, particularly separating the executive from the legislature, rather
+  than futile morality development programs. Analogizing to ineffective genetic
+  engineering of mosquitoes (only one of twenty species transmits malaria) and
+  religions' failure over six millennia to morally perfect humanity, Altekar
+  asserts that systems must act as a 'vaccine' to limit damage by those in power
+  without relying on saintly leaders. The proposal reduces legislators' enormous
+  post-election bargaining power, making politics less attractive to
+  self-seekers, and establishes real checks and balances via legislative
+  scrutiny of executive actions. It counters municipal counterexamples by noting
+  executives like Pune's Commissioner Ajay Dua face pressures from ruling party
+  corporators via state government ties, lacking true independence.
+  Implementation requires widespread public discussion to forge consensus,
+  pressuring MPs and MLAs to enact reforms, as seen in Britain's Parliament
+  curbing the House of Lords.
+key_points:
+  - >-
+    Separate executive from legislature to strip elected legislators of
+    bargaining power and enable genuine checks and balances against corruption.
+  - >-
+    Morality development programs are doomed like genetic mosquito alteration or
+    religious efforts over millennia, failing to cover entire populations.
+  - >-
+    Municipal systems fail because executives remain beholden to legislative
+    pressures through party affiliations and state government appointments.
+  - >-
+    Build public consensus on reforms through discussion to compel
+    self-interested MPs and MLAs to implement structural changes.
+topics:
+  - separation-of-powers
+  - political-corruption
+  - democracy-reform
+  - institutional-design
 tags:
   - Public Policy
   - Legislature
@@ -18,6 +52,9 @@ tags:
   - Freedom
   - development
   - Institutions
+source_hash: 5a1cdac72603698a07e6e4cc9e9ab25a582fc8c5ee90eed0f03a168045825f24
+summary_hash: 5a1cdac72603698a07e6e4cc9e9ab25a582fc8c5ee90eed0f03a168045825f24
+summary_at: '2026-05-05T10:48:12.347Z'
 ---
 **By Spontaneous Order**
 

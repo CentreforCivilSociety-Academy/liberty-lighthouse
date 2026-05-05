@@ -1,21 +1,62 @@
 ---
 title: 'SO Musings: Marx and Theory of Value'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-marx-and-theory-of-value'
+author: Spontaneous Order
 published_at: '2019-09-27T12:00:05.000Z'
 ingested_at: '2026-05-05T08:31:42.467Z'
-source_hash: 9880d99ba5629ec029eeae97c23aaaa317f81e4cf1179adde6f347bb01f460d8
-author: Spontaneous Order
 excerpt: >-
   The following is an article written by Prof. G N Lawande in November 1962
   issue of The Indian Libertarian, an independent journal of public affairs. In
   the article, Prof. Lawande provides a critical analysis of Marx’s labour
   theory of value. At present
+summary: >-
+  Prof. G.N. Lawande's 1962 article delivers a classical-liberal critique of
+  Karl Marx's labour theory of value, the cornerstone of his surplus-value
+  theory portraying capitalism as class exploitation. Marx defines commodities'
+  exchange value as deriving solely from abstract human labour, excluding
+  natural gifts with exchange value and ignoring scarcity of non-labour factors
+  like machinery. Lawande deems this arbitrary, noting real market prices are
+  set by demand/supply and full production costs of scarce inputs, not labour
+  alone. Marx inconsistently resorts to solvent social demand for 'socially
+  necessary labour' under normal conditions, average skill, and machinery,
+  undermining his theory. Critics like Böhm-Bawerk, Pareto, and Joan Robinson
+  highlight fatal contradictions with actual prices. Lawande argues the theory
+  is a biased 'rigmarole' unnecessary for anti-capitalist claims, falsified by
+  capitalist prosperity. India's adoption of a 'socialist pattern of society' in
+  Five-Year Plans, inspired by Marx, expanded the public sector at private
+  sector's cost. He concludes economic progress requires reversing this policy
+  to empower private enterprise, rejecting Marxian myths.
+key_points:
+  - >-
+    Marx's labour theory of value arbitrarily attributes exchange value solely
+    to abstract human labour, ignoring scarcity and non-labour production
+    factors.
+  - >-
+    Actual market prices reflect demand/supply and full production costs, not
+    labour quantities, revealing the theory's fallacy.
+  - >-
+    Marx inconsistently invokes market demand for defining socially necessary
+    labour, endangering his exploitation narrative.
+  - >-
+    India's socialist policies, rooted in flawed Marxian analysis, hinder
+    progress by favoring public over private sector.
+  - >-
+    Reverse socialist expansion to unleash private sector for accelerated
+    economic development.
+topics:
+  - marxism
+  - labour-theory-of-value
+  - capitalism-defence
+  - indian-socialism
 tags:
   - Karl Marx
   - Labor Theory of Value
   - Indian Liberal Tradition
   - Indian liberals
   - Prof. G N Lawande
+source_hash: 9880d99ba5629ec029eeae97c23aaaa317f81e4cf1179adde6f347bb01f460d8
+summary_hash: 9880d99ba5629ec029eeae97c23aaaa317f81e4cf1179adde6f347bb01f460d8
+summary_at: '2026-05-05T11:58:55.767Z'
 ---
 **By Spontaneous Order**
 

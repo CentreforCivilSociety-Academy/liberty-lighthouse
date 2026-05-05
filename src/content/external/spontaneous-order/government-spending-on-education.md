@@ -1,15 +1,57 @@
 ---
 title: Government spending on education
 original_url: 'https://www.spontaneousorder.in/p/government-spending-on-education'
+author: Spontaneous Order
 published_at: '2005-05-13T21:29:28.000Z'
 ingested_at: '2026-05-05T08:31:42.684Z'
-source_hash: 1f65e4d6ed4d6c65252274d36c08c7909f5401b0f8b8bbb622a25ffc3a9c32a0
-author: Spontaneous Order
 excerpt: >-
   Education World recently had their cover issue on Why India’s most
   pro-education budget isn’t good enough My response to their article printed in
   their magazine is over here . I reproduce it here for your thoughts. I read
   your cover story ‘Why India
+summary: >-
+  Naveen Mandava critiques *Education World*'s claim that India's pro-education
+  budget falls short due to insufficient spending, arguing instead that the
+  focus should be on the 'how' of spending rather than the 'how much.' He
+  advocates monitoring the quality of spending before massive infrastructure
+  investments, citing empirical evidence that quality improvements precede
+  effective scaling. Mandava promotes classical-liberal reforms like demand-side
+  financing through education vouchers, allowing for-profit and English-medium
+  primary schools, and regulatory tweaks to boost private investment with
+  inherent accountability. He suggests magazines create localized school ratings
+  to spur competition and inform parents. Drawing from Dr. Sajitha Bashir’s
+  study on 1990s government expenditure, he notes: in a hypothetical Rs.100
+  state budget, Rs.20 goes to education, Rs.10 to elementary education, Rs.8.50
+  to teacher/admin salaries, and just Rs.1.50 to additional teachers, buildings,
+  and student incentives—leaving scant funds (Rs.15-30 per child annually) for
+  teacher training or learning materials, compared to Rs.88 per child on mid-day
+  meals for enrollment boosts. Success metrics emphasize quantity (enrollment)
+  over quality, perpetuated by teachers' unions and anti-market policies that
+  deny children affordable quality schooling.
+key_points:
+  - >-
+    Prioritize monitoring spending quality before infrastructure investments to
+    improve learning outcomes.
+  - >-
+    Implement education vouchers and allow for-profit English-medium schools to
+    leverage private accountability and investment.
+  - >-
+    Develop localized school rating systems to foster competition and empower
+    parental choice.
+  - >-
+    Government elementary education spending heavily favors salaries (Rs.8.50 of
+    Rs.10 per Rs.100 budget) over learning materials (Rs.15-30 per child).
+  - >-
+    Shift from enrollment-focused quantitative targets to quality metrics in
+    education schemes.
+topics:
+  - education-spending
+  - school-vouchers
+  - private-education
+  - education-reform
+source_hash: 1f65e4d6ed4d6c65252274d36c08c7909f5401b0f8b8bbb622a25ffc3a9c32a0
+summary_hash: 1f65e4d6ed4d6c65252274d36c08c7909f5401b0f8b8bbb622a25ffc3a9c32a0
+summary_at: '2026-05-05T10:05:35.855Z'
 ---
 **By Naveen Mandava**
 

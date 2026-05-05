@@ -2,17 +2,56 @@
 title: 'Lives Vs Livelihoods: The story of women street vendors in Delhi'
 original_url: >-
   https://www.spontaneousorder.in/p/lives-vs-livelihoods-the-story-of-women-street-vendors-in-delhi
+author: Spontaneous Order
 published_at: '2021-06-04T10:21:02.000Z'
 ingested_at: '2026-05-05T08:31:42.314Z'
-source_hash: a8b8a8d1a85df6c315cbb91a14f47f4aaab74bd8301eaac5ce7994a6e46d34b4
-author: Spontaneous Order
 excerpt: >-
   The lockdown has delivered a deadly punch to the informal sector. The empty
   streets are eerily quiet as the hustlers, hawkers, buyers and sellers’ usual
   energy has melted away. The lockdown has shut down the largest segment of
   self-employed men and wome
+summary: >-
+  The COVID-19 lockdowns have devastated Delhi's street vendors, the embodiment
+  of India's ineffectively harnessed entrepreneurial spirit in the informal
+  sector, with a stark gender imbalance affecting women vendors hardest. SEWA
+  Delhi estimates 3 lakh vendors citywide, while MCD records 1.25 lakh, 30%
+  women. A Centre for Civil Society discussion with 24 women vendors revealed
+  2021 lockdowns far worse than 2020: no market reopening efforts, ration
+  access, or e-passes; male vendors infiltrated women-only 'Mahila bazar',
+  forcing bribes; and PM SVANidhi loans up to Rs 10,000 became unrepayable amid
+  prolonged shutdowns, customer shifts to online grocery (Statista), and lost
+  vending spots, driving women to high-interest private lenders over rigid
+  government schemes. Mistrust in authorities prevails, with neighbors unable to
+  help. Women face compounded burdens: doubled domestic workloads, rising
+  violence, and battles for survival without relief. Lata from SEWA urges
+  including vendor voices in market-opening discussions, prioritizing their
+  spaces equally. The piece underscores the second wave's disproportionate toll
+  on the poorest women, critiquing inadequate state interventions that hinder
+  livelihoods.
+key_points:
+  - >-
+    Delhi has around 3 lakh street vendors per SEWA, with MCD counting 1.25 lakh
+    where 30% are women, facing severe gender-disparate lockdown impacts.
+  - >-
+    2021 lockdowns lacked 2020's aids like e-passes, ration distribution, and
+    market precautions, worsening vendors' plight with market infiltrations and
+    bribes.
+  - >-
+    PM SVANidhi loans of up to Rs 10,000 proved burdensome as shutdowns erased
+    income, pushing women to private lenders despite high rates.
+  - >-
+    Street vendors' voices must be included in authorities' market-reopening
+    discussions to treat their spaces equitably.
+topics:
+  - street-vendors
+  - lockdown-impacts
+  - informal-economy
+  - women-entrepreneurs
 tags:
   - livelihood
+source_hash: a8b8a8d1a85df6c315cbb91a14f47f4aaab74bd8301eaac5ce7994a6e46d34b4
+summary_hash: a8b8a8d1a85df6c315cbb91a14f47f4aaab74bd8301eaac5ce7994a6e46d34b4
+summary_at: '2026-05-05T10:43:18.809Z'
 ---
 **By Jyotsana Awasthi**
 

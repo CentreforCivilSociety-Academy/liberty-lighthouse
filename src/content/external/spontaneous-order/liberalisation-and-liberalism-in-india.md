@@ -1,15 +1,59 @@
 ---
 title: 'SO Musings: Liberalisation and Liberalism in India'
 original_url: 'https://www.spontaneousorder.in/p/liberalisation-and-liberalism-in-india'
+author: Spontaneous Order
 published_at: '2019-11-29T17:16:42.000Z'
 ingested_at: '2026-05-05T08:31:42.456Z'
-source_hash: 083f98512b73837f7fbe48dc7f75a494593ed1ae41535d7c3d62ee60e0eb7c35
-author: Spontaneous Order
 excerpt: >-
   In the following article on liberalism in India first appeared in the December
   1995 issue of the Liberal Times, a quarterly journal published by Friedrich
   Naumann Foundation. There is a revolutionary change in the atmosphere, and it
   is entirely due to t..
+summary: >-
+  India's 1991 economic reforms have sparked revolutionary growth—potentially
+  11% GDP this year, 13% industrial growth, and a strong balance of payments
+  after 1991's crisis—yet they remain uncelebrated and defensive due to the
+  absence of liberty as the ultimate political goal. Inherited from WWII's
+  Allied war economy, comprehensive controls like import rationing, food
+  procurement, industrial licensing, capital flow restrictions via state banks,
+  and discriminatory taxation persisted post-1947 to favor northern agricultural
+  regions and the educated middle class over coastal industries and private
+  owners, under socialist rhetoric masking regional and class conflicts.
+  Periodic liberalisation episodes pragmatically relaxed licensing to avert
+  crises but lacked liberal philosophy, reverting under entrenched interests.
+  Western liberalism evolved from anti-monarchic individual freedom and rule of
+  law to post-war social liberalism with welfare states, but in resource-poor
+  India, social services like insurance and free education failed amid
+  shortages. Personal libertarianism is weak, supplanted by state-enforced
+  restraint for social order amid diversity, evident in publication bans. The
+  classical-liberal author urges embracing consumer sovereignty, competition
+  across enterprises (foreign, large, private), individual choice in services,
+  and extremism in liberty to solidify economic liberalism.
+key_points:
+  - >-
+    India's control regime originated in WWII rationing and was retained
+    post-1947 to favor northern regions and middle class over industry via
+    licensing, capital controls, import restrictions, agriculture procurement,
+    and discriminatory taxes.
+  - >-
+    Liberalisation episodes since independence were pragmatic responses to
+    crises without underlying liberal philosophy, allowing controls to reassert.
+  - >-
+    Social liberalism's welfare ideals failed in India due to insufficient
+    means, while personal liberty remains undervalued in favor of state
+    restraint for social harmony.
+  - >-
+    Post-1991 reforms achieved 11% potential GDP growth and 13% industrial
+    expansion but face defensiveness and paranoia over foreign investment due to
+    lack of liberty-centric worldview.
+  - >-
+    To entrench reforms, cultivate extremism in liberty, affirming consumer
+    sovereignty and free choice across diverse enterprises.
+topics:
+  - economic-liberalisation
+  - liberal-philosophy
+  - control-regime
+  - personal-liberty
 tags:
   - Liberalism in India
   - economic liberalism
@@ -18,6 +62,9 @@ tags:
   - Liberalism
   - Liberty Movement
   - social liberalism
+source_hash: 083f98512b73837f7fbe48dc7f75a494593ed1ae41535d7c3d62ee60e0eb7c35
+summary_hash: 083f98512b73837f7fbe48dc7f75a494593ed1ae41535d7c3d62ee60e0eb7c35
+summary_at: '2026-05-05T10:41:18.415Z'
 ---
 **By Spontaneous Order**
 

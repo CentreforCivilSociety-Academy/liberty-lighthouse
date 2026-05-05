@@ -2,19 +2,62 @@
 title: 'Universal Basic Income: A Better Way To Do Welfare'
 original_url: >-
   https://www.spontaneousorder.in/p/universal-basic-income-a-better-way-to-do-welfare
+author: Spontaneous Order
 published_at: '2024-08-02T10:30:42.000Z'
 ingested_at: '2026-05-05T08:31:42.713Z'
-source_hash: e796db73d56482835f4d103ebd07a6eacca0633a501855a0a5626f3b78843d1c
-author: Spontaneous Order
 excerpt: >-
   In our society today, Universal Basic Income (UBI) has been talked about as if
   it were an epitome of social welfare, for quite some time now. UBI’s two main
   features – unconditionality and universality – are what distinguish it from
   traditional welf
+summary: >-
+  Priyam Deka argues that Universal Basic Income (UBI), with its
+  unconditionality and universality, offers a superior alternative to India's
+  leaky, corruption-ridden welfare system, which relies on rationing, bribes for
+  ration cards, and discriminates against Dalits and tribals. Current schemes
+  suffer from fraud in bottom-up transfers and fail at targeting, while UBI
+  eliminates intermediaries, guarantees delivery to recipients, and frees
+  individuals from Hayek's 'paternal and clientele ties' with government,
+  enabling personal choice that improves health, nutrition, and education. It
+  could streamline India's 950 overlapping central and state schemes, slashing
+  administrative costs and efforts from duplications. UBI also advances
+  financial inclusion by mandating bank accounts for direct transfers,
+  onboarding millions. Despite critiques of high costs (up to 4.9% of GDP), work
+  disincentives, and risks to public services, the 2011-2013 Madhya Pradesh
+  pilot with 6,000 villagers showed gains in nutrition, health, education, and
+  even labor in agriculture and beyond. Deka recommends more pilots, skill
+  training, monitoring, phased rollouts leveraging digital infrastructure, and
+  sustainable funding to make UBI feasible, urging political will to pursue this
+  classical-liberal welfare path.
+key_points:
+  - >-
+    India's current welfare system is plagued by corruption, discrimination, and
+    exclusion, which UBI's unconditionality and universality can eliminate by
+    bypassing intermediaries and ensuring direct payments.
+  - >-
+    UBI streamlines 950 overlapping schemes, reduces administrative costs, and
+    promotes financial inclusion through mandatory bank accounts for direct
+    transfers.
+  - >-
+    The Madhya Pradesh UBI pilot (2011-2013) demonstrated improvements in
+    nutrition, health, education, and labor participation, countering work
+    disincentive fears.
+  - >-
+    Policymakers should implement phased UBI rollouts with pilots, skill
+    training, robust monitoring, and sustainable funding to address fiscal and
+    behavioral concerns.
+topics:
+  - universal-basic-income
+  - welfare-reform
+  - india-policy
+  - financial-inclusion
 tags:
   - social security
   - Universal Basic Income
   - Welfare funding
+source_hash: e796db73d56482835f4d103ebd07a6eacca0633a501855a0a5626f3b78843d1c
+summary_hash: e796db73d56482835f4d103ebd07a6eacca0633a501855a0a5626f3b78843d1c
+summary_at: '2026-05-05T12:50:40.501Z'
 ---
 **By Priyam Deka**
 

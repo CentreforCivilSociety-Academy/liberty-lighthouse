@@ -1,20 +1,56 @@
 ---
 title: India’s First Economist
 original_url: 'https://www.spontaneousorder.in/p/indias-first-economist'
+author: Spontaneous Order
 published_at: '2011-06-08T22:27:23.000Z'
 ingested_at: '2026-05-05T08:31:42.642Z'
-source_hash: 55cfc773c4e750a6dae3119fe491b075e3552a6ff21e8a6326a391f707840280
-author: Spontaneous Order
 excerpt: >-
   By: B. Chandrasekaran (Economist, Planning Commission) & Vipin P. Veetil
   (Research Guide, CCS) His articles do not figure in University of Delhi’s
   reading list and nearly none of the post-graduate students from India’s
   premiere economics research inst
+summary: >-
+  B.R. Shenoy (1905–1978), overlooked in Indian academia—absent from University
+  of Delhi reading lists and unknown to post-graduate students at top institutes
+  like Delhi School of Economics and JNU—was India's first economist to publish
+  in a peer-reviewed journal, with articles in the Quarterly Journal of
+  Economics in 1931 and 1933. On his birth anniversary, June 3, the post
+  highlights his pioneering classical-liberal critique of central planning.
+  Milton Friedman praised Shenoy as a 'great man' for recognizing defects in
+  India's planning and stating views courageously. Shenoy was the sole Indian
+  economist to author a Note of Dissent against the Nehru-Mahalanobis Second
+  Five Year Plan, which Peter Bauer lauded for 'conspicuous moral courage.' A
+  key quote embodies his view: under economic freedom, investment control
+  diffuses to millions of competing entrepreneurs, rewarding efficiency and
+  contribution to national product; statism, conversely, breeds parasitic
+  functionaries reliant on political 'pull' rather than talent. The post
+  positions Shenoy as a true student of economics science advocating market
+  competition over state control.
+key_points:
+  - >-
+    B.R. Shenoy was the first Indian economist to publish in the peer-reviewed
+    Quarterly Journal of Economics in 1931 and 1933.
+  - >-
+    Shenoy authored the only Note of Dissent to India's Nehru-Mahalanobis Second
+    Five Year Plan, earning praise from Milton Friedman and Peter Bauer for his
+    courage against central planning.
+  - >-
+    Economic freedom diffuses investment power to competing entrepreneurs
+    rewarded by efficiency, unlike statism which fosters parasitic reliance on
+    political contacts.
+topics:
+  - br-shenoy
+  - central-planning
+  - economic-freedom
+  - indian-economics
 tags:
   - open markets
   - Libertarian Scholars
   - economic freedom
   - BR Shenoy
+source_hash: 55cfc773c4e750a6dae3119fe491b075e3552a6ff21e8a6326a391f707840280
+summary_hash: 55cfc773c4e750a6dae3119fe491b075e3552a6ff21e8a6326a391f707840280
+summary_at: '2026-05-05T10:22:56.786Z'
 ---
 **By Vipin**
 

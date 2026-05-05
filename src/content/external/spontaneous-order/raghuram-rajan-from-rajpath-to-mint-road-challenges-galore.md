@@ -2,21 +2,61 @@
 title: 'Raghuram Rajan: From Rajpath to Mint Road, Challenges Galore'
 original_url: >-
   https://www.spontaneousorder.in/p/raghuram-rajan-from-rajpath-to-mint-road-challenges-galore
+author: Spontaneous Order
 published_at: '2013-08-08T18:27:00.000Z'
 ingested_at: '2026-05-05T08:31:42.602Z'
-source_hash: ce6834464b0357f034e594c22dd2e83a28055430e838c3861c02f2f9c2e707eb
-author: Spontaneous Order
 excerpt: >-
   At a time when the Indian economy is in serious trouble, the Government has
   done well to appoint Dr Raghuram Rajan as the 23rd Governor of the Reserve
   Bank of India (RBI). Dr Rajan is a very accomplished and experienced man with
   his earlier stints as th..
+summary: >-
+  The appointment of Raghuram Rajan as the 23rd RBI Governor is timely amid
+  India's economic woes, including a rupee at historic lows of 61.30 against the
+  dollar, a looming sovereign credit rating downgrade, and the lowest growth
+  rates entering an election year. Rajan, with credentials as IMF Chief
+  Economist, current Chief Economic Advisor, University of Chicago professor,
+  and author of the 2007 'A Hundred Small Steps' financial reforms report, is
+  well-suited to tackle these challenges without a 'magic wand.' The author
+  urges Rajan to resist pressures from the Finance Ministry and PMO, emphasizing
+  RBI's historical lack of independence. RBI faces conflicting goals, such as
+  ensuring macroeconomic stability while managing government debt cheaply, which
+  undermines price stability by keeping interest rates too low. Data problems
+  exacerbate issues: WPI ignores consumer prices, and volatile IIP is
+  unreliable, leading market participants to proxies like HSBC PMI. The author
+  recommends prioritizing money and credit aggregates over headline price
+  indices for better real inflation gauging. From a classical-liberal viewpoint,
+  Rajan's intellectual rigor and reformist background position him to minimize
+  damage and push for clearer central bank objectives, though systemic changes
+  may take time.
+key_points:
+  - >-
+    Raghuram Rajan's appointment as RBI Governor is opportune given India's
+    economic crises like rupee depreciation to 61.30 and potential credit
+    downgrade.
+  - >-
+    RBI's conflicting mandates, including cheap government debt management,
+    undermine macroeconomic and price stability goals.
+  - >-
+    Poor data quality, such as unreliable WPI and IIP, hampers monetary policy;
+    focus on money and credit aggregates instead.
+  - >-
+    Rajan must maintain independence from Finance Ministry and PMO pressures to
+    effectively steward policy.
+topics:
+  - rbi-governor
+  - monetary-policy
+  - central-bank-independence
+  - indian-economy
 tags:
   - wholesale price index
   - D Subbarao
   - RBI
   - Raghuram Rajan
   - Governorship
+source_hash: ce6834464b0357f034e594c22dd2e83a28055430e838c3861c02f2f9c2e707eb
+summary_hash: ce6834464b0357f034e594c22dd2e83a28055430e838c3861c02f2f9c2e707eb
+summary_at: '2026-05-05T11:21:18.704Z'
 ---
 **By Kumar Anand**
 

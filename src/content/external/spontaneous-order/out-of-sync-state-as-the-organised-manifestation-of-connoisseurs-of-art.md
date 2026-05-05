@@ -2,15 +2,51 @@
 title: 'OUT OF SYNC: State as the organised manifestation of connoisseurs of art'
 original_url: >-
   https://www.spontaneousorder.in/p/out-of-sync-state-as-the-organised-manifestation-of-connoisseurs-of-art
+author: Spontaneous Order
 published_at: '2005-05-23T22:01:29.000Z'
 ingested_at: '2026-05-05T08:31:42.679Z'
-source_hash: f38e253fabca2e7d14c9ff74757b6189678243c9180c87b6ef17328314eba60d
-author: Spontaneous Order
 excerpt: >-
   “In a democratic regime, the arts can derive their sustenance only from the
   people, and the state, as the organized manifestation of the people’s will,
   must, therefore, undertake … maintenance and development [of arts] as one of
   [its] first responsi
+summary: >-
+  The post opens with a 1953 quote from Union Minister Maulana Abdul Kalam Azad
+  asserting that in a democracy, the state—as the organized manifestation of the
+  people's will—must prioritize the maintenance and development of arts. It then
+  details recent drama at the Sangeet Natak Academy (SNA), India's premier state
+  agency for promoting dance, music, and drama, where high-profile resignations
+  by Carnatic maestro Balamuralikrishna and vice-chairman Kavalam Narayana
+  Panicker accuse Odissi exponent and Padma Bhushan awardee Sonal Mansingh, the
+  chairman, of highhandedness, corruption, nepotism, and arbitrariness. Mansingh
+  retorts that she is being scapegoated by a nexus attempting to run the academy
+  as their personal fiefdom while she seeks to address its accumulated mess. The
+  artistic community remains divided. From a classical-liberal viewpoint, this
+  imbroglio underscores the profound ills plaguing state-run cultural
+  institutions, which defy resolution through mere stop-gap measures and
+  question the government's competence as connoisseurs of art.
+key_points:
+  - >-
+    Sangeet Natak Academy faces resignations from Balamuralikrishna and Kavalam
+    Narayana Panicker over allegations of corruption and highhandedness against
+    chairman Sonal Mansingh.
+  - >-
+    Sonal Mansingh claims she is targeted by a nexus resisting her efforts to
+    clean up the academy's mismanagement.
+  - >-
+    State-run arts institutions like SNA suffer from deep-rooted problems beyond
+    superficial fixes.
+  - >-
+    The post contrasts historical state advocacy for arts patronage with
+    contemporary evidence of its failures.
+topics:
+  - cultural-policy
+  - state-arts-patronage
+  - government-institutions
+  - public-administration
+source_hash: f38e253fabca2e7d14c9ff74757b6189678243c9180c87b6ef17328314eba60d
+summary_hash: f38e253fabca2e7d14c9ff74757b6189678243c9180c87b6ef17328314eba60d
+summary_at: '2026-05-05T11:10:54.591Z'
 ---
 **By Sruthijith**
 

@@ -4,19 +4,62 @@ title: >-
   Regulatory Functions from Service Delivery
 original_url: >-
   https://www.spontaneousorder.in/p/key-to-reforming-indian-education-rescuing-government-policy-making-and-regulatory-functions-from-service-delivery
+author: Spontaneous Order
 published_at: '2018-07-17T09:35:53.000Z'
 ingested_at: '2026-05-05T08:31:42.726Z'
-source_hash: 0a675d946ef33d4f31315a6a8cb70a99c86c8f8c339326464bc5aef866f8ae8d
-author: Spontaneous Order
 excerpt: >-
   Currently, the governmental roles of policy making, regulation and service
   delivery are combined within a single entity in the Indian Education Sector.
   There is a need, however, for these to be separated into 3 different entities
   with an “arms- length
+summary: >-
+  In Indian school education, government departments combine policy-making,
+  regulation, and service delivery, consuming nearly all bandwidth on running
+  massive government school systems—like 14,000 schools in Haryana—leaving no
+  time for thoughtful reforms, especially for the private sector that serves 44%
+  of students (11 crore children). This setup fosters competitive bias, with
+  officials prioritizing government school metrics (e.g., pass rates, IIT
+  admissions) and viewing private schools negatively, resulting in knee-jerk
+  policies like Gujarat's fee regulation that worsen problems. Despite
+  government desires for high-quality, affordable private education and abundant
+  reform ideas from private stakeholders—such as easing recognition/non-profit
+  rules, joint committees, and PPP models—the 'market' for ideas fails to clear
+  due to inaccessible bureaucrats. The author, drawing from stakeholder
+  interactions, advocates separating these functions into three arms-length
+  entities (as in finance, telecom, electricity), owned by government but
+  independent, to enable focused policy-making, reduce bias, and promote healthy
+  sector development from a classical-liberal lens emphasizing private sector
+  innovation and reduced government operational overload. Key hurdles: awareness
+  and political will.
+key_points:
+  - >-
+    Separate government education functions into distinct policy-making,
+    regulatory, and service-delivery entities with arms-length relationships to
+    free bandwidth for reforms.
+  - >-
+    Private sector serves 44% of students (11 crore children), yet faces biased
+    regulation due to officials' focus on government school performance.
+  - >-
+    Reform ideas like easing entry barriers, joint committees, and PPPs exist
+    but are ignored amid operational overload.
+  - >-
+    Model separation on successful precedents in finance (RBI, PSU banks),
+    telecom, and electricity sectors.
+  - >-
+    Achieve change through raising awareness and building political will at
+    state level.
+topics:
+  - indian-education
+  - regulatory-reform
+  - private-schools
+  - government-separation
 tags:
   - Education regulation
   - Education Policy
   - Indian Education System
+source_hash: 0a675d946ef33d4f31315a6a8cb70a99c86c8f8c339326464bc5aef866f8ae8d
+summary_hash: 0a675d946ef33d4f31315a6a8cb70a99c86c8f8c339326464bc5aef866f8ae8d
+summary_at: '2026-05-05T10:36:33.731Z'
 ---
 **By Vikas Jhunjhunwala**
 

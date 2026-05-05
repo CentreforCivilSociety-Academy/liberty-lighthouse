@@ -1,19 +1,60 @@
 ---
 title: Bad Banks For a Good Economy
 original_url: 'https://www.spontaneousorder.in/p/bad-banks-for-a-good-economy'
+author: Spontaneous Order
 published_at: '2021-03-01T13:57:39.000Z'
 ingested_at: '2026-05-05T08:31:42.346Z'
-source_hash: f34565acfbaaf269ef671cb829dc7459bbc21dfb4ecf312240184e28a188618d
-author: Spontaneous Order
 excerpt: >-
   This article was written by Neeti Shikha, Urvashi Shahi and Rahul Prakash. The
   Government of India has recently announced that India is set to have its first
   Bad Bank. While the decision is received with great fervor by some, many have
   shown their worry..
+summary: >-
+  India's establishment of its first bad bank addresses the mounting Gross
+  Non-Performing Assets (GNPA) crisis, totaling roughly 27 lakh crore rupees or
+  14% of GDP, projected to reach 13.5% of advances by September 2021 amid
+  pandemic stress. From a classical-liberal viewpoint, this one-time measure
+  cleans bank balance sheets, freeing public sector banks to focus on core
+  lending and growth essential for India's potential GDP expansion, while
+  restoring confidence among investors and rating agencies. Historical
+  precedents like Mellon Bank's 1988 strategy and post-2008 models in the US,
+  Ireland, and Spain underscore its crisis utility. Success hinges on structure:
+  off-balance-sheet SPVs like ARC/AMC models (PAMC for short-term viable assets,
+  NAMC for unviable ones), true price discovery, private capitalization without
+  majority PSU stakes to curb moral hazard, and limited leverage. Funding
+  challenges require attracting private investors via securities, not government
+  equity. Authors caution against recurring use to prevent risky lending
+  incentives, advocate stress-testing, IBC recovery or securitization, banker
+  accountability reforms, and dissolution timelines. Execution must prioritize
+  market dynamics over past over-regulation to foster a robust financial sector.
+key_points:
+  - >-
+    India's GNPA of 27 lakh crore (14% GDP) demands a bad bank to restore
+    lending capacity and support growth.
+  - >-
+    Bad banks should be one-time 'emergency medicine' with private participation
+    and <51% PSU stake to avoid moral hazard.
+  - >-
+    Adopt ARC/AMC models like PAMC or NAMC for stressed assets, emphasizing
+    off-balance-sheet transfers and price discovery.
+  - >-
+    Fund via private equity/debt securities, not government capital, and enable
+    securitization for monetization.
+  - >-
+    Set dissolution timelines and reform PSU banker incentives for bold
+    decisions.
+topics:
+  - bad-banks
+  - non-performing-assets
+  - banking-reform
+  - financial-crisis
 tags:
   - banking governance
   - Banks
   - Indian Economy
+source_hash: f34565acfbaaf269ef671cb829dc7459bbc21dfb4ecf312240184e28a188618d
+summary_hash: f34565acfbaaf269ef671cb829dc7459bbc21dfb4ecf312240184e28a188618d
+summary_at: '2026-05-05T09:05:32.429Z'
 ---
 **By Neeti Shikha**
 

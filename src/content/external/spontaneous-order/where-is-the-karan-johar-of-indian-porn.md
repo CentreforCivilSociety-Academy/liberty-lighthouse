@@ -1,20 +1,61 @@
 ---
 title: Where is the Karan Johar of Indian Porn?
 original_url: 'https://www.spontaneousorder.in/p/where-is-the-karan-johar-of-indian-porn'
+author: Spontaneous Order
 published_at: '2011-06-13T19:31:59.000Z'
 ingested_at: '2026-05-05T08:31:42.641Z'
-source_hash: 8c390b000913c291e573500b017342fcfdb78668188a1ca2c7ba37b2d8fef300
-author: Spontaneous Order
 excerpt: >-
   By: Udita Singh (CCS Intern) Danny Frederick in his paper, Defending
   Pornography, lists four arguments against pornography, namely, the
   deprave-and-corrupt argument, the harm-to-others argument, the
   harm-to-children argument, and the degrades-women argu..
+summary: >-
+  The post critiques moral arguments against pornography—deprave-and-corrupt,
+  harm-to-others, harm-to-children, and degrades-women—from Danny Frederick's
+  paper, and dismisses distinctions like Jug Suraiya's between porn and erotica
+  as mere taste. It argues that India's underground porn industry, producing
+  'Blue Films' in languages like Bengali, Tamil, Hindi, Punjabi, Assamese, and
+  Kerala's 'Mal-porn', suffers from poor quality because legal risks deter young
+  artists, writers, and directors. Despite cultural taboos—sex unspoken in
+  homes, Khushwant Singh's Screw magazine cleared as 'engineering guide'—Google
+  Trends shows New Delhi ranking 4th globally in porn searches, ahead of legal
+  porn hub Los Angeles at 8th. Acknowledging and legalizing the industry as a
+  legitimate profit-making venture would enable better regulation of child
+  pornography, HIV, and trafficking; support creative entrepreneurs; foster
+  respect for workers; and elevate quality, as seen in banned savitabhabhi.com
+  by a UK NRI and Richard Menon's US-based Indian Playboy, who avoids India due
+  to politicians and women's groups. From a classical-liberal view, legalization
+  civilizes by unleashing market-driven creativity, echoing Hugh Hefner.
+key_points:
+  - >-
+    Legal risks prevent talented creators from professionalizing Indian porn,
+    resulting in low-quality output.
+  - >-
+    India's underground porn industry thrives across regions and languages, yet
+    faces denial and no open discussion.
+  - >-
+    Legalizing porn as a legitimate business would mitigate harms like child
+    exploitation, HIV, and trafficking while improving standards and worker
+    respect.
+  - >-
+    High Indian porn demand is evident with New Delhi ranking 4th globally in
+    searches, surpassing Los Angeles.
+  - >-
+    NRI successes like savitabhabhi.com and Richard Menon's films show
+    entrepreneurial potential stifled by India's legal environment.
+topics:
+  - pornography-legalization
+  - cultural-hypocrisy
+  - free-markets
+  - speech-freedom
 tags:
   - savitabhabhi
   - erotica
   - legalizing porn
   - pornography
+source_hash: 8c390b000913c291e573500b017342fcfdb78668188a1ca2c7ba37b2d8fef300
+summary_hash: 8c390b000913c291e573500b017342fcfdb78668188a1ca2c7ba37b2d8fef300
+summary_at: '2026-05-05T13:01:16.134Z'
 ---
 **By Vipin**
 

@@ -2,17 +2,54 @@
 title: 'Overcoming Obstacles: Street Vendor, Nitya Shankar'
 original_url: >-
   https://www.spontaneousorder.in/p/overcoming-obstacles-street-vendor-nitya-shankar
+author: Spontaneous Order
 published_at: '2024-05-28T23:58:17.000Z'
 ingested_at: '2026-05-05T08:31:42.717Z'
-source_hash: 506a2a6e97b9a12ccfe0fdddc82892258c5a87007985fc64a9b1a076ac58bc10
-author: Spontaneous Order
 excerpt: >-
   A Path to Empowering Victory: The Jeevika’s Fights for Street Vendor Justice
   Nitya Shankar’s journey as a street vendor symbolizes the financial
   independence of informal economy workers and their battle against the
   unnecessary obstacles created by the
+summary: >-
+  Nitya Shankar, a street vendor at Anna Dosa Point in New Delhi for over seven
+  years, faced state-imposed obstacles when the Municipal Corporation of Delhi
+  (MCD) fined her INR 10,000 for alleged littering under DMC Act sections 357
+  and 397—where fines should be only INR 50—despite her possessing a Certificate
+  of Vending (CoV) and Letter of Recommendation (LoR). This arbitrary action
+  threatened her family's sole livelihood, children's education, and rent. The
+  Centre for Civil Society's Jeevika app intervened, enabling Nitya to file a
+  complaint and receive legal representation in municipal court. The advocate
+  highlighted the fine's disproportion, her compliance, and violations of the
+  Street Vendors Act 2014 (SVA), which mandates Town Vending Committees for fair
+  treatment and grievance redressal. The judge reduced the fine to INR 1,000,
+  affirming her rights. From a classical-liberal perspective, Nitya's journey
+  exemplifies informal economy workers' financial independence battling
+  unnecessary state hurdles, with poor SVA implementation undermining rule of
+  law. Jeevika empowers vendors through legal aid, knowledge, and confidence,
+  fostering economic freedom and justice for overlooked marginalized groups.
+key_points:
+  - >-
+    MCD fined compliant street vendor Nitya Shankar INR 10,000 instead of INR 50
+    for littering, threatening her livelihood.
+  - >-
+    Jeevika app provided swift legal aid, reducing the fine to INR 1,000 via
+    arguments on SVA violations and disproportionate penalty.
+  - >-
+    Street Vendors Act 2014 requires Town Vending Committees for fair vending
+    zones and grievances, but implementation fails rule of law.
+  - >-
+    Jeevika equips vendors with tools to challenge arbitrary state actions,
+    promoting empowerment and economic independence.
+topics:
+  - street-vendors
+  - street-vendors-act
+  - informal-economy
+  - rule-of-law
 tags:
   - street vendor
+source_hash: 506a2a6e97b9a12ccfe0fdddc82892258c5a87007985fc64a9b1a076ac58bc10
+summary_hash: 506a2a6e97b9a12ccfe0fdddc82892258c5a87007985fc64a9b1a076ac58bc10
+summary_at: '2026-05-05T11:11:17.092Z'
 ---
 **By Deepak Sharma**
 

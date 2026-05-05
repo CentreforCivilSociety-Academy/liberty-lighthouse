@@ -1,20 +1,62 @@
 ---
 title: India’s arduous exit from easy money policy
 original_url: 'https://www.spontaneousorder.in/p/indias-arduous-exit-from-easy-money-policy'
+author: Spontaneous Order
 published_at: '2022-03-15T11:47:35.000Z'
 ingested_at: '2026-05-05T08:31:42.274Z'
-source_hash: cd3b24a36aa70e1a0dd1c27dc808eef8581fe2a6c9d38029f988176604845275
-author: Spontaneous Order
 excerpt: >-
   The pandemic knocked down entire economies. In response, governments around
   the world opened the spending spigots while central banks pumped extra
   liquidity into financial systems. Such coordinated action is necessary during
   a crisis—as we saw in the af
+summary: >-
+  India faces an arduous exit from pandemic-era fiscal and monetary stimulus,
+  akin to Abhimanyu's inability to escape the chakravyuha in the
+  Mahabharata—policymakers know how to enter stimulus but struggle to withdraw
+  without sparking inflation or balance-of-payments crises, as seen in India's
+  early 2010s. The February Union budget and RBI monetary policy signal a
+  gradual taper, as private-sector demand remains weak, rattling bond markets
+  amid high public debt from extra borrowing. A classical-liberal lens
+  underscores the need for timely discipline to prevent imbalances, prioritizing
+  market signals over prolonged intervention. James Tobin's funnel model
+  illustrates coordination challenges: fiscal and monetary 'taps' fill an
+  economy 'tank' limited by supply capacity, overflowing into inflation. RBI's
+  dual role as inflation manager and government debt handler creates
+  dilemmas—raise rates against price pressures or keep them low for smooth
+  borrowing? Critics note the model's simplicity, especially post-supply-shock
+  pandemic, yet it highlights policy as art and science. Fiscal consolidation
+  has a clear path with credible adherence, but RBI's dovish rhetoric contrasts
+  rising market rates, sending confusing signals. Success hinges on synchronized
+  withdrawal pace and credible communication to restore private-led growth.
+key_points:
+  - >-
+    India's February budget and RBI policy opt for gradual stimulus exit due to
+    weak private demand, unsettling bond markets.
+  - >-
+    Exiting stimulus risks inflation or BOP pressures if mistimed, as in India's
+    2010s experience.
+  - >-
+    Tobin's funnel model stresses coordinating fiscal spending and money supply
+    to avoid inflation overflow beyond supply capacity.
+  - >-
+    RBI must balance inflation-fighting rate hikes against aiding high
+    government borrowing amid global price worries.
+  - >-
+    Clear fiscal consolidation contrasts RBI's mixed signals of dovish words and
+    rising market rates.
+topics:
+  - monetary-policy
+  - fiscal-policy
+  - inflation-control
+  - post-pandemic-recovery
 tags:
   - public finance
   - RBI
   - inflation
   - economy
+source_hash: cd3b24a36aa70e1a0dd1c27dc808eef8581fe2a6c9d38029f988176604845275
+summary_hash: cd3b24a36aa70e1a0dd1c27dc808eef8581fe2a6c9d38029f988176604845275
+summary_at: '2026-05-05T10:22:10.064Z'
 ---
 **By Niranjan Rajadhyaksha**
 

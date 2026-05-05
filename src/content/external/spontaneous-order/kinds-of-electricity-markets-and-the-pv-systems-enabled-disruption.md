@@ -2,15 +2,57 @@
 title: Kinds of Electricity Markets and the PV Systems Enabled Disruption
 original_url: >-
   https://www.spontaneousorder.in/p/kinds-of-electricity-markets-and-the-pv-systems-enabled-disruption
+author: Spontaneous Order
 published_at: '2024-06-12T14:48:08.000Z'
 ingested_at: '2026-05-05T08:31:42.716Z'
-source_hash: fc5d0c3b282c2c2e3ff32a6d035516fb4d07ec03031cf3ff8358cecbf7a454a8
-author: Spontaneous Order
 excerpt: >-
   As I write, it is midnight in Bangkok, Thailand. My air conditioner is keeping
   me cool, my room is well-lit, and my laptop is functioning. Electricity powers
   all my appliances and devices. From a quick glance, electricity acts almost
   like goods in a mar..
+summary: >-
+  Electricity markets have historically operated as natural monopolies due to
+  grid infrastructure, evolving from simple monopolies serving small areas to
+  segmented structures involving generation, transmission, distribution, and
+  retail as societies urbanize. While transmission and distribution remain
+  monopolistic, competition has been introduced in generation through wholesale
+  markets where multiple producers bid to supply at lowest prices, and in some
+  advanced economies, retail competition allows consumers to choose suppliers.
+  Many countries, including Thailand under an Enhanced Single Buyer model
+  post-1997 Asian Financial Crisis, rely on a Transmission System Operator (TSO)
+  that centrally procures power via reverse bidding, resembling
+  command-and-control with limited competition but potential as a stepping stone
+  to liberalization. Dynamic pricing based on time-of-use further enhances
+  efficiency in advanced markets. Solar PV systems disrupt this by plummeting in
+  cost and rising in efficiency, enabling households to become
+  'prosumers'—producing their own electricity and competing against utilities.
+  This embodies classical-liberal ideals: private ownership of means of
+  production, voluntary exchange, and market competition emerging at the retail
+  end, even without national liberalization, as seen in the author's Thai home
+  where his PV system creates a personal liberalized market.
+key_points:
+  - >-
+    Electricity markets segment into generation (competitive),
+    transmission/distribution (monopolistic), and retail, with advanced
+    economies achieving wholesale and retail competition.
+  - >-
+    Single buyer models like Thailand's Enhanced Single Buyer use TSOs for
+    reverse bidding, offering impartial grid access but lacking full market
+    freedom.
+  - >-
+    Solar PV systems empower consumers as prosumers, generating electricity at
+    home and disrupting incumbent utilities through private production.
+  - >-
+    Household PV adoption creates liberalized markets via voluntary choice and
+    private capital ownership, bypassing national market structures.
+topics:
+  - electricity-markets
+  - solar-pv
+  - market-liberalization
+  - natural-monopoly
+source_hash: fc5d0c3b282c2c2e3ff32a6d035516fb4d07ec03031cf3ff8358cecbf7a454a8
+summary_hash: fc5d0c3b282c2c2e3ff32a6d035516fb4d07ec03031cf3ff8358cecbf7a454a8
+summary_at: '2026-05-05T10:36:58.612Z'
 ---
 **By Pasamon Pechrasuwan**
 

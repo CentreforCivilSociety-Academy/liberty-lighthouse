@@ -1,15 +1,51 @@
 ---
 title: Dissolving Caste with Capitalism
 original_url: 'https://www.spontaneousorder.in/p/dissolving-caste-with-capitalism'
+author: Spontaneous Order
 published_at: '2013-06-11T19:15:18.000Z'
 ingested_at: '2026-05-05T08:31:42.603Z'
-source_hash: cdcf6f875887e928ba180319177ad9b62d4ee850c745eed248317daca53cead6
-author: Spontaneous Order
 excerpt: >-
   If you haven’t read it yet, you should read the Indian Express’ great
   interview with Milind Kamble and Chandra Bhan Prasad on how ‘Capitalism is
   changing caste much faster than any human being [and why] Dalits should look
   at capitalism as a crusader
+summary: >-
+  The post argues from a classical-liberal perspective that capitalism dissolves
+  caste by transitioning society from status-based associations determined by
+  birth to voluntary contract-based relationships, as famously described by
+  Henry Maine. Drawing on an Indian Express interview with Dalit entrepreneurs
+  Milind Kamble and Chandra Bhan Prasad, it highlights how markets prioritize
+  ability over birth, enabling anonymity and cooperation among strangers, making
+  prejudice costly. Ayn Rand's definition underscores capitalism's basis in
+  individual rights and voluntary interactions via reason and contract. Even
+  Marx and Engels acknowledged in the Communist Manifesto how the bourgeoisie
+  pitilessly tore asunder feudal ties, replacing them with cash payments and
+  constant revolutionizing of production that melts rigid social structures. The
+  author critiques decades of Nehruvian socialist planning for shackling India
+  in stagnation under the guise of solidarity, trapping Dalits in status-based
+  hierarchies. In contrast, 20 years of relatively freer markets have begun
+  transforming Dalit lives toward contractual freedom. Prasad's insight that
+  'markets have become bigger than caste' exemplifies this shift, urging
+  liberals to promote capitalism as the true crusader against caste for further
+  progress.
+key_points:
+  - >-
+    Capitalism shifts human associations from status (birth-determined) to
+    contract (voluntary choice), undermining caste as per Maine and Rand.
+  - >-
+    Markets respect ability over birth, fostering anonymity and making prejudice
+    economically costly, as noted by Chandra Bhan Prasad.
+  - >-
+    Marx observed the bourgeoisie dissolving feudal ties through self-interest
+    and production revolutions, a process capitalism accelerates.
+  - >-
+    Nehruvian planning guaranteed Dalit stagnation, but 20 years of freer
+    markets have started transforming their lives via open commerce.
+topics:
+  - capitalism
+  - caste
+  - dalits
+  - free-markets
 tags:
   - caste
   - Capitalism
@@ -17,6 +53,9 @@ tags:
   - free markets
   - Liberalism
   - culture
+source_hash: cdcf6f875887e928ba180319177ad9b62d4ee850c745eed248317daca53cead6
+summary_hash: cdcf6f875887e928ba180319177ad9b62d4ee850c745eed248317daca53cead6
+summary_at: '2026-05-05T09:34:28.911Z'
 ---
 **By Andrew Humphries**
 

@@ -1,15 +1,48 @@
 ---
 title: Making profits from the poor?
 original_url: 'https://www.spontaneousorder.in/p/making-profits-from-the-poor'
+author: Spontaneous Order
 published_at: '2004-12-26T01:47:33.000Z'
 ingested_at: '2026-05-05T08:31:42.692Z'
-source_hash: 1c5f5c2dde1e2fb4e73beb4650cb39616df94f27b0aefff30f6f366047035e5d
-author: Spontaneous Order
 excerpt: >-
   I have a thing or two against the current crop of business books, quite a few
   of them are not worth the tissue paper that could be made from them. Most of
   them attempt to rehash the same points with scant pints of intellectual
   profit. Read how the Econo..
+summary: >-
+  Naveen Mandava critiques the glut of unoriginal business books and hails C.K.
+  Prahlad's 'The Fortune at the Bottom of the Pyramid: Eradicating Poverty
+  Through Profits' for offering fresh insights into serving underdeveloped
+  markets profitably. He argues that government aid programs fail, corporate
+  social responsibility diverts shareholder value unprofitably, and suggestions
+  like subsidized bank loans to the poor ignore creditworthiness realities—banks
+  charge the poor three times higher interest than large firms like Reliance due
+  to recovery challenges. Informal markets reveal even steeper rates: a street
+  hawker borrowing Rs 100 repays Rs 110 the same day, equating to astronomical
+  annualized interest. Mandava advocates uncovering and engaging these market
+  structures innovatively, as companies do with sachets that thrive among
+  India's poor. The classical-liberal conclusion is that businesses, by devising
+  strategies for the purchasing power of 5 billion poor worldwide, can eradicate
+  poverty through profits rather than charity or intervention.
+key_points:
+  - >-
+    Businesses should serve the poor profitably by innovating for their market
+    structures, as shown in Prahlad's book.
+  - >-
+    Government aid and CSR fail to deliver; markets enable poverty eradication
+    via profits.
+  - >-
+    Informal lending to the poor charges extreme rates, like 10% daily on Rs 100
+    loans, highlighting untapped opportunities.
+  - Sachet packaging succeeds by matching the poor's purchasing power in India.
+topics:
+  - bottom-of-pyramid
+  - poverty-alleviation
+  - free-markets
+  - microfinance
+source_hash: 1c5f5c2dde1e2fb4e73beb4650cb39616df94f27b0aefff30f6f366047035e5d
+summary_hash: 1c5f5c2dde1e2fb4e73beb4650cb39616df94f27b0aefff30f6f366047035e5d
+summary_at: '2026-05-05T10:48:49.958Z'
 ---
 **By Naveen Mandava**
 

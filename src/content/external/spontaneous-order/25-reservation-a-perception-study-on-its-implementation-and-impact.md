@@ -2,21 +2,66 @@
 title: '25% Reservation: A perception study on its implementation and impact'
 original_url: >-
   https://www.spontaneousorder.in/p/25-reservation-a-perception-study-on-its-implementation-and-impact
+author: Spontaneous Order
 published_at: '2012-05-04T11:37:44.000Z'
 ingested_at: '2026-05-05T08:31:42.621Z'
-source_hash: 12bd7a28b42508d12c2e20d64e76ffc869f79fb201f555391953d6364dfb8f9e
-author: Spontaneous Order
 excerpt: >-
   With the enactment of the Right to Education Act (specifically Clause 12 i.e.
   the reservation of 25% of the entry-level seats in all private unaided schools
   for government-sponsored Economically Weaker Section (EWS) students and
   students from disadvanta..
+summary: >-
+  The Right to Education Act's Clause 12, mandating 25% reservation of
+  entry-level seats in private unaided schools for Economically Weaker Section
+  (EWS) and disadvantaged students with government sponsorship, represents a
+  classical-liberal acknowledgment of the private sector's vital role in
+  delivering quality education, as evidenced by poor families' preferences:
+  14.8% of 5-10 year olds below poverty line, 13.8% of 11-14 year olds, and 7%
+  of 15-17 year olds attend private schools, with parents spending 6-11% of
+  income on them. Despite positive reactions to this recognition, opposition
+  persists from those viewing it as the government shirking its constitutional
+  duty. A Centre for Civil Society perception study in four Delhi districts, via
+  interviews and focus groups, reveals implementation hurdles: over 56% of 162
+  eligible EWS parents did not apply due to low awareness despite nearby
+  schools; fee-paying and EWS parents worried about child integration, though no
+  exclusion occurred; higher-fee schools (Rs. 1000+/month) found reimbursements
+  too low, low-fee ones (under Rs. 500) fretted delays; officials noted needs
+  for streamlined targeting, publicity to fill seats. While a step toward school
+  choice for marginalized children, the clause requires clearer reimbursement
+  guidelines, timelines, awareness campaigns, and streamlined processes to
+  overcome opposition from schools and parents and achieve social justice
+  through quality access.
+key_points:
+  - >-
+    Poor Indian families overwhelmingly prefer private schools, with 14.8% of
+    below-poverty-line 5-10 year olds enrolled and parents spending 6-11% of
+    income on fees.
+  - >-
+    56% of eligible EWS parents in Delhi districts failed to apply under Clause
+    12 due to unawareness or ignorance of procedures.
+  - >-
+    Private schools face reimbursement uncertainties, with higher-fee schools
+    deeming amounts insufficient and low-fee ones anxious about delays.
+  - >-
+    Fee-paying parents perceive integration challenges for EWS students, but no
+    actual exclusion issues were reported in the study.
+  - >-
+    Clause 12 can enable school choice for disadvantaged children if government
+    improves awareness, targeting, and reimbursement clarity.
+topics:
+  - rte-act
+  - ews-reservation
+  - private-education
+  - school-choice
 tags:
   - Economically Weaker Sections
   - School Choice Campaign
   - Education for all
   - Budget schools
   - Right to Education Act
+source_hash: 12bd7a28b42508d12c2e20d64e76ffc869f79fb201f555391953d6364dfb8f9e
+summary_hash: 12bd7a28b42508d12c2e20d64e76ffc869f79fb201f555391953d6364dfb8f9e
+summary_at: '2026-05-05T08:45:47.732Z'
 ---
 **By Sana Kazi**
 

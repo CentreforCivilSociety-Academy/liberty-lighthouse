@@ -1,15 +1,48 @@
 ---
 title: Can the President set a precedent?
 original_url: 'https://www.spontaneousorder.in/p/can-the-president-set-a-precedent'
+author: Spontaneous Order
 published_at: '2005-05-09T21:33:28.000Z'
 ingested_at: '2026-05-05T08:31:42.685Z'
-source_hash: bd3cc559ceb3cdd127e2f1e52bd473822fc29c7ac536aeabcb771b197921b036
-author: Spontaneous Order
 excerpt: >-
   Answer the following: What is one of the three largest residences on earth;
   costs the national exchequer over Rs 60 crores per annum (with a private
   school monthly school fees of Rs 800 per month, about 60,000 children can be
   schooled); one man is serve..
+summary: >-
+  Naveen Mandava critiques the Rashtrapati Bhavan, India's presidential
+  residence, as an extravagant 360-acre, 340-room colonial legacy costing the
+  public exchequer over Rs 60 crores annually—enough to fund private schooling
+  at Rs 800 per month for about 60,000 children. It employs around 1,000 aides
+  including 150 gardeners, 110 sweepers, 35 butlers, 18 cooks, 10 bakers, 16
+  drivers, five mechanics, 180 bodyguards, and 60 horses, plus 1,000 armed Delhi
+  Police personnel. Monthly bills include Rs 31 lakh for electricity and Rs 2
+  lakh for water. From a classical-liberal viewpoint, Mandava questions the
+  necessity of such opulence for a ceremonial figurehead presidency, noting
+  President APJ Abdul Kalam has not even visited most rooms after three years.
+  He finds no sound argument for its continuance and urges Kalam to slash costs,
+  setting a precedent for governmental self-limitation—a classic conundrum in
+  limiting state excess. This could define Kalam's legacy as a mission for
+  fiscal restraint and smaller government.
+key_points:
+  - >-
+    Rashtrapati Bhavan costs over Rs 60 crores yearly, equivalent to schooling
+    60,000 children at Rs 800/month private fees.
+  - >-
+    The residence staffs about 1,000 aides and 1,000 police, with high utility
+    bills like Rs 31 lakh monthly electricity.
+  - >-
+    Mandava argues no justification exists for maintaining this for a figurehead
+    president who underuses it.
+  - President Kalam should cut costs to exemplify government self-limitation.
+topics:
+  - government-waste
+  - fiscal-responsibility
+  - presidential-residence
+  - small-government
+source_hash: bd3cc559ceb3cdd127e2f1e52bd473822fc29c7ac536aeabcb771b197921b036
+summary_hash: bd3cc559ceb3cdd127e2f1e52bd473822fc29c7ac536aeabcb771b197921b036
+summary_at: '2026-05-05T09:16:05.875Z'
 ---
 **By Naveen Mandava**
 

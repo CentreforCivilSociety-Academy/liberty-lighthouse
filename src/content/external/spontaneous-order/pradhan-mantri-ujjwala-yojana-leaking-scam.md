@@ -1,20 +1,64 @@
 ---
 title: Pradhan Mantri Ujjwala Yojana is Leaking
 original_url: 'https://www.spontaneousorder.in/p/pradhan-mantri-ujjwala-yojana-leaking-scam'
+author: Spontaneous Order
 published_at: '2020-01-22T15:19:59.000Z'
 ingested_at: '2026-05-05T08:31:42.449Z'
-source_hash: c0027f5f59bb24de6fc529a2b9047b01b298485f890b151bddfa885550f1a8aa
-author: Spontaneous Order
 excerpt: >-
   The Comptroller and Auditor General of India (CAG) on 11 December 2019 tabled
   a report on the Pradhan Mantri Ujjwala Yojana. The report had widely flown
   under the radar of almost all newspapers and most journalists, until Faye
   D’Souza, pointed it out on
+summary: >-
+  The Pradhan Mantri Ujjwala Yojana (PMUY), launched in 2016 to provide 50
+  million (later expanded to 80 million) free LPG connections to BPL women with
+  an ₹800 billion allocation, suffers from glaring inefficiencies and likely
+  scams as per the 2019 CAG report. Key issues include 1.88 lakh connections
+  issued to males despite women-only eligibility; 2 lakh BPL consumers averaging
+  over 12 cylinders annually and 13.96 lakh taking 3-41 refills monthly,
+  suggesting black marketing; 3.44 lakh instances of multiple same-day refills;
+  60% of surveyed beneficiaries not fully shifted to clean fuels; unrecoverable
+  stove loans; and absence of performance indicators. From a classical-liberal
+  viewpoint, these stem from flawed policy: 18% GST on commercial LPG versus 5%
+  on domestic creates arbitrage incentives for diverting subsidized cylinders,
+  compounded by unverified Aadhaar linkages, state-owned firms' push for
+  connections without usage monitoring, and involvement of
+  distributors/middlemen. A conservative back-of-envelope calculation estimates
+  over ₹2,120 crore in diverted transactions from 20.12 lakh high-refill
+  instances, potentially tens of thousands of crores including
+  subsidies—revealing government incapacity, corruption risks, and policy
+  distortions without proper planning or metrics. The CAG urges full database
+  scrutiny, yet the Ministry has not investigated.
+key_points:
+  - >-
+    CAG report uncovers PMUY irregularities like 1.88 lakh male connections,
+    extreme refill patterns in 13.96 lakh BPL households indicating black
+    marketing, and 3.44 lakh same-day multiple refills.
+  - >-
+    Differential GST (18% commercial vs 5% domestic) incentivizes diversion of
+    subsidized LPG cylinders to commercial use.
+  - >-
+    Conservative scam estimate exceeds ₹2,120 crore from high-refill diversions,
+    likely far higher with subsidies.
+  - >-
+    60% beneficiaries not shifted to clean fuels, loans unrecoverable, and no
+    performance indicators highlight implementation failure.
+  - >-
+    Full LPG database audit needed to quantify losses from inefficient policy
+    and corruption.
+topics:
+  - lpg-subsidy
+  - tax-distortions
+  - government-waste
+  - cag-audit
 tags:
   - Ujjwala Yojana
   - Narendra Modi
   - Pradhan Mantri Ujjwala Yojana
   - Scam
+source_hash: c0027f5f59bb24de6fc529a2b9047b01b298485f890b151bddfa885550f1a8aa
+summary_hash: c0027f5f59bb24de6fc529a2b9047b01b298485f890b151bddfa885550f1a8aa
+summary_at: '2026-05-05T11:16:51.722Z'
 ---
 **By Sourya Banerjee**
 

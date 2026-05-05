@@ -2,15 +2,56 @@
 title: 'Reviving India’s Pursuit for Speed: Evolution and Challenges'
 original_url: >-
   https://www.spontaneousorder.in/p/reviving-indias-pursuit-for-speed-evolution-and-challenges
+author: Spontaneous Order
 published_at: '2023-08-02T11:36:25.000Z'
 ingested_at: '2026-05-05T08:31:42.237Z'
-source_hash: 0dc7b2f6ee1bcb97945e91d49d7b6baa9f5fbe0836003a3592d7b1a3d497d7ce
-author: Spontaneous Order
 excerpt: >-
   Despite being a key player in India’s transport ecosystem, the railways have
   been steadily losing passengers to the fast-expanding aviation market
   providing connectivity to tier-II cities. The following article looks at the
   possibilities of India’s Sp
+summary: >-
+  Indian Railways, once central to post-independence transport, are losing
+  long-distance passengers to aviation's dynamic growth via low-cost carriers
+  and UDAN scheme connecting tier-II cities. The Speed Up Campaign (Mission
+  Raftar) seeks to boost mainstream network speeds, building on pursuits since
+  1969 and projects like the diamond quadrilateral high-speed corridors, but
+  infrastructural bottlenecks persist: 13 signalling failures in five years,
+  post-Balasore upgrades including INR 1 trillion for signalling and Kavach
+  system, INR 307 billion for track doubling, and INR 173 billion for
+  renewals—yet CAG notes track renewal fell from INR 9,607 crores (2018-19) to
+  7,417 crores (2019-20). Roadblocks include slow post-liberalization
+  adaptation, strict entry regulations stifling low-cost innovations for the
+  poor or premium services, social resistance to upper-class trains like
+  Rajdhani, top-down policies favoring capital-intensive ventures like INR
+  1,07,000 crore bullet trains amid competing cheap airfares and roads, and
+  unprioritized Kakodkar safety investments of INR 100,000 crores. From a
+  classical-liberal view, emulate aviation's private liberalization via Rakesh
+  Mohan Committee's PPP push; decentralize policymaking, separate policy from
+  operations allowing private focus on maintenance, foster creative bureaucracy
+  to modernize infrastructure, cut travel times, and reclaim market share from
+  airlines.
+key_points:
+  - >-
+    Indian Railways must prioritize signalling upgrades (e.g., Kavach) and track
+    renewals to enable speed increases amid 13 recent failures.
+  - >-
+    Introduce private players through PPPs to handle operations and maintenance,
+    separating them from policymaking as per Rakesh Mohan Committee.
+  - >-
+    Decentralize railway policymaking to involve zones, experts, and private
+    entities for holistic infrastructure modernization.
+  - >-
+    Shift from top-down capital projects to market-responsive innovations like
+    low-cost rail to compete with aviation and roads.
+topics:
+  - indian-railways
+  - transport-liberalization
+  - public-private-partnerships
+  - infrastructure-modernization
+source_hash: 0dc7b2f6ee1bcb97945e91d49d7b6baa9f5fbe0836003a3592d7b1a3d497d7ce
+summary_hash: 0dc7b2f6ee1bcb97945e91d49d7b6baa9f5fbe0836003a3592d7b1a3d497d7ce
+summary_at: '2026-05-05T11:27:14.700Z'
 ---
 **By Chitresh Shrivastva**
 

@@ -2,19 +2,59 @@
 title: 'It’s not 1950: India needs an urgent policy overhaul in agriculture- Part 1'
 original_url: >-
   https://www.spontaneousorder.in/p/its-not-1950-india-needs-an-urgent-policy-overhaul-in-agriculture
+author: Spontaneous Order
 published_at: '2019-03-20T08:48:39.000Z'
 ingested_at: '2026-05-05T08:31:42.497Z'
-source_hash: e0625090f64d7280a309487da582d94a12474e080aaccb4ce974678e4b54d99b
-author: Spontaneous Order
 excerpt: >-
   Its 1950. India, a newly independent country of 360mn1 is experimenting with
   democracy. Armed with a benevolent constitution, the nation’s leaders
   deliberate over ways of improving the lives of its citizens. They stumble upon
   Agriculture by no coinciden
+summary: >-
+  India's agriculture policies, designed in 1950 when the sector contributed
+  ~50% to GDP and employed over 80% of a 360 million population, are outdated
+  amid today's realities of <20% GDP share and ~40% employment, rendering
+  subsidies like INR 2,400 billion in 2018 inefficient for uplifting the
+  majority. While food self-sufficiency remains vital, especially for marginal
+  farmers and landless laborers in subsistence farming—who produce just for
+  survival, rely on monsoons, and shun modern methods—policies must decouple
+  broad agricultural subsidies from farmer welfare. Commercial farming by large
+  landowners, corporates, and cooperatives drives market yields but leaves
+  subsistence farmers trapped due to lack of alternatives, as seen in
+  rural-urban migration. From a classical-liberal viewpoint, India should
+  welcome entrepreneurs into agriculture by slashing red tape, reforming land
+  ownership and labor laws, and easing credit access. Marginal farmers would
+  benefit via local cooperatives renting land to entrepreneurs, securing
+  market-driven rental income while stipulating local labor use to aid landless
+  workers; tribunals would resolve disputes swiftly. Direct cash transfers offer
+  better-targeted aid than indirect subsidies, fostering economic freedom and
+  productivity without exploitation.
+key_points:
+  - >-
+    Agriculture's diminished role (<20% GDP, ~40% employment) makes broad
+    subsidies inefficient compared to 1950 levels (50% GDP, 80% employment).
+  - >-
+    Subsistence farming traps poor marginal farmers who need direct aid like
+    cash transfers, while commercial farming by entrepreneurs boosts yields.
+  - >-
+    Reform by enabling entrepreneurs through land/labor law changes, easier
+    credit, and cooperatives for secure land leasing to provide rental income
+    and jobs.
+  - >-
+    Local cooperatives empower farmers to set labor conditions and utilize idle
+    lands, with tribunals for quick dispute resolution.
+topics:
+  - agriculture
+  - agricultural-subsidies
+  - land-reform
+  - economic-freedom
 tags:
   - farmers' woes
   - Making markets work for the poor
   - Agriculture policy
+source_hash: e0625090f64d7280a309487da582d94a12474e080aaccb4ce974678e4b54d99b
+summary_hash: e0625090f64d7280a309487da582d94a12474e080aaccb4ce974678e4b54d99b
+summary_at: '2026-05-05T10:32:28.361Z'
 ---
 **By Nishchint Satam**
 

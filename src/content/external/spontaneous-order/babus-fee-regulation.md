@@ -1,15 +1,53 @@
 ---
 title: Dealing with Babus – A Reality of Errors
 original_url: 'https://www.spontaneousorder.in/p/babus_fee_regulation'
+author: Spontaneous Order
 published_at: '2019-08-13T13:25:35.000Z'
 ingested_at: '2026-05-05T08:31:42.723Z'
-source_hash: 07a331a5a31182ed5d0d8954ce7f46f84a523c7b0ecd181ef6bbe7f478f49006
-author: Spontaneous Order
 excerpt: >-
   When we started the Researching Reality internship at the Centre for Civil
   Society, we had some sense of what we were signing up for—going to government
   offices and dealing with babus would be routine. However, we realised some
   weeks in that we had gros
+summary: >-
+  Adit Shankar recounts the frustrations of Researching Reality interns at CCS
+  when dealing with Indian government bureaucrats (babus) during research on fee
+  regulation. Government websites feature shoddy interfaces, broken links, and
+  outdated contact lists—even one 'updated' list from an office included retired
+  officials' numbers. Officials offered inconsistent guidance, dismissed queries
+  by claiming data was not public or available online, and proved unresponsive
+  even to RTIs, which mirrored the same evasive attitudes in formal language. A
+  pivotal discovery was the sheer inefficiency: none of the 30 listed
+  supervisors for a 2017 government committee on fee regulation had heard of it,
+  forcing a complete rethink of the research approach due to ad hoc processes.
+  Interviews with parents and schools—opposing parties in fee disputes—revealed
+  shared disillusionment with the government's opacity, arrogance,
+  arbitrariness, and lack of accountability, contradicting expectations of
+  favoritism in this politicized issue. From a classical-liberal viewpoint,
+  these experiences underscore the barriers to transparent, accountable
+  governance, highlighting the long road to an efficient 'service delivery'
+  model India aspires to.
+key_points:
+  - >-
+    Government websites and contact lists are outdated, dysfunctional, and
+    include retired officials' details.
+  - >-
+    Officials provide inconsistent information, refuse meetings, and evade RTIs
+    with claims that data is not public.
+  - >-
+    None of 30 listed supervisors knew of the 2017 fee regulation committee,
+    exposing ad hoc processes.
+  - >-
+    Parents and schools, despite opposing interests, universally decry
+    government's opacity, arrogance, and lack of accountability.
+  - >-
+    India needs a shift to efficient service delivery governance to overcome
+    bureaucratic inefficiencies.
+topics:
+  - bureaucracy
+  - government-inefficiency
+  - fee-regulation
+  - transparency
 tags:
   - RTE
   - Bureaucracy
@@ -18,6 +56,9 @@ tags:
   - Fee Regulation
   - government bureaucracies
   - Government
+source_hash: 07a331a5a31182ed5d0d8954ce7f46f84a523c7b0ecd181ef6bbe7f478f49006
+summary_hash: 07a331a5a31182ed5d0d8954ce7f46f84a523c7b0ecd181ef6bbe7f478f49006
+summary_at: '2026-05-05T09:04:51.758Z'
 ---
 **By Adit Shankar**
 

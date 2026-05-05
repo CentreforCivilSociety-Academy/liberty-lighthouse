@@ -2,20 +2,64 @@
 title: Administrative Reforms and Ethics in Government
 original_url: >-
   https://www.spontaneousorder.in/p/administrative-reforms-and-ethics-in-government
+author: Spontaneous Order
 published_at: '2009-01-06T16:01:17.000Z'
 ingested_at: '2026-05-05T08:31:42.669Z'
-source_hash: 5ba1553869e8905c71a2717e3a1948f298c6952d7b47cfee6252e79ae0b36790
-author: Spontaneous Order
 excerpt: >-
   FICCI has started a new series of seminars on Governance & Politics. Today was
   their first conference with Administrative Reforms Commission chair Veerappa
   Moily and others. I also spoke on the panel, got about 10 mins of time. In the
   audience were pa...
+summary: >-
+  Parth Shah, founder of Centre for Civil Society, presented talking points at
+  FICCI's first Governance & Politics conference with Administrative Reforms
+  Commission chair Veerappa Moily, advocating classical-liberal reforms to
+  enhance government accountability, transparency, and individual liberty. On
+  government structure, he proposed fixed terms for parliament/assembly, fixed
+  sitting schedules, non-MP cabinet members except PM/CM, empowering MPs to vote
+  conscience by repealing anti-defection provisions (Schedule 10), and open
+  budget processes. For political parties, declare donors and audited accounts.
+  Sovereign functions require 4% budget allocation to police and judiciary with
+  full-price courts. Direct democracy includes local referendums, direct mayor
+  elections as CEO, and citizen tax allocation. Replace welfare schemes with
+  vouchers/cash transfers, national ID for monitoring, and sunset clauses.
+  Ethics demand RTI Section 4 transparency, performance pay via citizen charters
+  and benchmarks, equal standards under consumer protection act, and
+  self-criticism culture. Extend reforms to corporate/media/non-profit:
+  deregulate informal sector, devolve natural resources to locals, abolish
+  Essential Commodities Act/APMCs/export restrictions to free farmers. Concludes
+  with state attitude: people are rational, responsible, self-governing under
+  right incentives and laws—display in every office.
+key_points:
+  - >-
+    Implement fixed terms and sittings for parliament/assembly, allow non-MP
+    cabinet members, and repeal anti-defection law to empower conscience voting.
+  - >-
+    Allocate 4% of budget to police and judiciary, introduce full-price courts,
+    and enable citizen tax allocation to expenditure heads.
+  - >-
+    Replace welfare schemes with vouchers/cash transfers, add sunset clauses,
+    and use national ID for selection/monitoring.
+  - >-
+    Enforce transparency via RTI, performance pay with citizen charters, equal
+    consumer protections for government services, and self-criticism in
+    government branches.
+  - >-
+    Deregulate informal sector, devolve natural resources to locals, and abolish
+    Essential Commodities Act, APMC, and trade restrictions to free farmers.
+topics:
+  - administrative-reforms
+  - electoral-reforms
+  - governance-ethics
+  - welfare-reform
 tags:
   - FICCI
   - ARC
   - Ethics
   - Governance
+source_hash: 5ba1553869e8905c71a2717e3a1948f298c6952d7b47cfee6252e79ae0b36790
+summary_hash: 5ba1553869e8905c71a2717e3a1948f298c6952d7b47cfee6252e79ae0b36790
+summary_at: '2026-05-05T08:51:23.274Z'
 ---
 **By Parth Shah**
 

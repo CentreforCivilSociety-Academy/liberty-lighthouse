@@ -2,15 +2,58 @@
 title: MSP seen through the lens of the Austrian School of Economics
 original_url: >-
   https://www.spontaneousorder.in/p/msp-seen-through-the-lens-of-the-austrian-school-of-economics
+author: Spontaneous Order
 published_at: '2022-11-04T16:40:25.000Z'
 ingested_at: '2026-05-05T08:31:42.256Z'
-source_hash: 84b6a6285ed296e172757b04501a241903e84df3811843e7ea058b247c4f9eba
-author: Spontaneous Order
 excerpt: >-
   The Minimum Support Price(MSP) is an advisory price that the Government of
   India(GoI) announces for certain agricultural products before the sowing
   season, to procure them if open market prices are lower. In this article, we
   will look at MSP through the..
+summary: >-
+  From an Austrian School of Economics perspective, India's Minimum Support
+  Price (MSP) for agricultural products distorts markets by overriding
+  spontaneous price discovery, which aggregates dispersed knowledge across time
+  and place as per Hayek's Knowledge Problem. MSP, calculated by the Commission
+  for Agricultural Costs & Prices (CACP) using production costs and other
+  aggregates, ignores subjective marginalism and the labor theory of value,
+  exemplified by a laborious but worthless book. Free market prices signal
+  resource allocation, as in the Diwali milk price surge redirecting supply to
+  sweet shops. MSP subverts entrepreneurship, preventing farmers from
+  discovering optimal uses amid factors like heatwaves, pest attacks, wars, or
+  innovations in GMOs and precision farming. Consequences include distorted
+  signals causing water-intensive paddy in drought-prone areas (e.g., Haryana's
+  81 dark-zone blocks), food inflation, rotting grains in FCI stores, and excess
+  exports. In Chhattisgarh and UP (Nov 2020), market prices trailed MSP by Rs
+  300/quintal and Rs 200/quintal for paddy. Haryana's 'Mera Pani, Meri Virasat'
+  program counters this with Rs 7000/acre for diversified crops, honoring market
+  prices over higher MSP demands. The conclusion: Policymakers should have no
+  opinion on prices and avoid controlling them, per Vijay Kelkar.
+key_points:
+  - >-
+    MSP calculation based on production costs ignores subjective marginal value
+    and distorts price signals essential for coordinating dispersed knowledge.
+  - >-
+    Government price interventions like MSP subvert entrepreneurial judgment,
+    leading to inefficiencies such as water table depletion from paddy in
+    unsuitable areas.
+  - >-
+    MSP causes food inflation, grain wastage in FCI godowns, and mismatched
+    protein production despite changing demands.
+  - >-
+    Haryana's Rs 7000/acre subsidy for crop diversification encourages
+    entrepreneurial discovery by prioritizing market prices over MSP hikes.
+  - >-
+    Policymakers should refrain from setting or controlling agricultural prices
+    to enable spontaneous market order.
+topics:
+  - minimum-support-price
+  - austrian-economics
+  - price-discovery
+  - agricultural-policy
+source_hash: 84b6a6285ed296e172757b04501a241903e84df3811843e7ea058b247c4f9eba
+summary_hash: 84b6a6285ed296e172757b04501a241903e84df3811843e7ea058b247c4f9eba
+summary_at: '2026-05-05T10:57:57.028Z'
 ---
 **By Abhimanyu Gupta**
 

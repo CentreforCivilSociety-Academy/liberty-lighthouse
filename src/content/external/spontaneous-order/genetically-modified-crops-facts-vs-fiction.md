@@ -1,15 +1,48 @@
 ---
 title: Genetically Modified Crops – Facts Vs Fiction
 original_url: 'https://www.spontaneousorder.in/p/genetically-modified-crops-facts-vs-fiction'
+author: Spontaneous Order
 published_at: '2019-08-21T13:30:26.000Z'
 ingested_at: '2026-05-05T08:31:42.475Z'
-source_hash: 89a3b0f89430532a6b975e6ed9a64f0a9e252ae740f278658e1980ff811102c3
-author: Spontaneous Order
 excerpt: >-
   India’s journey from a food deficient and famine-affected country towards
   self-sufficiency and further to become one of the top net producers and
   exporters in the world has been remarkable. However, the average yield per
   hectare is much less in India co
+summary: >-
+  India's agricultural progress from food deficiency to top exporter is notable,
+  yet yields lag behind the US, Europe, and China, leaving farmers poor despite
+  favorable conditions. GM crops like Bt cotton—now 90% of India's cotton—have
+  boosted yields, farmer incomes, reduced pesticide use, and positioned India as
+  a major exporter, demonstrating technology's potential. Fears of health risks
+  (e.g., cancer, diabetes) lack evidence, as affirmed by Indian scientists in
+  Current Science, long-term US/Canada use, livestock studies, and no issues
+  from GM cotton-fed cows. Environmental concerns are ironic given agriculture's
+  GHG role and unopposed subsidies like water; GEAC cleared Bt Brinjal and GM
+  Mustard despite protests, ignoring 129 Nobel Laureates' support. Monopoly
+  fears overlook farmers' informed demands. The classical-liberal solution
+  rejects blanket moratoriums that stifle innovation and food security,
+  advocating farmer independence to choose technologies, consumer labeling for
+  informed choices, institutional freedom for regulated research/trials, and
+  science-based debate via academies like US/Indian National Science Academies.
+key_points:
+  - >-
+    Bt cotton adoption has increased yields, cut pesticide costs, raised farmer
+    incomes, and made India a top cotton exporter.
+  - >-
+    Scientific consensus, including Indian and international studies, finds no
+    health or environmental harms from GM crops after decades of use.
+  - >-
+    GEAC approvals for Bt Brinjal and GM Mustard should override protest-based
+    bans to enable productivity gains.
+  - >-
+    Empower farmers' choice of GM tech, mandate labeling for consumers, and
+    ensure regulated R&D to boost incomes and security.
+topics:
+  - gm-crops
+  - agricultural-productivity
+  - farmer-choice
+  - biotech-regulation
 tags:
   - Bayer-Monsanto
   - Monsanto
@@ -23,6 +56,9 @@ tags:
   - farmers civil disobedience
   - agriculture
   - freedom for farmers
+source_hash: 89a3b0f89430532a6b975e6ed9a64f0a9e252ae740f278658e1980ff811102c3
+summary_hash: 89a3b0f89430532a6b975e6ed9a64f0a9e252ae740f278658e1980ff811102c3
+summary_at: '2026-05-05T10:03:07.381Z'
 ---
 **By Manasa Pidatala**
 

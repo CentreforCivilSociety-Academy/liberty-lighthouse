@@ -1,19 +1,57 @@
 ---
 title: Meaning Over Money
 original_url: 'https://www.spontaneousorder.in/p/meaning-over-money'
+author: Spontaneous Order
 published_at: '2018-08-06T08:22:44.000Z'
 ingested_at: '2026-05-05T08:31:42.526Z'
-source_hash: 97ca236aa690a3d9e514e74a620dbd6116f661d7b5d83765de33cc5572f229c6
-author: Spontaneous Order
 excerpt: >-
   For almost half of my adult life, I was running a not-for-profit venture with
   a team of unpaid volunteers in the suburbs of Mumbai. Yes, the social
   enterprise was successful in transforming few lives and won a few accolades,
   but running around in Mumbai..
+summary: >-
+  Archit Puri reflects on his years running a nonprofit in Mumbai without pay,
+  framing it not as irrational but as driven by meaning, per Dan Ariely's
+  'Payoff: The Hidden Logic That Shapes Our Motivations.' Ariely argues that
+  people pursue complex, hard activities for lasting impact beyond financial
+  gains. Key evidence is the IKEA effect: in an experiment, 'builders' who made
+  origami valued them five times higher than 'buyers'; those without
+  instructions, exerting more effort, valued them even more, as effort enhances
+  self-identity and satisfaction. Ariely extends this to parenting, where
+  parental investment amplifies love for children sharing their features. Puri
+  critiques Adam Smith's view of labor as mere paycheck-for-drudgery exchange,
+  noting its endurance but irrelevance today—tech giants like Amazon, Google,
+  and Zappos foster motivation via meaningful environments, fun perks, and
+  world-changing narratives. Applications extend to Indian politics: BJP and
+  Congress use membership drives and victory signaling to make voters feel
+  integral to success, not wasted votes. While not groundbreaking for behavioral
+  economics veterans like Kahneman readers, the book offers accessible insights
+  for motivators in any role.
+key_points:
+  - >-
+    The IKEA effect leads people to overvalue their partial creations, with
+    builders pricing origami five times higher than non-builders.
+  - >-
+    Greater effort, as in unstructured origami tasks, proportionally increases
+    satisfaction and perceived value.
+  - >-
+    Modern companies like Google and Zappos motivate employees through
+    meaningful work and perks, rejecting Smith's dismal labor view.
+  - >-
+    Political parties engage voters by framing participation as contributory to
+    victory, leveraging the IKEA effect.
+topics:
+  - behavioral-economics
+  - ikea-effect
+  - motivation
+  - labor-markets
 tags:
   - Dan Ariely
   - book reviews
   - Pay off
+source_hash: 97ca236aa690a3d9e514e74a620dbd6116f661d7b5d83765de33cc5572f229c6
+summary_hash: 97ca236aa690a3d9e514e74a620dbd6116f661d7b5d83765de33cc5572f229c6
+summary_at: '2026-05-05T10:52:07.883Z'
 ---
 **By Archit Puri**
 

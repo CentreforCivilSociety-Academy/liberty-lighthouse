@@ -1,19 +1,56 @@
 ---
 title: 'PMJAY: Yay or Nay?'
 original_url: 'https://www.spontaneousorder.in/p/pmjay-yay-or-nay'
+author: Spontaneous Order
 published_at: '2018-10-31T12:19:28.000Z'
 ingested_at: '2026-05-05T08:31:42.511Z'
-source_hash: b4a1cc738d0bfb84b61a4a960476572fda63166aeed659d7a46f07f12e99e0aa
-author: Spontaneous Order
 excerpt: >-
   The Prime Minister’s 2018 Independence Day speech marked the launch of
   Ayushman Bharat: a ‘pathbreaking’, ‘game-changing’ initiative being viewed as
   the beacon for transforming healthcare for the underprivileged in India. The
   Ayushman Bharat-Nat
+summary: >-
+  PM-JAY, launched in 2018 as part of Ayushman Bharat, promises health insurance
+  coverage up to Rs 5 lakhs per year for 10 crore poor families (50 crore
+  people), identified via SECC, to prevent poverty from out-of-pocket
+  hospitalization costs that pushed 55 million Indians into poverty annually per
+  PHFI study. Despite noble aims of universal health coverage, the scheme faces
+  severe flaws from a classical-liberal lens prioritizing market incentives and
+  efficient policy. Budget allocation of Rs 2,000 crore falls drastically short
+  of estimates (Rs 6,000-12,000 crore by CEO Indu Bhushan and NITI Aayog),
+  equating to just Rs 200 premium per family versus needed Rs 1,000-1,200. Low
+  government-set reimbursement rates deter private hospital empanelment, as
+  criticized by the Indian Medical Association, risking quality compromise and
+  corruption—echoing failures of predecessor RSBY, including service denials,
+  delayed payments, top-up pricing, monopolistic exploitation in tier-II/III
+  cities, and unnecessary procedures due to absent regulation. Without
+  addressing these implementation gaps, PM-JAY repackages RSBY's broken model,
+  unlikely to deliver on promises amid pre-election hype.
+key_points:
+  - >-
+    PM-JAY's Rs 2,000 crore budget is insufficient against Rs 6,000-12,000 crore
+    estimates, underfunding coverage for 50 crore beneficiaries.
+  - >-
+    Low reimbursement rates discourage private hospital participation, repeating
+    RSBY's issues of denials, top-ups, and corruption.
+  - >-
+    Lack of regulation enables monopolies, unnecessary procedures, and
+    exploitation, especially in tier-II/III cities.
+  - >-
+    Scheme fails to learn from RSBY's flaws, prioritizing narrative over
+    effective design changes.
+topics:
+  - healthcare-policy
+  - health-insurance
+  - government-schemes
+  - private-sector-incentives
 tags:
   - Ayushman Bharat
   - Public Health
   - Healthcare
+source_hash: b4a1cc738d0bfb84b61a4a960476572fda63166aeed659d7a46f07f12e99e0aa
+summary_hash: b4a1cc738d0bfb84b61a4a960476572fda63166aeed659d7a46f07f12e99e0aa
+summary_at: '2026-05-05T11:14:16.752Z'
 ---
 **By Shivangi Sharan**
 

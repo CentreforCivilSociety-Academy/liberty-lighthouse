@@ -1,17 +1,56 @@
 ---
 title: Nudging – A tool for liberal policymaking
 original_url: 'https://www.spontaneousorder.in/p/nudging-a-tool-for-liberal-policymaking'
+author: Spontaneous Order
 published_at: '2020-09-03T15:51:32.000Z'
 ingested_at: '2026-05-05T08:31:42.384Z'
-source_hash: 9fcf17dc752f7e54fe53fe3f8be20b6c0fe32029d1dbb4f6f674785048c585ae
-author: Spontaneous Order
 excerpt: >-
   Nudge is being used by governments all across the world for better
   implementation of public policies in the area of health, education,
   sanitation, environment protection, etc.
+summary: >-
+  The post advocates nudging from behavioural economics as a classical-liberal
+  tool for policymaking, enabling governments to influence behaviour effectively
+  without coercive mandates, punishments, or restrictions on liberty. It
+  contrasts traditional rationalist policies, which assume perfect rationality
+  and often fail—like India's APMC Act that restricted farmers to mandis,
+  intended to protect them but hindering livelihoods until recent COVID
+  amendments—with low-cost nudges that respect choice. Examples include
+  Maharashtra's chalk circles for 1-metre social distancing at shops, far more
+  effective than mere guidelines, and suggested posters using social pressure
+  for mask-wearing over fines. Globally, the UK's Behavioural Insights Team
+  boosted recycling via deposit schemes: amid 14 billion litres of soft drinks
+  (234 litres per person in 2007), Irn-Bru achieved 70% bottle returns with 30p
+  refunds, and loss-aversion deposits garnered 82% support. In India, Economic
+  Survey 2018-19 endorsed a nudge unit; Swachh Bharat Mission leveraged prospect
+  theory (loss aversion on sanitation deaths) and social proofing (observability
+  of open defecation), raising rural sanitation from 38% to 93% and declaring
+  2900 cities open defecation free. Nudges ensure paternalistic guidance while
+  preserving opt-out freedom, ideal for India's limited state capacity.
+key_points:
+  - >-
+    Use visual nudges like chalk circles for social distancing instead of
+    punishment to achieve better compliance at low cost.
+  - >-
+    Traditional coercive policies fail due to human irrationality, as shown by
+    the APMC Act's barriers to farmers' freedom until amended.
+  - >-
+    Swachh Bharat Mission applied loss aversion and social proofing to boost
+    rural sanitation from 38% to 93% and make 2900 cities open defecation free.
+  - >-
+    Adopt nudging in India via a dedicated unit, as per Economic Survey 2018-19,
+    to craft liberty-preserving policies in health, education, and environment.
+topics:
+  - nudging
+  - behavioural-economics
+  - public-policy
+  - liberal-policymaking
 tags:
   - Public Policy
   - Nudging
+source_hash: 9fcf17dc752f7e54fe53fe3f8be20b6c0fe32029d1dbb4f6f674785048c585ae
+summary_hash: 9fcf17dc752f7e54fe53fe3f8be20b6c0fe32029d1dbb4f6f674785048c585ae
+summary_at: '2026-05-05T11:06:36.104Z'
 ---
 **By Ananya Kalra**
 

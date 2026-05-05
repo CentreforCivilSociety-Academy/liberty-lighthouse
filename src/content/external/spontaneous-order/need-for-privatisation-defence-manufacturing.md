@@ -1,18 +1,55 @@
 ---
 title: 'NEED FOR PRIVATISATION: DEFENCE MANUFACTURING'
 original_url: 'https://www.spontaneousorder.in/p/need-for-privatisation-defence-manufacturing'
+author: Spontaneous Order
 published_at: '2022-07-11T14:42:38.000Z'
 ingested_at: '2026-05-05T08:31:42.261Z'
-source_hash: f172dd49dbc0e537656cfe0afda47b60d430552a2c40d19da316e581c3e7dea9
-author: Spontaneous Order
 excerpt: >-
   India was among the top 5 military spenders in the world as per the Stockholm
   International Peace Research Institute (SIPRI) 2021 report. After the 1956
   Industrial Policy Resolution, the defence manufacturing sector was made the
   exclusive prerogative of..
+summary: >-
+  India's defence manufacturing sector, reserved for public sector undertakings
+  (PSUs) post-1956 Industrial Policy Resolution, has failed to deliver
+  self-reliance despite liberalization allowing 100% private participation and
+  FDI since 2001. PSUs exemplify inefficiencies: HAL's Tejas fighter took 33
+  years for induction in 2016, while INSAS rifles suffered faults like magazine
+  cracks during Kargil War. India, a top-5 global military spender per SIPRI
+  2021 with ₹5.25 lakh crore (13.3% of 2022-23 budget), remains the largest arms
+  importer (2017-2021), despite 5000 MSMEs and 369 licences by FY2018-19. A
+  classical-liberal push for privatisation argues competition from private
+  firms—as in the US with Boeing and Lockheed Martin—would slash costs, spur R&D
+  and innovation (contra PSU faulty ammunition), and boost exports toward
+  ₹35,000 crore target by 2024 (from ₹8,434 crore in 2020-21). Security concerns
+  over data leaks or misaligned sales are addressable via regulations.
+  Privatisation fosters Aatmanirbhar Bharat by assigning private sector
+  non-sensitive items like gliders, parachutes, and optics, per new import bans
+  on 101 items, without eliminating PSUs for missiles.
+key_points:
+  - >-
+    PSU dominance has caused delays like 33-year Tejas induction and INSAS rifle
+    failures, hindering self-reliance.
+  - >-
+    Private sector competition, as in the US, would reduce defence costs, drive
+    R&D innovation, and improve quality.
+  - >-
+    Privatisation enables surplus production for exports, targeting ₹35,000
+    crore by 2024 to rival USA and France.
+  - >-
+    Regulations can mitigate security risks, allowing private handling of
+    non-sensitive items like optics and parachutes.
+topics:
+  - defence-privatisation
+  - self-reliance
+  - arms-exports
+  - defence-manufacturing
 tags:
   - defence
   - alumni
+source_hash: f172dd49dbc0e537656cfe0afda47b60d430552a2c40d19da316e581c3e7dea9
+summary_hash: f172dd49dbc0e537656cfe0afda47b60d430552a2c40d19da316e581c3e7dea9
+summary_at: '2026-05-05T11:01:09.244Z'
 ---
 **By vikrant pratap singh**
 

@@ -2,21 +2,58 @@
 title: 'Mr. Yechury, Let’s Get Our Stocks and Flows Right!'
 original_url: >-
   https://www.spontaneousorder.in/p/mr-yechury-lets-get-our-stocks-and-flows-right
+author: Spontaneous Order
 published_at: '2011-06-01T19:49:18.000Z'
 ingested_at: '2026-05-05T08:31:42.645Z'
-source_hash: 1ca8e59e15ecddb0e48f06ddfec8e0322ee9d403d20c64944441312a837b0c9d
-author: Spontaneous Order
 excerpt: >-
   By: Ishu Kumar (Communicating Reality Intern 2011, CCS) In his weekly column
   for the Hindustan Times – Left Hand Drive – Mr. Sitamram Yechury argues that
   the United Progressive Alliance II government is implementing neo-liberal
   economic reforms in its
+summary: >-
+  Vipin critiques Sitaram Yechury's Hindustan Times column accusing the UPA II
+  government of neo-liberal reforms harming the aam aadmi, arguing that
+  post-1991 deregulation has been vital for common man's income growth. Yechury
+  errs by comparing a stock variable (77% or over 80 crore people surviving on
+  less than Rs 20 a day in 2011) to a flow variable (US dollar billionaires
+  increasing from 26 to 52, now 69, over two years), ignoring whether poverty
+  numbers rose. Yechury's claim of widening income-wealth disparities lacks
+  data; between 1980-2002, India's Gini coefficient showed no change, bottom
+  20%'s national income share rose 5%, expenditure share 1.5%, and poor/non-poor
+  income growth ratio was 1. This aligns globally, with rising sales of luxury
+  cars (BMW, Audi, Mercedes) and affordable two-wheelers/small cars. Citing
+  Surjit Bhalla, the author decries the 'poverty industry' that maximizes
+  poverty for profit, ignoring patterns like poor's fruits/vegetables
+  consumption ratio doubling from 14% to 28% (1983-2004-05). From a
+  classical-liberal view, such statistical manipulation hinders honest debate on
+  reforms benefiting the poor.
+key_points:
+  - >-
+    Yechury improperly compares stock (current poverty numbers) and flow
+    (billionaire increase) variables to claim worsening inequality.
+  - >-
+    India's Gini coefficient remained unchanged from 1980-2002, with bottom
+    20%'s income share up 5% and poor/non-poor growth ratio at 1.
+  - >-
+    Post-1991 deregulation drove income growth for the aam aadmi, evidenced by
+    booming luxury and affordable vehicle sales.
+  - >-
+    The 'poverty industry' promotes misleading stats like static calorie intake,
+    ignoring improved poor's fruit/vegetable consumption ratios.
+topics:
+  - economic-reforms
+  - income-inequality
+  - poverty-statistics
+  - neo-liberalism
 tags:
   - flow variable
   - sitaram yechury
   - stock variable
   - neo-liberal economics
   - poverty
+source_hash: 1ca8e59e15ecddb0e48f06ddfec8e0322ee9d403d20c64944441312a837b0c9d
+summary_hash: 1ca8e59e15ecddb0e48f06ddfec8e0322ee9d403d20c64944441312a837b0c9d
+summary_at: '2026-05-05T10:57:31.973Z'
 ---
 **By Vipin**
 

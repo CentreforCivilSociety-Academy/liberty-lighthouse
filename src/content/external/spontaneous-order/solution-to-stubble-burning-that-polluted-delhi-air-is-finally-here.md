@@ -2,15 +2,56 @@
 title: 'Solution to stubble burning that polluted Delhi air, is finally here'
 original_url: >-
   https://www.spontaneousorder.in/p/solution-to-stubble-burning-that-polluted-delhi-air-is-finally-here
+author: Spontaneous Order
 published_at: '2022-03-21T11:40:12.000Z'
 ingested_at: '2026-05-05T08:31:42.274Z'
-source_hash: 9d19db46424d02687863050253f9f16cb7f666665511dddd3daf3a91532b00c0
-author: Spontaneous Order
 excerpt: >-
   A bio-decomposer developed by a research institute and a pesticide firm has
   the potential to make North India’s pollution woes a thing of the past.
   Sometimes a breakthrough seems too good to be true. A solution is in sight to
   end the terrible air pollut
+summary: >-
+  Swaminathan SA Aiyer celebrates a classical-liberal market-driven breakthrough
+  against Delhi's seasonal air pollution from Punjab and Haryana farmers burning
+  12 million tonnes of rice stubble left by harvester-combines, which
+  governments failed to stop despite bans due to farmers' tight sowing windows
+  and lack of viable alternatives. The Indian Agricultural Research Institute
+  (IARI) and UPL, India's largest pesticide firm, developed a bio-decomposer
+  using eight fungi in easy-to-transport powder form, sprayed via specialized
+  machines with 20 nozzles covering hundreds of acres daily. In 2021, 700
+  machines treated 4.2 lakh acres free-of-charge, achieving 92% success in
+  preventing burning, with satellite verification, soil enrichment reducing urea
+  needs by 20%, and emission cuts including 1.04 million tonnes CO2, 141,612
+  tonnes ash, and 2,135 tonnes particulate matter. UPL funds scaling to 20 lakh
+  acres next season and all 60 lakh acres eventually via carbon credits from
+  Kyoto/Paris schemes, overcoming past logistical hurdles through private
+  coordination with apps, satellite data, and clustering. This innovation
+  promises to end pollution where coercive laws failed, boosting farmer
+  profitability and soil health.
+key_points:
+  - >-
+    IARI-UPL bio-decomposer decomposes stubble into green manure in days,
+    providing an economically viable alternative to burning.
+  - >-
+    In 2021, 700 spraying machines covered 4.2 lakh acres free-of-charge with
+    92% success rate, verified by satellites.
+  - >-
+    Scaling targets 20 lakh acres next season and full 60 lakh acres via carbon
+    credits funding UPL's hundreds of crores investment.
+  - >-
+    Farmers report enriched soil and 20% less urea use, improving profitability
+    over burning's nutrient loss.
+  - >-
+    Private innovation and market mechanisms succeed where government bans on
+    farmers failed.
+topics:
+  - stubble-burning
+  - air-pollution
+  - agricultural-innovation
+  - carbon-credits
+source_hash: 9d19db46424d02687863050253f9f16cb7f666665511dddd3daf3a91532b00c0
+summary_hash: 9d19db46424d02687863050253f9f16cb7f666665511dddd3daf3a91532b00c0
+summary_at: '2026-05-05T12:06:10.208Z'
 ---
 **By Swaminathan SA Aiyer**
 

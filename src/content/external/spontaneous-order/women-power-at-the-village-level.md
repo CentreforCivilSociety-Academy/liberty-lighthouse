@@ -1,18 +1,56 @@
 ---
 title: Women Power at the Village Level
 original_url: 'https://www.spontaneousorder.in/p/women-power-at-the-village-level'
+author: Spontaneous Order
 published_at: '2021-02-15T16:23:57.000Z'
 ingested_at: '2026-05-05T08:31:42.348Z'
-source_hash: f15ff9101e54bab4d653b9d2764cdf3970a62b1fe172298cfc17d070f256519d
-author: Spontaneous Order
 excerpt: >-
   In the recent gram panchayat (village council) elections in Maharashtra, a
   young organisation created a storm. 194 women from the Ekal Mahila Sanghatana
   (meaning ‘Single Women Organisation’) (EMS) contested the elections and 68
   women were elected. EMS
+summary: >-
+  In Maharashtra's recent gram panchayat elections, Ekal Mahila Sanghatana
+  (EMS), founded in 2015 with CORO support, fielded 194 women candidates,
+  resulting in 68 victories, including 10 of 16 single women, in the patriarchal
+  Marathwada district. These 'Mi Navryala Takale' (Dumped My Husband)
+  women—widowed, divorced, or abandoned—overcame hardships through CORO's
+  18-month Grassroots Leadership Development Programme (GLDP), funded by donors
+  like EdelGive Foundation. EMS built momentum via gram sabha campaigns attended
+  by 10,000 women and January 2019 mock elections mimicking panchayat processes,
+  empowering women independent of male or political party backing. Initially
+  focused on single women to combat violence and stigma, EMS expanded to all
+  women pursuing independence, with single women in leadership. Campaigners
+  highlighted EMS solidarity, past COVID relief, and priorities like roads,
+  water, pensions, girls' education, and libraries. Without party affiliations,
+  their success via community strength and constitutional challenges to
+  patriarchal customs exemplifies how focus, hard work, and enlightened
+  grassroots leadership can transform society from the village level.
+key_points:
+  - >-
+    EMS fielded 194 women in Maharashtra gram panchayat elections, securing 68
+    wins, including 10 of 16 single women candidates.
+  - >-
+    CORO's GLDP trained EMS leaders, while gram sabha campaigns reached 10,000
+    women and mock elections prepared contestants.
+  - >-
+    EMS broadened from single women to all seeking independence, emphasizing
+    solidarity over political or familial support.
+  - >-
+    Elected women prioritized village issues like infrastructure, water,
+    pensions, girls' education, and libraries, proving community backing enables
+    impact.
+topics:
+  - women-empowerment
+  - panchayati-raj
+  - grassroots-leadership
+  - gender-equality
 tags:
   - Gram Panchayats
   - women in India
+source_hash: f15ff9101e54bab4d653b9d2764cdf3970a62b1fe172298cfc17d070f256519d
+summary_hash: f15ff9101e54bab4d653b9d2764cdf3970a62b1fe172298cfc17d070f256519d
+summary_at: '2026-05-05T13:09:41.348Z'
 ---
 **By Luis Miranda**
 

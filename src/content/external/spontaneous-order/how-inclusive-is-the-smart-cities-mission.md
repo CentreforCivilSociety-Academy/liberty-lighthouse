@@ -1,15 +1,51 @@
 ---
 title: How inclusive is the Smart Cities Mission
 original_url: 'https://www.spontaneousorder.in/p/how-inclusive-is-the-smart-cities-mission'
+author: Spontaneous Order
 published_at: '2020-07-08T15:56:36.000Z'
 ingested_at: '2026-05-05T08:31:42.399Z'
-source_hash: 64e03479c882be6ccac14d3c281384f1af34598675cf73270e1de8720c685bd4
-author: Spontaneous Order
 excerpt: >-
   There can be no argument that India needs cities that are sustainable,
   eco-friendly, self-sufficient and able to provide a better standard of living
   to its people. The parameters, though, need to be clearly defined to choose
   the initiatives, based on ju..
+summary: >-
+  The Smart Cities Mission (SCM) in India, lacking a universal definition of
+  'smartness,' embodies top-down governance ambiguity that undermines inclusive,
+  sustainable urban development from a classical-liberal lens prioritizing
+  justice, equality, and decentralized participation. Kushal Kumar Maurya argues
+  that SCM's focus on infrastructure, beautification, and area-based development
+  (ABD)—allocating 80% of funds to just 7% of city areas, often with 40% private
+  investor hold and minimal municipal input—exacerbates inequalities by
+  sidelining slum-dwellers (68 million in 2011, 13.7 million households, one in
+  six urban residents) and rural-urban migrants (83% of long-distance migrants
+  miss voting). Despite urban areas (31% population) contributing 63% GDP, SCM
+  overlooks migration-driven growth and migrant crises like COVID-19 exoduses,
+  with less than 2% funds utilized. The mission promises participatory planning
+  and basic services but leaves inclusion undefined, re-centralizing power and
+  fostering path dependencies. Maurya advocates holistic 'smartness' via smart
+  villages, rural opportunities, and pragmatic shared technologies to avert
+  over-dense cities, reduce inequalities, and align with India's realities over
+  Western tech-centric models.
+key_points:
+  - >-
+    SCM's ambiguous definition and top-down approach exclude slum-dwellers and
+    migrants, central beneficiaries, from participatory planning.
+  - >-
+    80% of SCM funds target 7% of city areas via ABD, promoting inequality and
+    private investor dominance over municipal governance.
+  - >-
+    India's urban growth relies on rural migration, yet SCM ignores rural
+    investments needed for sustainable cities and to prevent crises like
+    COVID-19 exoduses.
+  - >-
+    Shift investments to smart villages and decentralized opportunities outside
+    cities to foster inclusive growth and reduce urban over-density.
+topics:
+  - smart-cities-mission
+  - urban-inclusion
+  - decentralized-governance
+  - rural-development
 tags:
   - Indian Liberalism
   - Public Policy
@@ -20,6 +56,9 @@ tags:
   - housing
   - Smart Cities
   - Inclusive model of development
+source_hash: 64e03479c882be6ccac14d3c281384f1af34598675cf73270e1de8720c685bd4
+summary_hash: 64e03479c882be6ccac14d3c281384f1af34598675cf73270e1de8720c685bd4
+summary_at: '2026-05-05T10:11:40.196Z'
 ---
 **By Kushal Kumar Maurya**
 

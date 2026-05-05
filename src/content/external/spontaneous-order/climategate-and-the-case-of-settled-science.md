@@ -1,15 +1,51 @@
 ---
 title: Climategate and the case of Settled Science
 original_url: 'https://www.spontaneousorder.in/p/climategate-and-the-case-of-settled-science'
+author: Spontaneous Order
 published_at: '2010-08-04T13:31:20.000Z'
 ingested_at: '2026-05-05T08:31:42.649Z'
-source_hash: ddc80321cc52d2572b34d773b3c9a226202af7879d4caab5eb4260a9c8437f13
-author: Spontaneous Order
 excerpt: >-
   The science of weather forecasting is very complex and any prediction of the
   weather can only be made with a certain probability. The sheer number of
   ever-changing variables is cause enough to reduce the field to an inexact
   science. This science on the ..
+summary: >-
+  The post challenges the notion of 'settled science' on global warming,
+  highlighting the Climategate scandal where leaked emails from the University
+  of East Anglia's Climate Research Unit (CRU) revealed prominent climatologists
+  exaggerating anthropogenic climate effects through data manipulation and
+  withheld information. Despite three independent reviews largely clearing CRU,
+  subsequent revelations undermined the Intergovernmental Panel on Climate
+  Change (IPCC): its 2007 report falsely claimed Himalayan glaciers would
+  disappear by 2035, the 40% Amazon destruction prediction stemmed from an
+  environmental pressure group's report, and it cited non-scholarly sources like
+  a mountaineering magazine and student paper. From a classical-liberal
+  perspective, these expose mainstream scientists overstating human causes while
+  understating natural variability. The author agrees with Forbes columnist
+  Shikha Dalmia that the global warming movement is dormant but warns it will
+  resurface, pushing carbon rationing and trading schemes that entrench
+  international bureaucracy. Such policies threaten developing countries'
+  prosperity, achieved through capital accumulation and industrial growth,
+  urging vigilance against special interest agendas disguised as planetary
+  salvation.
+key_points:
+  - >-
+    Climategate emails from CRU showed climatologists manipulating data to
+    exaggerate human-induced climate change.
+  - >-
+    IPCC's 2007 report erred on Himalayan glaciers vanishing by 2035 and 40%
+    Amazon loss, relying on dubious sources like pressure groups and magazines.
+  - >-
+    Climate alarmism justifies bureaucratic measures like carbon trading that
+    hinder industrial development in poor nations.
+  - >-
+    Vigilance is needed to protect capital accumulation and growth from special
+    interests exploiting environmental fears.
+topics:
+  - climategate
+  - ipcc-errors
+  - climate-skepticism
+  - economic-development
 tags:
   - climate research
   - climate
@@ -17,6 +53,9 @@ tags:
   - IPCC
   - industrial growth
   - Climate Research Unit
+source_hash: ddc80321cc52d2572b34d773b3c9a226202af7879d4caab5eb4260a9c8437f13
+summary_hash: ddc80321cc52d2572b34d773b3c9a226202af7879d4caab5eb4260a9c8437f13
+summary_at: '2026-05-05T09:24:13.994Z'
 ---
 **By Kumar Anand**
 

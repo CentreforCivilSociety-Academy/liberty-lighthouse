@@ -2,15 +2,55 @@
 title: Signs of hope for the world’s 100 million missing women
 original_url: >-
   https://www.spontaneousorder.in/p/signs-of-hope-for-the-worlds-100-million-missing-women
+author: Spontaneous Order
 published_at: '2021-05-13T12:38:39.000Z'
 ingested_at: '2026-05-05T08:31:42.320Z'
-source_hash: f35f861696c39fa60ee14a3632de92444753bb9b105edb0958c795595b9039ae
-author: Spontaneous Order
 excerpt: >-
   It is now nearly 30 years since Amartya Sen famously argued in an essay that
   the world was missing 100 million women. Scholars have since come up with
   different estimates as well as provided a range of explanations of why many
   countries have fewer women..
+summary: >-
+  Amartya Sen's 1990 claim of 100 million missing women due to son preference,
+  female infanticide, sex selection, and neglect persists strongly in China and
+  India. Yet signs of hope emerge: Haryana's sex ratio at birth rose from 833
+  girls per 1,000 boys in 2011 to 920 in 2019. Anthropologist Lihong Shi's study
+  of rural China's Lijia village identifies five reasons families now prefer a
+  single daughter: market economy redefining happiness around material
+  possessions and leisure over child-rearing costs; focus on one child's
+  education and consumption; daughters seen as more filial; bride shortages
+  shifting wedding costs to grooms; financial ability trumping family continuity
+  for status. A 2008 World Bank study on South Korea, which reversed its skewed
+  ratios from 1991-2005, attributes three-fourths of the decline in son
+  preference to normative shifts, aided by education and
+  urbanization—contrasting with policies there that initially reinforced
+  patriarchy, unlike gender-equity efforts in India and China. Economic changes
+  like non-agricultural jobs, migration, and urbanization, plus norm evolution,
+  enable earlier normalization in India and China. Recent developments signal
+  early victories in a longer battle, emphasizing social norm changes alongside
+  market-driven progress.
+key_points:
+  - >-
+    Haryana achieved a steady rise in sex ratio at birth from 833 girls per
+    1,000 boys in 2011 to 920 in 2019 through targeted efforts.
+  - >-
+    Rural Chinese families in Lijia now favor daughters due to market economy
+    costs of child-rearing, education focus, filial daughters, marriage market
+    shifts, and new status markers.
+  - >-
+    South Korea normalized its sex ratio via normative changes (75% of decline)
+    plus urbanization and education, offering a model for India and China.
+  - >-
+    Economic progress, urbanization, non-farm jobs, and pro-gender-equity
+    policies can accelerate reduction in son preference before full development.
+topics:
+  - missing-women
+  - sex-ratio
+  - son-preference
+  - social-norms
+source_hash: f35f861696c39fa60ee14a3632de92444753bb9b105edb0958c795595b9039ae
+summary_hash: f35f861696c39fa60ee14a3632de92444753bb9b105edb0958c795595b9039ae
+summary_at: '2026-05-05T11:45:00.753Z'
 ---
 **By Niranjan Rajadhyaksha**
 

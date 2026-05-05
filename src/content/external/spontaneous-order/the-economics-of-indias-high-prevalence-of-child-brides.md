@@ -2,15 +2,53 @@
 title: The economics of India’s high prevalence of child brides
 original_url: >-
   https://www.spontaneousorder.in/p/the-economics-of-indias-high-prevalence-of-child-brides
+author: Spontaneous Order
 published_at: '2021-05-21T17:10:38.000Z'
 ingested_at: '2026-05-05T08:31:42.317Z'
-source_hash: b5691ae0027d4ccb2616a67b5fedc677a71a9f3e0949ad5a3f1c4d47324b5196
-author: Spontaneous Order
 excerpt: >-
   The government is considering raising the minimum legal age of marriage for
   women from 18 to 21, to reduce the prevalence of child brides (below 18) in
   India. This is, of course, well intentioned. If only the problem were so
   simple that it could be solv..
+summary: >-
+  India's high prevalence of child brides—223 million women alive today married
+  before 18, one-third of the global total, with 102 million before 15—is not
+  primarily a legal issue but a market phenomenon driven by cultural son
+  preference and economic pressures on poor families. High costs of raising
+  girls lead parents to marry daughters young to invest in sons, creating a
+  supply of child brides, while skewed sex ratios from female foeticide and
+  underinvestment in girls generate demand, especially among lower-quality
+  grooms in endogamous groups. States like Uttar Pradesh (36 million child
+  brides) exemplify this. Boys face far less: only 4% married before 18. Raising
+  the women's legal marriage age from 18 to 21 ignores these roots and risks
+  unintended consequences like increased sex-selective abortions or infanticide,
+  as shown in Paola Suarez's 2017 paper. Leeson and Suarez's analysis highlights
+  supply-demand dynamics. From a classical-liberal view, de facto later
+  marriages require economic prosperity and cultural evolution; child marriages
+  have already fallen from 75% in 1970 to 27% today amid growth and poverty
+  decline. Laws alone fail; sustained economic success, paired with anti-son
+  preference efforts, offers the lasting solution.
+key_points:
+  - >-
+    Child marriage in India arises from son preference creating a market supply
+    of brides from poor families and demand due to sex ratio imbalances.
+  - >-
+    Raising the legal marriage age for women risks boosting female foeticide and
+    infanticide in high son-preference, poor contexts.
+  - >-
+    Economic growth has reduced child marriages from 75% of women in 1970 to 27%
+    today, proving prosperity's role in cultural change.
+  - >-
+    Cultural factors like endogamy and variable groom quality sustain demand for
+    prepubescent brides despite existing laws.
+topics:
+  - child-marriage
+  - son-preference
+  - marriage-laws
+  - economic-development
+source_hash: b5691ae0027d4ccb2616a67b5fedc677a71a9f3e0949ad5a3f1c4d47324b5196
+summary_hash: b5691ae0027d4ccb2616a67b5fedc677a71a9f3e0949ad5a3f1c4d47324b5196
+summary_at: '2026-05-05T12:24:45.629Z'
 ---
 **By Shruti Rajagopalan**
 

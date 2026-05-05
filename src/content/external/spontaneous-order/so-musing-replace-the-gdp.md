@@ -1,15 +1,52 @@
 ---
 title: 'SO Musings: Replace the GDP'
 original_url: 'https://www.spontaneousorder.in/p/so-musing-replace-the-gdp'
+author: Spontaneous Order
 published_at: '2020-04-24T17:41:00.000Z'
 ingested_at: '2026-05-05T08:31:42.425Z'
-source_hash: 69d45a3d7e2766ff23c2bb420f425d1cbbd6dcd046dea97e32c30cc755f8462c
-author: Spontaneous Order
 excerpt: >-
   Originally conceived as a measure of national production around the Great
   Depression and WWII, Gross Domestic Product has turned into the magical single
   yardstick indicative of a nation’s progress. The discourse on prosperity and
   poverty across the glob
+summary: >-
+  Gross Domestic Product (GDP), conceived during the Great Depression and WWII
+  for wartime manufacturing, has become the dominant yardstick for national
+  progress, yet its relevance is questioned in a digitized economy facing
+  ecological threats. Jonathan Rowe's 1996 article 'Replace the GDP,'
+  republished in India's liberal journal Freedom First, critiques GDP for
+  treating all production and sales as inherently good, tallying social ills
+  like car wrecks, divorces, crime, and environmental breakdowns as economic
+  growth since they generate spending. Echoing Adam Smith, Rowe argues that true
+  economic measure is people's well-being, not mere consumption or investment,
+  which GDP monetarily fixates on while ignoring the care economy and
+  environmental quality. This creates a chasm: experts declare prosperity while
+  people feel decline, as seen in contrasts with Nobel laureate Robert Lucas's
+  optimism versus public sentiment, or Alan Greenspan's puzzlement at
+  foreboding. From a classical-liberal view, policymakers' archaic assumptions
+  perpetuate flawed policies; replacing GDP with metrics capturing actual human
+  flourishing is essential to align economics with societal good.
+key_points:
+  - >-
+    GDP counts harmful events like crime, divorces, and disasters as economic
+    gains because they involve spending.
+  - >-
+    GDP ignores non-monetary aspects of well-being, such as the care economy and
+    environmental quality.
+  - >-
+    Policymakers assume more consumption equals prosperity without verifying
+    impacts on people's lives.
+  - >-
+    The classical-liberal tradition, per Adam Smith, prioritizes human
+    well-being over aggregate production metrics.
+  - >-
+    Replace GDP to bridge the gap between official statistics and lived
+    experience.
+topics:
+  - gdp-critique
+  - well-being-metrics
+  - economic-measurement
+  - classical-liberalism
 tags:
   - economic growth
   - SO Musings
@@ -17,6 +54,9 @@ tags:
   - GDP
   - Adam Smith
   - Freedom First
+source_hash: 69d45a3d7e2766ff23c2bb420f425d1cbbd6dcd046dea97e32c30cc755f8462c
+summary_hash: 69d45a3d7e2766ff23c2bb420f425d1cbbd6dcd046dea97e32c30cc755f8462c
+summary_at: '2026-05-05T11:50:43.782Z'
 ---
 **By Spontaneous Order**
 

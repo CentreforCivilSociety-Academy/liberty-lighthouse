@@ -2,15 +2,58 @@
 title: 'A fundamental problem of democracies: What constitutes good and bad freebies?'
 original_url: >-
   https://www.spontaneousorder.in/p/a-fundamental-problem-of-democracies-what-constitutes-good-and-bad-freebies-2
+author: Spontaneous Order
 published_at: '2022-09-01T11:43:52.000Z'
 ingested_at: '2026-05-05T08:31:42.259Z'
-source_hash: 853a2f2b54fe8fe5cf824aafa4a49df38016caf1ab3453f9ce6d302c9ccaede6
-author: Spontaneous Order
 excerpt: >-
   Chief Justice N V Ramana has, astonishingly, waded into the controversy of
   political parties promising endless freebies that could plunge countries into
   disaster. He says political parties do not want to curb such excesses, so a
   specialised body should ..
+summary: >-
+  In liberal democracies, markets drive efficiency and GDP growth but require
+  political decisions on taxation and subsidies to achieve desirable income
+  distribution, with parties competing to convince voters on the optimal mix of
+  'revadis' (wasteful freebies) and 'jalebis' (meritorious subsidies). Chief
+  Justice Ramana's call for a specialised body to curb excessive freebies is
+  misguided, as this lies in the political domain of voters and parties, not
+  judiciary or technocrats. Economists estimate total subsidies fell from 12.9%
+  of GDP in 1987-88 to 10.28% in 2015-16, with non-merit subsidies (revadis) at
+  5.7% of GDP, 4.1% from states. Key revadis include free power and canal water
+  to farmers, causing aquifer depletion and inefficient crops; cheap urea
+  leading to soil ruin and smuggling; farmer electricity dues waivers
+  bankrupting discoms with ₹2.5 trillion arrears; and universal food subsidies
+  where better-off benefit. Jalebis encompass expanded police-judicial systems,
+  quality education, public health, infrastructure, and corruption-free safety
+  nets. Democracy risks myopic freebie races destroying economies like Sri
+  Lanka's, but must be resolved politically, echoing Juncker's quip on knowing
+  what to do but fearing electoral backlash.
+key_points:
+  - >-
+    Political parties and voters, not judiciary or technocrats, must decide the
+    mix of wasteful revadis and meritorious jalebis in subsidies.
+  - >-
+    Non-merit subsidies total 5.7% of GDP, with states accounting for 4.1%,
+    including free farmer power, cheap urea, and electricity dues waivers
+    causing ₹2.5 trillion arrears.
+  - >-
+    Merit subsidies like quality education, public health, police-judicial
+    expansion, and infrastructure should be prioritised, potentially funded by
+    cutting revadis.
+  - >-
+    Free power and urea subsidies encourage water wastage, inefficient pumps,
+    soil degradation, and smuggling.
+  - >-
+    Democracy enables right priorities but risks economic ruin through
+    competitive freebies, as in Sri Lanka.
+topics:
+  - subsidies
+  - freebies
+  - democracy
+  - agricultural-subsidies
+source_hash: 853a2f2b54fe8fe5cf824aafa4a49df38016caf1ab3453f9ce6d302c9ccaede6
+summary_hash: 853a2f2b54fe8fe5cf824aafa4a49df38016caf1ab3453f9ce6d302c9ccaede6
+summary_at: '2026-05-05T08:48:35.403Z'
 ---
 **By Swaminathan SA Aiyer**
 

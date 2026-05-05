@@ -2,15 +2,55 @@
 title: The Fallacy of Planning Development at Attappady
 original_url: >-
   https://www.spontaneousorder.in/p/the-fallacy-of-planning-development-at-attappady
+author: Spontaneous Order
 published_at: '2024-04-12T17:27:02.000Z'
 ingested_at: '2026-05-05T08:31:42.232Z'
-source_hash: 1644d691cf7549ee91dcfec51cc8be5046effb9f83ebba12ca15cc1e0acee5a2
-author: Spontaneous Order
 excerpt: >-
   The Tribal Block of Attappady Attappady is a tribal block in Kerala that has
   received wide national attention for its poor socio-economic indicators
   including high infant mortality rates. Having an area of 735 km2 the block is
   as large as a district and..
+summary: >-
+  Attappady, a 735 km² tribal block in Kerala with 30,460 tribals and 34,473
+  non-tribals per 2011 Census, suffers high infant mortality despite heavy
+  government intervention via the Integrated Tribal Development Project,
+  including community kitchens, alcohol bans, and free healthcare. Drawing on
+  Hayek's 'The Use of Knowledge in Society,' the author argues central planning
+  fails because it ignores dispersed local knowledge: community kitchens shifted
+  diets from nutritious millets to rice, reducing health and devastating millet
+  farmers; forced hospital deliveries clashed with ancestral customs, fostering
+  distrust despite incentives; and the 1996 alcohol ban spurred illicit liquor
+  networks, required extra excise forces, and impoverished residents via
+  cross-border travel. Ludwig von Mises warns restricting freedoms leads to
+  decline, as seen in sidelined traditional Oorukoottam village councils. The
+  classical-liberal solution: government must retreat from paternalistic
+  planning, empower Oorukoottams for local problem-solving, protect tribal lands
+  from alienation, maintain law and order, and intervene only on serious market
+  failures, allowing individual choices to drive development.
+key_points:
+  - >-
+    Central planning via community kitchens in Attappady replaced millet-based
+    diets with rice, harming nutrition and local farmers' livelihoods.
+  - >-
+    The 1996 alcohol ban increased illicit liquor supply, necessitated more
+    government resources, and further impoverished the community.
+  - >-
+    Government-imposed healthcare ignored tribal customs like hamlet deliveries,
+    eroding trust despite free services and incentives.
+  - >-
+    Empower traditional Oorukoottam village councils to enable local
+    decision-making and restore community autonomy.
+  - >-
+    Limit government to protecting tribal lands, ensuring law and order, and
+    addressing market failures only.
+topics:
+  - central-planning
+  - tribal-development
+  - local-governance
+  - paternalism
+source_hash: 1644d691cf7549ee91dcfec51cc8be5046effb9f83ebba12ca15cc1e0acee5a2
+summary_hash: 1644d691cf7549ee91dcfec51cc8be5046effb9f83ebba12ca15cc1e0acee5a2
+summary_at: '2026-05-05T12:25:54.548Z'
 ---
 **By Anand S Unni**
 

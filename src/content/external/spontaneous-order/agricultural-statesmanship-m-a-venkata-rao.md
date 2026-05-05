@@ -1,15 +1,60 @@
 ---
 title: 'SO Musings: Agricultural Statesmanship'
 original_url: 'https://www.spontaneousorder.in/p/agricultural-statesmanship-m-a-venkata-rao'
+author: Spontaneous Order
 published_at: '2019-10-18T11:53:08.000Z'
 ingested_at: '2026-05-05T08:31:42.463Z'
-source_hash: c71b0d3bca58f07b38cd944b5ce9d16af29f6ceef780acc35a9cb7bb04273ee9
-author: Spontaneous Order
 excerpt: >-
   This article on agricultural statesmanship by M A Venkata Rao first appeared
   in the Indian Libertarian, a magazine of public affairs, in April 1957. Rao’s
   observations about establishment of a socialist pattern of society in Indian
   agriculture are as va
+summary: >-
+  M A Venkata Rao warns that India's post-Avadi Congress resolutions commit the
+  nation to a Soviet-style socialist 'co-operative commonwealth,' targeting
+  agriculture by universalizing 'co-operative farms' modeled on Russia and
+  China, which would liquidate independent peasant proprietors and reduce them
+  to state-dependent laborers. This mirrors industrial policy squeezing out
+  private enterprise via heavy industry bias and taxation. Government
+  delegations praise Chinese reforms, and post-election pushes loom, despite
+  democratic pretenses. Rao cites evidence debunking collectivization: Russian
+  farm output stagnant since Czarist times; Polish private farms 30% more
+  productive than cooperatives; Hungarian farmers dissolved them in 1956 revolt.
+  Incentives vanish in collectives, unlike voluntary Danish cooperatives aiding
+  small farmers' marketing and inputs while preserving management autonomy, or
+  Japan's tiny holdings (95% under 5 acres) yielding 48.1 quintals paddy per
+  hectare vs. India's 12.2. True agricultural statesmanship, per the 1948-49
+  Radhakrishnan Commission, prioritizes freedom, dignity, and production harmony
+  over imitation, urging libertarians to educate publics against socialist
+  perils via free debate before democracy erodes.
+key_points:
+  - >-
+    India's socialist policies aim to eliminate independent farmers through
+    mandatory co-operative farms, stripping property rights and turning peasants
+    into laborers like in Soviet Russia and China.
+  - >-
+    Collectivized farming fails to boost production, with Russia showing no
+    gains since Czarist era, Polish private farms outperforming by 30%, and
+    violent peasant resistance worldwide.
+  - >-
+    Japan achieves 48.1 quintals paddy per hectare on tiny holdings (95% under 5
+    acres) vs. India's 12.2, proving small independent farms excel.
+  - >-
+    Denmark's voluntary cooperatives enhance small farmers' access to credit,
+    inputs, and markets without pooling land, preserving freedom and yielding
+    world-leading butter production.
+  - >-
+    Libertarians must launch public education campaigns to expose dangers and
+    advocate evidence-based policies prioritizing individual dignity over
+    socialist ideology.
+topics:
+  - agricultural-policy
+  - co-operative-farming
+  - socialism-critique
+  - farmer-rights
+source_hash: c71b0d3bca58f07b38cd944b5ce9d16af29f6ceef780acc35a9cb7bb04273ee9
+summary_hash: c71b0d3bca58f07b38cd944b5ce9d16af29f6ceef780acc35a9cb7bb04273ee9
+summary_at: '2026-05-05T08:52:05.606Z'
 ---
 **By Spontaneous Order**
 

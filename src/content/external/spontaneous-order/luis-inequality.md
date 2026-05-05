@@ -1,21 +1,61 @@
 ---
 title: Economic Inequality is Not Evil
 original_url: 'https://www.spontaneousorder.in/p/luis-inequality'
+author: Spontaneous Order
 published_at: '2015-10-12T17:15:41.000Z'
 ingested_at: '2026-05-05T08:31:42.571Z'
-source_hash: 0fa058a49c775f5def88969476eec7b478e5e17552382e25ec31ba64951d8d7f
-author: Spontaneous Order
 excerpt: >-
   By Luis Miranda I was visiting my daughter last weekend and I picked up a book
   at the F&M College Bookstore – On Inequality by Harry Frankfurt, professor
   emeritus of philosophy at Princeton University. It is a short book that I
   finished quickly enough .
+summary: >-
+  Luis Miranda, drawing from Harry Frankfurt's 'On Inequality,' argues that
+  economic inequality is not morally evil; the true challenge is absolute
+  poverty, not relative wealth disparities. Influenced by his University of
+  Chicago background and Centre for Civil Society affiliation, Miranda critiques
+  the rising anti-capitalist sentiment post-2008 crisis, Piketty's bestseller,
+  and figures like Obama who frame inequality as society's defining issue. In
+  India, he laments challenges to 1990s liberalization amid resurgent socialism.
+  Frankfurt posits that focusing on inequality distracts from poverty traps, as
+  seen in homeless stories from London and the US, and historical failures like
+  communism and India's pre-1990s policies that perpetuated poverty while others
+  advanced. Inequality may enable undue influence, but this can be addressed
+  through institutions rather than redistribution. Morally, everyone must have
+  'enough' for sufficiency and future security, not equality. Miranda echoes
+  Amartya Sen-Jagdish Bhagwati debates: grow the pie via economic freedom, not
+  re-slice it. CCS's 'Why is India Poor?' emphasizes institutions enabling
+  economic freedom to escape poverty. Conclusion: Prioritize poverty eradication
+  and respect through pro-freedom policies over inequality rhetoric.
+key_points:
+  - >-
+    Economic inequality is not morally objectionable; absolute poverty and
+    ensuring everyone has 'enough' are the real priorities.
+  - >-
+    India's pre-1990s socialist policies entrenched poverty, while
+    liberalization spurred growth—focus on expanding economic freedom to lift
+    the poor.
+  - >-
+    Undue influence from wealth can be managed via institutions, not by
+    disincentivizing wealth creation which risks stunting entrepreneurship and
+    growth.
+  - >-
+    Institutions and policies enabling economic freedom are key to economic
+    success and poverty alleviation, as per CCS's 'Why is India Poor?'.
+topics:
+  - economic-inequality
+  - poverty-alleviation
+  - economic-freedom
+  - capitalism
 tags:
   - Equality
   - Over Consumption
   - Capitalism
   - socialism
   - poverty
+source_hash: 0fa058a49c775f5def88969476eec7b478e5e17552382e25ec31ba64951d8d7f
+summary_hash: 0fa058a49c775f5def88969476eec7b478e5e17552382e25ec31ba64951d8d7f
+summary_at: '2026-05-05T10:46:13.126Z'
 ---
 **By Luis Miranda**
 

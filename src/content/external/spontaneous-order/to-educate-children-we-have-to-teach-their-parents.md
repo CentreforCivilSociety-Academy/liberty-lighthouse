@@ -2,15 +2,48 @@
 title: 'To Educate Children, We Have To Teach Their Parents'
 original_url: >-
   https://www.spontaneousorder.in/p/to-educate-children-we-have-to-teach-their-parents
+author: Spontaneous Order
 published_at: '2012-05-12T08:14:56.000Z'
 ingested_at: '2026-05-05T08:31:42.620Z'
-source_hash: c5598ea82978b48221ed98ed0275d486fd5ed70b1fd670c6bd8c71988b91258d
-author: Spontaneous Order
 excerpt: >-
   Several government interventions like the Sarva Shiksha Abhiyan, Mid Day Meal,
   and the District Primary Education Program have resulted in increasing the net
   enrolment rate into primary school. Despite a high primary net enrolment rate
   of 91% (WDI, 2008..
+summary: >-
+  Despite government interventions like Sarva Shiksha Abhiyan, Mid Day Meal, and
+  District Primary Education Program boosting primary net enrollment to 91% (WDI
+  2008), India still has over 5.5 million children out of school, with only 66%
+  of primary enrollees surviving to grade 5 (UIS 2007), highlighting retention
+  as the core challenge. Peter Orazem's Copenhagen Consensus study evaluates
+  three high-impact, cost-beneficial strategies: nutrition supplements,
+  information campaigns on returns to schooling, and conditional cash transfers
+  (CCTs) for attendance. India already implements nutrition via mid-day meals
+  (at least in theory) and CCT pilots like Delhi's Laadli Scheme and Bihar's
+  Bicycle scheme, which have shown success. Yet, large-scale provision of
+  accurate information to parents and children on schooling returns remains
+  unexplored despite being simple and inexpensive. From a classical-liberal
+  viewpoint, this intervention empowers families with market-like signals on
+  education's economic value, fostering voluntary retention over coercive
+  measures and aligning individual incentives with societal benefits.
+key_points:
+  - >-
+    Primary enrollment reached 91% but retention fails with only 66% reaching
+    grade 5 and 5.5 million children out of school.
+  - >-
+    Orazem's study shows nutrition supplements, info on schooling returns, and
+    CCTs yield benefits exceeding costs.
+  - >-
+    India provides mid-day meals and CCT pilots like Laadli and Bihar Bicycle
+    but lacks scaled info campaigns on education returns.
+  - >-
+    Scale up inexpensive information provision to parents on schooling returns
+    to boost retention.
+topics:
+  - education
+  - school-retention
+  - conditional-cash-transfers
+  - returns-to-education
 tags:
   - conditional cash transfers
   - School Choice Campaign
@@ -18,6 +51,9 @@ tags:
   - Mid Day meal
   - Sarva Shiksha Abhiyan
   - Bihar Bicycle scheme
+source_hash: c5598ea82978b48221ed98ed0275d486fd5ed70b1fd670c6bd8c71988b91258d
+summary_hash: c5598ea82978b48221ed98ed0275d486fd5ed70b1fd670c6bd8c71988b91258d
+summary_at: '2026-05-05T12:44:14.572Z'
 ---
 **By Sana Kazi**
 

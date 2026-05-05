@@ -2,19 +2,64 @@
 title: 'For True Vigyaan Sarvatra Pujyate, Bring Science to Agriculture'
 original_url: >-
   https://www.spontaneousorder.in/p/for-true-vigyaan-sarvatra-pujyate-bring-science-to-agriculture
+author: Spontaneous Order
 published_at: '2022-02-28T12:02:00.000Z'
 ingested_at: '2026-05-05T08:31:42.276Z'
-source_hash: 14cfc6de60baeba2bd03bc48c976fa2f4c93a92f15632431b30156c645f66db1
-author: Spontaneous Order
 excerpt: >-
   This past week, the Government of India has been celebrating ‘Vigyan Sarvatra
   Pujyate’ as a lead up to National Science Day today. Dr Jitendre Singh, Union
   Minister of State of Science and Technology and Earth Science, also announced
   the theme, Integr
+summary: >-
+  In the context of India's 'Vigyan Sarvatra Pujyate' celebrations and National
+  Science Day, the post urges embracing genetically modified (GM) crops to
+  achieve sustainable agriculture, better farmer livelihoods, and food security,
+  criticizing decades of anti-GM sentiment as a corporate conspiracy myth. It
+  argues GM crops are safe, citing nearly 3,000 studies and endorsements from
+  284 institutions including WHO, European Commission, and Royal Society, plus a
+  2016 National Academies review of over 900 publications finding no greater
+  health or environmental risks than non-GM crops. Farmers in Indian districts
+  like Ahmednagar and Akola demand GM varieties, willing to face arrest,
+  mirroring Bangladesh where Bt Brinjal reduced pesticide use by 61% and boosted
+  profits six-fold; globally, GM acreage hit 190.4 million hectares in 2019
+  (11.6% of cropland), with 56% in developing countries, and Zimbabwe lifted its
+  GM corn import ban in 2020 to avert famine. Alternatives like large-scale
+  organic farming fail, as seen in Sri Lanka's 2021 ban on chemical fertilizers
+  leading to crop failures, high prices, and $200 million in farmer
+  compensation. India's regulatory delays, like the 10-year Bt Brinjal
+  moratorium ended in 2020, hinder progress, while pushing 'chemical-free'
+  farming traps farmers in poverty; GM crops cut costs, ease environmental
+  burdens, and enhance nutrition, aligning science with classical-liberal
+  emphasis on innovation over restrictive policies.
+key_points:
+  - >-
+    GM crops are safe for human health and the environment, backed by 3,000
+    studies and endorsements from WHO and others.
+  - >-
+    Indian farmers in key districts demand GM crops, as evidenced by protests
+    and successes like Bangladesh's Bt Brinjal reducing pesticides by 61% and
+    multiplying profits six-fold.
+  - >-
+    Global adoption of GM crops reached 190.4 million hectares in 2019, with 56%
+    in developing countries, proving their value.
+  - >-
+    Large-scale organic farming fails, as Sri Lanka's policy caused crop
+    failures requiring $200 million compensation.
+  - >-
+    India must end regulatory logjams on GM crops like Bt Brinjal to enable
+    farmer prosperity and sustainable agriculture.
+topics:
+  - gm-crops
+  - agricultural-biotech
+  - food-security
+  - regulatory-reform
 tags:
   - science &amp; tech
   - environment
   - agriculture
+source_hash: 14cfc6de60baeba2bd03bc48c976fa2f4c93a92f15632431b30156c645f66db1
+summary_hash: 14cfc6de60baeba2bd03bc48c976fa2f4c93a92f15632431b30156c645f66db1
+summary_at: '2026-05-05T09:55:52.970Z'
 ---
 **By Tarini Sudhakar**
 

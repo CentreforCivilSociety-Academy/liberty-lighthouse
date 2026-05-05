@@ -1,18 +1,58 @@
 ---
 title: The Unsung Heroes of Waste Management
 original_url: 'https://www.spontaneousorder.in/p/the-unsung-heroes-of-waste-management'
+author: Spontaneous Order
 published_at: '2021-06-02T10:43:24.000Z'
 ingested_at: '2026-05-05T08:31:42.315Z'
-source_hash: 90c3c30146780abcf1dd96b19ceb81c6df6889635d2a0be7a3e494afb957ebf4
-author: Spontaneous Order
 excerpt: >-
   Ever since the Government of India came out with the Solid Waste Management
   Rules (2016) and the Plastic Waste Management Rules (2016) which decentralized
   the process of waste management, especially in towns and cities, and provided
   more responsibilitie..
+summary: >-
+  Despite India's Solid Waste Management Rules (2016) and Swachh Bharat
+  initiative, urban waste management shows minimal improvement, with urban local
+  bodies (ULBs) spending 60-70% of budgets on collection and segregation, 20-30%
+  on transportation, less than 5% on essential treatment and disposal, and
+  30-50% on street cleansing alone. Waste collection efficiency stands at 70-90%
+  in metro cities but falls below 50% in smaller ones, highlighting the critical
+  yet undervalued role of informal waste pickers who lack government benefits,
+  face stigma, violence, and livelihood disruptions like during COVID lockdowns.
+  From a classical-liberal perspective, formalizing this sector through
+  self-employed cooperatives like Pune's SWaCH—which manages 8,000 trained
+  collectors via a municipal MoU—offers a market-friendly path: provide daily
+  wages, unemployment benefits, legal status, protective gear, and performance
+  incentives such as house-to-house collection fees and direct cash transfers
+  for top performers. This streamlines collection and segregation, cuts ULB
+  costs, employs more workers, frees funds for disposal to curb pollution, and
+  integrates pickers into society with occupational identity and welfare access,
+  ultimately enhancing efficiency over state-centric approaches.
+key_points:
+  - >-
+    ULBs must formalize waste pickers into cooperatives like SWaCH, providing
+    wages, benefits, and training to boost collection efficiency from below 50%
+    in small cities to metro levels.
+  - >-
+    Shift to house-to-house collection with fees and performance-based cash
+    incentives to replace inefficient street sweeping and motivate better
+    segregation.
+  - >-
+    Grant legal recognition, protective gear, and societal respect to waste
+    collectors to reduce harassment and enable access to government schemes.
+  - >-
+    Reallocate freed-up ULB budgets from collection (60-70%) toward treatment
+    and disposal to prevent environmental pollution.
+topics:
+  - waste-management
+  - waste-pickers
+  - sector-formalization
+  - ulb-reform
 tags:
   - environment
   - Waste Management
+source_hash: 90c3c30146780abcf1dd96b19ceb81c6df6889635d2a0be7a3e494afb957ebf4
+summary_hash: 90c3c30146780abcf1dd96b19ceb81c6df6889635d2a0be7a3e494afb957ebf4
+summary_at: '2026-05-05T12:38:37.409Z'
 ---
 **By Arjun Gargeyas**
 

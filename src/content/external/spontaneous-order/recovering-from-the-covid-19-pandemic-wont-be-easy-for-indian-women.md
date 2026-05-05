@@ -2,19 +2,59 @@
 title: Recovering from the Covid-19 pandemic won’t be easy for Indian women
 original_url: >-
   https://www.spontaneousorder.in/p/recovering-from-the-covid-19-pandemic-wont-be-easy-for-indian-women
+author: Spontaneous Order
 published_at: '2021-06-28T17:20:25.000Z'
 ingested_at: '2026-05-05T08:31:42.310Z'
-source_hash: 9697fc95e3655440a60c219dc983dde8b809ecbac43a3585fb82d094c1100882
-author: Spontaneous Order
 excerpt: >-
   Amid the Covid-19 crisis, three out of four Indians are experiencing their
   first recession. As might be expected, women are bearing the brunt of the pain
   — and the consequences could be long-lasting. A tiny elite of urban, educated
   women has benefited..
+summary: >-
+  The COVID-19 pandemic has disproportionately harmed Indian women, exacerbating
+  their already low labor force participation and threatening long-term economic
+  independence, in a classical-liberal critique of systemic dependencies and
+  unequal burdens. While a tiny urban elite of educated women saw a 7% rise in
+  formal workforce participation via remote work (LinkedIn data, April-July
+  2020), most women in informal sectors suffered. Urban poor, like domestic
+  workers in slums such as Dharavi, face impossible living conditions, leading
+  wealthy employers to fire them rather than advocate reforms, pushing women
+  into family dependency with diminished bargaining power. School closures and
+  lockdowns intensified India's unequal household labor division, with women
+  bearing childcare and chores; men's temporary help waned by August (Deshpande
+  study). CMIE data shows women's LFPR at 11% (vs. 71% for men), unemployment at
+  17% (vs. 6%), with young women in their 20s dropping from 14.3% to 8.7%
+  participation. Recovery favored men, who regained most lost jobs by November
+  2020, while women accounted for half of remaining losses. This slowdown,
+  compounded by cultural family expectations, risks permanent workforce exit,
+  declining household incomes, and greater reliance on strained families or
+  state, derailing women's path to independence.
+key_points:
+  - >-
+    COVID-19 reduced women's labor force participation to 11% from already low
+    levels, with young women in their 20s seeing a drop from 14.3% to 8.7% (CMIE
+    data).
+  - >-
+    Urban elites fired domestic workers, mostly women, instead of addressing
+    slum conditions, worsening poverty and bargaining power.
+  - >-
+    Lockdowns shifted household burdens onto women, as men's chore-sharing
+    declined after initial uptick (Deshpande study).
+  - >-
+    Job recovery was unequal: men regained most losses by November 2020, leaving
+    women with half of persistent joblessness.
+topics:
+  - covid-19
+  - women-employment
+  - labor-force-participation
+  - gender-inequality
 tags:
   - Indian women
   - pandemic
   - economic crisis
+source_hash: 9697fc95e3655440a60c219dc983dde8b809ecbac43a3585fb82d094c1100882
+summary_hash: 9697fc95e3655440a60c219dc983dde8b809ecbac43a3585fb82d094c1100882
+summary_at: '2026-05-05T11:24:11.763Z'
 ---
 **By Shruti Rajagopalan**
 

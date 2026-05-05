@@ -1,15 +1,60 @@
 ---
 title: 'The Road to Normalcy: India’s Vaccine Policy'
 original_url: 'https://www.spontaneousorder.in/p/the-road-to-normalcy-indias-vaccine-policy'
+author: Spontaneous Order
 published_at: '2021-09-03T12:37:33.000Z'
 ingested_at: '2026-05-05T08:31:42.294Z'
-source_hash: 180ee69f5b4a84c012e713f89ed13276eb6272d66b1483359e83fd73a83a19fd
-author: Spontaneous Order
 excerpt: >-
   India’s National Vaccine Policy has been through various ebbs & flows over the
   course of the past few months. The procurement policy witnessed several
   iterations itself – from centralised to decentralised to again being
   centralised. While issues like
+summary: >-
+  India's vaccine policy shifted from centralized procurement to decentralized
+  in April 2021 amid second-wave criticism, pitting states against each other,
+  fragmenting the market, and forcing higher prices, before reverting to
+  centralization on June 21 due to states' financial constraints and global
+  shortages. Self-reliance burdened two firms—Serum Institute and Bharat
+  Biotech—with supplying 950 million adults, creating a duopoly and inelastic
+  supply amid urgency. While state intervention was necessary for procurement,
+  last-mile delivery, and addressing positive externalities, it erred by
+  initially banning private procurement, missing spontaneous order in urban
+  areas where private hospitals in Bengaluru administered nearly half the doses.
+  This restricted coverage for low-income groups like Dharavi's 11% inoculation
+  rate, exacerbated by slot shortages rather than hesitancy. Rural progress
+  varies, with successes like 100% vaccination in Maharashtra's Janefal via
+  local leaders and ASHAs, underscoring need for localized nudges and structural
+  rural health fixes. Over 60 crore doses administered, 50% adults with first
+  dose, but August's 58.46 lakh daily pace falls short of 1 crore needed by
+  December 2021. Classical-liberal lens calls for limited, coordinated state
+  role enabling private markets and local solutions to sustain pace, equity
+  across urban-rural/gender/economic lines ahead of third wave.
+key_points:
+  - >-
+    State intervention was essential for self-reliant vaccine supply and
+    externalities but failed by initially prohibiting private procurement,
+    hindering urban coverage via spontaneous order.
+  - >-
+    Decentralized procurement fragmented markets, raised state costs (up to 30%
+    health budgets), and proved unviable, necessitating return to
+    centralization.
+  - >-
+    Local bottom-up efforts by ASHAs and leaders achieved 100% vaccination in
+    some rural areas, highlighting need for localized incentives over top-down
+    mandates.
+  - >-
+    India administered 60 crore doses with 50% adults getting first jab, but
+    must accelerate to 1 crore daily to meet December 2021 target amid equity
+    gaps.
+topics:
+  - vaccine-policy
+  - state-intervention
+  - private-procurement
+  - public-health
+  - self-reliance
+source_hash: 180ee69f5b4a84c012e713f89ed13276eb6272d66b1483359e83fd73a83a19fd
+summary_hash: 180ee69f5b4a84c012e713f89ed13276eb6272d66b1483359e83fd73a83a19fd
+summary_at: '2026-05-05T12:35:55.164Z'
 ---
 **By Shiladitya Mishra**
 

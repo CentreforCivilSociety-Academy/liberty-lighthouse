@@ -1,15 +1,54 @@
 ---
 title: Policy For Women
 original_url: 'https://www.spontaneousorder.in/p/policy-for-women'
+author: Spontaneous Order
 published_at: '2021-03-08T17:59:03.000Z'
 ingested_at: '2026-05-05T08:31:42.343Z'
-source_hash: 286358b145724aa1804ed3a5f601f2811d086f1ef83d694f4a3b9ae8a647e42d
-author: Spontaneous Order
 excerpt: >-
   On International Women’s Day 2021, CCS brings to you a compilation of our
   latest work focussing on #PolicyForWomen. Through these articles and videos,
   we aimed to highlight various gender issues plaguing India’s public policy.
   From understanding the p
+summary: >-
+  On International Women’s Day 2021, the Centre for Civil Society (CCS) compiles
+  recent articles and videos under #PolicyForWomen, spotlighting gender issues
+  in Indian public policy through a classical-liberal lens that critiques state
+  interventions and favors market-friendly solutions like direct cash transfers
+  and local empowerment. Key themes include low female participation in STEM
+  requiring foundational reforms; gender data gaps rendering policies
+  gender-blind; grassroots efforts like Ekal Mahila Sanghatana empowering
+  village women in Maharashtra; potential of work-from-home to boost female
+  employment post-Covid; insufficiency of laws alone against gender-based
+  violence, as shown in a Delhi case study; disproportionate long-term Covid
+  impacts on women; progress in reducing maternal mortality via two decades of
+  safe motherhood programs; surge in domestic violence as a 'pandemic within a
+  pandemic' during lockdowns; and successes of direct cash transfers in
+  enhancing maternal healthcare access for the poor. Videos feature bamboo
+  entrepreneur Rekha Dey, Sharad Joshi’s advocacy for women’s property rights,
+  women farmers’ plight, and arguments for cash transfers in maternal health.
+  This work amplifies classical-liberal critiques of paternalistic policies
+  while showcasing entrepreneurial and decentralized paths to women’s
+  advancement.
+key_points:
+  - Gender data gaps in India lead to policies that overlook women and girls.
+  - >-
+    Direct cash transfers have improved maternal healthcare access, especially
+    for the poor.
+  - >-
+    Laws alone fail to address gender-based violence, as evidenced by Delhi case
+    studies.
+  - Work-from-home post-Covid could boost female employment rates.
+  - >-
+    Grassroots initiatives like Ekal Mahila Sanghatana empower women at the
+    village level in Maharashtra.
+topics:
+  - gender-policy
+  - women-empowerment
+  - maternal-health
+  - public-policy
+source_hash: 286358b145724aa1804ed3a5f601f2811d086f1ef83d694f4a3b9ae8a647e42d
+summary_hash: 286358b145724aa1804ed3a5f601f2811d086f1ef83d694f4a3b9ae8a647e42d
+summary_at: '2026-05-05T11:14:26.505Z'
 ---
 **By Spontaneous Order**
 

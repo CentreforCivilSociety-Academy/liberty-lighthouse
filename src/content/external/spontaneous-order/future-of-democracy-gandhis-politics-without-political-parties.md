@@ -2,15 +2,57 @@
 title: 'Future of Democracy: Gandhi’s Politics without Political Parties'
 original_url: >-
   https://www.spontaneousorder.in/p/future-of-democracy-gandhis-politics-without-political-parties
+author: Spontaneous Order
 published_at: '2021-10-01T19:00:46.000Z'
 ingested_at: '2026-05-05T08:31:42.290Z'
-source_hash: 586e9a4907dcb6bbeaf5cca8549324e00966ea86655cc3f87de24fc27bbd1f3d
-author: Spontaneous Order
 excerpt: >-
   Gandhiji was a strong votary of gram swaraj. He believed that village
   republics should be the foundation of the political system of free India.
   However, many of his contemporaries thought it to be Gandhi’s romanticism of
   the ancient Indian village or an
+summary: >-
+  Parth Shah argues that Gandhi's vision of gram swaraj, rooted in
+  self-governing village republics, was not mere romanticism but reflected
+  historical realities like the Kudavolai system under the Chola dynasty from
+  900 CE in Uttaramerur, Tamil Nadu. Villages were divided into 30 kudumbu
+  wards, with representatives selected via random draw from palm-leaf tickets in
+  earthen pots by a young boy, after strict qualifications: age 35-70, ownership
+  of one veli (6.17 acres) of land plus a house thereon, and exclusion for
+  crimes like killing women, children, Brahmins, or cows, or associations with
+  thieves and drunkards. Elected served one year, ineligible for three years,
+  with in-term disqualifications. This system evolved independently of ancient
+  texts through local experiments. Shah contrasts it favorably with modern
+  party-based elections, plagued by opaque funding, expenditure limits,
+  vote-bank politics exploiting caste and religion, hate speech, public apathy,
+  and dominance by professional politicians barring ordinary citizens. Gandhi
+  urged dissolving Congress post-independence not for new parties but for
+  politics without parties, embodying true 'government of the people, by the
+  people, for the people' via Kudavolai-like direct democracy. From a
+  classical-liberal lens, Gandhi’s village republics and party-less politics
+  represent democracy's future, prioritizing local accountability over
+  centralized party machines.
+key_points:
+  - >-
+    Historical Kudavolai system in Chola-era villages used random selection of
+    qualified candidates (age 35-70, owning 6.17 acres land and house, no major
+    crimes) via palm-leaf draws for one-year terms.
+  - >-
+    Modern elections suffer from party funding opacity, vote-bank abuses, hate
+    speech, and professional politician dominance, sidelining ordinary citizens.
+  - >-
+    Gandhi advocated dissolving Congress for politics without parties, aligning
+    with direct village governance like Kudavolai.
+  - >-
+    Village republics exemplify true democracy closer to the people than
+    party-dominated systems.
+topics:
+  - gandhi
+  - village-republics
+  - kudavolai-system
+  - decentralized-governance
+source_hash: 586e9a4907dcb6bbeaf5cca8549324e00966ea86655cc3f87de24fc27bbd1f3d
+summary_hash: 586e9a4907dcb6bbeaf5cca8549324e00966ea86655cc3f87de24fc27bbd1f3d
+summary_at: '2026-05-05T10:01:30.868Z'
 ---
 **By Parth Shah**
 

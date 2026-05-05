@@ -4,20 +4,59 @@ title: >-
   Classical Liberal perspective
 original_url: >-
   https://www.spontaneousorder.in/p/the-fault-in-our-firecracker-bans-examining-the-court-order-through-a-classical-liberal-perspective
+author: Spontaneous Order
 published_at: '2018-07-17T07:52:01.000Z'
 ingested_at: '2026-05-05T08:31:42.726Z'
-source_hash: c190826eb89b7cde8df657496e1cf936f7e81d4488f79e9fea6f3d623a2e79fb
-author: Spontaneous Order
 excerpt: >-
   As we welcome Diwali today, several people in Delhi and NCR are not in the
   usual festive mood. That is because of the recent Supreme Court order banning
   the sale of firecrackers in Delhi and NCR till November 1, 2017. As a result,
   there will be no firec..
+summary: >-
+  From a classical liberal perspective grounded in John Stuart Mill’s harm
+  principle, the Supreme Court’s temporary ban on firecracker sales in Delhi-NCR
+  until November 1, 2017, is justified despite infringing on individual
+  liberties to buy, sell, and use firecrackers during Diwali, as it tests their
+  impact on air pollution to protect a significant number of people from harm.
+  Delhi’s severe pollution, exemplified by the 'Great Smog' post-Diwali 2016
+  with hazardous particulate matter spikes, necessitates this one-time
+  experiment comparing pollution levels to prior years, enabling informed future
+  regulations. A liberal case requires protecting many, minimizing collateral
+  damage, and lacking better alternatives—here met by providing definitive data
+  amid inconclusive correlations. However, the Court’s flip-flopping (full ban
+  November 2016, 50% licenses September 2017, re-ban October 2017), disregard
+  for firecracker sellers’ losses leading to black-market sales, failure to note
+  declining firecracker production amid rising pollution, and leniency toward
+  CPCB’s non-compliance with prior reporting orders undermine the process. This
+  test resolves annual debates and litigation, benefiting all affected by
+  polluted air.
+key_points:
+  - >-
+    Supreme Court’s temporary firecracker ban till November 1, 2017, justified
+    under harm principle to empirically test Diwali firecrackers’ pollution
+    impact.
+  - >-
+    Delhi’s post-Diwali 2016 smog with extreme particulate spikes correlates
+    with firecrackers, demanding a firecracker-free Diwali for comparison.
+  - >-
+    Court’s inconsistent orders—full ban 2016, partial lift 2017, re-ban—ignore
+    sellers’ economic harm and CPCB’s reporting failures.
+  - >-
+    Declining firecracker sales despite rising pollution highlights need for
+    data over assumptions.
+topics:
+  - firecracker-ban
+  - air-pollution
+  - classical-liberalism
+  - judicial-overreach
 tags:
   - Cracker Ban
   - Delhi Pollution
   - Diwali
   - Supreme Court of India
+source_hash: c190826eb89b7cde8df657496e1cf936f7e81d4488f79e9fea6f3d623a2e79fb
+summary_hash: c190826eb89b7cde8df657496e1cf936f7e81d4488f79e9fea6f3d623a2e79fb
+summary_at: '2026-05-05T12:26:18.223Z'
 ---
 **By Vineet Bhalla**
 

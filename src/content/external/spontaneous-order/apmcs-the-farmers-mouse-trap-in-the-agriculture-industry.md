@@ -2,19 +2,63 @@
 title: 'APMCs: The Farmers’ Mouse-trap in the Agriculture Industry'
 original_url: >-
   https://www.spontaneousorder.in/p/apmcs-the-farmers-mouse-trap-in-the-agriculture-industry
+author: Spontaneous Order
 published_at: '2024-05-19T11:16:20.000Z'
 ingested_at: '2026-05-05T08:31:42.230Z'
-source_hash: f6d7dba055d8dd4e8ce5141834a98e9383687ecf58d5d3da71c9a33f38922a78
-author: Spontaneous Order
 excerpt: >-
   In 2020, the Government of India (GoI), in an attempt to solve the chronic
   problems within the agriculture sector, passed three contentious farm laws
   that were a cause for major political uproar. These laws were a definitive
   departure from the protectio..
+summary: >-
+  Indian agriculture is hampered by Agriculture Produce Marketing Committees
+  (APMCs), statutory monopsonies established by states that force farmers to
+  sell wholesale produce only through licensed arhtiyas, who exploit information
+  asymmetries to buy low at or near minimum support prices and sell at market
+  value, pocketing the difference after taxes. This system stifles price
+  discovery, burdens small farmers with high costs if they opt out, fosters
+  corruption, and neglects promised market services like storage and transport.
+  The 2020 Farmers’ Produce Trade and Commerce (Promotion and Facilitation)
+  Act—colloquially the Mandi Bypass Act—sought to override state APMC laws
+  nationally, allowing farmers to sell directly outside mandis to enable
+  competition, better prices, and service improvements. Drawing on Mises and
+  Hayek, the author argues this aligned with purposeful action and dispersed
+  knowledge but faced fierce protests, mainly from Punjab and Haryana—India's
+  grain bowl—where APMCs generate state revenue and arhtiyas form a key vote
+  bank and funding source for politicians. These states' protectionism has
+  locked farmers into water-depleting wheat and paddy, exporting groundwater via
+  exports. The Act's flaws included no stakeholder consultation and risks for
+  small farmers lacking alternative services. Despite repeal, reforms are
+  urgent: dismantle APMC monopsony at state or national level, provide safety
+  nets like affordable crop insurance and efficient procurement/storage, and
+  redirect fertilizer subsidies to infrastructure such as irrigation, transport,
+  warehousing, and processing to boost investment and productivity.
+key_points:
+  - >-
+    APMCs create monopsonies that prevent price discovery and primarily benefit
+    arhtiyas and state governments at farmers' expense.
+  - >-
+    The Mandi Bypass Act aimed to allow farmers to sell produce outside APMCs,
+    fostering competition and better services.
+  - >-
+    Protests in Punjab and Haryana were driven by revenue losses for governments
+    and arhtiyas as a major vote bank.
+  - >-
+    Essential reforms include eliminating APMC monopsony, implementing crop
+    insurance and efficient storage, and shifting subsidies to agricultural
+    infrastructure.
+topics:
+  - agriculture
+  - apmc
+  - farm-reforms
+  - agricultural-subsidies
 tags:
   - farmers
   - agriculture
   - Law
+source_hash: f6d7dba055d8dd4e8ce5141834a98e9383687ecf58d5d3da71c9a33f38922a78
+summary_hash: f6d7dba055d8dd4e8ce5141834a98e9383687ecf58d5d3da71c9a33f38922a78
+summary_at: '2026-05-05T08:58:01.615Z'
 ---
 **By Arul Gupta**
 

@@ -2,21 +2,61 @@
 title: 'Lift Restrictions In All Zones By July, And Just Learn To Live With Corona'
 original_url: >-
   https://www.spontaneousorder.in/p/lift-restrictions-in-all-zones-by-july-and-just-learn-to-live-with-corona
+author: Spontaneous Order
 published_at: '2020-05-11T16:06:35.000Z'
 ingested_at: '2026-05-05T08:31:42.421Z'
-source_hash: cdd5deb551892401afa267ed1c9f620018e5ab6c19b0782770f6648d09980596
-author: Spontaneous Order
 excerpt: >-
   India’s lockdown has been eased by dividing the country into red, orange and
   green zones, with high, medium and minimal infections so far, and
   correspondingly tough curbs on economic activity. This can at best be a very
   temporary measure. Beyond two or
+summary: >-
+  Swaminathan SA Aiyer argues that India's zoned lockdown—red, orange, green—is
+  a temporary expedient at best, as prolonging it beyond July risks economic
+  disaster without substantially curbing COVID deaths, given dense urban
+  crowding and multi-person households that thwart control. Global evidence
+  shows lockdowns elevate non-COVID deaths nearly as much as the virus via
+  neglected healthcare, postponed surgeries, and hospital avoidance. Red and
+  orange zones cover 88% of GDP, endangering 60 million small enterprises that
+  sustain millions. April's PMI crashed to 27.5 for manufacturing (from 51.8)
+  and a record-low 5.4 for services (from 49.3), with unemployment hitting 25%.
+  Even if COVID peaks in June, IMF forecasts 1.9% GDP growth; persistence could
+  mean zero or -3%, devastating already-weak banks worse than 2008's recession.
+  Classical-liberal logic favors lifting all but minimal restrictions by July,
+  learning to live with COVID as with TB, malaria, alcohol (5% of deaths),
+  tobacco, and accidents—promoting masks, distancing, elderly isolation,
+  plexiglass in offices/transport, and innovations over shutdowns. Zoning fails
+  as red zones expand, disrupting supply chains even in green areas.
+key_points:
+  - >-
+    Lift all lockdown restrictions by July at latest to avert economic collapse
+    and mass small-enterprise deaths.
+  - >-
+    Lockdowns cause non-COVID deaths comparable to COVID via healthcare neglect,
+    justifying minimal curbs instead.
+  - >-
+    Red/orange zones encompass 88% of GDP, with April PMI at record lows of 27.5
+    (manufacturing) and 5.4 (services).
+  - >-
+    Treat COVID like TB, malaria, alcohol/tobacco by promoting behaviors,
+    isolation, and innovations rather than zoning.
+  - >-
+    Prolonged shutdowns risk GDP contraction to -3%, crippling banks beyond 2008
+    levels.
+topics:
+  - covid-19
+  - lockdowns
+  - indian-economy
+  - economic-policy
 tags:
   - Public Policy
   - Healthcare in India
   - Restrictive regulations
   - Public Health
   - pandemic
+source_hash: cdd5deb551892401afa267ed1c9f620018e5ab6c19b0782770f6648d09980596
+summary_hash: cdd5deb551892401afa267ed1c9f620018e5ab6c19b0782770f6648d09980596
+summary_at: '2026-05-05T10:42:44.026Z'
 ---
 **By Swaminathan SA Aiyer**
 

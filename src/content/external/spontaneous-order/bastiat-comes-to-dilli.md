@@ -1,20 +1,55 @@
 ---
 title: Bastiat Comes to Dilli
 original_url: 'https://www.spontaneousorder.in/p/bastiat-comes-to-dilli'
+author: Spontaneous Order
 published_at: '2011-06-18T23:17:52.000Z'
 ingested_at: '2026-05-05T08:31:42.638Z'
-source_hash: f0d9c11227b5d7c1faa9a86f71bc316b020c670e27d5cb629017fdedb528c2f0
-author: Spontaneous Order
 excerpt: >-
   Two weeks ago the Government of India launched the National Rural Livelihoods
   Mission (NRLM), from a policy point of view not very different from the NREGA.
   Mint wrote a wise editorial on the NRLM on Thursday 16 June, read here.
   Imagine Frederic Basti...
+summary: >-
+  The post critiques India's National Rural Livelihoods Mission (NRLM), launched
+  two weeks prior to mid-June 2011, as policy-similar to NREGA and references a
+  critical Mint editorial from 16 June 2011. Imagining Frederic Bastiat
+  lecturing Parliament on these schemes, it quotes his 'Economic Sophisms' to
+  contrast two doctrines: one viewing wealth as the result of labor, favoring
+  progress via machines, exchange, intelligence, competition to maximize output
+  per effort; the other treating effort itself as wealth, akin to Sisyphus's
+  toil, endorsing privileges, monopolies, restrictions, and suppression of
+  machinery to increase exertion while diminishing results. Universal human
+  practice aligns with the first—seeking more with less—while theorists,
+  legislators, and statesmen peddle the second, experimenting harmfully on
+  society despite personally following efficiency principles. The
+  classical-liberal framing indicts NRLM-NREGA as exemplars of this fallacious
+  'Sisyphism,' prioritizing unproductive labor over genuine wealth creation,
+  with policymakers contradicting sound economics under the guise that 'there
+  are no absolute principles' in political economy.
+key_points:
+  - 'NRLM mirrors NREGA''s flaws, as critiqued in Mint''s 16 June 2011 editorial.'
+  - >-
+    Bastiat's lens reveals government schemes as promoting 'Sisyphism'—valuing
+    effort over productive results.
+  - >-
+    True wealth grows by increasing the ratio of results to effort through
+    competition, machines, and exchange.
+  - >-
+    Legislators impose anti-efficiency policies on society while personally
+    seeking maximal output from minimal effort.
+topics:
+  - nrega
+  - rural-livelihoods
+  - bastiat
+  - government-intervention
 tags:
   - NREGA
   - NRLM
   - Bastiat
   - Sisyphism
+source_hash: f0d9c11227b5d7c1faa9a86f71bc316b020c670e27d5cb629017fdedb528c2f0
+summary_hash: f0d9c11227b5d7c1faa9a86f71bc316b020c670e27d5cb629017fdedb528c2f0
+summary_at: '2026-05-05T09:08:18.357Z'
 ---
 **By Vipin**
 

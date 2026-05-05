@@ -1,21 +1,61 @@
 ---
 title: No-detention policy is harming students
 original_url: 'https://www.spontaneousorder.in/p/no-detention-policy'
+author: Spontaneous Order
 published_at: '2020-02-07T10:56:05.000Z'
 ingested_at: '2026-05-05T08:31:42.446Z'
-source_hash: adfdc5a020077ecce6e2cfd0e7e76c59b12cddebeda286b072eaf048edb0e5f6
-author: Spontaneous Order
 excerpt: >-
   The Tamil Nadu government has withdrawn its decision to conduct public
   examination for classes V and VIII. This decision comes in response to the
   severe criticism from several quarters – from academicians to students,
   claiming that Public exams and the
+summary: >-
+  The no-detention policy under India's Right to Education Act (RTE) of 2010,
+  intended to boost enrollment by prohibiting failure up to class VIII,
+  succeeded in slashing primary dropout rates from 30.3% in 2009-10 to 4.13% in
+  2014-15 and raising Gross Enrollment Ratio to 99%, but at the cost of
+  catastrophic learning decline. Secondary dropout rates surged to 17.16% as
+  unprepared students falter at class IX exams, while ASER reports show 58% of
+  class III students in 2016 and 50.8% in 2019 unable to read class I text
+  despite near-universal enrollment. From a classical-liberal lens, this
+  exemplifies government intervention's unintended consequences: no incentives
+  for teachers or students lead to stagnation, as public choice theory predicts,
+  prioritizing inputs like enrollment over outcomes. The policy fosters a
+  teacher-centric system resistant to performance metrics, driving parents to
+  private schools amid regulatory strangulation via RTE. The author advocates
+  structural reforms—reinstating simple, low-stakes exams focused on basic
+  skills, measuring outcomes, and dismantling bureaucratic cobwebs—to harness
+  India's demographic dividend through skill-based foundations, warning that
+  no-detention grants access to schools, not genuine education.
+key_points:
+  - >-
+    No-detention policy under RTE increased primary enrollment but caused
+    learning collapse, with over 50% of class III students unable to read class
+    I text per ASER.
+  - >-
+    Sudden exams at class IX trigger 17.16% secondary dropouts, merely delaying
+    failure by three years.
+  - >-
+    Reform by reinstating low-pressure exams for classes III, V, VIII,
+    emphasizing outcomes over inputs to align incentives for teachers and
+    students.
+  - >-
+    Reduce government regulations on private schools to enable choice and
+    competition, addressing public school desertion.
+topics:
+  - no-detention-policy
+  - right-to-education-act
+  - education-reform
+  - learning-outcomes
 tags:
   - no-detention policy
   - School Choice
   - Right to Education
   - ASER
   - Right to Education Act
+source_hash: adfdc5a020077ecce6e2cfd0e7e76c59b12cddebeda286b072eaf048edb0e5f6
+summary_hash: adfdc5a020077ecce6e2cfd0e7e76c59b12cddebeda286b072eaf048edb0e5f6
+summary_at: '2026-05-05T11:04:35.849Z'
 ---
 **By Benolin Kannadasan**
 

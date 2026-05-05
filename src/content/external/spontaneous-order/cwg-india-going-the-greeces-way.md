@@ -1,20 +1,58 @@
 ---
 title: 'CWG: India going the Greece’s way…?'
 original_url: 'https://www.spontaneousorder.in/p/cwg-india-going-the-greeces-way'
+author: Spontaneous Order
 published_at: '2010-08-18T10:56:17.000Z'
 ingested_at: '2026-05-05T08:31:42.648Z'
-source_hash: 6655af649d5f1b76d6ba5e7e741ed2751edfd30c8137eeef7026f5be4b959c39
-author: Spontaneous Order
 excerpt: >-
   I am not suggesting here that India will soon be in a situation where Greece
   is today. However, events in the recent past are not very inspiring for the
   long run sustainable economic growth. The question to be answered by
   economists is whether the expen..
+summary: >-
+  Kumar Anand warns that India's extravagant spending on the 2010 Commonwealth
+  Games (CWG) exemplifies government wastefulness, lacking any cost-benefit
+  analysis due to the state's monopoly position and use of taxpayer funds for
+  'national prestige' rather than profit motives. He draws parallels to Greece's
+  2004 Athens Olympics, where $11 billion in spending symbolized fiscal
+  irresponsibility; post-games, wasteful habits amid good times led to crisis
+  exposure, with 21 of 22 venues now abandoned at $800 million annual
+  maintenance cost. India's CWG bid estimated Rs 1,899 crore in 2003, but costs
+  ballooned to official Rs 10,000 crore or independent Rs 30,000 crore, making
+  it the most expensive ever, amid corruption headlines. Governments face no
+  market discipline for mistakes, prioritizing political costs over fiscal
+  responsibility, resorting to debt monetization and inflation. Anand argues
+  such 'harebrained' expenditures hinder India's economic potential, risking a
+  Greek-style doom, quoting Mises that games contribute nothing to human
+  improvement beyond entertainment.
+key_points:
+  - >-
+    Government organizers of CWG lack incentives for cost-benefit analysis,
+    enabling waste of taxpayer money on national prestige.
+  - >-
+    CWG costs escalated from Rs 1,899 crore bid estimate to Rs 10,000-30,000
+    crore, amid corruption scandals.
+  - >-
+    Greece's Athens Olympics symbolized frivolous spending, with $11 billion
+    outlay and $800 million annual maintenance for mostly abandoned venues
+    contributing to fiscal crisis.
+  - >-
+    Continued wasteful government spending leads to inflation via debt
+    monetization, threatening long-term economic growth.
+  - 'Frivolous mega-events like CWG offer no real economic benefit, per Mises.'
+topics:
+  - government-waste
+  - fiscal-irresponsibility
+  - public-choice
+  - mega-events
 tags:
   - Athens Olympics
   - Greece Financial Crisis
   - Economics
   - Commonwealth Games
+source_hash: 6655af649d5f1b76d6ba5e7e741ed2751edfd30c8137eeef7026f5be4b959c39
+summary_hash: 6655af649d5f1b76d6ba5e7e741ed2751edfd30c8137eeef7026f5be4b959c39
+summary_at: '2026-05-05T09:31:31.825Z'
 ---
 **By Kumar Anand**
 

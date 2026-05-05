@@ -2,20 +2,61 @@
 title: How Can We Best Help the Poor?…By Selling Them Stuff!
 original_url: >-
   https://www.spontaneousorder.in/p/should-we-encourage-people-get-rich-selling-poor-absolutely
+author: Spontaneous Order
 published_at: '2012-06-20T18:21:53.000Z'
 ingested_at: '2026-05-05T08:31:42.616Z'
-source_hash: dbf037ff5a5928d16d2ec82205626a91edbf7110ee4aa9cd23582b0368a9eb1f
-author: Spontaneous Order
 excerpt: >-
   (This blog was co-written by Andrew Humphries, Associate, Programs, and Rishav
   Kumar Thakur, Researching Reality Intern at CCS) Ankur Shah delivered a
   compelling presentation to the CCS Interns yesterday about “patient capital”
   (philanthropic investme
+summary: >-
+  Ankur Shah presented on Acumen Fund's 'patient capital' model, which invests
+  philanthropic grants in scalable businesses serving the poor, aiming to break
+  even rather than generate net monetary returns—using profits from successful
+  ventures to offset losses elsewhere. This hybrid approach treats beneficiaries
+  as customers, not recipients, fostering accountability: businesses must meet
+  real needs or lose sales. It incentivizes efficient resource use to cut costs
+  and prices over time, while customer revenues enable scaling to reach more
+  people and create value-adding jobs, maximizing long-term social returns. From
+  a classical-liberal viewpoint, this market-mimicking philanthropy outperforms
+  traditional aid by aligning incentives with consumer demand. However, the
+  authors question the model's sustainability, as breaking even nominally
+  implies negative real returns and ongoing donor dependence, echoing critiques
+  of conventional philanthropy. They cite Paul Polak's case for profit-seeking
+  enterprises serving the poor and probe the social impact vs. profit trade-off:
+  how to measure incommensurable benefits against forgone opportunities,
+  especially when zero returns are hard to achieve.
+key_points:
+  - >-
+    Acumen Fund's patient capital invests in businesses for the poor to break
+    even, prioritizing social returns through customer accountability,
+    efficiency, and scalability.
+  - >-
+    Treating beneficiaries as customers ensures providers meet real needs,
+    unlike traditional aid recipients.
+  - >-
+    Businesses reinvest revenues to expand reach and create jobs, outperforming
+    short-term philanthropic inputs.
+  - >-
+    The model remains donor-dependent due to negative real returns; authors
+    advocate considering profit-oriented approaches like Paul Polak's.
+  - >-
+    Measuring social impact against financial losses poses challenges,
+    questioning the trade-off's justification.
+topics:
+  - patient-capital
+  - social-enterprise
+  - philanthropy-reform
+  - poverty-alleviation
 tags:
   - monetary profits
   - Acumen Model
   - CCS Interns
   - Acumen Fund
+source_hash: dbf037ff5a5928d16d2ec82205626a91edbf7110ee4aa9cd23582b0368a9eb1f
+summary_hash: dbf037ff5a5928d16d2ec82205626a91edbf7110ee4aa9cd23582b0368a9eb1f
+summary_at: '2026-05-05T11:43:36.983Z'
 ---
 **By Andrew Humphries**
 

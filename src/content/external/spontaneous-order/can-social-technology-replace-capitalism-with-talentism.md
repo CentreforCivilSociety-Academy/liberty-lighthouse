@@ -2,15 +2,46 @@
 title: Can Social Technology Replace Capitalism with “Talentism”?
 original_url: >-
   https://www.spontaneousorder.in/p/can-social-technology-replace-capitalism-with-talentism
+author: Spontaneous Order
 published_at: '2012-05-28T11:23:58.000Z'
 ingested_at: '2026-05-05T08:31:42.618Z'
-source_hash: 73726d2c8a8e0e92d5473b39ddad64741868a1e24fa4918db917ec7734cddcca
-author: Spontaneous Order
 excerpt: >-
   Klaus Schwab is quoted in Forbes as saying that “capital is being superseded
   by creativity and the ability to innovate….If talent is becoming the decisive
   competitive factor, we can be confident in stating that capitalism is being
   replaced by ‘talen
+summary: >-
+  The post challenges Klaus Schwab's assertion, quoted in Forbes, that
+  capitalism is being supplanted by 'talentism,' where creativity and innovation
+  supersede capital as the decisive factor. While recognizing the insights of
+  economists over the past 20 years on how institutions—rules, norms, and
+  values—shape human interactions and the potential of 'social technologies' to
+  unleash human potential (as in Paul Romer's TED talk on charter cities), the
+  author argues against dismissing capital accumulation and capitalists. Talent
+  and ideas require complementary capital goods to yield innovations; even Steve
+  Jobs and Pixar talent on a desert island would produce nothing without them.
+  The existing capital structure—computers, internet, factories, roads—enables
+  creativity far beyond historical levels, and capitalism uniquely generates
+  'careers open to talent' compared to feudal, mercantilist, or socialist
+  systems. Capitalists and markets efficiently channel resources to
+  life-improving projects, making capitalism integral to human progress rather
+  than obsolete.
+key_points:
+  - >-
+    Capital accumulation provides essential tools for talent and ideas to
+    generate real-world innovations.
+  - >-
+    Social technologies enhance human potential but cannot replace the capital
+    structure built by capitalism.
+  - >-
+    Capitalism outperforms other systems by creating more careers open to
+    talent.
+  - Capital markets direct resources to projects that solve human problems.
+topics:
+  - capitalism
+  - talentism
+  - social-technology
+  - capital-accumulation
 tags:
   - talentism
   - social technologies
@@ -18,6 +49,9 @@ tags:
   - talent
   - capital markets
   - creativity
+source_hash: 73726d2c8a8e0e92d5473b39ddad64741868a1e24fa4918db917ec7734cddcca
+summary_hash: 73726d2c8a8e0e92d5473b39ddad64741868a1e24fa4918db917ec7734cddcca
+summary_at: '2026-05-05T09:15:52.936Z'
 ---
 **By Andrew Humphries**
 

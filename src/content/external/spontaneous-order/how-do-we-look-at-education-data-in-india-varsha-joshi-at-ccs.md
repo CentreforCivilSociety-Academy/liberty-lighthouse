@@ -2,15 +2,50 @@
 title: How do we look at education data in India? Varsha Joshi at CCS
 original_url: >-
   https://www.spontaneousorder.in/p/how-do-we-look-at-education-data-in-india-varsha-joshi-at-ccs
+author: Spontaneous Order
 published_at: '2014-05-27T13:28:44.000Z'
 ingested_at: '2026-05-05T08:31:42.592Z'
-source_hash: 6c44cd5e223fb29d6ff8230f04929d14e5519f7fd5ba45bb738ab3dc2e1c6384
-author: Spontaneous Order
 excerpt: >-
   Varsha Joshi, Director with the office of the Registrar General and Census
   Commissioner of India was at CCS on 23 May 2014 to discuss how to look at
   education data in India. Having conducted the Census of India 2011 for Delhi,
   and with a particular inte..
+summary: >-
+  Varsha Joshi, with experience from the Census of India 2011 for Delhi,
+  discussed education data sources at CCS on 23 May 2014, emphasizing their
+  limitations and policy implications from a classical-liberal viewpoint. DISE
+  provides incomplete pictures as unrecognized schools avoid reporting to evade
+  regulatory pressures for recognition or shutdowns, a problem Amit Kaushik
+  attributed to policy barriers making recognition difficult, resulting in
+  enrollment figures that are 'just the tip of the iceberg.' Private schools
+  often omit SC/ST data, further skewing insights. NAS, now pan-India after
+  starting with 42 districts in 7 states and initially only government schools,
+  assesses higher competencies in recognized schools on test day, evaluating
+  schools rather than individual low-stakes child performance. In contrast, ASER
+  offers a 'dipstick' on Class V basic skills for average children. Joshi
+  advocated government embrace independent surveys like ASER, rather than
+  viewing them as embarrassing, to prioritize actual learning over
+  infrastructure and grade-appropriate tests. As data collection evolves to
+  include private and emerging unrecognized school data, all sources must inform
+  policy and practice for better education outcomes.
+key_points:
+  - >-
+    DISE data underreports due to unrecognized schools avoiding submission to
+    dodge recognition mandates driven by restrictive policy.
+  - >-
+    NAS evaluates school-level higher competencies in recognized government and
+    private schools, evolving from limited pilots to pan-India coverage.
+  - >-
+    ASER provides essential low-stakes assessment of basic Class V learning
+    outcomes, which government should support instead of resisting.
+  - >-
+    Integrate all education data sources to guide evolving policy toward real
+    child learning rather than just infrastructure.
+topics:
+  - education-data
+  - unrecognized-schools
+  - learning-assessments
+  - india-education-policy
 tags:
   - Varsha Joshi
   - IPE Global
@@ -20,6 +55,9 @@ tags:
   - District Information System for Education
   - NCERT
   - OBC enrolment
+source_hash: 6c44cd5e223fb29d6ff8230f04929d14e5519f7fd5ba45bb738ab3dc2e1c6384
+summary_hash: 6c44cd5e223fb29d6ff8230f04929d14e5519f7fd5ba45bb738ab3dc2e1c6384
+summary_at: '2026-05-05T10:11:21.818Z'
 ---
 **By Manasi Bose**
 

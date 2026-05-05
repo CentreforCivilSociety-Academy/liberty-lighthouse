@@ -1,19 +1,55 @@
 ---
 title: Smart Agriculture in India
 original_url: 'https://www.spontaneousorder.in/p/smart-agriculture-in-india'
+author: Spontaneous Order
 published_at: '2022-04-13T18:16:14.000Z'
 ingested_at: '2026-05-05T08:31:42.268Z'
-source_hash: 32099d97efc96d970d3900c20d9d93e9498b22583ae8d1a174e36058666aa992
-author: Spontaneous Order
 excerpt: >-
   Agriculture and allied sectors are the primary source of livelihood for nearly
   55 per cent of India’s population (Census 2011), but accounted only for
   approximately 17.8 per cent of the country’s Gross Value Added in 2019-20. The
   yields on cereal crop
+summary: >-
+  India's agriculture, primary livelihood for 55% of the population (Census
+  2011), contributes just 17.8% to GVA (2019-20), with cereal yields 50% lower
+  than in the US or China due to structural barriers like average 1-hectare
+  holdings (86% small/marginal), intermediaries, credit shortages, and limited
+  tech access. These issues hinder efficiency, especially as ag output feeds
+  industries like retail. Agritech—IoT, big data, AI, drones, sensors—addresses
+  'unknowns' like weather and soil via predictive analytics, crop
+  recommendations, and livestock monitoring, promising higher yields and
+  profitability. Government initiatives at central/state levels support
+  integration, alongside 500+ startups (e.g., Fasal, DeHaat, CropIn) boosted by
+  Digital India. From a classical-liberal lens, persistent challenges—blanket
+  solutions ignoring local contexts, fragmentation, small farmers' cost
+  concerns, slow adoption, and advisory disconnects—demand market-friendly
+  reforms: stakeholder synergy including farmers, ramped-up investment/R&D, and
+  regulatory easing to build a robust ecosystem unleashing agritech's potential.
+key_points:
+  - >-
+    Agritech using AI, IoT, and drones minimizes agricultural uncertainties to
+    boost yields and efficiency for small Indian farmers.
+  - >-
+    Over 500 agritech startups like Fasal and CropIn are disrupting
+    intermediaries and improving market linkages via Digital India.
+  - >-
+    Challenges include non-localized solutions, land fragmentation, and slow
+    tech adoption among cost-sensitive smallholders.
+  - >-
+    Policy must prioritize stakeholder synergy, increased R&D investment, and
+    regulatory simplification to scale agritech.
+topics:
+  - agriculture
+  - agritech
+  - india-policy
+  - farm-innovation
 tags:
   - agritech
   - agriculture
   - technology
+source_hash: 32099d97efc96d970d3900c20d9d93e9498b22583ae8d1a174e36058666aa992
+summary_hash: 32099d97efc96d970d3900c20d9d93e9498b22583ae8d1a174e36058666aa992
+summary_at: '2026-05-05T11:46:12.019Z'
 ---
 **By Ankita Sharma**
 

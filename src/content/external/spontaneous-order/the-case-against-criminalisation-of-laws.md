@@ -1,18 +1,60 @@
 ---
 title: The Case Against Criminalisation of Laws
 original_url: 'https://www.spontaneousorder.in/p/the-case-against-criminalisation-of-laws'
+author: Spontaneous Order
 published_at: '2025-08-01T13:34:22.000Z'
 ingested_at: '2026-05-05T08:31:42.226Z'
-source_hash: 86f2dc25dfc12825d8b536d0147253a03a520ac0e84ea7175893fa3124b86f8f
-author: Spontaneous Order
 excerpt: >-
   The State exists as a result of a social contract between individuals and
   their communities. Citizens empower the state, as an institution, with a
   monopoly over the use of violence. In exchange the state must provide them
   with protection and stability. ..
+summary: >-
+  The state derives its monopoly on violence from a social contract where
+  citizens are principals and the state their agent, obligated to use force only
+  for harm to others (not minor inconveniences), proportionally, and as a last
+  resort. Modern governments overcriminalize, violating these principles, as
+  seen in India's Narcotic Drugs and Psychotropic Substances Act, 1985 (Section
+  27), which criminalizes drug consumption in Punjab despite it primarily
+  harming the self-addicted individual, ignoring rehabilitation alternatives.
+  Similarly, the Mental Health Act, 2017 (Section 108) imposes blanket
+  penalties—six months' imprisonment for first violations, two years for
+  repeats—for any breach, equating minor errors like record-keeping to grave
+  offenses. Harsher punishments fail to deter crime, as certainty of detection
+  matters more; US alcohol Prohibition in the 1920s, with life sentences for
+  moonshining but only 15,000 agents nationwide, spurred noncompliance and the
+  'roaring twenties.' Overcriminalization also boosts recidivism: research by
+  Ilyana Kuziemko shows removing parole opportunities increases reoffending by
+  about 10%, as prisoners lose hope and disengage from rehabilitation.
+  Decriminalization restores the social contract's ethical core, affirming
+  citizens as masters of the state, not subjects.
+key_points:
+  - >-
+    State force is legitimate only for harm to others, with proportional
+    punishment and as last resort.
+  - >-
+    NDPS Act Section 27 criminalizes drug consumption, punishing self-harm
+    without prioritizing rehabilitation.
+  - >-
+    Mental Health Act Section 108's blanket provisions enable arbitrary
+    imprisonment for minor violations.
+  - >-
+    Crime deterrence relies on certainty of capture, not harshness, as US
+    Prohibition exemplified.
+  - >-
+    Overcriminalization raises recidivism by 10% via reduced parole hope, per
+    Kuziemko's research.
+topics:
+  - overcriminalization
+  - decriminalization
+  - social-contract
+  - criminal-justice-reform
 tags:
   - decriminalisation
   - criminalisation
+source_hash: 86f2dc25dfc12825d8b536d0147253a03a520ac0e84ea7175893fa3124b86f8f
+summary_hash: 86f2dc25dfc12825d8b536d0147253a03a520ac0e84ea7175893fa3124b86f8f
+summary_at: '2026-05-05T12:19:19.791Z'
 ---
 **By Animesh Sabat**
 

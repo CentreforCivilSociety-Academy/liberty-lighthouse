@@ -2,15 +2,49 @@
 title: Judging Jawaharlal Nehru on his 125th Birth Anniversary
 original_url: >-
   https://www.spontaneousorder.in/p/judging-jawaharlal-nehru-on-his-125th-birth-anniversary
+author: Spontaneous Order
 published_at: '2014-11-14T17:50:42.000Z'
 ingested_at: '2026-05-05T08:31:42.587Z'
-source_hash: e488ee46649972ea88e57a1283ee604bfca1ff815075869591f0b31c99c22967
-author: Spontaneous Order
 excerpt: >-
   Early in my schooldays I was taught that 14 November is ‘Children’s Day’ – the
   birthday of India’s first and the longest serving Prime Minister Jawaharlal
   Nehru, who was known for his passion for the welfare, education and
   development of childre
+summary: >-
+  On Jawaharlal Nehru's 125th birth anniversary, Kumar Anand critiques the first
+  Prime Minister's 17-year tenure for imposing socialist policies that caused
+  immense misery and anemic growth in living standards, despite Nehru's
+  professed love for children. Anand refutes apologists: Nehru ignored post-WWII
+  successes in West Germany and Japan versus failures in statist Europe;
+  centralized planning was unnecessary as efficient resource allocation didn't
+  require government control, as advised by Milton Friedman's 1955 memorandum,
+  B.R. Shenoy, Lord Peter Bauer, and A.D. Shroff—all dismissed. Such planning
+  demanded totalitarian tools like favoritism to firms, license restrictions,
+  and deficit financing, undermining democracy and individual freedom. Nehru's
+  distrust of capitalism and profits replaced market profit-loss signals with
+  inefficient public sector enterprises, exemplified by his preference for
+  'second-rate' local products over superior imports. Anand blames Nehru
+  unreservedly for the poverty endured by his grandfather and father, urging
+  recognition of these policy failures from a classical-liberal lens favoring
+  flexible, market-driven systems over dogmatic interventionism.
+key_points:
+  - >-
+    Nehru's 17 years of socialist policies stifled India's growth, contrasting
+    with rapid recoveries in West Germany and Japan post-WWII.
+  - >-
+    Government ignored 1955 advice from Friedman, Shenoy, Bauer, and Shroff
+    advocating flexible, private-led investment over rigid planning.
+  - >-
+    Central planning necessitated totalitarian measures like license raj and
+    favoritism, eroding democracy and freedoms.
+  - >-
+    Nehru's anti-profit stance led to resource-misallocating public enterprises,
+    prioritizing inferior domestic production over imports.
+topics:
+  - economic-planning
+  - nehru-legacy
+  - free-markets
+  - public-sector
 tags:
   - Chacha Nehru
   - first prime minister
@@ -19,6 +53,9 @@ tags:
   - 125th Birthday
   - poverty
   - history
+source_hash: e488ee46649972ea88e57a1283ee604bfca1ff815075869591f0b31c99c22967
+summary_hash: e488ee46649972ea88e57a1283ee604bfca1ff815075869591f0b31c99c22967
+summary_at: '2026-05-05T10:33:28.643Z'
 ---
 **By Kumar Anand**
 

@@ -2,15 +2,47 @@
 title: 'Cleaner, And Now Cheaper: Solar Power Beats Coal'
 original_url: >-
   https://www.spontaneousorder.in/p/cleaner-and-now-cheaper-solar-power-beats-coal
+author: Spontaneous Order
 published_at: '2020-05-26T14:24:24.000Z'
 ingested_at: '2026-05-05T08:31:42.415Z'
-source_hash: 8e94bba354765f10c590533077554b1eb1a7db409a901ead39a77ba856625472
-author: Spontaneous Order
 excerpt: >-
   The COVID crisis has diverted attention from a major breakthrough that should
   leave all smiling. The latest auction for 400 MW of solar power, including
   storage, has been won by ReNew Power with a levelised tariff of Rs 3.52/unit
   over 15 years. The equi..
+summary: >-
+  Swaminathan S.A. Aiyer highlights a breakthrough in India's energy sector:
+  ReNew Power won a 400 MW solar-plus-storage auction at a levelised tariff of
+  Rs 3.52/unit over 15 years, cheaper than equivalent thermal power at Rs
+  4.5/unit, even without coal taxes or subsidies. This enables bulk future
+  generation from solar, with coal limited to backup and no new capacity needed,
+  implying stagnant emissions without carbon taxes. Solar's falling panel prices
+  and lithium-ion storage achieve 80% annual capacity utilization (70% minimum
+  monthly), matching thermal efficiency but at lower cost. Thermal plants'
+  forced back-down from 75% to 55-58% utilization requires new tariff formulas
+  to cover fixed costs. High Indian interest rates (10-11%) hinder
+  competitiveness versus Middle East's 4%; cheaper finance could drop tariffs to
+  Rs 2/unit. Aiyer urges massive World Bank loans to public financiers for
+  on-lending, guarantees to slash rates, and tapping BRICS/AIIB funds,
+  emphasizing market-driven renewables over state intervention.
+key_points:
+  - >-
+    ReNew Power's Rs 3.52/unit solar-plus-storage tariff beats thermal power's
+    Rs 4.5/unit, enabling subsidy-free solar dominance.
+  - >-
+    No new coal capacity needed; old inefficient plants replaced, stabilizing
+    emissions without carbon taxes.
+  - >-
+    High 10-11% interest rates in India inflate costs; access to 4% Middle
+    East-like rates could cut tariffs to Rs 2/unit.
+  - >-
+    World Bank should provide billions in loans/guarantees via PFC/REC for solar
+    on-lending, supplemented by BRICS/AIIB.
+topics:
+  - solar-power
+  - renewable-energy
+  - energy-finance
+  - power-sector-reform
 tags:
   - market resources
   - Swaminathan Aiyar
@@ -19,6 +51,9 @@ tags:
   - social technologies
   - Indian Liberal Tradition
   - technology
+source_hash: 8e94bba354765f10c590533077554b1eb1a7db409a901ead39a77ba856625472
+summary_hash: 8e94bba354765f10c590533077554b1eb1a7db409a901ead39a77ba856625472
+summary_at: '2026-05-05T09:23:42.445Z'
 ---
 **By Swaminathan SA Aiyer**
 

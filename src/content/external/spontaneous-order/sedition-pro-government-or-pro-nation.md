@@ -1,15 +1,51 @@
 ---
 title: 'Sedition Law: Pro-government or Pro-nation?'
 original_url: 'https://www.spontaneousorder.in/p/sedition-pro-government-or-pro-nation'
+author: Spontaneous Order
 published_at: '2019-05-10T12:39:52.000Z'
 ingested_at: '2026-05-05T08:31:42.488Z'
-source_hash: 515f43b8a3e7e1fdd77fc163bd5eb69614c9f4ef4fa419771fbf03b37838b6e1
-author: Spontaneous Order
 excerpt: >-
   “I have studied some of the cases tried under it (section 124A) and I know
   that some of the most loved of India’s patriots have been convicted under it.
   I consider it a privilege, therefore, to be charged under that section,” read
   Mahatma Gandhi’s
+summary: >-
+  From a classical-liberal perspective, India's sedition law under Section 124A
+  of the IPC is pro-government rather than pro-nation, suppressing natural
+  rights to free speech and expression that governments are elected to protect,
+  not grant. Introduced by the British in 1870 to quash dissent and repealed by
+  them in 2009, it persists in India with parties like BJP vowing to strengthen
+  it, ostensibly for national security but explicitly safeguarding the ruling
+  government. Misuse is rampant: Ministry of Home Affairs data shows only 2
+  convictions out of 179 arrests from 2014-2016, often for trivial acts like
+  liking a Facebook post, cheering Pakistan's cricket team, or drawing cartoons.
+  The Supreme Court's 1962 Kedar Nath Singh judgment restricts it to incitement
+  of violence, deeming government criticism non-seditious, while the 2018 Law
+  Commission report urges repeal, noting laws like UAPA already address security
+  threats. As a cognizable, non-bailable offense, it harasses innocents via
+  protracted trials, criminalizing dissent and warranting immediate repeal for a
+  robust democracy.
+key_points:
+  - >-
+    Sedition law under Section 124A protects government loyalty, not the nation,
+    and should be repealed immediately.
+  - >-
+    Only 2 of 179 sedition arrests from 2014-2016 resulted in convictions,
+    highlighting rampant misuse against free speech.
+  - >-
+    Supreme Court in Kedar Nath Singh (1962) limited sedition to violence
+    incitement, excluding government criticism.
+  - >-
+    Law Commission 2018 report recommends repeal, as existing laws like UAPA
+    suffice for security.
+  - >-
+    The law's cognizable, non-bailable nature punishes innocents through
+    judicial harassment.
+topics:
+  - free-speech
+  - sedition-law
+  - civil-liberties
+  - colonial-laws
 tags:
   - Section 124A IPC
   - Indian Penal Code
@@ -20,6 +56,9 @@ tags:
   - Laws with Flaws
   - sedition in India
   - Archaic Laws
+source_hash: 515f43b8a3e7e1fdd77fc163bd5eb69614c9f4ef4fa419771fbf03b37838b6e1
+summary_hash: 515f43b8a3e7e1fdd77fc163bd5eb69614c9f4ef4fa419771fbf03b37838b6e1
+summary_at: '2026-05-05T11:36:06.723Z'
 ---
 **By Sunaina Mathur**
 

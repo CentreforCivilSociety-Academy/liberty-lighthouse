@@ -1,15 +1,49 @@
 ---
 title: 'SO Musings: The Myth Of Free Education'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-the-myth-of-free-education'
+author: Spontaneous Order
 published_at: '2020-08-14T12:33:14.000Z'
 ingested_at: '2026-05-05T08:31:42.386Z'
-source_hash: f9164a4cd638aa063790f61dc7c00d2409725e76316bc29ac5508fb64d7e0624
-author: Spontaneous Order
 excerpt: >-
   Om Prakash Kahol criticizes the rhetoric of ‘Free education’. He strongly
   emphasizes that there is no such thing as a ‘Free’ education and suggests that
   for the provision of quality education to all Indians, the Government must
   change its prohibit
+summary: >-
+  This post from Spontaneous Order reprints a 1959 article by Prof. Om Prakash
+  Kahol in Indian Libertarian, critiquing the myth of 'free education' amid
+  India's post-independence government policies. It contextualizes ongoing state
+  provisions: highly subsidized schools and colleges, the Right to Education Act
+  2009 mandating 'free and compulsory' education up to age 14, and NEP 2020
+  extending this to secondary levels. Kahol, from a classical-liberal viewpoint,
+  dismantles the notion that education can be truly free, arguing there is 'no
+  such thing as a free education'—subsidies are always borne by someone else,
+  often hidden taxpayers, deceiving the public into believing in 'something out
+  of nothing.' He satirizes pre-partition fantasies of free milk, medicines, and
+  education via magical means like Aladdin's Lamp or divine intervention, noting
+  ten years of experience have disillusioned the masses that provisions require
+  payment. Emphasizing nature's no-shortcuts principle, Kahol urges the
+  government to cease its 'prohibitive attitude towards private educational
+  institutions' to enable quality education for all Indians through voluntary,
+  market-based provision rather than coercive state rhetoric.
+key_points:
+  - >-
+    There is no such thing as truly 'free' education; government subsidies are
+    always paid by hidden taxpayers elsewhere.
+  - >-
+    Post-independence rhetoric of free amenities deceives people into ignoring
+    economic reality and nature's no-shortcuts rule.
+  - >-
+    The government must end its prohibitive policies against private educational
+    institutions to deliver quality education to all.
+  - >-
+    Experience in Free India has taught that essentials like provisions and
+    medicines require payment, and education is no exception.
+topics:
+  - education
+  - free-education-myth
+  - private-education
+  - government-subsidies
 tags:
   - Education
   - Education in India
@@ -17,6 +51,9 @@ tags:
   - Indian liberals
   - Indian education
   - NEP2020
+source_hash: f9164a4cd638aa063790f61dc7c00d2409725e76316bc29ac5508fb64d7e0624
+summary_hash: f9164a4cd638aa063790f61dc7c00d2409725e76316bc29ac5508fb64d7e0624
+summary_at: '2026-05-05T12:02:06.637Z'
 ---
 **By Spontaneous Order**
 

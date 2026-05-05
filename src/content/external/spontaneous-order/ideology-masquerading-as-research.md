@@ -1,15 +1,55 @@
 ---
 title: Ideology Masquerading as Research
 original_url: 'https://www.spontaneousorder.in/p/ideology-masquerading-as-research'
+author: Spontaneous Order
 published_at: '2016-04-16T19:33:28.000Z'
 ingested_at: '2026-05-05T08:31:42.555Z'
-source_hash: 829947511f0cd4d62d65508a1f2e1d9e27b622d8d7f96b3a9e0a3d53f54fabc3
-author: Spontaneous Order
 excerpt: >-
   Rohit Dhankar’s article ‘A lesson in hidden agendas’ in the Hindu is a case
   study in ideology masquerading as research. He starts by saying: “Public
   Education System (PES) and the Right to Education (RTE) do have problems, and
   they need to be fixe
+summary: >-
+  Parth Shah critiques Rohit Dhankar’s article as ideology masquerading as
+  research, where Dhankar admits problems in India's Public Education System
+  (PES) and Right to Education (RTE) but pivots to attacking private schools
+  instead of proposing fixes. Despite over 60 years of reforms, government
+  schools have worsened, with people—even the poor—abandoning them for private
+  options, yet defenders like Dhankar denigrate these choices made with
+  hard-earned money. Shah highlights Dhankar's logical leaps, such as citing a
+  study showing private schools have fewer low-caste students to claim better
+  learning outcomes are 'unfounded,' ignoring that the study addresses
+  inclusion, not learning. An India Human Development Survey reveals more
+  corporal punishment ('beating') in government than private schools, with a
+  negative correlation to income levels in government schools. Dhankar
+  trivializes fixes by suggesting mere RTE clauses for learning standards and
+  deems low-end private schools inherently flawed due to their profit motive,
+  contrasting with evidence like Azim Premji's philanthropy funded by profits.
+  From a classical-liberal view, Shah argues for giving private schools the same
+  time and resources as government ones, prioritizing people's choices,
+  competition, and accountability over ideological attacks on profit-driven
+  education.
+key_points:
+  - >-
+    Dhankar admits PES and RTE flaws but attacks private schools instead of
+    offering credible improvement paths.
+  - >-
+    Private schools' lower low-caste enrollment does not disprove their superior
+    learning outcomes, as studies cited focus on inclusion, not learning.
+  - >-
+    India Human Development Survey shows more corporal punishment in government
+    than private schools.
+  - >-
+    Over 60 years of reforms have worsened government schools, prompting mass
+    exodus to private alternatives.
+  - >-
+    Private schools' profit motive is not a fatal flaw; they deserve the same
+    improvement opportunities as government schools.
+topics:
+  - school-choice
+  - private-education
+  - public-education
+  - rte-act
 tags:
   - Private schools
   - School Choice
@@ -17,6 +57,9 @@ tags:
   - state education
   - Hindu
   - APF
+source_hash: 829947511f0cd4d62d65508a1f2e1d9e27b622d8d7f96b3a9e0a3d53f54fabc3
+summary_hash: 829947511f0cd4d62d65508a1f2e1d9e27b622d8d7f96b3a9e0a3d53f54fabc3
+summary_at: '2026-05-05T10:14:59.457Z'
 ---
 **By Parth Shah**
 

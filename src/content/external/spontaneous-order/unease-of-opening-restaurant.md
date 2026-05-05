@@ -1,15 +1,50 @@
 ---
 title: “We’re Closed” – Unease of Opening Restaurants
 original_url: 'https://www.spontaneousorder.in/p/unease-of-opening-restaurant'
+author: Spontaneous Order
 published_at: '2019-10-14T11:02:34.000Z'
 ingested_at: '2026-05-05T08:31:42.464Z'
-source_hash: 06a84ef3b92b0449534e8e5eca8dbafb243b877608fa969b936c411dc2836d3b
-author: Spontaneous Order
 excerpt: >-
   Have you ever thought of opening your own restaurant? Do you sometimes wonder
   “Wow! These eateries earn a lot” and then wished to start one of your own? Do
   you find yourself doing the math of the daily earnings of the restaurants? If
   the answer to any
+summary: >-
+  Despite exponential demand growth in India's restaurant industry—driven by
+  urban nuclear families, changing eating habits, and platforms like Zomato and
+  Swiggy—supply from new formal entrants remains stifled by a burdensome
+  'license raj'. Aspiring restaurateurs must secure at least seven mandatory
+  licenses: Food Safety (FSSAI), Eating House, Health, Shops and Establishment,
+  Environmental Clearance, Signage, and Fire Safety, often requiring up to 57
+  documents in Delhi alone, coordination across departments like water,
+  electricity, and fire, and costs of 18,000 to 200,000 rupees excluding bribes.
+  Even 'digital' processes like FSSAI demand physical submissions. This
+  regulatory thicket pushes most into the unorganized sector: of 1.5 million
+  eateries, only 3,000 were organized as of 2017. From a classical-liberal lens,
+  the author lambasts government as a permit-giver deterring entrepreneurship,
+  urging it to dismantle these trade barriers for a fair, efficient market while
+  retaining essential health and fire checks without bureaucratic excess.
+key_points:
+  - >-
+    India's restaurant sector has 1.5 million eateries but only 3,000 organized
+    due to licensing barriers (2017 data).
+  - >-
+    At least seven licenses are mandatory, requiring up to 57 documents in Delhi
+    and costs of 18,000-200,000 rupees excluding bribes.
+  - >-
+    Bureaucratic processes persist despite digital initiatives, involving
+    multiple government departments and physical submissions.
+  - >-
+    Government must eliminate the license raj to enable ease of doing business
+    and foster efficient markets, keeping only vital safety checks.
+topics:
+  - license-raj
+  - ease-of-doing-business
+  - restaurant-industry
+  - regulatory-barriers
+source_hash: 06a84ef3b92b0449534e8e5eca8dbafb243b877608fa969b936c411dc2836d3b
+summary_hash: 06a84ef3b92b0449534e8e5eca8dbafb243b877608fa969b936c411dc2836d3b
+summary_at: '2026-05-05T12:49:41.978Z'
 ---
 **By Aastha Narang**
 

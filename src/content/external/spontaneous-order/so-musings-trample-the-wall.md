@@ -1,15 +1,52 @@
 ---
 title: 'SO Musings: Trample the Wall'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-trample-the-wall'
+author: Spontaneous Order
 published_at: '2020-05-08T12:45:40.000Z'
 ingested_at: '2026-05-05T08:31:42.421Z'
-source_hash: ed2fecb83a919f3cc05552498287664a5ef081c19ef882046ebbd1df328cb51b
-author: Spontaneous Order
 excerpt: >-
   The recent rise of right-wing strongmen and left-wing populists around the
   globe threaten the liberal world order premised on free trade, rule of law,
   human rights, and individual liberty. In the US, both the left-wing Bernie
   Sanders and right-wing Dona..
+summary: >-
+  The post warns that the global rise of right-wing strongmen like Donald Trump
+  and left-wing populists like Bernie Sanders threatens the classical-liberal
+  world order of free trade, rule of law, human rights, and individual liberty,
+  particularly through opposition to free movement of immigrants seeking
+  dignified lives. Liberals must counter this by drawing lessons from history,
+  exemplified by a 1962 excerpt from Freedom First magazine on the Berlin Wall.
+  The Wall divided dynamic capitalist West Berlin from stagnant communist East
+  Berlin, serving as a natural experiment proving capitalism's superiority. It
+  recounts the brutal death of 18-year-old Peter Fechter, the 50th known East
+  German killed escaping, shot and left to bleed out in view of helpless Western
+  onlookers, sparking riots where West Berliners attacked guards and soldiers.
+  The episode exposed Western flabbiness: U.S. troops at Checkpoint Charlie
+  denied aid despite pleas, paralyzed by fear of Soviet retaliation, allowing
+  piecemeal communist advances. From a classical-liberal view, such walls
+  symbolize illiberal oppression; today's liberals should trample them to defend
+  openness and freedom.
+key_points:
+  - >-
+    Populists like Trump and Sanders oppose immigrant free movement, endangering
+    liberal values of liberty and free trade.
+  - >-
+    Berlin Wall demonstrated capitalism's economic dynamism versus communism's
+    misery through divided Berlin's natural experiment.
+  - >-
+    Peter Fechter's 1962 death, as the 50th escapee killed, spotlighted
+    communist brutality and sparked West Berlin riots.
+  - >-
+    Western powers' fear prevented aid to Fechter, weakening their position
+    against Soviet aggression.
+  - >-
+    Liberals must push back against modern 'walls' using historical lessons to
+    champion openness.
+topics:
+  - berlin-wall
+  - free-migration
+  - classical-liberalism
+  - anti-populism
 tags:
   - SO Musings
   - Germany
@@ -19,6 +56,9 @@ tags:
   - Indian liberals
   - East Berlin
   - Capitalism
+source_hash: ed2fecb83a919f3cc05552498287664a5ef081c19ef882046ebbd1df328cb51b
+summary_hash: ed2fecb83a919f3cc05552498287664a5ef081c19ef882046ebbd1df328cb51b
+summary_at: '2026-05-05T12:03:01.164Z'
 ---
 **By Spontaneous Order**
 

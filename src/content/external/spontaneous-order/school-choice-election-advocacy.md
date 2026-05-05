@@ -1,14 +1,31 @@
 ---
 title: School Choice & Election Advocacy
 original_url: 'https://www.spontaneousorder.in/p/school-choice-election-advocacy'
+author: Spontaneous Order
 published_at: '2009-04-16T19:13:53.000Z'
 ingested_at: '2026-05-05T08:31:42.662Z'
-source_hash: 5e698a0213f739c4fdb8f0bcd5689b2e2e329a0606bbc1e3248743694f3856a8
-author: Spontaneous Order
 excerpt: A picture says a thousand words…
+summary: >-
+  This post is fragmentary, featuring only a title 'School Choice & Election
+  Advocacy', an image (likely a graphic tying school choice to elections), and
+  the author's bio. No substantive textual argument or details are provided.
+  Parth Shah, founder of Centre for Civil Society, advocates classical-liberal
+  themes including economic freedom, choice and competition in education,
+  property rights for the environment, and new public governance.
+key_points:
+  - >-
+    Post relies on an image to convey a message linking school choice to
+    election advocacy.
+topics:
+  - school-choice
+  - elections
+  - education-reform
 tags:
   - School Choice
   - school vouchers
+source_hash: 5e698a0213f739c4fdb8f0bcd5689b2e2e329a0606bbc1e3248743694f3856a8
+summary_hash: 5e698a0213f739c4fdb8f0bcd5689b2e2e329a0606bbc1e3248743694f3856a8
+summary_at: '2026-05-05T11:32:50.779Z'
 ---
 **By Parth Shah**
 

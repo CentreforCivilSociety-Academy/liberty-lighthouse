@@ -2,15 +2,53 @@
 title: The Need for Responsible Business Practices in the Technology Sector
 original_url: >-
   https://www.spontaneousorder.in/p/the-need-for-responsible-business-practices-in-the-technology-sector
+author: Spontaneous Order
 published_at: '2023-03-09T15:50:02.000Z'
 ingested_at: '2026-05-05T08:31:42.245Z'
-source_hash: 6ef790f180dd96a05f04f3a0985a931c94055527088b0785a2fed2ebaea4fcaf
-author: Spontaneous Order
 excerpt: >-
   The technology sector has recently seen an alarming rise in layoffs both in
   the United States and India. Companies such as Alphabet, Amazon, Microsoft,
   and Meta have let go of thousands of employees in response to growing economic
   uncertainties and a ne..
+summary: >-
+  The technology sector faces an alarming rise in layoffs amid economic
+  pressures, with over 150,000 'tech startup' employees worldwide losing jobs in
+  2022 from 970 firms, mostly in the US due to funding shortages. In India,
+  post-2021 FOMO-driven funding peaks, 67 startups including unicorns like
+  BYJU’S laid off 20,484 employees by February 2023, hitting edtech hardest with
+  16 firms cutting over 8,000 jobs and five shutting down. From a
+  classical-liberal policy lens, companies bear primary responsibility to
+  balance economizing with ethical practices like retraining/reskilling
+  displaced workers, providing adequate notice, severance, and support to build
+  a resilient workforce. Existing laws such as India's Industrial Employment
+  (Standing Orders) Act 1946 (30-60 days notice, severance) and US WARN Act (60
+  days notice) set benchmarks. Governments can incentivize via tax breaks,
+  subsidies, or loans for training and retention, as seen in Europe, US states,
+  Canada, Asia, and Latin America, without stifling innovation. Market
+  regulators should enforce fair labor standards to protect rights, counter
+  exploitation in lightly regulated tech, attract talent, and ensure profits
+  align with employee well-being for a stable industry.
+key_points:
+  - >-
+    Over 150,000 global tech startup layoffs occurred in 2022, with 20,484 in
+    India from 67 firms by February 2023.
+  - >-
+    Companies must implement retraining programs and ethical layoff practices
+    like notice periods and severance to mitigate impacts.
+  - >-
+    Governments should offer tax incentives, subsidies, and loans to encourage
+    employee training and retention.
+  - >-
+    Market regulators need to enforce labor laws to protect workers and promote
+    responsible business in tech.
+topics:
+  - tech-layoffs
+  - labor-laws
+  - employee-reskilling
+  - business-ethics
+source_hash: 6ef790f180dd96a05f04f3a0985a931c94055527088b0785a2fed2ebaea4fcaf
+summary_hash: 6ef790f180dd96a05f04f3a0985a931c94055527088b0785a2fed2ebaea4fcaf
+summary_at: '2026-05-05T12:32:00.549Z'
 ---
 **By Spontaneous Order**
 

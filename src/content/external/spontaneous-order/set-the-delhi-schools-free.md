@@ -1,20 +1,60 @@
 ---
 title: Set the Delhi schools free
 original_url: 'https://www.spontaneousorder.in/p/set-the-delhi-schools-free'
+author: Spontaneous Order
 published_at: '2010-03-17T12:53:39.000Z'
 ingested_at: '2026-05-05T08:31:42.651Z'
-source_hash: d8d20fa8f0a6c2da2103ce06557c2d9c29c67a950b5dc65dca4d549fa931758b
-author: Spontaneous Order
 excerpt: >-
   Activist lawyer A. Aggarwal has written a report together with a committee at
   NCERT on the implementation of Right to Education Rules in Delhi. A brief
   outline of the report appeared today (17/03/2010) in Indian Express (the full
   report is at the RTE ...
+summary: >-
+  Activist lawyer A. Aggarwal's NCERT committee report on Right to Education
+  (RTE) implementation in Delhi exemplifies government monopoly in schooling, as
+  critiqued from a liberty-friendly perspective. It deems 'incomprehensible'
+  that government schools have declining enrollment and stand empty despite
+  needy children, recommending stricter Delhi government control over closures
+  rather than questioning why poor parents prefer professional, market-oriented
+  private low-cost schools. The report also opposes converting double-shift
+  schools to single shifts, prohibiting off-hours uses like teacher training
+  despite non-conflicting potential, reinforcing rigid monopoly rules. Emphasis
+  falls on teacher provisions, salaries, and rights without accountability
+  mechanisms amid rampant absenteeism. With teacher shortages—5,000 in Delhi and
+  up to 1 million in India—demand drives higher costs, worsened by RTE mandating
+  formally trained teachers even for low-cost unrecognized schools. The author
+  laments perks like permanent jobs with age-based raises over performance,
+  predicting prolonged failure of educational monopoly as per the report's
+  logic.
+key_points:
+  - >-
+    Government schools in Delhi have empty facilities due to declining
+    enrollment, yet the committee seeks to block closures instead of analyzing
+    parental preference for private low-cost alternatives.
+  - >-
+    Rules strictly prohibit flexible use of double-shift school buildings and
+    staff for non-clashing activities like off-hours teacher training.
+  - >-
+    The report prioritizes teacher salaries and rights without accountability,
+    ignoring absenteeism amid acute shortages of 5,000 teachers in Delhi and up
+    to 1 million nationwide.
+  - >-
+    RTE Act requirements for formally trained teachers in all schools, including
+    unrecognized low-cost ones, will inflate costs in a supply-constrained
+    market.
+topics:
+  - rte-act
+  - school-choice
+  - government-monopoly
+  - teacher-shortage
 tags:
   - RTE
   - Delhi schools
   - government schools
   - teacher salary
+source_hash: d8d20fa8f0a6c2da2103ce06557c2d9c29c67a950b5dc65dca4d549fa931758b
+summary_hash: d8d20fa8f0a6c2da2103ce06557c2d9c29c67a950b5dc65dca4d549fa931758b
+summary_at: '2026-05-05T11:38:10.928Z'
 ---
 **By jan**
 

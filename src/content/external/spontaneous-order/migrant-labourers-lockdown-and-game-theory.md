@@ -1,15 +1,51 @@
 ---
 title: 'Migrant Labourers, Lockdown and Game Theory'
 original_url: 'https://www.spontaneousorder.in/p/migrant-labourers-lockdown-and-game-theory'
+author: Spontaneous Order
 published_at: '2020-04-02T18:20:21.000Z'
 ingested_at: '2026-05-05T08:31:42.431Z'
-source_hash: ee8bab6aaf6aa6a17add4c2be4715b77f3f5ccb6e39e9266014364782d0f8a16
-author: Spontaneous Order
 excerpt: >-
   Prime Minister Narendra Modi’s announced the nationwide lockdown for 21 days
   beginning on the 25th March after given the ongoing crisis emanating from the
   spread of COVID-19. However, the lockdown was ill-thought, let us use game
   theory to understand. I
+summary: >-
+  Prime Minister Narendra Modi's 21-day nationwide lockdown announced on March
+  25, 2020, amid COVID-19 was ill-thought-out, as analyzed through the lens of
+  the Prisoner's Dilemma game theory. In this framework, the government and
+  migrant workers are the two players with conflicting goals: the government
+  seeks to enforce stay-in-place to curb virus spread, while jobless workers
+  want to return home. Unconditional cooperation—workers sheltering in place
+  despite unaffordable rent, lack of food access, and uncertainty—is naive, as
+  each player acts strategically to advance their interests. Politicians,
+  attuned to electorate demographics, should have foreseen the mass exodus but
+  failed. The classical-liberal critique highlights the government's top-down
+  approach ignoring workers' realities, leading to people walking over 200 km in
+  hunger and thirst with no alternatives. Better options included: creating
+  shelter homes for migrants to induce cooperation and prevent hinterland
+  infections (though potentially infeasible), or allowing all transport open for
+  2-3 days post-announcement before full lockdown. Instead, the government
+  pursued a complete lockdown without inter-state travel or sufficient support
+  for the poorest, exacerbating the crisis.
+key_points:
+  - >-
+    Model the lockdown crisis as a Prisoner's Dilemma where government and
+    migrant workers have misaligned goals and cannot expect unconditional
+    cooperation.
+  - >-
+    Politicians failed to strategically anticipate the mass exodus of migrant
+    laborers despite knowing electorate demographics.
+  - >-
+    Provide shelter homes to improve alternatives and induce workers to stay,
+    preventing virus spread to rural areas.
+  - >-
+    Allow 2-3 days of open transport after lockdown announcement to let workers
+    return home before full restrictions.
+topics:
+  - covid-19
+  - lockdown-policy
+  - migrant-workers
+  - game-theory
 tags:
   - policymaking
   - Healthcare in India
@@ -19,6 +55,9 @@ tags:
   - Migration
   - pandemic
   - labor mobility
+source_hash: ee8bab6aaf6aa6a17add4c2be4715b77f3f5ccb6e39e9266014364782d0f8a16
+summary_hash: ee8bab6aaf6aa6a17add4c2be4715b77f3f5ccb6e39e9266014364782d0f8a16
+summary_at: '2026-05-05T10:53:30.143Z'
 ---
 **By Spontaneous Order**
 

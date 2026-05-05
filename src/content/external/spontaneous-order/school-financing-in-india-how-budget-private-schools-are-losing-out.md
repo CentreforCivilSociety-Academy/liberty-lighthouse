@@ -2,17 +2,59 @@
 title: 'School financing in India: How budget private schools are losing out'
 original_url: >-
   https://www.spontaneousorder.in/p/school-financing-in-india-how-budget-private-schools-are-losing-out
+author: Spontaneous Order
 published_at: '2021-05-07T13:42:41.000Z'
 ingested_at: '2026-05-05T08:31:42.323Z'
-source_hash: 91aad424908cf27642314fcb10dbec49af894d0d26f89d3003dcc8b3ed4cf6ed
-author: Spontaneous Order
 excerpt: >-
   As India makes significant progress in ensuring access to education and
   enrolment in schools, the learning crisis is not yet solved. Pandemic-induced
   school closures are expected to have far-reaching consequences on schooling,
   galvanising the need for e..
+summary: >-
+  India's budget private schools (BPSs), numbering 200,000-400,000 and enrolling
+  70% of private school students, represent a vital sector meeting parental
+  demand for affordable education amid a persistent learning crisis exacerbated
+  by pandemic closures. However, BPSs face severe financing constraints due to
+  heavy regulations, including RTE Section 15's non-profit mandate, which bars
+  them from bank loans as not-for-profit entities and deters investors wary of
+  fragmented, low-margin operations that take years to reach 20% operating
+  margins. State fee-collection bans in Tamil Nadu, Karnataka, Maharashtra, and
+  others compounded revenue losses. Philanthropy is limited, venture capital
+  hesitant, and NBFCs like Indian School Finance Company and Varthana offer
+  loans at over 20% interest with low awareness among owners. Cash flow issues
+  from delayed parent payments and high setup costs further hinder scalability.
+  From a classical-liberal viewpoint, reforming restrictive RTE rules to allow
+  for-profit schools—as in Haryana, Maharashtra, and Uttar Pradesh—along with
+  simplifying banking processes, providing collateral-free loans, and boosting
+  financial literacy, would enable investment, expansion, and quality
+  improvements, fostering a competitive ecosystem where private initiative
+  drives learning outcomes for low-income children.
+key_points:
+  - >-
+    RTE Section 15's non-profit requirement prevents BPSs from accessing bank
+    credit, limiting scalability and investment.
+  - >-
+    Pandemic-era fee bans in states like Tamil Nadu, Karnataka, and Maharashtra
+    caused severe revenue losses for BPSs.
+  - >-
+    NBFCs provide loans at over 20% interest, but low awareness and high
+    collateral needs deter BPS owners.
+  - >-
+    Reform state RTE rules to permit for-profit schools, as in Haryana,
+    Maharashtra, and UP, to attract investors.
+  - >-
+    Government should incentivize banks for seamless, collateral-free loans and
+    raise financial literacy among BPS owners.
+topics:
+  - education-financing
+  - budget-private-schools
+  - rte-reforms
+  - school-regulations
 tags:
   - Budget Private Schools
+source_hash: 91aad424908cf27642314fcb10dbec49af894d0d26f89d3003dcc8b3ed4cf6ed
+summary_hash: 91aad424908cf27642314fcb10dbec49af894d0d26f89d3003dcc8b3ed4cf6ed
+summary_at: '2026-05-05T11:33:46.220Z'
 ---
 **By Swati Rao**
 

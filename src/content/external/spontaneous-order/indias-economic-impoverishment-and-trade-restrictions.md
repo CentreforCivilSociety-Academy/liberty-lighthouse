@@ -2,15 +2,57 @@
 title: India’s Economic Impoverishment and Trade Restrictions
 original_url: >-
   https://www.spontaneousorder.in/p/indias-economic-impoverishment-and-trade-restrictions
+author: Spontaneous Order
 published_at: '2023-09-14T10:34:03.000Z'
 ingested_at: '2026-05-05T08:31:42.237Z'
-source_hash: b66d5f012e016f494316994bfc9f157a87200be7e2f1f832f80f00d9ccc65165
-author: Spontaneous Order
 excerpt: >-
   After two decades of economic growth, the haunting ghost of trade restrictions
   has returned. It proposes steadily but surely to put shackles on the flowing
   incremental streams of prosperity in the Indian economy. The Indian government
   has put an effecti..
+summary: >-
+  India's recent embargo on importing laptops and PCs from China to boost
+  domestic manufacturing revives the failed import substitution policies of the
+  pre-1991 era, threatening the prosperity gained from liberalization. Since
+  1991's pivot amid a balance-of-payments crisis, GDP surged from $275.4 billion
+  to $3.39 trillion by 2022, with trade-to-GDP ratio rising from 15% to 45%,
+  driving extreme poverty down from 46% to under 20% in a decade and rural
+  consumption growth of 3.8% annually through 2005. Trade liberalization enabled
+  technological exchange, productivity gains, and access to global goods,
+  lifting ordinary Indians. Contrasting India's protectionism, which stifled
+  innovation in automotive, electronics, steel, and textiles—leaving consumers
+  with high prices and limited choices—Japan's post-WWII openness to trade
+  imported not just goods but knowledge, efficient methods, and market feedback,
+  fostering world-leading industries. Protectionism grants domestic firms
+  monopolies, reducing incentives to innovate, while open trade provides diverse
+  ideas for entrepreneurs to recombine profitably. The author, from a
+  classical-liberal perspective, concludes India must remove the China embargo
+  to sustain progress, as trade enriches economies, empowers citizens, and
+  prevents regression.
+key_points:
+  - >-
+    India's 1991 liberalization boosted GDP from $275 billion to $3.39 trillion
+    and cut extreme poverty from 46% to under 20% in a decade via expanded
+    trade.
+  - >-
+    Protectionist policies like the laptop import embargo from China undermine
+    innovation by shielding domestic firms from competition and knowledge
+    inflows.
+  - >-
+    Japan's openness to trade post-WWII enabled knowledge diffusion and superior
+    outcomes in auto, electronics, steel, and textiles compared to India's
+    stagnation under protectionism.
+  - >-
+    Remove trade restrictions to access global ideas, spur entrepreneurial
+    innovation, and maintain prosperity gains since 1991.
+topics:
+  - trade-liberalization
+  - import-substitution
+  - protectionism
+  - india-economy
+source_hash: b66d5f012e016f494316994bfc9f157a87200be7e2f1f832f80f00d9ccc65165
+summary_hash: b66d5f012e016f494316994bfc9f157a87200be7e2f1f832f80f00d9ccc65165
+summary_at: '2026-05-05T10:22:29.826Z'
 ---
 **By Vibhu Vikramaditya**
 

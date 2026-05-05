@@ -1,15 +1,60 @@
 ---
 title: Forgotten Speeches of GK Sundaram – Part II
 original_url: 'https://www.spontaneousorder.in/p/forgotten-speeches-of-gk-sundaram-part-ii'
+author: Spontaneous Order
 published_at: '2020-05-18T17:55:54.000Z'
 ingested_at: '2026-05-05T08:31:42.417Z'
-source_hash: 3c4392d31d11e837410253faf00ed9538f221b89c6add99bae467228c4fc2886
-author: Spontaneous Order
 excerpt: >-
   Editor’s Note: This is the second article in a two-part series highlighting
   the contributions of GK Sundaram as a Rajya Sabha member. Read the first part
   here. During India’s freedom movement, most leaders were united towards the
   goal of achieving pea
+summary: >-
+  GK Sundaram, a Swatantra Party Rajya Sabha member from 1966-1972 and
+  entrepreneur harmed by statist policies, delivered prescient speeches
+  critiquing India's socialist economic controls from a classical-liberal
+  standpoint, advocating individual freedom, private property rights, and free
+  enterprise to end scarcity, hunger, and poverty. He opposed bank
+  nationalization, noting nationalized trade and insurance already showed
+  inefficiency; private banks handled 86% of business, extended Rs. 130 crores
+  to agriculture and Rs. 84 crores to small industries despite past
+  restrictions, and earned modest Rs. 6.64 crores profit on Rs. 2,741 crores
+  deposits. Sundaram warned nationalized banks lacked machinery for small
+  borrowers, risking higher taxpayer recapitalizations—a reality today—and
+  argued government-created banking monopolies since 1949 invalidated
+  profiteering charges. He decried the rupee devaluation and gold controls as
+  erroneous, equating India wrongly with developed nations. On the Cotton
+  Textiles Bill, he highlighted import bans stifling renovation with indigenous
+  capacity at under 15%. Sundaram slammed the MRTP Bill as premature and
+  retrograde, hindering big economic installations while existing laws sufficed
+  against monopolies; he urged emulating Japan et al. over Cuba, prioritizing
+  incentives over impediments amid decontrols in cement and steel. His warnings
+  of balance-of-payments crisis materialized in 1991, forcing reforms,
+  underscoring ignored liberal critiques.
+key_points:
+  - >-
+    Sundaram opposed bank nationalization citing inefficiencies in prior
+    nationalized sectors and private banks' Rs. 130 crores agriculture and Rs.
+    84 crores small industry lending.
+  - >-
+    He criticized the MRTP Bill as hindering economic revival by blocking
+    large-scale efficient production, urging incentives over bureaucratic
+    impediments.
+  - >-
+    Sundaram warned rupee devaluation and gold controls sent wrong international
+    signals, unfit for India's production and savings deficits.
+  - >-
+    He advocated protecting private property and free enterprise to boost
+    productivity, prosperity, and address economic maladies like inflation and
+    low output.
+  - >-
+    Predictions of BoP crisis in 1991 and ongoing bank recapitalizations and
+    MSME credit shortages proved accurate.
+topics:
+  - swatantra-party
+  - bank-nationalization
+  - mrtp-bill
+  - free-enterprise
 tags:
   - Spontaneous Order
   - Monopolies and Restrictive Trade Practices Bill
@@ -17,6 +62,9 @@ tags:
   - Restrictive regulations
   - Indian Liberal Tradition
   - Indian liberals
+source_hash: 3c4392d31d11e837410253faf00ed9538f221b89c6add99bae467228c4fc2886
+summary_hash: 3c4392d31d11e837410253faf00ed9538f221b89c6add99bae467228c4fc2886
+summary_at: '2026-05-05T09:57:15.074Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

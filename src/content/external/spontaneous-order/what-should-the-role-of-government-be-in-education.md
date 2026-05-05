@@ -2,15 +2,48 @@
 title: What Should the Role of Government be in Education?
 original_url: >-
   https://www.spontaneousorder.in/p/what-should-the-role-of-government-be-in-education
+author: Spontaneous Order
 published_at: '2020-03-11T15:23:23.000Z'
 ingested_at: '2026-05-05T08:31:42.437Z'
-source_hash: 1b56bd0f48b402a85c5fcbd1cf7bdf5695dd5b7ef9cf821081b62f7585555809
-author: Spontaneous Order
 excerpt: >-
   Today the government is present at every stage of the Indian education sector.
   It is not just a mere regulator in the sector but also a prominent player as
   around 74% of total schools in India are government schools (UDISE). This
   statistic also poses a ..
+summary: >-
+  The Indian government dominates education as both provider and regulator, with
+  74% of schools being government-run (UDISE), raising concerns about
+  self-regulation fairness. Despite a 97.2% primary gross enrolment ratio (ASER
+  2018) driven by the RTE Act mandating free education for ages 6-14, outcomes
+  remain poor: government schools often flout infrastructure norms without
+  repercussions—38% lack classrooms, 43% have no libraries or girls' toilets
+  (CPR 2011)—while private schools face strict compliance for recognition. India
+  ranked 72/74 in PISA 2009, prompting boycott amid no improvement efforts.
+  Government focuses on inputs/outputs over outcomes, lacking accountability.
+  From a classical-liberal view, education thrives via markets, not state
+  omnipresence; affordability, not access, is the issue. Direct cash transfers
+  or benefit transfers empower parental choice, fostering demand-supply balance,
+  as proven in Chile, Ireland, Sweden. Government should exit as provider,
+  restrict to fair regulation, ending biased rules that plague quality and
+  accountability.
+key_points:
+  - >-
+    Government runs 74% of Indian schools yet evades its own RTE infrastructure
+    norms, unlike penalized private schools.
+  - >-
+    Shift from inputs/outputs to outcomes reveals poor performance, like PISA
+    2009's near-bottom rank.
+  - >-
+    Implement direct cash transfers to parents for school choice, emulating
+    successes in Chile, Ireland, Sweden.
+  - >-
+    Restrict government to fair regulation, letting markets deliver affordable,
+    accountable education.
+topics:
+  - education
+  - school-choice
+  - government-regulation
+  - rte-act
 tags:
   - education of choice
   - Education
@@ -19,6 +52,9 @@ tags:
   - privatization of education
   - Indian Education System
   - Education Voucher Scheme
+source_hash: 1b56bd0f48b402a85c5fcbd1cf7bdf5695dd5b7ef9cf821081b62f7585555809
+summary_hash: 1b56bd0f48b402a85c5fcbd1cf7bdf5695dd5b7ef9cf821081b62f7585555809
+summary_at: '2026-05-05T12:58:33.926Z'
 ---
 **By Swati Singh**
 

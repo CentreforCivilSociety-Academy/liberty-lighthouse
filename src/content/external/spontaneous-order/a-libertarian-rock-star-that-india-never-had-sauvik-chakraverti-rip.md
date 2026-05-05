@@ -2,20 +2,60 @@
 title: 'A Libertarian Rock Star That India Never Had: Sauvik Chakraverti, R.I.P.'
 original_url: >-
   https://www.spontaneousorder.in/p/a-libertarian-rock-star-that-india-never-had-sauvik-chakraverti-rip
+author: Spontaneous Order
 published_at: '2014-10-27T17:39:49.000Z'
 ingested_at: '2026-05-05T08:31:42.587Z'
-source_hash: 523937d499c81a5ecd4ccf763e6d7fa9c5bace5dfd23fab84b7ceef153f5f48c
-author: Spontaneous Order
 excerpt: >-
   It is with a very heavy heart that we share with you the sad news of passing
   away of Sauvik Chakraverti, our good friend and ex-colleague. Sauvik was one
   of the most unabashed champions of individual freedom and free markets, and
   the fiercest critic of ..
+summary: >-
+  Sauvik Chakraverti, an unabashed champion of individual freedom and free
+  markets, and fierce critic of state intervention, passed away on 23rd October
+  in Goa, which he called the 'land of freedom and happiness.' Described as a
+  libertarian rock star India never had, he won the inaugural Bastiat Prize for
+  Journalism in 2002 for promoting free society institutions. Chakraverti held
+  that government has only two roles: maintaining Bastiat-esque rule of
+  law—which Indian governments inadequately provide—and building roads, funded
+  not by taxes but by immediately selling all public sector enterprises without
+  exception. A maverick who wore many hats—including rock band member,
+  policeman, Economic Times editor, Mint columnist, teacher, author, and
+  speaker—he authored books like 'Antidote: Essays against the Socialist Indian
+  State' (2000), 'Antidote 2: For Liberal Governance' (2003), and 'Free Your
+  Mind: A Beginner’s Guide to Political Economy.' He championed Austrian
+  economics, Frederic Bastiat, Peter Bauer, Ludwig von Mises, and Ron Paul,
+  critiquing India's moralistic society and soft prohibitionism. The tribute
+  laments his principled refusal to court favors, celebrates his vibrant
+  personality loving rock music, beer, smokes, guns, and Goa, and mourns the
+  loss of a friend, teacher, and voice for libertarian first principles in
+  India.
+key_points:
+  - >-
+    Sauvik Chakraverti died on 23rd October in Goa after championing libertarian
+    ideals against socialist state intervention.
+  - >-
+    Government should limit itself to Bastiat-style rule of law and
+    road-building funded by privatizing all public sector enterprises.
+  - >-
+    He won the inaugural 2002 Bastiat Prize for Journalism and authored key
+    libertarian works like 'Antidote' series and 'Free Your Mind.'
+  - >-
+    Chakraverti criticized India's societal morality and prohibitionism,
+    advocating personal freedoms including guns over reliance on police.'
+topics:
+  - libertarianism
+  - free-markets
+  - rule-of-law
+  - austrian-economics
 tags:
   - Sauvik Chakraverti
   - Bastiat Prize for Journalism
   - Libertarian Scholars
   - eulogy
+source_hash: 523937d499c81a5ecd4ccf763e6d7fa9c5bace5dfd23fab84b7ceef153f5f48c
+summary_hash: 523937d499c81a5ecd4ccf763e6d7fa9c5bace5dfd23fab84b7ceef153f5f48c
+summary_at: '2026-05-05T08:49:09.746Z'
 ---
 **By Kumar Anand**
 

@@ -1,15 +1,55 @@
 ---
 title: Sumo with the Tsunami
 original_url: 'https://www.spontaneousorder.in/p/sumo-with-the-tsunami'
+author: Spontaneous Order
 published_at: '2005-01-04T01:48:38.000Z'
 ingested_at: '2026-05-05T08:31:42.691Z'
-source_hash: f7543062744b5421d76fbed294883d30c4fe4f28a8aad71af7c8e068b28ccdd0
-author: Spontaneous Order
 excerpt: >-
   When all else has been pretty much said you select the voices at the fringes
   to express your opinions. The Asian mega quake was equivalent of one million
   nuclear bombs exploded all at once. How does one deal with it? There are two
   ways: Prediction befor..
+summary: >-
+  The 2004 Asian tsunami, equivalent to one million nuclear bombs, highlights
+  humanity's ability to innovate against nature's fury, from asteroid deflection
+  to potential futures markets for earthquake prediction, yet exposes
+  powerlessness due to lack of prosperity. Naveen Mandava argues that economic
+  prosperity dramatically reduces disaster deaths: Red Cross data shows 589
+  killed in developing countries versus 51 in high-development nations (11:1
+  ratio) over the past decade, with over two million dying from bad water and
+  sanitation alone. Tsunami damages exceed $13 billion, while a global warning
+  system would cost just $100 million—obstacles lie in 'dismally incentivised
+  political & bureaucratic governance' blocking free markets that deliver
+  prosperity. Post-disaster aid falters too: 250 tons of supplies idled in an
+  Indonesian airport due to poor coordination in chaotic Third World systems.
+  Prosperous Japan suffers minimal earthquake damage compared to cyclone-ravaged
+  poor Bangladesh. Mandava concludes that free-market-driven prosperity, not
+  just warnings or aid, is essential for resilience, urging rejection of
+  governance that hinders wealth creation and efficient response.
+key_points:
+  - >-
+    Economic prosperity reduces natural disaster deaths 11:1 compared to
+    developing countries, per Red Cross data.
+  - >-
+    A global tsunami warning system costs $100 million versus $13 billion in
+    damages, but poor governance blocks it.
+  - >-
+    Futures markets could incentivize accurate earthquake predictions by having
+    scientists bet on data.
+  - >-
+    Inefficient aid distribution, like 250 tons stuck in Indonesia, stems from
+    uncoordinated Third World bureaucracy.
+  - >-
+    Free markets foster the ingenuity and wealth that make nations like Japan
+    resilient to disasters unlike poor Bangladesh.
+topics:
+  - natural-disasters
+  - economic-prosperity
+  - free-markets
+  - prediction-markets
+source_hash: f7543062744b5421d76fbed294883d30c4fe4f28a8aad71af7c8e068b28ccdd0
+summary_hash: f7543062744b5421d76fbed294883d30c4fe4f28a8aad71af7c8e068b28ccdd0
+summary_at: '2026-05-05T12:12:44.639Z'
 ---
 **By Naveen Mandava**
 

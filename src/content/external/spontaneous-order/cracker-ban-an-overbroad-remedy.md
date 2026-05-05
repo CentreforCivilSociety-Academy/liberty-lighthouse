@@ -1,20 +1,58 @@
 ---
 title: 'Cracker Ban: An Overbroad Remedy'
 original_url: 'https://www.spontaneousorder.in/p/cracker-ban-an-overbroad-remedy'
+author: Spontaneous Order
 published_at: '2020-11-17T14:07:18.000Z'
 ingested_at: '2026-05-05T08:31:42.368Z'
-source_hash: 8683073892869dddec6a322983c76b010ebe4e24329daac2a169ef8fcc150cbf
-author: Spontaneous Order
 excerpt: >-
   The National Green Tribunal (“NGT”) on 9th November 2020, ordered for a
   complete ban on the sale and use of all kinds of crackers in the National
   Capital Region (“NCR”) between November 09 to November 30, 2020. The
   deteriorating air quality in the
+summary: >-
+  The NGT's complete ban on firecracker sales and use in the NCR from November
+  9-30, 2020, is critiqued as an overbroad remedy for poor air quality and
+  COVID-19 risks, ignoring India's weak enforcement capacity with only 138
+  police per lakh population—the fifth lowest globally—and past failures like
+  the Supreme Court's Arjun Gopal restrictions, which were widely disregarded.
+  Such bans lead to token policing that disproportionately burdens poor vendors
+  through bribes and risks, while failing to curb pollution, as CPCB data shows
+  PM2.5 spikes from crackers last just 48 hours amid dominant stubble burning
+  since mid-October. The order overlooks deeper NCR pollution sources like
+  construction dust and vehicles, endangering 4 lakh workers' livelihoods
+  without evidence of significant air quality gains. From a classical-liberal
+  view, courts' adversarial proceedings are ill-suited for balancing rights and
+  costs like unemployment; Parliament should handle this, avoiding outright bans
+  lacking research support. Instead, propose minimal interventions: eco-friendly
+  cracker labels for consumer choice and incentives rewarding low-pollution
+  neighborhoods via municipal upgrades and real-time local data, fostering
+  targeted, liberty-preserving solutions over coercive overreach.
+key_points:
+  - >-
+    NGT's firecracker ban fails due to India's understaffed police (138 per
+    lakh) and leads to arbitrary enforcement harming poor vendors.
+  - >-
+    Crackers cause short PM2.5 spikes (48 hours) but stubble burning is the main
+    NCR pollution driver, per CPCB, while ignoring 4 lakh workers' livelihoods.
+  - >-
+    Courts should defer pollution policies to Parliament for better
+    reconciliation of rights, costs, and unemployment.
+  - >-
+    Promote eco-friendly labels and neighborhood incentives with real-time local
+    air data instead of bans.
+topics:
+  - firecracker-ban
+  - air-pollution
+  - judicial-overreach
+  - police-enforcement
 tags:
   - Cracker Ban
   - Diwali
   - Alumni Speaks
   - Governance
+source_hash: 8683073892869dddec6a322983c76b010ebe4e24329daac2a169ef8fcc150cbf
+summary_hash: 8683073892869dddec6a322983c76b010ebe4e24329daac2a169ef8fcc150cbf
+summary_at: '2026-05-05T09:28:00.467Z'
 ---
 **By Anuj Aggarwal**
 

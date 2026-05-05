@@ -1,20 +1,59 @@
 ---
 title: Harmful Regulations Hit Close to Home
 original_url: 'https://www.spontaneousorder.in/p/harmful-regulations-hit-close-to-home'
+author: Spontaneous Order
 published_at: '2012-03-01T17:22:05.000Z'
 ingested_at: '2026-05-05T08:31:42.626Z'
-source_hash: 028deb774051dfccedd9526d9df95dfbf2d4ba071e1bc4a484fed66d616e530a
-author: Spontaneous Order
 excerpt: >-
   I returned home last night to a disturbing scene. Someone was moving his
   things into one of the vacant flats downstairs. “Are you moving in?” I asked.
   “No. MCD guys were here. They kicked us out of our flat and demolished it.” I
   quickly went up to
+summary: >-
+  Andrew Humphries recounts a personal incident where the Municipal Corporation
+  of Delhi (MCD) demolished a tenant's flat and threatened two others in his
+  building due to an unauthorized extra floor, destroying valuable housing
+  resources like concrete slabs and furnishings amid Delhi's housing shortage.
+  From a classical-liberal perspective, this exemplifies economic tragedy:
+  perfectly good apartments are obliterated, reducing supply when abundance is
+  needed for the homeless. India ranks 181 out of 183 in the World Bank's Doing
+  Business Index for ease of dealing with construction permits, with Delhi
+  fourth-worst domestically, making legal compliance costly and rare. This
+  fosters unauthorized builds but arbitrary enforcement—lacking rule of
+  law—turns regulations into tools for extortion (rumored Rs. 25 Lac bribe). The
+  result is resource waste, tenant displacement costs, investment uncertainty,
+  and stifled housing supply from tenancy laws, rent controls, and unclear
+  rules. Higher prices displace the poor into cramped conditions. Humphries
+  argues for secure property rights, consistent rules, and deregulation like the
+  Delhi Development Authority's 2021 proposal to remove height limits, noting
+  the poorest suffer most from informal sector harassment blocking
+  wealth-building.
+key_points:
+  - >-
+    MCD's demolition of unauthorized floors destroys valuable housing resources,
+    exacerbating Delhi's shortage amid homelessness.
+  - >-
+    India's 181/183 ranking in construction permit ease drives unauthorized
+    builds and compliance failures.
+  - >-
+    Arbitrary enforcement without rule of law enables extortion and deters
+    housing investments, raising prices and harming the poor.
+  - >-
+    Burdensome regulations like height limits and rent controls restrict supply;
+    removing them could boost abundance and affordability.
+topics:
+  - housing-regulations
+  - rule-of-law
+  - construction-permits
+  - property-rights
 tags:
   - MCD
   - DDA
   - livelihood
   - Law
+source_hash: 028deb774051dfccedd9526d9df95dfbf2d4ba071e1bc4a484fed66d616e530a
+summary_hash: 028deb774051dfccedd9526d9df95dfbf2d4ba071e1bc4a484fed66d616e530a
+summary_at: '2026-05-05T10:08:53.470Z'
 ---
 **By Andrew Humphries**
 

@@ -1,20 +1,62 @@
 ---
 title: My Reservations to your Affirmative Action
 original_url: 'https://www.spontaneousorder.in/p/my-reservations-to-your-affirmative-action'
+author: Spontaneous Order
 published_at: '2004-10-23T02:56:52.000Z'
 ingested_at: '2026-05-05T08:31:42.696Z'
-source_hash: 2e3e63ade4ef758a2646163b6c5b8915e11cee4002b69d1dd7548c69649c03b2
-author: Spontaneous Order
 excerpt: >-
   Swami’s article Affirmative action yes, reservations no is insightful in its
   recognition of the problem, but in its proposal of a solution it betrays an
   ignorance of 1) the true nature of government funding; 2) what ails government
   schooling and 3) rest
+summary: >-
+  Naveen Mandava critiques Swami's proposal for affirmative action via
+  government funding to reputed private bodies like CII for free SC/ST
+  schooling, arguing it ignores government funding's distortive nature,
+  government schooling's failures, and regulatory barriers. He highlights
+  government schools' inefficiencies, noting 506 Jawahar Navodaya Vidyalayas
+  (JNVs) cost over Rs 500 crores annually yet have 22% dropout rates at Plus
+  Two, contrasting with over 5 lakh underfunded government and municipal
+  schools. Subsidized private schools would face no cost pressures, gain unfair
+  advantages, crowd out competitors, expand without quality, and trap students
+  without choices—mirroring government schools' fate. Instead, Mandava advocates
+  classical-liberal reforms: education vouchers to students (like proposed food
+  stamps) for school choice, ensuring accountability to parents and spurring
+  private supply even in underserved areas; government-provided school ratings;
+  removal of the license-permit raj and 'not-for-profit' rule stifling
+  education; and deregulation of job markets. He warns caste-based affirmative
+  action invites 'aggressive action' like private-sector reservations, urging
+  principle-based policies over ad-hoc interventions and analysis of government
+  failures.
+key_points:
+  - >-
+    Government funding to private bodies for SC/ST schools creates unaccountable
+    monopolies that crowd out competition and deliver poor quality.
+  - >-
+    Education vouchers handed to students enable school choice, accountability
+    to parents, and emergence of quality private schools.
+  - >-
+    Remove regulatory barriers like the license-permit raj and non-profit
+    restrictions to unleash education supply.
+  - >-
+    Reject caste-based job reservations in private sector; deregulate job
+    markets to empower the poor broadly.
+  - >-
+    Shift policy focus from more government action to evaluating and dismantling
+    past regulatory failures.
+topics:
+  - affirmative-action
+  - school-vouchers
+  - education-regulation
+  - caste-reservations
 tags:
   - government funding
   - government schooling
   - reservations
   - job markets
+source_hash: 2e3e63ade4ef758a2646163b6c5b8915e11cee4002b69d1dd7548c69649c03b2
+summary_hash: 2e3e63ade4ef758a2646163b6c5b8915e11cee4002b69d1dd7548c69649c03b2
+summary_at: '2026-05-05T11:00:00.230Z'
 ---
 **By Naveen Mandava**
 

@@ -2,15 +2,54 @@
 title: Why does Corruption Flourish? Case of ‘Cut Money’ in West Bengal
 original_url: >-
   https://www.spontaneousorder.in/p/why-does-corruption-flourish-case-of-cut-money-in-west-bengal
+author: Spontaneous Order
 published_at: '2024-06-07T11:34:52.000Z'
 ingested_at: '2026-05-05T08:31:42.716Z'
-source_hash: 68de0a0aca3cc22d2c361697a874b31a4b38cc31d38bfd5965a5b8c97dfb2b18
-author: Spontaneous Order
 excerpt: >-
   Corruption is usually described as abuse of public power for private benefit.
   Corruption arises from the expansion of state power beyond its legitimate
   bounds. Government authorities often manipulate protocols and laws for
   personal gain and distort mark..
+summary: >-
+  Corruption, defined as abuse of public power for private gain, flourishes due
+  to the expansion of state power beyond legitimate bounds, distorting markets
+  and creating rent-seeking opportunities as per classical-liberal theory. In
+  India, rooted in its socialist democratic system, it persists post-Licence Raj
+  through opaque regulations granting bureaucrats and politicians quasi-monopoly
+  powers. West Bengal exemplifies this: Left Front rule (1977-2011) fostered
+  absenteeism and corruption, closing factories like Dunlop and Hindustan
+  Motors, five jute mills, and costing 302,000 jobs. Recent scandals include a
+  Rs 1,300 crore coal scam, Rs 52 crore seized in a teacher recruitment fraud
+  nullifying 25,373 appointments, and a Rs 10,000 crore PDS scam. 'Cut
+  money'—illegal commissions by local politicians for welfare schemes—has
+  institutionalized bribery, with 46% of residents admitting to paying bribes
+  per a survey. Drawing on Austrian economists Rothbard and Mises, the author
+  argues corruption is inevitable in interventionist economies; anti-corruption
+  movements like Anna Hazare's fail as they expand state power. Solution: Shrink
+  government intervention to curb corruption, echoing BR Shenoy's thesis.
+key_points:
+  - >-
+    Expansion of state power creates rent-seeking opportunities, enabling
+    corruption through opaque regulations and permits.
+  - >-
+    West Bengal's 34-year Left Front rule institutionalized corruption, leading
+    to industrial closures and massive job losses like 302,000 workers.
+  - >-
+    Recent scams in coal (Rs 1,300 crore), teacher recruitment (25,373
+    appointments cancelled), and PDS (Rs 10,000 crore) highlight ongoing issues,
+    rebranded as 'cut money'.
+  - >-
+    Austrian economists Rothbard and Mises show corruption thrives in
+    interventionist states; reducing government intervention is essential to
+    prevent it.
+topics:
+  - corruption
+  - west-bengal
+  - state-intervention
+  - austrian-economics
+source_hash: 68de0a0aca3cc22d2c361697a874b31a4b38cc31d38bfd5965a5b8c97dfb2b18
+summary_hash: 68de0a0aca3cc22d2c361697a874b31a4b38cc31d38bfd5965a5b8c97dfb2b18
+summary_at: '2026-05-05T13:04:41.572Z'
 ---
 **By Barendra Nath Chakraborty**
 

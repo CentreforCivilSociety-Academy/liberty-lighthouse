@@ -2,20 +2,58 @@
 title: 'Musings: Grievances in and of the Supreme Court'
 original_url: >-
   https://www.spontaneousorder.in/p/musings-grievances-in-and-of-the-supreme-court
+author: Spontaneous Order
 published_at: '2018-08-03T12:18:33.000Z'
 ingested_at: '2026-05-05T08:31:42.533Z'
-source_hash: cdfba5ec8416e9a9d149a185f6dc1f3c9aabe45315fd87f1f86a690ceb21e534
-author: Spontaneous Order
 excerpt: >-
   On 12 January, four of the senior-most puisne judges of the Supreme Court of
   India invited a press conference to express their dissatisfaction with the
   Chief Justice of India (CJI). Speaking up against the arbitrariness in case
   allocation, a power exclu..
+summary: >-
+  On 12 January, four senior-most puisne judges of the Supreme Court of India
+  held an unprecedented press conference to voice dissatisfaction with Chief
+  Justice Dipak Misra over arbitrary case allocation, a power exclusive to the
+  CJI as master of the roster, signaling a breakdown of trust. This exposes the
+  absence of institutional mechanisms to address judges' grievances, symptomatic
+  of broader judicial malaise including resistance to Right to Information Act
+  application and opacity in appointments and promotions until October last
+  year. The crisis indicts the institution as much as the individual, as the CJI
+  can ignore it without ramifications, perpetuating a 'closed Big Boys Club.'
+  From a classical-liberal viewpoint, the Supreme Court's credibility hinges on
+  internal reforms to enforce accountability and transparency, insulated by
+  judicial autonomy from external interference. Unwritten conventions govern
+  administrative matters; experts suggest codifying them into a written document
+  as a first step to guide judges and the public. Structural reforms are
+  essential to prevent reliance on individual conscience, preserving public
+  trust amid the CJI's silence.
+key_points:
+  - >-
+    Four senior Supreme Court judges held an unprecedented press conference on
+    12 January against CJI Dipak Misra's arbitrary case allocation, revealing a
+    trust breakdown.
+  - >-
+    Indian judiciary lacks institutional mechanisms for judges' grievances,
+    marked by RTI resistance and opacity in appointments until recently.
+  - >-
+    Codify unwritten judicial conventions on administrative matters like rosters
+    and appointments into a written document to enhance transparency.
+  - >-
+    Supreme Court must pursue internal structural reforms to maintain
+    credibility without compromising judicial autonomy.
+topics:
+  - judiciary
+  - judicial-reform
+  - transparency
+  - accountability
 tags:
   - judiciary
   - Chief Justice of India
   - Supreme Court of India
   - grievance redressal
+source_hash: cdfba5ec8416e9a9d149a185f6dc1f3c9aabe45315fd87f1f86a690ceb21e534
+summary_hash: cdfba5ec8416e9a9d149a185f6dc1f3c9aabe45315fd87f1f86a690ceb21e534
+summary_at: '2026-05-05T10:59:12.557Z'
 ---
 **By Vineet Bhalla**
 

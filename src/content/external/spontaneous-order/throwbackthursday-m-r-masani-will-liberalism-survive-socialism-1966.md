@@ -2,15 +2,50 @@
 title: '#ThrowbackThursday: M R Masani —Will Liberalism Survive Socialism? (1966)'
 original_url: >-
   https://www.spontaneousorder.in/p/throwbackthursday-m-r-masani-will-liberalism-survive-socialism-1966
+author: Spontaneous Order
 published_at: '2015-07-23T18:04:28.000Z'
 ingested_at: '2026-05-05T08:31:42.579Z'
-source_hash: 4d3a0e405c83bc9e1ac07c43274f0959ffa2595a7761ca1097ff1405423e1ac0
-author: Spontaneous Order
 excerpt: >-
   This piece was first published in a publication titled ‘Is Socialism
   Outdated?’ published by the ‘Forum of Free Enterprise.’ What is posted here is
   a small excerpt from the essay that was first published in 1966. There is an
   idea afoot that libera
+summary: >-
+  M.R. Masani argues in this 1966 excerpt that liberalism will outlast
+  socialism, challenging the notion that liberalism must fade before socialism
+  by examining long-term viability. He recounts renouncing socialism at 41,
+  aligning with a Conservative's quip that youthful socialism shows heart but
+  persistence lacks head, and embraces liberal and Gandhian faith. Invoking
+  Gandhi, Masani stresses that ends and means are interlinked—dubious methods
+  like Soviet liquidations vitiate fraternal goals—and that the state poses the
+  greatest threat to freedom through oppressive violence. Gandhi's talisman
+  tests systems by their benefit to the poorest, restoring control over their
+  lives. In India's semi-socialist economy over 15 years post-1947, living
+  standards stagnate: real income of agricultural laborers has declined,
+  industrial workers' is stagnant via dearness allowances, and the middle
+  class—clerks, schoolmasters, shopkeepers—is being ground out of existence. A
+  corrupt 'New Class' of politicians, officials, and businessmen benefits via
+  licenses and protected markets, replacing old exploiters. Masani concludes
+  liberals should 'go forward,' echoing Carlos Romulo.
+key_points:
+  - >-
+    Socialism fails Gandhi's test as India's post-1947 semi-socialist policies
+    have stagnated living standards, reduced agricultural laborers' real income,
+    and squeezed the middle class.
+  - >-
+    A small 'New Class' of corrupt politicians, officials, and businessmen
+    profits from controlled economy licenses and patronage.
+  - >-
+    Gandhi teaches that clean means are essential for good ends and that state
+    violence is the foulest threat to freedom.
+  - >-
+    Liberals should evolve positions dynamically and prioritize systems
+    benefiting the poorest, favoring liberalism over socialism.
+topics:
+  - classical-liberalism
+  - socialism-critique
+  - gandhian-liberalism
+  - indian-economy
 tags:
   - Libertarian Scholars
   - socialism
@@ -18,6 +53,9 @@ tags:
   - Mahatma Gandhi
   - Liberalism
   - '#throwbackthursday'
+source_hash: 4d3a0e405c83bc9e1ac07c43274f0959ffa2595a7761ca1097ff1405423e1ac0
+summary_hash: 4d3a0e405c83bc9e1ac07c43274f0959ffa2595a7761ca1097ff1405423e1ac0
+summary_at: '2026-05-05T12:42:16.110Z'
 ---
 **By Ujwal Batra**
 

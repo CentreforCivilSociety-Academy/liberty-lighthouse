@@ -2,14 +2,54 @@
 title: 'SO Musings: The US-India Alignment in Cold War'
 original_url: >-
   https://www.spontaneousorder.in/p/so-musings-in-name-of-freedom-the-us-india-alignment-in-cold-war
+author: Spontaneous Order
 published_at: '2020-06-26T15:59:40.000Z'
 ingested_at: '2026-05-05T08:31:42.405Z'
-source_hash: d56391ebfffc28b26b23045862686dc9f7c13c20f3ad5f872236d6e61ee19d42
-author: Spontaneous Order
 excerpt: >-
   The Indian defeat in the 1962 border war with China not only resulted in loss
   of territory, but also raised questions about the foreign policy conduct of
   India’s first Prime Minister Jawaharlal Nehru.
+summary: >-
+  The post reflects on the 1962 India-China border war, which exposed flaws in
+  Jawaharlal Nehru's Non-Alignment policy, interpreted by revisionist scholars
+  as hedging and criticized by Indian liberals for enabling communist threats
+  from China and Russia. Indian liberals, averse to communism and valuing shared
+  democratic credentials with the US, advocated closer alignment with the US-led
+  bloc, especially after Anglo-American military support contrasted with the
+  Soviet Union's muted response and the Non-Aligned Movement's ineffectiveness.
+  The featured editorial from the December 15, 1962, issue of Indian Libertarian
+  magazine warns of Chinese expansionism through Himalayan passes, from
+  Karakoram to Tawang and Walong in NEFA, portraying Tibet as a Chinese colony
+  after expelling the Dalai Lama in 1960. It urges India to leverage China's
+  Tibet problem, reject deceptive cease-fire proposals, and fully implement
+  military agreements with the US and UK by unambiguously committing to
+  democracy against totalitarianism and colonialism. This shift, the editorial
+  argues, would secure Western aid to expel Chinese invaders, neutralize
+  Pakistan's threats fueled by anti-India communalism, and position India as
+  Southeast Asia's defender of freedom, as prophesied by Aurobindo Ghosh in
+  1950, ultimately resolving military and spiritual crises through
+  classical-liberal realism.
+key_points:
+  - >-
+    Nehru's Non-Alignment policy left India vulnerable to Chinese invasion and
+    isolated it from effective allies.
+  - >-
+    Indian liberals pushed for US-India alignment based on anti-communism,
+    shared democracy, and Cold War realities.
+  - >-
+    The 1962 Indian Libertarian editorial demands exploiting China's Tibet
+    occupation and rejecting cease-fire traps to consolidate defenses.
+  - >-
+    India must publicly affirm faith in freedom and democracy to gain full US-UK
+    military and economic support against China and Pakistan.
+  - >-
+    Rethinking foreign policy would enable India to defend Southeast Asian
+    freedom and resolve the Kashmir issue.
+topics:
+  - non-alignment
+  - india-china-war
+  - us-india-relations
+  - indian-liberals
 tags:
   - Sino India
   - Border War
@@ -17,6 +57,9 @@ tags:
   - China
   - Border Conflict
   - International Relations
+source_hash: d56391ebfffc28b26b23045862686dc9f7c13c20f3ad5f872236d6e61ee19d42
+summary_hash: d56391ebfffc28b26b23045862686dc9f7c13c20f3ad5f872236d6e61ee19d42
+summary_at: '2026-05-05T11:57:04.750Z'
 ---
 **By Spontaneous Order**
 

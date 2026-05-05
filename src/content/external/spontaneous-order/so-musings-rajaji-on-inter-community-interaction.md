@@ -2,15 +2,47 @@
 title: 'SO Musings: Rajaji on inter-community interaction'
 original_url: >-
   https://www.spontaneousorder.in/p/so-musings-rajaji-on-inter-community-interaction
+author: Spontaneous Order
 published_at: '2019-02-27T09:17:10.000Z'
 ingested_at: '2026-05-05T08:31:42.501Z'
-source_hash: a137dce80311b8c60c8c5b9615b5794f3a0d8193e652d96bc5f36e27f0c03a8e
-author: Spontaneous Order
 excerpt: >-
   India is unchangeably committed to the policy of making everyone within her
   borders find pride and joy in citizenship irrespective of caste, creed or
   race. No, one will suffer any disability by reason of the community to which
   he or she belongs. The day..
+summary: >-
+  In this excerpt from C. Rajagopalachari (Rajaji), a key Indian classical
+  liberal, he asserts India's unwavering commitment to fostering pride and joy
+  in citizenship for all, irrespective of caste, creed, or race, ensuring no one
+  suffers disabilities due to their community. He declares the end of dynastic
+  rule and domination by force, emphasizing that no territorial, racial, or
+  religious community can thrive without the willing cooperation and full
+  intercommunication of others. Rajaji urges the abandonment of communal and
+  territorial isolationism, calling for the best talents in every community to
+  serve the entire state rather than building walls around themselves.
+  Communities must spread out to promote utmost intercommunication, aligning
+  with a classical-liberal vision of voluntary cooperation, individual merit
+  serving the common good, and rejection of group-based separatism in favor of a
+  unified national polity. This perspective counters fragmentation, promoting a
+  spontaneous order through open interaction and shared citizenship.
+key_points:
+  - >-
+    India must ensure equal citizenship pride and no disabilities based on
+    caste, creed, or race.
+  - >-
+    Dynastic rule and force-based domination are obsolete; communities thrive
+    only through willing cooperation and intercommunication.
+  - >-
+    Abandon communal and territorial isolationism to allow the best talents to
+    serve the whole state.
+  - >-
+    Communities should spread themselves out rather than build walls around
+    themselves.
+topics:
+  - indian-liberalism
+  - inter-community-relations
+  - caste-equality
+  - citizenship
 tags:
   - Rajaji
   - Community interaction
@@ -18,6 +50,9 @@ tags:
   - C Rajagopalachari
   - Freedom fighter
   - Activist
+source_hash: a137dce80311b8c60c8c5b9615b5794f3a0d8193e652d96bc5f36e27f0c03a8e
+summary_hash: a137dce80311b8c60c8c5b9615b5794f3a0d8193e652d96bc5f36e27f0c03a8e
+summary_at: '2026-05-05T12:00:11.976Z'
 ---
 **By Spontaneous Order**
 

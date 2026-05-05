@@ -1,21 +1,61 @@
 ---
 title: 'Private Property Rights – You have it, but you don’t'
 original_url: 'https://www.spontaneousorder.in/p/nepal-property'
+author: Spontaneous Order
 published_at: '2015-09-28T12:40:34.000Z'
 ingested_at: '2026-05-05T08:31:42.575Z'
-source_hash: 2eee075f8ac58c41b034995752dd9c361f4d7611f572dff574f3d8f4e790c8d0
-author: Spontaneous Order
 excerpt: >-
   By Akash Shrestha The following post talks about the Right to Property in
   Nepal, and its status in the new constitution that came into force this month.
   The freedom of an individual to keep ownership of the fruits of his/her labor
   is the fundamental p...
+summary: >-
+  Nepal's new constitution nominally guarantees private property rights under
+  Article 25, allowing citizens to acquire, own, sell, and transact property,
+  but subsequent explanations severely undermine this by permitting state
+  acquisition for 'public interest' without mandatory constitutional
+  compensation or due process. Compensation is left to ordinary laws, which can
+  be amended to eliminate it, as seen in the government's denial of compensation
+  to Kathmandu landowners during road expansion. Explanations further allow land
+  reform, agricultural modernization, environmental measures, housing, and
+  urbanization without restriction, and permit repurposing acquired property for
+  other public uses. This contrasts sharply with stronger protections elsewhere:
+  India's Article 31 mandates compensation at no less than market value, and the
+  US Fifth Amendment requires 'just compensation' for takings. From a
+  classical-liberal viewpoint, such weak protections fail to secure the fruits
+  of one's labor—a fundamental human right and pillar of economic freedom and
+  prosperity, as echoed in Ayn Rand's assertion that without property rights, no
+  other rights are possible. Thus, Nepali citizens have property rights in name
+  only.
+key_points:
+  - >-
+    Nepal's Article 25 promises property rights but explanations (3-5) allow
+    state expropriation for broad 'public interest' without guaranteed
+    compensation or due process.
+  - >-
+    Compensation depends on amendable laws, enabling scenarios like the
+    Kathmandu road expansion where owners received nothing.
+  - >-
+    India's Article 31 requires acquisition laws to provide market-value
+    compensation; US Fifth Amendment mandates 'just compensation' for public
+    takings.
+  - >-
+    Weak property protections undermine economic freedom, as private ownership
+    of labor's fruits is essential for prosperity.
+topics:
+  - private-property
+  - eminent-domain
+  - nepal-constitution
+  - economic-freedom
 tags:
   - Right to Property
   - Nepal
   - Constitution of Nepal
   - Constitution
   - Property Rights in Nepal
+source_hash: 2eee075f8ac58c41b034995752dd9c361f4d7611f572dff574f3d8f4e790c8d0
+summary_hash: 2eee075f8ac58c41b034995752dd9c361f4d7611f572dff574f3d8f4e790c8d0
+summary_at: '2026-05-05T11:03:21.400Z'
 ---
 **By Guest Author**
 

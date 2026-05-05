@@ -1,20 +1,62 @@
 ---
 title: The case of Infant Industry
 original_url: 'https://www.spontaneousorder.in/p/the-case-of-infant-industry'
+author: Spontaneous Order
 published_at: '2010-08-06T13:49:09.000Z'
 ingested_at: '2026-05-05T08:31:42.649Z'
-source_hash: 78c8265b0cc20b0795cc3ff1aa051b8cdceab315e261cf8548464fc1e4722126
-author: Spontaneous Order
 excerpt: >-
   The infant industry argument is often used to portray a seeming market
   failure. Since Colbert in France and later in England with Hamilton in the
   1780-90’s, taxpayers have been taught that, in the interest of the whole
   country, the government should pro
+summary: >-
+  The infant industry argument, popularized by Colbert, Hamilton, and others,
+  claims governments should subsidize nascent industries unable to compete due
+  to higher costs and smaller scale, protecting jobs and ensuring fair
+  competition until they mature. Lucas Leger critiques this as a mercantilist
+  fallacy, arguing historical 'successes' like Japan's auto industry—where
+  Toyota received subsidies in the 1930s but became a leader partly due to 1970s
+  gas prices and 1990s innovations—do not prove protectionism's efficacy. Porter
+  and Takeuchi's studies show successful Japanese industries had minimal
+  government intervention, while failures featured heavy cartels and subsidies.
+  Subsidies mooch taxpayers, misallocate resources, and override consumer
+  interests in cheaper, better goods, per Bastiat's 'what is not seen.'
+  Competition is a 'discovery procedure' (Kirzner) starting from unequal
+  endowments, thriving on equal market access, not protections; entrepreneurs'
+  alertness uncovers niches. Free markets spawn thousands of firms daily,
+  funding viable ones via profit-based loans, not bureaucratic discretion.
+  Analogy: no subsidies for inexperienced graduates entering the job market.
+  Leger concludes laymen should avoid ignorant protectionist advocacy, quoting
+  Rothbard on economic ignorance.
+key_points:
+  - >-
+    Infant industry protections fail to create lasting success, as evidenced by
+    minimal government role in Japan's thriving sectors per Porter and Takeuchi.
+  - >-
+    Subsidies extract from taxpayers to prop up inefficient firms, harming
+    consumers and misallocating resources.
+  - >-
+    Competition functions as an entrepreneurial discovery process requiring
+    equal market access, not equal starting endowments or protections.
+  - >-
+    Profit-driven loans outperform discretionary subsidies for nurturing viable
+    new industries.
+  - >-
+    Advocate free markets over protectionism to foster prosperity through
+    genuine competition.
+topics:
+  - infant-industry
+  - protectionism
+  - free-markets
+  - entrepreneurship
 tags:
   - subsidization
   - bankruptcy
   - employment
   - fair competition
+source_hash: 78c8265b0cc20b0795cc3ff1aa051b8cdceab315e261cf8548464fc1e4722126
+summary_hash: 78c8265b0cc20b0795cc3ff1aa051b8cdceab315e261cf8548464fc1e4722126
+summary_at: '2026-05-05T12:19:55.098Z'
 ---
 **By Lucas Leger**
 

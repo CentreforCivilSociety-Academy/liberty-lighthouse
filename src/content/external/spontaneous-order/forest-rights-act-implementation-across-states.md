@@ -2,15 +2,58 @@
 title: 'Forest Rights Act: Implementation Across States'
 original_url: >-
   https://www.spontaneousorder.in/p/forest-rights-act-implementation-across-states
+author: Spontaneous Order
 published_at: '2022-06-29T13:41:41.000Z'
 ingested_at: '2026-05-05T08:31:42.262Z'
-source_hash: c7ac4706c15ba4e6f34036937ab93b96a85d9f627f00ade4d8644a48e33e81e1
-author: Spontaneous Order
 excerpt: >-
   The following essay provides an insight into Centre for Civil Society’s recent
   Primer, Opening Gates for India’s Keepers of Forests, 2022. After nearly
   fifteen years of the Forest Rights Act (2006), it is common knowledge that
   there is a dissonance be
+summary: >-
+  The Forest Rights Act (2006) sought to restore control of forests and
+  resources to indigenous and tribal communities, traditional caretakers
+  displaced by state control, but implementation has faltered after 15 years due
+  to forest department resistance, particularly over non-timber forest produce
+  (NTFP) worth nearly 6,000 crores annually. Forests are regulated by both Union
+  and state governments per the 42nd Constitutional Amendment, yet states invoke
+  archaic laws undermining the FRA, leading to irregular implementation.
+  Comparing Gujarat, Madhya Pradesh, and Odisha—states that nationalized minor
+  forest produce (MFP) sales historically—reveals persistent issues: Gujarat
+  denationalized four MFPs (Timru leaves, Mahuda flowers, Doli, gums) post-PESA
+  in 2017, but its state corporation trades them 'on behalf of' Gram Sabhas,
+  with transit permits hindering non-nationalized produce. Madhya Pradesh,
+  largest Kendu leaves producer (25%), first transferred MFP ownership to Gram
+  Sabhas under FRA but its federation allegedly retained 500 crores for
+  collectors in 2017. Odisha's 2000 MFP policy recognized community rights but
+  Gram Sabhas lack price determination authority, yielding mid-level
+  implementation. From a classical-liberal lens, success demands empowering
+  forest dwellers with full MFP rights—collection, sale, transport, pricing—and
+  dismantling bureaucratic and monopolistic barriers.
+key_points:
+  - >-
+    Forest departments resist FRA implementation to retain control over NTFP
+    worth 6,000 crores annually.
+  - >-
+    Gujarat denationalized key MFPs post-PESA but state entity trades on behalf
+    of Gram Sabhas and transit permits persist.
+  - >-
+    Madhya Pradesh transferred MFP ownership to Gram Sabhas but retained 500
+    crores owed to collectors.
+  - >-
+    Odisha partially empowers villages on MFP but denies Gram Sabhas pricing
+    rights.
+  - >-
+    Empower forest communities with full MFP rights and eliminate state
+    hindrances for FRA success.
+topics:
+  - forest-rights-act
+  - minor-forest-produce
+  - gram-sabhas
+  - free-market-environmentalism
+source_hash: c7ac4706c15ba4e6f34036937ab93b96a85d9f627f00ade4d8644a48e33e81e1
+summary_hash: c7ac4706c15ba4e6f34036937ab93b96a85d9f627f00ade4d8644a48e33e81e1
+summary_at: '2026-05-05T09:56:10.109Z'
 ---
 **By Sarthak Kwatra**
 

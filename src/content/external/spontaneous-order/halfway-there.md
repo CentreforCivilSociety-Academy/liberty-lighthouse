@@ -1,21 +1,61 @@
 ---
 title: We’re Halfway There
 original_url: 'https://www.spontaneousorder.in/p/halfway-there'
+author: Spontaneous Order
 published_at: '2015-11-16T12:23:24.000Z'
 ingested_at: '2026-05-05T08:31:42.570Z'
-source_hash: ec665aa1cc922804499a0e6a930b1b01248cdb64e64834e1e1b76b669142fd6a
-author: Spontaneous Order
 excerpt: >-
   Cato Institute recently published the Human Freedom Index; which measures the
   extent of freedom in different countries and ranks them. 152 countries form a
   part of the index; and we rank in at 75—nearly halfway through. The index
   measures the extent of
+summary: >-
+  The Cato Institute's Human Freedom Index ranks India 75th out of 152
+  countries, placing it nearly halfway in overall freedom, based on 2012 data
+  across 76 factors grouped into categories like Rule of Law, Security and
+  Safety, Movement, Religion, Association and Civil Society, Expression,
+  Relationships, Size of Government, Legal System and Property Rights, Access to
+  Sound Money, Freedom to Trade Internationally, and Regulation of Credit,
+  Labor, and Business. This comprehensive index uniquely combines economic
+  freedoms (e.g., sound money, regulations) with personal liberties (e.g.,
+  expression, movement), unlike narrower measures from Heritage or Fraser
+  Institute. Hong Kong ranks first despite not being a democracy, while others
+  include Germany (12th), USA (20th), Singapore (43rd), South Africa (70th),
+  Russia (111th), China (132nd), Pakistan (140th), Venezuela (144th), and Iran
+  (152nd). The index reveals a strong positive link between human freedom and
+  income, with freer countries boasting significantly higher average incomes.
+  From a classical-liberal viewpoint, institutions are crucial as they define
+  rights, incentives, and the 'rules of the game' for securing both freedom and
+  prosperity. The author highlights needs to bolster economic freedoms and
+  protect religious and personal liberties amid growing concerns.
+key_points:
+  - >-
+    India ranks 75th out of 152 countries in the Cato Institute's Human Freedom
+    Index using 2012 data across 76 factors spanning economic and personal
+    freedoms.
+  - >-
+    Freer countries exhibit substantially higher average incomes, underscoring
+    freedom's role in prosperity.
+  - >-
+    Institutions underpin freedom by setting incentives, rights, and rules
+    essential for economic and personal liberties.
+  - >-
+    Economic freedoms require significant improvement in India, alongside
+    protections for religious and personal freedoms.
+topics:
+  - human-freedom-index
+  - economic-freedom
+  - personal-freedoms
+  - institutions
 tags:
   - economic freedom
   - Human Freedom Index
   - Liberty
   - Freedom
   - Cato Institute
+source_hash: ec665aa1cc922804499a0e6a930b1b01248cdb64e64834e1e1b76b669142fd6a
+summary_hash: ec665aa1cc922804499a0e6a930b1b01248cdb64e64834e1e1b76b669142fd6a
+summary_at: '2026-05-05T10:07:26.687Z'
 ---
 **By Ujwal Batra**
 

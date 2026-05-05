@@ -2,15 +2,52 @@
 title: 'Should Supreme Court Live-Stream its Proceedings? '
 original_url: >-
   https://www.spontaneousorder.in/p/should-the-supreme-court-live-stream-its-proceedings
+author: Spontaneous Order
 published_at: '2020-03-30T16:42:45.000Z'
 ingested_at: '2026-05-05T08:31:42.432Z'
-source_hash: 75711830e7c9d4572442a8a862e386965720da621c188533407bef164ff16139
-author: Spontaneous Order
 excerpt: >-
   Recently, the Calcutta High Court allowed the live-streaming of a case on
   YouTube. It is the first time an Indian court has done that, although the
   battle for the same has been ongoing for a while. In 2018, the Supreme Court
   of India announced that live..
+summary: >-
+  Swati Singh argues that the Supreme Court of India should implement
+  live-streaming of its proceedings to enhance transparency, accountability, and
+  public access, aligning with classical-liberal principles of open justice and
+  citizen oversight of constitutional custodians. She highlights the Calcutta
+  High Court's pioneering YouTube live-stream as a first in India, contrasting
+  it with the Supreme Court's 2018 announcement to live-stream cases of national
+  importance and constitutional issues, which has seen no progress despite
+  government commitments. International examples include Canada's Supreme Court
+  and Australia's open court systems allowing cameras. Paralleling live
+  broadcasts of Rajya Sabha and Lok Sabha, Singh contends citizens have a right
+  to observe Supreme Court debates, countering the Indian legal system's opacity
+  and jargon that concentrates knowledge among elites. While acknowledging
+  challenges like defining 'national importance'—citing the 2012 Delhi gang rape
+  case that spurred POSCO legislation and death penalty debates—she proposes
+  court-formulated guidelines balancing public interest with privacy. Benefits
+  include remote access beyond Delhi, educational value for young lawyers,
+  improved lower court outcomes, and boosted public confidence in the judiciary.
+key_points:
+  - >-
+    Calcutta High Court achieved India's first court live-stream on YouTube,
+    while Supreme Court's 2018 plan for national importance cases remains
+    unimplemented.
+  - >-
+    Live-streaming promotes transparency and accountability by making Supreme
+    Court proceedings accessible to the public, akin to parliamentary
+    broadcasts.
+  - >-
+    Guidelines are needed to define 'national importance' cases and protect
+    privacy, as in sensitive matters like the 2012 Delhi gang rape.
+  - >-
+    Live-streaming enables remote public access, legal education for young
+    lawyers, and greater citizen confidence in the judiciary.
+topics:
+  - judicial-transparency
+  - court-live-streaming
+  - supreme-court
+  - open-justice
 tags:
   - transparency
   - common man
@@ -18,6 +55,9 @@ tags:
   - Transparent Governanace
   - Supreme Court of India
   - Supreme Court
+source_hash: 75711830e7c9d4572442a8a862e386965720da621c188533407bef164ff16139
+summary_hash: 75711830e7c9d4572442a8a862e386965720da621c188533407bef164ff16139
+summary_at: '2026-05-05T11:43:02.644Z'
 ---
 **By Swati Singh**
 

@@ -2,20 +2,59 @@
 title: The Existential Imperative of Education Policy
 original_url: >-
   https://www.spontaneousorder.in/p/the-existential-imperative-of-education-policy
+author: Spontaneous Order
 published_at: '2020-09-08T15:29:57.000Z'
 ingested_at: '2026-05-05T08:31:42.383Z'
-source_hash: e1aead35ef747cd7b253438e5e1802aebca79ace93d70aa6181c899ae10ec69d
-author: Spontaneous Order
 excerpt: >-
   Plato’s Republic describes a process by which a well-governed state
   degenerates through constitutional forms: aristocracy, timocracy, oligarchy,
   democracy, and tyranny. A Platonic reading of history suggests that India may
   be on a trajectory to fulfil t
+summary: >-
+  Drawing on Plato's Republic, Roshan Gandhi argues that India is tracing the
+  philosopher's sequence of constitutional degeneration from aristocracy (early
+  dynasties) to timocracy (frequent wars), oligarchy (corrupt politicians lining
+  pockets amid rich-poor resentment and unfair elections), and now edging toward
+  democracy as mob rule, risking tyranny. Plato viewed uneducated masses as
+  unfit for self-governance, a concern echoed in modern terms by Condorcet's
+  Jury Theorem: in the world's largest democracy, ensuring average voters exceed
+  50% accuracy in 'correct' decisions—defined as evidence-based,
+  accountability-focused choices—is vital, with education boosting this
+  probability exponentially. While Ambedkar doubted literacy's link to
+  intelligence, India's Constitution mandates universal education, aligning with
+  classical-liberal support for state-funded education as a public good to
+  empower informed voting and liberal democracy, distinct from socialist
+  motives. Without quality education to hold leaders accountable, India faces
+  Platonic tyranny, symbolized by lawlessness like stray cattle. The New
+  Education Policy (NEP 2020) offers pedagogic ideals but neglects systemic
+  flaws; policymakers must prioritize fixes as existentially imperative to halt
+  the spiral.
+key_points:
+  - >-
+    India mirrors Plato's oligarchy with ubiquitous corruption, vote-buying, and
+    class tensions, transitioning toward mob-rule democracy.
+  - >-
+    Education raises voter decision quality above 50% per Condorcet's Jury
+    Theorem, enabling better democratic outcomes in a vast electorate.
+  - >-
+    Classical liberals endorse state-funded education as a public good for
+    informed citizenship and accountability, averting tyranny.
+  - >-
+    NEP 2020 fails to address systemic education problems, requiring urgent
+    reassessment to safeguard democracy.
+topics:
+  - education-policy
+  - indian-democracy
+  - political-philosophy
+  - nep-2020
 tags:
   - Education
   - Education Policy
   - plato
   - Democracy
+source_hash: e1aead35ef747cd7b253438e5e1802aebca79ace93d70aa6181c899ae10ec69d
+summary_hash: e1aead35ef747cd7b253438e5e1802aebca79ace93d70aa6181c899ae10ec69d
+summary_at: '2026-05-05T12:25:33.966Z'
 ---
 **By Roshan Gandhi**
 

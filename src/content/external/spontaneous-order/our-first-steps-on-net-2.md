@@ -1,15 +1,32 @@
 ---
 title: Our first steps on net
 original_url: 'https://www.spontaneousorder.in/p/our-first-steps-on-net-2'
+author: Spontaneous Order
 published_at: '2004-09-01T07:05:53.000Z'
 ingested_at: '2026-05-05T08:31:42.700Z'
-source_hash: d4f4026beaaf163bc33f810d0767a1c12190f04da908e82352a8b7dea73699d8
-author: Spontaneous Order
 excerpt: >-
   Tyler Cowen announces Spontaneous Order in his widely read blog Marginal
   Revolution. So does Ravikiran Rao, in his blog Examined life. Thanks for the
   plug, Tyler & Ravi. Incidentally, even google ranks us quite highly. Try
   typing “Spontaneous Order” i
+summary: >-
+  This brief 2004 post by Sruthijith celebrates the early online launch of
+  Spontaneous Order, noting announcements by Tyler Cowen on his influential
+  Marginal Revolution blog and by Ravikiran Rao on Examined Life, thanking them
+  for the plugs. It highlights that Google already ranks 'Spontaneous Order'
+  highly in search results, suggesting promising initial traction for the
+  classical-liberal platform from India's Centre for Civil Society.
+key_points:
+  - Tyler Cowen announced Spontaneous Order on Marginal Revolution.
+  - Ravikiran Rao promoted it on his Examined Life blog.
+  - 'Google search ranks ''Spontaneous Order'' highly, indicating early visibility.'
+topics:
+  - online-launch
+  - blog-promotion
+  - search-ranking
+source_hash: d4f4026beaaf163bc33f810d0767a1c12190f04da908e82352a8b7dea73699d8
+summary_hash: d4f4026beaaf163bc33f810d0767a1c12190f04da908e82352a8b7dea73699d8
+summary_at: '2026-05-05T11:10:36.551Z'
 ---
 **By Sruthijith**
 

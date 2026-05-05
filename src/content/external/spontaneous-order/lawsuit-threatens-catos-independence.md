@@ -1,21 +1,60 @@
 ---
 title: Lawsuit Threatens Cato’s Independence
 original_url: 'https://www.spontaneousorder.in/p/lawsuit-threatens-catos-independence'
+author: Spontaneous Order
 published_at: '2012-03-06T16:47:41.000Z'
 ingested_at: '2026-05-05T08:31:42.625Z'
-source_hash: b27e6580bbe6e7af31e3e763acb0447a23960de81a383a4f71a6c035e751b645
-author: Spontaneous Order
 excerpt: >-
   Those interested in the wider global progress of the liberty movement will be
   sick to their stomachs to learn that The Cato Institute, the world’s most
   productive, influential, and respected, libertarian think tank, is being
   threatened by a hostile take
+summary: >-
+  The Koch brothers' lawsuit against the Cato Institute threatens a hostile
+  takeover that would destroy its independence as the world's leading
+  libertarian think tank, founded in 1977 by Charles Koch, David Koch, Ed Crane,
+  and William Niskanen. The dispute centers on Niskanen's shares after his 2011
+  death: Kochs claim a right to buy them per the 1977 shareholder agreement,
+  while Cato insists they pass to his widow Kathryn Washburn. This unusual
+  shareholder structure for a non-profit has drawn scrutiny. Cato President Ed
+  Crane denounces it as an effort to transform the nonpartisan research
+  organization into a partisan tool for Koch's agenda, contradicting Charles
+  Koch's claim of preserving principles of individual liberty, free markets, and
+  peace. Evidence includes Koch-nominated board members like John Hinderaker, a
+  neocon supporting the Patriot Act and Iraq War, and Tony Woodlief, president
+  of Koch nonprofits and critic of libertarianism as a 'flawed religion.' Kochs
+  now influence 7 of 16 board seats. Even a legal win would permanently brand
+  Cato as Koch-controlled, repelling talent, inviting attacks, and undermining
+  its bipartisan critique of government overreach—killing its influence for
+  short-term political gains from a classical-liberal viewpoint.
+key_points:
+  - >-
+    Koch brothers' lawsuit claims right to buy deceased shareholder William
+    Niskanen's Cato shares, disputed by institute leadership.
+  - >-
+    Koch-nominated board candidates like neocon John Hinderaker and libertarian
+    critic Tony Woodlief oppose Cato's core principles of civil liberties,
+    anti-militarism, and non-partisanship.
+  - >-
+    Koch influence over 7 of 16 board seats risks turning independent Cato into
+    a partisan Republican arm.
+  - >-
+    Successful takeover would irreparably damage Cato's reputation, leading to
+    staff quits and diminished liberty movement impact.
+topics:
+  - cato-institute
+  - koch-brothers
+  - think-tank-independence
+  - libertarian-movement
 tags:
   - Republicans
   - Democrats
   - Koch brothers
   - The Cato Institute
   - Liberty Movement
+source_hash: b27e6580bbe6e7af31e3e763acb0447a23960de81a383a4f71a6c035e751b645
+summary_hash: b27e6580bbe6e7af31e3e763acb0447a23960de81a383a4f71a6c035e751b645
+summary_at: '2026-05-05T10:40:02.476Z'
 ---
 **By Andrew Humphries**
 

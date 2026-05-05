@@ -4,19 +4,61 @@ title: >-
   Market
 original_url: >-
   https://www.spontaneousorder.in/p/the-co-relation-of-rising-expenditure-currency-and-interest-rates-on-the-market
+author: Spontaneous Order
 published_at: '2018-08-06T11:10:09.000Z'
 ingested_at: '2026-05-05T08:31:42.516Z'
-source_hash: f6fbf1513c73b2bb25016790ac0692f86d585437772b348832851f3da221718f
-author: Spontaneous Order
 excerpt: >-
   The Nepal government budget in the financial year 2017/18 allocated the
   highest expense of the government to the recurring expenditure on
   administrative functions. A stalwart figure of NPR 499.15 billion which made
   for 39% of the total budget was spent ..
+summary: >-
+  Nepal's government faces ballooning recurrent expenditure, with NPR 499.15
+  billion (39% of the 2017/18 budget) allocated to general public services, set
+  to rise further due to 7 state and 753 local governments under federalism.
+  Revenue growth lags, with IMF projecting modest 3.2% GDP growth for 2022,
+  leading to reliance on foreign loans and investments amid declining
+  remittances. Pegged to the Indian Rupee, Nepal's currency benefits from
+  India's projected 8.2% GDP growth, potentially appreciating against the
+  dollar. Rising government spending boosts aggregate demand, risking inflation.
+  The central bank must choose: tighten policy by hiking interest rates to curb
+  inflation, attracting foreign capital via higher returns and expected currency
+  strength but crowding out private investment; or maintain low rates to
+  preserve private sector borrowing, at the cost of inflation eroding real
+  returns and prompting capital outflows. From a classical-liberal lens, the
+  trade-offs highlight government spending's distortive effects on markets, with
+  optimal policy hinging on private investment's sensitivity to rates and
+  foreign capital's responsiveness to rates and inflation. Outcomes remain
+  uncertain, heavily dependent on India's economic performance and myriad
+  unaccounted variables—no definitive prescription is offered.
+key_points:
+  - >-
+    Nepal's 2017/18 budget devoted 39% (NPR 499.15 billion) to administrative
+    public services, expected to surge with federalism.
+  - >-
+    Central bank rate hikes could attract FDI via higher returns and currency
+    strength but risk crowding out private investment.
+  - >-
+    Low rates preserve private investment but invite inflation-driven capital
+    flight eroding real returns.
+  - >-
+    Policy choice requires assessing private investment's interest rate
+    elasticity versus foreign capital's sensitivity to rates and inflation.
+  - >-
+    Strong Indian growth (IMF 8.2% GDP projection) bolsters Nepal's pegged
+    rupee, but results are not guaranteed.
+topics:
+  - monetary-policy
+  - interest-rates
+  - government-spending
+  - foreign-investment
 tags:
   - Nepal
   - FDI
   - Foreign Investments
+source_hash: f6fbf1513c73b2bb25016790ac0692f86d585437772b348832851f3da221718f
+summary_hash: f6fbf1513c73b2bb25016790ac0692f86d585437772b348832851f3da221718f
+summary_at: '2026-05-05T12:21:46.224Z'
 ---
 **By Jay Venaik**
 

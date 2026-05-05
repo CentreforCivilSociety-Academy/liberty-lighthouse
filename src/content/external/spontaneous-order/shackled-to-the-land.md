@@ -1,20 +1,62 @@
 ---
 title: Shackled to the Land
 original_url: 'https://www.spontaneousorder.in/p/shackled-to-the-land'
+author: Spontaneous Order
 published_at: '2021-10-13T15:33:26.000Z'
 ingested_at: '2026-05-05T08:31:42.289Z'
-source_hash: d0ae5eff9d2ee99375d83f5c4efffcb42df9d3cf4d429104e8c302bfe7217a79
-author: Spontaneous Order
 excerpt: >-
   The recently released National Sample Survey Office (NSSO) survey of
   agricultural households should concern anyone interested in the wellbeing of
   India’s farmers. While farmer incomes have risen, from Rs 6,426 in 2012-13 to
   Rs 10,218 in 2018-19, the dat
+summary: >-
+  The NSSO survey reveals troubling trends for India's farmers: average monthly
+  incomes rose modestly from Rs 6,426 in 2012-13 to Rs 10,218 in 2018-19, but
+  landholdings shrank from 1.15 hectares to 0.876 hectares, with 76.5% of
+  farmers now holding less than 1 hectare (up from 69.6%). For these
+  smallholders, most income derives from non-agricultural wage labor, reflecting
+  low agricultural productivity—agriculture employs 59% of the workforce yet
+  contributes only 23% to GDP. Restrictive land laws, including ceiling limits,
+  lease bans, sales restrictions, and arduous conversion processes, prevent
+  small farmers from exiting or repurposing land efficiently, devaluing it and
+  trapping them despite over 76% wanting to leave. Subsidies disproportionately
+  benefit larger farmers. From a classical-liberal viewpoint, farmers should be
+  treated as entrepreneurs with a full right to exit; reforming these laws would
+  enable land consolidation, economies of scale, capital investment, and
+  productivity gains. Global trends show prosperity requires shrinking
+  agricultural employment—India, already food-surplus, must reduce its farmer
+  numbers voluntarily through liberalization to realistically double incomes and
+  avert a demographic crisis.
+key_points:
+  - >-
+    Average landholding size fell from 1.15 ha to 0.876 ha (2012-19), with 76.5%
+    of farmers now on <1 ha relying mostly on non-farm wages.
+  - >-
+    Restrictive land laws—ceilings, leases, sales limits, conversion
+    hurdles—devalue land and block farmers' exit despite 76%+ wanting to leave.
+  - >-
+    Government subsidies favor large farmers, exacerbating smallholders' low
+    productivity in a sector with 59% workforce but 23% GDP share.
+  - >-
+    Reform land laws to allow free sales and repurposing, enabling
+    consolidation, investment, and shrinkage of farm employment per global
+    prosperity patterns.
+  - >-
+    Treat farmers as entrepreneurs with exit rights to double incomes
+    realistically in food-surplus India.
+topics:
+  - agriculture
+  - land-reform
+  - farmer-incomes
+  - economic-freedom
 tags:
   - land laws
   - farmers
   - land
   - agriculture
+source_hash: d0ae5eff9d2ee99375d83f5c4efffcb42df9d3cf4d429104e8c302bfe7217a79
+summary_hash: d0ae5eff9d2ee99375d83f5c4efffcb42df9d3cf4d429104e8c302bfe7217a79
+summary_at: '2026-05-05T11:38:41.684Z'
 ---
 **By Arjun Krishnan**
 

@@ -1,19 +1,53 @@
 ---
 title: Tooley’s take on Pratham’s ASER report
 original_url: 'https://www.spontaneousorder.in/p/tooleys-take-on-prathams-aser-report'
+author: Spontaneous Order
 published_at: '2010-01-29T12:12:42.000Z'
 ingested_at: '2026-05-05T08:31:42.655Z'
-source_hash: 2c7652928002ad9862c4227c7306cb6ef74f1799f195e9da3637872e4c61be74
-author: Spontaneous Order
 excerpt: >-
   As you all might have read in the papers, Pratham recently published it’s 2009
   ASER report which maps the progress (or for that matter in some cases lack of
   it) in the education sector in rural India. The research, the biggest such
   private survey in Ind
+summary: >-
+  Pratham's 2009 ASER report, the largest private survey in India covering
+  16,291 villages, 338,027 households, and 691,734 children, highlights success
+  in access to rural education with high and increasing gross enrollment ratios,
+  but abysmal quality where only 52% of Std 5 students can read a Std 2 text.
+  James Tooley draws the key insight from the report's data on private
+  education: nearly 22% of students attend private schools that provide better
+  education outcomes than government schools, even after adjusting for
+  socio-economic status and parental education levels, and at a fraction of the
+  per-student cost of government schools. From a classical-liberal perspective,
+  the report underscores the burgeoning affordable private sector's potential;
+  governments should redirect education allocations to promote private schooling
+  through school vouchers, leveraging this sector to deliver cost-effective,
+  high-quality education to more children using the same pool of funds.
+key_points:
+  - >-
+    ASER 2009 shows high enrollment in rural India but only 52% of Std 5
+    students can read Std 2-level text.
+  - >-
+    22% of rural students attend private schools that outperform government
+    schools in quality after socioeconomic adjustments and at lower costs.
+  - >-
+    Redirect government education spending to school vouchers to empower
+    affordable private schools.
+  - >-
+    Vouchers would enable the same budget to provide better education to more
+    children.
+topics:
+  - education
+  - private-schools
+  - school-vouchers
+  - school-choice
 tags:
   - James Tooley
   - ASER 2009
   - Pratham
+source_hash: 2c7652928002ad9862c4227c7306cb6ef74f1799f195e9da3637872e4c61be74
+summary_hash: 2c7652928002ad9862c4227c7306cb6ef74f1799f195e9da3637872e4c61be74
+summary_at: '2026-05-05T12:45:15.937Z'
 ---
 **By Shreya**
 

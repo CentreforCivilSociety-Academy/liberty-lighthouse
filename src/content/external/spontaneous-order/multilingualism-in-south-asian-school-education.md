@@ -2,15 +2,54 @@
 title: Scope for Multilingualism in South Asian School Education
 original_url: >-
   https://www.spontaneousorder.in/p/multilingualism-in-south-asian-school-education
+author: Spontaneous Order
 published_at: '2023-07-18T15:22:00.000Z'
 ingested_at: '2026-05-05T08:31:42.239Z'
-source_hash: db92ecb48713c06c09676bcbf1358a27296313e2d3d979da5833c57a14d3223c
-author: Spontaneous Order
 excerpt: >-
   Does the medium of instruction affect how students learn Algebra and coding in
   South Asian schools? How can solving a quadratic equation or studying
   conditions change with language? Additionally, does language only impact
   students’ learning, or does it
+summary: >-
+  The article advocates for multilingualism in South Asian school education to
+  counter English's postcolonial elitism and dominance as the medium of
+  instruction, arguing it enhances learning in subjects like algebra and coding
+  without harming national unity. Studies indicate students perform better in
+  math when using preferred regional languages, and multilingual coding
+  tutorials, as in Accenture's Filipino and Vietnamese programs, build empathy
+  and inclusive technologies. A 2019 Forbes survey found 35% of hiring managers
+  favor multilingual candidates proficient in English and regional languages for
+  global jobs. Country cases highlight Bhutan's balanced Dzongkha-English
+  approach amid endangered languages; Sri Lanka's English as unifier post-ethnic
+  conflict; and India's 1968 Three-Language Policy and NEP 2020 recommending
+  local languages up to Grade 8 with bilingual science/math from Grade 6.
+  Challenges include teacher shortages, assessment difficulties, and translation
+  limits, addressed via Finland-style pre-service training, translanguaging
+  (e.g., Hinglish for comprehension), interpreter councils, and diverse
+  curriculum committees inspired by UNESCO's LINKS. From a classical-liberal
+  lens, multilingualism promotes cultural preservation, individual proficiency,
+  and market-relevant skills through choice and inclusion, not hierarchy.
+key_points:
+  - >-
+    Regional languages as mediums improve mathematical proficiency and enable
+    successful multilingual programming with translations.
+  - >-
+    NEP 2020 recommends local language instruction up to Grade 8 and bilingual
+    science/math teaching to balance heritage and employability.
+  - >-
+    Adopt translanguaging and selective teacher training like Finland's to
+    overcome implementation hurdles.
+  - >-
+    Form diverse curriculum committees to integrate indigenous knowledge and
+    prevent linguistic subsumption.
+topics:
+  - multilingual-education
+  - language-policy
+  - south-asia
+  - nep-2020
+source_hash: db92ecb48713c06c09676bcbf1358a27296313e2d3d979da5833c57a14d3223c
+summary_hash: db92ecb48713c06c09676bcbf1358a27296313e2d3d979da5833c57a14d3223c
+summary_at: '2026-05-05T10:58:06.957Z'
 ---
 **By Poorvaja Jain**
 

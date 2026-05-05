@@ -2,20 +2,58 @@
 title: '1920: The Year Indian Railways Discovered the State'
 original_url: >-
   https://www.spontaneousorder.in/p/1920-the-year-indian-railways-discovered-the-state
+author: Spontaneous Order
 published_at: '2011-07-11T18:48:07.000Z'
 ingested_at: '2026-05-05T08:31:42.634Z'
-source_hash: 5ee313eaebf98aad67d4f339be437b2340afce167e7d33ffad0f0e8ba14fb4aa
-author: Spontaneous Order
 excerpt: >-
   By: Surbhi Tandon (Communicating Reality Intern, CCS) Indian Railways is
   unsafe, unclean and of low quality. And we’ve given up; India is in a state of
   learned helplessness. Indians live merrily with filthy platforms and lousy
   train food. As for accid..
+summary: >-
+  Indian Railways, once operated by more than 20 private companies, declined
+  after nationalization recommended by the 1920 East India Railway Committee
+  chaired by Sir William Acworth, setting the stage for its current state of
+  unsafety, uncleanliness, and low quality as a government monopoly. The author
+  argues from a classical-liberal perspective that railways are neither
+  non-rivalrous nor non-excludable—contrary to public goods like lighthouses or
+  national defense defined by Paul Samuelson—making them suitable for private
+  enterprise driven by profit motive and entrepreneurship, not state control or
+  mere statistics. Acworth's emphasis on data collection failed to deliver
+  improvements, as real change requires market competition's 'creative
+  destruction.' Today, symptoms of monopoly inefficiency persist: the CAG
+  reports that over 50% of the 4,600 crore rupees allocated for safety works
+  from 2003-2008 remains unused, 86,108 safety category posts are vacant, and
+  the Research Design and Standards Organisation lags in developing
+  risk-reducing technologies. Ministers change but problems endure post-1947.
+  The conclusion urges prioritizing railways in India's second round of reforms
+  to introduce competition for safe, clean service.
+key_points:
+  - >-
+    Indian Railways were operated by over 20 private companies before the 1920
+    Acworth committee recommended full nationalization.
+  - >-
+    Railways are excludable and rivalrous, not public goods, so government
+    monopoly is economically unjustified.
+  - >-
+    CAG audits reveal over 50% of 4,600 crore safety funds (2003-2008) unused,
+    86,108 safety vacancies, and delays in safety tech development.
+  - >-
+    Prioritize railway reforms with market competition and creative destruction
+    over statistics or ministerial changes.
+topics:
+  - indian-railways
+  - nationalization
+  - government-monopoly
+  - privatization
 tags:
   - Public Goods
   - Indian Railways
   - Paul Samuelson
   - kalka
+source_hash: 5ee313eaebf98aad67d4f339be437b2340afce167e7d33ffad0f0e8ba14fb4aa
+summary_hash: 5ee313eaebf98aad67d4f339be437b2340afce167e7d33ffad0f0e8ba14fb4aa
+summary_at: '2026-05-05T08:44:12.473Z'
 ---
 **By Vipin**
 

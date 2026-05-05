@@ -1,19 +1,44 @@
 ---
 title: THE CURIOUS CASE OF INDIA
 original_url: 'https://www.spontaneousorder.in/p/the-curious-case-of-india'
+author: Spontaneous Order
 published_at: '2012-05-11T15:05:30.000Z'
 ingested_at: '2026-05-05T08:31:42.620Z'
-source_hash: bcaf827e43ea02870060e4156cac6658430711b350d6d9d39308947d153b7bbd
-author: Spontaneous Order
 excerpt: >-
   Centre for Civil Society’s very own Bhuvana Anand has published a piece in the
   New York Times International Weekly summarizing the big issues and
   contradictions in current Indian policy and political philosophy. “After the
   release of the latest round
+summary: >-
+  This short post from Spontaneous Order promotes Bhuvana Anand's New York Times
+  International Weekly article 'The Curious Case of India,' quoting her on
+  paradoxes in Indian development: over 50% of the population has mobile phone
+  access from the 2011 census, yet the same share lacks latrines, exemplifying
+  how market-driven growth trickles down while government-promised basic
+  services leave Indians to fend for themselves. It includes an image of road
+  construction under India's rural jobs guarantee program, noted as rife with
+  abuse. From a classical-liberal perspective, the piece surfaces contradictions
+  in statist policy versus spontaneous market success, urging readers to access
+  the full article and comment.
+key_points:
+  - >-
+    India's 2011 census shows over 50% mobile phone access but equivalent lack
+    of latrines.
+  - Economic growth via markets trickles down effectively.
+  - 'Government basic services fail, forcing citizen self-reliance.'
+  - Rural jobs guarantee program suffers from widespread abuse.
+topics:
+  - government-failure
+  - economic-paradoxes
+  - rural-employment
+  - public-sanitation
 tags:
   - cellphones
   - toilets in India
   - CCS
+source_hash: bcaf827e43ea02870060e4156cac6658430711b350d6d9d39308947d153b7bbd
+summary_hash: bcaf827e43ea02870060e4156cac6658430711b350d6d9d39308947d153b7bbd
+summary_at: '2026-05-05T12:23:19.980Z'
 ---
 **By Andrew Humphries**
 

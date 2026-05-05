@@ -1,18 +1,57 @@
 ---
 title: 'ASER: Charting a safe course Dr. A. Prabaharan'
 original_url: 'https://www.spontaneousorder.in/p/aser-charting-a-safe-course-dr-a-prabaharan'
+author: Spontaneous Order
 published_at: '2006-01-19T02:47:15.000Z'
 ingested_at: '2026-05-05T08:31:42.675Z'
-source_hash: 6f00b12f5403ce6c8c6dd2fdd37c5bb9e9e9b6231d4067745d9c05b84bcba88d
-author: Spontaneous Order
 excerpt: >-
   Pratham, a well known NGO working in the field of education, commissioned a
   nationwide survey on elementary education. It released ASER – Annual Status of
   Education Report on 17 January 2006 in New Delhi which summarises the survey
   conducted between 14
+summary: >-
+  The ASER report, released by Pratham on 17 January 2006 based on a survey
+  across 18,000 villages from 14 November to 20 December 2005, highlights stark
+  disparities in elementary education. While BIMARU states like Bihar and
+  Chhattisgarh show strong reading and arithmetic skills among children,
+  developed states such as Tamil Nadu, Karnataka, and Gujarat shockingly exhibit
+  deficiencies in basic reading and math. Involving 501 civil society
+  organizations across 28 states and union territories, covering 9,252 schools,
+  the report notes 1.4 crore children out of school, praises government
+  enrollment efforts but urges acceleration toward 'education for all' by 2010.
+  Private schools outperform government ones by 12%, with narrowing gender
+  gaps—13% drop in girls' dropout rates over four years—though private schools
+  enroll more boys, possibly linked to sex-selective abortions among the
+  wealthy. The author questions methodology: school selection per village, test
+  languages, private school types (recognized/unrecognized), and reading test
+  mediums. ASER signals poor learning despite attendance, provoking reforms in
+  pedagogy and education's purpose from a classical-liberal lens emphasizing
+  civil society data over government claims and highlighting private sector
+  edges.
+key_points:
+  - >-
+    ASER reveals BIMARU states like Bihar outperforming developed states like
+    Tamil Nadu in children's basic skills.
+  - >-
+    1.4 crore children remain out of school, with private schools beating
+    government ones by 12% in performance.
+  - >-
+    Girls' dropout rates fell 13% in four years, but private schools have more
+    boys, questioning female foeticide assumptions.
+  - >-
+    Report raises alarms on learning deficits despite enrollment, calling for
+    pedagogical reforms.
+topics:
+  - elementary-education
+  - aser-report
+  - private-schools
+  - learning-outcomes
 tags:
   - NGO Pratham
   - ASER
+source_hash: 6f00b12f5403ce6c8c6dd2fdd37c5bb9e9e9b6231d4067745d9c05b84bcba88d
+summary_hash: 6f00b12f5403ce6c8c6dd2fdd37c5bb9e9e9b6231d4067745d9c05b84bcba88d
+summary_at: '2026-05-05T09:03:12.005Z'
 ---
 **By praba**
 

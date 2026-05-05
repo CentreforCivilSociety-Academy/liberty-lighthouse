@@ -2,19 +2,60 @@
 title: 'Diffusion of Responsibility: Why No One Takes Initiative'
 original_url: >-
   https://www.spontaneousorder.in/p/diffusion-of-responsibility-why-no-one-takes-initiative
+author: Spontaneous Order
 published_at: '2025-10-17T15:03:31.000Z'
 ingested_at: '2026-05-05T08:31:42.223Z'
-source_hash: e429d5a8a5b7642780b61dc4fa66e53b3468b15bf54e3d351d633341fc388a1e
-author: Spontaneous Order
 excerpt: >-
   Why do many community problems persist despite widespread awareness? This
   question touches on a core issue in governance and civic engagement: why, even
   when people know about problems, they don’t take initiative and often wait for
   others to act. Throug
+summary: >-
+  Diffusion of responsibility explains why community problems persist despite
+  widespread awareness: individuals feel less personal duty to act in groups,
+  assuming others will intervene. Psychologists Bibb Latané and John Darley's
+  smoke experiment demonstrated this—solo participants quickly reported smoke,
+  but in groups, most ignored it amid social conformity. The author recounts a
+  Delhi Metro incident where passengers endured broken AC until one pressed the
+  emergency button. This phenomenon extends to governance, where diffused
+  accountability among agencies like Jal Board and municipal authorities delays
+  fixes for issues such as irregular water supply, potholes, and waste
+  collection. Citizens' hesitation weakens accountability, fostering policy
+  inertia. Historical cases like the 1964 Kitty Genovese murder in New York,
+  which spurred the 911 system, and the recent suicide of Haryana IPS officer Y
+  Puran Kumar amid unaddressed harassment by seniors, illustrate tragic
+  outcomes. From a classical-liberal viewpoint, passive reliance on government
+  fails; an engaged citizenry must demand answers and action. Only individuals
+  consistently stepping forward will foster responsive governance, healthier
+  communities, and prosperity.
+key_points:
+  - >-
+    Diffusion of responsibility, as shown in Latané and Darley's smoke
+    experiment, leads to inaction in groups due to social conformity.
+  - >-
+    In governance, diffused accountability among multiple agencies causes delays
+    in urban services like water supply.
+  - >-
+    Citizens must actively demand accountability from officials rather than
+    waiting for others to act.
+  - >-
+    Tragic cases like Kitty Genovese's murder and Y Puran Kumar's suicide
+    highlight consequences of bystander indifference in systems.
+  - >-
+    Individual initiative is essential for stronger communities and effective
+    governance.
+topics:
+  - diffusion-of-responsibility
+  - civic-engagement
+  - governance-accountability
+  - bystander-effect
 tags:
   - Responsibility
   - Community
   - Accountability
+source_hash: e429d5a8a5b7642780b61dc4fa66e53b3468b15bf54e3d351d633341fc388a1e
+summary_hash: e429d5a8a5b7642780b61dc4fa66e53b3468b15bf54e3d351d633341fc388a1e
+summary_at: '2026-05-05T09:33:51.682Z'
 ---
 **By Jini Susan Thomas**
 

@@ -2,15 +2,55 @@
 title: Education policies for the most disadvantaged
 original_url: >-
   https://www.spontaneousorder.in/p/education-policies-for-the-most-disadvantaged
+author: Spontaneous Order
 published_at: '2009-12-11T00:00:20.000Z'
 ingested_at: '2026-05-05T08:31:42.658Z'
-source_hash: 060712623087546e12ccef5ae915a7e97364380e3623e66c43cb7a3558c4c210
-author: Spontaneous Order
 excerpt: >-
   In spite of serious shortcomings in our education policy, the poorest parents
   are finding ways to access quality education of their choice. In a phenomenon
   that is increasingly finding favour among the urban poor, ‘affordable private
   schools’ are mush
+summary: >-
+  Affordable private schools are thriving in Indian slums, serving the urban
+  poor who have abandoned inadequate government schools due to poor
+  accountability and performance. In North Shahdara slums of New Delhi, where
+  many live on less than $2 a day, 175 of 265 schools are privately managed
+  without government aid, charging $2–$3 per month. Teacher involvement is 70%
+  in these private unaided schools versus 38% in government schools. Among 3500
+  tested students, private school pupils scored 72% higher in mathematics, 83%
+  higher in Hindi, and 246% higher in English, even after controlling for
+  background variables; pupil satisfaction with facilities and punctuality is
+  also higher. This success defies conventional wisdom and showcases enterprise
+  solutions outperforming bureaucratic public provision. Influential voices like
+  economist Swaminathan Aiyar propose school vouchers redeemable at government
+  or private schools for disadvantaged communities as affirmative action.
+  Tavleen Singh criticizes the 'license-quota-permit raj' and regulatory
+  barriers limiting school supply for the poor. Madhav Chavan advocates
+  per-child funding norms based on learning outcomes rather than teacher
+  payrolls. The post urges policy reforms to recognize this evolving landscape
+  and enable parental choice over failed government monopolies.
+key_points:
+  - >-
+    Affordable private schools in Delhi slums charge $2–$3 monthly, have 70%
+    teacher involvement versus 38% in government schools, and deliver superior
+    student learning outcomes.
+  - >-
+    Private unaided schools comprise 66% of schools in surveyed Delhi slums,
+    thriving without government recognition or aid due to parental demand.
+  - >-
+    Swaminathan Aiyar recommends school vouchers for disadvantaged groups to
+    fund education at chosen public or private schools.
+  - >-
+    Tavleen Singh calls for dismantling the bureaucratic 'license-quota-permit
+    raj' that restricts quality school supply for the poor.
+  - >-
+    Madhav Chavan proposes shifting to per-child expenditure norms tied to
+    learning outcomes instead of teacher-based funding.
+topics:
+  - education-policy
+  - affordable-private-schools
+  - school-vouchers
+  - government-failure
 tags:
   - Private schools
   - James Tooley
@@ -18,6 +58,9 @@ tags:
   - Budget schools
   - NGO Pratham
   - license-quota-permit raj
+source_hash: 060712623087546e12ccef5ae915a7e97364380e3623e66c43cb7a3558c4c210
+summary_hash: 060712623087546e12ccef5ae915a7e97364380e3623e66c43cb7a3558c4c210
+summary_at: '2026-05-05T09:45:21.479Z'
 ---
 **By Manuraj**
 

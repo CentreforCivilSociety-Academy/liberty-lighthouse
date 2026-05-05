@@ -1,13 +1,56 @@
 ---
 title: 'When Cities Forget Walkers: The Silent Crisis of India’s Streets'
 original_url: 'https://www.spontaneousorder.in/p/when-cities-forget-walkers-the-silent'
+author: Spontaneous Order
 published_at: '2026-04-28T09:16:04.445Z'
 ingested_at: '2026-05-05T08:31:42.216Z'
-source_hash: 21fa7e4bc80399c30187fd37318b2441f7a8e66f822e5be59910caf4c12be814
-author: Spontaneous Order
 excerpt: >-
   A few weeks ago, a car mounted the footpath and ran over my foot, leaving me
   injured. I’m still limping a month later, but I will certainly recover.
+summary: >-
+  India's urban management systematically neglects pedestrians, the primary
+  street users comprising 63% of urban trips per a 2019 survey, exposing them to
+  precarious risks despite their rightful use of footpaths. The author's
+  personal injury from a car mounting a Delhi footpath in a government office
+  area underscores this failure, where even the capital's expensive
+  neighborhoods lack safety. Key data reveals the crisis: 44% of Delhi roads
+  have no footpaths, nearly half of road crash deaths there are pedestrians,
+  Chennai's pedestrian fatality share rose from 11% in 2019 to 43% in 2023, a
+  Bosch report shows 99% of pedestrians at injury risk with 60,000 crashes and
+  29,200 deaths in 2021 (91% human error, 63% poor infrastructure), and Nagpur's
+  6/7 roads fail design standards. Amid Rs 2.8 lakh crore annual public
+  investment in roads, cities like Ahmedabad have 72% roads without footpaths,
+  prioritizing vehicles over people. Successful contrasts like Pune's
+  Pimpri-Chinchwad redesigns—continuous elevated footpaths, barriers, safer
+  layouts under Urban Streetscapes—align with the 2006 National Urban Transport
+  Policy's 'move people, not vehicles' ethos. The classical-liberal call is for
+  accountability on urban bodies, stronger enforcement against encroachments and
+  violations, and redirected focus to pedestrian-centric design to reduce
+  injuries and fatalities.
+key_points:
+  - >-
+    Pedestrians make 63% of urban trips but face neglect, with 44% of Delhi
+    roads lacking footpaths and 72% in Ahmedabad.
+  - >-
+    Road deaths heavily impact walkers: nearly 50% in Delhi, up to 43% in
+    Chennai by 2023, 29,200 fatalities nationwide in 2021.
+  - >-
+    Despite Rs 2.8 lakh crore annual road investments, 99% of pedestrians remain
+    at injury risk due to poor infrastructure and enforcement.
+  - >-
+    Pune's street redesigns with barriers and elevated footpaths succeed by
+    prioritizing walkability per National Urban Transport Policy.
+  - >-
+    Urban bodies need accountability and stricter enforcement to prevent
+    footpath encroachments and vehicle intrusions.
+topics:
+  - pedestrian-safety
+  - urban-planning
+  - road-infrastructure
+  - public-accountability
+source_hash: 21fa7e4bc80399c30187fd37318b2441f7a8e66f822e5be59910caf4c12be814
+summary_hash: 21fa7e4bc80399c30187fd37318b2441f7a8e66f822e5be59910caf4c12be814
+summary_at: '2026-05-05T12:59:19.186Z'
 ---
 **By Aayushi**
 

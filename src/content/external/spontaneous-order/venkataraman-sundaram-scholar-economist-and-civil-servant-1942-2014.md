@@ -2,15 +2,52 @@
 title: 'Venkataraman Sundaram-Scholar, Economist and Civil Servant (1942-2014)'
 original_url: >-
   https://www.spontaneousorder.in/p/venkataraman-sundaram-scholar-economist-and-civil-servant-1942-2014
+author: Spontaneous Order
 published_at: '2020-07-09T18:20:10.000Z'
 ingested_at: '2026-05-05T08:31:42.399Z'
-source_hash: e35d11ce7e9b9a2d528ad61b299925a60713df62e9441d2bda6caf64736e36a6
-author: Spontaneous Order
 excerpt: >-
   Seven decades after Independence, a nation, which is more a continent than a
   country, continues to be in evolution, struggling to ensure basics to its
   billion-plus people. It should not have taken this long in a functional
   democracy, only if its legisla..
+summary: >-
+  Venkataraman Sundaram (1942-2014), a scholar, economist, and Tamil Nadu IAS
+  officer for 29 years, exemplified classical-liberal principles by advocating
+  unfettered civil liberty, individual freedom, and political democracy as
+  prerequisites for India's economic prosperity. Retiring voluntarily at 51 in
+  1994 'in disgust' over corruption and unlearned politicians, he criticized the
+  pre-1991 'Licence-Permit-Quota Raj' and Nehruvian centralized planning,
+  echoing C. Rajagopalachari and Milton Friedman, whose work he praised for
+  proving government as the source of economic instability. As Collector and in
+  roles like Chairman of Tuticorin Port Trust—elevating it regionally—and
+  Managing Director developing Sunola oil and Tirupur's textile export complex,
+  Sundaram advanced market-oriented projects and power sector privatization. A
+  prolific author of books like *Growth with Equity* (1987) and *Rama Setu*
+  (2007), post-retirement journalist, and founder of the Sir William Jones
+  Institute and Sri Padma Sundaram Foundation for poor children's tech-learning,
+  he warned against socialism's fetters on ordinary citizens, polluted history
+  education, and resource plundering, urging judgment of public servants by
+  vision, courage, integrity. His legacy underscores liberalism's role in
+  countering India's institutional weaknesses.
+key_points:
+  - >-
+    Sundaram quit the IAS in 1994 at age 51 due to systemic corruption and
+    politicians' refusal to learn from history.
+  - >-
+    He championed free markets and civil liberties, criticizing Nehruvian
+    planning and socialism as suppressors of individual destiny and prosperity.
+  - >-
+    As civil servant, he developed Tuticorin Port, Sunola oil brand, and Tirupur
+    textile complex, accelerating power privatization.
+  - >-
+    Influenced by Friedman and Rajaji, he authored books on equity,
+    administration, and history, founding institutions for Indology and poor
+    education.
+topics:
+  - indian-liberals
+  - free-markets
+  - civil-service
+  - economic-reform
 tags:
   - corruption in India
   - regulatory barriers
@@ -19,6 +56,9 @@ tags:
   - Tamil Nadu
   - Indian Liberals. Libertarian Scholars
   - civil liberties
+source_hash: e35d11ce7e9b9a2d528ad61b299925a60713df62e9441d2bda6caf64736e36a6
+summary_hash: e35d11ce7e9b9a2d528ad61b299925a60713df62e9441d2bda6caf64736e36a6
+summary_at: '2026-05-05T12:52:36.167Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

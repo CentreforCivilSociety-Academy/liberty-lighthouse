@@ -1,15 +1,58 @@
 ---
 title: Education voucher model for Delhi
 original_url: 'https://www.spontaneousorder.in/p/education-voucher-model-for-delhi'
+author: Spontaneous Order
 published_at: '2004-12-28T15:40:26.000Z'
 ingested_at: '2026-05-05T08:31:42.691Z'
-source_hash: 8fe253c467a09edcc8ae67fa28d07fed3e3461793b747ebbc067c2336a226ea4
-author: Spontaneous Order
 excerpt: >-
   At a recent policy meet for MPs, we presented the following model to introduce
   education vouchers: There are three types of schools in the Indian system–1.
   government schools; 2. private aided schools; 3. private unaided schools
   (which can be recognised
+summary: >-
+  Parth Shah presents a phased education voucher model for Delhi at a policy
+  meet for MPs, advocating a classical-liberal approach to introduce choice and
+  competition into India's school system, which includes government schools,
+  private aided schools (PAS), and private unaided schools (recognised or
+  unrecognised). Phase one targets students exiting PAS in 5th standard for 6th
+  standard entry, with vouchers redeemable only among PAS to test logistics and
+  management with limited choice. Two years later, extend vouchers to government
+  school students entering 6th standard, usable in government schools or PAS,
+  while granting government schools greater autonomy to adapt to parental
+  demands. Two years after that, incorporate private unaided schools for middle
+  and secondary education on vouchers; finally, expand to 1st standard or KG
+  level across all school types. This gradual rollout minimizes initial
+  disruption, builds operational expertise, and progressively enhances access
+  and quality through expanded choice and competition. Shah emphasizes the
+  urgent need for ready-to-implement voucher models to offer interested
+  education ministers, aligning with Centre for Civil Society's focus on
+  economic freedom and accountability in education.
+key_points:
+  - >-
+    Implement phase one vouchers for 5th-to-6th standard transitions exclusively
+    among private aided schools to master voucher logistics.
+  - >-
+    After two years, provide vouchers to government school students entering 6th
+    standard, redeemable in government or private aided schools, alongside
+    granting autonomy to government schools.
+  - >-
+    Two years later, integrate private unaided schools into the voucher system
+    for middle and secondary education, eventually expanding to KG or 1st
+    standard across all schools.
+  - >-
+    Phased introduction minimizes disruption while scaling choice and
+    competition to improve education access and quality.
+  - >-
+    Develop practicable voucher models ready for immediate adoption by education
+    ministers.
+topics:
+  - education-vouchers
+  - school-choice
+  - education-reform
+  - indian-education
+source_hash: 8fe253c467a09edcc8ae67fa28d07fed3e3461793b747ebbc067c2336a226ea4
+summary_hash: 8fe253c467a09edcc8ae67fa28d07fed3e3461793b747ebbc067c2336a226ea4
+summary_at: '2026-05-05T09:45:47.736Z'
 ---
 **By Parth Shah**
 

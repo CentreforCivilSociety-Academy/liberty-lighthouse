@@ -2,15 +2,55 @@
 title: 'Street Entrepreneurs: Victims of Executional Paralysis'
 original_url: >-
   https://www.spontaneousorder.in/p/street-entrepreneurs-victims-of-executional-paralysis
+author: Spontaneous Order
 published_at: '2019-04-18T13:09:40.000Z'
 ingested_at: '2026-05-05T08:31:42.491Z'
-source_hash: c783e7629256855f72517317cc10ea59f0882b9a68ae8d1693ba80a61324e3cf
-author: Spontaneous Order
 excerpt: >-
   The roadside chaiwala, the panwala or the golgappewala are quintessential
   parts of India’s streets, yet these street entrepreneurs have for long
   operated their small enterprises without any institutional support or legal
   safeguards. In 2014 an attempt w
+summary: >-
+  The Street Vendors (Protection of Livelihood and Regulation of Street Vending)
+  Act 2014 promised to legitimize India's roadside entrepreneurs like chaiwalas
+  and golgappewalas by establishing vending zones, issuing certificates, and
+  forming Town Vending Committees (TVCs) with vendor representation to protect
+  livelihoods while organizing public spaces. However, Centre for Civil
+  Society's February 2019 Progress Report reveals 'executional paralysis' nearly
+  five years later: four states have not notified rules, six with schemes lack
+  vendor representation in TVCs, and many TVCs bypass required vendor elections
+  via nominations. States like Tamil Nadu and Rajasthan perform better, but
+  Bengal and Nagaland lag with only five TVCs across 250 towns. Gurugram's TVC,
+  despite a mandated 40% vendor quota, has just 14% representation, resulting in
+  2018 evictions on one week's notice and vendor lawsuits. Lack of penalties
+  fosters state complacency, perpetuating harassment and extortion for an
+  estimated 1 crore vendors, trapping them in a persistent License Raj while big
+  corporations are free. A positive example is TVC member Mr. Dinesh Dixit, who
+  now negotiates with authorities after 40 years of evasion. Proper
+  implementation could empower these classical-liberal icons of spontaneous
+  order, granting voice and security.
+key_points:
+  - >-
+    CCS's 2019 report documents sluggish Street Vendors Act implementation, with
+    4 states failing to notify rules and 6 lacking vendor representation in
+    TVCs.
+  - >-
+    Many TVCs violate the Act by nominating vendors instead of holding
+    elections, rendering representation meaningless.
+  - >-
+    Bengal and Nagaland perform worst, forming only 5 TVCs across 250 towns due
+    to no penalties for non-compliance.
+  - >-
+    Gurugram's TVC has 14% vendor representation versus the mandated 40%,
+    leading to abrupt 2018 evictions and lawsuits.
+  - >-
+    Effective TVCs enable vendor empowerment, as TVC member Dinesh Dixit now
+    discusses welfare with NDMC Commissioner after decades of harassment.
+topics:
+  - street-vendors
+  - street-vendors-act
+  - implementation-failures
+  - licence-raj
 tags:
   - Street Vendors Act
   - street entrepreneurs
@@ -21,6 +61,9 @@ tags:
     Act
   - street vendors
   - street vending
+source_hash: c783e7629256855f72517317cc10ea59f0882b9a68ae8d1693ba80a61324e3cf
+summary_hash: c783e7629256855f72517317cc10ea59f0882b9a68ae8d1693ba80a61324e3cf
+summary_at: '2026-05-05T12:11:54.188Z'
 ---
 **By Sunaina Mathur**
 

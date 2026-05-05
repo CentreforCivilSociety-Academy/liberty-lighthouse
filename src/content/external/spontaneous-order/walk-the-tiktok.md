@@ -1,15 +1,52 @@
 ---
 title: WALK THE TIKTOK
 original_url: 'https://www.spontaneousorder.in/p/walk-the-tiktok'
+author: Spontaneous Order
 published_at: '2020-07-02T19:23:27.000Z'
 ingested_at: '2026-05-05T08:31:42.401Z'
-source_hash: 0ffdd1670863880ef4dd3e0aa06c7005d5800662db4c3ce889c22643a16a4566
-author: Spontaneous Order
 excerpt: >-
   While opinions differ on why exactly China has intruded into Ladakh, India
   must stand up to Chinese aggression. Weakness will invite further incursions
   and pressure. There are right and wrong ways to go about this. Military
   bombing à la Balakot or ‘sur
+summary: >-
+  India must counter Chinese aggression in Ladakh through smart diplomatic and
+  economic measures rather than risky military escalation or self-harming broad
+  import bans, argues Swaminathan S.A. Aiyar from a classical-liberal viewpoint
+  emphasizing free trade, WTO compliance, and integration into global value
+  chains (GVCs). Banning 59 Chinese mobile apps—including TikTok, WeChat, UC
+  Browser, and Club Factory—with over 500 million monthly users in May,
+  justified on privacy and security grounds, is a precise, effective sanction
+  that targets China's emerging strength in internet services and e-commerce
+  without violating international rules or raising Indian production costs. In
+  contrast, proposals to halt all Chinese imports would inflate costs, sever GVC
+  links essential for Modi's export ambitions, and breach WTO non-discrimination
+  principles, ultimately weakening India's competitiveness and suiting China's
+  interests. Selective quality checks on Chinese power equipment and high duties
+  (up to 40% on solar panels, 80% from China) risk higher input costs but could
+  foster domestic scale if paired with sunset clauses phasing out in 5-6 years.
+  True security lies in a low-cost, dynamic economy funding military power, not
+  protectionism.
+key_points:
+  - >-
+    Ban 59 Chinese apps like TikTok, with 500 million users, as a targeted
+    retaliation hitting China's service sector future without harming India's
+    economy.
+  - >-
+    Avoid blanket Chinese import bans to preserve GVC integration, low costs,
+    and WTO compliance essential for a small trading power like India.
+  - >-
+    Impose selective duties on solar panels and power equipment only with sunset
+    clauses to build domestic capacity without permanently raising production
+    costs.
+  - >-
+    Prioritise relentless cost-cutting and export competitiveness, as economic
+    strength underwrites military power against China.
+topics:
+  - china-india-tensions
+  - trade-sanctions
+  - global-value-chains
+  - wto-rules
 tags:
   - Data Protection
   - India v/s China
@@ -18,6 +55,9 @@ tags:
   - Internet Ban
   - Surveillance State
   - Foreign Investments
+source_hash: 0ffdd1670863880ef4dd3e0aa06c7005d5800662db4c3ce889c22643a16a4566
+summary_hash: 0ffdd1670863880ef4dd3e0aa06c7005d5800662db4c3ce889c22643a16a4566
+summary_at: '2026-05-05T12:56:04.251Z'
 ---
 **By Swaminathan SA Aiyer**
 

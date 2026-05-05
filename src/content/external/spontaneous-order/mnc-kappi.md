@@ -1,15 +1,48 @@
 ---
 title: MNC kappi
 original_url: 'https://www.spontaneousorder.in/p/mnc-kappi'
+author: Spontaneous Order
 published_at: '2005-02-03T02:01:14.000Z'
 ingested_at: '2026-05-05T08:31:42.690Z'
-source_hash: 2d9e50d5bab1bce7a972de2d59bf47ecae991e0421928110647d91a458417656
-author: Spontaneous Order
 excerpt: >-
   Sometime back, I wrote in my personal blog, memoirs of a night we spend in the
   JNU campus after being banished from the civilised world outside. A good part
   of the time we spend there, we were at the Nescafe outlet in the campus. For
   the simple reason t..
+summary: >-
+  JNU students, from one of India's finest humanities institutions, voted to ban
+  the Nescafe outlet—a 'multinational giant'—from campus, exemplifying classic
+  communist tradition where propaganda triumphs over reason and logic. The
+  author recalls enjoying its seating during a past visit, but now visitors must
+  settle for rocks near Ganga Dhaba. Opposition intensified after Mona Das, a
+  student union presidential candidate pledging to ban the outlet, won elections
+  last November; she fulfilled her promise when a majority approved closure at
+  last week's general body meeting, with the café awaiting shutdown orders. The
+  franchise owner, Naveen Sabharwal, invested over five lakh rupees. Spontaneous
+  Order examines this episode academically for its economic fallacies, planning
+  interviews with Sabharwal, union president Mona Das, and general secretary
+  Mubil Ehmer to unpack the story from a classical-liberal viewpoint critiquing
+  anti-multinational fervor.
+key_points:
+  - >-
+    JNU students voted to ban the Nescafe outlet following a campaign promise by
+    winning presidential candidate Mona Das.
+  - The franchise owner invested over five lakh rupees in the campus kiosk.
+  - >-
+    Spontaneous Order highlights economic fallacies in the episode and plans
+    interviews with key figures including the owner, union president, and
+    general secretary.
+  - >-
+    The ban reflects propaganda overriding reason in communist tradition, per
+    the author's classical-liberal framing.
+topics:
+  - jnu
+  - anti-mnc
+  - economic-fallacies
+  - campus-politics
+source_hash: 2d9e50d5bab1bce7a972de2d59bf47ecae991e0421928110647d91a458417656
+summary_hash: 2d9e50d5bab1bce7a972de2d59bf47ecae991e0421928110647d91a458417656
+summary_at: '2026-05-05T10:55:26.915Z'
 ---
 **By Sruthijith**
 

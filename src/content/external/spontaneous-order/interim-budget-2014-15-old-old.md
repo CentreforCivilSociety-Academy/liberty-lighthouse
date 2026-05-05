@@ -1,15 +1,56 @@
 ---
 title: 'Interim Budget 2014-15: Same Old Same Old'
 original_url: 'https://www.spontaneousorder.in/p/interim-budget-2014-15-old-old'
+author: Spontaneous Order
 published_at: '2014-02-17T22:33:54.000Z'
 ingested_at: '2026-05-05T08:31:42.595Z'
-source_hash: 6bf6e022605b0333a9626f5fa8dd954079875fe10261da4a663e5046df499b76
-author: Spontaneous Order
 excerpt: >-
   Finance Minister P Chidambaram presented the (interim) Union Budget for the
   financial year 2014-15 in the Parliament today. A regular budget will be
   presented by the new government later in the year (post elections expected in
   May this year). While all ..
+summary: >-
+  The interim Union Budget 2014-15 presented by Finance Minister P Chidambaram
+  exemplifies ongoing classical-liberal critiques of Indian fiscal policy,
+  prioritizing government intervention over market mechanisms. The author
+  opposes politically driven targets like the agricultural credit goal of
+  ₹800,000 crore for 2014-15, arguing they lead to inefficient resource
+  allocation compared to market processes. Rights-based entitlements (e.g.,
+  right to employment, food, education) are rejected in favor of removing state
+  privileges, dismantling trade barriers, and enabling citizen choice. Fiscal
+  prudence claims ring hollow: the 4.6% GDP deficit for 2013-14 was met via
+  creative accounting, RBI debt monetisation, and arm-twisting PSUs for higher
+  dividends despite using 95% of the budgeted deficit by December. This
+  'socialises the costs of government spending' through inflation, harming the
+  poor. Citing Robert Higgs' ratchet effect, the post notes rising general
+  government expenditure as a percentage of GDP (per IMF data), unlikely to
+  reverse. Big government creates self-fulfilling problems—e.g., inflationary
+  policies undermining price stability, credit targets distorting markets,
+  archaic labor laws stifling youth opportunities, and barriers hindering
+  business—exacerbating issues it claims to solve. True progress requires
+  recognizing government is not the solution, diminishing budget hype.
+key_points:
+  - >-
+    Government's 4.6% GDP fiscal deficit target for 2013-14 was achieved through
+    creative accounting, RBI debt monetisation, and pressuring PSUs for higher
+    dividends despite 95% usage by December.
+  - >-
+    Oppose setting agricultural credit targets like ₹800,000 crore for 2014-15,
+    as political allocation trumps market efficiency.
+  - >-
+    Rights-based policies should be replaced by removing state privileges, trade
+    barriers, and trusting citizen choices for opportunities.
+  - >-
+    Rising government expenditure as % of GDP illustrates the ratchet effect,
+    perpetuating big government's self-fulfilling problems.
+  - >-
+    Break interventionist cycles by understanding government exacerbates the
+    issues it seeks to solve.
+topics:
+  - fiscal-deficit
+  - government-spending
+  - free-markets
+  - budget-critique
 tags:
   - foreign dependence
   - Budget Speech
@@ -18,6 +59,9 @@ tags:
   - Union Budget
   - Robert Higgs
   - ratchet effect theory
+source_hash: 6bf6e022605b0333a9626f5fa8dd954079875fe10261da4a663e5046df499b76
+summary_hash: 6bf6e022605b0333a9626f5fa8dd954079875fe10261da4a663e5046df499b76
+summary_at: '2026-05-05T10:26:39.877Z'
 ---
 **By Kumar Anand**
 

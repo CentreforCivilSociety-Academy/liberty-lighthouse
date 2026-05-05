@@ -1,18 +1,57 @@
 ---
 title: Repealing the draconian sedition law
 original_url: 'https://www.spontaneousorder.in/p/repealing-the-draconian-sedition-law'
+author: Spontaneous Order
 published_at: '2021-04-07T19:54:00.000Z'
 ingested_at: '2026-05-05T08:31:42.334Z'
-source_hash: 71d6ba0dd76ed91b7b2cabb4275ca41064aa0a37803d60cd1f99360ebbbce276
-author: Spontaneous Order
 excerpt: >-
   Indian democracy dropped from “Free” to “Partly Free” status in Freedom
   House’s latest report: Freedom in the World 2021. The government’s clampdown
   on free speech, unplanned lockdowns that forced millions below the poverty
   line, and the rise
+summary: >-
+  India's drop from 'Free' to 'Partly Free' in Freedom House's 2021 report stems
+  partly from frequent misuse of the colonial-era sedition law under Section
+  124A IPC, which erodes constitutionally guaranteed free speech and individual
+  liberties. Cases surged 160% from 2016-2019 per National Crime Records Bureau
+  data, yet convictions plummeted from 33% to 3.3%, with 50% of 2019 arrestees
+  aged 18-30; Article 14's database logs dozens during farm protests (6),
+  anti-CAA protests (25), Hathras (22), and Pulwama (27). The law, originally
+  designed to suppress colonial dissent—imprisoning Gandhi, Tilak, and
+  others—targets modern critics via slogans like 'Azadi', posters, or social
+  media posts. Supreme Court rulings like Kedarnath limit it to incitement of
+  violence or public disorder, but enforcement ignores this, enabling
+  surveillance of activists, students, and journalists. The government defends
+  it for 'public order' via federalism, rejecting repeal as 'anti-national'
+  despite Law Commission's 2018 recommendation, Congress's 2019 manifesto
+  promise, and abolitions in UK, Indonesia, etc. From a classical-liberal
+  standpoint, repealing this illiberal provision—or at least making it
+  bailable—is essential to restore vibrant democracy and protect dissent against
+  authoritarian overreach.
+key_points:
+  - >-
+    Sedition cases under Section 124A rose 160% from 2016-2019 with convictions
+    falling to 3.3%, often targeting young dissenters.
+  - >-
+    The law, a colonial tool against freedom fighters, violates Supreme Court
+    limits requiring incitement to violence for applicability.
+  - >-
+    Law Commission recommended revoking sedition in 2018; other democracies like
+    UK and Indonesia have abolished it.
+  - >-
+    Repeal Section 124A to safeguard free speech and individual liberty from
+    government misuse.
+topics:
+  - sedition-law
+  - free-speech
+  - civil-liberties
+  - indian-constitution
 tags:
   - Democracy
   - Governance
+source_hash: 71d6ba0dd76ed91b7b2cabb4275ca41064aa0a37803d60cd1f99360ebbbce276
+summary_hash: 71d6ba0dd76ed91b7b2cabb4275ca41064aa0a37803d60cd1f99360ebbbce276
+summary_at: '2026-05-05T11:26:04.143Z'
 ---
 **By Spontaneous Order**
 

@@ -1,15 +1,50 @@
 ---
 title: Should Schools Waive Fees During Lockdown?
 original_url: 'https://www.spontaneousorder.in/p/should-schools-waive-fees-during-lockdown'
+author: Spontaneous Order
 published_at: '2020-04-14T18:15:29.000Z'
 ingested_at: '2026-05-05T08:31:42.428Z'
-source_hash: cd25f2e0da9aff6f39e929ad1e845a146e4ccb1304e097ab15b4f185f2bac3e4
-author: Spontaneous Order
 excerpt: >-
   Recently, the Noida administration ordered that no educational institution
   across the region can force parents of any student to pay the fee or stop any
   student from attending online classes during the ongoing nationwide lockdown.
   The Haryana government..
+summary: >-
+  Governments in Noida and Haryana have ordered schools to waive fees during the
+  COVID-19 lockdown, preventing them from denying online classes to non-paying
+  students, amid parental demands and political pressure. This threatens the
+  survival of over five lakh budget private schools serving crores of poor and
+  middle-class students, and the livelihoods of two crore teachers and staff, as
+  most lack savings due to reinvesting surpluses under profit restrictions.
+  Forcing schools to provide free services overlooks their operational needs,
+  potentially leading to shutdowns. The Directorate of Education seeks balanced
+  suggestions. From a classical-liberal viewpoint, the solution lies in Direct
+  Benefit Transfers (DBT) via vouchers: governments provide limited fee amounts
+  directly to parents for payment to schools, which redeem them for
+  reimbursement. This empowers parental choice, sustains schools to pay
+  salaries, and avoids coercive mandates. The National Independent Schools
+  Alliance (NISA) has urged the Prime Minister, Finance Minister, and HRD
+  Minister to avoid fee waiver orders for three months and release long-pending
+  EWS reimbursements. Policy must consider all stakeholders to prevent
+  unintended harm to education continuity.
+key_points:
+  - >-
+    Government fee waiver mandates in Noida and Haryana endanger two crore
+    livelihoods in five lakh budget private schools lacking reserves.
+  - >-
+    Direct Benefit Transfer vouchers to parents for school fees, redeemable by
+    schools from government, balance parental relief with school sustainability.
+  - >-
+    NISA demands no fee waiver orders for three months and immediate release of
+    pending EWS reimbursements.
+  - >-
+    Forcing free services on private schools is impractical; DBT empowers choice
+    without coercion.
+topics:
+  - education-policy
+  - private-schools
+  - school-vouchers
+  - covid-lockdown
 tags:
   - education of choice
   - School education in India
@@ -18,6 +53,9 @@ tags:
   - Restrictive regulations
   - free education
   - pandemic
+source_hash: cd25f2e0da9aff6f39e929ad1e845a146e4ccb1304e097ab15b4f185f2bac3e4
+summary_hash: cd25f2e0da9aff6f39e929ad1e845a146e4ccb1304e097ab15b4f185f2bac3e4
+summary_at: '2026-05-05T11:42:16.081Z'
 ---
 **By Swati Singh**
 

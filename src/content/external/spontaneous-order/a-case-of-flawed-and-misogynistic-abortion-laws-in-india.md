@@ -2,15 +2,54 @@
 title: 'A Case Of Flawed And Misogynistic, Abortion Laws In India'
 original_url: >-
   https://www.spontaneousorder.in/p/a-case-of-flawed-and-misogynistic-abortion-laws-in-india
+author: Spontaneous Order
 published_at: '2020-08-04T17:05:42.000Z'
 ingested_at: '2026-05-05T08:31:42.390Z'
-source_hash: 9de444c69dd9f1186dc2f999d8d8aa7b2b3c245458ad55b3d080599dd2cb0071
-author: Spontaneous Order
 excerpt: >-
   While it has become a cliché to say that Covid-19 has affected everyone across
   the globe, it would not be an overstatement to suggest that some sections have
   been more seriously impacted than the others. Like Indian women, wanting to
   shed unwanted pre...
+summary: >-
+  India's abortion laws under the Medical Termination of Pregnancy (MTP) Act,
+  1971, and its 2020 amendment are flawed and misogynistic, denying women true
+  autonomy over their reproductive choices by vesting decisions in doctors,
+  courts, and medical boards rather than the women themselves. The Act permits
+  abortions up to 20 weeks (extended to 24 for rape survivors, minors, incest
+  victims, and differently abled women) only under strict conditions like
+  threats to life/health, fetal abnormalities, rape, or contraceptive failure in
+  married couples, with post-20-week cases needing court approval. This
+  bureaucratic control forces women into unsafe abortions, causing 13 daily
+  deaths—the third leading cause of maternal mortality at 8% annually—and 6.4
+  million terminations yearly. COVID-19 lockdowns shut clinics, spiking quackery
+  and projecting 834,042 additional unsafe abortions and 1,743 maternal deaths.
+  Landmark cases like Datar v Union of India highlight judicial failures in
+  recognizing women's rights. From a classical-liberal perspective, such laws
+  violate fundamental rights to life, liberty, and personal choice; lawmakers
+  must repeal gestational limits and approvals, empowering women to control
+  private matters for equality, justice, and national potential.
+key_points:
+  - >-
+    India's MTP Act denies women abortion autonomy by requiring doctor approvals
+    up to 20 weeks and court permission beyond, leading to unsafe practices.
+  - >-
+    Unsafe abortions kill 13 women daily, contribute 8% to maternal deaths, and
+    affect 6.4 million pregnancies yearly.
+  - >-
+    COVID-19 lockdowns are projected to cause 834,042 more unsafe abortions and
+    1,743 additional maternal deaths due to clinic closures.
+  - >-
+    The 2020 MTP Amendment extends limits to 24 weeks for select groups but
+    retains conditional medical boards, perpetuating control over women's
+    choices.
+  - >-
+    Lawmakers must eliminate gestational caps and approvals to uphold women's
+    liberty and reproductive rights.
+topics:
+  - abortion-laws
+  - womens-rights
+  - personal-liberty
+  - maternal-health
 tags:
   - abortion
   - Healthcare in India
@@ -18,6 +57,9 @@ tags:
   - oppression of women
   - Ministry of Women and Child Welfare
   - women in India
+source_hash: 9de444c69dd9f1186dc2f999d8d8aa7b2b3c245458ad55b3d080599dd2cb0071
+summary_hash: 9de444c69dd9f1186dc2f999d8d8aa7b2b3c245458ad55b3d080599dd2cb0071
+summary_at: '2026-05-05T08:47:49.489Z'
 ---
 **By Madiha Islam**
 

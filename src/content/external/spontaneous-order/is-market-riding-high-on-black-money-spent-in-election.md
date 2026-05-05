@@ -2,15 +2,55 @@
 title: Is Market Riding High on Black Money Spent in Election?
 original_url: >-
   https://www.spontaneousorder.in/p/is-market-riding-high-on-black-money-spent-in-election
+author: Spontaneous Order
 published_at: '2014-05-12T10:14:58.000Z'
 ingested_at: '2026-05-05T08:31:42.592Z'
-source_hash: b34468945abc3950f03bcd59e441bc2752311e613dd11c4ec0d174de951015cf
-author: Spontaneous Order
 excerpt: >-
   India’s stock market is at an all time high level. The Bombay Stock Exchange
   crossed 23,000 points yesterday gaining 650 points in a single day. In March
   itself it gained around 1300 points. Finance Minister P. Chidambaram claims
   the recent surge in mar
+summary: >-
+  India's stock market reached an all-time high, with the BSE Sensex crossing
+  23,000 points after gaining 650 in a day and 1,300 in March 2014, amid the
+  world's largest electoral exercise from April 7 to May 12. Finance Minister P.
+  Chidambaram attributes this to government efforts narrowing the current
+  account deficit to USD 4.2 billion (0.9% of GDP) from USD 31.9 billion (6.5%)
+  a year prior. Opposition and others credit hopes of a BJP victory under
+  business-friendly Narendra Modi. The author dismisses these, alongside
+  seasonal farm product factors, as insufficient for the surge. Instead, he
+  suspects black money repatriation fueling election spending: candidate limits
+  are INR 7 million urban/5.4 million rural, but actual spending is ~10x;
+  exchequer costs INR 35 billion, parties ~INR 305 billion (world's
+  second-highest after US 2012's USD 7 billion); CMS estimates INR 15,000
+  billion across Indian elections in past five years. Accusations fly of BJP
+  spending INR 1 trillion. Indicators include INR 150-500 billion black money
+  inflows via stocks, gold (seizures up to INR 2.5 billion from 172 million in
+  2011), hawala; P-Notes at three-year high of INR 2.07 trillion. From a
+  classical-liberal lens wary of India's black economy and lax P-Note oversight,
+  the author flags these as red signals warranting probe—perhaps the market is
+  riding high on election black money.
+key_points:
+  - >-
+    India's BSE Sensex surged to over 23,000 points in early 2014 amid
+    elections, but official and political explanations like CAD improvement or
+    Modi hopes are insufficient per the author.
+  - >-
+    Election spending vastly exceeds limits, with parties projected at INR 305
+    billion and total past five years at INR 15,000 billion, likely fueled by
+    black money.
+  - >-
+    Black money indicators include INR 150-500 billion inflows via stocks, gold
+    smuggling (seizures at INR 2.5 billion), hawala, and P-Notes peaking at INR
+    2.07 trillion.
+  - >-
+    The author urges probing whether the market high stems from black money
+    spent on elections.
+topics:
+  - black-money
+  - election-spending
+  - stock-market
+  - indian-elections
 tags:
   - Elections
   - Foreign Institutional Investors
@@ -20,6 +60,9 @@ tags:
   - Participatory notes
   - BJP
   - Lok Sabha
+source_hash: b34468945abc3950f03bcd59e441bc2752311e613dd11c4ec0d174de951015cf
+summary_hash: b34468945abc3950f03bcd59e441bc2752311e613dd11c4ec0d174de951015cf
+summary_at: '2026-05-05T10:29:41.770Z'
 ---
 **By Amit Chandra**
 

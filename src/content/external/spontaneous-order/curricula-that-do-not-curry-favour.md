@@ -1,20 +1,58 @@
 ---
 title: Curricula that do not curry favour
 original_url: 'https://www.spontaneousorder.in/p/curricula-that-do-not-curry-favour'
+author: Spontaneous Order
 published_at: '2004-11-02T02:59:44.000Z'
 ingested_at: '2026-05-05T08:31:42.696Z'
-source_hash: 5f1449db77309e463105f3456dcc0b0f63c06a2aaab7b401bfa33551e67ec14b
-author: Spontaneous Order
 excerpt: >-
   The curriculum is everybody’s favourite flogging horse. Much is seen wrong
   with it. In our ongoing research on the “political economy” of secondary
   curriculum development in India, we came across a few aspects of curriculum
   development and testing t
+summary: >-
+  In their research on the political economy of secondary curriculum development
+  in India, Naveen Mandava highlights systemic flaws where a national body
+  designs an advisory curriculum that most states adopt with minor
+  modifications, despite education being a concurrent subject under state
+  domain. States like Tamil Nadu, West Bengal, and Maharashtra show more
+  initiative but often infuse political bias. Secondary exams, conducted by 22
+  state boards or three national ones (CBSE, ICSE, NIOS), primarily evaluate
+  rather than innovate, shaping learning incentives that drive textbook design,
+  the proliferation of coaching centers, and even the weight of school bags.
+  Despite geographic decentralization, power remains concentrated in education
+  departments without transparency or competition among boards, leading to
+  issues like inter-board transfer difficulties and no feedback loops for
+  curriculum improvement. From a classical-liberal lens, this underscores the
+  failure of centralized curriculum processes, which burden students rather than
+  empower them, calling for deconcentration of power, competition, and
+  transparency to align incentives with better outcomes. The piece invites
+  suggestions to enhance the project on state-level curriculum framing.
+key_points:
+  - >-
+    National advisory curricula are largely adopted by states with minimal
+    changes, limiting innovation.
+  - >-
+    Board examinations dictate learning priorities, fueling coaching centers and
+    heavy school bags.
+  - >-
+    Lack of competition and transparency in curriculum design hinders
+    improvements and inter-board mobility.
+  - >-
+    Geographic decentralization exists but without power deconcentration,
+    preventing feedback from exams to curricula.
+topics:
+  - education-curriculum
+  - exam-boards
+  - education-decentralization
+  - india-education
 tags:
   - examinations
   - curriculum
   - Education
   - boards
+source_hash: 5f1449db77309e463105f3456dcc0b0f63c06a2aaab7b401bfa33551e67ec14b
+summary_hash: 5f1449db77309e463105f3456dcc0b0f63c06a2aaab7b401bfa33551e67ec14b
+summary_at: '2026-05-05T09:30:50.629Z'
 ---
 **By Naveen Mandava**
 

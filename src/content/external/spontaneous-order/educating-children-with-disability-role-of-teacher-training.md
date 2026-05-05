@@ -2,15 +2,57 @@
 title: 'Educating Children with Disability: Role of Teacher Training'
 original_url: >-
   https://www.spontaneousorder.in/p/educating-children-with-disability-role-of-teacher-training
+author: Spontaneous Order
 published_at: '2022-03-23T11:06:24.000Z'
 ingested_at: '2026-05-05T08:31:42.273Z'
-source_hash: f4a1da60dfb46f7e639ec8a82855de1e1a5b56c3d5e209ee272b0b5896f3c1df
-author: Spontaneous Order
 excerpt: >-
   Children with disability (CwD) are an integral part of the student body, and
   their education must be a part of the education discourse in India.
   Economically vulnerable sections are more prone to becoming disabled owing to
   poor living conditions. Disabi..
+summary: >-
+  Children with disabilities (CwD) face a vicious poverty-disability cycle in
+  India, exacerbated by limited employment opportunities and high healthcare
+  costs, making inclusive education essential for dignity and equality. The
+  Rights of Persons with Disabilities (RPD) Act 2016 mandates free education in
+  preferred schools but prioritizes physical infrastructure like ramps over
+  pedagogical transformation, curriculum adaptation, and attitude change.
+  Drawing on Michael Fullan's framework from successful inclusive systems, India
+  has cleared stage one with strong policies like IEDC 1974 and National Trust
+  Act 1999, but lags in stage two—robust teacher training—and stage three—an
+  ecosystem of consultants and researchers. Sarva Shiksha Abhiyan (SSA) offers a
+  voluntary elective 'Children with Special Needs,' covering identification,
+  classroom organization, IEPs, and evaluation, but an NCERT study reveals most
+  teachers lack confidence in inclusive practices, especially in mixed
+  classrooms. Current training assumes teacher openness without rigorous
+  preparation akin to medical training. The classical-liberal emphasis is on
+  empowering teachers to contextualize curricula, adopt flexible lesson plans,
+  differentiate assessments, and collaborate with special educators and parents.
+  With two-thirds of persons with disabilities (PwDs) unemployed, mostly in
+  unorganized sectors, mandatory, comprehensive teacher training is crucial to
+  break this cycle and foster equitable opportunities.
+key_points:
+  - >-
+    India must prioritize robust, mandatory teacher training on inclusive
+    education to advance beyond policies to effective implementation.
+  - >-
+    Make the 'Children with Special Needs' elective compulsory in SSA training,
+    focusing on mixed-classroom practices like IEPs and differentiated
+    assessments.
+  - >-
+    Teachers require rigorous preparation comparable to medical training to
+    handle diverse classroom dynamics without trial-and-error.
+  - >-
+    Build an ecosystem of education consultants and researchers to support
+    on-field problem-solving for CwD inclusion.
+topics:
+  - inclusive-education
+  - teacher-training
+  - disability-policy
+  - education-reform
+source_hash: f4a1da60dfb46f7e639ec8a82855de1e1a5b56c3d5e209ee272b0b5896f3c1df
+summary_hash: f4a1da60dfb46f7e639ec8a82855de1e1a5b56c3d5e209ee272b0b5896f3c1df
+summary_at: '2026-05-05T09:45:00.372Z'
 ---
 **By Radha Gupta**
 

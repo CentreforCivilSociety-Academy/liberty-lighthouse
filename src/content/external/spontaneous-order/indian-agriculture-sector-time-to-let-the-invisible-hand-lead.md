@@ -2,19 +2,62 @@
 title: 'Indian Agriculture Sector: Time to let the ‘Invisible Hand’ Lead'
 original_url: >-
   https://www.spontaneousorder.in/p/indian-agriculture-sector-time-to-let-the-invisible-hand-lead
+author: Spontaneous Order
 published_at: '2020-09-02T15:18:46.000Z'
 ingested_at: '2026-05-05T08:31:42.385Z'
-source_hash: 8b48d2de210d21a23ff25164471a3abb7a588d320926ff3f0ef16e0135d04137
-author: Spontaneous Order
 excerpt: >-
   There are several laudable changes brought by the Ordinance. It provides for
   ‘barrier-free inter-state and intrastate trade’ in agricultural produce and
   ‘eliminates intermediaries’. Further, it promotes ‘trade & commerce’ outside
   the physical
+summary: >-
+  India's agriculture sector, employing over 50% of the workforce yet
+  contributing less than 20% to GDP, has long suffered from government apathy
+  and overregulation. The 2020 Farmers’ Produce Trade and Commerce (Promotion
+  and Facilitation) Ordinance marks a historic liberal shift, enabling
+  barrier-free inter-state and intra-state trade, eliminating intermediaries,
+  allowing sales outside APMC mandis, electronic trading for PAN-holding
+  farmers, direct engagement with processors and exporters, and future
+  contracts—empowering farmers to realize full prices and achieve self-reliance.
+  Government intervention is restricted to emergencies like war or famine. To
+  make these reforms permanent, the author urges new legislation and amendments
+  to archaic laws: land ceiling acts (e.g., limiting holdings to 6 hectares in
+  Manipur, 6.74 in Assam, 7 in West Bengal), which block successful farmers from
+  expansion; APMC legislations, which cartelize markets and harm small farmers;
+  and the Essential Commodities Act, which deters storage and processing
+  investments despite agriculture's seasonality. Additional needs include
+  revamping land records, infrastructure, credit, derivatives markets, and
+  insurance. The classical-liberal call is clear: remove the 'visible hand' of
+  state overregulation and let the 'invisible hand' guide the sector.
+key_points:
+  - >-
+    The 2020 Ordinance liberalizes trade by permitting barrier-free sales
+    outside APMCs, direct farmer-buyer contracts, and electronic trading.
+  - >-
+    Amend land ceiling laws to allow farmers to expand holdings beyond limits
+    like 6-7 hectares in various states.
+  - >-
+    Reform APMC acts to end market restrictions and foster competition for
+    better farmer prices.
+  - >-
+    Revise the Essential Commodities Act to encourage storage investments and
+    reduce hoarding fears.
+  - >-
+    Permanently embed market-centric reforms by limiting state interventions to
+    true emergencies.
+topics:
+  - indian-agriculture
+  - agricultural-reforms
+  - apmc
+  - land-ceiling
+  - essential-commodities-act
 tags:
   - invisible hand
   - agriculture
   - Agricultural Produce Market Committee (APMC) Act
+source_hash: 8b48d2de210d21a23ff25164471a3abb7a588d320926ff3f0ef16e0135d04137
+summary_hash: 8b48d2de210d21a23ff25164471a3abb7a588d320926ff3f0ef16e0135d04137
+summary_at: '2026-05-05T10:21:03.783Z'
 ---
 **By Neeti Shikha**
 

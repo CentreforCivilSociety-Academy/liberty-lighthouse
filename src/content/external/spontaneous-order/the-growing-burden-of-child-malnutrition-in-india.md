@@ -2,19 +2,61 @@
 title: The Growing Burden of Child Malnutrition in India
 original_url: >-
   https://www.spontaneousorder.in/p/the-growing-burden-of-child-malnutrition-in-india
+author: Spontaneous Order
 published_at: '2021-01-04T15:57:41.000Z'
 ingested_at: '2026-05-05T08:31:42.358Z'
-source_hash: f830c8aa0bcff5e140e570b3fac5ceeb7141bf0ee31bd68857656254e3a4bf49
-author: Spontaneous Order
 excerpt: >-
   India is facing an unprecedented nutrition crisis and children are the ones
   most severely impacted. Even before the multiple shocks caused by the
   pandemic, India was not on its way to meet the Sustainable Development Goal 2
   to end hunger and all forms o..
+summary: >-
+  India faces a worsening child malnutrition crisis, with NFHS-5 (2019-20) data
+  from 18 populous states like Gujarat, Maharashtra, Bihar, West Bengal, and
+  Karnataka showing stalled or reversed progress in stunting, wasting, and
+  underweight compared to NFHS-4 (2015-16), even before the pandemic. Despite
+  massive government interventions—PDS under National Food Security Act, POSHAN
+  Abhiyan, ICDS via 13.77 lakh anganwadi centres, and the world's largest
+  school-meal program—undernutrition stalled at 8.4% from 2014-2018, costing
+  0.8-2.5% of GDP. The pandemic exacerbated this through service disruptions,
+  with 71% of surveyed households reporting worse nutritional quality and 66%
+  reduced quantity. From a classical-liberal perspective, these in-kind schemes
+  suffer implementation flaws like poor monitoring and corruption, proving
+  inadequate in crises; cash transfers would enable diversified diets and
+  savings. Root cause is poverty, intertwined with sanitation, education, gender
+  disparity, and maternal health. Solutions include performance incentives for
+  anganwadi workers (reducing underweight by 5%, height by 1cm in studies),
+  restoring maternal services, and prioritizing income growth over dietary
+  interventions alone to break the poverty-malnutrition cycle and support
+  economic ambitions.
+key_points:
+  - >-
+    NFHS-5 data shows child stunting, wasting, and underweight have stalled or
+    worsened in major states like Gujarat and Bihar.
+  - >-
+    Government schemes like ICDS, PDS, and school meals have failed to improve
+    outcomes despite massive scale, exposed by pandemic disruptions.
+  - >-
+    Cash transfers outperform in-kind aid by allowing families diversified diets
+    and flexibility during crises.
+  - >-
+    Performance-based incentives for anganwadi workers reduce underweight
+    prevalence by 5% and improve height.
+  - >-
+    Sustainable malnutrition reduction requires income growth to address poverty
+    as the root cause, beyond food security buffers.
+topics:
+  - child-malnutrition
+  - nutrition-policy
+  - cash-transfers
+  - poverty-alleviation
 tags:
   - Healthcare in India
   - malnutrition
   - health
+source_hash: f830c8aa0bcff5e140e570b3fac5ceeb7141bf0ee31bd68857656254e3a4bf49
+summary_hash: f830c8aa0bcff5e140e570b3fac5ceeb7141bf0ee31bd68857656254e3a4bf49
+summary_at: '2026-05-05T12:28:11.858Z'
 ---
 **By Swati Rao**
 

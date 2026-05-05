@@ -2,19 +2,59 @@
 title: Why can Flying Abroad be Cheaper than Flying Domestic?
 original_url: >-
   https://www.spontaneousorder.in/p/why-is-flying-abroad-cheaper-than-flying-domestic
+author: Spontaneous Order
 published_at: '2025-08-06T14:59:12.000Z'
 ingested_at: '2026-05-05T08:31:42.226Z'
-source_hash: 29e680ff6f82598ef821bc94c798e30bc90195005621ec86f250a67096b7cb42
-author: Spontaneous Order
 excerpt: >-
   A trip is on the horizon. A familiar ritual for millions in India would be to
   open a travel website, enter a string of city names, and start tracking a list
   of flight prices. Most fares are high beyond explanation, with any reasonable
   option being a red..
+summary: >-
+  India's aviation market, the world's third-largest, suffers from high domestic
+  flight prices often comparable to international fares like Delhi-Bangkok
+  versus Delhi-Bengaluru, due to government-imposed distortions. The primary
+  culprit is Aviation Turbine Fuel (ATF), comprising 40-50% of operating costs,
+  subjected to double taxation—central excise duty and state VAT—excluded from
+  GST, preventing input tax credits and creating a 'tax on tax' cycle, with an
+  additional 5-12% GST on tickets. International flights benefit from ATF
+  exemptions as 'deemed exports,' evading both taxes. Domestic operations face
+  Route Dispersal Guidelines (RDG), mandating unviable routes to remote areas,
+  leading to cross-subsidization that inflates fares on high-demand routes like
+  Delhi-Mumbai. A duopoly of IndiGo and Air India, post collapses of Jet Airways
+  and Go First, reduces competition, while 150 aircraft are grounded due to
+  supply issues, contributing to a 40% fare hike in the last six quarters. From
+  a classical-liberal view, these regulatory burdens stifle markets; reforms
+  should include bringing ATF under GST for 7-9% cost savings, replacing RDG
+  cross-subsidies with transparent direct subsidies, and fostering competition
+  to lower fares and stabilize the industry.
+key_points:
+  - >-
+    ATF accounts for 40-50% of airline costs in India and faces double taxation
+    (excise + VAT) without GST input credits.
+  - >-
+    International flights get ATF tax exemptions as 'deemed exports,' while
+    domestic routes bear full taxes and RDG-mandated cross-subsidies for
+    unviable paths.
+  - >-
+    India's domestic market duopoly and 150 grounded aircraft exacerbate
+    capacity constraints and 40% fare increases.
+  - Bring ATF under GST to cut costs by 7-9% and enable input credits.
+  - >-
+    Replace RDG cross-subsidies with direct subsidies and promote competition to
+    make domestic flying affordable.
+topics:
+  - indian-aviation
+  - atf-taxation
+  - route-dispersal-guidelines
+  - airline-competition
 tags:
   - Flight
   - tax cuts
   - Aviation
+source_hash: 29e680ff6f82598ef821bc94c798e30bc90195005621ec86f250a67096b7cb42
+summary_hash: 29e680ff6f82598ef821bc94c798e30bc90195005621ec86f250a67096b7cb42
+summary_at: '2026-05-05T13:05:49.097Z'
 ---
 **By Tapasya Srivastava**
 

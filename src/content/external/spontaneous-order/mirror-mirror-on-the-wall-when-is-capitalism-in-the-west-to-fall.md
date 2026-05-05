@@ -2,18 +2,62 @@
 title: 'Mirror, Mirror on the Wall, When is Capitalism in the West to Fall?'
 original_url: >-
   https://www.spontaneousorder.in/p/mirror-mirror-on-the-wall-when-is-capitalism-in-the-west-to-fall
+author: Spontaneous Order
 published_at: '2018-09-04T14:04:20.000Z'
 ingested_at: '2026-05-05T08:31:42.515Z'
-source_hash: 594a702eecf6e5284f0ea215dac8caa339c4eb5dbef711c1ce24e41906622042
-author: Spontaneous Order
 excerpt: >-
   (This article was originally posted on 15 March 2017) Over the past ten years
   in Europe and in the United States, fiscal reforms have been a topic of great
   discussion although no action has backed it up. For countries to spend less
   money than what is ge..
+summary: >-
+  The article critiques Europe's and America's abandonment of sound money, free
+  trade, balanced budgets, and laissez-faire economics, replaced by
+  irresponsible deficit spending enabled by fiat money and central bank
+  interventions. Politicians outsource problems to central banks like the ECB,
+  which maintain near-zero interest rates and print money to prop up asset
+  bubbles, distorting markets and preventing necessary recessions from
+  correcting misallocations. This politically designed, elastic monetary
+  system—unprecedented as the world runs solely on paper money—worsens
+  structural issues like high debts, lacking reforms, and declining
+  competitiveness, setting the stage for a crisis larger than 2008. In contrast,
+  Asia, especially India with its 1.2 billion people, has embraced capitalism,
+  fostering technology-driven connections, entrepreneurship, and cultural
+  optimism where parents expect children to prosper. Capitalism, as
+  sophisticated machinery sorting efficient from inefficient, thrives when
+  allowed to operate freely. The author warns India against repeating the West's
+  errors of expanding government and protectionism, which erode prosperity.
+  Voters must focus on solutions beyond the status quo, unleashing enterprise
+  from big government. Conclusion: Indian libertarians should emerge as
+  political entrepreneurs to sustain India's path.
+key_points:
+  - >-
+    Western central banks' fiat money printing and low rates create asset
+    bubbles and postpone recessions, exacerbating misallocations and threatening
+    a crisis worse than 2008.
+  - >-
+    Fiat money, unlike sound money tied to commodities, is politically elastic,
+    enabling deficit spending without market discipline.
+  - >-
+    India succeeds by unleashing capitalism, connecting 1.2 billion people via
+    technology and cultivating entrepreneurship amid cultural optimism.
+  - >-
+    India must reject Western big-government pitfalls like protectionism to
+    avoid decline and raise societal prosperity.
+  - >-
+    Libertarian political entrepreneurs in India should step up to champion
+    sustainable, apolitical money systems and free markets.
+topics:
+  - fiat-money
+  - central-banking
+  - indian-economy
+  - libertarianism
 tags:
   - State Capitalism
   - Capitalism
+source_hash: 594a702eecf6e5284f0ea215dac8caa339c4eb5dbef711c1ce24e41906622042
+summary_hash: 594a702eecf6e5284f0ea215dac8caa339c4eb5dbef711c1ce24e41906622042
+summary_at: '2026-05-05T10:55:09.549Z'
 ---
 **By Mathias B. Pontoppidan**
 

@@ -1,15 +1,58 @@
 ---
 title: Exploring India’s Platform Economy
 original_url: 'https://www.spontaneousorder.in/p/exploring-indias-platform-economy'
+author: Spontaneous Order
 published_at: '2023-03-16T17:36:18.000Z'
 ingested_at: '2026-05-05T08:31:42.244Z'
-source_hash: cd4213329b9f879e0f74dd1be9719bb014522ffb1a4d25a3b4db7fc9bbb75416
-author: Spontaneous Order
 excerpt: >-
   Fairwork India Report shows that 11 platforms in India report about 30 lakh
   workers in 2021. The platform economy, described as the new-age workforce,
   holds immense potential. However, a grim reality hides beneath its glory.
   India’s leading think tank,
+summary: >-
+  India's platform economy, employing about 30 lakh workers across 11 platforms
+  in 2021 per Fairwork India, promises flexibility, freedom, and job
+  opportunities leveraging the demographic dividend of over 400 million
+  millennials, as highlighted by NITI Aayog. Yet, platforms classify workers as
+  'independent contractors' rather than employees, denying them social security,
+  collective bargaining, minimum wages, and protections against occupational
+  risks like accidents and assaults. ILO surveys reveal skill mismatches, with
+  29% of freelancers overqualified for tasks, and only 11% of delivery
+  executives valuing independence. Fairwork finds most full-time workers (48
+  hours/week) earn below local minimum wage, with no compensation for downtime
+  and zero platforms recognizing worker associations. The author argues for
+  classical-liberal aligned reforms: immediately declare platform workers under
+  the Social Security Act 2008 for life/disability cover, health/maternity
+  benefits, gratuity, and paid leaves; enforce rights against workplace violence
+  via existing acts; and mandate accident insurance, inspired by Indonesia and
+  the Code on Social Security 2020, in government-private partnerships. These
+  steps would address precarity, enabling the 'new normal' of flexible work
+  without undermining market potential.
+key_points:
+  - >-
+    Classify platform workers as 'workers' under the Social Security Act 2008 to
+    grant parity with formal sector benefits like health, maternity, gratuity,
+    and paid leaves.
+  - >-
+    Implement redressal mechanisms and protections against occupational risks
+    including road safety, theft, assault, and workplace violence under existing
+    labor laws.
+  - >-
+    Provide accident insurance for platform workers via digital platforms in
+    collaboration with government and private sectors, as per the Code on Social
+    Security 2020.
+  - >-
+    Platforms misclassify workers as contractors, leading to below-minimum
+    wages, no bargaining power, and skill underutilization despite employing 30
+    lakh in 2021.
+topics:
+  - platform-economy
+  - gig-workers
+  - labor-rights
+  - social-security
+source_hash: cd4213329b9f879e0f74dd1be9719bb014522ffb1a4d25a3b4db7fc9bbb75416
+summary_hash: cd4213329b9f879e0f74dd1be9719bb014522ffb1a4d25a3b4db7fc9bbb75416
+summary_at: '2026-05-05T09:50:34.060Z'
 ---
 **By Falguni Lalwani**
 

@@ -4,15 +4,56 @@ title: >-
   workers
 original_url: >-
   https://www.spontaneousorder.in/p/the-mahatma-of-shramjeevi-ela-bhatt-the-personal-hero-of-millions-of-workers
+author: Spontaneous Order
 published_at: '2022-11-14T15:30:48.000Z'
 ingested_at: '2026-05-05T08:31:42.255Z'
-source_hash: cc48312f0ce09513e5e58e63ad3b4ff9884ec2ab3d78f2a1339bf3af67aa2437
-author: Spontaneous Order
 excerpt: >-
   The Grande Dame of the informal sector, a gentle revolutionary and a Gandhian
   at heart, lives on as a personal hero of millions of workers, reformers, and
   street vendors across the country. Ela Bhatt, lovingly referred to as ‘ben,’
   or sister, by milli
+summary: >-
+  Ela Bhatt, founder of the Self Employed Women’s Association (SEWA), empowered
+  2.1 million informal women workers through self-reliance and economic
+  independence, embodying Gandhian simplicity and an 'Economy of Nurturance'
+  that prioritizes local livelihoods aligned with community and ecology. As a
+  pioneer for the invisible labor force, she championed street
+  vendors—comprising 2% of the urban informal sector and essential for
+  affordable goods—leading to the 2014 Street Vendors Act (SVA), which
+  formalizes vending rights but suffers from poor implementation, including
+  harassment, evictions, and lack of gender protections for women (30% of
+  Delhi's 300,000 vendors) and transgenders. Vendors face extortion, poor
+  hygiene, and insecurity without robust mechanisms or court relief. SEWA's
+  Mahila Bazar, launched in 2009 on Delhi's Tagore Road, exemplifies her vision:
+  accommodating over 200 women vendors with dignity, water, toilets, and
+  infrastructure improvements via advocacy. Bhatt's bottom-up approach awakens
+  unheard voices for accountable, exploitation-free local economies, crediting
+  vendors' GDP contributions and urging collective action like 'Ame karishu
+  kamyab' for sustainable change.
+key_points:
+  - >-
+    Ela Bhatt's SEWA empowered 2.1 million informal women workers via
+    self-reliance and visibility.
+  - >-
+    The 2014 Street Vendors Act formalizes rights but fails due to harassment,
+    evictions, and absent gender protections.
+  - >-
+    Women constitute 30% of Delhi's 300,000 street vendors, lacking hygiene,
+    safety from goons, and basic facilities.
+  - >-
+    SEWA's Mahila Bazar since 2009 supports 200+ women vendors harassment-free
+    with essential amenities.
+  - >-
+    Bhatt's 'Economy of Nurturance' promotes local, accountable livelihoods
+    integrating producers, consumers, and ecology.
+topics:
+  - street-vendors
+  - informal-economy
+  - women-empowerment
+  - policy-implementation
+source_hash: cc48312f0ce09513e5e58e63ad3b4ff9884ec2ab3d78f2a1339bf3af67aa2437
+summary_hash: cc48312f0ce09513e5e58e63ad3b4ff9884ec2ab3d78f2a1339bf3af67aa2437
+summary_at: '2026-05-05T12:30:34.121Z'
 ---
 **By Sanskriti Shree**
 

@@ -2,20 +2,65 @@
 title: Power freebies show pitfalls of electoral politics
 original_url: >-
   https://www.spontaneousorder.in/p/power-freebies-show-pitfalls-of-electoral-politics
+author: Spontaneous Order
 published_at: '2021-12-06T17:28:59.000Z'
 ingested_at: '2026-05-05T08:31:42.283Z'
-source_hash: c3fee125538c0f808756649a5575bb211ef82b27deeeefc69dc8620eb6a8faf0
-author: Spontaneous Order
 excerpt: >-
   Always sacrifice economic sense if it wins a few more votes. That logic drives
   competitive politics in India, spurring myopic measures that inflict long-term
   damage. Too many elections are dominated by three issues — subsidies, job
   reservations and comm
+summary: >-
+  Electoral politics in India prioritizes short-term vote-winning freebies over
+  economic rationality, leading to myopic policies that cause long-term harm,
+  dominated by subsidies, job reservations, and communalism. Economists estimate
+  merit subsidies at 4.5% of GDP versus 5.7% for non-merit ones, diverting
+  significant funds from development given total government revenue is only 18%
+  of GDP. Hidden costs include 153 official holidays in 2022, inflating labor
+  expenses, discouraging job creation, formal employment, and labor-intensive
+  industries, trapping workers in agriculture. In Punjab, free electricity for
+  farmers accounts for two-thirds of the state's debt, raising industrial
+  tariffs and stifling industry. Ahead of elections, Congress slashed household
+  tariffs by Rs 3/unit, costing Rs 3,316 crore annually for 7 million consumers,
+  while AAP promises 300 free units. This populism ignores COP26 climate
+  commitments for carbon taxes, instead pushing energy subsidies. Punjab's new
+  law rescinds 73 renewable projects (983.5 MW), overriding contracts despite
+  solar tariffs falling to Rs 2.50/unit from over Rs 10/unit, threatening
+  trillions in needed renewable investments by 2030 and investor confidence.
+  Courts may intervene, but political myopia consistently undermines development
+  from a classical-liberal standpoint favoring markets and long-term growth.
+key_points:
+  - >-
+    Non-merit subsidies consume 5.7% of GDP, exceeding merit subsidies at 4.5%
+    and diverting from social and economic development.
+  - >-
+    Excessive official holidays totaling 153 days in 2022 raise labor costs,
+    discourage formal jobs, and promote mechanization over labor-intensive
+    growth.
+  - >-
+    Punjab's free farm power causes two-thirds of state debt, leads to high
+    industrial tariffs, and blocks investments in education, health, and
+    infrastructure.
+  - >-
+    Political promises of free household electricity, like AAP's 300 units and
+    Congress's Rs 3/unit cut costing Rs 3,316 crore yearly, oppose climate goals
+    for energy taxes.
+  - >-
+    Punjab's law cancelling 983.5 MW renewable contracts risks scuttling India's
+    2030 renewable investment needs by eroding contract sanctity.
+topics:
+  - electoral-politics
+  - subsidies
+  - freebies
+  - renewable-energy
 tags:
   - subsidies
   - Politics
   - economy
   - Punjab
+source_hash: c3fee125538c0f808756649a5575bb211ef82b27deeeefc69dc8620eb6a8faf0
+summary_hash: c3fee125538c0f808756649a5575bb211ef82b27deeeefc69dc8620eb6a8faf0
+summary_at: '2026-05-05T11:15:50.096Z'
 ---
 **By Swaminathan SA Aiyer**
 

@@ -2,20 +2,61 @@
 title: 'Economics Through a Song of Ice and Fire: Tyrion’s Specialisation'
 original_url: >-
   https://www.spontaneousorder.in/p/economics-through-a-song-of-ice-and-fire-tyrions-specialisation
+author: Spontaneous Order
 published_at: '2018-07-12T13:07:09.000Z'
 ingested_at: '2026-05-05T08:31:42.545Z'
-source_hash: 4aab8185477083064e441b89503866862220ad8f49bdb6133879ff34b09e90ba
-author: Spontaneous Order
 excerpt: >-
   Game of Thrones (GoT) is not just a fascinating fantasy fiction about the iron
   throne and the politics around it, but it is also a great insight into
   different theories of human nature, social psychology, international
   relations, diplomacy as well as th..
+summary: >-
+  The post uses Tyrion Lannister from Game of Thrones as an exemplar of economic
+  specialization, leveraging his intellect in strategy and knowledge—'I drink
+  and I know things'—as a comparative advantage in a world unsuited to his
+  physical limitations, earning him influence across factions. This mirrors Adam
+  Smith's 1776 analysis in 'Wealth of Nations,' where specialization and
+  division of labor in a pin factory enable 10 workers to produce 48,000 pins
+  daily versus just 20 if each does every task, boosting productivity through
+  skill, machinery, and time savings. Specialization drives market expansion via
+  exports, signaling demand for inputs like steel and fostering further division
+  of labor. Real-world examples include Dr. A. G. K. Gokhale's pioneering heart
+  and lung transplants in Andhra Pradesh, attracting global patients, and
+  India's regional comparative advantages: Punjab and Madhya Pradesh
+  specializing in grains due to climate, while Bangalore, Gurgaon, Noida, and
+  Mumbai focus on industry and trade. Free and open markets enable this
+  merit-based cooperation, transcending biases like Tyrion's family ties,
+  creating wealth, peace, prosperity, and multicultural harmony superior to
+  government programs—the morality of the market from a classical-liberal
+  viewpoint.
+key_points:
+  - >-
+    Tyrion Lannister thrives by specializing in strategy and knowledge, turning
+    personal limitations into comparative advantage and gaining trust across
+    rival factions.
+  - >-
+    Adam Smith's pin factory illustrates division of labor: 10 specialized
+    workers produce 48,000 pins daily versus 20 if unspecialized.
+  - >-
+    Specialization expands markets through exports, signals input demands, and
+    spurs further economic specialization.
+  - >-
+    Free markets enable merit-based regional specialization in India, like
+    Punjab's grains and cities' industries, fostering national prosperity over
+    government interventions.
+topics:
+  - specialization
+  - division-of-labour
+  - comparative-advantage
+  - free-markets
 tags:
   - economic theory
   - GoT
   - game of thrones
   - Specialisation
+source_hash: 4aab8185477083064e441b89503866862220ad8f49bdb6133879ff34b09e90ba
+summary_hash: 4aab8185477083064e441b89503866862220ad8f49bdb6133879ff34b09e90ba
+summary_at: '2026-05-05T09:44:45.079Z'
 ---
 **By Sadaf Hussain**
 

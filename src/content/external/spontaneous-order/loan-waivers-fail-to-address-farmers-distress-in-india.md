@@ -2,18 +2,62 @@
 title: Loan Waivers Fail to Address Farmers’ Distress in India
 original_url: >-
   https://www.spontaneousorder.in/p/loan-waivers-fail-to-address-farmers-distress-in-india
+author: Spontaneous Order
 published_at: '2020-12-02T14:05:18.000Z'
 ingested_at: '2026-05-05T08:31:42.364Z'
-source_hash: e35d4d24d7bf9afdf5ad36e07448530374561d453b976755c6852004f0c19150
-author: Spontaneous Order
 excerpt: >-
   The agricultural sector in our country faces challenges in terms of growth,
   sustainability, efficiency and equity. Declining productivity, lack of
   adequate infrastructure, high cost of farming inputs, underdeveloped market
   networks and small landholding..
+summary: >-
+  India's agricultural sector grapples with declining productivity, inadequate
+  infrastructure, high input costs, underdeveloped markets, small landholdings,
+  weather risks, pests, and intermediaries, yet loan waivers offer only
+  short-term relief without tackling these root causes for growth,
+  sustainability, efficiency, and equity. From a classical-liberal viewpoint,
+  sound policy prioritizes long-term gains for all over short-term benefits for
+  one group; loan waivers, often election-timed gimmicks (e.g., 1990 Union
+  ₹10,000 Cr pre-1989 polls; 2008 Union ₹52,000 Cr pre-2009; 2014 AP ₹40,000 Cr
+  and Telangana ₹20,000 Cr; 2017 UP ₹36,000 Cr; 2018 Maharashtra ₹34,000 Cr),
+  foster moral hazard by encouraging defaults, disrupting credit
+  discipline—farmers shift to nationalized banks expecting waivers, punishing
+  honest repayers and deterring future lending. The 2008 UPA ADWDR scheme
+  exemplified implementation flaws: CAG audit of 90,576 accounts revealed 13.5%
+  eligible farmers excluded, 8.5% ineligible included, and 34.28% without
+  certificates, rendering them defaulters ineligible for new loans, pushing
+  reliance on usurious moneylenders. Landless farmers, lacking collateral or
+  certificates, are entirely excluded. Waivers burden fiscally, fail to break
+  debt cycles or boost productivity, and leave agrarian distress unaddressed,
+  making them undesirable long-run policy.
+key_points:
+  - >-
+    Loan waivers correlate strongly with election years, as shown in
+    announcements like ₹52,000 Cr in 2008 before 2009 polls and ₹36,000 Cr in UP
+    2017.
+  - >-
+    They create moral hazard, with farmers defaulting strategically and shifting
+    accounts to nationalized banks expecting waivers, eroding credit culture.
+  - >-
+    The 2008 ADWDR had major errors: 13.5% eligible excluded, 8.5% ineligible
+    benefited, 34.28% uncertified and deemed defaulters.
+  - >-
+    Waivers exclude landless farmers and fail to address core issues like
+    productivity and infrastructure, perpetuating debt traps.
+  - >-
+    Classical-liberal policy favors long-term reforms over populist short-term
+    relief that harms overall efficiency.
+topics:
+  - loan-waivers
+  - agricultural-policy
+  - moral-hazard
+  - fiscal-policy
 tags:
   - Loan waivers
   - agriculture
+source_hash: e35d4d24d7bf9afdf5ad36e07448530374561d453b976755c6852004f0c19150
+summary_hash: e35d4d24d7bf9afdf5ad36e07448530374561d453b976755c6852004f0c19150
+summary_at: '2026-05-05T10:43:43.171Z'
 ---
 **By Upasha Kumari**
 

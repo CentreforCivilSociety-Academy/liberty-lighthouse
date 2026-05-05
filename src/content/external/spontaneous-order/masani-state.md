@@ -1,15 +1,52 @@
 ---
 title: Minoo Masani | Who Owns the State? (1944)
 original_url: 'https://www.spontaneousorder.in/p/masani-state'
+author: Spontaneous Order
 published_at: '2016-07-07T13:30:06.000Z'
 ingested_at: '2026-05-05T08:31:42.551Z'
-source_hash: a4f472c2a37f7ad91f91ca94b44974e350b2f835db3fdacf4cfd7952952b5f18
-author: Spontaneous Order
 excerpt: >-
   This is the third part of a 4-part series. You can read the earlier posts in
   the series here– Minoo Masani | Socialism Reconsidered (1944) Minoo Masani |
   The Assumptions of Marxism (1944) **** Who Owns the State? That is the
   question of questions. Willi
+summary: >-
+  Minoo Masani argues that the paramount question is 'Who owns the
+  State?'—whether people own it or it owns them—warning that a collectivized
+  economy under socialism endangers individual liberty and political democracy,
+  which must be central to any true socialist vision. He insists socialism
+  requires 'clean means' rejecting communist tactics like deceit, murder, class
+  hatred, coups, and Stalinist liquidations, emphasizing intellectual integrity
+  and truth. In undemocratic contexts like India, lacking even 'glimmerings of
+  democracy,' Masani advocates Gandhi's contributions: mass civil resistance as
+  a dynamic, non-violent method that preserves a democratic climate and habits,
+  avoiding the degeneration of failed violent insurrections, as seen in Russia.
+  Gandhi's approach shows real democracy and socialism demand a non-violent
+  society. Additionally, Masani endorses Gandhi's economic decentralization—not
+  as anti-machine or 'back to villages,' but a protest against machinery
+  concentrating power and riches, quoting Gandhi's support for nationalizing key
+  industries, village electricity, and the spinning wheel as machinery, while
+  criticizing capitalist machine use. This aligns with socialist goals by
+  countering undemocratic industrial centralization.
+key_points:
+  - >-
+    Socialism must prioritize individual liberty and political democracy as core
+    elements, or risk state ownership of people.
+  - >-
+    Repudiate violent communist means; pursue socialism only through clean,
+    non-violent methods like Gandhi's mass civil resistance in undemocratic
+    settings.
+  - >-
+    Gandhi's civil resistance maintains democratic habits even against
+    undemocratic forces, preventing the violence trap seen in Russia.
+  - >-
+    Adopt Gandhi's economic decentralization to prevent machinery from
+    concentrating power and riches, supporting key industry nationalization and
+    village electrification.
+topics:
+  - socialism-critique
+  - gandhian-nonviolence
+  - economic-decentralization
+  - individual-liberty
 tags:
   - Minoo Masani
   - Gandhi
@@ -19,6 +56,9 @@ tags:
   - Capitalism
   - socialism
   - Mahatma Gandhi
+source_hash: a4f472c2a37f7ad91f91ca94b44974e350b2f835db3fdacf4cfd7952952b5f18
+summary_hash: a4f472c2a37f7ad91f91ca94b44974e350b2f835db3fdacf4cfd7952952b5f18
+summary_at: '2026-05-05T10:50:54.465Z'
 ---
 **By Ujwal Batra**
 

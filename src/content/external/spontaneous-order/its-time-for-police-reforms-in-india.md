@@ -1,17 +1,60 @@
 ---
 title: It’s time for Police Reforms in India
 original_url: 'https://www.spontaneousorder.in/p/its-time-for-police-reforms-in-india'
+author: Spontaneous Order
 published_at: '2021-06-09T17:01:07.000Z'
 ingested_at: '2026-05-05T08:31:42.313Z'
-source_hash: 2db3a0f9d1521374cf37bcb76d936a3c70481c3391aa02c87cb22bd4c6001960
-author: Spontaneous Order
 excerpt: >-
   On 26th March 2021, after months-long protests against police brutality, the
   city of New York, passed a law to end qualified immunity for the New York
   police department. In simple words, previously, qualified immunity for the
   officers made it extremely ..
+summary: >-
+  India's police system, rooted in the colonial Police Act of 1861 designed to
+  suppress dissent post-1857 mutiny, persists post-independence to serve
+  political executives rather than protect citizens' life, liberty, and
+  property, embodying a classical-liberal critique of state overreach. Brutality
+  is rampant, with 1739 custodial deaths in 2019, unprovoked assaults on migrant
+  workers and grocery buyers during COVID lockdowns, and cheered encounter
+  killings. Sovereign immunity under CrPC Sections 132 and 197 shields officers
+  from prosecution without state sanction, enabling impunity amid political
+  quid-pro-quo. Despite recommendations from National Police Commission (1981),
+  Ribeiro (1998), Padmanabhaiah (2000), Malimath (2003) committees, a 2006 Model
+  Police Act, and Supreme Court directives in Prakash Singh vs Union of India,
+  reforms remain ignored or partial. The force comprises mostly undertrained,
+  under-equipped constables (12th pass entry, lathi-armed), leading to poor
+  incentives, low convictions, bribery, and unsafe environments hindering
+  personal liberty and economic choices. Comprehensive state-central
+  interventions are urged: independent politically-neutral accountability bodies
+  and enhanced training for rule-of-law policing.
+key_points:
+  - >-
+    Colonial Police Act 1861 structures Indian police for citizen control, not
+    protection, with political executives exploiting state superintendence for
+    suppression.
+  - >-
+    Sovereign immunity via CrPC Sections 132 and 197 prevents police prosecution
+    without government sanction, fostering impunity as in 1739 custodial deaths
+    in 2019.
+  - >-
+    Supreme Court in Prakash Singh (2006) mandated reforms, but central and
+    state governments largely failed to comply.
+  - >-
+    Undertrained, understaffed constables armed with lathis perpetuate brutality
+    due to flawed incentives.
+  - >-
+    Reforms demand independent accountability bodies and better training to
+    uphold rule of law and individual rights.
+topics:
+  - police-reforms
+  - police-brutality
+  - rule-of-law
+  - police-accountability
 tags:
   - Police reforms
+source_hash: 2db3a0f9d1521374cf37bcb76d936a3c70481c3391aa02c87cb22bd4c6001960
+summary_hash: 2db3a0f9d1521374cf37bcb76d936a3c70481c3391aa02c87cb22bd4c6001960
+summary_at: '2026-05-05T10:32:40.152Z'
 ---
 **By Sourya Banerjee**
 

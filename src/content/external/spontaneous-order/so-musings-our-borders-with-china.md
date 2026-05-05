@@ -1,19 +1,54 @@
 ---
 title: 'SO Musings: Our Borders with China'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-our-borders-with-china'
+author: Spontaneous Order
 published_at: '2020-09-11T12:00:00.000Z'
 ingested_at: '2026-05-05T08:31:42.382Z'
-source_hash: 63f837a908d80d2b8259e41813014e1946c557b893021f76a2c0e294264d05ae
-author: Spontaneous Order
 excerpt: >-
   The roots of the border dispute between India and China go back to the 1950s.
   Although the mood in the Indian diplomatic circles was upbeat after the
   Panchsheel agreement in 1955, relations started going south towards the end of
   the decade. The Chinese ..
+summary: >-
+  In a 1959 article 'Our Borders with China' published in Indian Libertarian,
+  M.A. Venkata Rao warns of China's surreptitious territorial claims on Indian
+  lands, as depicted in Chinese maps and a recent Soviet journal New Times issue
+  showing parts of Ladakh, Sikkim, Bhutan, and the North East Frontier Agency
+  (NEFA) tracts of Assam as Chinese territory. He critiques the Indian
+  government's optimistic reliance on the 1955 Panchsheel agreement with China
+  and Russia, which promised peaceful coexistence and non-interference, arguing
+  that reissued maps reveal fading 'flowers of Panchsheela' amid communist
+  expansionism following Tibet's annexation. Rao highlights Chinese responses to
+  Indian protests—dismissing maps as outdated while retaining claims—as implicit
+  assertions of sovereignty over these areas. From a classical-liberal
+  standpoint, he urges India to take a firm stand: instantaneously repudiate
+  China's claims, unambiguously reassert India's historical border-line to all
+  governments and global publics, and broadcast this position to preempt future
+  disputes and safeguard territorial integrity against the 'international
+  jungle' realities.
+key_points:
+  - >-
+    Chinese maps and a Soviet New Times publication claim Sikkim, Bhutan, and
+    NEFA as Chinese territory, signaling expansionist intent post-Tibet
+    annexation.
+  - >-
+    Panchsheel's principles of non-aggression and non-interference are
+    undermined by China's map practices and Soviet endorsement.
+  - >-
+    India must immediately repudiate Chinese claims and reassert its historical
+    borders to all world governments and publics.
+topics:
+  - india-china-border
+  - panchsheel
+  - territorial-claims
+  - foreign-policy
 tags:
   - SO Musings
   - China
   - Indian liberals
+source_hash: 63f837a908d80d2b8259e41813014e1946c557b893021f76a2c0e294264d05ae
+summary_hash: 63f837a908d80d2b8259e41813014e1946c557b893021f76a2c0e294264d05ae
+summary_at: '2026-05-05T11:59:43.576Z'
 ---
 **By Spontaneous Order**
 

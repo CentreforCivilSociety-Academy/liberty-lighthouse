@@ -2,19 +2,57 @@
 title: Why the MPC must pay attention to recent monetary arithmetic
 original_url: >-
   https://www.spontaneousorder.in/p/why-the-mpc-must-pay-attention-to-recent-monetary-arithmetic
+author: Spontaneous Order
 published_at: '2022-04-08T14:36:01.000Z'
 ingested_at: '2026-05-05T08:31:42.269Z'
-source_hash: 2b144c9f6b78859d44193033771872f5a0cc97a50c7ae91a70e1b2c9a5e6e0c3
-author: Spontaneous Order
 excerpt: >-
   Inflation worries are rapidly spreading across the world. Price pressures are
   not the same across countries, despite the fact that all of them have been hit
   by very similar supply shocks over the past two years. What is different is
   the extent of the de..
+summary: >-
+  Inflation varies globally due to differing demand stimuli post-COVID supply
+  shocks, with countries like the US and UK far above targets, while Japan and
+  China remain below. India's February inflation slightly exceeded the RBI's
+  2-6% band upper end and 2.1 percentage points above the midpoint, with both
+  headline and core inflation elevated for 30 months, risking unanchored
+  expectations despite no broad wage pressures. RBI flooded the economy with
+  liquidity via forex purchases, government cash balances, excess bank reserves,
+  and currency in circulation, but Indian households' precautionary excess cash
+  holdings—₹3.12 trillion or 1.6% of broad money stock versus pre-pandemic—have
+  lowered income velocity of money (GDP/M3), muting inflationary effects. As
+  velocity normalizes with reduced cash hoarding, this monetary expansion could
+  add upward pressure on inflation, warranting MPC attention to 'monetary
+  arithmetic' beyond real-side factors. While repo rate hikes have weak
+  justification amid rising market rates, a stronger case exists for higher
+  reverse repo rate, shifting stance from accommodative to neutral, and dovish
+  guidance, especially as RBI updates its higher inflation forecast.
+key_points:
+  - >-
+    Global inflation divergences reflect varying post-COVID demand stimuli,
+    placing India above its 2-6% target midpoint by 2.1 points with persistent
+    pressures.
+  - >-
+    Excess household cash holdings of ₹3.12 trillion have reduced money
+    velocity, dampening inflation from RBI's liquidity injection.
+  - >-
+    Normalization of money velocity risks additional inflation from past
+    monetary expansion, demanding MPC vigilance on monetary factors.
+  - >-
+    MPC should prioritize higher reverse repo rate, neutral stance shift over
+    repo hikes amid weak case for the latter.
+topics:
+  - monetary-policy
+  - inflation-targeting
+  - rbi-mpc
+  - money-velocity
 tags:
   - MPC
   - economy
   - monetary policy
+source_hash: 2b144c9f6b78859d44193033771872f5a0cc97a50c7ae91a70e1b2c9a5e6e0c3
+summary_hash: 2b144c9f6b78859d44193033771872f5a0cc97a50c7ae91a70e1b2c9a5e6e0c3
+summary_at: '2026-05-05T13:07:40.291Z'
 ---
 **By Niranjan Rajadhyaksha**
 

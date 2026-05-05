@@ -2,15 +2,51 @@
 title: 'Artificial Intelligence: How to Regulate What We Know So Little About?'
 original_url: >-
   https://www.spontaneousorder.in/p/artificial-intelligence-how-to-regulate-what-we-know-so-little-about
+author: Spontaneous Order
 published_at: '2024-11-08T13:27:14.000Z'
 ingested_at: '2026-05-05T08:31:42.710Z'
-source_hash: 33b6019fb2d3649c5b09940fb359264c6aa2a1c8c708b82145d4c0796aa0db48
-author: Spontaneous Order
 excerpt: >-
   Artificial Intelligence is the official hot topic. It’s the talk of the town,
   where everyone has a view but few truly understand how it functions, and what
   it can truly contribute outside of a well drafted LinkedIn post or hyper real
   images, limited by
+summary: >-
+  Artificial Intelligence promises efficiency and innovation through tools like
+  self-driving cars and generative chatbots, but raises concerns over
+  misinformation, job loss, plagiarism, biases, and trust erosion, prompting
+  governments to regulate. The EU's Artificial Intelligence Act uses a
+  risk-based approach with tiered compliance; the US offers a federal AI Bill of
+  Rights blueprint alongside state privacy laws; the UK adopts a pro-innovation
+  strategy with flexible guidelines via existing regulators. Regulating AI is
+  challenging due to its unprecedented rapid integration, causing developer
+  caution over misuse; its evolving, self-learning nature, complicating ex-ante
+  scrutiny; and unclear liability for harms from autonomous decisions. For
+  India, lacking dedicated AI rules, rushing into specific legislation risks
+  stifling innovation amid uncertainties—creative destruction is essential.
+  Instead, grant staggered discretion to sector-specific regulators (e.g., IT
+  for deepfakes), balancing ethical usage, risks, and progress without a
+  specialized AI policy, ensuring norms emerge from liability determinations.
+key_points:
+  - >-
+    AI's rapid evolution and self-learning make ex-ante regulation impractical,
+    favoring flexible oversight.
+  - >-
+    Use existing sector-specific regulators like IT for high-risk cases such as
+    deepfakes, rather than new AI-specific laws.
+  - >-
+    Adopt a pro-innovation approach like the UK's to manage risks without
+    stifling creative destruction and progress.
+  - >-
+    Determine liability norms for AI harms to guide future regulations, striking
+    a balance between innovation and ethics in India.
+topics:
+  - ai-regulation
+  - india-policy
+  - innovation-policy
+  - regulatory-challenges
+source_hash: 33b6019fb2d3649c5b09940fb359264c6aa2a1c8c708b82145d4c0796aa0db48
+summary_hash: 33b6019fb2d3649c5b09940fb359264c6aa2a1c8c708b82145d4c0796aa0db48
+summary_at: '2026-05-05T09:01:52.630Z'
 ---
 **By Aakriti Parashar**
 

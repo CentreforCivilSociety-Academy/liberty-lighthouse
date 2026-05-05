@@ -2,15 +2,51 @@
 title: 'Let China Invest, it gets us Foreign Policy Leverage'
 original_url: >-
   https://www.spontaneousorder.in/p/let-china-invest-it-gets-us-foreign-policy-leverage
+author: Spontaneous Order
 published_at: '2020-04-29T17:43:41.000Z'
 ingested_at: '2026-05-05T08:31:42.423Z'
-source_hash: 539f3101274041d5c7297fb4c04a8005813fc1cece005240f678cea0c729dff6
-author: Spontaneous Order
 excerpt: >-
   I have castigated the government for curbing Chinese investments in India.
   Critics accuse me of endangering national security by espousing unhindered
   entry of a superpower that is not-so-friendly, if not an outright foe. Chinese
   companies are not normal..
+summary: >-
+  Swaminathan S.A. Aiyar argues that India should welcome Chinese investments
+  rather than restrict them, as this provides greater foreign policy leverage
+  over China. Critics fear Chinese state-controlled firms will dominate
+  strategic sectors amid low stock prices, but Aiyar counters that India holds
+  the upper hand, able to impose arbitrary rule changes disadvantaging
+  foreigners, as evidenced by past actions: Walmart's $16 billion Flipkart
+  acquisition was undermined by e-commerce rules favoring Reliance Jio; Vodafone
+  faced a $2 billion retrospective tax after Supreme Court victory; Nokia's
+  factory closed over a Rs 10,000 crore tax demand (settled at Rs 1,600 crore in
+  2018); 2G telecom licenses were canceled without compensation; and 1970s
+  nationalizations forced out Burmah Shell, Esso, Caltex, IBM, and Coca-Cola.
+  With safeguards like prohibiting strategic takeovers and mandating data
+  storage on Indian servers, more Chinese investment increases India's ability
+  to threaten regulatory retaliation. Aiyar, from a classical-liberal viewpoint,
+  sees India's reputation for 'bashing' investors as a strength, not a flaw,
+  turning the risk onto China. Depressed markets make now ideal for inflows to
+  boost prices and public sector auction proceeds exceeding a trillion rupees.
+key_points:
+  - >-
+    India gains foreign policy leverage by encouraging Chinese investments,
+    enabling threats of regulatory changes to disadvantage them.
+  - >-
+    Historical precedents like Walmart's $16 billion overpayment on Flipkart and
+    Nokia's Rs 10,000 crore tax dispute demonstrate India's power over foreign
+    investors.
+  - >-
+    Safeguards such as strategic sector prohibitions and data localization
+    mitigate risks while maximizing leverage.
+  - >-
+    Depressed stock prices provide an opportunity for Chinese inflows to raise
+    valuations and enhance public sector disinvestment auctions.
+topics:
+  - chinese-investment
+  - foreign-direct-investment
+  - economic-leverage
+  - india-china-relations
 tags:
   - Chinese economy
   - foreign dependence
@@ -20,6 +56,9 @@ tags:
   - China
   - pandemic
   - FDI
+source_hash: 539f3101274041d5c7297fb4c04a8005813fc1cece005240f678cea0c729dff6
+summary_hash: 539f3101274041d5c7297fb4c04a8005813fc1cece005240f678cea0c729dff6
+summary_at: '2026-05-05T10:40:31.263Z'
 ---
 **By Swaminathan SA Aiyer**
 

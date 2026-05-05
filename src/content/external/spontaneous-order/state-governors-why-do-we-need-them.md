@@ -1,18 +1,60 @@
 ---
 title: 'State Governors: Why Do We Need Them?'
 original_url: 'https://www.spontaneousorder.in/p/state-governors-why-do-we-need-them'
+author: Spontaneous Order
 published_at: '2018-08-06T08:36:40.000Z'
 ingested_at: '2026-05-05T08:31:42.525Z'
-source_hash: fa537b8af7a4077f11deb99a403349d294484747c36460d9cd485647bdc063e4
-author: Spontaneous Order
 excerpt: >-
   The state governors of India, a product of a time long-past, have been under
   the scrutiny of the public eye for a long time now. Yet, despite their
   notorious reputations, little seems to have been done. The colonial origins of
   the Governor’s position li
+summary: >-
+  State governors in India, originating from the colonial Government of India
+  Act 1935, were designed to retain British control over provincial governments
+  despite Indian leadership, a mechanism Congress initially opposed but later
+  endorsed upon gaining central power. Today, these unelected officials serve
+  the ruling party's interests at the Centre, prone to arbitrary dismissal—as in
+  the UPA government's 2013 sacking of four governors—and wield discretionary
+  powers without checks or accountability to state legislatures. In
+  opposition-ruled states, governors can dismantle governments citing
+  'constitutional breakdown,' exemplified by AAP's conflicts with Delhi's
+  Lieutenant Governor. In aligned states, they neglect duties during crises. Key
+  powers, like deciding post-election government formation and majority proofs,
+  invite bias, horse-trading, and election distortion, exacerbated by
+  governorships as post-retirement rewards for loyalists. From a
+  classical-liberal viewpoint emphasizing federalism and democratic
+  accountability, this unrepresentative, redundant position—with ceremonial
+  duties and unchecked authority—undermines India's constitutional federal
+  bedrock, warranting scrutiny on its necessity in a modern democracy.
+key_points:
+  - >-
+    State governors stem from the 1935 Government of India Act, enabling central
+    control over provinces, now abused by the ruling party as seen in UPA's 2013
+    dismissal of four governors.
+  - >-
+    Unelected governors hold discretionary powers to decide government formation
+    and majority proofs post-elections, lacking checks and vulnerable to
+    partisan bias and horse-trading.
+  - >-
+    Governors undermine federalism by overriding state governments in
+    opposition-ruled states or neglecting duties in aligned ones, as in
+    AAP-Delhi LG clashes.
+  - >-
+    The position serves as a political reward for loyalists, offering no
+    incentive for neutral duty fulfillment in a democracy valuing
+    accountability.
+topics:
+  - federalism
+  - state-governors
+  - constitutional-reform
+  - electoral-integrity
 tags:
   - Governors
   - State Governors
+source_hash: fa537b8af7a4077f11deb99a403349d294484747c36460d9cd485647bdc063e4
+summary_hash: fa537b8af7a4077f11deb99a403349d294484747c36460d9cd485647bdc063e4
+summary_at: '2026-05-05T12:10:16.663Z'
 ---
 **By Akshita Mathur**
 

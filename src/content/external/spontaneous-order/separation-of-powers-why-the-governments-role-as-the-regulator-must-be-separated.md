@@ -4,20 +4,56 @@ title: >-
   separated from the provider of education
 original_url: >-
   https://www.spontaneousorder.in/p/separation-of-powers-why-the-governments-role-as-the-regulator-must-be-separated-from-the-provider-of-education
+author: Spontaneous Order
 published_at: '2018-08-06T07:51:49.000Z'
 ingested_at: '2026-05-05T08:31:42.726Z'
-source_hash: 19225f1828346549cdc76666052782079f0be04ff3f5629f1926e6be78d283f1
-author: Spontaneous Order
 excerpt: >-
   If you have given your board examinations of class 12 in India, then you are
   certainly aware that your answer paper was not evaluated by your teachers.
   After the examination, the answer papers were bundled-up and distributed
   randomly amongst evaluators ..
+summary: >-
+  In India's education system, government officials like the Education
+  Secretary, DEOs, and BEOs simultaneously perform the conflicting roles of
+  'provider' (administering government schools) and 'regulator' (enforcing
+  policies on all schools), mirroring the bias prevented in board exam
+  evaluations where teachers do not grade their own students. This conflict
+  disincentivizes self-regulation: officers remedy violations in government
+  schools as providers and hide discrepancies rather than report them, leading
+  to only 6.4% of government schools adhering to RTE infrastructure norms with
+  zero shutdowns. In contrast, private schools face strict enforcement,
+  including numerous shutdowns or threats for similar violations. The author,
+  from a classical-liberal viewpoint, argues for separating these roles to
+  shield regulatory duties from provider interests, enabling objective oversight
+  akin to random paper assignment, ultimately improving accountability and
+  education quality without government self-protection undermining standards.
+key_points:
+  - >-
+    Government education officers cannot effectively regulate their own schools
+    due to role conflicts, resulting in hidden violations instead of
+    enforcement.
+  - >-
+    Only 6.4% of government schools comply with RTE infrastructure norms, with
+    no reported shutdowns, unlike private schools facing frequent closures.
+  - >-
+    Separate provider and regulator roles in education governance to prevent
+    bias, similar to random assignment of board exam papers to evaluators.
+  - >-
+    This separation would incentivize officers to objectively enforce policies
+    across all schools, enhancing overall accountability.
+topics:
+  - separation-of-powers
+  - education-regulation
+  - government-schools
+  - rte-act
 tags:
   - Regulation
   - Education
   - Separation of Powers
   - Indian Education System
+source_hash: 19225f1828346549cdc76666052782079f0be04ff3f5629f1926e6be78d283f1
+summary_hash: 19225f1828346549cdc76666052782079f0be04ff3f5629f1926e6be78d283f1
+summary_at: '2026-05-05T11:37:27.624Z'
 ---
 **By Alston DSouza**
 

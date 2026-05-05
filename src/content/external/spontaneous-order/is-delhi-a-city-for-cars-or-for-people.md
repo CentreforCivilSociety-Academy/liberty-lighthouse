@@ -1,20 +1,57 @@
 ---
 title: Is Delhi a City for Cars or for People?
 original_url: 'https://www.spontaneousorder.in/p/is-delhi-a-city-for-cars-or-for-people'
+author: Spontaneous Order
 published_at: '2022-01-11T14:51:25.000Z'
 ingested_at: '2026-05-05T08:31:42.280Z'
-source_hash: f8f91ea2857a86436c73670f39a25ecd16bf76cd5d857f4644c14aa5d86a50f7
-author: Spontaneous Order
 excerpt: >-
   It is no longer the season of stubble burning, the time of the year when air
   pollution around Delhi-NCR reaches alarming levels. This is also a time of
   great debate and deliberation. From politicians to government officials,
   environmental activists and...
+summary: >-
+  Delhi faces year-round air pollution, with AQI in 'very poor' category even in
+  January (PM2.5 >300), ranking as the world's most polluted capital from
+  2018-2020. Vehicular emissions dominate, causing 80% of carbon monoxide and
+  nitrogen oxides, and 28% of PM2.5, amid a surge in vehicles from 317 to 643
+  per thousand people (2005-06 to 2019-20). This erodes public space, widens
+  streets, builds flyovers, and displaces the urban poor. Government panic
+  measures like odd-even schemes or Supreme Court-suggested lockdowns treat
+  symptoms, ignoring the root: an unwalkable urban landscape forcing car use for
+  short trips. Drawing on Jane Jacobs' 'The Death and Life of Great American
+  Cities,' the author advocates spontaneous urban attrition of cars through
+  dense, mixed-use areas dominated by pedestrians and commerce, not mandates.
+  Delhi should prioritize: improving sidewalks (absent on 40% of roads, often
+  inadequate), adopting smaller blocks for easier crossings, and liberalizing
+  zoning to enable mixed residential-commercial uses, reducing commutes. These
+  classical-liberal reforms incentivize walking over coercive limits, fostering
+  vibrant street life and curbing pollution long-term.
+key_points:
+  - >-
+    Vehicular emissions account for 80% of CO/NOx and 28% of PM2.5 in Delhi,
+    exacerbated by 643 vehicles per thousand people.
+  - >-
+    Nearly 40% of Delhi's roads lack footpaths, making the city unwalkable and
+    compelling car use for short distances.
+  - >-
+    Adopt Jane Jacobs' principles: enhance sidewalks, create smaller urban
+    blocks, and ease zoning for mixed-use to organically reduce car dependency.
+  - >-
+    Prioritize urban design that incentivizes pedestrian activity over mandates
+    like odd-even or lockdowns to limit pollution.
+topics:
+  - air-pollution
+  - urban-planning
+  - walkability
+  - zoning-reform
 tags:
   - automobiles
   - Pollution
   - delhi
   - PM2.5
+source_hash: f8f91ea2857a86436c73670f39a25ecd16bf76cd5d857f4644c14aa5d86a50f7
+summary_hash: f8f91ea2857a86436c73670f39a25ecd16bf76cd5d857f4644c14aa5d86a50f7
+summary_at: '2026-05-05T10:27:26.703Z'
 ---
 **By Anirudh Goel**
 

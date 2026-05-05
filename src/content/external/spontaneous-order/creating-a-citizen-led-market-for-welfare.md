@@ -1,15 +1,53 @@
 ---
 title: Creating A Citizen-led Market for Welfare
 original_url: 'https://www.spontaneousorder.in/p/creating-a-citizen-led-market-for-welfare'
+author: Spontaneous Order
 published_at: '2018-08-06T08:06:47.000Z'
 ingested_at: '2026-05-05T08:31:42.526Z'
-source_hash: d5ac51fae02146184ec458c0d2ee0029e46c2036cb1016c755b32e11f82fadc3
-author: Spontaneous Order
 excerpt: >-
   Let citizens, not the state, decide the allocation of public money to civil
   society organisations. What is the best way to help others? Basically there
   are three options: Help myself — directly help others with my time, energy and
   money Help a charity
+summary: >-
+  Parth Shah argues that citizens overwhelmingly prefer direct self-help or
+  charitable giving (options 1 and 2) over state-run welfare (option 3), as
+  private approaches are more effective, personalized, and holistic, providing
+  not just material aid but also moral and behavioral support that bureaucratic
+  states cannot match. However, civil society organizations (CSOs) lack the
+  state's taxing power, making their funding unpredictable and preventing
+  reliance on them despite their superiority. To align principle with practice,
+  Shah proposes a citizen-led market for welfare: allow every citizen to
+  allocate x% of their direct tax dues directly to CSOs of their choice, sending
+  (1-x)% to the government. This provides CSOs with stable public funding
+  without state control, avoiding corruption and dependency. A public-private
+  entity like India Swavalamban Sangathan (ISS) would rate and verify CSOs,
+  enabling informed choices amid competing aggregators. Government schemes
+  continue from remaining revenue for comparison. Over time, this scales CSOs
+  into a vibrant, innovative ecosystem mirroring the economic market,
+  supplemented by private philanthropy, shifting welfare toward citizen-driven
+  options.
+key_points:
+  - >-
+    Citizens prefer self-help and charities over government welfare due to their
+    customization and holistic support.
+  - >-
+    CSOs lack reliable funding without taxation, hindering their potential
+    dominance in welfare delivery.
+  - >-
+    Allow citizens to allocate x% of direct taxes directly to chosen CSOs,
+    creating public funding without state control.
+  - >-
+    Establish rating agencies like ISS to verify and inform citizen choices
+    among competing CSOs.
+  - >-
+    This fosters a competitive 'welfare market' of scaled, innovative CSOs,
+    rivaling the economic market.
+topics:
+  - welfare-reform
+  - tax-donation
+  - cso-funding
+  - citizen-choice
 tags:
   - Citizen-led
   - CSO
@@ -18,6 +56,9 @@ tags:
   - Government
   - Civil Society Organisations
   - Current Affairs
+source_hash: d5ac51fae02146184ec458c0d2ee0029e46c2036cb1016c755b32e11f82fadc3
+summary_hash: d5ac51fae02146184ec458c0d2ee0029e46c2036cb1016c755b32e11f82fadc3
+summary_at: '2026-05-05T09:28:20.677Z'
 ---
 **By Parth Shah**
 

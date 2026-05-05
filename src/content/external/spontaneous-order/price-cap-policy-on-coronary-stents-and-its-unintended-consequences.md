@@ -2,20 +2,57 @@
 title: Price Cap Policy on Coronary Stents and its Unintended Consequences
 original_url: >-
   https://www.spontaneousorder.in/p/price-cap-policy-on-coronary-stents-and-its-unintended-consequences
+author: Spontaneous Order
 published_at: '2022-02-01T10:58:11.000Z'
 ingested_at: '2026-05-05T08:31:42.278Z'
-source_hash: 7e133bd5c5c0a722c46141b5ca69a21e6e6ad631031815497cb8c62cf4f010a2
-author: Spontaneous Order
 excerpt: >-
   Many LMIC economies, including India are getting crippled due to the surge in
   non communicable diseases (NCDs). A report titled India – Health of Nation’s
   States (2019) estimated that 61% of mortality and 55% of the disability
   adjusted life years were
+summary: >-
+  India's 2017 price cap on coronary stents slashed prices by 85%—bare metal
+  stents (BMS) to Rs 7,260 from Rs 45,000, drug-eluting stents (DES) to Rs
+  29,600 from Rs 1.21 lakh—aiming to enhance affordability amid NCDs causing 61%
+  of mortality and 55% of DALYs in 2016. From a classical-liberal viewpoint,
+  this well-intentioned policy ignored information constraints like absent RCTs
+  on stents' efficacy over lifestyle changes, yielding unintended consequences:
+  foreign firms withdrawing premium products, hospitals hiking non-stent costs
+  (balloons, catheters), 60% rise in DES and emergency procedures, 71% drop in
+  BMS use, and shifts from CABG to PCI. Stents offer only short-term symptomatic
+  relief, not reducing long-term heart attack risks. Per the Bhagwati-Ramaswami
+  theorem, superior policy targets root causes via primary care screening,
+  awareness campaigns, incentives for 150-300 minutes weekly moderate physical
+  activity, workplace stress reduction (gym vouchers, yoga), and nutrition
+  labeling, avoiding market distortions that provoke compensatory behaviors and
+  clinical misuse risking artery damage or clots.
+key_points:
+  - >-
+    India's stent price cap led to 71% decline in BMS procedures, 60% rise in
+    DES, non-transparent billing hikes, and PCI over CABG shifts.
+  - >-
+    Stents provide short-term relief but lack evidence for long-term CVD risk
+    reduction without RCTs versus medications or lifestyle changes.
+  - >-
+    Policymakers should prioritize preventive measures like early screening, PA
+    incentives, stress reduction programs, and nutrition awareness over price
+    controls.
+  - >-
+    Bhagwati-Ramaswami theorem favors intervening at CVD sources (lifestyle
+    risks) rather than consequences like stenting.
+topics:
+  - price-controls
+  - coronary-stents
+  - ncd-prevention
+  - health-policy
 tags:
   - stents
   - cardiac patient
   - Healthcare
   - health
+source_hash: 7e133bd5c5c0a722c46141b5ca69a21e6e6ad631031815497cb8c62cf4f010a2
+summary_hash: 7e133bd5c5c0a722c46141b5ca69a21e6e6ad631031815497cb8c62cf4f010a2
+summary_at: '2026-05-05T11:17:57.435Z'
 ---
 **By soumya gupta**
 

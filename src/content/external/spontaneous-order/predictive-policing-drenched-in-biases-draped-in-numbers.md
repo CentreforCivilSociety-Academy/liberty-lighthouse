@@ -2,20 +2,58 @@
 title: 'Predictive Policing: Drenched in Biases, Draped in Numbers'
 original_url: >-
   https://www.spontaneousorder.in/p/predictive-policing-drenched-in-biases-draped-in-numbers
+author: Spontaneous Order
 published_at: '2022-04-11T12:51:29.000Z'
 ingested_at: '2026-05-05T08:31:42.268Z'
-source_hash: 4d20788ea0b86509f28e8a1a4423ec225791cee91a3f57fff426ea0c2943da4d
-author: Spontaneous Order
 excerpt: >-
   Introduction Policing has had, within its folds, the essential element of
   crime prevention since antiquity. This wasn’t confined to just deterrent
   effects emanating from deified morality or fear of coarse and arbitrary
   punishment; but was in many cases
+summary: >-
+  Predictive policing, leveraging algorithms to forecast crime via theories like
+  rational choice and crime pattern, promises objective prevention but amplifies
+  biases from historical arrest data, as evidenced by LAPD's PredPol and LASER,
+  NYPD's 2012 software, and Chicago's ineffective 'heat list' targeting people
+  likely to commit gun violence. These systems perpetuate systemic racism
+  through feedback loops and dirty data, especially in jurisdictions with
+  unlawful police practices. In India, amid casteist and communal policing
+  biases, Delhi's CMAPS and Hyderabad's Integrated People Information Hub
+  aggregate intrusive data from ISRO, banks, biometrics, passports, phone
+  numbers, utilities, and family profiles, flouting the Principle of Least
+  Privilege. The Criminal Procedure (Identification) Bill 2022 mandates 75-year
+  retention of fingerprints, iris scans, and biological samples from anyone
+  arrested. From a classical-liberal lens, this draconian surveillance invades
+  privacy and discriminates against marginalized groups, prioritizing state
+  control over individual liberties. The author urges algorithmic accountability
+  laws like NYC's Local Law 49, step-by-step auditing, and citizen lawsuits
+  invoking privacy precedents to harmonize tech with rights.
+key_points:
+  - >-
+    Predictive policing algorithms magnify biases in arrest data, creating
+    feedback loops that target minorities and communities of color.
+  - >-
+    India's CMAPS and Hyderabad's Integrated People Information Hub collect vast
+    personal data without safeguards, enabling mass surveillance.
+  - >-
+    The Criminal Procedure (Identification) Bill 2022 requires 75-year retention
+    of biometric data from arrested persons, risking privacy violations.
+  - >-
+    Reforms must include legislative algorithmic accountability, technical
+    auditing, and legal challenges to protect fundamental rights.
+topics:
+  - predictive-policing
+  - privacy-rights
+  - police-bias
+  - data-surveillance
 tags:
   - Privacy
   - survelliance
   - policing
   - Freedom
+source_hash: 4d20788ea0b86509f28e8a1a4423ec225791cee91a3f57fff426ea0c2943da4d
+summary_hash: 4d20788ea0b86509f28e8a1a4423ec225791cee91a3f57fff426ea0c2943da4d
+summary_at: '2026-05-05T11:17:38.276Z'
 ---
 **By Gokul K. Sunoj**
 

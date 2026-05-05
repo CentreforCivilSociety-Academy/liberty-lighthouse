@@ -1,15 +1,50 @@
 ---
 title: Prescription for a Little Dose of Anarchism
 original_url: 'https://www.spontaneousorder.in/p/prescription-for-a-little-dose-of-anarchism'
+author: Spontaneous Order
 published_at: '2020-04-23T15:41:32.000Z'
 ingested_at: '2026-05-05T08:31:42.425Z'
-source_hash: 74e994b207b5bb6784f51665e911c9ac57f97eff85ef2407a4ce53cf79ce8e43
-author: Spontaneous Order
 excerpt: >-
   Anarchism is a Casandra among political ideologies. Cassandra was a mortal
   woman in Greek mythology cursed by Apollo to utter true prophecies, but never
   to be believed. She foresaw that Helen’s arrival to Troy would bring the
   city’s destruction in the
+summary: >-
+  Anarchism, likened to the mythological Cassandra for its unheeded truths, is a
+  noble ideology despising state coercion as unnecessary and evil, contrasting
+  Thomas Paine's 'necessary evil' view. Pioneered by Pierre-Joseph Proudhon in
+  1840's *What Is Property?*, it posits humans as naturally virtuous and
+  cooperative, fostering social harmony through spontaneous voluntary agreements
+  rather than imposed laws. Influenced by Gandhi, Tolstoy, Thoreau, Bakunin, and
+  Kropotkin, anarcho-pacifism rejects violence, emphasizing non-coercion and
+  mutual aid in self-sufficient communes akin to Gandhian Gram Swaraj.
+  Anarchists briefly controlled parts of Eastern Spain during the Spanish Civil
+  War, establishing workers' and peasants' collectives via direct democracy.
+  Rejecting state legitimacy as conquest-based and pro-rich, anarchism critiques
+  law, government, church alliances, and war as state violence, while upholding
+  individual autonomy and social solidarity. As antithesis to fascism and rising
+  authoritarian populism, it inspired Occupy Wall Street through David Graeber's
+  direct action principles. The author prescribes a 'little dose of anarchism'
+  in discourse to awaken moral instincts of freedom and equality, countering
+  authoritarian Leviathan and crony Mammon.
+key_points:
+  - >-
+    Anarchism rejects all state authority as coercive and evil, advocating
+    spontaneous cooperation and voluntary agreements for social harmony.
+  - >-
+    Anarcho-pacifism, drawing from Tolstoy and Gandhi, opposes violence as
+    inconsistent with anti-coercion principles.
+  - >-
+    Anarchists briefly governed Catalonia during the Spanish Civil War through
+    workers' collectives and direct democracy.
+  - >-
+    A dose of anarchist thought counters authoritarian populism by prioritizing
+    individual autonomy over state hegemony.
+topics:
+  - anarchism
+  - anti-statism
+  - political-philosophy
+  - authoritarianism
 tags:
   - policymaking
   - anarchy
@@ -19,6 +54,9 @@ tags:
   - State control
   - Liberalism
   - Reform Ideas
+source_hash: 74e994b207b5bb6784f51665e911c9ac57f97eff85ef2407a4ce53cf79ce8e43
+summary_hash: 74e994b207b5bb6784f51665e911c9ac57f97eff85ef2407a4ce53cf79ce8e43
+summary_at: '2026-05-05T11:17:45.882Z'
 ---
 **By Faisal CK**
 

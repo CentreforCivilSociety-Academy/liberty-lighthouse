@@ -2,20 +2,61 @@
 title: The pros and cons of big data used as economic signals
 original_url: >-
   https://www.spontaneousorder.in/p/the-pros-and-cons-of-big-data-used-as-economic-signals
+author: Spontaneous Order
 published_at: '2022-01-24T15:34:15.000Z'
 ingested_at: '2026-05-05T08:31:42.279Z'
-source_hash: c7a686c460135b0322243f2324a736124713534a41208a49ec0e19682b17f96f
-author: Spontaneous Order
 excerpt: >-
   The new wave of covid infections led by the Omicron variant of the Sars-CoV-2
   virus has once again restricted mobility in most parts of the country. People
   are spending more time at home, rather than at work places or retail stores or
   parks, going by th..
+summary: >-
+  Big data sources like Google mobility reports, night lights from satellites,
+  and e-way bills have proven invaluable for tracking economic activity in
+  real-time during the COVID-19 pandemic in India, offering quicker insights
+  than slow government quarterly estimates based on surveys and administrative
+  data. However, analysts must exercise caution when using them for growth
+  forecasts. An OECD study of 51 countries in Q2/Q3 2020 and 43 in Q4 found the
+  link between mobility and GDP growth weakening: a 10 percentage point mobility
+  change correlated with 2.2 percentage-point GDP change early on, dropping to
+  0.9 by Q4, due to targeted policies and societal adaptations like remote work.
+  Night lights data suffers from cloud-induced downward bias, as noted by xKDR
+  researchers Ayush Patnaik et al., who developed a correction algorithm. E-way
+  bills rise with goods demand shifts away from services during lockdowns but
+  may fall with reversals, misleading overall activity reads. Aggregating such
+  data into indexes is tricky due to varying frequencies and seasonality. From a
+  classical-liberal view, these private and innovative signals are here to stay,
+  accelerating economic analysis amid rapid change, but require solving
+  analytical puzzles for reliable use.
+key_points:
+  - >-
+    Big data like Google mobility fills the timeliness gap left by slow official
+    statistics during crises like COVID.
+  - >-
+    OECD analysis shows mobility's GDP predictive power halved from 2.2 to 0.9
+    percentage points per 10pp mobility change by late 2020 due to adaptations.
+  - >-
+    Night lights data needs cloud-bias corrections, as developed by xKDR Forum
+    researchers.
+  - >-
+    E-way bills overstate activity during goods-demand surges and understate
+    during services recovery.
+  - >-
+    Handle big data cautiously for economy-wide inferences, despite its welcome
+    permanence.
+topics:
+  - big-data
+  - economic-indicators
+  - covid-economy
+  - mobility-data
 tags:
   - big data
   - economy
   - pandemic
   - growth
+source_hash: c7a686c460135b0322243f2324a736124713534a41208a49ec0e19682b17f96f
+summary_hash: c7a686c460135b0322243f2324a736124713534a41208a49ec0e19682b17f96f
+summary_at: '2026-05-05T12:33:41.366Z'
 ---
 **By Niranjan Rajadhyaksha**
 

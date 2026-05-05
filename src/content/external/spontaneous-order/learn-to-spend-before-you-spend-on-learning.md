@@ -1,15 +1,49 @@
 ---
 title: Learn to Spend before you Spend on Learning!
 original_url: 'https://www.spontaneousorder.in/p/learn-to-spend-before-you-spend-on-learning'
+author: Spontaneous Order
 published_at: '2005-06-11T21:46:05.000Z'
 ingested_at: '2026-05-05T08:31:42.678Z'
-source_hash: 9ded36eed0c9bc372623c62ce2abef3f4e8b6bddcccf995bafa67529869fa74d
-author: Spontaneous Order
 excerpt: >-
   More on the education front…for long we have been talking that money is not
   the palliative for the ills afflicting education in the country. The moot
   question is who has the best incentive to spend the money just and efficiently
   for the cause of educati
+summary: >-
+  Naveen Mandava argues that simply pouring money into India's education system
+  fails to address its deep-seated problems, as the critical issue is who
+  controls the spending and their incentives to allocate it efficiently for
+  children's learning. He references his Economic Times article on the 'Grand
+  Drop-out Party,' highlighting systemic failures in education funding. Drawing
+  from discussions with Bangalore's Akshara Foundation, he notes that schools
+  receive budgets based on previous year's estimates rather than actual
+  requirements, forcing good principals to fudge accounts to prevent shortfalls
+  and ensure resources for students. This echoes a broader bureaucratic
+  inefficiency: a district with surplus funds for malaria control couldn't
+  redirect them from an earmarked leprosy scheme despite no leprosy cases,
+  leaving health needs unmet. From a classical-liberal viewpoint, such rigid,
+  top-down allocations distort incentives, waste resources, and undermine
+  effective education delivery, underscoring the need for mechanisms that
+  empower those closest to the ground—like schools and principals—with flexible,
+  needs-based funding to drive real improvements.
+key_points:
+  - >-
+    Money alone cannot fix India's education woes; proper incentives for
+    efficient spending are essential.
+  - >-
+    Schools receive budgets based on prior-year estimates, ignoring current
+    needs, prompting principals to manipulate accounts.
+  - >-
+    Bureaucratic earmarking prevents flexible use of funds, as seen in a
+    district unable to shift leprosy money to malaria treatment.
+topics:
+  - education
+  - school-funding
+  - government-incentives
+  - bureaucratic-inefficiency
+source_hash: 9ded36eed0c9bc372623c62ce2abef3f4e8b6bddcccf995bafa67529869fa74d
+summary_hash: 9ded36eed0c9bc372623c62ce2abef3f4e8b6bddcccf995bafa67529869fa74d
+summary_at: '2026-05-05T10:40:11.043Z'
 ---
 **By Naveen Mandava**
 

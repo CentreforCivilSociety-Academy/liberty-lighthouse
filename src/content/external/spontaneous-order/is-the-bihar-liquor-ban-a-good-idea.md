@@ -1,19 +1,57 @@
 ---
 title: Is the Bihar Liquor Ban a Good Idea?
 original_url: 'https://www.spontaneousorder.in/p/is-the-bihar-liquor-ban-a-good-idea'
+author: Spontaneous Order
 published_at: '2015-12-08T18:14:40.000Z'
 ingested_at: '2026-05-05T08:31:42.567Z'
-source_hash: d39602b94353dd2d03a86b429863a4a2a4625bcc5ce6f9a467a69221542c8e91
-author: Spontaneous Order
 excerpt: >-
   By Madhusudan Raj After a thumping victory against Narendra Modi and his
   nationalist BJP party, the new CM of Bihar, Nitish Kumar, has announced to
   fulfil one of his many election campaign promises of banning liquor sell and
   consumption in Bihar beginni..
+summary: >-
+  Nitish Kumar's Bihar government plans to ban liquor sales and consumption from
+  April 1, 2016, fulfilling a campaign promise to address women's complaints
+  about male drinking causing family nuisance and harming children's education.
+  From a classical-liberal perspective, drawing on Austrian economics like Mark
+  Thornton's 'The Economics of Prohibition,' the author argues this ban will
+  fail due to immutable human nature—evidenced by ancient drug use like Soma in
+  India—and lack of moral right for government to prohibit voluntary, victimless
+  consumption. Economically, reduced supply will raise prices, attracting mafias
+  and bootleggers, fostering violence and crime; addicts will commit thefts to
+  afford costlier liquor (e.g., 100 rupees doubling to 200), leaving even less
+  for education—achieving the opposite of stated goals. Liquor quality will
+  worsen, producing deadly hooch, as seen in Gujarat's 1960s ban and 2009
+  poisonings. Police will prioritize enforcement over real crimes, exacerbating
+  insecurity. Overall, the ban transforms a health issue into a criminal one,
+  exemplifying politicians' (BJP, JDU, Congress) uniform overreach; true choice
+  lies in minimizing state rule.
+key_points:
+  - >-
+    Liquor bans fail to curb consumption due to human nature and economics, as
+    prohibition raises prices and invites black markets.
+  - >-
+    Higher black-market prices will force addicts to commit more crimes like
+    theft, reducing family funds for children's education worse than before.
+  - >-
+    Prohibition leads to deadlier hooch, causing deaths as in Gujarat's repeated
+    incidents.
+  - 'Enforcement diverts police from real crimes, increasing overall criminality.'
+  - >-
+    Government lacks moral authority to ban voluntary, victimless acts like
+    drinking.
+topics:
+  - alcohol-prohibition
+  - black-markets
+  - government-overreach
+  - austrian-economics
 tags:
   - liquor ban
   - alcohol ban
   - Ban
+source_hash: d39602b94353dd2d03a86b429863a4a2a4625bcc5ce6f9a467a69221542c8e91
+summary_hash: d39602b94353dd2d03a86b429863a4a2a4625bcc5ce6f9a467a69221542c8e91
+summary_at: '2026-05-05T10:31:12.140Z'
 ---
 **By Guest Author**
 

@@ -1,17 +1,58 @@
 ---
 title: Safeguarding electoral democracies from majoritarianism
 original_url: 'https://www.spontaneousorder.in/p/safeguarding-electoral-democracies'
+author: Spontaneous Order
 published_at: '2021-04-07T11:55:42.000Z'
 ingested_at: '2026-05-05T08:31:42.335Z'
-source_hash: 6afcbbf4b4fed943712f3f5b776533e49776f0a27f5185f8aa4dfda0ff48ccae
-author: Spontaneous Order
 excerpt: >-
   Democracy always demands committed vigilance. Threats to democracy and freedom
   itself, in the form of the emergence of authoritarian leaders and the rise of
   populism, have increased. Populist leaders of all ideologies have emerged in
   every continent, en..
+summary: >-
+  Michelle Bernier argues from a classical-liberal perspective that electoral
+  democracies are endangered by majoritarianism and populism, which enable
+  authoritarian leaders to manipulate majority rule against individual freedoms.
+  She cites Latin American examples: Nicaragua's Ortega retaining political
+  prisoners amid COVID releases; Guyana's election denial; Bolivia's interim
+  government postponing elections and banning opposition; and Venezuela's Maduro
+  bribing voters with food and money for 2020 legislative control. These
+  illustrate how weak democratic systems, often conflated with majority
+  sovereignty, become tools for state control over citizens. Drawing on
+  Heinberg, J.S. Mill, Octavio Paz, and Norberto Bobbio, Bernier critiques pure
+  majoritarianism as tyranny equivalent to dictatorship, violating individual
+  sovereignty. In liberalism, true 'rule by the people' means self-governance,
+  not subjection to majority whims. She warns against the illusion that
+  democracy guarantees freedom, as seen in Malaysia's ethnic restrictions. The
+  remedy: constitutionally exclude fundamental rights (habeas corpus, speech,
+  property, association) from majority vote and require near-unanimity for
+  constitutional changes, granting individuals veto powers against
+  encroachments.
+key_points:
+  - >-
+    Populist regimes in Latin America, like Maduro's Venezuela and Ortega's
+    Nicaragua, manipulate elections and crises to entrench power under
+    democratic guise.
+  - >-
+    Majority rule in democracy often leads to minority exploitation and
+    individual rights violations, indistinguishable from dictatorship in effect.
+  - >-
+    Liberalism demands distributing and limiting power to prioritize individual
+    sovereignty over collective majoritarian decisions.
+  - >-
+    Protect core freedoms from majority encroachment via constitutional
+    exclusions and require unanimity for constitutional amendments to prevent
+    tyranny.
+topics:
+  - majoritarianism
+  - liberal-democracy
+  - individual-rights
+  - populism
 tags:
   - Democracy
+source_hash: 6afcbbf4b4fed943712f3f5b776533e49776f0a27f5185f8aa4dfda0ff48ccae
+summary_hash: 6afcbbf4b4fed943712f3f5b776533e49776f0a27f5185f8aa4dfda0ff48ccae
+summary_at: '2026-05-05T11:32:14.880Z'
 ---
 **By Michelle Bernier**
 

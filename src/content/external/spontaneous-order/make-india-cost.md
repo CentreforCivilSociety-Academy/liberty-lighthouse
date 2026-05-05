@@ -1,15 +1,52 @@
 ---
 title: 'Make in India: but at what cost?'
 original_url: 'https://www.spontaneousorder.in/p/make-india-cost'
+author: Spontaneous Order
 published_at: '2016-02-24T17:17:18.000Z'
 ingested_at: '2026-05-05T08:31:42.560Z'
-source_hash: f5dc14626d049973d6b4d20df4284d09e805cee0b206f7964068c3b859d3f893
-author: Spontaneous Order
 excerpt: >-
   In a recent move, the government removed the import duty exemptions on 74
   lifesaving drugs, in order to give impetus to its ‘Make in India’ campaign.
   Let that sink in. Drugs that are used in the treatment of Cancer, Parkinson’s
   and a host of other v
+summary: >-
+  The Indian government's removal of import duty exemptions on 74 lifesaving
+  drugs, including treatments for cancer, Parkinson’s, and Haemophilia, to boost
+  the 'Make in India' campaign exemplifies misguided protectionism akin to
+  pre-1991 socialism. This policy raises drug prices for patients, particularly
+  those with Haemophilia where superior foreign concentrates have no adequate
+  Indian generic alternatives, prioritizing domestic industry over consumer
+  welfare. The author argues that shielding industries from competition fosters
+  complacency rather than innovation, contradicting classical-liberal principles
+  where consumer-driven demand should allocate resources optimally.
+  Policymakers' claims of domestic capability ignore market signals; better
+  alternatives include awareness campaigns for generics or addressing production
+  barriers. Economic activity's ultimate aim is consumption, not employment or
+  industry promotion—foreign competitive advantages benefit Indian buyers
+  through lower prices. While 'Make in India' could advance by easing FDI caps
+  and regulations across sectors like services and agriculture, alongside
+  infrastructure, judicial, and property rights reforms, protectionist measures
+  like this signal state capitalism's pitfalls, risking discretionary
+  anti-market resource allocation.
+key_points:
+  - >-
+    Removing import duty exemptions on 74 lifesaving drugs raises costs for
+    cancer, Parkinson’s, and Haemophilia patients to favor domestic producers
+    under 'Make in India'.
+  - >-
+    Protectionism stifles innovation by shielding industries from competition,
+    echoing failed socialist policies.
+  - >-
+    Consumers, not policymakers, should direct resource allocation through free
+    markets to maximize welfare.
+  - >-
+    Prioritize broad reforms in infrastructure, courts, property rights, and
+    regulations over sector-specific interventions.
+topics:
+  - make-in-india
+  - protectionism
+  - pharmaceuticals
+  - free-trade
 tags:
   - Narendra Modi
   - Protectionism
@@ -17,6 +54,9 @@ tags:
   - Make in India
   - economy
   - Economics
+source_hash: f5dc14626d049973d6b4d20df4284d09e805cee0b206f7964068c3b859d3f893
+summary_hash: f5dc14626d049973d6b4d20df4284d09e805cee0b206f7964068c3b859d3f893
+summary_at: '2026-05-05T10:47:17.536Z'
 ---
 **By Ujwal Batra**
 

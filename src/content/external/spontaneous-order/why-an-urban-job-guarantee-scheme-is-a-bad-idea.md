@@ -2,20 +2,62 @@
 title: Why an urban job guarantee scheme is a bad idea
 original_url: >-
   https://www.spontaneousorder.in/p/why-an-urban-job-guarantee-scheme-is-a-bad-idea
+author: Spontaneous Order
 published_at: '2020-11-25T12:44:26.000Z'
 ingested_at: '2026-05-05T08:31:42.366Z'
-source_hash: 9103847441037a640f953e685695067c9fd4a7318960dd842d86871e69846182
-author: Spontaneous Order
 excerpt: >-
   The government is reportedly considering an urban jobs scheme. Some economists
   hope this can be the start of an Urban Employment Guarantee Scheme, analogous
   to the Mahatma Gandhi Rural Employment Guarantee Scheme (MGNREGA). Economist
   Jean Drèze has sugg.
+summary: >-
+  Swaminathan S.A. Aiyar argues against scaling up urban job guarantees like a
+  proposed Decentralised Urban Employment and Training (DUET) scheme analogous
+  to MGNREGA, warning it would distort labor markets from a classical-liberal
+  viewpoint. Urban minimum wages, such as Delhi's ₹570 per day for unskilled
+  labor versus MGNREGA's national average of ₹202, would attract rural migrants,
+  swelling urban slums, congestion, pollution, and potentially unemployment
+  without reducing absolute joblessness. This could trigger a migration cycle
+  where higher budgetary outlays draw even more immigrants, undermining full
+  employment goals. States like Uttar Pradesh pay MGNREGA ₹201 against ₹337
+  minimum wage plus dearness allowance, making urban schemes fiscally
+  inefficient—doubling wages halves jobs created per rupee spent. Amid slowing
+  GDP growth, deglobalisation, tripling of open unemployment to 6%, and labor
+  force participation crashing from 64% to under 50%, structural job losses from
+  technology make guarantees impossible. Aiyar favors expanding budget-strapped
+  MGNREGA to maximize rural jobs for the poorest and curb migration, or limited
+  experiments like job stamps for maintenance, but rejects full urban guarantees
+  that sabotage MGNREGA's anti-migration intent and ignore labor shortages
+  post-Covid.
+key_points:
+  - >-
+    Urban job guarantees at high city minimum wages like Delhi's ₹570/day will
+    induce rural immigration, creating congestion and a cycle of rising
+    expenditures without achieving full employment.
+  - >-
+    Fiscal constraints demand prioritizing MGNREGA expansions, which create
+    twice as many jobs per rupee as urban schemes at double the wage.
+  - >-
+    Structural trends like 6% unemployment tripling, labor force participation
+    falling below 50%, and technological job losses make urban guarantees
+    unviable.
+  - >-
+    Limited experiments with job stamps for urban maintenance are acceptable,
+    but full guarantees risk corruption via placement agencies and inspector
+    raj.
+topics:
+  - employment-guarantee
+  - urban-jobs
+  - labor-migration
+  - minimum-wage
 tags:
   - Swaminomics
   - Swaminathan Aiyar
   - Employment Guarantee Scheme
   - Governance
+source_hash: 9103847441037a640f953e685695067c9fd4a7318960dd842d86871e69846182
+summary_hash: 9103847441037a640f953e685695067c9fd4a7318960dd842d86871e69846182
+summary_at: '2026-05-05T13:04:09.702Z'
 ---
 **By Swaminathan SA Aiyer**
 

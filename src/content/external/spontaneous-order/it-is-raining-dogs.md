@@ -1,15 +1,52 @@
 ---
 title: It is raining dogs!
 original_url: 'https://www.spontaneousorder.in/p/it-is-raining-dogs'
+author: Spontaneous Order
 published_at: '2005-07-05T21:49:23.000Z'
 ingested_at: '2026-05-05T08:31:42.676Z'
-source_hash: 329f81c03bdefe6bdd0984f76e68974582928f5dbb76afe6d6fdc8e5010bb795
-author: Spontaneous Order
 excerpt: >-
   Remember the dog in the manger story where the dog would sit on the hay and
   not let anybody use it, inspite of being himself unable to use it. It is
   something similar with the agencies involved in predicting the monsoon in
   India. To have an extent of th..
+summary: >-
+  Indian government agencies responsible for monsoon predictions act like the
+  'dog in the manger,' hoarding weather data they cannot effectively use or
+  disseminate, forcing farmers to rely on private sources like ITC e-Choupals
+  and an NGO in Chennai using a US website for fishermen. These agencies fail
+  due to no obligation to provide timely, succinctly packaged information
+  tailored to users' needs; data is delayed, not user-friendly, and partially
+  censored for 'security' before sharing with privates. Research from the US and
+  UK shows governments gain more from freely releasing weather info with minimal
+  security restrictions, boosting productivity and tax revenues compared to
+  charging high prices. This exemplifies a core government flaw: lacking
+  mechanisms and incentives for information collection and action, as seen in
+  Delhi's absent school records, leading to ineffective schemes. The author
+  invokes Hayek's 'The Use of Knowledge in Society' to highlight dispersed
+  knowledge's role in governance and 'The Wisdom of the Crowds' for harnessing
+  collective wisdom, urging public release of government weather data for better
+  outcomes.
+key_points:
+  - >-
+    Government weather agencies withhold timely, user-friendly monsoon data,
+    driving reliance on private alternatives like ITC e-Choupals.
+  - >-
+    Agencies fuzz data for security before private sharing, lacking incentives
+    to serve farmers and fishermen effectively.
+  - >-
+    US and UK studies prove free public weather data increases productivity and
+    government tax revenues over restricted access.
+  - >-
+    Governments design flawed policies due to information handicaps, such as
+    missing school attendance records in Delhi.
+topics:
+  - weather-forecasting
+  - government-failure
+  - information-sharing
+  - hayek-knowledge
+source_hash: 329f81c03bdefe6bdd0984f76e68974582928f5dbb76afe6d6fdc8e5010bb795
+summary_hash: 329f81c03bdefe6bdd0984f76e68974582928f5dbb76afe6d6fdc8e5010bb795
+summary_at: '2026-05-05T10:31:44.833Z'
 ---
 **By Naveen Mandava**
 

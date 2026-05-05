@@ -1,15 +1,56 @@
 ---
 title: The Problem of State Dependence
 original_url: 'https://www.spontaneousorder.in/p/the-problem-of-state-dependence'
+author: Spontaneous Order
 published_at: '2022-03-30T12:22:17.000Z'
 ingested_at: '2026-05-05T08:31:42.270Z'
-source_hash: d542bbcd17cf13ad34156591c807e8c86b58c0dc63aae5e907abbc2461cf6ba6
-author: Spontaneous Order
 excerpt: >-
   Amid flickers of economic freedom, demand for state dependence (specially when
   designing policies for the poor) remains high in India. Through the years,
   Central and state governments have both enabled and been overburdened by this
   dependence. While the..
+summary: >-
+  India's persistent demand for state dependence, particularly in policies for
+  the poor, is enabled by governments through populist freebies like cash
+  transfers and subsidies, especially ahead of elections, overburdening state
+  finances. Examples include AAP's INR 25,000 crore promises (15% of Punjab's
+  budget) for cash and electricity subsidies, Tamil Nadu's projected INR
+  5,70,189.29 crore debt by March 2022, and Punjab and Uttar Pradesh's highest
+  debt-to-GSDP ratios at 39.9% and 38.1%. While subsidies for merit goods like
+  education and health correlate positively with literacy and inversely with
+  infant mortality, non-merit subsidies like electricity (e.g., Punjab's INR
+  18,000 crore in 2020-21 plus INR 9,000 crore more) foster overconsumption and
+  environmental harm. This dependence exposes beneficiaries to political
+  volatility, as seen in the Farm Laws' passage post-2019 elections and rollback
+  before 2022 state polls. From a classical-liberal view, the solution lies in
+  greater economic freedom: liberal policies enhancing ease of doing business
+  create market opportunities, as in Bangladesh's textile sector boosting
+  women's participation and bargaining power, reducing reliance on paternalistic
+  state interventions for sustainable upward mobility.
+key_points:
+  - >-
+    Populist election promises of cash transfers and electricity subsidies, like
+    AAP's INR 25,000 crore in Punjab, drive high state debt levels such as Tamil
+    Nadu's INR 5.7 lakh crore.
+  - >-
+    Subsidies for merit goods like education and health improve literacy and
+    reduce infant mortality, but non-merit subsidies like electricity cause
+    overconsumption.
+  - >-
+    State dependence on subsidies makes the poor vulnerable to political
+    changes, exemplified by the Farm Laws' rollback ahead of state polls.
+  - >-
+    Classical-liberal policies promoting ease of doing business create economic
+    opportunities that empower the poor, as seen in Bangladesh's garment
+    industry enhancing women's independence.
+topics:
+  - populism
+  - subsidies
+  - state-dependence
+  - economic-freedom
+source_hash: d542bbcd17cf13ad34156591c807e8c86b58c0dc63aae5e907abbc2461cf6ba6
+summary_hash: d542bbcd17cf13ad34156591c807e8c86b58c0dc63aae5e907abbc2461cf6ba6
+summary_at: '2026-05-05T12:33:28.462Z'
 ---
 **By Paavi Kulshreshth**
 

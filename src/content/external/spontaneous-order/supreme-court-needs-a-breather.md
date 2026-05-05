@@ -1,19 +1,56 @@
 ---
 title: The Supreme Court of India Needs a Breather
 original_url: 'https://www.spontaneousorder.in/p/supreme-court-needs-a-breather'
+author: Spontaneous Order
 published_at: '2019-12-31T12:12:35.000Z'
 ingested_at: '2026-05-05T08:31:42.452Z'
-source_hash: f3cde7797a3dcda022bb313d03e745b1ff2a6a3534eeb08a1a20065222c6942c
-author: Spontaneous Order
 excerpt: >-
   In September 2019, while launching a book, the Vice President and Chairman of
   the Rajya Sabha, M. Venkaiah Naidu, spoke about judicial reforms for the
   speedy resolution of pending cases. In his speech, Mr Naidu suggested
   bifurcating the Supreme Court in..
+summary: >-
+  The Supreme Court of India is overburdened by its expansive jurisdiction under
+  Article 32 for fundamental rights enforcement, appellate role in civil and
+  criminal cases, and advisory powers under Article 143, causing severe delays
+  in justice delivery. The post advocates bifurcating the Court into a
+  Constitutional Division for constitutional matters and a Legal Division for
+  appeals, as recommended by the 10th Law Commission (1984, 95th Report), 11th
+  (125th Report), and 18th (2009, suggesting four cassation benches). Vice
+  President M. Venkaiah Naidu proposed four regional branches in 2019.
+  Internationally, 55 nations like France, Germany, Colombia, and Russia operate
+  separate constitutional courts alongside courts of last appeal. India's
+  judge-to-population ratio stands at a mere 10.5 per million, far below the US
+  (107), Canada (75), UK (51), and Australia (46). Regional benches would
+  alleviate travel and cost burdens on litigants, especially the poor, aligning
+  with Article 130's provision for alternative seats. From a classical-liberal
+  perspective, this reform would decongest the apex court, enabling greater
+  enforcement of the rule of law and timely access to justice for individuals.
+key_points:
+  - >-
+    Bifurcate the Supreme Court into Constitutional and Legal divisions to
+    separate constitutional matters from appeals and reduce pendency.
+  - >-
+    Establish four regional branches to minimize litigants' travel costs and
+    time, particularly benefiting poorer parties.
+  - >-
+    India's 10.5 judges per million people lags far behind peers like the US
+    (107) and UK (51), necessitating structural reforms.
+  - >-
+    Multiple Law Commissions (10th, 11th, 18th) and 55 global precedents support
+    dedicated constitutional courts for efficient judicial functioning.
+topics:
+  - judicial-reform
+  - supreme-court
+  - rule-of-law
+  - regional-benches
 tags:
   - Rule Of Law
   - Supreme Court of India
   - Supreme Court
+source_hash: f3cde7797a3dcda022bb313d03e745b1ff2a6a3534eeb08a1a20065222c6942c
+summary_hash: f3cde7797a3dcda022bb313d03e745b1ff2a6a3534eeb08a1a20065222c6942c
+summary_at: '2026-05-05T12:12:52.280Z'
 ---
 **By Spontaneous Order**
 

@@ -1,18 +1,54 @@
 ---
 title: 'Delhi’s Odd-Even Rule: An Appropriate New Year’s Present?'
 original_url: 'https://www.spontaneousorder.in/p/odd-even-rule-appropriate-new-years-present'
+author: Spontaneous Order
 published_at: '2015-12-30T19:19:50.000Z'
 ingested_at: '2026-05-05T08:31:42.566Z'
-source_hash: 9ffbd9ea9de36d3cfb990d888cd439af9aab0c40aa5da419e9467a1555aec63c
-author: Spontaneous Order
 excerpt: >-
   By Ayurshi Dutt Delhi’s air quality has shifted from ‘very poor’ to
   ‘hazardous’ due to ultra-fine particulate matter or PM 2.5 emissions.
   According to an announcement made by the Delhi government, vehicles with odd
   and even number plates will pl
+summary: >-
+  Delhi's odd-even vehicle rationing scheme, starting January 1, 2016, aims to
+  combat hazardous PM2.5 pollution amid claims it kills one person hourly, but
+  evidence from similar policies is mixed and its success hinges on robust
+  public transport. Beijing's 2008 pilot saw a 40% emissions drop, leading to
+  permanent restrictions on a fifth of vehicles, while Mexico City's 1989
+  program initially cut pollution 11% but spurred second-car purchases,
+  resulting in a 13% long-term rise in carbon monoxide and no public transit
+  ridership increase. The author argues Delhi's 15-day trial is flawed, as
+  school closures remove buses, potentially inflating success, and pollution
+  reductions may be minimal per some analyses. A classical-liberal critique
+  highlights regulatory barriers like auto-rickshaw permit caps creating
+  artificial scarcity, high fares, and supply shortages; dismantling this
+  'license-permit raj' alongside metro expansions, higher frequencies, and
+  last-mile connectivity is essential. While commending government intent, the
+  piece stresses good policies over good intentions, urging mindset shifts to
+  avoid future gas-chamber living.
+key_points:
+  - >-
+    Odd-even schemes show mixed results: Beijing achieved 40% emissions drop but
+    ongoing restrictions; Mexico City saw initial 11% pollution cut but 13% CO
+    rise long-term due to second cars.
+  - >-
+    Delhi's policy requires robust public transport, including increased metro
+    frequency and last-mile solutions, to succeed.
+  - >-
+    Regulatory caps on auto-rickshaws create scarcity and high fares;
+    dismantling license-permit raj is needed for better supply.
+  - 15-day trial is inadequate and skewed by school closures removing buses.
+topics:
+  - air-pollution
+  - odd-even-scheme
+  - public-transport
+  - regulatory-reform
 tags:
   - Air pollution
   - delhi
+source_hash: 9ffbd9ea9de36d3cfb990d888cd439af9aab0c40aa5da419e9467a1555aec63c
+summary_hash: 9ffbd9ea9de36d3cfb990d888cd439af9aab0c40aa5da419e9467a1555aec63c
+summary_at: '2026-05-05T11:06:46.759Z'
 ---
 **By Guest Author**
 

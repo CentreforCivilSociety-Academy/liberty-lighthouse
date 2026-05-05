@@ -1,20 +1,59 @@
 ---
 title: 'Aadhaar for Subsidies, Not Surveillance'
 original_url: 'https://www.spontaneousorder.in/p/aadhaar-for-subsidies-not-surveillance'
+author: Spontaneous Order
 published_at: '2018-08-02T10:49:25.000Z'
 ingested_at: '2026-05-05T08:31:42.534Z'
-source_hash: 3dab3d512dd4a3a61fefec09f404fe95b475313f4b6fe62066d566d8ce6b3e4a
-author: Spontaneous Order
 excerpt: >-
   The purpose of Aadhaar is written in the title of the Aadhaar Act 2016 itself,
   as if to ensure that there is no confusion about it — The Aadhaar (Targeted
   Delivery of Financial and Other Subsidies, Benefits and Services) Act, 2016.
   It further states thi
+summary: >-
+  The Aadhaar (Targeted Delivery of Financial and Other Subsidies, Benefits and
+  Services) Act, 2016 explicitly limits Aadhaar's purpose to efficient,
+  transparent delivery of Union government subsidies, benefits, and services
+  funded from the Consolidated Fund of India, aligning with public support for
+  rationalizing subsidies. From a classical-liberal perspective, the
+  government's push to mandate Aadhaar linkage for non-subsidy items like mobile
+  numbers, bank accounts, passports, PAN cards, Demat accounts, and large
+  purchases is illegal, reflecting a 'public servile mentality' that violates
+  its own legislation. The Act exempts private goods/services funded by
+  households/companies and those from state/local governments. The author urges
+  the Supreme Court in ongoing 'Aadhaar Case' hearings to enforce this legal
+  scope. Before expansion, the government must master implementation challenges
+  in pilots, which seriously impact vulnerable populations' lives and
+  livelihoods. UIDAI's responses to criticisms raise doubts about state capacity
+  for transparency and accountability. Focusing on core uses would demonstrate
+  sincerity and achieve a historic governance win, prioritizing targeted public
+  service over surveillance.
+key_points:
+  - >-
+    Aadhaar Act 2016 legally restricts Aadhaar to Union government subsidies
+    from the Consolidated Fund of India.
+  - >-
+    Mandating Aadhaar for mobiles, PAN, passports, and non-subsidy bank accounts
+    is illegal and betrays the Act's purpose.
+  - >-
+    Private entities, state, and local government services are exempt from
+    Aadhaar requirements.
+  - >-
+    Government must fix implementation challenges affecting vulnerable people
+    before any expansion.
+  - Supreme Court should enforce the Act's precise scope in current hearings.
+topics:
+  - aadhaar
+  - subsidies
+  - privacy-rights
+  - government-overreach
 tags:
   - subsidies
   - Aadhaar
   - Privacy
   - Surveillance
+source_hash: 3dab3d512dd4a3a61fefec09f404fe95b475313f4b6fe62066d566d8ce6b3e4a
+summary_hash: 3dab3d512dd4a3a61fefec09f404fe95b475313f4b6fe62066d566d8ce6b3e4a
+summary_at: '2026-05-05T08:50:22.444Z'
 ---
 **By Parth Shah**
 

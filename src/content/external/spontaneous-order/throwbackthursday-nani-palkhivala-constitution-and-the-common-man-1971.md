@@ -2,15 +2,53 @@
 title: Nani Palkhivala —Constitution and the Common Man (1971)
 original_url: >-
   https://www.spontaneousorder.in/p/throwbackthursday-nani-palkhivala-constitution-and-the-common-man-1971
+author: Spontaneous Order
 published_at: '2015-06-25T18:18:45.000Z'
 ingested_at: '2026-05-05T08:31:42.580Z'
-source_hash: 2c9fa2577b33c8712c27c79c498a743801933bbc38ba770a45a012f3d346de51
-author: Spontaneous Order
 excerpt: >-
   This article was published in the February 1971 issue of Freedom First and is
   an excerpt from a lecture delivered in Bombay. At the time, the right to
   property was still a fundamental right but was constantly being undermined by
   our legislators. An emin..
+summary: >-
+  Nani Palkhivala argues that India's nascent 23-year-old democracy,
+  unprecedented in its history, faces extinction without zealous guarding of
+  fundamental rights, the 'soul' and 'conscience' of the Constitution, which
+  prioritize individual freedom and dignity over state power and transient
+  politicians. The Constitution, shaped for the common man, encourages wealth
+  creation through fundamental rights to property, trade, business, and
+  profession, rejecting levelling-down ideologies. Amid rising
+  fanaticism—regional, linguistic, communal, economic—amending the Constitution
+  to empower Parliament to abridge these rights would betray freedoms. The right
+  to property, derided in socialist rhetoric, is essential for a sound democracy
+  and economic progress, aligning with human nature and enshrined globally, even
+  in communist states for personal labor fruits. In India, it is already heavily
+  attenuated: 64 parliamentary and state acts infringing it are constitutionally
+  valid, compensation adequacy unchallengable, and it excludes zamindari
+  abolition and agrarian reforms. Retaining it is imperative as it underpins
+  other rights like speech and association. Palkhivala debunks the myth that the
+  Constitution hinders progress, blaming disastrous government economic policies
+  for 17 million unemployed and widespread poverty below subsistence. Thinking
+  citizens, the silent majority, must actively defend these rights against
+  demagoguery.
+key_points:
+  - >-
+    India's freedom is one election from extinction without safeguarding
+    fundamental rights against legislative undermining.
+  - >-
+    The right to property is vital for economic progress, already restricted by
+    64 valid acts, and essential to other freedoms.
+  - >-
+    Government economic policies, not the Constitution, cause mass unemployment
+    and poverty.
+  - >-
+    Citizens must actively oppose amendments abridging fundamental rights amid
+    rising fanaticism.
+topics:
+  - indian-constitution
+  - fundamental-rights
+  - right-to-property
+  - rule-of-law
 tags:
   - Libertarian Scholars
   - Right to Property
@@ -20,6 +58,9 @@ tags:
   - '#throwbackthursday'
   - civil liberrties
   - Law
+source_hash: 2c9fa2577b33c8712c27c79c498a743801933bbc38ba770a45a012f3d346de51
+summary_hash: 2c9fa2577b33c8712c27c79c498a743801933bbc38ba770a45a012f3d346de51
+summary_at: '2026-05-05T12:42:46.324Z'
 ---
 **By spontaneousadmin**
 

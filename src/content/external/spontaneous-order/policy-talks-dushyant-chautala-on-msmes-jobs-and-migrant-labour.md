@@ -2,15 +2,57 @@
 title: 'Policy Talks: Dushyant Chautala on MSMEs, Jobs and Migrant Labour'
 original_url: >-
   https://www.spontaneousorder.in/p/policy-talks-dushyant-chautala-on-msmes-jobs-and-migrant-labour
+author: Spontaneous Order
 published_at: '2020-06-19T18:18:54.000Z'
 ingested_at: '2026-05-05T08:31:42.408Z'
-source_hash: 95d03d4ad1eb80f8a800c89b460661782eea3e743e29508854efe1d64afc60b3
-author: Spontaneous Order
 excerpt: >-
   Intro: Haryana’s dynamic Deputy Chief Minister, Dushyant Chautala, is a young
   man of action. He has set out to turn the Coronavirus pandemic into an
   opportunity by introducing some of the most far-reaching reforms in
   agriculture and industry. In an exha
+summary: >-
+  In an interview with CCS CEO Yatish Rajawat, Haryana Deputy CM Dushyant
+  Chautala details market-oriented reforms leveraging the COVID-19 crisis to
+  boost agriculture, MSMEs, jobs, and revenue. Haryana pioneered faster farmer
+  payments via the 'Meri Fasal, Mera Byora' app, processing wheat worth ₹12,000
+  crore, transferring ₹9,000 crore to arthiyas and ₹6,200 crore directly to
+  farmers within 10-15 days—targeting seven days—bypassing traditional delays
+  and earning positive feedback as a step toward doubling farmers' incomes.
+  Historic logistics saw 270+ trains evacuate 4 lakh MT wheat in 20 days. For
+  MSMEs, district-level committees coordinate bank lending (with RBI mandating
+  25% to agri/MSMEs), 22 district clusters (e.g., medical in one), and an
+  Enterprise Promotion Policy 2020-25 to attract investments like ₹7,500 crore
+  from Amperex Technology Limited for lithium batteries and Italian food
+  processing. Migrant labor shortages are addressed via e-passes (50,000
+  processed) and a forthcoming Rojgar portal for accurate unemployment data,
+  dismissing official 43.2% April peak as unreliable. Revenue strategies include
+  leasing HSIIDC/panchayat land, KMP railway corridor, and Hisar aviation hub,
+  while cutting miscellaneous expenditure. Chautala emphasizes state
+  self-reliance alongside Centre support, streamlining PDS biometrics, and
+  Haryana's #2 Ease of Doing Business rank aiming for #1, showcasing
+  classical-liberal reforms for enterprise and efficiency over socialism.
+key_points:
+  - >-
+    Haryana reformed wheat procurement payments via 'Meri Fasal, Mera Byora'
+    app, paying farmers ₹6,200 crore within 10-15 days for the first time,
+    targeting seven days.
+  - >-
+    Created MSME support committees at state/district levels to boost bank
+    lending and 22 district-specific clusters, alongside Enterprise Promotion
+    Policy 2020-25 attracting ₹7,500 crore investments.
+  - >-
+    Processed 50,000 e-passes for migrant workers' return and launching Rojgar
+    portal for precise unemployment tracking, rejecting official 43.2% rate as
+    inaccurate.
+  - >-
+    Leasing non-cultivable land and planning infrastructure like KMP railway and
+    Hisar aviation hub to generate 10,000 jobs per major industry and offset
+    revenue losses from ₹22,350 crore budget.
+topics:
+  - agricultural-reforms
+  - msme-support
+  - migrant-labour
+  - ease-of-doing-business
 tags:
   - small-scale private enterprise
   - policymaking
@@ -20,6 +62,9 @@ tags:
   - policy talks
   - private enterprise
   - labor emigration
+source_hash: 95d03d4ad1eb80f8a800c89b460661782eea3e743e29508854efe1d64afc60b3
+summary_hash: 95d03d4ad1eb80f8a800c89b460661782eea3e743e29508854efe1d64afc60b3
+summary_at: '2026-05-05T11:14:43.501Z'
 ---
 **By Spontaneous Order**
 

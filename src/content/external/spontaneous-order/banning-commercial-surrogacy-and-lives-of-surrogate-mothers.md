@@ -2,15 +2,51 @@
 title: 'Banning Commercial Surrogacy & Lives of Surrogate Mothers '
 original_url: >-
   https://www.spontaneousorder.in/p/banning-commercial-surrogacy-and-lives-of-surrogate-mothers
+author: Spontaneous Order
 published_at: '2020-03-18T19:52:29.000Z'
 ingested_at: '2026-05-05T08:31:42.435Z'
-source_hash: 8d9091c544619c7041f3e094cb5f419e28f349a096e67a49d86311f35bd79e92
-author: Spontaneous Order
 excerpt: >-
   The proposed Surrogacy Bill has garnered a fair amount of discussion. Although
   surrogacy is an often-heard term, not many people understand its complexity in
   principle and practice. In the latest version of the draft, the government is
   proposing to remo..
+summary: >-
+  The Surrogacy (Regulation) Bill 2019 proposes banning commercial surrogacy in
+  India, which has a $2 billion industry per a 2012 Confederation of Indian
+  Industries study, allowing only altruistic surrogacy for infertile
+  heterosexual couples. Author Aarat Pandya argues this distinction is morally
+  incoherent: if surrogacy is permissible altruistically, it should be allowable
+  commercially, as compensating for womb rental or embryo gestation is no
+  different from paid egg donation for IVF. Banning commercial surrogacy will
+  drive it underground, fostering black markets with middlemen who underpay
+  surrogates and overcharge couples, leaving women without legal protections or
+  recourse. Surrogates bear significant physical and psychological costs of
+  pregnancy and birth without keeping the child, deserving fair remuneration as
+  a voluntary choice over their bodies. Treating surrogacy like any medical
+  service aligns with classical-liberal principles of individual autonomy and
+  free exchange. The ban harms women by stripping legal safeguards, discourages
+  medical tourism where India excels economically and medically, and presumes
+  surrogates are purely philanthropic rather than rational actors seeking
+  compensation.
+key_points:
+  - >-
+    Banning commercial surrogacy drives the practice underground, enabling
+    middlemen to exploit surrogates without legal protections.
+  - >-
+    Commercial surrogacy should be legalized as a compensated medical service
+    akin to egg donation for IVF, recognizing surrogates' physical and
+    psychological costs.
+  - >-
+    The moral distinction between altruistic and commercial surrogacy is
+    incoherent; if one is permissible, so is the other with payment.
+  - >-
+    Legalizing commercial surrogacy upholds women's bodily autonomy and supports
+    India's $2 billion surrogacy industry and medical tourism.
+topics:
+  - surrogacy-regulation
+  - bodily-autonomy
+  - commercial-surrogacy
+  - medical-tourism
 tags:
   - Indian women
   - Healthcare in India
@@ -18,6 +54,9 @@ tags:
   - commercial surrogacy
   - regulations
   - surrogacy
+source_hash: 8d9091c544619c7041f3e094cb5f419e28f349a096e67a49d86311f35bd79e92
+summary_hash: 8d9091c544619c7041f3e094cb5f419e28f349a096e67a49d86311f35bd79e92
+summary_at: '2026-05-05T09:07:36.222Z'
 ---
 **By Aarat Pandya**
 

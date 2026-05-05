@@ -1,18 +1,56 @@
 ---
 title: 'It makes sense to export, not scrap old cars'
 original_url: 'https://www.spontaneousorder.in/p/it-makes-sense-to-export-not-scrap-old-cars'
+author: Spontaneous Order
 published_at: '2021-06-22T18:35:28.000Z'
 ingested_at: '2026-05-05T08:31:42.311Z'
-source_hash: 6bece9ffe7bf956561ed6ff5ebf9026d4fc452ce292cee2cb6e88bbc291357af
-author: Spontaneous Order
 excerpt: >-
   The government is reportedly very keen on a vehicle scrappage policy, making
   it mandatory for old vehicles to be scrapped or giving subsidies for voluntary
   scrappage. One aim is to increase the demand for new cars, boosting the auto
   industry — this was
+summary: >-
+  Swaminathan S.A. Aiyar argues against India's proposed vehicle scrappage
+  policy, which aims to boost auto sales, reduce pollution, and cut fuel use,
+  drawing from global failures like the US 2009 program where half of 250,000
+  new sales would have occurred anyway, and Germany's scheme where 50,000
+  subsidized cars were illegally exported despite €125 million spent. Scrapping
+  well-maintained old vehicles, like the author's 17-year-old US car passing
+  emissions, wastes resources, raises second-hand prices harming poorer owners,
+  and enriches profitable manufacturers without long-term sales gains. Instead,
+  cities should ban vehicles failing biennial emission tests by credible
+  institutions, generating revenue to curb bribes, regardless of age. Failed
+  urban vehicles can be sold cheaply to rural areas with cleaner air, replacing
+  polluting tractors and aiding NGOs. A superior classical-liberal approach:
+  incentivize auto firms to refurbish old vehicles with warranties for domestic
+  longevity and capital conservation in a poor country, then export to
+  low-vehicle-intensity African nations, exporting localized pollution while
+  creating export markets, as Germany's illicit trade proved. This avoids
+  subsidies distorting markets and prioritizes trade over destruction.
+key_points:
+  - >-
+    Reject mandatory scrappage; enforce emission tests every two years for all
+    vehicles regardless of age.
+  - >-
+    Export or sell failed urban vehicles to rural areas or Africa to improve
+    affordability and redistribute pollution.
+  - >-
+    Incentivize auto companies to refurbish old vehicles with warranties for
+    domestic and export markets, conserving capital.
+  - >-
+    Scrappage subsidies fail to boost long-term auto sales and enrich
+    manufacturers at the poor's expense.
+topics:
+  - vehicle-scrappage
+  - emission-standards
+  - auto-exports
+  - pollution-policy
 tags:
   - exports
   - Pollution
+source_hash: 6bece9ffe7bf956561ed6ff5ebf9026d4fc452ce292cee2cb6e88bbc291357af
+summary_hash: 6bece9ffe7bf956561ed6ff5ebf9026d4fc452ce292cee2cb6e88bbc291357af
+summary_at: '2026-05-05T10:31:55.981Z'
 ---
 **By Swaminathan SA Aiyer**
 

@@ -1,15 +1,48 @@
 ---
 title: Exposing Sheila’s Sophisms
 original_url: 'https://www.spontaneousorder.in/p/exposing-sheilas-sophisms'
+author: Spontaneous Order
 published_at: '2012-09-26T09:25:58.000Z'
 ingested_at: '2026-05-05T08:31:42.612Z'
-source_hash: d359ae327f5257e87327981c550180e2eb6f4119666878c875b07dca789eb7e9
-author: Spontaneous Order
 excerpt: >-
   (Image courtesy: Jagran Post) The Delhi government recently launched a program
   to distribute free LPG cylinders and stoves to 350,000 families to stop the
   use of kerosene as cooking fuel in Delhi. Cost to taxpayers is expected to be
   Rs 100 crores (appro..
+summary: >-
+  The Delhi government's program to distribute free LPG cylinders and stoves to
+  350,000 low-income families at a taxpayer cost of Rs 100 crores (USD 18.5
+  million) aims to shift them from kerosene to cleaner fuel, but from a
+  classical-liberal viewpoint, it exemplifies wasteful intervention driven by
+  electoral motives. Even setting aside the unseen costs to taxpayers who forgo
+  equivalent goods and services, the scheme fails because poor households
+  prioritize cheap kerosene over LPG; Planning Commission data shows only 2.9%
+  of households use kerosene overall (0.7% rural, 7.5% urban), while 49% rely on
+  firewood (62.5% rural, 20.1% urban). Subsidized cylinders will likely be
+  resold by recipients to middle- and high-income households facing UPA II's cap
+  on subsidized LPG quotas, enabling arbitrage where poor continue using
+  kerosene until relative prices change. This distorts market signals, promotes
+  inefficiency, and wastes resources; true behavioral change and resource
+  allocation require undistorted market prices, not government subsidies that
+  take from some to give to others.
+key_points:
+  - >-
+    Delhi's Rs 100 crore free LPG scheme for 350,000 families ignores taxpayer
+    opportunity costs and electoral timing.
+  - >-
+    Poor households prefer cheap kerosene, using it minimally per data (2.9%
+    overall), so free LPG will be resold to quota-constrained richer households.
+  - >-
+    Subsidies create arbitrage opportunities, perpetuating kerosene use among
+    the poor.
+  - >-
+    Market prices alone efficiently signal behavior and manage scarce resources;
+    distortions via subsidies cause waste.
+topics:
+  - subsidies
+  - energy-policy
+  - public-choice
+  - market-distortions
 tags:
   - Sheila Dixit
   - subsidised LPG
@@ -17,6 +50,9 @@ tags:
   - Planning Commission
   - environment
   - LPG cylinders
+source_hash: d359ae327f5257e87327981c550180e2eb6f4119666878c875b07dca789eb7e9
+summary_hash: d359ae327f5257e87327981c550180e2eb6f4119666878c875b07dca789eb7e9
+summary_at: '2026-05-05T09:51:14.591Z'
 ---
 **By Kumar Anand**
 

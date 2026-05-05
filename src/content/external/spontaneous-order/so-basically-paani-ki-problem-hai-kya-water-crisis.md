@@ -2,19 +2,32 @@
 title: SO Basically – Episode 06 | Paani Ki Problem Hai Kya?
 original_url: >-
   https://www.spontaneousorder.in/p/so-basically-paani-ki-problem-hai-kya-water-crisis
+author: Spontaneous Order
 published_at: '2019-08-09T09:44:17.000Z'
 ingested_at: '2026-05-05T08:31:42.476Z'
-source_hash: 851a822f884f1405dc922a355e801d03cd8d55cb0af1ce1ba4e78a0840704276
-author: Spontaneous Order
 excerpt: >-
   On one hand, NITI Aayog has announced that 21 Indian cities are facing acute
   water crisis and will run out of groundwater by the year 2020, on the other,
   multiple states and cities are currently facing dangerous floods. Clearly,
   India has a water manage..
+summary: >-
+  This promotional post for SO Basically Episode 06 highlights India's water
+  management crisis, citing NITI Aayog's warning that 21 cities will exhaust
+  groundwater by 2020 amid ongoing floods in states and cities. It teases a
+  classical-liberal analysis and policy ideas for better water resource
+  management in the video, without providing substantive details here.
+key_points:
+  - NITI Aayog reports 21 Indian cities face groundwater depletion by 2020.
+topics:
+  - water-management
+  - india-water-crisis
 tags:
   - SO Basically
   - Water
   - Water crisis
+source_hash: 851a822f884f1405dc922a355e801d03cd8d55cb0af1ce1ba4e78a0840704276
+summary_hash: 851a822f884f1405dc922a355e801d03cd8d55cb0af1ce1ba4e78a0840704276
+summary_at: '2026-05-05T11:49:26.130Z'
 ---
 **By Spontaneous Order**
 

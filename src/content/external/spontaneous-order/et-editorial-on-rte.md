@@ -1,21 +1,59 @@
 ---
 title: ET Editorial on RTE
 original_url: 'https://www.spontaneousorder.in/p/et-editorial-on-rte'
+author: Spontaneous Order
 published_at: '2009-07-28T11:21:37.000Z'
 ingested_at: '2026-05-05T08:31:42.660Z'
-source_hash: 369a19ed5722829b6a2fc8c9bfad18479de7ed9f7c27a5c870369a874c634840
-author: Spontaneous Order
 excerpt: >-
   The Economic Times wrote this editorial on July 27 and they also published my
   comment on the Right to Education Bill on July 24. It great to see the
   endorsement of the CCS position by ET! See where you find the parallels! “The
   right to education is mea.
+summary: >-
+  Parth Shah highlights an Economic Times editorial endorsing the Centre for
+  Civil Society's critique of the Right to Education (RTE) Bill, passed by the
+  Rajya Sabha in 2009. The editorial argues that the right to education is
+  meaningless if it only guarantees access to government schools where little
+  teaching occurs, leaving children functionally illiterate despite years of
+  schooling. Surveys reveal rampant teacher absenteeism and lack of instruction
+  even when present. The Bill perpetuates India's input-focused development
+  failures by ignoring outcomes, proposing amendments to sections 8, 9, and 29
+  for minimum quality standards, school ratings, and closure of underperforming
+  government and private schools. It criticizes the Bill's rigid norms—like
+  requiring expensive playgrounds—which would criminalize thousands of low-cost,
+  unrecognized private schools preferred by poor urban parents over free
+  government options lacking teacher accountability or discipline. From a
+  classical-liberal viewpoint, true education rights demand freedom of choice
+  via state-issued vouchers allowing students to attend preferred schools,
+  fostering competition and accountability rather than entrenching ineffective
+  government monopolies.
+key_points:
+  - >-
+    RTE Bill prioritizes access to government schools over learning outcomes,
+    ignoring teacher absenteeism and functional illiteracy.
+  - >-
+    Rigid norms like playground requirements would abolish affordable private
+    schools serving poor slumdwellers.
+  - >-
+    Amend Bill's sections 8, 9, and 29 for quality standards, school ratings,
+    and closure of failing institutions.
+  - >-
+    Replace with vouchers enabling student choice in schools to ensure real
+    accountability and competition.
+topics:
+  - right-to-education
+  - school-choice
+  - education-reform
+  - vouchers
 tags:
   - Kapil Sibal
   - School Choice Campaign
   - RTE Bill
   - Right to Education
   - Vouchers
+source_hash: 369a19ed5722829b6a2fc8c9bfad18479de7ed9f7c27a5c870369a874c634840
+summary_hash: 369a19ed5722829b6a2fc8c9bfad18479de7ed9f7c27a5c870369a874c634840
+summary_at: '2026-05-05T09:49:16.974Z'
 ---
 **By Parth Shah**
 

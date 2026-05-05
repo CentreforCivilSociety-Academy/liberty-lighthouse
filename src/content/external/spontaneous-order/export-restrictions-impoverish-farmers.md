@@ -1,15 +1,55 @@
 ---
 title: Export Restrictions Impoverish Farmers
 original_url: 'https://www.spontaneousorder.in/p/export-restrictions-impoverish-farmers'
+author: Spontaneous Order
 published_at: '2022-09-20T10:58:13.000Z'
 ingested_at: '2026-05-05T08:31:42.258Z'
-source_hash: f42790b848d8dc6bdedad233b13e9ad7e10d5a7320c3b036ae69686bd0eea2d6
-author: Spontaneous Order
 excerpt: >-
   The Directorate General of Foreign Trade (DGFT) prohibited broken rice exports
   and imposed a 20% export tariff on non-basmati rice from September 9. This ban
   is due to low rice yield caused by poor rainfall and the Southern Rice
   Black-streaked Dwarf vir..
+summary: >-
+  The Indian government's recent prohibition on broken rice exports and 20%
+  tariff on non-basmati rice, justified by low yields from poor rainfall and the
+  Southern Rice Black-streaked Dwarf virus, aims to shield domestic consumers
+  from price rises but impoverishes farmers from a classical-liberal viewpoint.
+  These interventions distort price signals that incentivize production, hinder
+  long-term price stabilization, and treat rural farmers paternalistically
+  unlike urban economic actors. Farmers face planning difficulties for inputs,
+  quantities, and time due to arbitrary restrictions; India's exporter
+  reputation suffers, as seen in Bangladesh's shift during the 2020 onion ban
+  and global backlash to wheat curbs; and incomes fall, contradicting the goal
+  to double farmers' incomes. An OECD-ICRIER study quantifies export controls as
+  implicit taxation totaling Rs 45 lakh crore from 2000-01 to 2016-17 (Rs 2.65
+  lakh crore annually), with onion rules changing seven times in 2020 alone. The
+  2018 Agriculture Export Policy called for limiting bans to essential
+  commodities, high-level committee decisions, and WTO compliance, but these
+  remain unimplemented, perpetuating uncertainty and eroding farmer freedom and
+  wellbeing. A stable, minimally interventionist trade policy is essential for
+  reliable exporting and farmer prosperity.
+key_points:
+  - >-
+    Export restrictions distort price signals, making production planning
+    impossible for farmers who must predict demand, prices, and costs.
+  - >-
+    Frequent bans damage India's reputation as a reliable exporter, prompting
+    buyers like Bangladesh to source elsewhere during onion and wheat curbs.
+  - >-
+    Government export controls impose implicit taxation worth Rs 45 lakh crore
+    on farmers from 2000-01 to 2016-17, undermining income-doubling goals.
+  - >-
+    The 2018 Agriculture Export Policy's reforms—limiting bans, committee
+    oversight, WTO alignment—have not been enacted, perpetuating trade
+    uncertainty.
+topics:
+  - export-restrictions
+  - agriculture-policy
+  - free-trade
+  - farmer-welfare
+source_hash: f42790b848d8dc6bdedad233b13e9ad7e10d5a7320c3b036ae69686bd0eea2d6
+summary_hash: f42790b848d8dc6bdedad233b13e9ad7e10d5a7320c3b036ae69686bd0eea2d6
+summary_at: '2026-05-05T09:50:43.546Z'
 ---
 **By Arjun Krishnan**
 

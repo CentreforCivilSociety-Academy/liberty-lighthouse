@@ -2,21 +2,60 @@
 title: Listening to winds of change in Chhattisgarh
 original_url: >-
   https://www.spontaneousorder.in/p/listening-to-winds-of-change-in-chhattisgarh-2
+author: Spontaneous Order
 published_at: '2013-03-22T12:13:09.000Z'
 ingested_at: '2026-05-05T08:31:42.610Z'
-source_hash: 2bff1b0cd40d725e073b7659bb14670efbe2756592bc8a82354cc4869e4b7fcd
-author: Spontaneous Order
 excerpt: >-
   I was recently in Chhattisgarh as a member of Joint Review Mission of
   Centrally Sponsored Scheme of teacher education. This initiative of the
   Government of India’s MHRD, is a nationwide program for restructuring of
   teacher education, largely in response
+summary: >-
+  Rashmi Sinha, during a visit to Chhattisgarh as part of a Joint Review Mission
+  on teacher education restructuring under India's Right to Education Act,
+  observes rapid urban development in Raipur and Ambikapur since the state's
+  2001 creation from Madhya Pradesh. Modern infrastructure, new cars,
+  skyrocketing real estate prices due to national and international companies,
+  and immigrant-owned hotels signal market-driven growth benefiting outsiders
+  like cab driver Punjab Singh, whose land value multiplied. However, Scheduled
+  Tribes, comprising 31.8% of the population (6,616,596 people), remain
+  strikingly underrepresented in cities, often relegated to low-end jobs like
+  serving tea or retreating to forests. Anecdotes highlight this disconnect: a
+  tribal office worker too busy to chat, and a professional's defeatist view
+  that tribes 'rush back to jungles.' A young bureaucrat notes gradual
+  inclusion, but Sinha critiques attitudes that dismiss tribal unwillingness
+  without reflection. She advocates for developmentally rooted, inclusive models
+  responsive to natives' aspirations, leveraging the state's mineral wealth
+  without further isolating or marginalizing tribes, aligning with
+  classical-liberal emphasis on spontaneous, bottom-up order over top-down
+  imposition.
+key_points:
+  - >-
+    Chhattisgarh's urban centers like Raipur and Ambikapur show rapid market-led
+    growth with rising real estate and company influx since 2001.
+  - >-
+    Scheduled Tribes (31.8% of population, 6.616 million) are largely absent
+    from urban development, working menial jobs or staying in forests.
+  - >-
+    Dismissive official attitudes fail to address tribal disconnection, treating
+    their forest preference as inevitable.
+  - >-
+    Inclusive development models must respond to tribal aspirations to prevent
+    marginalization amid resource-rich state's commercial boom.
+topics:
+  - scheduled-tribes
+  - inclusive-development
+  - chhattisgarh
+  - urban-growth
 tags:
   - Scheduled tribes
   - Chhattisgarh
   - development
   - Inclusive model of development
   - tribal community
+source_hash: 2bff1b0cd40d725e073b7659bb14670efbe2756592bc8a82354cc4869e4b7fcd
+summary_hash: 2bff1b0cd40d725e073b7659bb14670efbe2756592bc8a82354cc4869e4b7fcd
+summary_at: '2026-05-05T10:43:06.149Z'
 ---
 **By Rashmi Sinha**
 

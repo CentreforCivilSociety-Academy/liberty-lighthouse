@@ -1,15 +1,50 @@
 ---
 title: 'SO Musings: Soviet Dissidents, Detente and Liberty'
 original_url: 'https://www.spontaneousorder.in/p/soviet-dissidents-detente-and-liberty'
+author: Spontaneous Order
 published_at: '2020-05-01T14:28:21.000Z'
 ingested_at: '2026-05-05T08:31:42.423Z'
-source_hash: d9525db2c5c88246f8397e29e7c7e5c193a62b6c416e4a7c6846d8fb43aeacfe
-author: Spontaneous Order
 excerpt: >-
   The global Cold War has been variously interpreted as the conflict between two
   Great Powers for global hegemony (John Mearsheimer) or conflict between two
   strong versions of nationalism (Jawaharlal Nehru). But, the most prevalent
   explanation of the Cold..
+summary: >-
+  The post frames the Cold War as an ideological clash between Western
+  liberalism—emphasizing individualism, democracy, freedom of expression,
+  consumer prosperity, human rights, and free markets—and Soviet communism's
+  planned economy and authoritarian 'dictatorship of the proletariat.' With
+  direct confrontation averted by nuclear MAD, proxy ideological battles ensued
+  globally, including in India. Indian liberals engaged actively; in 1975, A.G.
+  Noorani's book review in Freedom First critiqued Soviet communism through
+  Nobel laureates Andrei Sakharov and Aleksandr Solzhenitsyn's writings exposing
+  human rights violations. Noorani urged Western powers to condition détente
+  negotiations on USSR human rights acceptance, presciently influencing the 1975
+  Helsinki Accords, which historian Thomas Borstelmann credits with empowering
+  Soviet dissidents and weakening the regime. The review highlighted Western
+  intellectuals' 1973 statement demanding intellectual freedom in Europe talks
+  and Sakharov's warning that détente without democratization risks Western
+  capitulation to Soviet bureaucracy. Noorani portrayed the dissidents as vital
+  liberty exemplars, underscoring the need to link security cooperation to
+  curbing arbitrary state power from a classical-liberal viewpoint.
+key_points:
+  - >-
+    Cold War represented liberalism's promotion of individual rights and free
+    markets against Soviet communism's authoritarianism.
+  - >-
+    A.G. Noorani's 1975 Freedom First review praised Sakharov and Solzhenitsyn
+    for exposing Soviet human rights abuses.
+  - >-
+    Noorani advocated pressuring USSR to accept human rights norms in détente
+    talks, contributing to the 1975 Helsinki Accords.
+  - >-
+    Sakharov warned that détente without democratization would enable Soviet
+    dominance by trading resources for Western concessions on liberty.
+topics:
+  - cold-war
+  - soviet-dissidents
+  - human-rights
+  - indian-liberals
 tags:
   - SO Musings
   - Liberalism in India
@@ -17,6 +52,9 @@ tags:
   - Communism
   - Indian liberals
   - Capitalism
+source_hash: d9525db2c5c88246f8397e29e7c7e5c193a62b6c416e4a7c6846d8fb43aeacfe
+summary_hash: d9525db2c5c88246f8397e29e7c7e5c193a62b6c416e4a7c6846d8fb43aeacfe
+summary_at: '2026-05-05T12:06:48.875Z'
 ---
 **By Spontaneous Order**
 

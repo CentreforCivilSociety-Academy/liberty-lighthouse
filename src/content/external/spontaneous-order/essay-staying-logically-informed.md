@@ -1,20 +1,58 @@
 ---
 title: Staying Logically Informed
 original_url: 'https://www.spontaneousorder.in/p/essay-staying-logically-informed'
+author: Spontaneous Order
 published_at: '2021-08-04T13:09:07.000Z'
 ingested_at: '2026-05-05T08:31:42.301Z'
-source_hash: 4d2c33dfc34e6655fb481a721ce2364fa962644e78d6d1f0138e2c8e67e0c205
-author: Spontaneous Order
 excerpt: >-
   The Covid-19 pandemic shed light on more than just the healthcare sector of
   India. It also highlighted how social media, when used for all the right
   reasons, can arrange beds and medicines across the country, and when
   exploited, can cause extreme trust ..
+summary: >-
+  The COVID-19 pandemic exposed social media's dual role in India: enabling
+  coordination for beds and medicines while fueling misinformation that erodes
+  trust. A 2021 Journal of Medical Internet Research study found 30% of Indians
+  used WhatsApp as a primary COVID-19 information source, but less than 50%
+  verified it before sharing, leading to unreliable content. Examples include a
+  viral video falsely claiming WHO warnings on Indian COVID deaths, a WhatsApp
+  forward causing a TV channel to air fake Chinese soldier deaths post-Galwan
+  clash, risking national security; disinformation vilifying the Tablighi Jamaat
+  community, curbed only by Supreme Court intervention; and false claims of
+  COVID-infected chickens, costing the poultry industry ₹13 billion in three
+  weeks. Such misinformation threatens health, security, democracy, and mental
+  well-being. The author urges individual responsibility: distinguish fake news,
+  misinformation (unintentional false info), and disinformation (intentional
+  harm); check sources rigorously; avoid sharing unverified content; and use
+  AI-powered fact-checkers like Logically.ai, an IFCN-accredited platform that
+  won India's AatmaNirbhar Bharat App Challenge. Staying logically informed
+  through verification preserves privacy and counters tech-driven risks.
+key_points:
+  - >-
+    30% of Indians relied on WhatsApp for COVID-19 information, but less than
+    50% fact-checked before sharing.
+  - >-
+    Misinformation examples include Galwan clash fake lists, Tablighi Jamaat
+    vilification, and poultry rumors causing ₹13 billion industry losses.
+  - >-
+    Distinguish fake news, misinformation, and disinformation, and verify
+    sources before sharing to prevent harm.
+  - >-
+    Use fact-checking platforms like Logically.ai, which employs AI and human
+    investigators, to vet information.
+topics:
+  - misinformation
+  - fact-checking
+  - social-media
+  - covid-19
 tags:
   - news
   - social media
   - fake news
   - information
+source_hash: 4d2c33dfc34e6655fb481a721ce2364fa962644e78d6d1f0138e2c8e67e0c205
+summary_hash: 4d2c33dfc34e6655fb481a721ce2364fa962644e78d6d1f0138e2c8e67e0c205
+summary_at: '2026-05-05T09:49:09.457Z'
 ---
 **By Anushka Das Sharma**
 

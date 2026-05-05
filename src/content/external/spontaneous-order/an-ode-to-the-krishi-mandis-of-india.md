@@ -1,15 +1,52 @@
 ---
 title: An Ode to the Krishi Mandis of India
 original_url: 'https://www.spontaneousorder.in/p/an-ode-to-the-krishi-mandis-of-india'
+author: Spontaneous Order
 published_at: '2020-05-13T18:23:48.000Z'
 ingested_at: '2026-05-05T08:31:42.419Z'
-source_hash: 43e259ed1e2d8455652e483453fcb225804dbce724de70cd3345f76461b25db1
-author: Spontaneous Order
 excerpt: >-
   Millions of Indians, time and again, reminisce the good old days where the
   blood-sucking private enterprise was near-nonexistent, and the society
   relished an epitome of food security under the crown. As one of the real
   successors of the British, the APM..
+summary: >-
+  In a sharply satirical ode, Aarat Pandya lambasts India's APMC mandis as
+  neo-regal monopolies that have reigned for over 70 years, forcing farmers'
+  first sales exclusively through state-controlled physical markets and
+  extracting fees from buyers, sellers, agents, and licensees. He mocks their
+  role in perpetuating inefficiency, citing just over 7,000 mandis nationwide
+  and a Pune receipt where a farmer received only ₹1 for 952 kg of onions,
+  underscoring how little farmers actually earn amid 'stability' over market
+  prices. Pandya derides pre-COVID farmer protests demanding more mandis as
+  clinging to socialist security rather than economic freedom, contrasting it
+  with the Hindu Growth Rate era. He hails the central government's COVID-era
+  reforms challenging this 'anti-capitalist' system by allowing direct sales to
+  private buyers or consumers, portraying it as a coup against cronyism and
+  outdated infrastructure that stifles competition and village self-sufficiency
+  dreams. From a classical-liberal lens, the piece celebrates dismantling these
+  'temples of anti-capitalism' to empower farmers with real market access and
+  profits.
+key_points:
+  - >-
+    APMC mandis mandate exclusive first sales of farm produce through ~7,000
+    state-controlled markets, charging fees on all participants.
+  - >-
+    Farmers often receive negligible payments, as evidenced by a ₹1 receipt for
+    952 kg of onions in Pune.
+  - >-
+    Pre-COVID protests demanded more mandis for 'social security,' resisting
+    direct sales to private buyers.
+  - >-
+    Central government's reforms amid COVID enable farmers to bypass mandis and
+    sell directly, challenging 70+ years of monopoly.
+  - >-
+    The system entrenches inefficiency and cronyism, hindering agricultural
+    liberalization and farmer prosperity.
+topics:
+  - apmc-mandis
+  - agricultural-reforms
+  - farm-market-liberalization
+  - agricultural-monopolies
 tags:
   - liberalising agriculture
   - colonialism
@@ -21,6 +58,9 @@ tags:
   - APMC Act
   - Agricultural Produce Market Committee (APMC) Act
   - Agriculture policy
+source_hash: 43e259ed1e2d8455652e483453fcb225804dbce724de70cd3345f76461b25db1
+summary_hash: 43e259ed1e2d8455652e483453fcb225804dbce724de70cd3345f76461b25db1
+summary_at: '2026-05-05T08:56:17.292Z'
 ---
 **By Aarat Pandya**
 

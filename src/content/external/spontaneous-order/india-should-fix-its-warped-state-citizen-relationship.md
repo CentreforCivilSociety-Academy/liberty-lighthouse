@@ -2,20 +2,58 @@
 title: India should fix its warped state-citizen relationship
 original_url: >-
   https://www.spontaneousorder.in/p/india-should-fix-its-warped-state-citizen-relationship
+author: Spontaneous Order
 published_at: '2021-09-06T11:05:55.000Z'
 ingested_at: '2026-05-05T08:31:42.294Z'
-source_hash: 053b1193be66598940add9c2bb81d22e7c3a94736f53b886a5485dcc08948898
-author: Spontaneous Order
 excerpt: >-
   The Indian state is the antithesis of what any state should do. It barely
   provides public goods and is instead overwhelmingly present in provisioning
   and subsidizing private goods or regulating private interactions. This extends
   to everything. Instead o..
+summary: >-
+  The Indian state exemplifies a warped state-citizen relationship by neglecting
+  public goods like law and order, criminal justice, contract enforcement, and
+  infrastructure, while excessively provisioning and subsidizing private goods
+  such as cooking gas, toilets, loan waivers, and farm subsidies. This pattern,
+  entrenched post-liberalization and intensified under Narendra Modi, favors
+  electoral politics and cronyism over equitable growth, disproportionately
+  harming minorities and women. Classical liberals, from Adam Smith onward,
+  advocate a night-watchman state limited to preventing predation via law/order,
+  contracts, and basic public goods, which fueled Western development.
+  Contrasting failed planning states and expansive welfare democracies like
+  Scandinavia, which invested in public goods but now face innovation-stifling
+  redistribution and fiscal strains, India must radically redesign: exit private
+  goods provisioning, dismantle the socialist-regulatory overreach stifling
+  enterprises from news channels to universities, and build capacity for public
+  goods delivery. This inversion would spur private investment, exchange,
+  economic growth, job creation for millions, and citizen safety from
+  violence—urgently needed amid health, economic, and fiscal crises.
+key_points:
+  - >-
+    Indian state fails to provide public goods like law/order and contracts,
+    instead subsidizing private entitlements like cooking gas and loan waivers.
+  - >-
+    Post-liberalization shift prioritizes electoral handouts over
+    infrastructure, worsening under Modi government.
+  - >-
+    Adopt night-watchman state model: exit private goods provisioning, roll back
+    regulations, focus on public goods for growth and safety.
+  - >-
+    Redesign state-citizen relationship to boost private enterprise, accommodate
+    job seekers, and signal non-interference.
+topics:
+  - public-goods
+  - night-watchman-state
+  - state-capacity
+  - indian-state
 tags:
   - India
   - state
   - economy
   - citizens
+source_hash: 053b1193be66598940add9c2bb81d22e7c3a94736f53b886a5485dcc08948898
+summary_hash: 053b1193be66598940add9c2bb81d22e7c3a94736f53b886a5485dcc08948898
+summary_at: '2026-05-05T10:20:39.374Z'
 ---
 **By Shruti Rajagopalan**
 

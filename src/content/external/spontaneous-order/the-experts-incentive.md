@@ -1,15 +1,53 @@
 ---
 title: The Experts’ Incentive
 original_url: 'https://www.spontaneousorder.in/p/the-experts-incentive'
+author: Spontaneous Order
 published_at: '2020-05-04T14:32:58.000Z'
 ingested_at: '2026-05-05T08:31:42.423Z'
-source_hash: 4336429defe972f94c8f169d8627ee3c6ab769d61e0367a1817fc0694e90fe0e
-author: Spontaneous Order
 excerpt: >-
   While we may endeavour to solve minor and apparent problems in our everyday
   lives, there is a general consensus that the more complex and critical issues
   should be left to the experts. After all, experts have domain-specific
   knowledge and are best suite..
+summary: >-
+  The post critiques the assumption that Indian bureaucrats, selected through
+  rigorous exams and training, should centrally control complex decisions like
+  fund allocation due to their expertise, arguing that their incentives are
+  misaligned with societal welfare unlike private sector experts. Private
+  professionals like doctors or electricians are driven by reputation,
+  competition, and profits to deliver optimal results, but government
+  bureaucrats receive fixed salaries, with promotions based on seniority or
+  connections rather than performance, leading to budget maximization for
+  personal power and discretion. This public choice dynamic, where self-interest
+  under weak constraints harms public outcomes, results in inefficient use of
+  taxpayer funds and stifled progress amid minimal bureaucratic competition. The
+  author advocates performance-based incentives, noting a 2017 International
+  Growth Centre report documenting their success in various public sectors. Even
+  allocating a small portion of India's large bureaucracy's wage bill to
+  merit-based rewards, accurately measured, could yield significant
+  improvements. Echoing Thomas Sowell, it warns against entrusting decisions to
+  those facing no penalties for errors, urging incentive reforms for better
+  governance from a classical-liberal viewpoint favoring aligned self-interest
+  over expert centralization.
+key_points:
+  - >-
+    Bureaucrats possess domain expertise but prioritize budget expansion for
+    power due to fixed salaries and seniority promotions, unlike profit-driven
+    private experts.
+  - >-
+    Misaligned incentives in government lead to suboptimal decisions on taxpayer
+    funds and societal development.
+  - >-
+    Performance-based incentives have improved public sector outcomes, as shown
+    in the 2017 International Growth Centre report.
+  - >-
+    India should introduce modest merit-based rewards from the bureaucratic wage
+    bill to better align incentives with public welfare.
+topics:
+  - bureaucracy
+  - performance-incentives
+  - public-choice
+  - civil-service-reform
 tags:
   - Public Accountability
   - Bureaucracy
@@ -18,6 +56,9 @@ tags:
   - Public Sector Units
   - government bureaucracies
   - Indian Budget
+source_hash: 4336429defe972f94c8f169d8627ee3c6ab769d61e0367a1817fc0694e90fe0e
+summary_hash: 4336429defe972f94c8f169d8627ee3c6ab769d61e0367a1817fc0694e90fe0e
+summary_at: '2026-05-05T12:25:43.589Z'
 ---
 **By Swati Singh**
 

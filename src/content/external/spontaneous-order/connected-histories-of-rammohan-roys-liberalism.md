@@ -2,21 +2,65 @@
 title: Connected Histories of Rammohan Roy’s Liberalism
 original_url: >-
   https://www.spontaneousorder.in/p/connected-histories-of-rammohan-roys-liberalism
+author: Spontaneous Order
 published_at: '2020-05-22T17:38:08.000Z'
 ingested_at: '2026-05-05T08:31:42.416Z'
-source_hash: 3e5ead5407b4db1b4149a20484eb7d4aa01a9c4c3019685fa6a0900514c28156
-author: Spontaneous Order
 excerpt: >-
   Raja Rammohan Roy’s image in the Indian public memory is fixed as the father
   of Indian modernity, the first liberal, and a social reformer. Steeped in the
   Vedanta, Islam, Unitarian Christian, and imperial liberal tradition, Rammohan
   fought against the S
+summary: >-
+  Raja Rammohan Roy, hailed as the first Indian liberal, operated within a
+  transnational network of ideas, blending Vedanta, Islam, Unitarian
+  Christianity, and imperial liberalism to fight Sati, found the Brahmo Samaj,
+  advocate free press, and critique East India Company overreach. Historian C.A.
+  Bayly portrays him as an architect of an Indian public sphere and civil
+  society distinct from traditional authority and state power. Roy's Unitarian
+  ties connected colonial Bengal to Britain and North America, where his
+  writings circulated in journals like the Christian Register and North American
+  Review, earning him celebrity status as a neutral umpire against Trinitarian
+  orthodoxy, compared to Martin Luther. He celebrated liberal revolutions in
+  Spain, Portugal, and Latin America, hosted public events in Calcutta Town Hall
+  (1820-1823), and influenced British Whig reforms during his 1830s UK visit,
+  supporting the 1832 Reform Act while criticizing the Irish Coercion Bill. Roy
+  fashioned an Indian liberalism via historicism, tracing constitutionalism to
+  Parasurama and ancient panchayats to counter racial superiority claims and
+  assert self-governance. Against Sati, he deployed civil society activism over
+  colonial legislation, echoing Hayekian spontaneous law. The piece theorizes
+  these connections through network theory, with nodes like Roy, Unitarians, and
+  Whigs linked by print and voyages.
+key_points:
+  - >-
+    Rammohan Roy's Unitarian engagements made him a transatlantic celebrity,
+    with writings debated in American journals and direct correspondence with
+    figures like William Channing.
+  - >-
+    Roy actively participated in global constitutional liberalism, celebrating
+    Iberian revolutions and addressing British workers to support the 1832
+    Reform Act.
+  - >-
+    He developed a distinctly Indian liberalism using historicism from itihasa
+    traditions to claim precedents for divided powers and jury representation
+    via panchayats.
+  - >-
+    Against Sati, Roy advocated civil society measures over state legislation,
+    aligning with liberal economics of incentives and Hayekian views of emergent
+    law.
+topics:
+  - rammohan-roy
+  - indian-liberalism
+  - transnational-history
+  - civil-society
 tags:
   - India
   - Raja ram mohan roy
   - Indian Liberal Tradition
   - Indian liberals
   - Liberty Governance
+source_hash: 3e5ead5407b4db1b4149a20484eb7d4aa01a9c4c3019685fa6a0900514c28156
+summary_hash: 3e5ead5407b4db1b4149a20484eb7d4aa01a9c4c3019685fa6a0900514c28156
+summary_at: '2026-05-05T09:25:20.091Z'
 ---
 **By Sanjeet Kashyap**
 

@@ -1,20 +1,61 @@
 ---
 title: School Rating For Parents
 original_url: 'https://www.spontaneousorder.in/p/school-rating-for-parents'
+author: Spontaneous Order
 published_at: '2019-03-22T09:48:58.000Z'
 ingested_at: '2026-05-05T08:31:42.497Z'
-source_hash: 03a3980b2148d80ea55f2db587f4ea9eef2f13218a5e058ab565d6a53d755008
-author: Spontaneous Order
 excerpt: >-
   With the rapid increase in the number of private schools, school choice is
   becoming difficult for parents. There are no valid and reliable methods
   available to make them informed about the performance of different schools.
   School rating is one tool thro..
+summary: >-
+  With the rapid growth of private schools in India, particularly budget private
+  schools serving economically weaker sections, parents face difficulties in
+  school choice due to the absence of valid and reliable rating methods. Poor
+  parents rely on informal, often inaccurate information from friends,
+  relatives, and neighbors, or basic fee details from schools, yet crave
+  trustworthy data for this critical decision. No tools exist to assess budget
+  private schools, leading to frequent child switches and high donation fees for
+  admissions. A proper rating mechanism is essential to enable informed choices
+  and foster competition, thereby improving school standards and performance.
+  Research reveals parents prioritize low fees with flexible payments (due to
+  irregular incomes), strong exam scores, communication and computation skills,
+  teacher qualifications, student-teacher ratios, regular feedback, good
+  infrastructure, and facilities like computer-aided learning. Intangible
+  factors include discipline, self-initiation, values, friendly teachers,
+  personal attention, and management sensitivity to economic backgrounds. This
+  informs a comprehensive school rating model covering academic achievements,
+  fees structure, teachers, management, learning environment, facilities,
+  discipline and values, extracurriculars, feedback, and parent opinions,
+  empowering parents to secure quality education through market-driven choice.
+key_points:
+  - >-
+    Parents of children in budget private schools lack reliable performance data
+    and depend on inaccurate informal sources.
+  - >-
+    A school rating model is needed to facilitate informed choices, prevent
+    costly school switches, and spur competition to elevate education quality.
+  - >-
+    Parents value tangible factors like low flexible fees, exam scores, teacher
+    qualifications, infrastructure, and feedback, alongside intangibles such as
+    discipline, values, and management sensitivity.
+  - >-
+    The proposed rating model assesses schools across 10 categories including
+    academics, fees, teachers, facilities, and parent opinions.
+topics:
+  - school-choice
+  - budget-private-schools
+  - school-rating
+  - education-reform
 tags:
   - School Choice Campaign
   - information asymmetry
   - School Choice
   - quality education
+source_hash: 03a3980b2148d80ea55f2db587f4ea9eef2f13218a5e058ab565d6a53d755008
+summary_hash: 03a3980b2148d80ea55f2db587f4ea9eef2f13218a5e058ab565d6a53d755008
+summary_at: '2026-05-05T11:33:55.203Z'
 ---
 **By Spontaneous Order**
 

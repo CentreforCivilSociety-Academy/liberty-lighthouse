@@ -2,15 +2,50 @@
 title: 'Black Robes, Saffron Robes, and the Economics of Corruption'
 original_url: >-
   https://www.spontaneousorder.in/p/black-robes-saffron-robes-and-the-economics-of-corruption
+author: Spontaneous Order
 published_at: '2011-06-03T17:59:48.000Z'
 ingested_at: '2026-05-05T08:31:42.644Z'
-source_hash: 39bb07e995992948aefb1c6e87bee0e02dd0faa24c5798b56e19292559df5cc6
-author: Spontaneous Order
 excerpt: >-
   By: Ishu Kumar What does Baba Ramdev have in common with Supreme Court judges?
   One, both wear robes (albeit of different colors), and two, both believe that
   ad hoc interference in governance can help salvage India from the malice of
   graft. Moral ablutio..
+summary: >-
+  The post critiques moralistic anti-corruption efforts by Baba Ramdev and
+  Supreme Court judges, arguing that corruption is fundamentally an economic
+  phenomenon solvable only through greater economic freedom, not ad hoc
+  interventions. Drawing on data from Transparency International's corruption
+  perceptions index (since 1998) and Heritage Foundation's economic freedom
+  index (since 1995), it shows a strong correlation: five of the ten least
+  corrupt countries (Singapore, Australia, New Zealand, Canada, Denmark) rank
+  among the ten most economically free, with the least corrupt averaging an
+  economic freedom rank of 11 versus 163 for the most corrupt. The reverse holds
+  too, with the most free averaging corruption rank 12 and least free at 139.
+  Unlike spurious correlations like Jevons' sunspots, this link is grounded in
+  public choice theory: self-interested politicians and bureaucrats exploit low
+  economic freedom's extensive government interventions—licenses, permits,
+  quotas (LPQ)—to extract rents from businesses and consumers. Ramdev's hunger
+  strikes and judicial activism fail to reduce these LPQ levers. Nations succeed
+  not through moral purity but well-designed economic policies that minimize
+  state interference.
+key_points:
+  - >-
+    Corruption strongly correlates with low economic freedom: least corrupt
+    countries average EF rank 11, most corrupt average 163.
+  - >-
+    Public choice theory explains corruption as rent-seeking by self-interested
+    officials exploiting licenses, permits, and quotas.
+  - >-
+    Moral interventions like judicial orders or Ramdev's fasts do not reduce
+    government intervention levers fueling graft.
+  - >-
+    Promote economic freedom via benchmarks like business freedom, trade
+    freedom, and property rights to combat corruption.
+topics:
+  - corruption
+  - economic-freedom
+  - public-choice
+  - rent-seeking
 tags:
   - economic freedom
   - baba ramdev
@@ -19,6 +54,9 @@ tags:
   - judiciary
   - corruption
   - Supreme Court
+source_hash: 39bb07e995992948aefb1c6e87bee0e02dd0faa24c5798b56e19292559df5cc6
+summary_hash: 39bb07e995992948aefb1c6e87bee0e02dd0faa24c5798b56e19292559df5cc6
+summary_at: '2026-05-05T09:11:34.761Z'
 ---
 **By Vipin**
 

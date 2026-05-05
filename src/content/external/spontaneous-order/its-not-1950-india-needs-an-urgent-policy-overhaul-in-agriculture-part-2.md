@@ -2,20 +2,59 @@
 title: 'It’s not 1950: India needs an urgent policy overhaul in agriculture- Part 2'
 original_url: >-
   https://www.spontaneousorder.in/p/its-not-1950-india-needs-an-urgent-policy-overhaul-in-agriculture-part-2
+author: Spontaneous Order
 published_at: '2019-03-25T10:32:30.000Z'
 ingested_at: '2026-05-05T08:31:42.495Z'
-source_hash: 703f62c53dbd42aee0eeed72eacc0aa1a113d586a84f9f92b0ba5334f7f3d0a3
-author: Spontaneous Order
 excerpt: >-
   Read the first part on the challenges and solutions of agriculture policy in
   India here. How would the execution of a free-market structure in agriculture
   sector work? I propose the following: The pilot The plan requires a change in
   laws governing agric..
+summary: >-
+  Nishchint Satam proposes implementing a free-market structure in Indian
+  agriculture through a pilot in a willing state's district, requiring tweaks to
+  state agriculture/land laws and concurrent labor laws. Start with mass
+  awareness to enlist farmer cooperatives and entrepreneur proposals, focusing
+  on high-potential areas like urban organic farming where input costs are below
+  revenues. Monitor pilots over 2-3 crop cycles, then phase adoption across
+  districts with regular reviews, supported by tribunals, consulting, and
+  investor engagement. Long-term: phase out agriculture subsidies for targeted
+  direct transfers to boost budgets and reduce fiscal deficits; federal EXIM
+  reforms toward zero-minimal tariffs for competitiveness. Impacts include
+  efficient demand-driven resource allocation, steady farmer incomes from leased
+  farming, ancillary GDP-boosting businesses, and safety nets for failures.
+  Criticisms acknowledged: securing state buy-in, sustainable profitability
+  regionally, and potential income disparities despite direct transfers. This
+  classical-liberal approach shifts from supply-driven subsidies to lucrative,
+  market-led agriculture.
+key_points:
+  - >-
+    Launch pilots in districts of experimental states by tweaking agriculture,
+    land, and labor laws to form farmer cooperatives and attract entrepreneur
+    proposals.
+  - >-
+    Run pilots for 2-3 crop cycles, publish critical reviews, and scale phased
+    adoption with monitoring for profitability and quality-of-life improvements.
+  - >-
+    Phase out agriculture subsidies, replacing them with targeted direct
+    transfers, and liberalize EXIM policies to zero-minimal tariffs.
+  - >-
+    Anticipate demand-driven efficiency, steady rural incomes, GDP growth from
+    food processing, with direct transfers safeguarding marginal farmers in
+    failures.
+topics:
+  - agriculture-reform
+  - free-markets
+  - agricultural-subsidies
+  - pilot-programs
 tags:
   - Free Market
   - free market soution
   - agriculture woes
   - Agriculture sector
+source_hash: 703f62c53dbd42aee0eeed72eacc0aa1a113d586a84f9f92b0ba5334f7f3d0a3
+summary_hash: 703f62c53dbd42aee0eeed72eacc0aa1a113d586a84f9f92b0ba5334f7f3d0a3
+summary_at: '2026-05-05T10:32:16.453Z'
 ---
 **By Nishchint Satam**
 

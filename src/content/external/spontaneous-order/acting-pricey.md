@@ -1,13 +1,29 @@
 ---
 title: Acting pricey!
 original_url: 'https://www.spontaneousorder.in/p/acting-pricey'
+author: Spontaneous Order
 published_at: '2005-05-25T21:44:15.000Z'
 ingested_at: '2026-05-05T08:31:42.678Z'
-source_hash: fc917f035e884da23f0df1cceb480c3543aec9a52b22d334c5d52c937e21ffe4
-author: Spontaneous Order
 excerpt: >-
   It is as much a crime to ask for the cheapest price as to demand for the
   highest price possible. Rephrase of Lord Acton’s quote from memory!
+summary: >-
+  This very brief, fragmentary post from 2005 rephrases Lord Acton’s quote from
+  memory: 'It is as much a crime to ask for the cheapest price as to demand for
+  the highest price possible,' implying from a classical-liberal view that
+  voluntary price bargaining—whether buyers seeking lows or sellers highs—is
+  equally legitimate and non-criminal in free markets. No substantive argument,
+  policy analysis, or data is developed; an image is included but not described.
+key_points:
+  - >-
+    Asking for the cheapest price is as morally legitimate as demanding the
+    highest price.
+topics:
+  - free-markets
+  - pricing
+source_hash: fc917f035e884da23f0df1cceb480c3543aec9a52b22d334c5d52c937e21ffe4
+summary_hash: fc917f035e884da23f0df1cceb480c3543aec9a52b22d334c5d52c937e21ffe4
+summary_at: '2026-05-05T08:50:49.503Z'
 ---
 **By Naveen Mandava**
 

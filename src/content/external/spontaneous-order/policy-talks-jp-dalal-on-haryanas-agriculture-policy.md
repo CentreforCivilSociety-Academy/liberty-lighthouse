@@ -2,15 +2,56 @@
 title: 'Policy Talks: JP Dalal on Haryana’s Agriculture Policy'
 original_url: >-
   https://www.spontaneousorder.in/p/policy-talks-jp-dalal-on-haryanas-agriculture-policy
+author: Spontaneous Order
 published_at: '2020-06-12T17:38:38.000Z'
 ingested_at: '2026-05-05T08:31:42.411Z'
-source_hash: 2ee52dfa795f9f67568e62c9a78081d7aeba0aa0c7af8a8b6617446614715790
-author: Spontaneous Order
 excerpt: >-
   Intro: Prime Minister Narendra Modi wants the nation to move towards
   ‘atmanirbharta’ or self-reliance and for that to happen, farmers need a good
   price for their produce. The Union government has announced far-reaching
   reforms, including investment in
+summary: >-
+  In an interview with Centre for Civil Society CEO K. Yatish Rajawat, Haryana
+  Agriculture Minister JP Dalal hails the central government's dismantling of
+  APMC as a revolutionary step creating a pan-India market from Kashmir to
+  Kanyakumari, granting farmers freedom to sell anywhere at desired prices. He
+  addresses wheat procurement challenges amid COVID, noting 68 LMT procured, 44
+  LMT warehoused, Rs 6,500 crore paid to farmers with Rs 6,000 crore due soon
+  via daily transfers of Rs 1,000-1,500 crore, blaming initial delays on
+  arthiyas and opposition politics. To combat water scarcity and labor
+  shortages, Haryana offers 85% drip irrigation subsidy (effectively 100% after
+  manufacturer price cuts), promotes mechanization via custom hiring centers,
+  and incentivizes shifting from water-intensive rice to corn, cotton, or
+  floriculture with MSP procurement and advance payments. Dalal pushes Direct
+  Benefit Transfers through 'Meri Fasal Mera Byora' portal to bypass middlemen,
+  amended Mandi Act allowing FPOs or groups of 10 to set up private mandis, and
+  animal husbandry for quick income doubling—Haryana now second in per capita
+  milk at 1,080g—with Rs 3 lakh credit cards at 4% interest and 2.75 lakh
+  animals insured. He urges farmer collectives for bargaining power, state-level
+  implementation of Rs 1 lakh crore package, and private entrepreneurship in
+  fisheries and processing to achieve self-reliance and double incomes.
+key_points:
+  - >-
+    Central APMC reforms enable pan-India market, freeing Haryana farmers to
+    sell produce anywhere at market prices.
+  - >-
+    Haryana procured 68 LMT wheat, paid Rs 6,500 crore with remaining Rs 6,000
+    crore due soon, streamlining via online processes despite arthiya delays.
+  - >-
+    Promote crop shift from rice to corn/cotton with MSP, 100% drip subsidy, and
+    DBT to conserve water and ensure fair prices.
+  - >-
+    Amend Mandi Act to allow FPOs and private groups to create mandis, fostering
+    farmer collectives for better bargaining.
+  - >-
+    Boost animal husbandry with low-interest credit, insurance for 2.75 lakh
+    animals, and processing plants to double incomes quickly.
+topics:
+  - agricultural-reforms
+  - apmc-dismantling
+  - farmer-freedom
+  - drip-irrigation
+  - doubling-farmers-income
 tags:
   - land ownership
   - policymaking
@@ -18,6 +59,9 @@ tags:
   - Farmer income
   - APMC Act
   - Agriculture policy
+source_hash: 2ee52dfa795f9f67568e62c9a78081d7aeba0aa0c7af8a8b6617446614715790
+summary_hash: 2ee52dfa795f9f67568e62c9a78081d7aeba0aa0c7af8a8b6617446614715790
+summary_at: '2026-05-05T11:14:55.776Z'
 ---
 **By Spontaneous Order**
 

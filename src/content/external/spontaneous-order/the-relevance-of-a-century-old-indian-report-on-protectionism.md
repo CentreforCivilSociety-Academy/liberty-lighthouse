@@ -2,18 +2,59 @@
 title: The relevance of a century-old Indian report on protectionism
 original_url: >-
   https://www.spontaneousorder.in/p/the-relevance-of-a-century-old-indian-report-on-protectionism
+author: Spontaneous Order
 published_at: '2021-03-10T15:47:32.000Z'
 ingested_at: '2026-05-05T08:31:42.343Z'
-source_hash: 7e62823bc5c34bbecd3a9c16532fa5237b0d7f47ab9a7db805c3ee46143d65c0
-author: Spontaneous Order
 excerpt: >-
   There is protectionism in the air. This year marks the centenary of a
   committee that recommended the first tariff hikes to protect Indian industry,
   but at a time when India was an impoverished colony rather than an independent
   nation with the fifth larg..
+summary: >-
+  A century ago, the Indian Fiscal Commission, chaired by Ibrahim Rahimtoolah
+  with John Maynard Keynes as vice-president, recommended selective tariff
+  protection for Indian industries meeting three criteria: natural advantages,
+  inability to develop without protection, and eventual readiness for global
+  competition. Key principles included minimizing consumer burdens via higher
+  prices, duty-free imports of raw materials and capital goods, light taxes on
+  intermediate goods, no export taxes, and establishing a permanent Tariff
+  Board. The report analyzed protection's effects on productivity, wages,
+  inflation, monopolies, revenues, foreign capital, and imperial preferences,
+  emphasizing its temporary nature due to long-term costs. Five of seven Indian
+  members dissented, seeking stronger protection, aligning with nationalist
+  views inspired by Germany, Russia, and Japan. Rare free trader Jadunath Sarkar
+  criticized protection as fostering inefficiency. Though colonial circumstances
+  have changed, the report remains relevant amid India's post-2014 tariff hikes
+  on nearly 3,500 items and modern global supply chains dominated by
+  intermediate goods trade. From a classical-liberal viewpoint, it offers
+  structured lessons for weighing protectionism's advantages and disadvantages
+  in industrial policy.
+key_points:
+  - >-
+    The 1922 Indian Fiscal Commission recommended protecting select industries
+    based on natural advantages, developmental necessity, and future
+    competitiveness.
+  - >-
+    Protection should impose minimal consumer costs, exempt raw materials and
+    capital goods from duties, lightly tax intermediates, ban export taxes, and
+    involve a permanent Tariff Board.
+  - >-
+    The report stressed temporary protection due to economic costs and examined
+    impacts on productivity, wages, inflation, and more.
+  - >-
+    India has raised import tariffs on nearly 3,500 items since 2014, making the
+    report's balanced analysis timely for current protectionist policies.
+topics:
+  - protectionism
+  - indian-economic-history
+  - industrial-policy
+  - tariffs
 tags:
   - trade
   - economy
+source_hash: 7e62823bc5c34bbecd3a9c16532fa5237b0d7f47ab9a7db805c3ee46143d65c0
+summary_hash: 7e62823bc5c34bbecd3a9c16532fa5237b0d7f47ab9a7db805c3ee46143d65c0
+summary_at: '2026-05-05T12:34:38.440Z'
 ---
 **By Niranjan Rajadhyaksha**
 

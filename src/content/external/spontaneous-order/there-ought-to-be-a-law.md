@@ -1,19 +1,55 @@
 ---
 title: There Ought to Be a Law…
 original_url: 'https://www.spontaneousorder.in/p/there-ought-to-be-a-law'
+author: Spontaneous Order
 published_at: '2004-10-01T02:51:40.000Z'
 ingested_at: '2026-05-05T08:31:42.698Z'
-source_hash: 558b0a4ef185d37fde99edb9c13b794de7871cb893ddb7951e654597104593df
-author: Spontaneous Order
 excerpt: >-
   The instinctive reaction to any misdeeds by a private organization is to ask
   for a legal framework to prevent such misdeeds. But there is little need when
   we already have an invisbile hand ready to dole out punishment. Take the case
   of the news division..
+summary: >-
+  The instinctive call for laws to curb private organizations' misdeeds, like
+  CBS news anchor Dan Rather's broadcast of forged documents alleging President
+  Bush evaded Vietnam War service via family connections, ignores the market's
+  invisible hand. Bloggers from both political sides swiftly debunked the
+  papers—typed in Microsoft Word fonts, photocopied, and faxed—as forgeries
+  using typewriting expertise, with CBS delaying acknowledgment despite experts'
+  doubts. Representative Joe Barton proposed congressional hearings and
+  legislation mandating TV news safeguards against partisan bias, but such
+  measures are futile and violate the First Amendment. Instead, the market has
+  punished CBS: Dan Rather's nightly news viewership fell 7%, prompting
+  advertiser pullouts and warnings of revenue losses. Viewers have long been
+  shifting to internet and cable for unbiased alternatives, demonstrating an
+  instant, unbiased system of rewards and punishments that no government
+  oversight can match. From a classical-liberal view, relying on market
+  discipline upholds free speech while effectively checking media misconduct.
+key_points:
+  - >-
+    Bloggers across the political spectrum exposed CBS's forged Bush documents
+    within minutes using font and typing analysis.
+  - >-
+    CBS delayed admitting the forgeries, leading to a 7% drop in Dan Rather's
+    nightly news viewership and advertiser withdrawals.
+  - >-
+    Proposed legislation for TV news bias safeguards is unconstitutional under
+    the First Amendment.
+  - >-
+    Market forces provide superior, unbiased accountability for media errors
+    compared to government regulation.
+topics:
+  - free-speech
+  - media-bias
+  - market-discipline
+  - invisible-hand
 tags:
   - 4th pillar
   - private organizations
   - Law
+source_hash: 558b0a4ef185d37fde99edb9c13b794de7871cb893ddb7951e654597104593df
+summary_hash: 558b0a4ef185d37fde99edb9c13b794de7871cb893ddb7951e654597104593df
+summary_at: '2026-05-05T12:40:53.147Z'
 ---
 **By Nikhil**
 

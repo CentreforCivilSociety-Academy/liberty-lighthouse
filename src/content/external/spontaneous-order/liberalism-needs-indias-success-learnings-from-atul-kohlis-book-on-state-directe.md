@@ -4,13 +4,55 @@ title: >-
   State-Directed Development
 original_url: >-
   https://www.spontaneousorder.in/p/liberalism-needs-indias-success-learnings-from-atul-kohlis-book-on-state-directed-development
+author: Spontaneous Order
 published_at: '2024-10-09T15:02:10.000Z'
 ingested_at: '2026-05-05T08:31:42.729Z'
-source_hash: b82d01264348d9625d39034fbdcbdbc8b99e10888f252809e6766a49a5e2fc3f
-author: Spontaneous Order
 excerpt: India shows democracy and economic growth can co-exist.
+summary: >-
+  Atul Kohli’s 'State-Directed Development' categorizes states into
+  neo-patrimonial (e.g., Nigeria, non-modern and anti-developmental),
+  cohesive-capitalist (e.g., South Korea, Brazil; centralized elite-state
+  alliances driving rapid growth but marked by repression and labeled
+  'neo-fascist'), and fragmented-multiclass (e.g., India; dispersed authority
+  balancing diverse interests in a liberal democratic framework). While
+  cohesive-capitalist states like South Korea achieved the East Asian miracle
+  and Bangladesh briefly surpassed India’s GDP per capita under semi-dictatorial
+  rule, they compromise freedoms. India’s 'slow and steady' path, critiqued
+  under Nehru’s command economics and Indira Gandhi’s authoritarian Emergency,
+  pivoted with P.V. Narasimha Rao’s 1991 liberalization reforms amid crisis,
+  proving liberal democracy’s resilience under coalition governance. Despite
+  risks of shifting toward chaebol-like corporate-state ties, the 2024 elections
+  reinforced plurality over promised faster growth. From a classical-liberal
+  view, India exemplifies coexistence of economic progress and liberal
+  principles; its continued success without authoritarianism is crucial to
+  validate liberalism as a viable path for underdeveloped nations against
+  neo-fascist alternatives.
+key_points:
+  - >-
+    Cohesive-capitalist states like South Korea achieve rapid development
+    through centralized elite-state cooperation but often involve repression and
+    nationalism.
+  - >-
+    India’s fragmented-multiclass state structure enables liberal democracy by
+    balancing diverse interests, yielding slower but sustainable growth.
+  - >-
+    P.V. Narasimha Rao’s 1991 liberalization reforms under a coalition
+    government rescued India from economic collapse, highlighting liberal
+    democracy’s potential.
+  - >-
+    India must sustain economic success while preserving liberal principles to
+    demonstrate liberalism’s superiority over authoritarian development models
+    for the Global South.
+topics:
+  - liberal-democracy
+  - economic-development
+  - indian-reforms
+  - state-types
 tags:
   - Atul Kohli
+source_hash: b82d01264348d9625d39034fbdcbdbc8b99e10888f252809e6766a49a5e2fc3f
+summary_hash: b82d01264348d9625d39034fbdcbdbc8b99e10888f252809e6766a49a5e2fc3f
+summary_at: '2026-05-05T10:41:36.495Z'
 ---
 **By Pavit Singh**
 

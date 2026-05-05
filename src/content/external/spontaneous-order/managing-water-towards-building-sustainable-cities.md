@@ -2,18 +2,60 @@
 title: Managing Water Towards Building Sustainable Cities
 original_url: >-
   https://www.spontaneousorder.in/p/managing-water-towards-building-sustainable-cities
+author: Spontaneous Order
 published_at: '2021-03-03T15:41:44.000Z'
 ingested_at: '2026-05-05T08:31:42.346Z'
-source_hash: 667b630f175dc1d3c7b212aefd7c64694710c5a833bc23fa5316c3a652386129
-author: Spontaneous Order
 excerpt: >-
   The Union Budget 2021 comes as a massive relief for our overburdened water
   resources. Where last year’s budget allocated INR 39,029 crore for water
   across the Ministry of Jal Shakti, Ministry of Agriculture and Farmers’
   Welfare, Ministry of Rural Deve
+summary: >-
+  The Union Budget 2021 provides significant relief for India's water resources
+  by expanding the Jal Jeevan Mission (JJM) with Rs 50,011 crore—4.5 times the
+  prior revised budget—and launching JJM-Urban (JJM-U) with Rs 2,87,000 crore
+  over five years to deliver universal water supply in 4,378 urban local bodies
+  and 2.86 crore households, alongside liquid waste management in 500 AMRUT
+  cities. While JJM has connected 35% of rural households to tap water, with Goa
+  and Telangana at 100%, urban areas face acute crises: India uses 634 BCM
+  annually, projected to reach 1,447 BCM by 2050 against 1,123 BCM usable
+  supply; 30 cities risk imminent crisis, 600 million face high stress, and 0.2
+  million die yearly from unsafe water. The author praises the draft National
+  Water Policy 2020's classical-liberal reforms—graded user fees for cost
+  recovery, water users' associations retaining charges, state-level independent
+  regulators for tariffs, and alternatives to dams—which counter the 'public
+  good' critique by fostering accountability, disincentivizing waste via metered
+  pricing (especially for industry), and treating citizens as consumers. Further
+  decentralization to cities is urged, adopting Integrated Urban Water
+  Management (IUWM) to holistically integrate the water cycle, empower local
+  governments, balance stakeholders, and deploy public-private partnerships, as
+  in Karnataka's ADB-funded program. Integrating IUWM into JJM-U and the policy
+  will build resilient cities, averting 6% GDP loss by 2050.
+key_points:
+  - >-
+    Union Budget 2021 expands JJM to urban areas via JJM-U, allocating Rs
+    2,87,000 crore for universal supply and waste management.
+  - >-
+    Draft National Water Policy 2020 introduces graded fees, user associations,
+    and state regulators to ensure cost recovery and usage-based accountability.
+  - >-
+    IUWM framework centers local governments to integrate urban water cycles,
+    including supply, sanitation, stormwater, and reuse, with PPPs for
+    efficiency.
+  - >-
+    Cities must become primary units for water planning to address
+    contamination, waste, and demand amid projected shortages to 2050.
+topics:
+  - urban-water-management
+  - jal-jeevan-mission
+  - national-water-policy
+  - iuwm
 tags:
   - water reforms
   - Urban Planning
+source_hash: 667b630f175dc1d3c7b212aefd7c64694710c5a833bc23fa5316c3a652386129
+summary_hash: 667b630f175dc1d3c7b212aefd7c64694710c5a833bc23fa5316c3a652386129
+summary_at: '2026-05-05T10:49:17.970Z'
 ---
 **By Swati Rao**
 

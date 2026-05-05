@@ -1,21 +1,64 @@
 ---
 title: The Liberalism of Ishwar Chandra Vidyasagar
 original_url: 'https://www.spontaneousorder.in/p/vidyasagar'
+author: Spontaneous Order
 published_at: '2019-07-29T05:45:48.000Z'
 ingested_at: '2026-05-05T08:31:42.478Z'
-source_hash: a42b9c23d5c360afdae9e5b99fee639c06d156762530d3f237e21b0ae14431e4
-author: Spontaneous Order
 excerpt: >-
   Ishwar Chandra Vidyasagar’s many roles as an educationist, writer, social
   reformer, and feminist have rightly earned him the credential of being one of
   the early progenitors of Indian modernity. Underlying all these credentials of
   Vidyasagar, however, w
+summary: >-
+  Ishwar Chandra Vidyasagar exemplified practical liberal humanism, blending
+  personal experiences of poverty and generosity with Western Enlightenment
+  ideas of secularism, rationalism, and liberty, distinguishing him from the
+  theocentric Raja Ram Mohan Roy. As a Bengali Brahmin Sanskrit scholar, he
+  campaigned against child marriage, high-caste polygamy, and for Hindu widow
+  remarriage, successfully passing the Widows’ Remarriage Act in 1856 after
+  publishing persuasive 1855 pamphlets citing Parasara Samhita scriptures amid
+  opposition from orthodoxy including a 30,000-signature counter-petition. In
+  education, his 1854 memorandum advocated vernacular-medium mass education,
+  influencing Wood’s Despatch's three-tier system, though efforts to open
+  Sanskrit College to non-Brahmins partially failed. Post-1857 Mutiny, Victorian
+  conservatism thwarted his anti-kulin polygamy campaign. The author argues
+  Vidyasagar's reliance on scriptural authority was a pragmatic,
+  context-specific strategy in a religious, Brahmanical society reinforced by
+  Orientalist policies, differing from Western liberalism's secular roots but
+  aligning with classical-liberal methods like rational pamphlets, public
+  persuasion, and petitions—Mill-esque in feminist temperament, Burkean in
+  gradualism. This 'oriental liberalism' adapted to India's milieu, making
+  Vidyasagar a quintessential classical liberal reformer.
+key_points:
+  - >-
+    Vidyasagar's 1855 pamphlets using Parasara Samhita justified widow
+    remarriage as the viable option after banning sati and the difficulties of
+    asceticism, leading to the 1856 Widows’ Remarriage Act despite orthodox
+    opposition.
+  - >-
+    His 1854 memorandum pushed vernacular education for masses, incorporated
+    into Wood’s Despatch for a three-tier system.
+  - >-
+    Reformers like Vidyasagar strategically appealed to scriptural authority in
+    religious India, unlike Western liberals such as Mill.
+  - >-
+    Vidyasagar combined Mill-like advocacy for women's rights with Burkean
+    gradualism via tradition, embodying contextual classical liberalism.
+topics:
+  - indian-liberals
+  - social-reform
+  - widow-remarriage
+  - education-reform
+  - liberal-humanism
 tags:
   - Liberalism in India
   - Vidyasagar
   - Indian Liberal Tradition
   - Ishwar Chandra Vidyasagar
   - Liberalism
+source_hash: a42b9c23d5c360afdae9e5b99fee639c06d156762530d3f237e21b0ae14431e4
+summary_hash: a42b9c23d5c360afdae9e5b99fee639c06d156762530d3f237e21b0ae14431e4
+summary_at: '2026-05-05T12:53:13.906Z'
 ---
 **By Sanjeet Kashyap**
 

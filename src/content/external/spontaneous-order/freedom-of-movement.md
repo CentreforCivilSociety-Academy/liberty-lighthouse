@@ -1,15 +1,54 @@
 ---
 title: Freedom of Movement
 original_url: 'https://www.spontaneousorder.in/p/freedom-of-movement'
+author: Spontaneous Order
 published_at: '2018-08-06T10:54:19.000Z'
 ingested_at: '2026-05-05T08:31:42.518Z'
-source_hash: f31c988780b22979fa9835b572a034eddd18b5816eda1c8ab5e7e610f7ed502c
-author: Spontaneous Order
 excerpt: >-
   In today’s dynamic era of nation building, the European project has been
   hailed as a new step towards creating a free world. The same is echoed by the
   ‘four freedoms’ that serve as the foundations of amalgamating societies across
   lines of culture, t
+summary: >-
+  Jay Venaik defends freedom of movement as a classical-liberal achievement,
+  highlighting India-Nepal (1950) and India-Bhutan (1949) friendship treaties as
+  pioneering open borders among developing nations, predating the EU's Treaty of
+  Rome (1957). These enable free movement of persons, property, trade, and
+  residence, fostering cross-border lives despite recent nationalist calls for
+  walls. Economically, free movement addresses labor shortages in skilled
+  sectors like UK's NHS (10% non-British staff), accelerates filling vacancies
+  in teaching and nursing, counters ageing populations with demographic
+  dividends, prevents wage inflation, generates remittances (Nepal: 31% GDP per
+  Pew Research), boosts host-country consumption and GDP, and saves border
+  enforcement costs. Acknowledging downsides like housing strain, congestion,
+  and potential low-skill wage dips or brain drain (e.g., Nepal's post-2015
+  earthquake reconstruction), Venaik cites UK studies by Manacorda, Dustmann,
+  Nickell, and Saleheen showing 'little overall adverse effects' on native wages
+  and employment. Lacking extensive India-Nepal studies, he warns nationalist
+  rhetoric undermines this early liberal feat.
+key_points:
+  - >-
+    India-Nepal (1950) and India-Bhutan (1949) treaties pioneered free movement
+    among developing nations, enabling cross-border residence, property, trade,
+    and labor.
+  - >-
+    Free movement fills labor shortages (e.g., 10% UK NHS staff non-British),
+    stabilizes wages, generates remittances (Nepal 31% GDP), and boosts GDP
+    while saving border costs.
+  - >-
+    Empirical UK studies find minimal adverse effects of immigration on native
+    wages and employment, even for less-skilled workers.
+  - >-
+    Nationalist pressures threaten the economic benefits of India-Nepal open
+    borders despite limited local studies.
+topics:
+  - free-movement
+  - migration-economics
+  - india-nepal-treaty
+  - labor-mobility
+source_hash: f31c988780b22979fa9835b572a034eddd18b5816eda1c8ab5e7e610f7ed502c
+summary_hash: f31c988780b22979fa9835b572a034eddd18b5816eda1c8ab5e7e610f7ed502c
+summary_at: '2026-05-05T09:59:33.537Z'
 ---
 **By Jay Venaik**
 

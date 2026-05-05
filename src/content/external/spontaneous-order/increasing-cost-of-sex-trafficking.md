@@ -1,20 +1,56 @@
 ---
 title: Increasing cost of sex trafficking
 original_url: 'https://www.spontaneousorder.in/p/increasing-cost-of-sex-trafficking'
+author: Spontaneous Order
 published_at: '2009-01-12T15:55:10.000Z'
 ingested_at: '2026-05-05T08:31:42.668Z'
-source_hash: e0374a8b883e4266c8b11a17efa0ea338a5a343aa935bdd4761e4c923dae78df
-author: Spontaneous Order
 excerpt: >-
   NICHOLAS D. KRISTOF’s Striking the Brothels’ Bottom Line in NYT talks about
   how increased raids and NGO activism has begun to close down brothels in
   Cambodia. He argues that the brothel model based on trafficked girls is more
   vulnerable than generally
+summary: >-
+  Parth Shah highlights Nicholas Kristof's NYT article on how raids and NGO
+  activism are closing brothels in Cambodia, arguing the trafficked-girls model
+  is vulnerable. Shah notes brothel owners' admission that they would earn more
+  money and gain respect running grocery stores, advocating increased economic
+  freedom to provide such alternatives as a path forward. He applies a
+  classical-liberal lens to the economics of coercion: brothels relying on
+  violence to control trafficked girls face high costs—unpleasant workers unable
+  to serve higher-paying hotel clients—making violence inefficient. In a
+  competitive market, brothels using non-violent monitoring should outcompete
+  violent ones. Consequently, operations with 'willing' girls should prevail
+  over trafficking-dependent brothels that require more violence. Shah questions
+  whether this market process realistically applies, suggesting competition
+  could undermine trafficking without solely relying on raids.
+key_points:
+  - >-
+    Brothel owners in Cambodia claim they would profit more and gain respect
+    from running grocery stores instead.
+  - >-
+    Increasing economic freedom offers viable alternatives to lure owners out of
+    the brothel business.
+  - >-
+    Violence to control trafficked girls raises costs, making such brothels less
+    competitive in a market setting.
+  - >-
+    Brothels with 'willing' girls using non-violent methods should outcompete
+    trafficking-based operations.
+  - >-
+    Market competition's potential to reduce trafficking warrants examination
+    beyond raids and activism.
+topics:
+  - economic-freedom
+  - sex-trafficking
+  - market-competition
 tags:
   - Cambodia
   - sex trafficking
   - Kristof
   - Trafficking
+source_hash: e0374a8b883e4266c8b11a17efa0ea338a5a343aa935bdd4761e4c923dae78df
+summary_hash: e0374a8b883e4266c8b11a17efa0ea338a5a343aa935bdd4761e4c923dae78df
+summary_at: '2026-05-05T10:17:22.828Z'
 ---
 **By Parth Shah**
 

@@ -1,21 +1,58 @@
 ---
 title: Should Jeff Bezos Just Pay Taxes?
 original_url: 'https://www.spontaneousorder.in/p/should-jeff-bezos-just-pay-taxes'
+author: Spontaneous Order
 published_at: '2019-11-27T16:25:25.000Z'
 ingested_at: '2026-05-05T08:31:42.457Z'
-source_hash: d62d5f50bba485dfbaeb6326697f1c1305660335b0e5b1948593a928f0272c4d
-author: Spontaneous Order
 excerpt: >-
   Amazon’s boss Jeff Bezos recently came up in the news for having made
   charitable donations worth 98.5 million to multiple different organizations,
   all of which work towards eliminating homelessness. Despite the charitable
   gesture, there has been widespr
+summary: >-
+  Jeff Bezos donated $98.5 million to organizations fighting homelessness, yet
+  faced criticism from politicians like Jeremy Corbyn demanding he 'just pay
+  your taxes' after Amazon paid $0 in federal taxes on over $11 billion in 2018
+  profits. The author counters that such taxes wouldn't solve problems, as US
+  government revenue is projected at $3.6 trillion in 2020, yet homelessness
+  rose from 549,928 in 2016 to 552,830 in 2018 despite over $2 billion annually
+  allocated to the issue, increasing by $100 million yearly. Government
+  incompetence and lack of incentives lead to wasteful spending on walls, tours,
+  and elections rather than solutions. Private charity is more effective, as
+  governments have historically failed with tax funds. Amazon's tax strategies
+  are legal tax avoidance, not evasion, affirmed by Justice Learned Hand:
+  individuals may arrange affairs to minimize taxes without patriotic duty to
+  pay more. The classical-liberal view prioritizes directing resources to
+  effective charities over entrusting them to inefficient government
+  institutions.
+key_points:
+  - >-
+    Amazon legally paid $0 federal taxes on $11B+ 2018 profits through
+    investments and donations, a practice all can and should use to minimize
+    legal tax burdens.
+  - >-
+    US homelessness increased despite $2B+ annual federal funding, proving
+    government's incompetence even with trillions in revenue.
+  - >-
+    Private charities outperform government spending, which wastes funds on
+    non-solutions like statues and election freebies.
+  - >-
+    Taxing billionaires more won't fix problems; better to donate directly to
+    targeted organizations.
+topics:
+  - tax-avoidance
+  - government-failure
+  - private-charity
+  - homelessness
 tags:
   - welfare state
   - Taxes
   - Welfare
   - Jeff Bezos
   - Amazon
+source_hash: d62d5f50bba485dfbaeb6326697f1c1305660335b0e5b1948593a928f0272c4d
+summary_hash: d62d5f50bba485dfbaeb6326697f1c1305660335b0e5b1948593a928f0272c4d
+summary_at: '2026-05-05T11:41:45.036Z'
 ---
 **By Sourya Banerjee**
 

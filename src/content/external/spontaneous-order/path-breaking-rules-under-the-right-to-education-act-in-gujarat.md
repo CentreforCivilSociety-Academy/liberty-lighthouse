@@ -2,21 +2,58 @@
 title: 'Path-breaking rules under the Right to Education Act, in Gujarat'
 original_url: >-
   https://www.spontaneousorder.in/p/path-breaking-rules-under-the-right-to-education-act-in-gujarat
+author: Spontaneous Order
 published_at: '2012-04-26T00:26:51.000Z'
 ingested_at: '2026-05-05T08:31:42.622Z'
-source_hash: bad7a51b49b05f37e7d4498bbebea2726728dbce01132f5d84e99ed3d7bcd444
-author: Spontaneous Order
 excerpt: >-
   One major initiative of the Indian government, in the field of education, was
   the Right to Education Act of 2009. This act has major problems, as has been
   argued by numerous observers and experts in the field. This Act focuses on the
   interests of incumb..
+summary: >-
+  The Right to Education Act of 2009 prioritizes inputs for public sector
+  education providers over learning outcomes for children and parents,
+  penalizing private schools despite their superior results. Gujarat's RTE
+  Rules, notified recently and drafted under former Chief Secretary Sudhir
+  Mankad, innovate by basing school recognition on a weighted average: 30%
+  student learning outcomes (absolute levels via independent standardized
+  tests), 40% improvement over past performance (to counter selection bias), 15%
+  inputs like facilities and teacher qualifications, and 15% non-academic
+  outcomes plus parent feedback from a random sample of 20 parents. This
+  outcome-focused approach marks a classical-liberal shift toward children and
+  parents rather than producers. The rules adopt flexible norms, such as
+  classroom size of 300 sq ft or adjusted teacher-student ratio via (area-60)/8
+  formula, recognizing budget private schools' role in high-cost areas. If norms
+  fail, state takeover or third-party management ensures school continuity for
+  students, unlike forced closures. This contrasts sharply with other states'
+  rigid input-based rules, many of which government schools themselves fail.
+key_points:
+  - >-
+    Gujarat RTE Rules weight school recognition 70% on student learning outcomes
+    (30% absolute, 40% improvement).
+  - >-
+    Flexible infrastructure norms allow smaller classrooms with adjusted
+    teacher-student ratios using (area-60)/8 formula.
+  - >-
+    Non-compliance leads to state takeover or management transfer to protect
+    student continuity, not forced closure.
+  - >-
+    Approach prioritizes private schools' contributions and outcomes over rigid
+    inputs, unlike other states.
+topics:
+  - rte-act
+  - education-reform
+  - learning-outcomes
+  - private-schools
 tags:
   - Gujarat RTE Rules
   - Rules in Gujarat
   - School Choice Campaign
   - government schools
   - Right to Education Act
+source_hash: bad7a51b49b05f37e7d4498bbebea2726728dbce01132f5d84e99ed3d7bcd444
+summary_hash: bad7a51b49b05f37e7d4498bbebea2726728dbce01132f5d84e99ed3d7bcd444
+summary_at: '2026-05-05T11:12:26.946Z'
 ---
 **By Parth Shah**
 

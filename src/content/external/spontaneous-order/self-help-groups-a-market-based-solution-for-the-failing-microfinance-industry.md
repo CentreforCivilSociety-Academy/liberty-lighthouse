@@ -4,19 +4,64 @@ title: >-
   Industry
 original_url: >-
   https://www.spontaneousorder.in/p/self-help-groups-a-market-based-solution-for-the-failing-microfinance-industry
+author: Spontaneous Order
 published_at: '2018-10-08T12:07:10.000Z'
 ingested_at: '2026-05-05T08:31:42.514Z'
-source_hash: 38ed723ba44669b6e3c34abab64981ce41c20629796064f3767f8b2b3e34361f
-author: Spontaneous Order
 excerpt: >-
   Rural credit has been one of the most pertinent issues in India. Despite the
   existence of formal credit institutions like Banks, Microfinance Institutions,
   and Credit Cooperatives, sufficient credit is still not effectively
   penetrating rural areas, star..
+summary: >-
+  Rural credit in India remains inadequate despite formal institutions like
+  banks and microfinance organizations, which fail due to requirements for
+  collateral, high interest rates, procedural hurdles, and supply-demand
+  mismatches exacerbated by borrowers' lack of education and documentation. Self
+  Help Groups (SHGs) emerge as a market-based solution, enabling rural
+  poor—especially women and lower castes discriminated against by formal
+  lenders—to pool small weekly or monthly savings and recycle them into
+  accessible credit with flexible repayments. Launched via NABARD's SHG-Bank
+  Linkage Programme (SBLP) in 1992, this model synthesizes formal banking with
+  informal systems, becoming the world's largest community-based microfinance
+  initiative recognized by RBI as priority sector lending. Two linkage models
+  exist: direct bank-SHG and via NGOs. Author's fieldwork with 40-45 women in
+  Karjat revealed one-third had escaped microfinance debt traps, using SHGs to
+  sustain cottage industries in clothing and food. Navjyoti India Foundation's
+  112 SHGs since 2001 have empowered women, enhancing self-esteem, enabling
+  independent decision-making, and leading community roles like 'water police'
+  and tree plantations. SHGs thus foster entrepreneurship, skill development,
+  and women's empowerment, addressing formal credit failures through
+  decentralized, community-driven markets.
+key_points:
+  - >-
+    Formal credit institutions fail rural poor due to collateral demands, high
+    interest, and procedural barriers, creating a persistent supply-demand gap.
+  - >-
+    SHGs pool members' small savings to provide internal credit with flexible
+    repayments, enabling small-scale industries and escaping debt traps.
+  - >-
+    NABARD's 1992 SBLP links SHGs to banks, forming the world's largest
+    community-based microfinance program with Type-I (direct bank) and Type-II
+    (via NGOs) models.
+  - >-
+    Field interactions show SHGs empower women, with one-third of 40-45
+    interviewees overcoming microfinance crises and gaining social leadership
+    roles.
+  - >-
+    SHGs enhance women's self-esteem and independence, transforming family
+    dynamics and community participation.
+topics:
+  - rural-credit
+  - self-help-groups
+  - microfinance
+  - womens-empowerment
 tags:
   - microfinance
   - self-help groups
   - rural India
+source_hash: 38ed723ba44669b6e3c34abab64981ce41c20629796064f3767f8b2b3e34361f
+summary_hash: 38ed723ba44669b6e3c34abab64981ce41c20629796064f3767f8b2b3e34361f
+summary_at: '2026-05-05T11:36:53.700Z'
 ---
 **By Shivam Gujral**
 

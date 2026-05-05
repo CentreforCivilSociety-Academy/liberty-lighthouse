@@ -1,19 +1,34 @@
 ---
 title: 'The Economic History of the Last 2,000 Years in Graphs'
 original_url: 'https://www.spontaneousorder.in/p/the-economic-history-last-2000-years-graphs'
+author: Spontaneous Order
 published_at: '2012-06-26T10:39:40.000Z'
 ingested_at: '2026-05-05T08:31:42.615Z'
-source_hash: 83801f68b191e4a4571944feead7ab85766d46edfc125186ea0e9bb37c4f246c
-author: Spontaneous Order
 excerpt: >-
   The Atlantic has published some really cool graphs illustrating 2000 years of
   the economic history of different nations. The charts are very informative,
   illuminating, and fun to look at. (HT: Daphne Vallado) The Economic History of
   the Last 2,000 Year...
+summary: >-
+  This short post shares links to The Atlantic articles featuring graphs on 2000
+  years of economic history across nations, describing them as 'really cool,'
+  'informative,' 'illuminating,' and 'fun.' It embeds an image of a graph titled
+  '2000 years of per cent GDP' and directs readers to Parts I, II, and III (no
+  original analysis or classical-liberal framing provided).
+key_points:
+  - >-
+    Post links to The Atlantic's graphs visualizing 2000 years of economic
+    history in nations.
+topics:
+  - economic-history
+  - gdp-growth
 tags:
   - economic history
   - graphs
   - The Atlantic
+source_hash: 83801f68b191e4a4571944feead7ab85766d46edfc125186ea0e9bb37c4f246c
+summary_hash: 83801f68b191e4a4571944feead7ab85766d46edfc125186ea0e9bb37c4f246c
+summary_at: '2026-05-05T12:24:35.903Z'
 ---
 **By Andrew Humphries**
 

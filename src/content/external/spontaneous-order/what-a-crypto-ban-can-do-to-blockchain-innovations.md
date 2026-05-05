@@ -2,20 +2,63 @@
 title: What a Crypto Ban can do to Blockchain Innovations
 original_url: >-
   https://www.spontaneousorder.in/p/what-a-crypto-ban-can-do-to-blockchain-innovations
+author: Spontaneous Order
 published_at: '2021-07-21T12:00:32.000Z'
 ingested_at: '2026-05-05T08:31:42.303Z'
-source_hash: 2ac946c012c3489e94a62c9d7421247b5af78842523ba328468e99803dce2800
-author: Spontaneous Order
 excerpt: >-
   Ever since the RBI banned transactions in cryptocurrency in 2018 and the
   Supreme Court later revoked it in March 2020, there has been constant back and
   forth on the subject. The Government, at times influenced by the RBI, thinks
   crypto is bad and decide..
+summary: >-
+  The Indian government's repeated threats to ban private cryptocurrencies,
+  following the RBI's 2018 ban (revoked by the Supreme Court in 2020), create
+  uncertainty for investors and blockchain developers, despite a potential
+  crypto bill with stakeholder inputs and a fintech experimentation window being
+  tabled in Parliament's monsoon session. Blockchain, the distributed ledger
+  technology underlying cryptocurrencies like Bitcoin and Ether, extends far
+  beyond fintech to disrupt supply chains, contract management, data sharing,
+  and voting. Ethereum enables smart contracts—self-executing programs that
+  automate enforcement, reducing intermediaries and discretion, crucial in India
+  where contract enforcement is weak. In agriculture, smart contracts could
+  boost low-uptake rainfall insurance by linking payouts to verifiable data, and
+  enable instant payments in contract farming. Blockchain can integrate
+  fragmented supply chains, enable real-time traceability, and cut post-harvest
+  losses to raise farmers' incomes. Platforms like Cardano support secure
+  decentralized apps for social networks and messaging. Banning
+  cryptocurrencies, the primary funding and operational mechanism for
+  blockchain, would stifle these innovations—like banning the internet while
+  expecting computers to thrive. From a classical-liberal view, comprehensive
+  regulation providing clarity is essential for long-term investor confidence
+  and blockchain flourishing across sectors, rather than bans or limited
+  experimentation.
+key_points:
+  - >-
+    Banning cryptocurrencies would prevent deployment and funding of blockchain
+    innovations essential for sectors like agriculture and supply chains.
+  - >-
+    Smart contracts on Ethereum automate enforcement, reducing intermediaries
+    and discretion in India's weak contract ecosystem.
+  - >-
+    Blockchain enables traceable agricultural supply chains, cutting
+    post-harvest losses and boosting farmers' incomes via real-time data
+    sharing.
+  - >-
+    Government must enact comprehensive cryptocurrency regulation for clarity,
+    rather than bans that delay or kill innovation.
+topics:
+  - cryptocurrency-regulation
+  - blockchain
+  - smart-contracts
+  - agricultural-innovation
 tags:
   - cryptocurrency
   - blockchain
   - Government
   - technology
+source_hash: 2ac946c012c3489e94a62c9d7421247b5af78842523ba328468e99803dce2800
+summary_hash: 2ac946c012c3489e94a62c9d7421247b5af78842523ba328468e99803dce2800
+summary_at: '2026-05-05T12:57:11.099Z'
 ---
 **By Nikhil Kanakamedala**
 

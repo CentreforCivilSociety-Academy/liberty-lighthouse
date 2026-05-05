@@ -2,15 +2,56 @@
 title: 'Seeding Success: Harnessing Women’s Potential in Agriculture'
 original_url: >-
   https://www.spontaneousorder.in/p/seeding-success-harnessing-womens-potential-in-agriculture
+author: Spontaneous Order
 published_at: '2023-09-26T15:38:03.000Z'
 ingested_at: '2026-05-05T08:31:42.236Z'
-source_hash: 3af768915c8f3c1d072866d8f9e487aa61e90d799bca4be6e86e937c7b96c8db
-author: Spontaneous Order
 excerpt: >-
   Agriculture has been the backbone of the Indian economy. Over the years, it
   has employed more than half of our population, including women and contributed
   immensely to our country’s growth. Women have been a silent yet resilient
   pillar in this achieveme
+summary: >-
+  Women form 80% of India's economically active agricultural workforce amid the
+  'feminization of agriculture' driven by male urban migration—70% of
+  cultivating women from migrant households—yet only 13% own land due to
+  patriarchal norms, poor records, and legal hurdles, denying them recognition
+  as farmers. This excludes them from Kisan Credit Cards, insurance, seeds, and
+  entitlements, while heavy workloads, low literacy, caste barriers, and
+  mobility limits exacerbate exploitation and low productivity. The author
+  argues from a classical-liberal lens that securing property rights and
+  recognition is essential for unleashing women's potential, as FAO data shows
+  equal resource access could raise yields 20-30%, enhancing food security and
+  rural development since women invest more in families. Government schemes like
+  Mahila Kisan Sashktikaran Pariyojana and self-help groups fall short without
+  ownership reforms. Recommendations include gendered policy audits (e.g.,
+  National Policy for Farmers, PM Fasal Bima Yojana), women farmer ID cards as
+  in the 2011 Women Farmers’ Entitlements Bill, official training, community
+  sensitization via NGOs and inclusive SHGs, and women-friendly supports like
+  childcare. True empowerment via rights promises inclusive growth.
+key_points:
+  - >-
+    Despite 80% of economically active women in agriculture, only 13% own land,
+    blocking access to credit, insurance, and entitlements.
+  - >-
+    Feminization stems from male migration (70% of women cultivators from such
+    households) and agrarian distress, widening gender gaps.
+  - >-
+    Equal resource access for women could boost yields 20-30% per FAO, improving
+    productivity and family investments.
+  - >-
+    Introduce women farmer ID cards and audit policies like PM Fasal Bima Yojana
+    for gender equity.
+  - >-
+    Sensitize officials, communities, and include men in SHGs to enforce land
+    rights and reduce patriarchal barriers.
+topics:
+  - agriculture
+  - women-farmers
+  - land-ownership
+  - gender-equity
+source_hash: 3af768915c8f3c1d072866d8f9e487aa61e90d799bca4be6e86e937c7b96c8db
+summary_hash: 3af768915c8f3c1d072866d8f9e487aa61e90d799bca4be6e86e937c7b96c8db
+summary_at: '2026-05-05T11:36:19.025Z'
 ---
 **By Maghdhi Jain**
 

@@ -4,21 +4,65 @@ title: >-
   PAISA
 original_url: >-
   https://www.spontaneousorder.in/p/are-we-whitewashing-decentralization-in-the-education-sphere-lessons-from-paisa
+author: Spontaneous Order
 published_at: '2013-03-22T15:32:56.000Z'
 ingested_at: '2026-05-05T08:31:42.610Z'
-source_hash: 0862363d64971df2484aff27cb1e993cb25b22fbd4a7bddaf38e4a8cdfa9cf69
-author: Spontaneous Order
 excerpt: >-
   By Abir Joshi Reading between the lines of the 2012 PAISA Report published by
   Accountability Initiative, it becomes clear that the ideals of decentralized
   autonomy envisioned by the 73rd and 74th amendments to the Constitution are
   nowhere close to being..
+summary: >-
+  The 2012 PAISA Report reveals that India's education system fails to realize
+  the decentralized autonomy promised by the 73rd and 74th constitutional
+  amendments, with only 2% of expenditure reaching School Management Committees
+  while major decisions remain at district or state levels. Despite education
+  spending doubling from Rs. 68,853 crores in 2007-08 to Rs. 147,059 crores in
+  2012-13, learning outcomes stagnate or decline under the top-down RTE Act
+  framework, stifling school-level innovation. Schools receive meager Rs. 10,000
+  annually for development and Rs. 500 per teacher for materials, often
+  exhausted on essentials and whitewashing (67% of schools), due to inadequate
+  funds and informal bureaucratic directives for visible projects like painting
+  before official visits. Anecdotal evidence shows decisions are not truly
+  autonomous, with officials imposing uniform purchases ignoring school needs.
+  Community participation alone fails without capacity building, as seen in
+  studies where 25% of Village Education Committee members were unaware of their
+  roles. International examples from Indonesia and Kenya highlight that training
+  communities to monitor and act—such as hiring para-teachers—improves outcomes.
+  The post argues from a classical-liberal viewpoint that India's socialist
+  centralized education policymaking wastes resources; true decentralization
+  empowering schools and trained local communities is essential for meaningful
+  learning and global competitiveness.
+key_points:
+  - >-
+    Only 2% of education expenditure reaches School Management Committees, with
+    key decisions controlled at higher levels.
+  - >-
+    Meager school grants of Rs. 10,000/year are mostly spent on whitewashing due
+    to bureaucratic pressures and fund constraints.
+  - >-
+    Community participation requires capacity building to work, as untrained
+    Village Education Committees show widespread unawareness of roles.
+  - >-
+    Training school committees in Kenya improved learning by enabling
+    monitoring, hiring para-teachers, and grant oversight.
+  - >-
+    Centralized education fails to build human capital; devolve real power to
+    schools and communities for innovation and efficiency.
+topics:
+  - education
+  - decentralization
+  - school-management
+  - capacity-building
 tags:
   - Decentralization
   - policymaking
   - School Choice Campaign
   - Gram Panchayats
   - PAISA Report
+source_hash: 0862363d64971df2484aff27cb1e993cb25b22fbd4a7bddaf38e4a8cdfa9cf69
+summary_hash: 0862363d64971df2484aff27cb1e993cb25b22fbd4a7bddaf38e4a8cdfa9cf69
+summary_at: '2026-05-05T09:00:54.889Z'
 ---
 **By akanksha**
 

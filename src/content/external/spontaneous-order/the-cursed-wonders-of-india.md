@@ -1,20 +1,66 @@
 ---
 title: The Cursed Wonders of India
 original_url: 'https://www.spontaneousorder.in/p/the-cursed-wonders-of-india'
+author: Spontaneous Order
 published_at: '2018-08-06T08:03:03.000Z'
 ingested_at: '2026-05-05T08:31:42.527Z'
-source_hash: 581c81602dae832ea9d01317f4226e274c61745329a0471b9fc256c60e1da85c
-author: Spontaneous Order
 excerpt: >-
   Located near the Indo-Pak border of the Thar desert are the forgotten Kiradu
   temples of the Chalukya dynasty. Built in the 11th century, the temples,
   constructed in the Solanki style, are believed to be cursed. Legend has it
   that a Sage left a disciple ..
+summary: >-
+  India's ancient heritage sites, like the 11th-century Kiradu temples in
+  Rajasthan—where only 5 of an estimated 108 remain despite a 2001 allocation of
+  110 lakh INR state funds and 50 lakh INR centrally sponsored—and Delhi's
+  Mehrauli Archaeological Park, are crumbling under the Archaeological Survey of
+  India (ASI)'s stewardship, which manages 3,650 monuments amid chronic
+  bureaucracy, staff shortages, and red tape. The author highlights ASI's
+  inefficiencies, contrasting them with successes like K.K. Muhammed's
+  restoration of 200 Gurjara-Pratihara temples through unconventional
+  partnerships, including with dacoits. Drawing from the UK's 2015 reform of
+  English Heritage into an autonomous charitable trust with 80 million pounds
+  government investment to achieve self-sustainability, the post argues from a
+  classical-liberal viewpoint that the state should relinquish direct control.
+  Instead, grant autonomy to bodies like ASI and INTACH to 'privatize
+  conservation'—enabling them to raise philanthropic funds, leverage
+  technologies, hire talent, and foster local partnerships, as seen in private
+  museums and Udaipur's City Palace restoration. The unimplemented 1989 Mirdha
+  Committee recommendation underscores the failure of government monopolies
+  burdened by competing priorities, urging structural reform to preserve history
+  as a trusteeship for future generations rather than condemning it to neglect.
+key_points:
+  - >-
+    Kiradu temples received 160 lakh INR in planned funding in 2001 but remain
+    unrestored after 18 years under ASI care.
+  - >-
+    ASI, established in 1861 and overseeing 3,650 monuments, is hampered by
+    bureaucracy despite individual successes like K.K. Muhammed's temple
+    restorations via local partnerships.
+  - >-
+    UK's English Heritage was reformed in 2015 into an autonomous charitable
+    trust with 80 million pounds to become self-sustaining through commercial
+    and philanthropic funds.
+  - >-
+    Grant ASI and INTACH autonomy to privatize conservation, raising private
+    funds and partnering with communities, as recommended but ignored by the
+    1989 Mirdha Committee.
+  - >-
+    Current state model is unsustainable; motivated private and autonomous
+    players must be empowered to prevent heritage loss.
+topics:
+  - cultural-heritage
+  - asi-reform
+  - privatization
+  - bureaucratic-failure
 tags:
   - Cultural Heritage
   - Preservation
   - Privatisation
   - history
+source_hash: 581c81602dae832ea9d01317f4226e274c61745329a0471b9fc256c60e1da85c
+summary_hash: 581c81602dae832ea9d01317f4226e274c61745329a0471b9fc256c60e1da85c
+summary_at: '2026-05-05T12:23:33.713Z'
 ---
 **By Rishika Yadav**
 

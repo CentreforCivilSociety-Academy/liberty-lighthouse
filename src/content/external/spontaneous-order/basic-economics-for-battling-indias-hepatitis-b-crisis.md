@@ -2,20 +2,69 @@
 title: Basic Economics for Battling India’s Hepatitis B Crisis
 original_url: >-
   https://www.spontaneousorder.in/p/basic-economics-for-battling-indias-hepatitis-b-crisis
+author: Spontaneous Order
 published_at: '2021-09-17T17:51:29.000Z'
 ingested_at: '2026-05-05T08:31:42.292Z'
-source_hash: 2de1dc448301f26c96ee075e003800879e4631ed411d872a91015d75a0960ec4
-author: Spontaneous Order
 excerpt: >-
   It is estimated that approximately 40 million people in India are infected
   with Hepatitis B and as per National Centre For Disease Control, India has an
   “intermediate to high endemicity” of the disease. Though the Hepatitis B
   vaccination is a part of
+summary: >-
+  India faces a severe Hepatitis B crisis with approximately 40 million infected
+  and intermediate-to-high endemicity, despite the vaccine being part of the
+  Universal Immunization Programme; overall coverage is 86%, but birth-dose
+  coverage is only 45% amid 79% institutional deliveries. The author justifies
+  government intervention using basic economics, citing market failures:
+  information asymmetry in healthcare workers' mishandling of 10-dose vaccine
+  vials (ignoring WHO's 28-day open-vial policy), leading to wastage and low
+  birth-dose uptake, and inadequate blood screening during transfusions.
+  Vaccination generates positive externalities by curbing transmission via
+  blood, sexual contact, or fluids, causing under-vaccination below socially
+  optimal levels as marginal social benefit exceeds marginal social cost. Though
+  health is not truly a public good—evidenced by COVID excludability—Article
+  21's right to life encompasses health. Proposed interventions include
+  awareness campaigns, data management networks linking facilities for timely
+  birth-doses (critical within 12-24 hours for infected mothers), training
+  healthcare workers with nudge theory for efficiency, reallocating Ayushman
+  Bharat funds (INR 5 lakh/family) from tertiary to preventive care (vaccine
+  costs INR 45-500), and emulating Thailand's model which reduced HBsAg
+  prevalence below 1% through similar universal birth-dosing and scalable
+  organization. These measures will help meet the 2030 SDG to end viral
+  hepatitis, minimizing costs and saving millions.
+key_points:
+  - >-
+    India's Hepatitis B birth-dose coverage remains at 45% due to healthcare
+    workers' unawareness of WHO's 28-day open-vial policy, causing vaccine
+    wastage and information asymmetry.
+  - >-
+    Vaccination creates positive externalities by reducing transmission,
+    justifying state intervention to achieve socially optimal coverage beyond
+    private incentives.
+  - >-
+    Government should implement data management systems connecting facilities
+    for timely birth-doses and train workers using nudge theory to minimize
+    wastage.
+  - >-
+    Reallocate Ayushman Bharat funds to prevention, as vaccine doses cost INR
+    45-500, reducing secondary/tertiary care expenses.
+  - >-
+    Adopt Thailand's scalable health organization model, which lowered HBsAg
+    prevalence to <1%, to meet the 2030 viral hepatitis elimination SDG.
+topics:
+  - hepatitis-b
+  - vaccination-policy
+  - market-failures
+  - public-health
+  - health-policy
 tags:
   - Economics
   - science
   - Healthcare
   - Governance
+source_hash: 2de1dc448301f26c96ee075e003800879e4631ed411d872a91015d75a0960ec4
+summary_hash: 2de1dc448301f26c96ee075e003800879e4631ed411d872a91015d75a0960ec4
+summary_at: '2026-05-05T09:07:53.417Z'
 ---
 **By Bhavya Mehta**
 

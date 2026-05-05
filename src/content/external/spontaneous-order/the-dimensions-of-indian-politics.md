@@ -1,20 +1,57 @@
 ---
 title: The Dimensions of Indian Politics
 original_url: 'https://www.spontaneousorder.in/p/the-dimensions-of-indian-politics'
+author: Spontaneous Order
 published_at: '2012-03-05T11:45:01.000Z'
 ingested_at: '2026-05-05T08:31:42.626Z'
-source_hash: 7e125200a3d1c3fc84e0d47a94e453cd2ebbe0c8c0b9c739650d62b570f0771d
-author: Spontaneous Order
 excerpt: >-
   This is a very interesting chart showing the dimensions of politics in India.
   (HT: The Acorn: On the Indian National Interest). What do you both think of
   the horizontal axis? Is that the most relevant other dimension in Indian
   politics next to liber...
+summary: >-
+  Andrew Humphries shares the 'Nitimandala' chart depicting the Indian political
+  spectrum, featuring a horizontal axis of nationalism versus regionalism
+  alongside a presumed liberty-authoritarian dimension, arguing it aids in
+  grasping the realities of Indian politics from a classical-liberal viewpoint.
+  He praises this extra dimension for categorizing the motivations behind
+  liberal or authoritarian stances but contends it addresses the *why* rather
+  than the *whether* of government roles in economic and social freedoms.
+  Humphries favors the Nolan Chart's two-dimensional framework of economic and
+  personal liberty as more logically sound for evaluating government
+  intervention. He proposes an advanced three-dimensional model—a cube
+  integrating the Nolan Chart on one face with nationalism-regionalism as a
+  third axis—now feasible with modern computing for better visualization of
+  political positions. This reflects a classical-liberal emphasis on liberty
+  metrics while acknowledging cultural dimensions like nationalism in India's
+  context, and he invites readers to take the Centre for Civil Society's
+  'World’s Smallest Political Quiz for India' to assess their own stance.
+key_points:
+  - >-
+    The Nitimandala chart adds a nationalism-regionalism axis to map Indian
+    politics, helping explain motivations for liberal or authoritarian views.
+  - >-
+    The Nolan Chart superiorly measures economic and social freedoms to
+    determine the extent of government role.
+  - >-
+    Nationalism-regionalism categorizes the 'why' of positions, not the
+    'whether' of liberty versus authority.
+  - >-
+    A 3D cube combining Nolan Chart and nationalism-regionalism axes would
+    enhance political spectrum analysis.
+topics:
+  - political-spectrum
+  - nolan-chart
+  - indian-politics
+  - nationalism
 tags:
   - social freedom
   - Indian Politics
   - identity
   - Nolan chart
+source_hash: 7e125200a3d1c3fc84e0d47a94e453cd2ebbe0c8c0b9c739650d62b570f0771d
+summary_hash: 7e125200a3d1c3fc84e0d47a94e453cd2ebbe0c8c0b9c739650d62b570f0771d
+summary_at: '2026-05-05T12:24:28.294Z'
 ---
 **By Andrew Humphries**
 

@@ -2,15 +2,57 @@
 title: S Ambirajan’s forgotten classic `A Grammar of Indian Planning (1959)’
 original_url: >-
   https://www.spontaneousorder.in/p/s-ambirajans-forgotten-classic-a-grammar-of-indian-planning-1959
+author: Spontaneous Order
 published_at: '2020-06-29T18:41:46.000Z'
 ingested_at: '2026-05-05T08:31:42.403Z'
-source_hash: e404683a9e9d0f12ad0503202a32a40b8f84f4fd64139b1fdeaa677765d3e2ba
-author: Spontaneous Order
 excerpt: >-
   Independent India was obsessed with the idea of centralised planning, sadly,
   minus scientific logic and reasoning and an avoidable penchant for blindly
   aping other countries. Truth be told, however, the idea of centralised
   planning was uppermost in the ..
+summary: >-
+  Chandrasekaran Balakrishnan revives S Ambirajan's 1959 book 'A Grammar of
+  Indian Planning' as a forgotten liberal critique of India's centralized
+  planning obsession, which began in the 1930s among leaders like Nehru and
+  persisted despite the Constitution's liberal values of economic freedom and
+  property rights. Ambirajan, influenced by Austrian economists like Mises,
+  Hayek, and Bauer, argued that planning ignores the spontaneous organizing
+  power of prices and the complexity of human choices, making mathematical
+  modeling impossible. He critiqued pre- and post-1947 efforts, including the
+  First Two Five-Year Plans (1951-56, 1956-61), Bombay Plan, and Gandhian Plan,
+  as bureaucratic, red-tape ridden, and aping foreign models unsuitable for
+  India's diverse regions. Profoundly, Ambirajan warned that democratic
+  governments lack the stability for rigid Five-Year Plans, risking
+  dictatorship, and highlighted Nehru's democratic facade masking administrative
+  overreach. He stressed economic growth must follow a country's unique path,
+  limited government role, private enterprise expansion, and realistic resource
+  balancing over deficit financing. Balakrishnan deems Ambirajan's insights
+  prophetic for India's first 40 years of malaise and relevant today, as
+  centralized planning endures, stifling prosperity in a functional democracy.
+key_points:
+  - >-
+    India's centralized planning, adopted despite a liberal Constitution, became
+    a tool for neo-colonial bureaucratic dominance, ignoring regional variations
+    and spontaneous market order.
+  - >-
+    Ambirajan's 1959 book meticulously critiques planning from British colonial
+    times through Nehru's era, drawing on global examples like USSR, USA, and
+    Austrian School thinkers.
+  - >-
+    Rigid Five-Year Plans threaten democracy by requiring governmental stability
+    that breeds dictatorship, making them incompatible with India's sovereign
+    republic.
+  - >-
+    Economic development requires limiting government, empowering private
+    enterprise, and avoiding deficit financing without assessing resources.
+  - >-
+    Planning must respect unpredictable human elements and country-specific
+    paths rather than imposing foreign models.
+topics:
+  - central-planning
+  - indian-economic-history
+  - economic-liberalism
+  - austrian-economics
 tags:
   - Liberalism in India
   - Libertarian Scholars
@@ -20,6 +62,9 @@ tags:
   - Indian liberals
   - Indian Liberal Archives
   - Nehruvian model
+source_hash: e404683a9e9d0f12ad0503202a32a40b8f84f4fd64139b1fdeaa677765d3e2ba
+summary_hash: e404683a9e9d0f12ad0503202a32a40b8f84f4fd64139b1fdeaa677765d3e2ba
+summary_at: '2026-05-05T11:31:39.415Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

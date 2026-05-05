@@ -1,19 +1,57 @@
 ---
 title: Smog and Order
 original_url: 'https://www.spontaneousorder.in/p/smog-and-order'
+author: Spontaneous Order
 published_at: '2021-11-30T12:30:32.000Z'
 ingested_at: '2026-05-05T08:31:42.283Z'
-source_hash: a2cd6e6c6eb4393e022698b3edf9b3f15b037cbf9dcd987ad7c880fcb4a11bba
-author: Spontaneous Order
 excerpt: >-
   As we look at Diwali in the rear-view mirror and wonder if Delhi and other
   parts of North India can see anything at all, the question, which was last
   raised during the Farm Law negotiations, has returned. As stubble in Punjab
   and Haryana have been lit o..
+summary: >-
+  Stubble burning by Punjab and Haryana farmers contributes to Delhi's winter
+  smog, as tracked by NASA, but the root cause lies in decades of government
+  interventions distorting agriculture. The Green Revolution in the 1980s
+  incentivized a shift from sustainable traditional crops like maize, pearl
+  millet, pulses, and oilseeds to water-intensive paddy and wheat via MSP
+  guarantees, free electricity, and water subsidies, making Punjab a top rice
+  producer at the cost of groundwater depletion. In 2009, Punjab's Preservation
+  of Subsoil Water Act (followed by Haryana's) banned early rice sowing to
+  conserve water, forcing monsoon planting without farmer input. This delayed
+  harvest left insufficient time to clear stubble before wheat sowing, making
+  burning the cheapest option amid Delhi's winter wind slowdown and location
+  disadvantages. Farmers share blame alongside Diwali crackers, but government
+  policies—lacking stakeholder involvement—entrenched unsustainable rice
+  cultivation. Recent farm law rollback decriminalized stubble burning, while
+  election promises of free electricity risk worsening smog and groundwater
+  crisis. From a classical-liberal view, scrapping perverse incentives since the
+  1980s could have prevented this, allowing easier breathing in Delhi winters.
+key_points:
+  - >-
+    Government incentives from the Green Revolution and MSP shifted
+    Punjab-Haryana to unsustainable rice-wheat cycles, depleting groundwater.
+  - >-
+    2009 subsoil water acts delayed rice planting to monsoon, rushing stubble
+    clearance and promoting burning.
+  - >-
+    Stubble smoke, tracked by NASA, exacerbates Delhi's smog when winter winds
+    slow, but policy distortions are the primary culprit.
+  - >-
+    Decriminalization of stubble burning and new free electricity promises will
+    likely intensify pollution and resource strain.
+topics:
+  - stubble-burning
+  - agricultural-subsidies
+  - green-revolution
+  - groundwater-depletion
 tags:
   - delhi ncr
   - farm laws
   - smog
+source_hash: a2cd6e6c6eb4393e022698b3edf9b3f15b037cbf9dcd987ad7c880fcb4a11bba
+summary_hash: a2cd6e6c6eb4393e022698b3edf9b3f15b037cbf9dcd987ad7c880fcb4a11bba
+summary_at: '2026-05-05T11:46:20.252Z'
 ---
 **By Sourya Banerjee**
 

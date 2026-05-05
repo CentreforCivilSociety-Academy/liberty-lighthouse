@@ -1,20 +1,59 @@
 ---
 title: Big Pharma has reinforced its saviour image
 original_url: 'https://www.spontaneousorder.in/p/big-pharma-has-reinforced-its-saviour-image'
+author: Spontaneous Order
 published_at: '2021-07-12T15:20:41.000Z'
 ingested_at: '2026-05-05T08:31:42.307Z'
-source_hash: 52b7b157fd72bb775077c0b5fd31f331dc476ede1be18d82383a9d01afe5c879
-author: Spontaneous Order
 excerpt: >-
   Arguably, the most-hated industry in the world is the pharmaceutical industry.
   Since dying people will pay anything, the normal price resistance of consumers
   disappears. So, profit margins for new patented drugs can be humongous. When
   anti-AIDS drug coc..
+summary: >-
+  Swaminathan S.A. Aiyar defends the pharmaceutical industry as a historical
+  savior despite its notoriety for humongous profits on patented drugs, arguing
+  that these incentives are essential for R&D that has doubled life expectancy
+  and cured incurable diseases. He cites the anti-AIDS drugs, where US firms
+  charged $15,000/year initially, offered 'at cost' $1,500 to poor countries,
+  but Indian firm Cipla undercut at $800, driving prices to $200 by 2010 amid
+  patent disputes. COVID vaccines exemplify pharma's miracle: developed in under
+  a year versus expected five years, with Pfizer/Moderna following protocols,
+  AstraZeneca/Oxford at $3-4/dose for poor nations, storable in ordinary
+  refrigerators. The author critiques the flawed international patent system but
+  insists profit-motivated private R&D outperforms public efforts, as Soviet
+  bloc failed to innovate despite free healthcare. Governments should fund basic
+  research, guarantee purchases for tropical diseases with price caps, and
+  support clinical trials rather than relying on price controls or nationalizing
+  R&D. COVID underscores harnessing pharma's skills to reduce super-profits'
+  odium while advancing public health as a public good.
+key_points:
+  - >-
+    Pharmaceutical companies' profit incentives have driven life-saving
+    innovations like anti-AIDS drugs (prices fell from $15,000 to $200) and
+    rapid COVID vaccines.
+  - >-
+    International patent system enables high R&D recovery but is flawed; private
+    profit-motivated research vastly outperforms public sector efforts like the
+    Soviet Union's.
+  - >-
+    Governments should provide R&D funding, purchase guarantees with price caps
+    for diseases like tropical ones, instead of just price controls.
+  - >-
+    AstraZeneca/Oxford COVID vaccine at $3-4/dose suits poor countries,
+    highlighting accessible innovation potential.
+topics:
+  - pharma-industry
+  - intellectual-property
+  - r-and-d-funding
+  - covid-vaccines
 tags:
   - industry
   - Public Health
   - drugs
   - pharma
+source_hash: 52b7b157fd72bb775077c0b5fd31f331dc476ede1be18d82383a9d01afe5c879
+summary_hash: 52b7b157fd72bb775077c0b5fd31f331dc476ede1be18d82383a9d01afe5c879
+summary_at: '2026-05-05T09:10:16.565Z'
 ---
 **By Swaminathan SA Aiyer**
 

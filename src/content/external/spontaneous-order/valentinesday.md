@@ -1,15 +1,53 @@
 ---
 title: The Curious Task of Falling in Love
 original_url: 'https://www.spontaneousorder.in/p/valentinesday'
+author: Spontaneous Order
 published_at: '2016-02-12T19:26:42.000Z'
 ingested_at: '2026-05-05T08:31:42.561Z'
-source_hash: 956f81ae5c9993e9be9ff7f6254e715ef873c7b42af4a9bc6deb7936758d1a24
-author: Spontaneous Order
 excerpt: >-
   Valentine’s Day is on its way and love is in the air. This article will deal
   with some basic economic principles and freedom; and show that love, economics
   and liberty have a very close and cozy relationship. You can’t have one
   without the other. Hope
+summary: >-
+  This Valentine's-themed post analogizes classical-liberal principles to
+  falling in love, arguing that love, economics, and liberty are inseparable,
+  requiring freedom of choice and free will. In a free society, individuals
+  select partners through persuasion—charm, looks, or talk—rather than force,
+  upholding the Non-Aggression Principle, which prohibits physical violence or
+  threats and rejects coerced matches by governments or religions. Spontaneous
+  order emerges as love arises naturally from interpersonal chaos without
+  central planning, dismissing notions like 'matches made in heaven.' Adam
+  Smith's invisible hand illustrates how self-interested pursuits of love yield
+  unintended benefits like emotional balance and social stability. Opportunity
+  cost demands careful partner selection and unwavering commitment to avoid
+  losing alternatives. Gift-giving on Valentine's Day, boosted by greater
+  economic freedom and disposable incomes, signals deep knowledge of
+  preferences, outperforming cash in conveying emotion despite economists'
+  efficiency arguments. Drawing on Mises, the piece frames economics as human
+  action—motives, choices, and incentives—pervading love and affirming liberty's
+  role in personal relationships.
+key_points:
+  - >-
+    Embrace the non-aggression principle in romance by persuading through charm
+    rather than using force.
+  - >-
+    Recognize spontaneous order as love emerges naturally from individual
+    interactions without planning.
+  - >-
+    Leverage the invisible hand by pursuing self-interested love, which creates
+    social and emotional benefits.
+  - >-
+    Account for opportunity cost by choosing partners carefully and committing
+    fully to the relationship.
+  - >-
+    Signal affection through thoughtful gifts that demonstrate knowledge of your
+    partner's preferences over mere cash.
+topics:
+  - economics
+  - liberty
+  - spontaneous-order
+  - free-choice
 tags:
   - Spontaneous Order
   - Valentine's Day
@@ -21,6 +59,9 @@ tags:
   - Love
   - Ludwig Von Mises
   - 14th February
+source_hash: 956f81ae5c9993e9be9ff7f6254e715ef873c7b42af4a9bc6deb7936758d1a24
+summary_hash: 956f81ae5c9993e9be9ff7f6254e715ef873c7b42af4a9bc6deb7936758d1a24
+summary_at: '2026-05-05T12:52:27.503Z'
 ---
 **By Sadaf Hussain**
 

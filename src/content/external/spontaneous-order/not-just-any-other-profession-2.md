@@ -1,19 +1,56 @@
 ---
 title: Not Just Any Other Profession
 original_url: 'https://www.spontaneousorder.in/p/not-just-any-other-profession-2'
+author: Spontaneous Order
 published_at: '2011-06-14T23:17:50.000Z'
 ingested_at: '2026-05-05T08:31:42.641Z'
-source_hash: d48d5f84da57eda98521d3c21422b63ba015c2e4d972ed220bfb0bcd5f5418b5
-author: Spontaneous Order
 excerpt: >-
   By: Surbhi Tandon What does it take to break a story, to expose scam, to
   unearth rot? Popular perception is that journalism is a profession with
   privileged-secure-jobs. Journalists are often seen as glamorous crusaders of
   public good. But like it or not..
+summary: >-
+  The post challenges the glamorous image of journalism as a secure, privileged
+  profession, highlighting the severe risks Indian journalists face in exposing
+  scams and government wrongdoing. It cites the broad-daylight assassination of
+  senior journalist Jyotirmoy Dey in Mumbai and the charging of Tehelka
+  journalist Shahina under IPC Section 506 for her investigative report on Abdul
+  Nasar Madani's false implication in the 2008 Bangalore blasts, where key
+  witnesses were unaware of their testimonies on the chargesheet. Tehelka's
+  Kunal Majumdar notes higher risks in small cities. India ranks 13th on the
+  Committee to Protect Journalists' 2011 Impunity Index (Pakistan 10th), 122nd
+  out of 178 in Reporters Without Borders' 2010 Press Freedom Index, with four
+  Orissa journalists charged with sedition since July 2010 and six intimidation
+  cases in early 2011. From a classical-liberal viewpoint, the piece invokes
+  Nehru's preference for a completely free press over a suppressed one, urging
+  recognition of these dangers and concrete action beyond declarations to
+  achieve true press freedom amid impunity and threats.
+key_points:
+  - >-
+    Journalists like Shahina face criminal charges for investigative reporting
+    that exposes false implications in terror cases.
+  - >-
+    India's 13th rank on CPJ's 2011 Impunity Index and 122nd on RSF's 2010 Press
+    Freedom Index reflect high levels of threats, attacks, and impunity against
+    media.
+  - >-
+    Four Orissa journalists have been charged with sedition since July 2010,
+    with six intimidation instances reported in early 2011.
+  - >-
+    True press freedom requires recognizing journalists' risks and moving beyond
+    rhetoric, as Nehru advocated for an unregulated press despite its dangers.
+topics:
+  - press-freedom
+  - journalist-safety
+  - free-speech
+  - india-media
 tags:
   - murder
   - Freedom
   - journalism
+source_hash: d48d5f84da57eda98521d3c21422b63ba015c2e4d972ed220bfb0bcd5f5418b5
+summary_hash: d48d5f84da57eda98521d3c21422b63ba015c2e4d972ed220bfb0bcd5f5418b5
+summary_at: '2026-05-05T11:06:05.162Z'
 ---
 **By Vipin**
 

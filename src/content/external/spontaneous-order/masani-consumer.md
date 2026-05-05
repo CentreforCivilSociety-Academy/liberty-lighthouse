@@ -3,15 +3,47 @@ title: >-
   #ThrowbackThursday: M R Masani — In a Free Economy, the Consumer is King
   (1965)
 original_url: 'https://www.spontaneousorder.in/p/masani-consumer'
+author: Spontaneous Order
 published_at: '2015-10-22T17:59:26.000Z'
 ingested_at: '2026-05-05T08:31:42.570Z'
-source_hash: d1d72e03ea6b71ba350b69d3c118f5f2724bad2f2fba0a92f3005535339c06f8
-author: Spontaneous Order
 excerpt: >-
   The following text is an excerpt from a speech delivered by M R Masani in
   1965. M R Masani was one of the most prominent Indian liberals–he was a part
   of the Constituent Assembly that drafted the constitution; and was closely
   associated with the Swatant
+summary: >-
+  M R Masani, a prominent Indian liberal and Swatantra Party associate,
+  critiques the assumption that India can maintain democratic government
+  alongside state monopoly over industry, trade, and agriculture. He examines
+  its impacts on key groups: workers would lose rights to choose jobs, withhold
+  labor, bargain collectively, or strike, as the state as sole employer would
+  not tolerate disruptions to the national plan. Peasants in collective or
+  co-operative farms could not withdraw and reclaim their land. Small investors
+  would be restricted to 'voluntary' state bonds, illustrated by a grim
+  Czechoslovakian anecdote. Consumers, deemed 'king' in a free economy, would
+  face a single state seller dictating goods, quality, and prices with no
+  alternatives, forcing purchase or perish. In contrast, the free market's
+  supply-demand law and balance-sheet discipline empower consumers to vote via
+  purchases, directing entrepreneurs on what to produce. Masani argues this
+  market mechanism preserves individual freedoms essential to democracy, warning
+  that state monopoly erodes them across society.
+key_points:
+  - >-
+    State monopoly eliminates workers' rights to job choice, strikes, and
+    collective bargaining as the sole employer enforces compliance.
+  - >-
+    Peasants in collective farms cannot exit and reclaim their original land
+    plots.
+  - Investors face forced subscriptions to state bonds with no real choice.
+  - >-
+    Consumers lose sovereignty under state monopoly, facing fixed goods and
+    prices without alternatives, unlike free markets where purchases guide
+    production.
+topics:
+  - free-economy
+  - state-monopoly
+  - consumer-sovereignty
+  - economic-freedom
 tags:
   - Minoo Masani
   - Free Market
@@ -21,6 +53,9 @@ tags:
   - Indian Liberal Tradition
   - free economy
   - '#throwbackthursday'
+source_hash: d1d72e03ea6b71ba350b69d3c118f5f2724bad2f2fba0a92f3005535339c06f8
+summary_hash: d1d72e03ea6b71ba350b69d3c118f5f2724bad2f2fba0a92f3005535339c06f8
+summary_at: '2026-05-05T10:50:25.340Z'
 ---
 **By Guest Author**
 

@@ -2,21 +2,64 @@
 title: 'Govt plays vote bank politics under guise of RTE reservations, say schools'
 original_url: >-
   https://www.spontaneousorder.in/p/govt-plays-vote-bank-politics-under-guise-of-rte-reservations-say-schools
+author: Spontaneous Order
 published_at: '2012-06-15T13:47:50.000Z'
 ingested_at: '2026-05-05T08:31:42.617Z'
-source_hash: ce37d7606d72289c94b3aa2586d36a92f05d07913e6ff2cc0a03d9f0293750b2
-author: Spontaneous Order
 excerpt: >-
   New Delhi, Jun 14, 2012, DHNS Several small-budget schools in Delhi and 11
   other states alleged that the government is trying to create a vote bank by
   encouraging reservation within reservation for EWS and disadvantaged
   categories at the National Indepe..
+summary: >-
+  Low-budget private schools, represented by over 5,000 institutions from 12
+  states at the Centre for Civil Society's National Independent Schools Alliance
+  (NISA) conference in Delhi, accused the government of vote-bank politics
+  through the Right to Education (RTE) Act's 25% reservation for EWS and
+  disadvantaged groups, including SC/ST/OBC. This replaced prior SC/ST quotas up
+  to 23.5% in government-funded schools, leading to absurdities like 1.5%
+  allocation for OBC/EWS, as highlighted by Haryana private schools head
+  Kulbushan Sharma. Schools collected over 10,000 signatures demanding
+  non-interference in management, to be presented to leaders like Sonia Gandhi
+  and Kapil Sibal. RTE's infrastructure norms—requiring expanded classrooms and
+  playgrounds—threaten closures without government-provided land, per Bihar's
+  Dr. D K Singh. Representatives decried their poor public image as
+  profit-driven operators amid a lobby by government and elite schools, despite
+  serving the poor; Parth J Shah cited Kerala's 60% private school penetration
+  aiding high literacy. With Delhi adding 5 lakh people yearly, NISA coordinator
+  R C Jain warned that shutting budget schools while closing public ones harms
+  education for lower strata, urging recognition and autonomy for these vital
+  providers.
+key_points:
+  - >-
+    Government's RTE 25% reservation for EWS/disadvantaged creates vote banks
+    and illogical sub-quotas like 1.5% for OBC/EWS.
+  - >-
+    Low-budget schools demand government non-interference in management, backed
+    by 10,000 signatures to be presented to key leaders.
+  - >-
+    RTE infrastructure norms threaten closures of budget schools without land
+    provision from government.
+  - >-
+    Budget schools serving the poor face misrepresentation as profit-driven,
+    contrasting with successes like Kerala's 60% private penetration boosting
+    literacy.
+  - >-
+    Closing budget schools amid rapid population growth like Delhi's 5 lakh
+    annual additions will deny education to lower strata.
+topics:
+  - rte-act
+  - private-schools
+  - education-regulation
+  - budget-schools
 tags:
   - SC/ST quota
   - OBC/EWS
   - Education System
   - reservations
   - CCS
+source_hash: ce37d7606d72289c94b3aa2586d36a92f05d07913e6ff2cc0a03d9f0293750b2
+summary_hash: ce37d7606d72289c94b3aa2586d36a92f05d07913e6ff2cc0a03d9f0293750b2
+summary_at: '2026-05-05T10:06:13.420Z'
 ---
 **By Shantanu Gupta**
 

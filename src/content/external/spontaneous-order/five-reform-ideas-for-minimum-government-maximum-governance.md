@@ -2,15 +2,60 @@
 title: 'Five Reform ideas for ‘Minimum Government, Maximum Governance’'
 original_url: >-
   https://www.spontaneousorder.in/p/five-reform-ideas-for-minimum-government-maximum-governance
+author: Spontaneous Order
 published_at: '2019-06-14T11:03:52.000Z'
 ingested_at: '2026-05-05T08:31:42.484Z'
-source_hash: 86108c7f0ba5ec0b49e8d9423420b4524c0e3c9b1480f3c366ad841fc183d345
-author: Spontaneous Order
 excerpt: >-
   Prime Minister Narendra Modi endorsed the idea of ‘Minimum Government, Maximum
   Governance’ as a guiding principle for his government back in 2014, yet few
   structural reforms have been undertaken over the past five years to make it a
   reality. As the BJ
+summary: >-
+  Prime Minister Narendra Modi's 2014 vision of ‘Minimum Government, Maximum
+  Governance’ remains unrealized after five years, but the BJP's second term
+  with the largest parliamentary majority in over three decades offers a prime
+  opportunity for structural reforms. The post proposes five classical-liberal
+  ideas: First, ease regulatory barriers for marginal entrepreneurs like street
+  vendors and informal recyclers, micro/small enterprises, and tech innovators;
+  privatize public companies except those vital for national security like
+  uranium mining. Second, enact a Right to Education Act 2.0 using school
+  vouchers to finance education for 250 million students, separating government
+  from auditing and execution, and recognizing schools based on learning
+  outcomes rather than inputs like classroom sizes or swimming pools. Third,
+  liberalize agriculture by repealing the cartel-like APMC, Essential
+  Commodities Act, GM seed bans, land ceilings, and contract farming
+  restrictions, mirroring 1991 industrial reforms to enable farmer prosperity
+  through markets. Fourth, fully implement the 73rd and 74th Constitutional
+  Amendments by mandating fund devolution, strengthening mayors, and boosting
+  local transparency for efficient citizen-focused governance. Fifth, ensure
+  institutional autonomy through fixed internal processes, minority government
+  representation on boards, and time-bound vacancies. These reforms would shrink
+  government's role, empower markets and choice, and deliver maximum governance
+  via efficient institutions.
+key_points:
+  - >-
+    Privatize non-security public enterprises and deregulate for marginal
+    entrepreneurs and tech firms to enable a fair free market.
+  - >-
+    Introduce school vouchers and outcome-based school recognition in a reformed
+    RTE Act to promote education choice and market competition for 250 million
+    students.
+  - >-
+    Repeal APMC, Essential Commodities Act, GM bans, land ceilings, and contract
+    farming restrictions to liberalize agriculture and boost farmer prosperity
+    like 1991 reforms.
+  - >-
+    Mandate implementation of 73rd/74th Amendments with fund devolution and
+    stronger mayors to decentralize governance and improve local efficiency.
+  - >-
+    Insulate independent institutions from political interference via autonomous
+    boards and processes to support effective governance.
+topics:
+  - ease-of-doing-business
+  - school-vouchers
+  - agricultural-liberalisation
+  - decentralisation
+  - institutional-autonomy
 tags:
   - RTE
   - minimum government maximum governance
@@ -39,6 +84,9 @@ tags:
   - Reform Ideas
   - EODB
   - school vouchers
+source_hash: 86108c7f0ba5ec0b49e8d9423420b4524c0e3c9b1480f3c366ad841fc183d345
+summary_hash: 86108c7f0ba5ec0b49e8d9423420b4524c0e3c9b1480f3c366ad841fc183d345
+summary_at: '2026-05-05T09:54:41.579Z'
 ---
 **By Gopikrishnan Nair**
 

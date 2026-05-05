@@ -1,15 +1,51 @@
 ---
 title: Of Gated Crossings and Governance
 original_url: 'https://www.spontaneousorder.in/p/of-gated-crossings-and-governance'
+author: Spontaneous Order
 published_at: '2005-04-02T07:17:12.000Z'
 ingested_at: '2026-05-05T08:31:42.687Z'
-source_hash: 62e0cc176b6e965ecc7211527646d7aded0b9a6b7cd4934268063b0147973754
-author: Spontaneous Order
 excerpt: >-
   I have had occasion to indulge in the same acts that you see in the
   photographs courtesy the Hindu. Earlier I would rebuke myself for “breaking
   the rule of law” and indulging in obscene acts like these. Even when there are
   subways present in the vicin
+summary: >-
+  Naveen Mandava critiques government-designed road infrastructure, such as
+  gated crossings and distant subways near the Rajiv Gandhi Setu flyover in
+  front of AIIMS hospital, which force pedestrians to climb fences or jump
+  barriers despite available but inconvenient alternatives. He argues that when
+  hundreds of citizens routinely violate such rules, it signals flawed
+  policy-making that ignores human behavior, akin to overly rigid regulations in
+  areas like informal rent agreements or passport processes. From a
+  classical-liberal viewpoint, Mandava advocates designing institutions and
+  rules around people's actual needs rather than imposing command-and-control
+  measures that demean tax-paying citizens. He highlights how government
+  departments opt for easy prohibitions, like gates and school campaigns
+  enforcing boundaries, instead of incentive-compatible systems proven
+  historically superior for sustainability. The post concludes by questioning
+  whether governments or private agencies in competitive markets are better
+  suited to create such people-centric, effective designs.
+key_points:
+  - >-
+    Poorly placed subways and gates at road crossings compel pedestrians to
+    break rules for convenience.
+  - >-
+    Public policies must account for how people actually behave rather than
+    enforcing rigid, impractical rules.
+  - >-
+    Institutions should prioritize incentive-compatible systems over
+    command-and-control approaches for better results.
+  - >-
+    Competitive private markets may outperform government in designing
+    pedestrian-friendly infrastructure.
+topics:
+  - public-infrastructure
+  - governance
+  - incentives-vs-command
+  - public-policy
+source_hash: 62e0cc176b6e965ecc7211527646d7aded0b9a6b7cd4934268063b0147973754
+summary_hash: 62e0cc176b6e965ecc7211527646d7aded0b9a6b7cd4934268063b0147973754
+summary_at: '2026-05-05T11:07:24.216Z'
 ---
 **By Naveen Mandava**
 

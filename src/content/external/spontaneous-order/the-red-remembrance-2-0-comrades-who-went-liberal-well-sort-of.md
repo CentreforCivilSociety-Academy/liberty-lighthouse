@@ -2,19 +2,60 @@
 title: 'The Red Remembrance 2.0: Comrades Who Went Liberal (well….sort of)'
 original_url: >-
   https://www.spontaneousorder.in/p/the-red-remembrance-2-0-comrades-who-went-liberal-well-sort-of
+author: Spontaneous Order
 published_at: '2018-07-17T08:33:47.000Z'
 ingested_at: '2026-05-05T08:31:42.542Z'
-source_hash: c1fe71a5567568c95fc7c2bbbc39bf103f22164b0fc9cbf3efd8baebe19b3687
-author: Spontaneous Order
 excerpt: >-
   PART 2 OF THE RED REMEMBRANCE: 100 YEARS OF THE RUSSIAN REVOLUTION In our last
   venture, we had left the Russians on the brink of a new beginning. Lenin and
   his Bolsheviks had ‘stormed’ the Winter Palace and had freed the Proletariat
   from the crony ‘
+summary: >-
+  Following the Bolshevik seizure of power, Russia faced civil war against
+  White, Green, and Black armies amid Brest-Litovsk peace talks stalled by
+  Trotsky's 'No War, No Peace' policy, prompting War Communism: nationalization
+  of land and industries, banned strikes, grain requisitions, and militarized
+  railways. This centralized control, justified by Bukharin and Preobrazhensky
+  as ending capitalist anarchy and class war, instead caused economic
+  collapse—industrial workers fell from 3.6 million in 1917 to 1.5 million by
+  1920, rouble collapsed, railways broke down, leading to famines, peasant
+  revolts (Tambov, Ukraine), and Kronstadt sailor rebellion by the proletariat
+  itself. Civil War (1918-23) casualties were immense, alongside executions
+  (1918-22). Facing demobilized armed soldiers turning bandit and 1921-22 famine
+  killing millions, Bolsheviks retreated to New Economic Policy (NEP) in 1921:
+  ended forced requisitions for fixed tax-in-kind, denationalized small
+  industries (10,000 by 1922), restored wages and trade, allowed private
+  agriculture and 'trusts,' while retaining 'commanding heights' (banking,
+  foreign trade, heavy industry). Lenin urged communists to 'learn to trade' and
+  accept foreign concessions. NEP stabilized currency by 1924, weathered 1923
+  'scissors crisis' via market forces and interventions, achieving 'High NEP'
+  recovery by 1925—vindicating partial markets over pure communism, though
+  paving way for Stalin's centralization.
+key_points:
+  - >-
+    War Communism's over-centralization caused industrial workforce to halve
+    from 3.6 million to 1.5 million, rouble collapse, and food shortages fueling
+    rebellions like Kronstadt.
+  - >-
+    Bolsheviks launched NEP in 1921, replacing grain requisitions with fixed
+    taxes, denationalizing 10,000 enterprises by 1922, and allowing private
+    trade to revive economy.
+  - >-
+    NEP stabilized currency by 1924, resolved scissors crisis through rising
+    industrial output and state trade interventions, marking economic recovery
+    under mixed markets.
+topics:
+  - russian-revolution
+  - war-communism
+  - new-economic-policy
+  - central-planning
 tags:
   - Communism
   - Lenin
   - socialism
+source_hash: c1fe71a5567568c95fc7c2bbbc39bf103f22164b0fc9cbf3efd8baebe19b3687
+summary_hash: c1fe71a5567568c95fc7c2bbbc39bf103f22164b0fc9cbf3efd8baebe19b3687
+summary_at: '2026-05-05T12:34:30.749Z'
 ---
 **By Rishika Yadav**
 

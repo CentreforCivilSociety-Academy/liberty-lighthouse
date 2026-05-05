@@ -1,15 +1,48 @@
 ---
 title: The marvel of spontaneous order
 original_url: 'https://www.spontaneousorder.in/p/the-marvel-of-spontaneous-order'
+author: Spontaneous Order
 published_at: '2005-02-12T16:36:27.000Z'
 ingested_at: '2026-05-05T08:31:42.689Z'
-source_hash: d9246b53caabc1076350c01f72e6eaa00875e819f2a054ade99905b4c9367107
-author: Spontaneous Order
 excerpt: >-
   Thanks to Russell Roberts, I’ve two quotes that capture the marvel of
   spontaneous order, the name of this blog; one of Parisians sleeping peacefully
   at night and the other of day-labourer’s woollen coat: “On coming to Paris for
   a visit, I said to my
+summary: >-
+  Parth Shah's post 'The marvel of spontaneous order' highlights the
+  classical-liberal concept of spontaneous order through two seminal quotes.
+  Frédéric Bastiat marvels at a million Parisians sleeping peacefully at night,
+  confident that free exchange will deliver tomorrow's vast array of
+  supplies—food, goods, and services—preventing famine or chaos, attributing
+  this regularity to the 'absolute principle of free exchange.' Adam Smith
+  details the woollen coat of a humble day-labourer in a thriving country,
+  produced by the joint labour of innumerable workers: shepherds, sorters,
+  combers, dyers, spinners, weavers, fullers, dressers, plus merchants and
+  carriers transporting materials across distances. These examples illustrate
+  how decentralized individual actions, driven by market exchange and
+  specialization, create complex, life-sustaining coordination without central
+  direction. The post, named after this idea, links to an exploration of food
+  and spontaneous order, underscoring the Centre for Civil Society's advocacy
+  for economic freedom and choice.
+key_points:
+  - >-
+    Free exchange acts as an invisible principle ensuring the daily flow of
+    essential supplies to millions in cities like Paris.
+  - >-
+    A simple woollen coat worn by a day-labourer embodies the vast division of
+    labour involving shepherds, artisans, merchants, and carriers.
+  - >-
+    Spontaneous order emerges from decentralized individual actions,
+    coordinating complex production without central planning.
+topics:
+  - spontaneous-order
+  - free-exchange
+  - division-of-labor
+  - classical-liberalism
+source_hash: d9246b53caabc1076350c01f72e6eaa00875e819f2a054ade99905b4c9367107
+summary_hash: d9246b53caabc1076350c01f72e6eaa00875e819f2a054ade99905b4c9367107
+summary_at: '2026-05-05T12:30:47.459Z'
 ---
 **By Parth Shah**
 

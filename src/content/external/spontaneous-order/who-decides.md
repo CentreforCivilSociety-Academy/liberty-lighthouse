@@ -1,18 +1,51 @@
 ---
 title: Who decides?
 original_url: 'https://www.spontaneousorder.in/p/who-decides'
+author: Spontaneous Order
 published_at: '2004-09-22T02:13:49.000Z'
 ingested_at: '2026-05-05T08:31:42.698Z'
-source_hash: 511edd25c68ec6d083c1ce082305d3ad7562a8c0cd639f4adc6cc593b80ebbe4
-author: Spontaneous Order
 excerpt: >-
   There is wide consensus the world over that more the input from the end user/
   consumer go into making of the product/ service, better the quality and
   utility derived from it. That is the reason why you are lured into filling up
   numerous surveys asking w..
+summary: >-
+  There is global consensus that incorporating end-user or consumer input
+  improves the quality and utility of products and services, as seen in market
+  surveys, yet governments rely on central planners and 'experts' disconnected
+  from diverse consumer needs, lacking incentives to prioritize them. In
+  essential services like healthcare and education, decision-making in India is
+  heavily centralized: 38% at the national level, 38% at the state level, 10% at
+  the district level, and only 14% at the local level. In contrast, the UK and
+  USA allocate over 50% of education decisions to district and local levels,
+  allowing better alignment with varied local preferences. This top-down
+  approach imposed on diverse populations undermines effective service delivery,
+  highlighting the classical-liberal critique of bureaucratic overreach and the
+  need for greater decentralization to empower consumers and enhance outcomes.
+key_points:
+  - >-
+    Markets thrive by integrating consumer feedback, but governments ignore it
+    due to planners' lack of incentives.
+  - >-
+    India centralizes 76% of education decisions at national and state levels,
+    versus only 24% at district and local levels.
+  - >-
+    UK and USA make over 50% of education decisions at district and local levels
+    for better responsiveness to diverse needs.
+  - >-
+    Centralized decision-making in essential services like healthcare and
+    education fails to address varied local preferences.
+topics:
+  - education
+  - decentralization
+  - government-failure
+  - consumer-choice
 tags:
   - Decision-making
   - Government
+source_hash: 511edd25c68ec6d083c1ce082305d3ad7562a8c0cd639f4adc6cc593b80ebbe4
+summary_hash: 511edd25c68ec6d083c1ce082305d3ad7562a8c0cd639f4adc6cc593b80ebbe4
+summary_at: '2026-05-05T13:02:12.068Z'
 ---
 **By Naveen Mandava**
 

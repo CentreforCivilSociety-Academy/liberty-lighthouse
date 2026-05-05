@@ -2,15 +2,54 @@
 title: 'Enabling a Right to Education of Choice: Homeschooling in India'
 original_url: >-
   https://www.spontaneousorder.in/p/enabling-a-right-to-education-of-choice-homeschooling-in-india
+author: Spontaneous Order
 published_at: '2018-08-06T06:45:13.000Z'
 ingested_at: '2026-05-05T08:31:42.530Z'
-source_hash: 65e5b9736a3ed97951bfa4255c8e65b261784c8a789d5c6fc080e32f65df5f43
-author: Spontaneous Order
 excerpt: >-
   Why home-schooling? Home-schooling, simply put, is the education of
   school-aged children at their homes rather than at a school. Proponents of
   home-schooling argue that children who are home-schooled are able to learn
   more, and turn out be more cultural..
+summary: >-
+  The Right to Education (RTE) Act, 2009, functions as a 'Right to Free and
+  Compulsory Schooling' by defining elementary education only through recognized
+  schools, excluding homeschooling and creating barriers for parents exercising
+  educational choice. Proponents argue homeschooling enables broader learning,
+  cultural sophistication, and excellence in natural abilities, supported by
+  international studies showing superior performance in verbal fluency and
+  independence, and exemplified by Sahal Kaushik, the youngest IIT-JEE rank 33
+  at age 14 in 2010, who was homeschooled. The National Institute of Open
+  Schooling's (NIOS) Open Basic Education (OBE) programme, equivalent to formal
+  schooling for higher education, was set to discontinue for 6-14 year olds
+  post-2013 due to RTE, though extended periodically to March 2020 with unclear
+  'mainstreaming' conditions. In Shreya Sahai vs. Union of India (2011), the
+  Delhi High Court dismissed a PIL challenging RTE's restrictions, despite
+  MHRD's affidavit affirming homeschooling's legality. From a classical-liberal
+  view, RTE invisibilises parental choice; the author urges permanent OBE
+  extension for 6-14 year olds and explicit inclusion of homeschooling in RTE to
+  provide certainty and facilitate customized learning beyond formal systems.
+key_points:
+  - >-
+    RTE Act's Sections 2(n), 4, and 8(a) mandate compulsory elementary education
+    only in recognized schools, excluding homeschooling.
+  - >-
+    NIOS OBE programme for 6-14 year olds was discontinued post-2013 due to RTE
+    but extended incrementally to 2020 with vague mainstreaming requirements.
+  - >-
+    Shreya Sahai PIL (2011) sought RTE amendments for homeschooling; MHRD
+    affirmed its legality, but court dismissed in 2013, deferring to
+    legislature.
+  - >-
+    Homeschooled Sahal Kaushik topped Delhi IIT-JEE at rank 33 nationally at age
+    14 in 2010.
+  - >-
+    Permanently extend NIOS OBE to 6-14 year olds and include homeschooling in
+    RTE to respect parental educational choice.
+topics:
+  - homeschooling
+  - rte-act
+  - educational-choice
+  - nios-obe
 tags:
   - Homeschooling
   - Aurobindo School
@@ -18,6 +57,9 @@ tags:
   - Child-centric education
   - Alternative Education
   - Indian Education System
+source_hash: 65e5b9736a3ed97951bfa4255c8e65b261784c8a789d5c6fc080e32f65df5f43
+summary_hash: 65e5b9736a3ed97951bfa4255c8e65b261784c8a789d5c6fc080e32f65df5f43
+summary_at: '2026-05-05T09:47:52.520Z'
 ---
 **By Vineet Bhalla**
 

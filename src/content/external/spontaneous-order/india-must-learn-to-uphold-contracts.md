@@ -1,15 +1,53 @@
 ---
 title: India Must Learn to Uphold Contracts
 original_url: 'https://www.spontaneousorder.in/p/india-must-learn-to-uphold-contracts'
+author: Spontaneous Order
 published_at: '2019-11-21T17:00:46.000Z'
 ingested_at: '2026-05-05T08:31:42.458Z'
-source_hash: 0bf2ed7f307356a27a6171dab070775b3862037e0f05dd8626b559b80858d747
-author: Spontaneous Order
 excerpt: >-
   In reviewing the agreements signed by the previous government, the government
   of Andhra Pradesh has severely undermined already abysmal reputation of
   upholding contracts. This should be a cause for concern for all of us. Against
   the warning of the centr..
+summary: >-
+  The Andhra Pradesh government under YS Jagan Mohan Reddy is renegotiating
+  power purchase agreements (PPAs) signed by the previous administration,
+  claiming they burden state electricity distribution companies, despite central
+  government warnings. From a classical-liberal perspective, this move severely
+  undermines India's already poor reputation for upholding contracts,
+  prioritizing short-term finances over long-term trust. The core issue is
+  investor confidence: no foreign or domestic investor can trust state or
+  central government commitments if PPAs are reneged upon. India ranks 163 out
+  of 190 countries in enforcing contracts per World Bank's Ease of Doing
+  Business, with disputes taking 1445 days and costing over 30% of claim value.
+  Economic fallout is evident—Lulu Group has snubbed further investment in
+  Andhra Pradesh—and mirrors past failures like West Bengal's exit from the Tata
+  Nano project. Such actions deter multinational investments controlling
+  thousands of jobs and millions in dollars, especially amid recession in a
+  developing economy. The author urges Andhra Pradesh to reconsider and honor
+  commitments to safeguard India's investment climate, warning that repeated
+  breaches could lead investors to avoid the country entirely.
+key_points:
+  - >-
+    Andhra Pradesh's renegotiation of prior PPAs erodes trust in government
+    contracts, deterring foreign and domestic investors.
+  - >-
+    India ranks 163/190 in contract enforcement, with cases taking 1445 days and
+    over 30% of claim value in costs.
+  - >-
+    Companies like Lulu Group have already withdrawn investments from Andhra
+    Pradesh due to unreliability.
+  - >-
+    Upholding contracts is essential for India as a developing nation in
+    recession to attract jobs and capital.
+  - >-
+    Andhra government should reconsider to prevent national-level damage to
+    investor confidence.
+topics:
+  - contract-enforcement
+  - ease-of-doing-business
+  - investor-trust
+  - government-contracts
 tags:
   - Contracts
   - Jagan Mohan Reddy
@@ -17,6 +55,9 @@ tags:
   - Andhra Pradesh
   - Chandrababu Naidu
   - power purchase agreements
+source_hash: 0bf2ed7f307356a27a6171dab070775b3862037e0f05dd8626b559b80858d747
+summary_hash: 0bf2ed7f307356a27a6171dab070775b3862037e0f05dd8626b559b80858d747
+summary_at: '2026-05-05T10:19:33.083Z'
 ---
 **By Sudhanshu Neema**
 

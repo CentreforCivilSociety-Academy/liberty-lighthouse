@@ -1,18 +1,59 @@
 ---
 title: Being Sanskari and Surviving 2018
 original_url: 'https://www.spontaneousorder.in/p/being-sanskari-and-surviving-2018'
+author: Spontaneous Order
 published_at: '2018-08-03T12:08:26.000Z'
 ingested_at: '2026-05-05T08:31:42.534Z'
-source_hash: 8cf28fba7091f4fc44fd6f5747a4bed0f2bc1490c7163def0faa6854b023480c
-author: Spontaneous Order
 excerpt: >-
   Human beings are a complicated species, with behaviour that is harder to
   comprehend than the existence of “P” in “pneumonia” and “pneumatic”. What is
   worse is that it is precisely this complicated behaviour that gets us into all
   kinds of troub
+summary: >-
+  Sadaf Hussain's satirical piece mocks the Indian tendency to rely on
+  government paternalism to safeguard 'Bhartiya Sabhyata' (Indian culture) amid
+  'kalyug,' portraying individual preferences as threats requiring state
+  intervention. Drawing parallels to historical figures like Socrates and Bhagat
+  Singh who died for defying authority, he advocates a 'survival instinct' of
+  conformity over rebellion. In a list of 'Dos and Don'ts' for 2018, he
+  ridicules proposals like requiring government certification for books to
+  combat 'overly educated natkhats' (pretentious intellectuals); mandating men
+  wear dhotis in akharas for exercise while women do household chores; creating
+  an All India Festival Commission for a uniform calendar, ditching the Roman
+  one; enforcing a national permitted foods list under 'Kumbhkarana Khadya
+  Yojna'; and banning EDM, jazz, or salsa via an All India Entertainment
+  Department, restricting to bhajans and classical dances. An All India Ethos
+  and Culture Body would oversee compliance, with punishments like forced eating
+  of tinda and shalgam or watching bad Bollywood films. From a classical-liberal
+  lens, the piece exposes the absurdity of state-enforced cultural uniformity,
+  compromising liberty for contrived harmony.
+key_points:
+  - >-
+    Conform to government-certified books and avoid uncensored intellectual
+    pursuits to preserve cultural narratives.
+  - >-
+    Abandon modern gyms for traditional akharas, dhoti-clad wrestling, yoga, or
+    household chores to align with sanskar.
+  - >-
+    Establish an All India Festival Commission to impose a uniform calendar and
+    guidelines, eliminating regional and Western influences.
+  - >-
+    Adopt a national list of permitted dishes via Kumbhkarana Khadya Yojna to
+    end food disputes and simplify choices.
+  - >-
+    Ban Western music, dance, and art through an All India Entertainment
+    Department, enforcing only traditional bhajans, kirtan, and classical forms.
+topics:
+  - government-overreach
+  - cultural-censorship
+  - personal-liberty
+  - cultural-satire
 tags:
   - Indian Culture
   - India 2018
+source_hash: 8cf28fba7091f4fc44fd6f5747a4bed0f2bc1490c7163def0faa6854b023480c
+summary_hash: 8cf28fba7091f4fc44fd6f5747a4bed0f2bc1490c7163def0faa6854b023480c
+summary_at: '2026-05-05T09:09:30.271Z'
 ---
 **By Sadaf Hussain**
 

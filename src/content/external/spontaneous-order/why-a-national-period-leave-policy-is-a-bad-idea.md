@@ -2,20 +2,56 @@
 title: Why a national period leave policy is a bad idea
 original_url: >-
   https://www.spontaneousorder.in/p/why-a-national-period-leave-policy-is-a-bad-idea
+author: Spontaneous Order
 published_at: '2020-11-02T11:31:46.000Z'
 ingested_at: '2026-05-05T08:31:42.371Z'
-source_hash: cbf78043484c201fbd9ad4035692fdf3618c1d90868a262813802243326c88bb
-author: Spontaneous Order
 excerpt: >-
   Recently Zomato, one of the biggest Indian food delivery start-ups, announced
   its paid period leave policy. This policy grants 10 additional paid leaves a
   year to all female and transgender employees to normalize leaves for the sole
   purpose of resting d..
+summary: >-
+  A national government-mandated paid period leave policy, like the 2017
+  Menstruation Benefits Bill, is a bad idea despite Zomato's voluntary offer of
+  10 additional paid leaves for female and transgender employees to address
+  menstruation stigma and issues affecting 20% of women per a 2012 study. From a
+  classical-liberal perspective invoking Hayek's 'Use of Knowledge in Society,'
+  governments lack the dispersed knowledge firms have about costs and employee
+  preferences, leading to unintended harms. Key consequences include heightened
+  hiring bias against women in small enterprises and MSMEs, especially in
+  India's informal sector employing 82.6% of the workforce (NSS 2011-12 data),
+  exacerbating low female labor participation. A uniform mandate assumes all
+  women want or are comfortable disclosing period needs, ignoring privacy
+  preferences and desires for flexible leaves. Instead, enterprises should
+  freely decide after employee surveys, while government enables women's rights
+  protection, incentives for progressive policies, and stigma reduction without
+  coercion. Special knowledge of women's needs belongs to individuals, not
+  central planners.
+key_points:
+  - >-
+    Government-mandated period leave policies will increase hiring
+    discrimination against women in cost-sensitive small firms and the 82.6%
+    informal sector workforce.
+  - >-
+    Firms should voluntarily implement period leave after surveying employee
+    preferences to respect privacy and individual needs.
+  - >-
+    Governments lack Hayekian knowledge of firm-specific costs and should avoid
+    mandates, focusing instead on protecting women's rights and incentivizing
+    private initiatives.
+topics:
+  - period-leave-policy
+  - hiring-bias
+  - informal-sector
+  - hayek-knowledge-problem
 tags:
   - policymaking
   - Public Policy
   - Alumni Speaks
   - Governance
+source_hash: cbf78043484c201fbd9ad4035692fdf3618c1d90868a262813802243326c88bb
+summary_hash: cbf78043484c201fbd9ad4035692fdf3618c1d90868a262813802243326c88bb
+summary_at: '2026-05-05T13:03:55.976Z'
 ---
 **By Asmita Kapoor**
 

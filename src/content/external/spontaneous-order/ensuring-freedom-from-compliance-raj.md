@@ -1,20 +1,61 @@
 ---
 title: Ensuring Freedom from Compliance Raj
 original_url: 'https://www.spontaneousorder.in/p/ensuring-freedom-from-compliance-raj'
+author: Spontaneous Order
 published_at: '2021-08-25T11:12:46.000Z'
 ingested_at: '2026-05-05T08:31:42.295Z'
-source_hash: ab4b957a6ffc9c9b3a6002acbf242aa8d74a9ce664613f217038eb7f4fef723e
-author: Spontaneous Order
 excerpt: >-
   “The most persistent tendency in India has been to have too much government
   and too little administration; too many laws and too little justice; too many
   public servants and too little public service; too many controls and too
   little welfare.” Nani Pa
+summary: >-
+  India's 'Compliance Raj'—with 1,536 Acts, 69,233 compliances, and 6,618
+  filings—stems from the state's deep distrust of private enterprises, driving
+  up costs, forcing firms to stay small and unproductive, and diverting
+  entrepreneurs' time to regulatory navigation rather than innovation. Practices
+  like hiring only contract workers exemplify arbitrage to evade onerous labor
+  laws. The author, from a classical-liberal perspective, advocates shedding
+  this distrust through the Department for Promotion of Industry & Internal
+  Trade's Business Reforms Action Plan, which simplifies, digitizes, and
+  decriminalizes compliances. Key reforms include principle-based regulations
+  over rigid rules, emulating RBI/SEBI's board-driven decisions for
+  transparency, mandating Department Related Standing Committees (DRSCs) for
+  cost-benefit reviews of laws, pre-legislative consultations with impact
+  analysis, a U.S.-style Administrative Procedure Act for stakeholder input, and
+  a Transparency of Rules Act to end 4,000 annual circulars distorting
+  certainty. Institutionalized third-party audits and digitization would curb
+  rent-seeking. These steps would liberate enterprises, unleash entrepreneurial
+  energies, catalyze growth, and create jobs by prioritizing administration over
+  excessive controls.
+key_points:
+  - >-
+    India's regulatory framework imposes 1,536 Acts, 69,233 compliances, and
+    6,618 filings, incentivizing enterprises to remain small via strategies like
+    contract labor hiring.
+  - >-
+    Adopt principle-based regulations, board-driven decisions like RBI/SEBI, and
+    DRSC-mandated reviews with cost-benefit analysis for all laws and rules.
+  - >-
+    Enact a Transparency of Rules Act requiring disclosure of all regulations
+    and amendments, alongside a U.S.-style Administrative Procedure Act for
+    stakeholder consultations.
+  - >-
+    Digitize processes and self-certification to reduce rent-seeking, compliance
+    costs, and the 4,000 annual regulatory changes burdening enterprises.
+topics:
+  - regulatory-reform
+  - compliance-burden
+  - entrepreneurship
+  - governance-reform
 tags:
   - Regulation
   - enterprises
   - economy
   - Freedom
+source_hash: ab4b957a6ffc9c9b3a6002acbf242aa8d74a9ce664613f217038eb7f4fef723e
+summary_hash: ab4b957a6ffc9c9b3a6002acbf242aa8d74a9ce664613f217038eb7f4fef723e
+summary_at: '2026-05-05T09:48:32.824Z'
 ---
 **By Jasman Dhanoa**
 

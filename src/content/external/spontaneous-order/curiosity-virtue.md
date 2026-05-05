@@ -1,20 +1,58 @@
 ---
 title: The important thing is not to stop questioning
 original_url: 'https://www.spontaneousorder.in/p/curiosity-virtue'
+author: Spontaneous Order
 published_at: '2016-07-09T20:13:55.000Z'
 ingested_at: '2026-05-05T08:31:42.550Z'
-source_hash: b56f9a37a4dbf83e0d75e99a4bfe811a36ffb38a1818475a85d10c2a4490571c
-author: Spontaneous Order
 excerpt: >-
   “The important thing is to not stop questioning. Curiosity has its own reason
   for existence. One cannot help but be in awe when he contemplates the
   mysteries of eternity, of life, of the marvellous structure of reality. It is
   enough if one tries merely
+summary: >-
+  The post argues that curiosity is essential for effective learning but is
+  stifled in Indian schools, where rote memorization and exam scores prioritize
+  compliance over inquiry, as illustrated by the author's childhood experience
+  questioning the relevance of historical events like Akbar's abolition of the
+  Jizya Tax. Drawing on Einstein's quote and UC Davis research by Dr. Matthias
+  Gruber, it explains that curiosity primes the brain to retain both intriguing
+  and unrelated information, enhancing memory like a 'vortex'—suggesting
+  teachers personalize lessons, e.g., math problems tied to student interests.
+  Innate from infancy, curiosity creates a 'rich get richer' effect per Daniel
+  Willingham, amplified in self-directed settings like Sugata Mitra's 1999 Hole
+  in the Wall experiment, where slum children in New Delhi self-taught
+  computers, even recording music within hours. To unleash potential, classrooms
+  must foster curiosity via student-driven questioning (rewarding valuable
+  questions over answers), tinkering with ideas/materials, and
+  skepticism—challenging the 'chalk and talk' mindset that hampers creativity
+  and critical thinking. Parents, teachers, and policymakers must promote these
+  to counter entrenched rote learning.
+key_points:
+  - >-
+    Curiosity chemically primes the brain to better learn and remember both
+    related and unrelated information, as shown in UC Davis experiments.
+  - >-
+    Indian schools suppress curiosity by prioritizing exam marks, turning
+    questioning into an inconvenience rather than a virtue.
+  - >-
+    Foster curiosity in classrooms by rewarding student questions, encouraging
+    tinkering, and promoting skepticism over rote memorization.
+  - >-
+    Self-directed curiosity enables rapid learning, as in Sugata Mitra's Hole in
+    the Wall experiments where children mastered computers independently.
+topics:
+  - indian-education
+  - curiosity
+  - education-reform
+  - rote-learning
 tags:
   - Scepticism
   - Learning
   - Indian Education System
   - curiosity
+source_hash: b56f9a37a4dbf83e0d75e99a4bfe811a36ffb38a1818475a85d10c2a4490571c
+summary_hash: b56f9a37a4dbf83e0d75e99a4bfe811a36ffb38a1818475a85d10c2a4490571c
+summary_at: '2026-05-05T09:30:19.737Z'
 ---
 **By Archit Puri**
 

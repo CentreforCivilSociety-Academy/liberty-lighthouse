@@ -2,18 +2,55 @@
 title: India’s police force is overstretched and needs help
 original_url: >-
   https://www.spontaneousorder.in/p/indias-police-force-is-overstretched-and-needs-help
+author: Spontaneous Order
 published_at: '2021-01-06T12:55:03.000Z'
 ingested_at: '2026-05-05T08:31:42.357Z'
-source_hash: 7fd2f8486097c0b497d822c06f7cca222ba8d9d63b5c3c2e4de670dcb4b5a2a4
-author: Spontaneous Order
 excerpt: >-
   Like many, I have watched the fascinating Netflix series ‘Delhi Crime’.
   Unusually, it is told from the viewpoint of a harassed, overworked and
   unfairly castigated police force. Arguably, it goes overboard on this theme.
   Yet, its viewpoint deserves ser
+summary: >-
+  Swaminathan SA Aiyer acknowledges the Indian police's notorious corruption,
+  callousness, and political bias—extorting bribes, colluding with criminals,
+  protecting politicians' favorites, and staging fake encounters—but argues they
+  are fundamentally overstretched and under-resourced, deserving sympathy and
+  support. India's sanctioned police strength is 181 per lakh population, but
+  actual deployment is around 140 due to massive vacancies, well below the UN's
+  recommended 222 and half the US level; Bhutan boasts 500. State governments
+  prioritize vote-winning subsidies over filling posts, as seen in Bihar's
+  'jungle raj' dropping below 80 per lakh and Uttar Pradesh's 50% vacancies in
+  2016, leaving no bandwidth for tasks like checking power theft. In 2008 Mumbai
+  attacks, over 90% of policemen had never handled guns, yet hero Tukaram Omble
+  captured terrorist Ajmal Kasab bare-handed. Aiyer advocates classical-liberal
+  reforms: boost budgets for staff, training, and forensic equipment over
+  outdated 'third-degree' interrogations that fail in court; overhaul the
+  sluggish judiciary for swift verdicts; and curb politicians' misuse of police.
+  With resources, India's many honest officers can deliver justice effectively.
+key_points:
+  - >-
+    India's actual police strength is 140 per lakh population due to unfilled
+    vacancies, far below UN's 222 recommendation.
+  - >-
+    State governments understaff police to fund populist subsidies, exacerbating
+    crime control failures like in Bihar's 'jungle raj'.
+  - >-
+    Shift police training to forensic skills and equipment from prolonged
+    witness interrogations that lead to case dismissals.
+  - >-
+    Reform judiciary for quick verdicts and stop political interference to
+    enable effective policing.
+topics:
+  - police-reform
+  - law-enforcement
+  - judicial-reform
+  - public-finance
 tags:
   - Police reforms
   - police
+source_hash: 7fd2f8486097c0b497d822c06f7cca222ba8d9d63b5c3c2e4de670dcb4b5a2a4
+summary_hash: 7fd2f8486097c0b497d822c06f7cca222ba8d9d63b5c3c2e4de670dcb4b5a2a4
+summary_at: '2026-05-05T10:24:15.206Z'
 ---
 **By Swaminathan SA Aiyer**
 

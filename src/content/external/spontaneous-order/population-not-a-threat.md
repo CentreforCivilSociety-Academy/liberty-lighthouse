@@ -1,15 +1,54 @@
 ---
 title: Population is Not a Threat to India
 original_url: 'https://www.spontaneousorder.in/p/population-not-a-threat'
+author: Spontaneous Order
 published_at: '2020-02-15T13:41:18.000Z'
 ingested_at: '2026-05-05T08:31:42.442Z'
-source_hash: 408629a7c2e3860bf64eebbf3550306988b284da0a12cd64534db8c567208bb9
-author: Spontaneous Order
 excerpt: >-
   The Constitutional Amendment Bill, 2020, was introduced on the 7th of February
   in the Rajya Sabha, as a Private Members Bill, by Shiv Sena Member of
   Parliament, Anil Desai. The Bill introduces a single Article to the
   Constitution, which is to read as fo..
+summary: >-
+  The Constitutional Amendment Bill, 2020, introduced by Shiv Sena MP Anil
+  Desai, seeks to insert Article 47A mandating the state to incentivize
+  two-child families through taxes, employment, and education benefits while
+  withdrawing concessions from others to control population growth. The bill's
+  Statement of Objects and Reasons assumes a 'population explosion' overburdens
+  resources and hinders development, but this is flawed. India's population
+  density of 420 people per square kilometer is far lower than Singapore's
+  8,240, Hong Kong's 6,791, Monaco's 19,427, or Lebanon's 653, yet these nations
+  thrive economically, proving no direct correlation between density and poor
+  growth. State-level Indian data similarly shows no link between high
+  population and low growth. India's fertility rate has declined from 5.061 in
+  1977 to 2.220 in 2019, slowing population growth naturally. From a
+  classical-liberal view, politicians scapegoat population to deflect from
+  inefficient policies and resource misallocation. Punitive measures would
+  disproportionately harm poor families reliant on children for labor amid high
+  child mortality, exacerbating inequality without addressing root economic
+  issues.
+key_points:
+  - >-
+    India's population density (420/km²) is lower than richer nations like
+    Singapore (8,240/km²) and Hong Kong (6,791/km²), debunking overpopulation as
+    a growth barrier.
+  - >-
+    Fertility rate fell from 5.061 (1977) to 2.220 (2019), indicating slowing
+    growth without coercive policies.
+  - >-
+    State-wise data shows no correlation between high population and poor
+    economic performance.
+  - >-
+    Two-child penalties would punish low-income families dependent on child
+    labor, ignoring policy failures.
+  - >-
+    Real threats to development stem from government inefficiency, not
+    population size.
+topics:
+  - population-policy
+  - overpopulation-myth
+  - economic-development
+  - family-planning
 tags:
   - population control
   - economic growth
@@ -17,6 +56,9 @@ tags:
   - economic development
   - population density
   - growth
+source_hash: 408629a7c2e3860bf64eebbf3550306988b284da0a12cd64534db8c567208bb9
+summary_hash: 408629a7c2e3860bf64eebbf3550306988b284da0a12cd64534db8c567208bb9
+summary_at: '2026-05-05T11:15:12.018Z'
 ---
 **By Sourya Banerjee**
 

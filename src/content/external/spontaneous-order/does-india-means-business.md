@@ -1,21 +1,59 @@
 ---
 title: Does India means business?
 original_url: 'https://www.spontaneousorder.in/p/does-india-means-business'
+author: Spontaneous Order
 published_at: '2013-04-12T21:43:00.000Z'
 ingested_at: '2026-05-05T08:31:42.609Z'
-source_hash: 78ae1b60ef963d1d95569a2569ac9db1129ee448411e64107e5575a75c5fad58
-author: Spontaneous Order
 excerpt: >-
   How easy is it to start and conduct business in India? How does India fare in
   terms of economic freedom when compared to other economies? How competitive is
   India? How prosperous are Indians when compared to citizens of other
   countries? These and severa..
+summary: >-
+  Kumar Anand examines India's performance in global indices on ease of doing
+  business, economic freedom, competitiveness, and prosperity, arguing from a
+  classical-liberal viewpoint that the country is slipping backwards, hindering
+  growth and welfare. In the 2013 Ease of Doing Business report, India ranked
+  173rd out of 185 countries, down from 169th in 2012, and dead last but one
+  (184th) in enforcing contracts. The Fraser Institute's 2012 Economic Freedom
+  of the World report placed India 111th out of 144, with its score declining
+  from a 2005 peak of 6.60 to 6.26 in 2010—evidence of reduced freedom
+  correlating with slowed growth. The World Economic Forum's 2012-13 Global
+  Competitiveness Report ranked India 59th, down three spots and now trailing
+  China by 30 positions, Brazil and South Africa by about 10. The Legatum
+  Prosperity Index ranked India 101st out of 142. Anand contends these thorough
+  reports, even if imperfect, consistently show India heading in the wrong
+  direction—not easing business, not gaining economic freedom, losing
+  competitiveness, and lagging in prosperity compared to peers—urging
+  classical-liberal reforms with a call for ideas to reverse course.
+key_points:
+  - >-
+    India ranked 173rd out of 185 countries in the 2013 Ease of Doing Business
+    report, worst at 184th for enforcing contracts.
+  - >-
+    Economic freedom score fell from 6.60 in 2005 to 6.26 in 2010, ranking India
+    111th out of 144 in the 2012 Fraser Institute report.
+  - >-
+    Global Competitiveness ranking slipped to 59th in 2012-13, behind China by
+    30 spots and Brazil/South Africa by 10.
+  - Legatum Prosperity Index placed India 101st out of 142 countries in 2012.
+  - >-
+    Multiple indices confirm India is not improving business ease or economic
+    freedom as fast as peers, demanding reform ideas.
+topics:
+  - ease-of-doing-business
+  - economic-freedom
+  - global-competitiveness
+  - india-economy
 tags:
   - economic freedom
   - Indian Economy
   - Global Competitiveness Report
   - business
   - Doing Business Report
+source_hash: 78ae1b60ef963d1d95569a2569ac9db1129ee448411e64107e5575a75c5fad58
+summary_hash: 78ae1b60ef963d1d95569a2569ac9db1129ee448411e64107e5575a75c5fad58
+summary_at: '2026-05-05T09:35:59.168Z'
 ---
 **By Kumar Anand**
 

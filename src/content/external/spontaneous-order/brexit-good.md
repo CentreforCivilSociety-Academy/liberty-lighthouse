@@ -1,15 +1,54 @@
 ---
 title: 'Brexit: Life is Nasty, British and Short'
 original_url: 'https://www.spontaneousorder.in/p/brexit-good'
+author: Spontaneous Order
 published_at: '2016-06-28T14:21:52.000Z'
 ingested_at: '2026-05-05T08:31:42.552Z'
-source_hash: ad7a93574c7b498f7e964304fe8580deb1aa66eedabcd3704013e81c4d73d3b6
-author: Spontaneous Order
 excerpt: >-
   Life, as it turns out, is too nasty, British and short to stay in the European
   Union.[1] On Thursday, 23 June, 2016 Britain decided, through a referendum, to
   leave the EU. This likely marks the beginning of the end of the European
   Union—the political an
+summary: >-
+  Britain's Brexit referendum on June 23, 2016, marks the beginning of the
+  European Union's decline, an inevitable trend starting with Britain's 1992
+  opt-out from the Euro and its falling share of exports to EU countries, now
+  dwarfed by non-EU trade. The EU has become a 'pointless middleman' for
+  policies set by international bodies. From a classical-liberal view,
+  sovereignty is a core virtue, as power is better decentralized than
+  centralized in a distant bureaucracy of 55,000 faceless officials dictating to
+  diverse communities. The Leave campaign rightly emphasized autonomy, granting
+  moral legitimacy to democratic decisions absent in EU rule. While the Stay
+  camp assumes Britons incapable of self-governance, sovereignty ensures fairer
+  processes and fosters economic independence; smaller states, resource-poor,
+  are incentivized toward liberal free-trade frameworks. The EU's initial
+  free-trade benefits have waned: it blocks bilateral deals like a UK-India FTA
+  due to collective negotiation, yet Britain can access the single market like
+  three non-EU countries. Post-Brexit migration arrangements are feasible given
+  historic ties. Long-term, Brexit votes for fairer institutions, freedom
+  against centralization, promising prosperity—echoing Hayek's faith in
+  freedom's net good.
+key_points:
+  - >-
+    Brexit restores British sovereignty, enabling autonomous policy decisions
+    free from EU bureaucracy.
+  - >-
+    EU centralization undermines democratic legitimacy, while decentralization
+    ensures fairer governance.
+  - >-
+    Smaller sovereign states have stronger incentives for free trade and liberal
+    economic policies.
+  - >-
+    Britain can access the EU single market without membership and negotiate
+    independent FTAs, such as with India.
+  - >-
+    Brexit prioritizes long-term freedom and prosperity over short-term
+    uncertainties.
+topics:
+  - brexit
+  - sovereignty
+  - decentralization
+  - free-trade
 tags:
   - Sovereignty
   - EU
@@ -18,6 +57,9 @@ tags:
   - Britain
   - Secession
   - F.A. Hayek
+source_hash: ad7a93574c7b498f7e964304fe8580deb1aa66eedabcd3704013e81c4d73d3b6
+summary_hash: ad7a93574c7b498f7e964304fe8580deb1aa66eedabcd3704013e81c4d73d3b6
+summary_at: '2026-05-05T09:12:48.985Z'
 ---
 **By Ujwal Batra**
 

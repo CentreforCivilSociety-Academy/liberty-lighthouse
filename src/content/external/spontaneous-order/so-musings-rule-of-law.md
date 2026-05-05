@@ -1,20 +1,50 @@
 ---
 title: 'SO Musings: Rule of Law'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-rule-of-law'
+author: Spontaneous Order
 published_at: '2019-04-25T07:19:32.000Z'
 ingested_at: '2026-05-05T08:31:42.491Z'
-source_hash: 1a53c45d16777a3eb038c0c1f3f2773c1f507e23c8072b88d782ff704b117bd5
-author: Spontaneous Order
 excerpt: >-
   Governance is enhanced to the extent that there exists a functioning and
   effective rule of law. The rule of law refers not only to the actual content
   of regulations but, more importantly, to the -institutional process by which
   rules are made, amended, i..
+summary: >-
+  Spontaneous Order's musing asserts that governance improves with a functioning
+  rule of law, defined primarily by the institutional processes for making,
+  amending, interpreting, and enforcing rules rather than their content alone.
+  From a classical-liberal perspective, this framework bolsters democracy and
+  rational-legal legitimacy while driving development by enabling private firms
+  and NGOs to reliably assess legal risks, thereby spurring innovation and
+  activity. Stability is essential for effectiveness, but in a dynamic
+  environment, it arises from an open and predictable process for rule changes
+  rather than rigid unchanging rules. The post links this to broader themes in
+  the 'New Public Governance' handbook, underscoring how such institutional
+  predictability counters the instability that hampers market-oriented progress
+  in India.
+key_points:
+  - >-
+    Effective rule of law prioritizes institutional processes over rule content
+    to enhance governance and legitimacy.
+  - >-
+    It allows private firms and NGOs to assess legal risks accurately,
+    maximizing innovation and activity.
+  - >-
+    Stability in rule of law requires an open, predictable process for amending
+    rules in dynamic settings.
+topics:
+  - rule-of-law
+  - governance
+  - institutions
+  - economic-development
 tags:
   - Rule Of Law
   - principles of governance
   - Governance
   - good governance
+source_hash: 1a53c45d16777a3eb038c0c1f3f2773c1f507e23c8072b88d782ff704b117bd5
+summary_hash: 1a53c45d16777a3eb038c0c1f3f2773c1f507e23c8072b88d782ff704b117bd5
+summary_at: '2026-05-05T12:00:27.924Z'
 ---
 **By Spontaneous Order**
 

@@ -2,20 +2,63 @@
 title: 'Market-based Solutions to Public Policy: Tom G Palmer at CCS Chintan'
 original_url: >-
   https://www.spontaneousorder.in/p/market-based-solutions-to-public-policy-palmer
+author: Spontaneous Order
 published_at: '2014-08-02T15:45:51.000Z'
 ingested_at: '2026-05-05T08:31:42.590Z'
-source_hash: b18ef45475cf6822eeda7130f474bc6f2e7b7e4444958f7204fd240311806ed9
-author: Spontaneous Order
 excerpt: >-
   Tom Palmer was at CCS on 22 July to discuss market-based solutions to public
   policy. He began his talk with an interesting distinction between the
   ‘government’ and the ‘state’ and went on to discuss the need for a market
   economy. State: In his tal
+summary: >-
+  Tom G. Palmer's talk at CCS Chintan on 22 July distinguished the predatory
+  'state' from the institutional 'government,' advocating market-based solutions
+  to public policy from a classical-liberal viewpoint. He critiqued
+  anthropologists for mistaking modern tribal communities—composed of refugees
+  fleeing state conquest, taxation, conscription, enslavement, and rape—as
+  prehistoric relics; these groups exhibit layered ethnicities and unrelated
+  languages, as in Georgia. States maximize State Accessible Product
+  (SAP)—easily taxable output—over GDP, reshaping economies for extraction, per
+  James Scott. In contrast, government provides behavioral rules without
+  monopolizing enforcement. Historical civil societies in cities birthed
+  institutions like merchant 'companies' (from 'eating together'), producing Lex
+  Mercatoria—privately generated commercial law foundational to modern corporate
+  bylaws and international trade law. Mises defined the market economy as a
+  system of division of labor and private ownership where actors serve others'
+  needs to meet their own via 'non-tuism'—self-interested mutual benefit enabled
+  by monetary calculation. Essential rules cover property rights (definable,
+  defendable, divestible), contracts, and liability; while states can supply
+  them, they often violate these as the biggest criminals, underscoring the need
+  for decentralized, market-driven governance.
+key_points:
+  - >-
+    States prioritize maximizing State Accessible Product (SAP) for taxation
+    over overall GDP growth.
+  - >-
+    Government functions as a rule-making institution separable from
+    enforcement, unlike the monopolistic state.
+  - >-
+    Merchant companies historically produced Lex Mercatoria, the basis of modern
+    commercial law, without state involvement.
+  - >-
+    Market economies require property rights that are definable, defendable, and
+    divestible to enable voluntary cooperation via 'non-tuism'.
+  - >-
+    States can provide necessary market rules but frequently violate them as
+    major rule-breakers.
+topics:
+  - market-economy
+  - property-rights
+  - lex-mercatoria
+  - state-critique
 tags:
   - Tom Palmer
   - Gross Domestic Product
   - market economy
   - State Accessible Product
+source_hash: b18ef45475cf6822eeda7130f474bc6f2e7b7e4444958f7204fd240311806ed9
+summary_hash: b18ef45475cf6822eeda7130f474bc6f2e7b7e4444958f7204fd240311806ed9
+summary_at: '2026-05-05T10:49:48.855Z'
 ---
 **By Manasi Bose**
 

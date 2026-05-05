@@ -2,19 +2,63 @@
 title: 'The new Zoom economy: Who can adjust to it and who cannot?'
 original_url: >-
   https://www.spontaneousorder.in/p/the-new-zoom-economy-who-can-adjust-to-it-and-who-cannot
+author: Spontaneous Order
 published_at: '2021-07-07T13:06:33.000Z'
 ingested_at: '2026-05-05T08:31:42.308Z'
-source_hash: 46934ec9c0ac917c6b614b8553df11c3955f7544aa4990a4e02843e0b2a5c586
-author: Spontaneous Order
 excerpt: >-
   Most people with the option of working from home have been relatively safe
   from the economic storms that have engulfed the world since the pandemic
   struck in early 2020. The others whose jobs require them to be at their
   workplace, or in close contact wi..
+summary: >-
+  The pandemic has exposed stark divides in the 'Zoom economy,' where workers
+  able to shift to remote work—primarily in advanced economies and high-skill
+  sectors—have been shielded from job losses and health risks, while those in
+  essential, contact-intensive roles, especially in emerging markets like India,
+  have suffered disproportionately. Globally, only 17.4% of the 3.2 billion
+  workforce (557 million) worked from home in Q2 2020, with under 10% of urban
+  jobs in developing countries amenable to it, compared to 40% in places like
+  the US and Germany. In India, 7.35 million jobs were lost in April 2021 amid
+  the second wave. IMF analysis ranks sectors by telework feasibility: IT,
+  finance, and professions lead, while construction, retail, transport, and food
+  services—major Indian employers after agriculture—lag, hitting low-income
+  workers hardest due to their concentration in non-teleworkable jobs and lack
+  of savings. The author highlights a U-curve resilience in Indian regional
+  economies based on agriculture or high-end services. Consumer shifts toward
+  online buying, especially household items in India, pose questions about labor
+  reallocation, such as chefs versus waiters or gig delivery growth. While some
+  trends may reverse post-pandemic, persistent effects warrant government
+  attention to structural labor market adaptations from a classical-liberal lens
+  emphasizing economic flexibility over intervention.
+key_points:
+  - >-
+    Only 17.4% of the global workforce could work from home in Q2 2020, far
+    lower in developing countries where under 10% of urban jobs allow it.
+  - >-
+    High-income sectors like IT and finance are most telework-compatible,
+    leaving low-income workers in retail, construction, and food services most
+    vulnerable.
+  - >-
+    India lost 7.35 million jobs in April 2021, with agriculture and high-end
+    services showing relative lockdown resilience in a U-curve pattern.
+  - >-
+    Pandemic-driven online consumption shifts raise questions about labor
+    reallocation, such as favoring chefs over waiters or boosting delivery gigs.
+  - >-
+    Governments must consider long-term structural changes in work and
+    consumption patterns.
+topics:
+  - remote-work
+  - pandemic-economy
+  - labour-markets
+  - income-inequality
 tags:
   - pandemic
   - Indian Economy
   - Governance
+source_hash: 46934ec9c0ac917c6b614b8553df11c3955f7544aa4990a4e02843e0b2a5c586
+summary_hash: 46934ec9c0ac917c6b614b8553df11c3955f7544aa4990a4e02843e0b2a5c586
+summary_at: '2026-05-05T12:32:09.936Z'
 ---
 **By Niranjan Rajadhyaksha**
 

@@ -2,21 +2,63 @@
 title: 'What Aadhaar Needs: Right to Notice, Right to Object, Right to be Forgotten'
 original_url: >-
   https://www.spontaneousorder.in/p/what-aadhaar-needs-right-to-notice-right-to-object-right-to-be-forgotten
+author: Spontaneous Order
 published_at: '2018-08-03T12:23:57.000Z'
 ingested_at: '2026-05-05T08:31:42.533Z'
-source_hash: 383f5f463357cfc35efbee8bea679486ef3bbf228e45438aa789afb29da3ced1
-author: Spontaneous Order
 excerpt: >-
   Having envisaged a platform which enables the achievement of an “efficient,
   transparent and targeted delivery of subsidies, benefits and services”, the
   Aadhaar Act hopes for a machinery that allows the State to optimise its
   welfare delivery mechanism
+summary: >-
+  Aadhaar, designed for efficient, transparent subsidy delivery, faces criticism
+  for enabling surveillance due to privacy risks, data ambiguity, and weak
+  grievance mechanisms. The core issue is individuals' lack of control over how
+  state and non-state actors process their personal data, a problem extending
+  beyond Aadhaar to all data-collecting services. From a classical-liberal
+  viewpoint, the solution lies in empowering individuals as the best judges of
+  their data's use, via a comprehensive privacy framework. This requires an
+  independent quasi-judicial body with diverse stakeholders to enforce
+  accountability, plus mandates for entities to appoint data protection officers
+  akin to RTI. Key are three rights: Right to Notice, ensuring real-time alerts
+  and access to authentication logs for Aadhaar; Right to Object, enforcing
+  informed consent as bedrock for data transactions with penalties for
+  violations; and Right to be Forgotten, allowing data deletion post-service use
+  or for abuse victims, as affirmed in Puttaswamy judgment. Incorporating
+  'Privacy by Design' defaults to maximum privacy. This setup balances
+  individual autonomy, state efficiency, and justice without imposing uniform
+  privacy definitions.
+key_points:
+  - >-
+    Establish an independent quasi-judicial body with stakeholders to oversee
+    data protection and enforce accountability across all personal data
+    handlers.
+  - >-
+    Mandate a Right to Notice, providing individuals real-time notifications and
+    logs of Aadhaar authentication requests.
+  - >-
+    Implement a Right to Object, requiring informed consent for data use with
+    penalties for non-judicial intrusions.
+  - >-
+    Enforce a Right to be Forgotten, enabling data removal from databases
+    post-service or for victims of abuse via the body or courts.
+  - >-
+    Adopt 'Privacy by Design' to default services toward maximum privacy and
+    consent.
+topics:
+  - aadhaar
+  - data-privacy
+  - privacy-rights
+  - right-to-be-forgotten
 tags:
   - Aadhar
   - Data Protection
   - Aashaar Scheme
   - Privacy
   - UIDAI
+source_hash: 383f5f463357cfc35efbee8bea679486ef3bbf228e45438aa789afb29da3ced1
+summary_hash: 383f5f463357cfc35efbee8bea679486ef3bbf228e45438aa789afb29da3ced1
+summary_at: '2026-05-05T12:57:22.022Z'
 ---
 **By Gopikrishnan Nair**
 

@@ -2,20 +2,62 @@
 title: 'A fundamental problem of democracies: What constitutes good and bad freebies?'
 original_url: >-
   https://www.spontaneousorder.in/p/a-fundamental-problem-of-democracies-what-constitutes-good-and-bad-freebies
+author: Spontaneous Order
 published_at: '2022-09-01T10:34:25.000Z'
 ingested_at: '2026-05-05T08:31:42.259Z'
-source_hash: 64b6c8cbf8e3439196178e785c2c66285fe92ad5658b7b77f80b66c093d15898
-author: Spontaneous Order
 excerpt: >-
   Chief Justice N V Ramana has, astonishingly, waded into the controversy of
   political parties promising endless freebies that could plunge countries into
   disaster. He says political parties do not want to curb such excesses, so a
   specialised body should ..
+summary: >-
+  In liberal democracies, subsidies are essential for addressing income
+  distribution that markets alone cannot fix, with political parties competing
+  to convince voters on the optimal mix of undesirable 'revadis' (non-merit
+  subsidies) and desirable 'jalebis' (merit subsidies). Chief Justice Ramana's
+  call for a specialized body to curb excessive freebies is misguided, as this
+  lies in the political domain of voters and parties, not judiciary or
+  technocrats. Modi criticized AAP's freebies in Delhi and Punjab for
+  sacrificing infrastructure and education investments, while Kejriwal countered
+  that BJP favors contractors. Economists estimate total subsidies fell from
+  12.9% of GDP in 1987-88 to 10.28% in 2015-16, with non-merit subsidies at 5.7%
+  of GDP, mostly from states (4.1%). Key revadis include free farmer electricity
+  causing aquifer depletion, cheap urea leading to soil ruin and smuggling,
+  farmer electricity dues waivers bankrupting discoms (₹2.5 trillion arrears),
+  and universal food subsidies benefiting the well-off. Jalebis encompass
+  expanded police-judiciary, quality education, public health, infrastructure,
+  and corruption-free safety nets. Democracy risks myopic freebie competition as
+  in Sri Lanka, but must resolve it politically, echoing Juncker's quip on
+  knowing what to do but fearing electoral backlash.
+key_points:
+  - >-
+    Non-merit subsidies (revadis) total 5.7% of GDP, with states contributing
+    4.1%, demanding reform.
+  - >-
+    Free electricity to farmers depletes aquifers, discourages efficient pumps,
+    and promotes water-guzzling crops.
+  - >-
+    Subsidized urea at a quarter of international prices causes overuse, soil
+    degradation, and smuggling.
+  - >-
+    Merit subsidies (jalebis) like quality education, public health, and
+    judicial expansion are vital for prosperity.
+  - >-
+    Voters and political parties, not judicial or technocratic bodies, must
+    decide the subsidy mix.
+topics:
+  - freebies
+  - subsidies
+  - fiscal-policy
+  - democracy
 tags:
   - Politics
   - economy
   - freebies
   - Democracy
+source_hash: 64b6c8cbf8e3439196178e785c2c66285fe92ad5658b7b77f80b66c093d15898
+summary_hash: 64b6c8cbf8e3439196178e785c2c66285fe92ad5658b7b77f80b66c093d15898
+summary_at: '2026-05-05T08:48:47.831Z'
 ---
 **By Swaminathan SA Aiyer**
 

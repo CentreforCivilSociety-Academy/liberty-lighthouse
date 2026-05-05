@@ -2,15 +2,53 @@
 title: '#DalitLivesMatter: Why We Don’t Care About This Hashtag'
 original_url: >-
   https://www.spontaneousorder.in/p/dalitlivesmatter-why-we-dont-care-about-this-hashtag
+author: Spontaneous Order
 published_at: '2020-06-15T14:50:29.000Z'
 ingested_at: '2026-05-05T08:31:42.409Z'
-source_hash: f32ca93659aee2e2aa73194012aeb85ceb5bb3635191f8279eae42c83a06d796
-author: Spontaneous Order
 excerpt: >-
   By Indian standards, the atrocity was hardly worth a raised eyebrow. In the
   US, George Floyd, a black man accused of using counterfeit currency, was
   killed when a white policeman knelt on his neck for nine minutes despite the
   victim crying out that he c..
+summary: >-
+  Swaminathan SA Aiyar argues that Indians largely ignore police brutality like
+  the George Floyd killing because third-degree torture and 'encounter' killings
+  by police are normalized as necessary for justice in a dysfunctional judicial
+  system, with films glorifying encounter specialists becoming hits. Societal
+  violence based on caste, religion, gender, and region is endemic, with
+  perpetrators often shielded by politics and rising to leadership rather than
+  facing jail, as police overlook mafia and vigilante groups. While some
+  liberals push 'Muslim Lives Matter' amid riots and lynchings, Aiyar contends
+  Muslims, historically rulers for a millennium, fare better than US blacks, who
+  were slaves. The most egregious outrages target Dalits, historically oppressed
+  for millennia: police often refuse cases against upper castes, crimes against
+  Dalits rose from 33,655 in 2012 to 40,801 in 2016 per NCRB, and Dalits are
+  killed for riding horses or eating at upper-caste tables, barely noticed by
+  media. From a classical-liberal lens, Aiyar highlights how breakdown in rule
+  of law and politicized violence perpetuates such injustices, urging focus on
+  'Dalit Lives Matter' for true protest against systemic atrocities.
+key_points:
+  - >-
+    Indians accept police third-degree methods and encounter killings as normal
+    due to judicial failures, unlike the outrage over George Floyd's death.
+  - >-
+    Caste, religious, and gender-based violence is routine and politically
+    protected, with perpetrators becoming community leaders.
+  - >-
+    Crimes against Dalits increased from 33,655 cases in 2012 to 40,801 in 2016,
+    per National Crime Records Bureau.
+  - >-
+    Dalits face extreme discrimination, including murders for violating
+    upper-caste norms like riding horses or sharing wedding tables.
+  - >-
+    The author advocates 'Dalit Lives Matter' as the rightful focus for
+    protesting India's deepest historical and ongoing outrages over Muslim or
+    other causes.
+topics:
+  - caste-violence
+  - dalit-rights
+  - police-brutality
+  - rule-of-law
 tags:
   - communalism
   - Hindutva
@@ -19,6 +57,9 @@ tags:
   - Power to coerce
   - minority
   - Dalit emancipation
+source_hash: f32ca93659aee2e2aa73194012aeb85ceb5bb3635191f8279eae42c83a06d796
+summary_hash: f32ca93659aee2e2aa73194012aeb85ceb5bb3635191f8279eae42c83a06d796
+summary_at: '2026-05-05T09:32:10.817Z'
 ---
 **By Swaminathan SA Aiyer**
 

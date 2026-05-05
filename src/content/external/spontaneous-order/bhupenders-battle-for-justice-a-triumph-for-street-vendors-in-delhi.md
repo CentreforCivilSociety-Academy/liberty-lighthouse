@@ -2,15 +2,53 @@
 title: 'Bhupender’s Battle for Justice: A Triumph for Street Vendors in Delhi'
 original_url: >-
   https://www.spontaneousorder.in/p/bhupenders-battle-for-justice-a-triumph-for-street-vendors-in-delhi
+author: Spontaneous Order
 published_at: '2024-04-19T15:18:28.000Z'
 ingested_at: '2026-05-05T08:31:42.231Z'
-source_hash: 8ec74b6d02f94ae58c1e2da6d1e816c62c12144af9904a0fba86271518cb1670
-author: Spontaneous Order
 excerpt: >-
   Bhupender’s story epitomizes the struggles of street vendors in Delhi,
   highlighting the need for legal advice and aid. Facing Unjust Challenges as a
   Street Vendor It is often said that hard and honest work is the best way to
   earn a livelihood. However,
+summary: >-
+  Bhupender, a tea seller in Delhi's Rajendra Nagar Market earning Rs 400-500
+  daily, faced unjust harassment from MCD officials on February 14, 2024, who
+  issued a challan under sections 357 and 397 of the Delhi MCD Act, 1957,
+  despite his valid Certificate of Vending (CoV) and Letter of Recommendation
+  (LoR). The court initially imposed a Rs 5000 fine—far exceeding the Rs 50
+  prescribed—leaving him vulnerable. This exemplifies widespread exploitation of
+  street vendors by corrupt officials, turning honest work into a battle for
+  survival. The Centre for Civil Society (CCS), advocating a classical-liberal
+  approach, counters this through the Jeevika mobile app, providing free legal
+  aid rooted in the Street Vendors (Protection of Livelihood and Regulation of
+  Street Vending) Act, 2014. This Act mandates Town Vending Committees, vendor
+  surveys, and Grievance Redressal Committees to protect vendors, who form 2% of
+  India's urban population and sustain urban economies. With Jeevika's support,
+  Bhupender contested the fine; on February 17, 2024, the court recognized his
+  documents and reduced it to Rs 500. CCS argues that equipping vendors with
+  legal knowledge dismantles bureaucratic overreach, affirming their dignity as
+  nano-entrepreneurs and promoting rule-of-law over arbitrary power.
+key_points:
+  - >-
+    Despite possessing valid CoV and LoR, Bhupender received an unlawful challan
+    and Rs 5000 fine, reduced to Rs 500 via Jeevika legal aid.
+  - >-
+    Street Vendors Act 2014 establishes TVCs, surveys, and GRCs to protect
+    vendors' livelihoods against harassment.
+  - >-
+    Jeevika app by CCS delivers one-click legal support, enabling vendors to
+    challenge corrupt officials effectively.
+  - >-
+    Street vendors, 2% of urban population, face routine evictions; legal
+    empowerment upholds their rights as essential urban entrepreneurs.
+topics:
+  - street-vendors
+  - legal-empowerment
+  - street-vendors-act
+  - bureaucratic-overreach
+source_hash: 8ec74b6d02f94ae58c1e2da6d1e816c62c12144af9904a0fba86271518cb1670
+summary_hash: 8ec74b6d02f94ae58c1e2da6d1e816c62c12144af9904a0fba86271518cb1670
+summary_at: '2026-05-05T09:09:59.492Z'
 ---
 **By Deepak Sharma**
 

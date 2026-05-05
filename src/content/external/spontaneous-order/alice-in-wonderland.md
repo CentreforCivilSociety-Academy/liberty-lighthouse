@@ -1,21 +1,47 @@
 ---
 title: Alice in Wonderland
 original_url: 'https://www.spontaneousorder.in/p/alice-in-wonderland'
+author: Spontaneous Order
 published_at: '2011-06-24T22:24:13.000Z'
 ingested_at: '2026-05-05T08:31:42.636Z'
-source_hash: 397ec281c22be323649d9425af05aea6358ac99b50ed75a7003ff99adcb42b8d
-author: Spontaneous Order
 excerpt: >-
   By: Ishu Kumar and Udita Singh (CCS Interns) Alex the Lion: The wild? Are you
   nuts? That is the worst idea I have ever heard! Melman the Giraffe: It’s
   unsanitary! Marty the Zebra: The penguins are going, so why can’t I? Alex the
   Lion: Because the peng
+summary: >-
+  This whimsical post by CCS interns describes 'Happy Feet', an Emperor Penguin
+  that swam over 2000 miles to Peka Peka Beach in New Zealand, diverting from
+  its typical path to South America. It notes global media attention and
+  scientific speculation that the penguin swam into unfamiliar territory, amid
+  concerns that offshore oil exploration might disrupt migratory patterns.
+  Referencing films like Madagascar and March of the Penguins, it highlights the
+  species' arduous annual mating journeys. The New Zealand government initially
+  opted to let nature take its course but relocated the penguin to Wellington
+  Zoo after crowds gathered; it later underwent two surgeries to remove sand
+  from its stomach. Drawing parallels to a Bolivian boy who ended up in Chile
+  while seeking his mother, the post offers a light-hearted moral: embrace wrong
+  turns, as they make memorable journeys. No policy arguments are presented.
+key_points:
+  - >-
+    An Emperor Penguin swam over 2000 miles to New Zealand, sparking concerns
+    about oil drilling's impact on migrations.
+  - >-
+    New Zealand authorities relocated 'Happy Feet' to a zoo and performed
+    surgeries after it ingested sand.
+  - The story encourages taking 'wrong turns' in life for enriching experiences.
+topics:
+  - wildlife-migration
+  - environmental-concerns
 tags:
   - penguins
   - Happy Feet
   - March of the Penguins
   - Global Village
   - New Zealand
+source_hash: 397ec281c22be323649d9425af05aea6358ac99b50ed75a7003ff99adcb42b8d
+summary_hash: 397ec281c22be323649d9425af05aea6358ac99b50ed75a7003ff99adcb42b8d
+summary_at: '2026-05-05T08:53:43.063Z'
 ---
 **By Vipin**
 

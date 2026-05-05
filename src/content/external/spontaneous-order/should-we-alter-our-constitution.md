@@ -1,18 +1,56 @@
 ---
 title: Should We Alter Our Constitution?
 original_url: 'https://www.spontaneousorder.in/p/should-we-alter-our-constitution'
+author: Spontaneous Order
 published_at: '2018-08-02T10:31:01.000Z'
 ingested_at: '2026-05-05T08:31:42.535Z'
-source_hash: f520399e919def5b67a91e97801d7e5b4631d64f51742f5b2268bc7db1418333
-author: Spontaneous Order
 excerpt: >-
   Lord Macnaghten, one of the wisest and most learned of judges, observed
   towards the end of his life that he had given all his days to the study of the
   law and was satisfied that there was nothing in it. You may or may not agree
   with the Irishman who sai..
+summary: >-
+  No perfect law exists due to the infinite variety of human situations, and
+  India needs respite from the endless flood of new laws, rules, and amendments
+  that rulers mistake for progress. The author, Nani Palkhivala, staunchly
+  defends preserving the Supreme Court and High Courts' powers under Articles 32
+  and 226 to interpret the Constitution and protect citizens from executive
+  excesses, citing British jurisprudence and cases like Eshugbayi Eleko. He
+  highlights executive overreaches, such as Bombay's assembly ban struck down in
+  1975 and absurd detention arguments during the Emergency. Courts resolve
+  disputes over dissent and press freedom, maintaining rule of law where force
+  prevails elsewhere. The Kesavananda Bharati case (1973) established that
+  Parliament cannot amend the Constitution's basic structure, including
+  supremacy of the Constitution, sovereignty, integrity, republican democracy,
+  secularism, independent judiciary, federalism, and separation of powers—right
+  to property is not part of it, allowing economic reforms. Palkhivala
+  successfully challenged the 42nd Amendment's clause undermining judicial
+  review of amendments. The judiciary emerges as the honored guardian of
+  constitutional integrity and free democracy.
+key_points:
+  - >-
+    No new laws should be passed for a stated period to provide respite from
+    legislative overreach.
+  - >-
+    Supreme Court and High Courts must retain powers under Articles 32 and 226
+    to check executive actions against liberty.
+  - >-
+    Kesavananda Bharati (1973) limits amendments to preserve the Constitution's
+    basic structure, excluding right to property.
+  - >-
+    Independent judiciary protects dissent, press freedom, and rule of law
+    against Emergency-era excesses like the 42nd Amendment.
+topics:
+  - indian-constitution
+  - judicial-independence
+  - basic-structure-doctrine
+  - rule-of-law
 tags:
   - Nani Palkhivala
   - Indian liberals
+source_hash: f520399e919def5b67a91e97801d7e5b4631d64f51742f5b2268bc7db1418333
+summary_hash: f520399e919def5b67a91e97801d7e5b4631d64f51742f5b2268bc7db1418333
+summary_at: '2026-05-05T11:43:13.811Z'
 ---
 **By Spontaneous Order**
 

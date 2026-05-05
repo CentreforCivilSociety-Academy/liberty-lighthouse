@@ -2,15 +2,59 @@
 title: Can Rights-based management end the race to fish?
 original_url: >-
   https://www.spontaneousorder.in/p/can-rights-based-management-end-the-race-to-fish
+author: Spontaneous Order
 published_at: '2022-05-18T15:49:50.000Z'
 ingested_at: '2026-05-05T08:31:42.266Z'
-source_hash: 7bae6f9671b7b1a874a9eb8faeab89ff70a18515ede6964ff56d009f0e0dc116
-author: Spontaneous Order
 excerpt: >-
   The year 2022 is of global significance with the United Nations declaring it
   as the International Year for Artisanal Fisheries and Aquaculture. The
   commemoration highlights the need for recognition of the rights of artisanal
   and small-scale fisherfolk a..
+summary: >-
+  The post argues for rights-based fishery management to end the 'race to fish'
+  in India, empowering artisanal communities with property rights over marine
+  resources as a classical-liberal alternative to failing top-down regulations.
+  Globally, 2022 was the UN's International Year for Artisanal Fisheries and
+  Aquaculture, highlighting threats to 492 million livelihoods dependent on
+  small-scale fisheries, including 45 million women. India, with an 8118 km
+  coastline and second in global production, relies on small fleets but faces
+  stock depletion from open-access fishing, environmental rules like mesh-net
+  limits, and state-driven disruptions such as port industrialization harming
+  communities like Gujarat's Wagher fishers. Centralized governance
+  disincentivizes stewardship, while rights-based approaches assign catch-based
+  quotas, area-based Territorial Use Rights in Fisheries (TURFs), or bundles
+  including management duties to communities or cooperatives, enforced by the
+  state. The padu system in stake-net fisheries exemplifies this, with fisher
+  associations allocating and rotating sites for fair catch distribution. Such
+  models align with customary practices, foster long-term incentives, and adapt
+  to local realities, urging India to adopt exclusive rights via market
+  instruments or community assignments for sustainable, equitable fisheries
+  balancing people, ocean, and economy.
+key_points:
+  - >-
+    Top-down regulations in India's fisheries exacerbate stock depletion and
+    hurt small-scale fishers by removing incentives for stewardship.
+  - >-
+    Rights-based management empowers communities with enforceable access, catch,
+    or area rights, promoting long-term planning and responsibility.
+  - >-
+    Area-based TURFs, like India's padu system, allocate fishing sites to
+    associations for rotation and fair distribution, mirroring traditional
+    property rights.
+  - >-
+    India should implement catch-shares or community-based rights programs to
+    sustainably manage its fisheries amid technological changes and challenges.
+  - >-
+    492 million globally, including 45 million women, depend on small-scale
+    fisheries, underscoring the need for rights recognition.
+topics:
+  - fisheries-management
+  - property-rights
+  - artisanal-fisheries
+  - rights-based-approach
+source_hash: 7bae6f9671b7b1a874a9eb8faeab89ff70a18515ede6964ff56d009f0e0dc116
+summary_hash: 7bae6f9671b7b1a874a9eb8faeab89ff70a18515ede6964ff56d009f0e0dc116
+summary_at: '2026-05-05T09:15:40.648Z'
 ---
 **By Mohammad Anas Khan**
 

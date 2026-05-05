@@ -1,21 +1,65 @@
 ---
 title: Innovative voucher model from Pakistan
 original_url: 'https://www.spontaneousorder.in/p/innovative-voucher-model-from-pakistan'
+author: Spontaneous Order
 published_at: '2012-06-07T10:23:50.000Z'
 ingested_at: '2026-05-05T08:31:42.617Z'
-source_hash: e5d08e8d0c86cf6ce4d0719f2624fbbb7e36fa4ab300d9e1b1e4125721531d36
-author: Spontaneous Order
 excerpt: >-
   In 2006, Punjab Education Foundation (PEF) launched its Education Voucher
   Scheme (EVS) with an aim to bring education to children belonging to less
   affluent and underprivileged families, who would otherwise have been deprived
   from the benefits of school..
+summary: >-
+  The Punjab Education Foundation's (PEF) Education Voucher Scheme (EVS),
+  launched in 2006, exemplifies a classical-liberal approach to expanding
+  education access for Pakistan's poorest children—out-of-school dropouts,
+  orphans, children of widows, and single parents—without undermining government
+  schools by excluding already-enrolled public school students. Private low-cost
+  schools participate voluntarily after quality inspections assessing learning
+  outcomes and infrastructure, ensuring standards and choice-driven
+  improvements. At just PKR 350 per student quarterly (a third of government
+  costs) plus a PKR 1000 annual stipend for supplies, the model is affordable
+  and scalable. Schools must achieve measurable outcomes, like 50% of students
+  scoring at least 40% on Quality Assurance Tests (QATs), with repeated failures
+  leading to exclusion; additional targets include higher retention, female
+  enrollment, and teacher employment. Incentives such as 12-month voucher
+  payments for 10 months of schooling, professional development thrice yearly,
+  and summer camps boost school quality and revenue. Government support from
+  Punjab's ruling PMLN has fostered positive discourse on vouchers, silencing
+  critics amid demonstrated infrastructure gains. EVS addresses out-of-school
+  children effectively, with explorations of Indian models like Gyanshala for
+  sustainability.
+key_points:
+  - >-
+    EVS targets only out-of-school children such as dropouts and orphans,
+    avoiding enrolled government school students to gain official support.
+  - >-
+    Private schools join voluntarily after quality checks on learning and
+    infrastructure, with mandatory 50% students achieving 40% on QATs or face
+    exclusion.
+  - >-
+    Vouchers cost PKR 350 per student quarterly plus PKR 1000 annually,
+    one-third of government spending, enabling scalability.
+  - >-
+    Incentives include extra revenue from 12-month payments, thrice-yearly
+    training, and summer camps, improving school quality per participants.
+  - >-
+    The scheme has built positive voucher discourse by demonstrating access
+    gains and silencing anti-private sector fears.
+topics:
+  - education-vouchers
+  - school-choice
+  - private-schools
+  - out-of-school-children
 tags:
   - education model in Pakistan
   - Gyanshaala
   - Punjab Education Foundation
   - Punjab
   - Education Voucher Scheme
+source_hash: e5d08e8d0c86cf6ce4d0719f2624fbbb7e36fa4ab300d9e1b1e4125721531d36
+summary_hash: e5d08e8d0c86cf6ce4d0719f2624fbbb7e36fa4ab300d9e1b1e4125721531d36
+summary_at: '2026-05-05T10:25:40.054Z'
 ---
 **By Shantanu Gupta**
 

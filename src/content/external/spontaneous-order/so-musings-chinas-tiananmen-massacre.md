@@ -1,15 +1,52 @@
 ---
 title: 'SO Musings: China’s Tiananmen Massacre'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-chinas-tiananmen-massacre'
+author: Spontaneous Order
 published_at: '2020-06-05T14:10:50.000Z'
 ingested_at: '2026-05-05T08:31:42.412Z'
-source_hash: 2790c5bab0dea5a8443a8a920ab7b88ccef34390ca362729e984297035325f4c
-author: Spontaneous Order
 excerpt: >-
   Barry Posen, a scholar of International Politics, has recently argued about
   the peace dividend of the pandemic as nations would emerge out of the lockdown
   considerably weaker. However, China’s dealings in the South China Sea, Hong
   Kong, and with India a
+summary: >-
+  The post republishes a 1989 Freedom First editorial by SV Raju critiquing the
+  Chinese government's Tiananmen Square massacre, where around 10,000 peaceful
+  student protesters were killed in a brutal crackdown involving tanks,
+  bayonets, and target practice on civilians. Despite Deng Xiaoping's economic
+  reforms turning China capitalist in practice, the regime proved unwilling to
+  grant political liberty or democracy, affirming that communists never
+  relinquish power. Raju, echoing classical-liberal principles, insists that
+  market economies cannot be divorced from political freedom where citizens
+  dictate production and rulers—'Bread with Freedom,' not one without the other.
+  The editorial condemns leftist support (including India's CPI(M) and
+  Naxalites), Western hesitation driven by lucrative trade (especially Japan),
+  and India's prime minister's equivocal response awaiting 'accurate' reports.
+  It also highlights Tibet's plight: over 1.2 million Tibetans dead since 1959,
+  6,000 monasteries destroyed, and 7 million Chinese immigrants outnumbering 6
+  million Tibetans amid ongoing repression. The contemporary framing links this
+  to China's current assertiveness in Hong Kong, South China Sea, India, and
+  Australia, urging liberals today not to trade political liberty for economic
+  gains.
+key_points:
+  - >-
+    Tiananmen Square massacre in 1989 killed approximately 10,000 non-violent
+    protesters, demonstrating communist China's refusal to allow political
+    freedom despite economic reforms.
+  - >-
+    Classical liberals must demand both economic prosperity ('Bread') and
+    political liberty ('Freedom'), rejecting any trade-off.
+  - >-
+    China's demographic aggression in Tibet has resulted in over 1.2 million
+    Tibetan deaths since 1959 and the destruction of 6,000 monasteries.
+  - >-
+    Western powers, prioritizing trade, have pulled punches on condemning the
+    massacre, while Indian leftists supported the regime.
+topics:
+  - tiananmen-massacre
+  - chinese-authoritarianism
+  - political-liberty
+  - tibet-occupation
 tags:
   - SO Musings
   - communist economy
@@ -17,6 +54,9 @@ tags:
   - Communism
   - Assumptions of Marxism
   - China
+source_hash: 2790c5bab0dea5a8443a8a920ab7b88ccef34390ca362729e984297035325f4c
+summary_hash: 2790c5bab0dea5a8443a8a920ab7b88ccef34390ca362729e984297035325f4c
+summary_at: '2026-05-05T11:53:58.457Z'
 ---
 **By Spontaneous Order**
 

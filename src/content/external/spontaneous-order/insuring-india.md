@@ -1,20 +1,63 @@
 ---
 title: Insuring India
 original_url: 'https://www.spontaneousorder.in/p/insuring-india'
+author: Spontaneous Order
 published_at: '2021-08-20T12:57:02.000Z'
 ingested_at: '2026-05-05T08:31:42.297Z'
-source_hash: 1cd364610723b266e0399b04c0cf36de2fb7c075bb01d76d1ec97c48bc07b156
-author: Spontaneous Order
 excerpt: >-
   On the 11th of August, 2021, the Rajya Sabha passed The General Insurance
   Business Nationalisation (Amendment) Bill, 2021, after the Lok Sabha had
   passed it on the 2nd of August. This law, once it comes into effect, will
   allow the Central Government to ..
+summary: >-
+  The 2021 General Insurance Business Nationalisation (Amendment) Bill, passed
+  by Parliament, allows the Central Government to dilute its stake below 51% in
+  state-owned general insurers like New India Assurance, National Insurance,
+  Oriental Insurance, and United India Insurance, advancing the strategic
+  disinvestment policy in sectors like insurance. Public insurers face chronic
+  issues: United India reported a Rs 1,485 crore net loss in 2019-20, National
+  Insurance Rs 4,100 crore, with solvency ratios below the 1.5 regulatory
+  minimum, impairing claim settlements and growth. India's insurance penetration
+  stands at 3.76% (vs. US 11.43%) and density at $78, far below peers, despite
+  liberalization since 2000 allowing 26% FDI (raised to 100% for
+  intermediaries). Studies show capital infusion boosts penetration and economic
+  growth, which nationalization stifled. From a classical-liberal view,
+  privatization injects private capital to revitalize underperforming PSUs,
+  countering criticisms of unethical practices by noting public insurers' claim
+  rejections and private sector reliability. Disinvestment alone won't achieve
+  universal coverage; it requires state-market collaboration via schemes like
+  PMJAY, awareness, and prioritizing economic development to make insurance
+  affordable.
+key_points:
+  - >-
+    The 2021 amendment enables stake dilution below 51% in public general
+    insurers to facilitate privatization and capital infusion.
+  - >-
+    Public insurers like United India (Rs 1,485 crore loss) and National (Rs
+    4,100 crore loss) have low solvency below 1.5, limiting penetration at
+    3.76%.
+  - >-
+    Privatization addresses capital shortages, positively correlating with
+    higher insurance penetration and economic growth per Ray et al. (2020).
+  - >-
+    Criticisms of private unethical practices are flawed, as public insurers
+    reject claims mechanically and private firms have grown reliably.
+  - >-
+    Boosting coverage demands joint state-market efforts, financial literacy,
+    and economic development over mere disinvestment.
+topics:
+  - insurance-privatization
+  - strategic-disinvestment
+  - insurance-penetration
+  - public-sector-reform
 tags:
   - India
   - Privatisation
   - liberalisation
   - insurance companies
+source_hash: 1cd364610723b266e0399b04c0cf36de2fb7c075bb01d76d1ec97c48bc07b156
+summary_hash: 1cd364610723b266e0399b04c0cf36de2fb7c075bb01d76d1ec97c48bc07b156
+summary_at: '2026-05-05T10:26:17.069Z'
 ---
 **By Sourya Banerjee**
 

@@ -1,15 +1,56 @@
 ---
 title: The Indian Constitution and ‘The Right to Sin’
 original_url: 'https://www.spontaneousorder.in/p/right-to-sin'
+author: Spontaneous Order
 published_at: '2016-01-31T18:55:08.000Z'
 ingested_at: '2026-05-05T08:31:42.563Z'
-source_hash: cb79118b22d1323beb144c22ea71359d69fb94bf5708f43b2b6da3f9dedb81aa
-author: Spontaneous Order
 excerpt: >-
   “The Constitution has been reared for immortality, if the work of man may
   justly aspire to such a title. It may, nevertheless, perish in an hour by the
   folly, or corruption, or negligence of its only keepers, the people.” –Joseph
   Story, American Jur
+summary: >-
+  The Indian Constitution embodies classical-liberal principles of limited
+  government, rule of law, and individual rights, defining the state's powers
+  and protecting citizens' freedoms against arbitrary power, as echoed by
+  thinkers like Joseph Story, Lord Acton, and Nani Palkhivala. However, it
+  grants fundamental rights with 'reasonable restrictions' whose vagueness
+  allows those in power to undermine liberties, posing a danger to a free
+  society. Reflecting on Gandhi's 1931 statement in Young India advocating a
+  constitution that releases India from 'thraldom and patronage' and grants 'the
+  right to sin,' the author interprets this as the essential freedom to make
+  peaceful life choices and dissent, even if deemed immoral by others, without
+  violating others' rights. While flawed, the Constitution has endured and
+  protected freedoms, such as the judiciary blocking parliamentary dilution of
+  property rights before the 44th Amendment and striking down Section 66A of the
+  IT Act to affirm free expression. Ultimately, its strength depends on the
+  people's moral commitment to its Preamble's vision of justice, equality, and
+  liberty; Indians must affirm the freedom to be and err to realize Gandhi's
+  ideal.
+key_points:
+  - >-
+    The Constitution establishes limited government and rule of law to prevent
+    corruption from absolute power.
+  - >-
+    Gandhi's 'right to sin' signifies the freedom for peaceful self-expression
+    and choices, essential for equal rights.
+  - >-
+    Fundamental rights are weakened by vague 'reasonable restrictions'
+    determined by those in power.
+  - >-
+    The judiciary has invoked the Constitution to protect freedoms, including
+    striking down Section 66A of the IT Act.
+  - >-
+    Citizens must uphold the Constitution's spirit of liberty for it to endure
+    as a guardian of individual rights.
+topics:
+  - indian-constitution
+  - limited-government
+  - individual-rights
+  - rule-of-law
+source_hash: cb79118b22d1323beb144c22ea71359d69fb94bf5708f43b2b6da3f9dedb81aa
+summary_hash: cb79118b22d1323beb144c22ea71359d69fb94bf5708f43b2b6da3f9dedb81aa
+summary_at: '2026-05-05T11:28:34.996Z'
 ---
 **By Ujwal Batra**
 

@@ -2,15 +2,56 @@
 title: Indian Liberals saw through the Chinese game plan in 1950
 original_url: >-
   https://www.spontaneousorder.in/p/indian-liberals-saw-through-the-chinese-game-plan-in-1950
+author: Spontaneous Order
 published_at: '2020-07-13T18:30:08.000Z'
 ingested_at: '2026-05-05T08:31:42.398Z'
-source_hash: 25029ed7a99512e06090bd898e395da4105eb88a8e589a965aaa7451fa0164dd
-author: Spontaneous Order
 excerpt: >-
   On January 1, 1950, two days after India became the second country in the
   world to accord recognition to Communist China, Peking (now Beijing) dropped a
   bombshell. It announced that the liberation of Tibet was one of the basic
   goals of the Peoples’ Libe
+summary: >-
+  Indian classical liberals, particularly figures like Minoo Masani, NG Ranga,
+  and Mariadas Ruthnaswamy of the Swatantra Party, presciently recognized
+  China's aggressive intentions toward Tibet and India as early as 1950, when
+  Beijing announced the PLA's goal of 'liberating' Tibet just after India's
+  recognition of Communist China on January 1. They rejected Nehru's naive
+  'Hindi-Chini bhai-bhai' policy and non-alignment, warning in Parliament and
+  party conventions that China's 1951 17-Point Agreement targeted Indian
+  influence as 'imperialist forces,' and that Tibet's occupation threatened
+  India's security. Despite India supplying 3,000 tonnes of rice to PLA troops
+  via transit facilities, liberals like Masani highlighted Mao's message to
+  Indian communists about 'liberating' India, destroying illusions of Asian
+  comradeship. Swatantra, formed in 1959, advocated closer Western ties, Tibetan
+  independence, support for Taiwan and Israel, and a regional security alliance.
+  Ruthnaswamy declared in 1962 that Tibet's independence was vital for India's
+  defense, proven by the Sino-Indian war months later. Post-1962, Masani
+  critiqued India's UN isolation after the 1965 Pakistan war, urging a liberal
+  foreign policy. The author concludes that Swatantra liberals' warnings,
+  vindicated by history, contrast with decades of flawed non-alignment,
+  suggesting different outcomes today if persisted.
+key_points:
+  - >-
+    Indian liberals like Masani warned in the early 1950s that China's Tibet
+    invasion signaled aggression against India, referencing Mao's call to
+    'liberate' India.
+  - >-
+    Swatantra Party opposed non-alignment, demanding Tibet's independence for
+    India's defense and closer ties with the US and West.
+  - >-
+    India supplied 3,000 tonnes of rice to PLA troops in Tibet, exemplifying
+    Nehru's naivete amid 'bhai-bhai' slogans.
+  - >-
+    Post-1962 war, Swatantra urged vigilance against Chinese appeasement and
+    proposed alliances, support for Tibet/Taiwan/Israel.
+  - >-
+    Masani's 1965 speech highlighted India's UN isolation, advocating diplomats
+    promote a sellable liberal foreign policy.
+topics:
+  - swatantra-party
+  - india-china-relations
+  - tibet
+  - non-alignment-policy
 tags:
   - India v/s China
   - Liberalism in India
@@ -19,6 +60,9 @@ tags:
   - Chinese government
   - Indian liberals
   - Swatantra Party
+source_hash: 25029ed7a99512e06090bd898e395da4105eb88a8e589a965aaa7451fa0164dd
+summary_hash: 25029ed7a99512e06090bd898e395da4105eb88a8e589a965aaa7451fa0164dd
+summary_at: '2026-05-05T10:21:39.547Z'
 ---
 **By Ranjit Bhushan**
 

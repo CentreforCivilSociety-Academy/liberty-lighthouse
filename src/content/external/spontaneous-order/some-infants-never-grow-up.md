@@ -1,21 +1,61 @@
 ---
 title: Some Infants Never Grow Up!
 original_url: 'https://www.spontaneousorder.in/p/some-infants-never-grow-up'
+author: Spontaneous Order
 published_at: '2011-06-05T18:17:07.000Z'
 ingested_at: '2026-05-05T08:31:42.643Z'
-source_hash: e14e4dfbd28af2595c00bb8d1d2339425236ae159c70a0ea77ed1143e65028df
-author: Spontaneous Order
 excerpt: >-
   By: Bhuvana Anand (Director, CCS) & Vipin P. Veetil (Research Guide, CCS) “I
   am one who is not subscribing to this view that our exports have reached a
   stage where we can do away with some of the incentives” said Anand Sharma,
   Minister of Commerce tod
+summary: >-
+  The post criticizes the extension of India's Duty Entitlement Pass Book (DEPB)
+  scheme, an export promotion policy that reimburses import duties on export
+  inputs, as endorsed by Commerce Minister Anand Sharma and major firms like
+  Tatas, Reliance Industries, and Bajaj Auto. From a classical-liberal
+  viewpoint, it rejects the infant industry argument—popularized by Alexander
+  Hamilton—which claims nascent industries need protection to compete, arguing
+  instead that true growth occurs through competition and Joseph Schumpeter's
+  'creative destruction' in capitalism, where innovation from new goods,
+  methods, and markets drives progress, not government shields. Protectionism
+  keeps industries infantile, as evidenced by the 60+ years since the 1944
+  Bombay Plan, and distorts incentives: domestic producers and consumers bear
+  import taxes while exporters are exempted, violating the principle that
+  production serves consumption. The authors decry this as crony capitalism,
+  where established giants seek short-term favors rather than advocating
+  wholesale tariff removal. Business leaders should champion open markets
+  without caveats, as Peter Thiel warns against compromising for net-winner
+  status. Ultimately, India and its bourgeoisie gain from principled free-market
+  advocacy over protectionist 'diapers' for 'big boys.'
+key_points:
+  - >-
+    The DEPB scheme reimburses import duties on export inputs using fixed rates
+    but unfairly burdens domestic producers and consumers with those taxes.
+  - >-
+    Infant industry protection fails because industries mature through
+    competition and creative destruction, not isolation, as Schumpeter describes
+    capitalism's innovative engine.
+  - >-
+    Established firms like Tatas and Reliance exemplify crony capitalism by
+    lobbying for DEPB extensions instead of demanding import tariff removal.
+  - >-
+    Business leaders must reject short-term favors and advocate uncompromising
+    free trade to foster long-term economic growth.
+topics:
+  - infant-industry
+  - export-subsidies
+  - crony-capitalism
+  - free-trade
 tags:
   - economic growth
   - DEPB
   - Capitalism
   - export
   - Crony Capitalism
+source_hash: e14e4dfbd28af2595c00bb8d1d2339425236ae159c70a0ea77ed1143e65028df
+summary_hash: e14e4dfbd28af2595c00bb8d1d2339425236ae159c70a0ea77ed1143e65028df
+summary_at: '2026-05-05T12:06:36.522Z'
 ---
 **By Vipin**
 

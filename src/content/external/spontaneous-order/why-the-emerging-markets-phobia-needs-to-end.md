@@ -1,15 +1,56 @@
 ---
 title: Why the emerging markets phobia needs to end
 original_url: 'https://www.spontaneousorder.in/p/why-the-emerging-markets-phobia-needs-to-end'
+author: Spontaneous Order
 published_at: '2018-10-31T12:01:11.000Z'
 ingested_at: '2026-05-05T08:31:42.512Z'
-source_hash: 42cecc0ea94c7b26be022bdf062b2d2e19b1470eabe06ac3d8747c39932f028f
-author: Spontaneous Order
 excerpt: >-
   Living in a time where irrational generalisations often hinder financial
   decision-making – the art of cold, calculated precision and collusion is
   necessary for nations to shield themselves against the onslaught of any doubt.
   The presentOne very relevant
+summary: >-
+  Investor phobia towards emerging markets (EMs) leads to irrational
+  generalizations, causing currency depreciation even in high-growth economies
+  like India, which saw a YTD 11.69% fall despite being among the least
+  affected, triggered by steeper declines in Argentina and Turkey (>45%). This
+  mirrors the 1997 Asian Financial Crisis, where Thailand's defense of its US
+  Dollar peg exhausted reserves amid large current account deficits and real
+  estate speculation, crippling debt and spilling over to unaffected neighbors
+  like Hong Kong via panicked capital flight. From a classical-liberal
+  viewpoint, such contagion underscores the need for EMs to counter short-term
+  greed and competitive devaluations through coordinated action, rejecting
+  failed supranational models like the EU due to growth disparities. Proposed
+  solutions include forming geographic-political economic unions for collective
+  monetary policy discussions, reciprocal investment mandates akin to Japanese
+  keiretsu, and banking clearing house systems allowing overdrafts with
+  low-interest absorption by partners during crises—e.g., Argentina covering
+  Colombia's $100 million deficit to Romania. This builds trust via binding
+  alliances and domestic trade ecosystems, enabling gradual globalization over
+  rushed, bully-prone international trade.
+key_points:
+  - >-
+    Investor generalizations from crises in countries like Argentina and Turkey
+    cause unnecessary 11.69% YTD currency depreciation in strong EMs like India.
+  - >-
+    The 1997 Thai Baht crisis, fueled by current account deficits and real
+    estate oversupply, exhausted reserves and triggered regional contagion
+    despite unaffected economies.
+  - >-
+    EMs should form economic unions for coordinated monetary policy and
+    reciprocal investments like keiretsu to prevent competitive devaluations.
+  - >-
+    Implement clearing house mechanisms for mutual overdraft absorption with
+    low-interest charges to manage deficits and avert panic-driven debt
+    haircuts.
+  - >-
+    Prioritize trusted regional ecosystems before global integration to foster
+    stability and investor confidence.
+topics:
+  - emerging-markets
+  - currency-crises
+  - economic-unions
+  - regional-integration
 tags:
   - Phobia
   - How to end Phobia
@@ -17,6 +58,9 @@ tags:
   - Emerging markets
   - End
   - Phobia needs to end
+source_hash: 42cecc0ea94c7b26be022bdf062b2d2e19b1470eabe06ac3d8747c39932f028f
+summary_hash: 42cecc0ea94c7b26be022bdf062b2d2e19b1470eabe06ac3d8747c39932f028f
+summary_at: '2026-05-05T13:07:31.520Z'
 ---
 **By Spontaneous Order**
 

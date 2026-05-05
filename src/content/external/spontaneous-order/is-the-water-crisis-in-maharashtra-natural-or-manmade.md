@@ -2,15 +2,54 @@
 title: Is the Water Crisis in Maharashtra Natural or Manmade?
 original_url: >-
   https://www.spontaneousorder.in/p/is-the-water-crisis-in-maharashtra-natural-or-manmade
+author: Spontaneous Order
 published_at: '2024-07-05T15:21:17.000Z'
 ingested_at: '2026-05-05T08:31:42.715Z'
-source_hash: e221e4149d5883b9b14dff1325f331ddc9531eeae8ce63050bf0e51146bd2028
-author: Spontaneous Order
 excerpt: >-
   Maharashtra is the third largest state of India in terms of land area. The
   diverse landscape of Maharashtra includes the vast Deccan Plateau, the
   biodiversity-rich forests of Vidarbha and Western Ghats along with the
   beautiful Konkan strip. Its diverse ..
+summary: >-
+  Maharashtra's water crisis is largely manmade, stemming from policy failures
+  rather than solely climate change, argues Pranoti Awalekar from a
+  classical-liberal viewpoint emphasizing incentives, long-term effects, and
+  citizen involvement. The state's real forest cover stands at 16.5%, far below
+  the 33% National Forest Policy target, exacerbating vulnerability through soil
+  erosion and disrupted water cycles. The Jalyukt Shivar Abhiyan, despite Rs
+  9,630 crore spent over ten years, achieved negligible results—providing water
+  for just 487 people for one year—while incentivizing water-intensive sugarcane
+  cultivation, causing groundwater levels to drop 1-3 meters across 245 talukas
+  between 2014-2019, per GSDA data. Subsidies for deep borewells on plateaus
+  further deplete resources unsustainably. Invoking Milton Friedman's Law of
+  Spending, the piece critiques inefficient third-party fund use; Henry
+  Hazlitt's focus on long-term policy effects; and Barun Mitra's call to think
+  like citizens. Solutions require holistic ecosystem approaches: shifting
+  cropping patterns with farmer input, active forestation, revising borewell
+  subsidies, and addressing fiscal imbalances where Maharashtra receives only Rs
+  0.08 per rupee contributed to the Centre's pool, hampering welfare. The crisis
+  is reversible through incentive-aligned, sustainable policies.
+key_points:
+  - >-
+    Maharashtra's Jalyukt Shivar Abhiyan wasted Rs 9,630 crore and promoted
+    sugarcane, dropping groundwater 1-3m in 245 talukas.
+  - >-
+    Subsidies for deep borewells on plateaus encourage unsustainable extraction,
+    worsening water tables.
+  - >-
+    Revise centre-state fiscal shares, as Maharashtra gets only Rs 0.08 per
+    rupee contributed, limiting welfare spending.
+  - >-
+    Involve farmers in cropping pattern changes, boost forestation to 33%, and
+    apply long-term policy scrutiny per Hazlitt and Friedman.
+topics:
+  - water-crisis
+  - agricultural-subsidies
+  - forest-policy
+  - fiscal-federalism
+source_hash: e221e4149d5883b9b14dff1325f331ddc9531eeae8ce63050bf0e51146bd2028
+summary_hash: e221e4149d5883b9b14dff1325f331ddc9531eeae8ce63050bf0e51146bd2028
+summary_at: '2026-05-05T10:31:25.917Z'
 ---
 **By Pranoti Awalekar**
 

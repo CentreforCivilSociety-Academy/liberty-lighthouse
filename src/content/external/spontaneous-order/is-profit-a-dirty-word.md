@@ -1,15 +1,49 @@
 ---
 title: Is PROFIT a dirty word?
 original_url: 'https://www.spontaneousorder.in/p/is-profit-a-dirty-word'
+author: Spontaneous Order
 published_at: '2005-07-01T21:47:45.000Z'
 ingested_at: '2026-05-05T08:31:42.677Z'
-source_hash: 0c730701f3f22728d083ee7267294324f036b305ee6f14ecfbc86ea0e47af4a5
-author: Spontaneous Order
 excerpt: >-
   Whenever there is talk of markets and profit as a driving motivation for
   individuals, the constant accusation is that individuals in the market are
   constantly driven to make money and profit. The underlying assumption being
   that profit can be only scale..
+summary: >-
+  Naveen Mandava challenges the common accusation that market-driven individuals
+  are solely motivated by monetary profit, arguing instead that profit
+  encompasses both material (e.g., earnings from teaching a child) and psychic
+  forms (e.g., joy from the act of teaching). He rejects the underlying
+  assumption that profit scales only in financial terms, emphasizing that market
+  arrangements allow individuals to pursue whichever type of profit they prefer.
+  For example, if someone dislikes the 'exploitation' in an existing school,
+  they remain free to start their own school, deriving psychic profit while
+  providing education to children. This classical-liberal defense portrays
+  markets as enablers of personal freedom and diverse motivations, countering
+  the vilification of profit as a 'dirty word' and highlighting individual
+  agency to innovate and align economic activity with personal values beyond
+  mere money-making.
+key_points:
+  - >-
+    Profit includes both material gains like money and psychic rewards like joy
+    from teaching.
+  - >-
+    Markets enable individuals to freely pursue either material or psychic
+    profit.
+  - >-
+    If dissatisfied with exploitative market actors like schools, individuals
+    can start alternatives to satisfy their psychic profit motives.
+  - >-
+    This reframes the profit motive positively, emphasizing freedom over greed
+    accusations.
+topics:
+  - profit-motive
+  - free-markets
+  - education
+  - individual-freedom
+source_hash: 0c730701f3f22728d083ee7267294324f036b305ee6f14ecfbc86ea0e47af4a5
+summary_hash: 0c730701f3f22728d083ee7267294324f036b305ee6f14ecfbc86ea0e47af4a5
+summary_at: '2026-05-05T10:30:16.747Z'
 ---
 **By Naveen Mandava**
 

@@ -2,15 +2,54 @@
 title: 'Minoo Masani: From Socialism to Liberal Swatantra Party'
 original_url: >-
   https://www.spontaneousorder.in/p/minoo-masani-from-socialism-to-liberal-swatantra-party
+author: Spontaneous Order
 published_at: '2019-12-04T13:02:05.000Z'
 ingested_at: '2026-05-05T08:31:42.455Z'
-source_hash: dc0dd43c3069dfe1d63f9b5b41e27c8c53fcd2d62e2ac0a0970f19c683f09fc6
-author: Spontaneous Order
 excerpt: >-
   The forgotten politician Minoo Masani’s illustrious public career was an
   exercise in collaboration and confrontation with the other leading Indian
   nationalist figures. Himself one of the founding fathers of modern India,
   Minoo was both a nationalist and
+summary: >-
+  Minoo Masani's career exemplifies a pragmatic shift from democratic socialism
+  to market liberalism, making him an ideal icon for Indian liberals. Initially
+  influenced by LSE mentors like Harold Laski and 1927/1935 USSR visits, Masani
+  advocated Soviet emulation, co-founded the Congress Socialist Party (CSP) in
+  1934 with JP Narayan and Nehru, clashing with Patel, Rajaji, and Gandhi.
+  Disillusioned by Stalinist purges, CPI infiltration, and Gandhi's emphasis on
+  means over ends, he resigned from CSP in 1940, critiquing Marxism's
+  assumptions in 'Socialism Reconsidered' (1944) and proposing a 'mixed economy'
+  in 1947 blending private enterprise, public sectors, and trusteeship—ideas
+  Nehruvian socialism distorted into inefficiency. In the 1950s, Masani combated
+  communism via Indian Committee for Cultural Freedom (1950) and Democratic
+  Research Service, then co-founded Swatantra Party in 1959 with Rajaji against
+  Congress's Nagpur Resolution on cooperative farming. Swatantra emerged as the
+  largest opposition in 1967 elections but collapsed in 1971's Indira wave.
+  Post-retirement, Masani built liberal institutions like the Leslie Sawhny
+  Programme and Freedom First. The author argues Masani, the westernized Parsi
+  liberal, surpasses self-identified conservative Rajaji as a model for
+  fostering pro-liberty opinion in India.
+key_points:
+  - >-
+    Masani evolved from USSR admirer and CSP leader to Marxism critic, rejecting
+    nationalization and dictatorship after witnessing Stalinist failures.
+  - >-
+    He co-founded Swatantra Party in 1959 as a classical-liberal alternative to
+    Nehruvian socialism, achieving largest opposition status in 1967 elections.
+  - >-
+    Masani's anti-communist efforts included Democratic Research Service (1950)
+    and cultural committees to counter CPI influence.
+  - >-
+    Post-Swatantra, he nurtured liberal civil society via training programs and
+    economic education initiatives.
+  - >-
+    Indian liberals should emulate Masani's open-minded pragmatism over Rajaji's
+    conservatism to build pro-market public opinion.
+topics:
+  - indian-liberal-tradition
+  - swatantra-party
+  - anti-communism
+  - economic-liberalism
 tags:
   - Minoo Masani
   - M R Masani
@@ -18,6 +57,9 @@ tags:
   - Indian liberals
   - Masani
   - IndianLiberals.in
+source_hash: dc0dd43c3069dfe1d63f9b5b41e27c8c53fcd2d62e2ac0a0970f19c683f09fc6
+summary_hash: dc0dd43c3069dfe1d63f9b5b41e27c8c53fcd2d62e2ac0a0970f19c683f09fc6
+summary_at: '2026-05-05T10:54:36.983Z'
 ---
 **By Sanjeet Kashyap**
 

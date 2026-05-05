@@ -2,18 +2,61 @@
 title: How the Social Security Code 2020 fails gig workers
 original_url: >-
   https://www.spontaneousorder.in/p/how-the-social-security-code-2020-fails-gig-workers
+author: Spontaneous Order
 published_at: '2020-11-23T12:43:07.000Z'
 ingested_at: '2026-05-05T08:31:42.367Z'
-source_hash: d3042d99cfb688af68e08d7234610ffa7006e50fdc65721a1be81d6ca018d598
-author: Spontaneous Order
 excerpt: >-
   In the wake of the pandemic, the gig economy is being hailed as the future of
   work. A gig economy is a free market system in which temporary positions are
   common and organizations hire independent workers for short-term commitments.
   The gig economy crea..
+summary: >-
+  The Social Security Code 2020 promises gig workers benefits like insurance,
+  maternity coverage, and provident funds by requiring aggregators to contribute
+  1-2% of annual turnover to a Social Security Fund, marking a step toward
+  recognizing them outside traditional employment. However, from a
+  classical-liberal viewpoint, this regulatory intervention risks harming
+  workers through increased aggregator costs inevitably passed on via lower
+  wages or higher commissions, as seen in recent Swiggy and Uber protests amid
+  pandemic income hits. Gig economy, driving 56% of new jobs (3 million in
+  India) and projected to grow 17% to $455 billion by 2023, thrives on
+  flexibility allowing multi-platform work and self-determined hours—features
+  regulations could rigidify with minimum hours, entry barriers, and
+  Aadhaar-mandated registration prone to corruption like in PDS or 2008
+  Unorganised Workers Act. Jurisdictional overlaps between Centre and States,
+  fund management opacity, and lack of judicial oversight exacerbate cronyism
+  risks. Citing California's Proposition 22 (58% voter support for independent
+  contractor status) and ASSOCHAM's 'portable benefits' like Uber/Lyft perks,
+  the author argues markets better provide security; governments should
+  prioritize ease of doing business, flexible payments, and tax harmony over
+  over-legislation that could stifle the model sustaining workers during crises.
+key_points:
+  - >-
+    Aggregators' 1-2% turnover contributions to the Social Security Fund will
+    raise costs passed to gig workers via lower pay and selective hiring.
+  - >-
+    Regulations threaten gig workers' prized flexibility, potentially imposing
+    rigid hours and barriers that multi-platform workers currently avoid.
+  - >-
+    Aadhaar registration and database maintenance echo past failures like PDS
+    corruption and poor implementation under 2008 Unorganised Workers Act.
+  - >-
+    Prefer market-driven 'portable benefits' as in US (Uber/Lyft perks) and
+    Proposition 22's success over mandatory contributions.
+  - >-
+    Governments should ease regulations, streamline payments, and harmonize
+    taxes to boost gig economy growth.
+topics:
+  - gig-economy
+  - social-security-code
+  - labour-regulation
+  - platform-workers
 tags:
   - Public Policy
   - Governance
+source_hash: d3042d99cfb688af68e08d7234610ffa7006e50fdc65721a1be81d6ca018d598
+summary_hash: d3042d99cfb688af68e08d7234610ffa7006e50fdc65721a1be81d6ca018d598
+summary_at: '2026-05-05T10:12:49.623Z'
 ---
 **By Swati Rao**
 

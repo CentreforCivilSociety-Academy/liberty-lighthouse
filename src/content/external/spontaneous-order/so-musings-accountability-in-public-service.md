@@ -1,21 +1,53 @@
 ---
 title: 'SO Musings: Accountability in Public Service'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-accountability-in-public-service'
+author: Spontaneous Order
 published_at: '2019-06-11T05:23:17.000Z'
 ingested_at: '2026-05-05T08:31:42.484Z'
-source_hash: 502cf6aed9242c309126156391e5667cc19a88f506f9fc170af6a59d0412f97d
-author: Spontaneous Order
 excerpt: >-
   Accountability, as mentioned earlier, constitutes the soul of effectiveness
   and quality of public service. It means responsibility. In the ultimate
   analysis, it should and can be fixed and focused only on individual human
   beings. Fixing responsibility o..
+summary: >-
+  Accountability forms the soul of effective and high-quality public service,
+  embodying personal responsibility that must ultimately be fixed on individual
+  human beings rather than organizations. Organizations, being artificial and
+  impersonal entities, cannot truly bear accountability in a meaningful way;
+  attributing it to them is merely figurative. In public service analysis,
+  emphasizing the individual human element is essential to enforce
+  accountability and rectify systemic failures. The excerpt argues that the
+  pervasive poor quality of governance and services in India stems primarily
+  from a lack of individual accountability. From a classical-liberal viewpoint,
+  as presented by Spontaneous Order drawing from the Forum for Free Enterprise,
+  this individual-focused approach is key to improving public administration,
+  countering the inefficiencies of bureaucratic impersonality that have plagued
+  post-independence India under pseudo-socialist influences.
+key_points:
+  - >-
+    Accountability in public service must be fixed on individual human beings,
+    not organizations.
+  - Organizations are artificial entities incapable of genuine responsibility.
+  - >-
+    Focusing on individuals enables true accountability and system
+    rectification.
+  - >-
+    Lack of individual accountability is the main cause of poor governance
+    quality in India.
+topics:
+  - accountability
+  - public-service
+  - governance
+  - bureaucracy
 tags:
   - SO Musings
   - Musings
   - individual accountability
   - Public service
   - Accountability
+source_hash: 502cf6aed9242c309126156391e5667cc19a88f506f9fc170af6a59d0412f97d
+summary_hash: 502cf6aed9242c309126156391e5667cc19a88f506f9fc170af6a59d0412f97d
+summary_at: '2026-05-05T11:52:44.904Z'
 ---
 **By Spontaneous Order**
 

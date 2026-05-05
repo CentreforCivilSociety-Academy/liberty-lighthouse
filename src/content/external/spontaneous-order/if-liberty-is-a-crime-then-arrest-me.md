@@ -1,21 +1,57 @@
 ---
 title: 'If Liberty is a crime, then arrest me!'
 original_url: 'https://www.spontaneousorder.in/p/if-liberty-is-a-crime-then-arrest-me'
+author: Spontaneous Order
 published_at: '2010-10-20T12:34:15.000Z'
 ingested_at: '2026-05-05T08:31:42.647Z'
-source_hash: 970bf927a913b61af8c110fe425b8d46d3fa385d0ee1bc180cb60b3d872af3dc
-author: Spontaneous Order
 excerpt: >-
   I love the concept of having a police force provided by the taxpayer. It’s
   supposed to protect our basic rights and liberties when those are threatened
   by others. Once again, the state would step in and protect us ‘through the
   thick and thin’, treme
+summary: >-
+  Lucas Leger critiques France's 'plan vigipirate' anti-terrorist scheme,
+  permanently active since January 2007 and strengthened in August, which
+  empowers police to conduct random ID checks and body searches in strategic
+  public areas like Paris metro stations, overriding privacy rights under the
+  guise of public security. He recounts a personal incident where he and a
+  friend were stopped and searched, highlighting the irony of state protection
+  enabling the very infringements it should prevent. From a classical-liberal
+  viewpoint, this self-contradiction undermines government legitimacy, as it
+  breaches Herbert Spencer's 'law of equal freedom' outlined in 'Social
+  Statics,' where even minor rights violations are impermissible, justifying the
+  right to ignore the state. Leger urges smarter resistance—refusing compliance
+  despite potential short-term detention—over fearful submission, arguing that
+  terrorism fears do not justify tyranny. He concludes that true liberty demands
+  rejecting any trade-off of freedoms for security, declaring: 'If liberty is a
+  crime, then arrest me!'
+key_points:
+  - >-
+    France's plan vigipirate since 2007 authorizes random police ID checks and
+    searches in public areas like metro stations.
+  - >-
+    State security measures contradict their purpose by infringing the civil
+    liberties they claim to protect.
+  - >-
+    Herbert Spencer's 'law of equal freedom' deems all state rights violations
+    immoral, legitimizing individual resistance.
+  - >-
+    Citizens should refuse compliance with invasive checks to defend liberty
+    against fear-driven tyranny.
+topics:
+  - civil-liberties
+  - state-overreach
+  - privacy-rights
+  - anti-terrorism
 tags:
   - Herbert Spencer
   - Liberty
   - equal freedom
   - Right to Privacy
   - Libertarianism
+source_hash: 970bf927a913b61af8c110fe425b8d46d3fa385d0ee1bc180cb60b3d872af3dc
+summary_hash: 970bf927a913b61af8c110fe425b8d46d3fa385d0ee1bc180cb60b3d872af3dc
+summary_at: '2026-05-05T10:15:28.856Z'
 ---
 **By Lucas Leger**
 

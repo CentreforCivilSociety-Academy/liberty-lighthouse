@@ -1,20 +1,60 @@
 ---
 title: Right to Education vs Right to Educate
 original_url: 'https://www.spontaneousorder.in/p/right-to-education-vs-right-to-educate'
+author: Spontaneous Order
 published_at: '2019-03-07T09:15:20.000Z'
 ingested_at: '2026-05-05T08:31:42.500Z'
-source_hash: 0c5707cc5d9d4c41fd02e49ec0a06a4a6a926698b8c17d7e40bd2c46b37d71a1
-author: Spontaneous Order
 excerpt: >-
   The Right to Education Act provides for universal elementary education but
   ironically limits private education providers who can make this possible.
   Section 19 states that schools established before the commencement of the Act
   need to meet norms and sta..
+summary: >-
+  The Right to Education Act (RTE) promises universal elementary education but
+  paradoxically burdens small private schools—especially ~2000 unrecognized ones
+  in Delhi serving ~400,000 poor children—with unattainable norms like 800
+  square yards of land, Rs 23,000 entry-level teacher salaries matching
+  government scales, and mandatory playgrounds, risking their shutdown. Field
+  visits to five recognized schools in Shahadara found none fully compliant:
+  they paid bribes (e.g., Rs 80,000 for prior recognition), charged Rs 250/month
+  fees from impoverished families, underpaid teachers via accounting fictions,
+  and lacked playgrounds. Nine unrecognized schools averaged 100 square yards,
+  built vertically to serve 15-20 students per class. From a classical-liberal
+  viewpoint, these regulations stifle affordable private education alternatives
+  to failing government schools. Reforms urged include relaxing land norms to
+  ventilated rooms/open space scaled per child, tying teacher pay to school fees
+  rather than government rates, replacing playground mandates with nearby parks
+  and required physical education, and anti-bribe monitoring for recognition.
+  Such changes would empower budget private schools to partner in achieving
+  universal education.
+key_points:
+  - >-
+    RTE norms require 800 sq yards land, Rs 23,000 teacher salaries, and
+    playgrounds, which ~2000 unrecognized Delhi schools cannot meet and even
+    recognized ones evade via bribes/underpayment.
+  - >-
+    Recognized schools charge Rs 250/month from poor families yet fake
+    compliance; unrecognized average 100 sq yards with vertical builds for small
+    classes.
+  - >-
+    Relax land to adequate rooms/ventilation per child enrollment, base salaries
+    on fees, mandate nearby parks/PE instead of playgrounds.
+  - >-
+    Streamline recognition with monitoring to eliminate bribes, enabling private
+    schools for universal education.
+topics:
+  - right-to-education
+  - private-schools
+  - education-regulation
+  - school-norms
 tags:
   - School closure
   - Right to Education
   - RTE ACT 2009
   - Right to Education Act
+source_hash: 0c5707cc5d9d4c41fd02e49ec0a06a4a6a926698b8c17d7e40bd2c46b37d71a1
+summary_hash: 0c5707cc5d9d4c41fd02e49ec0a06a4a6a926698b8c17d7e40bd2c46b37d71a1
+summary_at: '2026-05-05T11:28:10.922Z'
 ---
 **By Sonjuhi Singh**
 

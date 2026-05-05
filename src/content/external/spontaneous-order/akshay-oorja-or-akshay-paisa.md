@@ -1,19 +1,59 @@
 ---
 title: Akshay Oorja or Akshay Paisa?
 original_url: 'https://www.spontaneousorder.in/p/akshay-oorja-or-akshay-paisa'
+author: Spontaneous Order
 published_at: '2004-09-17T02:06:35.000Z'
 ingested_at: '2026-05-05T08:31:42.699Z'
-source_hash: 31757dca0c2046c197b8d62a4cdb38046c720f0c2ccac8588b6b198de6a4d51f
-author: Spontaneous Order
 excerpt: >-
   Who said the Indian government is dull?! It loves to party, all it needs is an
   excuse. In case you missed the full page adverts by the Ministry of
   Non-Conventional Energy Sources in the national dailies, August 20th (Rajiv
   Gandhi’s birthday) was celebra
+summary: >-
+  The Indian government's celebration of Akshay Oorja Divas and the Ministry of
+  Non-Conventional Energy Sources (MNES) represent wasteful promotion of
+  renewable energy in an energy-poor nation where 20,000 villages remain
+  unelectrified and cheap, reliable energy is essential for prosperity. From a
+  classical-liberal viewpoint, this crusade ignores abundant conventional
+  resources: India's coal reserves suffice for over 500 years, only a quarter of
+  oil and gas reserves have been explored, and fossil fuel prices have declined
+  since the 1970s amid technological advances reducing emissions. Renewables
+  like wind, solar, and biomass fail on efficiency—fossil plants achieve 90%
+  capacity utilization versus 30% for 'green' ones, with renewables requiring
+  massive scale (e.g., over 3 million solar plants for Delhi's needs) and
+  suffering intermittency and storage issues. Despite 'free' raw materials,
+  renewables incur high capital and operational costs, yielding high per-unit
+  prices without subsidies; they contribute under 2% of India's power, propped
+  by Rs 5,000-25,000 crores in taxpayer funds. Mandated renewables raise
+  consumer costs and divert resources, perpetuating energy and economic poverty
+  through distorted incentives, unnecessary interventions, and overregulation of
+  conventional sources.
+key_points:
+  - >-
+    India's coal reserves alone last over 500 years, with vast untapped oil and
+    gas potential, making renewable promotion unnecessary.
+  - >-
+    Renewable energy plants have 30% capacity utilization versus 90% for fossil
+    fuels, require 3 million solar plants for Delhi's needs, and are
+    intermittent without viable storage.
+  - >-
+    Renewables contribute <2% of India's power generation, reliant on Rs
+    5,000-25,000 crore subsidies, grants, and tax breaks.
+  - >-
+    Government mandates for immature renewable tech increase energy prices and
+    opportunity costs, distorting markets and hindering development.
+topics:
+  - energy-policy
+  - renewable-energy
+  - energy-subsidies
+  - government-intervention
 tags:
   - energy crises
   - poverty
   - Government
+source_hash: 31757dca0c2046c197b8d62a4cdb38046c720f0c2ccac8588b6b198de6a4d51f
+summary_hash: 31757dca0c2046c197b8d62a4cdb38046c720f0c2ccac8588b6b198de6a4d51f
+summary_at: '2026-05-05T08:53:04.238Z'
 ---
 **By vidisha**
 

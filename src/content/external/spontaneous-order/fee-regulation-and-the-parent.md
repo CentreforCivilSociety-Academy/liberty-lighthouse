@@ -1,15 +1,54 @@
 ---
 title: Fee Regulation and the Parent
 original_url: 'https://www.spontaneousorder.in/p/fee-regulation-and-the-parent'
+author: Spontaneous Order
 published_at: '2019-05-17T06:15:40.000Z'
 ingested_at: '2026-05-05T08:31:42.487Z'
-source_hash: 469bc87168e9fefdef0903a1782202544ea2a3d864ce3ee938f779435f03263b
-author: Spontaneous Order
 excerpt: >-
   The woes of parents who are striving to give their children quality education
   seem to have no end. Of late many cities across India have seen parents
   protest arbitrary and “unfair” fee hikes by private schools. For instance, in
   Delhi and Mumbai, the f
+summary: >-
+  Fee regulation acts in Indian states like Tamil Nadu, Uttar Pradesh,
+  Uttarakhand, and Assam, which cap annual hikes at under 10% and require
+  committee approval, fail to address parents' protests against 10-40% fee
+  increases in cities like Delhi and Mumbai, as they ignore the root cause:
+  insufficient supply of private schools amid high demand. India has 350,000
+  private unaided schools (24% of total) enrolling 75 million students (38% of
+  all), with enrollment shifting—government schools lost 11.17 million students
+  from 2011-2015 while private gained 16 million—due to better outcomes,
+  accessibility, and aspirations. Regulations under RTE create entry barriers,
+  stifling new 'edupreneurs' and exacerbating costs from taxes, salaries (7th
+  Pay Commission), and compliance. Notably, 80% of private schools are low-fee
+  per ASER 2016, serving disadvantaged families, while complaints target elite
+  urban ones. From a classical-liberal view, over-regulation burdens schools
+  without grants, diverting funds from quality. The solution: relax regulations
+  and taxes to boost supply, foster competition, lower fees, and enhance
+  quality; government should improve its own schools rather than coercing
+  private ones. Parents should demand deregulation for affordable, high-quality
+  education.
+key_points:
+  - >-
+    Fee regulation acts cap hikes at under 10% but fail to solve arbitrary
+    increases due to supply shortages in private schools.
+  - >-
+    Private unaided schools enroll 38% of students, with demand outpacing supply
+    amid rising costs from RTE compliance and 7th Pay Commission salaries.
+  - >-
+    80% of private schools charge low fees compared to government per-pupil
+    spending, serving the disadvantaged.
+  - >-
+    Relax regulations and taxes on private schools to increase entry,
+    competition, and innovation, lowering fees and raising quality.
+  - >-
+    Government should focus on improving public schools instead of burdening
+    private ones with welfare mandates.
+topics:
+  - fee-regulation
+  - private-schools
+  - education-policy
+  - school-choice
 tags:
   - Private schools
   - regulatory barriers
@@ -21,6 +60,9 @@ tags:
   - public scchools
   - fee regulation act
   - Indian Education System
+source_hash: 469bc87168e9fefdef0903a1782202544ea2a3d864ce3ee938f779435f03263b
+summary_hash: 469bc87168e9fefdef0903a1782202544ea2a3d864ce3ee938f779435f03263b
+summary_at: '2026-05-05T09:54:00.470Z'
 ---
 **By Sumbul Mashhadi**
 

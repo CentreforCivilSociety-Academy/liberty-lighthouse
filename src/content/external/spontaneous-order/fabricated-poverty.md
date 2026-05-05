@@ -1,18 +1,60 @@
 ---
 title: Fabricated Poverty
 original_url: 'https://www.spontaneousorder.in/p/fabricated-poverty'
+author: Spontaneous Order
 published_at: '2021-07-09T12:53:49.000Z'
 ingested_at: '2026-05-05T08:31:42.308Z'
-source_hash: 015d561dadc1a9b4452f04e4a1c2b5baa2de3680c4f8fc17975811601658e569
-author: Spontaneous Order
 excerpt: >-
   The Freight Equalisation Policy was meant to be a harbinger of uniform
   industrial growth across a newly independent India. After years of
   deindustrialization and economic exploitation by the British, it sought to
   create uniform industrialization across ..
+summary: >-
+  The Freight Equalisation Policy, implemented in 1952 to promote uniform
+  industrial growth by subsidizing transport costs for key raw materials like
+  coal, steel, iron, and cement, instead undermined the comparative advantages
+  of resource-rich Eastern states such as West Bengal and Bihar. In 1950, these
+  states produced 92% of India's iron and steel and 48% of engineering-related
+  manufacturing output due to proximity to mines. By equalizing freight
+  nationwide without a sunset clause, the policy removed incentives for
+  factories to locate near resources, leading to industrial concentration near
+  markets and ports in Maharashtra, Gujarat, Punjab, and Tamil Nadu. Eastern
+  states effectively subsidized richer regions, fostering a 'resource curse'
+  with persistent poverty, corruption, and underdevelopment. Bihar's GDP per
+  capita stands at $640 (33% of national $1,890 in 2019-20), with 63% literacy;
+  Jharkhand at 66%; West Bengal ranks 24th out of 33 states. Scrapped in 1993,
+  its agglomeration effects endure, as noted in critiques linking it to
+  Naxalism. From a classical-liberal view, well-intentioned centralized
+  intervention distorted markets; uniform development would have fared better
+  without it. Future policy should prioritize decentralization, stakeholder
+  representation, and rigorous effectiveness checks.
+key_points:
+  - >-
+    Freight Equalisation Policy (1952-1993) subsidized raw material transport
+    nationwide, eroding Eastern states' locational advantages and concentrating
+    industry in Western and Southern states.
+  - >-
+    Resource-rich Bihar and West Bengal, once industrial leaders (92% iron/steel
+    in 1950), now suffer resource curse with Bihar's GDP per capita at 33% of
+    national average and lowest literacy rates.
+  - >-
+    Lack of sunset clause and poor monitoring prolonged distortions, with
+    effects persisting post-1993 repeal due to agglomeration externalities.
+  - >-
+    Centralized bureaucratic interventions fail complex markets; advocate
+    decentralized policymaking with stakeholder input and regular effectiveness
+    audits.
+topics:
+  - freight-equalisation
+  - industrial-policy
+  - resource-curse
+  - policy-decentralization
 tags:
   - economic growth
   - Policy
+source_hash: 015d561dadc1a9b4452f04e4a1c2b5baa2de3680c4f8fc17975811601658e569
+summary_hash: 015d561dadc1a9b4452f04e4a1c2b5baa2de3680c4f8fc17975811601658e569
+summary_at: '2026-05-05T09:51:21.032Z'
 ---
 **By Revant Khullar**
 

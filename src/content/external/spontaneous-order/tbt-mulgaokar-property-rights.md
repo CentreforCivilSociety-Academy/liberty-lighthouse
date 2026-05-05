@@ -3,15 +3,57 @@ title: >-
   #ThrowbackThursday: A G Mulgaokar — Is Right to Property not Fundamental?
   (1969)
 original_url: 'https://www.spontaneousorder.in/p/tbt-mulgaokar-property-rights'
+author: Spontaneous Order
 published_at: '2015-04-23T17:15:18.000Z'
 ingested_at: '2026-05-05T08:31:42.582Z'
-source_hash: 2d5ca429260758c4271120586be38240ee809bc9c63be9d405828e51f32beb3a
-author: Spontaneous Order
 excerpt: >-
   This article appeared in a publication of ‘Forum of Free Enterprise.’
   Originally written in 1969, it was authored by A G Mulgaokar—an advocate and
   authority on constitutional law. At the time, the Right to Property was a
   Fundamental Right in the con
+summary: >-
+  A.G. Mulgaokar's 1969 article, republished by Spontaneous Order, argues from a
+  classical-liberal standpoint that the Right to Property, enshrined as a
+  Fundamental Right in India's Constitution, is being unconstitutionally
+  undermined by parliamentary amendments, rendering all fundamental rights
+  precarious. He contends that true fundamental rights must be inherent and
+  unalterable, not subject to ordinary legislative whims, as they encompass
+  personal freedom, speech, profession, and property acquisition. Morally,
+  property rights align with the human instinct for self-preservation, evident
+  even in children clinging to toys or adults saving for dependents; violating
+  this leads to evasion, as seen in prohibition's failures, and even the USSR
+  Constitution recognizes it. Economically, individual savings via property
+  bolster national wealth; eroding these rights risks dislocation akin to
+  historical calamities like the Delhi-to-Daulatabad forced migration. Legally,
+  a recent Supreme Court decision holds that Parliament lacks power under
+  Articles 368, 245, and 13(2) to amend the Constitution in ways abridging
+  fundamental rights, as amendments are 'law' subject to invalidation. Mulgaokar
+  invokes British precedent—Asquith's 1910 elections on constitutional
+  changes—to insist President Giri withhold assent without a fresh electoral
+  mandate, affirming property rights' enduring relevance amid today's land
+  acquisition debates focused narrowly on compensation rather than rights
+  affirmation.
+key_points:
+  - >-
+    Fundamental rights like property cannot be abridged by ordinary legislation
+    or amendments without undermining their inherent nature.
+  - >-
+    Eroding property rights contradicts human self-preservation instincts,
+    leading to legal evasions and economic dislocation.
+  - >-
+    Supreme Court ruled that constitutional amendments abridging fundamental
+    rights are invalid under Article 13(2).
+  - >-
+    Major constitutional changes require explicit electoral mandates, as per
+    British parliamentary democracy precedents.
+  - >-
+    Strengthening property rights is essential for individual savings, national
+    wealth, and social stability.
+topics:
+  - property-rights
+  - fundamental-rights
+  - indian-constitution
+  - constitutional-amendments
 tags:
   - Land Acquisition
   - Libertarian Scholars
@@ -19,6 +61,9 @@ tags:
   - Property rights
   - AG Mulgaokar
   - Fundamental Rights
+source_hash: 2d5ca429260758c4271120586be38240ee809bc9c63be9d405828e51f32beb3a
+summary_hash: 2d5ca429260758c4271120586be38240ee809bc9c63be9d405828e51f32beb3a
+summary_at: '2026-05-05T12:16:33.257Z'
 ---
 **By Ujwal Batra**
 

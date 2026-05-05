@@ -2,15 +2,58 @@
 title: 'Indian libertarians must talk to the Elephant, not the Rider'
 original_url: >-
   https://www.spontaneousorder.in/p/indian-libertarians-must-talk-to-the-elephant-not-the-rider
+author: Spontaneous Order
 published_at: '2026-02-04T12:07:56.000Z'
 ingested_at: '2026-05-05T08:31:42.218Z'
-source_hash: 84b2089b52632b530392c1b675bb6876507ef2fefa0b66f6de8ca41fa4a6d259
-author: Spontaneous Order
 excerpt: >-
   Indian libertarians have been losing the war of ideas. Is this because
   libertarianism is a weak philosophy? I think not. In fact, libertarianism is
   very coherent as a philosophy, unlike its three cousins: the closest one
   liberalism, the farthest communi..
+summary: >-
+  Indian libertarians are losing the war of ideas not because libertarian
+  philosophy is weak—its coherence stems from commitments to individual moral
+  primacy, non-coercion, and private property—but because they over-rely on
+  consequentialist arguments that emphasize economic outcomes like poverty
+  reduction through markets. These rational appeals target the 'rider'
+  (reasoning) in Jonathan Haidt's metaphor from 'The Righteous Mind,' ignoring
+  the 'elephant' (intuitions) that truly drives moral judgments. In contrast,
+  Marxism succeeds with intuitive theories of history, power, and exploitation
+  addressing unemployment, inequality, and caste; BJP conservatism offers
+  stories of civilizational decay and belonging. Libertarian arguments appear as
+  mere technical preferences like tax cuts and deregulation, lacking explanatory
+  power for existential concerns. To win, Indian libertarians must shift to
+  natural rights frameworks, portraying liberty as a baseline moral entitlement
+  and coercion as inherent wrong and moral injury—e.g., Dalit entrepreneurs
+  needing permissions as violations of dignity, not just inefficiency. This
+  intuitive language resonates more. The path forward: develop Indian
+  libertarian scholarship in philosophy and political thought to make ideas
+  intelligible to everyday moral experiences, speaking to the elephant to escape
+  fringe irrelevance.
+key_points:
+  - >-
+    Indian libertarianism fails politically by over-relying on consequentialist
+    economic arguments that appeal only to reason (the rider), not intuitions
+    (the elephant).
+  - >-
+    Marxism and conservatism resonate intuitively with theories of exploitation,
+    power, history, and civilizational belonging, unlike libertarian technical
+    preferences.
+  - >-
+    Adopt natural rights frameworks to frame coercion as moral injury and
+    violation of dignity, applicable to issues like caste-based regulatory
+    hurdles for Dalit entrepreneurs.
+  - >-
+    Develop Indian libertarian scholarship in philosophy and political thought
+    to make ideas accessible to everyday moral intuitions.
+topics:
+  - indian-libertarianism
+  - consequentialism
+  - natural-rights
+  - moral-intuitions
+source_hash: 84b2089b52632b530392c1b675bb6876507ef2fefa0b66f6de8ca41fa4a6d259
+summary_hash: 84b2089b52632b530392c1b675bb6876507ef2fefa0b66f6de8ca41fa4a6d259
+summary_at: '2026-05-05T10:21:48.846Z'
 ---
 **By Anshu Chowdhury**
 

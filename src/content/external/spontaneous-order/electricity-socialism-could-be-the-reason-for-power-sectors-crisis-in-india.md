@@ -2,20 +2,62 @@
 title: Electricity socialism could be the reason for power sector’s crisis in India
 original_url: >-
   https://www.spontaneousorder.in/p/electricity-socialism-could-be-the-reason-for-power-sectors-crisis-in-india
+author: Spontaneous Order
 published_at: '2021-11-15T15:45:08.000Z'
 ingested_at: '2026-05-05T08:31:42.285Z'
-source_hash: c9ea14fc899b9f9ded8f2502ba1846f827bfa62c541af16dec4c4a217f49e717
-author: Spontaneous Order
 excerpt: >-
   The power sector plays a crucial role in economic growth in a developing
   country like India. India’s ever-increasing demand for electricity is an
   indicator of growing market size and rising ambitions. Hence, government
   policies in this field have a larg
+summary: >-
+  India's power sector crisis, exemplified by recent coal shortages at thermal
+  plants supplying over 60% of energy needs, stems from 'electricity
+  socialism'—artificially low tariffs imposed by state governments to shield
+  consumers, especially agriculture, from market prices. This triggers a vicious
+  cycle: loss-making state-run Discoms default on payments to GENCOs, which then
+  delay dues to Coal India Limited (CIL) serving 130+ plants, crippling coal
+  replenishment. Subsidy reimbursements are chronically delayed, exacerbating
+  liquidity crunches and underinvestment in infrastructure. Schemes like UDAY,
+  which took over 75% of Discom debts, failed spectacularly, with debts
+  ballooning from Rs 4 lakh crores pre-2016 to Rs 6 lakh crores in FY2022, all
+  funded by taxpayers. From a classical-liberal lens, these interventions
+  distort markets, harm industries reliant on reliable power—like cement, steel
+  with captive plants, semiconductors deterred despite incentives, and future EV
+  infrastructure—stifling GDP growth and jobs. Low tariffs and cross-subsidies
+  protect no one, imposing unseen costs on MSMEs and non-subsidized users via
+  diesel generators. The author urges policymakers to analyze unintended
+  consequences and pursue operational and structural reforms for sustainable
+  benefits.
+key_points:
+  - >-
+    Artificially low tariffs by state-run Discoms create losses, leading to
+    payment defaults up the chain to GENCOs and CIL.
+  - >-
+    UDAY scheme failed to fix Discoms, with debts rising from Rs 4 lakh crores
+    in 2016 to Rs 6 lakh crores in FY2022.
+  - >-
+    Delayed subsidy reimbursements cause liquidity issues, underinvestment, and
+    unreliable supply, forcing industries to build captive plants.
+  - >-
+    Unreliable power deters investments in semiconductors and EV infrastructure,
+    harming economic growth and jobs.
+  - >-
+    Policymakers must conduct impact analysis of subsidies and tariffs to design
+    effective structural reforms.
+topics:
+  - power-sector
+  - electricity-subsidies
+  - discom-reforms
+  - state-owned-enterprises
 tags:
   - subsidies
   - power sector
   - coal shortage
   - electricity
+source_hash: c9ea14fc899b9f9ded8f2502ba1846f827bfa62c541af16dec4c4a217f49e717
+summary_hash: c9ea14fc899b9f9ded8f2502ba1846f827bfa62c541af16dec4c4a217f49e717
+summary_at: '2026-05-05T09:46:54.344Z'
 ---
 **By Manasa Pidatala**
 

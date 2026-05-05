@@ -2,18 +2,58 @@
 title: 'From solid fuel to LPG: The way forward for Pradhanmantri Ujjawala Yojana'
 original_url: >-
   https://www.spontaneousorder.in/p/from-solid-fuel-to-lpg-the-way-forward-for-pradhanmantri-ujjawala-yojana
+author: Spontaneous Order
 published_at: '2021-03-12T13:04:16.000Z'
 ingested_at: '2026-05-05T08:31:42.340Z'
-source_hash: aa88ad407300d0a151a125279b52080b7659c6ae5f3e19a44d5bd5f0364bc1ee
-author: Spontaneous Order
 excerpt: >-
   India is a fast-growing economy and with rapid economic growth, its energy
   consumption is expected to increase in the next decade. Primary energy
   consumption has nearly tripled since liberalization, reaching an estimated 916
   million tons of oil equivale..
+summary: >-
+  India's primary energy consumption has tripled since liberalization to 916
+  million tons of oil equivalent, yet 660 million people, especially in rural
+  areas, have not fully switched to clean cooking fuels despite Pradhan Mantri
+  Ujjwala Yojana (PMUY) providing over 80 million LPG connections to poor
+  households since 2016. Low utilization persists due to high refill costs (Rs
+  800-1000 per 14.2 kg cylinder against rural per capita expenditure of Rs
+  1287), cultural preferences (92% prefer chulha taste, 86% deem it healthier),
+  male financial decision-making sidelining women's health concerns from smoke,
+  behavioral resistance, and seasonal cash crunches. COVID halved LPG subsidies
+  to Rs 124.8 billion for FY2022, spiking prices and reverting users to solid
+  fuels. From a classical-liberal lens invoking public choice theory—'people
+  respond to incentives'—the author advocates targeted incentives over blanket
+  subsidies: summer vouchers, cash transfers to ASHA workers, extra rural
+  employment days or reduced health premiums for refill users, performance
+  incentives for distributors, and annual direct transfers to women. Subsidies
+  should be time-bound to curb fiscal costs, with NGOs aiding health messaging
+  to tackle gender inequality and indoor pollution. Sustained transition to LPG
+  is vital for India's economic ascent.
+key_points:
+  - >-
+    PMUY delivered 80 million LPG connections but utilization lags due to refill
+    costs exceeding rural affordability and cultural attachment to chulhas.
+  - >-
+    Rural LPG refills drop in summer from cash shortages, exacerbated by halved
+    subsidies post-COVID.
+  - >-
+    Incentivize sustained use via summer vouchers, ASHA worker payments,
+    employment bonuses, and distributor rewards per public choice principles.
+  - >-
+    Limit subsidies to a fixed period, use direct cash to women refilling
+    cylinders, and leverage NGOs for health campaigns addressing gender
+    dynamics.
+topics:
+  - cooking-fuel-subsidies
+  - energy-access
+  - public-choice
+  - rural-health
 tags:
   - policymaking
   - Rural Policy
+source_hash: aa88ad407300d0a151a125279b52080b7659c6ae5f3e19a44d5bd5f0364bc1ee
+summary_hash: aa88ad407300d0a151a125279b52080b7659c6ae5f3e19a44d5bd5f0364bc1ee
+summary_at: '2026-05-05T10:00:33.366Z'
 ---
 **By Prabhash Sinha**
 

@@ -1,19 +1,61 @@
 ---
 title: India’s Drone Policies and the Way Ahead
 original_url: 'https://www.spontaneousorder.in/p/indias-drone-policies-and-the-way-ahead'
+author: Spontaneous Order
 published_at: '2021-10-01T14:38:20.000Z'
 ingested_at: '2026-05-05T08:31:42.290Z'
-source_hash: c0095e0f30922b16b97f3aeebd4d929a01f67643f2a01b46d7c621982b230d8b
-author: Spontaneous Order
 excerpt: >-
   Drones are creating headlines in the technology and aviation industry of India
   right now. The Ministry of Civil Aviation has released Drone Rules, 2021.
   These are more liberalised rules when compared to previous drone policies in
   the country. The sector..
+summary: >-
+  India's new Drone Rules, 2021, represent a liberal shift from decades of
+  restrictive policies, easing drone ownership and operations to spur rapid
+  sector growth amid rising commercial and defense demands. The Union Cabinet
+  approved a ₹120 crore Production-Linked Incentive (PLI) scheme over three
+  years, offering a constant 20% incentive on value addition—computed as annual
+  sales revenue minus purchase costs (net of GST)—for manufacturers of drones,
+  components, and related IT products, an exception to typical declining PLI
+  rates. Preceding this, initiatives like ICMR's beyond-visual-line-of-sight
+  (BVLoS) drone deliveries of COVID-19 vaccines up to 3,000 meters in Andaman &
+  Nicobar, Nagaland, and Manipur, and Telangana's 'Medicine from the Sky'
+  project underscore practical applications. However, escalating security
+  threats, exemplified by the drone attack on Jammu airbase, highlight
+  vulnerabilities along borders, prompting development of indigenous Counter
+  Unmanned Aircraft Systems (CUAS) with soft-kill jamming and hard-kill
+  capabilities via contracts by Army, Navy, and Air Force. Zoned operations aim
+  to mitigate airport and security risks, but the author urges close monitoring
+  to balance commercial, leisure, and security drone uses, positioning India's
+  liberalization against global scrutiny amid drone warfare risks.
+key_points:
+  - >-
+    Drone Rules 2021 liberalize ownership and operations compared to prior
+    restrictive policies.
+  - >-
+    PLI scheme provides 20% incentives on value addition for drone manufacturers
+    over three years with ₹120 crore allocation.
+  - >-
+    BVLoS drone trials deliver vaccines and medicines in remote areas like
+    Andaman & Nicobar and Telangana.
+  - >-
+    Rising drone threats, like Jammu airbase attack, drive indigenous CUAS
+    development with soft and hard kill options.
+  - >-
+    Zoned guidelines and policy balance needed for commercial, leisure, and
+    security drone uses.
+topics:
+  - drone-regulation
+  - pli-scheme
+  - national-security
+  - aviation-policy
 tags:
   - drones
   - science
   - technology
+source_hash: c0095e0f30922b16b97f3aeebd4d929a01f67643f2a01b46d7c621982b230d8b
+summary_hash: c0095e0f30922b16b97f3aeebd4d929a01f67643f2a01b46d7c621982b230d8b
+summary_at: '2026-05-05T10:22:20.957Z'
 ---
 **By Bhavya Mehta**
 

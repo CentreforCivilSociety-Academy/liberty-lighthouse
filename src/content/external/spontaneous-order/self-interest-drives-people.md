@@ -1,20 +1,62 @@
 ---
 title: Self-Interest drives People
 original_url: 'https://www.spontaneousorder.in/p/self-interest-drives-people'
+author: Spontaneous Order
 published_at: '2021-10-11T11:08:14.000Z'
 ingested_at: '2026-05-05T08:31:42.289Z'
-source_hash: 6fd8a853e87bf19e987ff5edfd5171455502efd1f103d3944a6c9ca3e17fe306
-author: Spontaneous Order
 excerpt: >-
   Many people assume that people work for the greater glory of the common good.
   And, therefore, politicians will work for the benefit of society. Businessmen
   will work for the benefit of society. Citizens will agitate for the general
   public interest. And ..
+summary: >-
+  Luis Miranda argues from a classical-liberal perspective that self-interest,
+  not altruism, drives human behavior in politics, business, and society, as
+  illuminated by Eamonn Butler's 'Public Choice – A Primer' (free PDF from IEA
+  and CCS). Politicians seek re-election, bureaucrats larger budgets,
+  businessmen profits, consumers low prices, and citizens free goods; ignoring
+  these incentives leads to policy failures. Triggered by discussions on wealth
+  advisors prioritizing commissions over client interests, Miranda applies
+  public choice to explain opposition to India's 2020 farm laws: despite broad
+  farmer support and prior bipartisan work, a vocal minority—opposition
+  politicians denying credit and Punjab middlemen protecting easy
+  income—protested. Government mishandling of parliamentary conventions
+  contributed to repeal. No unified 'public interest' exists; farmer leaders
+  like Sharad Joshi advocated pricing freedom, while Amar Habib's 2018 booklet
+  'Anti-Farmer Laws' critiqued acts like Agricultural Land Ceiling, Essential
+  Commodities, and Land Acquisition for failing distressed farmers (e.g.,
+  suicides). Public choice highlights vote banks and focused interest groups'
+  influence. Miranda urges designing policies that align with self-interests to
+  mitigate government and market failures.
+key_points:
+  - >-
+    Design policies accounting for self-interests of politicians, bureaucrats,
+    businesses, and citizens to avoid failures.
+  - >-
+    Wealth advisors generally prioritize commissions over client interests, as
+    expected under public choice theory.
+  - >-
+    Opposition to 2020 farm laws stemmed from self-interested minorities like
+    Punjab middlemen and rival politicians, despite majority farmer support.
+  - >-
+    No single public interest exists; farmer advocates like Sharad Joshi and
+    Amar Habib criticized restrictive laws for harming producers.
+  - >-
+    Study public choice to understand vote banks and interest groups' outsized
+    political influence.
+topics:
+  - public-choice
+  - self-interest
+  - farm-laws
+  - policy-design
 tags:
   - Public Policy
   - Public Choice
   - Incentives
   - Opinion
+source_hash: 6fd8a853e87bf19e987ff5edfd5171455502efd1f103d3944a6c9ca3e17fe306
+summary_hash: 6fd8a853e87bf19e987ff5edfd5171455502efd1f103d3944a6c9ca3e17fe306
+summary_at: '2026-05-05T11:37:03.767Z'
 ---
 **By Luis Miranda**
 

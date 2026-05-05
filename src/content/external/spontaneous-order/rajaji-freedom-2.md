@@ -1,15 +1,56 @@
 ---
 title: 'Have we Lost the Will to be Free? (C Rajagopalachari, 1965)'
 original_url: 'https://www.spontaneousorder.in/p/rajaji-freedom-2'
+author: Spontaneous Order
 published_at: '2016-03-17T18:26:21.000Z'
 ingested_at: '2026-05-05T08:31:42.557Z'
-source_hash: 5f341e23ab85d28964ec8119a52b40cd1a17c47687d3177f726c70cc99b13e21
-author: Spontaneous Order
 excerpt: >-
   Written in 1965, the present piece contains Rajaji’s reflections on liberty,
   and whether we had come to take our freedom for granted after securing
   independence in 1947. This piece has been taken from the Swatantra Souvenir: a
   collection of Rajaji’s s
+summary: >-
+  In this 1965 reflection, C. Rajagopalachari (Rajaji) argues that while India
+  gained political independence in 1947, its citizens have lost the will to be
+  free, allowing a socialist government to usurp longstanding economic freedoms
+  without resistance. Drawing on Benjamin Franklin's post-Philadelphia
+  Convention remark—'a republic, if you can keep it'—Rajaji contends that
+  freedom rests not on constitutions but on an inner 'burning and alive' will to
+  liberty, echoing an American judge's view that no law can save it otherwise.
+  He puzzles over Congress Party victories in by-elections despite evident
+  public dissatisfaction at large meetings, attributing this to a 'slave
+  mentality' Gandhi fought, which manifested as mere anti-British sentiment
+  rather than positive love of freedom. Socialist controls on production and
+  prices ultimately control persons, disrespecting human personality and
+  fostering governmental hunger for slaves, leading to acceptance of unhappiness
+  and dependence. Rajaji warns that India risks a sub-human state of preferring
+  bondage to freedom's responsibilities but holds hope: the Swatantra Party,
+  like Gandhi's 1920 Swaraj movement sparked atop the Khilafat agitation, can
+  lead liberation from the 'permit-licence-raj' through a few dedicated
+  individuals.
+key_points:
+  - >-
+    India's post-1947 socialist government eroded economic freedoms, met with
+    little resistance due to weakened will to liberty after centuries of foreign
+    rule.
+  - >-
+    Congress wins by-elections despite public disapproval because voters lack
+    the will to be free, exhibiting a 'slave mentality' Gandhi identified.
+  - >-
+    Economic controls under socialism dictate personal actions, robbing
+    individuals of freedom and developing state authoritarianism.
+  - >-
+    Reviving the inner will to freedom is essential to escape state-socialist
+    entanglements, more vital than recognizing socialism's economic
+    irrationality.
+  - >-
+    Swatantra Party can liberate India from permit-licence-raj, akin to Gandhi's
+    unexpected 1920 Swaraj success.
+topics:
+  - economic-freedom
+  - anti-socialism
+  - swatantra-party
+  - will-to-liberty
 tags:
   - Indian Liberals. Libertarian Scholars
   - Liberty
@@ -17,6 +58,9 @@ tags:
   - Freedom
   - economic liberty
   - IndianLiberals.in
+source_hash: 5f341e23ab85d28964ec8119a52b40cd1a17c47687d3177f726c70cc99b13e21
+summary_hash: 5f341e23ab85d28964ec8119a52b40cd1a17c47687d3177f726c70cc99b13e21
+summary_at: '2026-05-05T11:22:03.862Z'
 ---
 **By Ujwal Batra**
 

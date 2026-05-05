@@ -1,18 +1,60 @@
 ---
 title: Propaganda as a Political Tool
 original_url: 'https://www.spontaneousorder.in/p/propaganda-as-a-political-tool'
+author: Spontaneous Order
 published_at: '2025-08-18T13:15:11.000Z'
 ingested_at: '2026-05-05T08:31:42.225Z'
-source_hash: 1b7138bebeab3efe25a38ffb663f85c17a2accd861f2e3f8bd806e4a217b0b84
-author: Spontaneous Order
 excerpt: >-
   In his commentary on the work of famous British novelist Charles Dickens,
   George Orwell remarked, “All art is propaganda, on the other hand, not all
   propaganda is art”. The larger point he sought to convey was that every
   creator is driven by a set of
+summary: >-
+  George Orwell noted that all art is propaganda, but not vice versa, embedding
+  creators' beliefs; state propaganda, however, transcends personal views to
+  promote political legitimacy. Distinct from advertisements—which inform
+  choices despite commercial motives—propaganda is biased or false, limiting
+  informed judgments, as argued by economists Christopher Coyne and Abigail Hall
+  in 'Manufacturing Militarism.' Public Choice theory explains politicians'
+  re-election incentives, using propaganda to legitimize interest group demands
+  despite broad costs. Four types include appeals to authority, patriotism, 'us
+  vs them,' and emotional slogans. Indian films exemplify this: 'Uri' (2019)
+  glorifies surgical strikes with PM praise and slogan 'Yeh naya Hindustan hai,
+  yeh ghar mein ghusega bhi, aur marega bhi!'; 'Tejas' (2023), screened at Lok
+  Bhawan, hypes indigenous aircraft ignoring 40-year delays and bureaucratic
+  issues, plus Ram Mandir plot pre-2024 elections. Older cases like 'Haqeeqat'
+  (1964) soothed 1962 war losses and 'Upkar' (1967) echoed 'Jai Jawan, Jai
+  Kisan.' Governments incentivize via tax breaks in risky industry. From a
+  classical-liberal lens, cinema propaganda is a low-cost tool bypassing
+  democratic accountability, imposing costs on uninformed electorates.
+key_points:
+  - >-
+    Propaganda in state-promoted movies is biased or false, unlike ads that
+    enhance consumer choices, limiting public informed judgment.
+  - >-
+    Politicians use propaganda to gain legitimacy for interest group policies,
+    per Public Choice theory and Coyne-Hall analysis.
+  - >-
+    Indian films like 'Uri' (2019) and 'Tejas' (2023) employ authority appeals,
+    'us vs them' narratives, and slogans to glorify state actions, ignoring
+    realities like 40-year aircraft delays.
+  - >-
+    Governments expedite such films via tax breaks, continuing a trend from
+    1960s movies like 'Haqeeqat' and 'Upkar.'
+  - >-
+    Cinema propaganda bypasses accountability, harming electorates with low-cost
+    legitimacy for politicians.
+topics:
+  - propaganda
+  - indian-cinema
+  - state-legitimacy
+  - public-choice-theory
 tags:
   - propoganda
   - Democracy
+source_hash: 1b7138bebeab3efe25a38ffb663f85c17a2accd861f2e3f8bd806e4a217b0b84
+summary_hash: 1b7138bebeab3efe25a38ffb663f85c17a2accd861f2e3f8bd806e4a217b0b84
+summary_at: '2026-05-05T11:19:43.879Z'
 ---
 **By Anshu Chowdhury**
 

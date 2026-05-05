@@ -2,15 +2,53 @@
 title: 'Uttarakhand Floods – The Role of State in Rescue, Relief and Rehabilitation'
 original_url: >-
   https://www.spontaneousorder.in/p/uttarakhand-floods-the-role-of-state-in-rescue-relief-and-rehabilitation
+author: Spontaneous Order
 published_at: '2013-07-08T13:41:30.000Z'
 ingested_at: '2026-05-05T08:31:42.602Z'
-source_hash: 7accfb6552e097ad919304804ca62d4f50089d006a9496288807ec74e754bc11
-author: Spontaneous Order
 excerpt: >-
   (Image courtesy: ibnlive.in.com) Rescue, relief and rehabilitation of those
   affected by the Uttarakhand flash floods is still in progress. While the
   efforts of state government have been criticised, efforts of armed forces have
   been lauded by various ob..
+summary: >-
+  In the Uttarakhand flash floods, armed forces have been praised for mobilizing
+  hundreds of helicopters and tens of thousands of trained professionals for
+  rescue and relief, while state government efforts faced criticism. The author
+  argues that centralized government agencies like India's National Disaster
+  Management Authority (NDMA) are ill-suited for effective disaster response due
+  to three key problems identified by Russell Sobel and Peter Leeson in their
+  Cato Institute analysis: bureaucracy causing delays, coordination failures
+  from top-down decision-making, and adverse incentives. Drawing on Friedrich
+  Hayek's 'The Use of Knowledge in Society,' the post emphasizes the knowledge
+  problem—dispersed local knowledge cannot be centrally aggregated,
+  necessitating decentralization where ground-level actors have authority to
+  deploy resources. While governments possess vast resources, they should
+  empower local implementers rather than direct from above. The author
+  highlights voluntary private efforts, such as ragpickers donating Rs 20,000
+  and community feeding initiatives, and urges governments not to obstruct them.
+  Conclusion: Decentralized approaches, informed by Hayekian insights, are
+  preferable for rescue, relief, and rehabilitation, with further exploration of
+  market and non-profit roles needed.
+key_points:
+  - >-
+    Centralized disaster agencies suffer from bureaucratic delays, coordination
+    failures due to top-down decisions, and adverse incentives, as per Sobel and
+    Leeson's Cato analysis.
+  - >-
+    Hayek's knowledge problem requires decentralizing authority to local actors
+    who possess dispersed information on relief needs and resources.
+  - >-
+    Armed forces excelled in Uttarakhand by rapidly deploying massive resources,
+    but more ground-level decision-making is needed.
+  - >-
+    Governments should avoid hindering private voluntary and community-based
+    relief efforts, as seen in donations and grassroots support during the
+    floods.
+topics:
+  - disaster-relief
+  - decentralization
+  - knowledge-problem
+  - government-failure
 tags:
   - Uttarakhand Floods
   - response
@@ -20,6 +58,9 @@ tags:
   - Disaster Management
   - National Disaster Management Authority
   - non-profits
+source_hash: 7accfb6552e097ad919304804ca62d4f50089d006a9496288807ec74e754bc11
+summary_hash: 7accfb6552e097ad919304804ca62d4f50089d006a9496288807ec74e754bc11
+summary_at: '2026-05-05T12:51:59.678Z'
 ---
 **By Kumar Anand**
 

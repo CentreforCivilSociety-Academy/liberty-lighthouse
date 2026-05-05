@@ -2,15 +2,60 @@
 title: A Critical Insight into the Right to Education Act
 original_url: >-
   https://www.spontaneousorder.in/p/a-critical-insight-into-the-right-to-education-act
+author: Spontaneous Order
 published_at: '2023-02-09T14:36:21.000Z'
 ingested_at: '2026-05-05T08:31:42.246Z'
-source_hash: 25c338362c47592335b32f9ebb8781c2ea49f0e528d49581a44a38a967e81c7f
-author: Spontaneous Order
 excerpt: >-
   The 86th Constitutional Amendment Act, 2002 introduced Article 21A, which
   provides ‘free and compulsory education to all children of the age of six to
   fourteen years in such manner as the State may, by law, determine’.
   Thereafter, the Parliament enact
+summary: >-
+  The Right to Education (RTE) Act, enacted in 2009 to implement Article 21A's
+  mandate for free and compulsory education for children aged 6-14, imposes
+  input-focused norms like infrastructure and pupil-teacher ratios that
+  disproportionately penalize private schools—potentially leading to
+  derecognition—while lacking clarity on applying them to government schools,
+  undermining educational equality and disincentivizing private sector
+  participation. This has caused closures of low-budget private schools offering
+  affordable quality education, limiting options for underprivileged children
+  and forcing reliance on underperforming government schools. The Act's neglect
+  of learning outcomes, only partially addressed in 2017 amendments, contributes
+  to over five crore elementary students lacking foundational literacy and
+  numeracy (FLN), as per Draft NEP 2019. The 25% reservation in private unaided
+  schools faces issues like discrimination, admission denials, and reimbursement
+  delays from governments. Additional flaws include no accountability for
+  teachers/administrators and top-down funding leaving School Management
+  Committees (SMCs) with minimal control (e.g., 2% of SSA budget in 2012-13).
+  From a classical-liberal perspective, the Act requires reforms prioritizing
+  uniform accountability across schools, outcome orientation (e.g., Gujarat RTE
+  Rules' weighted metrics), financial/academic decentralization (e.g., Delhi's
+  Rs 5 lakh SMC fund), and stakeholder engagement to enhance competition,
+  choice, and quality.
+key_points:
+  - >-
+    Apply RTE infrastructure norms uniformly to private and government schools
+    to promote equality and private sector viability.
+  - >-
+    Shift emphasis from inputs to learning outcomes, adopting models like
+    Gujarat RTE Rules that weight outcomes at 70%.
+  - >-
+    Streamline 25% reservation reimbursements via integrated public finance
+    systems and enforce anti-discrimination measures.
+  - >-
+    Mandate teacher and administrator accountability through professional
+    regulatory bodies.
+  - >-
+    Empower SMCs with financial autonomy, as in Delhi's model providing at least
+    Rs 5 lakh per school shift annually.
+topics:
+  - rte-act
+  - education-policy
+  - private-schools
+  - school-accountability
+source_hash: 25c338362c47592335b32f9ebb8781c2ea49f0e528d49581a44a38a967e81c7f
+summary_hash: 25c338362c47592335b32f9ebb8781c2ea49f0e528d49581a44a38a967e81c7f
+summary_at: '2026-05-05T08:48:03.100Z'
 ---
 **By Supriya Lakhtakia**
 

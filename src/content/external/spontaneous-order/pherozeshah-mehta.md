@@ -1,20 +1,62 @@
 ---
 title: The Moderate Liberalism of “Ferocious Mehta”
 original_url: 'https://www.spontaneousorder.in/p/pherozeshah-mehta'
+author: Spontaneous Order
 published_at: '2019-08-04T16:01:47.000Z'
 ingested_at: '2026-05-05T08:31:42.477Z'
-source_hash: 4db588aa66183883d372cdf4d831e64c5decc0591d92c4d2f528872ddb3f338c
-author: Spontaneous Order
 excerpt: >-
   “The microscopic minority can far better and far more intuitively represent
   the needs and aspirations of their own countrymen than still more microscopic
   minority of the omniscient district officers.”
+summary: >-
+  Sanjeet Kashyap argues that Sir Pherozeshah Mehta, a Bombay-based moderate
+  liberal, deserves greater recognition for embodying classical-liberal
+  principles in Indian nationalism, particularly through his advocacy for local
+  self-governance, which has been overshadowed by radical extremists like Tilak
+  and Gandhi's mass subaltern politics. Born into a Parsi merchant family, Mehta
+  studied law in London (1865-68), where he engaged with Dadabhai Naoroji's East
+  India Association and Gladstonian liberalism, forging connections with figures
+  like Badruddin Tyabji. As a founder of the Indian National Congress in 1885,
+  Mehta championed native Indian interests in legislative councils, opposing the
+  Arms Act, Vernacular Press Act, and Curzon's university controls while
+  supporting the Ilbert Bill. Dubbed the 'Father of Municipal Government in
+  Bombay,' he proposed a representative body leading to the 1872 Bombay
+  Municipal Act, served as municipal commissioner (1873) and chairman (1884-85,
+  1905), and invoked John Stuart Mill and Herbert Spencer for decentralization
+  and checks on local bodies. Defending INC against 'microscopic minority'
+  charges, Mehta's 'plea-prayer-petition' constitutionalism represented a
+  liberal space now heirless in India.
+key_points:
+  - >-
+    Sir Pherozeshah Mehta, influenced by London liberalism, co-founded the
+    Indian National Congress in 1885 and defended it as better representing
+    Indian aspirations than British officials.
+  - >-
+    Mehta drove Bombay's municipal reforms, proposing a representative body
+    enacted in the 1872 Bombay Municipal Act and serving as commissioner (1873)
+    and chairman (1884-85, 1905).
+  - >-
+    In legislative councils, Mehta opposed repressive laws like the Arms Act and
+    Vernacular Press Act, supported the Ilbert Bill, and cited Mill and Spencer
+    for decentralizing authority.
+  - >-
+    Mehta's moderate liberal focus on local self-governance was eclipsed by
+    Tilak's extremism and Gandhi's mass movements, leaving Indian liberalism
+    without a strong constituency.
+topics:
+  - classical-liberalism
+  - indian-nationalism
+  - local-self-governance
+  - municipal-reform
 tags:
   - Indian Liberalism
   - Pherozeshah Mehta
   - Bombay
   - Indian Liberal Tradition
   - Indian liberals
+source_hash: 4db588aa66183883d372cdf4d831e64c5decc0591d92c4d2f528872ddb3f338c
+summary_hash: 4db588aa66183883d372cdf4d831e64c5decc0591d92c4d2f528872ddb3f338c
+summary_at: '2026-05-05T11:13:21.583Z'
 ---
 **By Sanjeet Kashyap**
 

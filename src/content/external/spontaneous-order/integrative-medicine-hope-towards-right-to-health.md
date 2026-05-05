@@ -2,18 +2,56 @@
 title: Integrative Medicine – Hope towards Right to Health
 original_url: >-
   https://www.spontaneousorder.in/p/integrative-medicine-hope-towards-right-to-health
+author: Spontaneous Order
 published_at: '2022-10-28T16:34:25.000Z'
 ingested_at: '2026-05-05T08:31:42.258Z'
-source_hash: f08827a31b8f6f2dcf719c7bd81c26b63c1bd2d16334962588180ce973e838bf
-author: Spontaneous Order
 excerpt: >-
   The Covid-19 pandemic has put the healthcare system to the test by exposing
   its inadequacies. However, it has also provided a chance to build strong
   health systems. One can enhance the health system by merging resources from
   several medical systems for ..
+summary: >-
+  The Covid-19 pandemic exposed India's healthcare inadequacies but offers an
+  opportunity to integrate AYUSH systems (Ayurveda, Yoga, Naturopathy, Unani,
+  Siddha, Homeopathy) with allopathic medicine for a stronger system, as
+  proposed by a Kochi conference advocating a national AYUSH grid for scientific
+  data and accountability. India's doctor-population ratio of 1:1456 falls short
+  of WHO's 1:1000, but including 5.65 lakh AYUSH practitioners alongside
+  allopathic doctors improves it to 1:854, enabling medical pluralism. States
+  deployed AYUSH personnel for Covid-19 duties in care and vaccination centers.
+  Supported by the 2017 National Health Policy, WHO's traditional medicine
+  reports, and bodies like the Central Council for Research in Ayurvedic
+  Sciences paralleling ICMR, integration fosters knowledge sharing. Modern
+  medicine excels in emergencies, infections, and surgery, while Ayurveda
+  emphasizes holistic mind-body treatment via yoga, dietetics, and regimens. The
+  National Medical Commission Act allows bridge courses for AYUSH practitioners
+  as mid-level providers. Preserving each system's uniqueness while combining
+  strengths provides comprehensive care, advancing universal health coverage and
+  SDG goals, despite evidence gaps requiring ongoing debate.
+key_points:
+  - >-
+    Propose national AYUSH grid policy to integrate traditional and allopathic
+    systems with scientific validation.
+  - >-
+    Leverage 5.65 lakh AYUSH practitioners to improve doctor-population ratio to
+    1:854 via medical pluralism.
+  - >-
+    Incorporate AYUSH in curricula and bridge courses for holistic care
+    complementing modern emergency treatments.
+  - >-
+    Deploy AYUSH infrastructure for Covid-19 and routine healthcare to achieve
+    universal coverage.
+topics:
+  - integrative-medicine
+  - ayush-systems
+  - medical-pluralism
+  - health-policy
 tags:
   - Ayurveda
   - AYUSH
+source_hash: f08827a31b8f6f2dcf719c7bd81c26b63c1bd2d16334962588180ce973e838bf
+summary_hash: f08827a31b8f6f2dcf719c7bd81c26b63c1bd2d16334962588180ce973e838bf
+summary_at: '2026-05-05T10:26:28.305Z'
 ---
 **By Prachie Singh**
 

@@ -2,20 +2,57 @@
 title: 'SO Musings: Speech by Shri C Rajagopalachari at the Swearing-in Ceremony'
 original_url: >-
   https://www.spontaneousorder.in/p/rajagopalacharis-speech-swearing-in-governor-general-of-india
+author: Spontaneous Order
 published_at: '2019-12-15T14:44:58.000Z'
 ingested_at: '2026-05-05T08:31:42.453Z'
-source_hash: bb6896593f2bce23dd57fd2ac507fe612221bb8537633420ddc8f4264e1148a9
-author: Spontaneous Order
 excerpt: >-
   The following is the speech made by the first native Governor-General of India
   Shri C Rajagopalachari. In these trying times when the Indian polity is
   divided on communal lines, it is important to remember the vision of India
   highlighted by its founding..
+summary: >-
+  In his 21 June 1948 swearing-in speech as India's first native
+  Governor-General, C. Rajagopalachari expresses gratitude for the honor and
+  pledges to serve with integrity, following his predecessor Lord Mountbatten's
+  example of detachment and devotion. He underscores India's commitment to
+  universal citizenship pride and joy irrespective of caste, creed, or race,
+  ensuring no disabilities based on community. Rajagopalachari declares the end
+  of dynastic rule and domination by force, urging all communities to abandon
+  territorial, racial, or religious isolationism. Instead, the best talents from
+  every group must serve the entire state through willing cooperation and
+  intercommunication. He warns that current internecine discord is pure folly,
+  especially given India's profound economic interdependence that cannot be
+  severed by political partition. What has been shaped by age-long forces into
+  beauty and joy risks becoming strife and misery. In these trying times of
+  communal division, the speech revives the founding fathers' classical-liberal
+  vision of unity, individual dignity, and mutual service over division and
+  force, calling for wisdom to foster good thoughts amid temptations of evil.
+key_points:
+  - >-
+    India guarantees pride and joy in citizenship to all, irrespective of caste,
+    creed, or race, with no community-based disabilities.
+  - >-
+    Communities must reject isolationism, spread out, and have their best
+    talents serve the whole state through cooperation.
+  - >-
+    Internecine discord is folly due to India's unbreakable economic
+    interdependence post-partition.
+  - >-
+    Dynastic rule and domination by force are over; thriving requires willing
+    intercommunication among all groups.
+topics:
+  - rajagopalachari
+  - communal-harmony
+  - indian-unity
+  - classical-liberalism
 tags:
   - Speec
   - Rajaji
   - C Rajagopalachari
   - Governor General of India
+source_hash: bb6896593f2bce23dd57fd2ac507fe612221bb8537633420ddc8f4264e1148a9
+summary_hash: bb6896593f2bce23dd57fd2ac507fe612221bb8537633420ddc8f4264e1148a9
+summary_at: '2026-05-05T11:21:39.598Z'
 ---
 **By Spontaneous Order**
 

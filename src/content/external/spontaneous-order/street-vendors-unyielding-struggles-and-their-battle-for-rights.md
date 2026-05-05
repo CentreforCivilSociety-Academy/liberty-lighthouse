@@ -2,15 +2,56 @@
 title: 'Street Vendors’ Unyielding Struggles and Their Battle for Rights '
 original_url: >-
   https://www.spontaneousorder.in/p/street-vendors-unyielding-struggles-and-their-battle-for-rights
+author: Spontaneous Order
 published_at: '2024-05-03T15:07:01.000Z'
 ingested_at: '2026-05-05T08:31:42.231Z'
-source_hash: e748ba662ad1cb6a7782015163708b74829ddb9872735e0ceef2bfdd2b02242c
-author: Spontaneous Order
 excerpt: >-
   Jai Prakash, a street vendor, made the journey from Chapra, Bihar, to Delhi,
   driven by the desire to create opportunities for his family. Having
   established his cycle repair shop in Vikaspuri West Delhi in 1978, he had
   already woven a rich tapestry of s..
+summary: >-
+  Jai Prakash, a street vendor in Delhi since 1978 with valid Certificate of
+  Vending (COV), Letter of Recommendation (LOR), and elected Town Vending
+  Committee (TVC) member since 2018, faced illegal demolition of his cycle
+  repair shop and seizure of his Rs 3,000 vending cart by Municipal Corporation
+  of Delhi (MCD) on 7 March 2023, despite presenting documents. MCD demanded a
+  Rs 4,000 fine for release, exemplifying corruption and disregard for due
+  process. Through the Jeevika App by Centre for Civil Society, Jai Prakash
+  connected with fellows who filed a case in Delhi High Court on 13 July 2023,
+  securing a stay order on 20 July 2023. Though MCD initially resisted, the cart
+  was released without fine after insistence. This underscores systemic
+  violations of the Street Vendors Act 2014, which mandates identity cards for
+  certified vendors, 30-day eviction notices, and alternate vending sites, yet
+  officials harass vendors routinely. From a classical-liberal viewpoint, the
+  story highlights the urgent need to enforce legal protections, combat
+  corruption in executive agencies, hold officials accountable, and amplify
+  voices of marginalized vendors through civil society legal aid to prevent such
+  injustices.
+key_points:
+  - >-
+    Despite valid COV, LOR, and TVC membership, MCD demolished Jai Prakash's
+    1978-established shop and seized his Rs 3,000 cart on 7 March 2023 without
+    notice.
+  - >-
+    Jeevika App facilitated filing in Delhi High Court on 13 July 2023, yielding
+    a stay order on 20 July 2023 that led to cart release without the demanded
+    Rs 4,000 fine.
+  - >-
+    Street Vendors Act 2014 requires 30-day eviction notices, alternate sites,
+    and prohibits harassment of certified vendors, yet officials routinely
+    violate it.
+  - >-
+    Enforce the Act strictly and prosecute corrupt officials to protect street
+    vendors' rights and livelihoods.
+topics:
+  - street-vendors
+  - street-vendors-act
+  - corruption
+  - rule-of-law
+source_hash: e748ba662ad1cb6a7782015163708b74829ddb9872735e0ceef2bfdd2b02242c
+summary_hash: e748ba662ad1cb6a7782015163708b74829ddb9872735e0ceef2bfdd2b02242c
+summary_at: '2026-05-05T12:12:22.574Z'
 ---
 **By Deepak Sharma**
 

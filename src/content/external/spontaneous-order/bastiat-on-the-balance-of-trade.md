@@ -1,21 +1,63 @@
 ---
 title: Bastiat on the Balance of Trade
 original_url: 'https://www.spontaneousorder.in/p/bastiat-on-the-balance-of-trade'
+author: Spontaneous Order
 published_at: '2012-04-20T11:25:07.000Z'
 ingested_at: '2026-05-05T08:31:42.623Z'
-source_hash: 76ab135e5c8fb4cd595658cad1e1cfbd10ecd06dc14f4e0de762cf0bed6c1d2c
-author: Spontaneous Order
 excerpt: >-
   The Mercantilist fallacies exposed as long ago as Adam Smith still hold sway
   in popular thinking in part because of language of Mercantilism has not been
   abandoned. Many people, including those responsible for making policy, still
   believe that having ...
+summary: >-
+  Frédéric Bastiat dismantles the mercantilist 'balance of trade' fallacy, which
+  posits that a nation profits when exports exceed imports and loses otherwise,
+  a view still justifying protectionism despite Adam Smith's refutation that
+  true wealth lies in goods and services, not gold. Bastiat critiques politician
+  M. Mauguin's claim that France lost two billion francs over eleven years,
+  including 1847 figures showing a 'gain' of 450 million on manufactured goods
+  (exports 605m, imports 152m) but a 'loss' of 690 million on raw materials
+  (imports 804m, exports 114m). Through thought experiments, Bastiat
+  illustrates: exporting a 50-franc cask of wine from Bordeaux, sold for 70
+  francs in Liverpool and converted to 90 francs of coal imported back yields a
+  40-franc net import but personal profit via arbitrage. Conversely, exporting
+  100 francs of truffles lost at sea creates a net export but total loss.
+  Protectionists like Mauguin would ban profitable trades with net imports and
+  subsidize losing ones with net exports, harming the nation. Bastiat champions
+  laissez-faire and free trade, noting even England rejects balance-of-trade
+  nonsense, urging France to embrace liberty where individuals bear risks and
+  learn from errors rather than suffering legislated folly.
+key_points:
+  - >-
+    Mercantilist balance-of-trade doctrine wrongly equates net exports with
+    national profit and net imports with loss, ignoring that wealth comes from
+    satisfying needs via goods and services.
+  - >-
+    Bastiat's wine-coal example shows a 40-franc net import representing profit
+    from buying low abroad and selling high domestically.
+  - >-
+    Lost truffles shipment demonstrates net export as loss when goods fail to
+    yield returns.
+  - >-
+    Protectionism based on this fallacy suppresses profitable arbitrage trades
+    and subsidizes unprofitable ones, distorting markets.
+  - >-
+    True policy should embrace laissez-faire free trade, letting individuals
+    manage risks instead of imposing state errors on all.
+topics:
+  - free-trade
+  - balance-of-trade
+  - mercantilism
+  - protectionism
 tags:
   - laissez faire
   - trade
   - Frederic bastiat
   - Mercantilism
   - free trade
+source_hash: 76ab135e5c8fb4cd595658cad1e1cfbd10ecd06dc14f4e0de762cf0bed6c1d2c
+summary_hash: 76ab135e5c8fb4cd595658cad1e1cfbd10ecd06dc14f4e0de762cf0bed6c1d2c
+summary_at: '2026-05-05T09:08:27.910Z'
 ---
 **By Andrew Humphries**
 

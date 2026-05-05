@@ -1,20 +1,64 @@
 ---
 title: How to exit farming risk trap
 original_url: 'https://www.spontaneousorder.in/p/how-to-exist-farming-risk-trap'
+author: Spontaneous Order
 published_at: '2021-07-29T22:57:01.000Z'
 ingested_at: '2026-05-05T08:31:42.301Z'
-source_hash: 32a910646d5a5c2aa883e5d9b4a3420e76514df17e738dfe5f4659965391ac29
-author: Spontaneous Order
 excerpt: >-
   At the height of the farm protests, the ideologically charged rhetoric that
   the new farm laws would result in a corporate takeover of Indian farms led to
   the toppling of Reliance cell towers in Punjab. Soon afterward, Reliance
   issued an official stateme..
+summary: >-
+  Indian agriculture remains trapped in a high-risk, low-return landscape due to
+  excessive state interventions across 13 central ministries and countless state
+  agencies regulating everything from land rights to marketing, stifling
+  productivity and resource mobility. Despite avoiding nationalization thanks to
+  1950s Swatantra Party opposition, post-Green Revolution data from 734
+  districts (1966-2018) shows persistent yield gaps—Punjab and Haryana far
+  outpace others in rice and wheat—with high geographic variability in yields
+  outside these states, exacerbated by uneven public goods like irrigation and
+  absent markets for land, crops, inputs, and labor. This fragmentation prevents
+  decentralization's promise of experimentation and best-practice adoption,
+  leaving each district in a unique policy trap. Input subsidies and MSP
+  procurement worsen outcomes by degrading soil, water, and climate while
+  locking farmers into rice-wheat cycles amid higher risks in maize and cotton.
+  From a classical-liberal view, firms prudently avoid this sector, unlike
+  politically driven public enterprises. The three farm laws are merely a start;
+  comprehensive reforms must free farmers to optimize resources, enter/exit
+  agriculture freely, contract privately, and enable corporate entry—signaling a
+  shift to low-risk, high-return progress—demanding long-term stakeholder
+  commitment to escape these currents.
+key_points:
+  - >-
+    Excessive government agencies create conflicting interventions, trapping
+    agriculture in low productivity and high yield variability across 734
+    districts.
+  - >-
+    Punjab-Haryana yield advantages persist post-Green Revolution, with higher
+    risks elsewhere due to poor public goods and market failures.
+  - >-
+    Subsidies and MSP distort incentives, degrading resources and confining
+    farmers to high-risk rice-wheat focus.
+  - >-
+    Reforms must enable farmer and resource mobility, free contracts, and
+    private entry/exit to realize decentralization's experimentation benefits.
+  - >-
+    Corporate willingness to enter agriculture will mark success in achieving
+    low-risk, high-return outcomes.
+topics:
+  - indian-agriculture
+  - farm-reforms
+  - agricultural-subsidies
+  - economic-liberalization
 tags:
   - Farm
   - farmers
   - laws
   - economy
+source_hash: 32a910646d5a5c2aa883e5d9b4a3420e76514df17e738dfe5f4659965391ac29
+summary_hash: 32a910646d5a5c2aa883e5d9b4a3420e76514df17e738dfe5f4659965391ac29
+summary_at: '2026-05-05T10:13:19.116Z'
 ---
 **By Nimai Mehta**
 

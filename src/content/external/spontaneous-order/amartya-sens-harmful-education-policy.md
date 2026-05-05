@@ -1,20 +1,56 @@
 ---
 title: Amartya Sen’s harmful education policy
 original_url: 'https://www.spontaneousorder.in/p/amartya-sens-harmful-education-policy'
+author: Spontaneous Order
 published_at: '2011-03-20T22:22:04.000Z'
 ingested_at: '2026-05-05T08:31:42.645Z'
-source_hash: 0a90ef0550a225888e65749aec3016072a79915bdf4da0fc503f35a0ceaf197a
-author: Spontaneous Order
 excerpt: >-
   Amartya Sen has often spoken against private tuitions, especially by
   government teachers – and the communist government in West Bengal implemented
   a ban on all tuitions by school teachers based on Sen’s recommendations. Now
   of course there is a certai
+summary: >-
+  Harsh Gupta criticizes Amartya Sen's opposition to private tuitions,
+  particularly by government teachers, which influenced West Bengal's communist
+  government to ban all tuitions by school teachers. Gupta argues this ban is
+  counterproductive, as tuitions provide incentives for teachers absent in
+  government schools lacking performance pay. He references Swami Aiyer's prior
+  critique and ASER 2010 data showing a decrease in tuition incidence among
+  private school students up to Std VIII, while government school students in
+  low private-enrollment states like Bihar, West Bengal, and Orissa—especially
+  Std V—have high tuition rates. This indicates blatant violation of the ban and
+  a correlation between scarce private schools and reliance on tuitions. From a
+  classical-liberal viewpoint, Sen and socialists err by banning private
+  provisions for an illusory level playing field; instead, enhancing private
+  sector roles in education fosters accountability, reducing the need for
+  supplementary tuitions like private coaching. Gupta quips that if socialists
+  had sense, they wouldn't be socialists.
+key_points:
+  - >-
+    West Bengal banned school teacher tuitions based on Amartya Sen's
+    recommendations, but the law is widely violated.
+  - >-
+    ASER 2010 reports high tuition rates among Std V government school students
+    in Bihar, West Bengal, and Orissa, where private enrollment is low.
+  - >-
+    Private school enrollment correlates with lower tuition needs, unlike
+    government schools lacking teacher incentives.
+  - >-
+    Classical-liberals advocate expanding private sector in education to build
+    accountability and minimize reliance on tuitions.
+topics:
+  - education-policy
+  - private-tuitions
+  - school-choice
+  - government-schools
 tags:
   - Amartya Sen
   - private sector in education
   - private tuitions
   - Swami Aiyer
+source_hash: 0a90ef0550a225888e65749aec3016072a79915bdf4da0fc503f35a0ceaf197a
+summary_hash: 0a90ef0550a225888e65749aec3016072a79915bdf4da0fc503f35a0ceaf197a
+summary_at: '2026-05-05T08:55:35.099Z'
 ---
 **By Harsh Gupta**
 

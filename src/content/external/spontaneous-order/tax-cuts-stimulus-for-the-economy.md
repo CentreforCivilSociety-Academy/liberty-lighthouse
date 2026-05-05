@@ -1,19 +1,59 @@
 ---
 title: 'Tax Cuts: Stimulus for the Economy?'
 original_url: 'https://www.spontaneousorder.in/p/tax-cuts-stimulus-for-the-economy'
+author: Spontaneous Order
 published_at: '2016-11-01T13:02:08.000Z'
 ingested_at: '2026-05-05T08:31:42.548Z'
-source_hash: 04351a6e48f3d4acdc96f0ce77ee6b86354076cd935514914eb31d34c0932973
-author: Spontaneous Order
 excerpt: >-
   Taxing the people of a sovereign in the name of protection and development has
   always been a practice, in almost every recorded governance system. As
   famously stated by Kalidas “It was only for the good of his subjects that he
   [the King] collected taxes
+summary: >-
+  Sadaf Hussain argues from a classical-liberal viewpoint that India's
+  escalating direct and indirect taxes, exemplified by a restaurant bill rising
+  from Rs. 3,000 to Rs. 3,948 due to multiple cesses and VAT, burden households
+  and echo historical follies like Dhana Nanda's extortionate taxation leading
+  to his downfall. Drawing on ancient texts like Manu's guidelines (1/5th
+  profits for traders, 1/6th-1/10th produce for farmers), he critiques modern
+  hikes such as the 2016 Krishi Kalyan Cess. He proposes radical reform: abolish
+  most taxes for a flat 20% universal rate, with citizens allocating funds via a
+  'menu card' based on annual sector performance report cards (e.g., 3%
+  education, 5% health as non-negotiable). This fosters competition among
+  departments, leaves more disposable income, and leverages altruism if funds
+  are used transparently. Tax cuts stimulate economies by boosting consumption,
+  per Friedman's Permanent Income Hypothesis and Keynesian models (MPC 0.6),
+  potentially increasing revenues via lower rates, as Kennedy's 1964 cut from
+  90% to 70% raised US revenues 62% (from $94B to $153B). Similar successes in
+  Bush era and Ireland support this; Modi should implement permanent cuts and
+  citizen-directed taxation for growth.
+key_points:
+  - >-
+    India's high taxes, like turning a Rs. 3,000 restaurant bill into Rs. 3,948,
+    burden citizens and risk historical pitfalls seen in Dhana Nanda's regime.
+  - >-
+    Implement a flat 20% tax rate with a 'menu card' allowing citizens to
+    allocate based on government sector performance report cards to enhance
+    efficiency and transparency.
+  - >-
+    Tax cuts stimulate economies by increasing consumption and revenues, as
+    evidenced by Kennedy's reduction from 90% to 70% boosting US tax revenues
+    62%.
+  - >-
+    Permanent tax cuts, per Friedman's hypothesis, encourage spending over
+    saving, outperforming temporary measures.
+topics:
+  - tax-reform
+  - tax-cuts
+  - flat-tax
+  - economic-stimulus
 tags:
   - taxation
   - tax reforms
   - tax cuts
+source_hash: 04351a6e48f3d4acdc96f0ce77ee6b86354076cd935514914eb31d34c0932973
+summary_hash: 04351a6e48f3d4acdc96f0ce77ee6b86354076cd935514914eb31d34c0932973
+summary_at: '2026-05-05T12:15:34.623Z'
 ---
 **By Sadaf Hussain**
 

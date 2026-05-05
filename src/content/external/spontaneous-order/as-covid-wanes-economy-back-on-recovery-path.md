@@ -1,20 +1,57 @@
 ---
 title: 'As Covid wanes, economy back on recovery path'
 original_url: 'https://www.spontaneousorder.in/p/as-covid-wanes-economy-back-on-recovery-path'
+author: Spontaneous Order
 published_at: '2021-10-18T14:01:47.000Z'
 ingested_at: '2026-05-05T08:31:42.288Z'
-source_hash: 8bf84f1dc6cfd1bd8fb0a6d008dd4d66ed5b17a274fb5716006d0cd69fbb0f1c
-author: Spontaneous Order
 excerpt: >-
   This is the time of year when optimistic budget projections usually prove
   false, tax revenues fall short of expectations, austerity is decreed for
   government departments, government dues and capital spending are postponed for
   want of funds, and budgetar..
+summary: >-
+  India's economy has sharply rebounded from the Covid second wave's April-June
+  lockdowns, with tax revenues surging to 41% of the annual budget estimate in
+  April-August—against 18.3% last year, 30.7% pre-Covid, and a 24-year average
+  of 28%—driving the fiscal deficit down to potentially 5.8% of GDP from the
+  budgeted 6.8% and Fitch's feared 8.3%. Initial GDP growth forecasts were cut
+  to 9.5% by RBI and IMF, but the rapid wave recession (except Kerala) suggests
+  these may prove pessimistic. This buoyancy validates Finance Minister Nirmala
+  Sitharaman's 2019 corporate tax slash from 30% to 22% (15% for new firms
+  without breaks), despite a Rs 145,000 crore initial loss, yielding 16% overall
+  tax growth, 23% in corporate tax, 34% in excise, and 6% in GST versus two
+  years ago. Unlike Arun Jaitley's failed bids to hit 3% deficit amid slowdowns
+  and fudging, current trends show cash balances at Rs 4.5 trillion (2% GDP).
+  Yet challenges loom: high corporate debts risking banks, SME and unorganised
+  sector distress, slow privatization (Air India sold but with $6 billion debt
+  taken over; BPCL, others delayed). A classical-liberal view hails this
+  market-led spurt but calls for reforms to sustain it.
+key_points:
+  - >-
+    Tax revenues reached 41% of annual estimates in April-August, exceeding
+    24-year average of 28%, fueling fiscal deficit drop to ~5.8% of GDP.
+  - >-
+    Corporate tax cuts to 22% proved buoyant with 23% compound annual growth
+    despite initial Rs 145,000 crore loss.
+  - >-
+    Economy bounced back post-second Covid wave, potentially exceeding RBI/IMF
+    9.5% GDP forecasts.
+  - >-
+    Persistent risks include corporate debts, SME distress, and stalled
+    privatizations like BPCL and rail services.
+topics:
+  - economic-recovery
+  - fiscal-deficit
+  - tax-cuts
+  - privatisation
 tags:
   - GDP
   - Covid-19
   - economy
   - Indian Economy
+source_hash: 8bf84f1dc6cfd1bd8fb0a6d008dd4d66ed5b17a274fb5716006d0cd69fbb0f1c
+summary_hash: 8bf84f1dc6cfd1bd8fb0a6d008dd4d66ed5b17a274fb5716006d0cd69fbb0f1c
+summary_at: '2026-05-05T09:02:15.046Z'
 ---
 **By Swaminathan SA Aiyer**
 

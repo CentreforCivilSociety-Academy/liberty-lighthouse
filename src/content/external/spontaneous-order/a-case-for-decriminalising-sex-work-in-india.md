@@ -1,21 +1,63 @@
 ---
 title: A Case for Decriminalising Sex work in India
 original_url: 'https://www.spontaneousorder.in/p/a-case-for-decriminalising-sex-work-in-india'
+author: Spontaneous Order
 published_at: '2020-10-28T11:13:10.000Z'
 ingested_at: '2026-05-05T08:31:42.372Z'
-source_hash: 650487a15eedaca4a195834e9095a76d8115525d087e310ffdd82151e40b0ff9
-author: Spontaneous Order
 excerpt: >-
   There are over 800,000 sex workers in India. However unofficial figures place
   these numbers far higher. Sex workers organisations and UN agencies have
   understood and articulated sex work as a contractual arrangement where sexual
   services are negotiated ..
+summary: >-
+  India's Immoral Traffic (Prevention) Act, 1956, permits individual consenting
+  adult sex work but criminalizes brothels, pimping, and solicitation within 200
+  meters of public places, creating unintended harms for over 800,000 sex
+  workers (with unofficial estimates much higher). This forces solitary
+  operations, increasing risks of abuse and violence at clients' locations,
+  while raids and extortion in red-light areas like Mumbai's Kamathipura and
+  Kolkata's Sonagachi leave workers homeless and harassed, without addressing
+  pimping or trafficking. From a classical-liberal viewpoint, the law
+  paternalistically stigmatizes consensual contractual arrangements, denying sex
+  workers agency to collectively run businesses for safety and profit, and
+  excludes them from policy-making. Decriminalization—rather than legalization,
+  to avoid License Raj-style regulations—would enable fearless operations,
+  reduce stigma, and improve welfare. Evidence from Rhode Island, Greece, and
+  Thailand shows expanded indoor markets lowered rapes and STDs while boosting
+  economic contributions. New Zealand's model prioritizes healthcare without red
+  tape. Urgent decriminalization reforms are needed to uphold freedom in
+  consenting sex trade and protect marginalized workers.
+key_points:
+  - >-
+    India's 1956 Act criminalizes brothels and solicitation, forcing sex workers
+    into risky solitary operations and enabling police extortion in areas like
+    Kamathipura and Sonagachi.
+  - >-
+    Decriminalization allows collective sex work businesses for enhanced safety,
+    profits, and reduced violence, treating it like any consensual contract.
+  - >-
+    Rhode Island, Greece, and Thailand saw fewer rapes and STDs after expanding
+    indoor sex markets, with workers contributing economically.
+  - >-
+    Prefer decriminalization over legalization in India to evade burdensome
+    regulations that could criminalize deviations for marginalized workers.
+  - >-
+    Reform inspired by New Zealand would prioritize sex worker healthcare and
+    agency without paternalistic state overreach.
+topics:
+  - sex-work
+  - decriminalization
+  - labour-freedom
+  - criminal-justice-reform
 tags:
   - sex trafficking
   - Alumni Speaks
   - economy
   - Security
   - Governance
+source_hash: 650487a15eedaca4a195834e9095a76d8115525d087e310ffdd82151e40b0ff9
+summary_hash: 650487a15eedaca4a195834e9095a76d8115525d087e310ffdd82151e40b0ff9
+summary_at: '2026-05-05T08:47:36.070Z'
 ---
 **By Shabnam Sheikh**
 

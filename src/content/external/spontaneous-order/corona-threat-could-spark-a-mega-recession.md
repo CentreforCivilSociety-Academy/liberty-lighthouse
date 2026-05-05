@@ -1,15 +1,54 @@
 ---
 title: Corona Threat Could Spark a Mega Recession
 original_url: 'https://www.spontaneousorder.in/p/corona-threat-could-spark-a-mega-recession'
+author: Spontaneous Order
 published_at: '2020-03-25T16:34:58.000Z'
 ingested_at: '2026-05-05T08:31:42.433Z'
-source_hash: 96ab3b8dcc83e0e1711cba37543f2b77190a86cb3c67ba05ffcddde2ec6f1172
-author: Spontaneous Order
 excerpt: >-
   Swaminathan S. Anklesaria Aiyar is currently Consulting Editor of The
   Economics Times and a research scholar at The Cato Institute. He has been
   editor of two of India’s biggest economic dailies, Financial Express in
   1988-90 and The Economic Times in 199
+summary: >-
+  Swaminathan S.A. Aiyar warns that the COVID-19 coronavirus represents
+  history's greatest medical-economic crisis, already sparking a deep global
+  recession atop pre-existing vulnerabilities like Europe's and Japan's
+  near-recessions and India's halved GDP growth. Drawing parallels to the 1918
+  Spanish flu (200 million infected, 50 million dead), he posits a best-case
+  scenario of one-quarter duration causing a serious but recoverable recession
+  by end-2020, versus a worst-case year-long havoc with billions infected and
+  0.5 million deaths per experts, rivaling 2008's disruption. Initial shocks
+  include China's Hubei lockdown severing global value chains in electronics and
+  pharma, India's medicine export restrictions, and OPEC's collapse crashing oil
+  prices, imperiling related industries. Escalating government measures—Italy's
+  nationwide lockdowns, US bans on 26 European countries, India's visa
+  halts—strangle airlines, tourism, events (Tokyo Olympics, IPL cancelled), and
+  mass gatherings, with India's festivals and pilgrimages (Vaishno Devi,
+  Tirupati) posing uncontrollable risks despite tropical hopes. A mere 5%
+  consumption cut from fear could induce recession, slashing durables and
+  triggering bankruptcies amid high post-2008 corporate debts and worker
+  shortages. Near-zero interest rates blunt monetary tools like RBI's potential
+  2% cuts, while fiscal explosions offer limited relief against fear-driven
+  slumps.
+key_points:
+  - >-
+    Coronavirus disruptions, including China's lockdowns and oil price crashes,
+    have already triggered a global recession amid weak pre-existing growth.
+  - >-
+    Government shutdowns of travel, events, and gatherings will devastate
+    airlines, tourism, entertainment, and India's mass festivals, amplifying
+    economic strangulation.
+  - >-
+    A 5% consumer spending drop from fear suffices for worldwide recession,
+    risking mass bankruptcies in debt-laden sectors like oil.
+  - >-
+    Conventional monetary policy fails with rates near zero, and fiscal stimuli
+    struggle against fear-induced slowdowns and worker shortages.
+topics:
+  - covid-19
+  - economic-recession
+  - supply-chains
+  - monetary-policy
 tags:
   - economic freedom
   - Opinion
@@ -17,6 +56,9 @@ tags:
   - Economics
   - market economy
   - Disaster Management
+source_hash: 96ab3b8dcc83e0e1711cba37543f2b77190a86cb3c67ba05ffcddde2ec6f1172
+summary_hash: 96ab3b8dcc83e0e1711cba37543f2b77190a86cb3c67ba05ffcddde2ec6f1172
+summary_at: '2026-05-05T09:26:10.285Z'
 ---
 **By Swaminathan SA Aiyer**
 

@@ -1,20 +1,61 @@
 ---
 title: FM could privatise 1% at a time
 original_url: 'https://www.spontaneousorder.in/p/fm-could-privatise-1-at-a-time'
+author: Spontaneous Order
 published_at: '2022-02-07T13:04:31.000Z'
 ingested_at: '2026-05-05T08:31:42.278Z'
-source_hash: e258d7b7d99135cc5d3fcb75fb1dfc49cd91eb2aff3b81fc7e6be62acffcfd04
-author: Spontaneous Order
 excerpt: >-
   The Budget has been widely praised for avoiding populist freebies before the
   coming state elections and focusing instead on a big investment thrust to
   accelerate economic growth and lift all boats. The black spot is the failure
   of privatisation this yea..
+summary: >-
+  Swaminathan SA Aiyer criticizes the Indian government's failed privatization
+  efforts, which missed last year's Rs 175,000 crore target, revising to Rs
+  78,000 crore, with next year's estimate at just Rs 68,000 crore. Stalled sales
+  of heavyweights like BPCL, Container Corporation of India, and Shipping
+  Corporation of India after two years, silence on bank and insurance
+  privatizations, and non-materialization of the Rs 600,000 crore National
+  Monetisation Pipeline underscore the disaster of the current approach amid a
+  fiscal crisis with falling tax-to-GDP ratios and rising interest-to-GDP
+  burdens. From a classical-liberal viewpoint, vested interests, trade unions,
+  and procedural delays block structural reforms needed for investment thrust.
+  Aiyer proposes selling 1% of selected PSU shares monthly at market prices to
+  generate steady revenue, avoid under-pricing accusations, and bypass cronyism
+  fears, as suggested by Niti Aayog under Arvind Panagariya. Additionally, pass
+  an omnibus law authorizing all asset sales, overriding original ownership laws
+  to speed processes and reduce opposition. The Finance Minister must implement
+  a time-bound plan with bureaucratic accountability to enable outright
+  privatization, countering populist retreats post-farm agitation.
+key_points:
+  - >-
+    Sell 1% of shares in selected PSUs every month at market price to generate
+    steady revenue without cronyism accusations.
+  - >-
+    Pass an omnibus law authorizing sales of any government assets, overriding
+    original ownership laws.
+  - >-
+    Privatization targets slashed from Rs 175,000 crore projected to Rs 78,000
+    crore revised, with next year at Rs 68,000 crore.
+  - >-
+    Stalled sales of BPCL, CCI, SCI after two years and no progress on National
+    Monetisation Pipeline of Rs 600,000 crore over four years.
+  - >-
+    Implement time-bound asset sales plan with fixed bureaucratic responsibility
+    and penalties for failure.
+topics:
+  - privatization
+  - psu-reform
+  - fiscal-policy
+  - economic-reforms
 tags:
   - budget 2022
   - Privatisation
   - Union Budget
   - Budget
+source_hash: e258d7b7d99135cc5d3fcb75fb1dfc49cd91eb2aff3b81fc7e6be62acffcfd04
+summary_hash: e258d7b7d99135cc5d3fcb75fb1dfc49cd91eb2aff3b81fc7e6be62acffcfd04
+summary_at: '2026-05-05T09:54:54.352Z'
 ---
 **By Swaminathan SA Aiyer**
 

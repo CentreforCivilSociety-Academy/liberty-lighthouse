@@ -1,21 +1,60 @@
 ---
 title: The Radical Humanism of Jyotiba Phule
 original_url: 'https://www.spontaneousorder.in/p/jyotiba-phule'
+author: Spontaneous Order
 published_at: '2019-11-28T17:42:08.000Z'
 ingested_at: '2026-05-05T08:31:42.456Z'
-source_hash: ad14cd0b002faadeed318b86c5f6edcab6b25cf313bde5bbe9817234649b42fb
-author: Spontaneous Order
 excerpt: >-
   Brought by the modernising force of British Raj, the cosmopolitan ferment of
   Pune in the late 18th century fostered a small Indian intelligentsia which had
   an immense influence on the shaping of modern India. Ramchandra Guha has
   pointed out that “betwee
+summary: >-
+  Jyotiba Phule, a radical humanist from Pune's 19th-century intelligentsia,
+  prioritized lower-caste emancipation over nationalist unity, distinguishing
+  him from figures like Gokhale and Tilak. Born to gardeners supplying Pune's
+  elite, Phule's missionary education exposed the caste system's inequities,
+  leading him to champion education for social mobility. With wife Savitribai,
+  he opened India's first school for girls in 1848 amid orthodox resistance,
+  promoted widow remarriage in the 1860s, founded an orphanage for illicit
+  children in 1863, published Ghulamgiri in 1873, critiqued peasant
+  exploitation, and established Satyashodhak Samaj in 1873 to unite Shudras and
+  Atishudras. Phule innovatively inverted Brahmanical mythology, positing a
+  pre-Aryan golden age of native rulers defeated by invaders, equating Aryans to
+  European colonizers of American Indians. Drawing from Thomas Paine's 'Rights
+  of Man' and dedicating Ghulamgiri to U.S. abolitionists, Phule embodied a
+  global classical-liberal vision for justice. His legacy inspired Ambedkar,
+  Periyar, and Maharashtra's movements for women, farmers, Dalits, and
+  environmentalists, offering Indian liberals a reformist antecedent focused on
+  individual emancipation over territorial nationalism.
+key_points:
+  - >-
+    Phule opened India's first school for girls in 1848 with Savitribai, facing
+    expulsion from his family home due to orthodox backlash.
+  - >-
+    He founded Satyashodhak Samaj in 1873 to unite lower castes and untouchables
+    as Shudras-Atishudras against Brahmanical order.
+  - >-
+    Phule inverted Aryan Invasion theory into a subaltern mythology, portraying
+    pre-Aryan natives as just rulers defeated and degraded by invaders.
+  - >-
+    Influenced by Thomas Paine, Phule dedicated Ghulamgiri (1873) to American
+    abolitionists, urging Indians to emulate their fight against slavery-like
+    caste oppression.
+topics:
+  - jyotiba-phule
+  - caste-reform
+  - social-reform
+  - indian-liberal-tradition
 tags:
   - Jyotiba Phule
   - Savitribai Phule
   - Indian Liberal Tradition
   - Indian liberals
   - Phule
+source_hash: ad14cd0b002faadeed318b86c5f6edcab6b25cf313bde5bbe9817234649b42fb
+summary_hash: ad14cd0b002faadeed318b86c5f6edcab6b25cf313bde5bbe9817234649b42fb
+summary_at: '2026-05-05T10:34:29.530Z'
 ---
 **By Sanjeet Kashyap**
 

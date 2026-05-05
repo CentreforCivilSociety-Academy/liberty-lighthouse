@@ -4,20 +4,62 @@ title: >-
   Forests
 original_url: >-
   https://www.spontaneousorder.in/p/sharpening-the-tigers-teeth-restoring-gram-sabha-as-the-gatekeeper-of-forests
+author: Spontaneous Order
 published_at: '2022-01-20T11:24:39.000Z'
 ingested_at: '2026-05-05T08:31:42.279Z'
-source_hash: 7efbe1f4fb7c1bcfc7eeaf93ea7d6a457042c1e1d6a364f6d72af34995345a9b
-author: Spontaneous Order
 excerpt: >-
   On 2 October 2021, hundreds of Adivasi forest-dwellers marched against the
   coal mining project in Hasdeo Arand, Chhattisgarh. Their call to action?
   Revoking clearance to the Parsa Open Cast mine. This project, although worth
   more than Rs 1960 crore, wou..
+summary: >-
+  The article argues that empowering the Gram Sabha as the true gatekeeper of
+  forests is essential to protect Adivasi livelihoods and biodiversity from
+  resource extraction projects like the Rs 1960 crore Parsa Open Cast mine in
+  Hasdeo Arand, Chhattisgarh, which threatens 995 families and a major
+  biodiversity reserve. Drawing on the classical-liberal emphasis on
+  decentralization akin to Gandhian village republics, it critiques the flawed
+  implementation of the Forest Rights Act (FRA), 2006, and Panchayats (Extension
+  to Scheduled Areas) Act (PESA), 1996, which position Gram Sabha as the nucleus
+  of local decision-making but fail in practice. Key flaws include state forest
+  departments' monopoly over minor forest produce despite FRA grants to Gram
+  Sabha; improper constitution pooling multiple villages (e.g., 11.7 villages
+  per Gram Sansad in West Bengal), violating the one-village-one-Gram-Sabha
+  mandate and quorum requirements; and inadequate powers, with government
+  officials chairing Sub-Divisional and District Level Committees, resulting in
+  high claim rejections (Karnataka 89%, Chhattisgarh 55%). Citing court rulings
+  like Gauhati High Court (2015) and poverty data (65 million poor Scheduled
+  Tribes), it concludes that restoring Gram Sabha through single-village
+  constitution, claim processing monitoring, and regular meetings will foster
+  participatory democracy, economic growth, and rural development by curbing
+  bureaucratic overreach.
+key_points:
+  - >-
+    State forest departments retain monopoly over minor forest produce despite
+    FRA granting ownership to Gram Sabha.
+  - >-
+    Gram Sabhas are improperly constituted at multi-village Gram Panchayat
+    levels, averaging 11.7 villages in West Bengal, hindering representation and
+    quorum achievement.
+  - >-
+    Government officials chair SDLC and DLC, enabling de facto Forest Department
+    authority and high FRA claim rejections like 89% in Karnataka.
+  - >-
+    Constitute one Gram Sabha per village, monitor claim processing rates, and
+    enforce regular meetings to empower local decision-making on forest rights.
+topics:
+  - forest-rights
+  - gram-sabha
+  - decentralization
+  - adivasi-livelihoods
 tags:
   - gram sabha
   - environment
   - panchayat
   - Forest Rights Act
+source_hash: 7efbe1f4fb7c1bcfc7eeaf93ea7d6a457042c1e1d6a364f6d72af34995345a9b
+summary_hash: 7efbe1f4fb7c1bcfc7eeaf93ea7d6a457042c1e1d6a364f6d72af34995345a9b
+summary_at: '2026-05-05T11:40:09.619Z'
 ---
 **By Gauri Bansal**
 

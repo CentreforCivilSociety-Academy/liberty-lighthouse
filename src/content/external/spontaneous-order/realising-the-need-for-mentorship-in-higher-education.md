@@ -2,20 +2,57 @@
 title: Realising the Need for Mentorship in Higher Education
 original_url: >-
   https://www.spontaneousorder.in/p/realising-the-need-for-mentorship-in-higher-education
+author: Spontaneous Order
 published_at: '2021-11-08T15:02:57.000Z'
 ingested_at: '2026-05-05T08:31:42.286Z'
-source_hash: 62f37d563e503336faed65d6a585d865f7b7cf0b7adf4d06b0af55cfe4fac484
-author: Spontaneous Order
 excerpt: >-
   Gone are the days where one’s educational qualification could land them a
   steady, well-paying job. According to the Report on the Fifth Annual
   Employment-Unemployment Survey 2015-16, a positive correlation was seen
   between unemployment rates and incre..
+summary: >-
+  India's educated youth face rising unemployment, with the Fifth Annual
+  Employment-Unemployment Survey 2015-16 showing a positive correlation between
+  education levels and joblessness, as graduates struggle to match market
+  demands for tech-driven skills. While 85% of candidates seek internships for
+  experience per the India Skills Report 2020, and 94% view apprenticeships as
+  boosting employability, these opportunities often fall short due to inadequate
+  training, heavy workloads, short durations, low industry participation, and
+  implementation bottlenecks. The author argues for a government-mandated
+  mentorship system in higher education to guide job-seekers, citing surveys
+  like Springboard's (87.9% report career catalysis) and others affirming
+  mentorship's role for 79% of millennials. Leveraging NEP 2020's Institution
+  Development Plan, HEIs should implement mentorship via consultations with
+  stakeholders, assigning faculty and industry mentors to student cohorts,
+  fostering industry-academic linkages, and providing support for disadvantaged
+  groups. This systemic guidance would help identify skill gaps, prioritize
+  in-demand tech skills, clarify career paths, and enhance employability in a
+  competitive market, making mentorship a core policy component.
+key_points:
+  - >-
+    Rising educated unemployment in India demands evaluation of job market needs
+    favoring tech skills, where internships and apprenticeships often fail due
+    to poor quality and low uptake.
+  - >-
+    Effective mentorship, valued by 87.9% of professionals per surveys, enables
+    skill prioritization, career clarity, and informed internship choices.
+  - >-
+    Integrate mentorship into NEP 2020's IDP through stakeholder consultations,
+    faculty-industry mentor cohorts in HEIs, and industry partnerships to boost
+    employability.
+topics:
+  - higher-education
+  - employability
+  - mentorship
+  - nep-2020
 tags:
   - mentor
   - Education
   - NEP 2020
   - mentorship
+source_hash: 62f37d563e503336faed65d6a585d865f7b7cf0b7adf4d06b0af55cfe4fac484
+summary_hash: 62f37d563e503336faed65d6a585d865f7b7cf0b7adf4d06b0af55cfe4fac484
+summary_at: '2026-05-05T11:23:48.108Z'
 ---
 **By Manav Lal**
 

@@ -2,15 +2,56 @@
 title: 'Bandhan: A Story of Market-based Financial Inclusion'
 original_url: >-
   https://www.spontaneousorder.in/p/bandhan-a-story-of-market-based-financial-inclusion
+author: Spontaneous Order
 published_at: '2021-01-22T12:02:22.000Z'
 ingested_at: '2026-05-05T08:31:42.352Z'
-source_hash: 1229c58589714765dce86c998e0ec954d7115e545a25a2ef2165972d0a5b7c28
-author: Spontaneous Order
 excerpt: >-
   There has been much effort towards bringing financial inclusion in India. Much
   of these efforts came from the State, and the banking sector was mostly
   unwilling to serve the poor unless they were compelled to. Despite these
   attempts at financial inclusi..
+summary: >-
+  Bandhan Bank, founded by Chandra Sekhar Ghosh from humble origins, exemplifies
+  a classical-liberal success in financial inclusion through market mechanisms,
+  outperforming state-led efforts that failed to serve the poor promptly.
+  Observing moneylenders charging over 700% annual interest to poor vegetable
+  sellers, Ghosh launched Bandhan as an NGO in 2001, transitioned to an NBFC to
+  escape grant dependency, and in 2015 became one of only 15 banks licensed
+  since India's independence—the first in the underbanked East and North-East.
+  This enabled deposit-taking, slashing lending rates from 22.4% to 18.52% and
+  ballooning deposits from INR 12,089 crores in 2016 to INR 66,130 crores in
+  2020. Despite crises like Andhra Pradesh microfinance meltdown,
+  demonetisation, GST, CAA protests, and COVID-19, Bandhan sustained a low gross
+  NPA of 1.2%—better than many peers—by leveraging relationship-based lending,
+  peer pressure as collateral, targeting women, and mobilizing urban funds for
+  rural borrowers. As the 7th largest bank by market cap in 2020, it proves
+  profitability and inclusion are compatible, subverting NPA risks via
+  diversified microloans and due diligence. Markets, not state compulsion, drive
+  sustainable financial inclusion for the unbanked.
+key_points:
+  - >-
+    Chandra Sekhar Ghosh built Bandhan from an NGO to India's 7th largest bank
+    by market cap, pioneering universal banking in the underbanked East.
+  - >-
+    By converting to a bank, Bandhan accessed deposits to cut microloan interest
+    rates from 22.4% to 18.52% and grew deposits from INR 12,089 crores (2016)
+    to INR 66,130 crores (2020).
+  - >-
+    Bandhan achieved a gross NPA of 1.2% through relationship-driven microloans
+    to women, using peer pressure as collateral, proving microfinance
+    profitability serves the poor.
+  - >-
+    Markets enable financial inclusion by combining profit incentives with
+    outreach to unbanked regions, outperforming reluctant state-compelled
+    banking.
+topics:
+  - financial-inclusion
+  - microfinance
+  - private-banking
+  - market-solutions
+source_hash: 1229c58589714765dce86c998e0ec954d7115e545a25a2ef2165972d0a5b7c28
+summary_hash: 1229c58589714765dce86c998e0ec954d7115e545a25a2ef2165972d0a5b7c28
+summary_at: '2026-05-05T09:06:49.894Z'
 ---
 **By Srinidhi R**
 

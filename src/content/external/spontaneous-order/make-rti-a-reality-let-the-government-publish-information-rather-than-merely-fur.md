@@ -4,15 +4,53 @@ title: >-
   Furnish It
 original_url: >-
   https://www.spontaneousorder.in/p/make-rti-a-reality-let-the-government-publish-information-rather-than-merely-furnish-it
+author: Spontaneous Order
 published_at: '2005-06-21T21:59:11.000Z'
 ingested_at: '2026-05-05T08:31:42.729Z'
-source_hash: dc83df1c7dede036266cda73f508c441722854c30dc6b2a7c3b8274700d41e52
-author: Spontaneous Order
 excerpt: >-
   The Right to Information movement in India has come a long way since it
   started a decade ago in India’s desert state of Rajasthan. Volunteers from the
   now famous Mazdoor Kisan Shakti Sangathan began their campaign for a social
   audit of the money the vil
+summary: >-
+  The Right to Information (RTI) Act 2005 in India, born from Rajasthan's
+  Mazdoor Kisan Shakti Sangathan campaign in the 1990s with slogans like 'Our
+  Money, Our Accounts,' empowers citizens to request information but keeps
+  government as master by requiring applications, fees, and discretionary
+  approvals. From the classical-liberal view, this perpetuates subjecthood; true
+  empowerment demands proactive 'suo motu' disclosure where public authorities
+  publish information routinely via websites, hard copies, and accessible means,
+  minimizing RTI requests. The Act nods to this but lacks enforcement. Author
+  Renu Pokharna advocates adopting the UK Freedom of Information Act 2000 model:
+  mandatory publication schemes approved by an independent Information
+  Commissioner, detailing info classes, formats, and charges, with departmental
+  FOI links covering schemes, processes, and releases. Civil society should aid
+  governments in disseminating data like subsidies and tenders to remote areas,
+  quantify most-requested info for automatic release, and strengthen rules
+  despite flawed commissioner appointments by PM-led committees. This shifts
+  debate from what government reveals to what it justifiably hides, fostering a
+  culture of openness and accountability.
+key_points:
+  - >-
+    Push public authorities to proactively publish information suo motu through
+    publication schemes like the UK's, specifying classes, formats, and charges.
+  - >-
+    Civil society groups must assist governments in making information
+    accessible online, in hard copies, and to remote/unlettered citizens.
+  - >-
+    Quantify most-demanded RTI requests to enable automatic voluntary
+    disclosure, monitored by Information Commissioners in annual reports.
+  - >-
+    Adopt independent oversight like UK's Information Commissioner responsible
+    to Parliament to enforce transparency culture.
+topics:
+  - right-to-information
+  - government-transparency
+  - suo-motu-disclosure
+  - civil-society-role
+source_hash: dc83df1c7dede036266cda73f508c441722854c30dc6b2a7c3b8274700d41e52
+summary_hash: dc83df1c7dede036266cda73f508c441722854c30dc6b2a7c3b8274700d41e52
+summary_at: '2026-05-05T10:47:49.997Z'
 ---
 **By Renu Pokharna**
 

@@ -2,20 +2,62 @@
 title: 'The Red Remembrance: 100 Years Of The Russian Revolution'
 original_url: >-
   https://www.spontaneousorder.in/p/the-red-remembrance-100-years-of-the-russian-revolution
+author: Spontaneous Order
 published_at: '2018-07-17T08:22:11.000Z'
 ingested_at: '2026-05-05T08:31:42.543Z'
-source_hash: 6bfa90853308807043510ca94983454b14ef8711bb81f3ec5dd35f6a1624a35e
-author: Spontaneous Order
 excerpt: >-
   Note: The Soviet calendar has been used for all dates. “[…] did the military
   situation generate the domestic crisis which brought about the disintegration
   of the Tsarist regime; or were the pressures and contradictions within the
   social and political
+summary: >-
+  The post recounts the 1917 Russian Revolution, emphasizing the spontaneous
+  February uprising driven by war-induced food shortages and hardships that
+  toppled the Tsarist regime without leadership from any party—purely the will
+  of the people amid WWI failures like equipment shortages, retreats, and 1916
+  harvest drops of 20-40%. Pre-war 1913 saw >5% economic growth and rising
+  capitalism, but underlying labor unrest (e.g., strikes involving 1.4 million
+  in 1914) persisted. The Provisional Government (Duma liberals) shared dual
+  power with the Petrograd Soviet but failed to end the war or address demands,
+  splitting moderate socialists (Mensheviks, SRs). Lenin, returning in April,
+  rejected compromise via his April Theses, rallying Bolsheviks to 'All power to
+  the Soviets!' Their membership surged from 24,000 in February to 350,000 by
+  October. Exploiting government missteps like the July offensive and failed
+  Kornilov coup, Bolsheviks formed Red Guards and seized power in a nearly
+  bloodless October coup, promising peace to soldiers, land to peasants, bread
+  to workers, and self-determination to minorities. From a classical-liberal
+  lens, this highlights spontaneous popular overthrow contrasting Bolsheviks'
+  calculated mastery of mass sentiment over liberal or moderate socialist
+  failures.
+key_points:
+  - >-
+    February 1917 Revolution was spontaneous, people-led overthrow of Tsar due
+    to food shortages, with no party involvement.
+  - >-
+    Provisional Government failed by continuing WWI and compromising with
+    Soviets, alienating masses.
+  - >-
+    Lenin's April Theses shifted Bolsheviks to reject bourgeois government,
+    demand proletarian dictatorship and peace.
+  - >-
+    Bolsheviks grew from 24,000 to 350,000 members by promising concrete gains:
+    peace, land, bread.
+  - >-
+    October coup succeeded bloodlessly as Bolsheviks aligned perfectly with
+    popular aspirations, outmaneuvering rivals.
+topics:
+  - russian-revolution
+  - february-revolution
+  - october-revolution
+  - bolshevik-strategy
 tags:
   - Bolsheviks
   - Russian Revolution
   - Communism
   - Tsardom
+source_hash: 6bfa90853308807043510ca94983454b14ef8711bb81f3ec5dd35f6a1624a35e
+summary_hash: 6bfa90853308807043510ca94983454b14ef8711bb81f3ec5dd35f6a1624a35e
+summary_at: '2026-05-05T12:34:15.252Z'
 ---
 **By Rishika Yadav**
 

@@ -2,15 +2,48 @@
 title: Did You Know That Flying A Kite Could Land You In Jail?
 original_url: >-
   https://www.spontaneousorder.in/p/did-you-know-that-flying-a-kite-could-land-you-in-jail
+author: Spontaneous Order
 published_at: '2018-08-02T10:25:37.000Z'
 ingested_at: '2026-05-05T08:31:42.536Z'
-source_hash: a01573d4888fede7cbc7964330214674acf14ee48f2cfa862e7052c6658053af
-author: Spontaneous Order
 excerpt: >-
   Makar Sakranti, a joy-filled festival marking the end of winter solstice, also
   marks the start of the renowned International Kite Festival (Uttarayan) hosted
   annually in Gujarat. Welcoming participants from all over the world, the
   festival is one of the..
+summary: >-
+  The Aircraft Act of 1934 absurdly classifies kites and balloons as 'aircraft',
+  requiring licenses for their manufacture, use, and maintenance, with
+  violations under Section 11 punishable by up to 2 years in prison or a fine of
+  10 lakh rupees for causing 'danger'. This colonial-era law equates harmless
+  festive items—like those flown during Gujarat's International Kite Festival
+  (Uttarayan), Makar Sankranti, or Independence Day—with serious machines such
+  as airships and gliders, imposing unreasonable overregulation on commonplace
+  activities. The Act's vague definition of 'danger' enables arbitrary state
+  harassment, potentially targeting children with balloons or kite competitions.
+  Despite India's recent aggressive repeal of obsolete laws, this 84-year-old
+  statute persists, exemplifying regulatory excess out of step with modern
+  realities. From a classical-liberal perspective, the post stresses the need
+  for amendment to curb state overreach and restore sensible freedoms in
+  everyday joys like kite-flying.
+key_points:
+  - >-
+    Aircraft Act 1934 defines kites and balloons as 'aircraft' requiring
+    licenses for use.
+  - >-
+    Section 11 punishes flying that causes 'danger' with up to 2 years jail or
+    10 lakh rupees fine.
+  - >-
+    Vague 'danger' definition allows state manipulation against harmless
+    activities like kite festivals.
+  - >-
+    Law equates kites with airships, demanding identical regulation despite vast
+    differences.
+  - Urges amendment of this obsolete colonial law amid broader repeal efforts.
+topics:
+  - aircraft-act
+  - overregulation
+  - colonial-laws
+  - regulatory-reform
 tags:
   - aircraft act
   - Repeal of Laws
@@ -18,6 +51,9 @@ tags:
   - Laws with Flaws
   - Archaic Laws
   - kite
+source_hash: a01573d4888fede7cbc7964330214674acf14ee48f2cfa862e7052c6658053af
+summary_hash: a01573d4888fede7cbc7964330214674acf14ee48f2cfa862e7052c6658053af
+summary_at: '2026-05-05T09:33:44.973Z'
 ---
 **By Akshita Mathur**
 

@@ -2,20 +2,57 @@
 title: India’s vs. China’s Responses to Inequality and Growth
 original_url: >-
   https://www.spontaneousorder.in/p/indias-vs-chinas-responses-to-inequality-and-growth
+author: Spontaneous Order
 published_at: '2012-04-12T11:35:00.000Z'
 ingested_at: '2026-05-05T08:31:42.624Z'
-source_hash: a5c8b360395fdac2eb493de583bfe1c51c3247c3e5f04abaca33d7e71a01bb54
-author: Spontaneous Order
 excerpt: >-
   Three interesting articles have appeared this week comparing the Indian and
   Chinese governments responses to inequality and economic growth: Give us
   growth and we’ll handle the inequality by Manas Chakravarty ADB acknowledges
   that rapid growth in Asia h
+summary: >-
+  Andrew Humphries curates three articles contrasting India’s and China’s
+  government responses to inequality and economic growth from a
+  classical-liberal lens. Manas Chakravarty cites the ADB acknowledging that
+  rapid Asian growth has lifted millions from poverty, suggesting growth-first
+  approaches handle inequality. Niranjan Rajadhyaksha observes that India-China
+  growth rates converge decennially, but China then accelerates ahead.
+  Swaminathan S. A. Aiyar argues India will surpass China because extractive
+  autocratic institutions stifle creative destruction essential for sustained
+  prosperity, benefiting only elites temporarily. Humphries probes whether
+  democratic regimes inherently enable more creative destruction than
+  autocracies, cautioning that democracies can foster extraction by majorities
+  from minorities, tribalism, or conservative resistance to change—threatening
+  liberty. He posits economic freedom as potentially more vital for long-term
+  prosperity than voting rights or a free press, aligning with classical-liberal
+  emphasis on markets over political forms.
+key_points:
+  - >-
+    Rapid Asian growth has lifted millions from poverty, per ADB, supporting
+    growth-prioritizing policies.
+  - China repeatedly outpaces India in growth after periodic convergences.
+  - >-
+    Extractive autocracies like China's hinder creative destruction needed for
+    broad prosperity, unlike India's democracy argues Aiyar.
+  - >-
+    Democracies risk extractive politics via majority rule or fear of change,
+    undermining creative destruction.
+  - >-
+    Economic freedom may outweigh voting rights and free press for sustained
+    freedom and prosperity.
+topics:
+  - india-china-comparison
+  - economic-growth
+  - creative-destruction
+  - economic-freedom
 tags:
   - India
   - India v/s China
   - China
   - economic liberty
+source_hash: a5c8b360395fdac2eb493de583bfe1c51c3247c3e5f04abaca33d7e71a01bb54
+summary_hash: a5c8b360395fdac2eb493de583bfe1c51c3247c3e5f04abaca33d7e71a01bb54
+summary_at: '2026-05-05T10:24:42.755Z'
 ---
 **By Andrew Humphries**
 

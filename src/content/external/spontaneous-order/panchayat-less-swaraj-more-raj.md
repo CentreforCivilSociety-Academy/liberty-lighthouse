@@ -1,15 +1,51 @@
 ---
 title: 'Panchayat: Less Swaraj, More Raj'
 original_url: 'https://www.spontaneousorder.in/p/panchayat-less-swaraj-more-raj'
+author: Spontaneous Order
 published_at: '2020-04-16T13:35:34.000Z'
 ingested_at: '2026-05-05T08:31:42.427Z'
-source_hash: a513581f8471c54431071a05b406e8c7da08f75c03aa135c651bbaa1782aa8ea
-author: Spontaneous Order
 excerpt: >-
   Set in the backdrop of Phulera, a nondescript village in Ballia, Uttar
   Pradesh, Panchayat is a sharp commentary on the functioning of local
   governance in India. The storyline follows the travails of Abhishek Mishra, a
   frustrated lower-middle-class Delhi..
+summary: >-
+  Through the lens of the TV show Panchayat, set in a Uttar Pradesh village
+  where 30% live in poverty, Sanjeet Kashyap critiques India's local governance
+  as inefficient, corrupt, and paternalistic, imposing democratic structures on
+  traditional societies without accountability. The series depicts MGNREGA
+  failures like dry ponds and misplaced solar lights from MPLADS funds, echoing
+  a 2009 NCAER-PIF report on poor asset quality, leakages, and labor market
+  distortions; Kashyap advocates direct cash transfers per Bhagwati and
+  Panagariya to enable productive private activity and fiscal consolidation.
+  Corruption thrives as panchayat leaders install public assets for private
+  gain, underscoring the need for genuine power devolution alongside active
+  civic participation beyond quinquennial elections. State paternalism in family
+  planning, via shaming slogans, ignores evidence linking fertility decline to
+  women's education, labor participation, and economic growth, favoring
+  empowerment and job creation instead. Gendered power dynamics reveal proxy
+  rule by 'Mukhiya Patis' despite women's reservations, while hierarchy and
+  arrogance perpetuate a 'two-track democracy.' Though the show ends with a
+  bureaucratic savior trope, Kashyap insists individual fixes cannot substitute
+  for systemic classical-liberal reforms reducing state overreach.
+key_points:
+  - >-
+    Replace MGNREGA with direct cash transfers to curb leakages, improve labor
+    markets, and enable private productivity.
+  - >-
+    Promote genuine devolution of power to panchayats coupled with active civic
+    participation to combat corruption beyond mere elections.
+  - >-
+    Shift population control from shaming campaigns to policies boosting women's
+    empowerment, education, and economic growth.
+  - >-
+    Address proxy representation by husbands in women's reserved panchayat seats
+    to realize true local self-governance.
+topics:
+  - local-governance
+  - panchayats
+  - welfare-schemes
+  - population-control
 tags:
   - corruption in India
   - Public Policy
@@ -18,6 +54,9 @@ tags:
   - panchayats
   - Governance
   - MGNREGA
+source_hash: a513581f8471c54431071a05b406e8c7da08f75c03aa135c651bbaa1782aa8ea
+summary_hash: a513581f8471c54431071a05b406e8c7da08f75c03aa135c651bbaa1782aa8ea
+summary_at: '2026-05-05T11:11:42.817Z'
 ---
 **By Sanjeet Kashyap**
 

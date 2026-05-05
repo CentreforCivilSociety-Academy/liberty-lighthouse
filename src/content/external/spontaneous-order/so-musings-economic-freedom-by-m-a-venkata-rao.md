@@ -2,19 +2,58 @@
 title: 'SO Musings: Economic Freedom by M.A. Venkata Rao'
 original_url: >-
   https://www.spontaneousorder.in/p/so-musings-economic-freedom-by-m-a-venkata-rao
+author: Spontaneous Order
 published_at: '2020-12-04T16:24:36.000Z'
 ingested_at: '2026-05-05T08:31:42.364Z'
-source_hash: 8d57278f7cc7d85cdd4a43accb727964257e937c3a9c9a4378241c945b262bc0
-author: Spontaneous Order
 excerpt: >-
   The ideal of ‘Freedom’ is cherished and sought by thinkers of all ideological
   hues. However, when it comes to the specifics of the concept, philosophers
   hold widely divergent views. Over time these different views of the idea of
   Freedom come to be gro
+summary: >-
+  M.A. Venkata Rao, in a 1958 Indian Libertarian article, deconstructs economic
+  freedom, highlighting the divide between positive and negative conceptions
+  that splits the modern left and right. Left-leaning intellectuals view
+  negative economic freedom as capitalist exploitation of workers, claiming true
+  freedom exists only in socialist societies; Rao counters this by examining the
+  Soviet Union, where such ideals failed. He argues leftist thought—manifesting
+  in socialism and communism—gains fanatic hold through emotion: sympathy for
+  the underdog mixed with hatred for society's favored, amplified by inability
+  to experiment socially or measure outcomes under dictatorships. Socialism
+  originated from frustration post-French Revolution, where political democracy
+  granted legal equality and franchise but left workers powerless against
+  capitalists without capital, failing to deliver economic freedom alongside
+  political liberty. Reformers' faulty analysis of economic processes led to
+  erroneous remedies, blinded by 19th-century European humanitarianism
+  (excluding Asia/Africa) and Marx's politicization of masses via hunger,
+  jealousy, and greed, promising immediate economic salvation. From a
+  classical-liberal lens, this emotional current overrides rational refinement,
+  perpetuating flawed policies.
+key_points:
+  - >-
+    Leftists equate negative economic freedom with capitalist exploitation,
+    seeing true freedom only in socialism, but Soviet evidence contradicts this.
+  - >-
+    Leftist ideologies thrive on emotional sympathy for underdogs and hatred for
+    the privileged, hindering objective analysis.
+  - >-
+    Socialism arose from post-French Revolution frustration that political
+    democracy failed to grant workers economic bargaining power without capital.
+  - >-
+    Reformers' faulty economic analysis, fueled by humanitarianism and Marxism,
+    produced misguided remedies like communism.
+topics:
+  - economic-freedom
+  - negative-freedom
+  - socialism-critique
+  - classical-liberalism
 tags:
   - economic freedom
   - Indian liberals
   - economy
+source_hash: 8d57278f7cc7d85cdd4a43accb727964257e937c3a9c9a4378241c945b262bc0
+summary_hash: 8d57278f7cc7d85cdd4a43accb727964257e937c3a9c9a4378241c945b262bc0
+summary_at: '2026-05-05T11:55:49.335Z'
 ---
 **By Spontaneous Order**
 

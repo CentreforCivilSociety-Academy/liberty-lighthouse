@@ -2,15 +2,48 @@
 title: Can Public Goods be Provided without the State?
 original_url: >-
   https://www.spontaneousorder.in/p/can-public-goods-be-provided-without-the-state
+author: Spontaneous Order
 published_at: '2015-07-28T14:55:38.000Z'
 ingested_at: '2026-05-05T08:31:42.578Z'
-source_hash: e5cffee6334dd33418b2d9abc50a539488908b3e65e4136bfa320765c6180dfd
-author: Spontaneous Order
 excerpt: >-
   “If I had money, I would build roads; if I had more money, I would build more
   roads; if I had even more money, I would build even more roads” –Sauvik
   Chakraverti Some time back, people from 11 villages came together and managed
   to gather over Rs. 1
+summary: >-
+  Ujwal Batra challenges the conventional economic argument that public goods
+  like roads and bridges cannot be provided by markets or voluntary means due to
+  non-excludability and free-rider problems. He cites a real-world example where
+  residents of 11 Haryana villages crowdfunded over Rs. 1 crore to build a
+  bridge connecting them to nearby towns, reducing travel distance by 30 km for
+  farm produce markets—achieved in one year after three decades of futile
+  government wrangling. Contributors included laborers giving Rs. 500 and widows
+  donating Rs. 1,000, prioritizing community over politicians. Batra argues that
+  if the state ceased providing such infrastructure, society would innovate
+  alternatives, driven by the enormous economic gains from transportation vital
+  for trade, commerce, and bridging rural-urban divides in isolated rural India.
+  While not advocating state withdrawal, he emphasizes the feasibility of
+  private, voluntary provision and calls for replicating such crowdfunding for
+  roads, bridges, and utilities, drawing parallels to ambitious campaigns like
+  one for Greece's bailout.
+key_points:
+  - >-
+    Villagers from 11 Haryana villages raised Rs. 1 crore via crowdfunding to
+    build a bridge in one year, after 30 years of government inaction.
+  - >-
+    Public goods like infrastructure can be provided through voluntary community
+    efforts despite theoretical market failures.
+  - >-
+    Society would develop mechanisms to supply vital transportation if the state
+    stopped, due to massive economic benefits for trade and rural connectivity.
+  - >-
+    Replicate crowdfunding models for roads, bridges, and public utilities to
+    empower communities over bureaucratic delays.
+topics:
+  - public-goods
+  - infrastructure
+  - crowdfunding
+  - rural-development
 tags:
   - roads
   - Public Goods
@@ -19,6 +52,9 @@ tags:
   - Bridges
   - rural India
   - crowdfunding
+source_hash: e5cffee6334dd33418b2d9abc50a539488908b3e65e4136bfa320765c6180dfd
+summary_hash: e5cffee6334dd33418b2d9abc50a539488908b3e65e4136bfa320765c6180dfd
+summary_at: '2026-05-05T09:15:28.663Z'
 ---
 **By Ujwal Batra**
 

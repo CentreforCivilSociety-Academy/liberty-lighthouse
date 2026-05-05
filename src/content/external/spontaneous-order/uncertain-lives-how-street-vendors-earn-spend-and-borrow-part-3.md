@@ -2,19 +2,61 @@
 title: 'Uncertain Lives: How Street Vendors Earn, Spend and Borrow- Part 3'
 original_url: >-
   https://www.spontaneousorder.in/p/uncertain-lives-how-street-vendors-earn-spend-and-borrow-part-3
+author: Spontaneous Order
 published_at: '2019-03-14T13:43:32.000Z'
 ingested_at: '2026-05-05T08:31:42.499Z'
-source_hash: a5965d32b75116a1f68b2d30fb17557ae6d6c62ec59f65e16db6e05af7157be0
-author: Spontaneous Order
 excerpt: >-
   Subziwallahs: Pandey Brothers The Pandey brothers – Mahesh (33) and Ajay (27)
   – run a vegetable and fruit stall in Delhi. The earnings from their business
   support their joint family of twelve members that includes their respective
   wives and five child
+summary: >-
+  The Pandey brothers, Mahesh (33) and Ajay (27), exemplify resilient street
+  vendor entrepreneurship in Delhi, supporting a joint family of
+  twelve—including wives, five children, elderly parents, and a nephew—with
+  daily profits of ₹3000 from a 12x7-foot rent-free roadside vegetable and fruit
+  stall. Starting from humble beginnings as laborers in Sahibabad Mandi, they
+  bootstrapped their business fourteen years ago, graduating from pushcarts to a
+  fixed stall. Their grueling routine begins at 4am: buying 200kg of produce for
+  ≤₹10,000 cash (no auctions or credit for small vendors), loading via rented
+  tempo, meticulously arranging displays, and selling 80% of inventory during
+  peak hours (9am-12pm, 5-8pm). Winters boost profits due to higher supply,
+  lower spoilage, increased demand, and reduced competition. Despite following
+  rules—no plastic bags, licensed, clean pavement—they endure extreme weather,
+  police/MCD harassment, and worsening customer callousness fueled by online
+  platforms like Bigbasket and Amazon. Customers snap produce, demand unpayable
+  credit, haggle endlessly, and treat them as dispensable, eroding their
+  dignity. With ₹70,000 in savings, a home, and car loan, they question if their
+  sincere efforts to deliver fresh, desi produce at low prices are worth it,
+  feeling trapped without alternatives in India's informal economy.
+key_points:
+  - >-
+    Pandey brothers earn ₹3000 daily profit supporting 12 family members by
+    buying 200kg vegetables/fruits for ≤₹10,000 cash from mandi and selling 80%
+    from their stall.
+  - >-
+    They meticulously style displays and maintain quality despite no access to
+    auctions, discounts, or credit available to larger traders.
+  - >-
+    Customer behaviors—snapping produce, demanding credit, endless haggling—hurt
+    more than weather or official harassment, amid competition from online
+    platforms.
+  - >-
+    Despite licensing, cleanliness, and no plastic use, authorities and some
+    patrons view them as tricksters, undervaluing their hard work and
+    enterprise.
+topics:
+  - street-vendors
+  - informal-economy
+  - family-enterprise
+  - urban-livelihoods
 tags:
   - Street Vendor Bill
   - livelihood
   - street vendors
+source_hash: a5965d32b75116a1f68b2d30fb17557ae6d6c62ec59f65e16db6e05af7157be0
+summary_hash: a5965d32b75116a1f68b2d30fb17557ae6d6c62ec59f65e16db6e05af7157be0
+summary_at: '2026-05-05T12:49:20.355Z'
 ---
 **By Ananya Patel**
 

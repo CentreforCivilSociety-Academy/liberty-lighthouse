@@ -1,20 +1,63 @@
 ---
 title: The Dilemma of Online Free Speech
 original_url: 'https://www.spontaneousorder.in/p/the-dilemma-of-online-free-speech'
+author: Spontaneous Order
 published_at: '2021-08-19T13:37:17.000Z'
 ingested_at: '2026-05-05T08:31:42.298Z'
-source_hash: d0f840599fb317c3d4cca636da639eed164711bcbbf175a13e10239814933a83
-author: Spontaneous Order
 excerpt: >-
   The fundamental unit of a Liberal democracy such as ours is the rational
   individual endowed with civil, economic and political rights. Among the most
   crucial of these is the right to free speech. This, however, is not an
   absolute right and hence poses a..
+summary: >-
+  In a liberal democracy centered on the rational individual with rights
+  including free speech, the Indian state employs 'reasonable restrictions'
+  under Article 19(2) and extraordinary laws like UAPA (1967, amended 2019) and
+  colonial-era Sedition Law (IPC Section 124A) to curb dissent, enabling
+  detention up to 180 days without charges and targeting activists, journalists,
+  and students—evidenced by 5,128 UAPA cases and 229 sedition cases from
+  2015-19, yet conviction rates below 2% for UAPA and 3.3% for sedition per NCRB
+  data. This misuse, amid India's downgrade to 'Partly Free' by Freedom House,
+  reflects collectivist Hindutva trends prioritizing state control over
+  individual liberty. Online, post-2015 Shreya Singhal victory striking down IT
+  Act Section 66A, 2021 IT Rules empower government to mandate traceability of
+  messages, content takedowns for 'sovereignty' threats, and grievance
+  mechanisms, turning platforms into state extensions and undermining
+  spontaneous social orders. Drawing on public choice theory, Hayek, and
+  Spooner, the author argues self-interested state actors cannot justly regulate
+  speech, as individuals rationally filter information; regulations foster
+  tyranny, stifling dissent and progress toward a free society emergent from
+  human action, not design. The dilemma demands pushing back state moral
+  authority to protect political speech and liberty.
+key_points:
+  - >-
+    Indian laws like UAPA and sedition have been used in 5,128 and 229 cases
+    (2015-19) against dissenters, with conviction rates under 4%, indicating
+    misuse for suppression.
+  - >-
+    2021 IT Rules allow government to compel social media intermediaries to
+    trace message originators and remove content deemed harmful to sovereignty,
+    threatening user privacy and speech.
+  - >-
+    Classical-liberal theory posits government as self-interested, making speech
+    regulation prone to abuse rather than benevolent protection, as per public
+    choice and Hayek.
+  - >-
+    State overreach on online speech undermines spontaneous orders and
+    individual liberty, warranting minimal or absolute free speech protections.
+topics:
+  - free-speech
+  - online-censorship
+  - uapa
+  - sedition-law
 tags:
   - social media
   - Free Speech
   - Freedom
   - Government
+source_hash: d0f840599fb317c3d4cca636da639eed164711bcbbf175a13e10239814933a83
+summary_hash: d0f840599fb317c3d4cca636da639eed164711bcbbf175a13e10239814933a83
+summary_at: '2026-05-05T12:24:06.104Z'
 ---
 **By Sanjana Sitaraman**
 

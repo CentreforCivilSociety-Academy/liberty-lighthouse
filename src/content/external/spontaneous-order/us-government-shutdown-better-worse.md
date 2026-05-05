@@ -1,15 +1,50 @@
 ---
 title: 'US Government Shutdown: For Better or for Worse?'
 original_url: 'https://www.spontaneousorder.in/p/us-government-shutdown-better-worse'
+author: Spontaneous Order
 published_at: '2013-10-14T13:44:00.000Z'
 ingested_at: '2026-05-05T08:31:42.600Z'
-source_hash: 8741488451a8a930189730ec8b975d04b28af50131a2b1a9ebee3af926fa6146
-author: Spontaneous Order
 excerpt: >-
   The United States federal government shut down on 1 October 2013 as
   Republican-led House of Representatives (commonly known as “the Congress”)
   failed to pass a budget or a continuing resolution for the fiscal year
   beginning October 1. At the heart of
+summary: >-
+  The 2013 US government shutdown, triggered by Republican efforts to defund
+  Obamacare and cut spending amid debt ceiling debates, is portrayed positively
+  as it enforces separation of powers and sparks necessary debate on bloated
+  government. President Obama's letter praises essential services like national
+  security and parks but omits burdensome activities such as regulations, taxes,
+  and clearances that hinder daily life, glossing over them with 'and much
+  more.' Federal spending ballooned from $114 billion in 1960 to $3,923 billion
+  in 2012—a 3,600% increase at 7.27% annually—raising questions about necessity.
+  Drawing on Hayek's distinction in *Law, Legislation and Liberty*, the author
+  differentiates spontaneous, judge-found common law from top-down legislation
+  by parliaments, arguing much modern government activity is illegitimate
+  overreach. Not all legislation is lawful; many laws could be scrapped for
+  societal benefit. The US shutdown mechanism is beneficial, akin to India's
+  underused Fiscal Responsibility and Budget Management Act of 2003, which
+  should have binding limits to curb expanding government and enforce
+  discipline.
+key_points:
+  - >-
+    US federal spending surged 3,600% from $114 billion in 1960 to $3,923
+    billion in 2012, averaging 7.27% annual growth.
+  - >-
+    Hayek distinguishes spontaneous common law, evolved from social
+    expectations, from top-down legislation that often exceeds legitimate
+    government bounds.
+  - >-
+    Government shutdowns like the 2013 US event usefully force debate on
+    spending cuts and overreach via separation of powers.
+  - >-
+    India's FRBM Act 2003 should impose binding fiscal limits to prevent
+    redundant flirting with expenditure ceilings.
+topics:
+  - government-spending
+  - fiscal-responsibility
+  - law-vs-legislation
+  - hayek
 tags:
   - Obamacare
   - government shutdown
@@ -18,6 +53,9 @@ tags:
   - Friedrich Hayek
   - Libertarianism
   - Barack Obama
+source_hash: 8741488451a8a930189730ec8b975d04b28af50131a2b1a9ebee3af926fa6146
+summary_hash: 8741488451a8a930189730ec8b975d04b28af50131a2b1a9ebee3af926fa6146
+summary_at: '2026-05-05T12:51:41.479Z'
 ---
 **By Kumar Anand**
 

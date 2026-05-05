@@ -2,15 +2,59 @@
 title: How India’s Proprietary Classes Shrink Economic Growth
 original_url: >-
   https://www.spontaneousorder.in/p/how-indias-proprietary-classes-shrink-economic-growth
+author: Spontaneous Order
 published_at: '2024-08-09T15:29:29.000Z'
 ingested_at: '2026-05-05T08:31:42.712Z'
-source_hash: 8a5aae6b60b05e47cb772b796796e3fb57a03027c0e33572bd7b165d029e5434
-author: Spontaneous Order
 excerpt: >-
   The economic history of India, especially the history of India’s central
   planning era, is a complex interplay of ideology, policy, and their unintended
   consequences. To get a view on how events unfolded and to identify the power
   and politics behind them
+summary: >-
+  India's economic stagnation, particularly during central planning, stems from
+  rent-seeking by three proprietary classes—large and medium businesses, large
+  and medium farmers, and professional salaried classes including
+  bureaucrats—who lobby for subsidies, tariffs, and regulations that protect
+  their interests at the expense of overall growth, as analyzed by Pranab
+  Bardhan. Businesses secured licensing and protection from foreign competition,
+  leading to cronyism where by 1976 the top 20 houses controlled two-thirds of
+  private corporate capital, yet per capita income stagnated despite industrial
+  output gains from 1950-1980. Rich farmers, 19% of rural population but
+  controlling 60% of cultivated area and 53% of output in 1975, allied with
+  smaller farmers for subsidized irrigation, electricity, and credit, and
+  continue lobbying for high support prices. Professionals directed education
+  away from masses to preserve elite status and licensing rents in an
+  anti-profit environment. These coalitions caused collective action problems,
+  persisting post-1991 liberalization with unchanged public enterprises, failed
+  farm reforms, manufacturing workforce share dropping from 12.6% in 2011 to
+  11.4% in 2022, and GDP share at 17% versus promised 25%. Bardhan's framework
+  reveals how such interest group politics shrinks growth, urging recognition
+  for political stability but highlighting classical-liberal critiques of
+  interventionism.
+key_points:
+  - >-
+    Three proprietary classes—businesses, rich farmers, and professionals—engage
+    in rent-seeking via subsidies and regulations, causing India's economic
+    stagnation.
+  - >-
+    By 1976, top 20 business houses controlled two-thirds of private corporate
+    capital through licensing and protectionism, failing to boost per capita
+    income.
+  - >-
+    Rich farmers (19% of rural population) dominated 60% of cultivated area in
+    1975 and secured ongoing subsidies like cheap electricity and credit.
+  - >-
+    Post-1991, manufacturing's GDP share remains at 17% (2022) below 25% target,
+    with workforce share falling to 11.4%, due to persistent interest group
+    influence.
+topics:
+  - rent-seeking
+  - political-economy
+  - indian-economy
+  - interest-groups
+source_hash: 8a5aae6b60b05e47cb772b796796e3fb57a03027c0e33572bd7b165d029e5434
+summary_hash: 8a5aae6b60b05e47cb772b796796e3fb57a03027c0e33572bd7b165d029e5434
+summary_at: '2026-05-05T10:12:04.576Z'
 ---
 **By Anshu Chowdhury**
 

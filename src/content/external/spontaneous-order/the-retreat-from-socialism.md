@@ -1,21 +1,55 @@
 ---
 title: 'SO Musings: The Retreat from Socialism'
 original_url: 'https://www.spontaneousorder.in/p/the-retreat-from-socialism'
+author: Spontaneous Order
 published_at: '2019-03-27T10:49:28.000Z'
 ingested_at: '2026-05-05T08:31:42.494Z'
-source_hash: 74e26dfab9c47eb59b3c2265332787edcb014d787975b66fb15172834377df41
-author: Spontaneous Order
 excerpt: >-
   The reason for the retreat from socialism is that societies that tried to base
   their economies on ownership by the State, economic equality and the
   replacement of the market by the command of the bureaucracy, simply did not
   work. Such societies produced..
+summary: >-
+  The retreat from socialism occurred because state-owned economies, premised on
+  economic equality and bureaucratic command over markets, empirically failed to
+  deliver promised benefits. From a classical-liberal perspective, socialist
+  societies provided markedly less individual freedom than capitalist ones, with
+  communist regimes in Eastern Europe and China offering none despite
+  theoretical claims. Workers and peasants did not work harder for state or
+  collective enterprises, motivated instead by the same carrot-and-stick
+  incentives as under capitalism, resulting in greater slackness, pilfering
+  among workers, and corruption among managers. On the material front, initial
+  production spurts gave way to slower economic growth rates compared to
+  market-reliant societies. Agriculture exemplified this failure: the Soviet
+  Union, controlling one-sixth of the world's land surface, could not feed
+  itself 70 years after its revolution. These realities underscore the
+  superiority of market mechanisms in fostering both freedom and prosperity over
+  socialist central planning.
+key_points:
+  - >-
+    Socialist economies delivered less individual freedom than capitalist ones,
+    with zero freedom in communist states like Eastern Europe and China.
+  - >-
+    Workers under socialism showed no greater effort, exhibiting more slackness,
+    pilfering, and managerial corruption than in capitalist systems.
+  - Socialist growth rates lagged behind market economies after initial spurts.
+  - >-
+    Soviet agriculture failed catastrophically, unable to feed the nation
+    despite vast land resources 70 years post-revolution.
+topics:
+  - socialism
+  - economic-freedom
+  - market-economy
+  - agricultural-failure
 tags:
   - SO Musings
   - B K Nehru
   - C D Deshmukh
   - socialism
   - Liberalism
+source_hash: 74e26dfab9c47eb59b3c2265332787edcb014d787975b66fb15172834377df41
+summary_hash: 74e26dfab9c47eb59b3c2265332787edcb014d787975b66fb15172834377df41
+summary_at: '2026-05-05T12:34:51.940Z'
 ---
 **By Spontaneous Order**
 

@@ -2,15 +2,51 @@
 title: Looking beyond the Binaries of Aadhaar and Right to Privacy
 original_url: >-
   https://www.spontaneousorder.in/p/looking-beyond-the-binaries-of-aadhaar-and-privacy
+author: Spontaneous Order
 published_at: '2018-10-09T05:28:00.000Z'
 ingested_at: '2026-05-05T08:31:42.513Z'
-source_hash: 9067c1dd809b740f374ffa59273c381f953ad163baba5ea199e874e6ab753352
-author: Spontaneous Order
 excerpt: >-
   In today’s age of omnipresent data threats and rising bridges of disparity, a
   proactive step towards the casting of a pre- emptive safety net should be seen
   separately from the incidental authoritarian rhetoric that it comes wrapped
   in. Reducing the con
+summary: >-
+  Akshita Mathur argues that Aadhaar should not be dismissed through binaries of
+  authoritarianism versus privacy, as its core purpose is to combat corruption
+  and resource leakages in state machinery like the PDS, provide a standard
+  national ID for linking services, and enable direct benefit transfers for
+  efficient welfare delivery. From a classical-liberal lens, Aadhaar promises
+  futuristic benefits such as individual accountability amid online
+  misinformation, equal access to services for the poor, and bureaucratic
+  efficiency by minimizing paperwork—mirroring private sector innovations by
+  Google and Amazon that personalize services through data collection, which are
+  praised rather than criticized. While acknowledging data as 'the new oil' per
+  The Economist and the urgent need for privacy protections, Mathur contends the
+  real issue is inadequate data safeguards, not Aadhaar itself. She urges
+  clarifying the right to privacy case-by-case rather than declaring it a
+  blanket fundamental right immediately, to avoid legal loopholes harming public
+  and private interests, such as in contract law. Progress includes a Supreme
+  Court nine-judge bench on privacy as fundamental and a panel on Aadhaar data
+  protection; judicial maturity should guide nuanced handling to balance
+  innovation and safeguards.
+key_points:
+  - >-
+    Aadhaar was designed to reduce corruption in welfare schemes like PDS
+    through direct benefit transfers and unified identity services.
+  - >-
+    Private companies like Google and Amazon are lauded for data-driven
+    efficiencies that Aadhaar similarly enables for public services.
+  - >-
+    Right to privacy must be clarified case-by-case to prevent legal loopholes,
+    rather than hastily deeming it a fundamental right.
+  - >-
+    Strengthen data protection frameworks via judicial backing, as seen in the
+    ongoing Supreme Court privacy hearings and Aadhaar data panel.
+topics:
+  - aadhaar
+  - right-to-privacy
+  - data-protection
+  - welfare-efficiency
 tags:
   - Data Protection
   - akshita
@@ -18,6 +54,9 @@ tags:
   - akshita mathur
   - Aadhaar
   - data protection India
+source_hash: 9067c1dd809b740f374ffa59273c381f953ad163baba5ea199e874e6ab753352
+summary_hash: 9067c1dd809b740f374ffa59273c381f953ad163baba5ea199e874e6ab753352
+summary_at: '2026-05-05T10:44:58.680Z'
 ---
 **By Akshita Mathur**
 

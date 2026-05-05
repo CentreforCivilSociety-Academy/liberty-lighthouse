@@ -2,21 +2,55 @@
 title: 'Social Justice Vs. Socialism: C. Rajagopalachari'
 original_url: >-
   https://www.spontaneousorder.in/p/social-justice-vs-socialism-c-rajagopalachari
+author: Spontaneous Order
 published_at: '2018-08-02T09:55:33.000Z'
 ingested_at: '2026-05-05T08:31:42.536Z'
-source_hash: 923502529b49fedb02c1c62dfa233014487174aabcb1292f3723a311bbea7ff2
-author: Spontaneous Order
 excerpt: >-
   The Swatantra Party stands for social justice as such as it firmly opposes
   statism. Social justice is a great and proper aim for all good governments to
   work for and it is included in the aims of the 1950 Constitution of India. But
   socialism is a wrongl..
+summary: >-
+  C. Rajagopalachari argues that the Swatantra Party supports social justice,
+  enshrined in India's 1950 Constitution, but firmly opposes socialism as a
+  misguided, statist means that curtails national production essential for true
+  social justice. Socialism's policies—expropriation, wealth ceilings, and heavy
+  taxation—act as disincentives to work, investment, and greater production,
+  leading to diminishing returns and making social justice measures impossible.
+  He invokes Gandhian ethics against immoral, envy-driven tactics like pulling
+  down capitalists, emphasizing simple arithmetic over ideological biases.
+  Rejecting a suggested name change for the Swatantra Party to counter lies
+  portraying it as a tool for the rich, Rajagopalachari insists on persistently
+  explaining its anti-statist stance through speeches and writings. He warns of
+  state governments' bills treating the Constitution as scrap paper, risking the
+  wrecking of democracy, imposition of serfdom akin to communist countries,
+  total state control, and vulnerability to Communist China's imperialism amid
+  the current drift.
+key_points:
+  - >-
+    Swatantra Party endorses social justice but rejects socialism for curbing
+    production via expropriation, ceilings, and heavy taxes.
+  - >-
+    Increased production is essential for social justice, which socialist
+    disincentives undermine through diminishing returns.
+  - 'Gandhian ethics prohibit socialism''s hateful, violent means to good ends.'
+  - >-
+    Party name change won't dispel lies; must explain truth to warn against
+    constitutional subversion and dictatorship.
+topics:
+  - social-justice
+  - anti-socialism
+  - swatantra-party
+  - indian-constitution
 tags:
   - Indian liberals
   - C Rajagopalachari
   - socialism
   - Liberalism
   - Social Justice
+source_hash: 923502529b49fedb02c1c62dfa233014487174aabcb1292f3723a311bbea7ff2
+summary_hash: 923502529b49fedb02c1c62dfa233014487174aabcb1292f3723a311bbea7ff2
+summary_at: '2026-05-05T12:04:59.894Z'
 ---
 **By Spontaneous Order**
 

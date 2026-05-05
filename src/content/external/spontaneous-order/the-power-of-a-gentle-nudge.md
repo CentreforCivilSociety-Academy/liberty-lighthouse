@@ -1,20 +1,55 @@
 ---
 title: The Power of a Gentle Nudge!
 original_url: 'https://www.spontaneousorder.in/p/the-power-of-a-gentle-nudge'
+author: Spontaneous Order
 published_at: '2018-10-31T12:57:38.000Z'
 ingested_at: '2026-05-05T08:31:42.511Z'
-source_hash: 3cd87aa105d3be3aac28cba50e60f6206032eefd16b03b098052c6704020a7c3
-author: Spontaneous Order
 excerpt: >-
   RINGG. RINNGGG. RINNNGGGG. Snooze. Repeat. Most of us are unfortunately too
   familiar with this scenario: we set the alarm for early morning with the
   intention of getting some extra work/study done, squeezing in a run before
   getting to work or hitting th..
+summary: >-
+  Richard Thaler's Nobel-winning Nudge Theory reveals that humans prioritize
+  convenience over rational long-term choices, creating conflict between the
+  'far-sighted Planner' favoring welfare and the 'myopic Doer' succumbing to
+  temptation. Subtle nudges can align these by making wise options easier, as in
+  exchanging gym passes with a buddy to ensure 6 AM attendance, serving
+  short-term social incentives and long-term health. In public policy, this
+  classical-liberal approach—subtle changes preserving choice—has succeeded:
+  UK's 2012 auto-enrollment mandate tripled private-sector pension scheme
+  membership in four years by defaulting workers in unless they opt out. Spain
+  leads organ donation via similar opt-out registration. Nudges must adhere to
+  Thaler's principles: transparency, easy opt-out, and genuine welfare
+  improvement. The post, from a classical-liberal perspective critiquing
+  pseudo-socialism, urges exploring such 'gentle nudges' for Nepal's
+  socio-economic challenges without infringing freedom.
+key_points:
+  - >-
+    Humans act on convenience rather than pure rationale, requiring nudges to
+    bridge short-term temptations and long-term welfare.
+  - >-
+    UK's auto-enrollment in pensions tripled participation post-2012 by making
+    saving the default with opt-out.
+  - >-
+    Spain excels in organ donation through opt-out registration, demonstrating
+    nudge efficacy.
+  - >-
+    Effective nudges demand transparency, easy reversal, and welfare focus to
+    preserve choice.
+topics:
+  - nudge-theory
+  - behavioral-economics
+  - public-policy
+  - choice-architecture
 tags:
   - Behavioral Economics
   - Economics
   - Samriddhi
   - economic liberty
+source_hash: 3cd87aa105d3be3aac28cba50e60f6206032eefd16b03b098052c6704020a7c3
+summary_hash: 3cd87aa105d3be3aac28cba50e60f6206032eefd16b03b098052c6704020a7c3
+summary_at: '2026-05-05T12:33:18.177Z'
 ---
 **By Spontaneous Order**
 

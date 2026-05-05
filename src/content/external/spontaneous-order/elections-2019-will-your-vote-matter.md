@@ -1,15 +1,53 @@
 ---
 title: 'Elections 2019: Will your Vote Matter?'
 original_url: 'https://www.spontaneousorder.in/p/elections-2019-will-your-vote-matter'
+author: Spontaneous Order
 published_at: '2019-05-20T07:33:17.000Z'
 ingested_at: '2026-05-05T08:31:42.486Z'
-source_hash: acd2a11946b07d3873d3e786f280363a80959cf103a82c368f25fc184affc1a3
-author: Spontaneous Order
 excerpt: >-
   For your vote to matter in an election, the election would have to be an equal
   split between two candidates, where you walk into the polling booth and decide
   the outcome. The likelihood of that happening is infinitesimal. Add to that
   the widespread igno..
+summary: >-
+  Afifah Siddiqui challenges the notion that voting is irrational under Rational
+  Choice Theory, where a single vote amid widespread voter ignorance and
+  non-close elections yields negligible impact. She recounts her own costly
+  effort to vote in Noida during Elections 2019, despite arguments to abstain
+  for personal gain. Critiquing theories like Richard Tuck's conditional
+  rationality, Brennan and Lomasky's Expressive Theory (dismissing it as
+  inferior to public expression like rallies), and altruistic or contributory
+  models (e.g., Gerry Mackie's margin-of-victory analogy), Siddiqui argues that
+  homo economicus does not fully explain voting. Instead, she draws a
+  classical-liberal parallel via public choice theory: voters, like consumers,
+  conduct just enough research to feel informed without exhaustive analysis,
+  correcting poor choices in future elections just as in markets. Political
+  ignorance is real but mirrors market behavior, where limited due diligence is
+  deemed rational. Public choice demands consistent standards for private and
+  public actions by the same individuals. Thus, if market decisions are rational
+  despite flaws, voting must be too—affirming its instrumental value in
+  democratic feedback loops from a liberal perspective.
+key_points:
+  - >-
+    Voting is rational like market choices, where individuals perform sufficient
+    but not exhaustive research and correct errors in subsequent decisions.
+  - >-
+    Public choice theory requires applying the same rationality standards to
+    voting behavior as to private market actions.
+  - >-
+    Expressive theories of voting fail because more effective public ways exist
+    to signal preferences than anonymous ballots.
+  - >-
+    Voter ignorance does not render voting irrational any more than consumer
+    ignorance invalidates market rationality.
+  - >-
+    People vote to contribute to collective outcomes, such as maximizing victory
+    margins for preferred policies or candidates.
+topics:
+  - voting-rationality
+  - public-choice-theory
+  - elections
+  - political-ignorance
 tags:
   - Elections 2019
   - General elections 2019
@@ -17,6 +55,9 @@ tags:
   - Voting 2019
   - Does your vote matter?
   - Democracy
+source_hash: acd2a11946b07d3873d3e786f280363a80959cf103a82c368f25fc184affc1a3
+summary_hash: acd2a11946b07d3873d3e786f280363a80959cf103a82c368f25fc184affc1a3
+summary_at: '2026-05-05T09:46:37.481Z'
 ---
 **By Afifah Siddiqui**
 

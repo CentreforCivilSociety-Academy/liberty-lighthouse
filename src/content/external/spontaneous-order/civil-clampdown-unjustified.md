@@ -1,15 +1,51 @@
 ---
 title: State’s Clampdown on Civil Society Organizations is Unjustified
 original_url: 'https://www.spontaneousorder.in/p/civil-clampdown-unjustified'
+author: Spontaneous Order
 published_at: '2015-05-13T17:32:59.000Z'
 ingested_at: '2026-05-05T08:31:42.582Z'
-source_hash: 9627762429ad1ef9befea551f0821eb5cb3275258957751cda6e2ddf671f8192
-author: Spontaneous Order
 excerpt: >-
   by Amit Chandra This article originally appeared in the Hindi daily ‘Rajasthan
   Patrika’ and can be accessed here. The government’s recent clampdown on Civil
   Society organizations (Greenpeace, Ford and thousands of other NGOs) in the
   last few weeks t
+summary: >-
+  The Indian government's clampdown on civil society organizations like
+  Greenpeace and Ford Foundation is unjustified and threatens fundamental
+  freedoms, argues Amit Chandra from a classical-liberal perspective. The state
+  has no business regulating voluntary associations, as the Constitution
+  guarantees freedom of association and expression, which must be protected and
+  expanded in a globalized world. Citizens can express discontent, even if
+  funded abroad, and a democratic society requires diverse viewpoints; the
+  state's machinery should counter dissent through persuasion, not silencing.
+  Labeling CSOs 'anti-development' is specious, especially when farmer protests
+  against land acquisition for inadequate compensation are branded as such.
+  Suspecting foreign contributions as hidden agendas is outdated, inconsistent
+  with the government's promotion of foreign investment via 'Make in India'.
+  Corporates and international bodies like World Bank also lobby policy, yet
+  face no such scrutiny. India needs evidence-based policymaking where CSOs play
+  a vital role; unfair practices should be punished fairly under clear rules,
+  not via arbitrary clampdowns on all foreign aid and NGOs.
+key_points:
+  - >-
+    The Constitution's guarantees of freedom of association and expression
+    preclude state regulation of voluntary citizen groups, even with foreign
+    funding.
+  - >-
+    Branding CSO protests as 'anti-development' masks state failures, such as
+    unfair land acquisitions from farmers.
+  - >-
+    Foreign contributions to CSOs should not be suspected when the government
+    actively courts FDI through 'Make in India'.
+  - >-
+    Policymaking must shift to evidence-based approaches with CSO input,
+    punishing specific violations fairly rather than imposing blanket
+    restrictions on NGOs.
+topics:
+  - civil-society
+  - freedom-of-association
+  - foreign-funding
+  - ngo-regulation
 tags:
   - Greenpeace
   - Civil Society
@@ -20,6 +56,9 @@ tags:
   - Ford
   - development
   - UNDP
+source_hash: 9627762429ad1ef9befea551f0821eb5cb3275258957751cda6e2ddf671f8192
+summary_hash: 9627762429ad1ef9befea551f0821eb5cb3275258957751cda6e2ddf671f8192
+summary_at: '2026-05-05T09:22:27.537Z'
 ---
 **By Ujwal Batra**
 

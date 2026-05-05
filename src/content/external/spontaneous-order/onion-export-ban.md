@@ -1,20 +1,62 @@
 ---
 title: 'Making Farmers Cry, Government Bans Onion Exports'
 original_url: 'https://www.spontaneousorder.in/p/onion-export-ban'
+author: Spontaneous Order
 published_at: '2019-10-01T10:12:39.000Z'
 ingested_at: '2026-05-05T08:31:42.466Z'
-source_hash: dfd07a66c44c666c9910de091b72c27a1b3abd58ec5796bc220b4960e2f15028
-author: Spontaneous Order
 excerpt: >-
   In an attempt to control the spiralling onion prices the government banned the
   export of all varieties of onions on September 29 with immediate effect. The
   government also imposed limits on the storage of onions. It will be a crime
   now to store more tha..
+summary: >-
+  The Indian government banned all onion exports on September 29 and imposed a
+  100kg storage limit for retail traders to curb rising domestic prices,
+  following a minimum export price of $850 per tonne set weeks earlier. This
+  intervention contradicts the promise to double farmers' incomes by 2022, as it
+  prevents farmers from selling at higher market prices amid supply shortages
+  from monsoon rains. Such knee-jerk measures form a recurring cycle: prices
+  rise, exports are banned and storage regulated, prices stabilize with new
+  supply, farmers seek aid, restrictions ease, and the pattern repeats. From the
+  classical-liberal view, excessive government interference—from soil tilling to
+  sales—undermines farmers at every step. The author argues for removing
+  cumbersome regulations by the Warehousing Development and Regulatory
+  Authority, including mandatory electronic negotiable warehouse receipts under
+  2017 rules, which raise costs and deter new storage facilities. Easing these
+  would enable farmers to store excess onions during gluts and release them
+  during shortages, stabilizing prices via market mechanisms and boosting
+  incomes. Ultimately, to double farm incomes, governments must exit the cycle
+  and let markets work for farmers.
+key_points:
+  - >-
+    Government banned onion exports on September 29 and limited retail storage
+    to 100kg to control prices, harming farmers' earnings.
+  - >-
+    Recurring cycle of export bans and storage controls when onion prices rise
+    due to monsoon shortages, followed by easing and farmer aid.
+  - >-
+    Cumbersome Warehousing Development and Regulatory Authority rules, including
+    2017 electronic receipt mandates, prevent farmers from building modern
+    storage.
+  - >-
+    Ease storage regulations to let farmers store excess onions and sell at
+    higher prices, stabilizing supply and prices through markets.
+  - >-
+    Excessive interventions throughout farming must end to allow markets to
+    double farm incomes.
+topics:
+  - agriculture
+  - price-controls
+  - export-bans
+  - market-reform
 tags:
   - government intervention
   - Essential Commodities Act
   - Onion
   - agriculture
+source_hash: dfd07a66c44c666c9910de091b72c27a1b3abd58ec5796bc220b4960e2f15028
+summary_hash: dfd07a66c44c666c9910de091b72c27a1b3abd58ec5796bc220b4960e2f15028
+summary_at: '2026-05-05T11:09:06.600Z'
 ---
 **By Sudhanshu Neema**
 

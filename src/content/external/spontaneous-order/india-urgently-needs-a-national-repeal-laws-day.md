@@ -2,20 +2,61 @@
 title: India Urgently Needs A ‘National Repeal Laws Day’
 original_url: >-
   https://www.spontaneousorder.in/p/india-urgently-needs-a-national-repeal-laws-day
+author: Spontaneous Order
 published_at: '2019-01-15T11:13:34.000Z'
 ingested_at: '2026-05-05T08:31:42.510Z'
-source_hash: b7cdd154d39fee69608c094f45fe901ef2497f8085b9c3a7cc4065d7a6fb6f79
-author: Spontaneous Order
 excerpt: >-
   The recent months have been momentous for the Indian Judiciary, with the
   Supreme Court finally scrapping two illiberal colonial era laws after decades
   of litigation and public pressure. Section 377 and 497 of the Indian Penal
   Code are perhaps prime exam..
+summary: >-
+  India urgently needs systematic repeal of archaic, obsolete, and
+  counterproductive laws inherited from colonial times or created
+  post-independence, which threaten citizens' everyday liberties and burden the
+  legal system. Recent Supreme Court decisions scrapping Section 377 and 497 of
+  the Indian Penal Code highlight progress, as these illiberal laws lingered
+  after Britain repealed them. Examples include the Indian Aircraft Act (1934)
+  requiring permits for kites and balloons; the East Punjab Agricultural Pests
+  Act (1949) mandating able-bodied men over 14 to fight locusts or face 10 days'
+  imprisonment; and the Indian Prisons Act (1894) allowing up to 30 whips for
+  male prisoners. Counterproductive laws like the Naik Girls Protection Act
+  (1929), which increased trafficking, and the Salt Cess (1956), where
+  collection costs by 2014 equaled half its revenue (7.5% of department costs),
+  show noble intentions yielding harm. Over 1,200 central laws have been
+  repealed in the past four years from lists by law commissions and civil
+  society, including CCS's Repeal 100 Laws. To sustain momentum,
+  institutionalize a 'National Repeal Laws Day' on Constitution Day (November
+  26), where legislatures focus solely on repeals; adopt desuetude for unused
+  laws; and mandate sunset clauses in new legislation for periodic review. This
+  classical-liberal approach ensures a 'living' legal framework protects social
+  and economic freedoms.
+key_points:
+  - >-
+    Supreme Court recently repealed colonial-era Section 377 and 497, but
+    thousands of similar archaic laws remain, risking citizens' liberties.
+  - >-
+    Over 1,200 central laws scrapped in past four years from curated lists, yet
+    repeal must be institutionalized to avoid political whims.
+  - >-
+    Propose annual 'National Repeal Laws Day' on November 26 for legislatures to
+    exclusively repeal obsolete laws.
+  - >-
+    Encourage desuetude to automatically repeal unused laws and sunset clauses
+    in new legislation for mandatory reviews.
+topics:
+  - law-repeal
+  - regulatory-reform
+  - civil-liberties
+  - economic-freedom
 tags:
   - Repeal Law Day
   - Repeal of Laws
   - Archaic Laws
   - CCS
+source_hash: b7cdd154d39fee69608c094f45fe901ef2497f8085b9c3a7cc4065d7a6fb6f79
+summary_hash: b7cdd154d39fee69608c094f45fe901ef2497f8085b9c3a7cc4065d7a6fb6f79
+summary_at: '2026-05-05T10:20:49.499Z'
 ---
 **By Parth Shah**
 

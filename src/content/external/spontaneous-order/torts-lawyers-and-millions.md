@@ -1,19 +1,55 @@
 ---
 title: 'Torts, lawyers, and millions'
 original_url: 'https://www.spontaneousorder.in/p/torts-lawyers-and-millions'
+author: Spontaneous Order
 published_at: '2004-11-16T14:46:51.000Z'
 ingested_at: '2026-05-05T08:31:42.695Z'
-source_hash: bc636c34252ec64b67ceaf91fdb6e20c3a70bf575139386c2e35e833998ac64f
-author: Spontaneous Order
 excerpt: >-
   In ‘How to become a millionaire,’ ToI’s November 14 SWAMINOMICS column
   SWAMINATHAN S ANKLESARIA AIYAR said: “A month ago, the US pharma giant Merck
   withdrew its best-selling drug rofecoxib (sold under the brand name Vioxx)
   after tests proved that
+summary: >-
+  Parth Shah contrasts the effective US tort system, highlighted in Swaminathan
+  S. Aiyar’s ToI column on Vioxx victims suing Merck via class actions with
+  contingency fees leading to millionaire payouts, against India's dysfunctional
+  approach exemplified by the Bhopal Union Carbide disaster. In Bhopal, US
+  lawyers were barred by a government act appointing itself as sole victim
+  representative, prompting US courts to return the case amid claims of Indian
+  judicial competence and national pride. This resulted in years of delays, with
+  Union Carbide paying $490 in damages; victims received compensation only after
+  15 years, and interest accrued on undistributed funds equaled the initial
+  payout, requiring a PIL to release it—'wonders of Indian socialism.' Shah
+  argues India's tort issue is not over-litigation like in the US, where lawyers
+  are hated for excess, but under-delivery of timely compensation to victims,
+  emphasizing a classical-liberal critique of state interference prioritizing
+  ideology over individual accountability and quick redress.
+key_points:
+  - >-
+    US class action suits with contingency fees enable victims to secure large,
+    swift compensations, as in Vioxx and tobacco cases.
+  - >-
+    Indian government's Bhopal Gas Leak Disaster Act blocked US lawyers, leading
+    to protracted litigation and minimal victim payouts of $490 in damages after
+    15 years.
+  - >-
+    Undistributed Bhopal compensation interest grew to match the principal, but
+    required a PIL for release, exemplifying socialist inefficiencies.
+  - >-
+    India needs robust tort mechanisms for prompt victim compensation rather
+    than state monopolization that harms the 'poor and helpless'.
+topics:
+  - torts
+  - bhopal-disaster
+  - class-action-suits
+  - legal-reform
 tags:
   - torts
   - lawsuits
   - Union Carbide
+source_hash: bc636c34252ec64b67ceaf91fdb6e20c3a70bf575139386c2e35e833998ac64f
+summary_hash: bc636c34252ec64b67ceaf91fdb6e20c3a70bf575139386c2e35e833998ac64f
+summary_at: '2026-05-05T12:45:57.449Z'
 ---
 **By Parth Shah**
 

@@ -2,20 +2,62 @@
 title: 'Terracotta Approach: Putting an End to Poaching'
 original_url: >-
   https://www.spontaneousorder.in/p/terracotta-approach-putting-an-end-to-poaching
+author: Spontaneous Order
 published_at: '2021-07-28T10:38:14.000Z'
 ingested_at: '2026-05-05T08:31:42.302Z'
-source_hash: c88cab92edfa24d44702b2d04c19fb53bf387f05afe068f19227651948949b38
-author: Spontaneous Order
 excerpt: >-
   Much to the dismay of policy makers and environmentalists alike, poaching
   continues to occur in India. Under law, poaching refers to the illegal
   shooting, trapping, or taking of game, fish, or plants from private property
   or from a place where such pr...
+summary: >-
+  Poaching in India persists despite laws, leading to biodiversity loss, and
+  surged during COVID-19 due to unemployment driving people to hunt for
+  sustenance amid halted tourism and lax forest security. Colonial-era Indian
+  Forest Acts of 1878 and 1927 alienated forest communities from resources,
+  eroding their conservation incentives; the 2006 Forest Rights Act aimed to
+  restore rights but faced implementation issues, including a 2019 Supreme Court
+  rejection of many claims under its multi-layered Section 6 process. The author
+  critiques the 'green approach' for separating humans from nature and failing,
+  advocating the classical-liberal 'Terracotta approach' that recognizes
+  human-environment interdependence by realigning incentives. Global and Indian
+  successes include Pakistan's legalized trophy hunting, where 38 Village
+  Conservation Communities boosted Markhor populations; in Madhya Pradesh's
+  Panna Tiger Reserve, former Pardhi poachers became eco-tourism guides; and
+  Kerala's Periyar Reserve formed India's first eco-development committee of
+  ex-poachers and smugglers for alternative livelihoods. Post-COVID,
+  policymakers should incentivize locals via wildlife protection roles and
+  tourism employment, fostering government-NGO-community collaboration to end
+  poaching.
+key_points:
+  - >-
+    Poaching surged during COVID-19 due to unemployment, halted tourism, and lax
+    security, threatening species like tigers.
+  - >-
+    Colonial Forest Acts alienated communities, reducing conservation
+    incentives; the 2006 Forest Rights Act's implementation faltered with
+    Supreme Court rejections.
+  - >-
+    Terracotta environmentalism realigns human incentives, succeeding in
+    Pakistan via trophy hunting by 38 communities that increased Markhor
+    numbers, and in India through ex-poachers in Madhya Pradesh and Kerala
+    eco-tourism.
+  - >-
+    Policymakers should provide locals incentives for wildlife protection and
+    tourism jobs to combat poaching.
+topics:
+  - poaching
+  - terracotta-environmentalism
+  - wildlife-conservation
+  - community-incentives
 tags:
   - wildlife
   - Terracotta
   - environment
   - poaching
+source_hash: c88cab92edfa24d44702b2d04c19fb53bf387f05afe068f19227651948949b38
+summary_hash: c88cab92edfa24d44702b2d04c19fb53bf387f05afe068f19227651948949b38
+summary_at: '2026-05-05T12:17:14.061Z'
 ---
 **By Devyanshi Agarwal**
 

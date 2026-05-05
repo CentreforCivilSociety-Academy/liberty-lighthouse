@@ -2,21 +2,59 @@
 title: 'Alcohol in Times of Coronavirus: The “New Normal”'
 original_url: >-
   https://www.spontaneousorder.in/p/alcohol-in-times-of-coronavirus-the-new-normal
+author: Spontaneous Order
 published_at: '2020-05-11T16:59:19.000Z'
 ingested_at: '2026-05-05T08:31:42.420Z'
-source_hash: aa22a0d9c1348bd9cbce53e79925dde3c7434d188d8f477ed9dda72365ab16a3
-author: Spontaneous Order
 excerpt: >-
   Recently, several states including Karnataka, Maharashtra, Haryana, Rajasthan,
   Kerala, Tamil Nadu and Goa, have informally requested the central government
   to allow the opening of liquor stores amid the COVID-19 lockdown. The country
   has been in lockdow..
+summary: >-
+  Amid COVID-19 lockdowns exceeding 40 days, states like Karnataka, Maharashtra,
+  Haryana, Rajasthan, Kerala, Tamil Nadu, and Goa requested reopening liquor
+  stores to recover lost revenue, exemplified by Delhi's drop from ₹3,500 crores
+  in April 2019 to ₹300 crores in 2020, as alcohol taxes are a major state
+  income source. Shops reopened on May 4, but crowds flouted social distancing,
+  prompting Delhi CM Arvind Kejriwal to impose a 70% 'special corona fee' tax,
+  ostensibly to curb overcrowding while raising funds. The author argues this
+  high tax is counterproductive, discouraging consumption and revenue: a
+  hypothetical shows 70% tax on a ₹100 bottle sold to 100 buyers yields ₹7,000,
+  versus 35% tax sold to 250 buyers yielding ₹8,750. From a classical-liberal
+  viewpoint, governments should phase out lockdowns by steadily reopening
+  industries, imposing reasonable taxes across sectors, rotating shop openings,
+  and enabling home delivery—like Chhattisgarh's website—to avoid crowds and
+  spur activity without unfair burdens. High taxes undermine economic revival
+  urged by experts like Raghuram Rajan. In the 'new normal,' policies must adapt
+  via innovation, such as legal alcohol home delivery, fostering sensible
+  reforms over punitive measures.
+key_points:
+  - >-
+    High taxes like Delhi's 70% 'corona fee' on liquor reduce consumption and
+    state revenue compared to moderate rates.
+  - >-
+    Reopen liquor shops with measures like shop rotations and home delivery to
+    maintain social distancing and boost economic activity.
+  - >-
+    Phase out lockdowns gradually by reviving multiple industries with
+    reasonable taxes to generate broader revenue without overburdening citizens.
+  - >-
+    Embrace the 'new normal' through innovations like legal alcohol home
+    delivery to adapt policies sensibly post-COVID.
+topics:
+  - alcohol-policy
+  - excise-taxes
+  - covid-lockdown
+  - economic-recovery
 tags:
   - Curve of optimal taxation
   - free states
   - taxation
   - Alcohol
   - pandemic
+source_hash: aa22a0d9c1348bd9cbce53e79925dde3c7434d188d8f477ed9dda72365ab16a3
+summary_hash: aa22a0d9c1348bd9cbce53e79925dde3c7434d188d8f477ed9dda72365ab16a3
+summary_at: '2026-05-05T08:53:28.278Z'
 ---
 **By Swati Singh**
 

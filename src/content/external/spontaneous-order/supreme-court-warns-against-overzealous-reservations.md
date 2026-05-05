@@ -2,15 +2,50 @@
 title: Supreme Court Warns Against Overzealous Reservations
 original_url: >-
   https://www.spontaneousorder.in/p/supreme-court-warns-against-overzealous-reservations
+author: Spontaneous Order
 published_at: '2020-04-28T15:55:03.000Z'
 ingested_at: '2026-05-05T08:31:42.424Z'
-source_hash: aa204122a78a4b5dd17b7b66206291e0da91ac255b129a2dad9d7d4bd2f6e2a6
-author: Spontaneous Order
 excerpt: >-
   A five-judge bench of the Hon’ble Supreme Court quashed the decision of the
   Andhra Pradesh government to provide 100 per cent reservation of teachers of
   the Scheduled Tribes on April 22. With the decision, the Court has reignited
   the debate on reservati
+summary: >-
+  The Supreme Court quashed the Andhra Pradesh government's 2000 order granting
+  100% reservation for Scheduled Tribes in teaching posts in tribal areas,
+  deeming it unconstitutional as it violates the 50% reservation ceiling from
+  the Mandal Commission case, discriminates against general category, SCs, OBCs,
+  and even some STs, and breaches Articles 14, 15, and 16. The Court imposed a
+  Rs. 5 lakh fine on Andhra Pradesh and Telangana governments. It criticized
+  governments' lack of political will to update SC/ST/OBC lists despite 72 years
+  of independence, noting reservations were envisaged to end social disparities
+  in 10 years but have expanded without review, failing to reach the truly
+  downtrodden. From a classical-liberal viewpoint, the author argues the
+  reservation system must be investigated for effectiveness; benefits should
+  target only those with actual social or economic backwardness, not the capable
+  or progressed, to honor the Constitution's framers' intent. Governments
+  repeatedly reprimanded by the Court show no signs of reform.
+key_points:
+  - >-
+    Supreme Court quashed 100% ST teacher reservation in AP tribal areas,
+    upholding 50% ceiling and equality rights under Articles 14-16.
+  - >-
+    Court fined AP and Telangana governments Rs. 5 lakh and urged updating
+    outdated SC/ST/OBC lists due to lack of political will.
+  - >-
+    Reservations, meant to end backwardness in 10 years, persist and expand
+    without review, failing to benefit the truly downtrodden.
+  - >-
+    Only individuals with genuine social or economic backwardness should receive
+    reservations, excluding the capable and progressed.
+  - >-
+    Governments must reform the system to align with constitutional intent, as
+    repeated judicial reprimands go unheeded.
+topics:
+  - reservations
+  - affirmative-action
+  - supreme-court
+  - constitutional-rights
 tags:
   - Scheduled tribes
   - caste-based reservations
@@ -18,6 +53,9 @@ tags:
   - Supreme Court of India
   - Supreme Court
   - reservations
+source_hash: aa204122a78a4b5dd17b7b66206291e0da91ac255b129a2dad9d7d4bd2f6e2a6
+summary_hash: aa204122a78a4b5dd17b7b66206291e0da91ac255b129a2dad9d7d4bd2f6e2a6
+summary_at: '2026-05-05T12:13:14.134Z'
 ---
 **By Sudhanshu Neema**
 

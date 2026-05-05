@@ -1,19 +1,55 @@
 ---
 title: Self-Financing Courts?
 original_url: 'https://www.spontaneousorder.in/p/self-financing-courts'
+author: Spontaneous Order
 published_at: '2009-01-21T19:58:35.000Z'
 ingested_at: '2026-05-05T08:31:42.666Z'
-source_hash: a6b5a07d2744562d8453b89034ab80e0b451c0e5501ac1880bcaf68118b4bae6
-author: Spontaneous Order
 excerpt: >-
   One of the suggestions I have been talking about to speed up the courts is to
   create a separate track of courts that charge fees to file a case high enough
   to cover the full cost of running the court. These self-financing courts
   (SFCs), adapting the ph...
+summary: >-
+  Parth Shah proposes self-financing courts (SFCs) in India, a separate track
+  identical to existing courts in judges, laws, and procedures, but charging
+  fees high enough to cover full operational costs. This classical-liberal
+  reform would attract wealthy litigants seeking faster justice, drawing
+  investment into the judiciary and reducing caseloads in regular courts,
+  thereby speeding up justice for the poor and middle class. Presented at the
+  Bharat Ram Memorial Seminar alongside Professor Avinash Dixit, the idea
+  counters objections that the rich already 'buy' justice today through existing
+  advantages, with no extra influence possible in SFCs due to identical
+  processes. A stronger critique claims two-track courts violate equity by
+  allowing money to buy speedier access to justice, a basic right. Pragmatic
+  arguments note everyone suffers under the status quo and SFCs offer
+  incremental improvement, but Shah seeks a principled fairness defense,
+  highlighting choice and competition to enhance overall judicial efficiency
+  without compromising outcomes.
+key_points:
+  - >-
+    Propose self-financing courts charging full-cost fees to handle cases from
+    wealthy litigants, mirroring existing courts in all other aspects.
+  - >-
+    SFCs would reduce backlogs in regular courts, accelerating justice for
+    lower-income users.
+  - >-
+    Rich litigants gain no additional outcome influence in SFCs compared to
+    current courts.
+  - >-
+    Two-track system challenges equity norms by monetizing speed, prompting need
+    for fairness justification beyond pragmatism.
+topics:
+  - judicial-reform
+  - self-financing-courts
+  - judicial-efficiency
+  - access-to-justice
 tags:
   - self financing courts
   - Bharat Ram
   - Avinash Dixit
+source_hash: a6b5a07d2744562d8453b89034ab80e0b451c0e5501ac1880bcaf68118b4bae6
+summary_hash: a6b5a07d2744562d8453b89034ab80e0b451c0e5501ac1880bcaf68118b4bae6
+summary_at: '2026-05-05T11:36:27.647Z'
 ---
 **By Parth Shah**
 

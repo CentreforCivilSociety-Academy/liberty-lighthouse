@@ -4,17 +4,37 @@ title: >-
   farmers?
 original_url: >-
   https://www.spontaneousorder.in/p/spontaneous-dialogue-ep-1-from-annadata-to-farmpreneur-do-farm-laws-benefit-farmers
+author: Spontaneous Order
 published_at: '2020-10-20T12:56:00.000Z'
 ingested_at: '2026-05-05T08:31:42.719Z'
-source_hash: 082f4f4e29ae08c8ca4606f2b4e1d2bf23c787d0850becb00bf3944d5c4c3c4d
-author: Spontaneous Order
 excerpt: >-
   As the debate around the current agri-reforms refuses to settle, it’s
   imperative to take a deep dive into these reforms and try to understand how
   exactly they will benefit the farmer. Why are some farmers opposing these
   reforms, what are the gaps, if an
+summary: >-
+  This post is a promotional announcement for the first episode of the
+  Spontaneous Dialogue podcast, titled 'From Annadata to Farmpreneur – Do farm
+  laws benefit farmers?', featuring Dr Parth J Shah (President, CCS) and Dr
+  Jayaprakash Narayan (Founder, Foundation for Democratic Reforms). It teases a
+  classical-liberal discussion on the benefits of India's agri-reforms for
+  farmers, reasons for opposition, gaps in the reforms, and further steps needed
+  to liberalise agriculture, without providing the episode's content or detailed
+  arguments.
+key_points:
+  - >-
+    The podcast episode examines how farm laws aim to transform farmers from
+    'Annadata' (food providers) to 'Farmpreneurs' through market-oriented
+    reforms.
+topics:
+  - farm-laws
+  - agricultural-reforms
+  - agri-liberalisation
 tags:
   - agriculture
+source_hash: 082f4f4e29ae08c8ca4606f2b4e1d2bf23c787d0850becb00bf3944d5c4c3c4d
+summary_hash: 082f4f4e29ae08c8ca4606f2b4e1d2bf23c787d0850becb00bf3944d5c4c3c4d
+summary_at: '2026-05-05T12:07:03.571Z'
 ---
 **By Spontaneous Order**
 

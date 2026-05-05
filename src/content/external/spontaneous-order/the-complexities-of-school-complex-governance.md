@@ -2,20 +2,63 @@
 title: The Complexities of School Complex Governance
 original_url: >-
   https://www.spontaneousorder.in/p/the-complexities-of-school-complex-governance
+author: Spontaneous Order
 published_at: '2021-07-05T12:11:25.000Z'
 ingested_at: '2026-05-05T08:31:42.309Z'
-source_hash: 541ce429700636a3628240047dfc5b5e143d1a117c01d17b636fd50a112201bc
-author: Spontaneous Order
 excerpt: >-
   In 1986, India drafted the National Education Policy with the aim of improving
   education in the country. They decided to do this by increasing the number of
   schools and the number of teachers who join the system. The other big goal of
   that policy was to..
+summary: >-
+  The National Education Policy (NEP) 2020, building on 1986's focus on
+  expanding schools and literacy and the 2015 Kasturirangan committee's
+  recommendations, introduces school complexes as clusters of one secondary
+  school, other schools, and Anganwadis within 5-10 km, governed by a School
+  Complex Management Committee (SCMC) including school heads, teachers,
+  community members, students, and parents. The secondary school principal heads
+  the complex, controlling resource allocation, finances, and administration.
+  While aiming to optimize resources, this centralized governance is ambiguous
+  and problematic, per the author. Key concerns include: inadequate upskilling
+  for principals already overburdened managing single schools; risks of power
+  concentration leading to imbalanced decisions without full contextual
+  knowledge; historical failures of similar 'educational complexes' proposed in
+  1986 NEP, unfulfilled after 35 years; and challenges adapting to NEP's broader
+  infrastructural shifts without capacity building. From a classical-liberal
+  lens, the policy promises holistic, world-class education but falters on
+  decentralized, efficient implementation, leaving governance uninspired and
+  prone to inefficiency. NEP appears ambitious yet lacks detailed strategies for
+  school complexes, assessments, and regional languages.
+key_points:
+  - >-
+    School complexes cluster nearby schools under centralized control of the
+    secondary school's principal for resource allocation and administration.
+  - >-
+    Centralized power risks imbalanced financing and unequal attention across
+    schools due to principals' limited context and overburden.
+  - >-
+    Principals require upskilling to manage multiple schools, as they already
+    struggle with single-school strategic leadership amid administrative
+    burdens.
+  - >-
+    Similar educational complexes mandated in 1986 NEP have failed to function
+    effectively in urban and rural India over 35 years.
+  - >-
+    NEP 2020 lacks clear implementation plans for building capacity in school
+    complex governance amid broader policy changes.
+topics:
+  - national-education-policy
+  - school-complexes
+  - education-governance
+  - implementation-challenges
 tags:
   - School education in India
   - Education Policy
   - NEP2020
   - Governance
+source_hash: 541ce429700636a3628240047dfc5b5e143d1a117c01d17b636fd50a112201bc
+summary_hash: 541ce429700636a3628240047dfc5b5e143d1a117c01d17b636fd50a112201bc
+summary_at: '2026-05-05T12:22:12.235Z'
 ---
 **By Arushi Sharma**
 

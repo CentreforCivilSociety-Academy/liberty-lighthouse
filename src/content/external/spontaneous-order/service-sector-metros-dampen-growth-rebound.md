@@ -1,19 +1,59 @@
 ---
 title: 'Service Sector, Metros Dampen Growth Rebound'
 original_url: 'https://www.spontaneousorder.in/p/service-sector-metros-dampen-growth-rebound'
+author: Spontaneous Order
 published_at: '2020-10-19T16:41:51.000Z'
 ingested_at: '2026-05-05T08:31:42.374Z'
-source_hash: 40375302e8fe43aa4d8b27e70c6ce419b74924c523b3f1cbde5fdbfc7ab48a82
-author: Spontaneous Order
 excerpt: >-
   The worst is over. Covid infections and deaths seem to have peaked, though it
   remains to be seen if India escapes the resurgence of the virus seen in many
   countries as winter approaches. India’s lockdowns are being eased and some
   economic sectors are re
+summary: >-
+  India's economy shows signs of rebounding from Covid lockdowns, with industry
+  booming—PMI hitting an eight-year high of 56.8 in September, power demand up
+  16%, e-way bills rising 10%, and rail freight up 19%—while agriculture thrives
+  after a good monsoon, with record kharif sowing of 108.22 million hectares and
+  rural wages growing 4.1-9.2% in May. Exports rose 5.7% but imports fell,
+  signaling weak domestic demand. However, services, comprising 55% of GDP,
+  remain in contraction with PMI at 49.8, decimated by lockdowns on travel,
+  tourism, trade, and entertainment. Google mobility is 27% below pre-Covid
+  levels, improving from worse earlier but still slow, especially in metros like
+  Mumbai, Pune, and Chennai where it's half normal due to high density and
+  infection fears. Less urbanized states like Bihar and Uttar Pradesh show
+  better mobility gains. Despite a milder GDP contraction than the predicted 15%
+  (likely under 10% from a low base), services and metros will drag growth
+  through 2021, with recovery to pre-Covid levels only by 2022. This bolsters
+  the case for further fiscal stimulus and lockdown easing to unleash market
+  recovery.
+key_points:
+  - >-
+    Industry PMI reached 56.8 in September, signaling strong expansion
+    post-lockdown.
+  - >-
+    Agriculture benefits from record sowing and rising rural wages, countering
+    urban migrant influx.
+  - >-
+    Services sector PMI at 49.8 indicates ongoing contraction, pulling down
+    overall GDP.
+  - >-
+    Metro cities like Mumbai and Chennai show mobility at half pre-Covid levels,
+    worst laggards.
+  - >-
+    Advocate additional fiscal stimulus and full lockdown easing for faster
+    recovery.
+topics:
+  - covid-recovery
+  - services-sector
+  - industry-growth
+  - fiscal-stimulus
 tags:
   - Swaminomics
   - Swaminathan Aiyar
   - economic freedom
+source_hash: 40375302e8fe43aa4d8b27e70c6ce419b74924c523b3f1cbde5fdbfc7ab48a82
+summary_hash: 40375302e8fe43aa4d8b27e70c6ce419b74924c523b3f1cbde5fdbfc7ab48a82
+summary_at: '2026-05-05T11:37:54.276Z'
 ---
 **By Swaminathan SA Aiyer**
 

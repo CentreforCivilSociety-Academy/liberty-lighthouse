@@ -1,15 +1,50 @@
 ---
 title: India’s Human Capital
 original_url: 'https://www.spontaneousorder.in/p/indias-human-capital'
+author: Spontaneous Order
 published_at: '2018-10-24T10:07:24.000Z'
 ingested_at: '2026-05-05T08:31:42.513Z'
-source_hash: fe31a391e4dba9531589d07434b41becf0023e730f030eca14bdfa1a29af9b93
-author: Spontaneous Order
 excerpt: >-
   In early October, the World Bank released its first Human Capital Index (HCI).
   India didn’t quite measure up. By the benchmarks of the index, we performed
   below where our per capita GDP would suggest. Most galling for our government
   was the fact that Ba
+summary: >-
+  India's Human Capital Index (HCI) score of 44% reveals that a child born today
+  will achieve only 44% of their potential productivity by age 18 due to
+  deficiencies in health, nutrition, and especially education, performing below
+  per capita GDP expectations and trailing Bangladesh. This undermines the
+  'demographic dividend' narrative, as India's young population will lack skills
+  despite favorable age demographics. While primary enrollment nears
+  universality, education quality is dismal: 10.2 years of schooling equates to
+  just 5.8 years of learning. ASER reports show fewer than half of Class 5
+  students read Class 2 texts, and only 43% of Class 8 students perform simple
+  division. India's 2009 PISA results were disastrously poor, prompting
+  non-participation. The government's rejection of HCI—claiming irrelevance to
+  the digital age despite unchanged rural school conditions—exemplifies
+  denialism. From a classical-liberal viewpoint, such refusal to accept
+  measurement sabotages improvement, as quantifying problems is essential for
+  policy progress and equipping children for productive futures amid global
+  competition.
+key_points:
+  - >-
+    India's HCI score of 44% indicates children reach only 44% potential due to
+    poor health, nutrition, and education quality.
+  - >-
+    Despite 10.2 years of schooling, effective learning equals 5.8 years,
+    confirmed by ASER data showing Class 5 students unable to read Class 2
+    texts.
+  - >-
+    Government rejection of HCI measurements prevents accountability and
+    progress in addressing education crisis.
+  - >-
+    Recognizing poor education outcomes is crucial to realizing demographic
+    dividend through skilled workforce.
+topics:
+  - human-capital
+  - education-quality
+  - demographic-dividend
+  - government-accountability
 tags:
   - Human Capital Index
   - Education
@@ -18,6 +53,9 @@ tags:
   - PISA
   - Indian Schools
   - Indian education
+source_hash: fe31a391e4dba9531589d07434b41becf0023e730f030eca14bdfa1a29af9b93
+summary_hash: fe31a391e4dba9531589d07434b41becf0023e730f030eca14bdfa1a29af9b93
+summary_at: '2026-05-05T10:23:05.965Z'
 ---
 **By Mohit Satyanand**
 

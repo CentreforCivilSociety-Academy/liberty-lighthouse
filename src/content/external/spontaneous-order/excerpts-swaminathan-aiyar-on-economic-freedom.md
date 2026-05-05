@@ -2,15 +2,51 @@
 title: Swaminathan Aiyar on Economic Freedom
 original_url: >-
   https://www.spontaneousorder.in/p/excerpts-swaminathan-aiyar-on-economic-freedom
+author: Spontaneous Order
 published_at: '2014-03-21T18:50:02.000Z'
 ingested_at: '2026-05-05T08:31:42.594Z'
-source_hash: c01e90bf85836172b9303b72a5d0d83b6ca97b323cc08e5aae81e0d80cbfabb3
-author: Spontaneous Order
 excerpt: >-
   Swaminathan Aiyar was at CCS on 14 March 2014 to discuss the importance of
   Economic Freedom. Check out what he had to say about the ‘invisible hand’.
   ….On the ‘Invisible Hand’ “I grew up at the time of Indira Gandhi and the
   gareebi hatao movem
+summary: >-
+  Swaminathan Aiyar, speaking at the Centre for Civil Society on 14 March 2014,
+  recounted his intellectual journey from youthful socialism during Indira
+  Gandhi's 'gareebi hatao' era—cheering bank nationalizations and believing
+  state corporations would boost stagnant exports—to embracing economic freedom
+  and Adam Smith's 'invisible hand.' Initially viewing private enterprise as
+  selfishly profit-driven and detrimental to society, Aiyar, upon becoming an
+  editor, planned a charitable trust to uplift the poor by providing
+  three-wheeler scooters as capital. He soon grappled with regulatory hurdles
+  like scooter licenses, the need for training, and competition against
+  established businesses. A revelation struck: industrialists like Mr. Birla
+  were already training millions in textile mills at massive scale, compelled by
+  profit motives and market competition to deliver what Aiyar's non-profit
+  efforts could not. This demonstrated how private, pro-profit processes
+  outperform visible-hand interventions, achieving social goods like employment
+  and skill-building unintentionally. Aiyar quoted Adam Smith: 'most good is
+  done by people who have no intentions of doing good,' underscoring the
+  classical-liberal case that economic freedom harnesses self-interest for
+  societal benefit far beyond state or NGO capabilities.
+key_points:
+  - >-
+    Aiyar's early support for Indira Gandhi's socialism evolved into recognition
+    that private profit motives drive large-scale training and employment.
+  - >-
+    Regulatory barriers like scooter licenses highlight government failures in
+    enabling entrepreneurship.
+  - >-
+    Market competition forces businesses like Birla's mills to train millions
+    effectively, outscaling NGO attempts.
+  - >-
+    Adam Smith's invisible hand shows self-interested actions produce unintended
+    social goods superior to planned interventions.
+topics:
+  - economic-freedom
+  - invisible-hand
+  - profit-motive
+  - free-markets
 tags:
   - Adam Smith
   - Libertarian Scholars
@@ -18,6 +54,9 @@ tags:
   - economic freedom
   - Invisible Hand theory
   - poverty
+source_hash: c01e90bf85836172b9303b72a5d0d83b6ca97b323cc08e5aae81e0d80cbfabb3
+summary_hash: c01e90bf85836172b9303b72a5d0d83b6ca97b323cc08e5aae81e0d80cbfabb3
+summary_at: '2026-05-05T09:49:27.391Z'
 ---
 **By Manasi Bose**
 

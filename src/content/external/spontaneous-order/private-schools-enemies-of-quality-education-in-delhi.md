@@ -2,15 +2,51 @@
 title: Are Private Schools Enemies of Quality Education in Delhi?
 original_url: >-
   https://www.spontaneousorder.in/p/private-schools-enemies-of-quality-education-in-delhi
+author: Spontaneous Order
 published_at: '2020-04-14T18:31:00.000Z'
 ingested_at: '2026-05-05T08:31:42.428Z'
-source_hash: 3712581f46a41fefc8d364167f4ed5e22c026c7be638aa8a98a36391f7e4c494
-author: Spontaneous Order
 excerpt: >-
   One of the most significant contributions of the Government of National
   Capital Territory (GoNCT) to the national discourse has been pushing education
   as an electoral issue. It has achieved this feat by pitting government schools
   against private schools..
+summary: >-
+  The Government of National Capital Territory (GoNCT) has framed education as
+  an electoral issue by pitting government schools against private schools, a
+  baseless and dangerous narrative that undermines quality education for all,
+  argues the author from a classical-liberal viewpoint. While 2017-2018 CBSE
+  data shows Delhi government schools slightly outperforming private schools in
+  Class XII pass percentage (90.64% vs. 89.38%), private schools led in Class X
+  (89.45% vs. 68.9%); however, pass percentages poorly reflect learning
+  outcomes. Critically, government per-child expenditure reached Rs 66,038 in
+  2018-2019, up 122.79% since 2013, double the median private school fee of Rs
+  31,625. Private schools deliver comparable results despite a hostile
+  regulatory environment, including entry barriers like Essentiality
+  Certificates requiring proof of 'real need' without affecting nearby schools,
+  plus discretionary powers over fees, inspections, and even school takeovers
+  under the Delhi School Education Act 1973. This uneven playing field persists
+  as parents increasingly choose private schools. The author urges focusing on
+  government's duty to regulate fairly rather than compete, rejecting the 'us
+  vs. them' discourse since all children are ultimately 'private'—not
+  government's.
+key_points:
+  - >-
+    Delhi government schools' per-child spending is double private school fees
+    yet yields comparable outcomes.
+  - >-
+    Private schools face high entry barriers like Essentiality Certificates and
+    discretionary state powers over operations.
+  - >-
+    Pass percentages mislead as performance indicators; true value lies in
+    private schools' cost-efficiency despite regulations.
+  - >-
+    Government must prioritize fair regulation over antagonistic rhetoric to
+    enable quality education for all.
+topics:
+  - education
+  - private-schools
+  - school-regulation
+  - delhi-education
 tags:
   - education of choice
   - Education
@@ -19,6 +55,9 @@ tags:
   - government schools
   - privatization of education
   - Delhi government
+source_hash: 3712581f46a41fefc8d364167f4ed5e22c026c7be638aa8a98a36391f7e4c494
+summary_hash: 3712581f46a41fefc8d364167f4ed5e22c026c7be638aa8a98a36391f7e4c494
+summary_at: '2026-05-05T11:18:43.586Z'
 ---
 **By Tarini Sudhakar**
 

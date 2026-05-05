@@ -1,18 +1,37 @@
 ---
 title: 'Tooley’s new book: The Beautiful Tree'
 original_url: 'https://www.spontaneousorder.in/p/tooleys-new-book-the-beautiful-tree'
+author: Spontaneous Order
 published_at: '2009-03-05T00:30:18.000Z'
 ingested_at: '2026-05-05T08:31:42.663Z'
-source_hash: e430931754fd03558cb6f9a110b2550aff0f694d32002d9b696b6944e27e5661
-author: Spontaneous Order
 excerpt: >-
   I haven’t seen it yet, at least not the final published copy, but here’s a
   good review in Washington Post by Jay Mathew: Tooley’s book, “The Beautiful
   Tree,” reveals him to be the kind of traveler who often strays off the main
   roads, driving off
+summary: >-
+  Short post by Parth Shah linking to a 2009 Washington Post review of James
+  Tooley's 'The Beautiful Tree,' which chronicles the author's fieldwork in
+  China, India, Ghana, Nigeria, and Kenya, uncovering private education
+  initiatives organized by the world's poorest people—aligning with
+  classical-liberal emphasis on choice and self-reliance over state systems.
+  Includes Shah's bio highlighting his work on economic freedom and competition
+  in education.
+key_points:
+  - >-
+    Parth Shah shares a Washington Post review praising James Tooley's
+    exploration of grassroots private schools serving the poor in multiple
+    countries including India.
+topics:
+  - education
+  - school-choice
+  - private-education
 tags:
   - Tooley
   - The beautiful tree
+source_hash: e430931754fd03558cb6f9a110b2550aff0f694d32002d9b696b6944e27e5661
+summary_hash: e430931754fd03558cb6f9a110b2550aff0f694d32002d9b696b6944e27e5661
+summary_at: '2026-05-05T12:45:05.005Z'
 ---
 **By Parth Shah**
 

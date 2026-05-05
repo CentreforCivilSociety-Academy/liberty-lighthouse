@@ -1,15 +1,52 @@
 ---
 title: Minoo Masani | ‘All Isms have become Wasms’ (1944)
 original_url: 'https://www.spontaneousorder.in/p/isms-wasms'
+author: Spontaneous Order
 published_at: '2016-07-14T19:12:34.000Z'
 ingested_at: '2026-05-05T08:31:42.550Z'
-source_hash: 55fed2537f1511151236bb2a8e3ed6a550462610bc285586f8e3ae3a86ce0adb
-author: Spontaneous Order
 excerpt: >-
   This is the final part of a 4-part series, each post containing an excerpt of
   Minoo Masani’s 1944 essay ‘Socialism Reconsidered.’ Here are the links to the
   earlier posts in the series– Minoo Masani | Socialism Reconsidered (1944)
   Minoo Masani | Th
+summary: >-
+  In the final excerpt from Minoo Masani's 1944 essay 'Socialism Reconsidered,'
+  Masani examines the transition to socialism via non-violent mass action
+  emphasizing small-scale production units, diverging from orthodox theory by
+  prioritizing control over ownership of production instruments. He contrasts
+  Marxist expropriation with Gandhi's 'trusteeship,' where property owners act
+  as community trustees limited to a maximum income twelve times the minimum,
+  enforced by moral persuasion and state pressure. Initially skeptical, Masani
+  now endorses it under strict checks, rejecting laissez-faire, and advocates a
+  mix of ownership forms—state, municipal, cooperatives, guilds, and
+  private—with American-style checks and balances to preserve liberty.
+  Trusteeship's value lies in its elasticity as a transition tool, reducing
+  resistance by reforming antisocial property use without liquidation. Masani
+  warns against dogmatic Marxism, noting Marx's own rejection of 'Marxists' and
+  technological revolutions undreamt by him, urging socialists to transcend
+  rigid 'isms'—including Marxism and Gandhianism—for a flexible path to a free,
+  democratic, classless society guided by 'from each according to capacity, to
+  each according to needs.' All isms risk becoming 'wasms' without constant
+  re-examination.
+key_points:
+  - >-
+    Gandhi's trusteeship limits owner income to 12x the minimum via moral
+    persuasion and state pressure, prioritizing control over ownership to
+    achieve socialism without full expropriation.
+  - >-
+    Transition to socialism should mix state ownership, cooperatives, guilds,
+    and private trusteeship with checks and balances to safeguard liberty.
+  - >-
+    Reject Marxist dogmatism, as Marx himself disavowed 'Marxists,' and embrace
+    experimental improvisations amid technological changes.
+  - >-
+    Socialists must re-examine assumptions beyond rigid ideologies to avoid all
+    'isms' becoming 'wasms' en route to a classless society.
+topics:
+  - socialism-transition
+  - gandhian-trusteeship
+  - marxism-critique
+  - economic-liberty
 tags:
   - Minoo Masani
   - Trusteeship
@@ -18,6 +55,9 @@ tags:
   - Socialism reconsidered
   - Capitalism
   - Private Property
+source_hash: 55fed2537f1511151236bb2a8e3ed6a550462610bc285586f8e3ae3a86ce0adb
+summary_hash: 55fed2537f1511151236bb2a8e3ed6a550462610bc285586f8e3ae3a86ce0adb
+summary_at: '2026-05-05T10:31:36.023Z'
 ---
 **By Ujwal Batra**
 

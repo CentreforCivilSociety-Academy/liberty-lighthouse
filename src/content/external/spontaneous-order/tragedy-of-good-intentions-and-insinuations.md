@@ -1,15 +1,55 @@
 ---
 title: Tragedy of good intentions and insinuations
 original_url: 'https://www.spontaneousorder.in/p/tragedy-of-good-intentions-and-insinuations'
+author: Spontaneous Order
 published_at: '2005-02-11T16:43:17.000Z'
 ingested_at: '2026-05-05T08:31:42.689Z'
-source_hash: ab7a3a1886e8695d8f7e3ba9ecbc2dca81329261cdd5a901fdb4060b629188f4
-author: Spontaneous Order
 excerpt: >-
   In How Safe are Anti-retroviral Drugs? Thompson Ayodele makes a telling point
   that several HIV drugs from the WHO’s ‘pre-qualified’ list have turned out to
   be substandard and are now being withdrawn by the companies, almost all of
   which are Indian.
+summary: >-
+  Parth Shah critiques Thompson Ayodele's article on substandard HIV
+  anti-retroviral (ARV) drugs from WHO's pre-qualified list, mostly produced by
+  Indian companies and now withdrawn. While acknowledging the issue, Shah
+  defends WHO against sole blame, arguing that companies bear primary liability
+  for selling substandard products, and tort law reforms are needed in Africa
+  and Asia to enforce accountability. He notes WHO's pre-qualification includes
+  explicit warnings, invoking caveat emptor akin to private marketers like
+  Pfizer, limiting WHO's liability to damages from negligence. Shah challenges
+  the article's insinuation that Indian generics violate Western pharma IPRs as
+  the core problem, asserting substandard drugs harm HIV patients regardless of
+  patent status—even patented drugs could be substandard. He questions whether
+  the article truly prioritizes African patients' lives or defends the IPR
+  regime, highlighting that good intentions in generics access falter without
+  quality enforcement. From a classical-liberal lens, Shah emphasizes individual
+  liability, legal remedies, and buyer responsibility over regulatory
+  finger-pointing or patent protectionism.
+key_points:
+  - >-
+    Companies selling substandard ARV drugs must face liability through
+    effective tort laws in Africa and Asia.
+  - >-
+    WHO's pre-qualification carries warnings, so caveat emptor applies, limiting
+    its responsibility like any private endorser.
+  - >-
+    Substandard drugs undermine HIV treatment regardless of IPR violations; even
+    patented drugs could be faulty.
+  - >-
+    Reform tort laws to hold producers accountable rather than scapegoating WHO
+    or generics.
+  - >-
+    The article's focus seems more on protecting IPR than safeguarding African
+    HIV patients.
+topics:
+  - pharmaceuticals
+  - drug-safety
+  - intellectual-property
+  - tort-reform
+source_hash: ab7a3a1886e8695d8f7e3ba9ecbc2dca81329261cdd5a901fdb4060b629188f4
+summary_hash: ab7a3a1886e8695d8f7e3ba9ecbc2dca81329261cdd5a901fdb4060b629188f4
+summary_at: '2026-05-05T12:46:32.429Z'
 ---
 **By Parth Shah**
 

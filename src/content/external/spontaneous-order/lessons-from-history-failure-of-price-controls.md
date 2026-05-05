@@ -2,15 +2,53 @@
 title: 'Lessons from History: Failure of Price Controls'
 original_url: >-
   https://www.spontaneousorder.in/p/lessons-from-history-failure-of-price-controls
+author: Spontaneous Order
 published_at: '2022-05-30T13:43:41.000Z'
 ingested_at: '2026-05-05T08:31:42.265Z'
-source_hash: 1d4547c236f655a3965e1b206da14ac84c5b0205bad69c10ff3997bc8b2aebd8
-author: Spontaneous Order
 excerpt: >-
   What is it about the idea of price controls that appeals to us? Whenever we
   are faced with the uncertainty of high inflation, nations look to price
   controls for relief. Today, amid the Russia-Ukraine war and with the world
   economy still recovering post ..
+summary: >-
+  Price controls, often proposed during inflation crises like post-pandemic
+  recovery and the Russia-Ukraine war, distort market coordination by
+  undermining price signals that guide producers and consumers amid competition
+  and rational action. Historical evidence from post-WWII and 1970s US/Europe
+  shows price ceilings cause shortages, quality deterioration, and black markets
+  as producers lack incentives to expand supply while consumers exhaust
+  available goods. The 'greed' narrative ignores global factors like crude oil
+  prices, hurting small businesses more than large ones. From an Austrian
+  economics view, controls violate subjectivism in human action (Mises) and
+  exacerbate the knowledge problem (Hayek), where dispersed information cannot
+  be centrally managed, leading to rationing, further interventions, and
+  nationalization. In India, PSU dominance in steel, petroleum, chemicals, and
+  mining fosters inefficiencies and moral hazard without market penalties. US
+  examples include Nixon's 1971 wage-price freeze sparking stagflation,
+  shortages, and the 1973 oil embargo's gasoline lines. The essay concludes that
+  price controls, including subtle forms like tariffs or export bans, inevitably
+  fail, demanding avoidance despite their appeal.
+key_points:
+  - >-
+    Price ceilings disrupt supply incentives, causing shortages, black markets,
+    and quality decline as seen post-WWII and in 1970s.
+  - >-
+    Nixon's 1971 wage-price freeze led to stagflation, shortages, and gasoline
+    lines during the 1973 oil embargo.
+  - >-
+    Austrian economics highlights how controls trigger the knowledge problem,
+    necessitating endless further interventions like nationalization.
+  - >-
+    India's PSUs in key sectors exemplify moral hazard and inefficiencies from
+    lacking market discipline.
+topics:
+  - price-controls
+  - austrian-economics
+  - economic-history
+  - public-sector-inefficiency
+source_hash: 1d4547c236f655a3965e1b206da14ac84c5b0205bad69c10ff3997bc8b2aebd8
+summary_hash: 1d4547c236f655a3965e1b206da14ac84c5b0205bad69c10ff3997bc8b2aebd8
+summary_at: '2026-05-05T10:40:22.925Z'
 ---
 **By Kathryn Kane**
 

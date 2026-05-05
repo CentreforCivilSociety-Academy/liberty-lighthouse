@@ -2,19 +2,60 @@
 title: India Has The Highest Number Of Internet Shutdowns In The World
 original_url: >-
   https://www.spontaneousorder.in/p/india-has-the-highest-number-of-internet-shutdowns-in-the-world
+author: Spontaneous Order
 published_at: '2018-08-06T09:26:00.000Z'
 ingested_at: '2026-05-05T08:31:42.524Z'
-source_hash: 5f6dfe245ef2922fbdd8ea12067efee8225651d8bae48bd846f5f8449b404ce5
-author: Spontaneous Order
 excerpt: >-
   What is an internet shutdown? An Internet shutdown occurs when the State
   orders telecom companies to shut down mobile Internet services. Suspending the
   Internet has almost become an obligatory extension of Section 144 of the CrPC,
   with services being su..
+summary: >-
+  India has the world's highest number of internet shutdowns, with services
+  suspended in 26 districts across 5 states in the first 24 days of April, often
+  tied to protests like Kathua and Bharat Bandh. New 2017 rules under the Indian
+  Telegraph Act centralize authority with Union or State Home Secretaries and
+  mandate review by committees within 5 days, marking a transparency gain over
+  prior local discretion under Section 144 CrPC. However, from a
+  classical-liberal perspective, escalating shutdowns disrespect citizens' right
+  to internet access and fail riot control: misinformation spreads via phones,
+  citizens can't contact family amid dangers, and police struggle to issue
+  clarifications. Examples like France's 2016 post-attack safety app and
+  Facebook's 'safe' button show internet's value in crises. Economically, 22
+  shutdowns from July 2015-June 2016 cost $968 million per Brookings, with
+  losses amplified by digital payments growth toward $1 trillion by 2023.
+  Blanket bans harm economy, rights, and peace more than they help; alternatives
+  include surgical shutdowns, official messaging channels, and bolstered police
+  tech. Governments must hesitate, as Supreme Court's Arup Bhuyan adoption of
+  Brandenburg Test protects non-inciting speech.
+key_points:
+  - >-
+    India saw internet shutdowns in 26 districts across 5 states in April's
+    first 24 days.
+  - >-
+    22 shutdowns from July 2015-June 2016 cost $968 million, per Brookings
+    Institution.
+  - >-
+    New Telegraph Act rules centralize shutdown decisions but frequency keeps
+    rising.
+  - >-
+    Governments should adopt alternatives like surgical shutdowns and official
+    apps over blanket bans.
+  - >-
+    Shutdowns undermine citizens' right to internet access and fail to curb
+    misinformation effectively.
+topics:
+  - internet-shutdowns
+  - civil-liberties
+  - digital-economy
+  - government-overreach
 tags:
   - Internet Shutdown
   - India
   - Internet Ban
+source_hash: 5f6dfe245ef2922fbdd8ea12067efee8225651d8bae48bd846f5f8449b404ce5
+summary_hash: 5f6dfe245ef2922fbdd8ea12067efee8225651d8bae48bd846f5f8449b404ce5
+summary_at: '2026-05-05T10:18:58.880Z'
 ---
 **By Spontaneous Order**
 

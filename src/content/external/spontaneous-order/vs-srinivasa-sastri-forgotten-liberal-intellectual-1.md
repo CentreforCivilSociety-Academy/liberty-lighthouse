@@ -2,20 +2,62 @@
 title: VS Srinivasa Sastri – Forgotten Liberal Intellectual – Part 1
 original_url: >-
   https://www.spontaneousorder.in/p/vs-srinivasa-sastri-forgotten-liberal-intellectual-1
+author: Spontaneous Order
 published_at: '2020-01-07T15:15:15.000Z'
 ingested_at: '2026-05-05T08:31:42.451Z'
-source_hash: 8f96e81629cb2d0637b9d34f3c2a6ccc90f0e2c88de05ee169af70f1a21604f2
-author: Spontaneous Order
 excerpt: >-
   Editor’s Note: This is the first article in a two-part series paying homage to
   VS Srinivasa Sastri, the forgotten liberal intellectual of pre-independent
   India. Read the second part here. In India, the history of liberalism and
   constitutionalism of the
+summary: >-
+  The post laments the neglect of India's liberal and constitutionalist history
+  in academia, dominated by Marxism and socialism since independence, which has
+  obscured figures like VS Srinivasa Sastri, whose 150th birth anniversary falls
+  this year. It traces the 1919 split in the Indian National Congress into
+  liberals (constitutional moderates influenced by classical liberalism) versus
+  extremists (Fabian socialists and communists), with the latter prevailing
+  post-1947. Sastri, born in 1869 in Tamil Nadu to a poor Brahmin family,
+  excelled academically—topping matriculation (1883), FA (1885), and BA (1888)
+  with a gold medal—before a 17-year teaching career, including headmastering a
+  model school and founding the Triplicane Urban Co-operative Society (1904).
+  Attracted to Gokhale's principles, he joined the Servants of India Society
+  (SIS) in 1907, succeeding as president (1915-1927) despite Gandhi's differing
+  views. A silver-tongued orator rated among the twentieth century's best,
+  influenced by Hume, Mill, and Spencer, Sastri founded the Madras Teachers
+  Guild (1895), edited journals, and established the National Liberal Federation
+  (1918). He championed constitutional methods for freedom, predicting
+  independence by 1948 (achieved 1947), yet remains forgotten despite
+  biographies praising his statesmanlike contributions to civil liberties across
+  the British Empire.
+key_points:
+  - >-
+    Indian academia has ignored liberal economic thought and figures like VS
+    Srinivasa Sastri due to post-independence socialist dominance.
+  - >-
+    Sastri succeeded Gokhale as Servants of India Society president (1915-1927)
+    and founded the National Liberal Federation in 1918 to advance
+    constitutionalism.
+  - >-
+    Sastri's constitutional approach predicted India's independence within 25
+    years from 1923, realized in 1947.
+  - >-
+    From teaching excellence to oratory and journalism, Sastri embodied
+    classical liberalism, editing Servant of India and promoting education
+    reforms.
+topics:
+  - indian-liberalism
+  - constitutionalism
+  - servants-of-india-society
+  - history-of-thought
 tags:
   - Indian Liberalism
   - VS Srinivasa Sastri
   - Indian Liberal Tradition
   - Indian liberals
+source_hash: 8f96e81629cb2d0637b9d34f3c2a6ccc90f0e2c88de05ee169af70f1a21604f2
+summary_hash: 8f96e81629cb2d0637b9d34f3c2a6ccc90f0e2c88de05ee169af70f1a21604f2
+summary_at: '2026-05-05T12:54:56.391Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

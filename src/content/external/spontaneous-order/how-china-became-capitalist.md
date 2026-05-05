@@ -1,20 +1,57 @@
 ---
 title: How China Became Capitalist
 original_url: 'https://www.spontaneousorder.in/p/how-china-became-capitalist'
+author: Spontaneous Order
 published_at: '2013-05-02T12:42:49.000Z'
 ingested_at: '2026-05-05T08:31:42.607Z'
-source_hash: e3793b3fb286dec47acfbaa45d83993287cd1381f85fa33c9ce78e191e28a966
-author: Spontaneous Order
 excerpt: >-
   One of the most surprising and dangerous myths I encounter when meeting
   participants at our courses in public policy and liberal philosophy is that
   China is growing and becoming prosperous because it is “communist,” i.e.,
   because (they believe) the st
+summary: >-
+  The post challenges the myth that China's economic growth and prosperity
+  result from communism and state-directed planning, a view held by some public
+  policy course participants. Instead, from Deng Xiaoping's succession to Mao in
+  1978, China has progressively become more capitalist, which explains its rapid
+  growth and poverty reduction. Pre-1978 central planning failed disastrously,
+  culminating in Mao's Great Leap Forward—one of history's greatest mass
+  starvations. Ronald Coase and Ning Wang's book 'How China Became Capitalist,'
+  recently reviewed by the Wall Street Journal, describes reforms guided by
+  pragmatism, experimentation, and the Confucian principle 'to seek truth from
+  facts.' However, the authors emphasize that success stems from the
+  government's gradual withdrawal from the economy, not political leadership's
+  strength. A large sector of state-owned enterprises and interventions in
+  money, banking, and exchange rates persist, foreshadowing troubles, but China
+  has developed despite these interventions, not because of them. This
+  classical-liberal framing underscores market liberalization over state control
+  as the driver of China's transformation.
+key_points:
+  - >-
+    China's growth since 1978 results from increasing capitalism under Deng
+    Xiaoping, not communist planning.
+  - >-
+    Mao's pre-1978 central planning caused the Great Leap Forward's mass
+    starvation.
+  - >-
+    Coase and Wang attribute China's success to government withdrawal from the
+    economy, guided by pragmatism and experimentation.
+  - >-
+    Persistent state-owned enterprises and financial interventions risk future
+    economic troubles, hindering rather than helping growth.
+topics:
+  - china-economy
+  - capitalism
+  - economic-reform
+  - state-intervention
 tags:
   - Ronald Coase
   - Ning Wang
   - China
   - Capitalism
+source_hash: e3793b3fb286dec47acfbaa45d83993287cd1381f85fa33c9ce78e191e28a966
+summary_hash: e3793b3fb286dec47acfbaa45d83993287cd1381f85fa33c9ce78e191e28a966
+summary_at: '2026-05-05T10:11:10.222Z'
 ---
 **By Andrew Humphries**
 

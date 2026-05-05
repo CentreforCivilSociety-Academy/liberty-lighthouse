@@ -1,21 +1,61 @@
 ---
 title: Stop Parents from Spending on Education
 original_url: 'https://www.spontaneousorder.in/p/nep_satire'
+author: Spontaneous Order
 published_at: '2019-07-29T09:45:51.000Z'
 ingested_at: '2026-05-05T08:31:42.724Z'
-source_hash: 1a9b34b31a289201d04d93e273660c62c6fa54d1400f64520dca65f0b70d159b
-author: Spontaneous Order
 excerpt: >-
   Nowadays, parents spend too much money on their children at private
   institutions. It is high time that someone stands up to them and says,
   “Enough, stop squandering your savings away on the menaces you created.”
   Luckily for us, the National Educationa
+summary: >-
+  Prashant Narang satirically critiques the National Educational Policy (NEP)
+  draft's vehement opposition to for-profit private schools, portraying it as an
+  absurd crusade to prevent parents from spending their savings on superior
+  education options. He mocks the NEP's 484-page document for repeating its
+  'hatred' for for-profit schools at least 10 times without explaining why they
+  are 'menaces,' while ignoring government schools' failures like absent
+  teachers who send their own children to private institutions, poor
+  infrastructure, and reliance on outdated textbooks based on local lores.
+  Narang highlights private sector successes in hospitals (lower death rates),
+  vaccines, and daycare over government alternatives like anganwadis, arguing
+  that profit motives drive cost reductions and better learning outcomes. From a
+  classical-liberal viewpoint, he condemns mandating government education as a
+  barrier to progress, noting India's government has delayed universal education
+  since 1949. Instead, he advocates allowing profit-seeking providers to thrive,
+  urging support for parental choice and free enterprise to tie the purse
+  strings on wasteful public spending rather than private savings.
+key_points:
+  - >-
+    NEP draft opposes for-profit schools 10 times in 484 pages without
+    justification.
+  - >-
+    Government schools suffer from teacher absenteeism, with staff educating
+    politicians on pay delays instead of students.
+  - >-
+    Private institutions outperform public ones in health, vaccines, and early
+    education by focusing on costs and outcomes.
+  - >-
+    India's government has postponed universal education deadlines since 1949,
+    hindered by anti-profit policies.
+  - >-
+    Support free enterprise in education to enable parental spending on
+    effective private options over failing public freebies.
+topics:
+  - education-policy
+  - for-profit-schools
+  - school-choice
+  - nep
 tags:
   - Education
   - Satire
   - NEP
   - For-Profit education
   - National Education Policy
+source_hash: 1a9b34b31a289201d04d93e273660c62c6fa54d1400f64520dca65f0b70d159b
+summary_hash: 1a9b34b31a289201d04d93e273660c62c6fa54d1400f64520dca65f0b70d159b
+summary_at: '2026-05-05T11:02:47.880Z'
 ---
 **By Prashant Narang**
 

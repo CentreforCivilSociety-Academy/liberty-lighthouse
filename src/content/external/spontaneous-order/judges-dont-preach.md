@@ -1,15 +1,53 @@
 ---
 title: 'Judges, Don’t Preach'
 original_url: 'https://www.spontaneousorder.in/p/judges-dont-preach'
+author: Spontaneous Order
 published_at: '2011-06-22T22:41:45.000Z'
 ingested_at: '2026-05-05T08:31:42.637Z'
-source_hash: 3273a1b838dc4209b834d4a09811829d3e11dcb2942045dfc835b8fd1b268dca
-author: Spontaneous Order
 excerpt: >-
   Surbhi Tandon & Snigdha Jain (CCS Interns) A judge’s obligation to the public
   starts and ends with his or her analysis of the law, its correct use, not with
   the preaching of personal beliefs or preferences. Chief Justice S H. Kapadia
   once said, “High.
+summary: >-
+  The post criticizes the Karnataka High Court for dismissing a habeas corpus
+  petition by a Bangalore resident seeking reunion with his newly married wife,
+  allegedly detained by her parents, on grounds that girls below 21 cannot judge
+  a partner's character and require parental consent for marriage, with judges
+  stating parents bear the brunt of unsuccessful marriages. Echoing Chief
+  Justice S.H. Kapadia's admonition that judges should apply legal principles
+  without lecturing society or imposing personal values, the author argues
+  judges must limit themselves to facts and law, not act as moral custodians
+  enforcing conservative norms. This overreach persists amid a massive judicial
+  backlog of 32,127,796 pending cases as of October 2010. Further examples
+  include former Chief Justice K.G. Balakrishnan suggesting 'due regard' to rape
+  victims marrying perpetrators, and the Orissa High Court offering a rapist
+  marriage to the victim or jail. From a classical-liberal viewpoint, such
+  judicial moralizing undermines impartial justice. The solution is a judicial
+  code of conduct to eliminate ethical biases and ensure verdicts adhere
+  strictly to law, concluding: judges, don't preach.
+key_points:
+  - >-
+    Karnataka High Court dismissed habeas corpus for an 18-year-old's marriage,
+    mandating parental consent for girls under 21 and deeming them incapable of
+    judging partners.
+  - >-
+    Judges must confine themselves to legal principles, avoiding imposition of
+    personal values, as per Chief Justice Kapadia.
+  - >-
+    Indian courts face 32,127,796 pending cases, yet some judges prioritize
+    moral preaching over backlog clearance.
+  - >-
+    Judicial moralizing examples include pressuring rape victims to marry
+    perpetrators.
+  - >-
+    Indian judges need a code of conduct to deliver unbiased verdicts free from
+    conservative social norms.
+topics:
+  - judicial-overreach
+  - judicial-activism
+  - marriage-autonomy
+  - rule-of-law
 tags:
   - marriage
   - moral norms
@@ -18,6 +56,9 @@ tags:
   - marriage laws
   - rape victims
   - Law
+source_hash: 3273a1b838dc4209b834d4a09811829d3e11dcb2942045dfc835b8fd1b268dca
+summary_hash: 3273a1b838dc4209b834d4a09811829d3e11dcb2942045dfc835b8fd1b268dca
+summary_at: '2026-05-05T10:33:13.234Z'
 ---
 **By Vipin**
 

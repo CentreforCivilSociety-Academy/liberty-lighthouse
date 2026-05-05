@@ -1,15 +1,53 @@
 ---
 title: GST threatens to undermine fiscal federalism and tax competition
 original_url: 'https://www.spontaneousorder.in/p/gst-federalism'
+author: Spontaneous Order
 published_at: '2016-08-21T20:03:10.000Z'
 ingested_at: '2026-05-05T08:31:42.548Z'
-source_hash: 87f669e0662528211547c7d4b147977de5c0546b48eba9e583b2c0584e4838d4
-author: Spontaneous Order
 excerpt: >-
   There is a compelling idea that has come to be taken very seriously—that
   uniformity is a definite good that must be pursued: uniformity in laws, in
   institutions, in cultural values and even tax rates. One can see the reasoning
   behind such a view: a whol
+summary: >-
+  Ujwal Batra argues from a classical-liberal perspective that India's GST bill,
+  while simplifying taxes, threatens fiscal federalism and tax competition by
+  imposing uniform tax rates and centralizing decision-making in the GST
+  council, undermining states' sovereignty over sales taxes that constitute
+  about 80% of their revenue. State-level commodity and service taxes as a
+  percentage of GDP vary widely—from 13% in Karnataka and 15% in Tamil Nadu to
+  33% in West Bengal—reflecting differing economic freedoms partly driven by tax
+  regimes. Tax competition directs capital and enterprise to low-tax
+  jurisdictions, as seen in U.S. states or international tax havens like
+  Switzerland, fostering liberty and efficient outcomes rather than a
+  pre-determined capital allocation. Uniformity, though intuitive for
+  predictability, concentrates power and stifles this beneficial rivalry. Even
+  proponents acknowledge needs for tax harmonization to prevent capital flight,
+  but Batra counters that alternatives exist: allow states to set their own SGST
+  rates alongside CGST, leveraging IT infrastructure like the EU's VAT system or
+  improved U.S.-style coordination to achieve a common market without
+  sacrificing federalism. Consensus among political parties warrants skepticism,
+  and Tamil Nadu's resistance highlights potential conflicts. Simplicity is
+  valuable, but not at the cost of uniformity over competition.
+key_points:
+  - >-
+    Uniform GST rates undermine tax competition, preventing capital from flowing
+    to low-tax states and centralizing power in the GST council.
+  - >-
+    Sales taxes account for 80% of state revenues, with rates varying
+    significantly (e.g., 13% of GDP in Karnataka vs. 33% in West Bengal),
+    influencing state economic freedom.
+  - >-
+    A common market can be achieved without uniform rates by allowing
+    state-specific SGSTs integrated via IT, as in the EU's VAT system.
+  - >-
+    Tax competition among jurisdictions promotes liberty and better outcomes,
+    superior to imposed uniformity despite its promised predictability.
+topics:
+  - gst
+  - tax-competition
+  - fiscal-federalism
+  - economic-freedom
 tags:
   - Fiscal Federalism in India
   - Fiscal Federalism
@@ -19,6 +57,9 @@ tags:
   - Uniform Market
   - Single Market
   - Common Market
+source_hash: 87f669e0662528211547c7d4b147977de5c0546b48eba9e583b2c0584e4838d4
+summary_hash: 87f669e0662528211547c7d4b147977de5c0546b48eba9e583b2c0584e4838d4
+summary_at: '2026-05-05T10:07:08.060Z'
 ---
 **By Ujwal Batra**
 

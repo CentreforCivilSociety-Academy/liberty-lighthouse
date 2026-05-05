@@ -2,19 +2,58 @@
 title: 'The Entrepreneurial Presidency: Not Just for USA!'
 original_url: >-
   https://www.spontaneousorder.in/p/the-entrepreneurial-presidency-not-just-for-usa
+author: Spontaneous Order
 published_at: '2009-01-25T22:27:59.000Z'
 ingested_at: '2026-05-05T08:31:42.666Z'
-source_hash: 7199c60337ee39bf8b6d2dfe182e14e8df1688b33d1b1440c9e23939a8fe758e
-author: Spontaneous Order
 excerpt: >-
   Like all the readers, i too simply loved this post by Nathaniel Whittemore at
   change.org, and am taking the liberty to copy it here. I surely wish i could
   govern like this and i am sure most of my colleagues at CCS would see great
   value in this approach..
+summary: >-
+  Parth Shah of the Centre for Civil Society enthusiastically reposts Nathaniel
+  Whittemore's call for the Obama administration to adopt a startup spirit in
+  governance, wishing to apply it himself and seeing alignment with CCS's
+  classical-liberal approach. The five key principles are: (5) Do more with less
+  by trimming bloated federal budgets, pet projects, tax loopholes, and
+  sinkholes, noting Peter Thiel's view that low CEO pay predicts startup
+  success. (4) Harness team talent around meaningful missions to restore purpose
+  in government service. (3) Partner with business, civil society, and citizens
+  rather than attempting to do everything, convening actors for challenges like
+  education and climate change. (2) Learn continuously from business, civil
+  society, other governments, and citizens, citing the Citizen’s Briefing Book
+  as a start. (1) Iterate and scale successes agilely, like embedding KIPP
+  schools' longer schedules into policy. Bonus: Prioritize impact over ideology
+  for citizens' safety and prosperity, wanting better schools regardless of
+  partisan solutions. Shah praises Obama's social entrepreneurship roots and
+  hopes he brings a Google-like startup ethos to monumental challenges,
+  emphasizing choice, accountability, and limited government.
+key_points:
+  - >-
+    Adopt lean operations in government by cutting bloated budgets and pet
+    projects to do more with less.
+  - >-
+    Harness public servants' talents around meaningful missions to restore
+    purpose and effectiveness.
+  - >-
+    Convene partnerships with business, civil society, and citizens instead of
+    government doing everything.
+  - >-
+    Continuously learn from diverse sources and iterate on promising ideas,
+    scaling successes like KIPP schools' innovations.
+  - Prioritize measurable impact over ideological battles in policy-making.
+topics:
+  - entrepreneurial-governance
+  - limited-government
+  - public-partnerships
+  - education-reform
 tags:
   - White House
   - change.org
   - Barack Obama
+source_hash: 7199c60337ee39bf8b6d2dfe182e14e8df1688b33d1b1440c9e23939a8fe758e
+summary_hash: 7199c60337ee39bf8b6d2dfe182e14e8df1688b33d1b1440c9e23939a8fe758e
+summary_at: '2026-05-05T12:25:23.096Z'
 ---
 **By Parth Shah**
 

@@ -1,18 +1,56 @@
 ---
 title: Basic education as Priority No. 1
 original_url: 'https://www.spontaneousorder.in/p/basic-education-as-priority-no-1'
+author: Spontaneous Order
 published_at: '2006-01-11T02:47:50.000Z'
 ingested_at: '2026-05-05T08:31:42.675Z'
-source_hash: 1b3cd41319184304ffdd1a874714188a337733230279c3362ecd294aee904be5
-author: Spontaneous Order
 excerpt: >-
   Nothing is more shameful for a country than to keep quarter of its population
   as illiterates. Occasionally the issue of educating those who do not have the
   basic reading and writing skills come up for discussion in the corridors of
   power. This is happen..
+summary: >-
+  India's persistent failure to eradicate illiteracy, leaving a quarter of its
+  population illiterate despite 58 years of government plans and legislation
+  like the NDA's elementary education law and the suspended RTE Act, stems from
+  excessive state control, politicization, and bureaucratic hurdles. The author,
+  from a classical-liberal viewpoint, lambasts opposition from left parties to
+  initiatives like Navodaya and Kendriya Vidyalaya schools while they decry poor
+  education outcomes, and criticizes pitting basic against higher education. The
+  core solution is depoliticising, deregulating, and decentralising education:
+  empower village panchayats and unemployed educated local people (UELP) to
+  deliver literacy programs, eliminate license barriers for starting primary
+  schools, enable bank loans without hassles, and minimize central funding flows
+  through bureaucratic layers. Media, movie stars, and sports heroes should be
+  mobilized for campaigns. Government schemes fail due to implementation
+  sabotage, like frustrating educational loans for the poor despite
+  no-collateral rules, underscoring that minimal state involvement yields
+  maximum benefits, with swift punishment for fraudsters. Achieving cent percent
+  literacy would unlock India's vast potential in its multiparty democracy.
+key_points:
+  - >-
+    Governments have failed over 58 years to even halve India's illiteracy rate
+    despite numerous plans and laws.
+  - >-
+    Depoliticise, deregulate, and decentralise education by empowering village
+    panchayats and UELP to eliminate illiteracy faster.
+  - >-
+    Remove license requirements and bank loan hassles to let UELP start primary
+    schools and provide quality basic education.
+  - >-
+    Minimize central government control and bureaucratic layers to avoid
+    implementation failures in schemes like educational loans for the poor.
+topics:
+  - basic-education
+  - education-deregulation
+  - decentralization
+  - literacy
 tags:
   - elementary education
   - illiteracy
+source_hash: 1b3cd41319184304ffdd1a874714188a337733230279c3362ecd294aee904be5
+summary_hash: 1b3cd41319184304ffdd1a874714188a337733230279c3362ecd294aee904be5
+summary_at: '2026-05-05T09:08:09.922Z'
 ---
 **By praba**
 

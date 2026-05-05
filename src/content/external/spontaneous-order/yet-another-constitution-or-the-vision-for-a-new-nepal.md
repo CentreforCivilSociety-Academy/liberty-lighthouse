@@ -2,20 +2,58 @@
 title: 'Yet Another Constitution, or the Vision for A New Nepal?'
 original_url: >-
   https://www.spontaneousorder.in/p/yet-another-constitution-or-the-vision-for-a-new-nepal
+author: Spontaneous Order
 published_at: '2015-10-09T17:59:29.000Z'
 ingested_at: '2026-05-05T08:31:42.572Z'
-source_hash: ffbd183f04504163b71bd18a39380f779eb080a8e13b0f540457e9c69867a024
-author: Spontaneous Order
 excerpt: >-
   By Sarita Sapkota Nepal was declared a Federal Democratic Republic in the
   Interim Constitution of Nepal, 2007. This was right after the decade long
   Maoist uprising (1996-2006) which led to the fall of a long-standing monarchy.
   The country achieved anoth..
+summary: >-
+  Nepal's 2015 constitution, promulgated after the end of monarchy and Maoist
+  uprising, aimed to establish a federal democratic republic with seven
+  provisional states but has sparked violent protests in the Terai region
+  claiming at least 40 lives amid disputes over boundaries and powers. The
+  economy suffers severely, with 1047 general shutdowns (bandhs) in five years,
+  thousands of industries closed along the Nepal-India border in the last 50
+  days, and blocked customs crippling revenue. From a classical-liberal
+  viewpoint, the constitution excels in process but fails in content: it
+  declares a 'socialism-oriented democracy' reflecting dominant socialist
+  parties, expands unaffordable welfare rights, leaves property rights
+  vulnerable to state expropriation, and inadequately decentralizes power. Post
+  the 2015 earthquake killing nearly 9,000 and causing billions in losses, Nepal
+  urgently needs reforms prioritizing entrepreneurship, local governance, and
+  economic freedom. The author urges immediate discourse on federal structures
+  that devolve power, secure property, allocate resources efficiently, and
+  foster enterprise to enhance livelihoods, rather than political manifestos.
+key_points:
+  - >-
+    Nepal's 2015 constitution promises federalism but delivers
+    socialist-oriented policies that undermine property rights and true
+    decentralization.
+  - >-
+    Over 1,047 bandhs in five years and shutdowns of 2,000 factories highlight
+    economic devastation from political unrest over the constitution.
+  - >-
+    Post-earthquake recovery demands local governance and
+    entrepreneurship-enabling reforms over expansive welfare promises.
+  - >-
+    Federalism discourse must prioritize economic freedom, resource allocation,
+    and tax provisions to improve livelihoods.
+topics:
+  - nepal-constitution
+  - federalism
+  - property-rights
+  - economic-freedom
 tags:
   - Terai
   - Federalism
   - Nepal
   - Constitution
+source_hash: ffbd183f04504163b71bd18a39380f779eb080a8e13b0f540457e9c69867a024
+summary_hash: ffbd183f04504163b71bd18a39380f779eb080a8e13b0f540457e9c69867a024
+summary_at: '2026-05-05T13:11:00.062Z'
 ---
 **By Guest Author**
 

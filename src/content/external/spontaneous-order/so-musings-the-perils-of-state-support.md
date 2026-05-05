@@ -1,15 +1,51 @@
 ---
 title: 'So Musings: The Perils of State Support'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-the-perils-of-state-support'
+author: Spontaneous Order
 published_at: '2020-05-22T17:51:49.000Z'
 ingested_at: '2026-05-05T08:31:42.415Z'
-source_hash: 79334cda082758d823a6a3d27bc5d876784df42e06fb3041c012123f64480826
-author: Spontaneous Order
 excerpt: >-
   Public intellectuals and institutions like think-tanks essentially dabble in
   ideas, both to explain the world and help change it. The mechanism of the
   entrenched power, if exclusionary, often poses an obstacle to widespread
   prosperity and human flouris...
+summary: >-
+  Public intellectuals, especially liberals wary of state power's monopoly on
+  violence, should view the relationship between ideas and the state as
+  fundamentally contradictory, argues Govind Talwalkar in his 1986 Freedom First
+  article, as highlighted by Spontaneous Order. Talwalkar contends that
+  political power requires lying—as Plato admitted rulers must deceive for the
+  city's benefit—while intellectual pursuits demand truth and beauty, making
+  state patronage dangerous. It breeds inefficiency, subservience, mediocrity,
+  and nepotism, evident in India's ideologically captured public universities
+  and government-funded research institutions controlled via funding and
+  appointments. Historical examples like Nazi Germany, Fascist Italy, Communist
+  states, poets Osip Mandelstam and Solzhenitsyn, and even democratic leaders
+  illustrate the conflict, yet intellectuals must persist in speaking truth to
+  power without arrogance or craving state recognition. Talwalkar's
+  classical-liberal prescription: intellectual enterprises must distance
+  themselves from state support to uncover oppression and foster human
+  flourishing, rather than perpetuating a closed society.
+key_points:
+  - >-
+    Intellectual morality requires uncovering state oppression and speaking
+    truth to power, in direct opposition to politicians' need to lie.
+  - >-
+    State patronage of intellectuals and creative work leads to inefficiency,
+    subservience, mediocrity, and nepotism, as seen in India's public
+    universities.
+  - >-
+    Liberals should reject manning state-funded institutions to avoid
+    ideological capture enabled by government control of funding and
+    appointments.
+  - >-
+    Intellectuals must maintain independence from the state, resenting its
+    insolence without tolerating their own arrogance or hypocrisy.
+topics:
+  - state-patronage
+  - intellectual-freedom
+  - indian-liberals
+  - liberal-thought
 tags:
   - SO Musings
   - benefits
@@ -17,6 +53,9 @@ tags:
   - Liberalism in India
   - Libertarian Scholars
   - welfare state
+source_hash: 79334cda082758d823a6a3d27bc5d876784df42e06fb3041c012123f64480826
+summary_hash: 79334cda082758d823a6a3d27bc5d876784df42e06fb3041c012123f64480826
+summary_at: '2026-05-05T12:02:37.734Z'
 ---
 **By Spontaneous Order**
 

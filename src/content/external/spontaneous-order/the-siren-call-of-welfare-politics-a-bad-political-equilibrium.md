@@ -2,15 +2,56 @@
 title: 'The Siren Call of Welfare Politics: A Bad Political Equilibrium'
 original_url: >-
   https://www.spontaneousorder.in/p/the-siren-call-of-welfare-politics-a-bad-political-equilibrium
+author: Spontaneous Order
 published_at: '2023-06-06T17:06:35.000Z'
 ingested_at: '2026-05-05T08:31:42.242Z'
-source_hash: 6b996ef2185ebf705c8e8c9131e4e88ee15e4a3248bbf75fb7dce6412aaaee23
-author: Spontaneous Order
 excerpt: >-
   The Indian National Congress’s (INC) recent victory in the Karnataka
   elections, buoyed by an aggressive welfare agenda, has drawn applause from
   many quarters. Supporters are touting this as a blueprint for success in the
   2024 national elections, calling
+summary: >-
+  The Indian National Congress's Karnataka election victory, driven by welfare
+  guarantees like free bus rides for women, ₹2,000 monthly to women heads of
+  families, ₹3,000 unemployment allowance for graduates, ₹1,500 for diploma
+  holders, 10 kg rice, and 200 units free power per household, signals a risky
+  blueprint for 2024 national polls. This mirrors the 2004 shift from Vajpayee's
+  reforms to UPA's welfare focus, where MGNREGA costs rose from 0.3% to 0.6% of
+  GDP with only 32% funds reaching the poor due to corruption, and the Food
+  Security Bill projected 1% GDP subsidy with 15% leakages. Fiscal deficits
+  ballooned from 4.5% to 6.5% of GDP, public debt-to-GDP from 66.3% to 68.6%,
+  crowding out capital expenditure. Both INC and BJP indulge in such
+  politics—BJP in UP and Assam with loan waivers and cash transfers straining
+  finances; states like Tamil Nadu (4.4% deficit), Telangana (3.9%), and AAP's
+  Delhi face FRBM breaches. Punjab exemplifies long-term fallout: free
+  electricity spurred 165% groundwater over-extraction, paddy monoculture, 86%
+  indebted farmers (₹5.52 lakh/household average), stubble burning, and
+  stagnation. From a classical-liberal view, welfare politics creates a
+  race-to-the-bottom equilibrium undermining efficiency; governments must
+  prioritize property rights, civil society, entrepreneurship, and targeted,
+  accountable welfare to foster self-sustainability and prosperity.
+key_points:
+  - >-
+    INC's Karnataka welfare promises risk nationwide fiscal strain akin to UPA's
+    MGNREGA (0.6% GDP cost, 68% leakages) and Food Security Bill (15% leakages).
+  - >-
+    BJP states like UP, Assam, and others pursue populist subsidies breaching
+    FRBM limits, mirroring INC's approach.
+  - >-
+    Punjab's free electricity and MSP led to 165% groundwater over-extraction,
+    farmer debt (86% at ₹5.52 lakh/household), and environmental degradation.
+  - >-
+    Reform by upholding property rights and civil society to unleash
+    entrepreneurship, while making welfare efficient and less
+    dependency-inducing.
+topics:
+  - welfare-politics
+  - fiscal-deficits
+  - agricultural-subsidies
+  - indian-elections
+source_hash: 6b996ef2185ebf705c8e8c9131e4e88ee15e4a3248bbf75fb7dce6412aaaee23
+summary_hash: 6b996ef2185ebf705c8e8c9131e4e88ee15e4a3248bbf75fb7dce6412aaaee23
+summary_at: '2026-05-05T12:36:12.956Z'
 ---
 **By Vibhu Vikramaditya**
 

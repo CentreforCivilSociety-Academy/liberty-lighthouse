@@ -1,15 +1,54 @@
 ---
 title: Crypto-assets need Environmental Regulation
 original_url: 'https://www.spontaneousorder.in/p/crypto-assets-need-environmental-regulation'
+author: Spontaneous Order
 published_at: '2022-03-10T10:33:14.000Z'
 ingested_at: '2026-05-05T08:31:42.275Z'
-source_hash: ecfd7457cdd076e294165d08596d85cba697b168d258d8a3754dd527a2ea00ff
-author: Spontaneous Order
 excerpt: >-
   In a run towards more digitalization and search for modern ways of economic
   transactions, the rise of digital currencies and virtual assets popularly
   known as crypto assets are at the forefront. These crypto-assets are generated
   using complex mathematic..
+summary: >-
+  Crypto-assets, driven by blockchain technology and proof-of-work mining, pose
+  significant environmental risks due to their massive energy consumption and
+  carbon emissions, necessitating a multifaceted regulatory framework in India
+  that prioritizes climate concerns alongside economic and social impacts. With
+  15-20 million Indian investors holding roughly $6 billion in crypto, the
+  unregulated nature lures high-risk investments while contributing to global
+  warming—Bitcoin's electricity use surged from 4.8 TWh in 2017 to 73.12 TWh in
+  2019, each transaction emitting 619 kWh (equivalent to 20.92 days of an
+  average US household's energy), and mining consuming about 5 GW or 1% of
+  global energy. As India develops its Digital Rupee CBDC, policymakers should
+  assess these impacts and shift toward eco-friendly alternatives like IOTA's
+  Tangle (0.00011 kWh per transaction) or XRP (0.0079 kWh), which avoid
+  energy-intensive mining, over Bitcoin's 707 kWh per transaction. This approach
+  ensures sustainable digital currency innovation without forgoing
+  decentralization's benefits, aligning regulation with environmental
+  stewardship in a classical-liberal policy context that balances innovation and
+  planetary limits.
+key_points:
+  - >-
+    Crypto mining via proof-of-work consumes vast energy, with Bitcoin using
+    73.12 TWh in 2019 and 1% of global electricity, exacerbating CO2 emissions.
+  - >-
+    India's 15-20 million crypto investors hold $6 billion, demanding regulation
+    addressing consumer risks and environmental damage.
+  - >-
+    Adopt eco-friendly technologies like IOTA's Tangle (0.00011 kWh/transaction)
+    for India's CBDC to minimize emissions compared to Bitcoin's 707
+    kWh/transaction.
+  - >-
+    Policymakers must integrate environmental impact assessments into crypto
+    policy frameworks alongside economic considerations.
+topics:
+  - crypto-assets
+  - environmental-impact
+  - cbdc
+  - blockchain-regulation
+source_hash: ecfd7457cdd076e294165d08596d85cba697b168d258d8a3754dd527a2ea00ff
+summary_hash: ecfd7457cdd076e294165d08596d85cba697b168d258d8a3754dd527a2ea00ff
+summary_at: '2026-05-05T09:29:44.356Z'
 ---
 **By Akash Ankur Srivastav**
 

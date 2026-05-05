@@ -1,15 +1,56 @@
 ---
 title: 'PS Sivaswamy Aiyer: Forgotten Indian Liberal – Part I'
 original_url: 'https://www.spontaneousorder.in/p/ps-sivaswamy-aiyer'
+author: Spontaneous Order
 published_at: '2020-02-17T16:33:20.000Z'
 ingested_at: '2026-05-05T08:31:42.439Z'
-source_hash: b24c7cd624462036ad10a33e3295c9eb4692fae669f3c6703db49b9cda054896
-author: Spontaneous Order
 excerpt: >-
   Editor’s Note: This is the first article in a two-part series paying homage to
   PS Sivaswamy Aiyer, the forgotten liberal intellectual of pre-independent
   India. Read the second part here. In a fierce debate of contemporary public
   policies, the better int
+summary: >-
+  The post argues for revisiting India's forgotten classical-liberal history,
+  exemplified by PS Sivaswamy Aiyer (1864-1946), a legal luminary,
+  administrator, educationist, and statesman who championed constitutional
+  reforms, individual liberty, and non-violent paths to freedom, amid critiques
+  of distorted narratives ignoring such figures, especially in Tamil Nadu due to
+  Dravidian movements. Born near Thanjavur, Aiyer excelled academically,
+  practiced law from 1885, edited the Madras Law Journal (1883-1907), and
+  founded a pioneering co-educational school in 1906 (now Sir PS Sivaswamy Aiyer
+  Higher Secondary School) and supported girls' education at National Girls High
+  School (1930). He served as the first Indian nominated to Madras University
+  Senate (1898), Vice-Chancellor of Madras (1916-1918) and Banaras Hindu
+  University (1918-1919), Advocate General (1907-1912), and Member of the
+  Governor's Executive Council (1912-1917). Aiyer contributed to defence via
+  Military Requirement Committee (1921) and Indian Military College Committee
+  (1931), represented India at the League of Nations, and led the National
+  Liberal Federation (1919, 1926), advocating 'National Liberals' over
+  'Moderates' and critiquing Gandhi's non-cooperation while respecting his
+  patriotism. Influenced by Ranade and Gokhale, and mentor to VS Srinivasa
+  Sastri, Aiyer's legacy underscores liberal constitutionalism against
+  revolutionary violence.
+key_points:
+  - >-
+    PS Sivaswamy Aiyer advanced education by founding India's first
+    co-educational school in 1906 and leading girls' education initiatives in
+    1930.
+  - >-
+    Aiyer held key roles including Vice-Chancellor of Madras University
+    (1916-1918), Advocate General (1907-1912), and President of National Liberal
+    Federation (1919, 1926).
+  - >-
+    He promoted constitutional methods for independence, critiquing Gandhi's
+    non-cooperation while contributing to defence and League of Nations
+    representation.
+  - >-
+    Forgotten liberals like Aiyer deserve revival to counter distorted Indian
+    histories, particularly in Tamil Nadu's Dravidian narrative.
+topics:
+  - indian-liberals
+  - classical-liberalism
+  - education-reform
+  - constitutionalism
 tags:
   - Indian Liberalism
   - VS Srinivasa Sastri
@@ -17,6 +58,9 @@ tags:
   - Indian Liberal Tradition
   - Indian liberals
   - Indian Liberal Archives
+source_hash: b24c7cd624462036ad10a33e3295c9eb4692fae669f3c6703db49b9cda054896
+summary_hash: b24c7cd624462036ad10a33e3295c9eb4692fae669f3c6703db49b9cda054896
+summary_at: '2026-05-05T11:20:18.028Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

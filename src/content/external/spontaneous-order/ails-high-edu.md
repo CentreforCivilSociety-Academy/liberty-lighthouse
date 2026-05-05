@@ -1,21 +1,66 @@
 ---
 title: What Ails Our Higher Education?
 original_url: 'https://www.spontaneousorder.in/p/ails-high-edu'
+author: Spontaneous Order
 published_at: '2015-10-19T12:35:33.000Z'
 ingested_at: '2026-05-05T08:31:42.571Z'
-source_hash: c062e2d6db5153d48dea7eea1a3200ff5f47d22eb9799af9f7beb636453d218b
-author: Spontaneous Order
 excerpt: >-
   I recently completed my graduation from a state funded engineering college. In
   the past couple months since I’ve started working; I’ve come to get some sense
   of how inadequate my training in college really was. (a sentiment, I am sure,
   shared by many
+summary: >-
+  Ayush Agarwal, a recent engineering graduate, critiques India's higher
+  education system for failing to equip students with relevant skills, citing
+  personal experiences of outdated curricula, rote learning, and demotivated
+  students in state-funded colleges—a common issue among many undergraduates. A
+  professor acknowledged the problems but blamed bureaucratic hurdles involving
+  deans, directors, and councils, while noting student apathy. Agarwal
+  attributes these maladies to excessive government regulations in academic,
+  administrative, and financial areas, which multiply stakeholders at the
+  expense of students, restrict foreign universities, and hinder domestic
+  private competition. This creates a knowledge gap between graduates and
+  industry needs. In a classical-liberal vein, he advocates transforming
+  universities into hubs of knowledge generation through freedom for
+  originality, creativity, and intellectual pursuits, free from traditional
+  authority. Proposed reforms include credit-based systems over rigid years,
+  professor flexibility in tailoring courses, transparent assessments, regular
+  academic audits, and greater integration of MOOCs like NPTEL from IITs and
+  IISc, which offer flexible, high-quality learning from top global
+  universities. Ultimately, decentralizing authority, opening the sector to
+  competition, and empowering teachers and students as true stakeholders will
+  foster innovation and shift India from outsourcing to a hub of original
+  thinking.
+key_points:
+  - >-
+    Government regulations create excessive stakeholders and barriers to foreign
+    and private entry, stifling higher education progress.
+  - >-
+    Outdated curricula and rote evaluation in engineering colleges leave
+    graduates unprepared for industry, demotivating students.
+  - >-
+    Reforms should emphasize flexible credits, professor autonomy in courses,
+    transparent assessments, and academic audits to build skilled talent.
+  - >-
+    Expand MOOCs like NPTEL across fields for student-chosen, paced learning
+    aligned with global advances.
+  - >-
+    Decentralize authority to empower teachers and students, promoting free
+    thinking and innovation in universities.
+topics:
+  - higher-education
+  - education-reform
+  - regulatory-reform
+  - online-learning
 tags:
   - Education
   - Indian education
   - Education System
   - engineering
   - higher education
+source_hash: c062e2d6db5153d48dea7eea1a3200ff5f47d22eb9799af9f7beb636453d218b
+summary_hash: c062e2d6db5153d48dea7eea1a3200ff5f47d22eb9799af9f7beb636453d218b
+summary_at: '2026-05-05T08:52:28.105Z'
 ---
 **By Ayush Agarwal**
 

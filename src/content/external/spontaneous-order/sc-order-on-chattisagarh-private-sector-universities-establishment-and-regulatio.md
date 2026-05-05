@@ -4,15 +4,44 @@ title: >-
   Regulation) Act, 2002
 original_url: >-
   https://www.spontaneousorder.in/p/sc-order-on-chattisagarh-private-sector-universities-establishment-and-regulation-act-2002
+author: Spontaneous Order
 published_at: '2005-02-13T07:08:40.000Z'
 ingested_at: '2026-05-05T08:31:42.729Z'
-source_hash: 6307679ea38948f726fa19718b170ddab33bbccd777eabb6e46dfd62b4a06494
-author: Spontaneous Order
 excerpt: >-
   Way back in my childhood when I was an ardent student of science and an avid
   fan of Turning Point, a popular science program, Prof Yashpal Sharma caught my
   fancy for his flowing white hair and guru-like wisdom spouted eloquently. I
   have since unrevered ..
+summary: >-
+  Naveen Mandava criticizes Prof Yashpal Sharma, once an admired figure, for
+  filing a PIL that prompted the Supreme Court to strike down the Chhattisgarh
+  Private Sector Universities (Establishment and Regulation) Act, 2002,
+  resulting in over 12,000 students becoming victims across about 100 private
+  universities in 30 cities. From a classical-liberal viewpoint, this
+  exemplifies the dangerous influence wielded by good-intentioned individuals in
+  high places, as noted by Parth Shah, leading to regulatory overreach that
+  harms private education initiatives. Mandava urges readers to examine the SC
+  order's sections closely, highlighting how such judicial interventions disrupt
+  market-driven higher education and student opportunities, underscoring the
+  need to protect private sector freedoms from activist litigation.
+key_points:
+  - >-
+    A single PIL by Prof Yashpal Sharma led the Supreme Court to invalidate
+    Chhattisgarh's private universities act, affecting 100 institutions and
+    12,000 students.
+  - >-
+    This case illustrates the perils of well-meaning influencers in positions of
+    power undermining private education.
+  - >-
+    Judicial overreach via PILs exemplifies how good intentions can cause
+    widespread harm to students and market freedoms.
+topics:
+  - higher-education
+  - private-universities
+  - judicial-overreach
+source_hash: 6307679ea38948f726fa19718b170ddab33bbccd777eabb6e46dfd62b4a06494
+summary_hash: 6307679ea38948f726fa19718b170ddab33bbccd777eabb6e46dfd62b4a06494
+summary_at: '2026-05-05T11:32:44.339Z'
 ---
 **By Naveen Mandava**
 

@@ -1,17 +1,64 @@
 ---
 title: The “Stree” behind Street Vendors
 original_url: 'https://www.spontaneousorder.in/p/the-stree-behind-street-vendors'
+author: Spontaneous Order
 published_at: '2021-06-16T11:51:00.000Z'
 ingested_at: '2026-05-05T08:31:42.312Z'
-source_hash: 8da5e8dfb3f93f68f1be933fd35bd5ab2aa9c786ee58aa65155ca0a796b94c6b
-author: Spontaneous Order
 excerpt: >-
   With no luxury of working from home and maintaining social distance, street
   vendors have been fighting for ‘atma-nirbharta’ during the extended lockdown
   period. The blows of the pandemic have silenced the active hubs of commerce
   and urban conviviality
+summary: >-
+  Women street vendors in Rajasthan have struggled immensely during COVID-19
+  lockdowns, lacking the option to work from home and facing sharpened gender
+  disparities, as highlighted in Centre for Civil Society's State Community
+  Conversations. Vendors like Machi Devi, Sunita Singh, and Rani Mali report
+  exhausted savings, household burdens, sexual harassment, unsafe streets,
+  police brutality, and frequent evictions by Urban Local Bodies, which
+  confiscate goods and impose fines, often escalating during lockdowns.
+  Extortion by police and authorities goes largely unreported. While some, like
+  Lakshmi at Pandit Ji ka Chouraha, succeed through collective action to ward
+  off harassment, many resort to asset sales and high-interest moneylender
+  loans, trapping them in debt and jeopardizing children's education, as Ranu
+  Salvi notes. The Street Vendors Act (2014) mandates vending zones,
+  registration for protection and social security, and licensing to secure
+  livelihoods, but lacks effective implementation. The SVANidhi scheme, with Rs.
+  5,000 crore for 50 lakh vendors offering subsidized loans, fails to reach most
+  due to poor execution. From a classical-liberal viewpoint, atma-nirbharta
+  requires rule-of-law protections against arbitrary state actions; priorities
+  include opening markets with safety measures, halting retrenchments, ensuring
+  wage security, and providing regulatory tools for recovery.
+key_points:
+  - >-
+    Women street vendors in Rajasthan endure police brutality, evictions, sexual
+    harassment, and extortion during lockdowns, with many exhausting savings and
+    falling into debt traps.
+  - >-
+    Proper implementation of the Street Vendors Act (2014) is essential to
+    designate vending zones, register vendors, and provide licensing for
+    livelihood security and social benefits.
+  - >-
+    The SVANidhi scheme's Rs. 5,000 crore stimulus for 50 lakh vendors is
+    undermined by ineffective rollout, limiting access to subsidized working
+    capital loans.
+  - >-
+    Collective organization among vendors, as exemplified by those at Pandit Ji
+    ka Chouraha, effectively deters harassment by authorities.
+  - >-
+    Governments must prioritize reopening markets with safety protocols,
+    generating work, stopping retrenchments, and supplying regulatory tools to
+    aid pandemic recovery.
+topics:
+  - street-vendors
+  - street-vendors-act
+  - policy-implementation
+  - covid-impact
 tags:
   - street vendors
+source_hash: 8da5e8dfb3f93f68f1be933fd35bd5ab2aa9c786ee58aa65155ca0a796b94c6b
+summary_hash: 8da5e8dfb3f93f68f1be933fd35bd5ab2aa9c786ee58aa65155ca0a796b94c6b
+summary_at: '2026-05-05T12:37:10.948Z'
 ---
 **By Tanya Mittal**
 

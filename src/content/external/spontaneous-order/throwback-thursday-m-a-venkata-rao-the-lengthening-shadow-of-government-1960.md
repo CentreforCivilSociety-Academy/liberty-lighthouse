@@ -4,15 +4,54 @@ title: >-
   (1960)
 original_url: >-
   https://www.spontaneousorder.in/p/throwback-thursday-m-a-venkata-rao-the-lengthening-shadow-of-government-1960
+author: Spontaneous Order
 published_at: '2015-06-11T18:08:58.000Z'
 ingested_at: '2026-05-05T08:31:42.581Z'
-source_hash: e91b6adce7832851a7f463831188247bfb47e764ea396b50bf5c28bbc4e1429c
-author: Spontaneous Order
 excerpt: >-
   This piece was first published in the December 15, 1960 issue of ‘The Indian
   Libertarian’. In this piece, Venkata Rao examines the leftist tendencies that
   had come to dominate the political discourse in many countries—significantly
   impinging on indi
+summary: >-
+  M A Venkata Rao argues that post-1917 leftist dominance fosters an
+  unquestioning faith in government's omnicompetence across all life
+  spheres—education, economy, culture—inevitably leading to communism by
+  empowering bureaucracy to usurp individual sovereignty. He cites global
+  examples: USSR's dictation of science (Lysenko) and arts; USA's creeping
+  statism, where 1947 federal funding covered half of university budgets (90%
+  including lower levels), governments annex a third of incomes, employ a tenth
+  of workers, and sustain agricultural price floors excluding competition since
+  Roosevelt's New Deal. In India, Nehru-influenced policies feature state
+  monopolies, over-regulation hamstringing private sectors like textiles and
+  steel, nationalizations (Imperial Bank, life insurance, eyeing more), and
+  bureaucracy explosion from Rs.35 crores secretariat spend in 1947 to Rs.250
+  crores. Price controls enable ruling party corruption, as a one-anna sugar
+  export hike yielded Rs.21 crores windfall. Rao contrasts pre-independence
+  Mysore's wise policy of returning successful state enterprises to private
+  hands for efficiency and civic education. He warns concentrated state
+  economic-political power exceeds private tycoons' threats, extending violence
+  against free human energy. Classical-liberal solution: confine government to
+  law, order, defense; popularize limited government via libertarian literature.
+key_points:
+  - >-
+    Leftist belief in government's omnicompetence across all spheres naturally
+    progresses to communism by bureaucratic aggrandizement.
+  - >-
+    India's state controls and regulations have proliferated bureaucracy
+    (Rs.35cr to Rs.250cr secretariat spend) and enable ruling party corruption
+    via price-fixing windfalls like Rs.21cr from sugar export hikes.
+  - >-
+    Return successful public enterprises to private sector, as in
+    pre-independence Mysore, to free funds for innovation and foster economic
+    responsibility.
+  - >-
+    Limit government strictly to law, order, and defense to prevent violence
+    against individual free expression and preserve liberty.
+topics:
+  - limited-government
+  - economic-liberty
+  - state-overreach
+  - indian-libertarianism
 tags:
   - MA Venkata Rao
   - Libertarian Scholars
@@ -21,6 +60,9 @@ tags:
   - Ermund A. Optiz
   - State control
   - State interference
+source_hash: e91b6adce7832851a7f463831188247bfb47e764ea396b50bf5c28bbc4e1429c
+summary_hash: e91b6adce7832851a7f463831188247bfb47e764ea396b50bf5c28bbc4e1429c
+summary_at: '2026-05-05T12:42:09.717Z'
 ---
 **By Ujwal Batra**
 

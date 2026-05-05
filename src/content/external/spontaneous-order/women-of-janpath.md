@@ -1,15 +1,56 @@
 ---
 title: Women of Janpath
 original_url: 'https://www.spontaneousorder.in/p/women-of-janpath'
+author: Spontaneous Order
 published_at: '2021-06-11T12:00:00.000Z'
 ingested_at: '2026-05-05T08:31:42.313Z'
-source_hash: 89f8dc28346af175bcc8023aaef4b3abe97e566982e879b564fbe3d9469248fb
-author: Spontaneous Order
 excerpt: >-
   “I am a very strong woman and can give any man in this market equal
   competition because I don’t lack zeal. However, what I do lack is support to
   stand up to officials who misuse their uniform and exploit us.” For the
   longest time, street vendors and
+summary: >-
+  Street vendors, particularly women, face systemic exploitation by police and
+  local authorities who violate the Street Vendors (Protection of Livelihood and
+  Regulation of Street Vending) Act, 2014, through illegal seizures and
+  arbitrary penalties, exacerbating vulnerabilities during the COVID-19
+  pandemic. A March 2021 Centre for Civil Society study interviewed 40 women
+  vendors in Delhi and Jaipur, revealing common practices of goods seizure
+  without 30-day notice or inventory lists as required by Section 19, used as
+  extortion tactics that disrupt business and instill fear, especially for solo
+  women operators. Authorities impose fines up to Rs 4,000, exceeding the Act's
+  Section 28 limit of Rs 2,000, compelling payments to reclaim goods or avoid
+  eviction. Women endure additional gender-specific hardships like low
+  sanitation access, harassment, theft, and unpaid home labor, with pandemics
+  pushing them deeper into poverty per UN reports. From a classical-liberal
+  viewpoint, enforcing property rights and rule of law is essential. Solutions
+  include sex-disaggregated data collection, Act amendments imposing penalties
+  on harassing officials (higher for targeting women), and ensuring meaningful
+  women representation in Town Vending Committees beyond tokenism.
+key_points:
+  - >-
+    Centre for Civil Society's study of 40 women vendors in Delhi and Jaipur
+    documented illegal seizures under Section 19 and extortion by authorities
+    violating the Street Vendors Act 2014.
+  - >-
+    Authorities impose arbitrary fines up to Rs 4,000, surpassing the Act's Rs
+    2,000 limit under Section 28, forcing vendors to pay for business
+    continuity.
+  - >-
+    Women vendors face compounded gender vulnerabilities including safety risks,
+    harassment, and pandemic-induced poverty, as highlighted by UN reports.
+  - >-
+    Policy recommendations: collect sex-disaggregated data, amend the Act to
+    penalize official harassment (with higher fines for women), and verify
+    effective women participation in Town Vending Committees.
+topics:
+  - street-vendors
+  - rule-of-law
+  - women-vendors
+  - street-vendors-act
+source_hash: 89f8dc28346af175bcc8023aaef4b3abe97e566982e879b564fbe3d9469248fb
+summary_hash: 89f8dc28346af175bcc8023aaef4b3abe97e566982e879b564fbe3d9469248fb
+summary_at: '2026-05-05T13:09:15.644Z'
 ---
 **By Simranjyot Kaur**
 

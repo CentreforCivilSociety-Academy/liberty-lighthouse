@@ -1,21 +1,57 @@
 ---
 title: 'Anna Schwartz, the Mother of Monetarism, Dies at 96'
 original_url: 'https://www.spontaneousorder.in/p/anna-schwartz-mother-monetarism-dies-96'
+author: Spontaneous Order
 published_at: '2012-06-25T18:26:53.000Z'
 ingested_at: '2026-05-05T08:31:42.615Z'
-source_hash: cb878e38392419ebfb17878505c7ec3b8c9c5a3e12e76967cc1075946f48373d
-author: Spontaneous Order
 excerpt: >-
   (This post was written by Deeksha Supyaal Bisht, volunteer at CCS.) Anna
   Schwartz, a well-known American monetary economist, known as “high priestess
   of Monetarism,” died at the age of 96, this Thursday. Schwartz, along with
   Milton Friedman, was seen
+summary: >-
+  Anna Schwartz, dubbed the 'high priestess of Monetarism' and co-author with
+  Milton Friedman of the seminal *A Monetary History of the United States,
+  1867-1960*, died at 96. Their book argued that the Federal Reserve's
+  contraction of the money supply and allowance of bank failures transformed a
+  normal recession into the Great Depression, challenging prior views
+  attributing it solely to the 1929 Wall Street Crash. Ben Bernanke praised it
+  as the 'leading and most persuasive explanation' of America's worst economic
+  disaster. Schwartz criticized Bernanke for misapplying monetarist ideas
+  through zero interest rates and expanding Fed assets to $2 trillion by July
+  2009—more than double early 2008 levels—arguing it was an overdose of
+  liquidity that wouldn't help, and opposed his reappointment in a New York
+  Times op-ed. Born November 11, 1915, in New York City, she graduated Barnard
+  College at 18, earned a master's from Columbia at 19, joined the National
+  Bureau of Economic Research in 1941, and received her PhD at 48. Her work
+  spanned business cycles, international inflation transmission, interest rates,
+  deflation, monetary standards, and bank output measurement. Friedman credited
+  her: 'Anna did all of the work, and I got most of the recognition.' She
+  lamented Friedman not witnessing the current U.S. economy.
+key_points:
+  - >-
+    Schwartz and Friedman's *Monetary History* blamed the Federal Reserve's
+    money supply tightening for causing the Great Depression.
+  - >-
+    Schwartz opposed Ben Bernanke's zero interest rates and $2 trillion Fed
+    asset expansion as a misinterpretation of monetarism.
+  - >-
+    She graduated Barnard at 18, master's from Columbia at 19, and PhD at 48,
+    joining NBER in 1941 for business cycle research.
+topics:
+  - monetarism
+  - great-depression
+  - federal-reserve
+  - milton-friedman
 tags:
   - Monetarism
   - Anna Schwartz
   - Great Depression
   - The Monetary History of US
   - eulogy
+source_hash: cb878e38392419ebfb17878505c7ec3b8c9c5a3e12e76967cc1075946f48373d
+summary_hash: cb878e38392419ebfb17878505c7ec3b8c9c5a3e12e76967cc1075946f48373d
+summary_at: '2026-05-05T08:56:44.392Z'
 ---
 **By Andrew Humphries**
 

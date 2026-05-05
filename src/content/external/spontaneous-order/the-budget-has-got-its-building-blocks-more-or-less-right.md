@@ -2,19 +2,59 @@
 title: The budget has got its building blocks more or less right
 original_url: >-
   https://www.spontaneousorder.in/p/the-budget-has-got-its-building-blocks-more-or-less-right
+author: Spontaneous Order
 published_at: '2022-02-14T11:45:30.000Z'
 ingested_at: '2026-05-05T08:31:42.277Z'
-source_hash: e5c57d7348d51cf52fe144949a9b635af86e7bad206e39fd954142612d8a6eeb
-author: Spontaneous Order
 excerpt: >-
   Nirmala Sitharaman has to be complimented for two of the main building blocks
   of her fourth budget as finance minister. First, she has budgeted for a modest
   reduction in the fiscal deficit when the recovery in domestic demand is still
   uneven. A sharp re..
+summary: >-
+  Nirmala Sitharaman's fourth budget rightly features a modest fiscal deficit
+  reduction from 6.9% of GDP in 2021-22 to 6.4% in 2022-23, avoiding risks to
+  uneven economic recovery amid expected RBI monetary tightening and paving the
+  way for sharper corrections toward a 4.5% medium-term target by 2025-26,
+  despite impending elections testing resistance to political business cycle
+  pressures. The budget rests on reasonable, conservative assumptions like 11.1%
+  nominal GDP growth—below 2021-22's 17.6%—and slower tax revenue growth
+  relative to the economy, providing an inbuilt buffer after stellar 2021-22
+  collections exceeding estimates by ₹2.20 trillion despite ₹2.99 trillion
+  supplementary subsidies. It continues the COVID-era strategy of supply-side
+  credit guarantees (e.g., extended Emergency Credit Line) and capex over
+  revenue spending, cutting rural employment and food/fertilizer subsidies while
+  boosting infrastructure, though state capacity for execution is questioned.
+  High public debt at nearly 90% of GDP—up 20 points pre-pandemic—drives
+  interest payments to 48.6% of net tax collections in 2022-23 (from 37.9% in
+  2019-20), narrowing the growth-interest rate gap and necessitating primary
+  deficits near IMF's 2.9% stabilization level. From a classical-liberal lens,
+  continuity trumps tax tinkering or compression, but creeping protectionism and
+  recovery sustainability amid global headwinds loom as concerns.
+key_points:
+  - >-
+    Budget targets fiscal deficit reduction from 6.9% to 6.4% of GDP to balance
+    recovery and medium-term prudence.
+  - >-
+    Assumes conservative 11.1% nominal GDP growth and slower tax revenue
+    expansion as a buffer.
+  - >-
+    Prioritizes capex and supply-side measures like extended credit guarantees
+    over revenue spending and subsidies.
+  - >-
+    Public debt nears 90% of GDP, with interest payments claiming 48.6% of net
+    tax collections in 2022-23.
+topics:
+  - fiscal-deficit
+  - public-debt
+  - indian-budget
+  - economic-recovery
 tags:
   - fiscal policy
   - Budget
   - economy
+source_hash: e5c57d7348d51cf52fe144949a9b635af86e7bad206e39fd954142612d8a6eeb
+summary_hash: e5c57d7348d51cf52fe144949a9b635af86e7bad206e39fd954142612d8a6eeb
+summary_at: '2026-05-05T12:18:48.152Z'
 ---
 **By Niranjan Rajadhyaksha**
 

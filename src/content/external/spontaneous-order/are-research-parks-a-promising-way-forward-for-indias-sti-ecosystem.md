@@ -2,20 +2,61 @@
 title: Are Research Parks a Promising Way Forward for India’s STI Ecosystem?
 original_url: >-
   https://www.spontaneousorder.in/p/are-research-parks-a-promising-way-forward-for-indias-sti-ecosystem
+author: Spontaneous Order
 published_at: '2021-12-15T13:47:52.000Z'
 ingested_at: '2026-05-05T08:31:42.281Z'
-source_hash: 79da4b37918bb72ad06001586921717d8bc99dd325115efb397ce5124d747d58
-author: Spontaneous Order
 excerpt: >-
   The modern-day research park is envisaged as a space where various
   stakeholders in the science and technology ecosystem come together to
   innovate. Diverse functions of Science, Technology, and Innovation (STI), such
   as academic advancement, economic uti..
+summary: >-
+  Research parks aim to integrate academic, economic, and social STI functions
+  but face scrutiny for under-delivering on commercial promises, as seen in
+  India's IIT Madras Research Park (IITMRP), established in 2010 with government
+  loans and Rs 137 crore grants, housing 70+ R&D companies including BHEL and
+  TCS, and incubating 200+ startups—yet lacking public data on efficacy. Plans
+  for similar parks at eight IITs and IISc, budgeted Rs 75-100 crore each,
+  demand measurable returns amid India's low GERD at 0.7% of GDP (vs. 2% global
+  average) and heavy government funding (56%). Globally, US Research Triangle
+  Park (RTP, 1959) spans 7,000 acres with 250+ companies, 50,000 jobs, and $5.9B
+  VC over a decade, but is an exception amid doubts on parks' economic impact.
+  Challenges include inconsistent research priorities across policies, and
+  digitalization eroding physical proximity benefits. From a classical-liberal
+  view, India should adopt market-driven approaches over top-down mandates,
+  ensure transparent public investments with clear goals, and reorient parks
+  toward startup incubation (aligning with Aatma Nirbhar Bharat and Startup
+  India) and social impact like renewables, subjecting all to taxpayer scrutiny
+  for viability.
+key_points:
+  - >-
+    IITMRP lacks public data to assess returns on heavy government funding,
+    highlighting need for transparency in STI investments.
+  - >-
+    Global evidence shows research parks like RTP as rare successes, urging
+    India to set realistic, measurable outcomes beyond vague economic growth.
+  - >-
+    India's low 0.7% GERD and priority inconsistencies demand market-led
+    direction in parks rather than top-down planning.
+  - >-
+    Digitalization reduces physical parks' unique value, requiring adaptation to
+    virtual collaboration.
+  - >-
+    Re-focus parks on startups and social impact (e.g., renewables) to justify
+    public funds under taxpayer scrutiny.
+topics:
+  - research-parks
+  - sti-policy
+  - r-d-funding
+  - startup-ecosystem
 tags:
   - research
   - techonology
   - science
   - IIT
+source_hash: 79da4b37918bb72ad06001586921717d8bc99dd325115efb397ce5124d747d58
+summary_hash: 79da4b37918bb72ad06001586921717d8bc99dd325115efb397ce5124d747d58
+summary_at: '2026-05-05T08:59:44.543Z'
 ---
 **By Pratyaksha Jha**
 

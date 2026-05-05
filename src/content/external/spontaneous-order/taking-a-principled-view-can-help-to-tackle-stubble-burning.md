@@ -2,21 +2,62 @@
 title: 'Tackling the Stubble Burning Problem in North India: A Three-pronged Approach'
 original_url: >-
   https://www.spontaneousorder.in/p/taking-a-principled-view-can-help-to-tackle-stubble-burning
+author: Spontaneous Order
 published_at: '2024-10-24T12:08:21.000Z'
 ingested_at: '2026-05-05T08:31:42.710Z'
-source_hash: eb107976f68a772bb3497c6be75ecd5326eee03ab690a71b3116e65c0e6ecbb4
-author: Spontaneous Order
 excerpt: >-
   Every year, October brings with it a cloud of smog which engulfs the national
   capital territory (NCT) and its neighbouring states. Cases of asthma,
   breathing difficulty and cardiovascular diseases in Delhi NCR, Punjab,
   Haryana, and Uttar Pradesh (UP) in..
+summary: >-
+  Stubble burning by farmers in Punjab, Haryana, and Uttar Pradesh contributes
+  significantly to PM2.5 smog in North India, pushing Delhi NCR's AQI over 400
+  and exacerbating respiratory and cardiovascular diseases. Farmers opt for this
+  quickest, cheapest method to clear paddy residue for the next crop, despite
+  health externalities, as alternatives fail due to high costs and logistics:
+  seeder machines are expensive and hard to operate even on rental (per CEEW
+  report); baling for fodder or power plants lacks infrastructure and revenue
+  incentives (limited Haryana-UP success); Pusa bio-decomposer is too slow for
+  timely sowing. Bans and fines alienate debt-burdened, often tenant farmers.
+  From a classical-liberal lens, the author urges a three-pronged approach:
+  disseminate information via government and civil society on viable options;
+  foster coordination across central, state, and local (gram panchayat) levels;
+  build infrastructure for transport, storage, and distribution to transform
+  stubble into valuable industrial input, adjusting costs and incentives. With
+  agriculture at 18.3% of India's GDP, long-term technological innovation in a
+  supportive environment trumps regulations for mass farmer adoption.
+key_points:
+  - >-
+    Stubble burning persists due to economic barriers in alternatives like
+    costly seeder machines, inadequate baling infrastructure, and slow Pusa
+    bio-decomposers.
+  - >-
+    Disseminate information through government and civil society to inform
+    farmers of non-burning options and their benefits.
+  - >-
+    Treat the issue as a coordination problem requiring collaboration between
+    central, state, and local governments.
+  - >-
+    Develop infrastructure for stubble processing to make it a
+    revenue-generating byproduct rather than waste.
+  - >-
+    Prioritize technological R&D and market incentives over bans and fines for
+    sustainable solutions.
+topics:
+  - stubble-burning
+  - agriculture
+  - air-pollution
+  - market-incentives
 tags:
   - Air pollution
   - air quality
   - emissions
   - Stubble burning
   - AQI
+source_hash: eb107976f68a772bb3497c6be75ecd5326eee03ab690a71b3116e65c0e6ecbb4
+summary_hash: eb107976f68a772bb3497c6be75ecd5326eee03ab690a71b3116e65c0e6ecbb4
+summary_at: '2026-05-05T12:14:24.544Z'
 ---
 **By Rubina Malhotra**
 

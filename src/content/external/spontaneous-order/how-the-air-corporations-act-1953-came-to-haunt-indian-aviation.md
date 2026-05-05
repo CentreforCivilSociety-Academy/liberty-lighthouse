@@ -2,15 +2,52 @@
 title: 'How the Air Corporations Act, 1953, came to haunt Indian aviation'
 original_url: >-
   https://www.spontaneousorder.in/p/how-the-air-corporations-act-1953-came-to-haunt-indian-aviation
+author: Spontaneous Order
 published_at: '2020-07-03T17:17:14.000Z'
 ingested_at: '2026-05-05T08:31:42.400Z'
-source_hash: 8611e8f567bf51e37f7cba5b012ee59f596456e9fa1a4ecc891e15c6bcdda144
-author: Spontaneous Order
 excerpt: >-
   The 1950s – 1960s were considered the Golden Age of Flying. It would be fair
   to say, however, that despite this perception, airlines around the globe were
   on a slippery slope. Only the affluent could afford to fly. Statistically, the
   number of crashes a
+summary: >-
+  The Air Corporations Act, 1953 nationalized India's airline sector, merging
+  private carriers into government monopolies Indian Airlines (domestic) and Air
+  India International (international), banning private operations despite their
+  superior ability to minimize costs, enforce contracts, and foster competition.
+  This undermined classical-liberal principles of choice, freedom, and markets,
+  prioritizing government intervention over private enterprise amid global
+  aviation challenges. JRD Tata warned of bureaucratic inefficiencies, which
+  materialized: post-1994 partial liberalization, Air India's domestic market
+  share fell to 11.8% by September 2018 from 19.8% in 2014. Yet, government
+  re-interference—2007 merger of Air India and Indian Airlines ballooned losses
+  from ₹770 crore (2006-07) to ₹7,200 crore (2009), accumulating ₹42,570 crore
+  debt and ₹22,000 crore losses by 2011, later exceeding ₹52,000 crore debt.
+  Failed privatization bids, corruption charges, recruitment bans, and vigilance
+  overreach exacerbated decline. The author argues government failure exceeds
+  market failure; full privatization via competition (invisible hand) is
+  essential, with regulations emphasizing outcomes, private board inclusion in
+  Airport Authority of India, and general rules reducing entry barriers.
+key_points:
+  - >-
+    The 1953 Air Corporations Act created government monopolies in aviation,
+    illegalizing private airlines and leading to inefficiencies from
+    bureaucratic sloth.
+  - >-
+    Post-2007 merger, Air India's losses surged from ₹770 crore to ₹7,200 crore
+    within two years, with debt hitting ₹42,570 crore by 2011.
+  - >-
+    1994 repeal enabled private entry, slashing Air India's market share to
+    11.8% by 2018 amid competition.
+  - >-
+    Full privatization is urged, as only private markets self-balance via the
+    invisible hand, requiring regulatory frameworks focused on outcomes and
+    private stakeholder inclusion.
+topics:
+  - aviation
+  - nationalization
+  - privatization
+  - government-failure
 tags:
   - Free Market Fairness
   - Debt
@@ -22,6 +59,9 @@ tags:
   - government bureaucracies
   - Insolvency
   - Air India
+source_hash: 8611e8f567bf51e37f7cba5b012ee59f596456e9fa1a4ecc891e15c6bcdda144
+summary_hash: 8611e8f567bf51e37f7cba5b012ee59f596456e9fa1a4ecc891e15c6bcdda144
+summary_at: '2026-05-05T10:12:40.694Z'
 ---
 **By Jayant Sharma**
 

@@ -4,15 +4,53 @@ title: >-
   deregulate salt production
 original_url: >-
   https://www.spontaneousorder.in/p/fulfilling-the-mahatmas-quest-abolish-the-office-of-salt-commissioner-and-deregulate-salt-production
+author: Spontaneous Order
 published_at: '2018-10-03T07:43:51.000Z'
 ingested_at: '2026-05-05T08:31:42.725Z'
-source_hash: f60665533ecd5756126eb1fe7dc28288c4a11ec4654f4307bb17245dd0c0a067
-author: Spontaneous Order
 excerpt: >-
   The 2nd of October, a time to remember, and celebrate, the man that was
   Mahatma Gandhi, his monumental shaping of the nationalist movement, by trying
   to uphold in our own lives all that Bapu stood for, all that he fought for.
   While Daan Utsav and uphold..
+summary: >-
+  The post invokes Mahatma Gandhi's Dandi March against the British salt
+  monopoly to critique India's post-independence retention of the Salt
+  Commissioner’s office, arguing it perpetuates regulatory overreach under the
+  guise of swaraj. Salt, a unique Central subject (item 58 in the Union List),
+  is overseen by the Jaipur-based Salt Department with over 800 staff, which
+  regulates production, leases 60,000 acres of land (45,000 to private
+  manufacturers who produce 94% of salt), manages welfare for 2 lakh workers,
+  and handles iodine quality control—functions duplicating those of Health,
+  Labour, and state revenue ministries. The department generated only Rs 2.5
+  crore from the now-repealed 1953 Salt Cess Act, insufficient to cover
+  salaries, amid corruption allegations like frivolous evictions. Despite
+  India's self-sufficiency (291 lakh tonnes produced in 2016-17) and a 2016
+  notification for phased closure, only the cess abolition occurred, with annual
+  reports continuing. From a classical-liberal view, this inefficient
+  bureaucracy diverts resources from vital sectors, betraying Gandhi's quest for
+  economic freedom; the author urges full abolition, transferring assets to
+  appropriate bodies to eliminate unnecessary regulation.
+key_points:
+  - >-
+    Abolish the Salt Commissioner’s office, as recommended in 2016, to end
+    regulatory duplication with Health, Labour, and state governments.
+  - >-
+    Transfer 60,000 acres of salt pan lands to state revenue departments and
+    quality labs to the Health Ministry.
+  - >-
+    Shift welfare for 2 lakh salt workers to the Ministry of Labour and
+    Employment, which already handles labour protections.
+  - >-
+    India's private sector produces 94% of salt, rendering public oversight
+    minimal and inefficient amid self-sufficiency of 291 lakh tonnes annually.
+  - >-
+    The Salt Department's persistence symbolizes unfulfilled swaraj, mirroring
+    British monopoly controls Gandhi protested.
+topics:
+  - bureaucratic-reform
+  - deregulation
+  - salt-regulation
+  - economic-freedom
 tags:
   - Salt Department
   - Gandhi
@@ -20,6 +58,9 @@ tags:
   - Salt Cess Act 1953
   - Indian Salt Service
   - Dandi March
+source_hash: f60665533ecd5756126eb1fe7dc28288c4a11ec4654f4307bb17245dd0c0a067
+summary_hash: f60665533ecd5756126eb1fe7dc28288c4a11ec4654f4307bb17245dd0c0a067
+summary_at: '2026-05-05T10:01:04.179Z'
 ---
 **By Shivangi Sharan**
 

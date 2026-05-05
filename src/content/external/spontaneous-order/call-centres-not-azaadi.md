@@ -1,20 +1,53 @@
 ---
 title: Call centres; not azaadi
 original_url: 'https://www.spontaneousorder.in/p/call-centres-not-azaadi'
+author: Spontaneous Order
 published_at: '2004-11-19T21:56:53.000Z'
 ingested_at: '2026-05-05T08:31:42.694Z'
-source_hash: cc73dc3f09be5425c9cb74cf01ab198ff3da39766045ac7a0c81fedcdeb7228b
-author: Spontaneous Order
 excerpt: >-
   I have always thought that at very low levels of both, most people would
   choose political freedom over economic freedom. I still think so. It looks
   like people of J&K have more than very low levels of both. They told a
   ‘pleasantly surprised’ PM, that
+summary: >-
+  The post highlights a surprising preference among Jammu & Kashmir residents
+  for economic opportunities like call centers and BPO hubs over political
+  independence (azadi), as conveyed to a 'pleasantly surprised' PM by an
+  industry delegation noting the region's skilled manpower. This challenges
+  nationalists who view such commercial priorities as secondary to 'motherland'
+  independence. The author, from a classical-liberal perspective, invokes Milton
+  Friedman's argument that economic freedom negatively correlates with terrorism
+  by creating opportunities, noting that nations behind global terrorism lack
+  it. More recently, Alberto Abadie's Harvard study establishes a negative
+  correlation between political freedom and terrorism, debunking the
+  poverty-terrorism assumption—no significant link exists between a nation's
+  wealth and terrorism levels, which is often foreign-origin. Economic freedom
+  differs from mere wealth. The conclusion posits more economic and political
+  freedom as the antidote to terrorism.
+key_points:
+  - >-
+    J&K industry delegates urged the PM to develop the Valley as a BPO hub using
+    local skilled manpower, prioritizing jobs over azadi.
+  - >-
+    Milton Friedman argued economic freedom acts as a tonic against terrorism by
+    fostering opportunities absent in terrorism-sponsoring nations.
+  - >-
+    Alberto Abadie's study found political freedom negatively correlates with
+    terrorism, independent of poverty or wealth.
+  - Antidote to terrorism is increased economic and political freedom.
+topics:
+  - kashmir
+  - economic-freedom
+  - political-freedom
+  - terrorism
 tags:
   - J&amp;K
   - political
   - Kashmir
   - Freedom
+source_hash: cc73dc3f09be5425c9cb74cf01ab198ff3da39766045ac7a0c81fedcdeb7228b
+summary_hash: cc73dc3f09be5425c9cb74cf01ab198ff3da39766045ac7a0c81fedcdeb7228b
+summary_at: '2026-05-05T09:14:54.879Z'
 ---
 **By Sruthijith**
 

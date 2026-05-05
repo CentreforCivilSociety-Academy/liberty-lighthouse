@@ -2,18 +2,64 @@
 title: 'Where are the forest keepers: A look at India’s forest regime'
 original_url: >-
   https://www.spontaneousorder.in/p/where-are-the-forest-keepers-a-look-at-indias-forest-regime
+author: Spontaneous Order
 published_at: '2021-08-21T15:52:58.000Z'
 ingested_at: '2026-05-05T08:31:42.297Z'
-source_hash: e754d41c9d6717dfc10b65b3c739b6a9f5f8598eba9b929d73a823a7064a7bec
-author: Spontaneous Order
 excerpt: >-
   Forests are a country’s natural resource. Like the mountains and rivers
   etching their paths across a country, forests have their mark to make. Forest
   conservation has historically been viewed as the State’s responsibility; that
   only the State can mana
+summary: >-
+  India's forest regime, rooted in the colonial Indian Forest Act of 1865 that
+  centralized control for resource extraction rather than conservation, has
+  persisted post-independence through laws like the 1980 Forest Conservation
+  Act, prioritizing state authority over forest-dwelling communities' customary
+  rights. Despite vilifying these communities as encroachers, data reveals
+  recorded forest area at 76.52 million hectares, with cover at 63.72 mha (38.79
+  mha degraded, 60% of cover; 24.93 mha dense), while total encroachment is just
+  1.25 mha or 1.9% of recorded area—dwarfed by degradation under state
+  foresters. The Forest Rights Act 2006 (FRA) acknowledges historical injustices
+  by recognizing rights for scheduled tribes and traditional dwellers integral
+  to forest ecosystems, but implementation lags, denying claims like 18,000 in
+  Kerala over 12 years. Drawing on Elinor Ostrom's Nobel-winning principles
+  against the tragedy of the commons, the author argues state control erodes
+  local incentives, while well-defined community property rights enable
+  sustainable management by stakeholders. The classical-liberal solution: divest
+  state foresters, enforce FRA rights fully, and empower forest dwellers for
+  superior conservation and dignified livelihoods, rejecting top-down state
+  monopoly.
+key_points:
+  - >-
+    Encroachment accounts for only 1.9% (1.25 mha) of India's recorded forest
+    area (76.52 mha), versus 60% degradation of forest cover (38.79 mha out of
+    63.72 mha).
+  - >-
+    Colonial-era laws like the 1865 Indian Forest Act centralized forests for
+    exploitation, a model retained post-independence, sidelining communities'
+    customary rights.
+  - >-
+    Elinor Ostrom's principles prove community-managed commons with defined
+    property rights, monitoring, and sanctions outperform state control in
+    preventing overexploitation.
+  - >-
+    The 2006 Forest Rights Act aims to rectify injustices but faces poor
+    implementation, denying land rights to many Adivasi farmers and
+    tribespeople.
+  - >-
+    Enforce community ownership via FRA to protect forests and alleviate poverty
+    among dwellers, transferring control from state agents to locals.
+topics:
+  - forest-rights
+  - property-rights
+  - tragedy-of-commons
+  - community-management
 tags:
   - forests
   - Environment and Policy
+source_hash: e754d41c9d6717dfc10b65b3c739b6a9f5f8598eba9b929d73a823a7064a7bec
+summary_hash: e754d41c9d6717dfc10b65b3c739b6a9f5f8598eba9b929d73a823a7064a7bec
+summary_at: '2026-05-05T12:59:39.268Z'
 ---
 **By Swati Singh**
 

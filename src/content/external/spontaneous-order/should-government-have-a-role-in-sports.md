@@ -1,20 +1,57 @@
 ---
 title: Should Government Have A Role In Sports?
 original_url: 'https://www.spontaneousorder.in/p/should-government-have-a-role-in-sports'
+author: Spontaneous Order
 published_at: '2014-08-14T15:37:05.000Z'
 ingested_at: '2026-05-05T08:31:42.589Z'
-source_hash: cb7dd353b7c0792d499c40d28bc143b7ea81a7355ed0243a3f37450beaddbd72
-author: Spontaneous Order
 excerpt: >-
   Now that I (as many of you) have enjoyed the World Cup 2014, allow me to
   register my protest on behalf of Brazilian taxpayers against this wanton
   public expenditure. What a colossal waste! Governments around the world
   organise and host national and inte..
+summary: >-
+  Kumar Anand argues from a classical-liberal perspective that governments
+  should have no role in sports, as they are not public goods like roads or
+  courts but private activities where social costs are imposed on taxpayers for
+  individual or national pride. He cites the 2014 World Cup in Brazil, costing
+  USD 14 billion—the most expensive ever—funded by taxpayers without consent,
+  leaving a lasting debt hangover despite infrastructure claims that private
+  markets could provide more efficiently. Privately organized events like UEFA
+  Champions League, Premier League, IPL cricket, NBA, MLB, ATP tennis, PGA golf,
+  and even India's Pro Kabaddi thrive without state support, monetizing
+  successfully and fostering competition. National teams and events like
+  Olympics or Commonwealth Games are unnecessary; sports instill values better
+  through parents and teachers, not government. Anand rejects justifications
+  like national integration, emphasizing that personal pride in Indian
+  achievements, such as Olympic medals or Fields Medals, does not justify
+  coerced funding. Governments should focus on rule of law, not medals,
+  questioning how much others are willing to pay for such privileges.
+key_points:
+  - >-
+    Governments impose unjust costs on taxpayers for sports events like the USD
+    14 billion 2014 World Cup in Brazil without consent.
+  - >-
+    Privately organized sports such as UEFA Champions League, IPL, Pro Kabaddi,
+    NBA, and MLB succeed and monetize without state intervention.
+  - >-
+    Sports are not public goods, lacking a market failure justification for
+    government involvement in training athletes or hosting events.
+  - >-
+    National pride and values like discipline should not force universal
+    taxpayer funding; prioritize rule of law over Olympic medals.
+topics:
+  - government-sports-funding
+  - private-sports-leagues
+  - taxpayer-burden
+  - limited-government
 tags:
   - World Cup 2014
   - Government and sports
   - UEFA Champions League
   - World Cup tournaments
+source_hash: cb7dd353b7c0792d499c40d28bc143b7ea81a7355ed0243a3f37450beaddbd72
+summary_hash: cb7dd353b7c0792d499c40d28bc143b7ea81a7355ed0243a3f37450beaddbd72
+summary_at: '2026-05-05T11:41:03.586Z'
 ---
 **By Kumar Anand**
 

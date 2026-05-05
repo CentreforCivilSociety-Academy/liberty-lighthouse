@@ -1,15 +1,50 @@
 ---
 title: 'SO Musings: De-Stalinisation Versus Communism'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-de-stalinisation-versus-communism'
+author: Spontaneous Order
 published_at: '2020-05-29T16:17:06.000Z'
 ingested_at: '2026-05-05T08:31:42.414Z'
-source_hash: a1387a0e8dda97662a36888e1e59c7404a533146e053adc2fe56556a955e8f27
-author: Spontaneous Order
 excerpt: >-
   Nikita Khrushchev’s denouncement of Stalin and his criminal rule at the 20th
   Congress of the Communist Party in 1956 remains an important milestone in the
   history of the now-discarded project. In moving away from the totalitarian
   rule of Stalin, some co
+summary: >-
+  In a 1961 Freedom First article, Adam Adil critiques Nikita Khrushchev's
+  de-Stalinisation efforts following his 1956 speech at the 20th Congress of the
+  Communist Party, arguing they represent superficial changes within an
+  inherently totalitarian Marxist-Leninist system. Adil contends that Stalin's
+  brutal rule was a logical extension of Marx's violent class struggle,
+  implemented through Lenin's Bolshevik revolution and single-party
+  dictatorship. Khrushchev's promotion of 'peaceful co-existence' with
+  capitalism contrasted with Maoist China's adherence to inevitable conflict,
+  fracturing the 'monolithic' communist world—Soviet Union backed by most East
+  European states, China by Albania, and splitting non-communist parties.
+  Superficial acts like removing Stalin's mummified body from Lenin's Mausoleum
+  and renaming places fail to address leaders' complicity in three decades of
+  terror, with no expressions of guilt. Adil dismisses Khrushchev's 22nd
+  Congress claims of socialist resilience as wishful thinking amid exposed
+  rivalries and stresses. From a classical-liberal lens, true reform demands
+  confronting Marxism-Leninism's core tenets, a step not taken until Gorbachev
+  decades later.
+key_points:
+  - >-
+    De-Stalinisation exposed fractures in the communist bloc, pitting Soviet
+    'co-existence' against China's inevitable war stance.
+  - >-
+    Soviet leaders denouncing Stalin evade their own roles in perpetuating his
+    reign of terror for nearly three decades.
+  - >-
+    Stalinism logically follows from Marx's class struggle via Lenin's
+    dictatorial methods, making partial reforms insufficient.
+  - >-
+    Khrushchev's assertions of socialist strength at the 22nd Congress ignore
+    the system's internal contradictions and rivalries.
+topics:
+  - de-stalinisation
+  - communism
+  - soviet-union
+  - marxism-leninism
 tags:
   - SO Musings
   - Communism
@@ -17,6 +52,9 @@ tags:
   - Indian liberals
   - State control
   - IndianLiberals.in
+source_hash: a1387a0e8dda97662a36888e1e59c7404a533146e053adc2fe56556a955e8f27
+summary_hash: a1387a0e8dda97662a36888e1e59c7404a533146e053adc2fe56556a955e8f27
+summary_at: '2026-05-05T11:54:53.739Z'
 ---
 **By Spontaneous Order**
 

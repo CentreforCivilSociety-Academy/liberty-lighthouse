@@ -1,15 +1,57 @@
 ---
 title: Indians Must Arrive at the Liberal Frontier
 original_url: 'https://www.spontaneousorder.in/p/indians-must-arrive-at-the-liberal-frontier'
+author: Spontaneous Order
 published_at: '2024-06-28T13:48:06.000Z'
 ingested_at: '2026-05-05T08:31:42.715Z'
-source_hash: d4d4f75a20e4c09e9e1eb454e1c462bb547755429f10616c571ccc0cba3e0234
-author: Spontaneous Order
 excerpt: >-
   The constituent assembly took 156 weeks to draft India’s constitution. The
   long process and series of debates to arrive at shared principles among
   assembly members reveal their preference for a liberal society. While these
   members weren’t elected, the
+summary: >-
+  India's Constituent Assembly took 156 weeks to draft a constitution inspired
+  by the US model, particularly Part III on Fundamental Rights emphasizing
+  individual liberty, yet public indifference to these liberal values has
+  allowed its erosion. Unlike America's success rooted in widespread concern for
+  liberty, as economist Dwight Lee notes, India's constitution faces constant
+  amendments—106 by June 2024, averaging two per year—pushed by interest groups
+  to expand government power, with Part IV's Directive Principles repeatedly
+  triumphing over Part III. The 1991 economic reforms, India's most liberal
+  since independence, were enacted stealthily amid public apathy, as chronicled
+  by Ashok Desai, with reformers avoiding credit. Pratap Bhanu Mehta
+  characterizes Indian democracy as an elite negotiation lacking ideological
+  passion for freedom. The author argues that liberty requires constant public
+  vigilance and an ethic of individual responsibility; without a cultural push
+  to the 'liberal frontier,' constitutional limits fail. Freedom, as a negative
+  construct limiting actions only to prevent harm to others, demands questioning
+  all restrictions and reminding institutions of restraint—responsibilities that
+  cannot be outsourced.
+key_points:
+  - >-
+    India's Constitution has undergone 106 amendments by June 2024, averaging
+    two per year, mostly expanding government at the expense of individual
+    freedoms.
+  - >-
+    Part IV Directive Principles have repeatedly overridden Part III Fundamental
+    Rights, unlike the US Constitution's focus on liberty.
+  - >-
+    1991 reforms succeeded despite public indifference, enacted stealthily
+    without celebration or credit to reformers.
+  - >-
+    Liberty survives only with public approval of constitutional limits and an
+    ethic of individual responsibility, per Dwight Lee.
+  - >-
+    Indians must constantly push liberal ideas, questioning all
+    freedom-restricting acts to foster a culture of restraint.
+topics:
+  - indian-constitution
+  - individual-liberty
+  - economic-reforms
+  - public-responsibility
+source_hash: d4d4f75a20e4c09e9e1eb454e1c462bb547755429f10616c571ccc0cba3e0234
+summary_hash: d4d4f75a20e4c09e9e1eb454e1c462bb547755429f10616c571ccc0cba3e0234
+summary_at: '2026-05-05T10:21:56.741Z'
 ---
 **By Saurabh Modi**
 

@@ -3,21 +3,63 @@ title: >-
   #ThrowbackThursday: Philip Spratt — Should a Political Party have an Ideology?
   (1952)
 original_url: 'https://www.spontaneousorder.in/p/spratt-ideology'
+author: Spontaneous Order
 published_at: '2015-12-03T15:41:37.000Z'
 ingested_at: '2026-05-05T08:31:42.568Z'
-source_hash: 56b7b698628cd43e4e95208541ca3e09d2779b144da0c659d61bf951f599fd9b
-author: Spontaneous Order
 excerpt: >-
   Philip Spratt (1902-1971) was an intellectual and writer. In 1926, he arrived
   in India from Britain at the age of 24 to spread Communism and was one of the
   architects and founding-members of the Communist Party of India. Subsequently,
   he renounced comm...
+summary: >-
+  Philip Spratt argues that political parties must have ideologies, defined as
+  an aim and method to achieve it, comprising ethical ideals, appeals to
+  self-interest (often disguised in theory), and outdated economic/political
+  theories. He critiques Liberalism's valid ethical vision of free, equal
+  individuals enabling ordered freedom via democracy, but notes its economic
+  dogma (property rights, free trade) as a self-interested appeal that led to
+  its decline. Marxism shares a similar ideal of equality and cooperation free
+  from poverty and narrowness, but its class struggle theory, appealing to
+  workers and intellectuals' self-interest, is outdated post-WWI. Gandhism's
+  ideal emphasizes equality, decentralization, rural self-sufficiency, and
+  non-violence, but collapsed after independence due to its tie to national
+  freedom and idiosyncratic elements. For India, newly independent and drawn to
+  high ideals, parties should prioritize abstract ethical aims over theory,
+  promising progress through hard work, honest administration, and truth, rather
+  than 'practical politics' angling for group interests, which risks disaster.
+  This approach is morally and intellectually superior, though its electoral
+  appeal requires testing.
+key_points:
+  - >-
+    Political ideologies consist of valid ethical ideals, disguised
+    self-interest appeals in theories that become outdated, and methods like
+    democracy or non-violence.
+  - >-
+    Liberalism's ethical core endures, but its economic theory doomed parties;
+    Marxism's theory similarly failed while its ideal persists.
+  - >-
+    Gandhism declined post-independence due to its nationalistic tie and quirks,
+    not lack of self-interest appeal.
+  - >-
+    Indian parties should emphasize worthy ideals and honesty over theory or
+    opportunistic politics to elevate discourse.
+  - >-
+    Prioritizing ideals over theory is logically sounder and morally higher,
+    testable via practice.
+topics:
+  - political-ideology
+  - liberalism
+  - indian-politics
+  - gandhism
 tags:
   - Libertarian Scholars
   - Indian Liberal Tradition
   - history
   - philip spratt
   - IndianLiberals.in
+source_hash: 56b7b698628cd43e4e95208541ca3e09d2779b144da0c659d61bf951f599fd9b
+summary_hash: 56b7b698628cd43e4e95208541ca3e09d2779b144da0c659d61bf951f599fd9b
+summary_at: '2026-05-05T12:09:20.541Z'
 ---
 **By Ujwal Batra**
 

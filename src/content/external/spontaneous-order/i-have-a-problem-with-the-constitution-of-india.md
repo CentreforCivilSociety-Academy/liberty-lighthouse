@@ -2,15 +2,46 @@
 title: I have a problem with the Constitution of India!
 original_url: >-
   https://www.spontaneousorder.in/p/i-have-a-problem-with-the-constitution-of-india
+author: Spontaneous Order
 published_at: '2005-05-07T21:34:47.000Z'
 ingested_at: '2026-05-05T08:31:42.686Z'
-source_hash: 98b785e3e239f86e0d8fc0fad76be385098ccbe25a2afff9355e79d14421e12d
-author: Spontaneous Order
 excerpt: >-
   Seems I am not alone. I have always wondered about the colonial legacy
   permeating our institutions. The guiding light of these institutions has been
   this – citizens are subjects to be controlled and not empowered! My debates
   with Makarand, my good frien
+summary: >-
+  Naveen Mandava critiques the Constitution of India as a colonial legacy that
+  frames citizens as subjects to be controlled rather than empowered, permeating
+  Indian institutions. He notes that debates on institutional problems often
+  dead-end at the Constitution, advocating for professional design over mere
+  'good faith' reliance. Inspired by the Report of the National Commission to
+  Review the Working of the Constitution, which yielded valuable insights,
+  Mandava announces his pursuit of a Law and Economics interpretation of the
+  document to foster better institutional frameworks. From a classical-liberal
+  viewpoint, this endeavor seeks to realign institutions toward citizen
+  empowerment. He invites collaboration, highlighting his background in policy
+  analysis and education reform at organizations like Centre for Civil Society.
+key_points:
+  - >-
+    The Indian Constitution embodies a colonial mindset treating citizens as
+    subjects for control rather than empowerment.
+  - >-
+    Institutions require professional design beyond dependence on 'good faith'
+    to function effectively.
+  - >-
+    The Report of the National Commission to Review the Working of the
+    Constitution provides key insights for reform.
+  - >-
+    Mandava launches a Law and Economics analysis of the Constitution and seeks
+    collaborators.
+topics:
+  - indian-constitution
+  - law-and-economics
+  - institutional-reform
+source_hash: 98b785e3e239f86e0d8fc0fad76be385098ccbe25a2afff9355e79d14421e12d
+summary_hash: 98b785e3e239f86e0d8fc0fad76be385098ccbe25a2afff9355e79d14421e12d
+summary_at: '2026-05-05T10:14:20.172Z'
 ---
 **By Naveen Mandava**
 

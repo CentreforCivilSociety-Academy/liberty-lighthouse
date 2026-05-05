@@ -1,21 +1,60 @@
 ---
 title: 'SO Musings: Agricultural Policy of Swatantra Party'
 original_url: 'https://www.spontaneousorder.in/p/agricultural-policy-of-swatantra-party'
+author: Spontaneous Order
 published_at: '2020-02-07T15:42:01.000Z'
 ingested_at: '2026-05-05T08:31:42.444Z'
-source_hash: 7bc898b0d9333b120c419eeb9f384e7342d74a7816ebb7dd70d69450d684c441
-author: Spontaneous Order
 excerpt: >-
   The following article, written by “Democrat”, first appeared in February 1960
   issue of the Indian Libertarian, an independent journal of economic and public
   affairs. The article highlights the position of the Swatantra Party on the
   so-called ‘reform
+summary: >-
+  The article, from the 1960 Indian Libertarian, critiques the Congress party's
+  post-Nagpur agricultural policy of low land ceilings and cooperative farming,
+  which prompted the formation of the Swatantra Party under C. Rajagopalachari.
+  It argues these interventions undermine the self-employed peasant-proprietor,
+  essential for initiative, production, and human dignity within family and
+  democracy, reducing farmers to state-dependent wage laborers—a path toward
+  communism via expropriation. Evidence from expert studies shows failures of
+  such reforms in free and communist worlds. Swatantra opposes ceilings and
+  joint farming, favoring service cooperatives, credit, marketing, implements,
+  and technical aid to boost output without disrupting rural harmony of
+  landowners, tenants, and laborers. Ceilings at 30 standard acres would yield
+  only 2 lakhs acres, while Mysore offers 15 lakhs acres of government fallow
+  land untaken by Harijans. The party urges clarifying its alternative: preserve
+  individual holdings, assist tenants via loans to buy land, and reject 'land to
+  the tiller' as robbery, drawing from libertarian warnings against entrenched
+  state intervention, as seen in U.S. farm subsidies. Swatantra must detail this
+  free-economy vision to counter Congress dogmatism.
+key_points:
+  - >-
+    Swatantra Party opposes Congress's land ceilings and cooperative farming,
+    advocating individual peasant-proprietors aided by credit, marketing, and
+    technical services to maximize production.
+  - >-
+    Ceilings at 30 standard acres release only 2 lakhs acres, unnecessary given
+    15 lakhs acres of available government land in Mysore alone.
+  - >-
+    Reject 'land to the tiller' as expropriation that erodes property rights and
+    paves way for communism; support tenants purchasing land via loans instead.
+  - >-
+    Preserve rural harmony by assisting all elements—landowners, tenants,
+    laborers—without state-imposed disruptions like pooling holdings.
+topics:
+  - agricultural-policy
+  - land-reforms
+  - swatantra-party
+  - free-markets
 tags:
   - SO Musings
   - agriculture in India
   - Swatantra Party
   - agriculture
   - Agriculture policy
+source_hash: 7bc898b0d9333b120c419eeb9f384e7342d74a7816ebb7dd70d69450d684c441
+summary_hash: 7bc898b0d9333b120c419eeb9f384e7342d74a7816ebb7dd70d69450d684c441
+summary_at: '2026-05-05T08:51:54.314Z'
 ---
 **By Spontaneous Order**
 

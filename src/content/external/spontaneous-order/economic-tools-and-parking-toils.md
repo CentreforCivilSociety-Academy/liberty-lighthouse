@@ -1,15 +1,49 @@
 ---
 title: Economic Tools and Parking Toils
 original_url: 'https://www.spontaneousorder.in/p/economic-tools-and-parking-toils'
+author: Spontaneous Order
 published_at: '2004-11-25T01:23:32.000Z'
 ingested_at: '2026-05-05T08:31:42.693Z'
-source_hash: 55fdb4b9636666f1ffcb95c459e6a695ce261c90f8e57a05c6177d531e8dd5e1
-author: Spontaneous Order
 excerpt: >-
   After trying to apply the law of supply and demand to the male-female sex
   ratio and upset with the moral ramifications, here is my hand at archaelogical
   economy. The Hindustan Times editorial “Driving a Hard Bargain” posed the
   following prescriptive s
+summary: >-
+  Naveen Mandava critiques a Hindustan Times editorial proposing solutions to
+  Delhi's parking woes, prompted by the Supreme Court's advice for a parking
+  management policy before approving new commercial or industrial projects. The
+  editorial advocates three measures: mandatory parking spaces in new building
+  plans, punitive fines for parking outside designated areas, and strict rules
+  to address parking-induced traffic congestion. Mandava identifies three
+  classic policy failures in these prescriptions, reflecting a classical-liberal
+  skepticism of top-down government interventions. First, the proposals ignore
+  the nature of the solution provider—implicitly the inefficient state
+  apparatus. Second, they assume that an agency's ability to implement a
+  solution guarantees it will do so effectively. Third, they overlook
+  cost-benefit analysis, a cornerstone of sound policymaking. From this
+  perspective, such command-and-control approaches are laughable and doomed, as
+  they fail to reckon with governmental limitations and economic realities.
+  Mandava contrasts this with prior attempts to apply supply-and-demand logic
+  elsewhere, signaling a preference for market-oriented thinking over moralistic
+  or regulatory fixes.
+key_points:
+  - >-
+    Hindustan Times editorial proposes mandatory parking in new buildings,
+    punitive fines, and strict anti-congestion rules for Delhi's parking crisis.
+  - >-
+    Policy fails by ignoring the incompetent nature of government as solution
+    provider.
+  - 'Assumes government capability ensures effective action, which it does not.'
+  - Neglects essential cost-benefit reckoning in policymaking.
+topics:
+  - parking-policy
+  - government-failure
+  - urban-planning
+  - cost-benefit-analysis
+source_hash: 55fdb4b9636666f1ffcb95c459e6a695ce261c90f8e57a05c6177d531e8dd5e1
+summary_hash: 55fdb4b9636666f1ffcb95c459e6a695ce261c90f8e57a05c6177d531e8dd5e1
+summary_at: '2026-05-05T09:43:22.957Z'
 ---
 **By Naveen Mandava**
 

@@ -1,17 +1,55 @@
 ---
 title: When the Census Official Calls
 original_url: 'https://www.spontaneousorder.in/p/when-the-census-official-calls'
+author: Spontaneous Order
 published_at: '2010-11-19T13:41:05.000Z'
 ingested_at: '2026-05-05T08:31:42.646Z'
-source_hash: 93378cb101d48467f78520ecd1da60ba894af43cc583e7087cb2cc7ae2cd70ed
-author: Spontaneous Order
 excerpt: 'A disclaimer: Serious is not necessarily sensible.'
+summary: >-
+  The author argues from a classical-liberal standpoint that Indian citizens
+  retain significant freedom when asked about caste in the upcoming census, as
+  the Census Act 1948 (Section 8(2)) legally binds individuals only to answer
+  'to the best of his knowledge or belief,' aligning with Article 19(1)(a)'s
+  protection of speech and expression, including the right to silence. The
+  maximum penalty for refusal is a mere Rs. 1000 (Section 1(d)), and no court or
+  police can act without a superior authority's prior complaint (Sections 12,
+  13, 13-A). Citing the 1881 census's 1,929 castes (14% with fewer than ten
+  members), the post encourages inventing a caste or responding with 'Indian' or
+  'Bharatiya'—rooted in mythology as descendants of Raja Bharat—to assert
+  personal identity over state categorization. While acknowledging caste data's
+  potential utility for reservations and noting historical inaccuracies (e.g.,
+  phonetic mix-ups from 1881-1931) and suggestions for decentralized studies,
+  the author prioritizes individual choice amid government plans. The census
+  shapes official identity, but belief-based responses preserve liberty against
+  casteism.
+key_points:
+  - >-
+    Citizens can legally refuse caste disclosure or invent one, as Census Act
+    requires answers only per personal 'knowledge or belief.'
+  - >-
+    Maximum penalty for non-compliance is Rs. 1000, with no court action
+    possible without superior complaint.
+  - Freedom of speech under Article 19(1)(a) includes right to silence on caste.
+  - >-
+    Respond with 'Indian' or 'Bharatiya' to reject caste categorization on
+    belief grounds.
+  - >-
+    Historical census data shows fluid castes, supporting self-identification
+    over rigid mapping.
+topics:
+  - caste-census
+  - census-act
+  - freedom-of-expression
+  - individual-rights
 tags:
   - casteism
   - caste system
   - Bharatiya
   - Indian
   - Census Act
+source_hash: 93378cb101d48467f78520ecd1da60ba894af43cc583e7087cb2cc7ae2cd70ed
+summary_hash: 93378cb101d48467f78520ecd1da60ba894af43cc583e7087cb2cc7ae2cd70ed
+summary_at: '2026-05-05T12:59:31.137Z'
 ---
 **By Gideon Mathson**
 

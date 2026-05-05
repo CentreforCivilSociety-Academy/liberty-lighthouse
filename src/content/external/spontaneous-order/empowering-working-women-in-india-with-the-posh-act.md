@@ -2,18 +2,55 @@
 title: Empowering Working Women in India with the PoSH Act
 original_url: >-
   https://www.spontaneousorder.in/p/empowering-working-women-in-india-with-the-posh-act
+author: Spontaneous Order
 published_at: '2022-11-02T14:57:11.000Z'
 ingested_at: '2026-05-05T08:31:42.257Z'
-source_hash: 85f1cbb520f2e432531e37b36ae2d2c6c0c988e4062705e9f285afc275e39e24
-author: Spontaneous Order
 excerpt: >-
   Overview It wasn’t until recently that Indian women were given the freedom to
   leave the house and work for a living. Their freedom, however, did not
   necessarily guarantee their safety. Bhanwari Devi, a social worker prevented
   an infant girl from marryi.
+summary: >-
+  The post recounts how the 1992 Bhanwari Devi gang-rape incident spurred the
+  Supreme Court's 1997 Vishaka Guidelines, leading to the 2013 PoSH Act that
+  criminalizes workplace sexual harassment—defined broadly to include physical,
+  verbal, or written acts without consent—and mandates Internal Complaints
+  Committees (ICCs) and Local Complaints Committees (LCCs). From a
+  classical-liberal lens emphasizing individual rights to life, equality, and
+  natural justice, the Act fills a legislative void but falters in
+  implementation: it excludes non-work social settings, remains women-only
+  (despite hearing rights for men/transgender), and fails the unorganized sector
+  employing 95% of female workers, with only 29% of districts having LCCs.
+  Biases in ICCs, societal stigma, and poor state monitoring undermine
+  redressal. Recommendations urge proactive compliance via awareness programs,
+  online portals like shebox for oversight, bi-annual refresher courses,
+  self-defense training, 'Feel like Family' mental health teams, victim right to
+  suspend work without pay loss (as in German law), professional registration of
+  ICC/LCC members, and convergence with Companies Act 2013 and Criminal Law Act
+  2018. Effective enforcement, despite higher reporting costs, promises safer
+  workplaces and empowers women through robust rule of law.
+key_points:
+  - >-
+    PoSH Act protects women via broad workplace definition and consent focus but
+    excludes non-work social harassment and remains gender-specific.
+  - >-
+    95% of India's female workforce in unorganized sector largely unprotected,
+    with only 29% districts having LCCs.
+  - >-
+    Recommendations include awareness training, online complaint portals, mental
+    health support, and statutory convergence for oversight to ensure natural
+    justice and effective redressal.
+topics:
+  - posh-act
+  - workplace-harassment
+  - women-empowerment
+  - labour-law
 tags:
   - '#PoSHAct'
   - '#sexualharassment'
+source_hash: 85f1cbb520f2e432531e37b36ae2d2c6c0c988e4062705e9f285afc275e39e24
+summary_hash: 85f1cbb520f2e432531e37b36ae2d2c6c0c988e4062705e9f285afc275e39e24
+summary_at: '2026-05-05T09:47:43.054Z'
 ---
 **By Avantika Kalra**
 

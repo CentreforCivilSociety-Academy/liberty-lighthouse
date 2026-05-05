@@ -1,21 +1,58 @@
 ---
 title: 'SO Musings: Conditions for Economic Growth'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-conditions-for-economic-growth'
+author: Spontaneous Order
 published_at: '2019-08-23T10:43:20.000Z'
 ingested_at: '2026-05-05T08:31:42.474Z'
-source_hash: ee91f4d8d22dd21784f21aae382b51015b29e882b5bd199509c3c448bd9c7e85
-author: Spontaneous Order
 excerpt: >-
   In this article, English classical economist Prof. William Harold Hutt answers
   how India can progress most rapidly from relatively very low average standards
   of living to standards comparable with those achieved in Western Europe and
   the United States. ..
+summary: >-
+  English classical economist Prof. William Harold Hutt, in a 1964 article,
+  outlined ten conditions for India to rapidly advance from low living standards
+  to those of Western Europe and the US, principles the post deems timeless amid
+  an impending recession. From a classical-liberal viewpoint, rapid development
+  hinges on: (1) taxation encouraging thrift without discriminating against the
+  provident; (2) attracting foreign capital via assurances against
+  nationalisation, confiscatory taxes, and acceptance of foreign control; (3)
+  official recognition of profit as reward for responsible enterprise; (4)
+  constitutional entrenchments voiding race, caste, or income-based
+  discrimination; (5) resisting import tariffs or quotas; (6) accelerating
+  agricultural mechanisation for large-scale efficiencies alongside
+  industrialisation; (7) avoiding politically motivated grandiose public
+  investments in favor of sequenced development; (8) prohibiting private
+  coercion in setting prices, wages, or outputs; (9) renouncing inflationary
+  policies to curb corruption; and (10) preventing unbridled population growth.
+  The post laments that no Indian government has seriously pursued these, opting
+  for ad-hoc policies that perpetuate economic slowdowns.
+key_points:
+  - Encourage thrift through taxation that does not penalise the provident.
+  - >-
+    Attract foreign capital by avoiding nationalisation, confiscatory taxes, and
+    affirming foreign control.
+  - Foster enterprise by explicitly recognising profit as its reward.
+  - >-
+    Renounce inflation, prohibit coercive wage/price setting, and resist import
+    restraints to create a free-market climate.
+  - >-
+    Mechanise agriculture rapidly and control population growth to support
+    industrialisation.
+topics:
+  - economic-growth
+  - india-economy
+  - classical-liberalism
+  - free-markets
 tags:
   - Indian Liberalism
   - economic growth
   - SO Musings
   - Indian Liberal Tradition
   - Economics
+source_hash: ee91f4d8d22dd21784f21aae382b51015b29e882b5bd199509c3c448bd9c7e85
+summary_hash: ee91f4d8d22dd21784f21aae382b51015b29e882b5bd199509c3c448bd9c7e85
+summary_at: '2026-05-05T11:54:19.859Z'
 ---
 **By Spontaneous Order**
 

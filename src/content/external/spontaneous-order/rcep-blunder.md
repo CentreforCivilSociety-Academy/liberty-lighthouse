@@ -1,21 +1,64 @@
 ---
 title: Modi’s Historic Blunder in Rejecting RCEP
 original_url: 'https://www.spontaneousorder.in/p/rcep-blunder'
+author: Spontaneous Order
 published_at: '2019-11-08T11:10:45.000Z'
 ingested_at: '2026-05-05T08:31:42.460Z'
-source_hash: 6406b0b84ff1e12d5f74c253725b0e00ddf35b2c38425b386255c218bf0aa219
-author: Spontaneous Order
 excerpt: >-
   On November 4, at the ASEAN’s Summit in Bangkok, Prime Minister Narendra Modi
   announced that India is leaving the Regional Comprehensive Economic
   Partnership (RCEP) after years of negotiations. Of all the bad decisions of
   the government, this one will h
+summary: >-
+  Prime Minister Narendra Modi's announcement on November 4, 2019, at the ASEAN
+  Summit in Bangkok, rejecting the Regional Comprehensive Economic Partnership
+  (RCEP)—the world's largest trading bloc comprising 10 ASEAN nations, Japan,
+  South Korea, China, Australia, and New Zealand—represents a historic blunder
+  that will inflict long-term harm on India. From a classical-liberal
+  perspective, this decision mirrors the unfounded protectionist fears preceding
+  the 1991 liberalization, which unleashed prosperity despite initial industry
+  losses, as evidenced by Bajaj's evolution from sheltered low-quality scooters
+  to a major exporter. Exclusion from RCEP and the CPTPP leaves India sidelined
+  from 21st-century trade dynamics, stalling ambitions to become a global
+  manufacturing hub, depriving 1.3 billion consumers of cheaper goods, greater
+  choices, and better technologies, and signaling to investors that India is
+  closed for business in favor of competitors like Vietnam or Cambodia. While
+  acknowledging the need for complementary reforms in land, labor, and business
+  regulations, the author argues RCEP would have compelled incremental
+  liberalization over two decades, countering pressure from selfish
+  industrialists who benefit from sheltering, much like pre-1991 cronies. The
+  government's distrust in Indian businesses' competitiveness perpetuates a new
+  License Raj, forgoing vast trade gains for temporary protections.
+key_points:
+  - >-
+    India's rejection of RCEP excludes it from the world's largest trading bloc,
+    halting manufacturing dreams and consumer benefits.
+  - >-
+    Protectionist fears echo pre-1991 era, where liberalization proved fears
+    unfounded and spurred growth like Bajaj's export success.
+  - >-
+    RCEP would have forced incremental reforms in land, labor, and business amid
+    political resistance.
+  - >-
+    Government prioritizes industrialist cronies over 1.3 billion Indians'
+    access to cheaper goods and technologies.
+  - >-
+    Non-participation signals to global investors that India favors
+    protectionism over open trade.
+topics:
+  - free-trade
+  - rcep
+  - economic-liberalization
+  - protectionism
 tags:
   - Regional Comprehensive Economic Partnership
   - International trade
   - Narendra Modi
   - BJP
   - RCEP
+source_hash: 6406b0b84ff1e12d5f74c253725b0e00ddf35b2c38425b386255c218bf0aa219
+summary_hash: 6406b0b84ff1e12d5f74c253725b0e00ddf35b2c38425b386255c218bf0aa219
+summary_at: '2026-05-05T11:23:16.983Z'
 ---
 **By Sudhanshu Neema**
 

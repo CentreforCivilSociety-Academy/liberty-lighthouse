@@ -1,20 +1,63 @@
 ---
 title: 'SO Musings: A Rule of Law Society!'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-a-rule-of-law-society'
+author: Spontaneous Order
 published_at: '2019-12-06T16:53:06.000Z'
 ingested_at: '2026-05-05T08:31:42.454Z'
-source_hash: 2cb3591c9c066abc844e4e802ca9134a60fa70dca6c87624d358dbf205af7870
-author: Spontaneous Order
 excerpt: >-
   The law perverted! And the police powers of the state perverted along with it!
   The law, I say, is not only turned from its proper purpose but is made to
   follow a totally contrary purpose! The law is becoming the weapon of every
   kind of greed! Instead of..
+summary: >-
+  Sauvik Chakraverti argues that a rule of law society, like those in London or
+  Amsterdam, emerges not from police or dictatorship but from good laws centered
+  on three principles: private several property, enforcement of free contracts,
+  and torts for restitution. Private property predates formal law, underpins
+  markets, family, morality across faiths, and ensures resource
+  abundance—evident in no global oil shortages due to private ownership versus
+  water shortages from state control, as in Dehra Doon's water diverted free to
+  Punjab rice farmers needing 21 waterings. India's socialist constitution, the
+  world's longest yet lacking property guarantees, enables 'legal plunder' like
+  bank nationalizations, land redistribution, and rent control, fostering crime,
+  slumlords, and urban decay. Contracts must be enforced without state-dictated
+  terms, rejecting minimum wages that harm weakest workers and rent controls
+  that deter housing. Torts compensate negligence efficiently, as in US 'wet
+  floor' signs, enabling safe high-rises and drug innovation without FDA via
+  liability. Rejects patents for copyrights; proposes auctioning Ayodhya site,
+  private courts like California's 'rent-a-judge,' and a Second Republic to
+  replace immoral socialist jurisprudence for a rich, moral, free, and beautiful
+  society.
+key_points:
+  - >-
+    India's socialist constitution enables legal plunder by omitting private
+    property rights, allowing nationalizations and rent controls that promote
+    crime and scarcity.
+  - >-
+    Law must protect private several property in land, water, and resources to
+    ensure abundance and resolve disputes like Narmada without politics.
+  - >-
+    Enforce freely entered contracts without minimum wages or rent controls,
+    which harm the poor they intend to help.
+  - >-
+    Apply torts for restitution from negligence, superior to criminal law, to
+    build safe cities and compensate victims without state regulation.
+  - >-
+    Adopt liberal jurisprudence via a Second Republic, private courts, and
+    auction disputed sites to achieve a rule of law society.
+topics:
+  - rule-of-law
+  - private-property
+  - free-contracts
+  - tort-law
 tags:
   - Sauvik Chakraverti
   - Rule Of Law
   - Indian liberals
   - Indian Liberal Archives
+source_hash: 2cb3591c9c066abc844e4e802ca9134a60fa70dca6c87624d358dbf205af7870
+summary_hash: 2cb3591c9c066abc844e4e802ca9134a60fa70dca6c87624d358dbf205af7870
+summary_at: '2026-05-05T11:52:02.232Z'
 ---
 **By Spontaneous Order**
 

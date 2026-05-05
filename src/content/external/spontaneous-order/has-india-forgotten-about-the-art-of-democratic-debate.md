@@ -2,20 +2,59 @@
 title: Has India forgotten about the art of democratic debate?
 original_url: >-
   https://www.spontaneousorder.in/p/has-india-forgotten-about-the-art-of-democratic-debate
+author: Spontaneous Order
 published_at: '2018-08-06T10:08:43.000Z'
 ingested_at: '2026-05-05T08:31:42.519Z'
-source_hash: b3e0e26dd0f67ccf2f98468680e21e6b73c7d4ce06f7e0b3115586c2d6ccf02d
-author: Spontaneous Order
 excerpt: >-
   Despite the increase in the number of news channels and the inflow of gallons
   of information due to social media and the internet, there has been a decline
   in the quality of political debates in the country. Perhaps the most ideal way
   of debating can be..
+summary: >-
+  India's political debates have deteriorated into mudslinging despite
+  proliferating news channels and social media, diverging from Aristotle's ideal
+  of reason-based arguments grounded in morality and ideology that persuade
+  opponents and foster democratic innovation, growth, and rejection of
+  extremism. Political parties, despite labels, converge ideologically on issues
+  like economy and reservations—e.g., BJP affirming pro-reservation stance after
+  RSS chief's review call—leading to contests over execution via insults like
+  'maut ka saudaagar' or labels like 'libtard' and 'bhakt.' Debates devolve into
+  whataboutism (e.g., cow lynchings vs. 1984 riots) and ad hominem attacks, as
+  on Arun Shourie. Parliament is unproductive: PRS Legislative study shows Lok
+  Sabha spent 1% of time on legislation, Rajya Sabha 6% in 2018 budget session,
+  worsened by 1985 Anti-Defection Law forcing MPs to echo party lines. Media
+  sensationalizes trivia (e.g., CM's eating habits), spreads fake news (Republic
+  TV on Jama Masjid), and chases corporate agendas per Cobrapost exposé of 25
+  outlets. Citizens contribute via intolerance under Sedition Act and Article 19
+  curbs, trolling, echo chambers, and preferring rhetoric over substance. With
+  2019 elections nearing, India must revive Aristotelian debate for substantive
+  discourse.
+key_points:
+  - >-
+    Ideological convergence among parties reduces debates to mudslinging over
+    policy execution rather than principles.
+  - >-
+    Anti-Defection Law of 1985 compels MPs to align strictly with party whips,
+    stifling independent parliamentary debate.
+  - >-
+    Media outlets prioritize sensationalism and fake news over factual
+    reporting, as exposed by Cobrapost involving 25 major organizations.
+  - >-
+    Citizens' echo chambers, trolling, and whataboutism, fueled by speech curbs,
+    undermine reasoned public discourse.
+topics:
+  - political-debate
+  - free-speech
+  - media-bias
+  - anti-defection-law
 tags:
   - Freedom Of Speech
   - Democracy
   - Violencee
   - intolerance
+source_hash: b3e0e26dd0f67ccf2f98468680e21e6b73c7d4ce06f7e0b3115586c2d6ccf02d
+summary_hash: b3e0e26dd0f67ccf2f98468680e21e6b73c7d4ce06f7e0b3115586c2d6ccf02d
+summary_at: '2026-05-05T10:09:01.120Z'
 ---
 **By Spontaneous Order**
 

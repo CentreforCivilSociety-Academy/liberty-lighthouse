@@ -1,20 +1,56 @@
 ---
 title: 'The Good, Bad and Ugly of Political Ads!'
 original_url: 'https://www.spontaneousorder.in/p/the-good-bad-and-ugly-of-political-ads'
+author: Spontaneous Order
 published_at: '2011-06-16T23:58:53.000Z'
 ingested_at: '2026-05-05T08:31:42.640Z'
-source_hash: c77220bc9811677a4089d43405ec74b6daaa76a7e0474e8d24cd9c08cb84f951
-author: Spontaneous Order
 excerpt: >-
   By: Udita Singh Politics is dirty stuff but dirtier is the task of marketing
   it. Political advertisements can create history or haunt parties for that ‘one
   bad ad’. The world has seen some great examples of political advertisements
   where words playful
+summary: >-
+  Political advertisements can shape elections or backfire spectacularly, with
+  international examples setting benchmarks through creativity rather than
+  money, while Indian parties produce mostly 'bad' and 'ugly' ads reflecting
+  their low creativity and high leader-worship. The 'good' includes the UK's
+  1979 Conservative 'Labour isn't working' poster, voted best of the century,
+  using wit and provocation to win votes; New Zealand's Green Party simple
+  environmental message; and Obama's 2008 'Hope' and 'Change' posters, created
+  in one day, radiating positive energy and becoming iconic. In contrast, 'bad'
+  Indian ads feature Sonia Gandhi as Goddess Durga, sparking Hindu sentiment
+  lawsuits, BJP's gruesome blood imagery post-terror attacks lacking substance,
+  and dull Congress faces without engagement. 'Ugly' examples encompass US Bush
+  campaign misquoting Kerry, backfiring Conservative posters, and Delhi
+  University student union posters with excessive Photoshop and paper waste.
+  Lessons emphasize witty challenges, simple responsibility, positive
+  action-focus, avoiding deification or opportunism, steering clear of slander,
+  and shifting to online platforms to save trees, urging substance over
+  aggression in a classical-liberal critique of personality cults and
+  inefficiency.
+key_points:
+  - >-
+    International political ads like UK's 'Labour isn't working' (1979 Tory win)
+    and Obama's 'Hope/Change' succeed with wit, simplicity, and positivity.
+  - >-
+    Indian ads fail by deifying leaders (e.g., Sonia as Durga, Advani as Brahma)
+    or using dull/gruesome imagery without substance.
+  - >-
+    Ugly tactics include misquoting opponents (Bush vs. Kerry 2004) and wasteful
+    Photoshopped student posters; shift to social media to reduce paper use.
+topics:
+  - political-advertising
+  - election-posters
+  - campaign-creativity
+  - indian-politics
 tags:
   - social media
   - political agenda
   - political advertising
   - The Good Bad and Ugly movie
+source_hash: c77220bc9811677a4089d43405ec74b6daaa76a7e0474e8d24cd9c08cb84f951
+summary_hash: c77220bc9811677a4089d43405ec74b6daaa76a7e0474e8d24cd9c08cb84f951
+summary_at: '2026-05-05T12:27:43.716Z'
 ---
 **By Vipin**
 

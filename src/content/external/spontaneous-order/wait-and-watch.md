@@ -1,15 +1,56 @@
 ---
 title: 'Reflections on Researching Reality: The Wait and The Watch'
 original_url: 'https://www.spontaneousorder.in/p/wait-and-watch'
+author: Spontaneous Order
 published_at: '2019-08-25T12:45:27.000Z'
 ingested_at: '2026-05-05T08:31:42.474Z'
-source_hash: a1471bbd49f471e57068ee7588e13473f49265f975f1936568f7df658ec7a686
-author: Spontaneous Order
 excerpt: >-
   Over the summer, we set out to unpack the functioning of the education
   administration in Delhi and Haryana. To begin with, we studied legislation
   governing education and notifications of the state governments in Haryana and
   Delhi. We analysed the Right ..
+summary: >-
+  Bharat Sharma reflects on the challenges of researching education
+  administration in Delhi and Haryana as a CCS intern, revealing bureaucratic
+  opacity from a classical-liberal lens critical of government inefficiencies.
+  Initial analysis of legislations—the Right of Children to Free and Compulsory
+  Education (RTE) Act, 2009 and Rules; Delhi School Education Act and Rules,
+  1973; Haryana School Education Act, 1995 and Rules—yielded only sketchy
+  outlines of officials' powers and responsibilities, with no clear demarcations
+  or job descriptions, even in vacancy notices. To uncover actual functions, the
+  team visited government offices for surveys and interviews but faced
+  persistent hurdles: officials were absent, busy, or refused meetings despite
+  official permission letters from Delhi's Directorate of Education. Extensive
+  waiting outside offices in 40-degree heat—sometimes a full week for one senior
+  official—allowed participant-observation of daily operations, including long
+  queues of citizens with children seeking document signatures (e.g., school
+  transfer certificates) or urgent complaint resolutions during limited 'public
+  hearing' times (10-11 A.M. in Delhi). Guards' remarks like 'Aap phir aa gaye'
+  marked growing persistence amid rejections. One cooperative officer finally
+  provided survey data. The experience shattered assumptions of research
+  simplicity, demonstrating that bureaucratic reality is far more complex and
+  inefficient than laws suggest.
+key_points:
+  - >-
+    Legal frameworks like RTE Act 2009 and state education acts offer vague,
+    incomplete descriptions of officials' roles and responsibilities.
+  - >-
+    Field visits to Delhi and Haryana education offices involved repeated
+    rejections, absences, and long waits, even with official permission.
+  - >-
+    Observations during waits revealed citizens queuing for basic services like
+    document approvals during short public hearing slots (10-11 A.M. in Delhi).
+  - >-
+    Persistence eventually yielded some survey responses, breaking a streak of
+    failures.
+  - >-
+    Bureaucratic functioning proved far more complex than legislative documents
+    indicate, beyond official notifications.
+topics:
+  - education-administration
+  - bureaucracy
+  - field-research
+  - government-inefficiency
 tags:
   - Bureaucracy
   - bureaucrats
@@ -17,6 +58,9 @@ tags:
   - babudom
   - government bureaucracies
   - Governance
+source_hash: a1471bbd49f471e57068ee7588e13473f49265f975f1936568f7df658ec7a686
+summary_hash: a1471bbd49f471e57068ee7588e13473f49265f975f1936568f7df658ec7a686
+summary_at: '2026-05-05T12:55:31.191Z'
 ---
 **By Bharat Sharma**
 

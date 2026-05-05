@@ -1,21 +1,65 @@
 ---
 title: 'Private schools closed due to RTE: Data missing'
 original_url: 'https://www.spontaneousorder.in/p/schools_data_missing'
+author: Spontaneous Order
 published_at: '2019-08-11T11:40:14.000Z'
 ingested_at: '2026-05-05T08:31:42.724Z'
-source_hash: 6a0eab25f4e7c300f28176e12e422172511debbab103294f7b474d19de325c61
-author: Spontaneous Order
 excerpt: >-
   Much has been said about the Right of Children to Free and Compulsory
   Education (“RTE”) Act since its enactment in 2009. It was the first central
   legislation to mandate compulsory government recognition for all private
   schools’ basis minimum input s
+summary: >-
+  The Right to Education (RTE) Act of 2009 mandates compulsory government
+  recognition for private schools based on rigid input standards—excluding
+  outcomes—with penalties of one lakh rupees or ten thousand per day for
+  non-compliance, yet official data on unrecognised schools, those under the
+  radar, or closures remains negligible a decade later. In 2015, parliamentary
+  data revealed 2173 private schools forced shut across three states and one
+  union territory: 1170 in Punjab, 998 in Madhya Pradesh, four in Himachal
+  Pradesh, and one in Puducherry—the last such disclosure. Centre for Civil
+  Society's RTIs in 10 states reported just 15 closures, with seven states
+  withholding information, while media scans from 2015-2018 uncovered 2469
+  closures in 15 states. Private schools enrol 8 crore children (32% of total)
+  across over 300,000 institutions per 2016-17 UDISE data, yet states like
+  Punjab and Madhya Pradesh claim no records. Closures lack due process, as
+  Haryana's 2013 mass shutdowns drew court rebuke for 'stereotyped orders'
+  without specific reasons. This data void—whether from reluctance or poor
+  recording—leaves policymakers 'flying blind,' incapable of evidence-based
+  reforms and dooming promises of quality education from classical-liberal
+  perspectives favouring market-driven private provision over input-heavy
+  regulation.
+key_points:
+  - >-
+    RTE Act's input-based recognition has shuttered thousands of private
+    schools, with 2173 closures reported in 2015 across select states.
+  - >-
+    RTIs reveal severe data gaps: only 15 closures in 10 states, seven
+    unresponsive, contrasting media's 2469 closures from 2015-2018.
+  - >-
+    Private schools serve 32% of India's 25 crore schoolchildren, yet
+    governments track neither enrolments, fees, nor outcomes in unrecognised
+    ones.
+  - >-
+    Absence of due process in closures, as criticised by courts in Haryana case,
+    exacerbates regulatory overreach without evidence.
+  - >-
+    Without systematic data, evidence-based school policy is impossible,
+    hindering classical-liberal goals of freeing private education.
+topics:
+  - rte-act
+  - private-schools
+  - school-closures
+  - education-regulation
 tags:
   - Schools
   - RTE
   - Missing data
   - public polic
   - Data
+source_hash: 6a0eab25f4e7c300f28176e12e422172511debbab103294f7b474d19de325c61
+summary_hash: 6a0eab25f4e7c300f28176e12e422172511debbab103294f7b474d19de325c61
+summary_at: '2026-05-05T11:34:04.828Z'
 ---
 **By Ritika Shah**
 

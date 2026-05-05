@@ -1,21 +1,58 @@
 ---
 title: Why India needs a Robust Bankruptcy Code
 original_url: 'https://www.spontaneousorder.in/p/bankruptcy-code'
+author: Spontaneous Order
 published_at: '2016-03-01T15:41:04.000Z'
 ingested_at: '2026-05-05T08:31:42.559Z'
-source_hash: 36ce05b62603adc9d676c48a9a08fcf500683ea3eb7c1ef8794e8d564d84602d
-author: Spontaneous Order
 excerpt: >-
   Let’s imagine a scenario where the government doesn’t let dead people be
   immediately cremated or buried. It lets them rot for years with vultures
   picking away the body while the family runs helter-skelter just to get the
   death certificate and the inhe
+summary: >-
+  India's handling of business 'deaths' is abysmal, taking an average of 10
+  years to close a business compared to 1.7 years in China, with only 12% debt
+  recovery versus 36% in China, as per a Raghuram Rajan-led committee. Just as
+  efficient birth and death registration for people allows focus on the living,
+  businesses require streamlined insolvency processes to transfer assets
+  effectively and foster entrepreneurship. The new Insolvency and Bankruptcy
+  Code (IBC), influenced by the US Bankruptcy Code, introduces time-bound
+  resolution and a single jurisdiction, aiming to improve India's ease of doing
+  business ranking, clarify insolvent firms for investors, develop credit
+  markets, and encourage entrepreneurship by amending 12 laws including the
+  Companies Act 2013. However, gaps persist: unclear creditor priority lists
+  allow last-minute contract modifications favoring secured creditors,
+  potentially letting well-positioned ones profit unscathed at the expense of
+  national interest. The code must address international comity in bankruptcy to
+  attract global investment, balancing local courts' nationalistic tendencies
+  with transparency and global rules for a robust framework.
+key_points:
+  - >-
+    India takes 10 years on average to close a business and recovers only 12% of
+    debts, far worse than China's 1.7 years and 36% recovery.
+  - >-
+    The Insolvency and Bankruptcy Code introduces time-bound resolution and
+    single jurisdiction to streamline insolvency.
+  - >-
+    IBC supports credit markets and entrepreneurship by providing investor
+    clarity on sick firms.
+  - >-
+    Unresolved issues include creditor priorities, last-minute modifications,
+    and need for international comity to balance national interests.
+topics:
+  - bankruptcy-law
+  - insolvency
+  - ease-of-doing-business
+  - creditor-rights
 tags:
   - bankruptcy and Insolvency Code
   - bankruptcy
   - bankruptcy code
   - Finance
   - Insolvency
+source_hash: 36ce05b62603adc9d676c48a9a08fcf500683ea3eb7c1ef8794e8d564d84602d
+summary_hash: 36ce05b62603adc9d676c48a9a08fcf500683ea3eb7c1ef8794e8d564d84602d
+summary_at: '2026-05-05T09:07:28.034Z'
 ---
 **By Smriti Agrawal**
 

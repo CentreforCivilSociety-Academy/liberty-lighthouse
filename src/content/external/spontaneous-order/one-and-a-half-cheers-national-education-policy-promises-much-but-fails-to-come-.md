@@ -4,15 +4,49 @@ title: >-
   Come To Grips With India’s Education Crisis
 original_url: >-
   https://www.spontaneousorder.in/p/one-and-a-half-cheers-national-education-policy-promises-much-but-fails-to-come-to-grips-with-indias-education-crisis
+author: Spontaneous Order
 published_at: '2020-08-01T10:40:59.000Z'
 ingested_at: '2026-05-05T08:31:42.720Z'
-source_hash: fbdeea0de29f51df450884a7931121c52f66d63815fe34329f8610e928b46adb
-author: Spontaneous Order
 excerpt: >-
   There is so much good in the recently announced National Education Policy
   (NEP) that it seems churlish to point out its failings. It will receive well
   deserved applause. However, the truth is that it has failed to come to grips
   with the crisis in Indian..
+summary: >-
+  Gurcharan Das praises the National Education Policy (NEP) for shifting focus
+  from inputs to outcomes, rejecting rote learning for critical thinking,
+  launching a mission for all children to achieve basic language and math skills
+  by Class 3 by 2025, introducing standardized assessments in Classes 3, 5, and
+  8, and separating regulation from state school operation to end conflicts of
+  interest. However, he argues NEP fails to confront India's schooling crisis,
+  ignoring eight key facts: 25% teacher absence in state schools (50% of present
+  teachers not teaching despite high salaries like Rs 48,918 pm in UP); <10%
+  teachers passing eligibility tests in many states; <50% Class 5 students
+  reading Class 2 text; India's 73rd/74 PISA ranking; 2.4 crore children
+  shifting to private schools (2011-2018), now 47.5% enrollment with 12 crore
+  students, mostly low-fee (<Rs 1,000/month for 70%); 35-125 permissions needed
+  to start schools, taking years and bribes; emptying govt schools becoming
+  'ghost schools'; private education costs one-third of govt. From a
+  classical-liberal view, parents exit failing govt schools due to governance
+  rot, not pedagogy. The solution is funding children via scholarships from age
+  5 for any school, enabling competition, teacher accountability, and efficient
+  outcomes while freeing govt resources.
+key_points:
+  - >-
+    NEP rightly emphasizes outcomes, assessments, and regulatory separation but
+    ignores govt school failures like 25% teacher absenteeism and poor learning
+    metrics.
+  - >-
+    Private schools now educate 47.5% of Indian children affordably, yet
+    excessive permissions (35-125) and bribes stifle supply of good options.
+  - >-
+    Fund children, not schools, via age-5 scholarships to empower parental
+    choice, spur competition, and achieve better learning at lower cost.
+topics:
+  - national-education-policy
+  - school-choice
+  - indian-education
+  - government-schools
 tags:
   - education of choice
   - education reforms
@@ -21,6 +55,9 @@ tags:
   - Indian education
   - Education System
   - New Education Policy
+source_hash: fbdeea0de29f51df450884a7931121c52f66d63815fe34329f8610e928b46adb
+summary_hash: fbdeea0de29f51df450884a7931121c52f66d63815fe34329f8610e928b46adb
+summary_at: '2026-05-05T11:08:39.459Z'
 ---
 **By Gurcharan Das**
 

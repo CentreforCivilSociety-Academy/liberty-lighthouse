@@ -1,15 +1,54 @@
 ---
 title: 'SO Musings: We Wish You A Happy New Year!'
 original_url: 'https://www.spontaneousorder.in/p/libertarian-happy-new-year'
+author: Spontaneous Order
 published_at: '2019-12-31T12:14:53.000Z'
 ingested_at: '2026-05-05T08:31:42.451Z'
-source_hash: 88def012f59bc3956ba8fd72e95f11ecc457e9a373ab6505892e4257d9ef8d98
-author: Spontaneous Order
 excerpt: >-
   The following article, published in the January 1958 issue of the Indian
   Libertarian by Kusum R Lotwalla highlights the basic tenants of libertarianism
   and highlights the fact that the fight for freedom is not a lost cause. Her
   words hold as true today ..
+summary: >-
+  This 1958 New Year's article by Kusum R Lotwalla, reprinted by Spontaneous
+  Order, asserts that libertarianism offers the antidote to global threats like
+  nuclear annihilation, power bloc rivalries, and internal class conflicts
+  fueled by exploitative institutions. Advocating replacement of centralized
+  states with federations of free communities, labor councils, and cooperatives
+  based on free agreement, competition, and cooperation, it defines
+  libertarianism as upholding individual liberty of thought and action, opposing
+  all authoritarianism from right or left, including socialism, communism, and
+  planned economies. Government must be strictly limited to defense, justice,
+  and rule of law, rejecting welfareism that breeds corruption, bureaucracy, and
+  rising taxes stifling production. Liberty is not license but mutual
+  non-encroachment, preserving individual choice in vocation, associations, and
+  pursuits essential to human flourishing. Critiquing India's planned economy
+  for mirroring destructive trends seen in Britain's socialist setbacks, Soviet
+  de-Stalinization, Polish shifts, and Hungarian revolt, Lotwalla declares
+  libertarianism a 'live cause' not lost. The Indian Libertarian pledges
+  continued propaganda through its institute and branches in Bangalore, Baroda,
+  Nagpur, Patna, and Madras to combat socio-political clichés thwarting progress
+  and explore libertarian paths to happiness.
+key_points:
+  - >-
+    Replace exploitative centralized states with federations of free communities
+    operating on free agreement, competition, and cooperation.
+  - >-
+    Limit government to defense, justice, and rule of law, opposing welfare
+    plans, socialism, and planned economies that lead to corruption and economic
+    decline.
+  - >-
+    Libertarianism ensures individual liberty without license, preventing
+    encroachment on others' rights and countering totalitarianism's reduction of
+    humans to robots.
+  - >-
+    India's planned economy exemplifies destructive trends, but global shifts
+    like Hungary's revolt prove libertarianism a viable cause worth propagating.
+topics:
+  - libertarianism
+  - limited-government
+  - anti-socialism
+  - indian-liberalism
 tags:
   - SO Musings
   - Happy New Year
@@ -17,6 +56,9 @@ tags:
   - Indian liberals
   - libertarian views
   - Libertarianism
+source_hash: 88def012f59bc3956ba8fd72e95f11ecc457e9a373ab6505892e4257d9ef8d98
+summary_hash: 88def012f59bc3956ba8fd72e95f11ecc457e9a373ab6505892e4257d9ef8d98
+summary_at: '2026-05-05T10:41:51.183Z'
 ---
 **By Spontaneous Order**
 

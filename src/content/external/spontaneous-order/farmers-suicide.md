@@ -1,15 +1,48 @@
 ---
 title: 'For Farmers, is Suicide the Only Way Out?'
 original_url: 'https://www.spontaneousorder.in/p/farmers-suicide'
+author: Spontaneous Order
 published_at: '2020-03-05T17:29:58.000Z'
 ingested_at: '2026-05-05T08:31:42.437Z'
-source_hash: 4779b98ebdc7845923ed3e82f81af1741fcc1a0ac7daee57b18213c59c882331
-author: Spontaneous Order
 excerpt: >-
   Even as farmers’ suicides have decreased over the last few years, the
   continued incidents highlight the distress in the agriculture sector and the
   rural economy. It is statistically true that the farmers as a whole commit
   fewer suicides than other socia
+summary: >-
+  Even as farmers’ suicides have declined, they highlight distress in Indian
+  agriculture due to unprofitability and lack of exit options, exacerbated by
+  regressive regulations—a classical-liberal critique of state intervention
+  trapping farmers. Key causes include small landholdings limiting scale and
+  technology adoption, resulting in yields half or less of China's for paddy,
+  wheat, cereals, and pulses per hectare. NABARD data shows average monthly
+  income for agricultural households at Rs. 8,931 in 2016-17, with only Rs.
+  3,140 from cultivation, despite subsidies, loan waivers, and support prices. A
+  CSDS survey of 5,000 households found 76% willing to quit farming, as the
+  sector employs half the population but contributes just one-sixth of GDP and
+  can sustain only 14 crore livelihoods per government admission. Regulations
+  prevent leasing or renting land, selling to non-farmers in most states, or
+  converting to non-agricultural use, blocking mobility amid a dire job market.
+  The author argues suicide becomes the only perceived exit unless regressive
+  policies are liberalized to free land markets and enable livelihood shifts.
+key_points:
+  - >-
+    Indian farmers' average monthly income from cultivation is only Rs. 3,140
+    despite heavy government subsidies.
+  - >-
+    76% of surveyed farmers want to quit farming, as agriculture cannot sustain
+    half the workforce.
+  - >-
+    Land regulations prohibit leasing, selling to non-farmers, or changing
+    agricultural land use, trapping farmers.
+  - >-
+    Reforming regressive land policies is essential to allow farmers to exit
+    unprofitable agriculture and access better opportunities.
+topics:
+  - farmers-suicides
+  - agricultural-reform
+  - land-markets
+  - labor-mobility
 tags:
   - Indian agriculture
   - farmers' woes
@@ -17,6 +50,9 @@ tags:
   - Indian liberals
   - Indian farmers
   - Indian Economy
+source_hash: 4779b98ebdc7845923ed3e82f81af1741fcc1a0ac7daee57b18213c59c882331
+summary_hash: 4779b98ebdc7845923ed3e82f81af1741fcc1a0ac7daee57b18213c59c882331
+summary_at: '2026-05-05T09:53:16.146Z'
 ---
 **By Sudhanshu Neema**
 

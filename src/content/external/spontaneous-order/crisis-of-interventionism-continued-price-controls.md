@@ -2,15 +2,50 @@
 title: 'Crisis of Interventionism (Continued): Price Controls'
 original_url: >-
   https://www.spontaneousorder.in/p/crisis-of-interventionism-continued-price-controls
+author: Spontaneous Order
 published_at: '2012-04-18T11:58:23.000Z'
 ingested_at: '2026-05-05T08:31:42.624Z'
-source_hash: 040f44c3306f755a902eeeb1eb280038f341bdedbe47177019e368e94aa7f265
-author: Spontaneous Order
 excerpt: >-
   Continuing our post from yesterday, in which Ludwig von Mises explained why
   government interventionism based on redistribution of wealth (including
   deficit spending) cannot lastingly increase the welfare of the masses, today
   we will look at intervention..
+summary: >-
+  Ludwig von Mises defines interventionism as government interference beyond
+  maintaining order, specifically meddling with prices, wages, and production to
+  override consumer sovereignty in the market economy. Focusing on price
+  controls, often imposed amid inflation from money supply expansion, Mises
+  cites historical failures: Roman Emperor Diocletian's brutal enforcement after
+  currency debasement led to the Roman Empire's disintegration; the French
+  Revolution's maximum prices, backed by the guillotine amid printing-press
+  inflation, collapsed with Robespierre's fall. Mechanically, capping milk
+  prices below market levels boosts demand while driving out marginal producers
+  suffering losses, slashing supply and creating shortages and queues.
+  Governments then ration arbitrarily, then control fodder prices—repeating the
+  cycle—and extend to all producers' goods, wages, labor, and even luxuries to
+  prevent resource shifts, inevitably culminating in socialism where all prices
+  are government-determined. This mirrors World War I experiences in Germany and
+  England. From a classical-liberal view, such interventions restrict consumer
+  power, worsen shortages beyond pre-control conditions, and cannot sustainably
+  improve welfare.
+key_points:
+  - >-
+    Price controls below market levels increase demand for goods like milk while
+    causing high-cost producers to exit, leading to shortages and rationing.
+  - >-
+    Governments extend controls from consumer goods to inputs like fodder,
+    wages, and luxuries, escalating intervention across the economy.
+  - >-
+    Brutal enforcement failed historically under Diocletian and the French
+    Revolution, resulting in societal collapse rather than stability.
+  - >-
+    Isolated price controls inevitably lead to full socialism by supplanting
+    market pricing entirely.
+topics:
+  - price-controls
+  - interventionism
+  - austrian-economics
+  - historical-examples
 tags:
   - Interventionism
   - price controls
@@ -18,6 +53,9 @@ tags:
   - socialism
   - division of labor
   - French Revolution
+source_hash: 040f44c3306f755a902eeeb1eb280038f341bdedbe47177019e368e94aa7f265
+summary_hash: 040f44c3306f755a902eeeb1eb280038f341bdedbe47177019e368e94aa7f265
+summary_at: '2026-05-05T09:28:38.048Z'
 ---
 **By Andrew Humphries**
 

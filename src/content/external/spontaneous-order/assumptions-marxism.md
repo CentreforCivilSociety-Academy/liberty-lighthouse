@@ -1,15 +1,49 @@
 ---
 title: Minoo Masani | The Assumptions of Marxism (1944)
 original_url: 'https://www.spontaneousorder.in/p/assumptions-marxism'
+author: Spontaneous Order
 published_at: '2016-06-30T17:30:57.000Z'
 ingested_at: '2026-05-05T08:31:42.551Z'
-source_hash: de0dcde0cdea426aba87566a9ba8ea3986ffbceb542d69834682bc55a9d3b2e3
-author: Spontaneous Order
 excerpt: >-
   (This is the second part of a series of posts, from Minoo Masani’s classic
   1944 essay ‘Socialism Reconsidered.’ The first part of the series can be read
   here: Minoo Masani | Socialism Reconsidered (1944)) Via Dictatorship? The
   second Marxist assumpt
+summary: >-
+  Minoo Masani critiques three key Marxist assumptions in his 1944 essay. First,
+  the Dictatorship of the Proletariat, meant to wither away into a classless
+  society, has instead entrenched absolute power in Russia, as evidenced by the
+  Soviet government's unyielding control and liquidation of opponents in the
+  lakhs over six to seven years, defying Lord Acton's warning that 'power tends
+  to corrupt and absolute power corrupts absolutely.' Second, appealing to
+  workers' collective selfishness and class hatred fosters exploitation, as seen
+  in British Labour's complicity in imperialism. Third, socialism is not the
+  inevitable successor to capitalism; instead, a 'managerial revolution' leading
+  to totalitarianism—Fascism, Hitlerism, or Stalinism—is more likely, given
+  humanity's unreadiness to manage complex industrial states without tyranny.
+  Masani rejects socialism as the sole alternative, echoing Hayek's 'Road to
+  Serfdom,' and advocates a redefined socialism combining liberty and planned
+  economy. Nationalisation is inevitable but secondary to control; the focus
+  must shift to preventing a totalitarian polity from accompanying collectivised
+  economy, insisting on both freedom and planning as true socialism.
+key_points:
+  - >-
+    Marxist dictatorship does not wither away, as proven by Soviet Russia's
+    ongoing repression and purges.
+  - >-
+    Appeals to class selfishness perpetuate injustice, like British workers
+    supporting imperialism via Labour.
+  - >-
+    Capitalism's decline likely leads to totalitarianism, not socialism, per
+    Burnham's managerial revolution.
+  - >-
+    True socialism requires liberty alongside planned economy, redefining means
+    beyond nationalisation to avert serfdom.
+topics:
+  - marxism-critique
+  - socialism
+  - liberty
+  - totalitarianism
 tags:
   - Minoo Masani
   - Assumptions of Marxism
@@ -18,6 +52,9 @@ tags:
   - Capitalism
   - socialism
   - Marxism
+source_hash: de0dcde0cdea426aba87566a9ba8ea3986ffbceb542d69834682bc55a9d3b2e3
+summary_hash: de0dcde0cdea426aba87566a9ba8ea3986ffbceb542d69834682bc55a9d3b2e3
+summary_at: '2026-05-05T09:03:45.263Z'
 ---
 **By Ujwal Batra**
 

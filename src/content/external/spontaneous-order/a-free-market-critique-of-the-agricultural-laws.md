@@ -2,20 +2,60 @@
 title: A Free Market Critique of the Agricultural Laws
 original_url: >-
   https://www.spontaneousorder.in/p/a-free-market-critique-of-the-agricultural-laws
+author: Spontaneous Order
 published_at: '2020-10-13T18:08:32.000Z'
 ingested_at: '2026-05-05T08:31:42.376Z'
-source_hash: c892758d8af83a2e7c5644456026443e373cb8cf30aac05a3dc6741a65dbd574
-author: Spontaneous Order
 excerpt: >-
   “If it was really a revolution, they wouldn’t be calling it one,” quips Mr.
   Barun Mitra, in a recent interview where I asked him to compare the recently
   pushed (read: bulldozed) agricultural reforms with the 1991 industrial
   liberalization program. M
+summary: >-
+  Akshat Singh offers a classical-liberal critique of India's three agricultural
+  laws, questioning their 'free market' credentials despite being framed as
+  reforms akin to 1991 liberalization. Drawing on Barun Mitra's skepticism, he
+  evaluates them against four parameters: rule of law, government size,
+  regulatory efficiency, and market openness. On rule of law, the laws establish
+  parallel three-tier dispute mechanisms (reconciliation committee, SDM, DM)
+  without judicial oversight, empowering bureaucrats prone to rent-seeking via
+  corporate influence. Government size expands centrally by prohibiting state
+  fees on APMC trade, crippling state procurement of MSPs (relied on by 6-8% of
+  farmers) and sidelining states like Kerala and Chhattisgarh that pay above
+  central MSPs; ECA amendments grant discretion on 'extraordinary' price rises
+  (100% horticultural, 50% agricultural). Regulatory efficiency falters by
+  sidelining middlemen—who provide credit and insurance to 86.2% marginal/small
+  farmers—while favoring corporate 'aggregators', risking anti-competitive
+  behavior. Markets remain unopened, as laws ignore land-use conversion, bar
+  contractors from buying farmland or building infrastructure, and allow
+  government limits on stockpiling, trapping farmers paternalistically. Overall,
+  the laws shift from status quo but head 'downhill', far from a true
+  free-market revolution.
+key_points:
+  - >-
+    Agricultural laws undermine rule of law by creating bureaucrat-led dispute
+    mechanisms without judicial review, inviting rent-seeking.
+  - >-
+    They centralize power by defunding state MSP procurement via fee bans,
+    affecting 6-8% of farmers reliant on it.
+  - >-
+    Laws ignore middlemen's vital role for 86.2% small farmers while enabling
+    corporate aggregators, prone to anti-competitiveness.
+  - >-
+    Reforms fail to liberalize land use or allow farmer entrepreneurship, with
+    government retaining stockpiling controls.
+topics:
+  - agricultural-reforms
+  - farm-laws
+  - free-markets
+  - rule-of-law
 tags:
   - farmers
   - Free Market
   - reform
   - agriculture
+source_hash: c892758d8af83a2e7c5644456026443e373cb8cf30aac05a3dc6741a65dbd574
+summary_hash: c892758d8af83a2e7c5644456026443e373cb8cf30aac05a3dc6741a65dbd574
+summary_at: '2026-05-05T08:48:24.688Z'
 ---
 **By Akshat Singh**
 

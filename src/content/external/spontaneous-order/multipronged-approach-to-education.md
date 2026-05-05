@@ -1,15 +1,50 @@
 ---
 title: Multipronged Approach to Education
 original_url: 'https://www.spontaneousorder.in/p/multipronged-approach-to-education'
+author: Spontaneous Order
 published_at: '2019-06-21T11:49:54.000Z'
 ingested_at: '2026-05-05T08:31:42.483Z'
-source_hash: 1f5ed86e20d4ef29d50b212fe8b90b3cf148f2d3ab21d67eb6e4bd985fe6386a
-author: Spontaneous Order
 excerpt: >-
   Education in India today has been entangled in the web of input norms and
   regulations, driven by the idea of uniformity and standardisation. While
   policies to this effect have been successful in achieving near perfect
   enrollment rates, the learning outc..
+summary: >-
+  India's education system is hampered by uniform input norms and the RTE Act
+  2009, which prioritize standardization over innovation, achieving near-perfect
+  enrollment but dismal learning outcomes as per ASER 2018. This has
+  marginalized student-centric models like gurukuls and madrasas, replacing them
+  with factory-like schools and leaving little room for exploration. Alternative
+  education providers struggle for recognition under rigid affiliation norms.
+  The draft New Education Policy (NEP) 2019 offers a classical-liberal shift by
+  enabling multiple learning pathways, diverse school models, and minimal input
+  norms for recognition, fostering innovation in curriculum and pedagogy. It
+  supports parental choice for homeschooling, gurukuls, and other options suited
+  to geographical and cultural diversity, while proposing a review of RTE to
+  liberalize norms. Additionally, NEP promotes technology and distance learning
+  via expanded National Institute of Open Schooling (NIOS) programs and State
+  Institutes of Open Schooling (SIOS) for vocational education up to grade 12,
+  enhancing accessibility and employability. This child-centric approach
+  empowers parents to select education matching their child's aptitudes,
+  reevaluating RTE to prioritize outcomes over uniformity.
+key_points:
+  - >-
+    RTE Act 2009 imposes rigid input norms that stifle alternative education
+    models like gurukuls and homeschooling.
+  - >-
+    Draft NEP 2019 enables multiple school models and liberalizes recognition
+    norms to promote innovation and parental choice.
+  - >-
+    NEP supports technology-driven distance learning through NIOS and proposed
+    SIOS for accessible education up to grade 12.
+  - >-
+    Reevaluate RTE Act to shift from uniformity to child-centric policies
+    improving learning outcomes.
+topics:
+  - education-reform
+  - school-choice
+  - rte-act
+  - new-education-policy
 tags:
   - RTE
   - draft NEP
@@ -22,6 +57,9 @@ tags:
   - RTE ACT 2009
   - New Education Policy
   - Right to Education Act
+source_hash: 1f5ed86e20d4ef29d50b212fe8b90b3cf148f2d3ab21d67eb6e4bd985fe6386a
+summary_hash: 1f5ed86e20d4ef29d50b212fe8b90b3cf148f2d3ab21d67eb6e4bd985fe6386a
+summary_at: '2026-05-05T10:58:27.554Z'
 ---
 **By Sunaina Mathur**
 

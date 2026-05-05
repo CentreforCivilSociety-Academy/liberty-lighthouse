@@ -2,15 +2,50 @@
 title: Atmanirbharta comes in through knocking on the pandemic door
 original_url: >-
   https://www.spontaneousorder.in/p/atmanirbharta-comes-in-through-knocking-on-the-pandemic-door
+author: Spontaneous Order
 published_at: '2020-07-27T17:32:21.000Z'
 ingested_at: '2026-05-05T08:31:42.394Z'
-source_hash: e8eb1f3a626e29330b5e2df87bc7e63671f22d36d7c7f57bfe0b6ac8c16f4f31
-author: Spontaneous Order
 excerpt: >-
   Which sector of the economy is witnessing the deepest impact of Prime Minister
   Narendra Modi’s clarion call for atmanirbharta or self-reliance? It is a good
   question to ask. While industry experts are still grappling with the meaning
   of self-reliance i.
+summary: >-
+  The COVID-19 pandemic has unexpectedly advanced Prime Minister Modi's
+  atmanirbharta (self-reliance) agenda in India's medical devices sector by
+  sparking a boom in domestic manufacturing through rapid deregulation and
+  entrepreneurial innovation from unlikely quarters. Pre-pandemic, India lacked
+  production for PPEs and N-95 masks, relying on imports; now, over 1,000
+  government-listed firms plus private players produce PPEs, with 2 lakh kits
+  and coveralls daily via MoD PSUs and 358 DRDO-supervised firms, creating a Rs
+  7,000-crore industry second only to China. Non-health companies like footwear
+  and textile firms have pivoted to produce gloves, masks, sanitisers,
+  ventilators, and kits, with dramatic capacity jumps: gloves from 20 firms/211
+  crore pieces annually to 30/247.78 crore; ventilators from 8/3,360 to 17/4.27
+  lakh; sanitisers from 35/1.95 crore litres to 49/5.97 crore; N-95 masks from
+  5/1.38 crore to 36/79.92 crore. While oversupply and export bans cause woes,
+  and quality varies with some shortcuts, the author hails this as embracing
+  privatisation over protectionism, fostering jobs and proving self-reliance via
+  quick private adaptation rather than coddled industry. Atmanirbharta, born of
+  pandemic necessity, is poised to endure.
+key_points:
+  - >-
+    Pandemic-driven deregulation enabled over 1,000 firms to produce 2 lakh PPE
+    kits daily, turning shortages into oversupply.
+  - >-
+    Entrepreneurial pivot by non-health firms like textile and footwear makers
+    massively scaled production of masks, gloves, ventilators, and sanitisers.
+  - >-
+    India's medical devices sector grew to Rs 7,000-crore industry via
+    atmanirbharta, creating jobs despite quality challenges from new entrants.
+  - >-
+    Government eased regulations through MoD PSUs and DRDO, demonstrating
+    privatisation's role in self-reliance over protectionism.
+topics:
+  - atmanirbharta
+  - medical-devices
+  - pandemic-manufacturing
+  - deregulation
 tags:
   - Healthcare in India
   - Indian Liberal Tradition
@@ -20,6 +55,9 @@ tags:
   - market triumphalism
   - atma nirbhar
   - Healthcare
+source_hash: e8eb1f3a626e29330b5e2df87bc7e63671f22d36d7c7f57bfe0b6ac8c16f4f31
+summary_hash: e8eb1f3a626e29330b5e2df87bc7e63671f22d36d7c7f57bfe0b6ac8c16f4f31
+summary_at: '2026-05-05T09:03:55.705Z'
 ---
 **By Ranjit Bhushan**
 

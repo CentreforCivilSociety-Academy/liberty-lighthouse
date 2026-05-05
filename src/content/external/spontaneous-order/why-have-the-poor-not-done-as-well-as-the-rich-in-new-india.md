@@ -2,20 +2,63 @@
 title: Why Have The Poor Not Done As Well As The Rich In New India?
 original_url: >-
   https://www.spontaneousorder.in/p/why-have-the-poor-not-done-as-well-as-the-rich-in-new-india
+author: Spontaneous Order
 published_at: '2018-08-06T09:21:16.000Z'
 ingested_at: '2026-05-05T08:31:42.524Z'
-source_hash: 09b59d99d8f85cf746e17a026d696ab3bd1955f3c753cb23eaae188e801ae5aa
-author: Spontaneous Order
 excerpt: >-
   ‘[The] Rich are getting richer and poor are becoming poorer!’ is now a common
   refrain used in India in any discussion on economic reforms. Since 1991, India
   has undergone a great deal of liberalisation internally and externally. Many
   feel that the gai
+summary: >-
+  Despite India's economic liberalization since 1991, which improved the
+  country's Fraser Institute economic freedom rank from 80th in 1990 to 53rd in
+  2004 and reduced poverty from 35% to 26% of the population, the poor have not
+  benefited as much as the rich because reforms have disproportionately targeted
+  sectors employing the middle and upper classes, like factories and call
+  centers, while leaving the poor's livelihoods—street vending, rickshaws, and
+  agriculture—burdened by the license-permit-quota raj. In Delhi, 500,000
+  cycle-rickshaws operate but only 99,000 are licensed, leading to Rs 200
+  monthly bribes per rickshaw totaling Rs 10 million monthly, plus Rs 12 million
+  from 600,000 unlicensed street vendors; raids impound equipment, stifling
+  expansion. Well-intentioned laws, like banning rickshaw rentals, raise costs
+  for migrants and limit poor entrepreneurs' capital utilization. Agriculture
+  remains unreformed, with restrictions on inter-district transport, crop
+  choices, and sales. From a classical-liberal view, the poor remain trapped in
+  economic unfreedom, paying bribes and facing harassment, preventing growth.
+  The solution is the 'Livelihood Freedom Test': review, revise, or remove rules
+  restricting low-capital, low-skill livelihoods to enable balanced growth and
+  genuine employment for all.
+key_points:
+  - >-
+    Economic liberalization since 1991 has boosted sectors for the rich but left
+    poor-dominated areas like street vending and agriculture under heavy
+    regulation.
+  - >-
+    Delhi's 500,000 cycle-rickshaws and 600,000 street vendors pay Rs 22 million
+    monthly in bribes due to licensing limits and raids.
+  - >-
+    Laws like banning rickshaw rentals harm poor migrants by inflating costs and
+    idling capital during illness or off-seasons.
+  - >-
+    Agriculture lacks a national market, with state restrictions on crop sales
+    and changes perpetuating rural poverty.
+  - >-
+    Apply the 'Livelihood Freedom Test' to remove rules hindering low-skill
+    livelihoods, promoting inclusive economic freedom.
+topics:
+  - economic-freedom
+  - license-raj
+  - street-vendors
+  - agricultural-reforms
 tags:
   - globalisation
   - economic freedom
   - liberalisation
   - poverty
+source_hash: 09b59d99d8f85cf746e17a026d696ab3bd1955f3c753cb23eaae188e801ae5aa
+summary_hash: 09b59d99d8f85cf746e17a026d696ab3bd1955f3c753cb23eaae188e801ae5aa
+summary_at: '2026-05-05T13:05:05.034Z'
 ---
 **By Parth Shah**
 

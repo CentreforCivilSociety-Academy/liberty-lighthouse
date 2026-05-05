@@ -1,15 +1,55 @@
 ---
 title: Minoo Masani | Socialism Reconsidered (1944)
 original_url: 'https://www.spontaneousorder.in/p/socialism-reconsidered-1'
+author: Spontaneous Order
 published_at: '2016-06-23T18:25:12.000Z'
 ingested_at: '2026-05-05T08:31:42.552Z'
-source_hash: b841dee35c185d6c1ea69a7a57315f79ea129365798ca64f6d3154a21beaf847
-author: Spontaneous Order
 excerpt: >-
   Editor’s Note: Over the course of the next few weeks, we will be publishing
   Minoo Masani’s classic essay ‘Socialism Reconsidered.’ This is the first part
   of a series of posts. Minoo Masani was a liberal, politician and a member of
   the Constituent
+summary: >-
+  Minoo Masani, reflecting on 25 years since World War I and the Russian
+  Revolution, critiques his former socialist beliefs that blamed capitalism for
+  all societal ills—poverty, women's subjugation, prostitution, illiteracy, and
+  wars—and promised utopia through abolishing private property and nationalizing
+  production. All socialist schools agreed socialism would create a classless
+  society via 'From each according to his capacity, to each according to his
+  needs,' with social democrats favoring ballot-box change and communists
+  revolution followed by proletarian dictatorship. However, experience shows
+  nationalization without political democracy fails to deliver economic
+  democracy, instead birthing a bureaucratic elite that controls state property,
+  socializes production but not distribution, and enforces obedience under
+  threat of starvation, as Trotsky observed in Soviet Russia. Masani notes
+  plutocracy yields to bureaucracy, not socialism, and cites India's state-run
+  railways as non-socialist. He praises Scandinavian countries like Sweden,
+  Norway, Denmark, and Finland for extending democracy economically without full
+  nationalization, positioning them farthest toward socialism by 1939. From a
+  classical-liberal viewpoint, political control over property matters more than
+  legal ownership, challenging Marxism's core assumptions.
+key_points:
+  - >-
+    Socialist assumptions held that abolishing capitalism via nationalization
+    would end all ills and create a classless society, but 25 years of
+    experience disproves this.
+  - >-
+    Nationalization unaccompanied by political democracy leads to a new
+    bureaucratic class exploiting workers more completely than capitalists.
+  - >-
+    In Soviet Russia, state ownership enabled total control, replacing 'who does
+    not work shall not eat' with 'who does not obey shall not eat.'
+  - >-
+    Scandinavian countries advanced economic democracy without full
+    nationalization, contrasting Marxist failures.
+  - >-
+    Political control of property, not mere legal ownership, determines true
+    socialism or exploitation.
+topics:
+  - socialism-critique
+  - nationalization
+  - political-democracy
+  - liberalism
 tags:
   - Minoo Masani
   - economic history
@@ -17,6 +57,9 @@ tags:
   - Socialism reconsidered
   - Capitalism
   - socialism
+source_hash: b841dee35c185d6c1ea69a7a57315f79ea129365798ca64f6d3154a21beaf847
+summary_hash: b841dee35c185d6c1ea69a7a57315f79ea129365798ca64f6d3154a21beaf847
+summary_at: '2026-05-05T12:05:10.365Z'
 ---
 **By Ujwal Batra**
 

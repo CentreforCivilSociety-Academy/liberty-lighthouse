@@ -4,20 +4,57 @@ title: >-
   Sweden.
 original_url: >-
   https://www.spontaneousorder.in/p/just-show-me-one-example-of-a-national-school-voucher-program-that-works-okay-sweden
+author: Spontaneous Order
 published_at: '2012-08-28T12:46:20.000Z'
 ingested_at: '2026-05-05T08:31:42.728Z'
-source_hash: 9e3724ed0cb57f1cf7e356af27a683f8f389fa39fd207271e42a4647187438e6
-author: Spontaneous Order
 excerpt: >-
   We know markets lead to innovation, increased quality, and falling costs.
   Freedom is the sin qua non of innovation in every sector. If someone thinks
   she can do a better job, she should be free to try. The market will sort those
   that really do do bett...
+summary: >-
+  Markets drive innovation, quality improvements, and falling costs across
+  sectors by allowing fallible humans to experiment and compete, a logic equally
+  applicable to education as to cell phones or computers. Sweden's universal
+  school voucher program since 1992 provides compelling evidence: tax funds
+  follow students to any public or private school chosen by families, freeing
+  entrepreneurs to compete and innovate. Before the reform, Swedish schools had
+  declined in quality and attainment since the 1970s due to a monolithic state
+  system lacking choice—only the rich could access private options amid high
+  taxes. Thomas Idergard of Timbro, a Stockholm free-market think tank,
+  describes how the system merges social justice (equal opportunity for all
+  families) with market principles: client choices direct funding, providers
+  compete for satisfaction and results. Echoing F.A. Hayek, competition acts as
+  a discovery procedure selecting better pedagogical and managerial practices.
+  The post concludes that Sweden demonstrates national voucher programs succeed,
+  refuting doubts about applying market freedom to schooling.
+key_points:
+  - >-
+    Sweden launched a universal school voucher system in 1992, funding all
+    students via taxes while allowing family choice between public and private
+    providers.
+  - >-
+    Pre-1992, Swedish schools declined since the 1970s from lack of choice,
+    stifling innovation in pedagogy adapted to diverse student needs.
+  - >-
+    The voucher model combines equality (universal access) with competition,
+    where funding follows parental choices and schools vie for results.
+  - >-
+    Competition in Sweden's system fosters entrepreneurship and a discovery
+    process that improves educational outcomes, per Hayek's insights.
+topics:
+  - school-choice
+  - school-vouchers
+  - education-reform
+  - sweden-education
 tags:
   - Sweden
   - School Voucher Program
   - School Choice Campaign
   - Timbro
+source_hash: 9e3724ed0cb57f1cf7e356af27a683f8f389fa39fd207271e42a4647187438e6
+summary_hash: 9e3724ed0cb57f1cf7e356af27a683f8f389fa39fd207271e42a4647187438e6
+summary_at: '2026-05-05T10:33:49.931Z'
 ---
 **By Andrew Humphries**
 

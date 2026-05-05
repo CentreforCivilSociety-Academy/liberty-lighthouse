@@ -2,18 +2,58 @@
 title: 'Between Payment and Parity: How India can tackle Unpaid Domestic Work'
 original_url: >-
   https://www.spontaneousorder.in/p/between-payment-and-parity-how-india-can-tackle-unpaid-domestic-work
+author: Spontaneous Order
 published_at: '2021-06-21T12:57:06.000Z'
 ingested_at: '2026-05-05T08:31:42.311Z'
-source_hash: 6276ee067768c1fb74ca17ae0998d95fee62708c11d3a2a833654fb7c92630f3
-author: Spontaneous Order
 excerpt: >-
   Every time I look at my grandmother, a mix of emotions like awe, wonder and,
   to some extent, jealousy fill my mind. She doesn’t remember her birthday but
   her looks and culinary zeal belie her age. So, when I came across the
   conversations around paying w
+summary: >-
+  T. Bhuvanesh Ram critiques the proposal to Pay for Unpaid Domestic Work (PUDW)
+  in India, arguing it is well-intentioned but ultimately misguided from a
+  classical-liberal lens prioritizing individual responsibility and market-like
+  efficiencies over state payments. While acknowledging UDW's massive economic
+  value—estimated at 40% of GDP or 19 trillion USD annually—and potential
+  benefits like financial independence for women and better national income
+  accounting (as in the Supreme Court's Kriti vs Oriental Insurance ruling on
+  notional income for homemakers), he highlights ideological flaws: PUDW
+  sidesteps the root issue of unequal household burden, where NSO's Time Use
+  Survey shows women spend ten times more time on UDW than men, potentially
+  entrenching gender divisions rather than dissolving them. Operationally,
+  challenges include means-testing, valuation, and eligibility criteria. Ram
+  concedes a limited trial via local bodies for needy households but urges
+  innovative policies for equitable sharing, such as legalizing paid paternity
+  leave like Nordic models to normalize fathers' childcare roles. He emphasizes
+  grassroots change: parents assigning UDW regardless of gender, schools
+  debunking stereotypes, and media challenging norms. Paying out, he concludes,
+  misses the forest for the trees—true equality begins at home through voluntary
+  redistribution of responsibilities.
+key_points:
+  - >-
+    PUDW hardens gender divisions in domestic work rather than addressing
+    women's disproportionate 10x burden shown in NSO Time Use Survey.
+  - >-
+    Legalize and expand paid paternity leave to shift perceptions that childcare
+    is solely mothers' responsibility.
+  - >-
+    Involve parents, schools, and media in breaking artificial gender-UDW links
+    through socialization and education.
+  - >-
+    Trial PUDW selectively via local bodies for unemployed households, but
+    prioritize fundamental equitable sharing.
+topics:
+  - unpaid-domestic-work
+  - gender-equality
+  - paternity-leave
+  - family-policy
 tags:
   - payment
   - Gender Pay Gap
+source_hash: 6276ee067768c1fb74ca17ae0998d95fee62708c11d3a2a833654fb7c92630f3
+summary_hash: 6276ee067768c1fb74ca17ae0998d95fee62708c11d3a2a833654fb7c92630f3
+summary_at: '2026-05-05T09:09:38.434Z'
 ---
 **By T. Bhuvanesh Ram**
 

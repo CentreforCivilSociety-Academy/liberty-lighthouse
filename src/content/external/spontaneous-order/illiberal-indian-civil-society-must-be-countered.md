@@ -2,14 +2,51 @@
 title: Illiberal Indian civil society must be countered
 original_url: >-
   https://www.spontaneousorder.in/p/illiberal-indian-civil-society-must-be-countered
+author: Spontaneous Order
 published_at: '2010-02-27T18:58:09.000Z'
 ingested_at: '2026-05-05T08:31:42.653Z'
-source_hash: a666e84786a0b8c42bf05bb9b40418a0ee9002c7fa7dac903800dad99a197b99
-author: Spontaneous Order
 excerpt: >-
   The last days has witnessed media reports of intolerance. First it was the sad
   but also rescuing fact that celebrated artist M.F. Hussein who has been
   threatened by reactionary Hindu activists, was granted citizenship in Quatar.
+summary: >-
+  The post highlights recent incidents of intolerance in India driven by
+  illiberal elements within civil society: celebrated artist M.F. Husain,
+  threatened by Hindu activists over paintings of deities deemed obscene, was
+  granted Qatari citizenship; a book 'Crescent over the world – is a boon or the
+  silent Holocaust' published in Andhra Pradesh led to the author's arrest and
+  book seizures following Muslim protests in Khammam; and a gay professor at
+  Aligarh Muslim University was suspended, evicted, and denied retirement
+  benefits despite the Delhi High Court's 2009 decriminalization of consensual
+  adult intercourse. These cases embarrass urban Indians and horrify Westerners,
+  revealing civil society's role in intolerance while the state passively
+  watches or acquiesces—e.g., police endorsing objections to the book and the
+  university vice-chancellor prioritizing 'morals' over law. From a
+  classical-liberal view, the state, wielding armed force, bears ultimate
+  responsibility to protect individuals' freedoms of expression, thought, and
+  choice from civil society's communal, coercive acts. Defending civil society,
+  as CCS does, requires confronting its faults and insisting the state shield it
+  from uncivilized members, fostering dialogue only under the rule of law. This
+  sad week underscores the task for an open Indian society.
+key_points:
+  - >-
+    Illiberal civil society elements in India perpetrate intolerance through
+    threats against artists like M.F. Husain, arrests over provocative books,
+    and firings of gay professors.
+  - >-
+    The state fails to protect individual rights, resigning to civil society's
+    pressures and allowing endless legal harassment or police seizures.
+  - >-
+    The armed state holds the monopoly on force and must actively defend
+    freedoms of expression and thought against civil society's villains.
+  - >-
+    Classical liberals must critique civil society's coercive acts while
+    demanding state intervention to safeguard a just society.
+topics:
+  - free-speech
+  - civil-society
+  - state-responsibility
+  - religious-intolerance
 tags:
   - Indian Civil Society
   - obscenity
@@ -18,6 +55,9 @@ tags:
   - Muslims
   - M.F.Hussein
   - CCS
+source_hash: a666e84786a0b8c42bf05bb9b40418a0ee9002c7fa7dac903800dad99a197b99
+summary_hash: a666e84786a0b8c42bf05bb9b40418a0ee9002c7fa7dac903800dad99a197b99
+summary_at: '2026-05-05T10:15:56.058Z'
 ---
 **By jan**
 

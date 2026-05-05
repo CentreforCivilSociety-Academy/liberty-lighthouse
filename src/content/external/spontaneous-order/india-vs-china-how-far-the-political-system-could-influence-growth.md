@@ -2,15 +2,50 @@
 title: 'India vs. China: How far the political system could influence growth?'
 original_url: >-
   https://www.spontaneousorder.in/p/india-vs-china-how-far-the-political-system-could-influence-growth
+author: Spontaneous Order
 published_at: '2010-08-02T12:13:58.000Z'
 ingested_at: '2026-05-05T08:31:42.649Z'
-source_hash: dbf1605c56dac6e18662984578bf7be9fa9758079f4173496cc3f4a1b9c276d7
-author: Spontaneous Order
 excerpt: >-
   Both China and India have grown rapidly in the last decade. However, India
   seems to perform less well in terms of economic growth and poverty alleviation
   compared to China. China’s results are striking: 9% annual growth on average
   and 300 million people
+summary: >-
+  The author argues that India's slower economic growth and persistent poverty
+  compared to China—9% annual growth and 300 million lifted out of poverty over
+  two decades—are not primarily due to its democratic political system versus
+  China's authoritarianism. Both nations exhibit low economic freedom (India
+  53.8, China 51.0 per Heritage Foundation), stemming from constitutional
+  commitments to socialism and heavy government control over the economy, which
+  stifles prosperity regardless of political structure. Citing Milton Friedman,
+  the author emphasizes that economic freedom is essential to limit political
+  power and enable uncoerced cooperation. The key differentiator is trade
+  liberalization: China reduced MFN tariffs to 9.6% by 2008 (bound near 10%)
+  under Deng Xiaoping and Zhu Rongji, far earlier and more aggressively than
+  India, which lingered at 19.2% until 2005 before dropping to 13% (bound at
+  49%). Cheaper imports fueled China's industrial boom, while India's higher
+  barriers hindered it. Thus, from a classical-liberal view, market openings,
+  not centralized decision-making or democracy, drive growth; both countries'
+  planning hampers freedom and development.
+key_points:
+  - >-
+    China's superior growth stems from earlier trade tariff reductions to 9.6%
+    MFN by 2008, enabling affordable imports and industrial expansion, unlike
+    India's 13% MFN and 49% bound rate.
+  - >-
+    Both India and China score poorly on economic freedom (53.8 and 51.0) due to
+    socialist planning, making political systems secondary to market controls.
+  - >-
+    Economic freedom, per Friedman, offsets political power concentration and is
+    prerequisite for prosperity, regardless of democracy or authoritarianism.
+  - >-
+    India's constitutional socialism invites constant government interference,
+    mirroring China's controls and explaining shared underperformance.
+topics:
+  - india-china-comparison
+  - economic-freedom
+  - trade-tariffs
+  - market-liberalization
 tags:
   - India
   - trade tariffs
@@ -21,6 +56,9 @@ tags:
   - Indian Economy
   - poverty
   - development
+source_hash: dbf1605c56dac6e18662984578bf7be9fa9758079f4173496cc3f4a1b9c276d7
+summary_hash: dbf1605c56dac6e18662984578bf7be9fa9758079f4173496cc3f4a1b9c276d7
+summary_at: '2026-05-05T10:20:55.811Z'
 ---
 **By Lucas Leger**
 

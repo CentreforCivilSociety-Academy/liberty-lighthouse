@@ -2,15 +2,50 @@
 title: Top Priority of Modi Government should be RULE OF LAW
 original_url: >-
   https://www.spontaneousorder.in/p/top-priority-of-modi-government-should-be-rule-of-law
+author: Spontaneous Order
 published_at: '2014-06-02T15:37:09.000Z'
 ingested_at: '2026-05-05T08:31:42.592Z'
-source_hash: 342efab78a3fb28c2eb20eedfe8ab5d213dc1c1100181cd8633a47d403e830a9
-author: Spontaneous Order
 excerpt: >-
   In his answer to the question, “What is Law?”, French economist, statesman and
   author Frederic Bastiat (1801-1850) in his pamphlet The Law (1850) wrote, “The
   law is the organisation of the natural right of lawful defense. It is the
   substitution of a
+summary: >-
+  The Modi government's top priority should be establishing rule of law, defined
+  per Frédéric Bastiat as organizing the natural right of lawful defense to
+  protect persons, liberties, and properties without caste/religion bias or
+  business interference, as this first-order public good is essential for a just
+  and prosperous society. India's criminal justice system fails disastrously:
+  NCRB's 2012 Crime in India report shows IPC cases disposed by courts fell from
+  30.9% in 1972 to 13.4%, with convictions dropping from 62.7% to 38.5%, amid
+  ever-increasing backlogs. India has only 137 policemen per 100,000 inhabitants
+  (vs. global median 300) and 1.4 judges per 100,000 (vs. 10). Understaffing and
+  poor resources are issues, but structural reforms are crucial: clear property
+  titles to cut land dispute pendency; simplified personal laws with minimal
+  state interference (e.g., divorce); narrowing Article 12's 'State' definition
+  to end litigation from inefficient PSUs like banks and oil firms. Governments
+  neglect this monopoly function, prioritizing roads/electricity better handled
+  privately, despite public outrage on fiscal deficits or onion prices.
+  Classical liberals urge demanding accountability for swift criminal justice
+  delivery.
+key_points:
+  - >-
+    India's IPC case disposal rate declined to 13.4% and conviction rate to
+    38.5% by 2012, with massive backlogs lowering crime costs for criminals.
+  - >-
+    India underperforms globally with 137 policemen and 1.4 judges per 100,000
+    population versus medians of 300 and 10.
+  - >-
+    Reform structurally by ensuring clear property titles, simplifying personal
+    laws, and limiting Article 12 to reduce PSU-driven litigation.
+  - >-
+    Elevate rule of law as top priority, demanding accountability like for
+    fiscal deficits, while privatizing non-monopoly functions.
+topics:
+  - rule-of-law
+  - criminal-justice-system
+  - judicial-reform
+  - property-rights
 tags:
   - Indian Penal Code
   - National Crime Records Bereau
@@ -20,6 +55,9 @@ tags:
   - Article 12
   - police
   - Law
+source_hash: 342efab78a3fb28c2eb20eedfe8ab5d213dc1c1100181cd8633a47d403e830a9
+summary_hash: 342efab78a3fb28c2eb20eedfe8ab5d213dc1c1100181cd8633a47d403e830a9
+summary_at: '2026-05-05T12:45:31.895Z'
 ---
 **By Kumar Anand**
 

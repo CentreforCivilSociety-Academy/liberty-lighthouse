@@ -2,15 +2,51 @@
 title: Building temples unlikely to pay poll dividends
 original_url: >-
   https://www.spontaneousorder.in/p/building-temples-unlikely-to-pay-poll-dividends
+author: Spontaneous Order
 published_at: '2020-08-10T13:02:03.000Z'
 ingested_at: '2026-05-05T08:31:42.388Z'
-source_hash: eb7787d0e42ecf89b6e43b23adfb002404aee26b0d51e442aa75cd65e6d32455
-author: Spontaneous Order
 excerpt: >-
   The Ram temple is coming up today not because the BJP won a great popular
   victory but because the Supreme Court came out with an odd verdict that
   slammed BJP vigilantes for destroying the Babri Masjid and categorically named
   the Muslims as victims, yet ..
+summary: >-
+  Swaminathan Aiyar dismisses the hype around the Ram temple bhoomi pujan in
+  Ayodhya as a minor event with negligible political impact, arguing it won't
+  deliver electoral dividends for the BJP. He recounts his initial fears
+  post-1992 Babri Masjid demolition that it would spark endless temple-mosque
+  conflicts and BJP dominance via Hindutva, but these proved wrong: Narasimha
+  Rao dismissed BJP governments in four states, leading to BJP defeats in Uttar
+  Pradesh, Madhya Pradesh, and Himachal Pradesh despite expectations of Hindu
+  backlash support. BJP repeatedly failed to mobilize voters on the temple
+  issue, slipping to fourth in UP by the 2000s. The temple proceeds due to a
+  peculiar 2019 Supreme Court verdict naming Muslims as victims yet allocating
+  land, not popular fervor. BJP's 2014 UP and 2019 national successes stemmed
+  from Modi's nationalist image, anti-Pakistan strikes, job promises, and
+  anti-corruption stance, not communalism. Polarization flopped in 10 state
+  elections (Karnataka to Delhi), including a thrashing in Delhi (8/70 seats)
+  despite anti-Muslim rhetoric. Though Indian politics has shifted from
+  Nehruvian secularism, BJP relies on Modi's personal appeal amid economic woes
+  and COVID-19, not temples amid voters' myriad complaints.
+key_points:
+  - >-
+    The 1992 Babri demolition did not propel BJP to lasting dominance, as it
+    lost three of four dismissed state governments despite anticipated Hindu
+    support.
+  - >-
+    BJP's Uttar Pradesh revival in 2014 hinged on Modi's nationalism and
+    development promises, not Ram temple agitation.
+  - >-
+    Communal polarization failed in 10 consecutive state elections, including a
+    Delhi rout where BJP won only 8 of 70 seats.
+  - >-
+    Voters prioritize economic performance and jobs over temple-building,
+    rendering Ayodhya's Ram temple politically insignificant.
+topics:
+  - ram-temple
+  - bjp-electoral-strategy
+  - communal-polarization
+  - indian-politics
 tags:
   - Hindutva
   - babri masjid
@@ -20,6 +56,9 @@ tags:
   - ram mandir
   - BJP
   - Narsimha Rao
+source_hash: eb7787d0e42ecf89b6e43b23adfb002404aee26b0d51e442aa75cd65e6d32455
+summary_hash: eb7787d0e42ecf89b6e43b23adfb002404aee26b0d51e442aa75cd65e6d32455
+summary_at: '2026-05-05T09:13:57.578Z'
 ---
 **By Swaminathan SA Aiyer**
 

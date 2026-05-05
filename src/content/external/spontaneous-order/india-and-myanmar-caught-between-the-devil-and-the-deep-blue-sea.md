@@ -2,20 +2,58 @@
 title: 'India and Myanmar: Caught Between the Devil and the Deep Blue Sea'
 original_url: >-
   https://www.spontaneousorder.in/p/india-and-myanmar-caught-between-the-devil-and-the-deep-blue-sea
+author: Spontaneous Order
 published_at: '2018-07-17T08:10:42.000Z'
 ingested_at: '2026-05-05T08:31:42.544Z'
-source_hash: d64ae06d815a86989cf6d155817960860ffab2632a19cd0806d3284bf115cc4b
-author: Spontaneous Order
 excerpt: >-
   The recent back and forth between the Centre and the Supreme Court regarding
   the former’s decision to deport the Rohingya immigrants due to security risks
   has gained momentum- shedding light on the institutional lack of
   accountability the Centre and its
+summary: >-
+  The post critiques the Indian Centre's arbitrary power to deport Rohingya
+  immigrants amid Supreme Court challenges, highlighting the absence of a
+  domestic refugee law and India's non-signatory status to the UN Refugee
+  Convention and Protocol, which exempts it from non-refoulement obligations.
+  This vacuum allows executive discretion without checks, varying by ruling
+  party and risking ideological bias, especially when refugee beliefs differ
+  from the host electorate. From a classical-liberal viewpoint, codifying a
+  refugee law is essential to impose standardized, neutral protocols, fostering
+  accountability, protecting rights, and insulating decisions from transient
+  politics. However, the author urges balancing this rule-of-law liberalism with
+  realpolitik realism: granting asylum to Rohingya would implicitly criticize
+  Myanmar's Aung San Suu Kyi, undermining her legitimacy, destabilizing
+  Myanmar's democracy, and harming India's 'Look East Policy' investments and
+  security along the 1,600 km shared border, potentially polarizing the region
+  toward China with severe economic and human costs. India thus navigates a
+  dilemma between humanitarian virtues and Hobbesian state obligations.
+key_points:
+  - >-
+    India's lack of refugee law grants the Centre unchecked, arbitrary power
+    over asylum decisions without judicial or legislative checks.
+  - >-
+    A codified refugee law would enforce neutral protocols, enhance
+    accountability, and prevent ideological biases in processing claims.
+  - >-
+    Granting Rohingya asylum risks geopolitical fallout by weakening Myanmar's
+    democracy and India's strategic interests, including the Look East Policy
+    and border security.
+  - >-
+    Balancing rule-of-law liberalism with realpolitik flexibility is crucial for
+    handling contextual crises like the Rohingya influx.
+topics:
+  - refugee-policy
+  - rule-of-law
+  - india-myanmar-relations
+  - national-security
 tags:
   - Illegal migrants
   - United Nations
   - Rohingya refugee crisis
   - India refugee policy
+source_hash: d64ae06d815a86989cf6d155817960860ffab2632a19cd0806d3284bf115cc4b
+summary_hash: d64ae06d815a86989cf6d155817960860ffab2632a19cd0806d3284bf115cc4b
+summary_at: '2026-05-05T10:17:45.951Z'
 ---
 **By Akshita Mathur**
 

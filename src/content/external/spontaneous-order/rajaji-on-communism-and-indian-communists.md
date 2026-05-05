@@ -1,15 +1,59 @@
 ---
 title: Rajaji on Communism and Indian Communists
 original_url: 'https://www.spontaneousorder.in/p/rajaji-on-communism-and-indian-communists'
+author: Spontaneous Order
 published_at: '2020-08-12T11:32:03.000Z'
 ingested_at: '2026-05-05T08:31:42.387Z'
-source_hash: 1c152172747e6a8149ad342fadcbe6b492c594b8cd7db33847f7dd3a2a22ccc4
-author: Spontaneous Order
 excerpt: >-
   Soon after independence, the ideas of liberal society which nurtured freedom,
   liberty, decentralization, and free enterprises, however, were subsided by the
   domination of socialists and communists’ centralization across the public
   spheres.
+summary: >-
+  The post revives C. Rajagopalachari (Rajaji)'s warnings against communism and
+  socialism in India, arguing that despite three decades of economic
+  liberalization since the 1990s, these ideologies persist in political parties,
+  academia, media, NGOs, and policy-making, undermining liberal principles of
+  freedom, liberty, decentralization, and free enterprise that fueled the
+  independence movement. It traces how moderates and liberals like V.S.
+  Srinivasa Sastri, Gandhi, and Rajaji were sidelined by socialists influencing
+  Nehru from the 1920s, leading to post-independence centralization. Key
+  examples include the paradoxical 1976 Emergency insertion of 'socialism' into
+  the Constitution's Preamble—originally rejected by the Constituent Assembly
+  and opposed by Ambedkar—and a 2017-2019 National Youth Award application
+  requiring promotion of 'socialism' as a national value. Drawing from Rajaji's
+  1955 book 'The Indian Communists,' a collection of his 1952-1954 speeches as
+  Madras Chief Minister, it highlights his declarations of communists as India's
+  'enemy No.1' for exploiting grievances via psychological tactics like the
+  'G.C.M. method' (exaggerating common measures of discontent), brainwashing
+  youth and workers, and pursuing dictatorship. Rajaji advocated free markets
+  for producers, warned against over-centralization, and noted communists'
+  electoral hypocrisies, such as 1952 wins via Rs.2 crores and undisclosed 2019
+  funds (CPI Rs.15 crores, CPI(M) Rs.10 crores). The conclusion urges vigilance
+  against these threats to spontaneous social order and economic freedom.
+key_points:
+  - >-
+    Rajaji identified communists' core tactic as exaggerating grievances (G.C.M.
+    method) to destabilize governments and brainwash the discontented.
+  - >-
+    Socialism was forcibly added to India's Constitution Preamble in 1976 during
+    the Emergency, despite Constituent Assembly rejection and Ambedkar's
+    opposition.
+  - >-
+    Even today, government forms like National Youth Awards indoctrinate youth
+    to promote 'socialism' alongside democracy.
+  - >-
+    Indian communists hypocritically decry money in elections while benefiting
+    from massive undisclosed funds, e.g., Rs.25 crores total in 2019 Tamil Nadu
+    alliances.
+  - >-
+    Liberal principles of decentralization and free enterprise, not socialist
+    centralization, are essential for wealth creation and social cooperation.
+topics:
+  - communism
+  - socialism
+  - rajagopalachari
+  - economic-freedom
 tags:
   - Rajaji
   - Liberalism in India
@@ -17,6 +61,9 @@ tags:
   - Independence
   - Indian liberals
   - socialism
+source_hash: 1c152172747e6a8149ad342fadcbe6b492c594b8cd7db33847f7dd3a2a22ccc4
+summary_hash: 1c152172747e6a8149ad342fadcbe6b492c594b8cd7db33847f7dd3a2a22ccc4
+summary_at: '2026-05-05T11:22:36.882Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

@@ -4,15 +4,55 @@ title: >-
   India
 original_url: >-
   https://www.spontaneousorder.in/p/so-musing-the-shetkari-sanghathana-and-history-of-farmers-movements-in-india
+author: Spontaneous Order
 published_at: '2020-09-28T17:07:00.000Z'
 ingested_at: '2026-05-05T08:31:42.379Z'
-source_hash: f166e91f2b507c8a0ec3b10ad892a43e591256e18aee8ae84ea9d40e10ebf4cb
-author: Spontaneous Order
 excerpt: >-
   The crisis facing India’s farmers has been as old as time itself. And
   throughout history, there have been numerous struggles and demands for reforms
   by Indian farmers against all dispensations. The demand for reforming the
   agricultural sector, giving ac
+summary: >-
+  The post recounts the history of Indian farmers' movements, emphasizing the
+  Shetkari Sanghathana (SS), founded by Sharad Anantrao Joshi in the late 1970s
+  in Maharashtra, as a non-political, non-communal peasants' union with a single
+  goal: securing remunerative prices for agricultural produce, seen as the key
+  to India's economic development from a classical-liberal perspective. It
+  traces farmers' struggles from British rule, where the zamindari system, cash
+  taxes, and influx of cheap British textiles crippled village artisans and
+  economies, leading to indebtedness blamed on moneylenders rather than colonial
+  policies. Post-1947 independence abolished zamindars and moneylenders but
+  replaced them with state controls that extracted agricultural surplus to urban
+  areas amid food shortages. The 1960s Green Revolution boosted productivity
+  manifold yet left farmers poorer as incomes inversely correlated with yields,
+  debunking excuses like low productivity or social customs. This created space
+  for SS's emergence as a nationalist farmers' organization demanding freer
+  markets and deregulation to alleviate farmers' plight, contrasting with
+  earlier movements and highlighting state intervention as the root cause of
+  rural poverty.
+key_points:
+  - >-
+    Shetkari Sanghathana, started by Sharad Joshi in the late 1970s, demands
+    remunerative prices for farm produce as the core to India's economic
+    development via market liberalization.
+  - >-
+    British land tenure and industrial imports destroyed village economies,
+    causing indebtedness misattributed to landlords rather than colonial
+    extraction.
+  - >-
+    Post-independence state measures continued surplus transfer from farms to
+    cities, perpetuating poverty despite abolishing zamindars and moneylenders.
+  - >-
+    Green Revolution of 1960s multiplied yields but reduced farmer incomes
+    proportionally, enabling SS's rise against state policies.
+topics:
+  - farmers-movements
+  - shetkari-sanghathana
+  - agricultural-history
+  - market-liberalization
+source_hash: f166e91f2b507c8a0ec3b10ad892a43e591256e18aee8ae84ea9d40e10ebf4cb
+summary_hash: f166e91f2b507c8a0ec3b10ad892a43e591256e18aee8ae84ea9d40e10ebf4cb
+summary_at: '2026-05-05T11:51:12.724Z'
 ---
 **By Spontaneous Order**
 

@@ -2,19 +2,62 @@
 title: VS Srinivasa Sastri – Forgotten Liberal Intellectual – Part 2
 original_url: >-
   https://www.spontaneousorder.in/p/vs-srinivasa-sastri-forgotten-liberal-intellectual-2
+author: Spontaneous Order
 published_at: '2020-01-07T18:37:32.000Z'
 ingested_at: '2026-05-05T08:31:42.450Z'
-source_hash: abee156b26e530e5de93a46d640cfa8af158c15fd6f9ce61bdb9b48561f15ddd
-author: Spontaneous Order
 excerpt: >-
   Editor’s Note: This is the second article in a two-part series paying homage
   to VS Srinivasa Sastri, the forgotten liberal intellectual of pre-independent
   India. Read the first part here. Sastri and Indian Liberalism Srinivasa Sastri
   was born ten days b
+summary: >-
+  VS Srinivasa Sastri, a poor-born liberal intellectual mentored by Gopala
+  Krishna Gokhale, championed constitutional methods for India's
+  self-governance, contrasting with Gandhi's strikes, fasts, and
+  non-cooperation, which Sastri deemed counterproductive. In 1916, Sastri's
+  pamphlet 'Self-Governance for India under the British Flag' advocated dominion
+  status like Canada and Australia. He co-founded the Indian National Liberal
+  Federation (Liberal Party) on November 1, 1918, with leaders like Tej Bahadur
+  Sapru, supporting Montagu Reforms against extremists like Tilak. As party
+  president in 1922, Sastri influenced the 1919 Reforms Act and served in
+  legislative councils. Influenced by Ranade's vision to 'equalise, humanise,
+  and spiritualise,' Sastri delivered 1926 Kamala Lectures listing 18 citizen
+  rights—including liberty of person, property, expression, education till age
+  18, and work—many enshrined in India's Constitution. The author critiques
+  historians like Ramachandra Guha for dismissing Sastri as 'Brahminical' and
+  ignoring liberals' role in parliamentary evolution, as noted by AG Noorani and
+  Zareer Masani, who credit liberals over Gandhi-Nehru for democracy's
+  foundations. Indian liberalism from Ranade, Gokhale, and Sastri demands
+  historical recognition against Marxist distortions.
+key_points:
+  - >-
+    Sastri co-founded the Indian National Liberal Federation in 1918 to promote
+    constitutionalism and gradual self-governance against extremism.
+  - >-
+    Sastri's 1926 lectures outlined 18 rights, such as liberty of person,
+    property, expression, and education till age 18, later influencing India's
+    Constitution.
+  - >-
+    Liberals like Sastri contributed more to Indian parliamentary institutions
+    in 1919 and 1937 than Gandhi or Nehru, per Noorani and Masani.
+  - >-
+    Historians have ignored Sastri's intellectual legacy due to ideological
+    biases favoring Gandhi-Nehru hegemony.
+  - >-
+    Sastri warned against non-cooperation as a 'perilous sea' that endangers
+    youth and future society.
+topics:
+  - indian-liberalism
+  - constitutionalism
+  - historical-revisionism
+  - freedom-struggle
 tags:
   - Indian Liberal Tradition
   - Indian liberals
   - IndianLiberals.in
+source_hash: abee156b26e530e5de93a46d640cfa8af158c15fd6f9ce61bdb9b48561f15ddd
+summary_hash: abee156b26e530e5de93a46d640cfa8af158c15fd6f9ce61bdb9b48561f15ddd
+summary_at: '2026-05-05T12:55:16.628Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

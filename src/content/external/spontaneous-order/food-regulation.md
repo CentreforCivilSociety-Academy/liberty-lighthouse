@@ -1,15 +1,52 @@
 ---
 title: Food Regulation
 original_url: 'https://www.spontaneousorder.in/p/food-regulation'
+author: Spontaneous Order
 published_at: '2011-09-20T15:18:59.000Z'
 ingested_at: '2026-05-05T08:31:42.630Z'
-source_hash: adb00f83f2998d272b18b7431d723adba17a18c1a1609c710fe8840494448cb9
-author: Spontaneous Order
 excerpt: >-
   It was with great interest that I read Arun Firodia’s column “How to Tame
   Hunger” yesterday in the TOI.
   http://timesofindia.indiatimes.com/home/opinion/edit-page/How-to-tame-hunger/articleshow/10032709.cms
   Food price inflation is running at nearly 1
+summary: >-
+  Julie Gilstrap praises Arun Firodia’s column for correctly identifying the
+  APMC Act as a key driver of high food prices—farmers receive only Rs 5 per kg
+  for onions while consumers pay Rs 30 per kg—and for advocating free trade
+  across state and national boundaries to benefit both farmers and consumers
+  amid 10% food inflation. She agrees scrapping the APMC Act would enable direct
+  sales, farmers' markets, and contract farming, allowing market experimentation
+  without government mandates. However, she critiques Firodia’s middle proposals
+  for government intervention via nationalised banks providing cold storage and
+  mandating crop insurance, arguing these mirror APMC pitfalls: lack of
+  competition leads to inefficiency and poor service, as seen with existing
+  state agencies like the Food Corporation of India (FCI), Central Warehousing
+  Corporation (CWC), and 17 State Warehousing Corporations (SWCs). Instead,
+  private companies, incentivized by profit, would deliver reliable storage,
+  transport, and insurance at fair prices, creating win-win outcomes for
+  farmers, consumers, and businesses. The classical-liberal conclusion: reduce
+  government interference across the board, as more intervention exacerbates
+  problems like spoilage, pests, and price volatility.
+key_points:
+  - >-
+    Scrap the APMC Act to free farmers from mandatory government markets and
+    enable direct sales that could triple their revenues while halving consumer
+    prices.
+  - >-
+    Remove state and national trade barriers to increase supply for consumers
+    and markets for farmers.
+  - >-
+    Reject government-provided cold storage via nationalised banks, favoring
+    private competition over inefficient state agencies like FCI, CWC, and SWCs.
+  - >-
+    Oppose mandates on private insurers for crop coverage, as they raise costs
+    or drive exits, preferring voluntary market solutions to avoid
+    taxpayer-funded corruption.
+topics:
+  - apmc-act
+  - food-prices
+  - agricultural-storage
+  - crop-insurance
 tags:
   - AMPC Act
   - Arun Firodia
@@ -19,6 +56,9 @@ tags:
   - private markets
   - insurance companies
   - nationalised banks
+source_hash: adb00f83f2998d272b18b7431d723adba17a18c1a1609c710fe8840494448cb9
+summary_hash: adb00f83f2998d272b18b7431d723adba17a18c1a1609c710fe8840494448cb9
+summary_at: '2026-05-05T09:55:34.197Z'
 ---
 **By Julie Gilstrap**
 

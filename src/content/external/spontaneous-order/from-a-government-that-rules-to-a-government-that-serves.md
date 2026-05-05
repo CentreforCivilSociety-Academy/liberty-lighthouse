@@ -2,20 +2,60 @@
 title: From a Government that Rules to a Government that Serves
 original_url: >-
   https://www.spontaneousorder.in/p/from-a-government-that-rules-to-a-government-that-serves
+author: Spontaneous Order
 published_at: '2015-09-02T14:32:49.000Z'
 ingested_at: '2026-05-05T08:31:42.577Z'
-source_hash: 08f59462b3d28620f2eec593dbade0eb1aa9542ca265c264dc5a944256b12911
-author: Spontaneous Order
 excerpt: >-
   By Baldev Raj Dawar Want the Indian society corruption-free? Curtail the
   powers of the Indian State. Change the function of the government – from
   ruling the people to serving the people. People are not born corrupt. Indians
   are no scoundrels by nature..
+summary: >-
+  The Indian Constitution fosters corruption by granting the State excessive,
+  draconian powers without defining its obligations to serve citizens,
+  transforming government from a servant to a ruler. Article 245 empowers
+  Parliament and legislatures on ~210 matters in the 7th Schedule, while clauses
+  2 and 4 of Article 246 and Union List item 97 allow legislation on any matter
+  anywhere in India; Article 245(2) even permits extraterritorial operation,
+  making parliamentary jurisdiction coterminous with the universe. Fundamental
+  Rights in Part III are conditional, with Parliament empowered to restrict
+  them, and unenumerated 'residual rights' receive no protection—unlike the US
+  Constitution, where enumerated rights are unconditional and residuals belong
+  to the people. Over 105 amendments in 60+ years, such as the 42nd diluting
+  property rights and adding non-justiciable duties, have expanded State power,
+  contrasting with the US's 27 amendments in 240 years that extend freedoms and
+  limit government (e.g., 2nd Amendment arms right, 22nd term limits).
+  Historical comparisons—US vs. Soviet Union, West vs. East Germany, Mao vs.
+  Deng China, Nehru vs. Manmohan India—show less governance yields prosperity.
+  Solution: Amend the Constitution to curtail powers, define services, and free
+  people for a corruption-free society.
+key_points:
+  - >-
+    Indian Constitution's Articles 245, 246 grant Parliament unlimited
+    legislative powers, even extraterritorial, leaving no space for people's
+    residual rights.
+  - >-
+    Over 105 amendments have increased State powers and imposed citizen duties,
+    unlike US's 27 freedom-extending amendments.
+  - >-
+    Corruption arises from excessive State power; historical cases like US vs.
+    USSR prove minimal governance drives prosperity.
+  - >-
+    Amend the Constitution to limit State powers and mandate services, shifting
+    from ruling to serving government.
+topics:
+  - indian-constitution
+  - limited-government
+  - corruption
+  - constitutional-reform
 tags:
   - state
   - Indian Parliament
   - corruption
   - Constitution
+source_hash: 08f59462b3d28620f2eec593dbade0eb1aa9542ca265c264dc5a944256b12911
+summary_hash: 08f59462b3d28620f2eec593dbade0eb1aa9542ca265c264dc5a944256b12911
+summary_at: '2026-05-05T09:59:40.917Z'
 ---
 **By Guest Author**
 

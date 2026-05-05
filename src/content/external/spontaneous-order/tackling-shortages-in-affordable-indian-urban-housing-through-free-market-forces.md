@@ -4,15 +4,54 @@ title: >-
   Forces
 original_url: >-
   https://www.spontaneousorder.in/p/tackling-shortages-in-affordable-indian-urban-housing-through-free-market-forces
+author: Spontaneous Order
 published_at: '2023-02-24T11:21:09.000Z'
 ingested_at: '2026-05-05T08:31:42.246Z'
-source_hash: 10d7d1213be6f4f88c0116171ad80666b04b90756e3bf761b3f63e72dede4b08
-author: Spontaneous Order
 excerpt: >-
   India faces a pertinent and immediate problem of affordable urban housing
   shortage caused by various governmental interventions distorting the free
   market in housing. This hampers the provision of affordable housing to those
   who need it the most, the lo..
+summary: >-
+  India's urban housing shortage, affecting 19 million households amid 31.1%
+  urbanization of its 1.21 billion population and projections of 50% urban by
+  2050, stems from government interventions distorting free markets, leaving
+  lower- and middle-income groups in slums despite rising vacant houses. States
+  like Tamil Nadu (48.4%), Kerala (47.7%), Maharashtra (45.2%), and Gujarat
+  (42.6%) bear one-third of urban population stress. The author, from a
+  classical-liberal viewpoint, advocates three market-oriented solutions: (1)
+  Liberalize Floor Space Index (FSI) caps—Indian cities limit FSI to 1-5 versus
+  Singapore's 25—to enable vertical growth, boost supply, lower prices, and
+  counter Mumbai's redevelopment disincentives from past FSI reductions. (2)
+  Rationalize rent control acts, which create shortages by capping rents below
+  market levels, shifting demand to pricier segments and deterring maintenance;
+  relax for new buildings while protecting against arbitrary evictions to spur
+  investment and stabilize rents via market forces. (3) Streamline bureaucratic
+  building permits through single-window clearance, penalize government delays
+  under RERA, and leverage technology for transparency, reducing costs passed to
+  consumers. These steps unleash free market dynamics to resolve the paradox of
+  empty houses and shortages, prioritizing first principles over
+  well-intentioned restrictions.
+key_points:
+  - >-
+    Liberalize FSI caps beyond current 1-5 limits to enable vertical urban
+    growth, increase housing supply, and reduce prices for lower-income groups.
+  - >-
+    Abolish or relax rent controls that cap rents below market rates, as they
+    cause shortages, poor maintenance, and inflated non-controlled segment
+    prices.
+  - >-
+    Implement single-window clearances for building permits, penalize government
+    delays, and use technology to cut bureaucratic hurdles and project costs.
+topics:
+  - urban-housing
+  - affordable-housing
+  - rent-control
+  - fsi-regulation
+  - building-permits
+source_hash: 10d7d1213be6f4f88c0116171ad80666b04b90756e3bf761b3f63e72dede4b08
+summary_hash: 10d7d1213be6f4f88c0116171ad80666b04b90756e3bf761b3f63e72dede4b08
+summary_at: '2026-05-05T12:14:03.680Z'
 ---
 **By Arindam Goswami**
 

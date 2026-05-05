@@ -1,20 +1,60 @@
 ---
 title: Modi Goes To Daulatabad
 original_url: 'https://www.spontaneousorder.in/p/modi-goes-to-daulatabad'
+author: Spontaneous Order
 published_at: '2016-11-14T13:58:10.000Z'
 ingested_at: '2026-05-05T08:31:42.547Z'
-source_hash: 6a08473132281d4724d5c4d67a1325ea7ceddae51f5bc86d17b51f1f5b2c627d
-author: Spontaneous Order
 excerpt: >-
   We live in an age of grand delusions, so it is appropriate to invoke the name
   of Muhammad bin Tughlaq. When Narendra Modi recently announced the
   demonetisation of 500 and 1000 rupee notes, I instantly thought of Tughlaq, as
   did many others, if Twitter m..
+summary: >-
+  Amit Varma compares Narendra Modi's 2016 demonetisation of 500 and 1000 rupee
+  notes to Muhammad bin Tughlaq's ill-fated shift of the capital to Daulatabad,
+  praising Modi's courage in risking backlash from BJP's small trader base and
+  unpredictable consequences, but deeming it unwise. He argues it fails to curb
+  black money or corruption: it merely reboots the system with new 500 and 2000
+  rupee notes, spawning black markets for exchanges, while the wealthy hold
+  assets in real estate, gold, foreign accounts, and benami investments. The
+  poor suffer most, as much of India's bottom economy is cash-based; small
+  traders, workers, and the unbanked face ID barriers, transaction costs, and
+  time losses. From a classical-liberal view, corruption arises from excessive
+  state power—government is bloated beyond protecting rights, enabling
+  rent-seeking. Black money thrives because people evade a parasitic state; the
+  cash economy is productive unlike government. Modi betrays his 'Minimum
+  Government, Maximum Governance' rhetoric by expanding state size and taxes,
+  revealing a top-down 'fatal conceit' akin to Nehru and Indira Gandhi, ignoring
+  Hayek's lessons on knowledge limits and unintended consequences that may
+  alienate voters by 2019.
+key_points:
+  - >-
+    Demonetisation provides only a temporary reboot for black money, as new
+    higher-denomination notes enable quick resumption and black markets profit
+    exchangers.
+  - >-
+    The poor in India's cash-dependent economy bear the brunt, facing ID
+    requirements, transaction costs, and time losses to convert notes.
+  - >-
+    Corruption and black money stem from oversized government power; classical
+    liberals advocate slashing state size to legitimate functions like rights
+    protection.
+  - >-
+    Modi's top-down approach embodies Hayek's 'fatal conceit,' overestimating
+    central knowledge despite his anti-statist campaign rhetoric.
+topics:
+  - demonetisation
+  - black-money
+  - limited-government
+  - fatal-conceit
 tags:
   - Modi
   - New Currency
   - Demonetisation
   - Economics
+source_hash: 6a08473132281d4724d5c4d67a1325ea7ceddae51f5bc86d17b51f1f5b2c627d
+summary_hash: 6a08473132281d4724d5c4d67a1325ea7ceddae51f5bc86d17b51f1f5b2c627d
+summary_at: '2026-05-05T10:55:53.826Z'
 ---
 **By Amit Varma**
 

@@ -1,18 +1,61 @@
 ---
 title: How Trophy Hunting Saved the Markhor
 original_url: 'https://www.spontaneousorder.in/p/how-trophy-hunting-saved-the-markhor'
+author: Spontaneous Order
 published_at: '2021-06-14T12:13:49.000Z'
 ingested_at: '2026-05-05T08:31:42.312Z'
-source_hash: 789d6faf8991508939f8c49a1b2020c5deeb5aeebef40c9597ae3cc9674325e7
-author: Spontaneous Order
 excerpt: >-
   Wildlife conservation is a crucial aspect of managing ecosystems that are
   threatened by the expansion of detrimental activities. However in the
   discourse surrounding ‘human-wildlife’ conflict, some significant
   considerations on conservation vis-a-vis
+summary: >-
+  State-controlled wildlife conservation alienates local communities by
+  extinguishing their customary rights and economic ties to nature, leading to
+  human-wildlife conflict, as seen in the Markhor's case across South Asia. In
+  Pakistan's Gilgit-Baltistan, regulated trophy hunting since the 1990s reversed
+  the Markhor's decline from critically endangered to near threatened on the
+  IUCN Red List. Two initial community reserves expanded to 38 areas; 80% of
+  permit revenues—up to $60,000 USD each—go to communities, funding
+  anti-poaching guards, roads, schools, and hospitals, while shifting locals
+  from poaching for food to active conservation. This market-driven incentive
+  structure prospered impoverished communities amid high unemployment.
+  Conversely, India's Jammu & Kashmir employs a 'guns and guards' approach under
+  the 1978 Wildlife Protection Act, cordoning habitats and criminalizing
+  activity, yielding mixed results: stable or declining populations like in
+  Hirapora due to overgrazing by nomadic herders without incentives. Pasture
+  schemes and awareness failed sans economic benefits. The author, from a
+  classical-liberal viewpoint, urges India to emulate Pakistan by restructuring
+  incentives, harnessing markets to fund conservation without state burden,
+  rejecting zero-sum human-wildlife views and prioritizing community rights over
+  ethical qualms about trophy hunting absent better alternatives.
+key_points:
+  - >-
+    Regulated trophy hunting in Pakistan's Gilgit-Baltistan allocated 80% of
+    revenues to communities, boosting Markhor numbers from critically endangered
+    to near threatened.
+  - >-
+    Pakistan's model created 38 community reserves where locals fund
+    anti-poaching and infrastructure, transforming communities into conservation
+    advocates.
+  - >-
+    India's 'guns and guards' approach in Jammu & Kashmir failed to curb
+    poaching and overgrazing due to lacking economic incentives for locals like
+    Gujjars.
+  - >-
+    Aligning market incentives makes conservation profitable for communities,
+    reducing state funding needs and avoiding zero-sum conflicts.
+topics:
+  - wildlife-conservation
+  - trophy-hunting
+  - community-incentives
+  - property-rights
 tags:
   - Environment and Policy
   - environment
+source_hash: 789d6faf8991508939f8c49a1b2020c5deeb5aeebef40c9597ae3cc9674325e7
+summary_hash: 789d6faf8991508939f8c49a1b2020c5deeb5aeebef40c9597ae3cc9674325e7
+summary_at: '2026-05-05T10:13:46.223Z'
 ---
 **By Mohammad Anas Khan**
 

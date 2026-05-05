@@ -2,15 +2,57 @@
 title: Steel Sector in India is better off without PSUs
 original_url: >-
   https://www.spontaneousorder.in/p/steel-sector-in-india-is-better-off-without-psus
+author: Spontaneous Order
 published_at: '2024-06-20T18:45:05.000Z'
 ingested_at: '2026-05-05T08:31:42.716Z'
-source_hash: 5c909e3945b814855342b62a1a88a055faa9dc61b869797c9b12d1ea47909d5b
-author: Spontaneous Order
 excerpt: >-
   This article examines the critical role of steel in India’s industrial
   economy, highlighting the inefficiencies of public sector undertakings (PSUs)
   compared to private companies, and advocating for privatization to enhance
   productivity and innovation i
+summary: >-
+  India's steel sector, vital for industrial growth, lags globally with just
+  6.6% of 2022's 1,885 million tonnes world production versus China's 54%,
+  hampered by underperforming public sector undertakings (PSUs) like SAIL, which
+  produced 18 MT domestically with over 50,000 employees, compared to private
+  JSW Steel's 27.7 MT with 15,000 employees and Tata Steel's 21.6 MT. PSUs
+  struggle with steel's high capital intensity (Rs 7,000 crore per MT capacity)
+  and demand volatility tied to business cycles, which private firms manage
+  better via efficient funding and flexibility. State enterprises lack
+  competition, stagnating innovation and upgrades—Tata has modernized while PSUs
+  depend on foreign tech and face purchase guarantees that erode quality
+  incentives. CAG reports highlight accountability deficits in PSUs. Steel
+  contributes 2.5% to GDP and employs 2.5 million, so PSU inefficiencies burden
+  downstream sectors like real estate and autos. Drawing on Hayek's insight into
+  dispersed knowledge, the author argues bureaucratic centralization in PSUs
+  prevents efficient coordination, while private incentives excel. Privatizing
+  steel PSUs would spur competition, innovation, and resource reallocation to
+  superior producers, boosting overall sector performance from a
+  classical-liberal viewpoint.
+key_points:
+  - >-
+    India's PSUs like SAIL underperform private peers like JSW and Tata Steel in
+    output per employee and global presence.
+  - >-
+    Steel production faces high capital intensity and volatility, which private
+    firms handle better than state-funded PSUs.
+  - >-
+    PSUs suffer from stagnant innovation due to lack of competition and purchase
+    guarantees, plus accountability lapses per CAG reports.
+  - >-
+    Privatizing steel PSUs aligns with Hayek's dispersed knowledge principle,
+    enabling better market coordination and efficiency.
+  - >-
+    Steel sector's 2.5% GDP share and 2.5 million jobs make PSU reform essential
+    to reduce downstream economic costs.
+topics:
+  - steel-industry
+  - psu-privatization
+  - economic-liberalization
+  - industrial-policy
+source_hash: 5c909e3945b814855342b62a1a88a055faa9dc61b869797c9b12d1ea47909d5b
+summary_hash: 5c909e3945b814855342b62a1a88a055faa9dc61b869797c9b12d1ea47909d5b
+summary_at: '2026-05-05T12:11:29.563Z'
 ---
 **By Anshu Chowdhury**
 

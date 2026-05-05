@@ -2,19 +2,60 @@
 title: 'Uncertain Lives: How Street Vendors Earn, Spend and Borrow- Part 1'
 original_url: >-
   https://www.spontaneousorder.in/p/uncertain-lives-how-street-vendors-earn-spend-and-borrow-part-1
+author: Spontaneous Order
 published_at: '2019-02-22T10:16:17.000Z'
 ingested_at: '2026-05-05T08:31:42.502Z'
-source_hash: 928edce2427ff83d57df642ce8262c37eb0f64610970762410204bd3a487f0c4
-author: Spontaneous Order
 excerpt: >-
   Mochi: Kishore Kainth Kishore Kainth, 28-years-old, is a third-generation
   cobbler. He studied until 8th grade in a government school in Harla village in
   Nawadah district of Bihar. Kishore took to the profession at age sixteen to
   support his widowed moth..
+summary: >-
+  Kishore Kainth, a 28-year-old third-generation cobbler from Bihar, migrated to
+  Delhi in 2013 after usurious moneylending at 2% monthly simple interest
+  trapped him in debt following his wife's illness; he alleges receiving only
+  ₹20,000 of a ₹35,000 loan and paying over ₹50,000 in interest without
+  principal repayment. Earning an average ₹200 daily from shoe repairs (₹8 for
+  slippers, ₹15 for shoes, ₹25 for soles) over 10-hour shifts seven days a week
+  on a free street spot he claimed after another vendor left, Kishore
+  meticulously arranges his tools—aidan, tota, pincers, and more—under a
+  makeshift plastic roof, though authorities forced removal of religious
+  pictures. Living frugally in a shared ₹600/month slum room, he sweeps his spot
+  daily, eats cheaply (eight chappatis with ₹6 channa-aloo plates, ₹4 tea),
+  avoids new clothes, sends irregular cash home via travelers for his family's
+  needs and ₹700 monthly loan interest, and maintains two prepaid phones.
+  Despite no further borrowing since 2012 and considering himself 'blessed,'
+  Kishore despairs over his sons' future, willing to do anything to escape the
+  cobbler cycle but lacking guidance. This portrait from Ananya Patel's research
+  underscores how diligent street vendors' enterprise yields meager stability
+  amid harassment, debt, and scarcity.
+key_points:
+  - >-
+    Kishore migrated to Delhi for better earnings (₹8+ per repair vs. ₹2-4 in
+    village) after moneylender exploitation left him paying ₹50,000+ interest on
+    ₹35,000 loan.
+  - >-
+    He earns ₹200 average daily from repairs and polishing, boosted by school
+    uniform demands, but much time is spent waiting for customers.
+  - >-
+    Monthly expenses are tightly controlled: ₹600 shared rent, cheap food,
+    remittances home covering family and ₹700 loan interest, with no personal
+    clothes or shoes bought in two years.
+  - >-
+    Kishore hopes to secure better opportunities for his two sons, preventing
+    them from learning the cobbler trade, but sees no path forward.
+topics:
+  - street-vendors
+  - informal-economy
+  - moneylending
+  - urban-migration
 tags:
   - Delhi Street vendors
   - livelihood
   - street vendors
+source_hash: 928edce2427ff83d57df642ce8262c37eb0f64610970762410204bd3a487f0c4
+summary_hash: 928edce2427ff83d57df642ce8262c37eb0f64610970762410204bd3a487f0c4
+summary_at: '2026-05-05T12:49:02.138Z'
 ---
 **By Ananya Patel**
 

@@ -2,17 +2,58 @@
 title: Laws alone are insufficient to tackle gender-based violence
 original_url: >-
   https://www.spontaneousorder.in/p/laws-alone-are-insufficient-to-tackle-gender-based-violence
+author: Spontaneous Order
 published_at: '2021-01-15T12:15:17.000Z'
 ingested_at: '2026-05-05T08:31:42.354Z'
-source_hash: 4249ae67c76e014f33534e2ba4d0c434046936c97b81f2eac3eb7f7b41df9687
-author: Spontaneous Order
 excerpt: >-
   During the ongoing COVID19 pandemic, the World Bank referred to gender-based
   violence as a global pandemic that affects 1 out of 3 women in their lifetime.
   Yet, this invisible pandemic is not novel and it is ever-present in our
   society, the consequences..
+summary: >-
+  Laws alone cannot eradicate gender-based violence, as patriarchal norms are
+  deeply internalized by young girls in Delhi's unauthorized colonies, leading
+  them to accept school dropout after ninth grade due to puberty-related
+  'safety' concerns and domestic roles, confessing marriage as their only future
+  milestone. World Bank data highlights 1 in 3 women face lifetime GBV, yet
+  girls lack even mobile phones to access helplines, underscoring cultural
+  barriers beyond legal fixes. From a classical-liberal lens, government lacks
+  cultural reach; flexible civil society NGOs like Shakti Shalini excel via
+  community outreach in six Southeast Delhi localities, sensitizing men and
+  women, imparting skills for autonomy, and prioritizing agency in line with
+  feminist empowerment focusing on awareness, self-reliance, and
+  decision-making. Unlike bureaucratic government shelters—obsessed with rescue
+  stats, offering band-aid rehab with poor facilities, rigid hierarchies
+  stifling innovation—Shakti Shalini provides family-like environments,
+  unlimited rehab timelines, and staff autonomy mirroring resident empowerment.
+  Critiquing Beti Bachao Beti Padhao for spending 65-90% funds on publicity
+  since 2016 (<5% on education/health), the author urges government-NGO
+  collaboration preserving NGOs' non-legalistic agility to unlearn patriarchy,
+  unleashing women's potential for Atmanirbhar Bharat self-reliance.
+key_points:
+  - >-
+    Laws fail against internalized patriarchal norms causing girls' school
+    dropout and submissiveness in Delhi slums.
+  - >-
+    NGOs like Shakti Shalini outperform government via flexible outreach,
+    skill-building, and autonomy-respecting culture, unlike stats-driven, rigid
+    state shelters.
+  - >-
+    Government schemes like Beti Bachao Beti Padhao waste 65-90% funds on ads,
+    neglecting actual interventions.
+  - >-
+    Classical-liberal solution: government partner with civil society to
+    culturally shift norms for women's agency and national self-reliance.
+topics:
+  - gender-based-violence
+  - ngo-collaboration
+  - women-empowerment
+  - patriarchy
 tags:
   - Gender Equality
+source_hash: 4249ae67c76e014f33534e2ba4d0c434046936c97b81f2eac3eb7f7b41df9687
+summary_hash: 4249ae67c76e014f33534e2ba4d0c434046936c97b81f2eac3eb7f7b41df9687
+summary_at: '2026-05-05T10:39:37.708Z'
 ---
 **By Upasha Kumari**
 

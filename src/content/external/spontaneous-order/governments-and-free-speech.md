@@ -1,15 +1,36 @@
 ---
 title: Governments and free speech
 original_url: 'https://www.spontaneousorder.in/p/governments-and-free-speech'
+author: Spontaneous Order
 published_at: '2005-05-11T21:31:11.000Z'
 ingested_at: '2026-05-05T08:31:42.685Z'
-source_hash: addfb864b6410fc2bfb6d5fb53906e0e3096b79067a10b080b4e85748a52ceca
-author: Spontaneous Order
 excerpt: >-
   Should/ Can a government of a particular country initiate action against a
   newspaper of another country, as in the case of this? Pakistan is likely to
   take legal actions against Washington Times for this cartoon. Read about it
   here.
+summary: >-
+  This brief post questions whether a government should or can initiate legal
+  action against a newspaper in another country for publishing an offensive
+  cartoon, citing Pakistan's reported intent in 2005 to take action against the
+  Washington Times over a specific cartoon. From a classical-liberal viewpoint,
+  it implicitly challenges cross-border censorship by governments, highlighting
+  tensions between national sovereignty and free speech principles. No detailed
+  argument or conclusion is developed; it serves as a provocative query with an
+  archived link and image.
+key_points:
+  - >-
+    Pakistan planned legal action against the US-based Washington Times for a
+    2005 cartoon.
+  - >-
+    The post asks if governments can or should target foreign newspapers over
+    offensive content.
+topics:
+  - free-speech
+  - press-freedom
+source_hash: addfb864b6410fc2bfb6d5fb53906e0e3096b79067a10b080b4e85748a52ceca
+summary_hash: addfb864b6410fc2bfb6d5fb53906e0e3096b79067a10b080b4e85748a52ceca
+summary_at: '2026-05-05T10:05:54.881Z'
 ---
 **By Naveen Mandava**
 

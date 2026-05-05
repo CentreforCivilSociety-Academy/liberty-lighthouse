@@ -2,15 +2,48 @@
 title: 'Relief Package is Peanuts, India Needs to Triple it'
 original_url: >-
   https://www.spontaneousorder.in/p/relief-package-is-peanuts-india-needs-to-triple-it
+author: Spontaneous Order
 published_at: '2020-04-06T16:33:22.000Z'
 ingested_at: '2026-05-05T08:31:42.430Z'
-source_hash: 48a38a622c85d44a26c6d889bf6c0b538060c335868c60a03571d2e16d00b7b2
-author: Spontaneous Order
 excerpt: >-
   Swaminathan S. Anklesaria Aiyar is currently Consulting Editor of The
   Economics Times and a research scholar at The Cato Institute. He has been
   editor of two of India’s biggest economic dailies, Financial Express in
   1988-90 and The Economic Times in 199
+summary: >-
+  Swaminathan S.A. Aiyar criticizes India's Rs 1.7 trillion COVID-19 relief
+  package (0.8% of GDP) as peanuts, noting much is ongoing welfare with new
+  stimulus under 0.5% GDP, far below the US's $2 trillion (10% GDP) package
+  under right-wing President Trump, which includes $1,200 direct cheques to low
+  earners and more to come. India must triple its package immediately—at least
+  matching the 3% GDP drop from government-imposed lockdowns—and potentially
+  fivefold if the crisis lasts six to nine months, still only 5% GDP. This
+  unorthodox mega-stimulus should be financed entirely by RBI money printing,
+  not bank debt, as a one-off with sunset clause to avoid permanent expansion
+  like PM-Kisan or UBI, allowing return to fiscal prudence amid India's high
+  debt. Specifics include tripling Rs 500 monthly Jan Dhan transfers, $130
+  billion-style aid for hospitals (India's tests cost Rs 4,500), state support,
+  near-free testing, and ID-free kitchens in schools and panchayats for
+  migrants. Lockdowns in crowded India may fail, risking 7.5 million deaths for
+  herd immunity, demanding bold action over fiscal orthodoxy in this
+  government-induced recession.
+key_points:
+  - >-
+    India's Rs 1.7 trillion relief (0.8% GDP) is inadequate versus US $2
+    trillion (10% GDP); triple it to at least 2.4% GDP now and fivefold later if
+    needed.
+  - >-
+    Finance the mega-stimulus solely via RBI money printing as a temporary,
+    sunset-claus-ed measure, not via banks or ongoing programs.
+  - >-
+    Direct more cash to needy via Jan Dhan accounts, massively fund free/cheap
+    testing (currently Rs 4,500), hospitals, states, and open ID-free kitchens
+    for migrants.
+topics:
+  - fiscal-stimulus
+  - covid-19-relief
+  - monetary-financing
+  - cash-transfers
 tags:
   - financial crisis
   - GDP
@@ -18,6 +51,9 @@ tags:
   - disaster management and relief
   - pandemic
   - economic repression
+source_hash: 48a38a622c85d44a26c6d889bf6c0b538060c335868c60a03571d2e16d00b7b2
+summary_hash: 48a38a622c85d44a26c6d889bf6c0b538060c335868c60a03571d2e16d00b7b2
+summary_at: '2026-05-05T11:25:21.704Z'
 ---
 **By Swaminathan SA Aiyer**
 

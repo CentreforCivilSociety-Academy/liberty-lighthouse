@@ -2,15 +2,51 @@
 title: 'Cho Ramaswamy: India’s classical satirist and liberal, 1934-2016'
 original_url: >-
   https://www.spontaneousorder.in/p/cho-ramaswamy-indias-classical-satirist-and-liberal-1934-2016
+author: Spontaneous Order
 published_at: '2020-06-08T18:18:18.000Z'
 ingested_at: '2026-05-05T08:31:42.412Z'
-source_hash: 8d04ce23645db76b2cc78aeb33f68c003ac0ee782ef3d5034ebbc8a5d7fdb60e
-author: Spontaneous Order
 excerpt: >-
   During the nineteenth and the first half of the twentieth century, Madras, now
   Chennai, was the playground of conservative and liberal scholars, reformers
   and politicians. The Madras Liberal League moderates had played an active role
   in the freedom mov...
+summary: >-
+  The post laments the decline of Madras's liberal tradition post-1947,
+  overshadowed by Fabian socialism, Communism, and Dravidian politics rooted in
+  hate speeches rather than constitutional principles. Amid this, Cho Ramaswamy
+  (1934-2016) emerged as a multifaceted classical liberal: lawyer, journalist,
+  satirist, orator, and Rajya Sabha MP (1999-2005). Born in Madras, educated
+  locally, he practiced law until 1978, then launched the satirical play
+  Muhammad bin Tughlaq (1968) and magazine Thuglak (1970), using humor,
+  evidence-based editorials, and reader interactions to critique Indira Gandhi's
+  socialist dictatorship, Emergency authoritarianism, Soviet central planning,
+  pseudo-secularism, and LTTE threats. Inspired by C. Rajagopalachari, Cho
+  campaigned for Swatantra and Janata Parties, championed 1991 economic
+  liberalization and 100% FDI in retail to employ the poor, and upheld
+  individual liberty, private property, free enterprise, rule of law, and free
+  speech. His quip, 'After Independence, we lost sight of our duties and
+  remembered only our rights,' endures. Despite leftist critics, Cho's
+  conservative liberalism defended national interest, religion, culture, and
+  democratic discourse through wit and reason.
+key_points:
+  - >-
+    Cho Ramaswamy critiqued socialism and Dravidian politics via his 1968 play
+    Muhammad bin Tughlaq and 1970 magazine Thuglak, blending satire with
+    evidence-based analysis.
+  - >-
+    He supported 1991 economic liberalization and 100% FDI in retail, arguing
+    capitalism employs the poor profitably.
+  - >-
+    Cho opposed Communism as against human nature, fought Emergency censorship,
+    and warned against LTTE threats.
+  - >-
+    As a Rajya Sabha MP and PUCL president, he defended free speech, rule of
+    law, and constitutional liberalism.
+topics:
+  - classical-liberalism
+  - political-satire
+  - economic-freedom
+  - free-speech
 tags:
   - Indian Civil Society
   - Liberalism in India
@@ -20,6 +56,9 @@ tags:
   - Capitalism
   - Indian Liberal Archives
   - Liberal Politics
+source_hash: 8d04ce23645db76b2cc78aeb33f68c003ac0ee782ef3d5034ebbc8a5d7fdb60e
+summary_hash: 8d04ce23645db76b2cc78aeb33f68c003ac0ee782ef3d5034ebbc8a5d7fdb60e
+summary_at: '2026-05-05T09:21:03.906Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

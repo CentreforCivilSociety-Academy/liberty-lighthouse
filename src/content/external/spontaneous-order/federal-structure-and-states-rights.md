@@ -1,19 +1,59 @@
 ---
 title: Federal Structure and States’ Rights
 original_url: 'https://www.spontaneousorder.in/p/federal-structure-and-states-rights'
+author: Spontaneous Order
 published_at: '2018-08-02T09:50:01.000Z'
 ingested_at: '2026-05-05T08:31:42.537Z'
-source_hash: c9bd04e51af6d81104d0a1e6ae99570e2ae9c98235a0031e8ab242fd7c3bfb1c
-author: Spontaneous Order
 excerpt: >-
   The subject of the Federal Structure and States’ Rights is one in which my
   interest dates back to my membership of the Constituent Assembly and its
   Committees. As it happens, I was a member of the Committee appointed on 24th
   January, 1947, on a motion b
+summary: >-
+  Minoo Masani, drawing from his experience in the 1947 Union Powers Committee,
+  critiques the erosion of India's federal structure through central overreach.
+  He opposed Jawaharlal Nehru's push to place 'Economic and Social Planning' in
+  the Union or Concurrent List—ultimately Concurrent—favoring a decentralized,
+  Gandhian economy over Soviet-style planning. Parliament's 1951 Industries
+  (Development and Regulation) Act exploited Union List provisions to control
+  industries originally in the States List, with the Centre now dominating 93%
+  of undertakings with fixed capital over Rs. 2.5 million by output value,
+  including trivial items like razor blades and soaps. Central ministries for
+  state subjects like education, agriculture, and industry have reduced states
+  to 'glorified Municipalities.' All India Radio's departmental control
+  exemplifies media centralization; Masani supports the Chanda Committee's call
+  for autonomous corporations akin to the BBC. He advocates reforming the
+  Planning Commission into an independent advisory statutory body coordinating
+  state-initiated plans. India's diversity demands genuine federalism—tighter
+  than in the US or Australia but undermined by Delhi's power concentration,
+  risking authoritarianism and alienations in states like Kashmir and Tamil
+  Nadu. No constitutional amendments needed; adhere to conventions via
+  consultation and non-partisan Centre-State relations.
+key_points:
+  - >-
+    Central overreach via the 1951 Industries Act shifted industry control from
+    States to Union List, dominating 93% of large industries by output.
+  - >-
+    Place planning in States List or reform Planning Commission as advisory body
+    with state-led multi-tier planning.
+  - >-
+    Autonomize radio and TV under statutory corporations like BBC to escape
+    Centre's dominance.
+  - >-
+    Strengthen federalism through constitutional conventions, continuous state
+    consultation, and Centre avoiding partisanship, without amendments.
+topics:
+  - indian-federalism
+  - states-rights
+  - economic-planning
+  - centralization
 tags:
   - Minoo Masani
   - Indian liberals
   - Liberalism
+source_hash: c9bd04e51af6d81104d0a1e6ae99570e2ae9c98235a0031e8ab242fd7c3bfb1c
+summary_hash: c9bd04e51af6d81104d0a1e6ae99570e2ae9c98235a0031e8ab242fd7c3bfb1c
+summary_at: '2026-05-05T09:53:47.977Z'
 ---
 **By Spontaneous Order**
 

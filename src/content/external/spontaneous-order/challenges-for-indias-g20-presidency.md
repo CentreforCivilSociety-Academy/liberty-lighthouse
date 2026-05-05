@@ -1,15 +1,57 @@
 ---
 title: Challenges for India’s G20 Presidency
 original_url: 'https://www.spontaneousorder.in/p/challenges-for-indias-g20-presidency'
+author: Spontaneous Order
 published_at: '2023-01-03T19:29:04.000Z'
 ingested_at: '2026-05-05T08:31:42.251Z'
-source_hash: 886763cad072d9a2e929e4f298c5d5f2566da715f27882e2f32d184a2fee2129
-author: Spontaneous Order
 excerpt: >-
   The official announcement for India’s G20 presidency reads, ‘India’s G20
   Presidency will work to promote this universal sense of one-ness. Hence our
   theme – One Earth, One Family, One Future.’ The theme of one-ness and India’s
   stint to chair t
+summary: >-
+  India's G20 Presidency for 2023, themed 'One Earth, One Family, One Future,'
+  arrives amid global challenges like post-pandemic recovery and the
+  Ukraine-Russia war, offering a chance to amplify the Global South's voice in a
+  forum representing over 80% of global GDP, 75% of trade, and 60% of
+  population. The author outlines four key priorities: first, consulting Global
+  South partners—inviting guests like Nigeria (India's top African trade
+  partner), Oman (bilateral trade up 82% to $9.94 billion in 2021-22), and
+  others—to ensure their representation, including engaging China, the
+  second-largest economy. Second, promoting sustainable lifestyles via India's
+  traditions, leveraging its third global ranking in renewable energy additions
+  and initiatives like Mission LiFE (P3: Pro-Planet People). Third,
+  depoliticizing global supplies of food, fertilizers, and medical products to
+  avert humanitarian crises, building on India's vaccine and wheat diplomacy
+  despite export ban criticisms. Fourth, fostering honest discussions on weapons
+  of mass destruction, cybersecurity, AI, and terrorism to enhance global
+  security. As part of the Troika, India must navigate geopolitical tensions,
+  declining multilateral zeal, and scrutiny over ties like increased Russian
+  exports, positioning itself as an emerging leader while balancing interests
+  and intent.
+key_points:
+  - >-
+    India invites Global South guests like Nigeria and Oman to amplify
+    underrepresented voices in G20 deliberations.
+  - >-
+    India pushes sustainable lifestyles through Mission LiFE and invites
+    organizations like the International Solar Alliance to advocate climate
+    justice without burdening developing nations.
+  - >-
+    India seeks to depoliticize food, fertilizer, and medical supplies to
+    prevent geopolitical tensions from causing humanitarian crises.
+  - >-
+    India aims to initiate honest conversations on mitigating WMD risks,
+    cybersecurity, AI, and terrorism among G20 powers.
+topics:
+  - g20-presidency
+  - global-south
+  - sustainable-development
+  - food-security
+  - global-security
+source_hash: 886763cad072d9a2e929e4f298c5d5f2566da715f27882e2f32d184a2fee2129
+summary_hash: 886763cad072d9a2e929e4f298c5d5f2566da715f27882e2f32d184a2fee2129
+summary_at: '2026-05-05T09:20:14.647Z'
 ---
 **By Anushka Das Sharma**
 

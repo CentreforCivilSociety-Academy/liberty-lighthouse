@@ -4,15 +4,52 @@ title: >-
   vendors
 original_url: >-
   https://www.spontaneousorder.in/p/precarious-livelihoods-the-case-for-direct-benefit-transfer-to-street-vendor
+author: Spontaneous Order
 published_at: '2021-06-25T18:07:13.000Z'
 ingested_at: '2026-05-05T08:31:42.310Z'
-source_hash: a13addcf8806bbdb2dc2595de552547a36e3ca4c09ba0325bc1377d50030db4b
-author: Spontaneous Order
 excerpt: >-
   Without the luxury of working from home, street vendors and hawkers, who could
   often be seen selling on the street corners, footpaths and local markets, have
   been struggling to survive. While the first wave hit them hard, there was a
   glimmer of hope tow..
+summary: >-
+  Street vendors, comprising 4.2% of urban employment and 14% of India's urban
+  informal economy with a daily turnover of Rs 80 crore, have faced severe
+  livelihood threats from the COVID-19 pandemic, exacerbated by harassment,
+  evictions, and lockdowns. Despite legal recognition via the 2014 Street
+  Vendors Act establishing Town Vending Committees (TVCs), implementation has
+  faltered, as seen in Delhi's 28 TVCs and Chandigarh's defunct one, failing to
+  protect vendors or improve conditions. The PM SVANidhi micro-credit scheme,
+  providing up to Rs 10,000 loans, has sanctioned 23.24 lakh and disbursed 18.54
+  lakh by March 2021, but excludes many due to app-based applications, low
+  registration (only 131,000 of 300,000 in Delhi), and a one-year repayment
+  pushing vendors into debt traps via moneylenders. Centre for Civil Society
+  conversations with women vendors in Delhi and Rajasthan highlight these
+  issues. The author advocates converting SVANidhi into an AADHAR-linked direct
+  cash transfer scheme via TVCs, easing credit constraints, enabling vendor
+  choice in usage, and ensuring universal access—mirroring successful state
+  efforts in Karnataka, Odisha, and Madhya Pradesh. This classical-liberal
+  approach would recognize vendors as entrepreneurs, enhance ease of doing
+  business, and alleviate pandemic distress without debt burdens.
+key_points:
+  - >-
+    Street vendors represent 4.2% of urban employment but legal protections
+    under the 2014 Act have failed due to poor TVC implementation and ongoing
+    harassment.
+  - >-
+    SVANidhi loans exclude many via tech barriers and registration requirements
+    while trapping others in debt amid pandemic earnings collapse.
+  - >-
+    Convert SVANidhi to AADHAR-linked direct cash transfers through TVCs to
+    provide choice, universal access, and relief without repayment pressures.
+  - >-
+    States like Karnataka, Odisha, and Madhya Pradesh have successfully
+    delivered cash aid to vendors, proving the model's viability.
+topics:
+  - street-vendors
+  - direct-benefit-transfers
+  - informal-economy
+  - pandemic-relief
 tags:
   - Town Vending Committee
   - pandemic
@@ -20,6 +57,9 @@ tags:
     Street Vendors (Protection of Livelihood and Regulation of Street Vending)
     Act
   - street vendors
+source_hash: a13addcf8806bbdb2dc2595de552547a36e3ca4c09ba0325bc1377d50030db4b
+summary_hash: a13addcf8806bbdb2dc2595de552547a36e3ca4c09ba0325bc1377d50030db4b
+summary_at: '2026-05-05T11:17:16.412Z'
 ---
 **By Swati Rao**
 

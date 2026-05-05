@@ -1,21 +1,54 @@
 ---
 title: Purna Swaraj
 original_url: 'https://www.spontaneousorder.in/p/purna-swaraj'
+author: Spontaneous Order
 published_at: '2011-11-16T15:55:45.000Z'
 ingested_at: '2026-05-05T08:31:42.628Z'
-source_hash: 7674d024a47c6d427d2e9d3e3d67604d9ff963b64c9f68bddefb2001f1ad53f5
-author: Spontaneous Order
 excerpt: >-
   I recently read, for the first time, the Declaration of Purna Swaraj. I was
   impressed, but I was also surprised. The ideals expressed in Lahore in 1929
   seem a world away from the reality of India today. The Declaration of Puma
   Swaraj is a strong, clea...
+summary: >-
+  Julie Gilstrap praises the 1929 Declaration of Purna Swaraj from Lahore for
+  its bold assertion of Indians' inalienable rights to freedom, the fruits of
+  their toil, and opportunities for growth, while condemning British
+  exploitation through unfair taxation, destruction of village industries,
+  currency manipulation, trade barriers, poor education, and disempowerment. She
+  highlights its confident tone, emphasizing self-reliance through toil rather
+  than entitlements, and its plan for peaceful civil disobedience to achieve
+  complete independence. Contrasting this with 2011 India, Gilstrap notes that
+  while British rule ended, similar grievances persist due to a corrupt domestic
+  'license raj' that hinders livelihoods. From a classical-liberal viewpoint,
+  she argues India already has democratic mechanisms for change, but the
+  government must recommit to Purna Swaraj's principles by prioritizing freedom
+  for all—from businessmen to street vendors—and removing interference in
+  citizens' lives to enable work and enjoyment of labor's rewards.
+key_points:
+  - >-
+    The Declaration of Purna Swaraj asserts Indians' rights to freedom, fruits
+    of toil, and growth opportunities, justifying severance from exploitative
+    British rule.
+  - >-
+    British policies ruined India's economy, villages, trade, education, and
+    spirit; today's license raj replicates these domestic harms.
+  - >-
+    India needs no new struggle but government action to minimize interference
+    and maximize individual freedom in earning livelihoods.
+topics:
+  - purna-swaraj
+  - economic-freedom
+  - license-raj
+  - government-overreach
 tags:
   - British Raj
   - Purna Swaraj
   - complete independence
   - Independent India
   - license raj
+source_hash: 7674d024a47c6d427d2e9d3e3d67604d9ff963b64c9f68bddefb2001f1ad53f5
+summary_hash: 7674d024a47c6d427d2e9d3e3d67604d9ff963b64c9f68bddefb2001f1ad53f5
+summary_at: '2026-05-05T11:20:48.804Z'
 ---
 **By Julie Gilstrap**
 

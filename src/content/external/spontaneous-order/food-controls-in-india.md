@@ -1,14 +1,51 @@
 ---
 title: 'Food Controls in India: Vestiges of Second World War'
 original_url: 'https://www.spontaneousorder.in/p/food-controls-in-india'
+author: Spontaneous Order
 published_at: '2020-08-10T12:45:14.000Z'
 ingested_at: '2026-05-05T08:31:42.388Z'
-source_hash: 354f0df2c6a2a2e2b5e42288aea97b94a5bc479277559b6c941c9edf8a58905f
-author: Spontaneous Order
 excerpt: >-
   India attained freedom from British rule on 15 August 1947 but hardly from
   British rules and regulations. Many restrictions, imposed during world war 2,
   by the British government continue to govern independent and war-free India.
+summary: >-
+  India continues to be governed by WWII-era food controls inherited from
+  British rule, such as the Essential Supplies (Temporary Powers) Act, 1946,
+  which evolved into the Essential Commodities Act (ECA), 1955, and state-level
+  Agricultural Produce Markets Committee Acts. These measures, prompted by the
+  1943 Bengal Famine that killed 3 million and wartime scarcity fears, restrict
+  the sale, purchase, movement, storage, and pricing of food grains, vilifying
+  private stockists as hoarders. A 1948 case saw Bombay halwai Hiralal Manilal
+  imprisoned for six months and fined Rs 1000 for possessing 48 kg extra rice
+  and 219 kg wheat (claimed as corn flour). Brief decontrol in Madras in 1952
+  under C. Rajagopalachari led to falling prices, prompting other states to
+  follow by 1954, ending rationing and subsidies. However, reimposed controls
+  persist; in 2019, 76,000 raids occurred under ECA, convicting 2,900
+  individuals. The Economic Survey 2019-20 highlights ECA's failure to stabilize
+  prices and its disincentive to private storage vital for seasonal agriculture.
+  The 2020 ordinance allows controls only on 100% price rises for perishables or
+  50% for non-perishables, but from a classical-liberal view, such powers
+  inhibit investment and agricultural growth. Gandhi and Rajagopalachari opposed
+  controls morally and practically; India would thrive without ECA, as scarcity
+  fears from war and socialism endure despite prosperity.
+key_points:
+  - >-
+    WWII-era food controls like the ECA 1955 persist in India, restricting grain
+    trade and punishing private storage despite no wartime scarcity.
+  - >-
+    1952 decontrol in Madras caused prices to fall, leading six other states to
+    end rationing by 1954.
+  - >-
+    ECA raids in 2019 targeted 76,000 entities, convicting 2,900, yet failed to
+    stabilize prices or encourage private storage.
+  - >-
+    Economic Survey recommends abolishing ECA to foster market investment and
+    agricultural growth in a food-sufficient India.
+topics:
+  - essential-commodities-act
+  - food-controls
+  - agricultural-markets
+  - market-liberalization
 tags:
   - Regulation
   - food
@@ -19,6 +56,9 @@ tags:
   - Agricultural Produce Market Committee (APMC) Act
   - Food Policy India
   - Agriculture policy
+source_hash: 354f0df2c6a2a2e2b5e42288aea97b94a5bc479277559b6c941c9edf8a58905f
+summary_hash: 354f0df2c6a2a2e2b5e42288aea97b94a5bc479277559b6c941c9edf8a58905f
+summary_at: '2026-05-05T09:55:19.480Z'
 ---
 **By Ritika Shah**
 

@@ -2,18 +2,54 @@
 title: Caste barriers still play a big role in our economic choices
 original_url: >-
   https://www.spontaneousorder.in/p/caste-barriers-still-play-a-big-role-in-our-economic-choices
+author: Spontaneous Order
 published_at: '2021-06-18T12:13:29.000Z'
 ingested_at: '2026-05-05T08:31:42.312Z'
-source_hash: d8ca1a22b30faab40f8b0aeec812ca1f75e690173fce60dead0fbf582e58f1c2
-author: Spontaneous Order
 excerpt: >-
   The lively office book club will later this month discuss a searing essay
   writer by B.R. Ambedkar. That gave me a welcome reason to once again read
   Annihilation Of Caste, which was published after a scheduled speech by
   Ambedkar in Lahore was cancelled b..
+summary: >-
+  Niranjan Rajadhyaksha revives B.R. Ambedkar's insight from 'Annihilation of
+  Caste' that India's caste system imposes a rigid hierarchy of labourers, not
+  merely a division of labour, stifling economic freedom. A field experiment by
+  Suanna Oh in rural Odisha confirms this: workers forgo substantial
+  income—nearly half rejecting offers at 10 times their daily wage—to avoid
+  'identity tasks' linked to other castes or joint work with lower castes.
+  Despite post-independence convergence in education, income, occupations, and
+  consumption across castes, as noted by Kaivan Munshi, wide gaps persist,
+  particularly in education between Dalits/Tribals and upper castes. Munshi
+  highlights strong intergenerational human capital persistence, projecting many
+  generations before equalization, while caste networks provide insurance
+  against shocks but deter urban migration and lock farmers to land. Examples of
+  caste mobility exist, like agricultural castes entering business and
+  affirmative action's role, yet caste remains a central barrier in economic
+  choices, from rural labour to urban industries like real estate and diamond
+  trading. The classical-liberal lens underscores how such social hierarchies
+  distort voluntary economic exchange and mobility.
+key_points:
+  - >-
+    Caste identity leads rural Odisha workers to forgo 10 times their daily wage
+    to avoid tasks associated with other castes.
+  - >-
+    National data shows post-independence convergence in education, income, and
+    occupations across castes, but education gaps between Dalits/Tribals and
+    upper castes persist.
+  - >-
+    Caste networks offer insurance and aid migration but hinder broader urban
+    mobility and intergenerational economic equalization.
+topics:
+  - caste-system
+  - economic-mobility
+  - labour-markets
+  - affirmative-action
 tags:
   - caste
   - economic freedom
+source_hash: d8ca1a22b30faab40f8b0aeec812ca1f75e690173fce60dead0fbf582e58f1c2
+summary_hash: d8ca1a22b30faab40f8b0aeec812ca1f75e690173fce60dead0fbf582e58f1c2
+summary_at: '2026-05-05T09:16:57.370Z'
 ---
 **By Niranjan Rajadhyaksha**
 

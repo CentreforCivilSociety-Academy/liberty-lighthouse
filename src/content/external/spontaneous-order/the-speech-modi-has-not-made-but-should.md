@@ -1,15 +1,53 @@
 ---
 title: The Speech Modi Has Not Made But Should
 original_url: 'https://www.spontaneousorder.in/p/the-speech-modi-has-not-made-but-should'
+author: Spontaneous Order
 published_at: '2020-05-18T18:29:34.000Z'
 ingested_at: '2026-05-05T08:31:42.417Z'
-source_hash: 97b5e09d7bb29112ce24361ddbaf8688b3d2b4339161ae89d1d3a229b4442939
-author: Spontaneous Order
 excerpt: >-
   Beloved brothers and sisters, We have been struck by the worst tragedy since
   Independence. We shall overcome, with courage and resilience. But we must also
   change course in light of experience. Colleagues and experts advised me to
   announce a Rs 20 lakh ..
+summary: >-
+  In a fictional speech for PM Modi, Swaminathan SA Aiyer urges rejecting
+  advisors' timid Rs 20 lakh crore package—mere spin or expansions of existing
+  schemes that won't prevent bank bad debts doubling—and instead boldly
+  expanding the fiscal deficit by 5% of GDP, financed by RBI money printing,
+  defying rating agencies amid peers' worse finances. Lockdowns, not COVID,
+  ravage India: under 3,000 COVID deaths versus 80,000 in the USA, 450,000
+  annual TB deaths, and 10 million total yearly deaths, with India's low
+  fatality possibly from crowded living, other diseases, heat, or pollution
+  granting resistance. The cure exceeds the disease, imposing massive misery on
+  enterprises and livelihoods while red zones expand from 130 to 180 districts
+  covering two-thirds of GDP. Critics' claims of bigger stimuli elsewhere
+  mislead as those economies crash regardless. True stimulus demands phasing out
+  lockdowns for economic boom, shifting to massive testing, tracing, and
+  isolation despite challenges in crowded conditions. Like HIV or influenza,
+  COVID may require living with it sans perfect vaccine, prioritizing growth
+  over panicky over-reaction from classical-liberal lens valuing resilience over
+  state-imposed shutdowns.
+key_points:
+  - >-
+    Reject small fiscal packages and expand deficit by 5% of GDP via RBI
+    printing to aid needy without fearing rating downgrades.
+  - >-
+    End draconian lockdowns causing more economic and livelihood deaths than
+    COVID's modest under 3,000 fatalities.
+  - >-
+    Shift policy from flawed lockdowns to massive testing, tracing, and
+    isolation for better-targeted containment.
+  - >-
+    Reopen economy fully as the only sustainable stimulus, learning to live with
+    COVID like TB or influenza.
+  - >-
+    Ignore misleading comparisons of other countries' stimuli amid crashing
+    GDPs; prioritize revival over prolonged shutdowns.
+topics:
+  - covid-19
+  - lockdowns
+  - fiscal-policy
+  - economic-recovery
 tags:
   - Spontaneous Order
   - Prime Minister
@@ -18,6 +56,9 @@ tags:
   - Public Health
   - Speech
   - pandemic
+source_hash: 97b5e09d7bb29112ce24361ddbaf8688b3d2b4339161ae89d1d3a229b4442939
+summary_hash: 97b5e09d7bb29112ce24361ddbaf8688b3d2b4339161ae89d1d3a229b4442939
+summary_at: '2026-05-05T12:36:28.772Z'
 ---
 **By Swaminathan SA Aiyer**
 

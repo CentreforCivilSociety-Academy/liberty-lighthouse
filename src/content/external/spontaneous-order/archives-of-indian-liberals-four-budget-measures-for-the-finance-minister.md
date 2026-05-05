@@ -4,15 +4,49 @@ title: >-
   Minister
 original_url: >-
   https://www.spontaneousorder.in/p/archives-of-indian-liberals-four-budget-measures-for-the-finance-minister
+author: Spontaneous Order
 published_at: '2019-07-04T12:59:57.000Z'
 ingested_at: '2026-05-05T08:31:42.481Z'
-source_hash: 3d6fe29f14b388dcd7face128b94425ed4138e2dcc298984a066893be220ad76
-author: Spontaneous Order
 excerpt: >-
   As the new Finance Minister, Ms Nirmala Sitharaman, sets out to present her
   first budget, here’s a list of policy measures from the dusty archives of
   Indian Liberalism that are relevant as ever: 1. Wealth Tax The idea of
   bringing back the wealth tax is
+summary: >-
+  Sanjeet Kashyap draws from the archives of Indian liberalism to offer four
+  budget ideas for Finance Minister Nirmala Sitharaman, emphasizing critiques by
+  thinkers like A.D. Shroff and Nani Palkhivala against statist interventions.
+  First, he opposes reviving the wealth tax, introduced in the 1957 Budget on
+  assets over Rs 2 lakhs, which proved ineffective and was lambasted by Shroff
+  as a 'desperate proposal' inviting 'Police Raj'. Second, he warns against
+  fiscal stimulus via populist spending, citing Mint analysis showing it fuels
+  inflation over growth, echoing Shroff's 1959 prediction of 'runaway inflation'
+  from high plan outlays. Third, he advocates simplifying the direct tax code to
+  expand the base and ease business, as Shroff argued in 1965 that good laws
+  must be 'simple to understand and easy to administer'—a point liberals repeat
+  amid ongoing complexity. Fourth, invoking the Ibn Khaldun curve of optimal
+  taxation, he references Palkhivala's 1963 analysis praising Japan's growth via
+  tax cuts and mocking India's superprofit tax as 'Economic Harakiri Act'. The
+  post concludes that Indian liberals' historical writings remain vital for
+  prudent economic policy, urging a revisit to neglected liberal thought.
+key_points:
+  - >-
+    Reject wealth tax revival as it historically yielded low revenue and risks
+    'Police Raj', per A.D. Shroff's 1957 critique.
+  - >-
+    Avoid excessive fiscal stimulus, which leads to inflation rather than
+    growth, as evidenced by macroeconomic data and Shroff's 1959 warning.
+  - >-
+    Simplify the direct tax code to make it easy to understand and administer,
+    advancing liberal economists' longstanding reform agenda.
+  - >-
+    Lower taxes to spur growth, following Palkhivala's endorsement of Japan's
+    tax cuts and critique of India's punitive superprofit tax.
+topics:
+  - wealth-tax
+  - fiscal-stimulus
+  - tax-reform
+  - indian-liberals
 tags:
   - Ease of Doing Business in India
   - Ease of doing business
@@ -26,6 +60,9 @@ tags:
   - NDA 2.0
   - laffers curve
   - Wealth Tax
+source_hash: 3d6fe29f14b388dcd7face128b94425ed4138e2dcc298984a066893be220ad76
+summary_hash: 3d6fe29f14b388dcd7face128b94425ed4138e2dcc298984a066893be220ad76
+summary_at: '2026-05-05T08:58:34.368Z'
 ---
 **By Sanjeet Kashyap**
 

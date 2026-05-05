@@ -1,18 +1,56 @@
 ---
 title: Let’s Disconnect BSNL & MTNL
 original_url: 'https://www.spontaneousorder.in/p/bsnl-mtnl-robbing-taxpayers'
+author: Spontaneous Order
 published_at: '2019-10-25T10:30:09.000Z'
 ingested_at: '2026-05-05T08:31:42.462Z'
-source_hash: 4cb2a3636d86e6c88025b345a6efe6dc7318b42ab41f25d74a16fae79967ef8d
-author: Spontaneous Order
 excerpt: >-
   The government-owned telecom behemoths, BSNL & MTNL, are the epitome of
   inefficiency, bloated bureaucracy, and bad customer services. In addition,
   they cost the taxpayers thousands of crore rupees annually. If you don’t
   believe that, just look at the nu
+summary: >-
+  Government-owned BSNL and MTNL exemplify inefficiency, bloated bureaucracy,
+  and poor customer service, draining thousands of crores from taxpayers
+  annually while failing to deliver modern services. Airtel provides nationwide
+  4G, broadband, and landlines with under 15,000 employees, while BSNL—despite
+  nearly a dozen times more staff—has yet to roll out 4G everywhere. In the last
+  financial year, BSNL lost 8 lakh rupees per employee, MTNL lost nearly 12 lakh
+  per employee, contrasting sharply with Reliance Jio's 20 lakh+ profit per
+  employee. These state firms serve under 12 crore customers, versus over 70
+  crore for Jio and Airtel, who also offer superior speeds. Since 2007, repeated
+  bailouts have siphoned public funds, with the latest 70,000 crore package
+  costing over 12,000 rupees per direct taxpayer (5.65 crore total) or about 550
+  rupees per Indian. From a classical-liberal viewpoint, these 'sinking holes'
+  for taxpayer money prove government enterprises cannot compete with private
+  innovation and efficiency. The solution: permanently disconnect BSNL and MTNL,
+  offering employees a one-time generous VRS package to end this periodic
+  robbery.
+key_points:
+  - >-
+    BSNL and MTNL lose lakhs per employee annually while Jio and Airtel generate
+    massive profits per employee with far fewer staff.
+  - >-
+    State telecoms serve under 12 crore customers versus over 70 crore for
+    private competitors, despite government bailouts totaling thousands of
+    crores since 2007.
+  - >-
+    Latest 70,000 crore bailout equates to 12,000 rupees per income taxpayer or
+    550 rupees per Indian.
+  - >-
+    Permanently shut down BSNL and MTNL with a one-time VRS for employees to
+    stop taxpayer drain.
+topics:
+  - telecom
+  - government-inefficiency
+  - privatization
+  - taxpayer-burden
 tags:
   - Telecommunication
   - MTNL
+source_hash: 4cb2a3636d86e6c88025b345a6efe6dc7318b42ab41f25d74a16fae79967ef8d
+summary_hash: 4cb2a3636d86e6c88025b345a6efe6dc7318b42ab41f25d74a16fae79967ef8d
+summary_at: '2026-05-05T09:13:28.013Z'
 ---
 **By Sudhanshu Neema**
 

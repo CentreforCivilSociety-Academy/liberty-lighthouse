@@ -2,21 +2,62 @@
 title: Bank Privatisation is Not Necessarily the Solution
 original_url: >-
   https://www.spontaneousorder.in/p/bank-privatisation-is-not-necessarily-the-solution
+author: Spontaneous Order
 published_at: '2018-08-06T07:42:31.000Z'
 ingested_at: '2026-05-05T08:31:42.527Z'
-source_hash: e5ea16b2495a6d7574319e12215f45ea9be350e02d95d6947bde9df46d9b0502
-author: Spontaneous Order
 excerpt: >-
   A lot has been written on this topic after the PNB/Nirav Modi scandal. I
   believe strongly in the private sector and I was a part of the HDFC Bank story
   (which is the best example of what a private sector bank should be). But I am
   wary of screaming for t..
+summary: >-
+  Luis Miranda supports privatizing India's public sector banks (PSBs) but
+  cautions against doing so solely due to recent scams like PNB/Nirav Modi, as
+  private banks like ICICI, Global Trust Bank, Barings, Citibank, Bear Stearns,
+  Lehman, and Bernie Madoff have also faced scandals and failures. He argues
+  from a classical-liberal viewpoint that PSBs should be reduced from their
+  dominant 67% market share—far above the global average of 33%—because private
+  failures burden shareholders, while PSB failures impose costs on all citizens,
+  as seen in Air India's bailouts. Scholarly research shows private banks
+  deliver higher productivity and growth. However, deliberate neglect of PSBs
+  erodes their value at public expense, akin to backdoor privatization in
+  aviation. Miranda urges fixing governance first: freeing bank managements from
+  politicians and bureaucrats, improving pay and promotions, holding Finance
+  Ministry officials accountable like private owners, and ending witch hunts
+  against borrowers and efficient PSB executives. Blind privatization or jailing
+  managers ignores the core governance flaws, risking economic growth; focus
+  reforms there to enable proper privatization.
+key_points:
+  - >-
+    Private sector banks are not scam-free, citing examples like ICICI-Videocon,
+    Global Trust Bank, and global failures such as Lehman Brothers.
+  - >-
+    PSBs' 67% market share (vs. global 33%) burdens citizens with failures,
+    unlike private banks where shareholders bear losses.
+  - >-
+    Scholarly research confirms private banks achieve higher productivity and
+    growth than PSBs.
+  - >-
+    Fix PSB governance by insulating management from political interference,
+    improving pay/promotions, and holding politicians accountable before
+    privatizing.
+  - >-
+    Avoid witch hunts against PSB borrowers and managers, as many executives are
+    efficient and the problem is governance, not personnel.
+topics:
+  - bank-privatization
+  - public-sector-banks
+  - banking-governance
+  - economic-reform
 tags:
   - Bad Loans
   - banking governance
   - Public Sector Banks
   - Finance
   - Banking
+source_hash: e5ea16b2495a6d7574319e12215f45ea9be350e02d95d6947bde9df46d9b0502
+summary_hash: e5ea16b2495a6d7574319e12215f45ea9be350e02d95d6947bde9df46d9b0502
+summary_at: '2026-05-05T09:06:58.195Z'
 ---
 **By Luis Miranda**
 

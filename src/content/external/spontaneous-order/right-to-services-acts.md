@@ -1,20 +1,57 @@
 ---
 title: Right to Services Acts
 original_url: 'https://www.spontaneousorder.in/p/right-to-services-acts'
+author: Spontaneous Order
 published_at: '2011-08-31T10:45:28.000Z'
 ingested_at: '2026-05-05T08:31:42.633Z'
-source_hash: 6508c3fb79190d8a613432c93940f37d8db33ddc90dead035462da308fbd2ace
-author: Spontaneous Order
 excerpt: >-
   Amidst the furore caused by Anna’s protest and the government’s rethinking of
   their Lokpal bill, something exciting in the states seems almost to have been
   missed. It’s not particularly flashy and it doesn’t have any celebrity
   spokesman, but it hi
+summary: >-
+  Amid the national focus on Anna Hazare's Jan Lokpal Bill, the post highlights
+  state-level Right to Services Acts in at least six Indian states, enacted or
+  under consideration within the last year, as a promising classical-liberal
+  reform. These Acts clearly enumerate government services (ranging from 7-8 to
+  over 30 per state), set specific delivery timelines (e.g., birth certificates
+  in seven days, water supply in thirty days), designate individual responsible
+  officials, and impose personal fines—garnished from wages and returned to
+  citizens—if deadlines are missed. The author argues these outperform the Jan
+  Lokpal Bill by embodying subsidiarity: allowing state variations for local
+  needs, fostering experimentation where states learn from each other, and
+  keeping governance closer to the people. Unlike the Lokpal's overambitious,
+  centralized anti-corruption crusade—which risks inefficacy by tackling too
+  broad a problem—the focused RTS Acts harness personal incentives to curb
+  delays and petty corruption effectively. The post warns that the national bill
+  would supersede and abolish these state initiatives, potentially derailing
+  grassroots progress toward accountable, responsive government.
+key_points:
+  - >-
+    Right to Services Acts in six states mandate specific services, timelines,
+    officials, and personal fines for delays, with fines returned to citizens.
+  - >-
+    These Acts enable subsidiarity by permitting state-specific adaptations and
+    inter-state experimentation tailored to local conditions.
+  - >-
+    Narrow focus on service delivery shifts officials' incentives via personal
+    accountability, outperforming broad anti-corruption efforts like Jan Lokpal.
+  - >-
+    Jan Lokpal Bill would centrally override and abolish effective state RTS
+    Acts, undermining federal flexibility.
+topics:
+  - right-to-services
+  - subsidiarity
+  - government-accountability
+  - federalism
 tags:
   - Right to Services Act
   - Anna Hazare
   - Jan Lokpal Bill
   - corruption
+source_hash: 6508c3fb79190d8a613432c93940f37d8db33ddc90dead035462da308fbd2ace
+summary_hash: 6508c3fb79190d8a613432c93940f37d8db33ddc90dead035462da308fbd2ace
+summary_at: '2026-05-05T11:28:24.894Z'
 ---
 **By Julie Gilstrap**
 

@@ -1,18 +1,55 @@
 ---
 title: 'Women in STEM: An Indian Perspective'
 original_url: 'https://www.spontaneousorder.in/p/women-in-stem-an-indian-perspective'
+author: Spontaneous Order
 published_at: '2021-03-08T14:47:15.000Z'
 ingested_at: '2026-05-05T08:31:42.344Z'
-source_hash: 2fa19b57d0eb9743afc185e013294a77d534735befbee38aeb7040f5648d264f
-author: Spontaneous Order
 excerpt: >-
   The prestige associated with studying the sciences in Indian society has
   become a recurring theme in the criticism of the Indian education system.
   While the humanities have consistently produced well-known bureaucrats and
   policymakers, the sciences hold..
+summary: >-
+  India leads globally in female STEM undergraduate enrollment, with women
+  comprising over 43% of total enrollments per AISHE 2018-19 data, yet
+  progression stalls dramatically: only 3% pursue PhDs in sciences and 14%
+  occupy research institution roles. This under-representation heightens job
+  loss risks from AI and automation, mirroring low US figures like 1 in 20 women
+  as academic deans. High mid-career dropouts stem from societal pressures like
+  marriage and pregnancy in conservative India. From a classical-liberal
+  viewpoint, solutions prioritize financial independence via university
+  emphasis, scholarships, government skill programs for girls, and private
+  sector leadership—e.g., IBM, PepsiCo elevating women to boards and panels with
+  recruitment gender ratios. Current 10+2+4 model intervenes too late; NEP's
+  5+3+3+4 enables early interest identification in middle/high school. Academia
+  must enforce gender parity in recruitment, tenure, and pay, with government
+  funding incentives. Shared responsibility across government, institutions, and
+  society is essential to retain talent in STEM's exponential growth.
+key_points:
+  - >-
+    Women make up 43% of STEM undergrad enrollments but only 3% of science PhDs
+    and 14% of research workforce positions.
+  - >-
+    Instill financial independence in universities and provide scholarships,
+    skill programs, and private sector recruitment quotas to retain female
+    graduates.
+  - >-
+    Shift to NEP's 5+3+3+4 model to identify and nurture girls' STEM interests
+    from middle school.
+  - >-
+    Incentivize universities with funding for gender-balanced hiring, no pay
+    gaps, and equal tenure opportunities.
+topics:
+  - women-in-stem
+  - education-reform
+  - gender-parity
+  - higher-education
 tags:
   - Equality
   - Policies for Women
+source_hash: 2fa19b57d0eb9743afc185e013294a77d534735befbee38aeb7040f5648d264f
+summary_hash: 2fa19b57d0eb9743afc185e013294a77d534735befbee38aeb7040f5648d264f
+summary_at: '2026-05-05T13:08:58.387Z'
 ---
 **By Arjun Gargeyas**
 

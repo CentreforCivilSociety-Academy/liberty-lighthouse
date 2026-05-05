@@ -2,15 +2,52 @@
 title: An Alternative 7-Point-Agenda for Combating Delhi Air Pollution
 original_url: >-
   https://www.spontaneousorder.in/p/an-alternative-7-point-agenda-for-combating-delhi-air-pollution
+author: Spontaneous Order
 published_at: '2019-09-24T11:49:26.000Z'
 ingested_at: '2026-05-05T08:31:42.467Z'
-source_hash: 4a4a4f7abc5b37faf4b10808e4a3019104230dd8fcb55765506b1994774079c0
-author: Spontaneous Order
 excerpt: >-
   For curbing pollution in the capital, the Delhi government proposed a
   seven-point-agenda. The Chief Minister said that the capital has witnessed a
   25 percent reduction in pollution without any evidence. The seven proposed
   measures include: Odd-Even Poll..
+summary: >-
+  The Delhi government's seven-point agenda to combat air pollution—odd-even car
+  rationing, pollution masks, community Diwali laser shows, environment
+  marshals, hotspot control, dust control, and tree challenges—is largely
+  ineffective, as odd-even previously showed little impact and cars contribute
+  only 3% of the 28% vehicle-related PM2.5 emissions. Dust control is welcome,
+  but others like masks provide no reduction, marshals add vehicle pollution,
+  and tree saplings delivered by vehicles offer negligible short-term benefits
+  against winter parali stubble burning. From a classical-liberal viewpoint, the
+  government should adopt an alternative agenda: (1) enforce National Green
+  Tribunal bans on stubble burning, using political capital to pressure
+  neighboring states where burning costs ₹2,000/acre vs. ₹6,000 (80% subsidized)
+  mechanized disposal; (2) reform groundwater and MSP policies that delay rice
+  harvests and encourage unsuitable cropping; (3) maintain roads to cut idling
+  emissions; (4) raise Floor Space Index from 1.2-3 to enable denser housing
+  like Singapore's FSI of 25, reducing commutes; (5) permit mixed land use as in
+  Pune to minimize travel; (6) enforce parking rules to internalize car
+  ownership costs and promote public transport; (7) build usable walkways and
+  cycle tracks. These market-oriented measures prioritize enforcement,
+  deregulation, and infrastructure for individual choice over coercive gimmicks.
+key_points:
+  - >-
+    Delhi's odd-even scheme impacts pollution by less than 1% since cars cause
+    only 3% of vehicle emissions.
+  - >-
+    Enforce stubble burning bans and reform agricultural subsidies/MSP to
+    address parali pollution's root causes.
+  - >-
+    Increase FSI to 25+ and allow mixed land use to reduce commuting and vehicle
+    emissions like in Singapore and Pune.
+  - >-
+    Maintain roads, enforce parking, and provide cycle tracks/walkways to
+    internalize costs and enable non-car travel.
+topics:
+  - air-pollution
+  - stubble-burning
+  - urban-planning
+  - agricultural-policy
 tags:
   - Air pollution
   - Mixed land use
@@ -21,6 +58,9 @@ tags:
   - Stubble burning
   - FSI
   - agriculture
+source_hash: 4a4a4f7abc5b37faf4b10808e4a3019104230dd8fcb55765506b1994774079c0
+summary_hash: 4a4a4f7abc5b37faf4b10808e4a3019104230dd8fcb55765506b1994774079c0
+summary_at: '2026-05-05T08:56:01.455Z'
 ---
 **By Aastha Narang**
 

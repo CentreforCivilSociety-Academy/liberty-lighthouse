@@ -1,21 +1,61 @@
 ---
 title: Doubling farmers’ income the easy way
 original_url: 'https://www.spontaneousorder.in/p/doubling-farmers-income-the-easy-way'
+author: Spontaneous Order
 published_at: '2020-01-29T21:23:06.000Z'
 ingested_at: '2026-05-05T08:31:42.447Z'
-source_hash: 761e480ced4ee4d80c7b61167085c44d3f9dfa131b8f512f76a2fb0b6a73dc40
-author: Spontaneous Order
 excerpt: >-
   Over the last few years, Prime Minister Narendra Modi has often promised that
   his administration is working towards doubling farmers’ income by 2022. With
   that promise, the government has increased the minimum support prices and has
   taken multiple initi
+summary: >-
+  Prime Minister Modi's promise to double farmers' income by 2022 through
+  measures like higher minimum support prices and PM Kisan Yojana's ₹6,000
+  annual support has fallen short because government restrictions prevent
+  farmers from selling produce at market-chosen prices. Despite generous
+  subsidies, loan waivers, free water, electricity, and tax breaks over seven
+  decades, farmers remain poor due to Agriculture Produce Marketing Committee
+  (APMC) laws mandating sales only in designated mandis, where prices can be
+  10-20 times below retail levels. Export bans and bureaucratic interventions
+  exacerbate this; for instance, onion export bans halted profits when prices
+  rose. An OECD 2018 study estimates these restrictions caused a 6.2% annual
+  income loss from 2014-16, while India spends $30bn yearly on aid but deprives
+  farmers of $40bn via price gaps. A 2001 Task Force found a negative subsidy of
+  ₹3,00,000 crore from 1980-2000 due to market limits. From a classical-liberal
+  view, politicians' 'generosity' masks suppression of farmers' freedoms, and
+  true income doubling requires removing these barriers to let farmers sell
+  freely domestically and internationally.
+key_points:
+  - >-
+    APMC laws force farmers to sell only in designated mandis at prices 10-20
+    times below retail.
+  - >-
+    Export bans, like on onions during high prices, prevent farmers from
+    profiting internationally.
+  - >-
+    OECD 2018 study shows restrictions caused 6.2% annual income loss for
+    farmers from 2014-16.
+  - >-
+    India provides $30bn in agricultural aid yearly but deprives farmers of
+    $40bn through price controls.
+  - >-
+    Governments should eliminate market restrictions to allow farmers to sell in
+    chosen markets on their terms.
+topics:
+  - agricultural-policy
+  - farmers-income
+  - market-restrictions
+  - export-bans
 tags:
   - International trade
   - Onions
   - APMC
   - Agricultural Produce Market Committee (APMC) Act
   - Doubling farmers’ income
+source_hash: 761e480ced4ee4d80c7b61167085c44d3f9dfa131b8f512f76a2fb0b6a73dc40
+summary_hash: 761e480ced4ee4d80c7b61167085c44d3f9dfa131b8f512f76a2fb0b6a73dc40
+summary_at: '2026-05-05T09:37:50.961Z'
 ---
 **By Sudhanshu Neema**
 

@@ -1,21 +1,60 @@
 ---
 title: What Should Be The Price of A Train Ticket?
 original_url: 'https://www.spontaneousorder.in/p/what-should-be-the-price-of-a-train-ticket'
+author: Spontaneous Order
 published_at: '2014-06-26T13:06:21.000Z'
 ingested_at: '2026-05-05T08:31:42.590Z'
-source_hash: d77111d5d09817bc5c5a780ac851d1cec7cc78e143631e08d8c59661d946b952
-author: Spontaneous Order
 excerpt: >-
   From my experience of Indian railways I suggest that they find someone who has
   bought a ticket, and give him a prize. – James Cameron in The Guardian, 21
   June 1983 Image courtesy: Blogateur It was announced last week that Indian
   Railways (IR) is going t
+summary: >-
+  The post critiques the recent 14.2% passenger fare and 6.5% freight charge
+  hikes by Indian Railways (IR), arguing that true market prices for train
+  tickets cannot emerge because IR operates as a government monopoly without
+  competition. Prices in free markets arise through a discovery process
+  coordinating dispersed knowledge, but IR sets arbitrary 'fees' driven by
+  political motives like re-election rather than profit maximization or cost
+  minimization. Examples include coach factories built in Rae Bareily (Sonia
+  Gandhi's constituency) and Madhepura (Lalu Yadav's) for populist reasons, and
+  the rollback of Mumbai local fare hikes due to Shiv Sena and BJP MPs'
+  pressure. Citing Tirthankar Roy's economic history, railways evolved from
+  private enterprise (1849-69), to state involvement, back to private management
+  with state ownership (1881-1924), and full state control post-1924. The author
+  advocates privatizing rail transport, as in successful telecom and aviation
+  sectors, envisioning competition from Tata, Reliance, or Mahindra trains
+  offering superior comfort, safety, speed, and competitive rates.
+key_points:
+  - >-
+    Indian Railways sets politically motivated fees, not market prices, due to
+    its government monopoly lacking competitive incentives.
+  - >-
+    Political decisions like coach factories in Rae Bareily and Madhepura
+    prioritize votes over cost efficiency.
+  - >-
+    Recent fare hikes were partially rolled back for Mumbai locals under MP
+    pressure, exemplifying populist interference.
+  - >-
+    Privatize railways to enable competition, mirroring telecom and aviation
+    liberalization successes.
+  - >-
+    Revert to private enterprise as in historical phases (1849-69, 1881-1924)
+    for better service and pricing.
+topics:
+  - indian-railways
+  - rail-fares
+  - privatization
+  - government-monopoly
 tags:
   - IR
   - IRCTC
   - Indian Railways
   - Lalu Yadav
   - business
+source_hash: d77111d5d09817bc5c5a780ac851d1cec7cc78e143631e08d8c59661d946b952
+summary_hash: d77111d5d09817bc5c5a780ac851d1cec7cc78e143631e08d8c59661d946b952
+summary_at: '2026-05-05T12:58:26.750Z'
 ---
 **By Kumar Anand**
 

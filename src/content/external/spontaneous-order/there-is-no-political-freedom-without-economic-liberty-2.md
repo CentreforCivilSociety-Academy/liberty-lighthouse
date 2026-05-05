@@ -2,20 +2,60 @@
 title: There is no political freedom without economic liberty
 original_url: >-
   https://www.spontaneousorder.in/p/there-is-no-political-freedom-without-economic-liberty-2
+author: Spontaneous Order
 published_at: '2021-07-19T12:46:33.000Z'
 ingested_at: '2026-05-05T08:31:42.304Z'
-source_hash: d3cdd87337a9a7789e5ff01fe44c2963111f4e3e9574425523ee473fb14ad330
-author: Spontaneous Order
 excerpt: >-
   Market freedom fosters a freer press, keeps open means of expression, and thus
   strengthens democracy. Last week [of January], as farmers were gearing up for
   protests on Republic Day, the Uttar Pradesh administration used an old trick
   from the Indian boo..
+summary: >-
+  Market freedom is essential for a freer press, open expression, and strong
+  democracy, as economic controls enable governments to suppress dissent. The
+  Uttar Pradesh administration's January 2021 order halting diesel sales to
+  farmers ahead of Republic Day protests exemplifies how price and quantity
+  controls on essentials like diesel limit the means of protest, mirroring urban
+  tactics like internet shutdowns. Historical precedents include the 1975
+  Emergency's power cuts to Delhi newspapers, Nehru-era Newspaper (Price and
+  Page) Act 1956 struck down in Sakal Papers (1962) for inhibiting idea
+  dissemination, journalist wage regulations upheld in Express Newspapers
+  (1958), and newsprint controls invalidated in Bennett Coleman (1973). These
+  pre-Emergency Congress policies parallel modern internet blackouts in Kashmir
+  and broadcast licensing fees. Drawing on Hayek's Road to Serfdom (1944) and
+  Friedman's Capitalism and Freedom (1962), a 2018 study by Christian Bjørnskov
+  across 177 countries confirms economic freedom, especially market openness,
+  drives press freedom improvements. Socialists and progressives who endorse
+  such controls elsewhere are myopic, as they entangle economic actions with
+  political liberties, threatening democracy.
+key_points:
+  - >-
+    Uttar Pradesh's diesel sales ban to farmers before Republic Day 2021
+    protests restricted their freedom of expression by denying protest means.
+  - >-
+    Supreme Court struck down newspaper price/page and newsprint controls in
+    Sakal Papers (1962) and Bennett Coleman (1973) for violating Article
+    19(1)(a).
+  - >-
+    Economic freedom causally precedes and improves press freedom, per
+    Bjørnskov’s 2018 study of 177 countries.
+  - >-
+    Government controls on production means—like diesel, electricity,
+    newsprint—enable suppression of speech across regimes, not just
+    authoritarians.
+topics:
+  - economic-freedom
+  - press-freedom
+  - government-controls
+  - indian-democracy
 tags:
   - Politics
   - Liberty
   - Markets
   - Government
+source_hash: d3cdd87337a9a7789e5ff01fe44c2963111f4e3e9574425523ee473fb14ad330
+summary_hash: d3cdd87337a9a7789e5ff01fe44c2963111f4e3e9574425523ee473fb14ad330
+summary_at: '2026-05-05T12:40:03.809Z'
 ---
 **By Shruti Rajagopalan**
 

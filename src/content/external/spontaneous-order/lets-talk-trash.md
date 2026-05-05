@@ -1,20 +1,61 @@
 ---
 title: Let’s talk trash!
 original_url: 'https://www.spontaneousorder.in/p/lets-talk-trash'
+author: Spontaneous Order
 published_at: '2018-10-30T05:39:11.000Z'
 ingested_at: '2026-05-05T08:31:42.512Z'
-source_hash: 016f368bb3f2d357dad5eb969570dcdab2f4551afda721dc64308b4d4c127c6e
-author: Spontaneous Order
 excerpt: >-
   Recently, I happened to pass by the infamous Ghazipur landfill. Unaware and
   hence nescient, I assumed it to be a hillock with trucks travelling along
   organised pathways on the ‘hillock’. Imagine my surprise on finding out that
   the said ‘hillock’ w
+summary: >-
+  Swachh Bharat Abhiyan has focused narrowly on toilet construction and visible
+  cleanliness, neglecting waste processing despite India generating 62 million
+  tonnes of solid waste annually, with only 60% collected and 15% processed in
+  urban areas. This results in massive opportunity costs, including
+  underutilized compost production capacity of 54 lakh tonnes (only 15 lakh
+  utilised) and power generation potential of 600 MW (only 92 MW generated). The
+  author argues for a narrative shift to view waste as a valuable resource
+  rather than something to hide, emphasizing its profit potential as waste
+  generation is projected to reach 165 million tonnes by 2030. Drawing on
+  classical-liberal principles, the post advocates incentivizing entrepreneurs
+  through reduced stigma, R&D integration, private partnerships with informal
+  kabadiwallahs to formalize the waste market, and promoting innovations like
+  recycling paper (as in Zhang Yin's Nine Dragons) or turning trash into
+  materials (Miniwiz's Trash Lab). Systemic changes beyond targets are needed to
+  create a profitable marketplace for waste processing, yielding monetary
+  benefits for innovators and environmental gains for society.
+key_points:
+  - >-
+    India's Swachh Bharat has prioritized toilet targets over waste processing,
+    leaving 85% of urban waste unprocessed amid 62 million tonnes annual
+    generation.
+  - >-
+    Existing infrastructure underperforms: only 28% of compost capacity and 15%
+    of waste-to-power capacity is utilized.
+  - >-
+    Shift narrative to treat waste as raw material, incentivize entrepreneurs
+    via R&D and reduced stigma.
+  - >-
+    Formalize waste market through private partnerships with kabadiwallahs to
+    organize collection and processing.
+  - >-
+    Promote innovations to turn waste into value, preventing environmental harm
+    and generating wealth.
+topics:
+  - waste-management
+  - swachh-bharat
+  - environmental-innovation
+  - market-incentives
 tags:
   - Waste Reduction
   - Trash
   - Waste Management
   - Economics of waste
+source_hash: 016f368bb3f2d357dad5eb969570dcdab2f4551afda721dc64308b4d4c127c6e
+summary_hash: 016f368bb3f2d357dad5eb969570dcdab2f4551afda721dc64308b4d4c127c6e
+summary_at: '2026-05-05T10:41:06.658Z'
 ---
 **By Sunaina Mathur**
 

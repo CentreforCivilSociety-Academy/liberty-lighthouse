@@ -2,18 +2,58 @@
 title: How India saved its mothers with Direct Cash Transfers
 original_url: >-
   https://www.spontaneousorder.in/p/how-india-saved-its-mothers-with-direct-cash-transfers
+author: Spontaneous Order
 published_at: '2020-12-08T14:34:27.000Z'
 ingested_at: '2026-05-05T08:31:42.363Z'
-source_hash: 792482a812b4a4f619dd66a4b031ed38961208402910b6cf02d1a76958d74ce3
-author: Spontaneous Order
 excerpt: >-
   The Coronavirus pandemic has shown us how unaffordable health care in India
   is. In the last few months, patients have had to pay bills running in lakhs at
   private hospitals for Covid-19 treatment. There is no way ordinary Indians can
   afford that, and th..
+summary: >-
+  The post argues that Direct Cash Transfers (DCT) outperform subsidies in
+  enhancing healthcare access, exemplified by India's pandemic response and the
+  Pradhan Mantri Matru Vandana Yojana (PMMVY). Amid COVID-19, when 70% of
+  economic activities halted, the government delivered relief to over 800
+  million people—two-thirds of the population—via DCT, providing immediate aid,
+  boosting consumer spending, and averting economic slowdown. DCT avoids subsidy
+  pitfalls like poor targeting, corruption, and leakages, while empowering
+  beneficiaries with choice and freedom to select goods/services. Across 331
+  schemes, DCT improves public service delivery. PMMVY, launched in 2017, gives
+  Rs 5,000 in three installments to pregnant/lactating women for their first
+  child (plus Rs 1,000 under JSY for institutional delivery), targeting low
+  institutional-delivery states like Uttar Pradesh and Bihar. It addresses
+  India's Maternal Mortality Rate—still double UN SDG targets—by incentivizing
+  checkups and nutrition, doubling institutional deliveries from 38.7% to 79%
+  (2006-2016). Implementation efficiency rose from 38% in 2018 to 90% in 2019,
+  with 1.28 crore beneficiaries receiving Rs 5,280 crore by February 2020. DCT
+  fosters financial inclusion, preventive healthcare, and individual agency,
+  benefiting health and economy from a classical-liberal viewpoint.
+key_points:
+  - >-
+    Direct Cash Transfers to 800 million during COVID-19 provided immediate
+    relief and stimulated spending, outperforming leaky subsidies.
+  - >-
+    PMMVY delivers Rs 5,000 in installments to pregnant women, doubling
+    institutional deliveries to 79% and improving maternal/child health
+    outcomes.
+  - >-
+    DCT across 331 schemes reduces corruption and leakages while expanding
+    beneficiary choice and freedom.
+  - >-
+    Implementing more DCT schemes promotes preventive healthcare, financial
+    inclusion, and economic growth.
+topics:
+  - direct-cash-transfers
+  - maternal-health
+  - healthcare-access
+  - indian-welfare-schemes
 tags:
   - Direct Cash Transfer
   - women in India
+source_hash: 792482a812b4a4f619dd66a4b031ed38961208402910b6cf02d1a76958d74ce3
+summary_hash: 792482a812b4a4f619dd66a4b031ed38961208402910b6cf02d1a76958d74ce3
+summary_at: '2026-05-05T10:11:48.714Z'
 ---
 **By Upasha Kumari**
 

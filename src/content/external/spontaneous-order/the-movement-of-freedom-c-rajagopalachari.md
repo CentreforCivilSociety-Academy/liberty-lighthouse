@@ -1,19 +1,57 @@
 ---
 title: 'The Movement of Freedom: C. Rajagopalachari'
 original_url: 'https://www.spontaneousorder.in/p/the-movement-of-freedom-c-rajagopalachari'
+author: Spontaneous Order
 published_at: '2018-08-02T09:58:58.000Z'
 ingested_at: '2026-05-05T08:31:42.536Z'
-source_hash: f530319c0fd2fa0b851d64caf9358dcaf1471905bfe0c74fc9ab31663421e328
-author: Spontaneous Order
 excerpt: >-
   Before I begin I, along with you all, must tender our grateful appreciation of
   the splendid work done by Mr. Masani and his colleagues for making this
   eventful gathering possible in this inclement season of the year in Bombay. I
   have been asked to inaug..
+summary: >-
+  C. Rajagopalachari inaugurates the Swatantra Party not as a mere political
+  entity but as a 'movement of freedom' akin to the independence struggle
+  against British rule, now targeted at the Indian National Congress's socialist
+  policies that he sees as forging a 'Leviathan' state suppressing individual
+  liberty. He criticizes the Congress for expanding state power into
+  agriculture, industry, and trade through controls, regulations, and an army of
+  officials, inflating administrative costs and taxes while eroding citizen
+  initiative under the guise of wisdom. Specific deceptions include unfulfilled
+  land ceiling promises to distribute land to the landless, shifting from
+  bhoodan voluntary surrenders to coerced cooperative farming masked as
+  voluntary, subsidized to buy support. Rajagopalachari attributes policy
+  failures to a false conception of governance assuming citizen ignorance,
+  leading to power corruption: megalomania at the top attempting societal
+  revolutions like changing personal laws and banning religion, and interference
+  at lower levels undermining justice. He calls for replacing Congress with
+  Swatantra, which champions individual enterprise, initiative, and faith in
+  people over state compulsion and regulation.
+key_points:
+  - >-
+    Congress socialist policies expand the state into a menacing Leviathan,
+    interfering in all aspects of life and suppressing individual liberty.
+  - >-
+    Land ceiling promises deceive rural voters by failing to deliver land to the
+    landless, pivoting instead to subsidized 'voluntary' cooperative farming.
+  - >-
+    Power corrupts Congress leaders, fostering top-level megalomania in
+    restructuring society and lower-level interference in administration.
+  - >-
+    Swatantra Party must replace Congress to restore individual initiative,
+    enterprise, and governance based on faith in people rather than compulsion.
+topics:
+  - swatantra-party
+  - individual-liberty
+  - state-overreach
+  - congress-criticism
 tags:
   - Swatantra Party
   - C Rajagopalachari
   - Liberalism
+source_hash: f530319c0fd2fa0b851d64caf9358dcaf1471905bfe0c74fc9ab31663421e328
+summary_hash: f530319c0fd2fa0b851d64caf9358dcaf1471905bfe0c74fc9ab31663421e328
+summary_at: '2026-05-05T12:31:31.884Z'
 ---
 **By Spontaneous Order**
 

@@ -2,20 +2,61 @@
 title: 'Trade ‘Trumps’ Rule: The Great American Nightmare'
 original_url: >-
   https://www.spontaneousorder.in/p/trade-trumps-rule-the-great-american-nightmare
+author: Spontaneous Order
 published_at: '2018-08-03T12:39:52.000Z'
 ingested_at: '2026-05-05T08:31:42.532Z'
-source_hash: da798469d5bd8f8a1e300ca7b96ef2cf41771988bcba8448b1edb4cb6b82e205
-author: Spontaneous Order
 excerpt: >-
   ‘America First’, a rhetoric that resonates so dearly to President Trump,
   acquired a new tone at the latest edition of the World Economic Forum. This
   rhetoric is no longer rhetorical. The past few months have marked the
   commencement of a trade strategy
+summary: >-
+  Trump's 'America First' trade policy uses domestic tools like Section 201 of
+  the US Trade Act to impose tariffs and quotas on imports—such as washing
+  machines from South Korea and solar panels from China—to protect US
+  manufacturing from Asian competition, but this strategy flagrantly violates
+  WTO rules under GATT Article XIX, neglecting mandatory 'unforeseen
+  developments' and differing on 'causal connection' interpretations. The USITC
+  processes petitions without ensuring WTO compliance, amid US
+  non-implementation of DSB rulings, including India's concerns over
+  countervailing duties on hot-rolled steel and Mexico's $472.3 million
+  retaliation authorization for tuna disputes; a 2016 Third World Network report
+  notes most US non-compliance favors developing countries. DSB has consistently
+  ruled against US Section 201 invocations, like in Lamb (1999) and Steel (2001)
+  cases. Presidents have implemented only 19 of 40 affirmative investigations,
+  per Peterson Institute, due to higher consumer prices (e.g., solar panels
+  retarding clean energy), retaliation risks, and signaling broader
+  protectionism. Short-term tariffs fail to shift production bases
+  sustainably—Samsung's California plant notwithstanding—and cause trade
+  diversion. This burdens US consumers and 85% of 260,000 solar jobs in
+  non-manufacturing, eroding WTO relevance; the classical-liberal imperative is
+  to challenge it multilaterally for rule-based free trade.
+key_points:
+  - >-
+    Trump's Section 201 tariffs violate GATT Article XIX by omitting 'unforeseen
+    developments' and misapplying causal links, as ruled in multiple DSB cases.
+  - >-
+    US non-compliance with DSB rulings, like India's steel duties dispute and
+    Mexico's $472.3M tuna retaliation, undermines WTO credibility.
+  - >-
+    Protectionist measures raise US consumer prices, risk retaliation, and fail
+    to relocate foreign production long-term, per Peterson Institute analysis.
+  - >-
+    Policy invites floodgates of domestic petitions, signaling eagerness for
+    discretionary trade barriers and trade diversion from targeted nations.
+topics:
+  - trade-policy
+  - protectionism
+  - wto-disputes
+  - us-tariffs
 tags:
   - trade
   - World Trade Organisation
   - America First
   - WTO
+source_hash: da798469d5bd8f8a1e300ca7b96ef2cf41771988bcba8448b1edb4cb6b82e205
+summary_hash: da798469d5bd8f8a1e300ca7b96ef2cf41771988bcba8448b1edb4cb6b82e205
+summary_at: '2026-05-05T12:46:18.184Z'
 ---
 **By Karan Tripathi**
 

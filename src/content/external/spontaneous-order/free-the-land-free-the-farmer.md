@@ -1,15 +1,54 @@
 ---
 title: 'Free the Land, Free the Farmer'
 original_url: 'https://www.spontaneousorder.in/p/free-the-land-free-the-farmer'
+author: Spontaneous Order
 published_at: '2022-03-03T11:07:08.000Z'
 ingested_at: '2026-05-05T08:31:42.276Z'
-source_hash: f8398e99420b9265cdaa59a15beef483889d1b70944ebafee635ff02c4fd8e27
-author: Spontaneous Order
 excerpt: >-
   Laws enacted at the state level restrict the sale, purchase, use, and lease of
   land. These laws depress the value of the land and constrain the choice of
   livelihood while limiting the farmer’s income. Land ceiling laws restrict the
   size of agricultural
+summary: >-
+  State-level land laws in India, including ceiling restrictions and overly
+  restrictive leasing regulations, depress land values, fragment holdings, and
+  trap farmers in low-productivity agriculture while limiting livelihood
+  choices. In Andhra Pradesh, families of five are capped at 4.05 ha of Class A
+  land, contributing to national fragmentation where average household holdings
+  are just 0.411 ha and 82.9% are small or marginal per the 2021 NSSO survey.
+  Leasing laws mandate minimum six-year terms, require owners to surrender at
+  least 50% of land if terminating tenancy, and involve special judicial
+  oversight, deterring formal markets—formal records show only 0.36% leased land
+  versus 33% in NSSO household surveys, indicating widespread informality with
+  enforcement and investment issues. A CSDS survey reveals over 70% of farmers
+  wish to exit farming, yet cultural attachment to land prevents sales; leasing
+  could enable revenue generation and career shifts, but restrictions persist.
+  Low incomes (Rs 8,768 monthly average in AP) and rare sales (5% in prior five
+  years per survey) underscore the trap. The classical-liberal solution: Andhra
+  Pradesh should adopt NITI Aayog's 2016 Model Land Leasing Act to legalize
+  mutual tenancy agreements, freeing farmers to lease without selling and
+  boosting productivity.
+key_points:
+  - >-
+    Land ceiling laws fragment Indian agriculture, with average holdings at
+    0.411 ha and 82.9% small/marginal farmers.
+  - >-
+    Andhra Pradesh leasing laws deter formal markets, showing 0.36% formal
+    leases versus 33% informal per NSSO data.
+  - >-
+    Over 70% of farmers want to exit farming but face barriers to leasing due to
+    restrictive tenancy rules.
+  - >-
+    Adopt NITI Aayog's Model Land Leasing Act to enable mutual lease agreements
+    and allow farmers to pursue alternatives without selling land.
+topics:
+  - land-ceilings
+  - land-leasing
+  - agricultural-policy
+  - farmer-livelihoods
+source_hash: f8398e99420b9265cdaa59a15beef483889d1b70944ebafee635ff02c4fd8e27
+summary_hash: f8398e99420b9265cdaa59a15beef483889d1b70944ebafee635ff02c4fd8e27
+summary_at: '2026-05-05T09:58:58.624Z'
 ---
 **By Arjun Krishnan**
 

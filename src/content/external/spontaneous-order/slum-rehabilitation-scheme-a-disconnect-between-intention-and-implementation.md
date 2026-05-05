@@ -2,20 +2,59 @@
 title: 'Slum Rehabilitation Scheme: A disconnect between intention and implementation'
 original_url: >-
   https://www.spontaneousorder.in/p/slum-rehabilitation-scheme-a-disconnect-between-intention-and-implementation
+author: Spontaneous Order
 published_at: '2021-09-29T13:58:06.000Z'
 ingested_at: '2026-05-05T08:31:42.291Z'
-source_hash: 20ec9402feb539a5fabed2cf3d25da614f31ef57616df5ef893e1ac88c3ce3db
-author: Spontaneous Order
 excerpt: >-
   From the archaic Slum Clearance scheme introduced in 1956 to more novel
   programs such as the Prime Minister’s Grant Program 1985; over the years,
   there has been a shift in policy paradigm. Policies have gone from slum
   clearance to slum rehabilitation. W
+summary: >-
+  The Slum Rehabilitation Scheme (SRS), launched by Maharashtra in 1995,
+  represents a classical-liberal policy shift from slum clearance to in-situ
+  rehabilitation, leveraging private developers through increased Floor Space
+  Index (FSI) to cross-subsidize free tenements from market sales. Intended to
+  harness slum land as a resource and uphold dweller rights, it has instead
+  produced 'vertical slums' with poor design, inadequate ventilation,
+  construction flaws, and health risks like elevated TB cases in Mumbai
+  resettlements. Implementation disregards dwellers' street-based lifestyles,
+  social networks, and micro-entrepreneurship, leading to abandonment of new
+  housing. Progress is glacial: in Mumbai, housing 62 lakh in 12.5 lakh slum
+  areas, only 2.06 lakh families received homes in 23 years; nationally, ISSR
+  under PMAY-U sees just 4% uptake. Examples like Delhi's Katputli Colony
+  highlight community resistance due to exclusion. The author calls for a
+  people-first classical-liberal fix: enforce development controls, involve
+  communities/NGOs/CSOs transparently, and pursue alternatives like in-situ
+  upgrading, as slum-dwellers in Nagpur prefer and Shantadeep cooperative
+  exemplifies sustainable success.
+key_points:
+  - >-
+    SRS's private developer incentives via FSI create profitable cross-subsidies
+    in theory but yield substandard high-rises compromising livability and
+    health.
+  - >-
+    Mumbai's SRS delivered homes to only 2.06 lakh families in 23 years despite
+    slums housing over half the city's 62 lakh population.
+  - >-
+    Top-down implementation ignores slum-dwellers' street-centric socio-economic
+    needs, prompting abandonment and resistance as in Katputli Colony.
+  - >-
+    Reforms must enforce strict DCRs, mandate community consent and CBO
+    involvement, and explore in-situ upgrades over relocation.
+topics:
+  - slum-rehabilitation
+  - urban-housing
+  - private-development
+  - community-participation
 tags:
   - slums
   - Markets
   - rehabilitation
   - Urban Planning
+source_hash: 20ec9402feb539a5fabed2cf3d25da614f31ef57616df5ef893e1ac88c3ce3db
+summary_hash: 20ec9402feb539a5fabed2cf3d25da614f31ef57616df5ef893e1ac88c3ce3db
+summary_at: '2026-05-05T11:45:44.406Z'
 ---
 **By Aanchal Aggarwal**
 

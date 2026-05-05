@@ -2,15 +2,50 @@
 title: 'Silence Please, The ‘Intellectuals’ Are Listening'
 original_url: >-
   https://www.spontaneousorder.in/p/silence-please-the-intellectuals-are-listening
+author: Spontaneous Order
 published_at: '2016-01-17T14:26:13.000Z'
 ingested_at: '2026-05-05T08:31:42.564Z'
-source_hash: f8985c277c8947b46c862c9d3c555274dae95f5a0dee9aea1af58bdf8055c1ea
-author: Spontaneous Order
 excerpt: >-
   A few self-proclaimed intellectuals met a long time back and set rules and
   regulations about what is offensive and what is not. Their intentions were
   right, we must respect each other, and must not offend anyone. Over time, the
   face of these ‘intellectu
+summary: >-
+  Sadaf Hussain satirically critiques how self-proclaimed 'intellectuals'
+  undermine India's constitutional right to freedom of expression under Article
+  19(1)(a) through vague IPC Sections 153A and 295A, which punish speech deemed
+  offensive on grounds of religion, race, caste, or community. These laws, he
+  argues from a classical-liberal standpoint, mark the 'beginning of the end' of
+  free speech by empowering anyone to seek punishment for perceived disrespect,
+  stifling open discourse despite the lack of any universal 'reality' or
+  truth—evidenced by diverse philosophies from Hindu schools to libertarians.
+  Examples abound: Gaurav Jain questioned by police for eating beef, Taslima
+  Nasreen and Salman Rushdie persecuted for writings, actors like Sunny Deol and
+  Akshay Kumar targeted for films, comedian Kiku Sharda for mimicking a guru,
+  and historical figure Galileo. Hussain mocks the solution as absurd
+  'commandments' like respecting the intellectuals' committee, never joking
+  about anyone, preemptively apologizing, avoiding original opinions, and
+  reserving offense for politicians only. This highlights the classical-liberal
+  call for absolute freedom, including the right to offend, to foster genuine
+  societal harmony without coerced silence.
+key_points:
+  - >-
+    IPC Sections 153A and 295A criminalize speech offending religious, communal,
+    or other sentiments, eroding Article 19's freedom of expression.
+  - >-
+    No universal truth exists across philosophies, justifying unrestricted
+    speech rather than subjective offense-based censorship.
+  - >-
+    Everyday actions like eating beef or comedy can lead to police harassment,
+    as in Gaurav Jain's case.
+  - >-
+    Satirical commandments expose the folly of preemptive apologies and
+    self-censorship to avoid offending anyone.
+topics:
+  - free-speech
+  - censorship
+  - indian-constitution
+  - right-to-offend
 tags:
   - Freedom Of Speech
   - Kiku Sharda
@@ -19,6 +54,9 @@ tags:
   - Don't tread on me
   - culture
   - commandments
+source_hash: f8985c277c8947b46c862c9d3c555274dae95f5a0dee9aea1af58bdf8055c1ea
+summary_hash: f8985c277c8947b46c862c9d3c555274dae95f5a0dee9aea1af58bdf8055c1ea
+summary_at: '2026-05-05T11:45:08.453Z'
 ---
 **By Sadaf Hussain**
 

@@ -1,15 +1,50 @@
 ---
 title: 'Measuring Sugar, Spice and All That is Nice'
 original_url: 'https://www.spontaneousorder.in/p/measuring-sugar-spice-and-all-that-is-nice'
+author: Spontaneous Order
 published_at: '2011-06-30T20:08:23.000Z'
 ingested_at: '2026-05-05T08:31:42.635Z'
-source_hash: 6ee7e2255c710a0ae2f390b3c293f494dfe96e6836c801350915f73ff8d1412c
-author: Spontaneous Order
 excerpt: >-
   By: Snigdha Jain (CCS Intern) Economists love to measure, so much so that some
   say “science is measurement”. The most widely used measure is Gross Domestic
   Product (GDP). But some feel that it can be misleading because it fails to
   take into account na
+summary: >-
+  The post critiques Gross National Happiness (GNH) as a flawed alternative to
+  Gross Domestic Product (GDP), advocating a classical-liberal preference for
+  GDP's quantifiable, comparable metrics amid economists' love for measurement.
+  Quoting Arvind Panagariya, it argues governments should prioritize reliable
+  data on rural primary schools, health centers, land use, and ownership rather
+  than subjective GNH computations. GDP includes 'bad' activities like pollution
+  and crime but excludes unpaid services like child-rearing and volunteering;
+  still, higher incomes enable choices and freedom, enhancing quality of life.
+  The Easterlin paradox complicates this: higher incomes yield greater happiness
+  cross-sectionally within countries, but national happiness plateaus despite
+  rising GDP over time. GNH relies on subjective judgments, rendering it ordinal
+  at best, not cardinal like GDP, with India's 35th ranking likely distorted by
+  errors. It resists international comparisons due to cultural and temporal
+  variations, like monsoon happiness in India versus Christmas in Germany. The
+  piece humorously notes economists' 'inordinate fondness for measures,' akin to
+  a biochemist's for beetles, urging focus on concrete data over 'nice' but
+  vague indices.
+key_points:
+  - >-
+    Governments should collect reliable data on rural schools, health centers,
+    and land rather than compute GNH.
+  - >-
+    GDP enables international comparisons via standardized quantitative
+    measurement, unlike subjective GNH.
+  - >-
+    The Easterlin paradox reveals that rising national GDP does not increase
+    average happiness over time.
+  - >-
+    GNH's reliance on subjective judgments makes it prone to errors and
+    unsuitable as a cardinal measure.
+topics:
+  - gdp
+  - gross-national-happiness
+  - economic-measurement
+  - easterlin-paradox
 tags:
   - happiness
   - GDP
@@ -19,6 +54,9 @@ tags:
   - measure
   - gross
   - quality of life
+source_hash: 6ee7e2255c710a0ae2f390b3c293f494dfe96e6836c801350915f73ff8d1412c
+summary_hash: 6ee7e2255c710a0ae2f390b3c293f494dfe96e6836c801350915f73ff8d1412c
+summary_at: '2026-05-05T10:52:30.930Z'
 ---
 **By Vipin**
 

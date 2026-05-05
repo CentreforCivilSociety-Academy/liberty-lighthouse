@@ -1,19 +1,60 @@
 ---
 title: The Learning Crisis Starts Early
 original_url: 'https://www.spontaneousorder.in/p/the-learning-crisis-starts-early'
+author: Spontaneous Order
 published_at: '2021-06-30T16:33:16.000Z'
 ingested_at: '2026-05-05T08:31:42.310Z'
-source_hash: cc889ca0a3f97504e56121373cbfd2f0b7d1f6f1aebd8b10e8c658a05988c8ae
-author: Spontaneous Order
 excerpt: >-
   India’s learning crisis has reached staggering levels, with pandemic induced
   school closures expected to have far-reaching consequences on schooling.
   However, with the gross enrollment ratio for students at elementary level
   (grades I-VIII) reaching 97%,
+summary: >-
+  India's learning crisis begins early, with 97% gross enrollment in grades
+  I-VIII but only half of grade 5 students able to read grade 2 texts and 22.7%
+  in government schools able to do division, signaling a foundational literacy
+  and numeracy (FLN) deficit across public and private schools. This gap,
+  affecting nearly 5 crore children and with 43% under five at risk of not
+  reaching developmental potential, widens over time, leading to lost higher
+  education, employment, and a workforce ill-equipped for 21st-century jobs amid
+  skill shortages. The National Education Policy 2020 prioritizes universal FLN
+  by grade 5 via a mission by 2025, emphasizing curriculum redesign, teacher
+  training, and platforms like DIKSHA. From a classical-liberal viewpoint,
+  success demands shifting from input-focused metrics like enrollment to
+  outcome-based school assessments, decentralizing implementation to districts
+  for flexible planning and budgets, reforming curricula and teacher incentives,
+  and prioritizing remedial education. FLN underpins all future learning,
+  employability, and GDP growth, requiring these market-oriented reforms to
+  foster a skilled youth driving innovation.
+key_points:
+  - >-
+    India's 97% elementary enrollment masks a learning crisis where only half of
+    grade 5 students read grade 2 texts and 22.7% in government schools perform
+    division.
+  - >-
+    NEP 2020 mandates universal foundational literacy and numeracy by 2025
+    through curriculum redesign, teacher training, and state roadmaps.
+  - >-
+    Measure school performance on student learning outcomes rather than
+    enrollment or infrastructure to prioritize results.
+  - >-
+    Decentralize FLN implementation to districts for flexible budgets, local
+    planning, teacher incentives, and remedial education focus.
+  - >-
+    Universal FLN is essential for employability, better life outcomes, and
+    economic growth via a skilled workforce.
+topics:
+  - foundational-literacy
+  - nep-2020
+  - learning-outcomes
+  - education-reform
 tags:
   - Education Policy
   - Learning
   - NEP2020
+source_hash: cc889ca0a3f97504e56121373cbfd2f0b7d1f6f1aebd8b10e8c658a05988c8ae
+summary_hash: cc889ca0a3f97504e56121373cbfd2f0b7d1f6f1aebd8b10e8c658a05988c8ae
+summary_at: '2026-05-05T12:30:04.992Z'
 ---
 **By Swati Rao**
 

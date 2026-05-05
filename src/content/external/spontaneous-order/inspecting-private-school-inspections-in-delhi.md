@@ -2,21 +2,64 @@
 title: Inspecting Private School Inspections in Delhi
 original_url: >-
   https://www.spontaneousorder.in/p/inspecting-private-school-inspections-in-delhi
+author: Spontaneous Order
 published_at: '2019-09-11T10:28:26.000Z'
 ingested_at: '2026-05-05T08:31:42.470Z'
-source_hash: 953bfb8b31a3bc42e191720cb7cd8ae07285f0fdd63b9935d3eb86a314e3718f
-author: Spontaneous Order
 excerpt: >-
   We spent two months of Summer “inspecting” private school inspections as part
   of the Researching Reality Internship at the Centre for Civil Society; we came
   to learn that laws, much like beauty, are often skin deep. Our adventure took
   us all across th
+summary: >-
+  Private schools in Delhi, increasingly preferred by parents across economic
+  classes, face inspections from a government that acts as both
+  competitor—offering free education with a large budget—and regulator/enforcer,
+  creating an uneven playing field. As part of a Researching Reality Internship
+  at the Centre for Civil Society, the authors spent two months investigating
+  this process through 11 visits to the Directorate of Education (obtaining 8
+  complete inspection reports), interviews with 15 of 30 officials and
+  government school principals, six RTIs yielding 116 responses from 20 of 29
+  Delhi zones (offering little insight), and outreach to over 30 private schools
+  (only 6 responded). Despite laws like the Delhi School Education Act, 1973
+  mandating annual inspections of all recognized schools, Delhi conducts only 60
+  per year; Haryana officials were unaware of similar requirements. The
+  regulatory framework spans 2,000 pages of executive orders plus RTE 2009,
+  making full compliance rare and inspections prone to harassment rather than
+  improvement. Stakeholders from schools to officials were suspicious and
+  evasive, revealing a disconnect between on-paper laws and ground realities,
+  eroding ideals of government accountability. An upcoming paper details
+  objectives and processes, underscoring the need to treat private schools as
+  co-providers rather than afterthoughts.
+key_points:
+  - >-
+    Delhi inspects only 60 private schools annually despite the Delhi School
+    Education Act's mandate for yearly inspections of all recognized schools.
+  - >-
+    Private schools face a 2,000-page regulatory maze including executive orders
+    and RTE 2009, rendering full compliance nearly impossible.
+  - >-
+    RTIs to Delhi's 29 zones yielded 116 responses from 20 zones but provided
+    minimal insights into inspection practices.
+  - >-
+    Over 30 private schools contacted responded minimally (only 6), with
+    officials and principals often suspicious of inquiries.
+  - >-
+    Inspections serve as a tool for enforcement and potential harassment rather
+    than genuine improvement of school outcomes.
+topics:
+  - private-schools
+  - school-inspections
+  - education-regulation
+  - regulatory-burden
 tags:
   - RTE
   - Education
   - private sector in education
   - delhi
   - School Inspections
+source_hash: 953bfb8b31a3bc42e191720cb7cd8ae07285f0fdd63b9935d3eb86a314e3718f
+summary_hash: 953bfb8b31a3bc42e191720cb7cd8ae07285f0fdd63b9935d3eb86a314e3718f
+summary_at: '2026-05-05T10:26:03.554Z'
 ---
 **By Mahim Singla**
 

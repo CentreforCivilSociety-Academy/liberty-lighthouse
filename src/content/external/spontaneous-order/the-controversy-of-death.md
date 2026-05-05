@@ -1,19 +1,58 @@
 ---
 title: The Controversy of Death
 original_url: 'https://www.spontaneousorder.in/p/the-controversy-of-death'
+author: Spontaneous Order
 published_at: '2018-08-06T10:42:33.000Z'
 ingested_at: '2026-05-05T08:31:42.519Z'
-source_hash: 3d527c68ce1358503df345ea8c1d00e5836ae7b98adbb01ff1c9127120359b6f
-author: Spontaneous Order
 excerpt: >-
   In an era where we can inconceivably see different political opinions distill
   from each other, and mutual consensus building, become ever reclusive, it is
   important that we reassess our structure of the state machinery. Much to
   Hamilton’s dismay, in a p
+summary: >-
+  Akshat Singh argues from a classical-liberal perspective against India's death
+  penalty, critiquing the state's monopoly on violence as enabling it to 'play
+  god' by treating crimes as violations against itself rather than individuals,
+  thus undermining citizens' liberties and the social contract. Philosophically,
+  he contrasts Lockean equal shareholders with Hobbesian subjects, warning that
+  retributive justice fosters an 'each man for himself' environment, ignoring
+  societal roots of crime and favoring restoration over proportionate harm.
+  Practically, the system's elusiveness is evident in no records since 1947,
+  conflicting estimates (official 52 executions since independence vs. 1,422
+  from 1953-1963), and judicial hush despite 14 IPC sections; only 5 executions
+  occurred since 1995, versus 1,012 in the US. US federal data reveals states
+  with death penalties have higher violent crime rates, suggesting correlation.
+  India opposed UN moratoriums in 2007 and 2012, aligning with 57 'retentionist'
+  nations like China and Saudi Arabia per Amnesty International. Citing Foucault
+  and Sarat, Singh contends capital punishment erodes state legitimacy by
+  blurring legal and extralegal violence. He advocates abolition, noting life
+  sentences allow repentance and countries like Russia manage security without
+  it, urging a shift to restorative justice under Article 21's right to life.
+key_points:
+  - >-
+    India's death penalty system lacks transparency, with no records since 1947
+    and estimates ranging from 52 to 1,422 executions post-independence.
+  - >-
+    States in the US with death penalties exhibit higher violent crime rates,
+    indicating a problematic correlation.
+  - >-
+    Capital punishment treats crimes as state violations, promoting retributive
+    over restorative justice and glorifying state power.
+  - >-
+    Abolishing the death penalty aligns India with liberty-upholding nations,
+    enhances legitimacy, and allows prisoner repentance via life sentences.
+topics:
+  - death-penalty
+  - criminal-justice
+  - state-violence
+  - civil-liberties
 tags:
   - capital punishment
   - Price of death
   - Death Penalty
+source_hash: 3d527c68ce1358503df345ea8c1d00e5836ae7b98adbb01ff1c9127120359b6f
+summary_hash: 3d527c68ce1358503df345ea8c1d00e5836ae7b98adbb01ff1c9127120359b6f
+summary_at: '2026-05-05T12:22:20.705Z'
 ---
 **By Akshat Singh**
 

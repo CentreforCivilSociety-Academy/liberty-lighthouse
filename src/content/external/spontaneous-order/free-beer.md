@@ -1,20 +1,58 @@
 ---
 title: 'Beer in India: Getting high on taxes'
 original_url: 'https://www.spontaneousorder.in/p/free-beer'
+author: Spontaneous Order
 published_at: '2016-06-18T16:21:01.000Z'
 ingested_at: '2026-05-05T08:31:42.552Z'
-source_hash: 50c929446c364904a679edab0eb1ccab9512a4dc89f07e57249d73bfe7744ec7
-author: Spontaneous Order
 excerpt: >-
   Beer is likely one of the most socially acceptable and culturally cherished
   alcoholic beverages. It is also the oldest and the third most consumed (after
   water and tea) beverage in the world. The state governments in India though
   would rather have you ...
+summary: >-
+  India's state governments impose disproportionately high taxes on beer—60%
+  more than on stronger spirits despite beer's lower 5-8% alcohol content
+  compared to 42.5% in hard liquor—making beer one of the world's most expensive
+  beverages and treating it as a luxury for the upper middle class. For a Rs 100
+  beer bottle, Rs 60 goes to government, Rs 20 to retailer, with the rest for
+  production; consumers pay over twice as much per ml of alcohol for beer (Rs
+  100 buys 650ml beer) versus whiskey (180ml at Rs 1.3/ml). This, plus 26 taxes,
+  licenses up to Rs 26 lakhs, and inter-state import/export fees, caps beer
+  industry growth at a flat 12% annually, per capita consumption at 1.6 liters
+  (vs 37 in China, 31 in Thailand), and incentivizes hard liquor production,
+  exacerbating public health issues like higher hospitalizations, crimes, and
+  accidents. Kerala's policy shift to beer/wine via 380 licenses cut such
+  problems. Beer also boosts barley as a cash crop, as in Rajasthan with SAB
+  Miller. From a classical-liberal view, delinking beer taxation from hard
+  liquor, rationalizing laws, ending the licensing raj, and adopting central
+  taxation would unleash foreign investment, local entrepreneurship, skilled
+  jobs, and align with 'Make in India' by freeing the market.
+key_points:
+  - >-
+    India taxes beer 60% more than hard liquor despite lower alcohol content,
+    making it over twice as costly per ml of alcohol.
+  - >-
+    Excessive taxes and 26 regulations stifle beer consumption at 1.6 liters per
+    capita and industry growth at 12%, favoring harmful spirits.
+  - >-
+    Kerala's shift to beer/wine licensing reduced alcohol-related crimes,
+    accidents, and hospitalizations.
+  - >-
+    Liberalizing beer market via delinking taxes, ending licenses, and central
+    policy would boost barley farming, jobs, and 'Make in India'.
+topics:
+  - alcohol-taxation
+  - beer-industry
+  - public-health
+  - economic-liberalization
 tags:
   - Beer
   - Alcohol
   - liberalisation
   - Economics
+source_hash: 50c929446c364904a679edab0eb1ccab9512a4dc89f07e57249d73bfe7744ec7
+summary_hash: 50c929446c364904a679edab0eb1ccab9512a4dc89f07e57249d73bfe7744ec7
+summary_at: '2026-05-05T09:57:27.119Z'
 ---
 **By Archit Puri**
 

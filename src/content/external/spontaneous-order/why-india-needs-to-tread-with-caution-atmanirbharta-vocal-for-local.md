@@ -4,14 +4,51 @@ title: >-
   Local’
 original_url: >-
   https://www.spontaneousorder.in/p/why-india-needs-to-tread-with-caution-atmanirbharta-vocal-for-local
+author: Spontaneous Order
 published_at: '2020-08-06T16:19:40.000Z'
 ingested_at: '2026-05-05T08:31:42.389Z'
-source_hash: 04fc480192fb38c86bad08968c196d632f78fd99af9b6ece954e7117c23f1662
-author: Spontaneous Order
 excerpt: >-
   Ideologically, we have simply repackaged Make in India and served it with
   renewed enthusiasm. This should not come as a surprise; after all this nation
   is built on the back of ‘Swadeshi’ and ‘Self-Reliant India’.
+summary: >-
+  India must approach 'Atmanirbharta' (self-reliant India) and 'Vocal for Local'
+  with caution, as these slogans repackage the failed 'Make in India' initiative
+  rooted in protectionist 'Swadeshi' ideals unsuitable for a globalized economy.
+  The author argues that 'Make in India' led to plummeting new project
+  investments since 2015, sluggish FDI in manufacturing, stagnant employment and
+  wages, and India's mere 2% share of world exports. High tariffs averaging
+  17.1%—among the world's highest per WTO—shield inefficient MSMEs but foster
+  complacency, as seen in the recent ban on global tenders up to Rs 200 crore to
+  protect them from 'unfair' foreign competition. Protectionism contradicts
+  building competitive supply chains requiring technology and expertise.
+  Instead, India should embrace free markets and trade, allowing competition to
+  incentivize local innovation—big chains introduce products that even benefit
+  small grocers. Dismantle barriers, avoid central planning which lacks local
+  knowledge, and let entrepreneurs drive growth. Positive elements like
+  privatizing non-strategic PSEs, PPPs for 6 airports, space sector opening, and
+  facilities for farmers and housing offer true self-reliance paths.
+key_points:
+  - >-
+    'Make in India' failed with investments dropping since 2015 and sluggish
+    manufacturing FDI.
+  - >-
+    India's 17.1% average tariffs and 2% world export share make self-reliance
+    improbable without free trade.
+  - >-
+    Banning global tenders up to Rs 200 crore protects inefficient MSMEs,
+    breeding complacency rather than competitiveness.
+  - >-
+    Embrace free markets and competition to incentivize local producers instead
+    of protectionism.
+  - >-
+    Prioritize privatization of PSEs and PPPs in sectors like airports and space
+    for genuine growth.
+topics:
+  - atmanirbhar-bharat
+  - protectionism
+  - free-trade
+  - make-in-india
 tags:
   - India
   - publicpolicy
@@ -22,6 +59,9 @@ tags:
   - economy
   - Localisation
   - FDI
+source_hash: 04fc480192fb38c86bad08968c196d632f78fd99af9b6ece954e7117c23f1662
+summary_hash: 04fc480192fb38c86bad08968c196d632f78fd99af9b6ece954e7117c23f1662
+summary_at: '2026-05-05T13:05:39.016Z'
 ---
 **By Dhruvit Shah**
 

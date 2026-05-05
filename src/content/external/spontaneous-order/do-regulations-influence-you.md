@@ -1,18 +1,51 @@
 ---
 title: Do regulations influence you?
 original_url: 'https://www.spontaneousorder.in/p/do-regulations-influence-you'
+author: Spontaneous Order
 published_at: '2004-11-17T03:18:28.000Z'
 ingested_at: '2026-05-05T08:31:42.695Z'
-source_hash: d621134cbc4059c362101d6366c021af95e6def2ae5cd7b29e7ccd1e3da8fa0a
-author: Spontaneous Order
 excerpt: >-
   Consider each of these carefully? It seems logical to introduce safety belts.
   Introduce them and then you may find that accidents have increased though
   fatalities may have decreased. Because drivers get more reckless and prone to
   accidents. There are le..
+summary: >-
+  Regulations often lead to unintended consequences by altering human incentives
+  and behavior, a classical-liberal caution against presuming benevolent
+  government interventions. Mandatory seatbelts, while reducing fatalities,
+  increase overall accidents as drivers become more reckless, exemplifying the
+  Peltzman effect where safety measures encourage riskier behavior.
+  Anti-discrimination laws prohibiting firing disabled employees raise hiring
+  risks for employers, who anticipate higher firing costs if performance
+  falters, resulting in fewer disabled people being hired. Free government
+  education removes parents' financial stake, incentivizing acceptance of
+  poor-quality schooling without accountability, contributing to deficiencies in
+  systems like India's government elementary education. The author urges
+  circumspection toward such schemes, as they distort natural market-driven
+  choices for value-for-money outcomes, potentially worsening the problems they
+  aim to solve.
+key_points:
+  - >-
+    Seatbelt mandates reduce fatalities but increase accidents due to driver
+    recklessness (Peltzman effect).
+  - >-
+    Anti-discrimination laws for disabled workers deter hiring by raising
+    employer firing costs and risks.
+  - >-
+    Free government education leads to poor quality as parents lack financial
+    skin in the game and accountability.
+  - Be wary of regulations' impacts on human behavior before supporting them.
+topics:
+  - unintended-consequences
+  - government-regulations
+  - peltzman-effect
+  - free-education
 tags:
   - debate
   - regulations
+source_hash: d621134cbc4059c362101d6366c021af95e6def2ae5cd7b29e7ccd1e3da8fa0a
+summary_hash: d621134cbc4059c362101d6366c021af95e6def2ae5cd7b29e7ccd1e3da8fa0a
+summary_at: '2026-05-05T09:35:11.046Z'
 ---
 **By Naveen Mandava**
 

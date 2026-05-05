@@ -1,20 +1,63 @@
 ---
 title: The case against Maternity Benefit Act 2017
 original_url: 'https://www.spontaneousorder.in/p/the-case-against-maternity-benefit-act-2017'
+author: Spontaneous Order
 published_at: '2018-08-06T09:37:11.000Z'
 ingested_at: '2026-05-05T08:31:42.523Z'
-source_hash: 33bfb859a1a771c185239a3dbf330ea8ddb3eefa94b3714979e2ce74bf24c9cc
-author: Spontaneous Order
 excerpt: >-
   The Maternity Benefit (Amendment) Act that came into effect in April last
   year, had been hailed as “a step forward” when it had been tabled before the
   Parliament, and had been praised for “making India proud around the world” and
   “bringing women
+summary: >-
+  The Maternity Benefit (Amendment) Act 2017, extending paid maternity leave to
+  26 weeks and mandating crèche facilities for firms with 50+ employees, has
+  backfired by deterring SMEs and startups from hiring women, as revealed by two
+  surveys. TeamLease's poll of 350 firms found 26% prefer male hires, 40% factor
+  in costs (totaling 66% impacted), 35% see negative effects on
+  costs/profitability, and only 22% unaffected. LocalCircles' survey of 2987
+  respondents showed 11% hired only males and 43% mostly males post-Act,
+  fostering anti-female bias. From a classical-liberal viewpoint, this
+  exemplifies Frédéric Bastiat's 'unseen effects': mandates ignore business
+  incentives, imposing uniform costs that rob firms and women of choice in
+  maternity policies. Without the law, markets would evolve optimal policies via
+  competition for talent. Alternatives include state-funded leave (58% of
+  countries per 2014 ILO report), mixed employer-state models (16%), partial
+  salary payments (e.g., Canada's 55% for 15 weeks), tax incentives, or
+  exemptions for small firms—trends showing employer-only liability (25%
+  globally) declining. India's policy exacerbates the 50% gender workforce gap
+  amid other barriers.
+key_points:
+  - >-
+    TeamLease survey: 66% of 350 SMEs/startups admit maternity leave costs bias
+    hiring against women, with 35% reporting negative profitability impact.
+  - >-
+    LocalCircles survey: 54% of 2987 SMEs/startups hired mostly or only males
+    since the Act's implementation.
+  - >-
+    Mandates like 26 weeks paid leave create unintended consequences by
+    overriding market-driven maternity policies that balance costs and worker
+    preferences.
+  - >-
+    ILO data shows 74% of countries fund maternity leave via social security or
+    mixed models, not pure employer liability as in India.
+  - >-
+    Policy alternatives: Public funding, partial wage replacement, tax
+    incentives, or small-firm exemptions to boost female hiring without
+    mandates.
+topics:
+  - maternity-leave
+  - labor-regulation
+  - women-employment
+  - unintended-consequences
 tags:
   - Gender Equality
   - Maternity leave
   - Gender Pay Gap
   - Maternity Benefit (Amendment) Act
+source_hash: 33bfb859a1a771c185239a3dbf330ea8ddb3eefa94b3714979e2ce74bf24c9cc
+summary_hash: 33bfb859a1a771c185239a3dbf330ea8ddb3eefa94b3714979e2ce74bf24c9cc
+summary_at: '2026-05-05T12:19:33.821Z'
 ---
 **By Vineet Bhalla**
 

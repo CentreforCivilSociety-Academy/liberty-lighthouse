@@ -1,15 +1,51 @@
 ---
 title: 'Covid19: Test, test, test; But How?'
 original_url: 'https://www.spontaneousorder.in/p/covid19-test-test-test-but-how'
+author: Spontaneous Order
 published_at: '2020-03-31T15:25:06.000Z'
 ingested_at: '2026-05-05T08:31:42.432Z'
-source_hash: bea4c6bc8b6feaf3752491233edba8f7bdf175dd0edbd4f026d66a0bda061f93
-author: Spontaneous Order
 excerpt: >-
   Now that the country is locked down, many experts have voiced opinions on what
   the government should be doing in this period, besides clarifying on lockdown
   guidelines. I propose a Pradhan Mantri Janta Testing Yojana that uses public
   financing and priva..
+summary: >-
+  Bhuvana Anand proposes the Pradhan Mantri Janta Testing Yojana (PMJTY), a
+  scheme leveraging public financing and private provisioning through a modified
+  voucher system to rapidly expand SARS-CoV-2 testing capacity to 250,000 tests
+  per day amid India's lockdown. This classical-liberal approach emphasizes
+  harnessing private sector capabilities for test kit production, triage,
+  administration, and follow-up care, as government labs alone—limited to 60-75
+  facilities—cannot suffice without risking crowding. Draconian distancing and
+  price controls like the ₹4,500 per test ceiling are critiqued as unsustainable
+  given lifestyle needs, state capacity constraints, and risks of
+  disincentivizing private entry or innovation. Under PMJTY, symptomatic
+  individuals visit private clinics for risk triage and receive government
+  vouchers for free testing, with reimbursement via strategic purchasing
+  agreements. Vouchers address affordability for high-risk groups (exposure,
+  symptoms), enable data tracking for quarantine and follow-up, and integrate
+  with public finance systems, drawing on experiences like PM Bima Suraksha
+  Yojana. Anand stresses clear contracts to mitigate state execution risks,
+  positioning this as optimal for surging supply while preserving market
+  incentives over top-down controls.
+key_points:
+  - >-
+    Ramp up COVID-19 testing to 250,000 tests per day using public funding and
+    private production via PMJTY vouchers.
+  - >-
+    Issue vouchers at private clinics for risk-based triage and free testing,
+    reimbursed by government through strategic purchasing agreements.
+  - >-
+    Avoid price ceilings like ₹4,500 per test to prevent disincentivizing
+    private sector entry and innovation.
+  - >-
+    Vouchers enable out-of-pocket-free access, data tracking for follow-up, and
+    high-frequency monitoring crucial for isolation and treatment.
+topics:
+  - covid-19-testing
+  - public-private-partnerships
+  - vouchers
+  - health-policy
 tags:
   - Global crisis
   - financial crisis
@@ -17,6 +53,9 @@ tags:
   - Public Health
   - pandemic
   - Healthcare
+source_hash: bea4c6bc8b6feaf3752491233edba8f7bdf175dd0edbd4f026d66a0bda061f93
+summary_hash: bea4c6bc8b6feaf3752491233edba8f7bdf175dd0edbd4f026d66a0bda061f93
+summary_at: '2026-05-05T09:27:13.385Z'
 ---
 **By Bhuvana Anand**
 

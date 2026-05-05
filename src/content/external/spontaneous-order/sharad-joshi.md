@@ -1,21 +1,63 @@
 ---
 title: Why remember Sharad Joshi?
 original_url: 'https://www.spontaneousorder.in/p/sharad-joshi'
+author: Spontaneous Order
 published_at: '2019-09-03T07:33:36.000Z'
 ingested_at: '2026-05-05T08:31:42.473Z'
-source_hash: 24be19520fef2afd21416a2f0c31a37108fbd0775f407e4bf66b1b7e04400365
-author: Spontaneous Order
 excerpt: >-
   On this day, 85 years ago, Sharad Joshi was born like an ordinary man, like
   all of us. Then why Sharad Joshi’s birth should be remembered and celebrated?
   When Sharad Joshi came to India in the 70s, there was a huge boom of tragedy
   leaders in our country
+summary: >-
+  On Sharad Joshi's 85th birth anniversary, Dinesh Sharma argues for remembering
+  him as a champion of individual freedom and dignity against 'tragedy leaders'
+  who exploited caste, farmer, and Dalit divisions in 1970s India to demand
+  endless government concessions, perpetuating feudalism and blocking modernity
+  from Western influences. These leaders offered cosmetic reforms that created
+  an army of economically ignorant caste representatives, enemies of India's
+  progress, preferring lifelong 'treatment' without cures. Joshi, conversely,
+  viewed governments as a necessary evil, rejecting pedestaled demands that
+  invite state brutality on citizens' freedoms. He pioneered producer freedom by
+  demanding elimination of restrictive laws rather than harsher punishments,
+  prioritizing dignity over entitlements. Meeting Joshi on 25 December 1994
+  transformed Sharma's view of leaders, shifting from idolizing Robin Hood
+  figures and leftists to judging by societal impact. Joshi was a cosmopolitan
+  polymath—reciting Sanskrit poetry yet embracing French—ridiculing caste
+  identities as 'degeneration of birth' and valuing street vendors over
+  degree-holding unemployed youth. The true tribute: reject demand lists,
+  instead promote global ideas and innovations for productive, artistic,
+  dignified lives, liberating humanity beyond birth-based limits.
+key_points:
+  - >-
+    Sharad Joshi rejected government demands in favor of individual freedom and
+    dignity, viewing the state as a necessary evil.
+  - >-
+    He advocated eliminating restrictive laws to liberate producers rather than
+    imposing stricter punishments.
+  - >-
+    Joshi critiqued caste-based leaders as anti-modernity exploiters who
+    perpetuate suffering for prestige.
+  - >-
+    Value productive street vendors over idle educated unemployed, as per
+    Joshi's classical-liberal ethos.
+  - >-
+    True tribute to Joshi: promote global human innovations for dignified lives,
+    not government petitions.
+topics:
+  - individual-freedom
+  - anti-statism
+  - caste-politics
+  - producer-rights
 tags:
   - Sharad Joshi
   - Indian Liberal Tradition
   - Indian liberals
   - Maharashtra
   - Indian Libertarian
+source_hash: 24be19520fef2afd21416a2f0c31a37108fbd0775f407e4bf66b1b7e04400365
+summary_hash: 24be19520fef2afd21416a2f0c31a37108fbd0775f407e4bf66b1b7e04400365
+summary_at: '2026-05-05T11:39:35.576Z'
 ---
 **By Dinesh Sharma**
 

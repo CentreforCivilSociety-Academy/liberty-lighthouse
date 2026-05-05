@@ -1,20 +1,59 @@
 ---
 title: Economics of Science
 original_url: 'https://www.spontaneousorder.in/p/economics-of-science'
+author: Spontaneous Order
 published_at: '2010-08-03T11:56:17.000Z'
 ingested_at: '2026-05-05T08:31:42.649Z'
-source_hash: 201ceaee78416c26cde034dace73401b83ad1778894965fcee354bcf01865e83
-author: Spontaneous Order
 excerpt: >-
   When an entrepreneur invests his savings or borrowings in a business venture,
   he is primarily motivated by the profit incentive. Same is true for his making
   investments in the field of research and development, where he is trying to
   outsmart his competi..
+summary: >-
+  Private entrepreneurs invest in research and development driven by profit
+  incentives to outcompete rivals and serve customers better, fueling historical
+  civilizational progress through market spontaneity. In contrast, government
+  investments in science, funded by taxpayers, lack personal stakes for
+  officials, leading to allocations dictated by pressure groups and short-term
+  electoral goals rather than merit, resulting in resource wastage. Economists
+  Thomas J. McQuade and William N. Butos, in their 2003 paper 'Order-Dependent
+  Knowledge and the Economics of Science,' frame science as a Hayekian
+  spontaneous order emerging from self-interested pursuits. Their 2006 paper
+  'Government and Science: A Dangerous Liaison' argues that government funding
+  creates scientific winners and losers based on political funding access rather
+  than achievement, recommending bypassing political connections. They analogize
+  this distortion to price controls, subsidies, and central planning harming
+  free markets. The Climategate scandal, where climatologists exaggerated
+  anthropogenic global warming for personal agendas, exemplifies these perils,
+  reinforcing the case against public funding of science from a
+  classical-liberal viewpoint favoring emergent market orders over state
+  intervention.
+key_points:
+  - >-
+    Private R&D succeeds due to profit-driven competition, unlike
+    taxpayer-funded government science swayed by politics.
+  - >-
+    Government science funding favors those skilled at securing political grants
+    over scientific merit, creating distortions.
+  - >-
+    Bypass political connections in science funding to restore merit-based
+    progress, akin to avoiding market interventions like subsidies.
+  - >-
+    Climategate illustrates how public funding enables agenda-driven
+    exaggeration in climate science.
+topics:
+  - economics-of-science
+  - government-funding
+  - public-choice
+  - hayekian-order
 tags:
   - private business agenda
   - global warming
   - market resources
   - Climate Change
+source_hash: 201ceaee78416c26cde034dace73401b83ad1778894965fcee354bcf01865e83
+summary_hash: 201ceaee78416c26cde034dace73401b83ad1778894965fcee354bcf01865e83
+summary_at: '2026-05-05T09:44:12.640Z'
 ---
 **By Kumar Anand**
 

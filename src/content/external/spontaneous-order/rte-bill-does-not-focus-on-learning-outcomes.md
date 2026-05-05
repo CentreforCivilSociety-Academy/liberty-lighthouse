@@ -1,18 +1,56 @@
 ---
 title: RTE Bill Does not Focus on Learning Outcomes
 original_url: 'https://www.spontaneousorder.in/p/rte-bill-does-not-focus-on-learning-outcomes'
+author: Spontaneous Order
 published_at: '2009-07-28T11:53:22.000Z'
 ingested_at: '2026-05-05T08:31:42.660Z'
-source_hash: 6b2606bc45aa70af6bb30219cb5b1bbd04a238bb761d0a918dcae5c8b80bd1cf
-author: Spontaneous Order
 excerpt: >-
   This is part of the Economic Times Debate on RTE Bill on July 24: The Right to
   Education (RTE) Bill is schizophrenic in addressing the issue of equality. The
   reservation of 25% seats for weaker sections in all private schools improves
   equity of access a..
+summary: >-
+  Parth Shah critiques the Right to Education (RTE) Bill as schizophrenic on
+  equality: its 25% seat reservation for weaker sections in private schools acts
+  as a voucher scheme, enhancing poor parents' access and choice to quality
+  education. However, stringent infrastructure mandates, including playgrounds,
+  would render budget private schools illegal, eliminating the limited options
+  poor families currently have for affordable English-medium education. Shah
+  argues against forcibly closing these schools, asserting that if government
+  schools improve as promised within three years, market competition would
+  naturally phase out low-quality privates—making their persistence a true
+  measure of the Bill's success. The Bill emphasizes inputs over learning
+  outcomes, guaranteeing schooling but not actual education, thus undermining
+  quality in the rush of the 100-day agenda. Shah urges revisiting quality via
+  modifications to clauses 8, 9, and 29 before Lok Sabha tabling. He supports
+  empowering School Management Committees (with 50% women) to manage funds and
+  staff for effective local governance, calling for the Bill's remake post-Rajya
+  Sabha passage to deliver genuine choice and accountability.
+key_points:
+  - >-
+    RTE Bill's 25% reservation in private schools functions as a voucher scheme
+    improving equity and parental choice.
+  - >-
+    Infrastructure requirements would illegalize budget private schools, denying
+    poor parents English-medium options.
+  - >-
+    Bill prioritizes inputs over learning outcomes, promising schooling but not
+    education.
+  - 'Modify clauses 8, 9, and 29 to ensure quality focus.'
+  - >-
+    Empower School Management Committees with full financial and operational
+    authority.
+topics:
+  - rte-bill
+  - school-choice
+  - learning-outcomes
+  - private-education
 tags:
   - RTE Bill
   - School Choice. Vouchers
+source_hash: 6b2606bc45aa70af6bb30219cb5b1bbd04a238bb761d0a918dcae5c8b80bd1cf
+summary_hash: 6b2606bc45aa70af6bb30219cb5b1bbd04a238bb761d0a918dcae5c8b80bd1cf
+summary_at: '2026-05-05T11:29:42.014Z'
 ---
 **By Parth Shah**
 

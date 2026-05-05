@@ -1,13 +1,25 @@
 ---
 title: 'SO Basically Episode 3: Who funds your neta?'
 original_url: 'https://www.spontaneousorder.in/p/so-basically-episode-3-who-funds-your-neta'
+author: Spontaneous Order
 published_at: '2019-04-18T05:46:32.000Z'
 ingested_at: '2026-05-05T08:31:42.491Z'
-source_hash: 0f55adc0c287327099b59807c5b75c2630c3250e8ca37af84a700f58ced13cfc
-author: Spontaneous Order
 excerpt: >-
   Watch other episodes:
   https://spontaneousorder.in/so-basically-episode-02-kisan-garib-kyu-hai-the-way-out/
+summary: >-
+  Post is fragmentary and lacks substantive content; it includes only the title
+  'SO Basically Episode 3: Who funds your neta?', a link to Episode 2 on
+  agricultural issues, and a brief 'About Spontaneous Order' description framing
+  the series as a classical-liberal critique of pseudo-socialism in Indian
+  history and politics. No central argument, facts, or conclusion provided.
+key_points:
+  - >-
+    Episode 3 of SO Basically series titled 'Who funds your neta?', inquiring
+    into political funding.
+topics:
+  - political-funding
+  - india-politics
 tags:
   - political parties
   - Political funding
@@ -19,6 +31,9 @@ tags:
   - Politics
   - politics in India
   - electoral funding
+source_hash: 0f55adc0c287327099b59807c5b75c2630c3250e8ca37af84a700f58ced13cfc
+summary_hash: 0f55adc0c287327099b59807c5b75c2630c3250e8ca37af84a700f58ced13cfc
+summary_at: '2026-05-05T11:49:11.352Z'
 ---
 **By Spontaneous Order**
 

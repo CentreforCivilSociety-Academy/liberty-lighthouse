@@ -1,15 +1,54 @@
 ---
 title: How do we plan our cities?
 original_url: 'https://www.spontaneousorder.in/p/cities-plan'
+author: Spontaneous Order
 published_at: '2016-07-25T19:55:45.000Z'
 ingested_at: '2026-05-05T08:31:42.549Z'
-source_hash: ab490a01d4cde7a7311cabde63776705bef86ef459b7531a25af9e5fdee91ab7
-author: Spontaneous Order
 excerpt: >-
   Last week, Mint carried a wonderful article (Liberalizing India’s urban
   thinking) by Sanjeev Sanyal on the need to shed the old attitude of central
   planning when it comes to managing our cities. While socialist-era thinking
   has quietly been in retreat w
+summary: >-
+  Shreyas Bharadwaj endorses Sanjeev Sanyal's call to abandon socialist-era
+  central planning in Indian urban development, arguing that while economic and
+  foreign policies have liberalized, urban thinking remains rigidly planned,
+  yielding sterile outcomes like Chandigarh rather than dynamic successes like
+  Gurgaon evolving toward Singapore or Hong Kong. From a market-urbanist
+  perspective, 'managing Gurgaon better' requires government to deregulate
+  extensively: reform building bye-laws to minimize enforcement, reduce zoning
+  to eliminate violation monitoring, relax land use norms around commercial
+  centers, and adopt the Model Shops and Establishments Act. Government should
+  instead build capacity to manage infrastructure expansion, allocate prime
+  public land efficiently, leverage financial markets for funding, and enhance
+  intra-city mobility. Bharadwaj laments the scarcity of urban planners versed
+  in urban economics, noting most graduates and professors reject phased FSI/FAR
+  relaxations and zoning reforms as unsustainable or destructive, clinging to
+  master plans. Capacity-building efforts like NITI Aayog's program with
+  Singapore's TEMASEK and SCE are insufficient for India's vast urban scale. He
+  doubts the Smart Cities scheme's efficacy despite thousands of crores
+  invested, predicting it will devolve into costly tech upgrades and added
+  bureaucracy due to rigid plans. Smaller reforms via Housing for All (tenancy
+  and zoning) and AMRUT (utility upgrades) offer promising steps to erode
+  planners' grip.
+key_points:
+  - >-
+    Governments should deregulate building bye-laws, zoning, and land use norms
+    to foster organic urban growth like Gurgaon.
+  - >-
+    Focus government capacity on infrastructure ramp-up, resource management,
+    financial market funding, and mobility rather than over-planning.
+  - >-
+    Indian urban planners lack urban economics knowledge and resist FSI/FAR
+    relaxations in favor of master plans.
+  - >-
+    Smart Cities Mission risks becoming bureaucratic tech spending; prioritize
+    reforms like Housing for All and AMRUT.
+topics:
+  - urban-planning
+  - zoning-reforms
+  - smart-cities
+  - market-urbanism
 tags:
   - Smart City
   - Gurgaon
@@ -17,6 +56,9 @@ tags:
   - Smart Cities
   - Urbanisation
   - Urban Planning
+source_hash: ab490a01d4cde7a7311cabde63776705bef86ef459b7531a25af9e5fdee91ab7
+summary_hash: ab490a01d4cde7a7311cabde63776705bef86ef459b7531a25af9e5fdee91ab7
+summary_at: '2026-05-05T09:22:01.451Z'
 ---
 **By Shreyas Bharadwaj**
 

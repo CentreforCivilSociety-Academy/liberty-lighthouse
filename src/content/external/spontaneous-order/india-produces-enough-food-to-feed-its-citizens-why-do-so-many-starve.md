@@ -2,15 +2,50 @@
 title: 'INDIA PRODUCES ENOUGH FOOD TO FEED ITS CITIZENS: WHY DO SO MANY STARVE?'
 original_url: >-
   https://www.spontaneousorder.in/p/india-produces-enough-food-to-feed-its-citizens-why-do-so-many-starve
+author: Spontaneous Order
 published_at: '2012-05-14T10:56:35.000Z'
 ingested_at: '2026-05-05T08:31:42.619Z'
-source_hash: 531f4b3c0d5a06db5862c26bff4ff7750c4bc38271347491983aa54b4583f27b
-author: Spontaneous Order
 excerpt: >-
   According to the International Food Policy Research Institute’s 2011 Global
   Hunger Index, India ranked 67th out of 81 countries & had 200 million
   “food-insecure” people, the most of any country. A convincing case can be made
   that policy intervention
+summary: >-
+  India produces enough food to feed its citizens yet ranks 67th out of 81 on
+  the 2011 Global Hunger Index with 200 million food-insecure people, due to
+  policy interventions as per Christopher Lingle's classical-liberal critique.
+  He coins 'Lingle’s Law,' where government interventions create distortions
+  requiring further interventions, trapping economies in cycles that undermine
+  growth. The Public Distribution System (PDS) exemplifies this, with nearly 50%
+  of wheat and rice lost to corruption or waste by politically connected
+  parties. To fix PDS failures, the Food Guarantee Scheme introduced ration
+  cards, standardized packaging, and GPS-tracked transport, compounding
+  inefficiencies. Record 2012 foodgrain production swelled government stocks to
+  75 million tonnes against 50 million tonnes storage capacity, causing rot
+  while farmers suffer and people starve; the Food Corporation of India responds
+  by building more godowns rather than addressing root causes. Lingle advocates
+  eliminating market-interfering policies: lift export bans, end state
+  taxes/levies beyond minimum support prices, remove inter-state trade barriers,
+  and shift to competitive private 'mandis' for handling and distribution to
+  curb waste, corruption, and subsidies.
+key_points:
+  - >-
+    Government policies like PDS cause nearly 50% loss of foodgrains to
+    corruption and waste.
+  - >-
+    Excess food stocks of 75 million tonnes exceed 50 million tonnes storage
+    capacity, leading to rot amid hunger.
+  - >-
+    Lingle’s Law describes how interventions create distortions necessitating
+    more interventions in a vicious cycle.
+  - >-
+    Solutions include lifting export bans, ending state taxes and trade
+    barriers, and enabling private competitive mandis.
+topics:
+  - food-policy
+  - government-intervention
+  - agricultural-markets
+  - market-liberalization
 tags:
   - India's foodgrain market
   - food-insecure people
@@ -19,6 +54,9 @@ tags:
   - Lingle's Law
   - Global Hunger Index
   - Food Guarantee Scheme
+source_hash: 531f4b3c0d5a06db5862c26bff4ff7750c4bc38271347491983aa54b4583f27b
+summary_hash: 531f4b3c0d5a06db5862c26bff4ff7750c4bc38271347491983aa54b4583f27b
+summary_at: '2026-05-05T10:20:11.131Z'
 ---
 **By Christopher Lingle**
 

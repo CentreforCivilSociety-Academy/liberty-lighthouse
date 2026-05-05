@@ -1,18 +1,57 @@
 ---
 title: Small is better?
 original_url: 'https://www.spontaneousorder.in/p/small-is-better'
+author: Spontaneous Order
 published_at: '2004-10-05T02:54:19.000Z'
 ingested_at: '2026-05-05T08:31:42.697Z'
-source_hash: da962d38f8f4e0cabdf299e75d36d7aa82d5adb2598aa7c465f0a1a8c6d18467
-author: Spontaneous Order
 excerpt: >-
   Yesterday I was watching NDTV and there was a debate over whether we should
   have smaller states. Of course it was a waste of time. No one seems to make
   any substantial point in those debates. If someone makes an attempt, the
   anchor immediately calls for..
+summary: >-
+  Aftab skeptically analyzes the debate on creating smaller states in India,
+  like splitting Maharashtra, dismissing emotional arguments about national
+  unity or regional pride as unsubstantiated. He critiques economic claims, such
+  as Vidarbha's supposed inviability due to lacking natural resources, noting
+  this ironically suggests shedding resource-drains. Proponents' case for
+  smaller states enabling focused government development alarms the capitalist
+  author, who fears bureaucratic disasters and duplication of ministries,
+  courts, and infrastructure, eroding economies of scale. The sole compelling
+  advantage—states competing to attract private investment—hinges on fiscal
+  independence, requiring states to raise their own revenues. However, India's
+  federalism centralizes tax collection, redistributing funds via vague formulas
+  that invite populist schemes and blame-shifting, as seen in Maharashtra's
+  Mumbai complaints and Bihar's coal royalty gripes. Without financial
+  accountability, smaller states merely fragment handouts rather than foster
+  competition. Thus, from a classical-liberal view prioritizing market-driven
+  growth over government meddling, the case for more states fails absent true
+  fiscal federalism, which isn't the agitators' goal of securing 'fair shares'
+  from the Centre.
+key_points:
+  - >-
+    Emotional and simplistic economic arguments fail to justify or oppose
+    smaller states.
+  - >-
+    Smaller states risk government-led development failures and bureaucratic
+    duplication without offsetting gains.
+  - >-
+    Inter-state competition for investment requires fiscal autonomy, which
+    India's centralized tax system prevents.
+  - >-
+    Creating smaller states without financial independence perpetuates
+    dependency and politicking rather than reform.
+topics:
+  - state-reorganization
+  - fiscal-federalism
+  - inter-state-competition
+  - indian-federalism
 tags:
   - economy
   - smaller states
+source_hash: da962d38f8f4e0cabdf299e75d36d7aa82d5adb2598aa7c465f0a1a8c6d18467
+summary_hash: da962d38f8f4e0cabdf299e75d36d7aa82d5adb2598aa7c465f0a1a8c6d18467
+summary_at: '2026-05-05T11:46:03.008Z'
 ---
 **By Aftab**
 

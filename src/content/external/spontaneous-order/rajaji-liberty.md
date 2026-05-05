@@ -3,20 +3,63 @@ title: >-
   #ThrowbackThursday: C Rajagopalachari — Liberty, Public Good, and State
   Coercion (1965)
 original_url: 'https://www.spontaneousorder.in/p/rajaji-liberty'
+author: Spontaneous Order
 published_at: '2015-12-17T19:29:01.000Z'
 ingested_at: '2026-05-05T08:31:42.567Z'
-source_hash: c59cfaeaa5c26e0474f82195c5d96acde20763247b341a746bd27093138b5dbb
-author: Spontaneous Order
 excerpt: >-
   The following article was published in the Swatantra Souvenir published in
   1973; and was originally written by C Rajagopalachari in 1965. In the piece,
   Rajaji talks about the meaning of liberalism, and of Swatantra Party’s
   commitment to liberty. Politi.
+summary: >-
+  C. Rajagopalachari defines political liberalism as minimizing state
+  encroachment on individual freedom, limiting government to maintaining order
+  while promoting free enterprise, free trade, competition, and liberties of
+  thought, conscience, press, and research—embodied in the Swatantra Party's
+  commitment to 'Swatantra' (freedom). He distinguishes this from corrupted
+  'neo-liberalism' in the US, which supports greater state coercion for the
+  'public good,' and critiques India's Congress Party for adopting coercive
+  socialism via the 'Permit-Licence-Quota-raj,' leading to high taxation,
+  bureaucratic tyranny, and official oligarchy as predicted by Herbert Spencer.
+  Spencer warned that socialism justifies extreme measures, resulting in
+  unchecked coercion by officials prioritizing their interests, vindicated in
+  India's scene of inefficient state management defended by politicians.
+  Elections do not enhance character or prevent despotic bureaucracy; liberty is
+  measured by minimal restraints on individuals, not governmental form. Rajaji
+  rejects Congress's internal maneuvers to maintain power and proposes limiting
+  all governments' powers to subtract from individual freedom, upholding the
+  1950 Constitution's Fundamental Rights for minimum government and maximum
+  citizen freedom—the Swatantra Party's and global liberals' stance against
+  ideological corruption.
+key_points:
+  - >-
+    Political liberalism requires minimal state intervention to preserve
+    individual freedoms and voluntary cooperation, opposing coercive socialism
+    like India's Permit-Licence-Quota-raj.
+  - >-
+    Herbert Spencer's warnings of socialism breeding tyrannical bureaucracy
+    through unchecked coercion are evident in India's high taxation and
+    inefficient state control.
+  - >-
+    True liberty depends on few restraints imposed by government, regardless of
+    elections or representative machinery.
+  - >-
+    Governments must be restricted from subtracting individual freedoms,
+    aligning with India's Fundamental Rights and the Swatantra Party's platform
+    for minimum government.
+topics:
+  - classical-liberalism
+  - swatantra-party
+  - minimal-government
+  - state-coercion
 tags:
   - Libertarian Scholars
   - Indian Liberal Tradition
   - C Rajagopalachari
   - IndianLiberals.in
+source_hash: c59cfaeaa5c26e0474f82195c5d96acde20763247b341a746bd27093138b5dbb
+summary_hash: c59cfaeaa5c26e0474f82195c5d96acde20763247b341a746bd27093138b5dbb
+summary_at: '2026-05-05T11:22:23.632Z'
 ---
 **By Ujwal Batra**
 

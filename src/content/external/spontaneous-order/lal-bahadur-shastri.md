@@ -1,15 +1,55 @@
 ---
 title: 'The Unfinished Liberalisation: Political Economy of Shastri Years'
 original_url: 'https://www.spontaneousorder.in/p/lal-bahadur-shastri'
+author: Spontaneous Order
 published_at: '2019-10-03T11:45:29.000Z'
 ingested_at: '2026-05-05T08:31:42.466Z'
-source_hash: db746278a73dbbe8003f37208954d9cb57370cd564c8e004545b4666e6bb6065
-author: Spontaneous Order
 excerpt: >-
   The promising but short-lived career of significant political actors often
   makes for interesting what-if scenarios for historians. Certain specific cases
   would include the assassination of John F Kennedy, the death of Sardar Patel
   in 1950, the decline o..
+summary: >-
+  Lal Bahadur Shastri's brief tenure as Prime Minister (1964-1966) marked the
+  start of India's unfinished liberalization, shifting from Nehruvian socialism
+  toward market-oriented pragmatism amid economic crises like food shortages and
+  Third Plan failure. Unlike ideologically rigid socialists, Shastri—shaped by
+  personal poverty and lacking formal planning experience—was open to external
+  expertise, resembling reformer P.V. Narasimha Rao. He curtailed the Planning
+  Commission's centralized power with fixed terms and created the National
+  Development Council for expert input. Prioritizing agriculture over heavy
+  industry for the Fourth Plan, Shastri appointed C. Subramaniam, who drove the
+  Green Revolution through high-yield seeds, price incentives, chemical
+  fertilizers, private sector role, and focused inputs—yielding 5.5% annual
+  wheat growth (1966-77) and food self-sufficiency. The Food Corporation of
+  India initially competed in open markets, per L.K. Jha Committee and World
+  Bank recommendations. Shastri planned currency devaluation and broader
+  liberalization, but his 1966 death enabled Indira Gandhi's leftist reversal.
+  From a classical-liberal view, Shastri proved crises force statist retreats,
+  scripting liberalization's saga cut short.
+key_points:
+  - >-
+    Shastri diminished Planning Commission's dominance by introducing fixed
+    contracts and bypassing it via individual stakeholder meetings and the
+    National Development Council.
+  - >-
+    He redirected Fourth Plan toward agriculture, empowering Subramaniam to
+    implement market incentives, HYV seeds, and fertilizers for Green Revolution
+    success.
+  - >-
+    FCI was established to compete with private traders in open markets,
+    rejecting price controls and coercion.
+  - >-
+    Shastri pursued currency devaluation and liberalization strategy via L.K.
+    Jha, halted only by his sudden death in 1966.
+  - >-
+    Leftist critiques ignored technology's scale-neutral benefits to small
+    farmers and risks of aid dependence without productivity gains.
+topics:
+  - economic-reform
+  - green-revolution
+  - political-economy
+  - agriculture-policy
 tags:
   - Nehruvian-Fabian socialism
   - Lal Bahadur Shastri
@@ -17,6 +57,9 @@ tags:
   - Indian Liberal Tradition
   - Indian liberals
   - shastri
+source_hash: db746278a73dbbe8003f37208954d9cb57370cd564c8e004545b4666e6bb6065
+summary_hash: db746278a73dbbe8003f37208954d9cb57370cd564c8e004545b4666e6bb6065
+summary_at: '2026-05-05T10:38:25.038Z'
 ---
 **By Sanjeet Kashyap**
 

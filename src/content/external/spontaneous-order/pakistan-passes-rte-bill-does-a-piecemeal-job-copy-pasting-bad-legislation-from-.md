@@ -4,20 +4,63 @@ title: >-
   from its neighbour
 original_url: >-
   https://www.spontaneousorder.in/p/pakistan-passes-rte-bill-does-a-piecemeal-job-copy-pasting-bad-legislation-from-its-neighbour
+author: Spontaneous Order
 published_at: '2013-01-08T17:36:14.000Z'
 ingested_at: '2026-05-05T08:31:42.728Z'
-source_hash: 17d9abd7c96061bb6cb2bcdb02d87c0b43ca04cd62156f0e7cfb76e750b13010
-author: Spontaneous Order
 excerpt: >-
   Comparison of Indian RTE Act and Pakistan RTE Bill [Image Courtesy: Top News:
   topnews.in] On Nov 12, 2012, Pakistan’s National Assembly passed the historic
   Right to Free and Compulsory Education Bill, 2012 paving the way to give
   effect to Article 25A ..
+summary: >-
+  Pakistan's National Assembly passed the Right to Free and Compulsory Education
+  Bill 2012 on November 12, implementing Article 25A for children aged 5-16 in
+  Islamabad Capital Territory, largely copy-pasting flaws from India's RTE Act
+  while devolving education to provinces post-18th Amendment. Both ignore early
+  childhood education (ages 3-6), deemed a critical period for brain
+  development. Pakistan mandates 10% reservation for disadvantaged groups in
+  private schools without reimbursement, mirroring India's 25% Section 12 but
+  learning nothing from its implementation failures. Financing assumes
+  concurrent Centre-State responsibility, risking disputes like India's 65-35
+  split that prompted state leaders like Nitish Kumar to demand full central
+  funding. Positively, Pakistan recognizes private initiative with incentives
+  for school setup and grants-in-aid, contrasting India's input-based norms
+  (e.g., infrastructure, teachers) estimated to close 1-2 lakh low-cost private
+  schools by April 2013. Pakistan also introduces teacher awards, absent in
+  India but present in developing nations like Chile and Uganda. Both impose
+  parent duties for neighbourhood school admission—Pakistan adds fines up to Rs.
+  5,000 or 3 months imprisonment—while overlooking quality outcomes; India
+  mandates inputs without accountability, Pakistan delegates norms hopefully
+  including outputs. The classical-liberal critique highlights how both
+  prioritize facilities over education, stifling private supply and ignoring
+  DISE data on rising private enrolments.
+key_points:
+  - >-
+    Pakistan's RTE Bill copies India's 25% private school reservation at 10%
+    without reimbursement, extending to ages 5-16 only in Islamabad.
+  - >-
+    Pakistan incentivizes private schools via grants and setup aid, and
+    introduces teacher awards, unlike India's closure-threatening input norms
+    for 1-2 lakh schools.
+  - >-
+    Both laws neglect early childhood education and outcome-based standards,
+    focusing on inputs and facilities.
+  - >-
+    Parent duties include neighbourhood school admission, with Pakistan
+    penalizing non-compliance via fines or jail.
+topics:
+  - rte-act
+  - education-policy
+  - private-schools
+  - teacher-incentives
 tags:
   - Pakistan
   - RTE
   - India-Pakistan
   - School Choice Campaign
+source_hash: 17d9abd7c96061bb6cb2bcdb02d87c0b43ca04cd62156f0e7cfb76e750b13010
+summary_hash: 17d9abd7c96061bb6cb2bcdb02d87c0b43ca04cd62156f0e7cfb76e750b13010
+summary_at: '2026-05-05T11:11:33.388Z'
 ---
 **By Abhishek Bhattacharya**
 

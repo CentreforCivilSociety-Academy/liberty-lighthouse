@@ -2,19 +2,56 @@
 title: Will work-from-home give a boost to female employment?
 original_url: >-
   https://www.spontaneousorder.in/p/will-work-from-home-give-a-boost-to-female-employment
+author: Spontaneous Order
 published_at: '2021-01-19T11:31:03.000Z'
 ingested_at: '2026-05-05T08:31:42.353Z'
-source_hash: 34424f0eff21fa6ff778de66414bcca129c989072afc2088d3bd33c277aa307c
-author: Spontaneous Order
 excerpt: >-
   The Covid pandemic will change the world permanently in many ways. Most
   obviously, people will increasingly work from home. Workplaces will not
   disappear, but an increasing share of work will be done at home. This will
   save employers office space and an..
+summary: >-
+  The Covid-induced shift to work-from-home (WFH) could permanently reverse
+  India's plummeting female labour-force participation rate (FLPR), which
+  crashed from 33% in the early 1990s to 25% per government data or 11-12% per
+  CMIE surveys, dragging the overall participation rate from 50% a decade ago to
+  a pathetic 41%. While rising education keeps more girls in school—a positive
+  for the long run—deep social and cultural factors, especially in a
+  Muslim-influenced belt from north Africa to north India affecting Hindu
+  culture, view outside work for women as unsafe and stigmatizing, with families
+  prioritizing status by keeping them home amid falling poverty and rising
+  wages. Urban FLPR remains abysmal at 16%, and farm mechanization has cut rural
+  group work. WFH via Zoom and tele-conferencing allows women to work on par
+  with men without commuting risks, molestation fears, or 'badnami', enabling
+  family chores and servant hiring. The author urges permanently abolishing
+  obsolete telecom rules suspended for Covid and subsidizing firms hiring women
+  for WFH to harness the demographic dividend, boost GDP like Asian miracles,
+  and challenge entrenched culture.
+key_points:
+  - >-
+    India's FLPR has fallen to 11-12%, lowering overall labour participation to
+    41% and squandering the demographic dividend.
+  - >-
+    Cultural norms in north India, influenced by Islamic traditions, deem
+    women's outside work unsafe and status-lowering.
+  - >-
+    WFH eliminates commuting hazards and stigma, enabling women to work
+    productively from home alongside family duties.
+  - >-
+    Government must abolish outdated telecom rules and subsidize companies
+    hiring women for WFH to reverse the trend.
+topics:
+  - work-from-home
+  - female-labour-participation
+  - demographic-dividend
+  - gender-norms
 tags:
   - Swaminomics
   - employment
   - women in India
+source_hash: 34424f0eff21fa6ff778de66414bcca129c989072afc2088d3bd33c277aa307c
+summary_hash: 34424f0eff21fa6ff778de66414bcca129c989072afc2088d3bd33c277aa307c
+summary_at: '2026-05-05T13:08:38.442Z'
 ---
 **By Swaminathan SA Aiyer**
 

@@ -1,15 +1,54 @@
 ---
 title: Hauling Down the Angels
 original_url: 'https://www.spontaneousorder.in/p/hauling-down-the-angels'
+author: Spontaneous Order
 published_at: '2019-01-22T10:25:49.000Z'
 ingested_at: '2026-05-05T08:31:42.509Z'
-source_hash: 141f4c9fa02bfdc2ac775a99aaaa962a41dc52aede5e3393afb46e882a30557a
-author: Spontaneous Order
 excerpt: >-
   In 2016, the newly formed government launched the startup India initiative to
   nurture innovation and promote startups in the country. This initiative, inter
   alia, set up a corpus of 10,000 crores for the purpose of funding startups and
   gave tax exemptio..
+summary: >-
+  The Indian government's 'Angel Tax' under Section 56(2) of the Income Tax Act,
+  introduced in 2012 to curb money laundering by taxing share premiums exceeding
+  fair market value at 30.9%, is harassing startups and investors, treating
+  investments as taxable income. This has caused a 40% reduction in angel
+  investment and seed funding, with over 2000 startups receiving notices
+  demanding 40-50% of raised funds since 2013, prompting high-profile criticism
+  from figures like Mohandas Pai and Kiran Mazumdar Shaw. Valuing early-stage
+  startups is inherently difficult using methods like cost-to-duplicate or
+  discounted cash flow, which fail to capture intangibles and future potential,
+  making the tax an ill-conceived barrier to entrepreneurship vital for India's
+  young population and job creation. Despite Startup India's 10,000 crore corpus
+  and tax exemptions, bureaucratic scrutiny under Section 68 exacerbates the
+  issue. Recent government easing—raising exemptions to Rs. 50 lakh, simplifying
+  DIPP-CBDT recognition without merchant banker certificates—offers partial
+  relief, but from a classical-liberal view, policymakers must revisit valuation
+  methodologies to foster genuine innovation without cynically distrusting
+  honest investors, lest they drive capital overseas and stifle the youth-driven
+  growth story.
+key_points:
+  - >-
+    Angel Tax deems share premiums over fair market value as taxable income at
+    30.9%, leading to notices taxing 40-50% of funds raised by over 2000
+    startups.
+  - >-
+    Startup valuations are unreliable using standard methods like
+    cost-to-duplicate or discounted cash flow, which undervalue intangibles and
+    future potential.
+  - >-
+    The tax has caused a 40% drop in angel investment and seed funding, risking
+    capital flight and harming job creation for India's youth.
+  - >-
+    Government recently eased exemptions to Rs. 50 lakh via DIPP-CBDT process
+    but must reform policy to support entrepreneurship without anti-evasion
+    overreach.
+topics:
+  - angel-tax
+  - startups
+  - entrepreneurship
+  - tax-policy
 tags:
   - Angel Tax
   - taxation
@@ -17,6 +56,9 @@ tags:
   - Indian Economy
   - Entrepreneurs
   - Skill India
+source_hash: 141f4c9fa02bfdc2ac775a99aaaa962a41dc52aede5e3393afb46e882a30557a
+summary_hash: 141f4c9fa02bfdc2ac775a99aaaa962a41dc52aede5e3393afb46e882a30557a
+summary_at: '2026-05-05T10:09:29.296Z'
 ---
 **By Hinan Ali**
 

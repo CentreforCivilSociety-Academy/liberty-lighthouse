@@ -2,15 +2,54 @@
 title: Modi has political capital to reform the power sector
 original_url: >-
   https://www.spontaneousorder.in/p/modi-has-political-capital-to-reform-the-power-sector
+author: Spontaneous Order
 published_at: '2020-06-01T16:12:20.000Z'
 ingested_at: '2026-05-05T08:31:42.414Z'
-source_hash: cbb0e3588f0f9ec567cbd38310494935b5d2452918e40e71beafafedea6edb1d
-author: Spontaneous Order
 excerpt: >-
   In Prime Minister Narendra Modi’s Rs 20-trillion package, power reforms are
   the most urgent. Electricity prices have long been political prices unrelated
   to costs, efficiency or morality. For decades, chief ministers took kickbacks
   on power contracts an
+summary: >-
+  Prime Minister Narendra Modi's Rs 20-trillion package provides a critical
+  opportunity to reform India's chronically mismanaged power sector, where
+  political pricing unrelated to costs has led to massive inefficiencies and
+  losses. For decades, chief ministers subsidized electricity for farmers and
+  urban voters off-budget, funded by high industrial tariffs that hurt export
+  competitiveness, while taking kickbacks and ignoring theft. State electricity
+  boards and discoms accumulated nearly Rs 1,00,000 crore in losses, with
+  Aggregate Commercial and Transmission (ACT) losses peaking at 40% in the
+  2000s, now down to 18% but needing to fall below 10%. Past efforts like
+  regulators and the 2015 Ujjwal Discom Assurance Yojana (UDAY) failed due to
+  chief minister sabotage. The new package allows states extra borrowing of 2%
+  of GDP conditional on power reforms: competitive tenders for transmission and
+  generation to curb corruption, privatization of distribution, better
+  billing/collection, and theft reduction. In Uttar Pradesh, innovations like
+  outsourcing rural collections to franchisees, urban smart metering, and
+  pre-paid cards with discounts show promise for incentive-compatible solutions.
+  With BJP ruling most states including laggards like UP, Modi has the political
+  capital to drive these classical-liberal reforms—emphasizing markets,
+  competition, and privatization—to boost economic growth and jobs.
+key_points:
+  - >-
+    India's discoms face Rs 1,00,000 crore losses from political subsidies,
+    theft, and ACT losses now at 18% but needing reduction below 10%.
+  - >-
+    Modi's Rs 20-trillion package ties 2% GDP extra state borrowing to power
+    reforms including competitive tenders, privatization, and improved
+    collections.
+  - >-
+    Past reforms like UDAY failed due to chief minister interference, but Modi's
+    control over most states offers new impetus.
+  - >-
+    Uttar Pradesh innovations—franchisee collections, smart metering, pre-paid
+    cards—demonstrate practical, incentive-aligned steps to fix rural and urban
+    issues.
+topics:
+  - power-sector-reforms
+  - discom-privatization
+  - electricity-subsidies
+  - modi-package
 tags:
   - power-cuts
   - Opinion
@@ -18,6 +57,9 @@ tags:
   - PSU
   - developing countries
   - State control
+source_hash: cbb0e3588f0f9ec567cbd38310494935b5d2452918e40e71beafafedea6edb1d
+summary_hash: cbb0e3588f0f9ec567cbd38310494935b5d2452918e40e71beafafedea6edb1d
+summary_at: '2026-05-05T10:56:02.894Z'
 ---
 **By Swaminathan SA Aiyer**
 

@@ -1,21 +1,67 @@
 ---
 title: Education Ideas for the Budget
 original_url: 'https://www.spontaneousorder.in/p/education-ideas-for-the-budget'
+author: Spontaneous Order
 published_at: '2009-07-06T02:24:11.000Z'
 ingested_at: '2026-05-05T08:31:42.661Z'
-source_hash: e5cafce0343e7b019ee51745e7089f78398e9d7c8606ab97be5953f4d7d50d0e
-author: Spontaneous Order
 excerpt: >-
   Some of the ideas that CCS has been advocating for education in the Budget
   2009: Reward states that put schools under local control: The seventy-third
   and seventy-fourth Constitutional Amendments require Panchayati Raj and Local
   Administrative Bodies, t..
+summary: >-
+  Parth Shah of the Centre for Civil Society advocates six classical-liberal
+  education reforms for India's Budget 2009, emphasizing decentralization,
+  choice, competition, and incentives to enhance quality and access. First,
+  reward states financially for devolving school administration, finances, and
+  functionaries to Panchayati Raj institutions as per the 73rd and 74th
+  Amendments, tying part of SSA funds to effective devolution. Second, create an
+  autonomous National Institute of Learning Assessment with a Rs 100 crore
+  corpus to regularly measure student learning levels nationwide, starting with
+  government schools and expanding, while coordinating international
+  assessments. Third, in the 25 most educationally backward districts, offer
+  conditional cash transfers of Rs 12,000 annually for classes 9-10 and Rs
+  15,000 for 11-12 to all minority and SC/ST girls post-8th standard to boost
+  retention via scholarships and boarding options. Fourth, expand existing
+  pre-metric, post-metric, and PG scholarships fivefold across ministries, with
+  10% of budgets for awareness campaigns, addressing low uptake like the
+  National Means-cum-Merit Scholarship's 33,000 beneficiaries out of 100,000
+  slots in 2008-09. Fifth, grant 'industry status' to vocational training,
+  e-learning, and higher education to attract capital, technology, and
+  management. Sixth, under RMSA, pilot per-student funding in top 25 urban
+  centers, allowing class 8 graduates to choose schools and directing funds
+  accordingly to spur competition and performance. These market-oriented ideas
+  aim to revolutionize education through accountability and innovation.
+key_points:
+  - >-
+    Reward states that devolve school control to local Panchayati Raj bodies
+    with SSA-linked incentives.
+  - >-
+    Establish a Rs 100 crore National Institute of Learning Assessment for
+    ongoing student learning evaluations.
+  - >-
+    Implement Rs 12,000-15,000 annual scholarships for minority and SC/ST girls
+    in 25 backward districts post-class 8.
+  - >-
+    Expand all existing scholarships fivefold with 10% budget for awareness to
+    boost uptake.
+  - >-
+    Pilot per-student funding and school choice in top 25 urban centers under
+    RMSA to drive competition.
+topics:
+  - education-reform
+  - school-choice
+  - education-decentralization
+  - scholarships
 tags:
   - merit scholarships
   - Shiksha Abhiyan
   - National Institute of Learning Assessment
   - Union Budget
   - Girl education
+source_hash: e5cafce0343e7b019ee51745e7089f78398e9d7c8606ab97be5953f4d7d50d0e
+summary_hash: e5cafce0343e7b019ee51745e7089f78398e9d7c8606ab97be5953f4d7d50d0e
+summary_at: '2026-05-05T09:45:10.439Z'
 ---
 **By Parth Shah**
 

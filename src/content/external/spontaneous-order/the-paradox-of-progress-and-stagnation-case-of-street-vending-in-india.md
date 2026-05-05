@@ -2,19 +2,59 @@
 title: 'The Paradox of Progress and Stagnation: Case of Street Vending in India'
 original_url: >-
   https://www.spontaneousorder.in/p/the-paradox-of-progress-and-stagnation-case-of-street-vending-in-india
+author: Spontaneous Order
 published_at: '2025-12-15T10:22:39.000Z'
 ingested_at: '2026-05-05T08:31:42.220Z'
-source_hash: 20df8d91faa86c052dd7b1f362224e88b45041c69b5601ab9d43b4f2dd407a36
-author: Spontaneous Order
 excerpt: >-
   The Street Vendors (Protection of Livelihood and Regulation of Street Vending)
   Act, 2014 promised the street vendors of India legal recognition, designated
   vending zones, and participatory governance through Town Vending Committees.
   Certificates of Vend..
+summary: >-
+  The 2014 Street Vendors Act promised legal recognition, designated vending
+  zones, certificates of vending, and participatory Town Vending Committees, yet
+  a decade later, vendors in Delhi and Jaipur endure precarious uncertainty with
+  arbitrary evictions, unnotified zones, and political capture despite formal
+  mechanisms. In Delhi's Yashwant Place, vendors proudly display certificates
+  but report being removed like those without, excluded from surveys, and
+  sidelined in committees. In Jaipur, where the Centre for Civil Society
+  launched the Jeevika App in 2024, leader Banwari Ji of Heritage City Thadi
+  Thela Union describes municipal identity cards without vending certificates,
+  frequent officer transfers, and politically connected groups occupying prime
+  spaces for illegal rentals, bypassing the Act's democratic governance. This
+  paradox highlights 'spatial security'—enforceable urban space claims under
+  Article 19(1)(g)—existing only on paper amid patronage over legal entitlement.
+  From a classical-liberal perspective, the Act marked progress by legitimizing
+  vending livelihoods, but rights without enforcement, independent institutions,
+  and rejection of hierarchies render them symbolic. Vendors need notified
+  zones, empowered committees, and real protection to bridge regulatory intent
+  and lived security.
+key_points:
+  - >-
+    The 2014 Street Vendors Act's certificates and committees fail to prevent
+    arbitrary evictions in Delhi's Yashwant Place and unnotified zones in
+    Jaipur.
+  - >-
+    Political capture enables informal rentals of prime vending spaces by
+    connected groups, undermining legal entitlements.
+  - >-
+    Spatial security requires enforceable spatial claims and independent
+    institutions beyond paper recognition.
+  - >-
+    Vendors need notified zones, authoritative Town Vending Committees, and
+    enforcement to achieve genuine livelihood protection.
+topics:
+  - street-vending
+  - spatial-security
+  - political-capture
+  - urban-governance
 tags:
   - Regulation
   - street entrepreneurs
   - livelihood
+source_hash: 20df8d91faa86c052dd7b1f362224e88b45041c69b5601ab9d43b4f2dd407a36
+summary_hash: 20df8d91faa86c052dd7b1f362224e88b45041c69b5601ab9d43b4f2dd407a36
+summary_at: '2026-05-05T12:32:58.569Z'
 ---
 **By Chaitanya Kapoor**
 

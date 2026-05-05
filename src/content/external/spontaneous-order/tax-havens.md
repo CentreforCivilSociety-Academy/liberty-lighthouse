@@ -1,15 +1,50 @@
 ---
 title: There is a Case for Tax Havens
 original_url: 'https://www.spontaneousorder.in/p/tax-havens'
+author: Spontaneous Order
 published_at: '2016-05-11T13:53:40.000Z'
 ingested_at: '2026-05-05T08:31:42.553Z'
-source_hash: d46516d1572b104946cb35b9f73c25091e94f44e7d935623b99923a68d919e94
-author: Spontaneous Order
 excerpt: >-
   (Tax havens are back in the news. On Monday, 355 economists signed a letter
   co-ordinated by Oxfam arguing that tax havens serve “no useful purpose.” This
   article was originally published at Livemint.com, and has been republished
   here with their permis
+summary: >-
+  Tax havens serve a legitimate purpose as a response to restrictive regulatory
+  frameworks and high taxes that drive wealth offshore, with Gabriel Zucman's
+  study showing 8% of global financial wealth parked there—varying from 4% in
+  the US and Asia, 10% in Europe, to 50-57% in Russia and Gulf countries where
+  regulations are harsher. The black economy, exemplified by the Panama Papers'
+  11.5 million documents and 2.6 terabytes of data, arises from compliance costs
+  exceeding benefits in formal economies, affecting not just the rich but
+  ordinary people, as seen in India's real estate where black money dwarfs
+  offshore holdings. Tax havens enable tax competition, allowing jurisdictions
+  to exercise sovereignty by attracting capital, and empirical evidence
+  indicates they do not divert economic activity but often route capital back as
+  FDI. Concerns over money laundering and lack of transparency are overstated,
+  as low-tax havens fare better than high-tax ones per Basel Institute reports,
+  and bank secrecy does not hinder crime investigations. The classical-liberal
+  solution is to lower domestic taxes, reduce regulations like RBI's
+  restrictions on foreign companies, and foster incentives for formal
+  participation rather than coercing havens.
+key_points:
+  - >-
+    Restrictive regulations drive wealth to tax havens by making formal economy
+    compliance too costly.
+  - >-
+    Tax havens promote beneficial tax competition and often recycle capital back
+    as FDI without diverting activity.
+  - >-
+    Money laundering risks are higher in high-tax and weak-institution countries
+    than in tax havens.
+  - >-
+    To reduce black money, lower taxes and ease regulations like RBI's foreign
+    company restrictions instead of targeting havens.
+topics:
+  - tax-havens
+  - tax-competition
+  - black-economy
+  - money-laundering
 tags:
   - Shadow Economy
   - black money
@@ -17,6 +52,9 @@ tags:
   - Mossack Fonseca
   - Black Economy
   - Tax Havens
+source_hash: d46516d1572b104946cb35b9f73c25091e94f44e7d935623b99923a68d919e94
+summary_hash: d46516d1572b104946cb35b9f73c25091e94f44e7d935623b99923a68d919e94
+summary_at: '2026-05-05T12:15:44.156Z'
 ---
 **By Ujwal Batra**
 

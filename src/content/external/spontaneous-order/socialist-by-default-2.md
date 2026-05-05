@@ -1,20 +1,57 @@
 ---
 title: Socialist by default
 original_url: 'https://www.spontaneousorder.in/p/socialist-by-default-2'
+author: Spontaneous Order
 published_at: '2004-11-16T22:02:24.000Z'
 ingested_at: '2026-05-05T08:31:42.695Z'
-source_hash: 6eb93d7ed0435dac710ce00587fd4329a87841e8f7c5e73fdb80b569ce286b6c
-author: Spontaneous Order
 excerpt: >-
   In our student seminars, one thing that has never ceased to amaze me is the
   ‘default ideological setting’ with which students roll in. It’s always
   marxian. Only the degrees vary. Exploitation, accumulation, over-production,
   monopolies, environment p
+summary: >-
+  Sruthijith observes that students attending seminars arrive with a default
+  Marxist ideological framework, emphasizing exploitation, accumulation,
+  over-production, monopolies, environmental concerns, and antagonism toward
+  capitalism, with varying degrees of intensity. He attributes this to India's
+  deeply ingrained socialist national culture, shaped by Nehruvian socialism and
+  five-year plans. Cultural artifacts reinforce this bias: movie villains are
+  typically wealthy businessmen, with no films celebrating business success;
+  folk songs glorify peasant heroes against cruel landlords and pride in
+  collectivism; popular literature and media depict government as a benevolent
+  protector of hapless citizens against evil capitalists and their frauds. From
+  a classical-liberal viewpoint, this pervasive socialist conditioning explains
+  why students readily accept alternative perspectives when presented, as if
+  merely shifting their gaze on the same world. The author seeks to identify the
+  factors behind this default setting, highlighting how it contrasts with
+  openness to other ideas.
+key_points:
+  - >-
+    Students default to Marxist views like exploitation and anti-capitalism in
+    seminars.
+  - >-
+    India's culture, rooted in Nehruvian socialism and five-year plans, fosters
+    this socialist bias.
+  - >-
+    Movies portray wealthy businessmen as villains, lacking business success
+    stories.
+  - >-
+    Folk songs celebrate collectivism and peasant heroes against cruel
+    landlords.
+  - Popular media frames government as savior from capitalist frauds.
+topics:
+  - nehruvian-socialism
+  - cultural-bias
+  - youth-ideology
+  - indian-culture
 tags:
   - bias
   - ideology
   - Capitalism
   - socialism
+source_hash: 6eb93d7ed0435dac710ce00587fd4329a87841e8f7c5e73fdb80b569ce286b6c
+summary_hash: 6eb93d7ed0435dac710ce00587fd4329a87841e8f7c5e73fdb80b569ce286b6c
+summary_at: '2026-05-05T12:05:30.128Z'
 ---
 **By Sruthijith**
 

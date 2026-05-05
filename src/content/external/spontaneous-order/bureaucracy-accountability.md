@@ -1,19 +1,59 @@
 ---
 title: A Massive Bureaucracy with No Accountability
 original_url: 'https://www.spontaneousorder.in/p/bureaucracy-accountability'
+author: Spontaneous Order
 published_at: '2016-04-05T17:42:27.000Z'
 ingested_at: '2026-05-05T08:31:42.557Z'
-source_hash: 7bd0da1f5df2304259fb5b74edd17ac07d374d8ae45c38420cfca9c6bea29a90
-author: Spontaneous Order
 excerpt: >-
   “The reason for non-utilization is shocking and scandalous. The entire state
   does not possess a single rifle which can fire this ammunition. The ammunition
   is used in medium machineguns (generally used by the military), it is not used
   by any police forc
+summary: >-
+  Siddhant Kohli exposes a scandalous waste in Maharashtra where the state
+  government spent Rs. 100 crore in 2011 on ammunition incompatible with any
+  police rifles in India, now rotting unused while security forces face
+  shortages. This exemplifies the absence of personal accountability in India's
+  bureaucracy, where officers face no liability for gross errors or corruption,
+  stifling innovation, merit, and initiative amid promotions driven by
+  extraneous factors like nepotism and politics. Kohli argues from a
+  classical-liberal standpoint that introducing personal liability for failures,
+  alongside rewards for exemplary performance and pioneering ideas, would curb
+  waste, align planning with implementation, reduce costs, enhance economic
+  activity, and counter bureaucratic inertia. Extending this to the
+  judiciary—addressing judges shirking work before promotions, ignoring
+  corruption to avoid contempt charges, and biased decisions for post-retirement
+  postings—would restore public trust. Ultimately, without accountability across
+  executive and judicial branches, Indian democracy remains more myth than
+  reality, undermining the constitutional separation of powers.
+key_points:
+  - >-
+    Maharashtra wasted Rs. 100 crore on unusable ammunition for police guns in
+    2011 due to lack of accountability.
+  - >-
+    Personal liability for public officers would punish errors and corruption
+    while rewarding merit to foster innovation and efficiency.
+  - >-
+    Bureaucratic accountability would bridge planning-implementation gaps,
+    reduce nepotism, and enable timely projects for economic growth.
+  - >-
+    Judicial reforms must enforce accountability to stop end-of-tenure shirking,
+    ignored corruption, and biased decisions for post-retirement perks.
+  - >-
+    Accountability is essential to make Indian democracy substantive rather than
+    mythical.
+topics:
+  - bureaucratic-accountability
+  - personal-liability
+  - government-waste
+  - judicial-reform
 tags:
   - Public Accountability
   - Bureaucracy
   - corruption
+source_hash: 7bd0da1f5df2304259fb5b74edd17ac07d374d8ae45c38420cfca9c6bea29a90
+summary_hash: 7bd0da1f5df2304259fb5b74edd17ac07d374d8ae45c38420cfca9c6bea29a90
+summary_at: '2026-05-05T09:14:39.038Z'
 ---
 **By Siddhant Kohli**
 

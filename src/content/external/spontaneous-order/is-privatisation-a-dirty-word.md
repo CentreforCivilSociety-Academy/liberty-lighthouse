@@ -1,20 +1,65 @@
 ---
 title: Is Privatisation a Dirty Word?
 original_url: 'https://www.spontaneousorder.in/p/is-privatisation-a-dirty-word'
+author: Spontaneous Order
 published_at: '2018-08-06T11:33:01.000Z'
 ingested_at: '2026-05-05T08:31:42.516Z'
-source_hash: 7cbcca532f077daefd24581155aba7abe2a2a02d9cd3cb97ab1f9f6618014211
-author: Spontaneous Order
 excerpt: >-
   A seminar was held in Agra recently to discuss ‘Public Sector Undertakings and
   Privatisation’. Participants who made it to Agra included Economists: Prof.
   Gangadhar Gadgil, Prof. P. Brahmananda and D. R. Pendse; Industrialists L
   Viren Shah, D. N. Pato
+summary: >-
+  A seminar in Agra discussed Public Sector Undertakings (PSUs) and
+  privatisation, featuring economists like Prof. Gangadhar Gadgil,
+  industrialists, consumer activists, journalist Swaminathan Anklesaria Aiyar,
+  and parliamentarians Jaswant Singh and Minoo Masani. Gadgil argued that while
+  socio-political factors initially justified PSUs, they had become an obsession
+  causing harmful consequences, a view broadly accepted. Consensus held that
+  PSUs created vested interests, lacked accountability, competition, used
+  outdated technology, showed financial indiscipline, and overstaffed, with
+  unnecessary state entry into areas like baking bread and hotels. A minority,
+  aligned with the classical-liberal view, insisted the state had no business in
+  industry. D.R. Pendse broadened privatisation to include divestiture, private
+  sector involvement, franchising, closures, management transfers, and expanding
+  private/voluntary roles. The author prefers a strict definition—state selling
+  enterprises to the public, as Margaret Thatcher did—and laments economists
+  diluting it. Most saddening was the push for a 'better word' than
+  'privatisation' fearing unpopularity or misunderstanding as shifting from
+  socialism to capitalism. Recalling Swatantra Party's rejection of 'Gandhian
+  Socialism' for honesty, the author asserts 'private' carries no stigma—paan
+  walas, farmers, and ordinary people proudly claim private possessions. People
+  grasp 'private' without guilt and, experiencing government inefficiencies, now
+  see privatisation positively, moving from ideology to reality.
+key_points:
+  - >-
+    Public sector undertakings have universally underperformed, fostering vested
+    interests, inefficiency, and overstaffing.
+  - >-
+    Privatisation strictly means the state selling its enterprises to the
+    public, though some dilute it to broader private sector involvement.
+  - >-
+    Reject euphemisms for 'privatisation' to avoid misleading the public, as
+    Swatantra Party leaders did against 'Gandhian Socialism'.
+  - >-
+    Ordinary Indians proudly embrace 'private' ownership in daily life, making
+    the term unstigmatized.
+  - >-
+    Citizens, frustrated with government agencies, increasingly view
+    privatisation favorably over ideological labels.
+topics:
+  - privatisation
+  - public-sector-undertakings
+  - economic-liberalism
+  - swatantra-party
 tags:
   - Privatisation
   - SV Raju
   - Liberty
   - Essays on Liberty
+source_hash: 7cbcca532f077daefd24581155aba7abe2a2a02d9cd3cb97ab1f9f6618014211
+summary_hash: 7cbcca532f077daefd24581155aba7abe2a2a02d9cd3cb97ab1f9f6618014211
+summary_at: '2026-05-05T10:30:06.144Z'
 ---
 **By Spontaneous Order**
 

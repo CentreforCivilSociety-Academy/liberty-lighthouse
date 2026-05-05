@@ -2,19 +2,59 @@
 title: Rajaji – Relevance to today’s politics of the right
 original_url: >-
   https://www.spontaneousorder.in/p/rajaji-relevance-to-todays-politics-of-the-right
+author: Spontaneous Order
 published_at: '2016-12-10T10:13:00.000Z'
 ingested_at: '2026-05-05T08:31:42.547Z'
-source_hash: af08e4370bb98a953cd9d4dfa0be0378e5cdd19b0df70cb1dc54bb80940cc7b2
-author: Spontaneous Order
 excerpt: >-
   Vikramjit Banerjee | 10 December, 2016 Today Rajaji has become an icon for
   those who believe in a free market. The “ believers” have retrospectively
   invested in Rajaji viewpoints which he did not espouse when he was alive.
   Increasingly Rajaji has been
+summary: >-
+  Vikramjit Banerjee argues that modern libertarians misread C. Rajagopalachari
+  (Rajaji) as a pure economic libertarian akin to Hayek, ignoring his social
+  conservatism rooted in Hindu philosophy and books like 'Hinduism: Doctrine and
+  Way of Life.' This incomplete view explains the failure of libertarianism in
+  India, as real-world politics separates social and economic libertarianism:
+  the right pairs economic individualism with social collectivism, drawing on
+  majority cultural symbols and traditions. Rajaji's Swatantra Party represented
+  the economic right, one strand consolidated by the BJP, which absorbed
+  traditionalist (Ram Rajya Parishad) and nationalist (Jan Sangh) elements
+  through movements like Ram Janmabhoomi and NDA-1 reforms. Amid fracturing
+  centre-left coalitions and rising radicalism, centre-right politics must
+  embrace traditional values against globalized individualism, ensure
+  free-market benefits reach the masses via skill enhancement—like Rajaji's
+  pre-'Skill India' vocational education push—and avoid elite-focused
+  libertarianism. A holistic reading of Rajaji's prescription—free markets,
+  traditional values, and individual empowerment—is essential for India's
+  political economy.
+key_points:
+  - >-
+    Libertarians err by focusing solely on Rajaji's economic views, neglecting
+    his social conservatism essential for right-wing viability.
+  - >-
+    Swatantra Party's economic liberalism would align with BJP, which
+    consolidated India's fragmented right-wing spectrum.
+  - >-
+    Centre-right must promote people's free markets through vocational skills to
+    distribute knowledge economy benefits widely, echoing Rajaji's education
+    ideas.
+  - >-
+    Pairing economic individualism with social traditionalism is key to
+    countering radicalism and elite disillusionment.
+topics:
+  - rajaji
+  - swatantra-party
+  - indian-right
+  - social-conservatism
+  - vocational-education
 tags:
   - '#rajagopalachari'
   - Rajaji
   - '#swatantra'
+source_hash: af08e4370bb98a953cd9d4dfa0be0378e5cdd19b0df70cb1dc54bb80940cc7b2
+summary_hash: af08e4370bb98a953cd9d4dfa0be0378e5cdd19b0df70cb1dc54bb80940cc7b2
+summary_at: '2026-05-05T11:22:51.064Z'
 ---
 **By Guest Author**
 

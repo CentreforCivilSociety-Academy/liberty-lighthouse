@@ -1,19 +1,58 @@
 ---
 title: A National Education Policy for India
 original_url: 'https://www.spontaneousorder.in/p/a-national-education-policy-for-india'
+author: Spontaneous Order
 published_at: '2019-01-25T14:03:54.000Z'
 ingested_at: '2026-05-05T08:31:42.508Z'
-source_hash: bf2dccc9b21dbb0cfc6613fb01df1e532483cc5f53627558a034c362c0f05613
-author: Spontaneous Order
 excerpt: >-
   The Human Resource Development (HRD) ministry in October 2015, then under
   Smriti Irani, constituted the T.S.R. Subramanian Committee to suggest
   recommendations for the National Education Policy. The committee submitted its
   report in May 2016 and the min..
+summary: >-
+  The post critiques delays in India's National Education Policy, noting the
+  Subramanian Committee's 2016 report was rejected by Minister Javadekar in 2017
+  in favor of the Kasturirangan Committee, which has faced extensions likely
+  until after elections; the current policy is over 30 years old. From a
+  classical-liberal perspective, K-12 education is a rivalrous, excludable merit
+  good justifying public funding but not state provisioning, as it produces
+  positive externalities without being a true public good like national defense.
+  Policymakers must identify root causes of issues like low enrollment and poor
+  outcomes—often due to regulatory barriers stifling competition—rather than
+  symptoms. The policy should prioritize the child and parental choice over
+  state or teacher interests, eliminating licensing for a registration system,
+  focusing on outputs not inputs, using vouchers for funding, avoiding conflicts
+  in state roles, presuming market forces absent evidence, and decentralizing to
+  local levels. Political hurdles include rent-seeking by teacher unions, who
+  enjoy high salaries with low accountability and electoral influence. Reforms
+  demand junking old thinking to foster competition, innovation, and parental
+  autonomy.
+key_points:
+  - >-
+    Classify K-12 education as a rivalrous, excludable merit good warranting
+    public funding via vouchers, not state-run schools.
+  - >-
+    Deregulate by replacing licensing with registration, enabling private
+    ratings like Zomato, and prioritizing learning outcomes over inputs.
+  - >-
+    Empower parents with choice, including medium of instruction, and
+    decentralize control to local bodies like panchayats.
+  - >-
+    Address root causes like regulatory barriers before symptomatic fixes,
+    presuming market forces over state intervention without evidence.
+topics:
+  - k-12-education
+  - education-reform
+  - school-choice
+  - deregulation
+  - parental-rights
 tags:
   - Education
   - New Education Policy
   - Right to Education Act
+source_hash: bf2dccc9b21dbb0cfc6613fb01df1e532483cc5f53627558a034c362c0f05613
+summary_hash: bf2dccc9b21dbb0cfc6613fb01df1e532483cc5f53627558a034c362c0f05613
+summary_at: '2026-05-05T08:49:29.510Z'
 ---
 **By Prashant Narang**
 

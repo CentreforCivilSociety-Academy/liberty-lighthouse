@@ -1,18 +1,54 @@
 ---
 title: 'SO Musings: Taxation and Economic Growth'
 original_url: 'https://www.spontaneousorder.in/p/taxation-economic-growth'
+author: Spontaneous Order
 published_at: '2019-09-13T09:49:38.000Z'
 ingested_at: '2026-05-05T08:31:42.469Z'
-source_hash: ce3a16db4862bce1f01c258e7c6f3a2abe5bfdb65cc561fef6e17caa1e913fc7
-author: Spontaneous Order
 excerpt: >-
   The following is an excerpt from an article published in the Indian
   Libertarian Magazine by G N Lawande in July 1963. His arguments supporting the
   necessity of reducing public expenditure still remain relevant. “Since
   independence, our economy has been
+summary: >-
+  In a 1963 article from the Indian Libertarian Magazine, G N Lawande argues
+  that India's post-independence socialist taxation policy, aimed at resource
+  mobilization and equality, has hindered rapid economic growth by discouraging
+  savings and productive investment, which are essential for raising per capita
+  income. He emphasizes that economic progress depends on accumulating and
+  productively investing savings, not just saving itself. Lawande criticizes the
+  'unrealistic taxation policy' as primarily responsible for slow economic
+  progress and calls for a complete reexamination of the tax system to enable
+  companies to expand resources for investment. Urgently, he advocates cutting
+  public expenditure, countering fears of reduced income and employment by
+  citing Prof. Shenoy: the foregone state spending 'does not disappear into thin
+  air' but reappears as additional private investment or expenditure.
+  Spontaneous Order presents this classical-liberal critique of pseudo-socialism
+  as still relevant today, highlighting how reducing state intervention could
+  foster genuine growth over statist patterns.
+key_points:
+  - >-
+    Unrealistic high taxation discourages savings and productive investment,
+    slowing India's economic growth.
+  - >-
+    Public expenditure must be cut to free resources for private investment, as
+    foregone state spending shifts to people's additional investments.
+  - >-
+    Reexamine the entire taxation system to enable companies to expand for
+    productive purposes.
+  - >-
+    Economic growth relies on productively investing accumulated savings to
+    raise per capita income.
+topics:
+  - taxation-policy
+  - public-expenditure
+  - economic-growth
+  - indian-liberalism
 tags:
   - economic growth
   - taxation
+source_hash: ce3a16db4862bce1f01c258e7c6f3a2abe5bfdb65cc561fef6e17caa1e913fc7
+summary_hash: ce3a16db4862bce1f01c258e7c6f3a2abe5bfdb65cc561fef6e17caa1e913fc7
+summary_at: '2026-05-05T12:15:53.939Z'
 ---
 **By Spontaneous Order**
 

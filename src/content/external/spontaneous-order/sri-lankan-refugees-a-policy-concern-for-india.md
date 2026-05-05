@@ -2,15 +2,56 @@
 title: 'Sri Lankan Refugees: A Policy Concern for India'
 original_url: >-
   https://www.spontaneousorder.in/p/sri-lankan-refugees-a-policy-concern-for-india
+author: Spontaneous Order
 published_at: '2023-03-03T10:50:59.000Z'
 ingested_at: '2026-05-05T08:31:42.245Z'
-source_hash: 0084854aef6192c4b775c8d3967c6e6149e564480dbfb98095e4db00989bc404
-author: Spontaneous Order
 excerpt: >-
   “We are caught in an inescapable network of mutuality, tied in a single
   garment of destiny. Whatever affects one directly, affects all indirectly.”
   Dr. Martin Luther King, Jr. (Letter From a Birmingham Jail, 1963) The
   consequences of any crisis are no
+summary: >-
+  Sri Lanka's 2022 crisis, marked by 90% inflation, shortages, and political
+  upheaval including President Gotabaya Rajapaksa's resignation, has driven
+  fresh waves of Tamil asylum seekers to India, particularly Tamil Nadu's
+  Dhanushkodi beaches. India has hosted around three lakh Sri Lankan refugees
+  since 1983, with 58,843 in 108 Tamil Nadu camps and 34,000 outside as of 2021,
+  plus over two lakh total refugees. This influx strains local resources like
+  water, food, housing, and healthcare, depresses informal sector wages through
+  competition, and hinders social integration due to refugees' lack of belonging
+  and vulnerability to exploitation. India's ad hoc refugee policy, absent
+  codified law and non-signatory to the 1951 Refugee Convention or 1967
+  Protocol, relies on the Foreigners Act 1946 and Citizenship Act 1955, treating
+  refugees as criminals liable to deportation and leading to inconsistent
+  benefits across groups. From a classical-liberal viewpoint, this policy vacuum
+  fosters inefficiency and marginalization; refugees could contribute
+  productively if granted opportunities for livelihoods and socioeconomic
+  inclusion, supported by international responsibility-sharing, rather than
+  remaining a burden amid government neglect.
+key_points:
+  - >-
+    India hosts 58,843 Sri Lankan Tamils in 108 Tamil Nadu camps and 34,000
+    outside, straining local resources and labor markets.
+  - >-
+    Ad hoc policies under Foreigners Act 1946 criminalize refugees, causing
+    inconsistent treatment and blocking integration.
+  - >-
+    Only 3,800 of 58,000 refugees wish to repatriate amid Sri Lanka's ongoing
+    instability.
+  - >-
+    Tamil Nadu provides humanitarian aid including 7,469 new houses at Rs 231.54
+    crore, but lacks national refugee law.
+  - >-
+    Refugees can become productive if given livelihood opportunities and
+    international solidarity, avoiding unmitigated burdens.
+topics:
+  - sri-lankan-refugees
+  - immigration-policy
+  - refugee-integration
+  - indian-foreign-policy
+source_hash: 0084854aef6192c4b775c8d3967c6e6149e564480dbfb98095e4db00989bc404
+summary_hash: 0084854aef6192c4b775c8d3967c6e6149e564480dbfb98095e4db00989bc404
+summary_at: '2026-05-05T12:09:47.890Z'
 ---
 **By Nadia Samad**
 

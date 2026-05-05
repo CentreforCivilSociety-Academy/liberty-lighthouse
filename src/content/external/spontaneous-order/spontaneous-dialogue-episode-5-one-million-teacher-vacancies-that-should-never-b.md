@@ -4,15 +4,34 @@ title: >-
   be filled
 original_url: >-
   https://www.spontaneousorder.in/p/spontaneous-dialogue-episode-5-one-million-teacher-vacancies-that-should-never-be-filled
+author: Spontaneous Order
 published_at: '2021-03-11T16:32:00.000Z'
 ingested_at: '2026-05-05T08:31:42.718Z'
-source_hash: 79b3cfa006ddb9bd26c2b8c1957ba09860070c44268a1fd87c2f36f3d977e3a3
-author: Spontaneous Order
 excerpt: >-
   In this episode of Spontaneous Dialogue, Prashant Narang, Associate Director,
   CCS speaks to Professor Geeta Gandhi Kingdon, Chair of ‘Education Economics
   and International Development at University College London about the state of
   teachers and teacher
+summary: >-
+  This promotional post announces Spontaneous Dialogue podcast episodes 5 and 6,
+  where Prashant Narang interviews Professor Geeta Gandhi Kingdon on teacher
+  vacancies in Indian schools. The title provocatively claims 'one million
+  teacher vacancies that should never be filled,' suggesting a classical-liberal
+  critique of government hiring practices. No substantive arguments, facts, or
+  revelations from the discussion are detailed in the post itself, which instead
+  provides listening links and partnership mentions. The content is fragmentary,
+  serving primarily as a teaser for the audio episodes.
+key_points:
+  - >-
+    Podcast episodes explore why one million teacher vacancies in Indian schools
+    should not be filled, from a classical-liberal viewpoint.
+topics:
+  - education
+  - teacher-vacancies
+  - indian-schools
+source_hash: 79b3cfa006ddb9bd26c2b8c1957ba09860070c44268a1fd87c2f36f3d977e3a3
+summary_hash: 79b3cfa006ddb9bd26c2b8c1957ba09860070c44268a1fd87c2f36f3d977e3a3
+summary_at: '2026-05-05T12:08:01.894Z'
 ---
 **By Spontaneous Order**
 

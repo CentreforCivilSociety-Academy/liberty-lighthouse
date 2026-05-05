@@ -2,19 +2,60 @@
 title: 'Economics Through a Song of Ice and Fire: Chaos is a Ladder'
 original_url: >-
   https://www.spontaneousorder.in/p/economics-through-a-song-of-ice-and-fire-chaos-is-a-ladder
+author: Spontaneous Order
 published_at: '2018-07-16T11:12:26.000Z'
 ingested_at: '2026-05-05T08:31:42.545Z'
-source_hash: 086bc4ccd6d534e4ab87bdf74713feb2abcfd78692cd1f06be4666e9bc6b4da9
-author: Spontaneous Order
 excerpt: >-
   Lord Baelish aka Littlefinger said this famous line in Season 3 of Game of
   Thrones (GoT), a popular fantasy TV series. GoT fans are well aware of the
   cunning and shrewd intelligence of Littlefinger, but if we were to dissect
   this statement further and a..
+summary: >-
+  Drawing from Game of Thrones' 'Chaos is a ladder,' the post argues that
+  economic chaos from high demand and inadequate supply creates opportunities
+  for ambitious entrepreneurs to innovate and establish spontaneous order,
+  superior to any centrally designed system due to the impossibility of
+  capturing all relevant information. Entrepreneurs thrive by filling market
+  gaps with unforeseen products like computers, mobile phones, food delivery
+  apps, and taxi aggregators, emerging in places like Silicon Valley or
+  Bangalore under conducive conditions with strong rule of law. India's startup
+  boom exemplifies this: projected 11,500 tech firms by 2020 (up from 3,100 in
+  2014), 9% women entrepreneurs, average age 28, and SMEs creating 60% of jobs.
+  However, excessive regulations, high taxes (annual payments three times more
+  frequent than in China or USA), and dismal global market rankings stifle this
+  potential despite initiatives like Startup India. The classical-liberal
+  conclusion urges authorities to relax regulations, lower taxes, and trust
+  citizens to climb the chaotic ladder, fostering innovation, job creation,
+  poverty reduction, and elevated living standards through trial-and-error
+  entrepreneurship.
+key_points:
+  - >-
+    Economic chaos from unmet demand serves as a ladder for entrepreneurs to
+    innovate and create spontaneous order superior to planned economies.
+  - >-
+    India's startup ecosystem grew from 3,100 firms in 2014 to a projected
+    11,500 by 2020, with SMEs driving 60% of job creation and featuring 9% women
+    founders averaging age 28.
+  - >-
+    Excessive regulations and taxes, including annual payments three times more
+    frequent than in China or USA, hinder India's business environment and
+    global rankings.
+  - >-
+    Governments should deregulate, reduce taxes, and provide a conducive
+    environment to enable entrepreneurs to experiment, fail, and succeed in
+    raising societal living standards.
+topics:
+  - spontaneous-order
+  - entrepreneurship
+  - indian-startups
+  - economic-deregulation
 tags:
   - creative destruction
   - market economy
   - Schumpeter
+source_hash: 086bc4ccd6d534e4ab87bdf74713feb2abcfd78692cd1f06be4666e9bc6b4da9
+summary_hash: 086bc4ccd6d534e4ab87bdf74713feb2abcfd78692cd1f06be4666e9bc6b4da9
+summary_at: '2026-05-05T09:44:34.660Z'
 ---
 **By Sadaf Hussain**
 

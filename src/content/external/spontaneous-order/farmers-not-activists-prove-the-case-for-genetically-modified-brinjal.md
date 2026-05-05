@@ -2,15 +2,56 @@
 title: Farmers — not activists — prove the case for genetically modified brinjal
 original_url: >-
   https://www.spontaneousorder.in/p/farmers-not-activists-prove-the-case-for-genetically-modified-brinjal
+author: Spontaneous Order
 published_at: '2019-06-07T13:30:22.000Z'
 ingested_at: '2026-05-05T08:31:42.484Z'
-source_hash: 0a2c3f076fc6d5d30c5e218d9249508fa0662131edc298c23d7d7b945348a88f
-author: Spontaneous Order
 excerpt: >-
   Haryana has cracked down on genetically modified (GM) brinjal (eggplant). This
   variety passed field trials back in 2009, but was stalled by alarmist
   activists, who bludgeoned a timid government into a moratorium. Meanwhile, GM
   brinjal passed field trial..
+summary: >-
+  Haryana's crackdown on smuggled GM brinjal seeds ignores farmers' enthusiastic
+  adoption, as they buy saplings at seven times the normal price for higher
+  yields and drastically reduced pesticide use against pests like shoot-borers.
+  This mirrors Bangladesh, where GM brinjal passed field trials in 2009, was
+  certified in 2013, and thrived commercially. The author argues that farmers,
+  not activists or timid governments, prove GM crops' value, citing India's
+  stalled 2009 approval due to alarmist activism. Parallels with GM
+  cotton—initially illegal but widely grown in the 2000s, doubling yields while
+  cutting pesticides, boosting acreage, production, and exports—show mass
+  defiance forced legalization. Cottonseed from GM varieties has entered India's
+  food chain via oil, vanaspati, and animal feed without harm. Similar public
+  rebellion against illegal TV dishes in the 1990s revolutionized media and
+  created jobs. Anti-GM ideologues, from leftists to RSS nationalists, echo past
+  cultural protectionism. With over one trillion safe GM meals consumed in the
+  US and endorsements from Norman Borlaug and Indian farmer leaders, the
+  classical-liberal case is clear: farmers should defy prohibitive laws, grow GM
+  brinjal, and compel government rescission to unleash agricultural freedom and
+  productivity.
+key_points:
+  - >-
+    Farmers in Haryana bought 1,200 GM brinjal saplings each at seven times the
+    normal price, demonstrating confidence in superior pest resistance and
+    yields.
+  - >-
+    GM cotton's illegal adoption in the 2000s doubled yields, reduced pesticide
+    use, and forced government legalization after activists' claims proved
+    false.
+  - >-
+    Public defiance of TV dish bans in the 1990s led to media liberalization,
+    creating millions of jobs and improving consumer choice.
+  - >-
+    India should approve GM brinjal like Bangladesh did in 2013, as farmers'
+    market signals override activist and regulatory opposition.
+  - >-
+    GM cottonseed has safely entered India's food chain for over a decade,
+    contradicting claims of danger for food crops.
+topics:
+  - gm-crops
+  - farmer-autonomy
+  - biotech-regulation
+  - agricultural-innovation
 tags:
   - BT Brinjal
   - GM seeds
@@ -18,6 +59,9 @@ tags:
   - Swaminomics
   - GM cotton
   - farming
+source_hash: 0a2c3f076fc6d5d30c5e218d9249508fa0662131edc298c23d7d7b945348a88f
+summary_hash: 0a2c3f076fc6d5d30c5e218d9249508fa0662131edc298c23d7d7b945348a88f
+summary_at: '2026-05-05T09:53:04.915Z'
 ---
 **By Spontaneous Order**
 

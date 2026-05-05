@@ -1,21 +1,60 @@
 ---
 title: Lomborg on climate change economics
 original_url: 'https://www.spontaneousorder.in/p/lomborg-on-climate-change-economics'
+author: Spontaneous Order
 published_at: '2009-12-21T19:51:04.000Z'
 ingested_at: '2026-05-05T08:31:42.657Z'
-source_hash: 49c568fa864cb7542753b88cf2f479a440496819d3f0ac89b385d965751933c4
-author: Spontaneous Order
 excerpt: >-
   Bjorn Lomborg provides an interesting new prism through which we can analyze
   the ongoing climate change debate. Dr Lomborg does not deny global warming
   though he does state that the climate change risk has been exaggerated.
   Irrespective of whether you a..
+summary: >-
+  Bjorn Lomborg, while acknowledging global warming, argues its risks are
+  exaggerated and that carbon emission cuts—the focus of summits like Rio,
+  Kyoto, and Copenhagen—are economically futile and too expensive. Climate
+  economist Richard Tol shows every dollar spent on cuts yields just 2 cents in
+  avoided damage, diverting funds from urgent needs like combating poverty,
+  hunger, and disease among millions today, which Lomborg frames as poor
+  economics from a classical-liberal lens prioritizing high returns. Instead, he
+  proposes cheaper, more implementable alternatives: climate engineering like
+  marine cloud whitening (spraying seawater droplets to reflect sunlight for
+  cooling effects) and research into non-carbon energies such as nuclear, solar,
+  water, and geothermal, potentially returning up to $11 in averted damage per
+  dollar invested. This innovation-focused strategy promises better outcomes
+  than regulatory emission mandates. Though critics call it oversimplified,
+  Lomborg's cost-benefit approach offers a pragmatic shift from doomsday
+  activism to effective action.
+key_points:
+  - >-
+    Carbon emission cuts yield only 2 cents of avoided climate damage per dollar
+    spent, per Richard Tol.
+  - >-
+    Such cuts divert resources from addressing immediate poverty, hunger, and
+    disease.
+  - >-
+    Prioritize climate engineering like marine cloud whitening to reflect
+    sunlight and achieve cooling.
+  - >-
+    Invest in non-carbon energy R&D (nuclear, solar, etc.) for up to $11 return
+    per dollar in averted damage.
+  - >-
+    Lomborg's economics-driven strategy is cheaper and more feasible than
+    emission mandates.
+topics:
+  - climate-change-economics
+  - geoengineering
+  - energy-research
+  - carbon-emissions
 tags:
   - global warming
   - Rio Earth Summit
   - Climate Change
   - climate engineering
   - Bjorn Lomborg
+source_hash: 49c568fa864cb7542753b88cf2f479a440496819d3f0ac89b385d965751933c4
+summary_hash: 49c568fa864cb7542753b88cf2f479a440496819d3f0ac89b385d965751933c4
+summary_at: '2026-05-05T10:44:40.659Z'
 ---
 **By Shreya**
 

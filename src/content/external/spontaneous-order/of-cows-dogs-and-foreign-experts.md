@@ -1,15 +1,56 @@
 ---
 title: 'Of Cows, Dogs and Foreign Experts'
 original_url: 'https://www.spontaneousorder.in/p/of-cows-dogs-and-foreign-experts'
+author: Spontaneous Order
 published_at: '2004-10-06T02:55:24.000Z'
 ingested_at: '2026-05-05T08:31:42.697Z'
-source_hash: dcdabe70935b30316b175ecd329579993704a6d6d664787e33c9c176d5182804
-author: Spontaneous Order
 excerpt: >-
   My friends from the NDA government, do not hang your boots. Not yet. By the
   look of things, (never mind they have handed over tehelka to CBI cuz I’m sure
   you can find any number of Georges to be your convener and even if he goes to
   jail, it won’t be u
+summary: >-
+  Sruthijith critiques the UPA government's capitulation to Left allies like
+  Sitaram Yechury and Prakash Karat over the 'foreign experts controversy' in
+  the Planning Commission's midterm appraisal of the Tenth Five-Year Plan. The
+  Commission formed 19 consultative committees with 415 members, including 15
+  from foreign institutions like IMF, World Bank, ADB, and management
+  consultants—often Indian-origin economists previously at NIPFP, NCAER, ICRIER.
+  Left pressure questioned their integrity, alleging World Bank influence,
+  despite figures like Deputy Chairman Montek Singh Ahluwalia and even the PM
+  having World Bank ties. The advisory committees were dissolved, with Left
+  claiming victory, exemplifying the Malayalam proverb: 'Dog wouldn’t eat grass;
+  wouldn’t let cow eat either.' This hypocrisy extends to Left-ruled states
+  accepting World Bank grants and foreign experts for projects worth thousands
+  of crores, and supporting Sonia Gandhi-led coalition. From a classical-liberal
+  view, such ideological insecurity mirrors mixed economy compromises that
+  damaged India's economy, now stalling decisions like US anti-terror aid for
+  Northeast amid grim security, tainted ministers, and unfulfilled CMP promises.
+  Author urges NDA not to 'hang boots' as UPA's internal conflicts signal
+  instability, offering opposition opportunities.
+key_points:
+  - >-
+    Planning Commission's 19 committees with 415 members, including 15 foreign
+    experts from IMF, World Bank, and ADB, were dissolved due to Left opposition
+    questioning their motives.
+  - >-
+    Left leaders hypocritically decry foreign experts while accepting World Bank
+    grants in their states and backing a Congress-led coalition with
+    foreign-origin leadership.
+  - >-
+    Coalition compromises delay critical policies like US aid against Northeast
+    terrorism, akin to mixed economy's economic harm.
+  - >-
+    NDA should not lose heart, as UPA's five-month-old government faces internal
+    rocking from Left revolutionaries.
+topics:
+  - planning-commission
+  - foreign-experts
+  - coalition-politics
+  - economic-reform
+source_hash: dcdabe70935b30316b175ecd329579993704a6d6d664787e33c9c176d5182804
+summary_hash: dcdabe70935b30316b175ecd329579993704a6d6d664787e33c9c176d5182804
+summary_at: '2026-05-05T11:07:11.413Z'
 ---
 **By Sruthijith**
 

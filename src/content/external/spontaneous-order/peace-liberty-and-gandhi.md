@@ -1,15 +1,47 @@
 ---
 title: 'Peace, Liberty, and Gandhi'
 original_url: 'https://www.spontaneousorder.in/p/peace-liberty-and-gandhi'
+author: Spontaneous Order
 published_at: '2015-10-02T10:28:05.000Z'
 ingested_at: '2026-05-05T08:31:42.574Z'
-source_hash: fbbe0e25d0f9e0a7538b7d6b484459e5aac9c15d95dd9389504cb6ad25792d86
-author: Spontaneous Order
 excerpt: >-
   As we celebrate Gandhi Jayanti, it is worth our while to revisit the man and
   his ideas. Gandhi exemplified certain virtues that lie at the heart of
   liberalism–virtues of peace, toleration, freedom and liberty, and skepticism
   of state power. Below are so
+summary: >-
+  On Gandhi Jayanti, the post celebrates Mahatma Gandhi as exemplifying core
+  liberal virtues: peace, toleration, freedom, liberty, and skepticism of state
+  power. It features Gandhi's quotes portraying the state as a 'soulless
+  machine' embodying organized violence that destroys individuality and progress
+  by concentrating power. Gandhi insisted that individual liberty is
+  foundational—no society can exist without it, as it enables talents and
+  interdependence. He described political power as a mere means, ideally leading
+  to 'enlightened anarchy' where self-ruling individuals pose no hindrance to
+  neighbors, quoting Thoreau that the best government governs least. Freedom,
+  per Gandhi, must include the right to err and sin, rejecting any constitution
+  that deprives this. The post references articles affirming Gandhi's liberal
+  and libertarian credentials, concluding his legacy is a fight for a freer
+  world and India that secures liberty and dignity for all, aligning him with
+  classical-liberal ideals against statism.
+key_points:
+  - >-
+    Gandhi viewed the state as inherently violent and destructive to individual
+    progress.
+  - >-
+    Individual liberty and interdependence are both essential for society, with
+    liberty as its foundation.
+  - >-
+    The ideal state is 'enlightened anarchy' featuring self-rule without
+    political power or hindrance to others.
+  - >-
+    True freedom encompasses the right to err and sin, as even God grants it to
+    creatures.
+topics:
+  - gandhi
+  - classical-liberalism
+  - individual-liberty
+  - anti-statism
 tags:
   - Gandhi Jayanti
   - individual liberty
@@ -18,6 +50,9 @@ tags:
   - Freedom
   - Mahatma Gandhi
   - Liberalism
+source_hash: fbbe0e25d0f9e0a7538b7d6b484459e5aac9c15d95dd9389504cb6ad25792d86
+summary_hash: fbbe0e25d0f9e0a7538b7d6b484459e5aac9c15d95dd9389504cb6ad25792d86
+summary_at: '2026-05-05T11:13:09.136Z'
 ---
 **By Guest Author**
 

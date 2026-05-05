@@ -1,21 +1,62 @@
 ---
 title: '#ThrowbackThursday: M R Masani — Bread or Freedom (1977)'
 original_url: 'https://www.spontaneousorder.in/p/tbt-masani-bread'
+author: Spontaneous Order
 published_at: '2015-09-10T13:49:02.000Z'
 ingested_at: '2026-05-05T08:31:42.576Z'
-source_hash: e973a72646e61a7b9290ac7fd3d7b49ed169b2c903b912162949ab35e11ac46c
-author: Spontaneous Order
 excerpt: >-
   The following piece was written by Minoo Masani, and was originally published
   in the January 1977 issue of Freedom First. “Is it better to have elections
   now or a stable economy?” we are asked these days. When some of us joined
   Jawaharlal Nehru, Valla
+summary: >-
+  M R Masani rejects the false choice between elections and economic stability,
+  arguing that India's Constitution, drafted with Nehru, Patel, and Ambedkar,
+  secured both for 25 years from 1950. Stability alone can mean prosperity or
+  poverty, freedom or slavery, echoing false dichotomies posed by Stalin,
+  Hitler, Mao, Lenin, and Trotsky, who promised utopia after temporary
+  dictatorship but delivered enduring shortages, as seen in 55 years of Soviet
+  queues and privation. Masani asserts no clash exists: consumer goods abound in
+  democracies like the US, Canada, Australia, Switzerland, Sweden, West Germany,
+  Japan, and Israel, with free press and elections, while communist states like
+  the USSR and China suffer poverty and shortages. Logically, only governments
+  changeable by voters prioritize citizens' needs; slaves or prisoners do not,
+  as history shows in pyramids and Stalin's canals. Involved in India's
+  1948-1950 Constitution drafting, Masani warned in 1968 of threats to
+  parliamentary democracy amid political disgust, fears realized by 1977. He
+  concludes: demand both bread and freedom, with prosperity achieved in and
+  through freedom.
+key_points:
+  - >-
+    Reject the false antithesis between bread (economic prosperity) and freedom
+    (elections and democracy), as they reinforce each other.
+  - >-
+    Democratic nations like the US, Japan, and West Germany provide abundant
+    consumer goods, while dictatorships like the USSR and China impose shortages
+    and poverty.
+  - >-
+    Governments accountable to voters via elections must meet citizens' needs to
+    avoid replacement, unlike unaccountable regimes that neglect the people.
+  - >-
+    India's Constitution intended both stability and elections, but threats to
+    democracy undermine economic progress.
+  - >-
+    Achieve bread in and through freedom, not by sacrificing liberty for
+    promised stability.
+topics:
+  - democracy
+  - economic-freedom
+  - indian-constitution
+  - political-liberty
 tags:
   - parliamentary democracy
   - Libertarian Scholars
   - M R Masani
   - socialism
   - Economic Prosperity
+source_hash: e973a72646e61a7b9290ac7fd3d7b49ed169b2c903b912162949ab35e11ac46c
+summary_hash: e973a72646e61a7b9290ac7fd3d7b49ed169b2c903b912162949ab35e11ac46c
+summary_at: '2026-05-05T12:16:07.605Z'
 ---
 **By Ujwal Batra**
 

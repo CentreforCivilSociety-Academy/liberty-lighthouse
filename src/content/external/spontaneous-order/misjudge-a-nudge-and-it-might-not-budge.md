@@ -1,19 +1,58 @@
 ---
 title: Misjudge A Nudge And It Might Not Budge
 original_url: 'https://www.spontaneousorder.in/p/misjudge-a-nudge-and-it-might-not-budge'
+author: Spontaneous Order
 published_at: '2021-02-12T12:00:56.000Z'
 ingested_at: '2026-05-05T08:31:42.349Z'
-source_hash: 03ccd4e4b66138158bcc5cb932ff415d9ba4063ebc9848432ef7e74cf320fe98
-author: Spontaneous Order
 excerpt: >-
   But if it fudges, get read for grudges. Ask not what your country can do for
   you; ask what you can do for your country.’ While the latter clause of JFK’s
   now-immortal line rouses and rivets the dullest of hearts, the president
   clearly dodged a bullet
+summary: >-
+  Modern libertarian politics limits government intervention to free market
+  failures, but behavioral economics introduces 'behavioral market failures'
+  addressed via nudges—subtle policy hints preserving autonomy—or shoves like
+  regulations. Nudges gained popularity post-UK's Nudge Unit, with India's NITI
+  Aayog considering a behavioral insights group per 2018-19 Economic Survey.
+  However, a Queen Mary University of London study analyzing 65 articles
+  (2008-2019) identifies eight nudge failure types, including confusing designs,
+  inaccurate info, ineffectiveness, and backfires, especially in social
+  behaviors like tax compliance or healthy habits. Backfires occur due to
+  'sticky norms' (Kahan 2000), where nudges in taboo cases like sexual assault
+  signal state indifference. Examples include maternity leave discouraging
+  female hiring and lower pay, health campaigns fueling body dysmorphia via
+  'thin ideal' association, and sin taxes like Bloomberg's soda ban criticized
+  as paternalistic. Nudges suffer short-term efficacy, habituation (e.g.,
+  cigarette warnings), and inherent paternalism assuming citizens need
+  government prodding, masking unseen effects (Bastiat). From a
+  classical-liberal view, their unpredictability, costs, and arbitrary 'right
+  outcomes' render them unworthy.
+key_points:
+  - >-
+    A Queen Mary University study of 65 articles from 2008-2019 identifies eight
+    types of nudge failures, including backfires that worsen targeted behaviors.
+  - >-
+    Nudges backfire in cases of 'sticky norms' around taboos like sexual
+    assault, where leniency signals state endorsement of crime.
+  - >-
+    Policies like maternity leave and health campaigns have unintended gendered
+    harms, such as reduced female hiring and body dysmorphia.
+  - >-
+    Nudges are paternalistic, short-term tools prone to habituation, undermining
+    libertarian emphasis on individual autonomy over government hints.
+topics:
+  - nudges
+  - behavioral-economics
+  - policy-failures
+  - paternalism
 tags:
   - Public Policy
   - economy
   - Law
+source_hash: 03ccd4e4b66138158bcc5cb932ff415d9ba4063ebc9848432ef7e74cf320fe98
+summary_hash: 03ccd4e4b66138158bcc5cb932ff415d9ba4063ebc9848432ef7e74cf320fe98
+summary_at: '2026-05-05T10:55:17.333Z'
 ---
 **By Renuka Bhat**
 

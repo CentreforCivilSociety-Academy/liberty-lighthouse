@@ -2,18 +2,58 @@
 title: 'SO Musings: Food Prices and Libertarian Solution'
 original_url: >-
   https://www.spontaneousorder.in/p/so-musings-food-prices-and-libertarian-solution
+author: Spontaneous Order
 published_at: '2020-10-01T15:53:56.000Z'
 ingested_at: '2026-05-05T08:31:42.378Z'
-source_hash: 6f0be786cc592154099d2ceae85f979b57dc1c2f4355316cd3609067cc735fd7
-author: Spontaneous Order
 excerpt: >-
   With the recent debates over the new Farm Bills; the concept of Minimum
   Support Price (MSPs) and state control over food prices has been brought into
   the limelight. This week’s SO Musings will explore the very origin of MSPs in
   India and government inte
+summary: >-
+  In a 1957 article excerpted from The Indian Libertarian, M.A. Venkata Rao
+  critiques government intervention in India's agriculture during the Second
+  Five Year Plan era. Authorities initially touted surplus food production from
+  'grow more food' campaigns, irrigation, and community projects, with prices
+  falling from around 420 to 390, suggesting export potential. Post-elections,
+  they admitted acute scarcity, importing millions of tons of wheat and rice,
+  straining foreign exchange amid machinery imports. Facing self-made crisis,
+  officials proposed floor and ceiling prices alongside an Essential Commodities
+  Act amendment enabling requisition of hoarded grains at three-month average
+  prices, not current rates. Rao warns this forms a vicious circle: more
+  intervention begets worse consequences, propelling towards communism and
+  eroding private initiative. Libertarians offer alternatives—one school demands
+  complete laissez-faire, confining government to law/order, defense, foreign
+  affairs, and currency, leaving production/exchange to citizens; extremists
+  (anarchists) advocate abolishing government for a harmonious society of
+  voluntary negotiations without coercion or controls. The piece aligns with
+  classical-liberal rejection of socialist meddling in markets.
+key_points:
+  - >-
+    Government claims of agricultural surplus via campaigns like 'grow more
+    food' quickly reversed into massive imports of wheat and rice, exacerbating
+    foreign exchange strain.
+  - >-
+    Interventions like price controls and grain requisitions under the Essential
+    Commodities Act deepen the vicious circle towards a controlled economy and
+    communism.
+  - >-
+    Laissez-faire libertarians limit government to law/order, defense, foreign
+    affairs, and currency, freeing economic activities for private citizens.
+  - >-
+    Anarchist libertarians propose eliminating government entirely for a society
+    based on voluntary justice and negotiation.
+topics:
+  - agriculture
+  - price-controls
+  - libertarianism
+  - government-intervention
 tags:
   - agriculture
   - Agricultural Produce Market Committee (APMC) Act
+source_hash: 6f0be786cc592154099d2ceae85f979b57dc1c2f4355316cd3609067cc735fd7
+summary_hash: 6f0be786cc592154099d2ceae85f979b57dc1c2f4355316cd3609067cc735fd7
+summary_at: '2026-05-05T11:56:10.145Z'
 ---
 **By Spontaneous Order**
 

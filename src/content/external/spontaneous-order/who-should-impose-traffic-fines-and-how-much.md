@@ -1,15 +1,49 @@
 ---
 title: Who Should Impose Traffic Fines and How Much?
 original_url: 'https://www.spontaneousorder.in/p/who-should-impose-traffic-fines-and-how-much'
+author: Spontaneous Order
 published_at: '2019-09-18T08:58:44.000Z'
 ingested_at: '2026-05-05T08:31:42.468Z'
-source_hash: b34a010140667dc17bdb612d845832d49f68062cd094aa7e2dbde05110c228e3
-author: Spontaneous Order
 excerpt: >-
   The question of what and how much legal punishment should be prescribed for a
   crime has been a crucial subject of jurisprudential inquiries since antiquity.
   Thinkers have also postulated on whether the state could impose burdensome
   punishment on its sub..
+summary: >-
+  Sudhanshu Neema argues from a classical-liberal perspective that traffic fines
+  under the amended Motor Vehicles Act are excessively high—up to twenty times
+  previous levels, such as ₹5,000 for driving without a license (previously
+  ₹500)—and disproportionate compared to fines for graver offenses under the
+  Indian Penal Code, like ₹500 for obstructing a public servant (IPC Section
+  186). Drawing on principles from the US 8th Amendment and IPC Section 63
+  against excessive fines, he proposes using per capita income (₹10,534 monthly
+  in FY 2018-19) as a yardstick: about one-tenth (₹1,053, or three days' labor)
+  for minor infractions and half a month's income (₹5,250) for graver ones. He
+  criticizes uniform national fines amid vast income disparities—e.g., NCT over
+  $4,000 annually vs. poorer districts at one-fifth—advocating decentralization
+  to local governments, which possess the necessary knowledge of local roads,
+  driving habits, and conditions, rather than Delhi bureaucrats. States can
+  adjust fines, but local bodies should decide to ensure proportionality and
+  effectiveness.
+key_points:
+  - >-
+    Traffic fines should be proportional to local per capita income, e.g.,
+    one-tenth for minor offenses like driving without a license (around ₹1,053
+    based on FY19 figures).
+  - >-
+    MV Act amendments impose fines exceeding those for some serious IPC
+    offenses, such as ₹500 for obstructing public servants.
+  - >-
+    Uniform national traffic fines ignore income variations across districts and
+    should be localized.
+  - >-
+    Local governments, responsible for roads, must set fines using their
+    knowledge of local conditions, not centralized bureaucrats.
+topics:
+  - traffic-fines
+  - proportional-punishment
+  - local-governance
+  - motor-vehicles-act
 tags:
   - Motor Vehicles Act
   - Motor Vehicles Amendment
@@ -18,6 +52,9 @@ tags:
   - Localisation
   - Governance
   - decentralisation
+source_hash: b34a010140667dc17bdb612d845832d49f68062cd094aa7e2dbde05110c228e3
+summary_hash: b34a010140667dc17bdb612d845832d49f68062cd094aa7e2dbde05110c228e3
+summary_at: '2026-05-05T13:03:30.324Z'
 ---
 **By Sudhanshu Neema**
 

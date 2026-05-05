@@ -1,15 +1,53 @@
 ---
 title: Trilemma of the Ecodemic
 original_url: 'https://www.spontaneousorder.in/p/trilemma-of-the-ecodemic'
+author: Spontaneous Order
 published_at: '2020-04-13T13:06:40.000Z'
 ingested_at: '2026-05-05T08:31:42.429Z'
-source_hash: a8945fc5d2b37e4ff663604703377a4e8c057fc69f66109df90e95daf7472381
-author: Spontaneous Order
 excerpt: >-
   The war against the most severe health emergency in more than 100 years
   involves three parallel battles – the ones against the Covid-19 pandemic, the
   infodemic and what I call “ecodemic”. The third term represents the impact the
   first two have on th
+summary: >-
+  The Covid-19 crisis presents a trilemma of pandemic, infodemic, and
+  'ecodemic'—the economic fallout from the first two—dictated by epidemiologists
+  in a lives-versus-livelihoods war favoring the former amid social media panic
+  that slows policymakers, frightens businesses, and shakes society. These
+  interdependent challenges demand simultaneous resolution through
+  decentralizing control from central government to city levels for swift,
+  quality responses, as seen in recent hotspot sealings in Uttar Pradesh, Delhi,
+  and Madhya Pradesh, but districts are inadequate units given urban density.
+  While containing outbreaks via quarantine (originating in 1377 Venice),
+  governments must free domestic supply chains, enable safe worker transit via
+  railways, and let markets determine essential sectors rather than
+  command-and-control classifications, preventing bankruptcies cascading from
+  small businesses. Post-Covid, markets will innovate safety protocols like
+  temperature checks and sanitation units, accepting higher costs in an 18-month
+  marathon, not a 40-day sprint. Civil society must collaborate actively,
+  enabled by 100% tax deductions for non-profits. India's $24 billion relief
+  pales against the US's $2 trillion package—mere bandaids—while lockdowns break
+  contracts, risking massive NPAs globally; thus, restore liquidity, uphold
+  contracts, and foster government-business-civil society-global cooperation
+  from a classical-liberal lens prioritizing freedom and markets over diktats.
+key_points:
+  - >-
+    Delegate pandemic response authority to city-level administration for faster
+    containment in urban hotspots.
+  - >-
+    Free businesses to operate supply chains with safety protocols, letting
+    markets decide essential sectors instead of government classifications.
+  - >-
+    Involve civil society as active collaborators, implementing 100% tax
+    deductions for non-profits to enable ground-level action.
+  - >-
+    Avoid fiscal bandaids like India's $24bn package; prioritize restoring
+    contracts and liquidity to prevent widespread bankruptcies and NPAs.
+topics:
+  - covid-19
+  - decentralization
+  - free-markets
+  - civil-society
 tags:
   - government policy making
   - Global crisis
@@ -18,6 +56,9 @@ tags:
   - emergency
   - Restrictive regulations
   - pandemic
+source_hash: a8945fc5d2b37e4ff663604703377a4e8c057fc69f66109df90e95daf7472381
+summary_hash: a8945fc5d2b37e4ff663604703377a4e8c057fc69f66109df90e95daf7472381
+summary_at: '2026-05-05T12:47:26.399Z'
 ---
 **By K Yatish Rajawat**
 

@@ -2,17 +2,60 @@
 title: What the Govt Can Do To Fix India’s e-waste Problem
 original_url: >-
   https://www.spontaneousorder.in/p/what-the-govt-can-do-to-fix-indias-e-waste-problem
+author: Spontaneous Order
 published_at: '2021-04-05T16:51:15.000Z'
 ingested_at: '2026-05-05T08:31:42.336Z'
-source_hash: 6f13d793f3d8983bf8a6422e06641bd723262fbadf8f8f01925b3e3a42c43503
-author: Spontaneous Order
 excerpt: >-
   The Prime Minister has managed to capture the national imagination on core
   economic issues, through schemes such as ‘Make in India’ and ‘Digital India’.
   But now the government must acknowledge the impact of these schemes on e-waste
   generation in t
+summary: >-
+  India's e-waste crisis is escalating due to schemes like Make in India and
+  Digital India, with 90% recycled informally by unauthorised operators who dump
+  toxic residues like lead and mercury, contaminating Delhi's Loni, Mandoli, and
+  Krishna Vihar soils, polluting the Yamuna, and spiking air quality issues in
+  Moradabad and Seelampur. The 2016 E-Waste Management Rules' Extended Producer
+  Responsibility (EPR) model has failed: over 53% of major EEE firms rank below
+  average in compliance per a 2018 Toxics Link study, and many of 178 authorised
+  recyclers operate under-capacity or at a loss. Unauthorised recyclers dominate
+  by offering double the prices—e.g., Rs 4,642.9 vs Rs 1,133.3 for an
+  end-of-life HP laptop—due to evading disposal costs, regulations, and safety
+  norms, while refurbishing and reselling in markets like Nehru Place. From a
+  classical-liberal lens, the solution lies in market incentives: mandate a
+  Deposit Refund Scheme (DRS) where producers charge refundable fees higher than
+  informal offers to draw consumers; enforce third-party audits, proven
+  effective in a 2013 Gujarat experiment to curb leakages; and create a
+  government-monitored Common Deposit Account for flexible refunds and e-waste
+  tracking. These reforms, building on EPR, address state capacity limits and
+  must be implemented in the government's first 100 days to enable a sustainable
+  New India.
+key_points:
+  - >-
+    90% of India's e-waste is recycled informally, leading to toxic pollution
+    from untreated residues.
+  - >-
+    Unauthorised recyclers offer at least double the prices of authorised ones
+    (e.g., Rs 4,642.9 vs Rs 1,133.3 for an HP laptop) by evading regulations.
+  - >-
+    Mandate a Deposit Refund Scheme with fees exceeding informal prices to
+    incentivise consumers to return e-waste to producers.
+  - >-
+    Introduce third-party audits, as in Gujarat's 2013 experiment, to verify
+    proper disposal and prevent sales to unauthorised recyclers.
+  - >-
+    Establish a Common Deposit Account for cross-producer refunds and government
+    tracking of e-waste flows.
+topics:
+  - e-waste-management
+  - extended-producer-responsibility
+  - deposit-refund-scheme
+  - environmental-regulation
 tags:
   - environmental degradation
+source_hash: 6f13d793f3d8983bf8a6422e06641bd723262fbadf8f8f01925b3e3a42c43503
+summary_hash: 6f13d793f3d8983bf8a6422e06641bd723262fbadf8f8f01925b3e3a42c43503
+summary_at: '2026-05-05T12:58:46.983Z'
 ---
 **By Tarini Sudhakar**
 

@@ -1,15 +1,52 @@
 ---
 title: Peace and Love
 original_url: 'https://www.spontaneousorder.in/p/peace-and-love'
+author: Spontaneous Order
 published_at: '2010-10-22T10:39:17.000Z'
 ingested_at: '2026-05-05T08:31:42.647Z'
-source_hash: 249d6fe9c1deed3391b266916c247c032ed569b5a236ebaec33ce250ce55643c
-author: Spontaneous Order
 excerpt: >-
   Peace and love folks! Back to the 1970’s in the United States, people were
   doing nothing but smoking ganja, and eventually protesting against the Vietnam
   war. The sweet flavor of freedom of expression… Meanwhile in China, Mao Zedong
   well alive, the Ch
+summary: >-
+  The post juxtaposes 1970s American freedom of expression and anti-war protests
+  with Mao's Cultural Revolution (1966-1976), which killed millions and purged
+  intellectuals, setting a pattern of CCP repression against dissenters. Liu
+  Xiaobo's 2010 Nobel Peace Prize, awarded for his human rights advocacy, is
+  rejected by Chinese state media like Global Times ('a disgrace') and People's
+  Daily (demanding an apology), portraying him as a criminal inciting
+  subversion. Along with 350 intellectuals, Liu signed Charter 08 in 2008,
+  demanding classical-liberal reforms such as separation of powers, property
+  rights protection, and freedom of expression—principles extolled by the
+  author. Chinese nationalists ignore exiled Nobel literature winner Gao
+  Xingjian due to his subversive work. While acknowledging China's economic rise
+  to second-largest GDP since reforms, the author invokes Milton Friedman's
+  'Capitalism and Freedom' to argue that economic and political freedoms are
+  intertwined, with state monopolies in key sectors sustaining political power.
+  Rather than NGOs' human rights critiques, the international community should
+  prioritize liberalizing China's economy, especially banking, to empower
+  citizens and erode regime control, fostering eventual political liberty.
+key_points:
+  - >-
+    Charter 08, signed by Liu Xiaobo and 350 Chinese intellectuals, demands
+    classical-liberal reforms including separation of powers, property rights,
+    and freedom of expression.
+  - >-
+    Chinese state media and officials denounce Liu Xiaobo's Nobel Peace Prize as
+    interference and encouragement of crime, prioritizing regime stability.
+  - >-
+    Economic freedom undermines political power, as per Milton Friedman; China's
+    state monopolies in key sectors sustain CCP control.
+  - >-
+    International efforts should focus on opening China's economy, particularly
+    banking, to promote political change rather than solely human rights
+    criticism.
+topics:
+  - china
+  - human-rights
+  - economic-freedom
+  - political-reform
 tags:
   - human rights
   - economic freedom
@@ -17,6 +54,9 @@ tags:
   - civil rights
   - Liu Xiaobo
   - political freedom
+source_hash: 249d6fe9c1deed3391b266916c247c032ed569b5a236ebaec33ce250ce55643c
+summary_hash: 249d6fe9c1deed3391b266916c247c032ed569b5a236ebaec33ce250ce55643c
+summary_at: '2026-05-05T11:13:01.695Z'
 ---
 **By Lucas Leger**
 

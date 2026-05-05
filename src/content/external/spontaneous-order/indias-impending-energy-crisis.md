@@ -1,20 +1,66 @@
 ---
 title: India’s Impending Energy Crisis
 original_url: 'https://www.spontaneousorder.in/p/indias-impending-energy-crisis'
+author: Spontaneous Order
 published_at: '2021-11-02T10:55:28.000Z'
 ingested_at: '2026-05-05T08:31:42.287Z'
-source_hash: 4a657d190f84fa272628b61a61e1693666fb9fb17297594ad44959f3d9d836c3
-author: Spontaneous Order
 excerpt: >-
   The global energy crisis reminds us of the world’s continued reliance on
   fossil fuels for energy generation, despite efforts to move to renewable
   energy. International coal prices are increasing as a result of both an
   increase in demand and a disruption
+summary: >-
+  India faces an impending energy crisis due to acute coal shortages at thermal
+  power plants, where inventories have plummeted to an average of four days'
+  supply against the required 30 days, triggered by monsoon flooding in
+  coalfields, global coal price spikes from Rs 5,000 to Rs 15,000 per tonne, and
+  power plants' failure to stockpile amid supply chain disruptions and budgetary
+  constraints. Post-COVID economic recovery has driven electricity demand beyond
+  4 billion units daily—an 18% rise in coal usage since 2019—exacerbated by 28.2
+  million new household connections. Northern and eastern states like Punjab,
+  Rajasthan, Gujarat, Maharashtra, Uttar Pradesh, and Bihar report power
+  deficits of 2.3% to 14.7%, with industries such as five paper mills in Vapi
+  shutting down, idling thousands of workers. Imported coal generation has
+  dropped 43.6% versus 2019, adding 17.4 million tonnes to domestic demand.
+  Government responses include warning states against profiteering on power
+  exchanges (where prices hit Rs 19/unit from Rs 3-4), allowing captive miners
+  to sell 50% of output to plants, and directing Coal India Limited (supplying
+  80% of needs) to prioritize power sector deliveries while halting non-power
+  supplies and e-auctions. Amid slowing fossil fuel investments and insufficient
+  renewable scaling, the author urges accelerating green energy spending to
+  avert derailing economic recovery.
+key_points:
+  - >-
+    Coal inventories at Indian thermal power plants have fallen to four days'
+    supply versus the 30-day norm due to monsoons, global price hikes, and
+    inadequate stockpiling.
+  - >-
+    Electricity demand exceeds 4 billion units daily with 18% higher coal use
+    than 2019, causing deficits up to 14.7% in states like Punjab and Rajasthan,
+    and shutdowns at industries like Gujarat's paper mills.
+  - >-
+    Imported coal power generation declined 43.6% from 2019 levels, boosting
+    domestic coal demand by 17.4 million tonnes from April to September 2021.
+  - >-
+    Government directs states to avoid selling unallocated central power at high
+    exchange prices, allows captive miners to supply 50% coal to plants, and
+    prioritizes Coal India deliveries to power sector.
+  - >-
+    Accelerate investments in renewables, as green energy expansion lags behind
+    fossil fuel decline, risking repeated crises during economic recovery.
+topics:
+  - energy-crisis
+  - coal-shortage
+  - power-sector
+  - renewable-energy
 tags:
   - coal crisis
   - energy crises
   - economy
   - global energy crisis
+source_hash: 4a657d190f84fa272628b61a61e1693666fb9fb17297594ad44959f3d9d836c3
+summary_hash: 4a657d190f84fa272628b61a61e1693666fb9fb17297594ad44959f3d9d836c3
+summary_at: '2026-05-05T10:23:30.267Z'
 ---
 **By V. P. Vivek Das**
 

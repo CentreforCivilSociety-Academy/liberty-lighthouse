@@ -2,15 +2,58 @@
 title: 'Science, Technology, and Innovation Policy 2020: Embracing Change'
 original_url: >-
   https://www.spontaneousorder.in/p/science-technology-and-innovation-policy-2020-embracing-change
+author: Spontaneous Order
 published_at: '2021-04-19T17:57:27.000Z'
 ingested_at: '2026-05-05T08:31:42.330Z'
-source_hash: c785d020a5f19fa5fe8c2407b57f1f2bdfdf78352ed8b2c459117c700286c0be
-author: Spontaneous Order
 excerpt: >-
   The past decade has outlined the salience of science, technology, and
   innovation (STI). New challenges and opportunities have necessitated new
   approaches to teaching, learning, and sharing scientific knowledge. Science
   and scientific temper are imperati..
+summary: >-
+  The article traces India's science, technology, and innovation (STI) policies
+  from the 1958 Scientific Policy Resolution, which built research
+  infrastructure, to the Technology Policy Statement 1983 emphasizing
+  self-reliance, Science and Technology Policy 2003 boosting R&D via SERB, and
+  STIP 2013 encouraging private sector innovation. The 5th STIP 2020, amid
+  Covid-19 and Atmanirbhar Bharat, adopts an inclusivity-driven, bottom-up
+  approach for open science, proposing 'One Nation One Subscription' to replace
+  Rs.1500 cr/yr fragmented journal spends accessible to only a third of
+  researchers. It envisions a National STI Observatory for data convergence,
+  Open Data Policy, cluster schools, innovation hubs, and 30% women in
+  decision-making to address the 14% female share among 2.8 lakh researchers.
+  Despite 90% public funding going to central universities with 10% researchers,
+  STIP urges private R&D ramp-up, as India has just 216.2 researchers per
+  million. While ambitious for SDGs and global superpower status, challenges
+  like researcher shortages, low GERD, and weak institutions demand
+  evidence-based reforms, NEP synergy, and scientific diplomacy to foster
+  innovation over rote learning from a classical-liberal lens prioritizing
+  private investment and open ecosystems.
+key_points:
+  - >-
+    STIP 2020 proposes 'One Nation One Subscription' for universal journal
+    access, replacing Rs.1500 cr/yr fragmented spending.
+  - >-
+    Establishes National STI Observatory and Open Data Policy to converge
+    research data across sectors.
+  - >-
+    Targets 30% women in STI decision-making to correct 14% female researcher
+    share among 2.8 lakh total.
+  - >-
+    Urges private sector to boost R&D spend, as 90% public funds go to 10%
+    researchers in central universities.
+  - >-
+    India needs to increase researchers from 216.2 per million and GERD for
+    Atmanirbhar Bharat.
+topics:
+  - science-policy
+  - stip-2020
+  - open-science
+  - research-funding
+  - gender-in-stem
+source_hash: c785d020a5f19fa5fe8c2407b57f1f2bdfdf78352ed8b2c459117c700286c0be
+summary_hash: c785d020a5f19fa5fe8c2407b57f1f2bdfdf78352ed8b2c459117c700286c0be
+summary_at: '2026-05-05T11:34:44.253Z'
 ---
 **By Sakshi Jain**
 

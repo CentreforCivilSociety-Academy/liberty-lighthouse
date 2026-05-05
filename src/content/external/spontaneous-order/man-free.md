@@ -1,15 +1,52 @@
 ---
 title: The Right to be Left Alone
 original_url: 'https://www.spontaneousorder.in/p/man-free'
+author: Spontaneous Order
 published_at: '2015-09-16T16:59:33.000Z'
 ingested_at: '2026-05-05T08:31:42.576Z'
-source_hash: c6db73da948e53207898a53ebbf72a365e7ba874791dd01867012d211c0965ae
-author: Spontaneous Order
 excerpt: >-
   As Prime Minister Narendra Modi was delivering a speech in his recent visit to
   UAE, he remarked to a packed audience–“Now we have a government in India which
   is visible everywhere and every minute.” He might have been on to something.
   The developmen
+summary: >-
+  Ujwal Batra argues that Indians lack a practical right to privacy, evidenced
+  by government actions like the temporary pornographic website ban and Mumbai
+  police charging couples in private hotel rooms for 'public indecency,' despite
+  Modi's boast of an omnipresent government. While the state denies privacy due
+  to its absence in the Constitution or precedents, Batra advocates deriving it
+  from first principles as a moral right essential to individual liberty, akin
+  to property rights which establish a sovereign private sphere free from state
+  or societal interference. He invokes the US Ninth Amendment, affirming
+  unenumerated rights retained by the people, and notes Indian courts'
+  expansions like Right to Information from free expression and Right to
+  Education from right to life. Privacy, he contends, is implicit in the right
+  to life, enabling autonomy in speech, association, and property use. Quoting
+  Ayn Rand, Batra frames privacy as the foundation of civilization and rule of
+  law, urging courts, legislatures, and society to protect it against moral
+  impositions.
+key_points:
+  - >-
+    Recent government interventions, such as the revoked porn site ban and
+    police raids on private hotel rooms, demonstrate the absence of privacy
+    protections in India.
+  - >-
+    Privacy is a moral right derived from first principles, independent of
+    constitutional text or precedents, and integral to property rights and
+    individual sovereignty.
+  - >-
+    Indian courts should recognize privacy as implicit in the right to life,
+    following precedents like RTI from free expression and RTE from right to
+    life.
+  - >-
+    The US Ninth Amendment exemplifies that unenumerated rights exist,
+    supporting infinite expressions of fundamental liberties like life, liberty,
+    and property.
+topics:
+  - right-to-privacy
+  - individual-liberty
+  - property-rights
+  - government-overreach
 tags:
   - Right to life
   - Privacy
@@ -17,6 +54,9 @@ tags:
   - Right to Privacy
   - civil liberties
   - Ayn Rand
+source_hash: c6db73da948e53207898a53ebbf72a365e7ba874791dd01867012d211c0965ae
+summary_hash: c6db73da948e53207898a53ebbf72a365e7ba874791dd01867012d211c0965ae
+summary_at: '2026-05-05T10:49:02.190Z'
 ---
 **By Ujwal Batra**
 

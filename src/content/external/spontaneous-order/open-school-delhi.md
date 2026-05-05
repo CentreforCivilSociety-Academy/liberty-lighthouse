@@ -1,20 +1,59 @@
 ---
 title: What does it take to open a school in Delhi? Not an easy task to find out!
 original_url: 'https://www.spontaneousorder.in/p/open-school-delhi'
+author: Spontaneous Order
 published_at: '2019-09-04T12:15:59.000Z'
 ingested_at: '2026-05-05T08:31:42.472Z'
-source_hash: fe82a658fb0738648de3e9d1e5b16d34e24753cee6fb151dfd1c8aa3ee1a9f3f
-author: Spontaneous Order
 excerpt: >-
   This summer, as part of Researching Reality internship at CCS, we set out to
   understand and document the procedure and time taken for opening a private
   school in Delhi. Our ‘model’ school was a private unaided non-minority middle
   school, operating in
+summary: >-
+  Sanjana Sood's investigation into opening a private unaided non-minority
+  middle school in authorised areas of Delhi reveals a profoundly bureaucratic
+  and opaque process that classical-liberals would decry as a barrier to
+  educational entrepreneurship. Guided by the Delhi School Education Act 1973,
+  RTE Act 2009, and Delhi RTE Rules 2011, the procedure demands three key
+  approvals: Essentiality Certificate (EC, 30-point checklist, 68 steps), Scheme
+  of Management (SOM, 16-point checklist, 19 steps), and Certificate of
+  Recognition (90-point checklist, 68 steps). Interns spent two months
+  navigating Directorate of Education (DOE) offices, facing dismissal as
+  students and requiring persistent persuasion to access checklists and pending
+  files. They found hardly any middle schools opened in Delhi over the last 5-10
+  years, with those contacted operating unauthorised. File tracing showed
+  applications shuffling across DOE, district, and zonal offices, with one
+  Certificate of Recognition taking 15 times the prescribed time. The experience
+  underscores government inefficiency and reluctance to share information,
+  turning a seemingly straightforward query into a herculean task and
+  highlighting regulatory overreach stifling private school supply.
+key_points:
+  - >-
+    Opening a private middle school in Delhi requires navigating 30-, 16-, and
+    90-point checklists for EC, SOM, and Recognition, involving 68, 19, and 68
+    steps respectively across government offices.
+  - >-
+    Researchers faced repeated denials and needed persistence to access DOE
+    checklists and pending files, revealing opacity in the approval process.
+  - >-
+    Few middle schools have opened in Delhi in the last 5-10 years, with
+    accessible ones operating in unauthorised areas.
+  - >-
+    One examined file took the DOE 15 times the prescribed time to grant a
+    Certificate of Recognition, exemplifying delays.
+topics:
+  - education-regulation
+  - private-schools
+  - bureaucratic-hurdles
+  - school-approvals
 tags:
   - RTE
   - Education
   - Right to Education
   - Delhi government
+source_hash: fe82a658fb0738648de3e9d1e5b16d34e24753cee6fb151dfd1c8aa3ee1a9f3f
+summary_hash: fe82a658fb0738648de3e9d1e5b16d34e24753cee6fb151dfd1c8aa3ee1a9f3f
+summary_at: '2026-05-05T11:09:27.277Z'
 ---
 **By Sanjana Sood**
 

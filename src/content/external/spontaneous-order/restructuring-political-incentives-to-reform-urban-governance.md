@@ -2,18 +2,61 @@
 title: Restructuring political incentives to reform urban governance
 original_url: >-
   https://www.spontaneousorder.in/p/restructuring-political-incentives-to-reform-urban-governance
+author: Spontaneous Order
 published_at: '2021-04-21T14:35:19.000Z'
 ingested_at: '2026-05-05T08:31:42.330Z'
-source_hash: d78cd439104753d75f1853505fda665facc412d8bc94a8856a435630770b9b5e
-author: Spontaneous Order
 excerpt: >-
   In the month of March this year, the Ministry of Housing and Urban Affairs,
   Government of India, released the Ease of Living Index 2020. The index is an
   examination of 114 Indian cities to assess their livability and their
   citizens’ wellbeing. The posit
+summary: >-
+  Indian cities perform poorly in global livability rankings—New Delhi and
+  Mumbai at 118th and 119th out of 140 in the EIU Global Liveability Index,
+  Hyderabad and Pune at 143rd out of 231 in Mercer's Quality of Living—due to
+  politicians' lack of incentives to prioritize urban improvement amid
+  rural-dominated electoral constituencies. The author, from a classical-liberal
+  viewpoint, attributes this to centralized control and proposes three
+  institutional reforms to realign political incentives. First, fully implement
+  the 1993 74th Constitutional Amendment by devolving fiscal and administrative
+  powers to urban local bodies like municipal corporations, treating cities as
+  organically evolving ecosystems requiring local feedback rather than central
+  planning, as echoed by Milton Friedman's emphasis on mobility and competition.
+  Second, grant autonomy to India's five current megacities (with two more by
+  2030) as separate administrative units under elected mayors, akin to models in
+  China and the US, reflecting their cosmopolitan demographics distinct from
+  states. Third, conduct a new census and delimitation—overdue since 2002—to
+  boost urban seats in Parliament and assemblies, accounting for a 51% surge in
+  rural-urban migrants from 52 million to 78 million between 2001 and 2011.
+  These changes would make urban governance a political priority, fostering
+  innovation in cities as engines of growth.
+key_points:
+  - >-
+    Fully devolve powers and fiscal resources to urban local governments as per
+    the 74th Constitutional Amendment to enable local accountability and
+    problem-solving.
+  - >-
+    Establish India's megacities as autonomous units under elected mayors,
+    independent of state control, to match their cosmopolitan nature and
+    priorities.
+  - >-
+    Conduct a census followed by delimitation of constituencies to increase
+    urban representation in legislatures, reflecting post-2002 demographic
+    shifts.
+  - >-
+    Restructuring political incentives through decentralization, autonomy, and
+    fair representation will compel politicians to prioritize livable cities.
+topics:
+  - urban-governance
+  - decentralization
+  - megacities
+  - electoral-delimitation
 tags:
   - Incentives
   - Politics
+source_hash: d78cd439104753d75f1853505fda665facc412d8bc94a8856a435630770b9b5e
+summary_hash: d78cd439104753d75f1853505fda665facc412d8bc94a8856a435630770b9b5e
+summary_at: '2026-05-05T11:26:32.739Z'
 ---
 **By Anirudh Goel**
 

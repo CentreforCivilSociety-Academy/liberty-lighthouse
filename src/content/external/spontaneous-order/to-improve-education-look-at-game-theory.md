@@ -1,15 +1,59 @@
 ---
 title: 'To improve education, look at game theory'
 original_url: 'https://www.spontaneousorder.in/p/to-improve-education-look-at-game-theory'
+author: Spontaneous Order
 published_at: '2024-07-25T19:53:45.000Z'
 ingested_at: '2026-05-05T08:31:42.713Z'
-source_hash: 4951530d5057ff5fd08028caf1508aef490174a4f7d7a55333d93ec207c3ce09
-author: Spontaneous Order
 excerpt: >-
   Game theory can guide how to align teacher incentive for better education in
   India
+summary: >-
+  Durgesh Jha argues that game theory reveals misaligned incentives in Indian
+  education policy among stakeholders—teachers, students, parents, school
+  management, and government—leading to negative-sum outcomes. In teacher
+  recruitment as a signalling game, candidates' degrees fail to indicate
+  teaching aptitude or interest, resulting in hires unable to deliver learning
+  outcomes despite appearing competent. Better hiring practices, like requiring
+  sample lessons in real classrooms, can mitigate this. Experts Karthik
+  Muralidharan and Venkatesh Sundararaman show that even marginal
+  performance-linked bonuses for teachers improve student learning by aligning
+  incentives, rewarding good performance and reprimanding complacency. Teacher
+  performance is the central barrier to quality education; resolving
+  absenteeism, complacency, and incompetency generates spillovers to
+  infrastructure and other investments, per Muralidharan and Abhijeet Singh. NEP
+  2020 credits with recommending merit-based tenure, promotion, and salary
+  structures, but implementation falters amid regulatory games among
+  bureaucrats, unions, and school owners, fostering over-regulation. This
+  burdens low-budget private schools, passing costs to students through poor
+  outcomes. From a classical-liberal lens, game theory equips policymakers to
+  navigate stakeholder interactions, realign incentives, and transform the
+  system.
+key_points:
+  - >-
+    Teacher recruitment is a signalling game where degrees poorly indicate
+    aptitude; implement demo lessons for better hires.
+  - >-
+    Performance-linked bonuses, even marginal, improve student learning by
+    aligning teacher incentives.
+  - >-
+    Over-regulation from games among bureaucrats, unions, and school managements
+    stifles low-budget private schools and affordable education.
+  - >-
+    NEP 2020's merit-based teacher structures address incentives but face
+    implementation hurdles from vested interests.
+  - >-
+    Game theory highlights how resolving teacher complacency yields spillovers
+    to broader education improvements.
+topics:
+  - education-policy
+  - game-theory
+  - teacher-incentives
+  - education-regulation
 tags:
   - Game theory
+source_hash: 4951530d5057ff5fd08028caf1508aef490174a4f7d7a55333d93ec207c3ce09
+summary_hash: 4951530d5057ff5fd08028caf1508aef490174a4f7d7a55333d93ec207c3ce09
+summary_at: '2026-05-05T12:44:34.896Z'
 ---
 **By Durgesh Jha**
 

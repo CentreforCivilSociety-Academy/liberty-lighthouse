@@ -1,15 +1,50 @@
 ---
 title: Just Labor Day? or Labor n’ Capital Day?
 original_url: 'https://www.spontaneousorder.in/p/just-labor-day-or-labor-n-capital-day'
+author: Spontaneous Order
 published_at: '2013-05-01T18:02:08.000Z'
 ingested_at: '2026-05-05T08:31:42.608Z'
-source_hash: c4aec216e5ab4439ce56699afb09492ff9a7588fbcb5f167d6fdf5e8e99ee18b
-author: Spontaneous Order
 excerpt: >-
   As people celebrate “Labor Day” today, it’s important not to get caught up in
   Marxist fallacies about the labor theory of value and think there is some kind
   of inherent conflict between “Labor” and “Capital.” In reality, a market
   economy is
+summary: >-
+  The post challenges Marxist interpretations of Labor Day, dismissing the labor
+  theory of value and claims of inherent conflict between labor and capital.
+  Instead, it portrays market economies as ecosystems where voluntary exchange
+  harmonizes interests. Marx's view—that capitalists expropriate surplus value
+  from laborers, paying only subsistence wages—failed historically; in
+  relatively free markets with protected property rights, real incomes of
+  laborers have consistently risen. Wages are determined by consumer valuation
+  of goods produced by labor, with entrepreneurs bearing the risk of losses if
+  products fail. Capitalists advance funds, delay consumption, and invest
+  savings in capital goods—like tools from hands to tractors—that amplify labor
+  productivity, enabling higher wages. Labor and capital are interdependent and
+  often embodied in the same individuals via savings. The classical-liberal
+  conclusion: no zero-sum conflict exists; freedom to exchange fosters
+  cooperation, innovation, and rising prosperity for all.
+key_points:
+  - >-
+    Market economies harmonize labor and capital interests through voluntary
+    exchange, refuting Marxist class conflict.
+  - >-
+    Wages reflect consumer valuation of labor's output, not capitalist
+    expropriation, with entrepreneurs bearing production risks.
+  - >-
+    Capital investments in tools and machinery boost labor productivity and real
+    wages, as seen in free-market histories.
+  - >-
+    Laborers and capitalists often overlap, trading subjective values to mutual
+    benefit.
+  - >-
+    Freedom to exchange, not state compulsion, is essential for rising real
+    incomes and prosperity.
+topics:
+  - labor-theory-of-value
+  - class-conflict
+  - free-markets
+  - capital-and-labor
 tags:
   - Capital and Labor
   - freedom to exchange
@@ -17,6 +52,9 @@ tags:
   - Capitalism
   - Marxism
   - Labor Day
+source_hash: c4aec216e5ab4439ce56699afb09492ff9a7588fbcb5f167d6fdf5e8e99ee18b
+summary_hash: c4aec216e5ab4439ce56699afb09492ff9a7588fbcb5f167d6fdf5e8e99ee18b
+summary_at: '2026-05-05T10:33:39.123Z'
 ---
 **By Andrew Humphries**
 

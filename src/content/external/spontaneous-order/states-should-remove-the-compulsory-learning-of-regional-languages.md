@@ -2,18 +2,60 @@
 title: States Should Remove the Compulsory Learning of Regional Languages
 original_url: >-
   https://www.spontaneousorder.in/p/states-should-remove-the-compulsory-learning-of-regional-languages
+author: Spontaneous Order
 published_at: '2024-07-23T15:16:57.000Z'
 ingested_at: '2026-05-05T08:31:42.714Z'
-source_hash: 0be898a4a6192d1e15e711519eb20edd2dad1d47651f4946deee6b54969fdd35
-author: Spontaneous Order
 excerpt: >-
   I used to favour making regional languages compulsory in public schools. Then
   something changed. I now believe there is no rationale in imposing the
   regional language on everyone and making the learning of it compulsory. India
   is not just a country der...
+summary: >-
+  Partha Samal argues that states should eliminate compulsory regional language
+  learning in public schools, rejecting the top-down 'three-language formula'
+  from National Education Policies since 1968, which denies choice to children
+  and parents. He traces India's evolution from the 1956 States Reorganisation
+  Act's language-based borders—now rejected in new states like Telangana,
+  Chhattisgarh, and Jharkhand formed for administrative decentralization—to a
+  classical-liberal vision of freedom, egalitarianism, and merit over
+  regionalism. In Tamil Nadu, with 34 lakh migrants (2.6% or 18 lakh born
+  outside per 2011 Census), migrant children skip schools due to bullying fears
+  and language barriers, as seen with Assamese kids in areca nut farms. ASER
+  2022 shows only 24.5% of rural Class 5 children can read English, down from
+  37.2% in 2016. Instead of mandating Tamil, states should prioritize English
+  teacher recruitment, infrastructure, and a competitive environment welcoming
+  migrants to access jobs and schemes, amid industries like textiles shifting
+  out. Drawing on Periyar and Shivaji for equality, decentralization, and
+  efficiency, Samal concludes compulsion hinders redemption from imposed
+  mindsets and economic progress.
+key_points:
+  - >-
+    States should scrap compulsory regional language requirements in schools to
+    restore choice to parents and children under the three-language formula.
+  - >-
+    New states like Telangana and Chhattisgarh reject language-based borders in
+    favor of administrative decentralization.
+  - >-
+    Tamil Nadu's 34 lakh migrants face school enrollment barriers for children
+    due to language issues and bullying fears.
+  - >-
+    Improve English education in Tamil Nadu, where only 24.5% of rural Class 5
+    students can read it per ASER 2022, to boost migrant integration and
+    economic competitiveness.
+  - >-
+    Governments must foster welcoming cultures for migrants to access jobs and
+    schemes amid shifting industries.
+topics:
+  - language-policy
+  - school-choice
+  - migration
+  - english-education
 tags:
   - Migrants
   - Regional Language
+source_hash: 0be898a4a6192d1e15e711519eb20edd2dad1d47651f4946deee6b54969fdd35
+summary_hash: 0be898a4a6192d1e15e711519eb20edd2dad1d47651f4946deee6b54969fdd35
+summary_at: '2026-05-05T12:11:16.757Z'
 ---
 **By Partha Samal**
 

@@ -1,15 +1,55 @@
 ---
 title: Buildings are natural learners
 original_url: 'https://www.spontaneousorder.in/p/buildings-are-natural-learners'
+author: Spontaneous Order
 published_at: '2025-02-11T16:09:41.000Z'
 ingested_at: '2026-05-05T08:31:42.229Z'
-source_hash: e040f7b96041a0e4ec5ebb04e883f49755f79a665fa42336759c7678573459f0
-author: Spontaneous Order
 excerpt: >-
   Buildings, like humans, evolve and change; laws and codes shouldn’t restrict
   them Buildings just like their users, have a life. Buildings react, adapt,
   grow, transform, evolve, and die. But we don’t hear anyone advocate for
   buildings to have the same
+summary: >-
+  Buildings, like humans, evolve through adaptive layers as described in Stewart
+  Brand's 'How Buildings Learn': site, structure, skin, services, space, and
+  stuff. Rigid urban laws hinder this natural learning process. In Delhi,
+  examples abound: the Centre for Civil Society transformed a Hauz Khas
+  residential block (A-69) into offices with reception, conference room, and
+  pantry since 2013; builder floors in Hauz Khas and Greater Kailash host
+  lawyers, accountants, doctors, and startups offering cheap, flexible rents;
+  the Indian School of Public Policy (ISPP) turned a South Delhi bungalow near
+  IIT and JNU into a campus with lecture theatres for 50 students each and
+  sports facilities. These adaptations emerged from owners' and users'
+  ingenuity, not architects' fixed designs. However, Delhi Development Authority
+  (DDA) zoning fixes building uses, requiring permissions that are exceptions,
+  not norms. Institutional zones like Qutub remain empty despite demand, as
+  vibrancy draws users elsewhere; conversions to housing are prohibited, wasting
+  potential for affordable apartments. From a classical-liberal view, assigning
+  fixed uses is futile and costly, akin to locking people into
+  occupations—buildings and users deserve freedom to adapt and foster
+  spontaneous order.
+key_points:
+  - >-
+    Buildings evolve via six shearing layers, enabling adaptation to users'
+    needs without redesign.
+  - >-
+    Delhi's residential buildings like CCS's Hauz Khas office and ISPP's
+    bungalow successfully became commercial and educational spaces through
+    owner-user decisions.
+  - >-
+    DDA zoning rigidly fixes land uses, blocking evolutions like turning empty
+    institutional buildings into housing.
+  - >-
+    Freeing buildings from use restrictions promotes vibrancy, affordability,
+    and spontaneous urban order over state planning.
+topics:
+  - urban-planning
+  - zoning-laws
+  - property-rights
+  - spontaneous-order
+source_hash: e040f7b96041a0e4ec5ebb04e883f49755f79a665fa42336759c7678573459f0
+summary_hash: e040f7b96041a0e4ec5ebb04e883f49755f79a665fa42336759c7678573459f0
+summary_at: '2026-05-05T09:14:24.078Z'
 ---
 **By Saurabh Modi**
 

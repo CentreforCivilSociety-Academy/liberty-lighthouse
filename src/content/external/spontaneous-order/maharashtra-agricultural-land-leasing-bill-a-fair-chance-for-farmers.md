@@ -2,15 +2,53 @@
 title: 'Maharashtra Agricultural Land Leasing Bill: A Fair Chance for Farmers'
 original_url: >-
   https://www.spontaneousorder.in/p/maharashtra-agricultural-land-leasing-bill-a-fair-chance-for-farmers
+author: Spontaneous Order
 published_at: '2023-01-31T17:55:45.000Z'
 ingested_at: '2026-05-05T08:31:42.247Z'
-source_hash: 35e20130cae4b1da036efde30944bd88097171127511e70bf910ae3a42915ac7
-author: Spontaneous Order
 excerpt: >-
   As a farmer in rural Maharashtra, the thought of leaving your small plot of
   land behind to find work in the city may seem attractive. You could lease your
   land, collect some payment, and have the security of returning to farming if
   the city job doesn’t
+summary: >-
+  The Maharashtra Tenancy and Agricultural Lands Act, 1948, redistributed land
+  to tenants on 'tillers day' April 1, 1957, but prohibited formal leases longer
+  than eleven months, causing landlords to fear permanent loss of ownership and
+  pushing leasing into informal arrangements. These informal deals breed
+  disputes, financial losses, land grabbing, inadequate rents, poor tenancy
+  rights, and block access to bank credit requiring legal contracts, resulting
+  in lower crop yields and incomes. The 2017 Maharashtra Agricultural Land
+  Leasing Bill, modeled on the national framework, legalizes leasing to other
+  farmers, agri-businesses, and government for mutually agreed terms, with
+  dispute resolution and compensation provisions. It passed both Maharashtra
+  legislative houses and was sent to the President; clarifications were provided
+  on 14.09.2020, but Union approval is stalled, citing no fixed timeline. From a
+  classical-liberal view, enacting this bill would revolutionize the land market
+  by enabling transparent, legally-binding contracts, tracking leased land, and
+  fostering fair leasing/renting opportunities, positioning Maharashtra as
+  India's land reform leader and boosting farmer livelihoods through secure
+  property rights and market freedom.
+key_points:
+  - >-
+    MTAL 1948 bans leases over 11 months, forcing informal arrangements that
+    cause disputes and block credit access.
+  - >-
+    Informal leasing leads to land grabbing, unfair rents, and lower
+    productivity due to investment hesitancy.
+  - >-
+    2017 Bill legalizes formal leasing with dispute resolution, passed state
+    legislature but awaits President's approval since 2020.
+  - >-
+    Enacting the bill would create transparent land markets, enabling farmers to
+    lease/rent securely and improve incomes.
+topics:
+  - land-leasing
+  - agricultural-reform
+  - property-rights
+  - farm-credit
+source_hash: 35e20130cae4b1da036efde30944bd88097171127511e70bf910ae3a42915ac7
+summary_hash: 35e20130cae4b1da036efde30944bd88097171127511e70bf910ae3a42915ac7
+summary_at: '2026-05-05T10:46:49.263Z'
 ---
 **By Arjun Krishnan**
 

@@ -1,20 +1,60 @@
 ---
 title: Tamil Nadu’s Unsustainable Energy Policy
 original_url: 'https://www.spontaneousorder.in/p/tamil-nadus-unsustainable-energy-policy'
+author: Spontaneous Order
 published_at: '2021-08-14T14:48:32.000Z'
 ingested_at: '2026-05-05T08:31:42.299Z'
-source_hash: 882fbafb65ffb05696c61f77891f7fc68d98c7587d4eda9d7bb9069e06e33655
-author: Spontaneous Order
 excerpt: >-
   In September 1984, Tamil Nadu’s then chief minister M.G. Ramachandran launched
   a free power scheme for all small & marginal farmers and hut residents.
   Eventually, the benefits were extended to the big farmers and farmers engaged
   in horticulture and praw
+summary: >-
+  Tamil Nadu's free electricity schemes, starting with farmers in 1984 and
+  extending to all households with 100 units bimonthly since 2016, impose a
+  heavy fiscal burden—₹3,073 crores in subsidies to TANGEDCO in FY 2019-20—while
+  distorting incentives and promoting waste. Farmers, receiving unlimited free
+  power, over-pump groundwater, depleting the water table in regions like the
+  Kaveri delta and necessitating higher-capacity pumps that exacerbate
+  electricity use in a vicious cycle of resource exploitation. Households, even
+  low-consumers using under 100 units, lack motivation to conserve, as bills are
+  fully subsidized regardless of usage. Wealthier homes benefit equally, and
+  illegal practices like bribing for extra meters to double free units have
+  proliferated. From a classical-liberal viewpoint, these blanket subsidies
+  erode accountability and efficiency. The author advocates replacing them with
+  Direct Benefit Transfers (DBT), tailoring subsidies by land size for farmers
+  or targeting the poor for households, enabling farmers and residents to pay
+  metered bills and pocket savings for other uses. DBT fosters judicious
+  consumption of electricity and water, as evidenced by Bihar's cycle scheme
+  with <5% leakage and 30%+ enrollment gains, while curbing illegality through
+  bank-linked mapping and enhancing sustainability by reducing emissions.
+key_points:
+  - >-
+    Free electricity for Tamil Nadu farmers causes groundwater over-extraction
+    and a vicious cycle of deeper pumping and higher power use.
+  - >-
+    Blanket 100-unit free power to all households eliminates conservation
+    incentives, benefiting the wealthy and enabling illegal extra-meter
+    installations.
+  - >-
+    Switch to DBT for targeted subsidies empowers farmers and poor households to
+    pay bills, save on usage, and redirect funds productively.
+  - >-
+    Bihar's DBT cycle scheme proves low leakage (<5%) and strong outcomes like
+    30% enrollment rise, supporting DBT's efficacy over free schemes.
+topics:
+  - energy-subsidies
+  - direct-benefit-transfer
+  - groundwater-depletion
+  - agricultural-policy
 tags:
   - energy policy
   - Tamil Nadu
   - environment
   - sustainability
+source_hash: 882fbafb65ffb05696c61f77891f7fc68d98c7587d4eda9d7bb9069e06e33655
+summary_hash: 882fbafb65ffb05696c61f77891f7fc68d98c7587d4eda9d7bb9069e06e33655
+summary_at: '2026-05-05T12:15:04.721Z'
 ---
 **By V. P. Vivek Das**
 

@@ -2,17 +2,64 @@
 title: 'Where did liberalism come from, and where is it going?'
 original_url: >-
   https://www.spontaneousorder.in/p/where-did-liberalism-come-from-and-where-is-it-going
+author: Spontaneous Order
 published_at: '2021-04-16T14:22:25.000Z'
 ingested_at: '2026-05-05T08:31:42.331Z'
-source_hash: 09e7080203130aeab84d84be67dd64e25b9e388773e6202ae109bbf4ae6d868c
-author: Spontaneous Order
 excerpt: >-
   The word liberal is commonly thrown around, sometimes with derogatory
   intentions. The meaning of the term is lost and far from being understood for
   what it actually means. In this piece, I’ll take you on a quick journey into
   the past and explore the ori
+summary: >-
+  Liberalism emerged in mid-17th century Europe amid the Renaissance,
+  Reformation, and Industrial Revolution as a protest against absolute
+  monarchies and arbitrary authority, championing individual liberty, equality
+  before the law, and consent of the governed across intellectual, social,
+  religious, cultural, political, and economic spheres. Initially
+  destructive—removing hindrances to individual development—it progressed
+  against cruelty and superstition until challenged by Marxism, socialism, and
+  fascism in the 20th century. In India, exposed via British entry in 1608 and
+  social reformers like Raja Ram Mohan Roy and Gopal Krishna Gokhale who
+  combated practices like sati, liberalism influenced the independence movement
+  under the Congress Party but yielded to Nehru's democratic socialism and
+  Indira Gandhi's license-permit-quota regime. Free trade faltered due to
+  swadeshi suspicions of monopolies. Watersheds include 1991 liberalization
+  demonstrating open markets' benefits, B.R. Shenoy's 1955 dissent against the
+  Second Five-Year Plan's central planning (praised by Milton Friedman), and
+  Sharad Joshi's Shetkari Sangathana advocating subsidy removal for agricultural
+  trade freedom. Despite these, License Raj remnants persist per WTO reports,
+  agriculture remains regulated trapping small farmers in poverty, and
+  conservative forces prioritize collective will over individual rights.
+  Liberalism, rooted in individual liberty rather than elite privilege, requires
+  a 'Second Freedom Struggle' for comprehensive economic and social
+  liberalization to counter state dominance.
+key_points:
+  - >-
+    Liberalism arose in 17th-century Europe to challenge absolute state
+    authority and secure individual freedoms in all life spheres.
+  - >-
+    In India, liberalism via 19th-century social reforms and independence
+    efforts was overtaken by post-1947 socialism, embedding License Raj until
+    1991 reforms proved markets' efficacy.
+  - >-
+    B.R. Shenoy's 1955 dissent against central planning foreshadowed India's
+    economic woes, as noted by Milton Friedman.
+  - >-
+    Agriculture demands deregulation, as pushed by Sharad Joshi, to enable
+    farmer prosperity amid ongoing heavy controls.
+  - >-
+    India needs a 'Second Freedom Struggle' for economic and social liberties
+    against protectionism and collectivism.
+topics:
+  - liberalism-origins
+  - indian-liberalism
+  - economic-liberalization
+  - state-intervention
 tags:
   - Liberalism
+source_hash: 09e7080203130aeab84d84be67dd64e25b9e388773e6202ae109bbf4ae6d868c
+summary_hash: 09e7080203130aeab84d84be67dd64e25b9e388773e6202ae109bbf4ae6d868c
+summary_at: '2026-05-05T13:00:40.614Z'
 ---
 **By Swati Singh**
 

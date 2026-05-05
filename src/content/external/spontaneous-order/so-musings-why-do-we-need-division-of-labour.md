@@ -1,20 +1,55 @@
 ---
 title: 'SO Musings: Why do we need division of labour?'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-why-do-we-need-division-of-labour'
+author: Spontaneous Order
 published_at: '2019-03-15T10:27:21.000Z'
 ingested_at: '2026-05-05T08:31:42.498Z'
-source_hash: f3281b858a9064e80c5a02d3ce62a9dc158df100e81537f4ba0d479ec7ba9a38
-author: Spontaneous Order
 excerpt: >-
   Human beings, being “economic”, should never be advised to be
   “self-sufficient”. Imagine your plight if you decided to opt-out of the
   exchange of goods and services and had to do everything yourself. Imagine what
   would happen if your family became
+summary: >-
+  The post vehemently opposes self-sufficiency as an economic fallacy, arguing
+  from a classical-liberal perspective that humans, being inherently 'economic,'
+  thrive through specialization and exchange rather than isolation. It
+  illustrates the absurdity of self-sufficiency at every scale: an individual
+  would need to grow food, build houses, and perform surgery, squandering
+  talents in unskilled areas; the same holds for families, villages, towns, and
+  nations like India, where pursuing it amounts to 'economic suicide.' The
+  author challenges the logic by noting that kindergarten children aspire to
+  specific roles like actor or policeman, not self-sufficiency, underscoring its
+  intuitive rejection. Instead, participation in the market economy enables the
+  division of labour, where individuals specialize in their competencies,
+  boosting productivity and prosperity. This critique implicitly targets statist
+  policies favoring autarky, advocating free exchange as the path to human
+  flourishing.
+key_points:
+  - >-
+    Self-sufficiency at any level—from individual to nation—diverts productive
+    energies from strengths to unskilled areas, harming prosperity.
+  - >-
+    Pursuing national self-sufficiency, as in India, constitutes economic
+    suicide by rejecting specialization and trade.
+  - >-
+    Children naturally aspire to specialized roles, not self-sufficiency,
+    revealing its illogic.
+  - >-
+    Market economies foster the division of labour through specialization,
+    enhancing overall efficiency.
+topics:
+  - division-of-labour
+  - self-sufficiency
+  - market-economy
+  - economic-liberalism
 tags:
   - SO Musings
   - Indian liberals
   - Division of Labour
   - Specialisation
+source_hash: f3281b858a9064e80c5a02d3ce62a9dc158df100e81537f4ba0d479ec7ba9a38
+summary_hash: f3281b858a9064e80c5a02d3ce62a9dc158df100e81537f4ba0d479ec7ba9a38
+summary_at: '2026-05-05T12:03:36.918Z'
 ---
 **By Spontaneous Order**
 

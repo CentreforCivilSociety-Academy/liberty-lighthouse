@@ -1,15 +1,49 @@
 ---
 title: 'SO Musings: Competition can Eliminate Cronies'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-competition-can-eliminate-cronies'
+author: Spontaneous Order
 published_at: '2019-05-24T07:18:01.000Z'
 ingested_at: '2026-05-05T08:31:42.486Z'
-source_hash: 12872c8cdc0a8fcdd6593214a94d4e0b3b39831615bb60921188027b9cb8cfb0
-author: Spontaneous Order
 excerpt: >-
   “New no-frills airlines like IndiGo, SpiceJet and GoAir had entered the
   business and cut prices. In a price-sensitive market like India, full-service
   airlines like Kingfisher and Jet found it difficult to compete. Kingfisher
   finally went bust after repe
+summary: >-
+  In a classical-liberal view, competition in liberalized markets effectively
+  combats cronyism by eliminating politically favored businesses unable to
+  compete. New no-frills airlines like IndiGo, SpiceJet, and GoAir slashed
+  prices in price-sensitive India, driving full-service carriers Kingfisher and
+  Jet—backed by political connections of Vijay Mallya and Naresh Goyal—out of
+  business despite policy changes and repeated public sector bank rescues. The
+  pre-1991 licence-permit raj epitomized pure crony capitalism, where every
+  industrial licence, import licence, foreign exchange allocation, and foreign
+  collaboration permit was a politician's favor exchanged for business favors;
+  Rahul Gandhi's family significantly contributed to this system. While cronyism
+  persists, India's liberalization has downsized it: unlike other countries
+  where cronies secure permanent monopolies, Indian cronies receive only
+  temporary favors, allowing market competition to ultimately kill even the
+  biggest ones. This shift represents substantial progress toward a freer market
+  order.
+key_points:
+  - >-
+    No-frills airlines like IndiGo, SpiceJet, and GoAir outcompeted politically
+    connected full-service carriers Kingfisher and Jet by cutting prices in
+    India's liberalized aviation market.
+  - >-
+    The licence-permit raj was pure crony capitalism, doling out licenses as
+    political favors.
+  - >-
+    India's liberalization prevents permanent monopolies, enabling competition
+    to eliminate cronies despite temporary policy perks.
+  - >-
+    Rahul Gandhi's cronyism complaints overlook his family's role in the
+    pre-1991 system.
+topics:
+  - crony-capitalism
+  - aviation-industry
+  - market-liberalization
+  - competition
 tags:
   - Cronyism
   - Kingfisher
@@ -20,6 +54,9 @@ tags:
   - free markets
   - Crony Capitalism
   - license raj
+source_hash: 12872c8cdc0a8fcdd6593214a94d4e0b3b39831615bb60921188027b9cb8cfb0
+summary_hash: 12872c8cdc0a8fcdd6593214a94d4e0b3b39831615bb60921188027b9cb8cfb0
+summary_at: '2026-05-05T11:54:07.275Z'
 ---
 **By Spontaneous Order**
 

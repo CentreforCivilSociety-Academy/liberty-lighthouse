@@ -1,20 +1,60 @@
 ---
 title: 'The Right Honorable Sir V S Srinivasa Sastri: Diplomat, Politician, Liberal'
 original_url: 'https://www.spontaneousorder.in/p/v-s-srinivasa-sastri'
+author: Spontaneous Order
 published_at: '2019-09-23T08:03:39.000Z'
 ingested_at: '2026-05-05T08:31:42.468Z'
-source_hash: 5c8ff3df3761550196694f8680a413af43fd85591f878ef288d996d843a97914
-author: Spontaneous Order
 excerpt: >-
   Mahatma Gandhi is among that rare category of politicians which defy the
   conventional ideological label of liberal, left, conservative, or anarchist.
   His long career of engagement with ideas drew inspiration from scores of
   writings. Yet, Indian liberals..
+summary: >-
+  V S Srinivasa Sastri, a Tamilian schoolteacher turned liberal politician under
+  Gopal Krishna Gokhale's influence, exemplifies principled Indian liberalism.
+  Joining Gokhale's Servants of India Society after reading its pamphlet, Sastri
+  assisted in Congress leadership and became its president after Gokhale's 1915
+  death, leading until 1946. He co-architected the 1916 Lucknow Pact demanding
+  equal rights and self-rule under the Raj, evolving from dominion status to
+  self-determination by 1922. Facing racism abroad and advocating racial
+  equality, democratization of princely states, and women's rights, Sastri
+  opposed Gandhi's Civil Disobedience and Non-Cooperation, prioritizing rule of
+  law to avoid setting precedents for lawlessness. Accused of Raj sympathy, he
+  countered by appealing to British liberals constitutionally, paralleling
+  satyagrahis' moral appeals. As colonial India's diplomat, Sastri championed
+  Indian citizenship in British dominions at the 1921 Imperial Conference,
+  outlined global citizenship and disarmament at the League of Nations' Geneva
+  conference, and addressed the Washington Naval Treaty. Surviving a bombing in
+  South Africa, he earned acclaim as India's de facto global ambassador. The
+  author argues for recognizing Sastri's liberal constitutionalism as a valid,
+  heterogeneous strand of Indian nationalism, predating Nehru in India's
+  outsized international role through liberal internationalism.
+key_points:
+  - >-
+    Sastri joined and led Gokhale's Servants of India Society, emphasizing
+    patriotic sacrifice and constitutional patriotism.
+  - >-
+    He opposed non-cooperation movements to uphold rule of law, warning against
+    precedents for future lawlessness.
+  - >-
+    As diplomat, Sastri secured citizenship rights for Indians in dominions at
+    the 1921 Imperial Conference and promoted global citizenship at Geneva.
+  - >-
+    His moderate liberalism advanced self-rule demands via the 1916 Lucknow Pact
+    and evolved toward self-determination.
+topics:
+  - indian-liberals
+  - constitutionalism
+  - rule-of-law
+  - liberal-internationalism
 tags:
   - V S Srinivasa Sastri
   - Indian Liberal Tradition
   - Indian liberals
   - IndianLiberals.in
+source_hash: 5c8ff3df3761550196694f8680a413af43fd85591f878ef288d996d843a97914
+summary_hash: 5c8ff3df3761550196694f8680a413af43fd85591f878ef288d996d843a97914
+summary_at: '2026-05-05T12:52:14.290Z'
 ---
 **By Sanjeet Kashyap**
 

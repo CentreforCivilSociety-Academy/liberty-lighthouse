@@ -2,20 +2,57 @@
 title: 'Capitalism Under Attack: Adam Smith and Free Banking'
 original_url: >-
   https://www.spontaneousorder.in/p/capitalism-under-attack-adam-smith-and-free-banking
+author: Spontaneous Order
 published_at: '2012-01-11T01:59:11.000Z'
 ingested_at: '2026-05-05T08:31:42.627Z'
-source_hash: 278c1580958bed4e05c2fca2c3268ff03acc001bd095c474dcb2ecb89c5c4e97
-author: Spontaneous Order
 excerpt: >-
   Capitalism is under attack from many directions today. In this context,
   Financial Times just published a fictional “Letter to Capitalists from Adam
   Smith,” praising what capitalism has achieved over the past 200 years. Despite
   its imperfections, the l
+summary: >-
+  Capitalism faces attacks amid financial sector failures, but a fictional
+  Financial Times 'Letter to Capitalists from Adam Smith' praises its triumph
+  over communism and socialism, crediting it with unprecedented wealth creation
+  that has elevated billions to the middle class, enabling education, luxuries,
+  leisure, and secure retirement. The author argues that modern banking, one of
+  the most regulated sectors, deviates from free market ideals and fueled recent
+  crises, not representative of true capitalism. Adam Smith, in The Wealth of
+  Nations, advocated free banking: banks free to issue circulating notes,
+  diversify, and compete, but legally obligated to redeem them immediately and
+  unconditionally in promised assets, ensuring public safety through
+  accountability and competition. This system implies support for competing
+  currencies and potentially breaking up the Euro's monetary union. Scholarship,
+  including from Lawrence White, shows free banking in historical contexts like
+  Scotland and Canada outperformed central banking, offering a classical-liberal
+  alternative to recessions, bailouts, and threats like US debt or Euro collapse
+  that undermine capitalism.
+key_points:
+  - >-
+    Capitalism's productive strength has triumphed globally, creating vast
+    middle-class opportunities despite imperfections.
+  - >-
+    Modern banking failures stem from heavy central regulation, not free
+    markets.
+  - >-
+    Adam Smith proposed free banking where banks freely issue redeemable notes,
+    regulated by competition and accountability.
+  - >-
+    Free banking scholarship indicates it prevents crises better than central
+    banking systems.
+topics:
+  - free-banking
+  - adam-smith
+  - capitalism
+  - central-banking
 tags:
   - free banking
   - Adam Smith
   - The Wealth of Nations
   - Capitalism
+source_hash: 278c1580958bed4e05c2fca2c3268ff03acc001bd095c474dcb2ecb89c5c4e97
+summary_hash: 278c1580958bed4e05c2fca2c3268ff03acc001bd095c474dcb2ecb89c5c4e97
+summary_at: '2026-05-05T09:16:27.828Z'
 ---
 **By Andrew Humphries**
 

@@ -1,20 +1,64 @@
 ---
 title: 'RTE: Field Experiences From Gujarat'
 original_url: 'https://www.spontaneousorder.in/p/rte-field-experiences-from-gujarat'
+author: Spontaneous Order
 published_at: '2018-08-06T11:06:48.000Z'
 ingested_at: '2026-05-05T08:31:42.517Z'
-source_hash: 0ed6a99d9952d6978744bb9d9947a5da4685154446668e9ce3a904a08d332e61
-author: Spontaneous Order
 excerpt: >-
   Section 12(1)(c ) of the Right to Education Act that mandates private (unaided
   and non-minority) schools to reserve at least 25% seats at the entry-level for
   the socially and economically disadvantaged, is an acknowledgement of the
   growth of private sch..
+summary: >-
+  Section 12(1)(c) of India's Right to Education Act mandates private unaided
+  schools to reserve 25% entry-level seats for disadvantaged children,
+  acknowledging private school growth amid segregated systems, with potential to
+  impact over 20 million children. Only 11 states and one Union Territory have
+  implemented it since 2009, facing private school resistance. In Gujarat,
+  piloted in 2013 with low initial awareness, the 2017-18 shift to an online
+  application portal—requiring form submission at receiving centers—imposed high
+  transaction costs on poor households lacking digital literacy and devices,
+  forcing reliance on overcharging cyber cafes amid crashing servers and
+  dysfunctional help centers. GPS location mismatches further restricted school
+  options, while persistent issues like Gujarati/English-only forms excluding
+  Hindi/Marathi/Urdu speakers, absent helplines, and weak grievance mechanisms
+  continued. Though online systems promise transparency and tracking, they
+  currently exacerbate exclusion of the most disadvantaged. The state showed
+  improved responsiveness, but failure to address old and new flaws undermines
+  the policy. Correct implementation could bridge social distances and boost
+  prosocial behavior in diverse classrooms, as per research. From a
+  classical-liberal lens, effective execution is crucial for this intervention
+  to deliver on integrating the poor without undue burdens.
+key_points:
+  - >-
+    Gujarat's 2017-18 online RTE admission system raised costs for disadvantaged
+    applicants due to digital illiteracy, cyber cafe dependencies, and server
+    crashes.
+  - >-
+    GPS inaccuracies and non-functional receiving centers limited school access
+    for eligible households.
+  - >-
+    Language barriers in Gujarati/English and lack of multilingual support
+    excluded Hindi, Marathi, and Urdu speakers.
+  - >-
+    Absence of a dedicated helpline and grievance mechanism persists, hindering
+    applicant support.
+  - >-
+    Improved government responsiveness is noted, but systemic fixes are needed
+    to realize the policy's potential for social integration.
+topics:
+  - rte-12-1-c
+  - education-reservation
+  - implementation-challenges
+  - gujarat-education
 tags:
   - RTE
   - Gujarat RTE Rules
   - Education
   - Right to Education
+source_hash: 0ed6a99d9952d6978744bb9d9947a5da4685154446668e9ce3a904a08d332e61
+summary_hash: 0ed6a99d9952d6978744bb9d9947a5da4685154446668e9ce3a904a08d332e61
+summary_at: '2026-05-05T11:29:57.391Z'
 ---
 **By Nisha Vernekar**
 

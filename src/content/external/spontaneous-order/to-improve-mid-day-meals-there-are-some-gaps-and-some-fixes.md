@@ -2,13 +2,51 @@
 title: 'To Improve Mid-Day Meals, There are Some Gaps and Some Fixes'
 original_url: >-
   https://www.spontaneousorder.in/p/to-improve-mid-day-meals-there-are-some-gaps-and-some-fixes
+author: Spontaneous Order
 published_at: '2024-07-31T14:38:26.000Z'
 ingested_at: '2026-05-05T08:31:42.713Z'
-source_hash: ae5824250764cb2ccaa2fee2855835593d85f5257ed8f4e9cedb7f414ececd3c
-author: Spontaneous Order
 excerpt: >-
   Mid-day meal quality and implementation needs improvement, alternative models
   can help here.
+summary: >-
+  The Mid-Day Meal scheme, initiated by Tamil Nadu in 1956 and now nationally
+  implemented, has boosted school enrollment and child nutrition but is plagued
+  by implementation failures under central and state governments. Key problems
+  include poor meal quality—insects, undercooked food like ghooogri in
+  Rajasthan, uric acid in grains—with a 2002 survey showing 10% of parents
+  reporting children unwell; inadequate cooking/storage facilities (only
+  one-third of schools have helpers); teachers' time diverted from classes;
+  sporadic supervision fostering corruption, delays in payments/grain delivery,
+  and losses/substitutions; regional disparities (Tamil Nadu succeeds, Bihar/UP
+  fail despite Supreme Court orders); caste-based discrimination; and holiday
+  feeding gaps. A classical-liberal approach favors community-driven models with
+  minimal government involvement, private partnerships like Akshaya Patra
+  (ISKCON nonprofit), local school autonomy over state control, increased
+  funding for independent operations, and better inspections. States should
+  prioritize scheme funding over other initiatives and explore community
+  incentives to resolve these government-centric shortcomings.
+key_points:
+  - >-
+    Mid-Day Meal scheme increases enrollment and nutrition but fails due to poor
+    quality, facilities, supervision, and logistics under government
+    implementation.
+  - >-
+    Private partnerships like Akshaya Patra and community-driven models with
+    minimal government role improve delivery.
+  - >-
+    Grant local schools decision-making autonomy, boost funding for
+    independence, and enhance inspections to fix state-level bottlenecks.
+  - >-
+    Prioritize adequate funding for the scheme over other initiatives across
+    resource-varying states.
+topics:
+  - mid-day-meals
+  - school-nutrition
+  - public-private-partnerships
+  - education-decentralization
+source_hash: ae5824250764cb2ccaa2fee2855835593d85f5257ed8f4e9cedb7f414ececd3c
+summary_hash: ae5824250764cb2ccaa2fee2855835593d85f5257ed8f4e9cedb7f414ececd3c
+summary_at: '2026-05-05T12:44:51.008Z'
 ---
 **By Siddhant Shetty**
 

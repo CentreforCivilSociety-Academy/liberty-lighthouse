@@ -1,17 +1,57 @@
 ---
 title: 'Harmful Bans and Limited State Capacity: An Agricultural Example'
 original_url: 'https://www.spontaneousorder.in/p/harmful-bans-and-limited-state-capacity'
+author: Spontaneous Order
 published_at: '2020-08-25T16:58:59.000Z'
 ingested_at: '2026-05-05T08:31:42.385Z'
-source_hash: 5e7baaaeed4a6e5a8dbf642cabc9e79cf83d4bea32f89ccb08c4d590981f5305
-author: Spontaneous Order
 excerpt: >-
   Bans are the worst form of regulation. Ad-hoc measures such as this ban do not
   take into consideration the long term seen and unseen effects of the policy.
   When bans exist, they only provide opportunities for rent-seeking.
+summary: >-
+  The Indian Ministry of Agriculture's draft Banning of Insecticides Order,
+  2020, proposes banning 27 pesticides accounting for 40% of domestic usage,
+  despite flawed rationale including non-submission of data due to unmet
+  deadlines and bans in low-capacity countries like Syria, Mozambique, and
+  Palestine, rather than advanced regulators like the EU, US, or Australia. Of
+  these, six are 'green triangle' (unlikely harmful), eight 'blue triangle'
+  (mildly toxic), and only 11 highly/extremely toxic; examples include Diuron
+  (recommended for continued use with caveats, banned only in Mozambique),
+  Malathion (banned only in Syria and Palestine), and Deltamethrin (safe for
+  household use and malaria control, banned agriculturally). Substitution with
+  costlier imports (Rs 350 vs Rs 2000 per litre, up to 5x) burdens farmers,
+  contradicts Atmanirbhar Bharat self-reliance, and increases regulatory
+  uncertainty amid ease-of-doing-business efforts. From a classical-liberal
+  view, ad-hoc bans are the worst regulation, fostering rent-seeking, ignoring
+  long-term effects, and misallocating India's limited state capacity (135
+  police per 100,000 vs global 318). The author advocates regular 10-year
+  reviews and wider consultations over hasty prohibitions.
+key_points:
+  - >-
+    The ban on 27 pesticides, 40% of domestic use, relies on weak justifications
+    like data non-submission from tight deadlines and bans in low-capacity
+    nations like Syria and Mozambique.
+  - >-
+    Many targeted pesticides like Diuron, Malathion, and Deltamethrin are
+    approved in EU, US, Australia, and useful for public health, contradicting
+    the Anupam Verma Committee's recommendations.
+  - >-
+    Replacement costs could rise 5x (Rs 350 to Rs 2000 per litre), harming
+    farmers and self-reliance goals.
+  - >-
+    Ad-hoc bans waste limited enforcement capacity and invite rent-seeking; opt
+    for regularized 10-year reviews instead.
+topics:
+  - agriculture
+  - pesticide-regulation
+  - state-capacity
+  - better-regulation
 tags:
   - Legislature
   - agriculture
+source_hash: 5e7baaaeed4a6e5a8dbf642cabc9e79cf83d4bea32f89ccb08c4d590981f5305
+summary_hash: 5e7baaaeed4a6e5a8dbf642cabc9e79cf83d4bea32f89ccb08c4d590981f5305
+summary_at: '2026-05-05T10:08:43.111Z'
 ---
 **By Bhuvana Anand**
 

@@ -1,15 +1,50 @@
 ---
 title: 'SO Musing: Remembering Dr Ambedkar'
 original_url: 'https://www.spontaneousorder.in/p/remembering-dr-ambedkar'
+author: Spontaneous Order
 published_at: '2020-03-13T16:37:53.000Z'
 ingested_at: '2026-05-05T08:31:42.436Z'
-source_hash: 6aebcb8a1709a9d1e5a9ce416d92bce693e6ef83ac167ab72ebe3d1ee636ee3f
-author: Spontaneous Order
 excerpt: >-
   Of late, Dr Ambedkar has emerged out of oblivion to reclaim a prominent space
   in India’s public life, and rightly so. As a political leader, social
   reformer, and author, Ambedkar interacted with a range of other leading
   figures of his times, all belongi
+summary: >-
+  Spontaneous Order republishes a 1992 reminiscence by liberal politician Minoo
+  Masani on his interactions with Dr. B.R. Ambedkar, highlighting their shared
+  classical-liberal pedigree that influenced India's founding. Masani first
+  encountered Ambedkar's intellect as a student at Elphinstone College, reading
+  his book 'The Problem of the Rupee,' which argued for pegging the rupee at 1
+  shilling 6 pence—contrary to the common Indian business view of 1 shilling 4
+  pence—a position Masani endorsed in his B.A. economics exam, earning high
+  marks from Ambedkar as the examiner. They later collaborated in the 1947
+  Constituent Assembly, where Ambedkar played a pivotal role in drafting the
+  Constitution. Alongside Mrs. Hansa Mehta, Masani and Ambedkar signed Minutes
+  of Dissent advocating a Uniform Civil Code and making free compulsory primary
+  education a fundamental right enforceable by law, rather than a mere Directive
+  Principle, against the majority view. Masani proudly recalls their 'idealist'
+  stance, as noted by Dr. K.M. Munshi. The piece underscores Ambedkar's
+  resurgence in public life and the liberal tradition that shaped the nation,
+  countering pseudo-socialism.
+key_points:
+  - >-
+    Minoo Masani endorsed Ambedkar's argument in 'The Problem of the Rupee' for
+    pegging the rupee at 1 shilling 6 pence and received high exam marks from
+    Ambedkar as examiner.
+  - >-
+    In the Constituent Assembly, Masani and Ambedkar dissented with Mrs. Hansa
+    Mehta for a Uniform Civil Code.
+  - >-
+    Masani and Ambedkar also pushed to make free compulsory primary education a
+    fundamental right, not just a Directive Principle.
+  - >-
+    The reminiscence reflects the shared Indian liberal tradition that
+    influenced the Constitution.
+topics:
+  - indian-liberalism
+  - dr-ambedkar
+  - constituent-assembly
+  - uniform-civil-code
 tags:
   - Minoo Masani
   - SO Musings
@@ -17,6 +52,9 @@ tags:
   - Liberalism in India
   - brambedkar
   - Constitution of India
+source_hash: 6aebcb8a1709a9d1e5a9ce416d92bce693e6ef83ac167ab72ebe3d1ee636ee3f
+summary_hash: 6aebcb8a1709a9d1e5a9ce416d92bce693e6ef83ac167ab72ebe3d1ee636ee3f
+summary_at: '2026-05-05T11:25:54.188Z'
 ---
 **By Spontaneous Order**
 

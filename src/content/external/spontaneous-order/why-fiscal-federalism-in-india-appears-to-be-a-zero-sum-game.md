@@ -2,20 +2,56 @@
 title: Why fiscal federalism in India appears to be a zero-sum game
 original_url: >-
   https://www.spontaneousorder.in/p/why-fiscal-federalism-in-india-appears-to-be-a-zero-sum-game
+author: Spontaneous Order
 published_at: '2021-07-26T11:07:31.000Z'
 ingested_at: '2026-05-05T08:31:42.302Z'
-source_hash: 6f171b24a3029c5d3d54149024c862fac71bd47281b1f566d7a5440577c80cfa
-author: Spontaneous Order
 excerpt: >-
   Only a buoyant tax system can ease the battle for resources and help minimize
   Centre-state mistrust. The First Finance Commission was set up in 1951 to
   decide how taxes collected by the Union government have to be shared with
   Indian states. The 15th Fin..
+summary: >-
+  Indian fiscal federalism has evolved over seven decades with states gaining
+  access to more taxes in the divisible pool and larger shares—from the First
+  Finance Commission's 1951 allocation of 50% income tax and 40% excise on three
+  commodities, to all Union taxes shareable post-2000 constitutional amendment,
+  and the 14th Finance Commission's 42% devolution from 2015—yet Centre-state
+  battles for resources have intensified, marked by mistrust. The Centre
+  counters via cesses and surcharges, which rose from 10.4% of gross tax
+  revenues in 2011-12 to 19.9% in 2021-22, reducing actual state shares below
+  35%. Historical examples like the Seventh Finance Commission's doubling of
+  excise share to 40% strained Centre finances. This zero-sum dynamic stems from
+  India's stagnant tax-to-GDP ratio at ~17% since the 1990s, as noted by the
+  15th Finance Commission. From a classical-liberal perspective, only a buoyant
+  tax system—via reforms like GST overhaul—can expand the pie, ease resource
+  fights, and minimize mistrust between Centre and states.
+key_points:
+  - >-
+    India's stagnant 17% tax-to-GDP ratio since the 1990s forces fiscal
+    federalism into a zero-sum game between Centre and states.
+  - >-
+    Centre's reliance on cesses and surcharges, rising to 19.9% of revenues by
+    2021-22, evades 14th Finance Commission's 42% devolution, keeping actual
+    state shares under 35%.
+  - >-
+    Historical Finance Commission increases in state shares prompted Centre
+    countermeasures, fostering ongoing mistrust.
+  - >-
+    15th Finance Commission urges fiscal reforms, including GST overhaul, to
+    boost tax buoyancy and expand the divisible pool.
+topics:
+  - fiscal-federalism
+  - tax-reform
+  - finance-commission
+  - centre-state-relations
 tags:
   - Federalism
   - Taxes
   - Finance
   - Government
+source_hash: 6f171b24a3029c5d3d54149024c862fac71bd47281b1f566d7a5440577c80cfa
+summary_hash: 6f171b24a3029c5d3d54149024c862fac71bd47281b1f566d7a5440577c80cfa
+summary_at: '2026-05-05T13:04:52.125Z'
 ---
 **By Niranjan Rajadhyaksha**
 

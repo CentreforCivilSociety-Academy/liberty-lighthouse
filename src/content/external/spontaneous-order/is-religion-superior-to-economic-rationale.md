@@ -1,20 +1,61 @@
 ---
 title: Is religion superior to economic rationale?
 original_url: 'https://www.spontaneousorder.in/p/is-religion-superior-to-economic-rationale'
+author: Spontaneous Order
 published_at: '2019-01-23T10:35:26.000Z'
 ingested_at: '2026-05-05T08:31:42.509Z'
-source_hash: 04767d650f59bee54128de11f4663124e8f4f5ce5c279203e4ba75bd4da60a2c
-author: Spontaneous Order
 excerpt: >-
   Is religion superior to economic rationale? How expensive is religion? Does
   the question bother you? It shouldn’t, considering the amount of money we
   spend on religion every day. Sick-healthy, lucky-unlucky, happy-sad: everyone
   is eligible for holy favo
+summary: >-
+  Religion operates as a lucrative market resilient to recessions and disasters,
+  with the US faith economy valued at $1.2 trillion and India's incense sticks
+  market alone at over Rs 2500 crores; the poorest 20% in rural India spend 7%
+  of monthly expenses on religious services. Yet, despite religions' pro-wealth
+  elements like Hinduism's Lakshmi or Protestant work ethic, rising religiosity
+  in India—over 90% per World Values Survey 2010-2014, up 10 points since
+  2004—contrasts global declines and correlates negatively with per capita
+  income and prosperity. In India, this inhibits the demographic dividend
+  through economic exclusion via religio-cultural norms: religious attitudes
+  limit women's workforce participation, potentially costing $770 billion in
+  GDP; caste rooted in religion influences voting and politics, leading to
+  economic losses; and intolerance targets industries like the $16 billion
+  leather sector amid cattle slaughter bans. Religious pluralism aids prosperity
+  in nations like Norway, but India's religio-centrism fosters animosity and
+  fundamentalism, harming growth. The post calls for quantifying the religion
+  industry's scale and the losses from religious intolerance to prioritize
+  economic rationale over religious obstruction.
+key_points:
+  - >-
+    Rising Indian religiosity above 90% inhibits economic growth and demographic
+    dividend by enforcing exclusion on religion, caste, and gender grounds.
+  - >-
+    Religious norms restrict women's participation, with potential $770 billion
+    GDP loss from better treatment.
+  - >-
+    Caste and religious affiliations drive voting, causing economic losses via
+    favoritist policies.
+  - >-
+    Religious intolerance stifles industries like the $16 billion leather sector
+    through cattle slaughter crackdowns.
+  - >-
+    Quantify religion market gains versus losses from fundamentalism to assess
+    net economic impact.
+topics:
+  - religion-economics
+  - indian-religiosity
+  - economic-exclusion
+  - caste-system
 tags:
   - economic growth
   - religiosity
   - Religion
   - price of religion
+source_hash: 04767d650f59bee54128de11f4663124e8f4f5ce5c279203e4ba75bd4da60a2c
+summary_hash: 04767d650f59bee54128de11f4663124e8f4f5ce5c279203e4ba75bd4da60a2c
+summary_at: '2026-05-05T10:30:30.205Z'
 ---
 **By Sunaina Mathur**
 

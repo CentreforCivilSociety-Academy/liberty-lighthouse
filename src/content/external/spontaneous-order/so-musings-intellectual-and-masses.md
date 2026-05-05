@@ -1,19 +1,54 @@
 ---
 title: 'SO Musings: Intellectual and Masses'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-intellectual-and-masses'
+author: Spontaneous Order
 published_at: '2020-11-13T15:15:58.000Z'
 ingested_at: '2026-05-05T08:31:42.368Z'
-source_hash: a9c1de16a357de9bd82905f65bab8d8f3f55c127b4977f0df3a45860189e8d8b
-author: Spontaneous Order
 excerpt: >-
   What is the role of the intellectual in society? This question has been
   debated from several perspectives over the centuries, mostly by intellectuals
   themselves. While Ayn Rand saw the intellectual class as the fountainhead of
   the dominant philosophy of..
+summary: >-
+  Eric Hotter's 1958 article in the Indian Libertarian critiques intellectuals
+  from a classical-liberal perspective, portraying them as developing scorn for
+  the common folk and indulging in vanity by imposing their opinions as superior
+  wisdom. Unlike men of action, intellectuals seek leadership and conquest
+  through the 'sanction of ideals' and grand designs for liberty, equality, and
+  justice, often masking personal grievances rather than genuine sympathy for
+  the downtrodden—as Thoreau noted, their ardor cools once their 'private ail'
+  is righted. Hotter describes their cast of mind as essentially aristocratic,
+  echoing Heraclitus in believing that 'ten thousand [masses] do not turn the
+  scale against a single man of worth' and viewing the many as mean while only
+  the few are noble. Intellectuals doubt the masses' ability to achieve anything
+  worthwhile independently and resent their attempts at autonomy, preferring to
+  impose discipline. They would feel out of place in a prosperous society
+  without grievances, where leadership opportunities diminish and a self-assured
+  populace offends their sensibilities. This view aligns with critics like
+  Thomas Sowell and Nassim Taleb, contrasting with idealizations by Ayn Rand or
+  Lenin.
+key_points:
+  - >-
+    Intellectuals scorn the knowledge of the masses and seek to impose their
+    opinions as wisdom.
+  - >-
+    They pursue leadership through grandiose ideals for the downtrodden, driven
+    more by personal vanity than sympathy.
+  - >-
+    Intellectuals possess an aristocratic mindset, doubting the masses'
+    independent capabilities and resenting their prosperity.
+topics:
+  - intellectuals
+  - role-of-intellectuals
+  - indian-libertarian
+  - classical-liberal-critique
 tags:
   - SO Musings
   - Intellectuals
   - Indian liberals
+source_hash: a9c1de16a357de9bd82905f65bab8d8f3f55c127b4977f0df3a45860189e8d8b
+summary_hash: a9c1de16a357de9bd82905f65bab8d8f3f55c127b4977f0df3a45860189e8d8b
+summary_at: '2026-05-05T11:57:34.436Z'
 ---
 **By Spontaneous Order**
 

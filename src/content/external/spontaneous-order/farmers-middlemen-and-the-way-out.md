@@ -1,15 +1,54 @@
 ---
 title: 'Farmers, Middlemen and the Way Out'
 original_url: 'https://www.spontaneousorder.in/p/farmers-middlemen-and-the-way-out'
+author: Spontaneous Order
 published_at: '2019-02-05T08:03:00.000Z'
 ingested_at: '2026-05-05T08:31:42.507Z'
-source_hash: 11eb3342d8ea938fed517fb36e0e1cb8b6fc7b2fae711eeab0b7d21e0d0117b3
-author: Spontaneous Order
 excerpt: >-
   Until recently, I would chuckle seeing my mother bargain with the vegetable
   vendors for a mere Rs. 2-3, but of late, I often find myself doing the same –
   only to chuckle again, but this time at the irony of it all. What changed?
   Ordinarily, a vegetable
+summary: >-
+  The post critiques India's APMC Act of 1963, originally aimed at protecting
+  farmers from middlemen by mandating sales through regulated 'mandis,' but
+  which has instead entrenched middlemen cartels, stagnant farmer incomes
+  (Economic Survey 2018), and high suicide rates (45 daily; 15,964 in 2010 per
+  NCRB). Tomatoes exemplify disparities, fetching Rs2-4/kg for producers versus
+  Rs45-50/kg at Delhi's Azadpur mandi. State monopolies impose entry barriers,
+  high fees (license, rent, cess, VAT), and limit farmers to elite agents,
+  preventing open-market sales and private investment. The elongated supply
+  chain—farmers to kaccha/pakka traders, agents, wholesalers,
+  retailers—disconnects producers from consumers, enabling cartels to inflate
+  bids. The 2003 Model APMC legislation worsens conflicts as operators
+  self-regulate. In contrast, dairy's AgGDP share rose from 17% to 29%
+  (1970-2014) due to greater autonomy. From a classical-liberal view, the
+  solution lies in reducing government intervention: enable private mandis for
+  direct sales, shorten supply chains, improve storage to empower farmers
+  against hoarding regs, foster entrepreneurship and marketing skills to address
+  information asymmetry, and allow market-driven pricing for mutual farmer and
+  consumer benefit.
+key_points:
+  - >-
+    APMC Act fosters middlemen cartels by restricting farmers to regulated
+    mandis, leading to low farmgate prices and high consumer costs.
+  - >-
+    Farmer distress is evident in stagnant incomes, 45 daily suicides, and price
+    gaps like tomatoes at Rs2-4/kg for producers vs Rs45-50/kg retail.
+  - >-
+    Dismantle APMC barriers to allow private mandis, direct farmer-consumer
+    links, and competition.
+  - >-
+    Enhance private sector roles in storage, post-harvest tech, and farmer
+    training to boost productivity and market access.
+  - >-
+    Limited government intervention, as in dairy's success (AgGDP share 17% to
+    29%), exemplifies the path to empowering farmers.
+topics:
+  - apmc-act
+  - agricultural-reform
+  - middlemen-cartels
+  - market-liberalization
 tags:
   - farmers
   - Middlemen
@@ -17,6 +56,9 @@ tags:
   - liberalisation
   - agriculture
   - Agricultural Produce Market Committee (APMC) Act
+source_hash: 11eb3342d8ea938fed517fb36e0e1cb8b6fc7b2fae711eeab0b7d21e0d0117b3
+summary_hash: 11eb3342d8ea938fed517fb36e0e1cb8b6fc7b2fae711eeab0b7d21e0d0117b3
+summary_at: '2026-05-05T09:52:51.981Z'
 ---
 **By Sumbul Mashhadi**
 

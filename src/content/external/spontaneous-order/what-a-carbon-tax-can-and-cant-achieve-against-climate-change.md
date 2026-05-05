@@ -2,17 +2,59 @@
 title: What a carbon tax can and can’t achieve against climate change
 original_url: >-
   https://www.spontaneousorder.in/p/what-a-carbon-tax-can-and-cant-achieve-against-climate-change
+author: Spontaneous Order
 published_at: '2021-05-05T14:13:56.000Z'
 ingested_at: '2026-05-05T08:31:42.323Z'
-source_hash: bfc248b3b6fad21010185f6faa57230752305734db2d81f663ed6b5b8f67d580
-author: Spontaneous Order
 excerpt: >-
   It has sometimes been described as the most important number that you have
   perhaps never heard of. The social cost of carbon captures the current
   monetary value of the costs of climate change that will pile up in the future.
   That number is important in ..
+summary: >-
+  The social cost of carbon, central to climate policy, is fraught with
+  uncertainty, with estimates ranging from Nicholas Stern's $85 per tonne to
+  William Nordhaus's $8 per tonne; the IMF recently proposed a global carbon tax
+  of $75 per tonne to limit warming to 2°C per the Paris Agreement. A carbon tax
+  is superior to quantity restrictions like carbon credits or subsidies for
+  specific renewables, as it leverages the price system—a classical-liberal
+  preference—allowing markets to innovate without governments picking winners.
+  India's recent fuel tax hikes and quadrupled coal cess approximate this,
+  though only a third of post-2014 oil price declines passed to consumers.
+  However, a $75/t tax would spike prices dramatically: coal by 230%, natural
+  gas by 25%, electricity by 83%, petrol by 13%, making it politically untenable
+  in a developing nation where the poor need affordable energy and influential
+  groups consume most. Globally, a uniform tax ignores historical emissions from
+  industrialized nations, unfairly burdening developing countries; taxes suit
+  national contexts, not global imposition. India should embrace carbon taxes
+  domestically under Common but Differentiated Responsibilities, participate in
+  global efforts, but insist developed nations finance its clean energy
+  transition given its low per capita energy use and historical innocence.
+key_points:
+  - >-
+    A carbon tax is preferable to quantity controls or targeted subsidies
+    because it internalizes externalities via prices, enabling market-driven
+    innovation.
+  - >-
+    IMF's $75 per tonne global carbon tax would raise Indian energy prices
+    sharply—coal 230%, electricity 83%—posing political challenges amid poverty
+    and inequality.
+  - >-
+    Global uniform carbon tax unfairly penalizes developing countries for
+    historical emissions by rich nations since the Industrial Revolution.
+  - >-
+    Climate policy must adhere to Common but Differentiated Responsibilities,
+    with India joining mitigation while demanding financing from the developed
+    world.
+topics:
+  - carbon-tax
+  - climate-change
+  - india-policy
+  - pigouvian-taxes
 tags:
   - Environment and Policy
+source_hash: bfc248b3b6fad21010185f6faa57230752305734db2d81f663ed6b5b8f67d580
+summary_hash: bfc248b3b6fad21010185f6faa57230752305734db2d81f663ed6b5b8f67d580
+summary_at: '2026-05-05T12:56:51.272Z'
 ---
 **By Niranjan Rajadhyaksha**
 

@@ -2,15 +2,63 @@
 title: Kalasa Banduri Nala Project’s Impact on Goa’s Ecology
 original_url: >-
   https://www.spontaneousorder.in/p/kalasa-banduri-nala-projects-impact-on-goas-ecology
+author: Spontaneous Order
 published_at: '2023-02-01T14:56:40.000Z'
 ingested_at: '2026-05-05T08:31:42.247Z'
-source_hash: 632baffa5901507477bea71df3776b37aa705a4296678924fd6a58e38623f076
-author: Spontaneous Order
 excerpt: >-
   In present India, it is rare to witness two chief ministers from the same
   ruling party disagreeing over something, let alone wage war over an
   inter-state issue. However, the ongoing water crisis in Karnataka has
   propelled it to choke the lifeline of Goa..
+summary: >-
+  The Kalasa Banduri Nala Project, approved by the Central Government amid
+  Karnataka's water crisis and election politics, allows Karnataka to divert
+  2.18 tmc from Bhandura dam and 1.72 tmc from Kalasa dam on the Mahadayi river,
+  threatening Goa's ecology in the Western Ghats biodiversity hotspot. The
+  Mahadayi Wildlife Sanctuary, a key tiger corridor with rare species like Royal
+  Bengal Tigers, critically endangered Long-Billed Vultures, endemic frogs,
+  endangered bats, and bioluminescent fungi, faces saltwater intrusion, reduced
+  water levels, and habitat loss, potentially derailing its tiger reserve
+  status. Goa invokes Gandhi's stewardship principle, arguing development cannot
+  sacrifice fragile ecosystems for political gains, especially as the Gadgil
+  Commission recommended banning inter-basin diversions. Legally, the Mahadayi
+  Water Disputes Tribunal award is sub-judice in the Supreme Court, and Goa's
+  Chief Wildlife Warden issued a stop-work notice under Section 29 of the
+  Wildlife Protection Act, prohibiting diversions without state approval. From a
+  classical-liberal lens, Karnataka should resolve its self-inflicted
+  crisis—exacerbated by water-intensive crops like sugarcane and paddy, and
+  corporate allocations like Pepsico's 4 lakh litres daily—through farmer
+  incentives for low-water millets, efficient groundwater use, prioritizing
+  citizens over multinationals, and tapping alternatives like Kali or
+  Ghataprabha rivers. Without such reforms, Supreme Court intervention is
+  essential to prevent biodiversity loss.
+key_points:
+  - >-
+    Karnataka's Kalasa Banduri Nala Project risks saltwater intrusion and
+    habitat destruction in Goa's Mahadayi Wildlife Sanctuary, home to tigers,
+    endangered birds, bats, and endemic species.
+  - >-
+    Goa has legally challenged the project via Supreme Court appeals and a
+    stop-work notice under Wildlife Protection Act Section 29, as the Tribunal
+    award remains sub-judice.
+  - >-
+    Karnataka should incentivize farmers to shift from water-guzzling sugarcane
+    and paddy to millets, manage groundwater effectively, and prioritize
+    drinking water for people over corporates like Pepsico.
+  - >-
+    Alternative rivers like Kali, Bedti, and Ghataprabha can supply Karnataka's
+    needs without diverting Mahadayi water.
+  - >-
+    Supreme Court intervention is urged to protect Western Ghats ecology from
+    political water wars.
+topics:
+  - inter-state-water-disputes
+  - environmental-conservation
+  - western-ghats-biodiversity
+  - water-resource-management
+source_hash: 632baffa5901507477bea71df3776b37aa705a4296678924fd6a58e38623f076
+summary_hash: 632baffa5901507477bea71df3776b37aa705a4296678924fd6a58e38623f076
+summary_at: '2026-05-05T10:34:52.311Z'
 ---
 **By Ushashi Datta**
 

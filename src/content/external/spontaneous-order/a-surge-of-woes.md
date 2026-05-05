@@ -1,15 +1,54 @@
 ---
 title: A Surge of Woes
 original_url: 'https://www.spontaneousorder.in/p/a-surge-of-woes'
+author: Spontaneous Order
 published_at: '2016-04-21T18:49:11.000Z'
 ingested_at: '2026-05-05T08:31:42.555Z'
-source_hash: 40f3c3dc0f72bd61a97b90f50ba4d9c894f4a7a68cfb0ab20f67251af2c67bd0
-author: Spontaneous Order
 excerpt: >-
   I guess John Kay nails it (although this is in a slightly different context).
   ”Regulation should seek to work with market forces, not to replace them. Not
   because free markets lead to the best of all possible worlds—in financial
   services, as in many o
+summary: >-
+  Drawing on John Kay's principle that regulation should channel market forces
+  rather than replace them—'competition where possible, regulation where
+  necessary, and supervision not at all'—the post critiques Delhi's transport
+  policies under Arvind Kejriwal as knee-jerk interventions that exacerbate
+  woes. Delhi's traffic stems from elite car ownership beyond social optimum,
+  absent bus lanes, and roads unfit for modern multimodal transport, though the
+  Metro provides relief. Past blame on rickshaws led to CNG mandates and permit
+  caps so restrictive that black market prices exceeded new rickshaw costs,
+  spawning a mafia, slashing supply, and spurring diesel car purchases that
+  worsened SO2 pollution. Today's odd-even car rationing and surge pricing ban
+  on Ola/Uber mimic historical price controls like Sher Shah Suri's, which cut
+  grain supply; they undermine noncoercive ridesharing by discouraging entrants
+  and supply during peaks, favoring cartelized 'kaali-peeli' taxis with cheaper
+  vehicles. Better alternatives include enforcing booked prices for
+  transparency. In middling state-capacity contexts like Delhi—where state
+  intervention correlates positively with wealth overall but risks abuse—such
+  ad-hoc democratic policies, even from honourable leaders like Kejriwal
+  constrained by the Centre, harm markets and consumers.
+key_points:
+  - >-
+    Regulation must work with market incentives, preferring structural measures
+    over behavioral controls.
+  - >-
+    Delhi's rickshaw permit caps created a black market where prices exceeded
+    new rickshaw costs, reducing supply and boosting diesel car use.
+  - >-
+    Banning surge pricing cuts rideshare supply, deters entrants, and bolsters
+    cartelized traditional taxis.
+  - >-
+    Enforce price transparency at booking time instead of outright price caps on
+    Ola/Uber.
+  - >-
+    Ad-hoc interventions in middling state-capacity governments like Delhi's
+    worsen market failures.
+topics:
+  - price-controls
+  - ride-sharing
+  - transport-regulation
+  - state-intervention
 tags:
   - Ola
   - Prices
@@ -18,6 +57,9 @@ tags:
   - Surge Pricing
   - regulations
   - Uber
+source_hash: 40f3c3dc0f72bd61a97b90f50ba4d9c894f4a7a68cfb0ab20f67251af2c67bd0
+summary_hash: 40f3c3dc0f72bd61a97b90f50ba4d9c894f4a7a68cfb0ab20f67251af2c67bd0
+summary_at: '2026-05-05T08:49:57.234Z'
 ---
 **By Aniket Baksy**
 

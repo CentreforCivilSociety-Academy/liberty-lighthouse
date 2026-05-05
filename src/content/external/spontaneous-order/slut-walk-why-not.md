@@ -1,15 +1,50 @@
 ---
 title: 'Slut Walk: Why Not ?'
 original_url: 'https://www.spontaneousorder.in/p/slut-walk-why-not'
+author: Spontaneous Order
 published_at: '2011-06-20T11:15:07.000Z'
 ingested_at: '2026-05-05T08:31:42.637Z'
-source_hash: 86ad473f710506b7620f9d3284d82f4a47979c102d58756746d27da96ced018b
-author: Spontaneous Order
 excerpt: >-
   Surbhi Tandon & Ishu Kumar (CCS Interns) From eve-teasing in public spaces to
   molestation inside buses to sexual abuse at work places, an urban woman in
   Delhi has to face it all. Reiterating similar thoughts Umang Sabharwal , a
   Delhi University student,..
+summary: >-
+  The post defends the proposed Slut Walk in New Delhi, initiated by Delhi
+  University student Umang Sabharwal, as a response to pervasive victim-blaming
+  in cases of violence against urban women, from eve-teasing to workplace abuse.
+  Sabharwal argues that women have the right to choose their clothing,
+  profession, or sexual partners without justifying violence, aiming to shift
+  focus from victims to perpetrators and challenge gender stereotypes.
+  Countering critics like Amrit Dhillon in Hindustan Times, who claims Slut Walk
+  is elitist amid graver issues like 10 million female foeticides, dowry deaths,
+  honour killings, domestic violence, Dalit humiliations, and child
+  prostitution, the author asserts that addressing dress freedom is a valid
+  issue in itself, not precluding fights against other problems. Dhillon's point
+  about non-Indian women dressing conservatively due to cultural differences is
+  reframed as evidence of the problem Slut Walk targets. Seema Goswami's analogy
+  comparing provocative dress to leaving a door unlocked is rejected as
+  objectifying women and accepting flawed social norms, with Slut Walk seeking
+  to challenge such attention and norms from a classical-liberal emphasis on
+  individual rights over conservative impositions.
+key_points:
+  - >-
+    Slut Walk addresses victim-blaming by refocusing on perpetrators rather than
+    women's clothing choices.
+  - >-
+    Critics' lists of severe issues like 10 million female foeticides do not
+    invalidate the right to dress freely as a standalone concern.
+  - >-
+    Requiring conservative dress due to 'cultural differences' exemplifies the
+    gender stereotypes Slut Walk challenges.
+  - >-
+    Analogies equating women to unsecured houses accept problematic norms that
+    the walk aims to contest.
+topics:
+  - slut-walk
+  - victim-blaming
+  - gender-stereotypes
+  - individual-rights
 tags:
   - gender stereotype
   - eve-teasing
@@ -17,6 +52,9 @@ tags:
   - cultural differences
   - Slut Walk
   - civil liberties
+source_hash: 86ad473f710506b7620f9d3284d82f4a47979c102d58756746d27da96ced018b
+summary_hash: 86ad473f710506b7620f9d3284d82f4a47979c102d58756746d27da96ced018b
+summary_at: '2026-05-05T11:45:52.084Z'
 ---
 **By Vipin**
 

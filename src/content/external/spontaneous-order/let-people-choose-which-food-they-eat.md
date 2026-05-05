@@ -1,15 +1,51 @@
 ---
 title: Let People Choose What They Eat
 original_url: 'https://www.spontaneousorder.in/p/let-people-choose-which-food-they-eat'
+author: Spontaneous Order
 published_at: '2020-03-25T12:22:32.000Z'
 ingested_at: '2026-05-05T08:31:42.433Z'
-source_hash: b0d767f518ca015b03a2d3b08adfeafa02c53f6dd58f533d0bf5e37a1fd441b8
-author: Spontaneous Order
 excerpt: >-
   In the wake of the COVID-19 pandemic, the Central government has allowed
   states and Union Territories to take Public Distribution System food grains
   for three months on credit. But will the system be able to deliver results,
   particularly in this hour of..
+summary: >-
+  India's Targeted Public Distribution System (TPDS), covering nearly two-thirds
+  of the population under the National Food Security Act 2013, suffers from
+  inefficiencies like leakages at 5.27 lakh Fair Price Shops and incentives for
+  shopkeepers to divert subsidised rice and wheat to open markets. It also
+  distorts agriculture by favouring cereals over nutritious coarse grains like
+  jowar, bajra, and ragi. The classical-liberal solution is to empower
+  beneficiaries with choice: opt for in-kind grains or Direct Benefit Transfers
+  (DBT) cash, leveraging over 95% Aadhaar coverage and financial inclusion to
+  enable purchases of preferred foods. DBT pilots in Chandigarh, Puducherry, and
+  Dadra Nagar Haveli from 2015 showed beneficiary preference rising from 35% to
+  65%, though one in five reported non-receipt due to state capacity limits.
+  Allowing this dual option would make TPDS compete with local markets, reduce
+  leakages by paying shopkeepers market rates, boost farmer incomes from
+  low-input coarse grains, and enhance welfare through expanded choices without
+  prescribing a single model.
+key_points:
+  - >-
+    TPDS inefficiencies stem from lack of beneficiary choice, forcing receipt of
+    only government-specified rice and wheat.
+  - >-
+    Introduce optional DBT cash transfers to let beneficiaries buy preferred
+    grains, including nutritious local coarse grains like jowar and bajra.
+  - >-
+    DBT reduces shopkeeper leakages by enabling market-rate sales and supports
+    farmers via lower-water, lower-fertiliser crops.
+  - >-
+    Pilots showed DBT preference growing from 35% to 65%, despite 20%
+    non-receipt issues.
+  - >-
+    Adopt a principles-based choice between in-kind and cash to improve TPDS
+    competition and beneficiary welfare.
+topics:
+  - food-security
+  - pds-reform
+  - cash-transfers
+  - beneficiary-choice
 tags:
   - public distribution system
   - India's foodgrain market
@@ -19,6 +55,9 @@ tags:
   - Disaster Management
   - Agriculture policy
   - Central planning
+source_hash: b0d767f518ca015b03a2d3b08adfeafa02c53f6dd58f533d0bf5e37a1fd441b8
+summary_hash: b0d767f518ca015b03a2d3b08adfeafa02c53f6dd58f533d0bf5e37a1fd441b8
+summary_at: '2026-05-05T10:40:41.679Z'
 ---
 **By Tarini Sudhakar**
 

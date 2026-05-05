@@ -2,19 +2,63 @@
 title: Does Property Rights Help Only the Rich and Powerful?
 original_url: >-
   https://www.spontaneousorder.in/p/does-property-rights-help-only-the-rich-and-powerful
+author: Spontaneous Order
 published_at: '2020-12-23T14:17:54.000Z'
 ingested_at: '2026-05-05T08:31:42.359Z'
-source_hash: 151784eca43ed801eb9634542bf32dd79745ea9321d6f593b4bafa1018371ab2
-author: Spontaneous Order
 excerpt: >-
   “It is not true that the legislator has absolute power over our persons and
   property. The existence of persons and property preceded the existence of the
   legislator, and his function is only to guarantee their safety.”― Frederic
   Bastiat, The Law As
+summary: >-
+  Opposition to private property from political extremes harms the poor and
+  marginalized most, as India's abolition of the fundamental right to property
+  in 1955 enabled arbitrary state seizures. Originally enshrined in Articles
+  19(1)(f) and 31 of the 1950 Constitution, this right—rooted in the 1935
+  Government of India Act and UDHR—was removed via the 4th Amendment amid land
+  reforms targeting zamindars, but led to abuses like seizing media printing
+  machines. A weaker constitutional right under Article 300A now fails to
+  protect vulnerables: Supreme Court ordered eviction of over 1,000,000 tribal
+  forest-dwellers across 16 states in 2019 (later stayed); 43,000 Delhi
+  slum-dwellers near rail tracks in 2020 without resettlement; thousands of
+  tribals displaced for Sardar Patel Statue without compensation;
+  generations-old farmers evicted from expanded Kaziranga park in 2020. In
+  contrast, influential figures like Kangana Ranaut secured a Bombay HC stay on
+  demolition within 24 hours in 2020, while slum-dwellers could not. Property
+  rights, per Bastiat, preexist the state and safeguard the powerless from
+  vengeful or crony-driven state actions, countering claims that 'property is
+  theft' by highlighting state seizures as true violence against tribals and
+  slum-dwellers.
+key_points:
+  - >-
+    India abolished its fundamental right to property via the 1955 4th
+    Constitutional Amendment, replacing it with a weaker Article 300A that fails
+    to prevent arbitrary evictions.
+  - >-
+    Over 1,000,000 tribal households faced 2019 Supreme Court-ordered eviction
+    from forest lands, stayed only after state admissions of procedural lapses.
+  - >-
+    43,000 Delhi slum-dwellers were ordered removed in 2020 without compensation
+    or stays, unlike quick judicial relief for celebrities like Kangana Ranaut.
+  - >-
+    Restoring a strong fundamental right to property would protect marginalized
+    groups from state overreach in projects like the Sardar Patel Statue and
+    Kaziranga expansions.
+  - >-
+    Private property rights precede and limit state power, shielding the poor
+    from violence disguised as public interest.
+topics:
+  - property-rights
+  - fundamental-rights
+  - tribal-displacement
+  - state-overreach
 tags:
   - Right to Property
   - Property rights
   - Constitution
+source_hash: 151784eca43ed801eb9634542bf32dd79745ea9321d6f593b4bafa1018371ab2
+summary_hash: 151784eca43ed801eb9634542bf32dd79745ea9321d6f593b4bafa1018371ab2
+summary_at: '2026-05-05T09:36:16.643Z'
 ---
 **By Sourya Banerjee**
 

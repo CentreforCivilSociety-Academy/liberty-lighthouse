@@ -1,18 +1,55 @@
 ---
 title: 'Captain America: Avenger of Choice'
 original_url: 'https://www.spontaneousorder.in/p/captain-america'
+author: Spontaneous Order
 published_at: '2016-05-16T19:43:57.000Z'
 ingested_at: '2026-05-05T08:31:42.553Z'
-source_hash: b279f647c2d08b6bad5d693edb7825307d13994f0354acbfc9532ae8966be1cb
-author: Spontaneous Order
 excerpt: >-
   The recent movie Captain America: Civil War gives some interesting insights
   about the real world. (If you haven’t yet seen it, proceed with caution. There
   will be spoilers). The film is set about one year after the events of
   Avengers: Age of Ultron, and
+summary: >-
+  In Captain America: Civil War, the Avengers' division over the UN's Sokovia
+  Accords mirrors a libertarian critique of government overreach: Captain
+  America opposes regulation, insisting 'the safest hands are still our own,'
+  while Iron Man supports oversight to prevent future impositions. The author
+  argues private entities like the Avengers outperform governments because
+  market incentives reward good actions and punish failures—e.g., Iron Man
+  discontinued weapons after their misuse—unlike monopolistic governments prone
+  to corruption, cronyism, and infiltration, as seen with SHIELD's HYDRA
+  compromise. Classical liberals advocate competition, not anarchy, providing
+  natural checks on power; absolute government control erodes freedom.
+  Real-world parallels include Delhi's ban on Ola and Uber surge pricing, which
+  reversed market-driven cab fare drops from Rs 25/km to cheaper options,
+  ignoring private innovation in cellphones, laptops, and vehicles. Quoting
+  Milton Friedman, governments create shortages even in abundance, like sand in
+  the Sahara. The conclusion: leave key services to competitive markets for
+  optimal solutions, resisting gradual government encroachment on choice.
+key_points:
+  - >-
+    Private entities self-regulate via market incentives, succeeding or failing
+    based on outcomes, unlike unaccountable governments.
+  - >-
+    Government monopolies foster corruption and infiltration, while competition
+    enforces checks and balances.
+  - >-
+    Delhi's Ola/Uber ban exemplifies regulatory harm, undoing price drops from
+    Rs 25/km to market rates.
+  - >-
+    Captain America's stance against Sokovia Accords highlights the dangers of
+    centralized power over autonomous action.
+topics:
+  - libertarianism
+  - free-markets
+  - government-overreach
+  - market-competition
 tags:
   - Captain America
   - Right to Choose
+source_hash: b279f647c2d08b6bad5d693edb7825307d13994f0354acbfc9532ae8966be1cb
+summary_hash: b279f647c2d08b6bad5d693edb7825307d13994f0354acbfc9532ae8966be1cb
+summary_at: '2026-05-05T09:16:38.419Z'
 ---
 **By Sadaf Hussain**
 

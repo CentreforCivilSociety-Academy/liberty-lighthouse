@@ -1,20 +1,61 @@
 ---
 title: Why Pegasus is just the tip of the iceberg
 original_url: 'https://www.spontaneousorder.in/p/why-pegasus-is-just-the-tip-of-the-iceberg'
+author: Spontaneous Order
 published_at: '2021-08-16T11:44:42.000Z'
 ingested_at: '2026-05-05T08:31:42.298Z'
-source_hash: c9899bd014bcb8f1d695ad8ab698e2db348a9d3bbd328fc5f5b52b3d3a897f59
-author: Spontaneous Order
 excerpt: >-
   A global media investigation has revealed that Pegasus, a telephone hacking
   software invented in Israel and supposedly sold only to governments, has been
   used across the world to tap the phones of politicians, journalists, NGOs and
   others. In India, the..
+summary: >-
+  Swaminathan SA Aiyer argues that Pegasus spyware revelations—targeting 300 in
+  India including Rahul Gandhi, two Union ministers, and 40
+  journalists—represent just the tip of a massive global cybersnooping iceberg
+  driven by national security and corporate competition, not primarily press
+  freedom subversion. Citing Edward Snowden's 2013 exposures and a cybersecurity
+  expert's estimate that every email and phone call is monitored by about 100
+  entities (52% private actors, 48% state actors from multiple countries), Aiyer
+  asserts privacy has long been an illusion. With 70% of websites compromised,
+  hacks taking 240 days to detect, and viruses growing 66% yearly, even powerful
+  states and corporations fail at defense. From a classical-liberal realist
+  perspective, India must leverage its IT prowess to build offensive hacking
+  against rivals like China and Pakistan—mirroring WWII code-breaking wins—and
+  robust cyber defenses, as no country can afford to lag in this amoral arms
+  race. While urging legal protections for personal privacy, Aiyer notes
+  governments retain vast surveillance powers under national security laws, with
+  non-state threats like terrorists and ransomware posing greater dangers than
+  state misuse.
+key_points:
+  - >-
+    Pegasus is a minor side-effect of ubiquitous cybersnooping essential for
+    national security and corporate espionage.
+  - >-
+    India must develop advanced hacking and cyber-defense capabilities to match
+    rivals like China and Pakistan.
+  - >-
+    Every communication is monitored by roughly 100 entities, with 52% private
+    and 48% state actors.
+  - >-
+    70% of websites are compromised, hacks evade detection for 240 days, and
+    viruses grow 66% annually.
+  - >-
+    Governments retain surveillance powers for security; protect privacy via law
+    amid broader cybersecurity threats.
+topics:
+  - cybersecurity
+  - surveillance
+  - national-security
+  - privacy
 tags:
   - Privacy
   - pegasus
   - press
   - Security
+source_hash: c9899bd014bcb8f1d695ad8ab698e2db348a9d3bbd328fc5f5b52b3d3a897f59
+summary_hash: c9899bd014bcb8f1d695ad8ab698e2db348a9d3bbd328fc5f5b52b3d3a897f59
+summary_at: '2026-05-05T13:06:53.696Z'
 ---
 **By Swaminathan SA Aiyer**
 

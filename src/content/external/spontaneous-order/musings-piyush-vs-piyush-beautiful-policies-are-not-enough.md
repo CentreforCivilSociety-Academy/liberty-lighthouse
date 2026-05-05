@@ -2,19 +2,56 @@
 title: 'Musings: Piyush vs Piyush -‘Beautiful Policies are Not Enough’'
 original_url: >-
   https://www.spontaneousorder.in/p/musings-piyush-vs-piyush-beautiful-policies-are-not-enough
+author: Spontaneous Order
 published_at: '2018-08-06T09:48:37.000Z'
 ingested_at: '2026-05-05T08:31:42.521Z'
-source_hash: 5fc969a164458ff0b0249047f7b28cf97193a091402e789957dcfb392774fda7
-author: Spontaneous Order
 excerpt: >-
   Policy stability is more than just drafting ‘beautiful’ policies; if there are
   hurdles to implement them, it is not easy to do business. These are the words
   of the President of the Asian Infrastructure Investment Bank (AIIB), Jin
   Liquin, as he played
+summary: >-
+  In a frank debate at the AIIB AGM in Mumbai, India's Finance Minister Piyush
+  Goyal defended the country's infrastructure financing environment, citing
+  regulatory improvements that have transformed lives, process integrity with no
+  subsequent license cancellations, enhanced monitoring and accountability, rule
+  of law supported by media and public scrutiny, zero defaults in international
+  infrastructure financing, and strategies like community involvement to ease
+  land acquisition. DBS Bank CEO Piyush Gupta countered that funding remains
+  elusive due to pre-operation risks like land acquisition, policy uncertainty
+  from regime changes (e.g., Malaysia), insufficient long-term debt markets,
+  banks' capital constraints for long-tenor loans, and high project risks
+  despite no sovereign risk, urging government anchoring of key projects. AIIB
+  President Jin Liquin noted money flows to paths of least resistance, so
+  governments must tackle practical developer and financier hurdles beyond
+  policies. The author, emphasizing India's open society that enables such
+  debates, argues beautiful policies alone insufficient; central initiatives in
+  power, roads, and railways have drawn investment, but state-level operational
+  challenges and implementation gaps negate gains, requiring resolution of
+  day-to-day hassles for robust private sector participation.
+key_points:
+  - India has never defaulted on international infrastructure financing.
+  - >-
+    Beautiful policies must address day-to-day implementation hurdles like land
+    acquisition and state-level operations to boost private investment.
+  - >-
+    Government anchoring of key infrastructure projects could mitigate high
+    project risks deterring financiers.
+  - >-
+    Central policies have spurred investment interest in power, roads, and
+    railways, but state challenges undermine them.
+topics:
+  - infrastructure-finance
+  - policy-implementation
+  - private-investment
+  - rule-of-law
 tags:
   - policymaking
   - SO Musings
   - implementation
+source_hash: 5fc969a164458ff0b0249047f7b28cf97193a091402e789957dcfb392774fda7
+summary_hash: 5fc969a164458ff0b0249047f7b28cf97193a091402e789957dcfb392774fda7
+summary_at: '2026-05-05T10:59:25.300Z'
 ---
 **By Luis Miranda**
 

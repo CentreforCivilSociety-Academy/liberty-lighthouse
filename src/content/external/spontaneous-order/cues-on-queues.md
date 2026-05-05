@@ -1,15 +1,51 @@
 ---
 title: Cues on Queues!
 original_url: 'https://www.spontaneousorder.in/p/cues-on-queues'
+author: Spontaneous Order
 published_at: '2005-05-19T21:27:07.000Z'
 ingested_at: '2026-05-05T08:31:42.682Z'
-source_hash: cdba519115094a4fd30c7652d8707d727958417f2eba68457cfaf78b302b3146
-author: Spontaneous Order
 excerpt: >-
   Rrrrring! It is 6 am. I curse my alarm, have a shave, shower and shampoo and
   hop onto the auto to my destination. I arrive two hours before the appointed
   opening time. However, I am not alone. There are serpentine queues all around.
   I am exasperated. I ..
+summary: >-
+  Naveen Mandava recounts arriving two hours before a railway ticket counter
+  opens at 8 am, only to find queues that began at 9 pm the previous night—nine
+  hours early—amidst people sleeping on newspapers, playing cards, and fending
+  off queue-jumpers with a policeman's lathi. This familiar Indian scene,
+  persisting for over 50 years, stems from government-imposed price ceilings on
+  tickets, creating chronic shortages that force first-come-first-served queuing
+  as the sole allocation mechanism. While monetary costs remain low, the
+  unaccounted time costs—hours wasted, disrupted plans—are immense, highlighting
+  the sclerosis in governance critiqued in Arun Shourie's book. From a
+  classical-liberal viewpoint, these queues exemplify how regulations stifling
+  free price signals distort markets, rationing scarce tickets inefficiently
+  through human endurance rather than willing buyers. Mandava contrasts this
+  with a friend's quip for a 'private train,' underscoring the absurdity and
+  advocating implicitly for market liberalization to end such wasteful public
+  service failures.
+key_points:
+  - >-
+    Queues at Indian railway ticket counters form due to government price
+    ceilings causing persistent shortages, lasting over 50 years.
+  - >-
+    People arrive up to 9 hours early (9 pm for 8 am opening) to secure a spot,
+    incurring massive unaccounted time costs.
+  - >-
+    Policemen use lathis to enforce queue discipline amid attempts by intruders
+    to jump lines.
+  - >-
+    Free market pricing would replace queues with efficient allocation based on
+    demand, avoiding time wastage from regulatory distortions.
+topics:
+  - price-ceilings
+  - government-shortages
+  - indian-railways
+  - public-service-queues
+source_hash: cdba519115094a4fd30c7652d8707d727958417f2eba68457cfaf78b302b3146
+summary_hash: cdba519115094a4fd30c7652d8707d727958417f2eba68457cfaf78b302b3146
+summary_at: '2026-05-05T09:29:53.887Z'
 ---
 **By Naveen Mandava**
 

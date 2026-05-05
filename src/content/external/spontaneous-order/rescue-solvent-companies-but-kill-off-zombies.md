@@ -2,15 +2,50 @@
 title: Rescue solvent companies but kill off zombies
 original_url: >-
   https://www.spontaneousorder.in/p/rescue-solvent-companies-but-kill-off-zombies
+author: Spontaneous Order
 published_at: '2020-06-29T15:01:55.000Z'
 ingested_at: '2026-05-05T08:31:42.405Z'
-source_hash: d5ff30240b72b748e25ab4002f3157618410b3a33859940d991831d039b0cb40
-author: Spontaneous Order
 excerpt: >-
   Former Chief Economic Advisor Arvind Subramanian said India had moved from
   socialism with limited entry (for firms) to capitalism without exit. Alas,
   capitalism without exit is zombieland, full of companies neither dead nor
   alive. The problem has been i..
+summary: >-
+  India has transitioned from socialism with limited entry to capitalism without
+  exit, fostering zombie companies that are neither dead nor alive, a problem
+  exacerbated by Covid-19 rescues via loan moratoriums, guarantees, and debt
+  evergreening. Economist Joseph Schumpeter's 'creative destruction'—where less
+  productive firms fail, reallocating resources to more efficient ones—drives
+  market prosperity, but government and RBI interventions save solvent firms
+  while wrongly propping up zombies. The government's Rs 2 trillion package
+  provides necessary relief amid lockdowns, but must be reversed next year to
+  avoid fiscal traps seen post-2008 tax cuts, which ballooned deficits from 2.5%
+  to 6.9% of GDP without reversal due to political freebies. Japan exemplifies
+  stagnation: post-1990 crisis, low rates and evergreening created zombies,
+  leading to 280% debt/GDP and central bank equity purchases without growth
+  revival. Europe and the US have similarly printed money to sustain weak firms,
+  doubling US zombies from 2013-2020. India's relatively miserly stimulus,
+  focused on reversible RBI schemes rather than hard-to-reverse tax cuts, wisely
+  controls long-term zombification if tough measures follow reversal. Rescue
+  solvent companies, but kill off zombies to enable creative destruction.
+key_points:
+  - >-
+    Reverse Covid-era fiscal and monetary rescues next year to prevent
+    zombification and enable creative destruction.
+  - >-
+    India's Rs 2 trillion package aids solvent firms but must not prop up
+    unproductive zombies like in Japan, where debt/GDP hit 280%.
+  - >-
+    RBI's money-pumping schemes are preferable to irreversible tax cuts, as seen
+    in post-2008 deficit spikes from 2.5% to 6.9% of GDP.
+  - >-
+    US zombies doubled from 2013-2020 due to Fed interventions, underscoring
+    risks of prolonged bailouts.
+topics:
+  - zombie-companies
+  - creative-destruction
+  - fiscal-policy
+  - india-economy
 tags:
   - unproductive public sector
   - Ease of doing business
@@ -20,6 +55,9 @@ tags:
   - labor productivity
   - central banks
   - Insolvency
+source_hash: d5ff30240b72b748e25ab4002f3157618410b3a33859940d991831d039b0cb40
+summary_hash: d5ff30240b72b748e25ab4002f3157618410b3a33859940d991831d039b0cb40
+summary_at: '2026-05-05T11:26:13.644Z'
 ---
 **By Swaminathan SA Aiyer**
 

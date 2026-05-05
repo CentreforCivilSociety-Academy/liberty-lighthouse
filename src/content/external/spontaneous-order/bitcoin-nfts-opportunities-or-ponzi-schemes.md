@@ -1,17 +1,59 @@
 ---
 title: 'Bitcoin & NFTs: Opportunities or Ponzi schemes?'
 original_url: 'https://www.spontaneousorder.in/p/bitcoin-nfts-opportunities-or-ponzi-schemes'
+author: Spontaneous Order
 published_at: '2021-06-07T18:24:59.000Z'
 ingested_at: '2026-05-05T08:31:42.314Z'
-source_hash: e4b80187f373a87271be6db97db76cc947573799aae6a33a91cdeed9e594ec61
-author: Spontaneous Order
 excerpt: >-
   Why put all savings into traditional forms of wealth such as land or shares?
   Why not into non-traditional forms such as Bitcoin and NFTs (non-fungible
   tokens)? These have made millionaires of initial investors. I advise ordinary
   folk to steer clear of t..
+summary: >-
+  Swaminathan SA Aiyer advises ordinary folk to avoid Bitcoin and NFTs due to
+  their high prices and significant risk of collapsing to zero, positioning them
+  as gambles rather than stable investments. While initial investors have become
+  millionaires, cryptocurrencies like Bitcoin suffer from extreme daily price
+  volatility, making them unsuitable as currency—most merchants refuse them—and
+  they are favored by drug dealers and money launderers for anonymity, leading
+  many countries to ban or restrict them. Bitcoin's proof-of-work mining
+  consumes vast electricity, potentially 5% of China's total where 80% occurs,
+  prompting crackdowns, though proof-of-stake alternatives like Cardano use far
+  less energy. Governments dislike private currencies outside their control,
+  posing further risks. NFTs, as digital authenticity certificates, derive value
+  from exclusivity and scarcity, akin to a $450 million Leonardo da Vinci
+  painting; Beeple's NFT sold for $69.3 million to Tamil Nadu entrepreneur
+  Vignesh Sundaresan, who is likely a billionaire at 32 via digital innovation.
+  For the wealthy, a small portfolio slice in these assets may diversify amid
+  central bank money printing. Enthusiasts see cryptocurrencies and blockchain
+  as decentralizing finance, hedging inflation, eroding bank and government
+  control, and promoting liberty—yet they could be giant Ponzi schemes.
+key_points:
+  - >-
+    Ordinary investors should steer clear of Bitcoin and NFTs due to high risk
+    of total collapse.
+  - >-
+    Wealthy individuals may allocate a small portfolio portion to
+    cryptocurrencies for diversification amid fiat money expansion.
+  - >-
+    Bitcoin mining's massive energy use, especially in China, invites regulatory
+    crackdowns, unlike efficient proof-of-stake alternatives.
+  - >-
+    NFTs gain value from digital scarcity and exclusivity, enabling rapid wealth
+    creation like Vignesh Sundaresan's $69.3 million Beeple purchase.
+  - >-
+    Cryptocurrencies promise financial decentralization and innovation but face
+    government hostility and volatility as potential Ponzi schemes.
+topics:
+  - bitcoin
+  - nfts
+  - cryptocurrencies
+  - financial-innovation
 tags:
   - cryptocurrency
+source_hash: e4b80187f373a87271be6db97db76cc947573799aae6a33a91cdeed9e594ec61
+summary_hash: e4b80187f373a87271be6db97db76cc947573799aae6a33a91cdeed9e594ec61
+summary_at: '2026-05-05T09:11:27.992Z'
 ---
 **By Swaminathan SA Aiyer**
 

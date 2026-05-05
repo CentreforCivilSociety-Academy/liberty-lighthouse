@@ -1,19 +1,58 @@
 ---
 title: '#ThrowbackThursday: B R Shenoy— Why Are Prices Rising? (1962)'
 original_url: 'https://www.spontaneousorder.in/p/shenoy-inflation'
+author: Spontaneous Order
 published_at: '2016-01-14T13:38:27.000Z'
 ingested_at: '2026-05-05T08:31:42.565Z'
-source_hash: 26e10503d1f713cc57b070b7c8aa997f69eb7054d7d6a4ef391d8879927cb52c
-author: Spontaneous Order
 excerpt: >-
   The following report was based on an interview with B R Shenoy and was was
   published in the September 18, 1962 issue of Economic Times. The interview was
   subsequently published in a publication by Forum of Free Enterprise titled ‘
   Why are Prices Rising?
+summary: >-
+  B.R. Shenoy attributes India's rising prices since May 1955 to over-investment
+  beyond available resources, financed through government budget deficits and
+  money printing, which spreads to private sector lending and outpaces national
+  output growth. From 1954-55 to 1961-62, money supply expanded by 60% while
+  national product rose only 27%, driving prices up 34%. A 3.4% price dip in
+  1961-62 occurred because Rs. 344 crores in general-purpose foreign aid
+  absorbed inflationary funds via foreign exchange sales to the Reserve Bank,
+  limiting money expansion to Rs. 170 crores amid 3% output growth. However,
+  since April 1962, reduced general-purpose aid has left inflationary money in
+  circulation, spiking prices 7.2% in four months to 131.7 (1952-53=100), an
+  annualized 19% record. Shenoy dismisses notions that inflation aids
+  development, citing price-stable growth in EEC, Japan, Hong Kong, and Israel.
+  He warns government controls worsen confusion and links share market slumps to
+  aid dependency curtailing industrial activity. The classical-liberal solution:
+  halt over-investment and deficit budgeting—the 'fire' under rising
+  prices—rather than temporary foreign aid 'cold water,' as stability is
+  essential for orderly growth.
+key_points:
+  - >-
+    Rising prices result from over-investment financed by budget deficits and
+    money printing, expanding money supply faster than output.
+  - >-
+    General-purpose foreign aid temporarily curbs inflation by absorbing excess
+    money through foreign exchange sales, unlike tied project aid.
+  - >-
+    Price stability, not inflation, is a precondition for sustainable economic
+    growth, as demonstrated by EEC countries, Japan, Hong Kong, and Israel.
+  - >-
+    To end inflation, governments must stop deficit budgeting and
+    over-investment rather than impose controls or rely on foreign aid.
+topics:
+  - inflation
+  - deficit-financing
+  - over-investment
+  - foreign-aid
+  - price-stability
 tags:
   - B R Shenoy
   - State Planning
   - inflation
+source_hash: 26e10503d1f713cc57b070b7c8aa997f69eb7054d7d6a4ef391d8879927cb52c
+summary_hash: 26e10503d1f713cc57b070b7c8aa997f69eb7054d7d6a4ef391d8879927cb52c
+summary_at: '2026-05-05T11:40:19.108Z'
 ---
 **By Guest Author**
 

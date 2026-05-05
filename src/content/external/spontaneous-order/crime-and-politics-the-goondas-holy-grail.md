@@ -1,20 +1,61 @@
 ---
 title: 'Crime and Politics: The Goonda’s Holy Grail'
 original_url: 'https://www.spontaneousorder.in/p/crime-and-politics-the-goondas-holy-grail'
+author: Spontaneous Order
 published_at: '2019-05-30T10:36:02.000Z'
 ingested_at: '2026-05-05T08:31:42.485Z'
-source_hash: cad141c91236e72cc74cfd6e6bc925fd41450fcdbe8778b316b3f68612372c6a
-author: Spontaneous Order
 excerpt: >-
   One in every three legislators in India has a criminal case pending against
   them. According to a 2018 report by the Association for Democratic Reforms, 34
   percent of 543 members of parliament (MPs) elected in 2014 have been charged
   with a violent crime...
+summary: >-
+  The criminalization of Indian politics is rampant, with one in three
+  legislators facing criminal cases (now 40%), 34% of 2014 MPs charged with
+  violent crimes (up from 24% in 2004), and 21% with heinous crimes like rape or
+  murder—far exceeding the US Congress's 2.2% indictment rate since 1996. Indian
+  law bars convicts but not those charged, allowing parties to field criminals
+  for their muscle and money, as criminals seek political legitimacy to control
+  law enforcement and boost wealth (222% average increase per a 2013 study).
+  Historical factors include rising regional competition and Indira Gandhi's
+  1969 corporate funding ban, pushing parties toward cash-rich criminals. Voters
+  prefer them, being three times more likely to elect criminal candidates, due
+  to abysmal public services like a 1:663 police-population ratio (vs. ideal
+  1:450), favoring 'get-things-done' politicians over rule-bound ones. From a
+  classical-liberal lens, this nexus thrives on inefficient state machinery,
+  perpetual elections, and lack of transparency. Proposals like state-funded
+  elections and RTI for parties face resistance, as parties profit from
+  self-financing criminals; without transparent electoral finance, the goonda's
+  grip persists.
+key_points:
+  - >-
+    43% of MPs elected in 2014 faced criminal charges, with 21% for heinous
+    crimes like murder or rape.
+  - >-
+    Criminal candidates win elections three times more often than clean ones, as
+    voters prioritize access to scarce state services.
+  - >-
+    Parties field criminals for campaign finance and voter mobilization,
+    exacerbated by the 1969 ban on corporate funding.
+  - >-
+    Inefficient public services, like a 1:663 police ratio, sustain the
+    crime-politics nexus by making muscle valuable.
+  - >-
+    Transparent electoral finance and RTI for parties are needed but unlikely
+    without party incentives to reform.
+topics:
+  - crime-politics-nexus
+  - electoral-reform
+  - electoral-finance
+  - public-service-failure
 tags:
   - Crime and politics
   - Indian Politics
   - Criminalisation of politics
   - Criminals in politics
+source_hash: cad141c91236e72cc74cfd6e6bc925fd41450fcdbe8778b316b3f68612372c6a
+summary_hash: cad141c91236e72cc74cfd6e6bc925fd41450fcdbe8778b316b3f68612372c6a
+summary_at: '2026-05-05T09:28:30.144Z'
 ---
 **By Utkarsh Khare**
 

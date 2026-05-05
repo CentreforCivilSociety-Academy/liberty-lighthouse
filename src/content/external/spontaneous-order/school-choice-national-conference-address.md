@@ -1,15 +1,56 @@
 ---
 title: School Choice National Conference Address
 original_url: 'https://www.spontaneousorder.in/p/school-choice-national-conference-address'
+author: Spontaneous Order
 published_at: '2009-12-17T18:07:04.000Z'
 ingested_at: '2026-05-05T08:31:42.657Z'
-source_hash: 621c3a8be24615b20053d417553ac7271d6c82efd5a76010eb61cd2ed216835e
-author: Spontaneous Order
 excerpt: >-
   The Team CCS put together a great School Choice National Conference. The
   conference videos, photos, ppts are getting ready to go online, in the
   meanwhile you may read the opening talk i gave there. As often is the case, i
   enjoy more crafting the talk th..
+summary: >-
+  Parth Shah, founder president of Centre for Civil Society (CCS), opens the
+  School Choice National Conference hosted by CCS's School Choice Campaign,
+  which since 2007 promotes the 'Right to Education of Choice' for every child
+  through efficient public fund use, equity, quality via diversity and
+  liberalization, not uniformity. CCS employs a three-pronged approach: school
+  vouchers, regulatory reforms, and encouraging edupreneurs. The campaign's
+  mantra is 'Fund Students, Not Schools,' enabling full choice for all
+  students—rich and poor—and competition among government, elite private, and
+  budget private schools, empowering poor parents and compelling competition.
+  Shah argues quality and choice are intertwined; given children's diverse
+  learning needs, only a diverse education system meets them, and without
+  parental choice, quality is undefinable and unattainable. He critiques the
+  recent Right to Education Bill 2009 for endorsing choice by mandating 25%
+  seats in private schools for economically weaker and disadvantaged
+  government-sponsored students, yet ironically threatening to close budget
+  private schools, thus removing choice for the remaining 75% of poor children.
+  The conference aims to share best practices, ideate solutions, and formulate
+  strategies to improve educational outcomes amid RTE implementation challenges,
+  advancing choice-based education.
+key_points:
+  - >-
+    CCS's School Choice Campaign pursues school vouchers, regulatory reforms,
+    and edupreneurship to deliver 'Right to Education of Choice' via diversity
+    and competition.
+  - >-
+    'Fund Students, Not Schools' empowers poor parents with choice and forces
+    all schools—government, elite private, budget private—to compete.
+  - >-
+    Quality education requires parental choice and diverse delivery systems to
+    match children's varied learning needs.
+  - >-
+    RTE Bill 2009 reserves 25% private school seats for poor students but risks
+    closing budget privates, limiting choice for 75% of poor children.
+  - >-
+    Conference seeks best practices, innovative solutions, and strategies to
+    enhance educational outcomes despite RTE contradictions.
+topics:
+  - school-choice
+  - school-vouchers
+  - right-to-education
+  - education-reform
 tags:
   - Centre for Civil Society
   - Education Choice Campaign
@@ -18,6 +59,9 @@ tags:
   - RTE Bill
   - Right to Education
   - CCS
+source_hash: 621c3a8be24615b20053d417553ac7271d6c82efd5a76010eb61cd2ed216835e
+summary_hash: 621c3a8be24615b20053d417553ac7271d6c82efd5a76010eb61cd2ed216835e
+summary_at: '2026-05-05T11:32:59.740Z'
 ---
 **By Parth Shah**
 

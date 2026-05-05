@@ -1,18 +1,57 @@
 ---
 title: 'SO Musings: Should We Alter Our Constitution?'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-should-we-alter-our-constitution'
+author: Spontaneous Order
 published_at: '2020-11-26T14:11:30.000Z'
 ingested_at: '2026-05-05T08:31:42.366Z'
-source_hash: 1280117c66d927200e5c907290ca7b91c8730767fb930a1c1eea83ac1e37470c
-author: Spontaneous Order
 excerpt: >-
   The Indian Constitution has been the subject of numerous debates both during
   the time of its drafting and after it came into force. Throughout Independent
   India’s judicial, legislative and executive history, the dialogue between the
   Constitution and age
+summary: >-
+  On Constitution Day 2020, Spontaneous Order revisits N.A. Palkhivala's 1976
+  article in the Illustrated Weekly of India, critiquing demands for
+  constitutional amendments amid ongoing debates in India's judicial,
+  legislative, and executive history. Palkhivala, an eminent jurist and Indian
+  liberal thinker, contends that no perfect law exists—quoting Lord
+  Macnaghten—due to the infinite variety of situations requiring justice beyond
+  rigid rules. He lambasts the perpetual 'law-making industry' boom, urging a
+  respite from the 'Niagara of Rules and Notifications, Ordinances and Acts,' as
+  rulers and bureaucrats mistake change for progress. From a classical-liberal
+  perspective, the core imperative is preserving the Supreme Court and High
+  Courts' powers under Articles 32 and 226 to interpret the Constitution,
+  protect citizens' liberties and property, and check executive
+  interference—echoing Lord Atkin's Privy Council judgment in Eshugbai Eleko’s
+  case (1931) on British jurisprudence traditions. Frequent amendments risk
+  eroding separation of powers and judicial independence essential to liberal
+  order.
+key_points:
+  - >-
+    No perfect law exists because justice often arises where law ends, given
+    infinite situational varieties.
+  - >-
+    The nation needs assurance of respite from endless new laws, rules,
+    ordinances, and acts to boost morale, rather than equating amendments with
+    improvement.
+  - >-
+    Supreme Court and High Courts must retain powers under Articles 32 and 226
+    to protect citizens against executive actions, upholding separation of
+    powers.
+  - >-
+    Judges should not shrink from deciding liberty and property issues against
+    the executive, per British justice traditions.
+topics:
+  - indian-constitution
+  - constitutional-amendments
+  - judicial-independence
+  - n-a-palkhivala
 tags:
   - Indian Constitution
   - Indian liberals
+source_hash: 1280117c66d927200e5c907290ca7b91c8730767fb930a1c1eea83ac1e37470c
+summary_hash: 1280117c66d927200e5c907290ca7b91c8730767fb930a1c1eea83ac1e37470c
+summary_at: '2026-05-05T12:01:05.834Z'
 ---
 **By Spontaneous Order**
 

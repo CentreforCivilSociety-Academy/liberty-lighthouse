@@ -1,18 +1,52 @@
 ---
 title: The Big Bad Budget
 original_url: 'https://www.spontaneousorder.in/p/the-big-bad-budget'
+author: Spontaneous Order
 published_at: '2009-07-07T11:07:54.000Z'
 ingested_at: '2026-05-05T08:31:42.660Z'
-source_hash: a93840ebe70b89940b498f72066806bc3180ed124cf3ae7d2aca38ca463f2ca8
-author: Spontaneous Order
 excerpt: >-
   What a disappointment the Budget 2009 has been! Many CCS interns and team
   members set together to watch but there was nothing really to discuss at the
   end, just disappointment. I wrote a comment for Business Standard focusing
   mostly on education, howeve..
+summary: >-
+  Parth Shah expresses deep disappointment with India's 2009 Budget for failing
+  to innovate in governance, particularly in education and health, despite bold
+  rhetoric on service delivery. Instead of adopting classical-liberal ideas like
+  vouchers for education, health, and food security—some already piloted—it
+  merely boosts funding for existing schemes. In higher education, outlays rose
+  by Rs. 2,000 crore over the Interim Budget, with added interest subsidies on
+  loans for expanded courses including vocational studies. Minority education
+  allocations increased from Rs. 1,000 crore to Rs. 1,740 crore, alongside pre-
+  and post-matric scholarships and a new National Fellowship. However,
+  implementation lags persist: the National Means-Cum-Merit Scholarship, meant
+  for one lakh students, reached only 33,000, underscoring the need for
+  awareness and enrollment drives. Shah urges thinking outside the box for
+  India's youth. A potential silver lining is the Finance Ministry's broad
+  allocations, leaving innovative details to line ministries—a unintentional
+  governance reform that could revolutionize task allocation if sustained.
+key_points:
+  - >-
+    Budget 2009 disappoints by increasing funds for old education schemes
+    without adopting voucher innovations.
+  - >-
+    Higher education gets Rs. 2,000 crore more, loan subsidies, and minority
+    allocations up from Rs. 1,000 crore to Rs. 1,740 crore, but scholarships
+    underperform (only 33,000 of 100,000 targeted).
+  - >-
+    Line ministries should drive new ideas like vouchers, as broad Finance
+    Ministry allocations enable this reform.
+topics:
+  - education
+  - education-vouchers
+  - indian-budget
+  - governance-reform
 tags:
   - Interim Budget
   - Union Budget 2009
+source_hash: a93840ebe70b89940b498f72066806bc3180ed124cf3ae7d2aca38ca463f2ca8
+summary_hash: a93840ebe70b89940b498f72066806bc3180ed124cf3ae7d2aca38ca463f2ca8
+summary_at: '2026-05-05T12:18:29.614Z'
 ---
 **By Parth Shah**
 

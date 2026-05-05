@@ -2,15 +2,53 @@
 title: '#Throwback Thursday: B P Adarkar—Our Mixed Economy—Blessing or Curse? (1972)'
 original_url: >-
   https://www.spontaneousorder.in/p/throwback-thursday-b-p-adarkar-our-mixed-economy-blessing-or-curse-1972
+author: Spontaneous Order
 published_at: '2015-06-18T18:22:46.000Z'
 ingested_at: '2026-05-05T08:31:42.580Z'
-source_hash: cbdeb572ce60b943278c7b209fe4e999b56a68311f292aa84d56f1c156353558
-author: Spontaneous Order
 excerpt: >-
   In this week’s selection for #ThrowbackThursday, we have a piece by Prof. B P
   Adarkar. The following is an excerpt from an essay he wrote titled ‘Our Mixed
   Economy–Blessing or Curse’, originally published in 1972 by the ‘Forum of Free
   Enterprise
+summary: >-
+  In his 1972 essay 'Our Mixed Economy—Blessing or Curse?', B.P. Adarkar argues
+  from a classical-liberal standpoint that India's mixed economy is a curse due
+  to the suppression of the private sector by an incompetent public sector and
+  suffocating government regulations. The private sector, likened to
+  'Cinderella,' is circumscribed while the public sector fails to meet material
+  needs yet blocks private initiative, leading to national economic
+  underperformance. Private enterprises, run by stakeholders with incentives for
+  efficiency, outperform the corrupt and mismanaged public ones. Adarkar
+  lambasts the 'socialistic pattern' for imposing red tape, arbitrary
+  procedures, and licensing controls that spawn corruption, delays, and a
+  parasitic class of touts. 'Red Books' for imports/exports clog trade, while
+  industrial licensing favors big business—capable of navigating corruption and
+  delays—resulting in monopolies, as admitted by the government. Specific
+  evidence includes Minister Moinul Haque Choudhury's revelation of 334 license
+  applications from 1966 still pending in 1971, amid inter-ministerial
+  foot-dragging. West Bengal's failed incentives highlight bureaucratic inertia,
+  idle capacity, and unfulfilled promises. Adarkar concludes that removing
+  impediments to free private sector operation, rather than tinkering with
+  symptoms, is essential for progress, invoking Parkinson's 'Law of Delay' as
+  the deadliest denial.
+key_points:
+  - >-
+    The public sector's mismanagement and suppression of the private sector are
+    the root causes of India's economic ills, not private enterprise flaws.
+  - >-
+    Industrial licensing procedures create corruption, delays, and monopolies by
+    favoring big business over small entrepreneurs and newcomers.
+  - >-
+    In 1971, 334 industrial license applications from 1966 remained pending due
+    to bureaucratic inertia across ministries.
+  - >-
+    Government must eliminate red tape and licensing controls to unleash private
+    sector efficiency and achieve faster investment and production.
+topics:
+  - mixed-economy
+  - industrial-licensing
+  - private-sector
+  - bureaucratic-delays
 tags:
   - Mixed Economy
   - economic power
@@ -18,6 +56,9 @@ tags:
   - business
   - BP Adarkar
   - Red Books
+source_hash: cbdeb572ce60b943278c7b209fe4e999b56a68311f292aa84d56f1c156353558
+summary_hash: cbdeb572ce60b943278c7b209fe4e999b56a68311f292aa84d56f1c156353558
+summary_at: '2026-05-05T12:41:36.360Z'
 ---
 **By Ujwal Batra**
 

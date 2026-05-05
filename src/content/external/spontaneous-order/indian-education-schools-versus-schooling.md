@@ -1,15 +1,57 @@
 ---
 title: 'Indian Education: Schools versus Schooling'
 original_url: 'https://www.spontaneousorder.in/p/indian-education-schools-versus-schooling'
+author: Spontaneous Order
 published_at: '2022-12-19T12:51:50.000Z'
 ingested_at: '2026-05-05T08:31:42.253Z'
-source_hash: 7bdfeff82507b3abd65ca5ee6108807d153882920a57916f7daf9d8bbb53ad6a
-author: Spontaneous Order
 excerpt: >-
   India’s journey with education has been long and arduous – its most recent
   escapade being the National Education Policy (NEP) 2020. Being a country with
   such a vast population of children, the need to impart fundamental education
   during the early year
+summary: >-
+  India's education policies like the RTE Act 2009 and NEP 2020 prioritize
+  enrollment over actual learning, sending children to poorly performing
+  government schools baited with free uniforms, books, meals, and no-detention
+  up to eighth grade, but yielding dismal outcomes from a classical-liberal
+  viewpoint that demands accountability and incentives. Enrollment has risen
+  significantly since RTE's 2010 implementation, yet retention and passing rates
+  lag, learning levels are low, and teacher absenteeism is high. ASER 2021
+  reports in Chhattisgarh show second-standard students recognizing letters
+  dropping from 76.3% in 2018 to 57% in 2021, and third-standard basic
+  subtraction from 20% in 2016 to 9% in 2021. The pandemic exacerbated dropouts
+  via digital divide, with government school smartphone access at 63.7% versus
+  79% in private schools. NITI Aayog critiqued no-detention for removing
+  learning pressure. The author argues for shifting focus to measurable outcomes
+  like retention and passing rates through curriculum reform, teacher training
+  via state-private cooperation, aligning incentives for educators and
+  motivating parents to see education as a long-term investment rather than
+  child labor supplementation, to deliver genuine schooling beyond mere schools.
+key_points:
+  - >-
+    RTE Act boosted enrollment but failed on retention, learning outcomes, and
+    curbed teacher absenteeism in government schools.
+  - >-
+    ASER surveys reveal learning collapse: 2nd graders recognizing letters fell
+    to 57% (from 76.3% in 2018), 3rd graders doing subtraction to 9% (from 20%
+    in 2016).
+  - >-
+    No-detention policy up to 8th grade demotivates learning by guaranteeing
+    diplomas regardless of performance.
+  - >-
+    State-private partnerships must educate teachers, reform curriculum, and
+    align incentives for quality education.
+  - >-
+    Policymakers should prioritize outcomes over enrollment to foster long-term
+    investment in education by families.
+topics:
+  - rte-act
+  - learning-outcomes
+  - teacher-reform
+  - nep-2020
+source_hash: 7bdfeff82507b3abd65ca5ee6108807d153882920a57916f7daf9d8bbb53ad6a
+summary_hash: 7bdfeff82507b3abd65ca5ee6108807d153882920a57916f7daf9d8bbb53ad6a
+summary_at: '2026-05-05T10:21:14.357Z'
 ---
 **By Aakriti Parashar**
 

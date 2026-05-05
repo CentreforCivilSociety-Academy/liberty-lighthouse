@@ -2,15 +2,50 @@
 title: Should Govt Punish Use and Possession of Cannabis?
 original_url: >-
   https://www.spontaneousorder.in/p/should-govt-punish-use-and-possession-of-cannabis
+author: Spontaneous Order
 published_at: '2020-04-22T16:43:30.000Z'
 ingested_at: '2026-05-05T08:31:42.426Z'
-source_hash: af2522d8296987d63799cb67355478dd1c4f8fe2ca0890fcc41e5fa5387a07ab
-author: Spontaneous Order
 excerpt: >-
   The date on Monday was 4/20, with April 2020 being the month of 4/20;
   colloquially being referred to as the “Weed Day”/”Weed Month” as 420 is slang
   for cannabis. While possession and consumption of cannabis in small quantities
   are common among the
+summary: >-
+  The post argues from a classical-liberal perspective that governments should
+  not criminalize the possession and use of cannabis, as it constitutes a
+  victimless crime that harms no one but the consumer and is less addictive than
+  alcohol or cigarettes. It highlights admissions of cannabis use by figures
+  like Obama and Indian MP Tathagata Satpathy, noting that small quantities
+  (20-50 grams) can lead to jail time despite minimal harm. During the COVID-19
+  pandemic, authorities worldwide released prisoners held for minor cannabis
+  possession—often from poor and minority communities like African Americans and
+  Latinos in the US—to decongest overcrowded jails, underscoring the policy's
+  folly. The author compares cannabis to legal vices like sugar, which is highly
+  addictive and harmful yet unregulated in personal use, and alcohol, which has
+  a higher overdose fatality rate but is taxed and quality-controlled without
+  jailing possessors. Quoting Lysander Spooner, it contends that criminalizing
+  one person's 'craving' while allowing another's, when both harm only the self,
+  enables state misuse against the disenfranchised, poor, and minorities.
+  Post-normalcy, such acts should never have been criminalized.
+key_points:
+  - >-
+    Cannabis possession is a victimless crime far less addictive and harmful
+    than alcohol or cigarettes, yet leads to jail for small quantities like
+    20-50 grams.
+  - >-
+    COVID-19 jail decongestion efforts prioritize releasing minor cannabis
+    offenders, who are disproportionately poor and minorities.
+  - >-
+    Laws against victimless vices like cannabis enable state overreach against
+    the disenfranchised, unlike tolerated substances such as sugar and alcohol.
+  - >-
+    Criminalizing personal cravings that harm no one violates liberty, as per
+    Lysander Spooner.
+topics:
+  - cannabis-legalization
+  - victimless-crimes
+  - drug-policy
+  - criminal-justice-reform
 tags:
   - Personal Laws
   - 'A Better India: A Better World'
@@ -19,6 +54,9 @@ tags:
   - drugs
   - Liberty
   - Freedom
+source_hash: af2522d8296987d63799cb67355478dd1c4f8fe2ca0890fcc41e5fa5387a07ab
+summary_hash: af2522d8296987d63799cb67355478dd1c4f8fe2ca0890fcc41e5fa5387a07ab
+summary_at: '2026-05-05T11:41:22.494Z'
 ---
 **By Sourya Banerjee**
 

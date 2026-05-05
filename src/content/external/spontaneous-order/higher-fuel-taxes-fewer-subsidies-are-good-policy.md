@@ -2,15 +2,52 @@
 title: 'Higher fuel taxes, fewer subsidies are good policy'
 original_url: >-
   https://www.spontaneousorder.in/p/higher-fuel-taxes-fewer-subsidies-are-good-policy
+author: Spontaneous Order
 published_at: '2020-07-06T13:29:09.000Z'
 ingested_at: '2026-05-05T08:31:42.400Z'
-source_hash: c6c307801d729c9a0487d324fdbfe2c6642acd75a6db2cb0f1ed6824582dd8a2
-author: Spontaneous Order
 excerpt: >-
   “Never waste a crisis” is an old adage. The Covid crisis is a good time to
   enact painful reforms. Some reforms like the suspension of labour laws for
   three years by some states have caught the headlines, and been criticised,
   rightly, as half-baked. No
+summary: >-
+  Swaminathan SA Aiyar argues that the Covid crisis presents an opportunity for
+  bold reforms like abolishing petroleum subsidies and imposing higher fuel
+  taxes, which the Indian government has pursued courageously. The central
+  government raised excise duties on diesel and petrol in March and May 2020,
+  increased road cess to Rs 8/litre, with states following suit, potentially
+  yielding 1% of GDP in revenue amid a 2-3% GDP revenue shortfall from
+  recession. Though 70% of current petrol/diesel prices (Rs 80/litre) is
+  tax—cheaper than Europe/Japan but pricier than the US—these hikes curb
+  consumption, reduce pollution in heavily polluted India, and incentivize
+  shifts to electric vehicles, with rickshaws already proliferating. Subsidies
+  on diesel (historically 50% cheaper than petrol despite higher global prices),
+  kerosene, and cooking gas—once politically untouchable—have been fully phased
+  out, correcting distortions like diesel car proliferation that worsened PM 2.5
+  emissions and wasted capital. Diesel pumps are now mostly electric,
+  eliminating farmer subsidy rationale; in Delhi, diesel now exceeds petrol
+  prices. Gradual increases during crises defuse backlash, aligning prices with
+  global trends while capturing windfalls, promoting a classical-liberal shift
+  to unsubsidized, domestic clean energy like solar.
+key_points:
+  - >-
+    Abolish all petroleum subsidies to eliminate distortions and fiscal burdens,
+    as diesel, kerosene, and cooking gas subsidies have been successfully phased
+    out.
+  - >-
+    Raise fuel taxes significantly—now 70% of pump prices—to generate 1% of GDP
+    revenue, curb pollution, and incentivize electric vehicles.
+  - >-
+    End diesel subsidies for farmers, outdated since electric pumps dominate,
+    correcting the irrational shift to polluting diesel cars.
+  - >-
+    Use crises like Covid for gradual price hikes to avoid backlash while
+    aligning domestic prices with global trends and capturing windfalls.
+topics:
+  - fuel-subsidies
+  - fuel-taxes
+  - pollution-control
+  - fiscal-reform
 tags:
   - subsidization
   - government policy making
@@ -21,6 +58,9 @@ tags:
   - Opinion
   - developing countries
   - fuel deregulation
+source_hash: c6c307801d729c9a0487d324fdbfe2c6642acd75a6db2cb0f1ed6824582dd8a2
+summary_hash: c6c307801d729c9a0487d324fdbfe2c6642acd75a6db2cb0f1ed6824582dd8a2
+summary_at: '2026-05-05T10:10:03.427Z'
 ---
 **By Swaminathan SA Aiyer**
 

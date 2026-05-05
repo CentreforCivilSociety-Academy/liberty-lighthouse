@@ -2,19 +2,54 @@
 title: 'Spontaneous Musings: Parth Shah on Education and Choice'
 original_url: >-
   https://www.spontaneousorder.in/p/spontaneous-musings-parth-shah-on-education-and-choice
+author: Spontaneous Order
 published_at: '2018-08-02T10:42:52.000Z'
 ingested_at: '2026-05-05T08:31:42.535Z'
-source_hash: 51be8be7d2af85f2af2f90adbba34e63b4dd62befd340234abd7fbccf2074ec2
-author: Spontaneous Order
 excerpt: >-
   In any country, there are three key issues that plague education- access,
   quality and equity. All three hold equally true in the case of India as well.
   In terms of the first issue, there is pretty good consensus now that we have
   been able to provide acc..
+summary: >-
+  Parth Shah identifies three key issues plaguing education in India—access,
+  quality, and equity—arguing from a classical-liberal perspective that access
+  has largely been addressed through Sarva Shiksha Abhiyan (SSA) and government
+  reforms, leaving quality and equity as primary challenges. He contends that
+  quality is inherently subjective, 'in the eye of the beholder,' with no
+  absolute standard achievable through top-down imposition, as consensus on
+  parameters is elusive. Instead, quality emerges from consumer choices: parents
+  and students can only articulate and pursue good education when free to select
+  among diverse options. Thus, choice is the prerequisite—creating an ecosystem
+  offering freedom in schools, pedagogy, curriculum, and examination systems
+  enables a bottom-up, organic consensus on quality. Without this foundational
+  choice, addressing equity or disseminating quality remains impossible. Shah
+  advocates shifting from centralized definitions to market-driven diversity,
+  aligning with his work promoting choice and competition in education.
+key_points:
+  - >-
+    India's education access has improved via SSA, but quality and equity
+    persist as core challenges.
+  - >-
+    Quality education lacks an absolute standard and is subjective, defined by
+    parents and students through exploration of options.
+  - >-
+    Choice in schools, pedagogy, curriculum, and exams is prerequisite for
+    organically defining and achieving quality.
+  - >-
+    A bottom-up ecosystem of educational choice must precede top-down quality
+    mandates to address equity effectively.
+topics:
+  - education
+  - school-choice
+  - education-quality
+  - choice-in-education
 tags:
   - Education in India
   - School Choice
   - quality education
+source_hash: 51be8be7d2af85f2af2f90adbba34e63b4dd62befd340234abd7fbccf2074ec2
+summary_hash: 51be8be7d2af85f2af2f90adbba34e63b4dd62befd340234abd7fbccf2074ec2
+summary_at: '2026-05-05T12:08:32.888Z'
 ---
 **By Parth Shah**
 

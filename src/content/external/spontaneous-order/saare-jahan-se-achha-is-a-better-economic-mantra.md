@@ -2,15 +2,50 @@
 title: ‘Saare jahan se achha’ is a better economic mantra
 original_url: >-
   https://www.spontaneousorder.in/p/saare-jahan-se-achha-is-a-better-economic-mantra
+author: Spontaneous Order
 published_at: '2020-08-04T17:35:46.000Z'
 ingested_at: '2026-05-05T08:31:42.389Z'
-source_hash: cc98b88149b21e484dd40b410b2a5b91712bcd7beadca0ba975d1ea730b03aba
-author: Spontaneous Order
 excerpt: >-
   India will truly have to open up. Aatmanirbhar or self-reliance does not mean
   protectionism. That will get India nowhere. It is a throwback to the 1970s,
   the period of failed economics for this country. The real battle between India
   and China will be te..
+summary: >-
+  Swaminathan S.A. Aiyar argues that India's 'Aatmanirbhar' (self-reliance)
+  mantra revives Nehru's failed protectionism, dooming it to lag behind China's
+  technological dominance, and advocates instead for 'Saare jahan se
+  achha'—becoming the world's best through global collaboration. China leads in
+  5G (Huawei ahead of Ericsson, Samsung, Nokia), solar panels (JinkoSolar),
+  batteries, and microchips (Taiwan Semiconductor a generation ahead of Intel),
+  with Xi Jinping targeting top global position by 2025 in AI, robotics, and
+  space. The US won the Cold War via superior tech, unlike the self-sufficient
+  USSR's failure. India cannot compete behind tariff walls but must join
+  democracies in high-tech supply chains, leveraging high skills to become
+  indispensable. Critiquing the New Education Policy, Aiyar highlights
+  government schools' failures—teachers absent half the time per Pratham
+  surveys, India second-last in PISA—driving parents to private options. He
+  urges using RSS's Vidya Bharati network (5,241 elementary schools, 2,635 high
+  schools, 3 million students) to build world-class education rivaling China's.
+key_points:
+  - >-
+    Abandon 'Aatmanirbhar' protectionism, which echoes Nehru's and USSR's
+    failures, and pursue global collaboration to lead in technology against
+    China.
+  - >-
+    China dominates in 5G, solar, batteries, and AI, outpacing the US in key
+    areas like microchips and drones.
+  - >-
+    Reform education by addressing government schools' dismal outcomes (PISA
+    second-last, high teacher absenteeism) and expanding RSS Vidya Bharati
+    schools for excellence.
+  - >-
+    India wins by producing the world's best goods through alliances with
+    democracies, not self-sufficiency behind tariffs.
+topics:
+  - aatmanirbhar-bharat
+  - education-reform
+  - china-tech-competition
+  - trade-liberalization
 tags:
   - open markets
   - International trade
@@ -20,6 +55,9 @@ tags:
   - free market economics
   - Industrial Revolution
   - atma nirbhar
+source_hash: cc98b88149b21e484dd40b410b2a5b91712bcd7beadca0ba975d1ea730b03aba
+summary_hash: cc98b88149b21e484dd40b410b2a5b91712bcd7beadca0ba975d1ea730b03aba
+summary_at: '2026-05-05T11:32:00.356Z'
 ---
 **By Swaminathan SA Aiyer**
 

@@ -1,15 +1,49 @@
 ---
 title: Inflationary Ideas
 original_url: 'https://www.spontaneousorder.in/p/inflationary-ideas'
+author: Spontaneous Order
 published_at: '2011-06-17T23:05:04.000Z'
 ingested_at: '2026-05-05T08:31:42.638Z'
-source_hash: 3a7eabaca9b976dde8c1242ab242386ee3d3f9c804bd681d1dc5fd5fe3d50a7b
-author: Spontaneous Order
 excerpt: >-
   By: Surbhi Tandon (Intern, CCS) and Vipin P. Veetil (Research Guide, CCS) “The
   monetary stance remains firmly anti-inflationary…” said D Subharao – Governor
   of the Reserve Bank of India – on Thursday 16 June. If the very institution
   with a monop
+summary: >-
+  The post argues from a classical-liberal perspective that inflation in India
+  stems directly from the Reserve Bank of India's (RBI) excessive production of
+  base money (M0: notes and coins), contradicting RBI Governor D Subbarao's
+  claim of an 'anti-inflationary' stance. RBI data shows notes and coins in
+  circulation surged from ₹12.92 billion in 1951-52 (index 100) to ₹9.495
+  trillion in 2010-11 (index 73,500), a 735-fold increase far outpacing real
+  goods and services growth. Unlike endogenous broader money measures (M2, M3)
+  driven by economic activity, exogenous M0 is monopolized by RBI. The Cantillon
+  effect explains the 'deceitful circularity': new money first reaches banks,
+  large businesses, and government, allowing them to bid up resources at
+  pre-inflation prices, while later recipients like the masses bear the full
+  brunt. Quoting Ambedkar, the post warns against government-managed currency
+  due to lack of accountability compared to private banks. Solutions include
+  Hayek's denationalization of money (private currencies) or Friedman's rule of
+  matching money supply growth to real output growth. Intern anecdotes highlight
+  everyday impacts on the young and middle class.
+key_points:
+  - >-
+    RBI's notes and coins in circulation grew 735 times from 1951-52 to 2010-11,
+    exceeding real economic growth and causing inflation.
+  - >-
+    The Cantillon effect means new RBI money benefits elites first (banks,
+    businesses, government) at old prices, burdening the masses last.
+  - >-
+    Ambedkar cautioned against government-managed currency due to higher
+    mismanagement risk without private loss accountability.
+  - >-
+    Alternatives to RBI monopoly: Hayek's private money system or Friedman's
+    matching money growth to real output.
+topics:
+  - inflation
+  - monetary-policy
+  - central-banking
+  - cantillon-effect
 tags:
   - M3
   - measures of money
@@ -17,6 +51,9 @@ tags:
   - inflation
   - M0
   - notes and coins
+source_hash: 3a7eabaca9b976dde8c1242ab242386ee3d3f9c804bd681d1dc5fd5fe3d50a7b
+summary_hash: 3a7eabaca9b976dde8c1242ab242386ee3d3f9c804bd681d1dc5fd5fe3d50a7b
+summary_at: '2026-05-05T10:25:13.683Z'
 ---
 **By Vipin**
 

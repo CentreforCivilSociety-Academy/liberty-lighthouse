@@ -1,15 +1,57 @@
 ---
 title: 'SO Musings: The Mission of Libertarianism'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-libertarian-mission'
+author: Spontaneous Order
 published_at: '2020-02-01T10:03:59.000Z'
 ingested_at: '2026-05-05T08:31:42.447Z'
-source_hash: c35388f6e34018ce2a7dc4c73118a2eca2095e347ca05934abbfc8480a761847
-author: Spontaneous Order
 excerpt: >-
   The following article, written by M A Venkata Rao first appeared in the
   October 1958 issue of The Indian Libertarian magazine. In Europe and America,
   a branch of the Enlightenment school of thought that prepared for and preceded
   the French Revolution de..
+summary: >-
+  The article traces the historical divergence from Enlightenment individualism
+  and capitalism, which fueled liberal democracy and progress via free
+  enterprise, to socialist and collectivist ideologies that arose from
+  dissatisfaction with bourgeois exploitation post-French Revolution. Thinkers
+  like Proudhon, Fourier, Saint-Simon, and especially Marx promoted equality and
+  fraternity over liberty, leading to anarchism, Fabianism, and violent
+  communism, culminating in the 1917 Russian Revolution's global dominance. This
+  'collectivist illusion of the epoch' eclipses figures like Adam Smith and J.S.
+  Mill, expanding state power amid technological complexity and subordinating
+  individual liberty. Libertarians, inspired by American individualists like
+  Josiah Warren and Robert Owen's experiments, critique state overreach,
+  monopolies, welfare distortions, inflation, and public debt that burden
+  economies. They advocate returning to an individualist economy ensuring 'equal
+  liberty' for free enterprise, regulated only against fraud and unearned
+  profits; reforming land to bar parasitic holders; limiting state to police and
+  justice; and revamping education to integrate work, culture, self-reliance,
+  and cooperation, eradicating class antagonism. By cultivating an elite through
+  discussion and group life, libertarians aim to dissolve collectivism for a
+  free, cooperative humanity.
+key_points:
+  - >-
+    Libertarianism counters dominant collectivism by restoring individualist
+    economy with equal liberty in free enterprise, checked only against fraud
+    and monopolies.
+  - >-
+    Reform land ownership to keep it with productive users, eliminating unearned
+    income from parasitic holders.
+  - >-
+    Limit state role to police and justice, ending welfare distortions,
+    inflation, and public debt burdens.
+  - >-
+    Transform education to foster self-reliance, cooperation, and integration of
+    work and culture, dissolving class antagonisms.
+  - >-
+    Build a gradually increasing elite via discussion, propaganda, and group
+    life to usher in free, cooperative humanity beyond the collectivist
+    illusion.
+topics:
+  - libertarianism
+  - collectivism-critique
+  - limited-government
+  - education-reform
 tags:
   - libertarian
   - Indian Liberal Tradition
@@ -17,6 +59,9 @@ tags:
   - Indian
   - IndianLiberals.in
   - classical liberalism
+source_hash: c35388f6e34018ce2a7dc4c73118a2eca2095e347ca05934abbfc8480a761847
+summary_hash: c35388f6e34018ce2a7dc4c73118a2eca2095e347ca05934abbfc8480a761847
+summary_at: '2026-05-05T11:58:04.626Z'
 ---
 **By Spontaneous Order**
 

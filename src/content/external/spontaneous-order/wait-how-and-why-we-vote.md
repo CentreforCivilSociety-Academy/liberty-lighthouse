@@ -1,18 +1,58 @@
 ---
 title: 'Wait, how and why do we vote?'
 original_url: 'https://www.spontaneousorder.in/p/wait-how-and-why-we-vote'
+author: Spontaneous Order
 published_at: '2021-04-01T11:51:01.000Z'
 ingested_at: '2026-05-05T08:31:42.336Z'
-source_hash: 54edaa22e2d7f57ec926ecd18ab3103fb1bafde8c40618febda88411c4a564a3
-author: Spontaneous Order
 excerpt: >-
   In one of our casual conversations, my cousin, a first-time voter, posed a
   question that stirred a train of queries in my head. In the context of the
   imminent assembly elections in Tamil Nadu, she asked me, “How do I decide who
   I should vote for?”. Th
+summary: >-
+  T. Bhuvanesh Ram reflects on his cousin's question as a first-time voter in
+  Tamil Nadu's assembly elections, highlighting the lack of easy answers for
+  young, apolitical voters amid India's high volume of first-timers. He dissects
+  'why' people vote: 2019 Lok Sabha turnout was 67.1%, driven not by direct
+  rewards but social factors like altruism, conformity, self-expression, the
+  'voter’s illusion' (belief in personal impact), and identity affiliations
+  (caste, language, religion). 'How' voters choose leans on emotional, intuitive
+  System 1 thinking per Kahneman—fear, anger, loyalty, anti-incumbency,
+  ideological affinity, even candidate attractiveness—over rational
+  deliberation, with Indians prioritizing parties over candidates. An ideal
+  framework might involve manifesto comparisons for benefits to self, community,
+  then state/country, starting with basics like roads and water; yet gaps
+  persist, e.g., for transpersons or disabled voters. Research shows polls often
+  miss due to voting's personalized, multi-influenced nature seeking marginal
+  life improvements. Voters must guard against biases in this 'festival of
+  democracy,' though no universal rational method exists.
+key_points:
+  - >-
+    Voter turnout in India's 2019 Lok Sabha elections was 67.1%, motivated by
+    altruism, conformity, self-expression, and the 'voter’s illusion' rather
+    than direct personal gain.
+  - >-
+    Voting decisions are dominated by emotional System 1 thinking, including
+    fear, anger, loyalty, and candidate attractiveness, especially in
+    party-focused India.
+  - >-
+    Ideal voting requires comparing party manifestos for benefits to self,
+    community, and country, but information shortages hinder marginalized
+    groups.
+  - >-
+    Voters operate in personalized contexts seeking marginal improvements, with
+    polls failing to predict due to emotional and identity influences.
+topics:
+  - voter-psychology
+  - voting-behavior
+  - elections-india
+  - decision-making
 tags:
   - Elections
   - Politics
+source_hash: 54edaa22e2d7f57ec926ecd18ab3103fb1bafde8c40618febda88411c4a564a3
+summary_hash: 54edaa22e2d7f57ec926ecd18ab3103fb1bafde8c40618febda88411c4a564a3
+summary_at: '2026-05-05T12:55:51.841Z'
 ---
 **By T. Bhuvanesh Ram**
 

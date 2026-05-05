@@ -2,19 +2,56 @@
 title: 'SO Musings: Full Employment and Monetary Policy'
 original_url: >-
   https://www.spontaneousorder.in/p/so-musings-full-employment-and-monetary-policy
+author: Spontaneous Order
 published_at: '2020-10-30T15:06:22.000Z'
 ingested_at: '2026-05-05T08:31:42.371Z'
-source_hash: c56a177e27472e5a3b2c6460cf7dd1b2b5de96c85399bcf3c269d722f7e2837c
-author: Spontaneous Order
 excerpt: >-
   The recent bills on labour codes passed by the parliament make the labour
   market in India more flexible. However, they have met with opposition from the
   labour unions and activists who contend that since the bills make the firing
   of workers easier they ..
+summary: >-
+  Recent Indian labour code bills introduce greater flexibility by easing worker
+  firing, drawing opposition from unions fearing reduced job security and higher
+  unemployment. Ludwig von Mises, in a 1957 piece in The Indian Libertarian,
+  counters that lasting unemployment stems from institutional restrictions like
+  government decrees or hyper-unionisation, not free markets. In an unhampered
+  labour market, wage rates naturally tend toward full employment, as everyone
+  willing to work at market rates can find jobs and employers can hire. Market
+  wages rise with increased capital per worker—via savings, investment, or
+  reduced labour supply from immigration barriers—or when labour productivity
+  outpaces capital. Mises criticises Keynesian 'full employment' via government
+  spending and questions union desirability. He notes historical liberalism had
+  no migration barriers, unlike today's welfarism and unionism, which impose
+  quotas, prohibit immigration (e.g., USA), or exclude groups like coloured
+  workers to limit jobseekers. Government interventions above market prices
+  leave supply unsold, applying equally to labour. The classical-liberal view
+  champions unrestricted labour markets to eliminate unemployment.
+key_points:
+  - >-
+    Labour code reforms making firing easier enhance flexibility and counter
+    institutional unemployment causes, per Mises.
+  - >-
+    Free labour markets ensure full employment as market wages match supply and
+    demand without restrictions.
+  - >-
+    Unemployment arises from government minimum wages, union power, or barriers
+    like immigration quotas that distort markets.
+  - >-
+    Wage rises occur through capital accumulation per worker or reduced labour
+    supply, not Keynesian spending.
+topics:
+  - labour-markets
+  - full-employment
+  - labour-unions
+  - free-markets
 tags:
   - SO Musings
   - Ludwig Von Mises
   - Libertarianism
+source_hash: c56a177e27472e5a3b2c6460cf7dd1b2b5de96c85399bcf3c269d722f7e2837c
+summary_hash: c56a177e27472e5a3b2c6460cf7dd1b2b5de96c85399bcf3c269d722f7e2837c
+summary_at: '2026-05-05T11:56:52.890Z'
 ---
 **By Spontaneous Order**
 

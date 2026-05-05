@@ -1,15 +1,30 @@
 ---
 title: Economics helps you order a meal
 original_url: 'https://www.spontaneousorder.in/p/economics-helps-you-order-a-meal'
+author: Spontaneous Order
 published_at: '2005-05-24T22:02:11.000Z'
 ingested_at: '2026-05-05T08:31:42.678Z'
-source_hash: df637c811dacc8945c523a39fa93866febfb09735cc43248a5fb5cca5da9edf8
-author: Spontaneous Order
 excerpt: >-
   I’m always bothered that at CCS group lunches (or herd lunches as we call
   them) we take a long time to place our orders. Jason Kottke offers tips by
   crystallising the lessons of such recent economics bestsellers as
   Freakonomics, Blink and the Wisdom of
+summary: >-
+  This short, fragmentary post by Sruthijith humorously notes the lengthy time
+  taken to place orders at CCS 'herd lunches' and references Jason Kottke's tips
+  for faster ordering, drawn from economics bestsellers Freakonomics, Blink, and
+  The Wisdom of Crowds—all available in the CCS library—highlighting practical
+  applications of economic insights in everyday decisions from a
+  classical-liberal perspective.
+key_points:
+  - CCS group lunches involve prolonged ordering processes.
+topics:
+  - economics
+  - decision-making
+  - ccs-library
+source_hash: df637c811dacc8945c523a39fa93866febfb09735cc43248a5fb5cca5da9edf8
+summary_hash: df637c811dacc8945c523a39fa93866febfb09735cc43248a5fb5cca5da9edf8
+summary_at: '2026-05-05T09:43:33.139Z'
 ---
 **By Sruthijith**
 

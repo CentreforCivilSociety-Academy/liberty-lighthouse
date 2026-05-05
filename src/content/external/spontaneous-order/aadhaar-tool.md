@@ -1,15 +1,50 @@
 ---
 title: Aadhaar – A transparent tool for all
 original_url: 'https://www.spontaneousorder.in/p/aadhaar-tool'
+author: Spontaneous Order
 published_at: '2016-03-08T13:40:33.000Z'
 ingested_at: '2026-05-05T08:31:42.558Z'
-source_hash: 80d2ad74961a06e30043748238b13c0daecdc33aa5e789c771cfea094b87f359
-author: Spontaneous Order
 excerpt: >-
   Luis Miranda is the Chairman of Centre for Civil Society. This post was
   originally published on Luis’ blog at ForbesIndia.com Let’s hope that
   Parliament actually works this session and that petty politics does not derail
   the efficient operation of our
+summary: >-
+  Luis Miranda praises the Aadhaar (Targeted Delivery of Financial and Other
+  Subsidies, Benefits and Services) Bill, 2016, as a bipartisan innovation
+  originally from the UPA government under Nandan Nilekani, now championed by PM
+  Modi after initial BJP criticism. By February 2016, the world's largest
+  national ID project had issued 980 million unique 12-digit numbers with
+  biometric and demographic data. From a classical-liberal perspective, it
+  promises dramatic efficiency in public delivery, reducing corruption and black
+  money via Direct Benefit Transfers (DBT) and applications like PDS, NREGA,
+  Sarva Shiksha Abhiyaan, passports, land titles, e-KYC, voting, and biometric
+  attendance. The Bill clarifies Aadhaar is not proof of citizenship, mandates
+  strong privacy protections—limiting use to consented purposes, barring
+  race/caste/religion data, enabling user access/rectification, and imposing
+  imprisonment for breaches. DBT savings alone will cover costs, as per Nilekani
+  and Viral Shah's 'Rebooting India'. Miranda calls for parliamentary support
+  against opponents profiting from inefficiencies, automation fears, and
+  opacity.
+key_points:
+  - >-
+    Aadhaar issued 980 million unique IDs by February 2016, enabling efficient
+    subsidy delivery via DBT with savings covering project costs.
+  - >-
+    The Bill ensures privacy by restricting data use to consented purposes,
+    prohibiting caste/religion details, and penalizing breaches with
+    imprisonment.
+  - >-
+    Aadhaar supports services like PDS, NREGA, e-KYC, voting, and biometric
+    attendance without serving as proof of citizenship.
+  - >-
+    Support the Bill to counter those profiting from systemic inefficiencies and
+    fearing transparency.
+topics:
+  - aadhaar
+  - direct-benefit-transfer
+  - privacy
+  - government-efficiency
 tags:
   - Aadhar
   - Welfare State in India
@@ -19,6 +54,9 @@ tags:
   - UIDAI
   - Direct Cash Transfer
   - Right to Privacy
+source_hash: 80d2ad74961a06e30043748238b13c0daecdc33aa5e789c771cfea094b87f359
+summary_hash: 80d2ad74961a06e30043748238b13c0daecdc33aa5e789c771cfea094b87f359
+summary_at: '2026-05-05T08:50:31.807Z'
 ---
 **By Luis Miranda**
 

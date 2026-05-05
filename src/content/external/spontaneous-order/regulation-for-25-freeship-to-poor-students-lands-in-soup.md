@@ -2,15 +2,34 @@
 title: Regulation for 25% freeship to poor students lands in soup!
 original_url: >-
   https://www.spontaneousorder.in/p/regulation-for-25-freeship-to-poor-students-lands-in-soup
+author: Spontaneous Order
 published_at: '2004-09-15T02:03:32.000Z'
 ingested_at: '2026-05-05T08:31:42.699Z'
-source_hash: 559166603637295574afb959ef1cbe11b96799ea9a5ed05ab96d064ca927449c
-author: Spontaneous Order
 excerpt: >-
   There has been a lot of smoke and fire in Delhi, of late, regarding the
   violation of contract by private schools who got land at concessional rates in
   exchange to reserve 25% of seats for the poor. I decided to apply one of the
   basic tools of policy ana..
+summary: >-
+  This fragmentary post by Naveen Mandava critiques Delhi's policy of providing
+  concessional land to private schools via DDA and L&DO in exchange for
+  reserving 25% seats for poor students, amid recent violations. The author
+  applies Bastiat’s 'seen and unseen' principle to analyze the issue but cuts
+  off abruptly after describing 'what is seen' (the visible reservation
+  benefit), leaving the 'unseen' analysis undeveloped. From a classical-liberal
+  lens, it signals intent to highlight unintended consequences of such
+  regulations.
+key_points:
+  - >-
+    Delhi private schools receiving concessional land must reserve 25% seats for
+    poor students under contract with DDA and L&DO.
+topics:
+  - education
+  - private-schools
+  - land-subsidies
+source_hash: 559166603637295574afb959ef1cbe11b96799ea9a5ed05ab96d064ca927449c
+summary_hash: 559166603637295574afb959ef1cbe11b96799ea9a5ed05ab96d064ca927449c
+summary_at: '2026-05-05T11:25:00.168Z'
 ---
 **By Naveen Mandava**
 

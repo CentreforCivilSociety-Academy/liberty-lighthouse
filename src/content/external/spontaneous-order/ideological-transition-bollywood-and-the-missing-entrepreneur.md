@@ -2,20 +2,59 @@
 title: 'Ideological Transition: Bollywood and the Missing Entrepreneur'
 original_url: >-
   https://www.spontaneousorder.in/p/ideological-transition-bollywood-and-the-missing-entrepreneur
+author: Spontaneous Order
 published_at: '2021-09-08T12:03:05.000Z'
 ingested_at: '2026-05-05T08:31:42.293Z'
-source_hash: c780fc0f79c25ecff48ebebe4b94232b647b98828f0e46ff97054278c0b6b563
-author: Spontaneous Order
 excerpt: >-
   Pop culture is often held up by scholars as a mirror to society. In a country
   as diverse as India, no single form of pop culture can engulf all that India
   has to offer. However, Bollywood, India’s largest film industry, comes close.
   In my opinion, it ca
+summary: >-
+  Bollywood films reflect India's ideological evolution from socialist suspicion
+  of wealth and businessmen in the 1950s-1960s—evident in movies like *Upkar*
+  and *Do Beegha Zameen* where poor villagers are heroes and wealthy villains
+  embody vices—to embracing classical liberal values of individualism,
+  self-interest, success, and wealth by the late 1980s and 1990s. Films like
+  *Swarg* (1990) portrayed noble businessmen, while 1990s blockbusters featured
+  wealthy protagonists flaunting conspicuous consumption. The 2000s marked a
+  milestone with *Guru* (2007) critiquing the License Raj and celebrating
+  entrepreneurship's social benefits, followed by *Rocket Singh* (2009) and
+  *Band Baaja Baaraat* (2010), signaling market self-correction over state
+  intervention. However, the 2010s reversed this with bureaucrat and uniformed
+  heroes in hits like *Dabangg* and *Singham*, attributed to the 6th Central Pay
+  Commission raising government salaries and the 2008 Global Financial Crisis
+  causing private sector layoffs—UPSC applicants surged from 325,000 in 2008 to
+  550,000 in 2010 and 1 million in 2014. Despite this, India's startup boom,
+  producing 8 unicorns in the decade's first half versus 8 in 2018 alone and 26
+  this year, foreshadows entrepreneurship's return as aspirational, likely
+  reviving entrepreneur protagonists in Bollywood during the 2020s.
+key_points:
+  - >-
+    Bollywood shifted from portraying businessmen as villains in 1950s-60s
+    socialist-era films to heroes in late 1980s-2000s movies like *Guru* and
+    *Rocket Singh*.
+  - >-
+    The 2010s resurgence of bureaucrat protagonists stemmed from government pay
+    hikes via the 6th Pay Commission and private sector layoffs post-2008
+    crisis, boosting UPSC applicants from 325,000 in 2008 to 1 million in 2014.
+  - >-
+    India's startup ecosystem exploded with 8 unicorns in early 2010s versus 8
+    in 2018 alone and 26 this year, poised to restore entrepreneurship's
+    cultural prestige in Bollywood.
+topics:
+  - bollywood-ideology
+  - entrepreneurship
+  - cultural-shift
+  - indian-economy
 tags:
   - startup
   - Bollywood
   - Movies
   - Liberalism
+source_hash: c780fc0f79c25ecff48ebebe4b94232b647b98828f0e46ff97054278c0b6b563
+summary_hash: c780fc0f79c25ecff48ebebe4b94232b647b98828f0e46ff97054278c0b6b563
+summary_at: '2026-05-05T10:14:46.264Z'
 ---
 **By Yuvraj**
 

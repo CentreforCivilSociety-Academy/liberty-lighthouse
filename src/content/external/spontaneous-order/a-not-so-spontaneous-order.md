@@ -1,15 +1,52 @@
 ---
 title: A not-so-spontaneous order
 original_url: 'https://www.spontaneousorder.in/p/a-not-so-spontaneous-order'
+author: Spontaneous Order
 published_at: '2004-09-24T02:49:34.000Z'
 ingested_at: '2026-05-05T08:31:42.698Z'
-source_hash: 1d7daa01411e3011a7b4131d29a5fe20f74c22bb92ac9f56a43ecfefcb09aeb1
-author: Spontaneous Order
 excerpt: >-
   This blog started as a group blog. True to its name, the editor relied on
   voluntary contributions initially. Soon he realised the hard way that research
   associates with project deadlines in their nightmares are not exactly the kind
   of people he can rely..
+summary: >-
+  The author defends a structured blog posting roster—imposed after voluntary
+  contributions failed—as a prime example of F.A. Hayek's spontaneous order,
+  countering the editor's quip that it is 'not-so-spontaneous.' Hayek delineates
+  three social rules underpinning spontaneous order: those deliberately designed
+  by individuals, tacit knowledge such as a sense of fair play, and beneficial
+  behaviors observed and codified. The roster embodies the first by assigning
+  specific posting days to each contributor, rooted in the tacit, socially
+  acceptable norm of 'one post per week per person.' Observable benefits confirm
+  its efficacy: the editor secures regular content, contributors escape pressure
+  and gain predictable Tuesdays for planning, equal sharing fosters commitment,
+  and day-trading enhances personal efficiency while upholding obligations. This
+  process illustrates the classical-liberal insight that humans routinely
+  'design' functional institutions through self-interested actions, without
+  needing comprehensive knowledge, transforming a reluctant mandate into a
+  thriving blog.
+key_points:
+  - >-
+    A blog roster assigning weekly posting days exemplifies Hayek's first social
+    rule of deliberately designed institutions.
+  - >-
+    It draws on tacit norms like fair play and equal contribution to ensure
+    compliance and benefits.
+  - >-
+    Observable gains include editor's steady posts, contributor relief,
+    scheduling predictability, commitment via equality, and flexibility through
+    day trades.
+  - >-
+    Self-interested designs without full knowledge yield spontaneous orders, as
+    in this 'not-so-spontaneous' blog success.
+topics:
+  - spontaneous-order
+  - hayek
+  - social-rules
+  - institutional-design
+source_hash: 1d7daa01411e3011a7b4131d29a5fe20f74c22bb92ac9f56a43ecfefcb09aeb1
+summary_hash: 1d7daa01411e3011a7b4131d29a5fe20f74c22bb92ac9f56a43ecfefcb09aeb1
+summary_at: '2026-05-05T08:49:40.251Z'
 ---
 **By soumya**
 

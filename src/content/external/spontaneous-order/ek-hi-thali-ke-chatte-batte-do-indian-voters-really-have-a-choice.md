@@ -2,19 +2,55 @@
 title: Ek Hi Thali Ke Chatte Batte - Do Indian Voters Really Have A Choice?
 original_url: >-
   https://www.spontaneousorder.in/p/ek-hi-thali-ke-chatte-batte-do-indian-voters-really-have-a-choice
+author: Spontaneous Order
 published_at: '2014-04-09T18:23:50.000Z'
 ingested_at: '2026-05-05T08:31:42.593Z'
-source_hash: 047212a3b92ed9469e666f443a697d4892efea5968186bed5eec67c41a75566e
-author: Spontaneous Order
 excerpt: >-
   One political party believes that it is alright to allow Foreign Direct
   Investment (FDI) everywhere, but in multi-brand retail. Another thinks that
   doling out more entitlements is the only way to ensure social justice and
   equality of opportunity. Even a..
+summary: >-
+  Indian voters lack real choice as all major political parties favor
+  ever-greater state intervention, with one allowing FDI everywhere except
+  multi-brand retail, another pushing entitlements for social justice, and
+  others adding bureaucratic layers to fight corruption. Manifestos are
+  incoherent hodgepodges tailored to caste/religious constituencies, lacking
+  principled coherence. Parties face no accountability for unkept promises,
+  unlike economic markets with consumer protections, as Alan Reynolds noted:
+  'The political market unlike economic markets, suffers from total absence of
+  consumer protection.' No party upholds fixed principles without compromise.
+  The author contrasts this with the 1960s Swatantra Party, which clearly
+  outlined 21 principles for 'maximum freedom for the individual and minimum
+  interference by the state' at its 1959 Bombay convention and practiced them.
+  Without such principled options, voters cannot hold parties accountable. The
+  solution is a new Liberal Party for India to provide coherent
+  classical-liberal choice, restoring principled politics.
+key_points:
+  - >-
+    All Indian political parties promote state intervention and produce
+    incoherent manifestos based on caste/religious vote banks.
+  - >-
+    Voters cannot hold parties accountable to promises, lacking the consumer
+    protections present in economic markets.
+  - >-
+    The Swatantra Party exemplified principled politics with its 21 clearly
+    stated principles for individual freedom and minimal state interference.
+  - >-
+    India needs a new Liberal Party committed to fixed principles to offer
+    voters a genuine choice.
+topics:
+  - indian-politics
+  - swatantra-party
+  - liberal-party
+  - political-accountability
 tags:
   - Public Choice
   - Liberalism
   - voting
+source_hash: 047212a3b92ed9469e666f443a697d4892efea5968186bed5eec67c41a75566e
+summary_hash: 047212a3b92ed9469e666f443a697d4892efea5968186bed5eec67c41a75566e
+summary_at: '2026-05-05T09:46:12.916Z'
 ---
 **By Kumar Anand**
 

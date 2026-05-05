@@ -2,19 +2,59 @@
 title: Camel can be preserved but not by declaring it as the state animal
 original_url: >-
   https://www.spontaneousorder.in/p/camel-can-be-preserved-but-not-by-declaring-it-as-the-state-animal
+author: Spontaneous Order
 published_at: '2021-02-08T12:38:54.000Z'
 ingested_at: '2026-05-05T08:31:42.350Z'
-source_hash: 1762b090c02bd733ee607abdb3dc36f06bb7965351d1ab0020d63070698f4d89
-author: Spontaneous Order
 excerpt: >-
   It’s interesting how on one side the government is trying to deregulate
   industries by bringing in the new farm laws, but on the other is still
   regulating the trade of cattle. Observing a fall in the camel population in
   Rajasthan by 56% between 1992 and
+summary: >-
+  Rajasthan's declaration of the camel as state animal in 2014 and the 2015
+  Camel Prohibition Bill banning slaughter and regulating trade failed to halt
+  the species' decline—camel population fell 56% in Rajasthan from 1992-2012,
+  and from 3.26 lakhs in 2012 to 2.5 lakhs in 2019 per the 20th Livestock
+  Census—while crippling Raika pastoralists' livelihoods. Camel fair arrivals
+  dropped 63% between 2012-18, owners' cumulative income plummeted from Rs 73.01
+  crore to Rs 24.20 crore, and male camel prices crashed from Rs 20,000-50,000
+  to Rs 5,000, deterring international buyers and affecting over 20,000
+  families. The Ushtra Vikas Yojana offered Rs 10,000 per newborn but herders
+  received only Rs 2,000. From a classical-liberal perspective, such
+  interventions exacerbate problems caused not by trade but by shrinking
+  pastures, grazing bans like the 2004 Kumbhalgarh order, and lacking
+  infrastructure. Instead, governments should relax grazing restrictions on
+  commons and sanctuaries, promote high-value camel milk (rich in ayurvedic
+  plants, beneficial for TB, autism, allergies) through market infrastructure,
+  and enable sustainable herder livelihoods over coercive prohibitions.
+key_points:
+  - >-
+    Rajasthan's camel trade bans caused fair incomes to fall from Rs 73 crore to
+    Rs 24 crore (2012-18) without reversing population decline.
+  - >-
+    Camel prices dropped from Rs 20-50k to Rs 5k, making business unviable and
+    impacting 20,000 Raika families.
+  - >-
+    True threats to camels are pasture shortages and infrastructure gaps, not
+    trade or slaughter.
+  - >-
+    Governments should promote camel milk markets and relax grazing laws instead
+    of bans.
+  - >-
+    Holistic support for herders, not state animal declarations, better
+    preserves camels.
+topics:
+  - livestock-regulation
+  - pastoral-communities
+  - rural-livelihoods
+  - state-intervention
 tags:
   - Community interaction
   - Rajashtan
   - rural India
+source_hash: 1762b090c02bd733ee607abdb3dc36f06bb7965351d1ab0020d63070698f4d89
+summary_hash: 1762b090c02bd733ee607abdb3dc36f06bb7965351d1ab0020d63070698f4d89
+summary_at: '2026-05-05T09:15:03.010Z'
 ---
 **By Ashwini Kumar**
 

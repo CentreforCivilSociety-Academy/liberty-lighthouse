@@ -1,15 +1,52 @@
 ---
 title: 'Piloo Mody: Swatantra’s Witty Parliamentarian'
 original_url: 'https://www.spontaneousorder.in/p/piloo-mody'
+author: Spontaneous Order
 published_at: '2019-11-14T16:29:32.000Z'
 ingested_at: '2026-05-05T08:31:42.459Z'
-source_hash: 4e4bcbf0cec1754c9cec5b2a2ec52be423d285d18730520ab6375b560a407804
-author: Spontaneous Order
 excerpt: >-
   “I am a CIA Agent,” read the placard on a politician in the premises of the
   Indian Parliament on one fine day in the 1970s. The pronouncement was a jibe
   at Indira Gandhi’s cynical approach towards her opponents. She would dub
   politicians the agents
+summary: >-
+  Piloo Mody, a witty Swatantra Party parliamentarian and architect son of
+  entrepreneur Homi Mody, used placard humor—like declaring himself a 'CIA
+  Agent'—to counter Indira Gandhi's demagoguery labeling liberals as US
+  imperialists obstructing her socialist agenda. A vocal opponent during her
+  rule, Mody was among the first arrested under the Maintenance of Internal
+  Security Act during the 1975 Emergency, rejecting multiple conditional release
+  offers despite personal friendship with Gandhi, and later advocated repealing
+  the draconian law. In his book *Democracy Means Bread and Freedom*, written in
+  jail, Mody argued for a limited state role and decentralization to deepen
+  Indian democracy, critiquing prevailing socialism. Swatantra's decline after
+  Rajaji's death and 1971 election loss stemmed from poor organization under
+  Minoo Masani, lack of cadre, and over-reliance on star leaders, prompting Mody
+  to merge it with Charan Singh’s Bhartiya Kranti Dal in 1974. Joining Janata
+  Party afterward, he planned Nav Nirman, a decentralized movement of citizen
+  activists, but died before its launch. The post laments the scarcity of
+  material on Mody's classical-liberal legacy amid socialist dominance.
+key_points:
+  - >-
+    Piloo Mody blunted Indira Gandhi's jingoism with humorous placards accusing
+    Swatantra of CIA ties while advocating markets and liberalism.
+  - >-
+    Mody rejected conditional release during 1975 Emergency imprisonment and
+    pushed to repeal MISA.
+  - >-
+    In *Democracy Means Bread and Freedom*, Mody championed limited government
+    and decentralization for robust democracy.
+  - >-
+    Swatantra declined due to organizational weaknesses and lack of cadre,
+    leading Mody to merge it with Bhartiya Kranti Dal in 1974.
+  - >-
+    Mody envisioned Nav Nirman as a grassroots activist movement but died before
+    implementation.
+topics:
+  - swatantra-party
+  - indian-liberals
+  - emergency-1975
+  - decentralization
 tags:
   - Minoo Masani
   - MISA
@@ -18,6 +55,9 @@ tags:
   - Swatantra Party
   - 1975 Emergency
   - Piloo Mody
+source_hash: 4e4bcbf0cec1754c9cec5b2a2ec52be423d285d18730520ab6375b560a407804
+summary_hash: 4e4bcbf0cec1754c9cec5b2a2ec52be423d285d18730520ab6375b560a407804
+summary_at: '2026-05-05T11:13:38.217Z'
 ---
 **By Sanjeet Kashyap**
 

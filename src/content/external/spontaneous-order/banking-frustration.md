@@ -1,20 +1,58 @@
 ---
 title: Banking Frustration
 original_url: 'https://www.spontaneousorder.in/p/banking-frustration'
+author: Spontaneous Order
 published_at: '2011-10-14T12:34:57.000Z'
 ingested_at: '2026-05-05T08:31:42.630Z'
-source_hash: 12f81c52e1d344ae738ef37a9f27b231db9e4ce51eb8fdcdc97d29206b333071
-author: Spontaneous Order
 excerpt: >-
   Over the past few weeks, I have experienced frustration in the extreme as I
   have tried to open a bank account. You would think that it would be fairly
   straightforward. I am a foreign national, but I am employed by an Indian
   organisation, being paid re...
+summary: >-
+  Julie Gilstrap, a foreign national employed by an Indian organization and paid
+  in rupees in Delhi, has spent two months unsuccessfully trying to open a basic
+  bank account at HDFC to deposit salary cheques and pay rent. Despite extensive
+  paperwork—including residency verification, employment proof, salary
+  verification, passport copies, and visa—the main barrier is unresponsive
+  staff, exemplified by a 'relationship manager' who stopped returning calls and
+  failed to progress the account after initial assurances. She attributes this
+  to Reserve Bank of India regulations under the Foreign Exchange Management
+  (Deposit) Regulations, 2000, which impose detailed rules on accounts for
+  foreigners, limiting banks' flexibility in assessing risks and offering
+  services. This regulatory uniformity across banks reduces competition, as no
+  bank offers superior foreigner-friendly accounts, diminishing incentives for
+  customer service. From a classical-liberal viewpoint, government overreach
+  hampers bankers' expertise; deregulation would allow free markets to foster
+  responsiveness, enabling easier switching between banks and better service for
+  customers like her, benefiting everyone except bureaucrats.
+key_points:
+  - >-
+    Heavy RBI regulations under Foreign Exchange Management (Deposit)
+    Regulations, 2000 create uniform barriers for foreigners opening bank
+    accounts, stifling competition.
+  - >-
+    Unresponsive bank staff at HDFC exploit regulatory red tape, knowing
+    customers like employed foreign nationals have few alternatives.
+  - >-
+    Banks should assess risks independently without government dictates to
+    improve service and innovation in financial products for foreigners.
+  - >-
+    Deregulating banking would incentivize customer responsiveness through
+    market competition, benefiting banks and clients alike.
+topics:
+  - banking-regulation
+  - free-markets
+  - rbi-policies
+  - bureaucracy
 tags:
   - bank account
   - HDFC
   - relationship manager
   - foreign exchange managemnet regulations
+source_hash: 12f81c52e1d344ae738ef37a9f27b231db9e4ce51eb8fdcdc97d29206b333071
+summary_hash: 12f81c52e1d344ae738ef37a9f27b231db9e4ce51eb8fdcdc97d29206b333071
+summary_at: '2026-05-05T09:07:19.521Z'
 ---
 **By Julie Gilstrap**
 

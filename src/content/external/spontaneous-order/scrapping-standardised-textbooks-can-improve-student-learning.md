@@ -2,18 +2,59 @@
 title: Scrapping Standardised Textbooks Can Improve Student Learning
 original_url: >-
   https://www.spontaneousorder.in/p/scrapping-standardised-textbooks-can-improve-student-learning
+author: Spontaneous Order
 published_at: '2024-08-23T17:07:15.000Z'
 ingested_at: '2026-05-05T08:31:42.711Z'
-source_hash: 51854f9b113739e97a2bf82f289d2ac6559b3d19738df00a24489ed355484edf
-author: Spontaneous Order
 excerpt: >-
   The National Council for Educational Research and Training (NCERT) is set to
   bring out revised political science textbooks for Class 11 and 12. The
   revision and its contents has stirred controversy. The objectivity of the
   newly revised texts, especially..
+summary: >-
+  The post argues against relying on standardised NCERT textbooks for millions
+  of diverse Indian students, advocating instead for schools and teachers to
+  have the choice to select their own textbooks to deliver the curriculum,
+  fostering autonomy, contextual learning, and critical thinking over rote
+  memorisation. It critiques NCERT's aim of uniform learning experiences, as
+  former director Krishna Kumar notes that such textbooks promote memorisation
+  of potentially outdated or irrelevant content. Centralisation shifts focus
+  from academic to political roles, leading to biases, as evidenced by Nirantar
+  studies on 1993-1997 social science textbooks that glorified Hitler, valorised
+  caste, and depicted non-Hindus as foreigners. The post highlights Professor
+  Padma Sarangpani's recommendation for localised curricula, such as
+  incorporating Baiga tribe knowledge of forests and herbal medicines, which
+  uniform texts overlook. Additionally, the 2022 ASER report reveals over half
+  of government school students in Bihar districts lacked required textbooks.
+  This classical-liberal approach would enable inclusion of local stories,
+  diverse perspectives, and personalised resources, transforming education into
+  holistic, engaging experiences while addressing shortages and unaffordability.
+key_points:
+  - >-
+    Replace standardised NCERT textbooks with school-chosen options to reduce
+    memorisation and political bias.
+  - >-
+    Localise curricula to incorporate community-specific knowledge, like the
+    Baiga tribe's forest and herbal expertise.
+  - >-
+    Grant teachers autonomy in selecting materials suited to their classrooms
+    for more effective teaching.
+  - >-
+    Address textbook shortages, as per 2022 ASER report showing over 50% of
+    Bihar government students without books.
+  - >-
+    Distinguish curriculum (goals and outcomes) from syllabus (topics and
+    readings) to enable textbook choice.
+topics:
+  - education
+  - school-choice
+  - textbook-reform
+  - localised-curriculum
 tags:
   - school autonomy
   - school textbook
+source_hash: 51854f9b113739e97a2bf82f289d2ac6559b3d19738df00a24489ed355484edf
+summary_hash: 51854f9b113739e97a2bf82f289d2ac6559b3d19738df00a24489ed355484edf
+summary_at: '2026-05-05T11:35:04.950Z'
 ---
 **By Aditi Thakur**
 

@@ -2,15 +2,51 @@
 title: 'Patent Pending: Should GMO Technology be Exclusive?'
 original_url: >-
   https://www.spontaneousorder.in/p/patent-pending-should-gmo-technology-be-exclusive
+author: Spontaneous Order
 published_at: '2019-07-08T06:25:51.000Z'
 ingested_at: '2026-05-05T08:31:42.481Z'
-source_hash: 293b4b1e297314a0e46a1e6d9ce934db3a69ef42d26f334846ff7fb4a69dbccf
-author: Spontaneous Order
 excerpt: >-
   Recently, the debate surrounding genetically modified (GM) foods was reopened
   when farmers in Akola, Maharashtra planted HTBt cotton seeds in an act of
   civil disobedience. Despite the continual outcry from farmers, our government
   prefers to ignore the s..
+summary: >-
+  The post argues that while genetic modification (GM) technology holds
+  revolutionary potential for agriculture, patent laws create monopolies that
+  stifle innovation and harm farmers, as seen in Monsanto's 'suicide seed'
+  technology that prevents seed saving and led to lawsuits against inadvertent
+  cross-pollination victims. Another example is Dr. Pamela Ronald's
+  blight-resistant rice gene, patented by Pioneer Hi-Bred, which blocked
+  commercialization due to low profit margins compared to Roundup Ready corn.
+  Nearly 90% of food ingredients are already genetically modified, yet
+  uncertainties persist without long-term studies. India's Section 3(j) of the
+  Patents Act bars GMO patents, and the 2001 TRIPS-compliant Protection of Plant
+  Varieties and Farmers’ Rights Act (PVFRA) offers limited protection,
+  effectively denying farmers access to high-yield crops like HTBt cotton
+  planted defiantly in Akola, Maharashtra. From a classical-liberal perspective,
+  India's protectionist 'banning mentality' robs farmers of livelihoods;
+  instead, policies should enable market-driven GM innovation while mitigating
+  harms, rejecting outright bans that prevent both potential good and bad
+  outcomes.
+key_points:
+  - >-
+    Patent monopolies on GMOs, like Monsanto's suicide seeds, make seed saving
+    illegal and block independent research on fertility genes.
+  - >-
+    Pioneer Hi-Bred's licensing of blight-resistant rice gene prevented
+    competitors from commercializing it, despite its potential to combat Asian
+    blight.
+  - >-
+    India's Section 3(j) bars GMO patents, stalling approvals for beneficial
+    crops and exacerbating farmers' struggles amid droughts and suicides.
+  - >-
+    Governments should reform policies to allow GM markets with harm mitigation,
+    rather than protectionist bans that deny agricultural innovation.
+topics:
+  - gmo-crops
+  - patent-reform
+  - agricultural-innovation
+  - farmers-rights
 tags:
   - Intellectual Property Rights
   - Monsanto
@@ -25,6 +61,9 @@ tags:
   - farmers civil disobedience
   - PVFRA
   - BT
+source_hash: 293b4b1e297314a0e46a1e6d9ce934db3a69ef42d26f334846ff7fb4a69dbccf
+summary_hash: 293b4b1e297314a0e46a1e6d9ce934db3a69ef42d26f334846ff7fb4a69dbccf
+summary_at: '2026-05-05T11:11:56.437Z'
 ---
 **By Utkarsh Khare**
 

@@ -1,18 +1,52 @@
 ---
 title: SO Musings – Hindi Raj and Hindu Raj
 original_url: 'https://www.spontaneousorder.in/p/hindu-raj'
+author: Spontaneous Order
 published_at: '2019-08-30T13:05:23.000Z'
 ingested_at: '2026-05-05T08:31:42.474Z'
-source_hash: 8c21af9cbae448d9bcfbede1239216e5d630fa4e837f819e126aa3fdb03df0a1
-author: Spontaneous Order
 excerpt: >-
   This is an excerpt from an article written by P Kodanda Rao for the July 1962
   issue of The Indian Libertarian Journal. “Normally, if people desire anything,
   for pleasure or profit, they seek it voluntarily and without official
   pressure. For instance, mo
+summary: >-
+  In this 1962 excerpt from The Indian Libertarian Journal (originally 1958), P
+  Kodanda Rao argues from a classical-liberal standpoint against the Government
+  of India's coercive push for Hindi as the national language. He asserts that
+  true demand for any good or service, like rail travel, air transport, or
+  education in science and technology over arts, arises voluntarily without
+  official pressure due to intrinsic merits. English thrives despite government
+  restrictions precisely because of its value, while Hindi's 'all-India value'
+  must be proven through voluntary adoption, not ruthless coercion. Rao warns
+  that 'Hindi Raj' serves as a sinister advance guard for 'Hindu Raj,' with the
+  government's Hindi mania unwittingly aiding organizations like Jan Sangh and
+  RSS. Patriotic Indians must act swiftly, applying maximum constitutional
+  pressure through agitation for 'English Ever: Hindi Never' to avert this twin
+  calamity and preserve liberty from state-imposed cultural uniformity.
+key_points:
+  - >-
+    Voluntary demand, not government coercion, drives adoption of languages and
+    services like travel and technical education.
+  - >-
+    English is sought despite official discouragements due to its intrinsic
+    merits.
+  - >-
+    Imposing Hindi advances 'Hindi Raj,' which paves the way for 'Hindu Raj' and
+    benefits Jan Sangh and RSS.
+  - >-
+    Citizens should agitate immediately for 'English Ever: Hindi Never' using
+    constitutional pressure.
+topics:
+  - language-policy
+  - government-coercion
+  - hindu-nationalism
+  - voluntary-choice
 tags:
   - Hindu Raj
   - Hindi Raj
+source_hash: 8c21af9cbae448d9bcfbede1239216e5d630fa4e837f819e126aa3fdb03df0a1
+summary_hash: 8c21af9cbae448d9bcfbede1239216e5d630fa4e837f819e126aa3fdb03df0a1
+summary_at: '2026-05-05T10:10:12.756Z'
 ---
 **By Spontaneous Order**
 

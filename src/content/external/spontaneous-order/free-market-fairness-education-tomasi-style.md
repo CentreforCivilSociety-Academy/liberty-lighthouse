@@ -1,15 +1,49 @@
 ---
 title: 'Free Market Fairness in Education, Tomasi Style'
 original_url: 'https://www.spontaneousorder.in/p/free-market-fairness-education-tomasi-style'
+author: Spontaneous Order
 published_at: '2014-01-07T13:38:43.000Z'
 ingested_at: '2026-05-05T08:31:42.598Z'
-source_hash: 65175ec81a5a0a16d966582944557f825470f41223d5facc607ac48d6f7f2314
-author: Spontaneous Order
 excerpt: >-
   John Tomasi in his book Free Market Fairness makes a case for ‘market
   democratic’ interpretation of social justice, which he sees as a morally
   superior account of social justice due to its commitment to both economic
   liberty and a fair distribution of
+summary: >-
+  John Tomasi's 'Free Market Fairness' advocates a 'market democratic'
+  interpretation of social justice, superior to 'social democratic' models
+  because it constitutionally protects capitalist economic freedoms, limiting
+  legislative creation of monopolies or quasi-monopolies in pursuit of social
+  goods. This classical-liberal framework promotes market-based social
+  construction, emphasizing decentralized decision-making, choice, competition,
+  and innovation, particularly in education. Market democratic regimes
+  prioritize private over public education, empowering families to choose
+  schools and spend on education as they see fit, with government limited to
+  licensing and broad achievement standards. This fosters polycentric
+  competition among providers and responsible citizen attitudes, steadily
+  improving schooling quality for all. The post highlights school choice models,
+  like educational vouchers allowing families to select schools, as a practical
+  path to achieving these twin objectives of choice and competition. Delaying
+  transition to such a market democratic society hinders progress toward fairer,
+  more innovative education systems.
+key_points:
+  - >-
+    Market democratic regimes constitutionally safeguard capitalist economic
+    liberties, curbing government monopolies unlike social democratic ones.
+  - >-
+    They leverage market mechanisms in education to maximize decision points,
+    choice, and local information use for innovation and quality improvement.
+  - >-
+    Prefer private education forms, empowering families to select schools while
+    government handles minimal oversight.
+  - >-
+    School choice via vouchers enables family choice and provider competition to
+    realize market democratic ideals.
+topics:
+  - education
+  - school-choice
+  - market-democracy
+  - vouchers
 tags:
   - John Tomasi
   - Free Market Fairness
@@ -18,6 +52,9 @@ tags:
   - free markets
   - market regimes
   - Social Justice
+source_hash: 65175ec81a5a0a16d966582944557f825470f41223d5facc607ac48d6f7f2314
+summary_hash: 65175ec81a5a0a16d966582944557f825470f41223d5facc607ac48d6f7f2314
+summary_at: '2026-05-05T09:58:25.127Z'
 ---
 **By Kumar Anand**
 

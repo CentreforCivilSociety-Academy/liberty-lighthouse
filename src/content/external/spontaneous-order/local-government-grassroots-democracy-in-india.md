@@ -2,15 +2,59 @@
 title: Local Government and Grassroots Democracy in India
 original_url: >-
   https://www.spontaneousorder.in/p/local-government-grassroots-democracy-in-india
+author: Spontaneous Order
 published_at: '2020-01-27T19:04:15.000Z'
 ingested_at: '2026-05-05T08:31:42.448Z'
-source_hash: 7d16628a2c746ab19e0578b17237ff41018b8ccea733028190419689b26f4752
-author: Spontaneous Order
 excerpt: >-
   After eight long years, the time has come for rural Tamil Nadu to elect its
   local government representatives. The area covered by 156 Panchayat Unions
   went to the polls to elect 260 ward members of district panchayats, 2,546
   members of panchayat unions ..
+summary: >-
+  The post advocates for enhanced decentralisation and localisation of
+  government in India, prompted by rural Tamil Nadu's recent elections across
+  156 Panchayat Unions, electing 260 district panchayat ward members, 2,546
+  panchayat union members, and 37,830 panchayat members. From a
+  classical-liberal perspective, decentralisation embodies the practical end of
+  self-governance, contrasting Gandhi's village-centric vision sidelined by
+  Congress leaders' preference for progressive cities and socialist
+  centralisation, which fueled riots, secessionism, and inter-state instability
+  during Indira Gandhi's era. Biological evidence from Tony Joseph's Early
+  Indians debunks Aryan-Dravidian divides, affirming free migration—enshrined
+  constitutionally—as culturally enriching, exemplified by Marwaris boosting
+  Tamil Nadu's economy. Bureaucratic power-lust persists, illustrated by the
+  post-WWII retention of the Churchill Cigar Assistant department for absurd
+  procurement. Localism efficiently solves local problems, reduces corruption
+  via vigilant taxpayers, and builds social capital, as Zingales' study of
+  medieval Italian self-governing cities shows higher non-profits, organ
+  donation, and integrity today. Despite 73rd and 74th Amendments granting legal
+  status, states resist devolution; the post urges reinvigorating local bodies
+  against political heirs and voter apathy for genuine grassroots democracy.
+key_points:
+  - >-
+    Decentralisation empowers local solutions to local problems, fostering
+    self-governance and efficiency over distant central elites.
+  - >-
+    Historical centralisation under socialism bred instability, parochialism,
+    and bureaucratic entrenchment that persists today.
+  - >-
+    Free internal migration enhances cultures and economies, countering myths of
+    indigenous purity.
+  - >-
+    Local self-governance reduces corruption and apathy by making taxpayers
+    vigilant and building social capital, as evidenced by Italian historical
+    studies.
+  - >-
+    Voters must prioritize local elections to reclaim power from thugs and
+    heirs, realising the 73rd and 74th Amendments' potential.
+topics:
+  - decentralisation
+  - local-government
+  - panchayats
+  - self-governance
+source_hash: 7d16628a2c746ab19e0578b17237ff41018b8ccea733028190419689b26f4752
+summary_hash: 7d16628a2c746ab19e0578b17237ff41018b8ccea733028190419689b26f4752
+summary_at: '2026-05-05T10:44:17.404Z'
 ---
 **By Benolin Kannadasan**
 

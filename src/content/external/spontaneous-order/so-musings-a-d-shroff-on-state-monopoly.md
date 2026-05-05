@@ -1,21 +1,56 @@
 ---
 title: 'SO Musings: A.D. Shroff on State Monopoly'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-a-d-shroff-on-state-monopoly'
+author: Spontaneous Order
 published_at: '2019-03-19T11:07:55.000Z'
 ingested_at: '2026-05-05T08:31:42.498Z'
-source_hash: 8f84d02cbb5c75ff739535eed294295dd51931eb384176c0eabc0e2689500cd8
-author: Spontaneous Order
 excerpt: >-
   Once the State begins to intrude in the field of private or free enterprise,
   it will soon develop into a monopolist wielding power of an enormous
   character. Every industry in the private sector must play a subservient role,
   every business activity must ..
+summary: >-
+  A.D. Shroff warns that once the state intrudes into private enterprise, it
+  inevitably becomes a monopolist exerting enormous power, forcing every private
+  industry into subservience and dictating all business activities. In such a
+  system, as noted by the Group of Socialist Thinkers in '20th Century
+  Socialism,' there is no freedom to experiment with unapproved ideas;
+  risk-takers are marginalized, and eliminating private capital paves the way to
+  totalitarianism. Shroff highlights that state ownership, intended to curb
+  abuses, proves equally vulnerable to corruption. He invokes Thomas Jefferson's
+  insight that concentrating all powers in one body destroys individual liberty
+  and rights, a pattern seen in every historical government. From a
+  classical-liberal viewpoint, this underscores the perils of state dominance
+  over free enterprise, advocating preservation of private initiative to
+  safeguard freedom and innovation against the encroaching threats of monopoly,
+  control, and authoritarianism.
+key_points:
+  - >-
+    State intrusion into private enterprise evolves into monopoly, subordinating
+    all private industries to government dictates.
+  - >-
+    Absence of state approval stifles experimentation and innovation, rendering
+    risk-takers misfits in a socialist system.
+  - >-
+    State ownership fails to prevent corruption and opens the path to
+    totalitarianism by eliminating private capital.
+  - >-
+    Thomas Jefferson observed that centralizing power in the state destroys
+    individual liberty across all historical governments.
+topics:
+  - state-monopoly
+  - free-enterprise
+  - totalitarianism
+  - economic-freedom
 tags:
   - State monopoly
   - SO Musings
   - free enterprise
   - AD Shroff
   - private sector
+source_hash: 8f84d02cbb5c75ff739535eed294295dd51931eb384176c0eabc0e2689500cd8
+summary_hash: 8f84d02cbb5c75ff739535eed294295dd51931eb384176c0eabc0e2689500cd8
+summary_at: '2026-05-05T11:51:22.477Z'
 ---
 **By Spontaneous Order**
 

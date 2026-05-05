@@ -1,21 +1,57 @@
 ---
 title: Where Is The Power?
 original_url: 'https://www.spontaneousorder.in/p/where-is-the-power'
+author: Spontaneous Order
 published_at: '2013-05-17T17:54:45.000Z'
 ingested_at: '2026-05-05T08:31:42.606Z'
-source_hash: 5b2d7c976cd7d7844f0259583f1229afd263b25675b393839e4be4c50a6d7cc2
-author: Spontaneous Order
 excerpt: >-
   It has been hard writing this post and working on my other assignments today.
   Not because I have suddenly been struck by writer’s block. It’s because of the
   power cuts that we are experiencing today in office, that have come to be more
   frequent as the
+summary: >-
+  Frequent power cuts in an affluent South Delhi neighborhood amid soaring
+  summer temperatures exemplify the failures of India's monopolistic power
+  sector, where state-controlled entities fail to anticipate predictable demand
+  spikes from air conditioners and appliances. The author links this to Ramdhari
+  Singh Dinkar's post-independence poem 'Samar Shesh Hai,' which questions
+  Delhi's betrayal of 'swaraj'—self-governance—by centralizing control and
+  holding prosperity hostage, a critique as relevant today as in 1947. From a
+  classical-liberal viewpoint, these outages stem from post-independence central
+  planning's monopolistic mindset, disbelief in individuals' judgment, and
+  rejection of markets' spontaneous order. New Delhi wields the wrong kind of
+  power: granting favors, arbitrarily allocating resources, and meddling where
+  it shouldn't. While some sectors have been liberalized, persistent government
+  dominance in power and others breeds slow growth and reforms, driven by fear
+  of relinquishing control. True swaraj demands freeing markets to deliver
+  reliable power and prosperity.
+key_points:
+  - >-
+    Power cuts in Delhi reveal monopolies' inability to meet predictable summer
+    demand due to centralized control.
+  - >-
+    Post-independence central planning hijacked 'swaraj' by concentrating power
+    and rejecting market spontaneous order.
+  - >-
+    Government's arbitrary resource allocation and fear of decentralization
+    cause slow reforms and persistent shortages.
+  - >-
+    Liberalizing remaining sectors like power is essential for growth and
+    reliable services.
+topics:
+  - power-sector
+  - central-planning
+  - free-markets
+  - swaraj
 tags:
   - power-cuts
   - Monopoly
   - Ramdhari Singh Dinkar
   - power
   - decentralisation
+source_hash: 5b2d7c976cd7d7844f0259583f1229afd263b25675b393839e4be4c50a6d7cc2
+summary_hash: 5b2d7c976cd7d7844f0259583f1229afd263b25675b393839e4be4c50a6d7cc2
+summary_at: '2026-05-05T13:01:28.403Z'
 ---
 **By Kumar Anand**
 

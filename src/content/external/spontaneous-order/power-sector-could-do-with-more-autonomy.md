@@ -1,15 +1,53 @@
 ---
 title: Power sector could do with more autonomy
 original_url: 'https://www.spontaneousorder.in/p/power-sector-could-do-with-more-autonomy'
+author: Spontaneous Order
 published_at: '2020-07-01T13:52:16.000Z'
 ingested_at: '2026-05-05T08:31:42.401Z'
-source_hash: c976b61539ffbbbb294fbf1b7a84a76b0b22fd63473e32325cae505be3470367
-author: Spontaneous Order
 excerpt: >-
   It is indeed problematic that the electricity market, which is crucial for
   economic and social development, is highly regulated and prone to government
   intervention. This, in fact, holds good for India’s power sector, which has
   not been touched by the b
+summary: >-
+  India's power sector remains highly regulated and intervention-prone, missing
+  out on economic reforms that benefited other sectors, leading to
+  inefficiencies exemplified by recent renewable energy tariff ceilings.
+  Intended to aid financially stressed discoms by capping tariffs, these
+  controls instead caused shortages—renewable capacity addition fell from 11.3
+  GW in 2017 and 11.8 GW in 2018 to 8.6 GW in 2019—due to unviable bids amid
+  rupee depreciation and debt costs over 11%. Under-subscription led to
+  retendering and uncertainty, while low margins spurred inferior equipment use
+  and resource concentration in high-wind states like Gujarat and Tamil Nadu,
+  neglecting others. Discom woes persist from mismanagement, power theft, poor
+  metering, high cross-subsidy surcharges taxing industry to subsidize farmers,
+  and unpaid dues exceeding Rs 1,15,108 crore as of April 2020. Industrial users
+  shift to cheaper renewables via captive plants or open access, hampered by
+  charges. Rooftop solar faces size caps. The classical-liberal solution: grant
+  the sector more autonomy by ending subsidies (which encourage water overuse),
+  promoting open access and decentralized energy trading, and removing
+  regulations to enable competition. The government lifted ceilings in March
+  2020, but draft Electricity Act amendments risk more central control rather
+  than liberalization.
+key_points:
+  - >-
+    Tariff ceilings on renewable tenders caused capacity addition to drop from
+    11.8 GW in 2018 to 8.6 GW in 2019, leading to shortages and uncertainty.
+  - >-
+    Discom financial distress stems from mismanagement, theft, and
+    cross-subsidies rather than high renewable costs, with unpaid dues over Rs
+    1,15,108 crore.
+  - >-
+    End electricity subsidies, promote open access, and encourage decentralized
+    renewables to foster competition and efficiency.
+  - >-
+    Draft Electricity Act amendments should prioritize reducing cross-subsidy
+    surcharges and minimizing regulations over increasing central control.
+topics:
+  - power-sector
+  - renewable-energy
+  - price-controls
+  - electricity-subsidies
 tags:
   - autonomy
   - Autonomy for institutions
@@ -18,6 +56,9 @@ tags:
   - price controls
   - electricity
   - Indian Economy
+source_hash: c976b61539ffbbbb294fbf1b7a84a76b0b22fd63473e32325cae505be3470367
+summary_hash: c976b61539ffbbbb294fbf1b7a84a76b0b22fd63473e32325cae505be3470367
+summary_at: '2026-05-05T11:16:08.582Z'
 ---
 **By Sarthak Takyar**
 

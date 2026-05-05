@@ -2,15 +2,56 @@
 title: Increase in MSP – How well does it address farmers’ distress?
 original_url: >-
   https://www.spontaneousorder.in/p/increase-in-msp-how-well-does-it-address-farmers-distress
+author: Spontaneous Order
 published_at: '2019-02-25T14:16:21.000Z'
 ingested_at: '2026-05-05T08:31:42.501Z'
-source_hash: 80192f3f26a2cf8b4a6b4f0b0c2f00874d9db06d0122b00dffed2ad214afb6e4
-author: Spontaneous Order
 excerpt: >-
   A proposal to increase Minimum Support Price (MSP) is generally perceived as a
   farmer-friendly measure. This sounds like a reasonable proposition to
   alleviate farmers’ distress, given that it sets a floor price to ensure that
   the returns on the farm pro
+summary: >-
+  Increasing Minimum Support Price (MSP) is popularly seen as a farmer-friendly
+  safety net against price fluctuations, but it fails to address farmers'
+  distress due to systemic flaws. Announced for 24 crops since the 1960s, MSP
+  procurement operates effectively only for 2-3 major crops in states like
+  Punjab and Haryana, leaving most farmers—especially in Bihar, West Bengal, and
+  North-Eastern states—without benefits. This limited scope distorts cropping
+  patterns, incentivizing surpluses in procured crops at the expense of pulses,
+  oilseeds, fruits, and vegetables, leading to shortages, imports, and India's
+  103/119 ranking in the 2018 Global Hunger Index. Uniform national MSP ignores
+  regional input cost variations, promoting water-intensive crops in Punjab over
+  efficient producers like Bihar and West Bengal. Poor storage causes produce to
+  rot, low farmer awareness (NITI Aayog: 81% aware, only 10% pre-sowing) limits
+  uptake, and raising MSP above market prices crowds out private trade, risking
+  market failure. From a classical-liberal view, MSP is a politically expedient
+  distortion; reports like Ashok Dalwai Committee advocate robust procurement
+  with private participation. Instead, direct income support like Telangana's
+  Rythu Bandhu—crop-neutral per-acre subsidies letting markets guide
+  production—better ensures incomes without distortions, proving politically
+  viable too.
+key_points:
+  - >-
+    MSP procurement covers only 2-3 crops in select states like Punjab and
+    Haryana, rendering it ineffective for most Indian farmers.
+  - >-
+    Higher MSP for certain crops distorts production, causing shortages in
+    pulses and horticulture, necessitating imports and harming nutritional
+    diversity.
+  - >-
+    Uniform national MSP ignores regional cost differences, leading to
+    inefficient resource use like excessive groundwater depletion in Punjab.
+  - >-
+    Low farmer awareness (only 10% know MSP before sowing) and poor storage
+    undermine the policy's intent.
+  - >-
+    Shift to direct income support schemes like Rythu Bandhu allows
+    market-driven cropping while providing reliable farmer incomes.
+topics:
+  - agriculture
+  - minimum-support-price
+  - cropping-distortions
+  - income-support
 tags:
   - Kisan
   - MSP
@@ -18,6 +59,9 @@ tags:
   - Indian farmers
   - agriculture
   - Minimum Support Prices
+source_hash: 80192f3f26a2cf8b4a6b4f0b0c2f00874d9db06d0122b00dffed2ad214afb6e4
+summary_hash: 80192f3f26a2cf8b4a6b4f0b0c2f00874d9db06d0122b00dffed2ad214afb6e4
+summary_at: '2026-05-05T10:17:12.218Z'
 ---
 **By Manasa Pidatala**
 

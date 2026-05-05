@@ -2,15 +2,55 @@
 title: Do countries need freedom to achieve prosperity?
 original_url: >-
   https://www.spontaneousorder.in/p/do-countries-need-freedom-to-achieve-prosperity
+author: Spontaneous Order
 published_at: '2022-06-13T11:23:12.000Z'
 ingested_at: '2026-05-05T08:31:42.264Z'
-source_hash: 1b12e6b26e025b9afed8973188a8d86b2dccdc252c1c342a03ae86d15f686845
-author: Spontaneous Order
 excerpt: >-
   Freedom catalyses prosperity as world history shows. India’s growth depends on
   strengthening the economic, legal and political freedoms of the diverse people
   within India The headline featured prominently in the discourse at the
   Copenhagen Democracy Su.
+summary: >-
+  Freedom—encompassing economic (property rights, free trade, investment),
+  political (civil liberties, rights), and legal (judicial, regulatory
+  effectiveness)—catalyses prosperity, as evidenced by the Atlantic Council’s
+  Freedom and Prosperity Report on 174 countries and Asian history. India’s
+  pre-colonial 24.4% share of world GDP fell to 4.2% by 1950 independence due to
+  absent freedoms. Singapore prospered via free markets and rule of law despite
+  scant resources, unlike resource-rich Myanmar under military rule. Bhutan
+  transitioned to constitutional monarchy with growth. South Korea, embracing
+  capitalism under dictators then democracy, became 50 times wealthier than
+  North Korea by 2021 UN data. Among China entities, freer Hong Kong ($46,324
+  per capita 2020) and Taiwan ($25,055) escaped the middle-income trap, unlike
+  PRC ($10,055). For India, 1991 liberalisation boosted industries but must
+  expand to informal sectors like street vendors and small farmers via repealing
+  archaic laws, clearing judicial backlogs, and strengthening institutions.
+  Prosperity requires competing/cooperating globally, addressing polarization by
+  enhancing freedoms for diverse populations, enabling broad-based growth.
+key_points:
+  - >-
+    Freedom in economic, political, and legal dimensions drives prosperity, with
+    delayed but significant impacts as seen in India, Vietnam, and Philippines.
+  - >-
+    South Korea's embrace of capitalism and later democracy made it 50 times
+    wealthier than North Korea.
+  - >-
+    Freer Hong Kong and Taiwan escaped the middle-income trap, unlike China
+    prioritizing political control.
+  - >-
+    India must extend 1991 liberalisation benefits to informal sectors by
+    repealing outdated laws and reforming judiciary.
+  - >-
+    Strengthening freedoms for diverse Indians will mend religious and wealth
+    divides, fostering prosperity.
+topics:
+  - economic-freedom
+  - political-freedom
+  - rule-of-law
+  - india-prosperity
+source_hash: 1b12e6b26e025b9afed8973188a8d86b2dccdc252c1c342a03ae86d15f686845
+summary_hash: 1b12e6b26e025b9afed8973188a8d86b2dccdc252c1c342a03ae86d15f686845
+summary_at: '2026-05-05T09:34:50.982Z'
 ---
 **By Lakshmi Sampath Goyal**
 

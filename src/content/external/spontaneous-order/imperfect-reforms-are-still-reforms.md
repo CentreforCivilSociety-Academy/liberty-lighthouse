@@ -1,17 +1,57 @@
 ---
 title: Imperfect Reforms Are Still Reforms
 original_url: 'https://www.spontaneousorder.in/p/imperfect-reforms-are-still-reforms'
+author: Spontaneous Order
 published_at: '2021-03-19T14:08:57.000Z'
 ingested_at: '2026-05-05T08:31:42.339Z'
-source_hash: c1b6d89c34519a0395a438c7e70f16cd30525a5ae8523e9415186fbd47d56b33
-author: Spontaneous Order
 excerpt: >-
   While the current farm reforms are imperfect, the route to improvement is
   through amendments not repeal. These laws have their share of problems but it
   is still an improvement from the previous system. In his article on Project
   Syndicate, Kaushik Basu c..
+summary: >-
+  Arjun Krishnan defends India's recent farm laws against Kaushik Basu's call
+  for repeal, arguing that while imperfect, they represent progress toward
+  market openness and should be amended rather than scrapped. Basu criticizes
+  the laws for assuming ceteris paribus (lacking farmer trust due to poor
+  government outreach and no consultations), no legal MSP guarantee (risk of low
+  prices or poor procurement), absence of judicial redress (bureaucratic
+  disputes only), and potential corporate monopsonies. Krishnan counters that
+  trust issues are procedural, not substantive; MSP risks predate the laws and
+  are mitigated by new options like inter-state trade to high-procurement states
+  with bonuses; judicial fixes can come via amendments benefiting all parties;
+  and the laws foster competition by allowing anyone with a PAN card to buy
+  produce, dismantling existing APMC monopsonies. Repeal would entrench the
+  status quo of restricted markets, reversing gains in farmer choice without
+  removing mandis. From a classical-liberal view, these reforms enhance freedom
+  and competition despite flaws, aligning with the need for agricultural
+  liberalization Basu himself acknowledges.
+key_points:
+  - >-
+    Farm laws provide farmers more choices without eliminating existing APMC
+    mandis, making repeal unnecessary.
+  - >-
+    MSP concerns are unrelated to the new laws, which enable inter-state trade
+    to access better prices and procurement.
+  - >-
+    Bureaucratic dispute resolution is a fixable flaw via amendments, not
+    grounds for repeal.
+  - >-
+    Reforms reduce monopsony risks by allowing broad market participation,
+    countering current APMC dominance.
+  - >-
+    Imperfect reforms should be improved through amendments to advance market
+    openness.
+topics:
+  - farm-reforms
+  - agriculture-policy
+  - market-liberalization
+  - india-economy
 tags:
   - agriculture
+source_hash: c1b6d89c34519a0395a438c7e70f16cd30525a5ae8523e9415186fbd47d56b33
+summary_hash: c1b6d89c34519a0395a438c7e70f16cd30525a5ae8523e9415186fbd47d56b33
+summary_at: '2026-05-05T10:16:38.388Z'
 ---
 **By Arjun Krishnan**
 

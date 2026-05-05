@@ -2,19 +2,59 @@
 title: How Romanticization of Environment Does More Harm than Good
 original_url: >-
   https://www.spontaneousorder.in/p/how-romanticization-of-environment-does-more-harm-than-good
+author: Spontaneous Order
 published_at: '2020-09-15T14:56:16.000Z'
 ingested_at: '2026-05-05T08:31:42.382Z'
-source_hash: 24a61553ac057d37a42ba3a05da6fd112959a493491b8a3ffe4ccab1f2a164f3
-author: Spontaneous Order
 excerpt: >-
   From spotting dolphins in the canals of Venice and peacocks on the streets of
   Mumbai to finding roads without pollution emanating vehicles, various
   newspaper headlines have been proclaiming that nature is healing. Humans are
   termed as the virus, as oppo..
+summary: >-
+  Romanticizing the environment harms policy analysis by framing humans as
+  adversaries to nature, oversimplifying debates into binaries like trees versus
+  development, and ignoring the inextricable link between human prosperity and
+  conservation. The author critiques the 2019 Aarey Movement in Mumbai, where
+  activists opposed tree-felling for a Mumbai Metro Line 3 car shed, reducing
+  complex urban transport needs—strained infrastructure boosting private
+  vehicles and pollution—to a narrow trees-vs-metro narrative, despite the
+  Bombay High Court's dismissal of petitions. This view neglects how
+  technological innovation, driven by profit motives, enables 'land sparing' to
+  produce more from less land, preserving wilderness, as Matt Ridley argues.
+  Economic freedom fosters higher incomes, freeing people for environmental
+  pursuits. Romanticization dismisses self-interest, overlooking private
+  examples like Godrej's Mumbai mangroves absorbing 6 lakh tonnes of carbon, and
+  economic incentives like carbon taxes outperforming regulations, per a 2001 US
+  EPA report saving $45 billion annually. Governments should set rules, not
+  micromanage, to harness markets for sustainable development through meaningful
+  trade-offs.
+key_points:
+  - >-
+    Romanticizing the environment oversimplifies policy debates into
+    human-vs-nature binaries, as seen in Mumbai's Aarey Movement opposing metro
+    infrastructure vital for reducing private vehicle pollution.
+  - >-
+    Technological innovation driven by profit motives achieves environmental
+    gains like land sparing more effectively than nature reserves.
+  - >-
+    Private interests align with conservation, exemplified by Godrej's mangroves
+    storing 6 lakh tonnes of carbon and EPA-documented economic incentives
+    saving $45 billion yearly.
+  - >-
+    Policies must recognize trade-offs between development and environment,
+    leveraging markets and limited government for sustainable outcomes.
+topics:
+  - environmental-romanticism
+  - market-incentives
+  - sustainable-development
+  - urban-transport
 tags:
   - Public Policy
   - Covid-19
   - environment
+source_hash: 24a61553ac057d37a42ba3a05da6fd112959a493491b8a3ffe4ccab1f2a164f3
+summary_hash: 24a61553ac057d37a42ba3a05da6fd112959a493491b8a3ffe4ccab1f2a164f3
+summary_at: '2026-05-05T10:12:14.798Z'
 ---
 **By Priyanka Tibrewal**
 

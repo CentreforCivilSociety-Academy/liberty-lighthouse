@@ -2,20 +2,54 @@
 title: Subsidized Higher Education Comes at a High Cost
 original_url: >-
   https://www.spontaneousorder.in/p/subsidized-higher-education-comes-at-a-high-cost
+author: Spontaneous Order
 published_at: '2012-06-19T09:46:06.000Z'
 ingested_at: '2026-05-05T08:31:42.616Z'
-source_hash: d89e4ecffa0f70268d790db093292c4cd617051e84ed1f3d7eb27b59326661fd
-author: Spontaneous Order
 excerpt: >-
   (This post was written by Namrata Narayan, Associate, Communications at CCS)
   We the People had an interesting conversation regarding government funded
   colleges that heavily subsidise student fees, even for the families that can
   afford to pay full fees. ..
+summary: >-
+  The post critiques heavily subsidized government-funded higher education in
+  India, where fees are subsidized even for affluent families, costing taxpayers
+  96 lakhs per student. Drawing from a We the People discussion, it highlights
+  the 'brain drain' problem: students educated on public money often emigrate
+  for better opportunities abroad, providing no measurable return to Indian
+  taxpayers. The government has responded by mandating that some students work
+  in India for a period before leaving or proposing an 'exit tax,' encapsulated
+  in the classical-liberal quip: 'Government shackles always follow government
+  shekels.' Referencing Milton Friedman, the argument frames higher education
+  subsidies as middle-class welfare, redistributing wealth from lower-income
+  taxpayers to higher-income beneficiaries. This perspective underscores the
+  inefficiency and inequity of such interventions, advocating against them in
+  favor of market-driven alternatives that avoid coercive redistribution and
+  unintended consequences like talent flight.
+key_points:
+  - >-
+    Government higher education subsidies cost 96 lakhs per student from tax
+    revenues, even benefiting affluent families.
+  - >-
+    Subsidized students frequently emigrate abroad, yielding no return on
+    taxpayer investment.
+  - >-
+    India's government now requires some beneficiaries to work domestically
+    first or pay an 'exit tax' to leave.
+  - >-
+    Milton Friedman describes higher education subsidies as middle-class
+    welfare, transferring wealth from poor to rich.
+topics:
+  - higher-education-subsidies
+  - brain-drain
+  - middle-class-welfare
 tags:
   - We The People
   - Tax
   - Milton Friedman
   - education abroad
+source_hash: d89e4ecffa0f70268d790db093292c4cd617051e84ed1f3d7eb27b59326661fd
+summary_hash: d89e4ecffa0f70268d790db093292c4cd617051e84ed1f3d7eb27b59326661fd
+summary_at: '2026-05-05T12:12:33.977Z'
 ---
 **By Andrew Humphries**
 

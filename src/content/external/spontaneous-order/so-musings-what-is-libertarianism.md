@@ -1,18 +1,55 @@
 ---
 title: 'SO Musings: What is Libertarianism?'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-what-is-libertarianism'
+author: Spontaneous Order
 published_at: '2020-11-20T16:33:17.000Z'
 ingested_at: '2026-05-05T08:31:42.367Z'
-source_hash: d22c32e1d22157e46a298701fe48b45202b1d28e15ddfa36657c49e1292be1da
-author: Spontaneous Order
 excerpt: >-
   ‘Men are born free’ is an old adage. The ideas of ‘Liberty, Equality and
   Fraternity’ animated the participants of the French Revolution. The guiding
   principle of human liberty laid the intellectual foundation of Classical
   liberalism, which led to
+summary: >-
+  The article from the April 1958 Indian Libertarian defines libertarianism as
+  rooted in classical liberalism, which drove 19th-century European prosperity
+  through human liberty, evolving into modern libertarianism essential for
+  understanding today. Liberty is the absence of coercion by one human on
+  another, with restrictions minimized due to human fallibility; its opposite is
+  slavery. This liberty is a precondition of morality, preceding moral judgment
+  itself, echoing Ayn Rand's ideas. Humanity has intuitively fought for liberty
+  since antiquity, battling threats alongside natural forces. Man's biological
+  nature harmonizes with liberty: research reveals extreme diversity in
+  knowledge, wisdom, ignorance, and foolishness among individuals, who remain
+  independent unitary organisms even in cooperation or crowds—collectives are
+  illusory. Liberty elevates knowledge and wisdom; its absence enthrones
+  ignorance and foolishness. Thus, preserving liberty aligns with human essence,
+  countering coercion to foster individual flourishing in a classical-liberal
+  framework.
+key_points:
+  - >-
+    Liberty is defined as the absence of coercion of one human being by another,
+    with restrictions at a minimum.
+  - >-
+    Man's biological nature, marked by extreme diversity and unitary
+    individuality, is attuned to liberty, which promotes knowledge over
+    ignorance.
+  - >-
+    Liberty precedes and preconditions morality, making it unjudgeable by moral
+    standards.
+  - >-
+    Humanity has battled for liberty intuitively from the dawn of existence,
+    akin to fighting natural threats.
+topics:
+  - libertarianism
+  - liberty-definition
+  - classical-liberalism
+  - human-individuality
 tags:
   - SO Musings
   - Indian liberals
+source_hash: d22c32e1d22157e46a298701fe48b45202b1d28e15ddfa36657c49e1292be1da
+summary_hash: d22c32e1d22157e46a298701fe48b45202b1d28e15ddfa36657c49e1292be1da
+summary_at: '2026-05-05T12:03:31.305Z'
 ---
 **By Spontaneous Order**
 

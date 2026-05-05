@@ -1,15 +1,33 @@
 ---
 title: Are you a libertarian?
 original_url: 'https://www.spontaneousorder.in/p/are-you-a-libertarian-2'
+author: Spontaneous Order
 published_at: '2010-01-11T10:56:09.000Z'
 ingested_at: '2026-05-05T08:31:42.656Z'
-source_hash: 01a332f401446c9d7a1494564954fdb914c5e6fd4684e70c25b2393145c60f81
-author: Spontaneous Order
 excerpt: >-
   Most people confuse what it means to be a libertarian. Or for that matter a
   statist, leftist, rightist or Centrist. To understand at least one
   interpretation of what each of these terms and political ideologies mean you
   can visit http://www.theadvocate...
+summary: >-
+  This brief post highlights common confusion over political labels like
+  libertarian, statist, leftist, rightist, or centrist due to varying
+  philosophies by region and sector, and recommends the 'World’s Smallest
+  Political Quiz'—a 10-question test on economic and personal issues—to clarify
+  one's ideology and map it on the spectrum. It promotes the quiz as a simple
+  way to understand these terms from a classical-liberal perspective.
+key_points:
+  - >-
+    Confusion arises from diverse interpretations of political ideologies
+    varying by usage, region, and sector.
+  - >-
+    Take the 10-question 'World’s Smallest Political Quiz' to gauge your stance
+    on economic and personal issues.
+  - The quiz maps respondents to ideologies like libertarianism.
+topics:
+  - libertarianism
+  - political-quiz
+  - political-ideology
 tags:
   - rightist
   - libertarian
@@ -17,6 +35,9 @@ tags:
   - political ideologies
   - leftist
   - centrist
+source_hash: 01a332f401446c9d7a1494564954fdb914c5e6fd4684e70c25b2393145c60f81
+summary_hash: 01a332f401446c9d7a1494564954fdb914c5e6fd4684e70c25b2393145c60f81
+summary_at: '2026-05-05T09:01:05.608Z'
 ---
 **By Shreya**
 

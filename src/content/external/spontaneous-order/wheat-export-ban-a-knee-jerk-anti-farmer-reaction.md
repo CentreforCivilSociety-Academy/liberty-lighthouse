@@ -2,15 +2,57 @@
 title: 'Wheat Export Ban: A Knee-jerk Anti-farmer Reaction'
 original_url: >-
   https://www.spontaneousorder.in/p/wheat-export-ban-a-knee-jerk-anti-farmer-reaction
+author: Spontaneous Order
 published_at: '2022-06-16T11:01:59.000Z'
 ingested_at: '2026-05-05T08:31:42.264Z'
-source_hash: 8fe41f1d66fc9bfde7940d05e98a5484c4d18dcf95d131525cb49903092d76fa
-author: Spontaneous Order
 excerpt: >-
   The wheat export ban reflects a deep-rooted anti-producer bias in Indian trade
   policy. As Ukraine and Russia, producers of one-fourth of the world’s wheat,
   are engaged in a bitter war disrupting global wheat supply, the world has
   turned to India – ano
+summary: >-
+  The Indian government's sudden ban on wheat exports exemplifies a deep-rooted
+  pro-consumer, anti-producer bias in agricultural trade policy, prioritizing
+  domestic price control over farmers' profits amid global shortages caused by
+  the Ukraine-Russia war. Initially planning to export 10 million tonnes to
+  capitalize on high prices, the government imposed a blanket ban after a lower
+  harvest of 105 million tonnes (versus 111 million projected), rejecting milder
+  options like minimum export prices or tariffs. This echoes recurring onion
+  export bans and a World Bank-ICRIER study documenting an implicit annual tax
+  on farmers of Rs 2.65 lakh crore from 2000-17, totaling Rs 45 lakh crore.
+  Wheat procurement hit a 15-year low at 18 million tonnes, down from 43.3
+  million last year. The ban erodes India's credibility as a supplier, drawing
+  G7 criticism, and contradicts the withdrawn 2020 Essential Commodities
+  Amendment aimed at curbing arbitrary interventions. Now, India faces import
+  requests for 1.5 million tonnes. From a classical-liberal view, such knee-jerk
+  ad-hocism undermines farmer incomes, market predictability, and export
+  potential, urging policies free of consumer bias to foster stability and
+  prosperity.
+key_points:
+  - >-
+    India's wheat export ban sacrifices farmers' gains from high global prices
+    to curb domestic inflation, reflecting chronic pro-consumer bias confirmed
+    by a World Bank-ICRIER study estimating Rs 45 lakh crore implicit tax on
+    farmers over 17 years.
+  - >-
+    The ban, opting for a blanket prohibition over milder tools like MEP or
+    tariffs, follows a 15-year low procurement of 18 million tonnes and has
+    provoked G7 backlash, damaging India's supplier credibility.
+  - >-
+    Despite the 2020 Essential Commodities Amendment's intent to limit arbitrary
+    restrictions, its withdrawal enables such interventions, contradicting goals
+    to double farmer incomes.
+  - >-
+    Policymakers should eliminate consumer bias in trade rules to ensure
+    stability, predictability, and expanded markets for Indian agriculture.
+topics:
+  - agricultural-trade
+  - export-bans
+  - pro-consumer-bias
+  - farm-policy
+source_hash: 8fe41f1d66fc9bfde7940d05e98a5484c4d18dcf95d131525cb49903092d76fa
+summary_hash: 8fe41f1d66fc9bfde7940d05e98a5484c4d18dcf95d131525cb49903092d76fa
+summary_at: '2026-05-05T12:59:05.005Z'
 ---
 **By Musharraf Aamir**
 

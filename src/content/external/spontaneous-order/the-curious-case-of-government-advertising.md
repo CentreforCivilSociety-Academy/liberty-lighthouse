@@ -1,18 +1,60 @@
 ---
 title: The Curious Case of Government Advertising
 original_url: 'https://www.spontaneousorder.in/p/the-curious-case-of-government-advertising'
+author: Spontaneous Order
 published_at: '2021-02-22T15:55:58.000Z'
 ingested_at: '2026-05-05T08:31:42.347Z'
-source_hash: 5ecf763c47f4eabc256e075c56cd4201d1eb5ed7afb03981651d8de9643b33f2
-author: Spontaneous Order
 excerpt: >-
   On a rare occasion when I sat in front of the TV (in the age of smartphones
   and OTT), something caught my attention. I witnessed a sudden barrage of
   advertisements on almost all regional channels, tied together by the theme
   ‘Vetrinadai podum thamizhagam
+summary: >-
+  The post examines the blurring of government advertisements (GA) and political
+  advertisements (PA) in India, spotlighting Tamil Nadu's 'Vetrinadai Podum
+  Thamizhagam' campaign launched December 29, 2020, coinciding with the ruling
+  party's poll kickoff, featuring the state emblem and late CM Jayalalithaa's
+  image despite Supreme Court restrictions. This misuse of taxpayer funds, a
+  classical-liberal concern for fiscal prudence and electoral integrity, is
+  evidenced by a 2018 Factly report showing central government spent ₹10,000
+  crore on publicity over 16 years, surging in election years. GA, meant for
+  welfare awareness, morphs into PA promoting party ideology, fostering
+  personality cults contrary to Ambedkar's warnings against political bhakti.
+  Supreme Court's 2014 judgment, via N.R. Madhav Menon committee, mandated CCRGA
+  ombudsmen at central/state levels to regulate content—limiting images to
+  President, PM, CJI (later expanded)—but enforcement falters under DAVP
+  control. Model Code of Conduct activates only post-election announcement,
+  enabling pre-poll advantages. The author urges a robust framework: independent
+  CCRGA teeth, six-month pre-poll GA ban, party expenditure caps mirroring
+  candidate limits, and Australian/Canadian models emphasizing objectivity,
+  efficiency, and parliamentary rationale for high-spend GA, prioritizing
+  codification over colorable practices for level-playing-field elections.
+key_points:
+  - >-
+    Ruling parties exploit GA-PA ambiguity to fund electoral propaganda with
+    public money, as seen in Tamil Nadu's VPT ads violating Supreme Court
+    image-use rules.
+  - >-
+    Central government spent ₹10,000 crore on publicity over 16 years per 2018
+    Factly report, with spikes in election years demanding expenditure
+    rationalization.
+  - >-
+    Empower CCRGA independently, impose six-month pre-poll GA bans, and adopt
+    Australian/Canadian principles for objective, accountable government ads.
+  - >-
+    Cap pre-election party expenditures akin to candidate limits and ban state
+    symbols in PA to curb money's electoral influence.
+topics:
+  - government-advertising
+  - free-fair-elections
+  - election-finance
+  - fiscal-prudence
 tags:
   - Press and Government
   - political advertising
+source_hash: 5ecf763c47f4eabc256e075c56cd4201d1eb5ed7afb03981651d8de9643b33f2
+summary_hash: 5ecf763c47f4eabc256e075c56cd4201d1eb5ed7afb03981651d8de9643b33f2
+summary_at: '2026-05-05T12:23:06.816Z'
 ---
 **By T. Bhuvanesh Ram**
 

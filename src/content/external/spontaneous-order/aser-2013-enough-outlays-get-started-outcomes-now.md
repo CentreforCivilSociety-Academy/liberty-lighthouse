@@ -2,21 +2,60 @@
 title: 'ASER 2013: Enough of Outlays, Get Started on Outcomes NOW'
 original_url: >-
   https://www.spontaneousorder.in/p/aser-2013-enough-outlays-get-started-outcomes-now
+author: Spontaneous Order
 published_at: '2014-01-26T17:47:31.000Z'
 ingested_at: '2026-05-05T08:31:42.597Z'
-source_hash: 2ee5b88aacd9c3be6a793613af5c7368dfbf99c622a162f8480db3984c0066c4
-author: Spontaneous Order
 excerpt: >-
   The ninth Annual Survey of Education Report (ASER) was published last week.
   ASER is an annual household survey to assess children’s schooling (both public
   and private) status and basic learning levels in reading and arithmetic, among
   other things. With
+summary: >-
+  The ASER 2013 report reveals high school enrollment at 96.7% for ages 6-14,
+  with private school share rising to 29% from 18.7% in 2006, improving
+  facilities like usable toilets in government schools at 62.6%, but declining
+  attendance and, critically, falling learning outcomes. In government schools,
+  the percentage of Std III children reading Std I text dropped steadily, as did
+  Std V children's ability to read Std II text and perform basic arithmetic like
+  subtraction and division; private schools held steadier but also declined
+  slightly. Despite rising government education spending—absolute amounts, as %
+  of GDP, and per-student from Rs 9,367 to 11,509—outcomes worsen due to
+  centralized planning and budgeting disconnected from school needs, as per
+  PAISA reports. From a classical-liberal viewpoint, inputs like outlays fail
+  without outcomes focus; the solution lies in decentralizing via school choice,
+  granting parents autonomy to select schools, and removing regulatory
+  roadblocks to private school expansion to spur competition and innovation. A
+  major rethink is urged: let parents decide to meet children's needs
+  effectively.
+key_points:
+  - >-
+    ASER 2013 shows enrollment over 96% but 78% of Std III and 50% of Std V
+    children cannot read at grade-appropriate levels, with declines steeper in
+    government schools.
+  - >-
+    Government education spending has risen in absolute terms, as % of GDP, and
+    per-student, yet learning outcomes continue to fall due to centralized
+    systems.
+  - >-
+    PAISA findings highlight mismatches in planning and budgeting, remote from
+    parental or school influence.
+  - >-
+    Shift to outcomes requires school-level autonomy via parental school choice
+    and deregulation of private schools to foster innovation and competition.
+topics:
+  - education
+  - school-choice
+  - learning-outcomes
+  - government-spending
 tags:
   - Sarva Shiksha Abhiyan guidelines
   - schooling
   - School Choice Campaign
   - quality education
   - ASER
+source_hash: 2ee5b88aacd9c3be6a793613af5c7368dfbf99c622a162f8480db3984c0066c4
+summary_hash: 2ee5b88aacd9c3be6a793613af5c7368dfbf99c622a162f8480db3984c0066c4
+summary_at: '2026-05-05T09:02:44.970Z'
 ---
 **By Kumar Anand**
 

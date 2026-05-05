@@ -2,15 +2,56 @@
 title: 'Farm laws to bring more freedom, and better prices'
 original_url: >-
   https://www.spontaneousorder.in/p/farm-laws-to-bring-more-freedom-and-better-prices
+author: Spontaneous Order
 published_at: '2020-09-28T12:36:19.000Z'
 ingested_at: '2026-05-05T08:31:42.379Z'
-source_hash: 9b9a0ff558020240f71d6535a388459b98a287c40e64996244feaa0453f11eaf
-author: Spontaneous Order
 excerpt: >-
   Opposition parties and some farmers’ organisations have protested against
   three new agricultural reform laws. These provide much-needed reforms that
   will help farmers get a better price by cutting out middlemen and improving
   marketing efficiencies. The
+summary: >-
+  Swaminathan SA Aiyer defends India's three new agricultural reform laws
+  against protests from opposition parties and farmers' groups, which falsely
+  claim the laws abolish minimum support prices (MSP) and government
+  procurement. The laws grant farmers freedom to sell produce anywhere in India,
+  bypassing middlemen, mandi taxes, and state restrictions—freedoms non-farmers
+  enjoy and which would be condemned as outrageous if denied to others. Farming
+  is unattractive, with surveys showing 42% of farmers wanting to exit; farm
+  numbers doubled to 145 million from 1970-71 to 2015-16, halving average size
+  to 1.08 hectares, making decent incomes impossible without shifting labor to
+  manufacturing and services. Government will continue some MSP procurement for
+  ration shops, while contract farming with agro-processors ensures minimum
+  prices and scale economies, as proven by ITC's e-choupals aiding 4 million
+  farmers across 35,000 villages in 10 states. Amending the Essential
+  Commodities Act removes stock limits that deterred warehouse investments and
+  hurt farmers during price spikes. High MSPs create gluts, as in the EU's past;
+  better alternatives are cash transfers like Telangana’s Rythu Bandhu (Rs
+  10,000/acre), PM-KISAN (Rs 6,000/acre), and Odisha’s KALIA scheme. In sum,
+  farmers need sales freedom, exit options from agriculture, and cash support
+  over price distortions.
+key_points:
+  - >-
+    New farm laws enable farmers to sell produce anywhere in India, eliminating
+    middlemen and state mandi taxes to secure better prices.
+  - >-
+    Contract farming and models like ITC's e-choupals voluntarily benefit
+    millions of small farmers with fair prices, technology, and scale economies.
+  - >-
+    Amending the Essential Commodities Act removes stock limits that discouraged
+    agri-warehouse investments and restricted farmer profits during price rises.
+  - >-
+    Cash transfer schemes like PM-KISAN and Odisha’s KALIA provide direct
+    support to farmers, tenants, and landless households, superior to
+    distortionary high MSP procurement.
+topics:
+  - farm-laws
+  - contract-farming
+  - agricultural-reform
+  - msp
+source_hash: 9b9a0ff558020240f71d6535a388459b98a287c40e64996244feaa0453f11eaf
+summary_hash: 9b9a0ff558020240f71d6535a388459b98a287c40e64996244feaa0453f11eaf
+summary_at: '2026-05-05T09:51:52.235Z'
 ---
 **By Swaminathan SA Aiyer**
 

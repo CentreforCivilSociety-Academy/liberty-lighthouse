@@ -2,19 +2,56 @@
 title: 'I Am Not A Parent, But Mine Ensured That I’m Not A Miscast!'
 original_url: >-
   https://www.spontaneousorder.in/p/i-am-not-a-parent-but-mine-ensured-that-im-not-a-miscast
+author: Spontaneous Order
 published_at: '2018-08-06T07:02:09.000Z'
 ingested_at: '2026-05-05T08:31:42.529Z'
-source_hash: 19930b661da567d89b44db4def106547900c44e38e3c871bc5e095474733e3ca
-author: Spontaneous Order
 excerpt: >-
   I’m not a parent, Not in the present, neither have I been one in the past!
   This is a plea, or a hope! Probably not the last… But I have been a kid,
   rather a carefree one, knowing nothing of being harassed! Didn’t know what
   actually went in the backg
+summary: >-
+  Nitesh Anand, from a family of educators in a 'development-backward' Indian
+  state and lower-middle-class background, reflects on his parents' sacrifices
+  to provide quality education despite financial constraints, including debts at
+  the local kirana shop. He notes the median per-child schooling expenditure in
+  India is INR 12,768 (Accountability Initiative report), a significant burden
+  parents willingly bear for better outcomes than government schools, which he
+  dismisses as wasteful and unsatisfactory. Anand emphasizes that even
+  illiterate, poor parents make informed, wise choices prioritizing their
+  children's education and happiness—citing HSBC's report where 49% of Indian
+  parents see happiness as the ultimate goal. His own path to nonprofit work in
+  remote areas reflects this parental investment in self-awareness and liberty.
+  From a classical-liberal viewpoint, he argues for returning parents' money
+  from inefficient government systems and restoring their choice in education,
+  trusting their 'brilliant decision-making prowess' to ensure optimal
+  utilization and results without disappointing their children.
+key_points:
+  - >-
+    Parents from economically constrained backgrounds prioritize and fund
+    quality private education for children, with median costs at INR 12,768 per
+    child.
+  - >-
+    Indian parents wisely choose education options that foster happiness and
+    liberty, as 49% view happiness as the ultimate goal per HSBC report.
+  - >-
+    Government education systems waste public money on ineffective services,
+    failing user satisfaction.
+  - >-
+    Empower parents by returning their funds and choice in schooling to leverage
+    their proven decision-making for better outcomes.
+topics:
+  - education
+  - school-choice
+  - parental-choice
+  - government-waste
 tags:
   - parental choice
   - Education in India
   - Indian Education System
+source_hash: 19930b661da567d89b44db4def106547900c44e38e3c871bc5e095474733e3ca
+summary_hash: 19930b661da567d89b44db4def106547900c44e38e3c871bc5e095474733e3ca
+summary_at: '2026-05-05T10:14:07.346Z'
 ---
 **By Nitesh Anand**
 

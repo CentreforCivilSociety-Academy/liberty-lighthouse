@@ -1,20 +1,57 @@
 ---
 title: Karsandas Mulji – The Forgotten ‘Indian Luther’
 original_url: 'https://www.spontaneousorder.in/p/karsandas-mulji'
+author: Spontaneous Order
 published_at: '2019-07-25T10:14:57.000Z'
 ingested_at: '2026-05-05T08:31:42.480Z'
-source_hash: df2494bb94c7159d910e231cbbef0170ad6e65a875bd519aaae97592d36c0f2a
-author: Spontaneous Order
 excerpt: >-
   Karsandas Mulji, a contemporary of Dadabhai Naoroji, was one of the pioneer
   Indian social reformers working for the cause of women emancipation. In
   1850s-60s, Mulji was a prominent member of the “Bombay intelligentsia” in
   conflict with the “merchant
+summary: >-
+  Karsandas Mulji, a 19th-century Bombay reformer contemporary of Dadabhai
+  Naoroji, challenged the merchant aristocracy and religious orthodoxy, earning
+  the title 'Martin Luther of the Bania caste' for his role in the 1862 Maharaj
+  libel case. Disowned by family, Mulji pursued varied careers including writer,
+  editor, teacher, and administrator while educated at Elphinstone College
+  alongside Naoroji and Ranade. His reformism emerged in 1853 essays advocating
+  foreign travel and widow remarriage, leading to his ouster from college and
+  family. Launching the Satya Prakash newspaper in 1855 with 500 subscribers,
+  Mulji targeted Gujarati Hindu conservatives. His 1860 article 'The Original
+  Religion of the Hindus and the Present Heterodox Opinions' accused a
+  Vallabhacharya Maharaja of sexual misconduct with devotees, prompting the
+  libel suit dubbed the 'greatest trial of modern times since Warren Hastings.'
+  The court's dismissal vindicated Mulji, celebrated as a liberal victory
+  exposing guru corruption. Historian J. Barton Scott reframes Mulji not as
+  Protestantizing Hinduism but as part of transnational reformist networks
+  producing liberal subjects, securing his place in the Indian liberal pantheon.
+key_points:
+  - >-
+    Mulji's 1860 article in Satya Prakash accused Vallabhacharya Maharajas of
+    sexual misconduct, sparking the landmark 1862 libel case he won.
+  - >-
+    The Maharaj trial was hailed as the greatest since Warren Hastings, marking
+    a victory for reformist liberals against religious authority.
+  - >-
+    Mulji advocated widow remarriage and foreign travel, positioning him as a
+    pioneer in women's emancipation and social reform.
+  - >-
+    J. Barton Scott argues Mulji's legacy lies in producing liberal subjects
+    through reformist exchanges, not just challenging Hindu practices.
+topics:
+  - social-reform
+  - indian-liberals
+  - religious-reform
+  - 19th-century-history
 tags:
   - Gujarati Liberals
   - Liberalism in India
   - Indian liberals
   - Karsandas Mulji
+source_hash: df2494bb94c7159d910e231cbbef0170ad6e65a875bd519aaae97592d36c0f2a
+summary_hash: df2494bb94c7159d910e231cbbef0170ad6e65a875bd519aaae97592d36c0f2a
+summary_at: '2026-05-05T10:35:46.379Z'
 ---
 **By Sanjeet Kashyap**
 

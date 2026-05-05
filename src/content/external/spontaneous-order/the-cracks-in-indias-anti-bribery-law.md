@@ -1,20 +1,57 @@
 ---
 title: The Cracks in India’s Anti-Bribery Law
 original_url: 'https://www.spontaneousorder.in/p/the-cracks-in-indias-anti-bribery-law'
+author: Spontaneous Order
 published_at: '2020-11-12T11:13:43.000Z'
 ingested_at: '2026-05-05T08:31:42.369Z'
-source_hash: 27edaefe4c9ce2c34ab2e081683d932d435c375b1ad1aa56fd3ca7fb2135f335
-author: Spontaneous Order
 excerpt: >-
   In economics and much of life, the definition of a rational actor is closely
   grounded in decision-making that promotes self-interest or maximising the
   payoff that we receive from our actions. While there is a heated debate in
   psychology about whether hu..
+summary: >-
+  India's Prevention of Corruption Act, 1988, failed to curb corruption,
+  estimated at up to 5% of GDP, with over 50% of Indians admitting to paying
+  bribes in recent surveys. The 2018 Amendment symmetrically criminalizes both
+  bribe-taking by public servants and bribe-giving, removing prior immunity for
+  givers who reported takers. This aligns the interests of both parties as
+  'partners in crime,' discouraging bribe-givers from reporting harassment
+  bribes—payments coerced for entitled services like tax refunds or train
+  tickets, affecting 54% of citizens per Transparency International. Drawing on
+  rational self-interest, the author endorses Kaushik Basu's proposal to
+  legalize giving such harassment bribes: this imposes asymmetric liability,
+  freeing givers from punishment while leaving takers exposed, diverging their
+  incentives and encouraging reports. An experiment by Abbink et al. confirms
+  this, boosting bribe-giver reporting from 25% to 59% under asymmetry and
+  cutting official bribe demands from 38% to 25%. From a classical-liberal view,
+  anti-corruption laws must prioritize incentive structures over symmetric
+  punishment to effectively nudge behavior via self-interest.
+key_points:
+  - >-
+    Symmetric criminalization in the 2018 Amendment makes bribe-givers and
+    takers partners in crime, reducing incentives to report corruption.
+  - >-
+    Legalizing harassment bribe-giving, as Basu proposes, creates asymmetric
+    liability that encourages givers to report takers without personal risk.
+  - >-
+    An experiment showed asymmetric liability increased reporting from 25% to
+    59% and reduced bribe demands from 38% to 25%.
+  - >-
+    Effective anti-bribery policy should design incentives reflecting rational
+    self-interest rather than equal punishment for all parties.
+topics:
+  - anti-corruption
+  - bribery-laws
+  - incentives
+  - public-policy
 tags:
   - Alumni Speaks
   - Rule Of Law
   - Governance
   - bribery
+source_hash: 27edaefe4c9ce2c34ab2e081683d932d435c375b1ad1aa56fd3ca7fb2135f335
+summary_hash: 27edaefe4c9ce2c34ab2e081683d932d435c375b1ad1aa56fd3ca7fb2135f335
+summary_at: '2026-05-05T12:22:31.702Z'
 ---
 **By Sakshi Dhawan**
 

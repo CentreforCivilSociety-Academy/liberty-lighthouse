@@ -1,21 +1,63 @@
 ---
 title: Laws With Flaws
 original_url: 'https://www.spontaneousorder.in/p/laws-with-flaws'
+author: Spontaneous Order
 published_at: '2019-02-07T11:20:23.000Z'
 ingested_at: '2026-05-05T08:31:42.507Z'
-source_hash: 6504e7272f608f1cc15f371016145f1ab613c734d407738b7f4c5cc095ebd631
-author: Spontaneous Order
 excerpt: >-
   A quote from Publius Tacitus, famously said, “Corruptissima re publica
   plurimae leges”, which could be vaguely translated as “The more corrupt a
   State, the more numerous the laws”. India with its verbose and cumbersome law
   books epitomises the quo
+summary: >-
+  India's verbose law books, epitomizing Tacitus' maxim that corrupt states
+  breed numerous laws, undermine the Rule of Law by enabling arbitrary power
+  despite formal adherence. Law-making must be dynamic, yet Indian legislators
+  have accumulated obsolete, redundant statutes, as highlighted in a Centre for
+  Civil Society study of Assam. Repealing such laws would enhance governance and
+  public interaction. Examples include the Assam Students and Juvenile Smoking
+  Act, 1923, with its paltry 50-rupee fine for selling tobacco to minors, now
+  subsumed by the central Juvenile Justice Act 2015 imposing 1 lakh rupees and
+  up to 7 years' imprisonment, creating jurisdictional confusion and loopholes.
+  The colonial-era Assam Disturbed Areas Act, 1955, empowers even low-ranking
+  officers to shoot for public order without legal repercussions, clashing with
+  democratic human rights. The Assam Prevention of Begging Act, 1964, vaguely
+  criminalizes begging, enables warrantless arrests, and shifts blame from state
+  failures in ensuring dignity to individuals, curtailing social and economic
+  freedoms. From a classical-liberal viewpoint, regularly weeding out such laws
+  is essential to make the Rule of Law substantive, curbing corruption,
+  harassment, and fragility in the legal system.
+key_points:
+  - >-
+    Repeal the Assam Students and Juvenile Smoking Act, 1923, as it is subsumed
+    by the central Juvenile Justice Act 2015 and creates administrative
+    inefficiencies with its outdated 50-rupee fine.
+  - >-
+    Eliminate the Assam Disturbed Areas Act, 1955, a draconian colonial law
+    allowing low-ranking officers to shoot without accountability, threatening
+    human rights.
+  - >-
+    Reconsider the Assam Prevention of Begging Act, 1964, which vaguely defines
+    begging as a crime, enables arbitrary arrests, and ignores state
+    responsibility for poverty.
+  - >-
+    Regularly clean up obsolete and redundant laws to ensure Rule of Law
+    functions in spirit, reducing misuse by officials and protecting citizen
+    freedoms.
+topics:
+  - rule-of-law
+  - law-reform
+  - obsolete-laws
+  - civil-liberties
 tags:
   - National Repeal Law Day
   - Repeal of Laws
   - Illebral Laws
   - Rule Of Law
   - Archaic Laws
+source_hash: 6504e7272f608f1cc15f371016145f1ab613c734d407738b7f4c5cc095ebd631
+summary_hash: 6504e7272f608f1cc15f371016145f1ab613c734d407738b7f4c5cc095ebd631
+summary_at: '2026-05-05T10:39:49.261Z'
 ---
 **By Devansh Mahajan**
 

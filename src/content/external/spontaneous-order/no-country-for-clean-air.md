@@ -1,19 +1,58 @@
 ---
 title: No Country for Clean air
 original_url: 'https://www.spontaneousorder.in/p/no-country-for-clean-air'
+author: Spontaneous Order
 published_at: '2025-11-28T15:26:08.000Z'
 ingested_at: '2026-05-05T08:31:42.222Z'
-source_hash: 92b8f8047e4b0e0b0d96ed3993c4f7f1be79ce8bc0c473bf921d4ac867ec4a0e
-author: Spontaneous Order
 excerpt: >-
   The morning air in Delhi feels dense this season. An acrid smell lingers long
   after Diwali night fireworks fade. With the recent lifting of the ban on
   firecrackers, the city once again woke up to a wall of smog. Schools delayed
   classes, and flights were..
+summary: >-
+  India's air pollution crisis, exemplified by Delhi's January 2025 PM2.5
+  average of 165 micrograms per cubic meter—over 30 times the WHO limit—imposes
+  massive costs, equivalent to 1.3% of GDP (Rs. 4.5 lakh crore annually), with
+  nearly 2 million premature deaths yearly. This man-made problem stems from
+  negative externalities, where industries like steel, cement, and power
+  externalize pollution costs onto the public, degrading the public good of
+  clean air in a classic market failure. Unequal impacts hit informal workers
+  hardest, with respiratory illnesses twice as high as among office workers.
+  Government responses—cloud-seeding, odd-even schemes, subsidized anti-stubble
+  measures—prove temporary and perverse, failing to enforce emission caps or
+  liability via tort law. From a classical-liberal view, solutions lie in
+  internalizing costs through market-based disincentives, robust prosecution of
+  polluters, and commodifying stubble for private markets in biomass or
+  packaging to spur agritech innovation. Protests highlight pollution as a
+  public health emergency stratified by class. Clean air is foundational to
+  human capital and ease of living; treating it as episodic ignores systemic
+  governance failures in prioritizing private profits over societal
+  breathability.
+key_points:
+  - >-
+    Air pollution externalizes costs from industries, causing market failure in
+    the public good of clean air.
+  - >-
+    Government subsidies for stubble non-burning create perverse incentives;
+    instead, enable private markets for stubble in biomass and packaging.
+  - >-
+    Enforce tort law and emission caps to make polluters internalize
+    environmental costs.
+  - >-
+    Delhi's poor bear disproportionate health burdens, with respiratory
+    illnesses twice as high among informal workers.
+topics:
+  - air-pollution
+  - negative-externalities
+  - market-solutions
+  - stubble-burning
 tags:
   - Air pollution
   - Climate Change
   - Public Health
+source_hash: 92b8f8047e4b0e0b0d96ed3993c4f7f1be79ce8bc0c473bf921d4ac867ec4a0e
+summary_hash: 92b8f8047e4b0e0b0d96ed3993c4f7f1be79ce8bc0c473bf921d4ac867ec4a0e
+summary_at: '2026-05-05T11:04:24.112Z'
 ---
 **By Lavanya Mitra**
 

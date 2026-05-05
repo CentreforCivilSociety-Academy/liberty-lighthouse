@@ -1,21 +1,63 @@
 ---
 title: Thou Shall Not Be Corrupt
 original_url: 'https://www.spontaneousorder.in/p/thou-shall-not-be-corrupt'
+author: Spontaneous Order
 published_at: '2011-06-07T17:28:11.000Z'
 ingested_at: '2026-05-05T08:31:42.642Z'
-source_hash: ff6a21361b31941d9aac96be047ed880df5f388ad554a1736d7099753c863e20
-author: Spontaneous Order
 excerpt: >-
   By: Ishu Kumar (Communicating Reality Intern, CCS) As the Baba Circus unfolds,
   we bring you 10 innovative ways to tackle corruption from around the world. In
   our June 3 blogpost we had argued that mass scale corruption is the
   consequence of economic re...
+summary: >-
+  Building on a prior Spontaneous Order post arguing that mass-scale corruption
+  stems from economic repression, this article advocates complementing increased
+  economic freedom with innovative social strategies for a corruption-free
+  society. It presents a top-10 list of global anti-corruption innovations,
+  emphasizing classical-liberal approaches like market mechanisms and
+  incentives. Examples include: (10) Bill & Melinda Gates Foundation's mobile
+  banking in Afghanistan paying police salaries via cellular transactions to
+  prevent skimming; (9) UNODC's 'Your No Counts' campaign; (8) Kautilya's
+  Arthashastra recommending spies and fines four times the loss for
+  embezzlement; (7) Mo Ibrahim Prize offering $5M plus $200K annually to
+  non-corrupt African leaders (no winner past two years); (6) India's 5th Pillar
+  Zero Rupee notes for bribeseeking officials; (5) NoBribe.org blog from Bihar;
+  (4) Tata Group's Jaago Re campaign; (3) Singapore's high public-sector
+  salaries matching private levels under Lee Kuan Yew, contributing to its
+  status as least corrupt; (2) Shaffi Mather's for-profit anti-corruption model
+  addressing supply and demand; (1) Indonesia's Honesty Canteen teaching kids
+  self-enforced payments. The list highlights incentives, technology, and
+  cultural shifts alongside economic liberalization.
+key_points:
+  - >-
+    Mass-scale corruption results from economic repression and requires economic
+    freedom plus innovative social measures.
+  - >-
+    Singapore combats corruption by paying public officials private-sector
+    salaries, achieving the world's lowest corruption ranking.
+  - >-
+    India's Zero Rupee notes allow citizens to refuse bribes by handing fake
+    currency to demanding officials.
+  - >-
+    Kautilya's Arthashastra prescribes spies and fines four times the loss to
+    detect and punish embezzlement of public funds.
+  - >-
+    For-profit models, like Shaffi Mather's, can fight corruption by addressing
+    both supply and demand sides economically.
+topics:
+  - corruption
+  - economic-freedom
+  - anti-corruption
+  - public-choice
 tags:
   - Education
   - innovation
   - economic repression
   - corruption
   - tackle corruption
+source_hash: ff6a21361b31941d9aac96be047ed880df5f388ad554a1736d7099753c863e20
+summary_hash: ff6a21361b31941d9aac96be047ed880df5f388ad554a1736d7099753c863e20
+summary_at: '2026-05-05T12:41:23.243Z'
 ---
 **By Vipin**
 

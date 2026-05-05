@@ -1,15 +1,51 @@
 ---
 title: A Letter to Policymakers
 original_url: 'https://www.spontaneousorder.in/p/a-letter-to-policymakers'
+author: Spontaneous Order
 published_at: '2020-04-01T17:51:42.000Z'
 ingested_at: '2026-05-05T08:31:42.432Z'
-source_hash: 3745751360aaa8c2d7994ccd8878f3bd7981a0d926c0a2dbbf206565d468ebfe
-author: Spontaneous Order
 excerpt: >-
   The Cato Institute is a U.S.-based public policy research organization,
   dedicated to the principles of individual liberty, limited government, free
   markets, and peace. Its scholars and analysts conduct independent, nonpartisan
   research on a wide range o..
+summary: >-
+  The Cato Institute's letter, penned by President Peter Goettler amid the
+  COVID-19 crisis, urges policymakers worldwide to confront the pandemic with
+  calm and humility, prioritizing individual liberty, limited government, and
+  free markets over panic-driven interventions. Acknowledging personal losses
+  and healthcare heroism, it critiques policy-induced shortages, such as U.S.
+  laws blocking diagnostic tests available abroad since January, which allowed
+  unchecked spread for two months. Policymakers must discard such barriers,
+  enact legislation affirming rights to purchase tests, and eliminate clinician
+  licensing, 'certificate of need' laws, and telemedicine
+  restrictions—applauding states that have acted and calling on Congress for
+  interstate reforms. Containment should leverage private citizens' and
+  businesses' voluntary measures, with government shutdowns based on solid
+  epidemiology and lifted at prespecified targets, recognizing elites' blind
+  spots from privilege. Financial aid must expand existing programs for the
+  vulnerable, stimulate via regulatory removal rather than bailouts, and never
+  justify suspending civil liberties or the rule of law. This classical-liberal
+  blueprint minimizes harm to health, wealth, and freedom.
+key_points:
+  - >-
+    Discard laws causing diagnostic test shortages and affirm rights for labs,
+    health systems, and consumers to purchase available tests.
+  - >-
+    Eliminate clinician licensing, 'certificate of need' laws, and telemedicine
+    restrictions to enable medical resources to reach patients.
+  - >-
+    Base government containment on epidemiological data with prespecified lift
+    targets, supplementing private protective actions.
+  - >-
+    Provide targeted aid through existing programs and stimulate economy by
+    removing regulatory barriers, avoiding deficit-financed bailouts.
+  - Never use the crisis to suspend civil liberties or the Constitution.
+topics:
+  - covid-19
+  - regulatory-reform
+  - civil-liberties
+  - limited-government
 tags:
   - policymaking
   - Healthcare in India
@@ -17,6 +53,9 @@ tags:
   - policymakers
   - individual freedom
   - pandemic
+source_hash: 3745751360aaa8c2d7994ccd8878f3bd7981a0d926c0a2dbbf206565d468ebfe
+summary_hash: 3745751360aaa8c2d7994ccd8878f3bd7981a0d926c0a2dbbf206565d468ebfe
+summary_at: '2026-05-05T08:48:59.061Z'
 ---
 **By Spontaneous Order**
 

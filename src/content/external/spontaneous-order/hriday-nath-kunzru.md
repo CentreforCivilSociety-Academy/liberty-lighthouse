@@ -1,15 +1,55 @@
 ---
 title: Hriday Nath Kunzru – The Liberal Institution Builder
 original_url: 'https://www.spontaneousorder.in/p/hriday-nath-kunzru'
+author: Spontaneous Order
 published_at: '2019-10-01T13:30:29.000Z'
 ingested_at: '2026-05-05T08:31:42.466Z'
-source_hash: 24f3b475aca3a1d767a438c7abde1b29117a5e6f5285fec692fdf35dda48ac1a
-author: Spontaneous Order
 excerpt: >-
   The trajectory of liberal nationalism in colonial India is characterized by an
   early prominence followed by a steady marginalization in the nationalist
   discourse. The moderate phase of the Indian National Congress reflects a
   strong liberal tradition whi..
+summary: >-
+  Hriday Nath Kunzru exemplifies the overlooked liberal contributors to
+  post-1947 Indian nation-building, marginalized in historical narratives
+  dominated by Gandhian, socialist, and now Hindu right figures amid rising
+  social majoritarianism and economic statism. A protégé of Gokhale, Kunzru
+  joined the Servants of India Society in 1909, studied at LSE under Marshall
+  and Keynes, and split from Congress in 1918 to join the Indian National
+  Liberal Federation. He served in legislative bodies from 1921 to 1964,
+  including the Constituent Assembly and Rajya Sabha, bolstering democratic
+  traditions through skilled interventions. Kunzru's core liberal legacy lies in
+  institution-building: he founded the Indian Council of World Affairs (ICWA) in
+  1943, serving as president from 1949-1976 and fundraising privately for Sapru
+  House; and established the Indian School of International Studies (ISIS) in
+  1955, later merged into JNU's School of International Studies. He insisted on
+  civil society independence, rejecting state funding—'if the public cannot
+  support the institution, I would prefer it to be closed down'—and upheld
+  intellectual freedom, individual liberty, press freedom, private property, and
+  minimal government. ICWA hosted the 1947 Asian Relations Conference,
+  underscoring his impact, though his death in 1978 led to its decline,
+  highlighting liberals' fragile institutional legacies.
+key_points:
+  - >-
+    Kunzru founded ICWA in 1943 and led it as president from 1949-1976,
+    privately funding Sapru House without state aid.
+  - >-
+    He established ISIS in 1955 to foster independent Indian scholarship in
+    international affairs, which became JNU's School of International Studies.
+  - >-
+    Kunzru rejected government funding for civil society, prioritizing public
+    support and intellectual autonomy over state dependence.
+  - >-
+    Served in Indian legislatures from 1921-1964, advocating constitutionalism,
+    self-government within the Commonwealth, and indigenization of services.
+  - >-
+    Embodied classical-liberal values like minimal state power, individual
+    liberty, and private property in policy judgments.
+topics:
+  - indian-liberals
+  - institution-building
+  - civil-society
+  - international-studies
 tags:
   - Indian Liberalism
   - constitutional liberalism
@@ -17,6 +57,9 @@ tags:
   - kunzru
   - Indian liberals
   - Liberalism
+source_hash: 24f3b475aca3a1d767a438c7abde1b29117a5e6f5285fec692fdf35dda48ac1a
+summary_hash: 24f3b475aca3a1d767a438c7abde1b29117a5e6f5285fec692fdf35dda48ac1a
+summary_at: '2026-05-05T10:13:59.110Z'
 ---
 **By Sanjeet Kashyap**
 

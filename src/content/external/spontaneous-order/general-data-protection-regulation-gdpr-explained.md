@@ -2,20 +2,63 @@
 title: General Data Protection Regulation (GDPR) Explained
 original_url: >-
   https://www.spontaneousorder.in/p/general-data-protection-regulation-gdpr-explained
+author: Spontaneous Order
 published_at: '2018-08-06T09:40:06.000Z'
 ingested_at: '2026-05-05T08:31:42.522Z'
-source_hash: 038e5d3072ca662e511c83341551626d65861c3102ca18801ac2e72746db7635
-author: Spontaneous Order
 excerpt: >-
   In the midst of a global uproar against injudicious use of personal data by
   businesses and public organizations, the European Parliament adopted the
   General Data Protection Regulation(GDPR) in April 2016, which was enforced on
   25 May 2018 after a 2 year..
+summary: >-
+  The General Data Protection Regulation (GDPR), adopted by the European
+  Parliament in April 2016 and enforced from May 25, 2018, replaces the 1995
+  Data Protection Directive and applies to any enterprise processing data of EU
+  citizens, regardless of location. Motivated by scandals like Cambridge
+  Analytica's unauthorized harvesting of 87 million Facebook users' data to
+  influence the 2016 US elections and the projected growth of the digital
+  universe to 44 zettabytes by 2020, GDPR emphasizes individual consent and
+  control over personal data to prevent abuse. Key provisions include clear,
+  jargon-free consent that's easy to withdraw; 72-hour breach notifications;
+  rights to access, portability, and erasure ('right to be forgotten'); privacy
+  by design with high default privacy settings and minimal data collection; and
+  mandatory data protection officers for large-scale processors. Non-compliance
+  risks fines up to €20 million or 4% of global annual turnover, enforced by
+  national Supervisory Authorities coordinated by a European board. While
+  compliance costs average $550,000—burdening startups more than giants like
+  Google—GDPR affects global businesses given the EU's 24% share of world GDP.
+  From a classical-liberal viewpoint valuing individual rights, it sets a vital
+  precedent ensuring people control their data amid Big Data's revolutionary
+  potential, designing processing to serve mankind rather than unchecked
+  corporate profiteering.
+key_points:
+  - >-
+    GDPR requires enterprises to obtain clear, revocable consent for processing
+    EU citizens' personal data and implement rights like access, portability,
+    and erasure.
+  - >-
+    Data breaches must be notified to authorities and affected individuals
+    within 72 hours, with privacy embedded by design and default high-privacy
+    settings.
+  - >-
+    Non-compliant firms face fines up to €20 million or 4% of global annual
+    turnover, whichever is higher.
+  - >-
+    Compliance costs around $550,000 disproportionately challenge smaller
+    businesses despite the EU's 24% global GDP share.
+topics:
+  - gdpr
+  - data-privacy
+  - personal-data-rights
+  - privacy-regulation
 tags:
   - Data Protection
   - GDPR
   - privacy law
   - General Data Protection Regulation
+source_hash: 038e5d3072ca662e511c83341551626d65861c3102ca18801ac2e72746db7635
+summary_hash: 038e5d3072ca662e511c83341551626d65861c3102ca18801ac2e72746db7635
+summary_at: '2026-05-05T10:02:55.217Z'
 ---
 **By Sunaina Mathur**
 

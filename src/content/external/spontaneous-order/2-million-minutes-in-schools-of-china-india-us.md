@@ -2,18 +2,35 @@
 title: '2 Million Minutes in Schools of China, India, US'
 original_url: >-
   https://www.spontaneousorder.in/p/2-million-minutes-in-schools-of-china-india-us
+author: Spontaneous Order
 published_at: '2009-01-10T15:57:23.000Z'
 ingested_at: '2026-05-05T08:31:42.668Z'
-source_hash: 616e056c88d355d74202b79ea3115752173de7f51162e3313d0672b976b5781b
-author: Spontaneous Order
 excerpt: >-
   Check out this great DVD 2 Million Minutes! I learned about it thanks to
   Sudhakar: “The producer of the DVD, Bob Compton, is a venture capitalist and
   an angel investor in several technology companies worldwide. His venture
   funding includes several compa
+summary: >-
+  This short post recommends the documentary DVD '2 Million Minutes,' produced
+  by venture capitalist Bob Compton, who was impressed by the general knowledge
+  of employees at his Indian and Chinese portfolio companies and investigated
+  their K-12 education systems. The film compares the roughly 2 million minutes
+  a typical high school student spends over four years in the US, China, and
+  India. No substantive argument is presented beyond the endorsement.
+key_points:
+  - >-
+    Recommends purchasing and watching the '2 Million Minutes' documentary on
+    high school education in US, China, and India.
+topics:
+  - education
+  - k-12-education
+  - international-comparison
 tags:
   - K-12 education system
   - comparative school systems
+source_hash: 616e056c88d355d74202b79ea3115752173de7f51162e3313d0672b976b5781b
+summary_hash: 616e056c88d355d74202b79ea3115752173de7f51162e3313d0672b976b5781b
+summary_at: '2026-05-05T08:45:13.653Z'
 ---
 **By Parth Shah**
 

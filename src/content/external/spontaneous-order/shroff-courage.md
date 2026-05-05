@@ -1,20 +1,57 @@
 ---
 title: '#ThrowbackThursday: A D Shroff— Businessmen Must Pick Up Courage (1962)'
 original_url: 'https://www.spontaneousorder.in/p/shroff-courage'
+author: Spontaneous Order
 published_at: '2016-01-07T14:05:59.000Z'
 ingested_at: '2026-05-05T08:31:42.565Z'
-source_hash: 2871b0318bd9020c4492b1c185e0877b01819e03da9ef8614d74b5ada52b606c
-author: Spontaneous Order
 excerpt: >-
   In 1962, around the time of the time of the General Elections–there was
   considerable public interest regarding the place of private enterprise in
   politics. The Forum of Free Enterprise arranged a symposium to discuss these
   matters. The following speech
+summary: >-
+  In his 1962 speech at a Forum of Free Enterprise symposium amid general
+  elections, A D Shroff urges Indian businessmen to overcome moral cowardice and
+  actively engage in politics to safeguard private enterprise against excessive
+  government interference. He contrasts pre-independence complaints of
+  governmental neglect with the current overreach, where politics permeates
+  business through pervasive laws like the Company Law and rapidly expanding
+  labor legislation, frustrating economic growth. Shroff recalls businessmen's
+  past participation in the independence struggle, including his own role in the
+  Indian Merchants’ Chamber sponsoring a boycott of British goods, and praises a
+  recent businessman's call for organized opposition against the ruling party's
+  dominance, decrying the fascist-like notion that 'everything for the State,
+  nothing outside the State.' He credits the Forum of Free Enterprise, which he
+  founded in 1956, for instilling courage in some businessmen. Ultimately,
+  Shroff warns that without bold, independent action to assess and eliminate
+  unnecessary laws, private enterprise—and thus democracy—will perish, as the
+  two are inextricably linked.
+key_points:
+  - >-
+    Businessmen must shed moral cowardice and engage independently in politics
+    to defend private enterprise from state overreach.
+  - >-
+    Pervasive legislation like Company Law and labor laws hampers industry,
+    requiring realistic assessment and removal of unnecessary rules.
+  - >-
+    Free enterprise and democracy are interlinked and cannot survive without
+    each other.
+  - >-
+    The Forum of Free Enterprise, founded in 1956, has begun instilling courage
+    in businessmen to voice opinions against ruling party dominance.
+topics:
+  - free-enterprise
+  - business-politics
+  - state-intervention
+  - indian-liberalism
 tags:
   - Indian Liberal Tradtition
   - A D Shroff
   - Libertarian Scholars
   - IndianLiberals.in
+source_hash: 2871b0318bd9020c4492b1c185e0877b01819e03da9ef8614d74b5ada52b606c
+summary_hash: 2871b0318bd9020c4492b1c185e0877b01819e03da9ef8614d74b5ada52b606c
+summary_at: '2026-05-05T11:44:10.266Z'
 ---
 **By Ujwal Batra**
 

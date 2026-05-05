@@ -1,15 +1,52 @@
 ---
 title: 'India, Hungry Kya?'
 original_url: 'https://www.spontaneousorder.in/p/india-hungry-kya'
+author: Spontaneous Order
 published_at: '2011-06-02T20:24:30.000Z'
 ingested_at: '2026-05-05T08:31:42.644Z'
-source_hash: e86d5d2e69520dbaf0c26c81696ba8a420cc4627ae3acfcdd1dbb9c75dea174c
-author: Spontaneous Order
 excerpt: >-
   By: Ishu Kumar (Communicating Reality Intern 2011, CCS) In 2006, 44 percent of
   children under age five in India suffered from malnutrition; the number for
   Somalia was 33 percent! This is based on the WHO definition that a child is
   considered suffering...
+summary: >-
+  In 2006, 44% of Indian children under five suffered from malnutrition—higher
+  than Somalia's 33% and far above developed nations like Singapore (3.3%) and
+  Germany (1.1%)—despite India producing enough food and hosting 25% of the
+  world's hungry poor, concentrated in states like Madhya Pradesh, Bihar, and
+  Uttar Pradesh. The author critiques Oxfam's 'hunger-free' campaigns and
+  Amartya Sen's focus on pushing people above starvation, contrasting it with
+  classical-liberal emphasis on wealth creation and Frédéric Bastiat's insight
+  into how free markets invisibly coordinate abundance, as in 19th-century
+  Paris. India's high regulation—via the Essential Commodities Act restricting
+  food flows, limits on private agricultural investment, and poor economic
+  freedom ranking—causes the paradox of hunger amid 40% wastage of fruits and
+  vegetables, as noted by Kamal Nath in 2010. Farmers lack technology and
+  entrepreneurship without private capital. The solution: deregulate to unleash
+  village entrepreneurship, enable private investments in cold storage,
+  packaging, transport, and retail, achieving not mere food security but
+  opulence with consumer choice, beyond PDS rice allocations.
+key_points:
+  - >-
+    India's 44% child malnutrition rate in 2006 exceeds Somalia's 33% due to
+    regulatory barriers, not food scarcity.
+  - >-
+    40% of fruits and vegetables rot before reaching consumers because of
+    distribution restrictions and lack of private investment.
+  - >-
+    Essential Commodities Act and limits on private agriculture hinder
+    productivity and free food flows across regions.
+  - >-
+    Deregulate agriculture and retail to spur entrepreneurship, technology, and
+    infrastructure for food opulence with variety.
+  - >-
+    Free markets minimize wastage and coordinate supply via the invisible hand,
+    unlike government interventions.
+topics:
+  - child-malnutrition
+  - agriculture-regulation
+  - economic-freedom
+  - food-wastage
 tags:
   - India
   - hunger-free campaign
@@ -19,6 +56,9 @@ tags:
   - agriculture
   - corruption
   - grains
+source_hash: e86d5d2e69520dbaf0c26c81696ba8a420cc4627ae3acfcdd1dbb9c75dea174c
+summary_hash: e86d5d2e69520dbaf0c26c81696ba8a420cc4627ae3acfcdd1dbb9c75dea174c
+summary_at: '2026-05-05T10:19:24.228Z'
 ---
 **By Vipin**
 

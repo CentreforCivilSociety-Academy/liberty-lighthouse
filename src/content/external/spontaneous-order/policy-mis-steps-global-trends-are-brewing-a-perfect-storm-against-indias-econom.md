@@ -4,20 +4,53 @@ title: >-
   Economic Growth Prospects
 original_url: >-
   https://www.spontaneousorder.in/p/policy-mis-steps-global-trends-are-brewing-a-perfect-storm-against-indias-economic-growth-prospects
+author: Spontaneous Order
 published_at: '2012-05-11T15:32:52.000Z'
 ingested_at: '2026-05-05T08:31:42.728Z'
-source_hash: ddc6f77e7f6242aef7653815cf6373392ebd116cb048b03b603a369b800a3b14
-author: Spontaneous Order
 excerpt: >-
   Moves by Finance Minister Pranab Mukherjee are bemusing, to say the least.
   Indeed. it is not uncharitable to wonder if the Ministry is lacking
   individuals with a grasp on basic economics. As it is, no one seemed to
   consider the impact on recent policies..
+summary: >-
+  Christopher Lingle criticizes Finance Minister Pranab Mukherjee's policies for
+  lacking basic economic understanding, undermining tax revenues needed to
+  address India's large fiscal deficit and deterring foreign direct investment
+  (FDI) essential to offset the current account deficit. Retroactive amendments
+  to tax laws and the General Anti-Avoidance Rules (GAAR)—which presume tax
+  avoidance unless proven otherwise, inverting the principle of innocence until
+  guilt is proven—signaled to investors to avoid India. These moves contributed
+  to a collapsing rupee, capital flight, and stock market correction. While the
+  government backpedaled by delaying GAAR for one year, halving capital gains
+  tax on private equity investments, and withdrawing the import levy on gold
+  jewellery (though retaining a 4% hike on gold imports), Lingle argues such
+  initial folly amid receding global risk appetite foreshadows a 'perfect storm'
+  against India's growth prospects. He portrays policymakers as bemusedly
+  oblivious to the damage from their interventions, highlighting a
+  classical-liberal disdain for presumptive, anti-investor regulations.
+key_points:
+  - >-
+    Retroactive tax amendments and GAAR presume tax avoidance, deterring FDI
+    needed for India's current account deficit.
+  - GAAR inverts justice by deeming taxpayers guilty until proven innocent.
+  - >-
+    Government responded to rupee collapse, capital flight, and stock correction
+    by delaying GAAR one year, halving private equity capital gains tax, and
+    withdrawing gold jewellery import levy.
+  - Policy missteps amid global risk aversion threaten India's economic growth.
+topics:
+  - tax-policy
+  - fdi
+  - fiscal-deficit
+  - economic-growth
 tags:
   - Indian tax law
   - Ministry of Finance
   - FDI
   - GAAR
+source_hash: ddc6f77e7f6242aef7653815cf6373392ebd116cb048b03b603a369b800a3b14
+summary_hash: ddc6f77e7f6242aef7653815cf6373392ebd116cb048b03b603a369b800a3b14
+summary_at: '2026-05-05T11:14:34.918Z'
 ---
 **By Christopher Lingle**
 

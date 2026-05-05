@@ -1,19 +1,55 @@
 ---
 title: Community management of forests
 original_url: 'https://www.spontaneousorder.in/p/community-management-of-forests'
+author: Spontaneous Order
 published_at: '2004-10-04T02:53:16.000Z'
 ingested_at: '2026-05-05T08:31:42.697Z'
-source_hash: 830348f0a3b6d337ff5b6663e1dbe089d12a6cc8504d9a8f34dd7431c79b7abf
-author: Spontaneous Order
 excerpt: >-
   I am currently working on a project exploring the community management of
   natural resources. It’s quite interesting to see the way people and cultures
   evolve design principles that secure not only livelihood but also sustainable
   use of the resource. Thi
+summary: >-
+  Soumya advocates for community ownership and management of forests, drawing
+  from classical-liberal principles that highlight the tragedy of the commons
+  under government control. Ancient cultures developed sustainable practices
+  like sacred groves across India, treating plants and animals as sacred to
+  instill responsibility for long-term survival. In Coorg, Karnataka, where her
+  grandparents lived for 40 years, tribal animists maintain some of India's
+  thickest forests by worshipping ancestral spirits in them and rotating guard
+  duties among village families for efficient use and preservation. However,
+  when forests fall under government departments like forest and revenue,
+  ownership ambiguity turns them into open-access resources: nobody preserves
+  them, but everybody exploits them, leading to widespread destruction.
+  Government ownership creates scarcity mindset among locals who use forests
+  without conserving them. The solution is to entrust forests to the communities
+  living in and around them, who are best equipped to sustain them while
+  securing livelihoods.
+key_points:
+  - >-
+    Communities have historically sustained forests through cultural practices
+    like sacred groves and animist worship in Coorg.
+  - >-
+    Government ownership creates open-access resources, leading to forest
+    destruction as seen in departmental handovers.
+  - >-
+    Locals dependent on forests are best positioned to manage and conserve them
+    responsibly.
+  - >-
+    Entrust forest ownership and management to communities to prevent razing and
+    ensure sustainability.
+topics:
+  - community-forests
+  - tragedy-of-commons
+  - natural-resource-management
+  - government-failure
 tags:
   - forests
   - community management
   - natural resources
+source_hash: 830348f0a3b6d337ff5b6663e1dbe089d12a6cc8504d9a8f34dd7431c79b7abf
+summary_hash: 830348f0a3b6d337ff5b6663e1dbe089d12a6cc8504d9a8f34dd7431c79b7abf
+summary_at: '2026-05-05T09:25:01.182Z'
 ---
 **By soumya**
 

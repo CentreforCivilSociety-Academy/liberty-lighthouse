@@ -4,15 +4,56 @@ title: >-
   (1920-2020)
 original_url: >-
   https://www.spontaneousorder.in/p/sv-chitti-babu-academician-educationist-and-reformer-par-excellence-1920-2020
+author: Spontaneous Order
 published_at: '2020-06-18T12:27:29.000Z'
 ingested_at: '2026-05-05T08:31:42.409Z'
-source_hash: 8109956c860040565d56aee122392dfe014a2af6b6442a778725ec814cdcf1fa
-author: Spontaneous Order
 excerpt: >-
   India’s contemporary society is such that it scarcely pays attention to
   someone’s multi-decadal achievements, to one who is a doyen in many fields –
   unless he or she belongs to the ranks of popular politicians, cine actors,
   fiction writers, director
+summary: >-
+  SV Chitti Babu (1920-2020), a lifelong education reformer and
+  classical-liberal policy advocate, dedicated over six decades to enhancing
+  India's education system, particularly in Tamil Nadu, by championing equality
+  of opportunities, functional autonomy for institutions, and talent development
+  over rote socialization. As Vice-Chancellor of Madurai Kamaraj University
+  (1975-1978) and Annamalai University (1980-1986), he pioneered distance
+  learning, semester systems, and internal assessments—the first in Tamil Nadu
+  for higher education. He headed key committees, including one in 1991
+  regulating unrecognised English-medium nursery schools amid their
+  proliferation, and post-2004 Kumbakonam fire commission prescribing
+  infrastructure, land area, and teacher salaries for private schools, leading
+  to closure of 746 non-compliant schools affecting lakhs of students. Despite
+  controversies and a 2009 state law on fee fixation, he opposed rigid controls
+  per Supreme Court rulings, emphasizing institutional autonomy for quality and
+  resource allocation. A prolific writer with over 100 articles, books like
+  'Higher Education in India: Issues and Imperatives' (2009), and advocacy for
+  mother-tongue primary education to foster cognitive growth, Chitti Babu's
+  pragmatic interventions addressed market failures while inspiring ongoing
+  reforms.
+key_points:
+  - >-
+    Chitti Babu introduced distance learning, semester systems, and internal
+    assessments as the first VC to do so in Tamil Nadu higher education.
+  - >-
+    He led committees recommending regulations for private nursery schools in
+    1991 and post-2004 school fire safety and fee structures, resulting in 746
+    school closures.
+  - >-
+    Advocated functional autonomy for educational institutions to ensure quality
+    and productive resource allocation.
+  - >-
+    Promoted mother-tongue instruction in primary schools to nurture children's
+    cognitive development.
+  - >-
+    Published over 100 scholarly articles and books urging leadership-focused
+    higher education reforms.
+topics:
+  - education-reform
+  - higher-education
+  - school-regulation
+  - distance-education
 tags:
   - education of choice
   - education reforms
@@ -21,6 +62,9 @@ tags:
   - Indian Liberals. Libertarian Scholars
   - Indian Education System
   - reform
+source_hash: 8109956c860040565d56aee122392dfe014a2af6b6442a778725ec814cdcf1fa
+summary_hash: 8109956c860040565d56aee122392dfe014a2af6b6442a778725ec814cdcf1fa
+summary_at: '2026-05-05T12:13:34.438Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

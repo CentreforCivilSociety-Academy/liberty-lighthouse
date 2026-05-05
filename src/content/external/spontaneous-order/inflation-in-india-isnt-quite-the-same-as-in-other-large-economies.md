@@ -2,20 +2,57 @@
 title: Inflation in India isn’t quite the same as in other large economies
 original_url: >-
   https://www.spontaneousorder.in/p/inflation-in-india-isnt-quite-the-same-as-in-other-large-economies
+author: Spontaneous Order
 published_at: '2021-09-01T13:11:34.000Z'
 ingested_at: '2026-05-05T08:31:42.294Z'
-source_hash: 1203875f62ce813914d793059359db736eece49458b78dacae64bcd409189328
-author: Spontaneous Order
 excerpt: >-
   Indian inflation has been outside the tolerance band of the Reserve Bank of
   India (RBI) for 10 out of the 16 months since April 2020, which was the first
   full month after the pandemic hit economic activity. The new monetary policy
   framework says that th..
+summary: >-
+  Indian inflation has persistently exceeded the RBI's 4% target with a 6% upper
+  tolerance band, outside the band for 10 of 16 months since April 2020,
+  technically failing the monetary policy framework despite unreliable lockdown
+  data. After brief respites, CPI inflation remains elevated around 5-6%, with
+  RBI projecting 5.9% in Q2 FY22, falling to 5.3% in Q3, then rising to 5.8% in
+  Q4, aided by high base effects. Globally, supply disruptions rather than
+  demand drive pressures, with India's rate higher than most major economies but
+  below Brazil, Mexico, Turkey, Pakistan, Russia, and far from Argentina's 51%
+  in July; notably, 24 of 35 targeted economies exceeded targets that month.
+  Unlike peers, India's inflation was high throughout the pandemic, not just
+  post-recovery. Rising expectations question if RBI has shifted to a de facto
+  6% target; MPC minutes distinguish target from band. RBI must reaffirm 4%
+  commitment as pandemic eases, pursuing gradual normalization—money-market
+  rates to corridor, reverse repo hike, neutral stance, then repo increase—to
+  balance recovery without entrenching inflation.
+key_points:
+  - >-
+    Indian CPI inflation exceeded RBI's tolerance band for 10 of 16 months since
+    April 2020.
+  - >-
+    India's inflation remained high during the pandemic, unlike most economies
+    where it surged post-recovery.
+  - >-
+    RBI should explicitly reaffirm its 4% inflation target to anchor rising
+    expectations, distinguishing it from the 6% upper band.
+  - >-
+    Monetary policy normalization will proceed gradually in four steps starting
+    with money-market rates.
+  - 'In July 2021, 24 of 35 major economies with inflation targets exceeded them.'
+topics:
+  - indian-inflation
+  - monetary-policy
+  - rbi
+  - inflation-targeting
 tags:
   - RBI
   - inflation
   - economy
   - pandemic
+source_hash: 1203875f62ce813914d793059359db736eece49458b78dacae64bcd409189328
+summary_hash: 1203875f62ce813914d793059359db736eece49458b78dacae64bcd409189328
+summary_at: '2026-05-05T10:24:54.218Z'
 ---
 **By Niranjan Rajadhyaksha**
 

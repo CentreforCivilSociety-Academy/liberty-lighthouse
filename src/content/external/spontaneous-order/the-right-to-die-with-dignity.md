@@ -1,20 +1,64 @@
 ---
 title: The Right to Die with Dignity
 original_url: 'https://www.spontaneousorder.in/p/the-right-to-die-with-dignity'
+author: Spontaneous Order
 published_at: '2018-08-03T12:54:24.000Z'
 ingested_at: '2026-05-05T08:31:42.532Z'
-source_hash: 4b735aba9071f8f9675333ad77570a7858fbc5abb4ef6cdc97abd22ed0828371
-author: Spontaneous Order
 excerpt: >-
   Our society was founded in May 1981. It was the first of its kind in India,
   and as soon as we were established, we applied for affiliation to the World
   Federation. We are happy to join this society of enlightened, decent people.
   About six months before ..
+summary: >-
+  Minoo Masani, advocating from a classical-liberal perspective, recounts the
+  founding of India's first Society for the Right to Die with Dignity in Bombay
+  in May 1981, which promptly affiliated with the World Federation. He
+  highlights the case of Gopal Mandalik, an esteemed 80-year-old social worker
+  from Pune who, not terminally ill but feeling his life's mission complete,
+  wrote to Prime Ministers Morarji Desai and Indira Gandhi in 1979 requesting
+  decriminalization of suicide under India's Penal Code. Receiving no reply
+  after two years, Mandalik ended his life in 1981, leaving a poignant
+  declaration regretting the unusability of his donated eyes and kidneys due to
+  poisoning. Masani notes strong support from Indian doctors for legalizing
+  voluntary euthanasia to act openly, and dismisses religious opposition:
+  Hinduism's sanyas tradition supports retirement from life after fulfilling
+  duties, while the Catholic Church permits withdrawing treatment. He counters
+  innate conservatism invoking abstract sanctity of life or karma by emphasizing
+  voluntariness and individual sovereignty, quoting 'Whose Life Is It Anyway?':
+  society should neither force life nor death against one's choice, at least in
+  terminal illness and beyond. Masani concludes public opinion is volatile and
+  often more amenable than perceived, citing unanimous parliamentary support for
+  the 1971 Medical Termination of Pregnancy Bill after initial fears of
+  backlash.
+key_points:
+  - >-
+    India's first Society for the Right to Die with Dignity was founded in
+    Bombay in May 1981 amid calls to decriminalize suicide.
+  - >-
+    Gopal Mandalik, aged over 80 and not terminally ill, suicided in 1981 after
+    unanswered pleas to two Prime Ministers to legalize his choice.
+  - >-
+    Indian doctors largely support legal voluntary euthanasia to practice
+    humanely without fear.
+  - >-
+    Hindu sanyas tradition aligns with retiring from life after duties,
+    countering perceived religious opposition.
+  - >-
+    Public opinion shifted rapidly on abortion legalization in 1971, suggesting
+    similar potential for euthanasia.
+topics:
+  - euthanasia
+  - right-to-die
+  - voluntary-choice
+  - public-opinion
 tags:
   - Minoo Masani
   - Euthanasia
   - Liberalism
   - voluntary euthanasia
+source_hash: 4b735aba9071f8f9675333ad77570a7858fbc5abb4ef6cdc97abd22ed0828371
+summary_hash: 4b735aba9071f8f9675333ad77570a7858fbc5abb4ef6cdc97abd22ed0828371
+summary_at: '2026-05-05T12:35:10.431Z'
 ---
 **By Spontaneous Order**
 

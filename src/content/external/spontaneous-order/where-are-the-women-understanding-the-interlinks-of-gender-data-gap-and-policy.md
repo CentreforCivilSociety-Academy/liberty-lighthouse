@@ -4,20 +4,67 @@ title: >-
   Policy
 original_url: >-
   https://www.spontaneousorder.in/p/where-are-the-women-understanding-the-interlinks-of-gender-data-gap-and-policy
+author: Spontaneous Order
 published_at: '2021-02-17T13:44:59.000Z'
 ingested_at: '2026-05-05T08:31:42.348Z'
-source_hash: 6ab724d4aca581bff65e1e33c48a0823dc855d73f7698a056419582a4e5d1d08
-author: Spontaneous Order
 excerpt: >-
   Data helps us understand the world around us. From a doctor’s diagnosis to the
   Instagram algorithm, everything is powered by data. It bridges the gap between
   curiosity and knowledge. But there are some gaps that data cannot bridge. Lack
   of data on women
+summary: >-
+  The post argues that a pervasive gender data gap—lack of sex-disaggregated
+  data on women's issues like employment, sanitation, maternal health, crimes,
+  and asset ownership—leads to 'gender-blind' policies that fail to address
+  women's constraints, stagnating progress for half of India's population. India
+  ranks 112th in the Global Gender Gap Index 2020, with women's workforce
+  participation at a mere 20.3%, exacerbated by absent sex-disaggregated data in
+  programs like MGNREGA, Skill India, NRLM, PMMY, and sanitation schemes.
+  Infrequent data, such as decadal census figures for Beti Bachao Beti Padhao's
+  child sex ratio, hinders outcome tracking. Even in the US, scarce data on
+  violence against women impedes policy design. The Mewar Angithi example
+  illustrates success: an NGO's consultation with Rajasthan women yielded a
+  cheap, user-friendly cookstove reducing smoke and health hazards, unlike
+  government high-efficiency stoves that ignored women's needs. Government
+  failures, like post-2001 Gujarat earthquake homes without kitchens due to
+  male-only planning, underscore the need for women's inclusion. From a
+  classical-liberal lens, the author calls for a 'data revolution'—intentional
+  sex-disaggregated data collection, analysis, and women's involvement at every
+  stage from data to implementation—to enable evidence-based, gender-specific
+  policies fostering accountability and effective development.
+key_points:
+  - >-
+    Lack of sex-disaggregated data in Indian programs like MGNREGA, Skill India,
+    NRLM, and PMMY obscures whether women benefit equally and hinders targeted
+    improvements.
+  - >-
+    Infrequent data collection, such as decadal census for Beti Bachao Beti
+    Padhao, prevents real-time tracking of scheme effectiveness on child sex
+    ratios.
+  - >-
+    Consulting women in data collection, as Climate Healers did for Mewar
+    Angithi, produced a successful cookstove addressing Rajasthan women's
+    cooking needs, unlike government failures.
+  - >-
+    Policymakers must intentionally collect and analyze sex-disaggregated data
+    while including women in decision-making to shift from gender-blind to
+    gender-specific policies.
+  - >-
+    Closing the gender data gap requires treating women not as 'other' but as
+    equal participants, enabling just development across domains.
+topics:
+  - gender-data-gap
+  - sex-disaggregated-data
+  - women-in-policy
+  - indian-welfare-programs
 tags:
   - Gender Equality
   - Indian women
   - Missing data
   - policy making
+source_hash: 6ab724d4aca581bff65e1e33c48a0823dc855d73f7698a056419582a4e5d1d08
+summary_hash: 6ab724d4aca581bff65e1e33c48a0823dc855d73f7698a056419582a4e5d1d08
+summary_at: '2026-05-05T13:00:23.535Z'
 ---
 **By Harshvi Trivedi**
 

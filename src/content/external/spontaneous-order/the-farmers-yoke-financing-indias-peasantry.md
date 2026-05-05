@@ -1,19 +1,62 @@
 ---
 title: 'The Farmer’s Yoke: Financing India’s Peasantry'
 original_url: 'https://www.spontaneousorder.in/p/the-farmers-yoke-financing-indias-peasantry'
+author: Spontaneous Order
 published_at: '2018-08-06T11:00:00.000Z'
 ingested_at: '2026-05-05T08:31:42.517Z'
-source_hash: d2acbad3436725748e2c21c16ef800e72a3e68ab167870e022f770d249e86bf2
-author: Spontaneous Order
 excerpt: >-
   Over 12000 farmers have committed suicide in India each year since 2013, with
   60% of them driven by high debt or bankruptcy. Since independence, persistent
   endeavours by the Government of India have aimed to uplift the poor by
   providing a level playing ..
+summary: >-
+  India's peasantry faces a crisis with over 12,000 farmer suicides annually
+  since 2013, 60% due to debt or bankruptcy, despite government financial
+  inclusion efforts covering 30.84 crore beneficiaries and generating INR 72,000
+  crore in deposits. These initiatives falter due to high interest rates, poor
+  infrastructure, and low financial literacy, with formal farm credit growth at
+  a tepid 4.9% even as SBI allocates only 10% of its INR 13.4 lakh crore loan
+  book to rural areas. High risks from lacking warehouses, credit bureaus,
+  irrigation, and vulnerability to weather and price volatility justify risk
+  premiums, while 86% of farmers hold one hectare or less, relying on informal
+  credit (41% of total) amid land title issues and politicized loan waivers that
+  erode bank lending. From a classical-liberal viewpoint, post-independence
+  interventions like abolishing zamindari have failed to break rural
+  hierarchies, and priority sector lending's 50% agricultural credit-to-GDP
+  ratio falls short of the 70% needed for depth. Solutions include a single
+  regulator for MFIs, risk-reducing infrastructure, biometric ATMs and mobile
+  wallets to eliminate middlemen, financial literacy, insurance innovation, and
+  leveraging India Post's 1.4 lakh rural branches. Only addressing these policy
+  and implementation gaps will deepen credit markets, lower rates, and achieve
+  goals like doubling farm incomes.
+key_points:
+  - >-
+    Over 12,000 farmers suicide yearly since 2013, with 60% from debt,
+    highlighting financial inclusion failures.
+  - >-
+    86% of farmers have ≤1 hectare land, driving 41% informal credit reliance
+    and tepid formal growth at 4.9%.
+  - >-
+    Build infrastructure like warehouses and credit bureaus to cut agricultural
+    lending risks and interest rates.
+  - >-
+    Deploy biometric ATMs and mobile wallets to bypass middlemen in benefit
+    delivery.
+  - >-
+    Revamp priority sector lending to reach 70% credit-to-GDP ratio and enable
+    insurance product innovation.
+topics:
+  - financial-inclusion
+  - agricultural-credit
+  - farmer-suicides
+  - rural-banking
 tags:
   - Farmer income
   - poverty
   - Poverty in India
+source_hash: d2acbad3436725748e2c21c16ef800e72a3e68ab167870e022f770d249e86bf2
+summary_hash: d2acbad3436725748e2c21c16ef800e72a3e68ab167870e022f770d249e86bf2
+summary_at: '2026-05-05T12:26:09.571Z'
 ---
 **By Spontaneous Order**
 

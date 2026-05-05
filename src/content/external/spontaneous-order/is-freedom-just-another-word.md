@@ -1,15 +1,50 @@
 ---
 title: Is Freedom Just Another Word?
 original_url: 'https://www.spontaneousorder.in/p/is-freedom-just-another-word'
+author: Spontaneous Order
 published_at: '2012-05-10T14:58:59.000Z'
 ingested_at: '2026-05-05T08:31:42.620Z'
-source_hash: 88ff4e6aef4e23d836a2d5234500a1e79cd028bb0507b25becd0201554c6f416
-author: Spontaneous Order
 excerpt: >-
   According to the Harvard Gazette, “Esther Duflo, a development economist at
   Massachusetts Institute of Technology (MIT), said during the year’s first
   Tanner Lecture on Wednesday that the world’s rich prosper in part because they
   have less freedom to
+summary: >-
+  Andrew Humphries critiques Esther Duflo's claim that prosperity in rich
+  countries stems from less freedom to choose basic comforts, calling it
+  'flimflam.' He argues, drawing on F.A. Hayek, that wealth arises from division
+  of labor using others' knowledge, but freedom—not government force—enables
+  developed countries to solve decision costs through competition, freer
+  markets, mobility, and accountable local government. Entrepreneurs respond to
+  preferences for reduced learning and choice burdens by offering packages like
+  flight price aggregators (e.g., MakeMyTrip.com), trusted brands, quality
+  alerts, and meal plans. Poor people in developing countries suffer not from
+  too many options but too few, as markets and entrepreneurs are hampered by
+  restrictions. Duflo's boiling water example highlights real costs, but
+  government failure to provide clean water creates demand met by private
+  bottled water markets in India, cheaper than boiling. Humphries concludes that
+  the poor need freer markets, migration freedom, privatization of public goods
+  where possible, and more accountable government elsewhere to spark innovation
+  providing better, lower-cost options including decision aids.
+key_points:
+  - >-
+    Freedom and competitive markets in developed countries reduce decision and
+    knowledge costs via entrepreneurship and innovation.
+  - >-
+    Poverty in developing countries stems from too few options due to restricted
+    markets, not excess choices.
+  - >-
+    Private bottled water markets in India already provide clean water more
+    affordably than boiling government-supplied alternatives.
+  - >-
+    Poor people require freer markets, migration freedom, privatization of
+    public goods, and accountable government to foster wealth-creating
+    innovation.
+topics:
+  - free-markets
+  - economic-freedom
+  - poverty-reduction
+  - entrepreneurship
 tags:
   - development-conscious governments
   - division of labor
@@ -18,6 +53,9 @@ tags:
   - F.A. Hayek
   - Esther Duflo
   - MIT
+source_hash: 88ff4e6aef4e23d836a2d5234500a1e79cd028bb0507b25becd0201554c6f416
+summary_hash: 88ff4e6aef4e23d836a2d5234500a1e79cd028bb0507b25becd0201554c6f416
+summary_at: '2026-05-05T10:28:12.680Z'
 ---
 **By Andrew Humphries**
 

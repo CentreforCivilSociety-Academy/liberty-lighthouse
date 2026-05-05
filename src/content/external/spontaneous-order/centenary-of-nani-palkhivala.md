@@ -1,20 +1,61 @@
 ---
 title: Centenary of Liberal Thinker Nani Palkhivala
 original_url: 'https://www.spontaneousorder.in/p/centenary-of-nani-palkhivala'
+author: Spontaneous Order
 published_at: '2020-01-20T18:31:12.000Z'
 ingested_at: '2026-05-05T08:31:42.449Z'
-source_hash: 86520b857b3d38cb319a155f31f793f8fbb870af3ba70b28f463fb8c0366b3f3
-author: Spontaneous Order
 excerpt: >-
   In the sensational waves of contemporary debates on the economy, constitution,
   and facets of liberal democracy, the common threads invariably cut through
   these fields are rarely packed with thoughts of eminent liberal thinkers like
   Nani Palkhivala who w..
+summary: >-
+  This post celebrates the 100th birth anniversary of Nani Palkhivala (born
+  January 16, 1920, in Bombay; died 2002), portraying him as a towering
+  classical-liberal figure in India's economy, constitutionalism, and democracy.
+  Overcoming a stammer, he earned degrees from St. Xavier's College (1942) and
+  Government Law College (1943), becoming a renowned lawyer, orator, writer, and
+  US Ambassador (1977-79). Palkhivala criticized India's socialist command
+  economy since 1958, predicting its failure, and founded the Forum for Free
+  Enterprises, delivering annual post-budget speeches that grew from a hotel
+  room to over 100,000 attendees by 1994. His books, including 'We, the People'
+  (1984), 'We, the Nation' (1994), and others like 'The Highest Taxed Nation'
+  (1965), advocated free enterprise, individual liberties, private property, and
+  constitutional morality rooted in dharma. He defended citizens' rights in
+  landmark cases and outlined Five Doctrines emphasizing wealth creation via
+  property rights, active truth-seeking against falsehood, dharma in governance,
+  and national integration through inter-faith harmony. The author urges
+  millennials to study his works to embody liberal principles, ethical
+  governance, and prosperity for all.
+key_points:
+  - >-
+    Nani Palkhivala launched annual post-budget speeches in 1958 via Forum for
+    Free Enterprises to critique socialist policies and promote free-market
+    solutions, attracting up to a lakh attendees by 1994.
+  - >-
+    He advocated retaining constitutional property rights as essential against
+    India's 'economic fanaticism' to enable wealth creation and economic
+    progress.
+  - >-
+    Palkhivala's Five Doctrines stress distribution of wealth through individual
+    enterprise, constitutional morality via dharma, and national integration
+    rooted in inter-faith harmony.
+  - >-
+    Declining Swatantra Party leadership in 1971, he prioritized intellectual
+    independence to fight for civil liberties and responsible government.
+topics:
+  - nani-palkhivala
+  - indian-liberal-tradition
+  - free-enterprise
+  - constitutionalism
 tags:
   - Indian Liberalism
   - Nani Palkhivala
   - Indian Liberal Tradition
   - Indian liberals
+source_hash: 86520b857b3d38cb319a155f31f793f8fbb870af3ba70b28f463fb8c0366b3f3
+summary_hash: 86520b857b3d38cb319a155f31f793f8fbb870af3ba70b28f463fb8c0366b3f3
+summary_at: '2026-05-05T09:18:21.297Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

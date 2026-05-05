@@ -2,20 +2,57 @@
 title: The whole is greater than the sum of its parts…
 original_url: >-
   https://www.spontaneousorder.in/p/the-whole-is-greater-than-the-sum-of-its-parts
+author: Spontaneous Order
 published_at: '2004-11-18T04:11:53.000Z'
 ingested_at: '2026-05-05T08:31:42.694Z'
-source_hash: 424c00a8d22d5f01a06f38c3d5c09a8b1faec84ffb94fe7b7e4bae7326df5dc2
-author: Spontaneous Order
 excerpt: >-
   Two weeks after the US presidential elections, postmortem results continue to
   flow forth both in America and abroad. While most are busy examining the
   weaknesses of the Kerry campaign or the hidden strengths of the Bush campaign,
   a few are still trying ..
+summary: >-
+  In post-2004 US election analyses, while media focused on poll discrepancies
+  and campaign strengths, futures markets like Tradesports.com proved remarkably
+  accurate. These markets allowed betting on state-level outcomes and national
+  popular vote percentages, with closing prices on November 1st forming an
+  electoral map that exactly matched the final result—Bush securing the precise
+  electoral vote total via state predictions. Despite some state-level
+  variances, like a closer New Hampshire race than anticipated, the aggregate
+  outperformed expert predictions (e.g., Zogby's Kerry win forecast) and exit
+  polls that misfired in Ohio and elsewhere. From a classical-liberal viewpoint,
+  markets excel by aggregating dispersed individual knowledge at potentially
+  lower cost than large-scale polling. The author notes the US Department of
+  Defense's 2003 attempt to launch a similar futures market for events like
+  Jordanian monarchy overthrow or Arafat assassination, which was scrapped amid
+  left-wing moral outrage. This underscores markets' informational
+  power—'putting one's money where one's mouth is'—yet public resistance
+  persists, viewing prices as tools of oppression rather than information.
+key_points:
+  - >-
+    Tradesports.com's November 1st state contract closing prices produced an
+    electoral map matching the exact 2004 US presidential election outcome.
+  - >-
+    Futures markets aggregated individual knowledge to outperform polls and
+    expert predictions like Zogby's Kerry win forecast.
+  - >-
+    The US DoD's 2003 proposal for a terrorism futures market was abandoned due
+    to moral concerns over trading on sensitive events.
+  - >-
+    Markets demonstrate superior information condensation compared to polling,
+    even at lower cost.
+topics:
+  - prediction-markets
+  - us-elections
+  - information-aggregation
+  - futures-markets
 tags:
   - Bush
   - Us Presidential Elections
   - Kerry
   - '2004'
+source_hash: 424c00a8d22d5f01a06f38c3d5c09a8b1faec84ffb94fe7b7e4bae7326df5dc2
+summary_hash: 424c00a8d22d5f01a06f38c3d5c09a8b1faec84ffb94fe7b7e4bae7326df5dc2
+summary_at: '2026-05-05T12:38:59.882Z'
 ---
 **By Nikhil**
 

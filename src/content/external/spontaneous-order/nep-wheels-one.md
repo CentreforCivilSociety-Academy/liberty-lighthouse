@@ -1,15 +1,51 @@
 ---
 title: 'Introducing NEP on Wheels: Day One-Mathura!'
 original_url: 'https://www.spontaneousorder.in/p/nep-wheels-one'
+author: Spontaneous Order
 published_at: '2015-10-02T17:00:24.000Z'
 ingested_at: '2026-05-05T08:31:42.574Z'
-source_hash: 536c3a62d2e53d332e1c9cba7b4155bb840c451e2b0150c95b54a3c1a7a6774d
-author: Spontaneous Order
 excerpt: >-
   New Education Policy is being formed after 23 long years. India revised its
   education policy back in 1992. Now the not-so-new government has taken up
   Education Policy on their agenda and have started consultations across the
   country, both offline and on..
+summary: >-
+  The post launches 'NEP on Wheels,' a weeklong bicycle journey by young
+  engineer Prashant from Delhi to Lucknow, stopping at five towns—Mathura, Agra,
+  Firozabad, Kanpur, Etawah—to gather grassroots views on India's New Education
+  Policy (NEP), under nationwide consultations after 23 years since 1992. While
+  praising official stakeholder involvement, it argues for broader outreach to
+  uncover diverse perspectives often missed. On Day 1, Prashant cycled 180 km to
+  Mathura. At a Palwal police station, officers unaware of NEP decried
+  widespread exam cheating and called for recruiting qualified teachers while
+  slashing pay for underperformers to ensure delivery. Government school
+  teachers and shy students in Palwal, also unaware, expressed passion for
+  education and noted urban-rural intelligence gaps narrowing via internet
+  access. Private school students in Kosi were outspoken, complaining about
+  irrelevant subjects like physics for aspiring doctors and no timetable space
+  for football amid doubts on sports careers in India. A Mathura ISKCON priest,
+  uniquely aware, urged accountability, quality, moral values, and Bhagwad Gita
+  in curricula. From a classical-liberal viewpoint, the travelogue series
+  highlights unawareness among stakeholders and pushes performance-based
+  reforms, relevance, and values to shape effective policy.
+key_points:
+  - >-
+    Police officers unaware of NEP consultations demand curbs on exam cheating
+    and performance-tied teacher salaries.
+  - >-
+    Government school participants unaware of consultations note urban-rural
+    resource gaps partly bridged by internet.
+  - >-
+    Private school students criticize rigid curricula forcing irrelevant
+    subjects and limiting extracurricular pursuits like football.
+  - >-
+    ISKCON priest advocates NEP-driven accountability, quality education, and
+    value infusion via Bhagwad Gita.
+topics:
+  - new-education-policy
+  - education-reform
+  - teacher-accountability
+  - grassroots-consultations
 tags:
   - Palwal
   - Education
@@ -17,6 +53,9 @@ tags:
   - '#StirEducation'
   - '#ChalkWalk2015'
   - culture
+source_hash: 536c3a62d2e53d332e1c9cba7b4155bb840c451e2b0150c95b54a3c1a7a6774d
+summary_hash: 536c3a62d2e53d332e1c9cba7b4155bb840c451e2b0150c95b54a3c1a7a6774d
+summary_at: '2026-05-05T11:03:09.242Z'
 ---
 **By Guest Author**
 

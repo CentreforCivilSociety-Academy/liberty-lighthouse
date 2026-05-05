@@ -2,15 +2,52 @@
 title: 'Boycotting Chinese goods: a lose-lose situation'
 original_url: >-
   https://www.spontaneousorder.in/p/boycotting-chinese-goods-a-lose-lose-situation
+author: Spontaneous Order
 published_at: '2020-06-22T18:16:41.000Z'
 ingested_at: '2026-05-05T08:31:42.407Z'
-source_hash: 25928fedbef749a11bb8ff5eee8430c6cfd243b55767dc0a2e8a641092895a11
-author: Spontaneous Order
 excerpt: >-
   “Ever since Adam Smith,” noted Milton Friedman in the Hoover Digest in October
   1997, “there has been virtual unanimity among economists, whatever their
   ideological position on other issues, that international free trade is in the
   best interests of t
+summary: >-
+  From a classical-liberal viewpoint echoing Milton Friedman and Adam Smith,
+  boycotting Chinese goods amid Sino-India tensions is a lose-lose proposition
+  that ignores the near-unanimity among economists favoring free trade. India,
+  as a consumer economy, relies heavily on China as the world's manufacturing
+  hub: China accounts for 11.8% of India's imports (vs. 3% exports), yielding a
+  $3.3 billion monthly trade deficit in February 2020; Chinese investments
+  exceed $26 billion, funding 18 of 30 Indian unicorns like Paytm and Byju's;
+  Chinese firms dominate 66% of India's $8 billion smartphone market, with
+  Xiaomi manufacturing 95% locally under 'Make in India'. Critical dependencies
+  include 90% of solar equipment imports (valued at $3.41 billion in 2017-18),
+  80% of antibiotics, and key pharma acquisitions like Fosun's $1.1 billion
+  stake in Gland Pharma. Severing ties would spike production costs, hurt
+  consumers with pricier goods, disrupt supply chains, exacerbate unemployment,
+  and violate WTO rules against full import bans. Instead, India must reduce its
+  deficit by boosting domestic manufacturing competitiveness against China's
+  subsidized, low-cost production, leveraging comparative advantages rather than
+  protectionist retribution.
+key_points:
+  - >-
+    India's economy is deeply intertwined with China, importing 11.8% of goods
+    while exporting only 3%, creating a $3.3 billion monthly trade deficit.
+  - >-
+    Chinese investments over $26 billion fund 18 of 30 Indian unicorns and
+    control 66% of the smartphone market, with local manufacturing creating
+    jobs.
+  - >-
+    Boycotting would disrupt vital imports like 80% of antibiotics, 90% of solar
+    equipment, raising costs and harming sectors from health to renewables.
+  - >-
+    Free trade principles require India to specialize in comparative advantages
+    and strengthen manufacturing to compete, rather than impose impractical bans
+    barred by WTO rules.
+topics:
+  - free-trade
+  - india-china-trade
+  - trade-deficit
+  - supply-chains
 tags:
   - Chinese economy
   - trade restrictions
@@ -20,6 +57,9 @@ tags:
   - Gross Domestic Product
   - Chinese government
   - economic crisis
+source_hash: 25928fedbef749a11bb8ff5eee8430c6cfd243b55767dc0a2e8a641092895a11
+summary_hash: 25928fedbef749a11bb8ff5eee8430c6cfd243b55767dc0a2e8a641092895a11
+summary_at: '2026-05-05T09:12:12.155Z'
 ---
 **By Ranjit Bhushan**
 

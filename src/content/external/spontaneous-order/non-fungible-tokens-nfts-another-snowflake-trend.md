@@ -2,15 +2,56 @@
 title: 'Non Fungible Tokens (NFTs): Another snowflake trend?'
 original_url: >-
   https://www.spontaneousorder.in/p/non-fungible-tokens-nfts-another-snowflake-trend
+author: Spontaneous Order
 published_at: '2021-05-17T16:41:10.000Z'
 ingested_at: '2026-05-05T08:31:42.319Z'
-source_hash: b99eb20c7b6108c6d561ebb17fad16d74be7d9d7b34c414f89fe3d97e3ee7024
-author: Spontaneous Order
 excerpt: >-
   With a recent surge in the popularity of crypto art, the NFTs have become a
   popular form of trading digital assets. Be it Beeple’s record-breaking sale of
   ‘Everydays-The first 5000 days’ for $69M or the sale of Jack Dorsey’s
   first-ever tweet for $
+summary: >-
+  Harshit Gupta explores Non-Fungible Tokens (NFTs) as unique digital assets
+  verified via blockchain, contrasting them with fungible assets like money.
+  Highlighting high-profile sales such as Beeple's 'Everydays: The First 5000
+  Days' for $69 million and Jack Dorsey's first tweet for $2.9 million, he notes
+  the crypto art market's growth from $44 million in 2018 to $338 million in
+  2020, with NBA Top Shot reaching $370 million since October 2020. From a
+  classical-liberal viewpoint, NFTs empower artists by enabling direct global
+  sales, royalties on resales, and bypassing middlemen like Sotheby's, while
+  tokenizing real estate could enhance liquidity and reduce inefficiencies. In
+  India, WazirX launched the first NFT platform amid regulatory uncertainty from
+  the upcoming cryptocurrency bill. Drawbacks include gas fees, Ethereum's
+  energy consumption equivalent to Libya's, volatility (some prices down 70%),
+  and unclear legal rights—ownership is merely a blockchain record without
+  copyright. Gupta likens NFTs to traditional art's subjective value, as in
+  Maurizio Cattelan's taped banana, warning against hype amid loose monetary
+  policy but seeing them as evidence of public appetite for decentralized
+  finance.
+key_points:
+  - >-
+    NFTs provide artists direct sales, royalties, and protection against fakes
+    via blockchain without intermediaries.
+  - >-
+    Tokenizing real estate via NFTs could liquify illiquid markets by
+    eliminating middlemen and enabling fractional global ownership.
+  - >-
+    NFT trading surged with crypto art from $44M in 2018 to $338M in 2020,
+    boosted by pandemic indoor time and crypto rallies.
+  - >-
+    Drawbacks include high gas fees, massive carbon footprints from mining,
+    volatility, and limited legal ownership rights beyond blockchain records.
+  - >-
+    India's WazirX launched an NFT marketplace, but government crypto
+    regulations pose risks for adoption.
+topics:
+  - nfts
+  - blockchain-technology
+  - crypto-art
+  - decentralized-finance
+source_hash: b99eb20c7b6108c6d561ebb17fad16d74be7d9d7b34c414f89fe3d97e3ee7024
+summary_hash: b99eb20c7b6108c6d561ebb17fad16d74be7d9d7b34c414f89fe3d97e3ee7024
+summary_at: '2026-05-05T11:05:27.928Z'
 ---
 **By Harshit Gupta**
 

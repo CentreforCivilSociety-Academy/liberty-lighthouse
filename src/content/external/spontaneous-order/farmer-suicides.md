@@ -1,21 +1,58 @@
 ---
 title: Farmer Suicides
 original_url: 'https://www.spontaneousorder.in/p/farmer-suicides'
+author: Spontaneous Order
 published_at: '2011-10-31T16:54:31.000Z'
 ingested_at: '2026-05-05T08:31:42.629Z'
-source_hash: 72fb15aa568cf3b7931c929bfe182fe89e10d2a108147db7b01284d80a6f173d
-author: Spontaneous Order
 excerpt: >-
   On Thursday, the National Crime Records Bureau released its report, Accidental
   Deaths and Suicides in India 2010. Domestically, the headline was that, for
   the second year in a row, Bangalore was India’s suicide capital, while
   internationally, the stati.
+summary: >-
+  The 2010 NCRB report revealed India's suicide rate at 11.4 per 100,000
+  people—up from 10.9 in 2009 and translating to 15 suicides per hour—placing
+  the country in the low 40s internationally, higher than some Western nations
+  but not the worst. Most striking were the 15,964 farmer suicides, highlighting
+  desperation in the sector. The author, from a classical-liberal perspective,
+  attributes this to government over-regulation of domestic agriculture trade
+  and interventions in labor, land, and credit markets, as detailed in a 2008
+  World Bank report. These policies raise costs, increase price risks, undermine
+  competitiveness, and constrain rural non-farm growth, trapping farmers in
+  economic hardship, debt, and hopelessness. Well-intentioned but misguided
+  regulations stifle livelihoods, affecting ordinary Indians focused on daily
+  life. The conclusion urges the government to scrap these over-regulations and
+  interventions, freeing farmers to prosper, reducing despair, and addressing
+  the suicide tragedy through market-friendly policies that prioritize
+  individual freedom over state control.
+key_points:
+  - >-
+    India's 2010 suicide rate rose to 11.4 per 100,000, with 15,964 farmer
+    suicides amid an overall rate of 15 per hour.
+  - >-
+    World Bank report blames over-regulation of agriculture trade and government
+    interventions in labor, land, and credit markets for hindering rural growth
+    and competitiveness.
+  - >-
+    Government policies contribute to farmers' economic hopelessness by
+    increasing costs and risks, leading to suicides.
+  - >-
+    Scrap over-regulations and interventions to enable agricultural prosperity
+    and reduce suicide rates.
+topics:
+  - farmer-suicides
+  - agricultural-regulation
+  - government-intervention
+  - rural-development
 tags:
   - World Bank
   - Ministry of Agriculture
   - Farmer Suicide
   - farming
   - agriculture
+source_hash: 72fb15aa568cf3b7931c929bfe182fe89e10d2a108147db7b01284d80a6f173d
+summary_hash: 72fb15aa568cf3b7931c929bfe182fe89e10d2a108147db7b01284d80a6f173d
+summary_at: '2026-05-05T09:52:36.579Z'
 ---
 **By Julie Gilstrap**
 

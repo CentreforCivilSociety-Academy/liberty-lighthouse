@@ -1,15 +1,49 @@
 ---
 title: 'SO Musings: India, the Tiger Caged'
 original_url: 'https://www.spontaneousorder.in/p/so-musing-india-the-tiger-caged'
+author: Spontaneous Order
 published_at: '2020-04-03T17:08:56.000Z'
 ingested_at: '2026-05-05T08:31:42.431Z'
-source_hash: 81468896c200a2f0c47f55c611686065270e618485c5c34dc7d30365e8590466
-author: Spontaneous Order
 excerpt: >-
   As India scrambles to respond to the novel COVID-19 disease, experts have also
   warned of the severe economic repercussions from the pandemic outbreak. Indian
   economy, of late, has already been in a bad shape and the virus-induced
   lockdown further adds t..
+summary: >-
+  Amid COVID-19 economic pressures on India's already struggling economy and
+  emerging markets, the post revisits the 1991 balance of payments crisis
+  through an excerpt from The Economist's May 4, 1991 'Survey of India,'
+  reprinted in the liberal magazine Freedom First. The piece, introduced by
+  Freedom First editors, blames 'Nehruvian socialism'—modeled on the bankrupt
+  Soviet system—for 40 years of economic mismanagement that left India broke and
+  seeking IMF loans, akin to an individual borrowing from a bank in crisis. It
+  rejects the narrative of intractable problems, asserting India's economic
+  failure as its greatest misery, despite abundant human resources: capable of
+  hard work, thrifty despite poverty, entrepreneurial, and ambitious. Indians
+  prosper abroad when unshackled by domestic policies that imprison hundreds of
+  millions in despair. Classical liberals emphasize that rectifying the economy
+  would make other challenges more surmountable, with India's unrealized
+  potential exceeding even communist China or the Soviet Union. The post
+  promotes IndianLiberals.in as preserving such liberal critiques.
+key_points:
+  - >-
+    India's 1991 crisis resulted from 40 years of Nehruvian socialism patterned
+    on the Soviet model, leading to bankruptcy and IMF loan dependency.
+  - >-
+    The Economist's 1991 survey praises Indians' human resources—hard-working,
+    thrifty, entrepreneurial—but blames policies for trapping them in poverty at
+    home while they succeed abroad.
+  - >-
+    Freedom First republished the survey to educate on economic failures over
+    sovereignty debates around IMF aid.
+  - >-
+    Economic reform is essential for political stability and progress in India,
+    closing the vast gap between potential and socialist-era reality.
+topics:
+  - 1991-crisis
+  - nehruvian-socialism
+  - economic-reform
+  - indian-liberals
 tags:
   - pandem
   - SO Musings
@@ -21,6 +55,9 @@ tags:
   - Indian
   - Reform Ideas
   - decentralisation
+source_hash: 81468896c200a2f0c47f55c611686065270e618485c5c34dc7d30365e8590466
+summary_hash: 81468896c200a2f0c47f55c611686065270e618485c5c34dc7d30365e8590466
+summary_at: '2026-05-05T11:50:12.056Z'
 ---
 **By Spontaneous Order**
 

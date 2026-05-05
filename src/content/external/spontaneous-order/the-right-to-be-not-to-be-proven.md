@@ -1,13 +1,55 @@
 ---
 title: 'The Right to Be, Not to Be Proven.'
 original_url: 'https://www.spontaneousorder.in/p/the-right-to-be-not-to-be-proven'
+author: Spontaneous Order
 published_at: '2026-04-28T09:28:18.695Z'
 ingested_at: '2026-05-05T08:31:42.214Z'
-source_hash: e09c8070fa2c52eb8640a2b91ac22e5f4bce855ce9591472fc0e25469592e94c
-author: Spontaneous Order
 excerpt: >-
   When the State starts issuing gender certificates, it shifts from protecting
   rights to policing identity.
+summary: >-
+  The Transgender Persons (Protection of Rights) Amendment Bill, 2026,
+  undermines transgender rights by replacing self-declaratory identity
+  certification with mandatory medical board approval via the District
+  Magistrate, medicalizing and bureaucratizing gender identity in violation of
+  the Supreme Court's NALSA v. Union of India (2014) ruling that affirmed
+  self-identification as intrinsic to personal autonomy. While the 2019 Act
+  allowed administrative processes prohibiting discrimination in education,
+  employment, healthcare, and public spaces, the amendment conditions
+  recognition on state-defined medical and sociocultural criteria, excluding
+  non-conforming individuals from legal protections, welfare benefits, and
+  documentation. This shift transforms the state from neutral guardian to
+  gatekeeper of personhood, intruding into the sacred sphere of selfhood and
+  rendering rights contingent rather than inherent. From a classical-liberal
+  perspective, such oversight erodes individual liberty, normalizes state
+  decision-making over intrinsic identity, and actively marginalizes through
+  invisibility in law, echoing NALSA's emphasis on transgender persons' full
+  human rights under constitutional rule of law.
+key_points:
+  - >-
+    The 2026 Amendment requires District Magistrates to obtain Medical Board
+    approval for transgender identity certificates, replacing the 2019 Act's
+    self-declaratory administrative process.
+  - >-
+    This contradicts NALSA v. Union of India (2014), which upheld gender
+    self-identification as fundamental to personal autonomy.
+  - >-
+    Conditional recognition excludes non-conforming transgender individuals from
+    anti-discrimination protections, welfare, and basic documentation.
+  - >-
+    State validation of identity intrudes on privacy, positioning officials as
+    arbiters of personhood rather than rights being inherent.
+  - >-
+    Rights must remain unconditional to preserve liberty, avoiding the collapse
+    of protection into control.
+topics:
+  - transgender-rights
+  - self-identification
+  - personal-autonomy
+  - state-intrusion
+source_hash: e09c8070fa2c52eb8640a2b91ac22e5f4bce855ce9591472fc0e25469592e94c
+summary_hash: e09c8070fa2c52eb8640a2b91ac22e5f4bce855ce9591472fc0e25469592e94c
+summary_at: '2026-05-05T12:35:01.671Z'
 ---
 **By Jini Susan Thomas**
 

@@ -2,21 +2,61 @@
 title: 'Rules of Inheritance: Supreme Court Chamber Allotment'
 original_url: >-
   https://www.spontaneousorder.in/p/rules-of-inheritance-supreme-court-chamber-allotment
+author: Spontaneous Order
 published_at: '2018-08-06T07:18:26.000Z'
 ingested_at: '2026-05-05T08:31:42.528Z'
-source_hash: 8a59f16973bf3c230a8597a606204733a66f61aa0a698f705443f7a1332dae95
-author: Spontaneous Order
 excerpt: >-
   What is Rule 7B of the Supreme Court Chamber Allocation Rules? As per the SC
   Chamber Rules, last amended in 2007, “[i]n case of death of allottee of a
   [Supreme Court Lawyers’] chamber, his son/daughter/spouse, if an advocate, may
   be allotted the said
+summary: >-
+  Rule 7B of the Supreme Court Chamber Allocation Rules, amended in 2007, allows
+  the son, daughter, or spouse of a deceased allottee— if an advocate practicing
+  in the Supreme Court—to inherit the chamber, bypassing standard criteria like
+  minimum appearances and seniority outlined in a 2017 notice. These chambers,
+  numbering only a few hundred in prime locations near the Supreme Court, confer
+  significant professional credibility amid thousands of advocates. A petition
+  by Vishnu Shankar Jain challenges Rule 7B as unconstitutional under Articles
+  14 and 19(1)(g), alleging discrimination and violation of level playing field.
+  Constitutionally, under Article 14's reasonable classification doctrine, the
+  rule fails: while distinguishing heirs from others is intelligible, it lacks
+  rational nexus to the rules' objective of merit-based allocation via seniority
+  and appearances. From a classical-liberal perspective, chambers are public
+  property owned by the Supreme Court; allottees receive only a revocable
+  license to use, not ownership, subject to fees, usage restrictions, and
+  termination conditions. Inheriting such a license contravenes fair equality of
+  opportunity and exacerbates undeserved inequality, as liberals permit
+  inheritance of personal wealth but not rights in public goods. Thus, Rule 7B
+  violates both constitutional equality and classical-liberal principles.
+key_points:
+  - >-
+    Rule 7B permits heirs (son/daughter/spouse who are SC advocates) to inherit
+    chambers upon allottee's death, overriding merit criteria like appearances
+    and seniority.
+  - >-
+    The rule fails Article 14's reasonable classification test due to no
+    rational nexus between heir status and allocation objectives.
+  - >-
+    Supreme Court chambers are public property granting only a temporary
+    license, not inheritable ownership.
+  - >-
+    Inheriting public good licenses undermines classical-liberal goals of fair
+    opportunity and reducing undeserved inequality.
+topics:
+  - supreme-court-chambers
+  - article-14
+  - inheritance-rules
+  - classical-liberalism
 tags:
   - India
   - SC Chamber Rules
   - Inheritance laws
   - Liberalism
   - Supreme Court
+source_hash: 8a59f16973bf3c230a8597a606204733a66f61aa0a698f705443f7a1332dae95
+summary_hash: 8a59f16973bf3c230a8597a606204733a66f61aa0a698f705443f7a1332dae95
+summary_at: '2026-05-05T11:30:55.986Z'
 ---
 **By Vineet Bhalla**
 

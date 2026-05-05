@@ -2,19 +2,63 @@
 title: 'Uncertain Lives: How Street Vendors Earn, Spend and Borrow- Part 2'
 original_url: >-
   https://www.spontaneousorder.in/p/uncertain-lives-how-street-vendors-earn-spend-and-borrow-part-1-2
+author: Spontaneous Order
 published_at: '2019-03-01T11:46:26.000Z'
 ingested_at: '2026-05-05T08:31:42.501Z'
-source_hash: 57bd99b485b390f583a3d5ea0374ae6d322b8ab8a6f5382f2f5f9ac619302721
-author: Spontaneous Order
 excerpt: >-
   Press-wallah: Mahavir and Sita The husband-wife team of Mahavir and Sita who
   are street vendors work in an ‘istri’ (ironing) stall in an upper-middle-class
   neighbourhood, East Delhi. They migrated from a village in Basti district in
   Uttar Pradesh. Sit
+summary: >-
+  Mahavir and Sita, a husband-wife team of street ironing vendors in East Delhi,
+  exemplify resilient entrepreneurship in India's informal economy after
+  migrating from rural Uttar Pradesh and leaving family garment work for
+  self-employment 25 years ago. Operating from a prime pavement spot near Green
+  View Apartments, they serve assigned buildings under an informal agreement
+  among 18 vendors, preventing poaching and stabilizing rates—now ₹5 per garment
+  (₹15 sarees, ₹10 bedsheets), up from 50 paise-₹2. They process 70-100 garments
+  daily, seasonally varying with clothing needs, earning ₹15,000 monthly from
+  ironing, supplemented by daughter Sandhya's ₹8,000 salary, ₹2,500 rent, and
+  ₹1,100 FD interest, totaling ₹26,600 to match expenses like ₹2,250 coal, food,
+  education (son's school ₹2,800, mobile course ₹1,250), and savings ₹12,400.
+  Self-reliant, they bought equipment cheaply, financed a ₹4.5 lakh slum flat
+  with savings and interest-free loans (repaid), store gold dowry safely, and
+  resisted police 'hafta' bribes collectively. Despite educating college-grad
+  daughters and high school son, Mahavir laments dowry demands (₹10 lakhs) and
+  physical toll, vowing no son in the trade and shunning moneylenders. Their
+  story underscores classical-liberal virtues of hard work, community
+  self-governance, and prudent finances amid urban precarity.
+key_points:
+  - >-
+    Mahavir and Sita earn ₹15,000 monthly from ironing 70-100 garments daily at
+    standardized rates through vendor self-regulation across 18 stalls serving
+    30 buildings.
+  - >-
+    They balance a ₹26,600 monthly budget with family incomes including rent and
+    FD interest, allocating for education, coal, food, and ₹12,400 savings while
+    avoiding debt.
+  - >-
+    Collectively, vendors resisted police bribes and divided territories
+    informally, securing operations without RWA poaching.
+  - >-
+    Despite daughters' college education and jobs, dowry pressures persist;
+    parents save gold yearly but question the investment given marriage costs.
+  - >-
+    Mahavir plans to prevent son from becoming a press-wallah due to the trade's
+    physical demands and uncertain future.
+topics:
+  - street-vendors
+  - informal-economy
+  - household-finances
+  - urban-entrepreneurship
 tags:
   - Delhi Street vendors
   - livelihood
   - street vendors
+source_hash: 57bd99b485b390f583a3d5ea0374ae6d322b8ab8a6f5382f2f5f9ac619302721
+summary_hash: 57bd99b485b390f583a3d5ea0374ae6d322b8ab8a6f5382f2f5f9ac619302721
+summary_at: '2026-05-05T12:48:49.033Z'
 ---
 **By Ananya Patel**
 

@@ -1,20 +1,60 @@
 ---
 title: Conservation Conversations
 original_url: 'https://www.spontaneousorder.in/p/conservation-conversations'
+author: Spontaneous Order
 published_at: '2004-10-26T02:58:16.000Z'
 ingested_at: '2026-05-05T08:31:42.696Z'
-source_hash: ad5d28fd28699b780b1fce549f13a1f2023992df4cf5a347a4c56971d1c573c3
-author: Spontaneous Order
 excerpt: >-
   I know it’s too much to expect government policies to be consistent. But
   environment seems to have an unfair share of inconsistent, ad hoc policies.
   Take the Sunderbans case for instance. This is a World Natural Heritage Site,
   a unique ecosystem. The We
+summary: >-
+  The post critiques the West Bengal government's inconsistent and ad hoc
+  environmental policies, exemplified by the sale of 750 acres of land in the
+  Sunderbans—a World Natural Heritage Site—to the Sahara group for Rs. 20 crore
+  across virgin islands like Lower Long Sand Island, Sagar, Frasergunj, L-Plot,
+  Jharkhali, and Kaikhali. This 'eco-tourism' project violates central laws by
+  encroaching within the 10-kilometer ecologically sensitive zone around Lothian
+  and Sajnekhali wildlife sanctuaries, with Sajnekhali directly in the buffer
+  zone. Parts of the land are reserved forests, with no mention of
+  de-reservation, raising questions about private control overriding public
+  access to forests and fishing grounds, thus threatening fishermen's
+  livelihoods. The sale further breaches the public trust doctrine, akin to the
+  Supreme Court's ruling in the Kamal Nath case, where land on the Beas
+  riverbank was leased for commercial use, leading to lease cancellation,
+  exemplary damages, and affirmation of public access to riverbanks. From a
+  classical-liberal perspective, such governmental actions demonstrate that
+  conservation laws are selectively twisted for convenience, undermining
+  reliance on the state for environmental stewardship.
+key_points:
+  - >-
+    West Bengal government sold 750 acres in Sunderbans to Sahara for Rs. 20
+    crore, violating 10km ecologically sensitive zones around Lothian and
+    Sajnekhali sanctuaries.
+  - >-
+    Project sites include reserved forests without de-reservation plans,
+    potentially privatizing public access to forests and fishing grounds.
+  - >-
+    Sale constitutes a breach of public trust doctrine, mirroring the Supreme
+    Court's cancellation of Kamal Nath's Beas riverbank lease and imposition of
+    damages.
+  - >-
+    Environmental laws are ad hoc and inconsistently applied, eroding trust in
+    government-led conservation.
+topics:
+  - sunderbans
+  - environmental-policy
+  - public-trust-doctrine
+  - wildlife-sanctuaries
 tags:
   - ecosystem
   - west bengal
   - wildlife sanctuaries
   - policies
+source_hash: ad5d28fd28699b780b1fce549f13a1f2023992df4cf5a347a4c56971d1c573c3
+summary_hash: ad5d28fd28699b780b1fce549f13a1f2023992df4cf5a347a4c56971d1c573c3
+summary_at: '2026-05-05T09:25:39.955Z'
 ---
 **By soumya**
 

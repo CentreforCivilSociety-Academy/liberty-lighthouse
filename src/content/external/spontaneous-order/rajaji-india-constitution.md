@@ -1,15 +1,52 @@
 ---
 title: '#ThrowbackThursday: C Rajagopalachari— Defending the Constitution (1972)'
 original_url: 'https://www.spontaneousorder.in/p/rajaji-india-constitution'
+author: Spontaneous Order
 published_at: '2016-01-28T15:44:05.000Z'
 ingested_at: '2026-05-05T08:31:42.563Z'
-source_hash: da13d662f6de16d735a544a73e27eaff9fac587ae4bc1c6641249b122385c006
-author: Spontaneous Order
 excerpt: >-
   As India celebrated its 66th Republic day earlier this week, we decided to
   post C Rajagopalachari’s views on the Indian Constitution. The post contains
   excerpts from speeches delivered in 1972. A Motor Car with no Brake I have
   been constantly reiterat..
+summary: >-
+  C. Rajagopalachari, in 1972 speeches, urges defending the Indian Constitution
+  as essential to prevent dictatorship and serfdom, highlighting its guarantees:
+  protection of minority religions and equal secular rights; secure enjoyment of
+  legally acquired property with just compensation subject to judicial review if
+  acquired by the state; and independence of the judiciary, particularly the
+  Supreme Court. He argues that a dedicated party, like the Swatantra Party
+  founded on these principles, is vital as a 'brake' on government—like a motor
+  car without brakes otherwise—more important than mere alternative governments
+  or stability. Politics must transcend power grabs to safeguard these core
+  democratic axioms against sabotage. Good government prioritizes social justice
+  via moral economic reforms, led by characterful leaders, over 'stable'
+  authoritarianism that erodes fundamental rights. Rajagopalachari equates
+  assisting constitutional erosion with treason akin to aiding foreign
+  aggressors, insisting the Constitution's foresight against power's corruption
+  demands vigilant defense for true freedom.
+key_points:
+  - >-
+    Defend the Constitution's guarantees of minority rights, property protection
+    with judicially reviewed compensation, and judicial independence to avert
+    dictatorship.
+  - >-
+    A party dedicated to these constitutional principles, like the Swatantra
+    Party, is essential as a democratic 'brake' beyond just forming governments.
+  - >-
+    Prioritize good government achieving social justice through moral economic
+    policies over mere 'stable' authoritarian regimes that oppress citizens.
+  - >-
+    Sabotaging the Constitution equals treason, comparable to aiding foreign
+    invasion, as it enables totalitarian rule despite external defenses.
+topics:
+  - indian-constitution
+  - property-rights
+  - judicial-independence
+  - liberal-democracy
+source_hash: da13d662f6de16d735a544a73e27eaff9fac587ae4bc1c6641249b122385c006
+summary_hash: da13d662f6de16d735a544a73e27eaff9fac587ae4bc1c6641249b122385c006
+summary_at: '2026-05-05T11:22:15.517Z'
 ---
 **By Guest Author**
 

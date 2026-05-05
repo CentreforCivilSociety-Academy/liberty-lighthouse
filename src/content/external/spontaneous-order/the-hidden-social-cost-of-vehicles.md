@@ -1,17 +1,61 @@
 ---
 title: The hidden social cost of vehicles
 original_url: 'https://www.spontaneousorder.in/p/the-hidden-social-cost-of-vehicles'
+author: Spontaneous Order
 published_at: '2021-05-24T16:46:39.000Z'
 ingested_at: '2026-05-05T08:31:42.316Z'
-source_hash: 1805679d3aaf50baa31dff43e8e6838cdd429e68a2761d789b424daafc805ca8
-author: Spontaneous Order
 excerpt: >-
   The Centre for Science and Environment has launched a campaign to make drivers
   of cars and two-wheeler vehicles pay the full social cost that they impose on
   the economy, which I fully support. These costs are typically invisible to the
   public, but are r..
+summary: >-
+  Swaminathan SA Aiyar endorses the Centre for Science and Environment's
+  campaign to charge drivers the full social costs of vehicles, which are
+  massive but hidden subsidies to car owners. These include road and bridge
+  construction (several crore per km, hundreds of crores for flyovers), traffic
+  management, high accident rates (among world's highest per vehicle),
+  congestion (US example: $63 billion in 85 cities from time wasted), parking
+  (Delhi residential space Rs 1.5 lakh/sq yard, implying Rs 30 crore for a
+  100x20 yard lot or Rs 37.8 lakh per space; cars occupy 11% of Delhi's area,
+  equaling all parks), pollution causing respiratory diseases (India's top
+  killer) and winter smog disrupting flights and tourism (India gets 4 million
+  tourists vs China's 124 million), plus fuel subsidies (Rs 25,000 crore) and
+  kerosene adulteration worsening emissions. Aiyar, a classical liberal, rejects
+  abolishing cars for public transport, affirming freedom to travel privately
+  but insisting owners pay these externalities via user charges or taxes, not
+  subsidies that burden society with pollution, congestion, and lost green
+  space. He criticizes politicians and middle class for opposing reforms, noting
+  even Left and Sonia Gandhi treat cheap fuel as a right, despite Indian
+  petrol/diesel prices matching US levels when ignoring social costs.
+key_points:
+  - >-
+    Drivers receive hidden subsidies for roads (crores per km), parking (11% of
+    Delhi's area), and congestion, which must be replaced by full user charges.
+  - >-
+    Vehicular pollution, subsidized by Rs 25,000 crore in fuel aid and kerosene
+    adulteration, causes India's top killer respiratory diseases and tourism
+    losses.
+  - >-
+    India's high per-vehicle accident rate and winter smog from cars impose
+    uncompensated costs on society, highest on the poor.
+  - >-
+    Classical liberals support private vehicle freedom but require owners to
+    internalize all externalities like time wasted ($63B US congestion example)
+    and green space loss.
+  - >-
+    Politicians and middle class block reforms like Rs 120/day Delhi parking,
+    treating cheap fuel as a right despite massive social burdens.
+topics:
+  - transportation
+  - externalities
+  - subsidies
+  - pollution
 tags:
   - environment
+source_hash: 1805679d3aaf50baa31dff43e8e6838cdd429e68a2761d789b424daafc805ca8
+summary_hash: 1805679d3aaf50baa31dff43e8e6838cdd429e68a2761d789b424daafc805ca8
+summary_at: '2026-05-05T12:28:45.871Z'
 ---
 **By Swaminathan SA Aiyer**
 

@@ -3,21 +3,64 @@ title: >-
   #ThrowbackThursday: B R Shenoy — What Should be the Objective of Planning?
   (1961)
 original_url: 'https://www.spontaneousorder.in/p/shenoy-planning'
+author: Spontaneous Order
 published_at: '2015-09-24T17:48:00.000Z'
 ingested_at: '2026-05-05T08:31:42.575Z'
-source_hash: 793336ab6f0eb70c112fd7a644ec50b0a9f9fc70d657f4c097e44a346d7056b6
-author: Spontaneous Order
 excerpt: >-
   The following piece was published in a publication by Forum of Free
   Enterprise, which contains three essays by the author on Indian Planning. The
   author is B R Shenoy, who was one of India’s most prominent liberal economists
   and critic of state planning
+summary: >-
+  B R Shenoy critiques Prime Minister Nehru's claims of success from India's
+  first two Five-Year Plans, arguing that cited statistics—such as a 42% rise in
+  national income, per capita income from Rs. 284 to Rs. 330 (disputed as Rs.
+  248 to Rs. 284 by official data), life expectancy from 24 to 47.5 years,
+  agriculture output up 41%, industry 94%, power 148%, and students from 17
+  million to 46 million—are misleading. True economic development must be
+  measured by the consumer goods available to the masses for a 'good life,' not
+  aggregate national product inflated by capital goods, intermediate products,
+  luxuries, idle capacities (40-50% in 40 industries, 35% in irrigation), and
+  inventory buildups. Shenoy rejects the 'accepted strategy' of prioritizing
+  capital goods, asserting that underdeveloped economies like India's require
+  maximizing current output and employment through resource utilization. A study
+  of 31 countries shows high growth correlates with economic liberalism, not
+  statist intervention that impedes human capital. The state's role should be
+  limited to rule of law, defense, monetary/fiscal stability, public health,
+  education, basic communications, and agricultural extension, avoiding forced
+  growth that risks impeding progress and liberties.
+key_points:
+  - >-
+    Nehru's planning achievements are overstated; per capita income rose only
+    from Rs. 248 to Rs. 284, and stats ignore idle capacities and non-consumer
+    outputs.
+  - >-
+    Measure development by consumer goods for the masses, deflating national
+    product for capital goods, luxuries, idle plants (40-50% underutilization),
+    and inventories.
+  - >-
+    Prioritizing capital goods delays relief from poverty and unemployment;
+    maximize current output and jobs instead.
+  - >-
+    Economic growth thrives under liberalism, as shown in 31-country study;
+    statist planning impedes it.
+  - >-
+    State should focus on core functions like law, defense, stability, health,
+    education, and infrastructure, not direct economic intervention.
+topics:
+  - indian-planning
+  - economic-liberalism
+  - state-intervention
+  - economic-development
 tags:
   - B R Shenoy
   - Libertarian Scholars
   - Planning
   - State Planning
   - socialism
+source_hash: 793336ab6f0eb70c112fd7a644ec50b0a9f9fc70d657f4c097e44a346d7056b6
+summary_hash: 793336ab6f0eb70c112fd7a644ec50b0a9f9fc70d657f4c097e44a346d7056b6
+summary_at: '2026-05-05T11:40:33.603Z'
 ---
 **By Guest Author**
 

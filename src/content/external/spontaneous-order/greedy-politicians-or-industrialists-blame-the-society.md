@@ -2,19 +2,49 @@
 title: 'Greedy Politicians or Industrialists: Blame the Society'
 original_url: >-
   https://www.spontaneousorder.in/p/greedy-politicians-or-industrialists-blame-the-society
+author: Spontaneous Order
 published_at: '2009-01-16T15:30:40.000Z'
 ingested_at: '2026-05-05T08:31:42.667Z'
-source_hash: 25c0db368153937dd5597331493b30a8fa2d2901e147120e89d0728108652e00
-author: Spontaneous Order
 excerpt: >-
   The common rebuttal to anyone who blamed politicians or politics for the ills
   of society was that we elect them and they are part of the larger society so
   ultimately the blame is on us only. I always complained that with this line of
   reasoning politici...
+summary: >-
+  Parth Shah highlights a double standard in societal blame: while critics of
+  corrupt politicians are told 'we elect them, so blame society,' no one says
+  the same for corrupt businessmen, whose 'pots of money' come from our
+  voluntary purchases, reflecting the same societal values. He welcomes Ramesh
+  Ramanathan's January 15 Mint column, which frames the Satyam scandal as a
+  lesson on market failings rooted in ethics and values, portraying the Raju
+  brothers as victims of society's worship of material success. This consistent
+  application—blaming societal convictions and values as the 'fountainhead' for
+  actions in both politics and business—resolves Shah's long-standing complaint.
+  From a classical-liberal viewpoint, this underscores how politicians and
+  industrialists alike mirror society's flawed priorities, advocating
+  accountability through choice rather than excusing systemic ills.
+key_points:
+  - >-
+    Society inconsistently blames itself for corrupt politicians (via elections)
+    but not for corrupt businessmen (via purchases).
+  - >-
+    Ramanathan attributes the Satyam scandal to society's value system that
+    idolizes material success, victimizing even ambitious business families.
+  - >-
+    Both politicians and businessmen reflect the broader society's ethics and
+    convictions as the root of corruption.
+topics:
+  - corruption
+  - business-ethics
+  - societal-values
+  - political-accountability
 tags:
   - Ramesh Ramanathan
   - politicians
   - Satyam
+source_hash: 25c0db368153937dd5597331493b30a8fa2d2901e147120e89d0728108652e00
+summary_hash: 25c0db368153937dd5597331493b30a8fa2d2901e147120e89d0728108652e00
+summary_at: '2026-05-05T10:07:00.810Z'
 ---
 **By Parth Shah**
 

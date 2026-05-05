@@ -2,21 +2,64 @@
 title: 'Revamping India’s Education System: It’s time for Education Vouchers'
 original_url: >-
   https://www.spontaneousorder.in/p/revamping-indias-education-system-its-time-for-education-vouchers
+author: Spontaneous Order
 published_at: '2019-04-08T06:42:12.000Z'
 ingested_at: '2026-05-05T08:31:42.493Z'
-source_hash: 69d4e8ddaf29d81be89d40543a79bbe4655584b12d9236e29ff38704ea4a9b8f
-author: Spontaneous Order
 excerpt: >-
   There is a growing consensus that long term economic growth requires
   investment in human capital to augment labour productivity, which naturally
   directs one to education, as the greatest enabler. There has been a definite
   increase in enrolment rates acr..
+summary: >-
+  India's public education system, despite rising enrollment rates, delivers
+  poor quality due to its monopolistic structure serving the poor, leading to
+  teacher absenteeism, absent facilities, and wasted resources even with
+  adequate funding. The author, from a classical-liberal perspective, advocates
+  separating the government's role as financier from service provider, proposing
+  Milton Friedman's (1955) education voucher system where funds follow students
+  to any school of their choice, public or private. This introduces competition,
+  empowers poor families with choice, incentivizes private low-cost schools, and
+  forces public schools to improve or lose students. Vouchers as consumption
+  subsidies could include bonuses for >80% attendance, higher values for
+  disabled students, and progressive stipends to boost retention. Government
+  sets minimum standards and uses randomized tests to monitor outcomes. Evidence
+  includes Chile's 1987 reforms, which increased private enrollment, extended
+  education duration, and reduced youth illiteracy (West, 1996). In India, CCS's
+  Delhi Voucher Project gave vouchers to 408 underprivileged students; 63.1%
+  switched to private schools, and over 90% of parents were satisfied with
+  progress, teachers, and discipline (CMS & CCS, 2009). The author concludes
+  India should shift from production subsidies to vouchers for efficient,
+  quality primary and secondary education expansion.
+key_points:
+  - >-
+    India's public education monopoly causes poor quality despite funding;
+    vouchers enable choice and competition by letting funds follow students.
+  - >-
+    Vouchers incentivize private low-cost schools for the poor while allowing
+    government financing without direct provision.
+  - >-
+    Delhi Voucher Project: 63.1% of 408 beneficiaries switched to private
+    schools, with >90% parental satisfaction on progress and discipline.
+  - >-
+    Chile's voucher system post-1987 boosted private enrollment, education
+    duration, and reduced youth illiteracy.
+  - >-
+    Adopt targeted vouchers with attendance bonuses, higher values for disabled,
+    and outcome-based monitoring to improve retention and quality.
+topics:
+  - education-vouchers
+  - school-choice
+  - education-reform
+  - human-capital
 tags:
   - school vouchers in Chile
   - Friedman
   - school vouchers in India
   - Education Voucher Scheme
   - school vouchers
+source_hash: 69d4e8ddaf29d81be89d40543a79bbe4655584b12d9236e29ff38704ea4a9b8f
+summary_hash: 69d4e8ddaf29d81be89d40543a79bbe4655584b12d9236e29ff38704ea4a9b8f
+summary_at: '2026-05-05T11:26:57.327Z'
 ---
 **By Karan Bhasin**
 

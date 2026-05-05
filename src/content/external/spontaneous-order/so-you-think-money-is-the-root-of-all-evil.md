@@ -1,20 +1,53 @@
 ---
 title: So You Think Money Is The Root of All Evil?
 original_url: 'https://www.spontaneousorder.in/p/so-you-think-money-is-the-root-of-all-evil'
+author: Spontaneous Order
 published_at: '2018-08-06T08:39:44.000Z'
 ingested_at: '2026-05-05T08:31:42.524Z'
-source_hash: f4897e78608890c5e79e93882abd8b9cd0817d401ce52f9957e9ad40f2c6874a
-author: Spontaneous Order
 excerpt: >-
   “Money is the barometer of a society’s virtue. When you see that trading is
   done, not by consent, but by compulsion–when you see that in order to produce,
   you need to obtain permission from men who produce nothing–when you see that
   money is flowin
+summary: >-
+  The post challenges the notion that 'money is the root of all evil' by quoting
+  Ayn Rand's Francisco d'Anconia from Atlas Shrugged, presenting money as 'the
+  barometer of a society’s virtue.' In a classical-liberal framing, Rand argues
+  that a healthy society thrives on voluntary trading by consent and production,
+  where money flows to those who create value through work. Corruption arises
+  when trading becomes compulsion, production requires permission from
+  non-producers, and wealth accrues via graft, favors, and pull rather than
+  honest labor—laws then protect the corrupt against the productive, rewarding
+  dishonesty and dooming society. Money, as a noble medium, rejects brutality
+  and half-property, half-loot systems. The post urges recognizing 'money is the
+  root of all good' to avoid destruction, as its absence reduces men to tools of
+  other men, leaving only 'blood, whips and guns—or dollars.' This aligns with
+  Spontaneous Order's mission to critique India's pseudo-socialism, highlighting
+  a liberal political order rooted in free exchange over false socialist values
+  alien to India's independence movement.
+key_points:
+  - >-
+    Money measures a society's virtue through voluntary consent-based trade
+    versus compulsion and corruption.
+  - >-
+    Corruption dooms society when laws protect grafters against honest
+    producers.
+  - >-
+    Money is the root of all good, enabling free exchange; without it, brute
+    force prevails.
+topics:
+  - free-markets
+  - ayn-rand
+  - anti-socialism
+  - property-rights
 tags:
   - trade
   - Atlas Shrugged
   - Money
   - Ayn Rand
+source_hash: f4897e78608890c5e79e93882abd8b9cd0817d401ce52f9957e9ad40f2c6874a
+summary_hash: f4897e78608890c5e79e93882abd8b9cd0817d401ce52f9957e9ad40f2c6874a
+summary_at: '2026-05-05T12:04:02.194Z'
 ---
 **By Spontaneous Order**
 

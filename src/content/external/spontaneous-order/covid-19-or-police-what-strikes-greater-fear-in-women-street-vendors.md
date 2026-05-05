@@ -2,20 +2,63 @@
 title: 'COVID-19 or Police: What strikes greater fear in women street vendors?'
 original_url: >-
   https://www.spontaneousorder.in/p/covid-19-or-police-what-strikes-greater-fear-in-women-street-vendors
+author: Spontaneous Order
 published_at: '2021-07-02T15:13:27.000Z'
 ingested_at: '2026-05-05T08:31:42.309Z'
-source_hash: 4888d50494240d1becc71c88ed18a538ea3f11fc9b072d736266eb40681144fa
-author: Spontaneous Order
 excerpt: >-
   Chinta Devi, a vendor selling Tobacco products, “could not earn throughout”
   the early days of the lockdown in 2020. The only means of survival, she added,
   “after all our savings ran out was to cut down our consumption of food.” Most
   Indian laws th
+summary: >-
+  Street vendors in India, particularly women, endured severe hardships during
+  COVID-19 lockdowns, with police harassment instilling greater fear than the
+  virus itself, as one vendor stated: 'COVID se zyada toh vardi walon se dar
+  lagta hai.' Chinta Devi, a tobacco vendor, survived early 2020 lockdowns by
+  cutting food consumption after savings depleted. A Madhya Pradesh study found
+  shopkeepers and vendors as the second-largest 'offenders,' facing goods
+  confiscations. India's response relied on broad executive powers under the
+  Disaster Management Act 2005, Epidemic Diseases Act 1897, and CrPC Section
+  144, enabling vague, disproportionate measures like curfews and quarantines,
+  often exceeding orders via bribes and extra restrictions. Despite WHO and NDMA
+  calls for balancing health protection with minimizing economic disruption,
+  respecting rights, and adopting a 'humane approach,' police harassed compliant
+  vendors, overturned carts, and used violence, especially against women
+  vulnerable to livelihood loss and sexual harassment. Centre for Civil Society
+  interviews with over 40 women in Delhi and Rajasthan confirmed seizures under
+  COVID pretexts. While PM SVANidhi offers Rs 10,000 working capital loans,
+  unaddressed police excesses under the Street Vendors Act 2014 undermine
+  livelihoods, demanding accountability to protect citizens from a defaulting
+  state.
+key_points:
+  - >-
+    Women street vendors fear police harassment more than COVID-19, reporting
+    goods seizures, bribes, and extra restrictions beyond official orders.
+  - >-
+    Lockdowns under broad laws like DMA 2005 and EDA 1897 caused significant
+    livelihood losses, with vendors cutting food consumption to survive.
+  - >-
+    NDMA urged a 'humane approach' with compassion, but police actions including
+    violence and cart overturns violated this spirit.
+  - >-
+    PM SVANidhi scheme provides Rs 10,000 loans to address capital shortages,
+    but fails to curb ongoing police harassment.
+  - >-
+    Street Vendors Act 2014 and pandemic orders lack mechanisms to hold
+    authorities accountable for excesses.
+topics:
+  - street-vendors
+  - police-harassment
+  - covid-lockdowns
+  - police-accountability
 tags:
   - Covid-19
   - pandemic
   - women
   - street vendors
+source_hash: 4888d50494240d1becc71c88ed18a538ea3f11fc9b072d736266eb40681144fa
+summary_hash: 4888d50494240d1becc71c88ed18a538ea3f11fc9b072d736266eb40681144fa
+summary_at: '2026-05-05T09:26:52.045Z'
 ---
 **By Jayana Bedi**
 

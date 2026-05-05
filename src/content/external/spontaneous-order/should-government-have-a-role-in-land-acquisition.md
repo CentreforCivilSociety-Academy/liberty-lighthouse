@@ -2,15 +2,56 @@
 title: Should Government Have a Role in Land Acquisition?
 original_url: >-
   https://www.spontaneousorder.in/p/should-government-have-a-role-in-land-acquisition
+author: Spontaneous Order
 published_at: '2012-05-23T12:38:42.000Z'
 ingested_at: '2026-05-05T08:31:42.618Z'
-source_hash: 3592754318e3b2e07382a61b08f96206c1b39e2721defe9e2e2724bb8239ba7b
-author: Spontaneous Order
 excerpt: >-
   According to Mint, a Parliamentary Standing Committee on Rural Development
   ‘recommends that private companies and public-private partnerships have to buy
   land in the open market’ rather than having the privilege of government
   compelling people to give
+summary: >-
+  Andrew Humphries applauds a Parliamentary Standing Committee on Rural
+  Development recommendation that private companies and public-private
+  partnerships buy land in the open market, rather than relying on government
+  compulsion. He highlights the committee's observation that in developed
+  countries like the US, Japan, Germany, and Canada, enterprises purchase land
+  directly, and quotes Congress leader Mani Shankar Aiyar: 'Since there is no
+  question of the state acquisition of labour or capital, there is no logic at
+  all for government to acquire land.' The panel proposes narrowing the
+  definition of public purpose, removing exemptions for projects like nuclear
+  power plants, mines, and highways, and shifting 95% of land acquisition to the
+  market. Humphries argues this aligns with free market liberalism, where
+  entrepreneurs offer prices exceeding farmers' and tribals' opportunity costs,
+  ensuring voluntary, mutually beneficial sales driven by consumer demand and
+  local knowledge. He critiques eminent domain proponents like Rural Development
+  Minister Jairam Ramesh, who claim it's essential due to antiquated land
+  records, and warns that government interventions distort incentives, foster
+  cronyism, and fail to deliver sustainable development. Instead, governments
+  should protect property rights, enforce contracts, and remove red tape to
+  enable organic, decentralized growth.
+key_points:
+  - >-
+    Parliamentary Standing Committee recommends private entities buy land in
+    open market, narrowing public purpose and shifting 95% of acquisitions away
+    from government compulsion.
+  - >-
+    In developed countries like US, Japan, Germany, and Canada, enterprises
+    purchase land directly without state acquisition.
+  - >-
+    Markets ensure development through voluntary sales when prices exceed
+    owners' opportunity costs, benefiting all parties.
+  - >-
+    Government should protect property rights, enforce contracts, and eliminate
+    red tape rather than using eminent domain.
+  - >-
+    Eminent domain enables cronyism and distorts incentives, failing to create
+    sustainable development.
+topics:
+  - land-acquisition
+  - eminent-domain
+  - property-rights
+  - free-markets
 tags:
   - capital
   - Jiaram Ramesh
@@ -20,6 +61,9 @@ tags:
   - land
   - Liberalism
   - development
+source_hash: 3592754318e3b2e07382a61b08f96206c1b39e2721defe9e2e2724bb8239ba7b
+summary_hash: 3592754318e3b2e07382a61b08f96206c1b39e2721defe9e2e2724bb8239ba7b
+summary_at: '2026-05-05T11:40:48.846Z'
 ---
 **By Andrew Humphries**
 

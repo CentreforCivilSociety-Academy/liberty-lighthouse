@@ -1,15 +1,53 @@
 ---
 title: The Glass Ceiling for Women in Justice
 original_url: 'https://www.spontaneousorder.in/p/the-glass-ceiling-for-women-in-justice'
+author: Spontaneous Order
 published_at: '2021-05-03T14:30:55.000Z'
 ingested_at: '2026-05-05T08:31:42.326Z'
-source_hash: 2e1547f96dd69003dcafcf29316c996549cbb3958d1a711bc917ebc6225ad7bc
-author: Spontaneous Order
 excerpt: >-
   Over the years, India’s justice delivery system has witnessed several path
   breaking and trailblazing women lawyers and judges who have etched their names
   in history. But just like the deficits in India’s capacity to deliver justice,
   gender imbalance i
+summary: >-
+  The India Justice Report 2020 exposes a persistent glass ceiling for women
+  across India's justice pillars—police, prisons, judiciary, and legal
+  aid—mirroring broader deficits in justice delivery capacity. In police,
+  national female representation averages 10% (up from 7% in 2017), with targets
+  of 33% in most states unmet and officer-level shares as low as 5-6% in Bihar
+  and Himachal; many states need over 100 years for parity. Prisons average 13%
+  women staff, with declines in Delhi (15% to 13%), Uttarakhand (3%), and Goa
+  (2%), exacerbating vulnerabilities for female prisoners due to male staffing.
+  Judiciary sees 30% women in subordinate courts but only one in nine in high
+  courts (national average ~11%), with gains in Jammu & Kashmir (15 points),
+  Chhattisgarh (14), Himachal (11), but drops in Bihar (-6.3 points). Legal aid
+  stagnates at 18% women panel lawyers and 35% paralegals. Linking this to 20.7%
+  female LFPR and patriarchal norms, the author advocates classical-liberal
+  solutions: reframe domestic work attitudes to boost participation, elevate
+  women to leadership to curb bias, strengthen autonomous anti-harassment
+  committees, yielding diverse forces that empower women to seek justice.
+key_points:
+  - >-
+    India's police have 10% women nationally, but officer-level representation
+    remains below 6% in top-target states like Bihar, signaling a glass ceiling.
+  - >-
+    Prisons average 13% women staff, with Uttarakhand and Goa at 2-3%, leading
+    to male oversight of female prisoners and heightened vulnerabilities.
+  - >-
+    Judiciary features 30% women judges in subordinate courts but only ~11% in
+    high courts, with uneven progress across states.
+  - >-
+    Solutions include shifting domestic workload attitudes, promoting women to
+    leadership roles, and bolstering anti-harassment mechanisms to shatter the
+    ceiling and enhance justice access.
+topics:
+  - gender-diversity
+  - justice-system
+  - police-reform
+  - judicial-reform
+source_hash: 2e1547f96dd69003dcafcf29316c996549cbb3958d1a711bc917ebc6225ad7bc
+summary_hash: 2e1547f96dd69003dcafcf29316c996549cbb3958d1a711bc917ebc6225ad7bc
+summary_at: '2026-05-05T12:27:18.324Z'
 ---
 **By Swati Singh**
 

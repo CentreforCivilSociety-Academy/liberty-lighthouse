@@ -1,15 +1,48 @@
 ---
 title: Living With Imperfections
 original_url: 'https://www.spontaneousorder.in/p/living-with-imperfections'
+author: Spontaneous Order
 published_at: '2011-07-08T18:25:27.000Z'
 ingested_at: '2026-05-05T08:31:42.634Z'
-source_hash: 3e77824f9a28e8e66668c5f17d2cf60f9eb4a846421ee9f32920e46d14f6ad92
-author: Spontaneous Order
 excerpt: >-
   By: Surbhi Tandon (Communicating Reality Intern, CCS) We support free markets
   and the ‘market for information’ is no exception. Some misinterpret our
   position to mean ‘markets are perfect’, this is far from what we claim. The
   News of The World sca
+summary: >-
+  The post defends classical-liberal support for free markets in the 'market for
+  information' against claims that markets are perfect, using the News of the
+  World phone-hacking scandal—where Rupert Murdoch shut down the paper amid
+  ethical breaches—as evidence of market imperfections. It argues that low
+  ethical standards among market participants can cause harm, but this justifies
+  neither more government intervention nor abandoning markets. Instead,
+  competitive markets possess self-correcting mechanisms that expose and
+  eliminate unethical players over time, unlike government monopolies prone to
+  unchecked abuse. Real markets, comprising fallible humans, require time to
+  function effectively, unlike idealized neoclassical models assuming instant
+  perfection. To detect 'rotten eggs' faster, ensure free entry and exit to
+  challenge incumbents, rather than relying on governments lacking incentives or
+  ability to raise standards—evidenced by British politicians' prior awareness
+  of the scandal without action. Self-regulation by media and civil society
+  could help, but markets remain preferable to state control.
+key_points:
+  - >-
+    Markets for information are imperfect but superior to government monopolies
+    due to competition's self-correcting nature.
+  - >-
+    Free entry and exit in markets challenge unethical incumbents more
+    effectively than government regulation.
+  - >-
+    The News of the World scandal illustrates market flaws but also
+    self-correction, as the paper shut down.
+  - >-
+    Governments lack incentives to enforce media ethics, as shown by politicians
+    ignoring the phone-tapping story for years.
+topics:
+  - free-markets
+  - media-regulation
+  - government-failure
+  - competition
 tags:
   - news of the worlds
   - market competition
@@ -19,6 +52,9 @@ tags:
   - News of The World
   - free markets
   - Governance
+source_hash: 3e77824f9a28e8e66668c5f17d2cf60f9eb4a846421ee9f32920e46d14f6ad92
+summary_hash: 3e77824f9a28e8e66668c5f17d2cf60f9eb4a846421ee9f32920e46d14f6ad92
+summary_at: '2026-05-05T10:43:27.562Z'
 ---
 **By Vipin**
 

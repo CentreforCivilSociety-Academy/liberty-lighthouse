@@ -2,15 +2,57 @@
 title: 'Doing business in the valley: looking beyond EoDB ranking'
 original_url: >-
   https://www.spontaneousorder.in/p/doing-business-in-the-valley-looking-beyond-eodb-ranking
+author: Spontaneous Order
 published_at: '2021-04-28T15:08:02.000Z'
 ingested_at: '2026-05-05T08:31:42.328Z'
-source_hash: 7c1cf622d5ef70451ccd431b7a40bd51248023825c4bfeca592890c8a83889fe
-author: Spontaneous Order
 excerpt: >-
   A few months ago, the J&K administration announced that there is no
   requirement of getting a NOC from the Industries and Commerce department
   before setting up an Industrial Unit. The J&K government has been trying to
   improve the ease of doing business i..
+summary: >-
+  The J&K administration has simplified business setup by eliminating the need
+  for a No Objection Certificate (NOC) from the Industries and Commerce
+  department, reducing prior requirements from at least 15 NOCs, as part of
+  efforts to boost Ease of Doing Business (EoDB) and attract investors amid 9%
+  unemployment (vs. national 7.8%). J&K ranked 21st in 2019 EoDB rankings
+  (pre-UT bifurcation), with 137 of 187 Business Reforms Action Plan (BRAP) 2019
+  reforms implemented, but essentials like public checklists for approvals
+  remain pending. Digitization for single-window systems is undermined by
+  frequent internet shutdowns—4G restored after 1.5 years in January 2021—and
+  unreliable electricity, with 6 months of winter outages and non-publication of
+  outage data per reform 282. Post-Article 370 abrogation, the economy declined,
+  with Rs 17,878 crore losses in Kashmir over 4 months per Kashmir Chamber of
+  Commerce, and many startups shuttered due to lockdowns. From a
+  classical-liberal view, regulatory cuts are promising for private sector
+  growth, but EoDB rankings overlook basics; Srinagar's 49th rank in Ease of
+  Living Index underscores high opportunity costs from poor infrastructure. True
+  business revival demands 24/7 high-speed internet, reliable power, and
+  infrastructure over mere regulatory tweaks.
+key_points:
+  - >-
+    J&K reduced NOC requirements for industrial units from 15 to none from the
+    Industries department to attract investors and combat 9% unemployment.
+  - >-
+    Only 137 of 187 BRAP 2019 reforms implemented, missing key items like public
+    approval checklists and outage data publication.
+  - >-
+    Internet shutdowns and 6-month winter power outages hinder digitization and
+    business viability.
+  - >-
+    Post-Article 370, Kashmir lost Rs 17,878 crore in 4 months, with Srinagar
+    ranking 49th in Ease of Living due to infrastructure deficits.
+  - >-
+    Prioritize reliable internet, electricity, and infrastructure alongside
+    regulatory reforms for genuine EoDB improvement.
+topics:
+  - ease-of-doing-business
+  - business-reforms
+  - infrastructure
+  - jammu-kashmir-economy
+source_hash: 7c1cf622d5ef70451ccd431b7a40bd51248023825c4bfeca592890c8a83889fe
+summary_hash: 7c1cf622d5ef70451ccd431b7a40bd51248023825c4bfeca592890c8a83889fe
+summary_at: '2026-05-05T09:36:34.166Z'
 ---
 **By Marwah Koul**
 

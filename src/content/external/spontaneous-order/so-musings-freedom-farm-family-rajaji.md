@@ -1,15 +1,53 @@
 ---
 title: 'SO Musings: For Freedom, Farm and Family'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-freedom-farm-family-rajaji'
+author: Spontaneous Order
 published_at: '2019-11-22T15:48:34.000Z'
 ingested_at: '2026-05-05T08:31:42.457Z'
-source_hash: 9e9d18bffa886cca2dd1037943d60151c6dede6ce49e6e67e6488481b63afae5
-author: Spontaneous Order
 excerpt: >-
   Democracy and self-government mean considerable responsibility for every
   citizen. Unfortunately, we have come to feel that as long as Mr. Nehru is
   there, none of us need worry about anything. In the first place because he is
   a very good man; in the seco..
+summary: >-
+  The author urges Indians to reclaim independent thinking and responsibility,
+  rejecting dependency on leaders like Nehru amid democratic self-government. He
+  lambasts government megalomania in planning, predicting bankruptcy and beggary
+  from grandiose visions ignoring ground realities. Focusing on the urgent food
+  production deficit, he critiques the Nagpur resolution's push for 'joint' or
+  cooperative farming—reframed as multiple ownership and management—which he
+  argues will spoil production like 'too many cooks spoil the broth,'
+  necessitate a new land-managing bureaucracy, subsidies, and lead to falling
+  output when a rise is desperately needed. Compensation for land acquisition
+  will fuel inflation via printed money or bonds, prioritizing dogmatic
+  equalization over concrete food needs. Government interference destroys
+  agricultural incentives amid uncertainty, while state trading in food grains
+  exaggerates hoarding fears, stifles competition that protects consumers, and
+  displaces frugal traders practicing unconscious socialism. Heavy taxation,
+  like proposed Rs. 2,000 crores or Rs. 43,000 crores schemes, breeds
+  retrenchment and unemployment. Warning of totalitarian attacks on family akin
+  to China, he calls to protect farm and family, building public and
+  parliamentary opposition to discipline government conceit without awaiting
+  elections.
+key_points:
+  - >-
+    Reject Nagpur resolution's multiple ownership and management of land, as it
+    will create bureaucracy, reduce food production, and inflate via
+    compensation payments.
+  - >-
+    Oppose state trading in food grains, relying instead on competition among
+    traders to prevent hoarding and ensure consumer protection.
+  - >-
+    Limit taxation beyond sustainable levels to avoid retrenchment,
+    inefficiency, and unemployment.
+  - >-
+    Build immediate public opposition to protect farms, families, and individual
+    incentives from totalitarian state inroads.
+topics:
+  - agriculture
+  - land-reform
+  - free-markets
+  - limited-government
 tags:
   - Farm
   - family
@@ -18,6 +56,9 @@ tags:
   - C Rajagopalachari
   - Freedom
   - Nehruvian model
+source_hash: 9e9d18bffa886cca2dd1037943d60151c6dede6ce49e6e67e6488481b63afae5
+summary_hash: 9e9d18bffa886cca2dd1037943d60151c6dede6ce49e6e67e6488481b63afae5
+summary_at: '2026-05-05T11:56:37.247Z'
 ---
 **By Spontaneous Order**
 

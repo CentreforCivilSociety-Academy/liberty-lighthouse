@@ -1,21 +1,61 @@
 ---
 title: Black Money may be good for us!
 original_url: 'https://www.spontaneousorder.in/p/second-economy'
+author: Spontaneous Order
 published_at: '2016-03-15T17:49:43.000Z'
 ingested_at: '2026-05-05T08:31:42.558Z'
-source_hash: 6f7bd21ccd60b354299e5937d23192f31056464154fdd59f61650865d0885f1f
-author: Spontaneous Order
 excerpt: >-
   “Kaushik Basu, the chief economist of the World Bank and former chief economic
   adviser to the Indian government, says the nation’s tradition of petty
   corruption helped India avoid the worst of the banking crisis that has
   crippled most other large econ
+summary: >-
+  Siddhant Kohli argues from a classical-liberal viewpoint that India's shadow
+  economy, including black money and petty corruption, has been beneficial,
+  providing economic robustness and a safety net during global crises like the
+  banking meltdown, as noted by Kaushik Basu, former Chief Economic Adviser. He
+  highlights that substantial household savings in cash rather than securities
+  insulated India. Recent government measures to curb cash—such as PAN
+  requirements for transactions, ₹50,000 cash deposit limits, and a 1% excise
+  tax on jewellery—have led to sluggish consumer spending, real estate slump,
+  and overall economic slowdown, despite official 7% growth claims adjusted by
+  base year changes. Kohli contends corruption 'makes this country function' by
+  incentivizing risk-averse bureaucrats in an inefficient system of archaic
+  laws. Tax evasion is rationalized as a response to government's poor delivery
+  of services like electricity, water, and security, despite charges, rendering
+  direct taxes unjust. He proposes tolerating the shadow economy alongside the
+  formal one, abolishing or reducing direct taxation, and shifting to
+  progressive taxation on goods and services for balance.
+key_points:
+  - >-
+    India's shadow economy and petty corruption helped avoid the worst of the
+    global banking crisis, per Kaushik Basu.
+  - >-
+    Government cash curbs like ₹50,000 deposit limits and 1% jewellery tax have
+    caused real estate slumps and reduced consumer spending.
+  - >-
+    Corruption incentivizes bureaucrats to act in an inefficient administrative
+    system.
+  - >-
+    Tax evasion is justified by the government's failure to deliver basic
+    services despite tax charges.
+  - >-
+    Solution: Reduce direct taxes and adopt progressive goods/services taxation
+    to allow shadow economy coexistence.
+topics:
+  - black-money
+  - shadow-economy
+  - tax-evasion
+  - bureaucratic-corruption
 tags:
   - corruption in India
   - black money
   - Shadow Economy in India
   - Black Economy
   - corruption
+source_hash: 6f7bd21ccd60b354299e5937d23192f31056464154fdd59f61650865d0885f1f
+summary_hash: 6f7bd21ccd60b354299e5937d23192f31056464154fdd59f61650865d0885f1f
+summary_at: '2026-05-05T11:35:27.499Z'
 ---
 **By Siddhant Kohli**
 

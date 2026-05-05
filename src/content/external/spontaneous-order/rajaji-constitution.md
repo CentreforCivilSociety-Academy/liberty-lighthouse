@@ -3,15 +3,52 @@ title: >-
   #ThrowbackThursday: C Rajagopalachari — The Keystone of the Constitution
   (1971)
 original_url: 'https://www.spontaneousorder.in/p/rajaji-constitution'
+author: Spontaneous Order
 published_at: '2015-11-26T17:07:02.000Z'
 ingested_at: '2026-05-05T08:31:42.569Z'
-source_hash: bf6776d5be7e94506d6f2e7cb1189f01e09333b8765efc3cde5631d35fed9f4b
-author: Spontaneous Order
 excerpt: >-
   Today is Constitution Day– the Indian Constitution was adopted by the
   Constituent Assembly 66 years back on this day in 1949; which later came into
   force on January 26, 1950. We thought it befitting to post an article by C
   Rajagopalachari on the Constit
+summary: >-
+  C. Rajagopalachari declares Part III's Fundamental Rights the 'keystone' of
+  India's Constitution, adopted on November 26, 1949, which embodies the
+  Preamble's commitments to justice, liberty, equality, and individual dignity.
+  He condemns the Indira Gandhi-led Congress's 24th and 25th amendments as an
+  'outrage' that dismantles this keystone by subordinating rights—especially
+  property acquisition, holding, and disposal under Articles 19(1)(f) and (g)—to
+  non-justiciable Directive Principles in Part IV. These changes permit state
+  acquisition without just compensation, amounting to 'sheer robbery' and
+  reducing citizens to 'serfs,' contrary to classical-liberal freedoms of
+  speech, profession, trade, and business. Rajaji notes the Swatantra Party
+  alone defends the Constitution, unlike the splintered Congress (O) or Indira
+  Congress, despite electoral losses to a gullible electorate. He cites N.A.
+  Palkhivala's October 16, 1971, Madras speech and V.P. Santhanam's August 7
+  Swarajya article as authoritative critiques. Invoking Psalm 118:22, Rajaji
+  portrays Swatantra as the biblical 'rejected stone' now the 'headstone of the
+  corner,' essential to preventing constitutional collapse.
+key_points:
+  - >-
+    Part III Fundamental Rights form the indispensable keystone holding the
+    Constitution together.
+  - >-
+    The 24th and 25th amendments enable property acquisition without just
+    compensation, violating Articles 19(1)(f) and (g).
+  - >-
+    Part IV Directive Principles are non-justiciable and cannot override
+    Fundamental Rights.
+  - >-
+    Swatantra Party uniquely upholds constitutional principles of individual
+    liberty and property against socialist amendments.
+  - >-
+    Upholding property rights prevents citizens from becoming serfs dependent on
+    state mercy.
+topics:
+  - indian-constitution
+  - fundamental-rights
+  - property-rights
+  - swatantra-party
 tags:
   - Libertarian Scholars
   - Property rights
@@ -19,6 +56,9 @@ tags:
   - Swatantra Party
   - C Rajagopalachari
   - Constitution
+source_hash: bf6776d5be7e94506d6f2e7cb1189f01e09333b8765efc3cde5631d35fed9f4b
+summary_hash: bf6776d5be7e94506d6f2e7cb1189f01e09333b8765efc3cde5631d35fed9f4b
+summary_at: '2026-05-05T11:21:56.543Z'
 ---
 **By Ujwal Batra**
 

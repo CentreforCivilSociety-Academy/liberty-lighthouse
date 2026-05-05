@@ -1,15 +1,56 @@
 ---
 title: Street Vendors are Eyes on the Street
 original_url: 'https://www.spontaneousorder.in/p/street-vendors-are-eyes-on-the-street'
+author: Spontaneous Order
 published_at: '2025-09-20T16:34:35.000Z'
 ingested_at: '2026-05-05T08:31:42.224Z'
-source_hash: b547d04c0f36a93a12d4211a14ab80979fdab8891b1b754078f0b6a7ab679991
-author: Spontaneous Order
 excerpt: >-
   The informal sector offers several appealing features. Entry barriers are low
   since both start-up capital and skill requirements are minimal. Though some
   workers acquire vocational training, most entrepreneurs gain experience
   through informal apprentice..
+summary: >-
+  Street vending in India's informal sector appeals due to low entry barriers,
+  minimal skills needed via informal apprenticeships, flexibility for balancing
+  household duties, and personalized services unavailable from larger firms.
+  Yet, regulations under the Street Vendors Act 2014, capping vendors at 2.5% of
+  urban population (roughly 10 million based on 430 million urbanites), often
+  penalize rather than protect livelihoods through fines, confiscations, and
+  evictions—echoing Bastiat's 'perversion of law' where law becomes a tool of
+  exclusion. In Chandigarh, fines exceed a week's income for minor cart
+  misplacements, and geo-tagged zoning traps vendors amid shifting foot traffic,
+  denying natural clustering incentives from Hotelling's model, where
+  competitors converge centrally to minimize consumer travel costs and achieve
+  Nash equilibrium. This zoning disrupts the 'sidewalk ballet' Jane Jacobs
+  described, stripping streets of vitality, convenience for daily needs,
+  mixed-use vibrancy, and 'eyes on the street' safety from constant human
+  presence. Classical-liberal critique urges revising such laws, recognizing
+  cities as organic communities, not engineered machines.
+key_points:
+  - >-
+    Street vending provides low-barrier entry, flexibility, and personalized
+    services but faces regulatory penalties like fines exceeding weekly income
+    and rigid zoning.
+  - >-
+    India has about 10 million street vendors, capped at 2.5% of urban
+    population under the 2014 Act.
+  - >-
+    Vendors naturally cluster at high-traffic spots via Hotelling's model to
+    capture maximum customers amid transport costs.
+  - >-
+    Zoning kills street life, safety, and mixed-use vibrancy, opposing Jacobs'
+    'eyes on the street' principle.
+  - >-
+    Revise vending laws to support organic urban communities rather than
+    top-down control.
+topics:
+  - street-vendors
+  - urban-zoning
+  - informal-economy
+  - eyes-on-the-street
+source_hash: b547d04c0f36a93a12d4211a14ab80979fdab8891b1b754078f0b6a7ab679991
+summary_hash: b547d04c0f36a93a12d4211a14ab80979fdab8891b1b754078f0b6a7ab679991
+summary_at: '2026-05-05T12:12:04.732Z'
 ---
 **By Rimmon Dass**
 

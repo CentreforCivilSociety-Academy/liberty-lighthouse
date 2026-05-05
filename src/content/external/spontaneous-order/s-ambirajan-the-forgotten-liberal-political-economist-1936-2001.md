@@ -2,15 +2,59 @@
 title: S Ambirajan – the forgotten liberal political economist (1936-2001)
 original_url: >-
   https://www.spontaneousorder.in/p/s-ambirajan-the-forgotten-liberal-political-economist-1936-2001
+author: Spontaneous Order
 published_at: '2020-06-23T17:07:30.000Z'
 ingested_at: '2026-05-05T08:31:42.406Z'
-source_hash: e24761cafa382e7a18c5e08ec43c39f1ef828244dd153260315da3d2061c4245
-author: Spontaneous Order
 excerpt: >-
   In the twentieth century, India produced many worthy scholars who mastered the
   art of political economics. Those who specialised in political economics, were
   well known both in the world of academia and policy-making – with a few
   caveats thrown in. Doma
+summary: >-
+  Professor S Ambirajan (1936-2001) exemplifies the overlooked classical-liberal
+  economists in twentieth-century India, whose opposition to centralized
+  planning and advocacy for individual freedom, private property rights,
+  decentralized planning, and economic freedom for enterprises to create wealth
+  and reduce poverty marginalized them amid the dominance of socialist and
+  communist thinkers favored in academia and policy. A first-generation
+  post-1947 economist, he earned BA Hons (1955), MA (1957), and PhD (1961) from
+  Andhra University, followed by a PhD (1962) from the University of Manchester
+  on 'Economic Ideas and Indian Economic Policies in the Nineteenth Century.'
+  His debut book, 'A Grammar of Indian Planning' (1959), critiqued Jawaharlal
+  Nehru's centralized planning, citing Austrian economists Ludwig von Mises and
+  F.A. Hayek, and liberal V.S. Srinivasa Sastri. Ambirajan authored over two
+  dozen books, including classics like 'Political Economy and Monetary
+  Management: India, 1766-1914' (1984), and hundreds of articles in journals
+  like Economic and Political Weekly, The Hindu, and The Economic Times. He
+  taught at University of Queensland (1964-1966), University of New South Wales
+  (1966-1981), IIT Madras (1981-1996, as Head), and Madras School of Economics.
+  Despite international acclaim as the 'Compassionate Economist,' his works
+  found greater appreciation abroad than in India, where sobriety, facts, and
+  reason in public discourse were sidelined for emotion and ideology. His legacy
+  endures through the annual Dr S Ambirajan Memorial Lecture since 2002.
+key_points:
+  - >-
+    Ambirajan vehemently opposed Nehru's centralized planning in his 1959 book
+    'A Grammar of Indian Planning,' drawing on Mises, Hayek, and Sastri to
+    highlight its impracticalities in India.
+  - >-
+    He championed individual freedom, private property rights, decentralized
+    planning, and government focus on durable capital for long-term growth over
+    short-term vested interests.
+  - >-
+    His prolific output includes over two dozen books on Indian economic history
+    and policy, such as 'Political Economy and Monetary Management: India,
+    1766-1914' (1984), praised as classics by liberal economists like P.R.
+    Brahmananda.
+  - >-
+    Ambirajan's scholarly works received more recognition internationally than
+    in India, where classical-liberal views were politically incorrect amid
+    socialist dominance.
+topics:
+  - classical-liberalism
+  - indian-economic-history
+  - political-economy
+  - decentralized-planning
 tags:
   - Liberalism in India
   - Libertarian Scholars
@@ -18,6 +62,9 @@ tags:
   - Indian liberals
   - Indian Liberals. Libertarian Scholars
   - economic liberty
+source_hash: e24761cafa382e7a18c5e08ec43c39f1ef828244dd153260315da3d2061c4245
+summary_hash: e24761cafa382e7a18c5e08ec43c39f1ef828244dd153260315da3d2061c4245
+summary_at: '2026-05-05T11:31:29.615Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

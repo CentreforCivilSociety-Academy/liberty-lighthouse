@@ -2,20 +2,58 @@
 title: Path-breaking review report on Delhi School Education Act 1973
 original_url: >-
   https://www.spontaneousorder.in/p/path-breaking-review-report-on-delhi-school-education-act-1973
+author: Spontaneous Order
 published_at: '2012-11-09T18:12:12.000Z'
 ingested_at: '2026-05-05T08:31:42.611Z'
-source_hash: c3c10e8012fb08d4b96288da229debfd4020aa96f01d7ac4f2b67e2ad14223a9
-author: Spontaneous Order
 excerpt: >-
   Indian education policy space might not have seen a report as progressive as
   “The Report of the Review Committee on the Delhi school Education Act and
   Rules, 1973”, thanks to former Chief Secretary of Delhi, Shailaja Chandra, IAS
   (retd.), the chairper
+summary: >-
+  Shantanu Gupta hails the Report of the Review Committee on the Delhi School
+  Education Act and Rules, 1973, chaired by former Chief Secretary Shailaja
+  Chandra, as a path-breaking, progressive document in Indian education policy
+  from a classical-liberal viewpoint. Drawing on consultations with over 100
+  stakeholders, legal cases, national committees, empirical data, and ASER
+  learning outcomes, the report advocates market-oriented reforms applicable
+  nationwide. Key proposals include allowing companies to enter education to
+  curb family-run 'conglomerates,' foster competition, and reduce employee
+  exploitation (p.77, Vol.I). It urges recognition for over 4,000 unrecognized
+  budget private schools—1,593 per MCD survey—meeting RTE basics, noting
+  Pratham's findings of superior outcomes in disadvantaged areas like Nandnagri
+  compared to MCD and government schools; only 16% qualify under strict 800
+  sq.m. land norms, but 61% under older 200 sq.m. (pp.76-77, Vol.I). The report
+  attributes aided schools' decline to lost autonomy and teacher tenure (p.35,
+  Vol.I), recommends deleting the Essentiality Certificate (Rule 44) to let
+  markets determine school supply amid land scarcity (p.78, Vol.I), and proposes
+  realistic teacher salaries tied to fees (50% benchmark) with 40% on contract
+  except core subjects (p.98, Vol.I). These changes promote private initiative
+  over rigid government controls.
+key_points:
+  - >-
+    Allow companies to operate schools to promote competition, reduce family
+    control, and bridge supply-demand gaps.
+  - >-
+    Recognize budget private schools meeting RTE norms, as they outperform
+    government schools per Pratham data.
+  - Eliminate Essentiality Certificate to enable market-driven school supply.
+  - >-
+    Link teacher salaries to school fees (50% benchmark) and permit contracts
+    for non-core subjects to introduce realism.
+topics:
+  - education-reform
+  - private-schools
+  - school-regulation
+  - teacher-salaries
 tags:
   - Essentiality Certificate
   - School Choice Campaign
   - Shailaja Chandra
   - Pratham
+source_hash: c3c10e8012fb08d4b96288da229debfd4020aa96f01d7ac4f2b67e2ad14223a9
+summary_hash: c3c10e8012fb08d4b96288da229debfd4020aa96f01d7ac4f2b67e2ad14223a9
+summary_at: '2026-05-05T11:12:04.405Z'
 ---
 **By Shantanu Gupta**
 

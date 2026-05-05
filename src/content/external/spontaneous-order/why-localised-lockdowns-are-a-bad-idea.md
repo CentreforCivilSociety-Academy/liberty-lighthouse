@@ -1,14 +1,49 @@
 ---
 title: Why localised lockdowns are a bad idea
 original_url: 'https://www.spontaneousorder.in/p/why-localised-lockdowns-are-a-bad-idea'
+author: Spontaneous Order
 published_at: '2020-08-11T10:52:40.000Z'
 ingested_at: '2026-05-05T08:31:42.387Z'
-source_hash: b5aa069804088fc542f1221901409da7ace157e5521da5616d68fdab052cbf59
-author: Spontaneous Order
 excerpt: >-
   The Centre’s decision to re-open the economy and allow states discretion to
   enforce local lockdowns has led to unintended consequences. State governments
   are now re-imposing local lockdowns at will.
+summary: >-
+  Localised lockdowns by Indian states, following the nationwide lockdown from
+  March 24, 2020, are misguided as they disrupt interconnected supply chains
+  spanning multiple states—for instance, Delhi fridge manufacturers relying on
+  Rajasthan materials—leading to broader economic harm. Experts like CRISIL's
+  Dharmakirti Joshi note that partial unlocking and erratic containment hinder
+  supply chains, transportation, and logistics, while supplier Vimal Kedia
+  highlights interdependencies in labour and supplies causing trigger effects
+  across markets. In contrast, Delhi avoided on-off lockdowns, using increased
+  testing and healthcare expansion to cut active cases and reach over 80%
+  recovery rate, proving states need not choose between virus control and
+  livelihoods. With India past one million COVID-19 cases, overall unemployment
+  back to pre-pandemic levels but urban rates high, the post urges Centre-state
+  coordination for realistic crisis management over arbitrary measures creating
+  a 'facade of good COVID management.' From a classical-liberal viewpoint, this
+  critiques central planning's failures and state overreach, advocating market
+  revival alongside health infrastructure boosts to safeguard both lives and
+  economic freedom.
+key_points:
+  - >-
+    Localised lockdowns disrupt interstate supply chains, harming businesses in
+    unaffected areas due to material and labour interdependencies.
+  - >-
+    Delhi reduced active COVID-19 cases and achieved over 80% recovery through
+    ramped-up testing and healthcare capacity without reimposing lockdowns.
+  - >-
+    States should coordinate with the Centre to balance virus containment and
+    economic recovery, rejecting arbitrary weekend or city shutdowns.
+  - >-
+    Urban unemployment remains elevated despite national rates returning to
+    pre-COVID levels, underscoring the cost of erratic restrictions.
+topics:
+  - covid-19
+  - local-lockdowns
+  - supply-chains
+  - economic-recovery
 tags:
   - supply chain
   - Lockdown
@@ -16,6 +51,9 @@ tags:
   - Coronavirus
   - economy
   - Indian Economy
+source_hash: b5aa069804088fc542f1221901409da7ace157e5521da5616d68fdab052cbf59
+summary_hash: b5aa069804088fc542f1221901409da7ace157e5521da5616d68fdab052cbf59
+summary_at: '2026-05-05T13:06:25.682Z'
 ---
 **By Swati Singh**
 

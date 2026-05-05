@@ -1,15 +1,52 @@
 ---
 title: Re-thinking Tsunami Aid
 original_url: 'https://www.spontaneousorder.in/p/re-thinking-tsunami-aid'
+author: Spontaneous Order
 published_at: '2005-01-08T01:54:11.000Z'
 ingested_at: '2026-05-05T08:31:42.690Z'
-source_hash: 3144cf7f40ec247740a51dcd26cd7ad85e8b6592059b1e4b7ab0f1c9df38df97
-author: Spontaneous Order
 excerpt: >-
   This may be an opportune time to think of the type of aid being given in the
   tsunami areas, over and above simply the modality of aid flows – private or
   government. A couple of things come to mind. One, for most of these
   communities while aid for immedi
+summary: >-
+  Nimai Mehta argues that tsunami aid should transcend immediate consumption and
+  health needs to address the precarious pre-existing conditions of affected
+  communities—barring high-end tourist spots in Thailand and Sri Lanka—which
+  lacked secure livelihoods, security, infrastructure, and property rights. Aid
+  ought to fund decentralized schemes empowering survivors to rebuild permanent
+  structures like roads, lights, and schools via private initiatives on both
+  demand and supply sides, ensuring more enduring outcomes than state-led
+  efforts. The tsunami has erased informal rules and special interests that
+  previously governed resource use amid absent property rights, creating a
+  'clean slate' for establishing formal property rights. This would compel
+  survivors to capitalize on and mitigate geographical-locational risks in their
+  settlements. Mehta suggests fleshing out these ideas further and positions the
+  Centre for Civil Society (CCS) as having a comparative advantage to advocate
+  this broader, classical-liberal conception of aid to authorities in
+  tsunami-hit regions.
+key_points:
+  - >-
+    Aid should support decentralized private initiatives for rebuilding
+    infrastructure like roads, lights, and schools, rather than relying on state
+    efforts.
+  - >-
+    The tsunami offers a clean slate to replace informal rules and special
+    interests with formal property rights in resource-scarce communities.
+  - >-
+    Establishing property rights will force survivors to account for locational
+    risks associated with their settlements.
+  - >-
+    CCS should leverage its expertise to promote this expanded view of aid to
+    regional authorities.
+topics:
+  - disaster-aid
+  - property-rights
+  - private-initiative
+  - decentralized-rebuilding
+source_hash: 3144cf7f40ec247740a51dcd26cd7ad85e8b6592059b1e4b7ab0f1c9df38df97
+summary_hash: 3144cf7f40ec247740a51dcd26cd7ad85e8b6592059b1e4b7ab0f1c9df38df97
+summary_at: '2026-05-05T11:23:41.099Z'
 ---
 **By Nimai Mehta**
 

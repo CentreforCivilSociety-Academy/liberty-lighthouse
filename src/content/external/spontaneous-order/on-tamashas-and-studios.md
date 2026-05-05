@@ -1,15 +1,53 @@
 ---
 title: The Missing Media
 original_url: 'https://www.spontaneousorder.in/p/on-tamashas-and-studios'
+author: Spontaneous Order
 published_at: '2011-06-19T23:44:46.000Z'
 ingested_at: '2026-05-05T08:31:42.637Z'
-source_hash: 2e119f2b749a75b96b665407c71e729fe05a67245d8a6154f13012c33cadadb0
-author: Spontaneous Order
 excerpt: >-
   Udita Singh and Ishu Kumar (CCS Communicating Reality Interns) In his latest
   piece, Rajdeep Sardesai describes the media as a double-edge weapon. Media
   seems to be the word of decade. The role of the media is greater now than ever
   before. Mass media ta...
+summary: >-
+  While mass media like TV news acts as a double-edged sword—crusading,
+  reflecting society, silencing some, and fueling revolutions—a vital 'silent'
+  traditional media thrives in India's communities through oral traditions, folk
+  customs, and performing arts. This latent medium, unique to regions,
+  celebrates age-old cultures via songs, dances, ballads like Maharashtra's
+  Powada (used by Government of India-UNDP for disaster preparedness and
+  community participation), Jatra folk opera (promoted by NGOs like Kalaboti
+  Mudra in Bengal and beyond), and puppetry (revived by Ishara Puppet Theatre
+  Trust since 1986, with annual festivals propagating folklore and educational
+  programs). Fishermen sing of their catches, Assamese women dance Bihu, and
+  communities gather under banyan trees for these expressions, which adapt to
+  contemporary themes like independence struggles. These forms support campaigns
+  from polio immunization to rural savings accounts. The author warns of a
+  dangerous rural-urban divergence in information and entertainment sources,
+  especially with millions migrating to cities soon, urging dialogue between
+  mass and traditional media to ensure all voices survive and integrate.
+key_points:
+  - >-
+    Mass media dominates discourse, but traditional media via folk arts like
+    Powada, Jatra, and puppetry serves as a powerful, community-driven
+    communicator.
+  - >-
+    Government-UNDP leverages Powada for disaster preparedness, while NGOs like
+    Kalaboti Mudra promote Jatra to document tribal knowledge.
+  - >-
+    Ishara Puppet Theatre, founded in 1986, revives puppetry for folklore
+    propagation and education through festivals and programs.
+  - >-
+    Traditional media aids social campaigns such as polio immunization and rural
+    banking.
+  - >-
+    Urgent dialogue needed between mass and traditional media to bridge
+    rural-urban divides amid mass migration.
+topics:
+  - traditional-media
+  - folk-arts
+  - rural-urban-divide
+  - cultural-preservation
 tags:
   - traditions
   - Powada
@@ -19,6 +57,9 @@ tags:
   - jatra
   - culture
   - folk media
+source_hash: 2e119f2b749a75b96b665407c71e729fe05a67245d8a6154f13012c33cadadb0
+summary_hash: 2e119f2b749a75b96b665407c71e729fe05a67245d8a6154f13012c33cadadb0
+summary_at: '2026-05-05T11:08:15.659Z'
 ---
 **By Vipin**
 

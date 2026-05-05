@@ -1,19 +1,61 @@
 ---
 title: Classical liberalism 101 – Part 1
 original_url: 'https://www.spontaneousorder.in/p/classical-liberalism-101-part-1'
+author: Spontaneous Order
 published_at: '2011-02-23T14:28:43.000Z'
 ingested_at: '2026-05-05T08:31:42.646Z'
-source_hash: 7c71e0c13816cd17bed2b68e3836d4495d259dc86fe1650cb50abd0a2d25d8da
-author: Spontaneous Order
 excerpt: >-
   For most of history (and unfortunately in many places even today) the average
   individual was a slave – a de facto slave if not a de jure one. He or she –
   the aam aadmi, as it were, was fodder for someone else. Fodder for the
   monarch. Fodder for the fe
+summary: >-
+  Throughout history, the average individual has been treated as fodder for
+  monarchs, feudal lords, clergymen, or barbarians, coerced by threats of
+  violence against their life, liberty, and property, even if rulers faced
+  similar constraints. Classical liberal philosophy, at its core, asserts that
+  individuals are free to do whatever they want so long as it does not threaten
+  someone else's life, liberty, or property—a principle that rejects coercion in
+  favor of persuasion through morals or markets. This translates to daily life
+  as non-interference in personal sexual, religious, or other preferences
+  (material harm only, not sentimental), recognition that free markets have
+  generated unprecedented wealth (making historical rich envious of modern
+  welfare), and support for equality of opportunity through targeted
+  redistribution like vouchers for students rather than schools, yielding better
+  educational outcomes per rupee spent per international studies, and similarly
+  for health and food security. Genuine liberals defend rule of law, free
+  speech, civil liberties, and privacy against intrusive, Orwellian government,
+  prioritizing the uniqueness and sentience of every individual over dogmatic
+  extremes or interventionist wars.
+key_points:
+  - >-
+    Individuals have historically been coerced by violence from rulers, lords,
+    and priests, acting against their choices.
+  - >-
+    Classical liberalism grants freedom to act as one wishes without threatening
+    others' life, liberty, or property.
+  - >-
+    Free markets have created unprecedented wealth, surpassing the luxuries of
+    past elites.
+  - >-
+    Achieve equality of opportunity via vouchers for education, health, and
+    food, leveraging choice and competition for superior outcomes per
+    international studies.
+  - >-
+    Liberals defend rule of law, free speech, civil liberties, and privacy
+    against big government.
+topics:
+  - classical-liberalism
+  - free-markets
+  - school-vouchers
+  - rule-of-law
 tags:
   - brahmin
   - aam aadmi
   - Libertarianism
+source_hash: 7c71e0c13816cd17bed2b68e3836d4495d259dc86fe1650cb50abd0a2d25d8da
+summary_hash: 7c71e0c13816cd17bed2b68e3836d4495d259dc86fe1650cb50abd0a2d25d8da
+summary_at: '2026-05-05T09:22:45.001Z'
 ---
 **By Harsh Gupta**
 

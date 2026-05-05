@@ -2,21 +2,62 @@
 title: 'Transparency of Rights Act: Good Governance and Civil Society'
 original_url: >-
   https://www.spontaneousorder.in/p/transparency-of-rights-act-good-governance-and-civil-society
+author: Spontaneous Order
 published_at: '2018-08-03T12:29:44.000Z'
 ingested_at: '2026-05-05T08:31:42.533Z'
-source_hash: 96ceb8f1a55a2c4cc10479e8abbeee6bcf07de3bdd26edea5836c0bb2411036f
-author: Spontaneous Order
 excerpt: >-
   Presently, to engage with any public department, the Common Man must scavenge
   through stacks of notifications in an attempt to discern the requirements of
   the said department. Despite all this research there is still no guarantee
   that he won’t have to h
+summary: >-
+  The Transparency of Rights Act (TORA) promises to fix Indian administrative
+  inefficiency by mandating departments to publish citizen-facing rules,
+  regulations, and forms on websites in a unified, time-stamped, Wikipedia-like
+  interface. However, from a classical-liberal viewpoint, TORA is no innovation
+  but a redundant mutation of existing frameworks: the Constitution-directed
+  Gazette of India already publishes Acts digitally, and the RTI Act requires
+  public authorities to provide access to rules, regulations, and manuals. The
+  real gap is execution, as RTI faces chronic issues like unappointed Public
+  Information Officers, lack of public education, untrained staff, and
+  cumbersome filing—problems TORA would replicate by creating a new apex
+  oversight body, more bureaucrats, and penalties, exacerbating bureaucratic
+  bloat. The Economic Survey rightly shifts accountability from citizens to
+  departments, but without fixing RTI loopholes via the Central Information
+  Commission (CIC), TORA remains utopian. True governance accountability demands
+  pre-emptive civil society involvement—NGOs, research institutes,
+  activists—with expertise and incentives to enforce transparency, rather than
+  post-hoc judicial fixes that enable 'creative law-bending.' Law-makers must
+  integrate civil society as stakeholders, as past movements like the 2011 Jan
+  Lokpal agitation highlight government reluctance.
+key_points:
+  - >-
+    TORA duplicates transparency mandates already in the Gazette of India and
+    RTI Act by requiring online, wiki-like publication of rules.
+  - >-
+    RTI implementation fails due to missing PIOs, lack of education, and poor
+    infrastructure, vulnerabilities TORA would inherit through added
+    bureaucracy.
+  - >-
+    Empower the CIC to enforce streamlined, time-stamped digital interfaces
+    under existing RTI provisions instead of new laws.
+  - >-
+    Civil society—NGOs, activists, and movements—must be embraced as governance
+    stakeholders to achieve real accountability beyond ballot-box participation.
+topics:
+  - transparency
+  - governance-reform
+  - civil-society
+  - rti-act
 tags:
   - Bureaucracy
   - Digital Governance
   - Right to Information
   - Transparency of Rights Act
   - Transparent Governanace
+source_hash: 96ceb8f1a55a2c4cc10479e8abbeee6bcf07de3bdd26edea5836c0bb2411036f
+summary_hash: 96ceb8f1a55a2c4cc10479e8abbeee6bcf07de3bdd26edea5836c0bb2411036f
+summary_at: '2026-05-05T12:46:48.817Z'
 ---
 **By Rishika Yadav**
 

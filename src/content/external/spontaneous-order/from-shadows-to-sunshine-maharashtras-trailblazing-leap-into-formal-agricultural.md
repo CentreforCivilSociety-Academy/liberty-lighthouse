@@ -4,15 +4,56 @@ title: >-
   Agricultural Tenancy
 original_url: >-
   https://www.spontaneousorder.in/p/from-shadows-to-sunshine-maharashtras-trailblazing-leap-into-formal-agricultural-tenancy
+author: Spontaneous Order
 published_at: '2023-08-01T13:45:34.000Z'
 ingested_at: '2026-05-05T08:31:42.718Z'
-source_hash: 9a47d607006123a1972cdbe3325cc490b6911e98c803153082faa7b82be5fa6d
-author: Spontaneous Order
 excerpt: >-
   Introduction Agricultural tenancy in India, a vibrant and bustling sector, has
   long been mired in informality, an unintended consequence of well-intentioned
   post-independence laws. However, the state of Maharashtra, a standout in this
   landscape, has rec..
+summary: >-
+  Maharashtra has activated its 2017 Agricultural Land Leasing Act—based on NITI
+  Aayog's Model Land Leasing Bill 2016 and recently assented by the
+  President—marking a classical-liberal shift to formalize agricultural tenancy
+  stifled by post-independence laws like the 1948 Maharashtra Tenancy and
+  Agricultural Lands Act (MTAL). Those laws, intended to protect tenants via
+  purchase rights and rent ceilings, instead drove leasing underground: official
+  data reveals just 0.01% formal leasing versus a 590-fold higher 5.90%
+  informal, leaving tenants without institutional credit, crop insurance, or
+  services. The new Act removes rent and duration restrictions, enabling free
+  rental agreements that alleviate landlords' fears of land loss while granting
+  tenants formal access to finance and support. This win-win reform promises
+  elevated tenant security, stimulated landlord investments for productivity
+  gains, quelled disputes via written leases, kindled rural entrepreneurship,
+  and lured private capital for technological progress. The author hails
+  Maharashtra as a torchbearer, urging other states to follow suit to shatter
+  informality's chains and unleash India's agricultural potential.
+key_points:
+  - >-
+    Maharashtra's revived 2017 Act legalizes informal tenancy by removing rent
+    ceilings and lease duration limits, addressing a 590-fold gap between 0.01%
+    formal and 5.90% informal leasing.
+  - >-
+    Tenant farmers gain access to institutional credit and crop insurance
+    through formal leases previously denied under restrictive MTAL 1948 laws.
+  - >-
+    Landlords are freed from fears of tenant land grabs, encouraging investments
+    in land improvements and productivity.
+  - >-
+    The reform reduces land disputes, fosters tenant entrepreneurship, and
+    attracts private investment to modernize agriculture.
+  - >-
+    Other Indian states should adopt similar laws to formalize tenancy
+    nationwide and boost rural economies.
+topics:
+  - agricultural-tenancy
+  - land-leasing
+  - land-reform
+  - maharashtra
+source_hash: 9a47d607006123a1972cdbe3325cc490b6911e98c803153082faa7b82be5fa6d
+summary_hash: 9a47d607006123a1972cdbe3325cc490b6911e98c803153082faa7b82be5fa6d
+summary_at: '2026-05-05T10:00:17.222Z'
 ---
 **By Arjun Krishnan**
 

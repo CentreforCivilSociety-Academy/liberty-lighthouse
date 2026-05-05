@@ -2,15 +2,50 @@
 title: The chaiwallah of the street also deserves to be heard
 original_url: >-
   https://www.spontaneousorder.in/p/the-chaiwallah-of-the-street-also-deserves-to-be-heard
+author: Spontaneous Order
 published_at: '2019-05-27T08:47:18.000Z'
 ingested_at: '2026-05-05T08:31:42.486Z'
-source_hash: 815d5d206be885a6b96a95394974b086d1b48d2865efd1d129863e18ecd5f9d8
-author: Spontaneous Order
 excerpt: >-
   In 2014, Prime Minister Narendra Modi emphasized on his humble beginnings
   through his “Chai Pe Charcha” campaign. Modi, famous as the son of a tea
   vendor, sat at a roadside tea stall and connected electronically with over
   1,000 tea stalls in 300 citie
+summary: >-
+  Despite the Street Vendors Act 2014, which legalized vending and mandated town
+  vending committees (TVCs) with at least 12 vendor members out of 30 to
+  demarcate zones and protect rights under Article 19(1)(g), street vendors face
+  ongoing evictions by authorities. A Centre for Civil Society study of
+  Gurugram's TVC reveals severe flaws: only four vendor members, some listed
+  without knowledge, and appointments based on personal ties rather than
+  representation, affecting 18,000 vendors. This led to biased decisions, like
+  the Sector 14 eviction based on resident complaints without vendor input, and
+  vendors paying nearly ₹1 lakh for carts after authorities rejected private
+  advertising funding. The municipal commissioner, as TVC chairperson and state
+  appointee, lacks incentives for accountability in top-down governance,
+  sidelining the elected mayor. From a classical-liberal view, effective
+  participatory institutions are essential to negotiate state-civil society
+  interests and secure occupational freedoms, but current structures treat
+  vendors as encroachers. Solutions include empowering directly elected mayors,
+  as in Bhopal's model, to foster bottom-up accountability and recognize vendors
+  as citizens.
+key_points:
+  - >-
+    Street Vendors Act 2014 requires TVCs with 40% vendor representation, but
+    Gurugram's has only four authentic members out of 30.
+  - >-
+    Inadequate TVC representation results in arbitrary evictions, like
+    Gurugram's Sector 14 order favoring residents over vendors.
+  - >-
+    Vendors bear high costs, such as ₹1 lakh carts, due to authorities rejecting
+    private funding for recognition and tenure security.
+  - >-
+    Top-down municipal commissioners lack local accountability; states should
+    empower elected mayors for bottom-up governance reforms.
+topics:
+  - street-vendors
+  - town-vending-committee
+  - urban-governance
+  - municipal-reform
 tags:
   - Street Vendors Act
   - Vendor rights
@@ -22,6 +57,9 @@ tags:
   - Gurugram
   - street vendors
   - Street Vendors Act 2014
+source_hash: 815d5d206be885a6b96a95394974b086d1b48d2865efd1d129863e18ecd5f9d8
+summary_hash: 815d5d206be885a6b96a95394974b086d1b48d2865efd1d129863e18ecd5f9d8
+summary_at: '2026-05-05T12:20:45.873Z'
 ---
 **By Vidushi Sabharwal**
 

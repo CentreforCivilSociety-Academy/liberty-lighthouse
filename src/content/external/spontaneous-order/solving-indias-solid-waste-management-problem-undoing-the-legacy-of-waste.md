@@ -2,15 +2,55 @@
 title: 'Solving India’s Solid Waste Management Problem: Undoing the Legacy of Waste'
 original_url: >-
   https://www.spontaneousorder.in/p/solving-indias-solid-waste-management-problem-undoing-the-legacy-of-waste
+author: Spontaneous Order
 published_at: '2023-07-12T13:09:52.000Z'
 ingested_at: '2026-05-05T08:31:42.240Z'
-source_hash: b42408e3080bf41ec56f6af2be6089dc0a79b5c1e56ec94c4a2ab76064e45fa2
-author: Spontaneous Order
 excerpt: >-
   India has been on a trajectory of progressively increasing levels of
   urbanisation since independence, with waves of migration from rural to urban
   agglomerates in search of better life and employment opportunities. Presently,
   over 377 million urban peopl..
+summary: >-
+  India's rapid urbanization, with 377 million urban residents generating 62
+  million tonnes of municipal solid waste annually (160,000 TPD), faces
+  governance failures from resource-starved Urban Local Bodies (ULBs) plagued by
+  insufficient funds, functions, and functionaries. Only 75-80% of waste is
+  collected, 22-28% untreated, with 43,000 TPD neither segregated nor
+  scientifically processed, perpetuating unscientific 'lift and dump' landfills.
+  From a classical-liberal viewpoint, the linear 'take-make-dispose' model must
+  yield to a circular economy prioritizing waste prevention, measurement ('what
+  gets measured gets managed'), and market-driven solutions. Swachh Bharat
+  Mission 2.0 aims for garbage-free cities but lacks standardized technologies
+  and outcomes. Key reforms include mandating 'segregator indicators' on product
+  packaging for source segregation, legislating 'right to repair' for e-waste to
+  generate $20 billion annual revenue and 5 million jobs by 2025, and emulating
+  private-NGO models like Pune's SWaCH cooperative, achieving 100% collection
+  via decentralization, audits, and informal worker integration. Comprehensive
+  waste data inventories and public-private partnerships will enable proactive,
+  low-cost strategies toward zero-waste sustainability, countering reactive
+  state-led inefficiencies.
+key_points:
+  - >-
+    Mandate segregator indicators on all product packaging to enable source
+    segregation and reduce community participation costs.
+  - >-
+    Legislate 'right to repair' for electronics to extend product lifespans, cut
+    e-waste, and create $20 billion revenue and 5 million jobs annually from
+    2025.
+  - >-
+    Shift to private-NGO waste collection models like Pune's SWaCH, achieving
+    100% efficiency through decentralization and informal worker formalization.
+  - >-
+    Prioritize waste measurement with consolidated data inventories to inform
+    circular economy strategies and public-private incentives.
+topics:
+  - solid-waste-management
+  - circular-economy
+  - urban-governance
+  - right-to-repair
+source_hash: b42408e3080bf41ec56f6af2be6089dc0a79b5c1e56ec94c4a2ab76064e45fa2
+summary_hash: b42408e3080bf41ec56f6af2be6089dc0a79b5c1e56ec94c4a2ab76064e45fa2
+summary_at: '2026-05-05T12:06:21.638Z'
 ---
 **By Anmol Rattan Singh**
 

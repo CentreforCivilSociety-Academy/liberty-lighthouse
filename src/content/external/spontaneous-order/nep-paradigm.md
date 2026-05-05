@@ -1,15 +1,56 @@
 ---
 title: Lack of paradigm shift undermines New Education Policy
 original_url: 'https://www.spontaneousorder.in/p/nep-paradigm'
+author: Spontaneous Order
 published_at: '2016-06-29T12:12:11.000Z'
 ingested_at: '2026-05-05T08:31:42.551Z'
-source_hash: efb6731161370d9c8d3254a27f2963cba39aeb09c68c85ecc6acf20df82a97a3
-author: Spontaneous Order
 excerpt: >-
   The TSR Subramaniam Committee’s report on National Policy on Education, 2016
   was leaked to the media last week. The 230-page report is a detailed account
   of the various aspects of education in India and recommendations to make them
   more effective and be
+summary: >-
+  The TSR Subramaniam Committee’s 230-page leaked report on the National
+  Education Policy 2016 disappoints by failing to deliver a paradigm shift in
+  India's education sector, despite high expectations since the 1986 policy.
+  While it commendably emphasizes integrating technology into pedagogy,
+  promoting MOOCs and ODL for adult learners, teacher training, a special
+  tribunal for accountability, and shifting to learning outcomes over mere
+  school proliferation—criticizing under-enrolled schools with 20 or fewer
+  students—the report neglects immediate crises. It minimally addresses Section
+  12(1)(c) of the RTE Act, dismissing reimbursement delays to private schools as
+  'work in progress' without mandating direct benefit transfers or state
+  directives. The document exhibits government bias, deriding private
+  institutions as 'teaching shops,' ignores their growing role, omits
+  public-private partnerships, and proposes expanding centralization via an
+  Indian Education Service, even as other sectors liberalize. From a
+  classical-liberal viewpoint, this entrenches government as provider rather
+  than enabler, stifling innovation and choice in a competitive market. The
+  report critiques past failures like corruption and rote learning but bases its
+  deficient approach on reluctance to empower parental choice over state
+  monopoly.
+key_points:
+  - >-
+    The report prioritizes long-term tech integration and accountability
+    measures like tribunals and learning outcomes but ignores immediate RTE
+    reimbursement issues for private schools.
+  - >-
+    It dismisses private education's role, labeling institutions 'teaching
+    shops,' and proposes more centralization through an Indian Education
+    Service.
+  - >-
+    No recommendations for direct benefit transfers, public-private
+    partnerships, or reducing government monopoly to foster market competition
+    and innovation.
+  - >-
+    Successive governments' failures in corruption and quality are noted, yet no
+    paradigm shift to treat education as a competitive service rather than state
+    provision.
+topics:
+  - education-policy
+  - rte-act
+  - private-schools
+  - school-choice
 tags:
   - Education
   - Education in India
@@ -18,6 +59,9 @@ tags:
   - New Education Policy
   - TSR Subramaniam
   - TSR Subramaniam Report
+source_hash: efb6731161370d9c8d3254a27f2963cba39aeb09c68c85ecc6acf20df82a97a3
+summary_hash: efb6731161370d9c8d3254a27f2963cba39aeb09c68c85ecc6acf20df82a97a3
+summary_at: '2026-05-05T11:02:33.277Z'
 ---
 **By Divya Agarwal**
 

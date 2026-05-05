@@ -1,15 +1,55 @@
 ---
 title: '#ThrowbackThursday: C Rajagopalachari—Need of a New Party NOW (1958)'
 original_url: 'https://www.spontaneousorder.in/p/tbt-rajaji-party'
+author: Spontaneous Order
 published_at: '2015-08-13T16:28:50.000Z'
 ingested_at: '2026-05-05T08:31:42.578Z'
-source_hash: 068ed558f5c890a3139e74cab1c6884fe579e7fa57907966707b6089e0b2d57c
-author: Spontaneous Order
 excerpt: >-
   The following piece is an excerpt from an article published in the June 1958
   issue of ‘The Indian Libertarian.’ C Rajagopalachari was the founder of the
   Swatantra Party–the only political party in India that espoused Classical
   Liberal principles. In
+summary: >-
+  In this 1958 excerpt from 'The Indian Libertarian,' C. Rajagopalachari
+  critiques the Indian National Congress's unchallenged rule ten years after
+  Independence, when the British transferred power to it. He argues that
+  Congress leaders sense problems but deny seriousness, while citizens
+  increasingly parrot socialist slogans like 'Welfare State,' 'Socialistic
+  pattern,' and 'Socialist State' without discussion or independent thought,
+  eroding democratic responsibility. Rajaji highlights the lack of debate on
+  socialism's merits versus Gandhi's trusteeship doctrine, which favored
+  voluntary property obligations over state interference and egalitarianism.
+  Socialism concentrates economic power in rulers, undermining stewardship
+  incentives compared to private interest. He calls for a classical-liberal
+  opposition party of thinking citizens pursuing general welfare through reason,
+  not populist bids for 'have-nots' votes. This opposition would balance
+  Congress's power, preventing absolute corruption, and foster faith that voters
+  will embrace truth for permanent welfare over short-term gains. Forming it
+  now, under Congress rule, is essential; waiting for Congress's disintegration
+  risks chaos and force-based parties. Rajaji's plea preceded founding the
+  Swatantra Party in 1959, India's sole classical-liberal party.
+key_points:
+  - >-
+    Congress has ruled India unchallenged for ten years post-Independence,
+    adopting socialism without public debate or critical thought.
+  - >-
+    Citizens parrot socialist phrases, forsaking independent judgment essential
+    for democracy, ignoring Gandhi's trusteeship over state-controlled
+    egalitarianism.
+  - >-
+    A new opposition must appeal to reason for general welfare, not outbid on
+    populist promises to the 'have-nots.'
+  - >-
+    Form this classical-liberal opposition now under Congress rule to balance
+    power and avert absolute corruption, rather than wait for chaos.
+  - >-
+    Voters will accept sound policies for permanent welfare if presented with
+    faith in democratic reason.
+topics:
+  - rajagopalachari
+  - swatantra-party
+  - socialism-critique
+  - political-opposition
 tags:
   - Rajaji
   - Indian Liberal Tradition
@@ -17,6 +57,9 @@ tags:
   - C Rajagopalachari
   - socialism
   - '#throwbackthursday'
+source_hash: 068ed558f5c890a3139e74cab1c6884fe579e7fa57907966707b6089e0b2d57c
+summary_hash: 068ed558f5c890a3139e74cab1c6884fe579e7fa57907966707b6089e0b2d57c
+summary_at: '2026-05-05T12:16:50.703Z'
 ---
 **By Ujwal Batra**
 

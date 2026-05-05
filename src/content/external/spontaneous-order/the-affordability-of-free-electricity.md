@@ -1,15 +1,53 @@
 ---
 title: The affordability of free electricity
 original_url: 'https://www.spontaneousorder.in/p/the-affordability-of-free-electricity'
+author: Spontaneous Order
 published_at: '2023-01-10T14:50:14.000Z'
 ingested_at: '2026-05-05T08:31:42.248Z'
-source_hash: 8c54e6e22f48cef1416371eb77ce4eddc448d8e30d31c6a4b461efd7a42da522
-author: Spontaneous Order
 excerpt: >-
   Defined as “Politics without Romance” by James Buchanan, the Public Choice
   Theory, attempts to apply economic methods to the tenets of political
   phenomenon in society. It believes in the overlap between political science
   and economic issues, which has
+summary: >-
+  Applying Public Choice Theory's assumptions of self-interested actors, limited
+  knowledge, and economizing behavior, the post critiques Delhi's AAP
+  government's universal free electricity scheme as politically motivated
+  'freebies' that create policy loopholes. The scheme offers up to 200 units
+  free and 50% subsidy on 201-400 units to all households, regardless of income,
+  leading to a 92.38% surge in subsidy expenditure from Rs 1,867.61 crore in
+  2015 to Rs 3,592.94 crore in 2020, while revenue surplus fell from seven
+  crores to five crores. Over 80% of households benefit per a 2019 study, yet
+  only 28% live in slums as genuine needy; high-income free-riders exacerbate
+  overconsumption and budget strain, mirroring a Canadian study's 50%
+  free-riding in energy subsidies. The October 2022 opt-in amendment resolves
+  free-riding by making subsidies voluntary, incentivizing judicious use, though
+  it introduces concentrated benefits for low-income groups financed by
+  dispersed taxpayer costs—mitigated by Delhi's large middle/upper-class base
+  (50% households) and strict tax collection. From a classical-liberal lens,
+  incentives via opt-in streamline policy, making 'free' electricity affordable
+  by curbing waste without subversive fiscal impacts.
+key_points:
+  - >-
+    Delhi's universal electricity subsidies fueled free-riding by high-income
+    households, inflating costs 92.38% from 2015-2020.
+  - >-
+    The October 2022 opt-in amendment eliminates free-riding by requiring
+    voluntary application, promoting electricity conservation.
+  - >-
+    Concentrated benefits for low-income users are financed through dispersed
+    taxes on Delhi's 50% middle/upper-class households, minimizing opposition.
+  - >-
+    Public Choice Theory reveals self-interested political incentives behind
+    AAP's subsidies, resolved via targeted incentives.
+topics:
+  - public-choice-theory
+  - electricity-subsidies
+  - free-rider-problem
+  - delhi-policy
+source_hash: 8c54e6e22f48cef1416371eb77ce4eddc448d8e30d31c6a4b461efd7a42da522
+summary_hash: 8c54e6e22f48cef1416371eb77ce4eddc448d8e30d31c6a4b461efd7a42da522
+summary_at: '2026-05-05T12:17:42.205Z'
 ---
 **By Arshiya Khanna**
 

@@ -1,17 +1,60 @@
 ---
 title: Resolving disputes under the farm laws
 original_url: 'https://www.spontaneousorder.in/p/resolving-disputes-under-the-farm-laws'
+author: Spontaneous Order
 published_at: '2021-01-11T15:25:26.000Z'
 ingested_at: '2026-05-05T08:31:42.355Z'
-source_hash: 241aa8901ca9105e46df25dc23ad573f81a872216796d1ff9f7281c7a3ca0346
-author: Spontaneous Order
 excerpt: >-
   The Farmers (Empowerment and Protection) Agreement on Price Assurance and Farm
   Services Act 2020 and the Farmers’ Produce Trade and Commerce (Promotion and
   Facilitation) Act 2020 (FPTC Act) both contain a unique dispute resolution
   mechanism where which
+summary: >-
+  The farm laws of 2020 introduce conciliation boards appointed by
+  Sub-Divisional Magistrates (SDMs) for resolving disputes between farmers and
+  traders, aiming for settlements within 30 days, with appeals to Collectors and
+  ultimate recourse to High Courts and Supreme Court, bypassing overburdened
+  civil courts with 38.87 million pending cases. Critics fear executive
+  overreach and exploitation without judicial oversight, prompting government
+  offers to revert to courts, but the author argues this undermines efficient
+  Alternative Dispute Resolution (ADR), endorsed by Supreme Court precedents
+  like Afcons Infrastructure and statutory frameworks. Indian judiciary's
+  delays, corruption at district levels, and high costs disadvantage small
+  farmers, while ADR offers participatory, speedy, cost-effective justice with
+  negotiable compensations. Conciliation levels the field, protects
+  sharecroppers, enforces payments, and avoids land ownership shifts to traders.
+  Instead of repeal, government should build ADR legitimacy via awareness
+  campaigns, mediator training, digitization, and enforceability. Propose opt-in
+  ADR with civil court fallback, as voluntary participation enhances efficacy
+  per global evidence, aligning with classical-liberal emphasis on pragmatic,
+  market-enabling reforms over rigid judicial monopoly.
+key_points:
+  - >-
+    Farm laws mandate SDM-appointed conciliation boards with equal
+    representation for disputes, targeting resolution in 30 days to sidestep
+    38.87 million court backlogs.
+  - >-
+    ADR provides faster, cheaper justice than corrupt, delayed courts, enabling
+    farmers to negotiate compensations unavailable in litigation.
+  - >-
+    Address skepticism by promoting awareness, capacity-building for
+    conciliators, digitization, and transparent enforcement of ADR processes.
+  - >-
+    Adopt opt-in ADR with civil court recourse if conciliation fails, leveraging
+    voluntary buy-in for effectiveness as shown internationally.
+  - >-
+    Retain farm laws' ADR to empower small farmers with participatory dispute
+    resolution rather than yielding to protests.
+topics:
+  - farm-laws
+  - alternative-dispute-resolution
+  - agriculture-reform
+  - judicial-pendency
 tags:
   - farm laws
+source_hash: 241aa8901ca9105e46df25dc23ad573f81a872216796d1ff9f7281c7a3ca0346
+summary_hash: 241aa8901ca9105e46df25dc23ad573f81a872216796d1ff9f7281c7a3ca0346
+summary_at: '2026-05-05T11:26:23.610Z'
 ---
 **By Swati Rao**
 

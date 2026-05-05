@@ -2,20 +2,55 @@
 title: Shut Down TRAI and Let Free People TRY Instead
 original_url: >-
   https://www.spontaneousorder.in/p/shut-down-trai-and-let-free-people-try-instead
+author: Spontaneous Order
 published_at: '2013-04-05T14:39:25.000Z'
 ingested_at: '2026-05-05T08:31:42.609Z'
-source_hash: b6bac8243fc0614dd804580cec1ac8dda43229e137987e4b5b250bcb10de46fc
-author: Spontaneous Order
 excerpt: >-
   Telecom Regulatory Authority of India (TRAI) wants to compel broadcasters to
   limit the amount of advertising to 12 minutes per hour, as compared to the
   current 21 minutes. Firstly, this is an assault on the basic freedom of
   association and disassociatio..
+summary: >-
+  Andrew Humphries argues that TRAI's proposal to cap broadcaster advertising at
+  12 minutes per hour (down from 21) assaults freedom of association in the
+  voluntary TV market, treating producers as slaves to viewers rather than free
+  actors serving mutual benefit. Economically, ads fund programming; restricting
+  them will deter providers whose rewards fall below opportunity costs, harming
+  consumers with less or lower-quality content. Markets self-correct: 1990s
+  email spam was solved by competing providers offering filters before
+  regulation, and options like Netflix already enable ad-free viewing via fees.
+  Humphries debunks the 'public goods' theory applied to broadcast TV, noting
+  markets overcome non-excludability through advertising without force, unlike
+  Britain's coercive TV tax. Regulators like TRAI appear benevolent by ignoring
+  these costs to freedom and innovation. The classical-liberal solution: shut
+  down TRAI and trust free people to discover better terms through competition.
+key_points:
+  - >-
+    TRAI's advertising cap violates voluntary exchange by forcing broadcasters
+    to accept unfavorable terms, reducing programming supply.
+  - >-
+    Advertising revenue persuades producers to create content; mandates capping
+    it at 12 minutes/hour will lead to less TV for consumers.
+  - >-
+    Markets innovate solutions like ad-free Netflix without regulation, as seen
+    in 1990s spam resolution by email providers.
+  - >-
+    Broadcast TV demonstrates markets provide 'public goods' via advertising,
+    refuting government compulsion needs.
+  - Shut down TRAI to let free people experiment and deliver mutual benefits.
+topics:
+  - telecom-regulation
+  - advertising-caps
+  - free-market-broadcasting
+  - public-goods
 tags:
   - advertising
   - TRAI
   - Liberty
   - civil liberties
+source_hash: b6bac8243fc0614dd804580cec1ac8dda43229e137987e4b5b250bcb10de46fc
+summary_hash: b6bac8243fc0614dd804580cec1ac8dda43229e137987e4b5b250bcb10de46fc
+summary_at: '2026-05-05T11:44:34.318Z'
 ---
 **By Andrew Humphries**
 

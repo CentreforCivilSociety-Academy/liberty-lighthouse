@@ -1,19 +1,59 @@
 ---
 title: 'SO Musings: Caste System, Greatest Curse of India'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-caste-system-curse'
+author: Spontaneous Order
 published_at: '2020-02-15T13:42:37.000Z'
 ingested_at: '2026-05-05T08:31:42.439Z'
-source_hash: bb719e66eba96ede98b7f007382da538e0afb39305901a6d4fdf2c99a10badd0
-author: Spontaneous Order
 excerpt: >-
   The following article, written by DM Kulkarni, first appeared in the March
   1960 issue of The Indian Libertarian. Mr Kulkarni argues that if India wants
   to be on the path to a free and open society, the caste system must go. He
   calls for the educated peo..
+summary: >-
+  DM Kulkarni argues that the caste system, India's greatest curse, must be
+  eradicated to achieve a free and open society, as it blocks social unity,
+  economic progress, and political democracy. Evolving from flexible Vedic
+  classes into a rigid, hereditary structure by the 11th century A.D.—with
+  irrational taboos, untouchability, and sub-castes—it divided Hindus, enabling
+  foreign invasions and permeating welfare schemes, elections, and
+  administration despite anti-caste rhetoric. Sociologists like Max Muller and
+  Swami Dayanand note its absence in original Vedas; Ambedkar calls it
+  anti-social; Nehru deems it incompatible with equality. Economically, caste
+  kills initiative by assigning hereditary professions, preventing labor
+  mobility and division of labor essential for industry, wasting talents,
+  fostering contempt for manual work, and degrading 60 million untouchables.
+  Non-Brahmin movements trace to casteism. Kulkarni urges educated Indians to
+  spark an intellectual and cultural revolution by vigorously propagating
+  rational anti-caste ideas, exposing evils, and refusing all caste practices,
+  coupled with democratic government pressures, to root it out completely rather
+  than tinkering.
+key_points:
+  - >-
+    Caste system originated post-Vedic era, rigidifying into hereditary
+    occupations and taboos that divided India and invited invasions.
+  - >-
+    It obstructs economic progress by barring free labor mobility, choice of
+    profession, and devaluing manual work, wasting talents of 60 million
+    untouchables.
+  - >-
+    Caste permeates politics, welfare, and social life, making unified national
+    efforts impossible and fostering anti-social isolationism.
+  - >-
+    Educated must lead intellectual revolution: propagate rational ideas against
+    caste, reject its taboos, while government applies democratic pressures to
+    eradicate it.
+topics:
+  - caste-system
+  - social-reform
+  - economic-mobility
+  - free-society
 tags:
   - caste system
   - SO Musings
   - Hinduism
+source_hash: bb719e66eba96ede98b7f007382da538e0afb39305901a6d4fdf2c99a10badd0
+summary_hash: bb719e66eba96ede98b7f007382da538e0afb39305901a6d4fdf2c99a10badd0
+summary_at: '2026-05-05T11:53:46.211Z'
 ---
 **By Spontaneous Order**
 

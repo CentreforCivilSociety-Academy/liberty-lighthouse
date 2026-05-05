@@ -1,20 +1,63 @@
 ---
 title: 'PS Sivaswamy Aiyer: Forgotten Indian Liberal – Part II'
 original_url: 'https://www.spontaneousorder.in/p/ps-sivaswamy-aiyer-ii'
+author: Spontaneous Order
 published_at: '2020-02-25T18:40:37.000Z'
 ingested_at: '2026-05-05T08:31:42.438Z'
-source_hash: f7c158ea6090e97dc2fc5e8d537c070585c6590cc9cd57be1b2ee38c188f87a5
-author: Spontaneous Order
 excerpt: >-
   Editor’s Note: This is the second article in a two-part series paying homage
   to PS Sivaswamy Aiyer, the forgotten liberal intellectual of pre-independent
   India. Read the first part here. During the nineteenth century India, freedom
   movements produced ma
+summary: >-
+  PS Sivaswamy Aiyer exemplified Indian liberalism through constitutionalism and
+  gradualism, influenced by Ranade, Gokhale, JS Mill, Herbert Spencer, and
+  Alexander Bain, leading the Madras Liberal League and serving as president of
+  the National Liberal Federation of India in 1919 and 1926. He vehemently
+  opposed Gandhi's Non-Cooperation and Passive Resistance movements, criticizing
+  them for fostering a law-breaking mentality, disrespect for elders and
+  teachers, and impractical non-violence, warning that such attitudes endangered
+  future governance. In his 1919 Calcutta address, Aiyer faulted Gandhi's
+  'dictator' role and haste for Swaraj. His 1928 'Indian Constitutional
+  Problems' lectures advocated responsible government at center, state, and
+  local levels, including decentralization for panchayats, representation for
+  backward classes to avoid injustice, and coverage of legislature, executive,
+  judiciary, defense, and minorities. Aiyer contributed to military
+  Indianization, moving resolutions in 1922 for a nautical college and in
+  response to the 1921 Esher Committee for 25% Sandhurst places for Indians. He
+  critiqued Nehru's fascination with the Russian Revolution and revolutionary
+  creed, refusing to join the Indian Civil Liberties Union, stressing
+  reconciliation of liberty with peace and order. The author urges rewriting
+  pre-independence history to honor liberals like Aiyer for their intellectual
+  integrity and contributions to constitutional liberalism.
+key_points:
+  - >-
+    Aiyer opposed Gandhi's Non-Cooperation Movement for promoting law-breaking
+    and eroding respect for authority, as stated in his 1919 presidential
+    address.
+  - >-
+    In 'Indian Constitutional Problems' (1928), Aiyer detailed responsible
+    government structures, decentralization, and representation for backward
+    classes.
+  - >-
+    Aiyer advanced army Indianization via 1922 resolution for a nautical college
+    and demands for 25% Sandhurst slots post-1921 Esher report.
+  - >-
+    He rejected Nehru's revolutionary socialism, prioritizing liberty reconciled
+    with peace and order over Bolshevik-style upheaval.
+topics:
+  - indian-liberalism
+  - constitutionalism
+  - gandhi-critique
+  - army-indianization
 tags:
   - PS Sivaswami Aiyer
   - Indian Liberal Tradition
   - Indian liberals
   - IndianLiberals.in
+source_hash: f7c158ea6090e97dc2fc5e8d537c070585c6590cc9cd57be1b2ee38c188f87a5
+summary_hash: f7c158ea6090e97dc2fc5e8d537c070585c6590cc9cd57be1b2ee38c188f87a5
+summary_at: '2026-05-05T11:19:57.572Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

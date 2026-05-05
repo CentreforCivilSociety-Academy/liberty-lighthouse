@@ -1,18 +1,57 @@
 ---
 title: Forgotten Nation Builders
 original_url: 'https://www.spontaneousorder.in/p/forgotten-nation-builders'
+author: Spontaneous Order
 published_at: '2021-02-04T14:07:29.000Z'
 ingested_at: '2026-05-05T08:31:42.351Z'
-source_hash: ff4d02f3658726ed24fb64be899cce7a8c3ffffbde3881e5d8d89fc754d7fa23
-author: Spontaneous Order
 excerpt: >-
   In my journey of understanding India’s education system, I visited various
   institutions and met several budget private school owners, leaders and
   teachers. As I went searching deeper, I was surprised at every step! On 31st
   December 2020, I was fortunate
+summary: >-
+  Budget private schools, vital for India's education, faced devastating
+  challenges during COVID-19, with teachers—described as nation builders—losing
+  jobs and turning to menial work like vegetable hawking, watchmen duties, daily
+  wage labor, or driving Uber rentals. The author, after visiting schools and
+  attending a Micro Innovation Award Ceremony in Ambala on December 31, 2020,
+  highlights stories such as Hindi teacher Mahendra ji, who exhausted savings on
+  COVID treatment and sells vegetables; Srinivasan, unpaid for nine months and
+  now driving rentals; and MBA-qualified Ajmeri Begum, now working at KFC after
+  15 years teaching. School buses were shuttered with no buyers, exacerbating
+  financial distress for students, parents, teachers, and owners amid massive
+  learning loss. While government aid supports public school teachers, private
+  ones receive none. In response, the National Independence School Alliance
+  (NISA) launched the NISA CARE FUND in October 2020 under its Save Education
+  campaign to assist affected private school communities through contributions
+  from leaders. The author aims to publicize this private initiative nationwide,
+  urging identification and support for those in need to sustain these essential
+  low-cost education providers.
+key_points:
+  - >-
+    Budget private school teachers lost jobs during COVID-19, resorting to
+    survival gigs like vegetable selling and Uber driving while government aid
+    excluded them.
+  - >-
+    NISA CARE FUND, launched October 2020, provides financial relief to stressed
+    students, parents, teachers, and schools in the private sector.
+  - >-
+    Private school innovations during the pandemic, like online adaptations,
+    were recognized at events but did not alleviate economic hardships.
+  - >-
+    Author calls for school leaders to contribute to NISA CARE FUND and inform
+    affected individuals to access help.
+topics:
+  - budget-private-schools
+  - covid-education-impact
+  - private-teacher-support
+  - education-policy
 tags:
   - Budget Private Schools
   - Education in India
+source_hash: ff4d02f3658726ed24fb64be899cce7a8c3ffffbde3881e5d8d89fc754d7fa23
+summary_hash: ff4d02f3658726ed24fb64be899cce7a8c3ffffbde3881e5d8d89fc754d7fa23
+summary_at: '2026-05-05T09:56:43.401Z'
 ---
 **By Basu Rai**
 

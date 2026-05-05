@@ -2,15 +2,51 @@
 title: The inflation dragon will not be easy for RBI to tame
 original_url: >-
   https://www.spontaneousorder.in/p/the-inflation-dragon-will-not-be-easy-for-rbi-to-tame
+author: Spontaneous Order
 published_at: '2022-04-25T13:05:34.000Z'
 ingested_at: '2026-05-05T08:31:42.267Z'
-source_hash: a2c712f0dfc4e8fb84283e309b97a6e5e68d57e1082ae123046e5b2c5cfb94cb
-author: Spontaneous Order
 excerpt: >-
   The inflation problem can no longer be ignored. Price pressures have spread
   across the economy—and there are few signs right now that they will abate
   soon. The Reserve Bank of India (RBI) has begun to tighten monetary policy
   without explicitly saying so
+summary: >-
+  Inflation in India is persistent and widespread, posing a challenge for the
+  Reserve Bank of India (RBI) to tame without delay. Headline inflation has
+  averaged 5.5% since April 2021, with core inflation even higher at 6%,
+  creating a false sense of security from temporary drops like September 2021.
+  Pressures are broad-based, as shown by trimmed means and diffusion indexes
+  excluding outliers, not confined to a few items. Drivers include supply-side
+  factors like oil prices, higher money supply, rural wages, domestic
+  constraints, and rupee depreciation, outweighing weak demand. Compared to 42
+  major economies, India has 17 with higher inflation but 24 lower; relative to
+  targets, it fares better than the US or UK but worse than Japan or Indonesia.
+  Inflation expectations are rising, and RBI has raised its FY2022-23 forecast
+  from 4.5% to 5.7%. With policy acting with a 3-4 month lag, RBI's implicit
+  tightening risks being behind the curve, demanding proactive measures to
+  anchor expectations and prevent entrenched inflation from a classical-liberal
+  viewpoint favoring stable money for economic freedom.
+key_points:
+  - >-
+    Headline inflation averaged 5.5% and core 6% since April 2021, indicating
+    sticky pressures despite weak demand.
+  - >-
+    Broad-based inflation confirmed by trimmed means and diffusion indexes, not
+    limited to idiosyncratic shocks.
+  - >-
+    Key drivers include oil prices, money supply, rural wages, supply
+    constraints, and rupee depreciation.
+  - >-
+    RBI raised FY2022-23 inflation forecast to 5.7% amid rising expectations,
+    risking being behind the curve due to policy lags.
+topics:
+  - inflation
+  - monetary-policy
+  - rbi
+  - macro-economics
+source_hash: a2c712f0dfc4e8fb84283e309b97a6e5e68d57e1082ae123046e5b2c5cfb94cb
+summary_hash: a2c712f0dfc4e8fb84283e309b97a6e5e68d57e1082ae123046e5b2c5cfb94cb
+summary_at: '2026-05-05T12:29:36.205Z'
 ---
 **By Niranjan Rajadhyaksha**
 

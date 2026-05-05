@@ -1,15 +1,50 @@
 ---
 title: Happy Birthday Minoo Masani!
 original_url: 'https://www.spontaneousorder.in/p/happy-birthday-minoo-masani'
+author: Spontaneous Order
 published_at: '2013-11-20T11:36:48.000Z'
 ingested_at: '2026-05-05T08:31:42.599Z'
-source_hash: 9b9da6450b2bdc8af91dd4de1ee15157982a9a896dbfd674b90a7fb75f80b414
-author: Spontaneous Order
 excerpt: >-
   Today marks the 108th birth anniversary of Minocher Rustom Masani (1905-1998),
   popularly known as Minoo Masani. Masani was a three-time Member of Parliament
   and a leader of the Swatantra Party in India. In the inaugural essay for
   Profiles in Courage apt..
+summary: >-
+  Today marks the 108th birth anniversary of Minoo Masani (1905-1998), a
+  three-time Member of Parliament and leader of India's Swatantra Party,
+  celebrated as one of the few who kept the spirit of liberalism alive after
+  independence. In S V Raju's inaugural essay for Profiles in Courage, titled
+  'Minoo Masani: The Making of a Liberal,' Masani's intellectual journey is
+  traced: from admirer of the Soviet Union and 1930s socialist, to freedom
+  fighter disillusioned with Soviet communism, thoughtful reconsiderer of
+  socialism in the 1940s, anti-communist crusader in the early 1950s, and
+  finally a full-fledged liberal with the Swatantra Party's formation in 1959.
+  Initially influenced by Harold Laski at the London School of Economics—like
+  Nehru and Krishna Menon—Masani astutely recognized contradictions in socialist
+  thought and broke away. Alongside figures like B R Shenoy and R B Lotvala,
+  Masani stood out for his independent thinking, prioritizing reason and
+  evidence over dogma, even amid fierce opposition. The post hails this as a
+  courageous story of self-discovery, urging contemporary liberals—as free
+  markets and classical liberalism gain ground—to match Masani's standards by
+  questioning assumptions and adapting to what works.
+key_points:
+  - >-
+    Minoo Masani evolved from Soviet admirer and socialist to classical liberal
+    leader via the Swatantra Party founded in 1959.
+  - >-
+    Masani rejected Harold Laski's socialism after spotting its contradictions,
+    unlike contemporaries like Nehru.
+  - >-
+    He exemplified independent thinking by prioritizing reason and evidence over
+    ideological stubbornness amid opposition.
+  - >-
+    Modern liberals should emulate Masani's courage in questioning failing ideas
+    as free markets gain acceptance.
+topics:
+  - swatantra-party
+  - indian-liberals
+  - classical-liberalism
+  - liberal-history
 tags:
   - Swatranta Party
   - Minoo Masani
@@ -17,6 +52,9 @@ tags:
   - 108th Birth Anniversary
   - socialism
   - Liberalism
+source_hash: 9b9da6450b2bdc8af91dd4de1ee15157982a9a896dbfd674b90a7fb75f80b414
+summary_hash: 9b9da6450b2bdc8af91dd4de1ee15157982a9a896dbfd674b90a7fb75f80b414
+summary_at: '2026-05-05T10:08:18.976Z'
 ---
 **By Kumar Anand**
 

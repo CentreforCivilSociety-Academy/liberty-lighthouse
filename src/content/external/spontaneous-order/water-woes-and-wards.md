@@ -1,15 +1,56 @@
 ---
 title: Water woes and wards
 original_url: 'https://www.spontaneousorder.in/p/water-woes-and-wards'
+author: Spontaneous Order
 published_at: '2004-12-01T03:00:32.000Z'
 ingested_at: '2026-05-05T08:31:42.693Z'
-source_hash: f382fb013f3ecc1eacd587a5c0fd8a7e786cf61ed1efd9c547da3e2c755a8510
-author: Spontaneous Order
 excerpt: >-
   I am guessing! From now on, will my roadside chai (my saviour in winters) be
   costlier? Reason? Water tariffs have increased across the board in Delhi about
   five to ten times. Let me add a little preamble. “Two broad principles were
   followed in effecting
+summary: >-
+  Delhi's water tariffs have surged five to ten times under the Delhi Jal Board
+  (DJB), justified by rising production costs and incentives for conservation,
+  but the author critiques this as arbitrary monopoly pricing lacking
+  competition. Drawing classical-liberal lessons from markets, firms like
+  Reynolds wouldn't raise prices without added value due to consumer choice and
+  rivalry; similarly, water services should face competition to minimize costs
+  and reflect true expenses. CCS proposes a ward-based model where wards or
+  consumers select from multiple providers, ensuring low costs, differential
+  tariffs, and accurate pricing—unlike DJB's opacities where true costs remain
+  hidden without rivalry. DJB's inefficiencies are stark: wage bill exceeds
+  income, 40% water lost to leakage and theft, only 25% connections metered (one
+  report claims 90% unmetered), and 25% of Delhi's population unserved by DJB.
+  Households bear total water costs 6.5 times higher due to shortages. Even the
+  poor pay high informal prices, and chai vendors evade hikes via theft. The
+  author urges privatizing water bodies, adopting advanced urban utility models,
+  and shifting production/distribution to markets while government enforces rule
+  of law. A government has no business being in business.
+key_points:
+  - >-
+    Delhi Jal Board's water tariffs increased 5-10 times citing rising costs,
+    but monopoly prevents cost reductions through competition.
+  - >-
+    DJB inefficiencies include 40% water loss to leakage/theft, only 25% metered
+    connections, and failure to serve 25% of Delhi's population.
+  - >-
+    Propose ward-based service delivery allowing choice among water providers to
+    lower costs, enable differential tariffs, and reveal true prices.
+  - >-
+    Households incur total water costs 6.5 times higher than official rates due
+    to shortages; market competition would align incentives.
+  - >-
+    Privatize water bodies and limit government to rule of law, exiting
+    production and distribution.
+topics:
+  - water-supply
+  - public-utilities
+  - privatization
+  - market-competition
+source_hash: f382fb013f3ecc1eacd587a5c0fd8a7e786cf61ed1efd9c547da3e2c755a8510
+summary_hash: f382fb013f3ecc1eacd587a5c0fd8a7e786cf61ed1efd9c547da3e2c755a8510
+summary_at: '2026-05-05T12:56:18.332Z'
 ---
 **By Naveen Mandava**
 

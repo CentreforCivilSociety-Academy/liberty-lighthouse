@@ -4,15 +4,55 @@ title: >-
   Education
 original_url: >-
   https://www.spontaneousorder.in/p/plugging-the-leak-from-one-size-fits-all-to-decentralised-approach-in-higher-education
+author: Spontaneous Order
 published_at: '2024-08-12T17:47:59.000Z'
 ingested_at: '2026-05-05T08:31:42.730Z'
-source_hash: 944c22163fe1d157891dd45df49c02ed08f185420862a1f55cec26c81169dee9
-author: Spontaneous Order
 excerpt: >-
   On June 19, 2024, the National Testing Agency (NTA) announced the successful
   completion of the UGC-NET exam. This was the first common exam for Assistant
   Professorship (NET), Junior Research Fellowship (JRF), and PhD admissions.
   Next day, however, the N..
+summary: >-
+  The recent UGC-NET exam leak on June 19, 2024, exemplifies the flaws of
+  India's centralized higher education admission system, which prioritizes
+  bureaucratic control over university autonomy and intellectual freedom. Aman
+  Chouhan argues that centralizing exams like NET, JRF, and PhD
+  admissions—expanded by UGC in 2023—imposes rigid, one-size-fits-all structures
+  that favor rote learners and trivia over critical thinking, as seen in odd
+  questions like Ram Manohar Lohia's 'gungi gudiya' reference. Only top 6%
+  qualify for Assistant Professorship and 1% for JRF+Assistant Professorship,
+  turning admissions into a high-stakes game that disadvantages marginalized
+  candidates and stifles diversity. Echoing the 1970 Gajendragadkar committee's
+  call for university autonomy, Chouhan advocates decentralizing admissions:
+  universities should design their own processes, including separate exams and
+  viva voce, fostering innovation and transparency. The state should shift to
+  supervision, enabling NEP 2020's 50% GER target by 2035. This
+  classical-liberal approach empowers institutions to innovate, builds trust
+  through accountability, and equips scholars for real challenges, rather than
+  perpetuating mistrust and inefficiency.
+key_points:
+  - >-
+    Centralized UGC-NET exams, like the June 2024 leak, erode trust and
+    prioritize control over academic freedom.
+  - >-
+    UGC's 2023 centralization of PhD admissions and 2024 NET/JRF merger favors
+    rote trivia over critical thinking, with only 6% qualifying for Assistant
+    Professorship and 1% for JRF+.
+  - >-
+    Grant universities autonomy to design their own admission processes,
+    including exams and viva voce, as recommended by the 1970 Gajendragadkar
+    committee.
+  - >-
+    Ensure transparent admissions and expand university autonomy to foster
+    innovation, diversity, and NEP 2020's 50% GER goal by 2035.
+topics:
+  - higher-education
+  - university-autonomy
+  - centralized-exams
+  - admission-reforms
+source_hash: 944c22163fe1d157891dd45df49c02ed08f185420862a1f55cec26c81169dee9
+summary_hash: 944c22163fe1d157891dd45df49c02ed08f185420862a1f55cec26c81169dee9
+summary_at: '2026-05-05T11:13:46.665Z'
 ---
 **By Aman Chouhan**
 

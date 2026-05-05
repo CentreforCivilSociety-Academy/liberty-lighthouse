@@ -2,20 +2,57 @@
 title: Opinion | Reforms to save government schools in Karnataka
 original_url: >-
   https://www.spontaneousorder.in/p/opinion-reforms-to-save-government-schools-in-karnataka
+author: Spontaneous Order
 published_at: '2018-08-06T10:18:36.000Z'
 ingested_at: '2026-05-05T08:31:42.519Z'
-source_hash: 3015bda95313853e6572456c45d6df51c12dee8b03d44f696d1e850b30948a20
-author: Spontaneous Order
 excerpt: >-
   Basavaraj Horatti, the former minister for primary and secondary education in
   Karnataka, is anguished by the declining enrolments in state government
   schools. He demanded that parents should be allowed to admit their children in
   private schools only aft..
+summary: >-
+  Declining enrollments in Karnataka's government schools, part of a national
+  trend where government enrollment fell by 11.2 million from 2011–15 while
+  private rose by 16 million, reflect parental preference for English-medium
+  schools amid low learning outcomes. Rather than restricting choice as urged by
+  former minister Basavaraj Horatti, the classical-liberal perspective advocates
+  addressing concerns through systemic reforms during planned department
+  mergers. Karnataka's biometric attendance failed due to weak inspection:
+  officers oversee 300 schools, spend only 40% of time on supervision (under 10%
+  on academics), and face conflicts like self-inspecting their own construction
+  work. Merging primary/secondary/higher education departments and separating
+  delivery schemes (SSA, RMSA, RUSA) into a new body under a dedicated secretary
+  would focus it on quality (infrastructure, teachers, etc.), with departmental
+  inspectors ensuring accountability. Rajasthan's SSA-RMSA merger yielded 27%
+  cost savings by cutting duplication. This reform eliminates perverse
+  incentives, boosts efficiency, and could make Karnataka a pioneer in
+  accountable education governance, respecting parental choice.
+key_points:
+  - >-
+    Declining government school enrollments require improving quality and
+    inspection rather than banning private school admissions.
+  - >-
+    Merge education departments and separate SSA, RMSA, RUSA into a new delivery
+    body accountable to inspectors to fix conflicts and priorities.
+  - >-
+    Karnataka inspectors handle 300 schools with under 10% time on academic
+    supervision, necessitating structural reform.
+  - >-
+    Rajasthan's scheme merger saved 27% costs, offering a model for Karnataka
+    beyond savings—to enhance learning outcomes.
+topics:
+  - government-schools
+  - education-reform
+  - school-inspection
+  - parental-choice
 tags:
   - Private schools
   - Public Schools
   - Education
   - Separation of Powers
+source_hash: 3015bda95313853e6572456c45d6df51c12dee8b03d44f696d1e850b30948a20
+summary_hash: 3015bda95313853e6572456c45d6df51c12dee8b03d44f696d1e850b30948a20
+summary_at: '2026-05-05T11:09:44.520Z'
 ---
 **By Ritika Shah**
 

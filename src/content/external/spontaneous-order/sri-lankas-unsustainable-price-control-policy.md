@@ -2,20 +2,57 @@
 title: Sri Lanka’s Unsustainable Price Control Policy
 original_url: >-
   https://www.spontaneousorder.in/p/sri-lankas-unsustainable-price-control-policy
+author: Spontaneous Order
 published_at: '2021-08-27T12:53:38.000Z'
 ingested_at: '2026-05-05T08:31:42.295Z'
-source_hash: adde56e15cbdcfb7087d330174d0134efed057cd581f0614ebe8472f89de2a37
-author: Spontaneous Order
 excerpt: >-
   The past two years have been unusual and difficult for Sri Lanka, with the
   pandemic crippling what was an already weakening economy. Consequently, public
   authorities and policy-makers need to focus on protecting the poorest and most
   vulnerable segments...
+summary: >-
+  Sri Lanka's government imposed price ceilings on essential foods like rice,
+  dhal, and canned fish in March 2020 to shield low-income earners from
+  COVID-19-induced price rises, but this classical-liberal critique argues the
+  policy backfired disastrously. By setting prices below market equilibrium, it
+  disrupted price signals, spiking demand and causing shortages, black markets,
+  and hoarding. Small 'petti kadés' retailers in the informal sector suffered
+  heavy losses—e.g., Rs. 60 per kg of dhal—forcing many to stop stocking
+  controlled items, undermining food access for the poor they aimed to help. The
+  unseen effects outweighed the seen short-term affordability gains, hitting
+  vulnerable informal workers hardest. A superior, market-respecting
+  alternative: expand social protection via cash transfers or vouchers, allowing
+  the poor to buy at market prices while suppliers and retailers operate freely.
+  Sri Lanka's Samurdhi program was just 2% of 2020 recurrent expenditure; cash
+  transfers reached only 0.6% of GDP in 2020 and 0.1% in 2021—far below South
+  Asian peers. Prioritizing such targeted aid over interventions ensures
+  sustainable food security and economic recovery.
+key_points:
+  - >-
+    Sri Lanka's March 2020 price ceilings on dhal caused retailers Rs. 60 per kg
+    losses, leading to shortages and black markets.
+  - >-
+    Price controls disrupted market signals, increasing demand and hoarding
+    while harming informal sector small businesses.
+  - >-
+    Expand social protection like Samurdhi and cash transfers—currently only 2%
+    of recurrent spending and <1% GDP—to enable poor access at market prices.
+  - >-
+    Avoid price interventions to assure suppliers stable markets and retailers
+    profits during crises.
+topics:
+  - price-controls
+  - food-security
+  - social-protection
+  - market-intervention
 tags:
   - price
   - Policy
   - economy
   - sri lanka
+source_hash: adde56e15cbdcfb7087d330174d0134efed057cd581f0614ebe8472f89de2a37
+summary_hash: adde56e15cbdcfb7087d330174d0134efed057cd581f0614ebe8472f89de2a37
+summary_at: '2026-05-05T12:09:58.111Z'
 ---
 **By Tehani Rassool**
 

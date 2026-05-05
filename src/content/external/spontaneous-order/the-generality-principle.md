@@ -1,20 +1,58 @@
 ---
 title: The Generality Principle
 original_url: 'https://www.spontaneousorder.in/p/the-generality-principle'
+author: Spontaneous Order
 published_at: '2018-08-03T13:13:59.000Z'
 ingested_at: '2026-05-05T08:31:42.530Z'
-source_hash: 37e81a39c58fe7c5fdd68dde48402eb3c2c440cd5a4e27d0e82c7e84e49f4630
-author: Spontaneous Order
 excerpt: >-
   What would be the Uniform Civil Code or personal law under gram swarajya or in
   the village republics that Mahatma Gandhi championed? It would probably
   resemble the one that prevails in Anna Hazare’s Ralegan Siddhi. If you violate
   the code, say by consum
+summary: >-
+  Parth Shah argues that civilizational progress requires separating personal
+  and political domains through a constitution guided by the 'generality
+  principle,' as articulated by thinkers like Adam Smith, John Rawls, F.A.
+  Hayek, and James Buchanan, ensuring laws apply equally without group
+  differentiations seen in village republics like Ralegan Siddhi or khap
+  panchayats. He critiques the Indian Constitution for embedding group-based
+  rights by religion, caste, tribe, and geography, fueling the uniform civil
+  code (UCC) debate. Shah distinguishes 'personal codes'—community-enforced
+  norms among consenting adults—from state 'laws,' urging the former's exclusion
+  from constitutional purview to allow organic evolution. Libertarian principles
+  demand equality before general laws and no state intervention in voluntary
+  adult exchanges (victimless acts). Enforcement of community norms must not
+  violate constitutional protections of life, liberty, and property; norms
+  themselves need not comply. This demarcates citizen rights (protected by
+  state) from voluntary community membership obligations, prioritizing
+  individual choice and state accountability over specific personal laws.
+key_points:
+  - >-
+    Adopt the generality principle in constitutions to craft laws applying
+    equally to all, avoiding group differentiations by caste, religion, or
+    geography.
+  - >-
+    Treat religious practices as community codes enforced voluntarily by
+    communities, not state laws.
+  - >-
+    State intervenes in community enforcement only if it violates general laws
+    protecting life, liberty, and property.
+  - >-
+    No laws should govern consensual acts among adults, distinguishing citizen
+    rights from community obligations.
+topics:
+  - generality-principle
+  - uniform-civil-code
+  - personal-laws
+  - libertarian-constitution
 tags:
   - Uniform Civil Code
   - Generality Principle
   - Hayek
   - Individual and community
+source_hash: 37e81a39c58fe7c5fdd68dde48402eb3c2c440cd5a4e27d0e82c7e84e49f4630
+summary_hash: 37e81a39c58fe7c5fdd68dde48402eb3c2c440cd5a4e27d0e82c7e84e49f4630
+summary_at: '2026-05-05T12:26:47.460Z'
 ---
 **By Parth Shah**
 

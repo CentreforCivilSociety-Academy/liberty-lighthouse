@@ -1,21 +1,56 @@
 ---
 title: 'SO Musings: Corruption of Thought'
 original_url: 'https://www.spontaneousorder.in/p/mavenkatarao_corruptionofthought'
+author: Spontaneous Order
 published_at: '2019-07-26T11:12:50.000Z'
 ingested_at: '2026-05-05T08:31:42.725Z'
-source_hash: b6ed72ff6e4a816a47776303992583aa03cd792b6a0117686000cbba09ad0bcf
-author: Spontaneous Order
 excerpt: >-
   “But in addition to such academic functions performed by trained persons in
   existing institutions, there is a dire need for a group or groups of thinkers
   who will devote themselves to applying pure thought to the stream of ideas
   coursing through the pub
+summary: >-
+  The excerpt from a 1958 Indian Libertarian article laments the lack of
+  dedicated Indian thinkers who rigorously apply 'pure thought' to public ideas,
+  policies, and cultural currents, urging the formation of such groups to
+  counter superficial influences. It critiques how India has uncritically
+  imported Eur-American thought and values—shaping the modern world's 'climate
+  of thought'—without assimilating them to indigenous traditions, experiences,
+  and standards. This has led to hasty policies by the ruling group, especially
+  post-Gandhi, where traditional life's values once predominated but have been
+  overtaken by dominant 'Leftist thought'—directions already producing reactions
+  and facing strong criticism in Europe and America. From a classical-liberal
+  perspective, India is thus adopting the West's 'cast-off clothes,' risking
+  misguided reconstruction; deeper, original Indian intellectual engagement is
+  essential to relate new ideas authentically to local heritage and avoid such
+  corruption of thought.
+key_points:
+  - >-
+    India urgently needs groups of thinkers to apply pure thought to public
+    ideas and influence policies critically.
+  - >-
+    Indian intellectuals have engaged social problems too superficially, failing
+    to assimilate Western ideas with native traditions.
+  - >-
+    Post-Gandhi policies are hasty and dominated by Leftist thought, which is
+    already discredited in the West.
+  - >-
+    Blind adoption of foreign ideologies equates to wearing the West's 'cast-off
+    clothes,' corrupting India's reconstruction.
+topics:
+  - indian-liberalism
+  - leftist-critique
+  - cultural-assimilation
+  - intellectual-freedom
 tags:
   - Intellectuals
   - Truth
   - socialism
   - M A Venkata Rao
   - Marxism
+source_hash: b6ed72ff6e4a816a47776303992583aa03cd792b6a0117686000cbba09ad0bcf
+summary_hash: b6ed72ff6e4a816a47776303992583aa03cd792b6a0117686000cbba09ad0bcf
+summary_at: '2026-05-05T10:51:30.883Z'
 ---
 **By Spontaneous Order**
 

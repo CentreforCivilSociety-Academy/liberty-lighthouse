@@ -1,18 +1,60 @@
 ---
 title: Air Pollution is helping Covid-19 in Delhi
 original_url: 'https://www.spontaneousorder.in/p/air-pollution-is-helping-covid-19-in-delhi'
+author: Spontaneous Order
 published_at: '2020-11-18T20:38:19.000Z'
 ingested_at: '2026-05-05T08:31:42.367Z'
-source_hash: 6fdedc33a24d09e070f3d5eff276548f1a262dd2dc0b59312fbd7025c065a7ee
-author: Spontaneous Order
 excerpt: >-
   This article is a part of CCS’ winter series: Pollution Ke Solutions – liberal
   solutions to combat air pollution in north India. With winter setting in, a
   thick blanket of smog is engulfing the national capital again. Simultaneously,
   Covid-19 cases in
+summary: >-
+  Delhi's worsening air pollution, with AQI reaching 400 (eight times the safe
+  level), directly correlates with rising COVID-19 cases and hospitalizations,
+  as both target the respiratory system; a Harvard study links a one microgram
+  per cubic meter increase in PM2.5 to an 8% higher COVID-19 death rate, putting
+  long-exposed north Indian residents at greater risk. Pollution
+  disproportionately harms the poor, like roadside workers versus affluent
+  air-purifier users, and exacerbates COVID spread in cramped slums. Government
+  interventions like odd-even car rationing fail since vehicles contribute only
+  3% to pollution per CPCB, while Supreme Court deems it half-baked;
+  construction dust accounts for 38-42% of particulates year-round, yet bans are
+  seasonally reactive. Stubble burning persists despite court orders due to high
+  machinery costs for farmers. From a classical-liberal viewpoint, reactive
+  state policies have proven ineffective; long-term solutions lie in economic
+  incentives harnessing self-interest, such as Punjab's ₹2,500 per acre payment
+  to farmers avoiding stubble burning or rebates like carbon tax reductions and
+  lower fees for greener construction firms. With forecasts of 15,000 daily
+  COVID cases in winter, markets must be empowered to innovate solutions over
+  failed government measures.
+key_points:
+  - >-
+    Air pollution increases COVID-19 death risk by 8% per one microgram per
+    cubic meter rise in PM2.5, per Harvard study.
+  - >-
+    Government odd-even scheme ineffective as cars contribute only 3% to Delhi's
+    pollution.
+  - >-
+    Provide economic incentives like ₹2,500 per acre to farmers to avoid stubble
+    burning.
+  - >-
+    Offer carbon tax rebates and reduced fees to construction firms adopting
+    greener practices.
+  - >-
+    Shift from reactive policies to market-driven incentives for long-term
+    pollution reduction.
+topics:
+  - air-pollution
+  - covid-19
+  - economic-incentives
+  - stubble-burning
 tags:
   - Air pollution
   - Covid-19
+source_hash: 6fdedc33a24d09e070f3d5eff276548f1a262dd2dc0b59312fbd7025c065a7ee
+summary_hash: 6fdedc33a24d09e070f3d5eff276548f1a262dd2dc0b59312fbd7025c065a7ee
+summary_at: '2026-05-05T08:52:58.130Z'
 ---
 **By Swati Singh**
 

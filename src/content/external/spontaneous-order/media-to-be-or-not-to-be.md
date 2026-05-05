@@ -1,15 +1,51 @@
 ---
 title: Media – To Be Or Not To Be
 original_url: 'https://www.spontaneousorder.in/p/media-to-be-or-not-to-be'
+author: Spontaneous Order
 published_at: '2011-06-23T22:53:23.000Z'
 ingested_at: '2026-05-05T08:31:42.636Z'
-source_hash: 3860941654bd1df5028e10140b23ed7c668d7daf0ce04eccb10760aabfc65bc2
-author: Spontaneous Order
 excerpt: >-
   By: Snigdha Jain (CCS Intern) The Hindustan Times recently reflected upon the
   popularity of media education in Delhi University. Almost 2000 applicants sat
   for the Combined Journalism Entrance Test (CJET), highlighting the growing
   interest in journali...
+summary: >-
+  The post highlights surging interest in journalism education in India, with
+  nearly 2000 applicants for Delhi University's Combined Journalism Entrance
+  Test (CJET), amid the explosion of TV news channels demanding quality output.
+  It identifies a core dilemma in Indian media—tension between speed and
+  accuracy, exacerbated by competitive pressures, commercial demands, and
+  editorial hierarchies that distort news priorities and degrade quality.
+  Drawing from a British Council workshop with UK journalist Bob Calver, it
+  contrasts India's unregulated broadcasting with the UK's Ofcom, which enforces
+  quality via competitive tender licenses requiring fixed annual cash bids
+  (RPI-adjusted) plus fees on advertising/sponsorship revenue, as per the Ofcom
+  Section 400 License Fees report for 2009/10. Calver critiques Indian
+  reporters' over-dominant on-air style, favoring stories letting interviewees
+  and visuals speak. Echoing Pramod Kumar, it notes media's shift toward agendas
+  like pitting civil society against government without regulatory oversight.
+  From a classical-liberal viewpoint, government regulation is rejected as it
+  undermines media's role checking state power; instead, self-regulation by
+  media's 'collective conscience'—bolstered with more authority—is proposed,
+  citing past examples like NDTV initiatives.
+key_points:
+  - >-
+    Nearly 2000 applicants competed in Delhi University's CJET, signaling
+    booming demand for journalism education amid TV news proliferation.
+  - >-
+    Indian media quality suffers from competitive and commercial pressures
+    distorting news priorities and favoring sensationalism over accuracy.
+  - >-
+    UK's Ofcom regulates via licenses with fixed cash bids and revenue-based
+    fees to ensure broadcasting standards.
+  - >-
+    Self-regulation, not government intervention, is essential to maintain
+    media's watchdog role against the state.
+topics:
+  - media-regulation
+  - self-regulation
+  - journalism-education
+  - broadcasting
 tags:
   - Regulation
   - media regulation
@@ -19,6 +55,9 @@ tags:
   - media
   - CJET
   - journalism
+source_hash: 3860941654bd1df5028e10140b23ed7c668d7daf0ce04eccb10760aabfc65bc2
+summary_hash: 3860941654bd1df5028e10140b23ed7c668d7daf0ce04eccb10760aabfc65bc2
+summary_at: '2026-05-05T10:52:45.713Z'
 ---
 **By Vipin**
 

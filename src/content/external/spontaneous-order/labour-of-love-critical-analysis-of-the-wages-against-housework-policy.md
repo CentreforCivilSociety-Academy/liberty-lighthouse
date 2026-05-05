@@ -2,15 +2,55 @@
 title: 'Labour of Love: Critical Analysis of the Wages against Housework Policy'
 original_url: >-
   https://www.spontaneousorder.in/p/labour-of-love-critical-analysis-of-the-wages-against-housework-policy
+author: Spontaneous Order
 published_at: '2022-12-02T15:30:06.000Z'
 ingested_at: '2026-05-05T08:31:42.254Z'
-source_hash: dfb896f3e60236bb9fd5db8c428629b20b1970b88da6882f455cd7903428fc3f
-author: Spontaneous Order
 excerpt: >-
   We say: stop celebrating our exploitation, our supposed heroism. From now on,
   we want money for each moment of it so that we can refuse some of it and
   eventually all of it. -Silvia Federici “Wages against Housework”, 1974 The
   ‘Grihini Samman’ sche
+summary: >-
+  The 'Grihini Samman' scheme, an Indian National Congress electoral promise in
+  Assam, offers ₹2000 monthly to every housewife, including widows and
+  divorcees, to recognize unpaid care work that disproportionately burdens
+  women—five hours daily versus men's 1.5 hours per NSO 2020 data—and valued
+  globally at $10.9 trillion. From a classical-liberal viewpoint, while
+  visibilizing this 'labour of love' challenges patriarchal undervaluation, cash
+  payments risk counterintuitively entrenching gender roles by
+  institutionalizing women's domestic responsibilities as a social contract
+  without altering divisions of labor. This could discourage female labour
+  market entry, education investment, and independence, fostering dependency on
+  state handouts rather than empowering choice. A blanket wage ignores
+  socio-economic variations, potentially undervaluing work and leading to
+  overconsumption of female labour amid rigid norms, sidelining better market
+  opportunities. The policy provides short-term recognition but fails to
+  overhaul cultural barriers; true emancipation demands structural liberal
+  reforms like expanded public childcare and eldercare, time-saving
+  technologies, improved infrastructure (electrification, water access), and
+  equal maternity/paternity leaves to redistribute burdens and boost workforce
+  participation.
+key_points:
+  - >-
+    'Grihini Samman' scheme's ₹2000 monthly payments to housewives reinforce
+    unequal gender roles without promoting shared domestic responsibilities.
+  - >-
+    Women perform five hours of unpaid domestic work daily compared to men's 1.5
+    hours, per NSO 2020, hindering labour force participation.
+  - >-
+    Cash incentives risk discouraging women's market entry and education,
+    perpetuating dependency over autonomy.
+  - >-
+    Policy undervalues diverse housework across classes and fails to shift
+    norms, unlike structural changes such as public childcare and equal leaves.
+topics:
+  - unpaid-care-work
+  - gender-roles
+  - female-labour-participation
+  - welfare-schemes
+source_hash: dfb896f3e60236bb9fd5db8c428629b20b1970b88da6882f455cd7903428fc3f
+summary_hash: dfb896f3e60236bb9fd5db8c428629b20b1970b88da6882f455cd7903428fc3f
+summary_at: '2026-05-05T10:37:47.150Z'
 ---
 **By Vedika Sakhardande**
 

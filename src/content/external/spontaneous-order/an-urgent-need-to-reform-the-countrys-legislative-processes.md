@@ -2,19 +2,61 @@
 title: An urgent need to reform the country’s legislative processes
 original_url: >-
   https://www.spontaneousorder.in/p/an-urgent-need-to-reform-the-countrys-legislative-processes
+author: Spontaneous Order
 published_at: '2021-02-24T12:16:31.000Z'
 ingested_at: '2026-05-05T08:31:42.347Z'
-source_hash: 8b8256540a62d1b1ef01dc914c137c4994f79fdcdcbf5f1db8dddb73d1d34b3a
-author: Spontaneous Order
 excerpt: >-
   The dysfunction in Indian democracy is no longer hidden. Many, including me,
   believe that the Indian agricultural system needs reform and agree with the
   core idea of India’s farm bills, but have criticized the government for not
   following a transparent
+summary: >-
+  India's legislative processes are deeply dysfunctional, as seen in the rushed
+  passage of farm bills without debate or committees, subverting constitutional
+  principles despite broad agreement on needed agricultural reforms. This traces
+  to the mid-1980s 52nd Constitutional Amendment's anti-defection law, which
+  penalizes legislators for defying party whips—including abstentions or
+  conscience votes—thus preventing representation of constituents and
+  concentrating power in party leadership, exacerbating India's centralized
+  governance. Deliberations shift to opaque party offices, slashing
+  parliamentary attendance, committee referrals (only 25% of 16th Lok Sabha
+  bills, vs. 71% in 15th and 60% in 14th), and debate time, though 32% of bills
+  got over three hours (up slightly). State assemblies are worse: Haryana's 12th
+  term averaged 11 session days/year, passing 129 bills same-day; Goa's bills
+  averaged four minutes; Delhi's 2012 saw one of 11 bills discussed over 10
+  minutes; Gujarat's 12th passed 90% same-day. With no forum for consensus,
+  protests become the sole feedback, fostering binaries unfit for nuanced policy
+  like escaping agriculture's transitional gains trap. Classical-liberal reform
+  demands restoring legislator independence and parliamentary deliberation.
+key_points:
+  - >-
+    The 52nd Constitutional Amendment's anti-defection law restricts legislators
+    from voting conscience or representing constituents, centralizing power in
+    party leaders.
+  - >-
+    PRS data reveals only 25% of 16th Lok Sabha bills were referred to
+    committees, down sharply from prior Lok Sabhas.
+  - >-
+    State assemblies pass bills with minimal scrutiny, such as Haryana's 129
+    same-day passages in limited sessions and Goa's four-minute average debates.
+  - >-
+    Protests cannot build nuanced policy consensus, leaving issues like farm
+    reforms mired in transitional gains traps.
+  - >-
+    Reform legislative processes to revive deliberation and escape dysfunctional
+    democracy.
+topics:
+  - legislative-reform
+  - anti-defection-law
+  - parliamentary-dysfunction
+  - agricultural-policy
 tags:
   - Legislature
   - Indian Parliament
   - Indian farmers
+source_hash: 8b8256540a62d1b1ef01dc914c137c4994f79fdcdcbf5f1db8dddb73d1d34b3a
+summary_hash: 8b8256540a62d1b1ef01dc914c137c4994f79fdcdcbf5f1db8dddb73d1d34b3a
+summary_at: '2026-05-05T08:56:28.267Z'
 ---
 **By Shruti Rajagopalan**
 

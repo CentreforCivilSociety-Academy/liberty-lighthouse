@@ -1,20 +1,63 @@
 ---
 title: Classical liberalism 101 – Part 2
 original_url: 'https://www.spontaneousorder.in/p/classical-liberalism-101-part-2'
+author: Spontaneous Order
 published_at: '2011-03-16T15:01:18.000Z'
 ingested_at: '2026-05-05T08:31:42.645Z'
-source_hash: b3c4aaeef1db0a2ac5fd1a08a385b74f8a59e9b03b1f4e389befd59889f8b358
-author: Spontaneous Order
 excerpt: >-
   Talking about liberalism in India, one falls for the insipid and inane debate
   between some mythologized Western rugged individualism and ostensible Eastern
   harmonious social co-operation. But we are talking about the autonomy of
   individuals and groups a..
+summary: >-
+  Classical liberalism in India champions the autonomy of individuals and groups
+  against the ever-increasing authority of the state, bureaucrats, and
+  politicians, rejecting the false debate between mythologized Western rugged
+  individualism and Eastern harmonious social cooperation. The author supports
+  generous voluntary charity, socio-cultural associations, peaceful protests,
+  and economic boycotts of offensive art or writing as valid social activism,
+  while staunchly opposing government enforcement of such aims, arrests, or
+  censorship—even if universally offensive—to preserve the artist's autonomy and
+  that of non-offended individuals. Liberalism does not advocate lonely atomism
+  or disdain for collectivism, which is second nature to humans for causes or
+  fun; instead, it worries about coerced collectivism along caste, religious, or
+  Marxist class lines, which the state fails to prevent or even encourages.
+  Quoting Thomas Paine's *Common Sense*, it distinguishes the nation's state
+  from its society, separating normative questions of *what* should be done from
+  *who* (state vs. voluntary actors) and *how*. Gandhi's ideas of voluntarism
+  and trusteeship opposed centralized state power, though misinterpreted by
+  politicians. Coercive socialism, not individual freedom, fosters lonely,
+  atomized lives by eroding family and community as welfare safeguards.
+key_points:
+  - >-
+    Liberalism supports voluntary charity, associations, protests, and boycotts
+    but opposes state enforcement, censorship, or arrests of offensive art to
+    protect individual autonomy.
+  - >-
+    Reject coerced collectivism along caste, religious, or class lines, which
+    the state should prevent rather than encourage.
+  - >-
+    Distinguish the state from society, as per Thomas Paine: what should be done
+    is separate from who does it.
+  - >-
+    Gandhi's voluntarism opposed centralized state power, contrary to
+    politicians' misinterpretations.
+  - >-
+    Socialism's coercion, not individualism, leads to atomized lives without
+    family or community safeguards.
+topics:
+  - classical-liberalism
+  - individual-freedom
+  - anti-statism
+  - voluntarism
 tags:
   - Liberty
   - individual freedom
   - socialism
   - classical liberalism
+source_hash: b3c4aaeef1db0a2ac5fd1a08a385b74f8a59e9b03b1f4e389befd59889f8b358
+summary_hash: b3c4aaeef1db0a2ac5fd1a08a385b74f8a59e9b03b1f4e389befd59889f8b358
+summary_at: '2026-05-05T09:22:58.923Z'
 ---
 **By Harsh Gupta**
 

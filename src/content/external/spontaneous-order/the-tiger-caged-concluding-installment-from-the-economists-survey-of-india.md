@@ -2,15 +2,52 @@
 title: 'SO Musing: The Tiger Caged – Part II'
 original_url: >-
   https://www.spontaneousorder.in/p/the-tiger-caged-concluding-installment-from-the-economists-survey-of-india
+author: Spontaneous Order
 published_at: '2020-04-09T18:16:44.000Z'
 ingested_at: '2026-05-05T08:31:42.429Z'
-source_hash: e84ebf1ad71f8e080524cf269f91e02e7d2f4e9cba5209a533afa8e70e185173
-author: Spontaneous Order
 excerpt: >-
   In continuation with last week’s musing, produced below is an extract from the
   second part of The Economist’s coverage of the political economy of India in
   wake of the 1991 economic crisis. The article was re-published in the October
   1991 issue of Fre
+summary: >-
+  This extract from The Economist, republished in Freedom First in October 1991,
+  dissects India's 'licence raj' as a cage stifling the 'Indian tiger' economy,
+  urging classical liberals to support Dr. Manmohan Singh’s 1991 reforms against
+  vested interests protecting their sinecures. India's domestic economy is among
+  the world's most protected, with bureaucrats judging imports case-by-case,
+  allowing them only when deemed necessary. Barriers include bans on import
+  intermediaries ('actual user' rule), 'phased manufacturing programmes' forcing
+  firms to reduce import content for expansion, 16 government 'canalising
+  agencies' monopolizing imports like oil, steel, rubber, and newsprint, and the
+  world's highest tariffs. Inward know-how and capital face tight controls:
+  limits on fees for foreign technology (banned if import content too high), and
+  the 1973 Foreign Exchange Regulation Act capping most foreign equity at 40%,
+  with tighter regulation than for Indian firms. The piece argues for dissecting
+  these past four decades of errors to prevent repetition, emphasizing full
+  backing for reformists freeing the economy from state protectionism that harms
+  ordinary Indians.
+key_points:
+  - >-
+    India's licence raj enforces case-by-case bureaucratic import approvals and
+    bans intermediaries via the 'actual user' rule.
+  - >-
+    Firms must follow 'phased manufacturing programmes' to expand while reducing
+    import content, monitored separately.
+  - >-
+    16 canalising agencies hold import monopolies on essentials like oil, steel,
+    rubber, and newsprint, atop the world's highest tariffs.
+  - >-
+    Foreign Exchange Regulation Act of 1973 limits most foreign equity to 40%
+    and restricts technology fees if import content is high.
+  - >-
+    Classical liberals must support 1991 reforms and study past socialist
+    mistakes to avoid caging the economy again.
+topics:
+  - licence-raj
+  - 1991-reforms
+  - import-controls
+  - foreign-investment
 tags:
   - Bureaucracy
   - SO Musings
@@ -20,6 +57,9 @@ tags:
   - Political Economy
   - politics in India
   - license raj
+source_hash: e84ebf1ad71f8e080524cf269f91e02e7d2f4e9cba5209a533afa8e70e185173
+summary_hash: e84ebf1ad71f8e080524cf269f91e02e7d2f4e9cba5209a533afa8e70e185173
+summary_at: '2026-05-05T12:37:27.883Z'
 ---
 **By Spontaneous Order**
 

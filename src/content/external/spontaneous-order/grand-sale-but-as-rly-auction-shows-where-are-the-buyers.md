@@ -2,20 +2,60 @@
 title: 'Grand sale but, as rly auction shows, where are the buyers?'
 original_url: >-
   https://www.spontaneousorder.in/p/grand-sale-but-as-rly-auction-shows-where-are-the-buyers
+author: Spontaneous Order
 published_at: '2021-10-04T13:53:47.000Z'
 ingested_at: '2026-05-05T08:31:42.290Z'
-source_hash: 74819af1a9eaeaacf2c85992df3654f22203d91a06cdc0455afd34e49c81d213
-author: Spontaneous Order
 excerpt: >-
   The government’s failure to sell any of the 109 railway passenger routes it
   auctioned in August is a shameful fiasco. Many bidders showed interest in
   rights to run passenger services for 35 years, and the government hoped to
   garner Rs 30,000 crore from
+summary: >-
+  The government's auction of 109 railway passenger routes in August, aiming to
+  raise Rs 30,000 crore over 35 years, collapsed with zero bids despite initial
+  interest, as bidders cited rules favoring Indian Railways, lack of independent
+  regulators, and route inflexibility. This echoes the 2018-19 Air India
+  privatization failure and reveals ministries' reluctance to create level
+  playing fields, protecting public sector undertakings (PSUs) from private
+  competition. Private players distrust ministries' fairness amid unforeseen
+  changes like technology or climate shifts. The National Monetisation Pipeline
+  (NMP) seeks Rs 6 trillion over four years—Rs 0.9 trillion this year, rising to
+  Rs 1.9 trillion in 2023-24 and Rs 1.7 trillion in 2024-25—by leasing
+  infrastructure, a politically easier alternative to privatization to fund 10%
+  GDP infrastructure spend, constrained by 90% debt/GDP ratio. Yet, railway
+  fiasco questions buyer availability without trust. Author urges Kelkar
+  Committee reforms: an Infrastructure PPP Project Review Committee for contract
+  flexibility and an Adjudication Tribunal for disputes, citing Vajpayee's
+  telecom revenue-sharing pivot. Privatization of profitable PSUs like BPCL
+  remains stalled two years on, despite booming markets, signaling deep
+  procedural rot needing drastic reform for NMP success.
+key_points:
+  - >-
+    Railway auction of 109 routes failed due to rules protecting Indian Railways
+    and lack of independent regulators, yielding zero bids despite Rs 30,000
+    crore hopes.
+  - >-
+    NMP targets Rs 6 trillion from infrastructure leasing over four years to
+    fund capex amid borrowing curbs from 90% debt/GDP.
+  - >-
+    Implement Kelkar Committee measures like PPP Review Committee and
+    Adjudication Tribunal to build trust and enable contract flexibility.
+  - >-
+    Privatization of BPCL and two other profitable PSUs stalled for two years
+    despite record stock market highs, exposing ministerial wrangling.
+topics:
+  - privatisation
+  - national-monetisation-pipeline
+  - ppps
+  - infrastructure-reform
 tags:
   - Indian Railways
   - Privatisation
   - auction
   - Government
+source_hash: 74819af1a9eaeaacf2c85992df3654f22203d91a06cdc0455afd34e49c81d213
+summary_hash: 74819af1a9eaeaacf2c85992df3654f22203d91a06cdc0455afd34e49c81d213
+summary_at: '2026-05-05T10:06:33.063Z'
 ---
 **By Swaminathan SA Aiyer**
 

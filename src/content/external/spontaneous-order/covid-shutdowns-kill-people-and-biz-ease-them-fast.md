@@ -2,15 +2,52 @@
 title: 'Shutdowns Kill People And Biz, Ease Them Fast'
 original_url: >-
   https://www.spontaneousorder.in/p/covid-shutdowns-kill-people-and-biz-ease-them-fast
+author: Spontaneous Order
 published_at: '2020-05-04T17:37:07.000Z'
 ingested_at: '2026-05-05T08:31:42.422Z'
-source_hash: 2719d453d08839e407a943960db4d8da00553664f449ea520789db6fdcb72bd7
-author: Spontaneous Order
 excerpt: >-
   The most startling lesson from global experience is that shutdowns may be
   killing almost as many people as the COVID-19. The supposed cure is almost as
   bad as the disease. The Financial Times, London, analysed excess mortality in
   March and April — the e
+summary: >-
+  Swaminathan S.A. Aiyar argues from a classical-liberal perspective that
+  COVID-19 lockdowns, like India's strictest-in-the-world version, kill nearly
+  as many people as the virus itself through excess mortality from neglected
+  healthcare and economic devastation, making the cure as bad as the disease.
+  Global data from the Financial Times shows 49% excess mortality in Europe
+  during March-April 2020, with COVID causing only half; Belgium saw 60%,
+  Netherlands 51%, but Sweden's no-lockdown approach with social distancing
+  yielded just 12%. Urban areas like Jakarta (1,500%), New York (299%), and
+  London (96%) suffered most from patients avoiding hospitals for heart disease,
+  strokes, cancer—UK missed 2,000 weekly cancer referrals, postponing 2 million
+  surgeries. India's 25 million TB cases (440,000 deaths/year) and 15 million
+  malaria cases (20,000 deaths) face disruptions. Yale data: US excess deaths
+  15,400, only 53% COVID-attributed. Lockdowns destroy India's 65 million
+  enterprises (mostly unregistered, employing masses), crashing GDP worse than
+  the Great Depression. Aiyar urges India to analyze excess mortality, ease
+  shutdowns rapidly to resume activity—the only true stimulus—while quintupling
+  the paltry <1% GDP package to 5% via RBI money-printing, as Japan (20%) and US
+  (16%) have done without inflation.
+key_points:
+  - >-
+    Lockdowns cause excess mortality nearly equal to COVID deaths by neglecting
+    other diseases like TB, malaria, cancer, and heart conditions.
+  - >-
+    Sweden's refusal of lockdowns resulted in only 12% excess mortality versus
+    60% in Belgium and 51% in Netherlands.
+  - >-
+    India's 65 million enterprises, mostly unregistered, are dying en masse,
+    demanding rapid easing of shutdowns to save livelihoods.
+  - >-
+    Government must quintuple stimulus to 5% of GDP via RBI money-printing to
+    rescue enterprises and lives, prioritizing economic resumption over fiscal
+    caution.
+topics:
+  - covid-lockdowns
+  - excess-mortality
+  - economic-recovery
+  - fiscal-stimulus
 tags:
   - Public Accountability
   - Healthcare in India
@@ -20,6 +57,9 @@ tags:
   - Public Health
   - pandemic
   - economic crisis
+source_hash: 2719d453d08839e407a943960db4d8da00553664f449ea520789db6fdcb72bd7
+summary_hash: 2719d453d08839e407a943960db4d8da00553664f449ea520789db6fdcb72bd7
+summary_at: '2026-05-05T09:27:03.107Z'
 ---
 **By Swaminathan SA Aiyer**
 

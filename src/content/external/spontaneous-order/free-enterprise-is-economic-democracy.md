@@ -1,15 +1,52 @@
 ---
 title: 'SO Musing: Free Enterprise is Economic Democracy'
 original_url: 'https://www.spontaneousorder.in/p/free-enterprise-is-economic-democracy'
+author: Spontaneous Order
 published_at: '2020-03-20T14:50:19.000Z'
 ingested_at: '2026-05-05T08:31:42.435Z'
-source_hash: 706d354f47d52691be57219c846d9b3e5ccacc324942ce52fff1c7886a6ec2ad
-author: Spontaneous Order
 excerpt: >-
   On her visit to India in 1994, the apostle of free-market gospel Margaret
   Thatcher revealed her take on implications of economic freedom for prosperity.
   In a keynote speech delivered in Bombay, she stressed upon the necessity of
   economic freedom; the ne..
+summary: >-
+  Spontaneous Order shares Margaret Thatcher's 1994 keynote speech in Bombay,
+  framing free enterprise as 'economic democracy' that empowers individuals,
+  limits government power, and fosters prosperity through privatization and
+  stock market sales of state companies. Thatcher argues capitalism is
+  essential—not just for material gain but for unleashing human creativity and
+  the business ethic to liberate people from poverty. The state's role must be
+  limited yet strong in maintaining sound finances, currency, thrift, high
+  savings, and strictly limited public spending, as politicians face temptations
+  from interest groups. She criticizes state control for denying choice and
+  responsibility, asserting it cannot be fixed by 'clever' bureaucrats.
+  Highlighting Asia's economic miracles—driven by automation, instant technology
+  transfer, high growth, investment, and trade despite global recession—Thatcher
+  positions India advantageously with both established democracy and economic
+  reforms, unlike Russia (democracy sans reform) or China (reform sans
+  democracy). India's enterprising middle class and trading links ensure success
+  if reforms persist, strengthening decisions through open debate.
+key_points:
+  - >-
+    Free enterprise functions as economic democracy by maximizing people's power
+    and minimizing government's through privatization.
+  - >-
+    The state must prioritize sound finances, currency stability, thrift, high
+    savings, and limited public spending to counter interest group pressures.
+  - >-
+    Privatization shrinks state control and enlarges individual choice and
+    responsibility, rejecting bureaucratic claims to know best.
+  - >-
+    India uniquely benefits from combining democracy and economic reform,
+    bolstered by a capable middle class and global trade links.
+  - >-
+    Asia's rapid growth, outpacing the world, results from technology transfer
+    lifting millions from poverty.
+topics:
+  - free-enterprise
+  - privatisation
+  - fiscal-prudence
+  - economic-reform
 tags:
   - British economy
   - economic freedom
@@ -18,6 +55,9 @@ tags:
   - liberal democracy
   - Democracy
   - Governance in India
+source_hash: 706d354f47d52691be57219c846d9b3e5ccacc324942ce52fff1c7886a6ec2ad
+summary_hash: 706d354f47d52691be57219c846d9b3e5ccacc324942ce52fff1c7886a6ec2ad
+summary_at: '2026-05-05T09:57:48.602Z'
 ---
 **By Spontaneous Order**
 

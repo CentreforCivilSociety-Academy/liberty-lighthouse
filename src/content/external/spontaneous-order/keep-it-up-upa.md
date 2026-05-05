@@ -1,20 +1,61 @@
 ---
 title: KEEP IT UP UPA
 original_url: 'https://www.spontaneousorder.in/p/keep-it-up-upa'
+author: Spontaneous Order
 published_at: '2013-06-06T19:38:38.000Z'
 ingested_at: '2026-05-05T08:31:42.604Z'
-source_hash: 179ba0c2188e72ab3fb49dcb806e08566b138e7a009d357562816c6e1c012d6d
-author: Spontaneous Order
 excerpt: >-
   Mint reports today that cabinet has approved changes in titling law that will
   make ownership of land more transparent by introducing amendments to the
   Registration Act of 1908. The act governs the registration of documents and
   sales transactions for mo...
+summary: >-
+  The Indian cabinet's approval of amendments to the Registration Act of 1908
+  aims to make land ownership more transparent through clear titling and
+  universal digitization, with profound implications for land markets from a
+  classical-liberal viewpoint. This reform promises to clarify titles,
+  drastically reducing the 70-80 percent of pending court cases involving title
+  disputes, facilitating easier land acquisition for industrial projects and
+  enabling landowners to access institutional credit. Drawing on Hernando de
+  Soto's 'The Mystery of Capital,' the author argues that India's poor lack
+  formal representations of property—houses without titles, crops without
+  deeds—preventing assets from becoming productive capital essential for
+  domestic capitalism. Rural Development Minister Jairam Ramesh highlighted
+  India's archaic presumptive land records, where ownership is assumed unless
+  disproved, fueling disputes unlike conclusive systems elsewhere. While
+  praising the diagnosis and the government's push toward conclusive titles, the
+  author notes the 24-year delay since the 1988-89 Computerisation of Land
+  Records scheme began, urging aggressive implementation to unlock dead capital
+  and transform India's economy.
+key_points:
+  - >-
+    Cabinet approves changes to the Registration Act of 1908 to introduce
+    transparent land titling and digitization.
+  - >-
+    70-80% of pending land cases in courts involve title issues, which clear
+    titling will dramatically reduce.
+  - >-
+    Clear titles will ease industrial land acquisition and enable landowners'
+    access to institutional credit.
+  - >-
+    India's presumptive land records, unlike conclusive ones abroad, cause
+    disputes; reforms aim to fix this per De Soto's framework.
+  - >-
+    Government must aggressively implement digitization, delayed since the
+    1988-89 CLR scheme, to realize benefits.
+topics:
+  - land-titling
+  - property-rights
+  - land-reforms
+  - economic-liberalization
 tags:
   - land ownership
   - UPA
   - Jairam Ramesh
   - Registration Act of 1908
+source_hash: 179ba0c2188e72ab3fb49dcb806e08566b138e7a009d357562816c6e1c012d6d
+summary_hash: 179ba0c2188e72ab3fb49dcb806e08566b138e7a009d357562816c6e1c012d6d
+summary_at: '2026-05-05T10:36:11.200Z'
 ---
 **By Kumar Anand**
 

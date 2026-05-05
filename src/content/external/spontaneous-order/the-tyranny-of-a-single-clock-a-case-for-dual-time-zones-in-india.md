@@ -2,15 +2,55 @@
 title: The Tyranny of a Single Clock – A Case For Dual Time Zones in India
 original_url: >-
   https://www.spontaneousorder.in/p/the-tyranny-of-a-single-clock-a-case-for-dual-time-zones-in-india
+author: Spontaneous Order
 published_at: '2025-12-05T14:18:04.000Z'
 ingested_at: '2026-05-05T08:31:42.221Z'
-source_hash: 8ae91ab7b62bd5208fe85d65590f23dcf048bdc3df42575f5fb5c72a5772e5dd
-author: Spontaneous Order
 excerpt: >-
   The territory of mainland India spans a longitude of approximately 30 degrees
   and covers an area of approximately 3.28 million square kilometres. Whereas,
   Tennessee, which is merely the 36th-largest state in the United States by area
   has a longitudinal ..
+summary: >-
+  India's 30-degree longitudinal span creates a natural two-hour solar time
+  difference between its easternmost and westernmost regions, yet the country
+  operates under a single time zone (UTC+5:30), leading to inefficiencies like
+  lost morning daylight in the Northeast (sunrise as early as 4:30 AM), higher
+  electricity consumption, stress, and safety issues. This contrasts with
+  Tennessee, a much smaller area (110,000 sq km vs. India's 3.28 million), which
+  uses two time zones despite only a 36-minute natural difference. Government
+  objections—railway confusion, 'one nation, one time zone' uniformity, and
+  administrative rigidity—are dismissed as bureaucratic myths, given successful
+  multi-time-zone operations in larger countries like the US, Canada, Russia,
+  and Australia, and the high cost of uniformity to productivity and energy use.
+  Dual time zones (IST-I UTC+5:30 for most, IST-II UTC+6:30 for Northeast/east)
+  would align clocks with natural daylight, boosting productivity and health.
+  Studies cite annual human-capital losses of USD 4.1 billion (₹29,000 crore,
+  0.2% GDP) from the single zone; a 2018 paper and 1994 TERI report predict
+  productivity gains, 5.7% energy reduction (saving 400 crores INR annually),
+  and staggered demand. From a classical-liberal view, these gains far outweigh
+  adjustment costs, critiquing rigid statism over practical efficiency.
+key_points:
+  - >-
+    India's single time zone imposes a ₹29,000 crore annual human-capital cost
+    (0.2% GDP) due to daylight mismatches, per economist Maulik Jagnani.
+  - >-
+    Dual time zones (UTC+5:30 and UTC+6:30) would sync work/school hours with
+    sunrise/sunset, reducing electricity use by 5.7% and saving 400 crores INR
+    yearly, as per TERI 1994.
+  - >-
+    Government fears of railway accidents and uniformity needs are overstated,
+    as larger nations like the US manage multiple zones effectively.
+  - >-
+    Northeast states lose 4-5 hours of usable daylight, increasing stress and
+    safety risks under the current system.
+topics:
+  - time-zones
+  - energy-efficiency
+  - bureaucratic-reform
+  - northeast-india
+source_hash: 8ae91ab7b62bd5208fe85d65590f23dcf048bdc3df42575f5fb5c72a5772e5dd
+summary_hash: 8ae91ab7b62bd5208fe85d65590f23dcf048bdc3df42575f5fb5c72a5772e5dd
+summary_at: '2026-05-05T12:37:58.832Z'
 ---
 **By Chetna Sabarigreesan**
 

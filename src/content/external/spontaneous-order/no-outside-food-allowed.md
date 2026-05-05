@@ -1,20 +1,58 @@
 ---
 title: No Outside Food Allowed!
 original_url: 'https://www.spontaneousorder.in/p/no-outside-food-allowed'
+author: Spontaneous Order
 published_at: '2018-08-06T08:29:11.000Z'
 ingested_at: '2026-05-05T08:31:42.525Z'
-source_hash: 95157d9d3f93147e3c74ea2541c30f5adeae93aaab418f96068733b8d233d480
-author: Spontaneous Order
 excerpt: >-
   In December of last year, a public interest litigation (PIL) petition was
   filed before the High Court of Bombay challenging multiplex cinema halls’
   right to bar customers from bringing outside food into the cinema premises.
   Last month, the counsel for t
+summary: >-
+  A PIL filed in December before the Bombay High Court challenges multiplex
+  cinema halls' bans on outside food, arguing it violates Rule 121 of the
+  Maharashtra Cinemas (Regulation) Rules, 1966, and the right to life under
+  Article 21 for vulnerable persons. The Maharashtra government must form a
+  policy within six weeks. The author argues the state should maintain the
+  status quo to protect multiplex owners' Article 19(1)(g) right to conduct
+  business freely on private property. Rule 121 only prohibits hawking inside
+  auditoriums, not sales from external stalls. Customers dissatisfied with the
+  policy can choose alternatives like single-screen cinemas or streaming
+  services. Fundamental rights like Article 21 are not horizontally enforceable
+  against private businesses screening films, which is not a public function or
+  monopoly. Even if applicable, a temporary food ban during a movie does not
+  impair human dignity, basic necessities, or self-expression, as per the
+  Supreme Court's 1981 Francis Coralie Mullin judgment. Forcing changes via
+  court sets a dangerous precedent of judicial overreach into private affairs,
+  akin to demanding restaurants allow outside food. The petition is frivolous,
+  and the state should affirm private property rights by rejecting it.
+key_points:
+  - >-
+    Maharashtra government should maintain status quo allowing multiplexes to
+    ban outside food to uphold Article 19(1)(g) business freedoms.
+  - >-
+    Rule 121 of 1966 Maharashtra rules only bars hawking inside auditoriums, not
+    multiplex food stalls outside them.
+  - >-
+    Fundamental rights under Articles 21 and others do not apply horizontally to
+    private cinema operators, as film screening is not a public function.
+  - >-
+    Banning outside food for a few hours does not violate the right to life or
+    dignity, per Supreme Court precedents; customers can opt for alternatives.
+topics:
+  - private-property-rights
+  - fundamental-rights
+  - judicial-overreach
+  - business-regulation
 tags:
   - private property rights
   - market economy
   - Liberalism
   - cinema
+source_hash: 95157d9d3f93147e3c74ea2541c30f5adeae93aaab418f96068733b8d233d480
+summary_hash: 95157d9d3f93147e3c74ea2541c30f5adeae93aaab418f96068733b8d233d480
+summary_at: '2026-05-05T11:04:59.501Z'
 ---
 **By Vineet Bhalla**
 

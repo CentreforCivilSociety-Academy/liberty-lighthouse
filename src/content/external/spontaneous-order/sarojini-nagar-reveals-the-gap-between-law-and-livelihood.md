@@ -2,15 +2,57 @@
 title: Sarojini Nagar Reveals the Gap Between Law and Livelihood
 original_url: >-
   https://www.spontaneousorder.in/p/sarojini-nagar-reveals-the-gap-between-law-and-livelihood
+author: Spontaneous Order
 published_at: '2025-07-23T16:48:49.000Z'
 ingested_at: '2026-05-05T08:31:42.226Z'
-source_hash: 34ff0d835f5281e517482b01db0372cd41f51043d6999d3a31dbc2ae5524a864
-author: Spontaneous Order
 excerpt: >-
   On 17 May 2025, something routine and brutal played out in Sarojini Nagar.
   About 200 stalls were torn down under the cover of night. No notice, no
   consultation, no pause. This wasn’t atypical. For decades, this market,
   despite being Delhi’s busiest in
+summary: >-
+  On 17 May 2025, Delhi authorities demolished about 200 stalls in Sarojini
+  Nagar market without notice or consultation, shortly after vendors sought High
+  Court protection, exemplifying a decades-long cycle of a dozen such
+  demolitions since the 1990s justified by vague charges like 'obstruction' or
+  'nuisance' under the Delhi Municipal Corporation Act. The author invokes the
+  Supreme Court's Olga Tellis vs. Bombay Municipal Corporation (1985) ruling,
+  which deems eviction without due process a violation of the constitutional
+  right to livelihood, arguing that opaque laws enable selective, discretionary
+  state power rather than genuine urban planning. Sarojini Nagar embodies a
+  spontaneous, bottom-up economy of export surplus stalls, family-run shops,
+  tailors, and street kitchens—many led by women supporting households—within
+  Delhi's estimated 400,000+ informal vendors per MCD data, far exceeding the
+  Street Vendors Act (2014)'s 2.5% population cap (875,000 for 35 million
+  residents). Despite the Act's provisions for Town Vending Committees and
+  protections for stationary, semi-stationary, and mobile hawkers, these are
+  ignored. From a classical-liberal lens, vendors are honest laborers penalized
+  for lacking paperwork in a city exploiting their hustle; lawful cities demand
+  state respect for organic economies built on trust, not destructive machinery.
+key_points:
+  - >-
+    State demolished 200 Sarojini Nagar stalls on 17 May 2025 without notice,
+    defying vendors' High Court plea and Olga Tellis (1985) due process mandate.
+  - >-
+    Vague municipal laws like those in the Delhi Municipal Corporation Act
+    enable selective enforcement against informal vendors.
+  - >-
+    Street Vendors Act (2014) protections, including Town Vending Committees,
+    remain unimplemented despite recognizing 400,000+ Delhi hawkers.
+  - >-
+    Informal markets like Sarojini represent legitimate spontaneous economies
+    that state planning destroys rather than integrates.
+  - >-
+    Genuine urban legitimacy requires state trust in bottom-up livelihoods over
+    brute demolitions.
+topics:
+  - street-vendors
+  - informal-economy
+  - urban-planning
+  - rule-of-law
+source_hash: 34ff0d835f5281e517482b01db0372cd41f51043d6999d3a31dbc2ae5524a864
+summary_hash: 34ff0d835f5281e517482b01db0372cd41f51043d6999d3a31dbc2ae5524a864
+summary_at: '2026-05-05T11:32:34.450Z'
 ---
 **By Neehra Sharma**
 

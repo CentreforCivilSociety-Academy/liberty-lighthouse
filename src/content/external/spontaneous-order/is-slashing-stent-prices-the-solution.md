@@ -1,19 +1,60 @@
 ---
 title: Is Slashing Stent Prices The Solution?
 original_url: 'https://www.spontaneousorder.in/p/is-slashing-stent-prices-the-solution'
+author: Spontaneous Order
 published_at: '2018-08-02T09:23:26.000Z'
 ingested_at: '2026-05-05T08:31:42.538Z'
-source_hash: f2c66d9a9588143293de219fd9577d8e9104a92ae49eef400be4dfcb11bef103
-author: Spontaneous Order
 excerpt: >-
   In July 2016, the government notified the inclusion of stents in the National
   List of Essential Medicines (NLEM), citing irrational and exorbitant prices.
   In the notification, dated 13th February 2017, the National Pharmaceutical
   Pricing Authority (NPPA..
+summary: >-
+  The Indian government's 2017 price cap on coronary stents, justified by
+  'unethical profiteering' amid 30 million heart patients and 2 lakh annual
+  surgeries, fails as a solution to high prices driven by supply chain
+  markups—where imported drug-eluting stents land at Rs.17,000 and bare-metal at
+  Rs.5,000-7,000, yet sell for 3-4 times more due to MNC, distributor, and
+  hospital profits, plus doctor-distributor nexuses. From a classical-liberal
+  viewpoint, price controls reflect government failure to foster competition and
+  innovation, ignoring a $400 million stent market in 2012 projected to triple
+  by 2021, potentially rivaling US and Europe if barriers like permits and
+  credit access are eased. Instead of caps that subsidize the rich, drive out
+  premium products like Abbots' bio-absorbable stents, harm medical tourism, and
+  halt R&D, the government should streamline supply chains, improve logistics,
+  penalize hospital monopolies, mandate price transparency, boost domestic
+  manufacturing, and empower patients with stent knowledge to curb unnecessary
+  procedures. Bans on kickbacks, like Maharashtra's 2017 bill, are insufficient
+  without market reforms, echoing Milton Friedman's warning on permanent
+  government programs.
+key_points:
+  - >-
+    Price caps on stents ignore supply chain profiteering and fail to address
+    barriers to domestic competition in a market valued at $400 million in 2012.
+  - >-
+    Promote fluid supply chains, ease trade restrictions, improve logistics, and
+    increase credit access for local stent manufacturers.
+  - >-
+    Mandate public disclosure of stent prices and types in hospitals to enable
+    informed patient choices.
+  - >-
+    Penalize hospitals forcing purchases from in-house stores and
+    doctor-distributor kickbacks to reduce unnecessary stenting.
+  - >-
+    Price controls subsidize affluent patients while withdrawing innovative
+    stents, harming medical tourism and R&D.
+topics:
+  - price-controls
+  - healthcare-markets
+  - medical-devices
+  - market-competition
 tags:
   - stents
   - Price regulation
   - Healthcare
+source_hash: f2c66d9a9588143293de219fd9577d8e9104a92ae49eef400be4dfcb11bef103
+summary_hash: f2c66d9a9588143293de219fd9577d8e9104a92ae49eef400be4dfcb11bef103
+summary_at: '2026-05-05T10:30:47.824Z'
 ---
 **By Hinan Ali**
 

@@ -2,15 +2,49 @@
 title: Should We Remove the Cap on Campaign Expenditure Incurred by Candidates?
 original_url: >-
   https://www.spontaneousorder.in/p/should-we-remove-the-cap-on-campaign-expenditure-incurred-by-candidates
+author: Spontaneous Order
 published_at: '2014-03-24T16:52:04.000Z'
 ingested_at: '2026-05-05T08:31:42.594Z'
-source_hash: bf74794b8f9000863e6cceaad804ccdfd27d374d8102f6fec7648a997821eb1d
-author: Spontaneous Order
 excerpt: >-
   Consider some of the following numbers. Number of voters in country for 2014
   Lok Sabha elections: 814.5 million (approx.) Number of Lok Sabha
   constituencies: 543 Approximate number of voters in each constituency: 1.5
   million (approx.) Maximum allowed ex..
+summary: >-
+  The current cap on campaign expenditure for Lok Sabha candidates—Rs 7 million
+  per candidate, equating to just Rs 4.5 per voter in a typical constituency of
+  1.5 million voters from 814.5 million total—is woefully inadequate, as a
+  couple of SMSs exhausts the budget. Candidates routinely exceed this limit
+  using black money, exemplified by Maharashtra BJP leader Gopinath Munde's
+  admission of spending Rs 80 million (32 times the Rs 2.5 million limit) in
+  2009, while ADR-NEW analysis showed MPs averaging only 59% of limits, masking
+  unreported spending. Caps fail to level the playing field, as money is not
+  decisive—AAP's Delhi success with modest resources proves innovative
+  campaigning matters more—and wealthy candidates like Nandan Nilekani remain
+  constrained despite vast assets. From a classical-liberal view, expenditure
+  caps drive black money proliferation, especially since parties face no limits,
+  rendering candidate caps ineffective. The author recommends removing all caps
+  on candidate and party spending, replacing them with full, transparent
+  disclosure of donations received, expenditures incurred, and citizen
+  contributions to enable free donations and curb illicit funding.
+key_points:
+  - >-
+    Current Rs 7 million cap allows only Rs 4.5 per voter in a 1.5 million-voter
+    constituency, making legal campaigning impossible.
+  - >-
+    Candidates exceed limits with black money, as Gopinath Munde admitted
+    spending Rs 80 million against Rs 2.5 million limit in 2009.
+  - >-
+    Caps fail to level the field since money is not decisive, per AAP's
+    low-budget Delhi win.
+  - >-
+    Remove all expenditure caps on candidates and parties, mandating full
+    disclosure of donations and spending to reduce black money.
+topics:
+  - campaign-finance
+  - electoral-reform
+  - black-money
+  - electoral-transparency
 tags:
   - Election Commission
   - Elections
@@ -20,6 +54,9 @@ tags:
   - black money
   - Gopinath Munde
   - National Election Watch
+source_hash: bf74794b8f9000863e6cceaad804ccdfd27d374d8102f6fec7648a997821eb1d
+summary_hash: bf74794b8f9000863e6cceaad804ccdfd27d374d8102f6fec7648a997821eb1d
+summary_at: '2026-05-05T11:44:04.227Z'
 ---
 **By Kumar Anand**
 

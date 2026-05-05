@@ -1,15 +1,54 @@
 ---
 title: Do Liquor Bans Actually Work?
 original_url: 'https://www.spontaneousorder.in/p/do-liquor-bans-actually-work'
+author: Spontaneous Order
 published_at: '2019-12-17T12:42:19.000Z'
 ingested_at: '2026-05-05T08:31:42.452Z'
-source_hash: ea37c5e9a42428e3b4ffd026f9ff60da597332d6afa45e4f2e8fb15641b32d56
-author: Spontaneous Order
 excerpt: >-
   Gujarat Chief Minister Vijay Rupani recently informed the State legislative
   assembly that in the last two years, liquor worth ₹252 crores has been seized
   in the dry state. In Gujarat, manufacturing, selling and consumption of liquor
   is banned with a few
+summary: >-
+  Gujarat's liquor ban has failed to curb alcohol availability, with Chief
+  Minister Vijay Rupani admitting to seizing ₹252 crores worth of liquor in the
+  last two years—a figure likely understated, indicating rampant black market
+  activity. From a classical-liberal viewpoint, prohibition does not reduce
+  consumption but drives it underground, inflating prices and empowering
+  criminal cartels and gangs. This leads to severe side effects: producers spike
+  illicit liquor without fear of legal recourse, causing hundreds of deaths from
+  alcohol poisoning in dry states like Gujarat and Bihar, where victims cannot
+  complain without self-incriminating. States forgo massive revenue—alcohol
+  taxes comprise roughly a quarter of state incomes, with Gujarat losing ₹10,000
+  crore annually. Purported benefits like reduced crime, fewer traffic
+  accidents, and better health are unproven; instead, crime rises via
+  bootlegging, police resources are diverted from serious offenses like rape and
+  murder to chasing bootleggers, and courts are overwhelmed, as in Bihar with
+  over 2 lakh ban-related cases clogging the Patna High Court. Liquor bans,
+  often politically motivated to appease voters, achieve none of their
+  objectives while imposing high costs on law and order, revenue, and public
+  services.
+key_points:
+  - >-
+    Liquor bans fuel black markets and criminal enterprises by raising prices
+    and profits for bootleggers.
+  - >-
+    Prohibition leads to adulterated alcohol causing deaths, as victims in
+    Gujarat and Bihar cannot seek legal redress.
+  - >-
+    States lose substantial revenue, with Gujarat forfeiting ₹10,000 crore
+    yearly and alcohol taxes forming ~25% of state incomes.
+  - >-
+    Police and courts are overburdened with ban enforcement, diverting resources
+    from rapists and murderers—Bihar has 2 lakh related cases.
+  - >-
+    No evidence shows bans reduce crime, traffic accidents, or improve health
+    outcomes.
+topics:
+  - alcohol-prohibition
+  - black-markets
+  - government-failure
+  - police-misallocation
 tags:
   - Vijay Rupani
   - Bihar
@@ -18,6 +57,9 @@ tags:
   - Alcohol
   - alcohol ban
   - Gujarat
+source_hash: ea37c5e9a42428e3b4ffd026f9ff60da597332d6afa45e4f2e8fb15641b32d56
+summary_hash: ea37c5e9a42428e3b4ffd026f9ff60da597332d6afa45e4f2e8fb15641b32d56
+summary_at: '2026-05-05T09:35:01.501Z'
 ---
 **By Aashish Shrivastava**
 

@@ -1,15 +1,51 @@
 ---
 title: Memories of SV Raju
 original_url: 'https://www.spontaneousorder.in/p/memories-of-sv-raju'
+author: Spontaneous Order
 published_at: '2020-05-19T14:35:27.000Z'
 ingested_at: '2026-05-05T08:31:42.416Z'
-source_hash: 939d0f20814d519599db896d6a819df0aff5d96c45ba871e963bf622ae30c8a0
-author: Spontaneous Order
 excerpt: >-
   SV Raju was an Indian liberal public figure, Swatantra Party member, builder
   of liberal organisations, a close friend to Minoo Masani, and one of the lone
   dissenters of central planning. His lifelong commitment to liberal causes was
   striking in the cont..
+summary: >-
+  SV Raju, a steadfast Indian liberal, Swatantra Party member, and associate of
+  Minoo Masani and BR Shenoy, preserved liberal ideas against India's statist
+  dominance by editing Freedom First magazine and safeguarding Swatantra
+  documents. In this 2015 tribute, Sharad Joshi recounts their collaboration
+  starting January 1994, when Raju visited Ambethan with Swatantra literature to
+  support Shetkari Sanghatana's free-market advocacy for farmers, opposing
+  government price-fixing in favor of open markets. Impressed by the
+  organization's mass mobilization of 5-6 lakhs, Raju facilitated publishing
+  Joshi's articles via Project for Economic Education, organized the Swatantra
+  Bharat Movement's founding meeting on May 28, 1994, at Bharatiya Vidya Bhavan
+  with Masani present, and attended the November 1994 Nagpur convention where
+  Swatantra Bharat Paksha (SBP) was formed to contest 1995 Maharashtra
+  elections—handling office work and reusing Swatantra materials despite losses.
+  Raju held roles like convener of Indian Liberal Group and aided international
+  representation. He continued supporting Joshi's parliamentary efforts against
+  socialism in the Constitution Preamble, women's reservation bill, and for
+  economic reforms, exemplified by a 1995 Pune workshop with Manmohan Singh.
+  Joshi highlights Raju's affection and role in bridging agrarian mass movements
+  with broader liberalism.
+key_points:
+  - >-
+    SV Raju preserved Swatantra Party's legacy and planted its 'seed' with
+    Shetkari Sanghatana in 1994 to advance free-market farmer policies.
+  - >-
+    Raju organized key events including Swatantra Bharat Movement founding on
+    May 28, 1994, and SBP's formal launch in November 1994, aiding 1995 election
+    efforts.
+  - >-
+    Through roles like editor of Freedom First and director of Project for
+    Economic Education, Raju promoted liberal ideas and supported Joshi's
+    anti-socialism campaigns as MP.
+topics:
+  - swatantra-party
+  - indian-liberalism
+  - free-market-agriculture
+  - liberal-organizations
 tags:
   - Sharad Joshi
   - neo-liberal economics
@@ -19,6 +55,9 @@ tags:
   - Swatantra Party
   - shetkari sanghatana
   - free markets
+source_hash: 939d0f20814d519599db896d6a819df0aff5d96c45ba871e963bf622ae30c8a0
+summary_hash: 939d0f20814d519599db896d6a819df0aff5d96c45ba871e963bf622ae30c8a0
+summary_at: '2026-05-05T10:53:04.608Z'
 ---
 **By Spontaneous Order**
 

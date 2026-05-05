@@ -1,15 +1,57 @@
 ---
 title: Are Vices Crimes?
 original_url: 'https://www.spontaneousorder.in/p/are-vices-crimes'
+author: Spontaneous Order
 published_at: '2022-04-27T11:23:04.000Z'
 ingested_at: '2026-05-05T08:31:42.267Z'
-source_hash: 7d5c3dfe92c00e7ca0c9433694b28e078e33e3bad2794ca35ddda632d2dd2017
-author: Spontaneous Order
 excerpt: >-
   I went into this Colloquium expecting to understand the limits of government
   paternalism and see if we could have a framework for it. And while I was
   there, maybe get answers to equally important (if not more so) questions like
   – Can the state declare e
+summary: >-
+  Abhimanyu Gupta recounts a colloquium exploring the limits of government
+  paternalism, starting from Sarah Conly's argument in 'Against Autonomy' that
+  behavioral economics justifies coercive interventions to prevent self-harm,
+  challenging John Stuart Mill's harm principle. Participants countered that
+  while information asymmetries warrant regulations like pictorial warnings on
+  cigarettes, allergy labels on food, or caffeine limits on drinks, outright
+  bans on vices such as alcohol, marijuana, or Chole Bhature overstep, as vices
+  harm only oneself per Lysander Spooner's distinction: 'Vices are those acts by
+  which a man harms himself or his property, crimes are those acts by which one
+  man harms the person or property of another.' Public Choice Theory highlights
+  state self-interest, questioning paternalistic benevolence. Harm is contextual
+  and degree-based—e.g., occasional bhang or alcohol isn't problematic until
+  addiction affects others like via domestic violence. Social norms, driven by
+  desire to fit in, enforce behavior without coercion, evolving spontaneously as
+  with COVID-era greetings, aligning with Mill's liberty and Locke's equality of
+  authority. Criminalizing vices would imprison everyone, as all have them. The
+  classical-liberal conclusion: prioritize individual autonomy, learning from
+  mistakes, and non-coercive norms over state bans.
+key_points:
+  - >-
+    Vices harm only oneself and should not be criminalized, unlike crimes that
+    harm others, as per Lysander Spooner.
+  - >-
+    Government can address ignorance through warnings (e.g., cigarette
+    pictorials, food allergens) but not bans on informed choices.
+  - >-
+    Social norms enforce good behavior via ostracism without state coercion,
+    offering a libertarian alternative to paternalism.
+  - >-
+    State paternalism risks abuse due to self-interested actors, per Public
+    Choice Theory.
+  - >-
+    Harm from vices is contextual and degree-based, not absolute, preserving
+    individual pursuit of happiness.
+topics:
+  - paternalism
+  - vices-crimes
+  - individual-liberty
+  - social-norms
+source_hash: 7d5c3dfe92c00e7ca0c9433694b28e078e33e3bad2794ca35ddda632d2dd2017
+summary_hash: 7d5c3dfe92c00e7ca0c9433694b28e078e33e3bad2794ca35ddda632d2dd2017
+summary_at: '2026-05-05T09:00:11.063Z'
 ---
 **By Abhimanyu Gupta**
 

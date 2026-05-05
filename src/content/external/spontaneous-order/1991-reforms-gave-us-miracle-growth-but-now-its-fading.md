@@ -2,20 +2,58 @@
 title: '1991 reforms gave us miracle growth, but now it’s fading'
 original_url: >-
   https://www.spontaneousorder.in/p/1991-reforms-gave-us-miracle-growth-but-now-its-fading
+author: Spontaneous Order
 published_at: '2021-08-02T10:52:56.000Z'
 ingested_at: '2026-05-05T08:31:42.301Z'
-source_hash: 6531b212ab49bccf9bbbc30f65c8d8b4e7b23e2684ef30714287e951762959e0
-author: Spontaneous Order
 excerpt: >-
   When Manmohan Singh launched economic liberalisation in 1991, India was the
   world’s biggest beggar for aid. Today India is a net aid donor, having
   committed $30.6 billion to Asian neighbours and Africa. In 1991, India’s
   capita income was just $360 a y
+summary: >-
+  Swaminathan SA Aiyer argues that India's 1991 economic liberalization under
+  Manmohan Singh sparked 'miracle growth' at 7% for two decades, transforming it
+  from the world's biggest aid beggar—with per capita income at $360—to a net
+  aid donor committing $30.6 billion, a net food exporter even in droughts, and
+  a T-20 economy backed for UN Security Council membership. Poverty plummeted,
+  with UNDP estimating 271 million lifted out of extreme poverty from 2005-06 to
+  2015-16. This classical-liberal shift ended the suffocating 'licence-permit
+  raj' of Nehru-Indira socialism, which stifled growth at 3.5% annually amid
+  scarcities like seven-year car queues and dowry watches, while high taxes
+  (97.7% income plus 3.5% wealth) bred black money without reducing poverty. Yet
+  reforms were only 'half-baked,' ranking India 121st in Heritage's Economic
+  Freedom Index as 'mostly unfree.' Growth has faded since 2016-17—from 8.3% to
+  -7.3% in 2020-21—due to a moribund police-judicial system blocking contract
+  enforcement, a hollow education system producing unemployable graduates, and
+  barriers to business exit impeding creative destruction. Aiyer concludes India
+  must deepen liberalization in these areas to regain 7% miracle growth and
+  avoid socialist pitfalls.
+key_points:
+  - >-
+    1991 liberalization lifted per capita income from $360 to $2,100 and made
+    India a net aid donor of $30.6 billion.
+  - >-
+    Socialist licence-permit raj caused chronic scarcities and 3.5% growth,
+    while reforms enabled 7% miracle growth for two decades.
+  - >-
+    Growth decelerated post-2016 due to incomplete reforms, ranking India 121st
+    in economic freedom.
+  - >-
+    Reform police-judicial system, education, and business exit mechanisms to
+    restore high growth.
+topics:
+  - economic-liberalization
+  - india-economy
+  - institutional-reform
+  - economic-growth
 tags:
   - reforms
   - India
   - liberalisation
   - growth
+source_hash: 6531b212ab49bccf9bbbc30f65c8d8b4e7b23e2684ef30714287e951762959e0
+summary_hash: 6531b212ab49bccf9bbbc30f65c8d8b4e7b23e2684ef30714287e951762959e0
+summary_at: '2026-05-05T08:45:07.525Z'
 ---
 **By Swaminathan SA Aiyer**
 

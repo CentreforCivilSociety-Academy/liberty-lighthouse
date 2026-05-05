@@ -1,21 +1,60 @@
 ---
 title: Spontaneous Order of the Market
 original_url: 'https://www.spontaneousorder.in/p/spontaneous-order-of-the-market'
+author: Spontaneous Order
 published_at: '2010-08-09T14:30:49.000Z'
 ingested_at: '2026-05-05T08:31:42.648Z'
-source_hash: f466f87ed39b0db1d8b8a3e647e60dc58fed936cca58a0c63f09b6f57657c3be
-author: Spontaneous Order
 excerpt: >-
   According to a 1990 paper by Murray N. Rothbard, published in the Journal of
   Libertarian Studies, the great Taoist Chuang Tzu (369 B.C- 286 B.C) was the
   first person to work out the idea of ‘Spontaneous Order’. Chuang Tzu said,
   “Good order results s
+summary: >-
+  Murray N. Rothbard credits Taoist philosopher Chuang Tzu (369-286 B.C.) as the
+  first to articulate 'spontaneous order,' stating 'Good order results
+  spontaneously when things are let alone,' a concept later developed by
+  Proudhon and Hayek. Frederic Bastiat illustrates this in Economic Harmonies
+  through the phenomenon of Paris being fed daily via coordinated
+  self-interested actions of countless individuals, not central goodwill or
+  design. Hayek terms it the 'extended order' of human cooperation, essential to
+  civilization and known as capitalism, arguing in The Fatal Conceit that its
+  preservation depends on this order. In his 1945 paper 'The Use of Knowledge in
+  Society,' Hayek explains that economic knowledge exists only as dispersed,
+  incomplete bits held by individuals, impossible for any single mind to
+  integrate; prices in free markets aggregate this 'knowledge of particular time
+  and place' exploited by entrepreneurs to meet consumer needs via profits.
+  Freedom is prerequisite for this spontaneous market order, which emerges from
+  human action without preconceived design, driving civilization's growth.
+key_points:
+  - >-
+    Chuang Tzu originated the idea of spontaneous order as resulting from
+    letting things alone.
+  - >-
+    Bastiat demonstrates spontaneous order through the self-interested
+    coordination feeding Paris daily.
+  - >-
+    Hayek's 'extended order' of capitalism relies on dispersed knowledge
+    coordinated by unregulated prices.
+  - >-
+    No central planner can utilize the fragmented knowledge individuals possess
+    about specific circumstances.
+  - >-
+    Freedom enables entrepreneurs to exploit unique information for consumer
+    satisfaction and profits.
+topics:
+  - spontaneous-order
+  - free-markets
+  - dispersed-knowledge
+  - hayek
 tags:
   - Paris
   - Spontaneous Order
   - unregulated prices
   - market economy
   - Friedrich Hayek
+source_hash: f466f87ed39b0db1d8b8a3e647e60dc58fed936cca58a0c63f09b6f57657c3be
+summary_hash: f466f87ed39b0db1d8b8a3e647e60dc58fed936cca58a0c63f09b6f57657c3be
+summary_at: '2026-05-05T12:08:41.667Z'
 ---
 **By Kumar Anand**
 

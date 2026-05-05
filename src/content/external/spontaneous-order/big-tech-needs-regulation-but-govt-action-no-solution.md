@@ -2,21 +2,64 @@
 title: Big Tech Needs Regulation but Govt Action No Solution
 original_url: >-
   https://www.spontaneousorder.in/p/big-tech-needs-regulation-but-govt-action-no-solution
+author: Spontaneous Order
 published_at: '2020-10-26T12:11:45.000Z'
 ingested_at: '2026-05-05T08:31:42.372Z'
-source_hash: a03dbabce1a74bee530af2443c87c9d54023ba1768a600f3aae219bd8351b5e7
-author: Spontaneous Order
 excerpt: >-
   I am among those favouring regulation of the internet giants — Google,
   Facebook, Amazon, Apple, and Microsoft — because of their humungous control of
   viewers’ data (raising issues of privacy and national security) and unintended
   role in spreading fa
+summary: >-
+  Swaminathan S.A. Aiyar supports regulating internet giants like Google,
+  Facebook, Amazon, Apple, and Microsoft due to their control over user
+  data—raising privacy and national security concerns—and their role in
+  spreading falsehoods and hate speech. However, he criticizes the US
+  government's antitrust prosecution to break up Google, rejecting claims that
+  it is an 'unchallenged gateway' harming advertisers and users, as Google holds
+  only 29% of digital advertising, behind competitors like Facebook and TikTok.
+  From a classical-liberal viewpoint, he argues that these firms offer free
+  services, avoiding traditional monopoly price gouging. Citing Ryan Bourne's
+  Cato Institute paper 'Is This Time Different' and Joseph Schumpeter's
+  'creative destruction,' Aiyar shows innovation, not government intervention,
+  dismantles monopolies. Historical examples abound: IBM's 13-year antitrust
+  case collapsed amid PCs; A&P, once dominant, fell to Walmart and e-commerce;
+  MySpace (74% social traffic in 2008) was overtaken by Facebook; Nokia
+  (predicted uncatchable in 2007) dropped to 3% by 2013; Kodak lost to digital
+  cameras and smartphones; iTunes (80%+ share) to Spotify; Netscape (90%
+  browsers in 1996) to Chrome; Xerox to rivals like HP. Antitrust efforts often
+  prove farcical and wasteful, as disruptors emerge before cases end. Instead,
+  close tax loopholes and target side-effects like privacy issues, without
+  market-share controls.
+key_points:
+  - >-
+    Internet giants warrant regulation for data privacy, national security, and
+    curbing hate speech/falsehoods, but not antitrust breakups.
+  - >-
+    Historical monopolies like IBM, A&P, MySpace, Nokia, Kodak, iTunes,
+    Netscape, and Xerox were toppled by innovation, rendering government
+    antitrust cases unnecessary or farcical.
+  - >-
+    Google's 90% search dominance and 29% ad share do not constitute harmful
+    monopoly, as free services preclude price gouging and rivals like TikTok
+    loom.
+  - >-
+    Prioritize closing Big Tech tax loopholes and addressing unintended
+    side-effects over controls on market share.
+topics:
+  - big-tech
+  - antitrust
+  - creative-destruction
+  - market-monopolies
 tags:
   - Swaminomics
   - Swaminathan Aiyar
   - economic freedom
   - Economics
   - technology
+source_hash: a03dbabce1a74bee530af2443c87c9d54023ba1768a600f3aae219bd8351b5e7
+summary_hash: a03dbabce1a74bee530af2443c87c9d54023ba1768a600f3aae219bd8351b5e7
+summary_at: '2026-05-05T09:10:27.809Z'
 ---
 **By Swaminathan SA Aiyer**
 

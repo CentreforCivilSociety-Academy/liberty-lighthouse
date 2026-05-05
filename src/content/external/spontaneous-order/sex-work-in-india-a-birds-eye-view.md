@@ -1,15 +1,56 @@
 ---
 title: 'Sex Work in India: A Bird’s Eye View'
 original_url: 'https://www.spontaneousorder.in/p/sex-work-in-india-a-birds-eye-view'
+author: Spontaneous Order
 published_at: '2022-12-21T13:48:31.000Z'
 ingested_at: '2026-05-05T08:31:42.252Z'
-source_hash: 8c08bdf766eb6f6246a8d0e2441bfd230f4000bc764931e1f955822bf31eefa6
-author: Spontaneous Order
 excerpt: >-
   Conversations around sex workers in India have always been received with moral
   panic and prominent stigmas. They are looked at disdainfully, not considered a
   part of “civilized” society, with their existence confined to the red light
   areas. Prostituti
+summary: >-
+  Sex work in India, legalized by a Supreme Court judgment for equal protection
+  and to curb police harassment, remains burdened by stigmas, flawed laws like
+  the Immoral Traffic (Prevention) Act 1956, and policy gaps that criminalize
+  shared housing as brothels, hindering normal lives. Root causes include
+  trafficking, Devadasi practices, and poverty, trapping generations; of 20
+  million commercial sex workers, 16 million are trafficking victims, with three
+  of every four girls entering hourly being coerced. Sex workers face healthcare
+  denial—over two-thirds report judgmental treatment—and post-COVID debt
+  ensnares 95% in Maharashtra. Critiquing the 2018 Trafficking Bill for
+  conflating consensual work with trafficking without consultation, the author
+  advocates a classical-liberal approach: apply Public Choice Theory to craft
+  sensitive policies empowering marginalized sex workers via education, legal
+  aid, healthcare access, and alternate livelihoods, distinguishing voluntary
+  choice from exploitation. Networks like the National Network of Sex Workers
+  (50,000 members) push for rights, urging social inclusion over moral panic to
+  reduce state-people conflicts and prosecute true criminals.
+key_points:
+  - >-
+    India's 1956 Act criminalizes brothels, rendering shared homes by sex
+    workers illegal and disrupting lives.
+  - >-
+    Over two-thirds of sex workers experience healthcare stigma and denial in
+    hospitals.
+  - >-
+    16 million of India's 20 million sex workers are trafficking victims,
+    exacerbated by post-COVID debt affecting 95% in Maharashtra.
+  - >-
+    Apply Public Choice Theory to design inclusive policies providing sex
+    workers education, legal aid, and distinguishing consensual work from
+    trafficking.
+  - >-
+    Empower sex worker networks like NNSW to influence policy for welfare and
+    social inclusion.
+topics:
+  - sex-work
+  - human-trafficking
+  - public-choice-theory
+  - policy-reform
+source_hash: 8c08bdf766eb6f6246a8d0e2441bfd230f4000bc764931e1f955822bf31eefa6
+summary_hash: 8c08bdf766eb6f6246a8d0e2441bfd230f4000bc764931e1f955822bf31eefa6
+summary_at: '2026-05-05T11:38:27.165Z'
 ---
 **By Ananya Sharma**
 

@@ -2,19 +2,62 @@
 title: '#ThrowbackThursday: Nissim Ezekiel —The Moral Imperative (1980)'
 original_url: >-
   https://www.spontaneousorder.in/p/throwbackthursday-nissim-ezekiel-the-moral-imperative-1980
+author: Spontaneous Order
 published_at: '2015-08-06T18:57:06.000Z'
 ingested_at: '2026-05-05T08:31:42.578Z'
-source_hash: f37fc4d72ed2187faefb735629be046a94d1953931631bbc939abcc341322b10
-author: Spontaneous Order
 excerpt: >-
   The following piece was published in the September 1980 issue of Freedom
   First. The author of the piece, Nissim Ezekiel, was a noted poet, critic and
   editor, and also served as the editor of Freedom First. Liberty cannot endure
   without responsibility, a..
+summary: >-
+  Nissim Ezekiel argues that India's malaise stems from bad government and
+  ineffective opposition, but mere criticism is insufficient; citizens must
+  engage in self-criticism and constructive personal actions for public welfare.
+  With no clear solutions or leaders in sight, every aware individual bears a
+  moral imperative to take responsibility within their circumstances,
+  demonstrating initiative in small, day-to-day matters to foster a sense of
+  belonging and inspire emulation. This approach yields better immediate results
+  than protests alone, emphasizing embodying values in one's life and projecting
+  personal quality in rapport with others, rather than relying on publicity,
+  propaganda, or charisma-driven leadership. Ezekiel contrasts admirable
+  commentators—who know and teach but do not act—with the needed leaders who
+  encourage others' emergence without fearing talent as a threat or surrounding
+  themselves with yes-men. Individuals can remake themselves publicly and
+  privately, spreading a 'contagion' of improved morale and productivity,
+  countering the frustrations of non-democratic practices in newspapers and
+  educational institutions where hypocrisy prevails. Ultimately, a new spirit of
+  cooperative thought and action is essential for human and material progress,
+  aligning with classical-liberal emphasis on personal responsibility sustaining
+  liberty.
+key_points:
+  - >-
+    Citizens must prioritize self-criticism and small-scale constructive actions
+    over criticizing government and opposition.
+  - >-
+    Aware individuals should take personal responsibility for public welfare
+    through day-to-day initiatives that embody values and inspire others.
+  - >-
+    True leaders encourage emerging talent rather than consolidating power with
+    yes-men or charisma.
+  - >-
+    Personal remaking in public and private life spreads a contagion of morale
+    and productivity, improving conditions for millions.
+  - >-
+    Hypocrisy in democratic institutions underscores the need for individual
+    efforts toward genuine cooperation.
+topics:
+  - personal-responsibility
+  - civil-society
+  - moral-imperative
+  - indian-politics
 tags:
   - self-scrutiny
   - Libertarian Scholars
   - Nissim Ezekiel
+source_hash: f37fc4d72ed2187faefb735629be046a94d1953931631bbc939abcc341322b10
+summary_hash: f37fc4d72ed2187faefb735629be046a94d1953931631bbc939abcc341322b10
+summary_at: '2026-05-05T12:43:15.785Z'
 ---
 **By Guest Author**
 

@@ -2,19 +2,61 @@
 title: Is Individual Liberty the price to pay for National Security in India?
 original_url: >-
   https://www.spontaneousorder.in/p/is-individual-liberty-the-price-to-pay-for-national-security-in-india
+author: Spontaneous Order
 published_at: '2021-03-05T16:13:07.000Z'
 ingested_at: '2026-05-05T08:31:42.345Z'
-source_hash: 18d10bfd84eef796478f5ac4b72c91ac961bc07d32af126718719aef58034a73
-author: Spontaneous Order
 excerpt: >-
   “[T]he principle that no one shall be deprived of his life and liberty without
   the authority of law was not the gift of the Constitution. It was a necessary
   [corollary] of the concept relating to the sanctity of life and liberty; it
   existed and was in f
+summary: >-
+  The post argues from a classical-liberal perspective that India's
+  constitutional framework for preventive detention, enshrined in Article 22,
+  sacrifices individual liberty for nebulous national security and public order
+  concerns, enabling arbitrary state power without due process. It traces this
+  to British colonial laws and Constituent Assembly debates, where Dr. B.R.
+  Ambedkar proposed safeguards, but 'due process' was rejected in favor of
+  'procedure established by law' to preserve detention powers, as noted by
+  Alladi Krishnaswami Ayyar. The Constitution empowers Union and states via
+  Schedule 7 to enact laws like UAPA (1967), MISA (1971), NSA (1980), and POTA
+  (2002). Article 22(3)-(7) offers minimal procedural safeguards—such as
+  Advisory Board review after three months—which are routinely bypassed, denying
+  rights like grounds of detention. Misuse is evident in 5,558 preventive
+  detentions in Uttar Pradesh during 2019 CAA protests. Despite Maneka Gandhi
+  (1978) mandating fair procedures, habeas corpus is ineffective, with a study
+  showing only 20 successful Supreme Court grants from 2000-2019. The author
+  concludes preventive detention inverts 'innocent until proven guilty,'
+  violates natural justice, and must be abolished, as liberty once lost is lost
+  forever, echoing John Adams.
+key_points:
+  - >-
+    Preventive detention lacks definitions of 'national security' or 'public
+    order,' allowing detention without proven crime or trial.
+  - >-
+    Article 22 permits detention beyond three months without Advisory Board
+    approval in specified cases, negating core safeguards.
+  - >-
+    Over 5,558 individuals were preventively detained in Uttar Pradesh from
+    December 10-27, 2019, to suppress CAA protests.
+  - >-
+    Habeas corpus has been a 'meaningless remedy,' succeeding in only 20 Supreme
+    Court cases from 2000-2019.
+  - >-
+    India must abolish preventive detention under Article 22 to uphold
+    individual liberty and rule of law.
+topics:
+  - preventive-detention
+  - article-22
+  - national-security
+  - individual-liberty
 tags:
   - Fellowship for Freedom
   - Liberty
   - Constitution
+source_hash: 18d10bfd84eef796478f5ac4b72c91ac961bc07d32af126718719aef58034a73
+summary_hash: 18d10bfd84eef796478f5ac4b72c91ac961bc07d32af126718719aef58034a73
+summary_at: '2026-05-05T10:28:44.796Z'
 ---
 **By Md Tasnimul Hassan**
 

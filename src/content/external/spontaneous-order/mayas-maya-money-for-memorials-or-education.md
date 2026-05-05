@@ -1,20 +1,58 @@
 ---
 title: 'Maya’s maya: Money for memorials or education?'
 original_url: 'https://www.spontaneousorder.in/p/mayas-maya-money-for-memorials-or-education'
+author: Spontaneous Order
 published_at: '2010-04-14T15:49:45.000Z'
 ingested_at: '2026-05-05T08:31:42.651Z'
-source_hash: 31066387695fc03d7bbaf0a14a4539573d5e6f3f3fc1957eace93c583efe7b96
-author: Spontaneous Order
 excerpt: >-
   A leading national daily reported “Crores for memorials but no money for
   education”. The CM of Uttar Pradesh has said that the State Administration
   does not have appropriate funds to go ahead with the implementation of the RTE
   and asked the centre to
+summary: >-
+  The post criticizes Uttar Pradesh Chief Minister Mayawati's government for
+  prioritizing massive spending on statues and memorials—framed as Dalit
+  icons—over implementing the Right to Education (RTE) Act, highlighting
+  profound irony as the state claims insufficient funds and seeks central
+  assistance. A leading national daily reported 'Crores for memorials but no
+  money for education.' Key figures include Rs. 194 crores allocated for statues
+  of great leaders, Samajwadi Party allegations of up to Rs. 10,000 crores
+  total, and RTI findings revealing Rs. 4,436 crores spent on just two projects.
+  The government also passed the Special Zone Protection Force Bill, deploying
+  ex-servicemen at an additional estimated cost of Rs. 8-9 crores to protect
+  these structures. In contrast, UP's 55:45 Centre-state share for RTE
+  implementation requires Rs. 8,000 crores from the state—less than memorial
+  expenditures. From a classical-liberal perspective, this extravagance
+  undermines children's right to education and erodes Mayawati's status as a
+  symbol of political potency, calling for collective action to rectify the
+  misprioritization.
+key_points:
+  - >-
+    Uttar Pradesh spent Rs. 4,436 crores on two memorial projects alone,
+    according to RTI data.
+  - >-
+    The state allocated Rs. 194 crores for statues, with allegations reaching
+    Rs. 10,000 crores total.
+  - >-
+    RTE implementation demands Rs. 8,000 crores from UP's share, comparable to
+    or less than memorial costs.
+  - >-
+    A new Special Zone Protection Force for memorials will cost an additional
+    Rs. 8-9 crores.
+  - Society must unite to prioritize education funding over political memorials.
+topics:
+  - rte
+  - education-funding
+  - government-waste
+  - political-symbolism
 tags:
   - mayawati
   - Dalit icons
   - Right to Education
   - Memorials
+source_hash: 31066387695fc03d7bbaf0a14a4539573d5e6f3f3fc1957eace93c583efe7b96
+summary_hash: 31066387695fc03d7bbaf0a14a4539573d5e6f3f3fc1957eace93c583efe7b96
+summary_at: '2026-05-05T10:51:51.789Z'
 ---
 **By Shreya**
 

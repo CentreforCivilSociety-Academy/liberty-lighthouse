@@ -1,18 +1,53 @@
 ---
 title: The Great Question of ‘What If’
 original_url: 'https://www.spontaneousorder.in/p/the-great-question-of-what-if'
+author: Spontaneous Order
 published_at: '2010-08-20T14:17:56.000Z'
 ingested_at: '2026-05-05T08:31:42.647Z'
-source_hash: e8bfcc859e99e8f8cd1d76209a6145b5d7356050b1d83ea8c19fc53e2de33796
-author: Spontaneous Order
 excerpt: >-
   Some of the most important questions that economic scientists should answer
   are the questions starting with “What If”. Should we be content with the GDP
   growth rate (keeping the questionable effectiveness of GDP growth rate as a
   measure of economic gr
+summary: >-
+  Kumar Anand challenges contentment with India's 8-9% GDP growth amid global
+  recovery from the 2008 crisis, positing that freer markets—minimizing
+  government inefficiencies, curbing man-made double-digit inflation, and
+  removing price controls including interest rates—could yield 20%+ growth. He
+  critiques economists like Prabhat Patnaik, who credit India's immunity to the
+  2008 crisis on unopened financial markets (with only 7% foreign assets
+  avoiding toxic securities), arguing this ignores the immense opportunity cost:
+  forgone growth, capital, and innovation over 60+ years due to repression.
+  Anand contends the US crisis stemmed not from openness but from regulations
+  and populist policies like the Community Reinvestment Act, Fannie Mae, and
+  Freddie Mac. Logically extending Patnaik's view implies a closed, primitive
+  barter economy avoids crises but sacrifices aircraft, cutting-edge technology,
+  and life-saving medicine. From a classical-liberal lens, embracing market
+  freedom promises superior development over insulated stagnation.
+key_points:
+  - >-
+    India's 8-9% GDP growth pales against potential 20%+ if government
+    inefficiencies, inflation, and price controls were eliminated.
+  - >-
+    Closed financial markets shielded India from the 2008 crisis but incurred
+    huge opportunity costs in forgone growth and innovation over 60 years.
+  - >-
+    The US financial crisis resulted from regulatory populism, not market
+    openness.
+  - >-
+    Freer markets enable access to advanced technologies, aircraft, and medical
+    innovations essential for progress.
+topics:
+  - economic-growth
+  - financial-liberalization
+  - market-freedom
+  - 2008-crisis
 tags:
   - Global Financial Crisis 2008
   - Prabhat Patnaik
+source_hash: e8bfcc859e99e8f8cd1d76209a6145b5d7356050b1d83ea8c19fc53e2de33796
+summary_hash: e8bfcc859e99e8f8cd1d76209a6145b5d7356050b1d83ea8c19fc53e2de33796
+summary_at: '2026-05-05T12:27:54.790Z'
 ---
 **By Kumar Anand**
 

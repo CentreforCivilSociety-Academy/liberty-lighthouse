@@ -4,18 +4,59 @@ title: >-
   Nehruvian State
 original_url: >-
   https://www.spontaneousorder.in/p/masani-rajaji-and-shenoy-the-free-market-troika-that-challenged-the-nehruvian-state
+author: Spontaneous Order
 published_at: '2020-11-30T12:46:02.000Z'
 ingested_at: '2026-05-05T08:31:42.719Z'
-source_hash: a662206c4cc3b373be440e8b4441de64ebf32040de6cb66fba2b30465aa7e8af
-author: Spontaneous Order
 excerpt: >-
   The domination of the Nehruvian consensus in the early years of the Indian
   republic is a fact well-known. It is not as if the critics of the Nehruvian
   vision did not exist, but their challenge remained limited and ineffectual, in
   both ideological and el..
+summary: >-
+  The post highlights the free-market challenge to the Nehruvian mixed economy
+  by Minoo Masani, Chakravarti Rajagopalachari (Rajaji), and B.R. Shenoy, who
+  formed the ideological core of the Swatantra Party, critiquing statism despite
+  limited electoral success. Their ideas persisted beyond the party's 1970s
+  collapse under Indira Gandhi's populism, influencing the 1991 liberalization.
+  Reviewing Aditya Balasubramanian's paper, the author praises its analysis of
+  their transnational anti-communist efforts and political dissent against
+  Congress hegemony but critiques its labeling of Masani as conservative serving
+  big business—Masani self-identified as liberal, targeted peasants and
+  middle-class, criticized cronyism, and lacked business funding, as noted by
+  G.D. Birla and scholars like Howard Erdman. Rajaji embodied traditional
+  conservatism infused with liberal individualism against statism. Shenoy's
+  free-market advocacy, invoking dharma and idealized varna as division of labor
+  akin to markets, aligns more with neoliberalism like Hayek and Friedman than
+  Hindu revivalism. Neglect of this tradition stems from Swatantra's demise and
+  leftist academia's class-based analyses, urging recognition of Indian
+  classical liberals' principled anti-statism, individualism, and pro-market
+  stance adapted to local electoral and discursive contexts.
+key_points:
+  - >-
+    Masani, Rajaji, and Shenoy led the Swatantra Party's free-market critique of
+    Nehruvian planning, emphasizing fiscal prudence, decontrol, and limited
+    government.
+  - >-
+    Masani was a classical liberal, not conservative, targeting peasants and
+    middle-class while decrying big business cronyism, as evidenced by lack of
+    funding from figures like G.D. Birla.
+  - >-
+    Shenoy's economic ideas reflected neoliberalism and historicist liberalism
+    rooted in idealized Indian traditions, not Hindu revivalism.
+  - >-
+    Their anti-statist, pro-market ideology survived Swatantra's fall to
+    underpin 1991 liberalization, neglected due to leftist academic dominance.
+topics:
+  - swatantra-party
+  - free-markets
+  - nehruvian-state
+  - classical-liberalism
 tags:
   - Indian Economy
   - Nehruvian model
+source_hash: a662206c4cc3b373be440e8b4441de64ebf32040de6cb66fba2b30465aa7e8af
+summary_hash: a662206c4cc3b373be440e8b4441de64ebf32040de6cb66fba2b30465aa7e8af
+summary_at: '2026-05-05T10:50:44.663Z'
 ---
 **By Sanjeet Kashyap**
 

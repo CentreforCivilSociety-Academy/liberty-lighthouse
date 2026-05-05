@@ -1,20 +1,59 @@
 ---
 title: Somebody’s Watching You
 original_url: 'https://www.spontaneousorder.in/p/surveillance-in-india'
+author: Spontaneous Order
 published_at: '2019-10-30T14:23:18.000Z'
 ingested_at: '2026-05-05T08:31:42.461Z'
-source_hash: ac3d54fb3fad24ea7930be7579f7f1d4b8707ff85fc5e90b207f709e5309f7b9
-author: Spontaneous Order
 excerpt: >-
   The modern methods of communication through digital technology come with their
   own challenges. Presently, they have become a means for the state to keep a
   surveillance on activities of the citizens. In the name of national security
   and countering intern..
+summary: >-
+  Modern digital communication enables extensive state surveillance in India,
+  justified under national security but often abused, posing greater threats to
+  privacy and freedom than censorship. The author argues for high thresholds and
+  strict parameters for data decryption by law enforcement, citing examples like
+  Uttar Pradesh checking 10,000 phone records over rotten potatoes thrown on VIP
+  streets, Himachal Pradesh tapping 1371 numbers with only 2% authorized, and
+  leakage of data from over 2.4 lakh NEET candidates. Despite the 2017
+  Puttaswamy judgment recognizing privacy as a fundamental right with
+  proportionality standards, ordinary provisions allow broad interception of
+  communications, and Aadhaar serves as both a governance tool and surveillance
+  mechanism. India ranks third globally in lowest privacy protections with a
+  2.5/5 score, flipping democratic accountability by making citizens answerable
+  to the state. From a classical-liberal viewpoint, surveillance risks political
+  control over protection, endangering free speech and privacy; the state must
+  unmask vague 'national interest' claims to balance public interest with
+  individual rights.
+key_points:
+  - >-
+    State surveillance in India, enabled by digital tools like Aadhaar, often
+    exceeds proportionality standards despite the 2017 Puttaswamy ruling on
+    privacy as a fundamental right.
+  - >-
+    Examples of abuse include UP's review of 10,000 phone records for a minor
+    incident and Himachal's unauthorized tapping of 1371 numbers.
+  - >-
+    India's low privacy score of 2.5/5 ranks it third globally among
+    surveillance states, inverting democratic accountability.
+  - >-
+    High thresholds and legal mechanisms are needed to restrict surveillance to
+    last-resort measures, prioritizing individual privacy over expansive state
+    powers.
+topics:
+  - digital-surveillance
+  - privacy-rights
+  - aadhaar
+  - state-overreach
 tags:
   - Phone tapping
   - Aadhaar
   - Right to Privacy
   - Surveillance State
+source_hash: ac3d54fb3fad24ea7930be7579f7f1d4b8707ff85fc5e90b207f709e5309f7b9
+summary_hash: ac3d54fb3fad24ea7930be7579f7f1d4b8707ff85fc5e90b207f709e5309f7b9
+summary_at: '2026-05-05T12:13:23.168Z'
 ---
 **By Mahima Kataria**
 

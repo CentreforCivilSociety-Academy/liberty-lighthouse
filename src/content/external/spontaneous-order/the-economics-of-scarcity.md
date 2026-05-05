@@ -1,19 +1,58 @@
 ---
 title: The Economics of Scarcity
 original_url: 'https://www.spontaneousorder.in/p/the-economics-of-scarcity'
+author: Spontaneous Order
 published_at: '2018-07-16T13:04:39.000Z'
 ingested_at: '2026-05-05T08:31:42.545Z'
-source_hash: 614e557740c4e3b1d1c00cd81e8db9d3b1f8c1a824e1129d36464e757b18b6b2
-author: Spontaneous Order
 excerpt: >-
   Recently 23 people were killed when they got crushed in a stampede on a
   railway bridge in Mumbai. Students sweat for months in tuition classes to
   prepare for entrance examinations for engineering courses. We used to pay a
   small fortune in the 80s to get..
+summary: >-
+  Luis Miranda argues that India's persistent scarcity, artificially created by
+  government controls on supply, distorts behavior and leads to tragedies like
+  the Mumbai railway bridge stampede killing 23 people, students cramming for
+  engineering exams, and commuters risking lives by rushing into overcrowded
+  trains. Drawing from behavioral economists Sendhil Mullainathan and Eldar
+  Shafir's book 'Scarcity,' he explains how scarcity—financial, time, or
+  space-related—impairs cognition, as evidenced by Indian sugarcane farmers
+  making poorer decisions pre-harvest when strapped for cash compared to
+  post-harvest. This scarcity mindset persists due to bureaucrats stuck in
+  supply-control habits, resulting in inadequate infrastructure like few station
+  access points and curbs on teacher training colleges in Maharashtra. Miranda
+  highlights classical-liberal successes: scrapping Indian Airlines' monopoly
+  boosted aviation, while ending MTNL, BSNL, and VSNL monopolies slashed telecom
+  tariffs and eased access. He advocates building over-capacity in trains
+  (longer, more frequent services), metros, and alternatives to reduce
+  scarcity's cognitive toll, noting initial excesses (like over-drinking on
+  flights post-liberalization) normalize over time. Ultimately, increasing
+  supply via reduced controls will curb risky behaviors and improve lives.
+key_points:
+  - >-
+    Government controls create artificial scarcity, causing distorted behaviors
+    like deadly stampedes and risky train rushes.
+  - >-
+    Scarcity impairs decision-making, as shown by sugarcane farmers' better
+    choices post-harvest versus pre-harvest lean times.
+  - >-
+    Liberalizing aviation and telecom monopolies increased supply, cut tariffs,
+    and alleviated scarcity.
+  - >-
+    Expand train capacity with longer, more frequent services and add metro
+    options to reduce commuting risks.
+topics:
+  - scarcity
+  - behavioral-economics
+  - infrastructure
+  - market-liberalization
 tags:
   - economy
   - Capacity Building
   - Governance
+source_hash: 614e557740c4e3b1d1c00cd81e8db9d3b1f8c1a824e1129d36464e757b18b6b2
+summary_hash: 614e557740c4e3b1d1c00cd81e8db9d3b1f8c1a824e1129d36464e757b18b6b2
+summary_at: '2026-05-05T12:24:57.508Z'
 ---
 **By Luis Miranda**
 

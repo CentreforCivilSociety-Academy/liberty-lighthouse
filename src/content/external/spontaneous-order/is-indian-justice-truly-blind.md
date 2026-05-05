@@ -1,15 +1,50 @@
 ---
 title: Is Indian Justice Truly Blind?
 original_url: 'https://www.spontaneousorder.in/p/is-indian-justice-truly-blind'
+author: Spontaneous Order
 published_at: '2020-03-18T19:25:14.000Z'
 ingested_at: '2026-05-05T08:31:42.435Z'
-source_hash: 7c9a5f61d3eb599c5eec4da6c2c7bd75d622b7e757a551995e27c29d2762c718
-author: Spontaneous Order
 excerpt: >-
   “Kanoon Andha Hota hai”, you must’ve heard this phrase more than once in
   movies or in dramatic representations of the legal system. Lady Justice is the
   generally used symbol of a just legal system. Represented by a blindfold, she
   is expected to be i
+summary: >-
+  The post argues that Indian justice is not truly blind, as laws often violate
+  Article 14's guarantee of equality before the law by discriminating against
+  specific groups. Lady Justice symbolizes impartiality, requiring laws to apply
+  equally to all, from street vendors to celebrities. However, examples show
+  otherwise: the Punjab Excise Act, 1914 bans men under 25 and women of any age
+  from employment in places where liquor or intoxicating drugs are consumed,
+  denying job opportunities to these groups despite allowing them to vote, join
+  the army, or marry. In Maharashtra, a ban on dance performances in one- and
+  two-star hotels and bars—sparing high-end venues like three-star hotels,
+  gymkhanas, cinemas, and theatres—discriminated by income level, causing many
+  women to lose livelihoods. The Supreme Court eventually lifted the ban,
+  restoring jobs to 75,000 performers, but the damage to affected families was
+  irreversible. From a classical-liberal viewpoint, such discriminatory laws
+  undermine a just society. The solution lies in adopting the Generality
+  Principle, ensuring laws apply equally to all groups without favoritism,
+  essential for republican equality before the law.
+key_points:
+  - >-
+    Punjab Excise Act, 1914 discriminates by barring men under 25 and all women
+    from working in liquor consumption venues, violating Article 14 equality.
+  - >-
+    Maharashtra's dance bar ban targeted low-end hotels while exempting upscale
+    venues, leading to job losses for lower-income women until Supreme Court
+    intervention restored 75,000 jobs.
+  - >-
+    Laws must embody the Generality Principle to apply equally to all,
+    preventing discrimination and ensuring impartial justice.
+  - >-
+    Article 14 mandates equal protection of laws for all persons in India,
+    implying uniform application without special treatment.
+topics:
+  - equality-before-law
+  - generality-principle
+  - labour-discrimination
+  - rule-of-law
 tags:
   - justice
   - criminal justice
@@ -17,6 +52,9 @@ tags:
   - Laws with Flaws
   - Social Justice
   - Law
+source_hash: 7c9a5f61d3eb599c5eec4da6c2c7bd75d622b7e757a551995e27c29d2762c718
+summary_hash: 7c9a5f61d3eb599c5eec4da6c2c7bd75d622b7e757a551995e27c29d2762c718
+summary_at: '2026-05-05T10:28:18.903Z'
 ---
 **By Swati Singh**
 

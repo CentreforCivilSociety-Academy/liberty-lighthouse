@@ -2,17 +2,63 @@
 title: The Future of Virtual Rallies in a Post-Pandemic World
 original_url: >-
   https://www.spontaneousorder.in/p/the-future-of-virtual-rallies-in-a-post-pandemic-world
+author: Spontaneous Order
 published_at: '2021-05-26T12:38:52.000Z'
 ingested_at: '2026-05-05T08:31:42.316Z'
-source_hash: 9bef48621e23748690990a7a19ad6da5bc06fa44be6e59584baf16d4d8ee9d84
-author: Spontaneous Order
 excerpt: >-
   National elections in India, the world’s largest democracy, are an exercise of
   epic proportions. The lifeblood of election campaigns is political rallies
   meant to mobilize the public. Such rallies allow politicians to communicate
   directly with the publi
+summary: >-
+  The COVID-19 pandemic accelerated the shift from massive physical rallies to
+  virtual ones in Indian and global elections, exemplified by South Korea's
+  truck-screen telecasts and India's BJP events like Amit Shah's June 2020 Bihar
+  rally drawing 14 lakh viewers on YouTube, Facebook, and Zoom. Virtual rallies
+  offer classical-liberal advantages: cost-effectiveness democratizing politics
+  for smaller parties by slashing expenses on travel and setups; nationwide
+  reach without location constraints; preservation of civic life by avoiding
+  traffic jams, noise, and school closures; freedom from permits and
+  suppression, as in Hong Kong's pro-democracy efforts; and transparency
+  reducing 'hired crowds' and corruption. Yet field rallies persist for their
+  festival-like camaraderie, unignorable street disruption signaling strength
+  (e.g., Mamata Banerjee's virtual Martyrs’ Day lacking 2014 Kolkata spectacle),
+  and addressing India's 36% internet penetration and digital divide favoring
+  resourced parties like BJP's 9,500 IT cells and 72,000 WhatsApp groups.
+  Virtual formats risk sabotage, suit scripted speakers less (e.g., Trump,
+  Modi), amplify glitches, and challenge election authorities on misinformation.
+  Concluding from a free-market lens, with 2019 Lok Sabha costs at Rs 60,000
+  crore (double 2014), virtual rallies warrant permanence for efficiency,
+  savings redirection, and targeted voter info, provided safeguards ensure truth
+  in digital democracy.
+key_points:
+  - >-
+    Virtual rallies drastically cut costs, potentially saving billions from
+    India's Rs 60,000 crore 2019 election spend and leveling the field for
+    smaller parties.
+  - >-
+    They eliminate civic disruptions like traffic jams and noise pollution
+    caused by field rallies.
+  - >-
+    India's 36% internet penetration and digital divide hinder virtual rallies'
+    equity, benefiting national parties like BJP with extensive digital
+    infrastructure.
+  - >-
+    Field rallies endure for their emotional solidarity and visual optics that
+    virtual formats cannot replicate.
+  - >-
+    Election authorities must develop rules to combat virtual misinformation,
+    which spreads faster than in physical campaigns.
+topics:
+  - virtual-rallies
+  - field-rallies
+  - digital-divide
+  - indian-elections
 tags:
   - Elections
+source_hash: 9bef48621e23748690990a7a19ad6da5bc06fa44be6e59584baf16d4d8ee9d84
+summary_hash: 9bef48621e23748690990a7a19ad6da5bc06fa44be6e59584baf16d4d8ee9d84
+summary_at: '2026-05-05T12:26:33.869Z'
 ---
 **By Tarini Patel**
 

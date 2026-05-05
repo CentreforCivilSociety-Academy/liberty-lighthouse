@@ -2,20 +2,65 @@
 title: Limitations in our understanding of ease of doing business in India
 original_url: >-
   https://www.spontaneousorder.in/p/limitations-in-our-understanding-of-ease-of-doing-business-in-india
+author: Spontaneous Order
 published_at: '2019-01-29T08:47:37.000Z'
 ingested_at: '2026-05-05T08:31:42.508Z'
-source_hash: a0284d226ec93059b2230a0f8bcd0f539c687f6291de6098c8d1ace327b1ab1c
-author: Spontaneous Order
 excerpt: >-
   A few days ago the World Bank released its annual ready reckoner on ease of
   doing business in India and the world. India jumped 23 spots on the rankings,
   from 100 in 2017 to 77 this year. No doubt this is a positive sign, but it is
   far from the last wor..
+summary: >-
+  India's jump from 100th to 77th in the World Bank's Ease of Doing Business
+  rankings signals progress but offers a superficial view of the business
+  environment, ignoring vast state-level variations in machinery, processes, and
+  rules. The author argues that broad national assessments, including DIPP's
+  state reforms plan and other surveys, fail to capture substantive qualitative
+  changes or implementation gaps, where paper reforms do not translate to ground
+  reality—such as undedicated commercial courts under the 2015 Act or opaque
+  risk-based inspections for environmental and labor laws. Better-performing
+  states like Andhra Pradesh, Telangana, Gujarat, Maharashtra, and Tamil Nadu
+  provide some details, but most, including Delhi, rely on checkbox ticks.
+  Critically, reports neglect regulatory burdens on micro, small, and medium
+  enterprises, especially informal urban retail like restaurants facing
+  arbitrary sealing and meat traders under shifting rules without due process. A
+  Centre for Civil Society study on Delhi reveals reforms as window-dressing,
+  with persistent license-permit-inspector raj and no strides in contract
+  enforcement or principles-based regulation. The 2015 Business Reforms Action
+  Plan lacks background papers or cost-benefit analysis. For a freer enterprise
+  environment, systematic granular oversight of reforms across central, state,
+  and municipal levels is essential, particularly for unmeasured areas like
+  waste management.
+key_points:
+  - >-
+    World Bank's rankings and DIPP assessments provide limited insights due to
+    unexamined implementation gaps at state levels, where paper reforms often
+    fail on the ground.
+  - >-
+    Specialized commercial courts and inspection regularizations exist on paper
+    but lack dedicated resources or transparency in practice.
+  - >-
+    Regulatory challenges for small retail enterprises, like restaurant sealings
+    and meat trade uncertainties, remain unaddressed in major reports.
+  - >-
+    CCS's Delhi study shows reforms as superficial, perpetuating the
+    license-permit-inspector raj without principled deregulation.
+  - >-
+    Future reforms require systematic evaluation, background papers, and
+    oversight across government levels to advance economic freedom.
+topics:
+  - ease-of-doing-business
+  - business-reforms
+  - regulatory-reform
+  - small-enterprises
 tags:
   - regulatory barriers
   - Ease of Doing Business in India
   - Unease of doing business
   - EODB
+source_hash: a0284d226ec93059b2230a0f8bcd0f539c687f6291de6098c8d1ace327b1ab1c
+summary_hash: a0284d226ec93059b2230a0f8bcd0f539c687f6291de6098c8d1ace327b1ab1c
+summary_at: '2026-05-05T10:42:54.628Z'
 ---
 **By Bhuvana Anand**
 

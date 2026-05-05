@@ -1,19 +1,57 @@
 ---
 title: Loans Go Bad
 original_url: 'https://www.spontaneousorder.in/p/loans-go-bad'
+author: Spontaneous Order
 published_at: '2018-08-06T10:47:46.000Z'
 ingested_at: '2026-05-05T08:31:42.518Z'
-source_hash: 85af12d11d056737c0e18ada59095a168fdc89b9876dbe22367d816df1fd5d3d
-author: Spontaneous Order
 excerpt: >-
   Loans go bad. For all banks, private and government-owned. Loans go bad,
   because business is inherently risky. Banks know this, and they plan their
   affairs around risk management. They do this, firstly, by charging different
   interest rates to different ..
+summary: >-
+  Loans inevitably go bad due to business risks, but Indian public sector banks
+  suffer abnormally high NPAs at 14% compared to 4% for private banks and global
+  figures like 1.3% in the USA, 0.9% in the UK, and 2.6% in Sri Lanka,
+  exacerbated by scams like Nirav Modi's at PNB, which saw three CEOs during the
+  fraud. This stems from government ownership, where 'everybody owns it, hence
+  nobody,' severing the alignment of interests between owners and
+  managers—unlike private firms where promoters like Mukesh Ambani stake their
+  wealth on long-term success. Public bank executives, rotating frequently and
+  reporting to short-term politicians, prioritize patronage loans over sound
+  risk assessment, enabled by bypassed audits and collusion, as seen in Vijay
+  Mallya's Kingfisher equity conversion at a 60% market premium benefiting both
+  sides. Finance ministry bosses pressure sub-optimal lending, then recapitalize
+  losses with taxpayer money, perpetuating the cycle. Governments resist
+  privatizing 70% of banking assets to retain patronage control, underscoring
+  classical-liberal critiques of state-run enterprises' incentive failures
+  versus private ownership's discipline.
+key_points:
+  - >-
+    Public sector banks' 14% NPA ratio dwarfs private banks' 4% due to
+    misaligned incentives from diffuse government ownership.
+  - >-
+    No one has skin in the game in state banks, unlike private promoters whose
+    wealth ties to firm success, leading to poor risk assessment and fraud
+    tolerance.
+  - >-
+    Politicians direct patronage loans, enable evergreening, and fund
+    recapitalizations with taxes, as in Nirav Modi and Vijay Mallya cases.
+  - >-
+    Privatization of public sector banks is stalled to preserve government
+    control over 70% of banking assets.
+topics:
+  - npas
+  - public-sector-banks
+  - bank-privatisation
+  - government-incentives
 tags:
   - Bad Loans
   - Public Sector Banks
   - Private Sector Banks
+source_hash: 85af12d11d056737c0e18ada59095a168fdc89b9876dbe22367d816df1fd5d3d
+summary_hash: 85af12d11d056737c0e18ada59095a168fdc89b9876dbe22367d816df1fd5d3d
+summary_at: '2026-05-05T10:44:00.641Z'
 ---
 **By Mohit Satyanand**
 

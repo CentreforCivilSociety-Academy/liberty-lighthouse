@@ -1,20 +1,55 @@
 ---
 title: Realizing Freedom
 original_url: 'https://www.spontaneousorder.in/p/realizing-freedom'
+author: Spontaneous Order
 published_at: '2010-01-29T11:25:06.000Z'
 ingested_at: '2026-05-05T08:31:42.655Z'
-source_hash: d7f8f2176d6e3ba323854034b24955e2225714597f3933fcf63ddb889e045d39
-author: Spontaneous Order
 excerpt: >-
   Check out Tom Palmer’s book, Realizing Freedom: Libertarian History, Theory
   and Practice. His book ranges from the theory of justice to foreign policy,
   from the economics of public goods to gay rights in Russia. Palmer addresses
   the nature of freedom, l
+summary: >-
+  Shreya recommends 'Realizing Freedom: Libertarian History, Theory and
+  Practice' by Tom Palmer, spotlighting a CATO Institute review that celebrates
+  his over 25 years advancing liberty's history and theory worldwide. The book
+  explores the nature of freedom, law, rights, and justice from a
+  classical-liberal viewpoint; defends the morality of markets; and examines
+  institutional frameworks for free societies. Palmer critiques political
+  theorists like John Rawls and Cass Sunstein, refutes 'myths of individualism,'
+  and links abstract liberal rights to their historical origins. It integrates
+  his activism from 1980s Eastern Europe to contemporary Russia, China, and the
+  Arab world, tackling issues like multiculturalism, free speech struggles, the
+  Iraq war, economics of public goods, and gay rights in Russia. The review
+  positions Palmer as a leading scholar whose collected major writings offer a
+  comprehensive resource for understanding ordered liberty in theory and
+  practice.
+key_points:
+  - >-
+    Tom Palmer's book compiles his key writings on libertarian theory, history,
+    and global activism.
+  - >-
+    It defends markets' morality and critiques Rawls, Sunstein, and myths of
+    individualism.
+  - >-
+    Palmer connects liberal rights to historical roots and addresses current
+    issues like free speech and foreign policy.
+  - >-
+    CATO praises Palmer's unparalleled knowledge of liberty after 25+ years of
+    scholarship and fieldwork.
+topics:
+  - libertarianism
+  - liberty-theory
+  - free-markets
+  - individual-rights
 tags:
   - Tom Palmer
   - realizing freedom
   - Liberalism
   - Cato Institute
+source_hash: d7f8f2176d6e3ba323854034b24955e2225714597f3933fcf63ddb889e045d39
+summary_hash: d7f8f2176d6e3ba323854034b24955e2225714597f3933fcf63ddb889e045d39
+summary_at: '2026-05-05T11:23:58.691Z'
 ---
 **By Shreya**
 

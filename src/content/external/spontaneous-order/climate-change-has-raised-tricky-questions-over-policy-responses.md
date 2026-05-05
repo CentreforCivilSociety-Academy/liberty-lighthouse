@@ -2,20 +2,58 @@
 title: Climate change has raised tricky questions over policy responses
 original_url: >-
   https://www.spontaneousorder.in/p/climate-change-has-raised-tricky-questions-over-policy-responses
+author: Spontaneous Order
 published_at: '2021-08-11T11:46:10.000Z'
 ingested_at: '2026-05-05T08:31:42.299Z'
-source_hash: 5b8cb89e4ccc9824cec8aba90cb8501eb67180cb44a8680a775838f4c459abc1
-author: Spontaneous Order
 excerpt: >-
   From a heatwave in the Arctic region to devastating floods in many countries,
   the threat of climate change is now stark. Some new urgency can be seen in an
   official statement released by G20 environment ministers last weekend. It said
   that all 20 countr..
+summary: >-
+  Climate change poses challenges for policy, highlighted by the G20 environment
+  ministers' commitment to limit warming to 1.5°C above pre-Industrial
+  Revolution levels—a more aggressive target than the Paris Agreement's 2°C—amid
+  upcoming UN talks in Glasgow. Achieving net zero emissions by 2050 requires
+  global cooperation without degrowth, as the 2020 pandemic's emissions drop
+  increased poverty. As a global public good, it demands government action
+  complemented by private sector innovation and investment. Classical-liberal
+  policy frameworks must adapt: first, incorporate stock variables like natural
+  capital depletion alongside GDP flows in green national accounts; second,
+  ensure climate justice between rich historical emitters and poor nations like
+  India (low per capita emissions and carbon intensity), plus intergenerational
+  equity via debated discount rates; third, favor price incentives like carbon
+  taxes over quotas to avoid a 'licence raj' and allow market-driven green
+  innovation rather than government-picked technologies; fourth, supplement
+  national plans with voluntary private commitments from cities, companies, and
+  others, echoing Elinor Ostrom's work on commons. These shifts balance
+  mitigation with economic progress.
+key_points:
+  - >-
+    G20 commits to 1.5°C warming limit, pushing for net zero by 2050 without
+    sacrificing growth in poor nations.
+  - >-
+    Incorporate natural capital stocks into economic accounts to track green
+    transitions beyond GDP flows.
+  - >-
+    Prefer carbon taxes or price signals over pollution quotas to spur
+    innovation without government technology picking.
+  - >-
+    Complement government mitigation with voluntary private sector pledges for
+    net neutrality.
+topics:
+  - climate-policy
+  - carbon-pricing
+  - green-economy
+  - public-goods
 tags:
   - G20
   - Climate Change
   - Policy
   - economy
+source_hash: 5b8cb89e4ccc9824cec8aba90cb8501eb67180cb44a8680a775838f4c459abc1
+summary_hash: 5b8cb89e4ccc9824cec8aba90cb8501eb67180cb44a8680a775838f4c459abc1
+summary_at: '2026-05-05T09:24:06.488Z'
 ---
 **By Niranjan Rajadhyaksha**
 

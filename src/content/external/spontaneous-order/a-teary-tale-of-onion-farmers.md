@@ -1,15 +1,56 @@
 ---
 title: A Teary Tale of Onion Farmers
 original_url: 'https://www.spontaneousorder.in/p/a-teary-tale-of-onion-farmers'
+author: Spontaneous Order
 published_at: '2023-01-11T11:25:03.000Z'
 ingested_at: '2026-05-05T08:31:42.248Z'
-source_hash: cfd9402baf48797566b7af8b704d634420f98628b4c44c6fac7fbcc4a35cdc0c
-author: Spontaneous Order
 excerpt: >-
   Onions are a vital crop for Indian farmers and consumers, but the government’s
   frequent changes in trading rules for onions have created instability in the
   market. This is due to the Essential Commodities Act (ECA) and the Foreign
   Trade (Development Reg
+summary: >-
+  Onions are vital for Indian farmers and consumers, yet government
+  interventions under the Essential Commodities Act (ECA) and Foreign Trade
+  (Development Regulation) Act (FTDR) create market instability through limits
+  on warehousing—resulting in up to 40% stock losses from poor storage—and
+  arbitrary export bans without justification when prices rise. Case studies
+  from Nashik, Maharashtra, illustrate the harm: In Lasalgaon, once Asia's onion
+  capital, sudden unannounced export bans caused distress and losses for farmers
+  like Mukund Dnyaneshwar Holkar and traders like Om Chauthani, eroding market
+  spirit. In Satana, farmer Mr. Wagh faced rising labor and transport costs,
+  with onion prices dropping from INR 1300-1400 per quintal last year to INR
+  700-800 this year, squeezing profits despite APMC auctions. Conversely,
+  Pimpalgaon Baswant APMC thrives with superior 100-acre facilities, lodges, and
+  connectivity, attracting farmers from afar and offering a model of success
+  through better infrastructure. From a classical-liberal viewpoint, ad hoc
+  trade policies foster uncertainty and reduce farmer incomes; a stable,
+  transparent export policy framework is essential to enable reliable markets
+  and protect producers.
+key_points:
+  - >-
+    Government's ECA and FTDR powers lead to arbitrary onion export bans and
+    warehousing limits, causing up to 40% stock losses.
+  - >-
+    In Lasalgaon, sudden export bans inflicted losses on farmers and traders due
+    to lack of communication.
+  - >-
+    Satana farmers like Mr. Wagh saw prices fall from INR 1300-1400 to 700-800
+    per quintal amid rising cultivation costs.
+  - >-
+    Pimpalgaon Baswant APMC succeeds with advanced infrastructure, serving as a
+    model for other markets.
+  - >-
+    Stable, transparent export policies are needed to end uncertainty and boost
+    farmer incomes.
+topics:
+  - onion-farmers
+  - export-bans
+  - essential-commodities-act
+  - agricultural-markets
+source_hash: cfd9402baf48797566b7af8b704d634420f98628b4c44c6fac7fbcc4a35cdc0c
+summary_hash: cfd9402baf48797566b7af8b704d634420f98628b4c44c6fac7fbcc4a35cdc0c
+summary_at: '2026-05-05T08:50:06.023Z'
 ---
 **By Arjun Krishnan**
 

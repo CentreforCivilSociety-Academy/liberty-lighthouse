@@ -1,21 +1,58 @@
 ---
 title: 'Dubai Debacle: Role of Credit Rating Agencies'
 original_url: 'https://www.spontaneousorder.in/p/dubai-debacle-role-of-credit-rating-agencies'
+author: Spontaneous Order
 published_at: '2009-12-14T21:23:29.000Z'
 ingested_at: '2026-05-05T08:31:42.658Z'
-source_hash: b2ab17bf9bfb641f27e619517542a80f448eae3f4389cbf3d179030dc7c90488
-author: Spontaneous Order
 excerpt: >-
   Market responds to a large number of signals emanating from an equally large
   number of sources and the soundness of the market depends a lot on the
   reliability of these signals themselves. One of the important signals that
   market participants rely heavi..
+summary: >-
+  Credit rating agencies (CRAs) provide crucial market signals through simple
+  letter grades assessing creditworthiness, but their failures in the sub-prime
+  crisis—where overly optimistic ratings of mortgage-backed securities fueled
+  the boom and bust—and the recent Dubai World debacle highlight deep flaws.
+  Dubai World's announcement of inability to repay part of its $59 billion debt
+  prompted Moody’s and Standard & Poor’s to downgrade related entities, raising
+  questions about why CRAs react only post-crisis, suggesting either
+  incompetence or collusion. From a classical-liberal viewpoint, this is not a
+  market failure but a consequence of government regulations. Prof. Lawrence J.
+  White shows how regulators granted monopoly privileges to the 'big three'
+  (Moody’s, S&P, Fitch), shifting CRAs from an 'investor-pays' model (pre-1970s,
+  via rating manuals) to 'issuer-pays,' creating conflicts where agencies
+  inflate ratings to retain borrower clients and deter competition. This
+  regulatory distortion killed innovation and reliability. The solution lies in
+  deregulating to unleash the 'invisible hand,' fostering a competitive,
+  conflict-free ratings industry that delivers accurate signals spontaneously.
+key_points:
+  - >-
+    CRAs failed by overrating sub-prime mortgage-backed securities and reacting
+    late to Dubai World's $59 billion debt crisis.
+  - >-
+    Regulatory decisions created a non-competitive oligopoly of Moody’s, S&P,
+    and Fitch by granting monopoly privileges and barriers to entry.
+  - >-
+    The shift to an 'issuer-pays' model in the 1970s introduced conflicts of
+    interest, incentivizing inflated ratings to please borrowers.
+  - >-
+    Policymakers should remove regulations to enable market-driven competition
+    and innovation in credit ratings.
+topics:
+  - credit-rating-agencies
+  - financial-regulation
+  - issuer-pays-model
+  - free-markets
 tags:
   - Dubai World
   - Credit Rating Agencies
   - Dubai
   - invisible hand
   - investor pays
+source_hash: b2ab17bf9bfb641f27e619517542a80f448eae3f4389cbf3d179030dc7c90488
+summary_hash: b2ab17bf9bfb641f27e619517542a80f448eae3f4389cbf3d179030dc7c90488
+summary_at: '2026-05-05T09:38:44.595Z'
 ---
 **By Kumar Anand**
 

@@ -1,19 +1,58 @@
 ---
 title: Happiness and Freedom in India
 original_url: 'https://www.spontaneousorder.in/p/happiness-and-freedom-in-india'
+author: Spontaneous Order
 published_at: '2022-03-25T13:49:20.000Z'
 ingested_at: '2026-05-05T08:31:42.273Z'
-source_hash: a9d6785015aa8428fe0a7537f98e938aedeccac4b8177e2d7a5ee49e73160b14
-author: Spontaneous Order
 excerpt: >-
   Although an elusive concept, happiness is something perhaps all of us seek in
   some sense. Each of us has a different understanding of what happiness means
   to us, and how we can attain it. If you do hold that happiness is subjective
   then freedom to pursu..
+summary: >-
+  Happiness is subjective and individual, with freedom—personal and economic—as
+  essential for its pursuit, yet the World Happiness Report's metrics warrant
+  scrutiny from a classical-liberal viewpoint. India ranks 136th out of 146
+  countries in the 2022 report with a score of 3.777, among the top 10 with
+  largest happiness drops since 2012; its happiness is explained 31% by GDP per
+  capita and 17% by 'freedom to make life choices,' measured via subjective
+  Gallup polls asking satisfaction with life choices (national average rising to
+  0.647 in 2022). This perceptual freedom diverges from the objective Human
+  Freedom Index (HFI) by Cato and Fraser Institutes, where India's rank fell to
+  119/165 in 2019 across 82 indicators, showing declines in rule of law,
+  security, religion, and expression. The report's majority-weighted averages
+  may mask minority rights erosion, yielding a utilitarian bias over individual
+  rights. A 2014 study confirms only weak correlation between actual and
+  perceived freedom, both positively linked to happiness. National happiness
+  policies risk overriding individual pursuits; true welfare lies in liberty,
+  rule of law, and rights protection, as echoed by BR Shenoy and Gandhi's
+  self-realization ideal. Freedom is both means and virtuous end.
+key_points:
+  - >-
+    World Happiness Report's 'freedom to make life choices' for India rose
+    perceptually to 0.647 in 2022 but contradicts HFI's objective decline to
+    119/165 rank.
+  - >-
+    India's low happiness score of 3.777 (136/146) is driven more by GDP (31%)
+    than freedom (17%), highlighting subjective measurement flaws.
+  - >-
+    Perceptual freedom metrics are majority-biased, potentially overlooking
+    minority rights violations in a utilitarian framework.
+  - >-
+    Classical-liberal welfare prioritizes individual liberty and rule of law
+    over national happiness policies to enable personal happiness pursuit.
+topics:
+  - world-happiness-report
+  - human-freedom-index
+  - personal-freedom
+  - india-policy
 tags:
   - World Happiness Report
   - Liberty
   - Freedom
+source_hash: a9d6785015aa8428fe0a7537f98e938aedeccac4b8177e2d7a5ee49e73160b14
+summary_hash: a9d6785015aa8428fe0a7537f98e938aedeccac4b8177e2d7a5ee49e73160b14
+summary_at: '2026-05-05T10:07:33.118Z'
 ---
 **By Samrudha Surana**
 

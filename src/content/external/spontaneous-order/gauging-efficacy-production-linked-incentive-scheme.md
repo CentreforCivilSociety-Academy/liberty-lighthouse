@@ -2,15 +2,57 @@
 title: 'Gauging Efficacy: Production Linked Incentive Scheme'
 original_url: >-
   https://www.spontaneousorder.in/p/gauging-efficacy-production-linked-incentive-scheme
+author: Spontaneous Order
 published_at: '2022-07-25T14:31:18.000Z'
 ingested_at: '2026-05-05T08:31:42.261Z'
-source_hash: e2dd3d6b34e60a7eb16e4538a9627a792ba186acb12ea9c63bf851192372b7de
-author: Spontaneous Order
 excerpt: >-
   The Production Linked Incentive (PLI) scheme offers financial incentives on
   incremental sales and capital investment (over a base year) to identified
   industrial sectors. The scheme was introduced in phases for different sectors
   with the objective of sup..
+summary: >-
+  The Production Linked Incentive (PLI) scheme incentivizes incremental sales
+  and capital investments in 14 sectors to advance Make in India, targeting USD
+  500 billion in domestic production and 6 million jobs within 5 years. From a
+  classical-liberal perspective valuing simplicity and measurable outcomes, it
+  excels with a straightforward application process and quantity-based criteria,
+  adhering to Occam's razor and avoiding pitfalls of profitability-linked tax
+  incentives or NPA-prone credit schemes. However, poor sectoral targeting
+  undermines efficacy: only textiles among the 14 is labor-intensive, despite
+  India's labor endowment and a 2020 study showing a 15 percentage point
+  shortfall in global low-skill exports, equating to $140 billion lost (5% of
+  GDP) in textiles alone. Expanding to sectors like gems and jewellery could
+  generate jobs (e.g., 7.5 lakh in textiles) and formalize women’s employment.
+  Risks include WTO challenges from local value addition norms in textiles,
+  batteries, and solar modules, and difficulties enforcing 4-6 year sunset
+  clauses amid beneficiary resistance—a classic protectionism concern. Regular,
+  rigorous impact evaluations are essential for monitoring progress and refining
+  the scheme.
+key_points:
+  - >-
+    PLI scheme's simple, quantity-based incentives on incremental sales
+    outperform complex tax and credit alternatives by directly boosting
+    production.
+  - >-
+    Only textiles among 14 PLI sectors is labor-intensive, forgoing India's
+    advantage in low-skill exports worth $140 billion annually.
+  - >-
+    Include more labor-intensive sectors like gems and jewellery to create jobs
+    and leverage India's labor force, including women.
+  - >-
+    Local value addition norms risk WTO violations under subsidies agreement;
+    implement corrective measures.
+  - >-
+    Enforce sunset clauses and conduct regular impact evaluations to avoid
+    long-term protectionism.
+topics:
+  - production-linked-incentives
+  - industrial-policy
+  - labor-intensive-sectors
+  - wto-compliance
+source_hash: e2dd3d6b34e60a7eb16e4538a9627a792ba186acb12ea9c63bf851192372b7de
+summary_hash: e2dd3d6b34e60a7eb16e4538a9627a792ba186acb12ea9c63bf851192372b7de
+summary_at: '2026-05-05T10:02:29.383Z'
 ---
 **By Gauri Kapoor**
 

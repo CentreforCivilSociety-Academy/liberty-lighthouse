@@ -2,19 +2,57 @@
 title: Zwigato Reflects the Autonomy Mirage of Gig Work in India
 original_url: >-
   https://www.spontaneousorder.in/p/zwigato-reflects-the-autonomy-mirage-of-gig-work-in-india
+author: Spontaneous Order
 published_at: '2024-08-16T11:32:53.000Z'
 ingested_at: '2026-05-05T08:31:42.712Z'
-source_hash: 561e4f4084dbc35397e0398b5e4baa43c1dcf449d0d3784aa18dbbb558db8a1b
-author: Spontaneous Order
 excerpt: >-
   With the rhythmic sounds of the engine humming softly in the background, Manas
   was travelling in a dimly lit train. He looked exhausted. Suddenly, a voice
   full of excitement and promise was heard, loud and clear. It said, “Attention!
   There’s a new job
+summary: >-
+  Zwigato, a 2022 film directed by Nandita Das, dismantles the romanticized
+  narrative of gig work as flexible autonomy, portraying delivery driver Manas—a
+  former factory manager—as trapped in a precarious reality of long hours,
+  algorithmic targets, low pay, safety risks, and no social security. While
+  acknowledging that the gig economy provides income opportunities to millions
+  amid India's job scarcity, the film exposes the 'autonomy mirage': workers
+  like Manas face arbitrary app blocks, mental exhaustion, societal disrespect,
+  and weak bargaining power due to high replaceability. A poignant dialogue
+  flips the notion that laborers are forced into hardship, revealing instead how
+  compulsion creates laborers. The ILO projects 23.5 million gig workers by
+  2030, comprising 6.7% of India's non-agricultural workforce, exacerbating
+  instability without quality jobs. From a classical-liberal lens, the film
+  urges clear legal frameworks to define platform duties, effective grievance
+  redressal, and open dialogues among governments, employers, and workers to
+  balance flexibility with fair treatment, fostering a sustainable gig economy
+  rather than unchecked expansion.
+key_points:
+  - >-
+    Gig work promises flexibility but delivers physical and mental exhaustion,
+    algorithmic pressures, and absent social security for workers like Manas.
+  - >-
+    India's gig workforce is projected to reach 2.35 crore by 2030, or 6.7% of
+    non-agricultural jobs, amid lacking stable employment options.
+  - >-
+    Workers' high replaceability undermines bargaining power, necessitating
+    clear legal frameworks for platform responsibilities and grievance
+    mechanisms.
+  - >-
+    Open dialogue between governments, platforms, and workers is essential to
+    reconcile flexibility with dignity and security in the gig economy.
+topics:
+  - gig-economy
+  - platform-workers
+  - labour-policy
+  - social-security
 tags:
   - Digital Governance
   - movie review
   - gig work
+source_hash: 561e4f4084dbc35397e0398b5e4baa43c1dcf449d0d3784aa18dbbb558db8a1b
+summary_hash: 561e4f4084dbc35397e0398b5e4baa43c1dcf449d0d3784aa18dbbb558db8a1b
+summary_at: '2026-05-05T13:11:32.576Z'
 ---
 **By Roselin Indani Losan**
 

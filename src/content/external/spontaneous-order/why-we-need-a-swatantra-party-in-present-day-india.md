@@ -2,20 +2,59 @@
 title: Why We Need A Swatantra Party in Present Day India
 original_url: >-
   https://www.spontaneousorder.in/p/why-we-need-a-swatantra-party-in-present-day-india
+author: Spontaneous Order
 published_at: '2018-08-06T06:49:03.000Z'
 ingested_at: '2026-05-05T08:31:42.529Z'
-source_hash: 11636a282f4ccacdd02d21d1aad27e7f7f40f559c8c7030ad3e257c1b7ede731
-author: Spontaneous Order
 excerpt: >-
   Rajaji founded the Swatantra Party in 1959 with idea of limited government and
   protection of the individual liberty against the increasing trespasses of the
   State. Prior to establishing his party, he was sworn in as Governor of India
   on 21st June 1948, ..
+summary: >-
+  Sadaf Hussain argues that India urgently needs a revival of the Swatantra
+  Party, founded by C. Rajagopalachari in 1959, to counter the absence of a
+  strong classical-liberal opposition advocating limited government and
+  individual liberty against state overreach. Rajaji, frustrated by Nehru's
+  unchallenged dominance post-Sardar Patel's death, formed the party at age 81
+  with leaders like Minoo Masani and N.G. Ranga; it became the largest
+  opposition in the fourth Lok Sabha and state assemblies in Bihar, Gujarat,
+  Rajasthan, and Orissa. The party championed minimal government intervention,
+  freedom of trade, opposition to bank nationalization, rule of law, and
+  internal dissent without party whips, emphasizing policies based on faith in
+  people rather than compulsion. Today, Hussain laments the lack of such voices
+  amid curtailed freedoms in the name of nationalism, citing the 2017 Freedom of
+  Thought Report scoring India 4/5 on expression and humanist values (alongside
+  Israel and Lebanon), and a 30% rise in inter-communal violence in early 2015
+  (330 attacks, 51 fatal vs. 252, 33 fatal in 2014). Urban youth show openness
+  to liberal ideas, but civil society dissent is insufficient without a
+  legislative alternative offering choice, accountability, and reduced state
+  monopoly.
+key_points:
+  - >-
+    Revive a Swatantra Party-like entity to provide legislative opposition
+    against state overreach and socialism.
+  - >-
+    Swatantra Party succeeded as largest opposition by promoting limited
+    government, individual initiative, and internal dissent.
+  - >-
+    Current India faces declining freedoms, with poor scores on expression and
+    rising communal violence, demanding a liberal alternative.
+  - >-
+    Urban youth's interest in policy debates offers hope for building a new
+    classical-liberal political force.
+topics:
+  - swatantra-party
+  - limited-government
+  - individual-liberty
+  - political-opposition
 tags:
   - Rajaji
   - Swatantra Party
   - Limited Government maximum governance
   - Liberal Politics
+source_hash: 11636a282f4ccacdd02d21d1aad27e7f7f40f559c8c7030ad3e257c1b7ede731
+summary_hash: 11636a282f4ccacdd02d21d1aad27e7f7f40f559c8c7030ad3e257c1b7ede731
+summary_at: '2026-05-05T13:08:04.328Z'
 ---
 **By Sadaf Hussain**
 

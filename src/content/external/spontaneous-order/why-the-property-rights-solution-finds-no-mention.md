@@ -2,19 +2,56 @@
 title: Why the property-rights solution finds no mention?
 original_url: >-
   https://www.spontaneousorder.in/p/why-the-property-rights-solution-finds-no-mention
+author: Spontaneous Order
 published_at: '2010-03-21T22:24:39.000Z'
 ingested_at: '2026-05-05T08:31:42.651Z'
-source_hash: c4f362e7d8e54ff061dfe69884fb73184f62383cc3422491b072290fa7e19efc
-author: Spontaneous Order
 excerpt: >-
   Arundhati Roy in Outlook on “Walking with the Comrades” is certainly hard to
   put down. The two quotes I have taken from the article provide at least a
   partial but fundamental answer to the Naxal conundrum: “The (Indian)
   Constitution ratified colonia
+summary: >-
+  Parth Shah quotes Arundhati Roy's *Outlook* article 'Walking with the
+  Comrades' to highlight the roots of the Naxal insurgency in tribal
+  dispossession. Roy argues that the Indian Constitution ratified colonial
+  policy, turning tribals into squatters on their ancestral lands, denying them
+  traditional rights to forest produce like tendu and bamboo, and criminalizing
+  their livelihoods in exchange for voting rights. The Forest Department
+  exacerbates this as the 'biggest landlord,' with officers daily preventing
+  tribals from ploughing fields, collecting firewood, plucking leaves, picking
+  fruit, or grazing cattle—beating, arresting, humiliating them, destroying
+  crops, and even sexually exploiting women, all under the guise of enforcing
+  'Rule of Law.' Shah's pointed title, 'Why the property-rights solution finds
+  no mention?', underscores the classical-liberal critique: these grievances
+  fuel Naxal violence, yet narratives like Roy's overlook granting secure
+  property rights to tribals as the fundamental remedy, which would restore
+  dignity, livelihoods, and peace by aligning state policy with individual
+  ownership and choice over communal or custodial control.
+key_points:
+  - >-
+    Indian Constitution made tribals squatters on their own land by ratifying
+    colonial forest policies and denying rights to produce.
+  - >-
+    Forest Department routinely harasses tribals, blocking essential activities
+    like farming and foraging under 'Rule of Law.'
+  - >-
+    Naxal grievances stem from loss of livelihood and dignity, not just seasonal
+    forest produce politics.
+  - >-
+    Property rights for tribals offer an unmentioned classical-liberal solution
+    to the Naxal conundrum.
+topics:
+  - property-rights
+  - naxalism
+  - tribal-lands
+  - forest-policy
 tags:
   - Naxalism
   - Property rights
   - Arundhati Roy
+source_hash: c4f362e7d8e54ff061dfe69884fb73184f62383cc3422491b072290fa7e19efc
+summary_hash: c4f362e7d8e54ff061dfe69884fb73184f62383cc3422491b072290fa7e19efc
+summary_at: '2026-05-05T13:07:48.361Z'
 ---
 **By Parth Shah**
 

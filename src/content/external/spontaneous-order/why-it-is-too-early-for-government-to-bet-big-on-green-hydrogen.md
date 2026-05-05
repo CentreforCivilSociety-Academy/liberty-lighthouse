@@ -2,15 +2,55 @@
 title: Why it is too early for government to bet big on green hydrogen
 original_url: >-
   https://www.spontaneousorder.in/p/why-it-is-too-early-for-government-to-bet-big-on-green-hydrogen
+author: Spontaneous Order
 published_at: '2022-02-25T11:50:45.000Z'
 ingested_at: '2026-05-05T08:31:42.277Z'
-source_hash: af6edd7d3ccb0e3d82f60de7cfb7ce024b5d972782beb35d4bd7bcffce214538
-author: Spontaneous Order
 excerpt: >-
   Industrialists have delightedly hailed the government’s new green hydrogen
   policy offering incentives to produce 5 million tons of hydrogen by 2030.
   India already produces solar and wind energy more cheaply than new thermal
   power. But while renewables c
+summary: >-
+  Swaminathan SA Aiyar argues that India's government should not heavily
+  subsidize green hydrogen production targeting 5 million tons by 2030, despite
+  its potential to decarbonize hard-to-abate sectors like steel, cement,
+  shipping, airlines, and fertilizers using cheap renewable electricity. While
+  industrialists like Mukesh Ambani ($80 billion investment pledge) and Gautam
+  Adani ($70 billion) are ambitiously investing, with Ambani aiming to cut green
+  hydrogen costs from $3/kg to $1/kg in a decade, the technology remains
+  experimental and risky. Aiyar warns of safety hazards, citing the 1937
+  Hindenburg airship disaster that collapsed the industry due to hydrogen's
+  flammability, and nuclear setbacks like Fukushima (2011, 150,000 evacuated)
+  and Chernobyl (1986). He also references the US Solyndra flop, where Obama's
+  $535 million loan guarantee failed amid cheaper Chinese silicon solar tech.
+  From a classical-liberal viewpoint, governments should avoid picking winners
+  prematurely, as technologies evolve rapidly; instead, encourage research and
+  pilot plants, reframe the 2030 goal as an 'aspiration,' build Plan B exit
+  strategies, limit subsidies to prevent cronyism and bailouts, and keep green
+  hydrogen's energy share modest to avert economic cripples if it fails.
+  Prioritize safer green alternatives.
+key_points:
+  - >-
+    Rename the 2030 target of 5 million tons of green hydrogen production as an
+    'aspiration' to avoid politically driven wasteful spending.
+  - >-
+    Limit government financial commitments to research and pilots, leaving most
+    risks and investments to private industrialists like Ambani and Adani.
+  - >-
+    Maintain a modest proportion of green hydrogen in total energy mix to
+    prevent industry-wide collapse if safety disasters or technological failures
+    occur, as with Hindenburg or Solyndra.
+  - >-
+    Prepare a Plan B for prudent retreat, learning from past government bets
+    like Obama's $535 million Solyndra loan that busted amid market shifts.
+topics:
+  - green-hydrogen
+  - energy-policy
+  - industrial-policy
+  - government-subsidies
+source_hash: af6edd7d3ccb0e3d82f60de7cfb7ce024b5d972782beb35d4bd7bcffce214538
+summary_hash: af6edd7d3ccb0e3d82f60de7cfb7ce024b5d972782beb35d4bd7bcffce214538
+summary_at: '2026-05-05T13:06:05.566Z'
 ---
 **By Swaminathan SA Aiyer**
 

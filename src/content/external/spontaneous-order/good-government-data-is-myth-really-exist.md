@@ -1,20 +1,58 @@
 ---
 title: 'Good government data: Is it a myth or does it really exist?'
 original_url: 'https://www.spontaneousorder.in/p/good-government-data-is-myth-really-exist'
+author: Spontaneous Order
 published_at: '2012-06-22T18:32:21.000Z'
 ingested_at: '2026-05-05T08:31:42.616Z'
-source_hash: fedca4fe9ba384f63cd8340973f1cc21e89be4692b9989a94f261d195e6fec7a
-author: Spontaneous Order
 excerpt: >-
   Validity, Clarity and Reliability[1]– These were the three ‘ity’s’ of good
   quality data that Akanksha’s (our research coordinator) presentation to the
   2012 batch of CCS’ summer interns focused on. This got me thinking about the
   public finance
+summary: >-
+  Sana Kazi, working on a project to calculate government spending on education
+  via Detailed Demands for Grants, highlights severe shortcomings in India's
+  public finance data that undermine its validity, clarity, and reliability.
+  Education, a concurrent subject, receives funding not just from the Ministry
+  of HRD but from 14-30 other ministries and departments at central and state
+  levels, including Social Welfare, Tribal Welfare, Rural Development, and
+  others, requiring aggregation across numerous documents. Accessing these is
+  arduous: most are unavailable online, links are broken, historical data
+  absent, forcing manual library searches at NIPFP. Even obtained documents
+  suffer a minimum 2-year time lag, with the latest expenditures from 2009-10.
+  Accounting lacks uniformity—states use pre-1987 codes, reporting units vary
+  (thousands, lakhs, crores), and classifications mix functional (e.g., major
+  heads for government functions) with geographical ones like Major Head 2552
+  for North Eastern Areas. Reliability is questioned by CAG's mix-up of crores
+  and lakhs, and manual calculations in MS Word until recently. From a
+  classical-liberal viewpoint valuing transparent data for accountability, tools
+  like RTI improve access but fall short; a new accounting structure offers hope
+  for better quality data, one 'ity' at a time.
+key_points:
+  - >-
+    Education spending spans 14-30 ministries beyond MHRD at center and state
+    levels, complicating comprehensive tracking.
+  - >-
+    Detailed Demands for Grants face 2-year publication lags, broken online
+    links, and scarcity of historical data.
+  - >-
+    Inconsistent accounting codes, varying units (thousands/lakhs/crores), and
+    mixed classifications reduce data clarity and validity.
+  - >-
+    Manual calculations in Word until recently and CAG errors highlight poor
+    reliability of public finance numbers.
+topics:
+  - public-finance-data
+  - government-transparency
+  - education-spending
 tags:
   - NIPFP library
   - School Choice Campaign
   - CAG
   - Detailed Demand for Grants
+source_hash: fedca4fe9ba384f63cd8340973f1cc21e89be4692b9989a94f261d195e6fec7a
+summary_hash: fedca4fe9ba384f63cd8340973f1cc21e89be4692b9989a94f261d195e6fec7a
+summary_at: '2026-05-05T10:04:49.035Z'
 ---
 **By Sana Kazi**
 

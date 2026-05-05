@@ -1,19 +1,58 @@
 ---
 title: 'SO Musings: Inflation vs. Morality'
 original_url: 'https://www.spontaneousorder.in/p/so-musings-inflation-vs-morality'
+author: Spontaneous Order
 published_at: '2020-09-18T14:55:50.000Z'
 ingested_at: '2026-05-05T08:31:42.381Z'
-source_hash: 4ba59cc1ee0acd58d5d61d9dcd4fee7d8fe9914989f696c2ee4ebed77083a219
-author: Spontaneous Order
 excerpt: >-
   With inflation rates recently on a rise in India- this week’s SO Musings will
   look at the very concept of inflation and how it disproportionately affects
   the market process and creates an artificial demand. Inflation is in its very
   nature immoral and un
+summary: >-
+  Henry Hazlitt's 1960 article 'Inflation vs. Morality,' excerpted in this
+  Spontaneous Order musing, argues from a classical-liberal perspective that
+  government-induced inflation is inherently immoral and unfair, functioning as
+  forced redistribution of real incomes that benefits specific groups at others'
+  expense. Inflation starts with targeted spending—such as on defense
+  contractors, farmer subsidies, or social-security benefits—allowing recipients
+  to buy at pre-inflation prices, which drives up costs for those whose incomes
+  lag. This uneven process ensures total losses equal total gains, but victims
+  never fully recover, fostering class divisions, resentment toward
+  'profiteers,' and perceptions of gains via luck, speculation, or political
+  favoritism rather than merit or effort. Inflation demoralizes society: gainers
+  prefer speculation and gambling over work and production, spending
+  ostentatiously; savers abandon fixed-income assets; temptations for corruption
+  and crime rise. Hazlitt cites the 1923 German hyperinflation as sowing seeds
+  of Nazism through such dynamics. The post frames rising Indian inflation as
+  highlighting these timeless market distortions and moral hazards of monetary
+  manipulation.
+key_points:
+  - >-
+    Government-induced inflation redistributes real incomes unfairly by first
+    benefiting specific groups like defense contractors or subsidy recipients,
+    who buy at old prices and force up costs for others.
+  - >-
+    Inflation creates class resentments as gains are seen as unearned via
+    speculation or favoritism, not productivity.
+  - >-
+    It demoralizes society by promoting gambling and speculation over work,
+    eroding savings incentives, and increasing corruption.
+  - >-
+    The 1923 German hyperinflation exemplifies how inflation sows political
+    extremism like Nazism.
+topics:
+  - inflation
+  - monetary-policy
+  - economic-morality
+  - government-redistribution
 tags:
   - Indian liberals
   - inflation
   - economy
+source_hash: 4ba59cc1ee0acd58d5d61d9dcd4fee7d8fe9914989f696c2ee4ebed77083a219
+summary_hash: 4ba59cc1ee0acd58d5d61d9dcd4fee7d8fe9914989f696c2ee4ebed77083a219
+summary_at: '2026-05-05T11:57:17.316Z'
 ---
 **By Spontaneous Order**
 

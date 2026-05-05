@@ -1,15 +1,55 @@
 ---
 title: Why India must learn to live with agitations
 original_url: 'https://www.spontaneousorder.in/p/why-india-must-learn-to-live-with-agitations'
+author: Spontaneous Order
 published_at: '2022-12-15T09:35:36.000Z'
 ingested_at: '2026-05-05T08:31:42.253Z'
-source_hash: 34c18500c99d3d9605a5497f8d8732d3e1f4a875a7aaaf5db8db4763b5a26a23
-author: Spontaneous Order
 excerpt: >-
   Some BJP spokespersons believe that foreigners are trying to sabotage India’s
   economic growth by spurring agitations against projects of national
   importance. No, such agitations are intrinsic to democracy. The latest example
   was the stalling of construc
+summary: >-
+  Swaminathan SA Aiyer argues that agitations against major infrastructure
+  projects are not foreign sabotage, as claimed by some BJP spokespersons, but
+  an intrinsic feature of democracy that India must accept, much like Western
+  nations. The Vizhinjam mega-port in Kerala, India's deepest with a 20-metre
+  draft designed to attract giant container ships from Colombo, was stalled for
+  140 days by Christian fishermen backed by the Church and environmentalists
+  over erosion and fish catch fears, despite expert rebuttals and environmental
+  clearance. The CPM government initially opposed awarding it to Gautam Adani
+  but had to invite him when others balked at viability. Police inaction to
+  avoid communal clashes prolonged the blockade until agitators attacked a
+  station, prompting arrests and resolution. Nationally, protests contribute to
+  delays in 647 of 1,526 central projects (up from 547), with 21% average cost
+  overruns and some stalled 23 years; examples include Ratnagiri's
+  60-million-tonne refinery, a French nuclear plant, Delhi-Mumbai/Kolkata rail
+  corridors, and Mumbai-Ahmedabad bullet train. While past poor planning
+  justifies some scrutiny, improving project quality, NIMBYism (or BANANA in
+  Britain) has slowed Western growth, blocking fracking and refineries despite
+  benefits like US energy independence. India, developing later, pays this
+  democratic price.
+key_points:
+  - >-
+    Agitations like Vizhinjam's 140-day blockade are democratic norms, not
+    foreign plots, and require firm response only after agitators lose peaceful
+    credibility by attacking police.
+  - >-
+    Protests have delayed 647 of 1,526 central projects with 21% cost overruns,
+    stalling key initiatives like Ratnagiri refinery and bullet train over land
+    and environmental concerns.
+  - >-
+    Western democracies endure NIMBY/BANANA attitudes that block vital projects
+    like fracking and refineries, denting growth, a disadvantage India must live
+    with as a late developer.
+topics:
+  - infrastructure-delays
+  - democratic-agitations
+  - environmental-protests
+  - nimbyism
+source_hash: 34c18500c99d3d9605a5497f8d8732d3e1f4a875a7aaaf5db8db4763b5a26a23
+summary_hash: 34c18500c99d3d9605a5497f8d8732d3e1f4a875a7aaaf5db8db4763b5a26a23
+summary_at: '2026-05-05T13:05:24.504Z'
 ---
 **By Swaminathan SA Aiyer**
 

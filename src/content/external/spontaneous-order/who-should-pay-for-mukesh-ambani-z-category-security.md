@@ -2,20 +2,59 @@
 title: Who Should Pay for Mukesh Ambani’s “Z category security”?
 original_url: >-
   https://www.spontaneousorder.in/p/who-should-pay-for-mukesh-ambani-z-category-security
+author: Spontaneous Order
 published_at: '2013-05-03T15:38:51.000Z'
 ingested_at: '2026-05-05T08:31:42.607Z'
-source_hash: 68861fbb6d88777419320eff7dad2fecdabdf5da2c87384d0f6609b61f2634fb
-author: Spontaneous Order
 excerpt: >-
   Much has already been written about the Ministry of Home Affairs agreeing to
   provide round-the-clock “Z category security” to Mukesh Ambani. Even the
   Supreme Court frowned upon and raised questions over the issue. Let’s consider
   the facts. A terror
+summary: >-
+  The Indian government should bear the cost of Mukesh Ambani's Z-category
+  security, argues Kumar Anand from a classical-liberal viewpoint, as it
+  prohibits private citizens from hiring armed guards with high-calibre weapons,
+  heavily taxes Reliance Industries (US$5.5 billion paid, 5.5% of total indirect
+  tax revenue), and holds a primary duty to protect citizens' lives and
+  property. A credible terror threat prompted the Ministry of Home Affairs'
+  assessment and provision of round-the-clock security costing INR 15 lakh
+  monthly, after which Ambani offered to pay amid public outcry. Anand contends
+  this is fair given scarce resources and unequal security access—Lutyens' Delhi
+  residents are safer than those near the Line of Control—and varying threat
+  levels: harming Ambani risks global headlines, deterring investment and
+  business exodus. While not claiming one life outweighs another, he emphasizes
+  economic ripple effects. The solution lies in allowing self-defense or
+  reimbursing protection from taxes paid, rather than forcing the ultra-wealthy
+  (Ambani worth US$21.5 billion) to fund what the state monopolizes and
+  mandates.
+key_points:
+  - >-
+    Government prohibits private high-calibre armed security, obligating it to
+    provide protection to threatened citizens like Ambani.
+  - >-
+    Reliance Industries contributed US$5.5 billion in taxes (5.5% of India's
+    indirect tax revenue), justifying use of a fraction for Ambani's
+    credible-threat security.
+  - >-
+    Security is already unequally distributed by geography and status;
+    protecting high-profile targets like Ambani prevents investment flight and
+    economic harm.
+  - >-
+    Classical-liberal policy should prioritize allowing self-defense rights amid
+    government's poor security delivery.
+topics:
+  - personal-security
+  - self-defense-laws
+  - government-protection
+  - taxpayer-services
 tags:
   - Reliance Industries
   - Z category security
   - Mukesh Ambani
   - Security
+source_hash: 68861fbb6d88777419320eff7dad2fecdabdf5da2c87384d0f6609b61f2634fb
+summary_hash: 68861fbb6d88777419320eff7dad2fecdabdf5da2c87384d0f6609b61f2634fb
+summary_at: '2026-05-05T13:03:39.692Z'
 ---
 **By Kumar Anand**
 

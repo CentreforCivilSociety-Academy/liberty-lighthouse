@@ -1,15 +1,50 @@
 ---
 title: Is a Dead Constitution better than a Living One?
 original_url: 'https://www.spontaneousorder.in/p/constitution-scalia'
+author: Spontaneous Order
 published_at: '2016-02-29T14:51:28.000Z'
 ingested_at: '2026-05-05T08:31:42.559Z'
-source_hash: e8652fb23538d42e29b2e4e0c7baaf0e7c0b838db94c2f1a6d0edb45df1b5bca
-author: Spontaneous Order
 excerpt: >-
   (Siddhant Kohli wrote a response to the piece published below, which can be
   accessed here: ‘Judicial Activism and India’s Living Constitution.’) “It is a
   principle of Constitutional spirit that the process of amending the
   Constitution shall not be
+summary: >-
+  Ujwal Batra contrasts Justice Antonin Scalia's originalist view of the US
+  Constitution as a 'dead' document—fixed in meaning at enactment to prevent
+  judges from imposing evolving interpretations—with India's Constitution,
+  explicitly designed as a 'living' one by B.R. Ambedkar for easy amendment. The
+  US has seen 27 amendments in 227 years, while India has nearly 100 in 66
+  years, complicating originalist readings due to its length and complexity. The
+  Kesavananda Bharati case established the 'basic structure' doctrine, deeming
+  certain features unamendable by Parliament, though undefined and decided
+  case-by-case, providing a precedent for preserving freedoms. A reader, R.
+  Nanjappa, warns that India's Constitution endures only due to past guardians
+  like Palkhivala and Rajaji, but judicial divisions and Emergency-era lapses,
+  plus US trends toward living interpretations, threaten the basic structure's
+  survival. Batra concludes that whether 'living' or 'dead,' the Constitution's
+  protection of liberties hinges on the vigilance of the Indian people as its
+  true keepers, echoing classical-liberal emphasis on fixed rule of law over
+  judicial activism.
+key_points:
+  - >-
+    Scalia's originalism insists the Constitution's meaning is fixed at
+    enactment to avoid unelected judges creating new rights.
+  - >-
+    India's Constitution, unlike the US's 27 amendments in 227 years, has nearly
+    100 in 66 years, reflecting its deliberate 'living' design.
+  - >-
+    The basic structure doctrine from Kesavananda Bharati limits amendments to
+    protect core features, but lacks explicit definition, leaving it to judicial
+    discretion.
+  - >-
+    India's constitutional stability relies on public and judicial vigilance, as
+    past leaders like Palkhivala prevented abuses, but trends risk erosion.
+topics:
+  - originalism
+  - living-constitution
+  - basic-structure-doctrine
+  - indian-constitution
 tags:
   - American Constitution
   - Constitution of India
@@ -17,6 +52,9 @@ tags:
   - Basic Structure Doctrine
   - Constitution
   - Antonin Scalia
+source_hash: e8652fb23538d42e29b2e4e0c7baaf0e7c0b838db94c2f1a6d0edb45df1b5bca
+summary_hash: e8652fb23538d42e29b2e4e0c7baaf0e7c0b838db94c2f1a6d0edb45df1b5bca
+summary_at: '2026-05-05T09:25:57.326Z'
 ---
 **By Ujwal Batra**
 

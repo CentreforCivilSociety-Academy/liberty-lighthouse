@@ -2,15 +2,55 @@
 title: 'Election funding: Who pays for our political parties?'
 original_url: >-
   https://www.spontaneousorder.in/p/election-funding-who-pays-for-our-political-parties
+author: Spontaneous Order
 published_at: '2019-03-25T13:13:33.000Z'
 ingested_at: '2026-05-05T08:31:42.494Z'
-source_hash: 19465d65e01ef8219068cc3df01c0b5bfb5cf8e89faec1ef1e9f0b7ffa8d524c
-author: Spontaneous Order
 excerpt: >-
   India’s 2014 Lok Sabha elections, the biggest democratic activity in terms of
   scale, also unsurprisingly has the distinction of being one of the most,
   second most to be more precise, expensive affair of its kind in the world.
   Indian ministerial candidat
+summary: >-
+  India's elections are extraordinarily expensive, with the 2014 Lok Sabha polls
+  costing candidates an estimated $5 billion (Rs 35,000 crores) to reach 900
+  million voters, including Rs 12,000 crores on social media ads in 2019 alone.
+  From a classical-liberal perspective, this competitive political market
+  demands spending to promote ideas, but opacity in funding undermines
+  accountability and informed voter choices. Key institutional loopholes include
+  the 2018 Finance Bill amendment to the FCRA retrospectively exempting parties
+  from foreign funding scrutiny; unlimited anonymous cash donations up to Rs
+  2,000 per instance (down from Rs 20,000 but easily circumvented); and
+  electoral bonds, introduced in 2018 as anti-black money measures but allowing
+  anonymous high-value donations (Rs 1,000 to Rs 1 crore denominations),
+  criticized as a threat to democracy by former CEC OP Rawat. Reforms advocated:
+  bring political parties under the RTI Act, overriding the Election
+  Commission's 2018 contradiction of the CIC's 2013 directive; and impose strict
+  limits on anonymous donations, as parties report 100% as such. While indirect
+  favors like rally logistics evade easy accounting, monetary transparency is
+  crucial to restore 'one vote one person one value' and enable genuine
+  electoral competition.
+key_points:
+  - >-
+    India's 2014 elections cost $5B amid 900M voters, with funding opacity
+    enabled by FCRA exemptions, unlimited Rs 2,000 cash donations, and anonymous
+    electoral bonds.
+  - >-
+    2018 Finance Bill amendment retrospectively legalized foreign funds to
+    parties, evading prior scrutiny.
+  - >-
+    Bring political parties under RTI Act to enforce funding disclosure,
+    countering EC's 2018 stance against CIC's 2013 directive.
+  - >-
+    Limit or ban anonymous donations to prevent policy influence via undisclosed
+    large sums.
+  - >-
+    Monetary transparency is essential for informed voting, though indirect
+    favors remain challenging to track.
+topics:
+  - election-funding
+  - electoral-bonds
+  - political-transparency
+  - rti-reform
 tags:
   - election funding
   - political parties
@@ -19,6 +59,9 @@ tags:
   - General elections 2019
   - Indian elections
   - politics in India
+source_hash: 19465d65e01ef8219068cc3df01c0b5bfb5cf8e89faec1ef1e9f0b7ffa8d524c
+summary_hash: 19465d65e01ef8219068cc3df01c0b5bfb5cf8e89faec1ef1e9f0b7ffa8d524c
+summary_at: '2026-05-05T09:46:25.190Z'
 ---
 **By Sunaina Mathur**
 

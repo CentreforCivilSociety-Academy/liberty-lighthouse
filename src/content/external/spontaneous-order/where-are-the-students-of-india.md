@@ -1,19 +1,59 @@
 ---
 title: Where are the students of India?
 original_url: 'https://www.spontaneousorder.in/p/where-are-the-students-of-india'
+author: Spontaneous Order
 published_at: '2021-01-08T16:03:29.000Z'
 ingested_at: '2026-05-05T08:31:42.356Z'
-source_hash: 5ea0ae994f6a4bb438baaa165a517e55a99801408c5e1f3c6e08d8bd29dbad06
-author: Spontaneous Order
 excerpt: >-
   Is India’s government giving the people what they want? Are we truly a
   democracy in practice? When it comes to education, the answers might surprise
   you. Although India’s government runs one-third of schools, only a little more
   than half of all studen
+summary: >-
+  India's government runs one-third of schools, yet only 52% of students attend
+  them in 2017, down from 74.1% in 1998, with nearly 12 crore students opting
+  for private schools, including 92 million in budget private schools (BPS)
+  serving economically backward communities at minimal fees—45.5% under Rs 1000
+  monthly—contributing Rs 1.75 lakh crores to the economy. Parents from middle
+  and lower-middle classes prefer these community-driven BPS over free
+  government options due to their innovations and accountability to local
+  communities for enrollment and reputation. In Himachal Pradesh, leaders like
+  Roop Ram Sharma and Sushma of B.L Central Public School exemplified dedication
+  during COVID-19, paying teachers from savings despite unpaid fees, providing
+  phones for online classes, and offering scholarships, producing alumni in top
+  jobs like Facebook and Amazon. Despite challenges like 35% of rural Class V
+  private students unable to read Class II text and pandemic disruptions, BPS
+  prioritize practical, outcome-focused education over rote learning. The author
+  argues from a classical-liberal lens that the Right to Education Act's
+  input-focused norms (e.g., playground sizes) burden BPS; government should
+  shift to child-centric, learning-outcome-based regulations to enable these
+  market-responsive schools to thrive and meet parental demands in a true
+  democracy.
+key_points:
+  - >-
+    Middle and lower-middle-class parents prefer budget private schools over
+    free government schools, enrolling 92 million children despite minimal fees.
+  - >-
+    Budget private schools innovate and remain accountable to communities to
+    ensure survival through high enrollment and student success.
+  - >-
+    During COVID-19, BPS leaders paid teachers from personal savings and
+    provided resources like phones, prioritizing education over revenue.
+  - >-
+    Government should reform RTE Act to emphasize learning outcomes rather than
+    physical inputs like playground sizes.
+topics:
+  - budget-private-schools
+  - school-choice
+  - education-reform
+  - rte-act
 tags:
   - Budget Private Schools
   - Covid-19
   - School Choice
+source_hash: 5ea0ae994f6a4bb438baaa165a517e55a99801408c5e1f3c6e08d8bd29dbad06
+summary_hash: 5ea0ae994f6a4bb438baaa165a517e55a99801408c5e1f3c6e08d8bd29dbad06
+summary_at: '2026-05-05T12:59:49.802Z'
 ---
 **By Basu Rai**
 

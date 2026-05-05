@@ -2,19 +2,60 @@
 title: Rumblings of the coming central bank digital currency
 original_url: >-
   https://www.spontaneousorder.in/p/rumblings-of-the-coming-central-bank-digital-currency
+author: Spontaneous Order
 published_at: '2021-12-03T12:36:48.000Z'
 ingested_at: '2026-05-05T08:31:42.283Z'
-source_hash: 13302387a6af20120a3ccaacf0011e95eeff13abea150444f8c494701aa6ab17
-author: Spontaneous Order
 excerpt: >-
   A recent advertisement by a group of Indian crypto exchanges claimed that
   Indian citizens have over ₹6 trillion invested in crypto assets. A separate
   crypto platform company said that more than 100 million Indians have invested
   in crypto assets. These n
+summary: >-
+  Amid growing crypto investments—estimated at over ₹6 trillion by 100 million
+  Indians, though likely overstated—RBI Governor Shaktikanta Das deems them a
+  threat, prompting a government bill to regulate them, possibly banning use as
+  currency while enabling RBI's CBDC pilot as early as Q1 next fiscal year. An
+  Indian CBDC is inevitable, mirroring global trends where 14% of central banks
+  have pilots and 60% experiment per BIS survey. While supply-side issues
+  dominate discourse, the demand side—household responses—is crucial from a
+  classical-liberal lens wary of monetary disruptions. Indian households hold
+  ₹17.3 trillion in bank deposits vs. ₹2.4 trillion cash; converting cash to
+  CBDC minimally impacts, but deposit shifts could spark instability, akin to
+  2016 demonetization's reverse flow. CBDC design matters: zero interest mimics
+  cash for payments only, but positive rates make it a store of value, with
+  usability via UPI key. Macro factors like income distribution drive demand,
+  with Canadian estimates at 4-55% of cash+deposits; India needs tailored
+  research. Echoing Tobin's 1985 idea, digital tech enables direct RBI accounts,
+  but unstable demand will complicate monetary management post-financial
+  liberalization.
+key_points:
+  - >-
+    Indian CBDC pilot likely in Q1 next fiscal year amid crypto regulation to
+    curb threats to financial stability.
+  - >-
+    Shifts from ₹17.3 trillion bank deposits to CBDC could cause instability,
+    especially under stress, reversing demonetization dynamics.
+  - >-
+    CBDC interest rates and usability via UPI will determine household switches
+    between cash, deposits, and CBDC.
+  - >-
+    Demand sensitive to macro factors like income; India requires local
+    estimates beyond rich-economy models showing 4-55% uptake.
+  - >-
+    Focus on CBDC demand as vital for monetary policy, given unstable money
+    demand since 1980s liberalization.
+topics:
+  - cbdc
+  - monetary-policy
+  - crypto-regulation
+  - financial-stability
 tags:
   - RBI
   - cryptocurrency
   - economy
+source_hash: 13302387a6af20120a3ccaacf0011e95eeff13abea150444f8c494701aa6ab17
+summary_hash: 13302387a6af20120a3ccaacf0011e95eeff13abea150444f8c494701aa6ab17
+summary_at: '2026-05-05T11:31:08.994Z'
 ---
 **By Niranjan Rajadhyaksha**
 

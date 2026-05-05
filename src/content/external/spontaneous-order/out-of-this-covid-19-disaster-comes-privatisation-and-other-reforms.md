@@ -2,15 +2,49 @@
 title: 'Out Of This COVID-19 Disaster Comes Privatisation, And Other Reforms'
 original_url: >-
   https://www.spontaneousorder.in/p/out-of-this-covid-19-disaster-comes-privatisation-and-other-reforms
+author: Spontaneous Order
 published_at: '2020-05-27T15:00:18.000Z'
 ingested_at: '2026-05-05T08:31:42.414Z'
-source_hash: 7b338e2cd9455aa05f258360d70c4314fe375f44681e2d40edd764efd4fbf730
-author: Spontaneous Order
 excerpt: >-
   After Prime Minister Narendra Modi’s announcement of a₹20 trillion revival
   package, and finance minister Nirmala Sitharaman’s elucidation of the measures
   in five instalments, the response was dismal. Sensex crashed by 1,069 points
   on Monday. Goldman
+summary: >-
+  Prime Minister Narendra Modi's ₹20 trillion COVID-19 revival package, detailed
+  by Finance Minister Nirmala Sitharaman, drew a dismal response—Sensex crashed
+  1,069 points, with Goldman Sachs forecasting GDP growth at -5% and former
+  chief statistician Pronab Sen at -9%—acting as a sedative to ease pain rather
+  than a true economic stimulus. Yet, from this crisis emerges a historic
+  turning point in reform, as the government dramatically embraces
+  privatization, not wasting the opportunity per the adage 'Never waste a
+  crisis.' In strategic industries, it will notify a list limiting PSUs to a
+  maximum of four alongside private competitors, implying consolidation of all
+  public sector banks into four mega-banks. In non-strategic sectors, all PSUs
+  will be privatized where feasible, with dud units possibly left unsold. This
+  full-blooded liberalization overrides past opposition from BJP allies like the
+  Bharatiya Mazdoor Sangh and Swadeshi Jagran Manch, who blocked moves like RCEP
+  joining. The COVID-19 urgency ends Modi's cautious incrementalism, paving the
+  way for drastic medium-term changes to accelerate growth post-crisis—a
+  development classical liberals should applaud.
+key_points:
+  - >-
+    Modi's package mandates privatizing all PSUs in non-strategic sectors and
+    limiting strategic sectors to a maximum of four PSUs.
+  - >-
+    Public sector banks will be consolidated into four mega-banks to compete
+    with private players.
+  - >-
+    COVID-19 crisis overrides BJP internal opposition from BMS and SJM, enabling
+    bold privatization.
+  - >-
+    The ₹20 trillion package is a sedative, not a stimulus, but catalyzes
+    liberalization for post-crisis growth.
+topics:
+  - privatisation
+  - psu-reform
+  - economic-liberalisation
+  - covid-response
 tags:
   - India v/s China
   - Liberalism in India
@@ -21,6 +55,9 @@ tags:
   - pandemic
   - labour
   - Agricultural Produce Market Committee (APMC) Act
+source_hash: 7b338e2cd9455aa05f258360d70c4314fe375f44681e2d40edd764efd4fbf730
+summary_hash: 7b338e2cd9455aa05f258360d70c4314fe375f44681e2d40edd764efd4fbf730
+summary_at: '2026-05-05T11:11:07.838Z'
 ---
 **By Swaminathan SA Aiyer**
 

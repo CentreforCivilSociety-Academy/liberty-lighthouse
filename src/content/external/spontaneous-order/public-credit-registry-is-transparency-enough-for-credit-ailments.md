@@ -2,15 +2,53 @@
 title: 'Public Credit Registry: Is Transparency Enough for Credit Ailments?'
 original_url: >-
   https://www.spontaneousorder.in/p/public-credit-registry-is-transparency-enough-for-credit-ailments
+author: Spontaneous Order
 published_at: '2018-08-06T09:45:33.000Z'
 ingested_at: '2026-05-05T08:31:42.522Z'
-source_hash: 62aa24bc1864d076a74b8de61d9a14e42fe2a16a298ecafe22acd2309db1c3b5
-author: Spontaneous Order
 excerpt: >-
   Reserve Bank of India has decided to establish a Public Credit Registry to
   bring about more transparency in the financial markets. The decision has been
   taken on the recommendation of YM Deosthalee Committee which was focused on
   tackling poor credit ass..
+summary: >-
+  The Reserve Bank of India's Public Credit Registry (PCR), recommended by the
+  YM Deosthalee Committee, mandates financial institutions to report
+  comprehensive credit performance and liabilities of individual and corporate
+  borrowers, making it publicly accessible to all stakeholders—unlike limited
+  Credit Bureaus under the 2005 CIC Act or CRILC for loans over INR 50 million,
+  which shares data only among reporting banks. From a classical-liberal
+  viewpoint, PCR addresses banking ailments like rising Non-Performing Assets
+  (NPAs), Twin Balance Sheet problems, and sluggish recovery by combating
+  information asymmetry and 'pecuniary externalities' (per Dr. Viral Acharya),
+  enabling objective credit decisions, a level playing field for borrowers, and
+  credit discipline that favors good borrowers while penalizing defaulters.
+  However, transparency alone cannot resolve these issues; PCR must pair with
+  robust secondary credit markets for securitizing bad loans into priced assets
+  for Qualified Institutional Buyers, as successfully implemented by Sweden's
+  government-owned asset reconstruction companies. Strict regulations on banks'
+  loan holdings, standardized mark-to-market valuation, risk diversification,
+  independent accountable credit rating agencies, and Big Data risk assessment
+  (as suggested by India's MeitY) are essential to replace moral hazard and
+  information monopolies with market-driven transparency and liquidity,
+  mirroring high-coverage successes in Portugal and Belgium.
+key_points:
+  - >-
+    PCR mandates public reporting of all borrowers' credit histories by lenders
+    and borrowers, differing from opaque Credit Bureaus and restricted CRILC.
+  - >-
+    PCR reduces NPAs and information asymmetry by enabling confident,
+    personalized credit decisions and a level playing field for borrowers.
+  - >-
+    PCR is insufficient without secondary markets for loan securitization, as in
+    Sweden, to address liquidity and Twin Balance Sheet problems.
+  - >-
+    Develop independent credit rating agencies and Big Data tools using PCR data
+    to ensure accurate loan valuations and curb moral hazard.
+topics:
+  - public-credit-registry
+  - banking-transparency
+  - npas
+  - loan-securitization
 tags:
   - Banks
   - RBI
@@ -18,6 +56,9 @@ tags:
   - Credit facilities
   - Reserve Bank of India
   - Public Credit Registry
+source_hash: 62aa24bc1864d076a74b8de61d9a14e42fe2a16a298ecafe22acd2309db1c3b5
+summary_hash: 62aa24bc1864d076a74b8de61d9a14e42fe2a16a298ecafe22acd2309db1c3b5
+summary_at: '2026-05-05T11:20:32.854Z'
 ---
 **By Karan Tripathi**
 

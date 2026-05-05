@@ -2,20 +2,68 @@
 title: 'Movement Towards Swatantra: The Life and Times of Chakravarti Rajagopalachari'
 original_url: >-
   https://www.spontaneousorder.in/p/movement-towards-swatantra-the-life-and-times-of-chakravarti-rajagopalachari
+author: Spontaneous Order
 published_at: '2018-08-03T13:09:55.000Z'
 ingested_at: '2026-05-05T08:31:42.531Z'
-source_hash: 7428a383d2ae373960849fe4eaad93e19a7966bc597a2d4569f95c160a914034
-author: Spontaneous Order
 excerpt: >-
   As the nation awoke to its ‘tryst with destiny’, Rajaji found himself at odds
   with the top-brass of Congress’ Working Committee. Despite his dissent, on the
   eve of Partition, the Congress leadership requested him to take over the
   Governorship of Ben
+summary: >-
+  Chakravarti Rajagopalachari (Rajaji), a classical-liberal statesman, clashed
+  ideologically with Nehru's Congress post-independence, serving as Bengal's
+  Governor amid Partition chaos, India's first Governor-General after
+  Mountbatten, and later as Home Minister before resigning due to
+  disenchantment. He critiqued Nehru's majoritarian democracy—marked by
+  Congress's numerical dominance, Lower House supremacy, ordinances bypassing
+  judicial review, and Prime Ministerial tyranny—for lacking three of four
+  essential 'feet': vigilant citizenry, prudent statesmen, wilful parliament,
+  and independent judiciary. Rajaji lambasted the Planning Commission as a 'holy
+  cult' imposing monolithic centralized planning that smothered individual
+  freedom, enterprise, and creativity via proliferating bureaucracy, inefficient
+  state capitalism, depreciating Rupee value, and foreign borrowings, while
+  dodging parliamentary accountability. He coined 'Quota License-Permit Raj' for
+  the bribe-ridden bureaucratic gluttony ruining private enterprise under
+  welfare state pretexts, insisting public welfare demands individual freedom to
+  live, work, think, and aspire. As Madras Chief Minister in 1952 via nomination
+  in a hung assembly, he uniquely sought a confidence vote. Founding Swatantra
+  Party as India's sole liberal force, Rajaji aimed to restrain over-government
+  and totalitarianism, promoting a conservative check on ruling excesses. At 83,
+  he toured the West for nuclear disarmament, impressing JFK. His faith in
+  individual liberty endures as a reckoning for India's liberty path amid
+  populism.
+key_points:
+  - >-
+    Rajaji defined healthy democracy by four feet—vigilant citizenry, prudent
+    statesmen, wilful parliament, independent judiciary—claiming Nehru fostered
+    only the last.
+  - >-
+    Centralized Planning Commission smothered individual enterprise through
+    bureaucracy and unaccountable control, prioritizing distribution over
+    production.
+  - >-
+    'License Raj' described bureaucratic paperwork, duties, and bribes that
+    ruined private enterprise under welfare pretenses.
+  - >-
+    Swatantra Party was founded as a liberal movement to restrain Congress's
+    majoritarian over-government and totalitarianism.
+  - >-
+    Rajaji, as Madras CM in 1952 without election, sought and secured a
+    confidence vote, upholding democratic principles.
+topics:
+  - rajagopalachari
+  - swatantra-party
+  - license-raj
+  - central-planning
 tags:
   - history of liberalism
   - Rajaji
   - history
   - Liberalism
+source_hash: 7428a383d2ae373960849fe4eaad93e19a7966bc597a2d4569f95c160a914034
+summary_hash: 7428a383d2ae373960849fe4eaad93e19a7966bc597a2d4569f95c160a914034
+summary_at: '2026-05-05T10:57:22.930Z'
 ---
 **By Rishika Yadav**
 

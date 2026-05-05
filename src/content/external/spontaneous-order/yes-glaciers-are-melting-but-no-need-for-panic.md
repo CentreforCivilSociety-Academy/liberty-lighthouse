@@ -2,15 +2,56 @@
 title: 'Yes, glaciers are melting but no need for panic'
 original_url: >-
   https://www.spontaneousorder.in/p/yes-glaciers-are-melting-but-no-need-for-panic
+author: Spontaneous Order
 published_at: '2021-04-26T17:34:22.000Z'
 ingested_at: '2026-05-05T08:31:42.328Z'
-source_hash: df25fd719f024500ecc56100fdfc755c32ee59584ccca8f45ba571e2499e730b
-author: Spontaneous Order
 excerpt: >-
   The recent flash flood in Uttarakhand was widely called a “glacier burst”
   although glaciers are not balloons and do not burst. It has spurred renewed
   warnings that global warming threatens quick melting of the Himalayan
   glaciers, decimating flows in t
+summary: >-
+  Swaminathan SA Aiyer argues that while Himalayan glaciers are retreating,
+  there is no need for panic over claims of impending water scarcity,
+  desertification, or agricultural collapse in the Gangetic plain due to global
+  warming. He debunks the 2007 IPCC prediction of all Himalayan glaciers
+  vanishing by 2035, corrected after glaciologist V K Raina's report showed
+  steady melting since the last Ice Age without recent acceleration, with
+  glaciers contributing just 2% to Ganga flow at Allahabad—mostly from rain. A
+  2019 study by Richard Armstrong et al. provides precise breakdowns above
+  2,000m: in the Ganga basin, glacial melt <1%, snow on glaciers 4%, snow on
+  land 43%, rainfall 52%; Indus: 2%,6%,67%,23%; Brahmaputra:1%,7%,26%,66%. ISRO
+  data (2001-2011) on 2,018 glaciers found 248 retreating, 1,752 stable, 18
+  advancing. Aiyer emphasizes distinguishing snowmelt from glacial melt, noting
+  snow—renewed annually—dominates, sustaining rivers even post-glacier
+  disappearance, as pre-Ice Age geology confirms. Speculative forecasts on
+  snowfall ignore potential increases from warmer oceans. Glaciers are not
+  rivers' primary source; rain over vast basins is. Good science reveals no
+  crisis of dry rivers, famine, or wars, despite minor ecological side-effects.
+key_points:
+  - >-
+    Glacial melt contributes less than 1% to river flows in the Ganga basin
+    above 2,000m, per 2019 Armstrong study.
+  - >-
+    Rainfall (52%) and snowmelt (47%) overwhelmingly drive Ganga flows, not
+    glaciers.
+  - >-
+    ISRO monitored 2,018 Himalayan glaciers (2001-2011): only 12% retreating,
+    87% stable, 1% advancing.
+  - >-
+    Even full glacier melt centuries hence won't dry rivers, as snow and rain
+    persist.
+  - >-
+    Past IPCC alarm of 2035 glacier disappearance was retracted after scientific
+    correction.
+topics:
+  - climate-change
+  - himalayan-glaciers
+  - water-resources
+  - environmental-alarmism
+source_hash: df25fd719f024500ecc56100fdfc755c32ee59584ccca8f45ba571e2499e730b
+summary_hash: df25fd719f024500ecc56100fdfc755c32ee59584ccca8f45ba571e2499e730b
+summary_at: '2026-05-05T13:10:25.505Z'
 ---
 **By Swaminathan SA Aiyer**
 

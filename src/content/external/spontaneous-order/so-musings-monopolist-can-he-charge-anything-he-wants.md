@@ -2,17 +2,52 @@
 title: 'SO Musings: “Monopolist” Can He Charge “Anything He Wants?”'
 original_url: >-
   https://www.spontaneousorder.in/p/so-musings-monopolist-can-he-charge-anything-he-wants
+author: Spontaneous Order
 published_at: '2020-08-21T16:21:38.000Z'
 ingested_at: '2026-05-05T08:31:42.386Z'
-source_hash: a8a4178e5249eaf68bc958d47e44fca49284240b1578173fa1b231dd6c5b5f14
-author: Spontaneous Order
 excerpt: >-
   The author brings forth the misconceptions about a monopoly through a dialogue
   within a classroom and discusses the popular misconceptions about control by
   monopolists in the market.
+summary: >-
+  In this SO Musings, Spontaneous Order recalls John A. Sparks’ 1972 article
+  '“Monopolist” Can He Charge “Anything He Wants?”' from The Indian Libertarian,
+  highlighting common student misconceptions about monopolies. Through a
+  classroom dialogue, a student claims a sole producer, like one dairyman in a
+  town, holds monopoly power to charge any price without competitors, with the
+  class agreeing. Sparks refutes this fallacy, noting that people fixate on
+  'competition by competitors'—rivalry among established firms—while ignoring
+  other vital competitive forces. He quotes that most industry studies emphasize
+  only intra-firm rivalry when discussing competition's role in regulating
+  outputs and prices. From a classical-liberal viewpoint, the piece challenges
+  the notion of unchecked monopolist pricing power in the absence of 'flesh and
+  blood' rivals, teasing alternative market disciplines that prevent a lone
+  seller from charging 'anything he wants.' The full text, on page 16 of the
+  magazine, is available via IndianLiberals.in, underscoring the rich Indian
+  liberal tradition against socialist misconceptions.
+key_points:
+  - >-
+    Students mistakenly believe a sole producer without direct competitors can
+    charge any price desired.
+  - >-
+    The class overlooks competitive forces beyond rivalry among established
+    firms.
+  - >-
+    Industry studies typically focus only on competition between existing firms,
+    neglecting broader market dynamics.
+  - >-
+    Sparks poses that other forms of competition curb the monopolist's pricing
+    power.
+topics:
+  - monopolies
+  - market-competition
+  - pricing-power
 tags:
   - Indian Libertarian Magazine
   - Monopoly
+source_hash: a8a4178e5249eaf68bc958d47e44fca49284240b1578173fa1b231dd6c5b5f14
+summary_hash: a8a4178e5249eaf68bc958d47e44fca49284240b1578173fa1b231dd6c5b5f14
+summary_at: '2026-05-05T11:59:12.948Z'
 ---
 **By Spontaneous Order**
 

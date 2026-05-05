@@ -1,15 +1,50 @@
 ---
 title: God and Governance
 original_url: 'https://www.spontaneousorder.in/p/god-and-governance'
+author: Spontaneous Order
 published_at: '2005-07-02T21:48:51.000Z'
 ingested_at: '2026-05-05T08:31:42.676Z'
-source_hash: 8dc344acb822bceb03a8addf126eb37ae754ddd30dc3290249201c31d2201956
-author: Spontaneous Order
 excerpt: >-
   It is the end of the two month Summer Research Internship Program Researching
   Reality at CCS. So I call upon this intern who had been working on education
   legislation in Delhi and ask her “So Shruti, what has been your understanding
   from this project?
+summary: >-
+  Naveen Mandava shares an anecdote from the end of CCS's Summer Research
+  Internship Program, where intern Shruti, after studying education legislation
+  in Delhi, declares her newfound belief in God to explain the 'miracle' that
+  anything works in the education sector amid 'problems galore.' She describes
+  government primary schools as dismal due to governance failures, yet officials
+  refuse to acknowledge issues—even off-record data—and instead target private
+  schools for the public system's ills, while advocates push for more government
+  intervention. Mandava highlights the value of deploying bright, industrious
+  amateur policy researchers for fieldwork to test assumptions, rather than mere
+  intellectual discourse. The core classical-liberal point is that a
+  government's capacity to act does not imply it will do so effectively,
+  underscoring persistent governance breakdowns in Delhi's public education that
+  defy rational explanation and warrant skepticism toward expanding state roles.
+key_points:
+  - >-
+    Government primary schools in Delhi suffer from dismal governance, yet
+    officials deny problems and blame private schools.
+  - >-
+    Empirical fieldwork by interns reveals systemic education failures that
+    prompt existential despair, attributing functionality to divine
+    intervention.
+  - >-
+    A government's ability to intervene does not guarantee effective action,
+    challenging calls for more government in education.
+  - >-
+    Bright students should test policy assumptions through on-ground research
+    rather than abstract discourse.
+topics:
+  - education
+  - government-schools
+  - school-governance
+  - delhi-education
+source_hash: 8dc344acb822bceb03a8addf126eb37ae754ddd30dc3290249201c31d2201956
+summary_hash: 8dc344acb822bceb03a8addf126eb37ae754ddd30dc3290249201c31d2201956
+summary_at: '2026-05-05T10:04:25.252Z'
 ---
 **By Naveen Mandava**
 

@@ -1,15 +1,58 @@
 ---
 title: 'GK Sundaram: Swatantra’s Forgotten Tamil Leader'
 original_url: 'https://www.spontaneousorder.in/p/gk-sundaram'
+author: Spontaneous Order
 published_at: '2020-04-07T13:14:08.000Z'
 ingested_at: '2026-05-05T08:31:42.430Z'
-source_hash: 0ca404316396c0525e5da82cdb92af2ed4cdc532fb307a63c3c0deb761fe21c1
-author: Spontaneous Order
 excerpt: >-
   The world economy and the health care system are in havoc never seen before
   after the Second World War due to the speedy spread of COVID19 across the
   world. In India, few leaders argue with perceptive thinking on the rationale
   for a complete lockdown of..
+summary: >-
+  GK Sundaram, a forgotten Tamil leader of the Swatantra Party from Coimbatore,
+  exemplified classical-liberal principles by advocating economic freedom,
+  individual liberty, and minimal government interference amid India's
+  post-independence socialist regime. Born in 1914, he joined his family's
+  textile business after studying in the UK, leading Lakshmi Mills Ltd. as
+  Chairman for seven decades and pioneering collaborations for world-class
+  machinery, promotion of Suvin cotton (India's Extra Long Staple variety), and
+  opposition to price controls for fair international cotton prices. A freedom
+  fighter imprisoned young, he founded industry bodies like South India Cotton
+  Association (president 1978-1998), Southern India Mills Association, and
+  Coimbatore Management Association. Mentored by C. Rajagopalachari, Sundaram
+  joined Swatantra in 1960, contested Coimbatore Lok Sabha in 1962, and served
+  Rajya Sabha (1966-1972), critiquing Gold Control Act for fostering smuggling,
+  bank nationalisation, MRTP Act for stifling production, industrial licensing,
+  and deficit-financed inflation. Inspired by Nani Palkhivala, he warned that
+  socialism benefited only politicians and bureaucrats, crushing liberties and
+  perpetuating poverty. His fearless stance against License Raj, as noted in his
+  biography foreword by Palkhivala, highlighted fruitful egalitarianism over
+  sterile socialism. Sundaram died in 2009 at 95, leaving endowments like
+  lecture series and awards.
+key_points:
+  - >-
+    GK Sundaram advocated 'freedom of enterprise' without government hindrance
+    to protect individual liberty above all.
+  - >-
+    As Swatantra Party Rajya Sabha member from 1966-1972, he opposed Gold
+    Control Act, bank nationalisation, and MRTP Act for harming economy and
+    security.
+  - >-
+    He pioneered Suvin cotton development, overseas collaborations for textile
+    machinery, and fair international cotton pricing against controls.
+  - >-
+    Sundaram founded key bodies like South India Cotton Association and
+    Coimbatore Management Association to train resources and challenge ill
+    policies.
+  - >-
+    Mentored by Rajaji, he tirelessly promoted Swatantra ideals, explaining to
+    villagers how socialist elites failed to eradicate poverty.
+topics:
+  - swatantra-party
+  - classical-liberalism
+  - textile-industry
+  - economic-freedom
 tags:
   - Indian Liberalism
   - Rajaji
@@ -19,6 +62,9 @@ tags:
   - Indian liberals
   - Swatantra Party
   - IndianLiberals.in
+source_hash: 0ca404316396c0525e5da82cdb92af2ed4cdc532fb307a63c3c0deb761fe21c1
+summary_hash: 0ca404316396c0525e5da82cdb92af2ed4cdc532fb307a63c3c0deb761fe21c1
+summary_at: '2026-05-05T10:03:36.019Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

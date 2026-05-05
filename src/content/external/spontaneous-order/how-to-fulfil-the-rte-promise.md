@@ -1,15 +1,52 @@
 ---
 title: How to fulfil the RTE promise
 original_url: 'https://www.spontaneousorder.in/p/how-to-fulfil-the-rte-promise'
+author: Spontaneous Order
 published_at: '2012-04-26T04:03:06.000Z'
 ingested_at: '2026-05-05T08:31:42.622Z'
-source_hash: 898839fc07ccbf4ba5b8f62b06841ec6c0921dd877d7bc2aa1e6405aec3451a9
-author: Spontaneous Order
 excerpt: >-
   Centre must fund the states, but let them identify the students who need help
   After the Supreme Court judgment on the constitutionality of the Right to
   Education Act (RTE), the onus is now on the government to design a
   transparent, fair and accountable ..
+summary: >-
+  Parth Shah argues for a classical-liberal implementation of the RTE Act's 25%
+  reservation in private schools—reframed as 'opportunity seats'—to benefit
+  2.5-7 million poor students in the first year, doubling annually for eight
+  years. The Centre must directly fund these seats based on state-determined
+  per-student costs in government schools, avoiding reliance on variable SSA
+  reimbursements, and adopt a uniform national rule for annual adjustments like
+  inflation or biennial recalculations. An independent India Inclusive Education
+  Fund, as a special purpose vehicle, would manage reimbursements, raise
+  supplementary funds from corporations, foundations, and individuals to bridge
+  gaps between government costs and private fees, and offer inclusion awards to
+  incentivize schools. The Centre guarantees timely payments by budgeting and
+  depositing funds on April 1 and September 1. States should flexibly identify
+  eligible students via student cards, vouchers, or biometrics, with
+  experimentation encouraged, while NCPCR verifies processes and penalizes
+  failing states by requiring contributions to the fund. This decentralized,
+  accountable structure with private sector involvement fulfills RTE's inclusive
+  education promise without mandating quotas.
+key_points:
+  - >-
+    Central government must directly reimburse 25% opportunity seats in private
+    schools based on state government school costs, with uniform national
+    adjustment rules.
+  - >-
+    Create India Inclusive Education Fund as an independent SPV to manage
+    payments, raise private funds, bridge cost gaps, and award high-performing
+    schools.
+  - >-
+    Let states experiment with identifying eligible poor students using cards,
+    vouchers, or biometrics, verified by NCPCR with penalties for errors.
+  - >-
+    Centre ensures timely full reimbursements by depositing budgeted amounts on
+    April 1 and September 1 annually.
+topics:
+  - rte-act
+  - school-choice
+  - education-vouchers
+  - private-schools
 tags:
   - RTE
   - Private schools
@@ -17,6 +54,9 @@ tags:
   - 25% seats
   - NCPCR
   - inclusive education india
+source_hash: 898839fc07ccbf4ba5b8f62b06841ec6c0921dd877d7bc2aa1e6405aec3451a9
+summary_hash: 898839fc07ccbf4ba5b8f62b06841ec6c0921dd877d7bc2aa1e6405aec3451a9
+summary_at: '2026-05-05T10:13:29.129Z'
 ---
 **By Parth Shah**
 

@@ -1,15 +1,54 @@
 ---
 title: The Moral Case Against Gun Control
 original_url: 'https://www.spontaneousorder.in/p/the-moral-case-against-gun-controls'
+author: Spontaneous Order
 published_at: '2026-02-27T16:01:43.000Z'
 ingested_at: '2026-05-05T08:31:42.217Z'
-source_hash: 12f9a31f0b813cc3f4f7dc2c4ef75f35fbb2cfab6c3f2b6b7a4e16d58e6059c8
-author: Spontaneous Order
 excerpt: >-
   Draconian gun controls make guns whisper, not recoil. They turn firearm
   possession into a privilege rather than a liberty. Scholars have debated the
   empirical effects of civilian firearm access, not least in the United States.
   But statistics aside, we m..
+summary: >-
+  Draconian gun controls turn firearm possession into a privilege rather than a
+  liberty, lacking moral authority to disarm competent law-abiding citizens.
+  From classical-liberal first principles, self-ownership entails rights to
+  voluntarily acquired possessions, including guns as property, no less
+  protected for their danger than knives or hockey sticks. Property rights are
+  limited by proportionality and discriminability—guns enable discriminate
+  self-defense without infringing others' rights, unlike nuclear weapons,
+  aligning with Robert Nozick's view. The right of self-preservation, per John
+  Locke, precedes the state: aggressors forfeit claims against resistance, and
+  guns provide effective means, especially equalizing for the elderly, women,
+  and weak against stronger attackers. Restrictionists redefine self-defense as
+  aggregate safety, but this, as Lester Hunt argues, hollows its intuitive
+  meaning; needs-based policies fail as victimization is unpredictable. Firearms
+  affirm dignity by enabling resistance, per Deane-Peter Baker, positioning
+  citizens as self-authors rather than passive wards of the state. In a free
+  society prioritizing self-ownership and dignity, prohibitions on gun ownership
+  are morally indefensible; the burden of justification rests with disarmers.
+key_points:
+  - >-
+    Self-ownership grounds property rights in guns, protected morally like other
+    dangerous tools.
+  - >-
+    Guns enable proportionate self-defense consistent with others' rights,
+    remedying physical imbalances.
+  - >-
+    The right to self-preservation precedes state authority, making disarmament
+    a denial of effective means.
+  - >-
+    Restrictionist aggregate-safety arguments drain self-defense of its
+    deontological core.
+  - Firearm resistance affirms personal dignity against aggression.
+topics:
+  - gun-control
+  - self-defense
+  - self-ownership
+  - property-rights
+source_hash: 12f9a31f0b813cc3f4f7dc2c4ef75f35fbb2cfab6c3f2b6b7a4e16d58e6059c8
+summary_hash: 12f9a31f0b813cc3f4f7dc2c4ef75f35fbb2cfab6c3f2b6b7a4e16d58e6059c8
+summary_at: '2026-05-05T12:31:24.074Z'
 ---
 **By Anshu Chowdhury**
 

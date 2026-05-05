@@ -1,20 +1,42 @@
 ---
 title: Adam Smith on Sympathy
 original_url: 'https://www.spontaneousorder.in/p/adam-smith-on-sympathy'
+author: Spontaneous Order
 published_at: '2011-06-06T23:07:49.000Z'
 ingested_at: '2026-05-05T08:31:42.643Z'
-source_hash: a6b60e10977ec91d3537f2a13b34e080fb803a6b89fcd6d19a906d8621d3831d
-author: Spontaneous Order
 excerpt: >-
   Today is Adam Smith’s birthday. We leave you with a quote from Smith’s Theory
   of Moral Sentiments on Sympathy “How selfish soever man may be supposed, there
   are evidently some principles in his nature, which interest him in the fortune
   of others, an
+summary: >-
+  This short post, shared on Adam Smith's birthday, quotes a passage from his
+  Theory of Moral Sentiments explaining sympathy as a natural human principle
+  where individuals imagine themselves in others' situations to feel compassion,
+  even for the suffering of strangers or wrongdoers, emphasizing imagination's
+  role over direct sensory experience.
+key_points:
+  - >-
+    Sympathy arises from conceiving oneself in another's misfortune, deriving
+    pleasure from others' happiness and sorrow from their misery.
+  - >-
+    Even the most selfish or criminal individuals possess this sentiment, though
+    virtuous people feel it most acutely.
+  - >-
+    Imagination, not senses, allows us to form ideas of others' feelings by
+    projecting our own potential experiences.
+topics:
+  - adam-smith
+  - moral-sentiments
+  - sympathy
 tags:
   - happiness
   - Adam Smith
   - Libertarian Scholars
   - Sympathy
+source_hash: a6b60e10977ec91d3537f2a13b34e080fb803a6b89fcd6d19a906d8621d3831d
+summary_hash: a6b60e10977ec91d3537f2a13b34e080fb803a6b89fcd6d19a906d8621d3831d
+summary_at: '2026-05-05T08:50:56.244Z'
 ---
 **By Vipin**
 

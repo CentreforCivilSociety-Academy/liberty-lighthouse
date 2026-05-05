@@ -2,20 +2,60 @@
 title: 'If US wants to sell us gas, it must match Russian discounts'
 original_url: >-
   https://www.spontaneousorder.in/p/if-us-wants-to-sell-us-gas-it-must-match-russian-discounts
+author: Spontaneous Order
 published_at: '2022-04-06T11:58:30.000Z'
 ingested_at: '2026-05-05T08:31:42.269Z'
-source_hash: f5bcefc02c7e11d240cc0ef3441a0cd269d0dc943528af383ddd660f7af601f1
-author: Spontaneous Order
 excerpt: >-
   Western governments and media have criticised India for buying Russian oil
   since economic sanctions are seen as the way to end Russia’s invasion of
   Ukraine. US commerce secretary Gina Raimondo said India’s action was “deeply
   disappointing.” She ad
+summary: >-
+  Swaminathan SA Aiyer defends India's purchase of discounted Russian oil amid
+  Western criticism, arguing that rich oil-exporting nations like the US and
+  Australia, which benefit from high post-sanction prices, should match Russia's
+  30% discount if they want India to switch suppliers. India, a lower
+  middle-income country 70% dependent on imported energy, faces skyrocketing
+  costs: wholesale price inflation hit 12% pre-war, consumer inflation crossed
+  6.07% in March (above RBI's 6% limit), imported gas doubled, and fiscal
+  deficits were already at 10% of GDP, now worsening despite fuel duty cuts.
+  Aiyer critiques the one-sided Western narrative, citing US scholar John
+  Mearsheimer's view that NATO's reckless expansion into Ukraine and Georgia
+  provoked Russia, with tensions escalating since 2008 and 2014 events.
+  Historical border ambiguities in Crimea and Ukraine undermine simplistic
+  democracy-vs-autocracy framing, especially given US allies like Saudi Arabia.
+  While opposing invasions in principle, India must prioritize realpolitik,
+  including the Indo-Russian defense relationship and sanction costs, continuing
+  Russian purchases unless equivalents are offered—unlikely, as Europe still
+  buys Russian energy.
+key_points:
+  - >-
+    India should continue buying Russian oil at a 30% discount unless the US and
+    Australia match it for equitable sanction burden-sharing.
+  - >-
+    Western sanctions on Russia have spiked global energy prices, benefiting
+    rich exporters while devastating import-dependent India's economy with 12%
+    pre-war wholesale inflation and 10% GDP fiscal deficits.
+  - >-
+    NATO's expansion into Ukraine since 2008 provoked Russia's response, per
+    John Mearsheimer, making the conflict less one-sided than Western
+    portrayals.
+  - >-
+    India prioritizes its Indo-Russian defense ties and economic needs over
+    purely principled opposition to the invasion.
+topics:
+  - russian-oil
+  - energy-security
+  - ukraine-conflict
+  - foreign-policy
 tags:
   - russia
   - trade
   - inflation
   - oil prices
+source_hash: f5bcefc02c7e11d240cc0ef3441a0cd269d0dc943528af383ddd660f7af601f1
+summary_hash: f5bcefc02c7e11d240cc0ef3441a0cd269d0dc943528af383ddd660f7af601f1
+summary_at: '2026-05-05T10:15:42.885Z'
 ---
 **By Swaminathan SA Aiyer**
 

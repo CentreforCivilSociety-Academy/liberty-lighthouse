@@ -2,20 +2,59 @@
 title: The macroeconomic framework that can guide our policy choices
 original_url: >-
   https://www.spontaneousorder.in/p/the-macroeconomic-framework-that-can-guide-our-policy-choices
+author: Spontaneous Order
 published_at: '2022-03-28T12:40:18.000Z'
 ingested_at: '2026-05-05T08:31:42.271Z'
-source_hash: e0447bed9fe9ed7f9494c273fa3aa960211606c7ee5971bcf0263eec2bccd90f
-author: Spontaneous Order
 excerpt: >-
   Indian policymakers have faced a tricky situation over the past few months in
   maintaining support to the economy while being careful not to fan inflation
   further. The result has been a gradual exit from the stimulus put in place
   after the pandemic hit i..
+summary: >-
+  Indian policymakers are gradually withdrawing post-pandemic stimulus amid
+  inflation risks, but the Ukraine invasion has spiked Brent crude to $140 per
+  barrel—far above the RBI's $75 forecast and government's budgetary
+  assumption—driving up energy imports by an estimated $100 billion if
+  sustained, per Neelkanth Mishra. This pressures the balance of payments (BoP),
+  especially with potential equity outflows, while influencing inflation and
+  budgets via excise duties or subsidies. Though not at 2013 crisis levels,
+  responses require balancing internal (full employment, stable inflation) and
+  external (sustainable current account) equilibria, per James Meade and Harry
+  Johnson. The Swan diagram frames this: Y-axis real exchange rate adjusts
+  import/domestic demand composition (expenditure switching); X-axis
+  monetary/fiscal policies control total demand. Four scenarios—current account
+  deficit/surplus with low growth or rising inflation—dictate combinations like
+  rupee depreciation for deficits or demand tightening for inflation. India must
+  adapt fiscal, monetary, and exchange rate policies to sustain balance amid
+  turbulence, weighing recovery vs. inflation risks, policy burden-sharing, and
+  RBI's currency defense choices as political-economy decisions.
+key_points:
+  - >-
+    Ukraine-driven oil price surge to $140/barrel threatens India's BoP with
+    $100 billion higher energy imports and fuels inflation beyond RBI's $75
+    forecast.
+  - >-
+    Swan diagram guides policy via real exchange rate depreciation for current
+    account deficits and monetary/fiscal tightening for excess domestic demand.
+  - >-
+    India faces likely current account deficit with rising inflation, requiring
+    coordinated fiscal-monetary-exchange rate adjustments to avoid imbalances.
+  - >-
+    Policymakers must prioritize uneven recovery or inflation risks and decide
+    rupee flexibility versus reserve use.
+topics:
+  - macroeconomic-policy
+  - balance-of-payments
+  - exchange-rate-policy
+  - inflation-control
 tags:
   - Public Policy
   - macroeconomics
   - inflation
   - economy
+source_hash: e0447bed9fe9ed7f9494c273fa3aa960211606c7ee5971bcf0263eec2bccd90f
+summary_hash: e0447bed9fe9ed7f9494c273fa3aa960211606c7ee5971bcf0263eec2bccd90f
+summary_at: '2026-05-05T12:30:23.419Z'
 ---
 **By Niranjan Rajadhyaksha**
 

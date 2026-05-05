@@ -1,15 +1,49 @@
 ---
 title: 'Easier to Marry, Difficult to Separate'
 original_url: 'https://www.spontaneousorder.in/p/easier-to-marry-difficult-to-separate'
+author: Spontaneous Order
 published_at: '2013-09-17T12:14:44.000Z'
 ingested_at: '2026-05-05T08:31:42.601Z'
-source_hash: c507ef306574702664e508a5d527f91f6192860e56b7e808a39c252b167a3524
-author: Spontaneous Order
 excerpt: >-
   – with inputs from Deeksha Gehlot Marriage is a private affair; a Hindu couple
   does not need to go to any court to get married. However, when these two
   individuals decide mutually to part, they need court’s approval. “We have
   filed for divorce by mu
+summary: >-
+  Marriage for Hindu couples is a private affair requiring no court approval,
+  but mutual consent divorce demands court intervention, a one-year separation
+  period, joint first motion, and a six-month cooling-off period before a second
+  joint petition—processes that cause delays, financial strain, and harassment,
+  particularly harming women due to their shorter reproductive window and weaker
+  bargaining power. The pending Marriage Laws (Amendment) Bill, 2013, passed by
+  Rajya Sabha on 26 August 2013, seeks to waive the six-month wait at court
+  discretion and allow waiver of the second motion if one party absents for
+  three years. From a classical-liberal view, state-imposed delays protect a
+  moral notion of marriage as an institution, infringing individual liberty;
+  judicial intervention fails to protect women and worsens their position; and
+  fears of deception are addressed by Indian Contract Act provisions for fraud,
+  with safeguards like registration. The author advocates divorce by simple
+  deed, minimal regulation for this private contract, arguing the state has no
+  role in separations just as it lacks one in marriages.
+key_points:
+  - >-
+    Hindu mutual consent divorce requires one-year separation and six-month
+    cooling period, causing delays and harming women more than men.
+  - >-
+    The 2013 Marriage Laws (Amendment) Bill, pending in Lok Sabha, allows courts
+    to waive the six-month wait and second motion after three years' absence.
+  - >-
+    State moral protection of marriage violates individual liberty; divorce
+    should be a private deed enforceable under contract law with registration
+    safeguards.
+  - >-
+    Judicial delays exacerbate women's bargaining disadvantage rather than
+    protect it.
+topics:
+  - divorce-reform
+  - marriage-laws
+  - individual-liberty
+  - hindu-marriage-act
 tags:
   - divorce
   - Marriage Laws Bill
@@ -18,6 +52,9 @@ tags:
   - Hindu Marriage Act
   - civil laws
   - Law
+source_hash: c507ef306574702664e508a5d527f91f6192860e56b7e808a39c252b167a3524
+summary_hash: c507ef306574702664e508a5d527f91f6192860e56b7e808a39c252b167a3524
+summary_at: '2026-05-05T09:41:18.383Z'
 ---
 **By Prashant Narang**
 

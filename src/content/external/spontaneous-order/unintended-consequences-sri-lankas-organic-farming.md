@@ -2,19 +2,61 @@
 title: 'Unintended Consequences: Sri Lanka’s Organic Farming'
 original_url: >-
   https://www.spontaneousorder.in/p/unintended-consequences-sri-lankas-organic-farming
+author: Spontaneous Order
 published_at: '2021-09-22T16:15:27.000Z'
 ingested_at: '2026-05-05T08:31:42.292Z'
-source_hash: 79add60e7cf3757b3d0e0c70899649a22e7e4df9d2cf733d424a5751d98253ae
-author: Spontaneous Order
 excerpt: >-
   Sri Lanka is staring at an economic emergency. Country’s forex reserves have
   dropped more than 60% from over $7.5 billion in 2019 to around $2.8 billion in
   July this year. Food inflation in the country has reached double digits and
   its currency, Sri Lan
+summary: >-
+  Sri Lanka's economic crisis, marked by forex reserves plummeting from $7.5
+  billion in 2019 to $2.8 billion in July 2021, double-digit food inflation,
+  currency depreciation over 7%, and food shortages, stems from President
+  Gotabaya Rajapaksa's unilateral April 2021 mandate for organic-only
+  agriculture without consulting experts. In a nation where 90% of farmers rely
+  on chemical fertilizers and only 20% have organic knowledge, this policy
+  ignored the law of unintended consequences, as highlighted by economists like
+  Vijay Kelkar and Ajay Shah, leading to market distortions from top-down
+  interventions. Crop yields fell 19-25%, tea production—Sri Lanka's $1.25
+  billion annual export earner—slashed in half from 300 million kg to 150
+  million kg, input costs surged due to higher labor and processing needs,
+  exacerbating forex woes and food insecurity. Additional issues include
+  insufficient farmland for low-yield organics risking deforestation and a
+  manure shortfall, with current 2-3 million tonnes production versus 8 million
+  needed for paddy and tea. The classical-liberal lesson: governments'
+  well-intentioned but hasty policies overlook unseen second- and third-order
+  effects; all interventions demand rigorous prior evaluation, a safeguard
+  absent in Sri Lanka's Rajapaksa-dominated one-party rule.
+key_points:
+  - >-
+    Sri Lanka's organic-only farming ban caused crop yields to drop 19-25% and
+    halved tea production from 300 million kg to 150 million kg, devastating
+    $1.25 billion in exports.
+  - >-
+    Higher organic input costs from increased manual labor and processing fueled
+    demand slump, forex crisis, and currency depreciation.
+  - >-
+    Organic farming requires more land, risking deforestation in
+    tourism-dependent Sri Lanka, and faces a manure shortage of 5-6 million
+    tonnes annually.
+  - >-
+    Public policies must rigorously evaluate unseen second- and third-order
+    effects to avoid market distortions from interventions like bans and
+    subsidies.
+topics:
+  - organic-farming
+  - unintended-consequences
+  - agricultural-policy
+  - government-intervention
 tags:
   - organic farming
   - economy
   - sri lanka
+source_hash: 79add60e7cf3757b3d0e0c70899649a22e7e4df9d2cf733d424a5751d98253ae
+summary_hash: 79add60e7cf3757b3d0e0c70899649a22e7e4df9d2cf733d424a5751d98253ae
+summary_at: '2026-05-05T12:50:04.401Z'
 ---
 **By Rakesh Kumar Yadav**
 

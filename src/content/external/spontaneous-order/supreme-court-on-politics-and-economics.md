@@ -1,15 +1,51 @@
 ---
 title: Supreme Court on Politics and Economics
 original_url: 'https://www.spontaneousorder.in/p/supreme-court-on-politics-and-economics'
+author: Spontaneous Order
 published_at: '2011-07-07T22:01:32.000Z'
 ingested_at: '2026-05-05T08:31:42.635Z'
-source_hash: 997581416c63885c6bcad745194e16df62edd80284a61d64224b8f80c2ba8d44
-author: Spontaneous Order
 excerpt: >-
   By: Surbhi Tandon (Communicating Reality Intern, CCS) On 5 July the Supreme
   Court of India expressed its views on economics and politics while hearing
   “Nandini Sundar versus the State of Chattisgarh”. We bring you two passages
   from the hearing that ca
+summary: >-
+  In a 5 July hearing on Nandini Sundar versus the State of Chhattisgarh, the
+  Supreme Court of India sharply critiqued the state's political and economic
+  approaches amid Maoist conflicts. On politics, the bench expressed dismay at
+  Chhattisgarh's insistence on 'rule with an iron fist,' treating every citizen
+  as suspect and branding human rights advocates like Ramchandra Guha, Nandini
+  Sundar, Swami Agnivesh, and E.A.S. Sarma as Maoists or sympathizers. The Court
+  decried this 'bleak world view' as blind to constitutional limits, rejecting
+  the state's claim for sanction to perpetrate 'ruthless violence' against its
+  people. On economics, the SC blamed 'unrestrained selfishness and greed
+  spawned by modern neo-liberal economic ideology' and false promises of
+  consumption-driven growth for creating unsustainable conditions in
+  Chhattisgarh and India. It accused policymakers and elites of ignoring the
+  suffering of displaced and dispossessed, relying on resource plunder that
+  historically leads to state failure and mass misery, while dismissing
+  socioeconomic disempowerment in favor of obsessive growth at the poor's
+  disproportionate cost. From a classical-liberal lens, the post surfaces these
+  judicial rebukes of state authoritarianism and market distortions,
+  recommending a Mint editorial for further reading.
+key_points:
+  - >-
+    Supreme Court condemns Chhattisgarh's iron-fist policy that labels human
+    rights critics like Guha and Sundar as Maoists.
+  - >-
+    Court rejects state's demand for constitutional sanction to use ruthless
+    violence against citizens.
+  - >-
+    SC attributes regional unrest to neo-liberalism's greed, false growth
+    promises, and resource plunder ignoring the poor's suffering.
+  - >-
+    Judges warn that elite-blind development paradigms lead to state failure and
+    widespread misery.
+topics:
+  - supreme-court
+  - chhattisgarh
+  - state-violence
+  - neo-liberalism
 tags:
   - Nandini Sundar
   - Chattisgarh
@@ -17,6 +53,9 @@ tags:
   - Economics
   - neo-liberalsi
   - Supreme Court
+source_hash: 997581416c63885c6bcad745194e16df62edd80284a61d64224b8f80c2ba8d44
+summary_hash: 997581416c63885c6bcad745194e16df62edd80284a61d64224b8f80c2ba8d44
+summary_at: '2026-05-05T12:13:01.181Z'
 ---
 **By Vipin**
 

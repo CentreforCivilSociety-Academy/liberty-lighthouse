@@ -2,18 +2,59 @@
 title: 'COVID-19: A Boost for Digital Education in India?'
 original_url: >-
   https://www.spontaneousorder.in/p/covid-19-a-boost-for-digital-education-in-india
+author: Spontaneous Order
 published_at: '2020-12-09T14:52:22.000Z'
 ingested_at: '2026-05-05T08:31:42.361Z'
-source_hash: caed746504ecbaa8578a5610af3b3a8f92b457abeb1ea9d240199f67f0b6bf73
-author: Spontaneous Order
 excerpt: >-
   Schooling is among the long list of activities that have been hit hard by
   COVID-19. In India, all schools nationwide were shut by March 19 with a lot of
   ambiguity on how they would function. All the fears surrounding this ambiguity
   came to life when the..
+summary: >-
+  COVID-19 forced Indian schools online, exposing a massive digital divide:
+  pre-pandemic, only 24% owned smartphones, 23.8% of households had internet
+  access (14.9% rural vs. 42% urban), and 20.1% could use it. Budget private
+  schools (BPS), serving 92 million mostly rural, low-income children, suffered
+  most due to thin margins, fee payment issues, fee caps, and lack of digital
+  resources, leading many to close or be sold. ASER 2020 revealed 20% of rural
+  children lacked textbooks and one-third did no learning activities. While 10%
+  of rural households bought smartphones (60% now have access), this often came
+  at great cost, like selling livestock, underscoring the need for financial
+  inclusion. From a classical-liberal view, the pandemic highlights the failure
+  of top-down online mandates without infrastructure. Solutions lie in market
+  liberalization: emulate Odisha's TCS partnership for teacher training and
+  content; reduce ed-tech barriers like 18% GST and infrastructure hurdles;
+  avoid subsidies, instead foster a business-friendly environment as Raghuram
+  Rajan advises, enabling entrepreneurs to innovate and bridge the divide for
+  sustainable digital education.
+key_points:
+  - >-
+    India's digital divide left millions of rural students, especially in budget
+    private schools serving 92 million children, without effective online
+    learning during COVID-19 school closures.
+  - >-
+    ASER 2020 showed 20% of rural children had no textbooks and one-third
+    engaged in no learning activities amid the pandemic.
+  - >-
+    10% of rural households bought new smartphones for education, but access
+    remains uneven and costly for poor families.
+  - >-
+    Governments should reduce regulatory barriers and 18% GST on ed-tech to
+    enable private innovation, rather than direct interventions.
+  - >-
+    Create a neutral business environment to let entrepreneurs develop digital
+    education solutions, per Raghuram Rajan's advice.
+topics:
+  - digital-divide
+  - budget-private-schools
+  - ed-tech-regulation
+  - rural-education
 tags:
   - Education
   - Covid-19
+source_hash: caed746504ecbaa8578a5610af3b3a8f92b457abeb1ea9d240199f67f0b6bf73
+summary_hash: caed746504ecbaa8578a5610af3b3a8f92b457abeb1ea9d240199f67f0b6bf73
+summary_at: '2026-05-05T09:26:33.388Z'
 ---
 **By Swati Singh**
 

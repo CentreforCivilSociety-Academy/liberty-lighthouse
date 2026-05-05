@@ -4,17 +4,58 @@ title: >-
   Transfers
 original_url: >-
   https://www.spontaneousorder.in/p/rethinking-the-flow-of-funds-the-national-education-policy-and-direct-benefit-transfers
+author: Spontaneous Order
 published_at: '2024-07-29T16:15:47.000Z'
 ingested_at: '2026-05-05T08:31:42.730Z'
-source_hash: 0114c69d5926e9ae7094f786828b45458bc0e621f74891a3f12e2e890bd8a846
-author: Spontaneous Order
 excerpt: >-
   Direct benefit transfers can transform education and ensure every child’s
   success
+summary: >-
+  The National Education Policy (NEP) 2020 targets universal foundational
+  literacy and numeracy (FLN) for all primary children by 2025, yet over 5 crore
+  elementary students struggle with basic reading, addition, and subtraction.
+  Despite the Union Budget 2024-25 allocating Rs 1,20,627.87 crore to
+  education—including Rs 73,008.1 crore for school education, up from Rs
+  68,804.85 crore prior—46% of school-going children in private schools, mostly
+  low-fee budget ones, remain overlooked as funds prioritize government schools.
+  Schemes like the National Means-cum-Merit Scholarship Scheme (NMMSS) impose
+  bureaucratic hurdles, stringent eligibility, and high administrative costs,
+  penalizing struggling students and fostering inefficiency. From a
+  classical-liberal viewpoint, excessive government spending and control fail;
+  instead, direct benefit transfers (DBT) to students and parents are urged to
+  empower choice, increase parental involvement, spur market competition among
+  schools, and hold them accountable to families rather than bureaucrats. State
+  per capita education spending of ~Rs 5,300 in FY 2022-23 goes directly to
+  schools, sidelining parents. Policymakers must shift to an inclusive DBT model
+  for all children, regardless of school type, to dismantle red tape, reduce
+  corruption, and achieve NEP goals, ensuring every child thrives through
+  freedom and competition.
+key_points:
+  - >-
+    Over 5 crore elementary students lack FLN skills, with 46% in private
+    schools excluded from budgets favoring government institutions.
+  - >-
+    NMMSS and similar schemes burden resources with bureaucracy, exams, audits,
+    and exclusions based on arbitrary merit and income thresholds.
+  - >-
+    Adopt DBT to students and parents to enable school choice, boost
+    competition, and create direct accountability from schools to families.
+  - >-
+    Reduce government control and empower private sector solutions over
+    increased spending to enhance educational outcomes and meet NEP 2025 FLN
+    targets.
+topics:
+  - national-education-policy
+  - direct-benefit-transfers
+  - school-choice
+  - foundational-literacy-numeracy
 tags:
   - Direct benefit transfer
   - NEP 2020
   - Education Policy
+source_hash: 0114c69d5926e9ae7094f786828b45458bc0e621f74891a3f12e2e890bd8a846
+summary_hash: 0114c69d5926e9ae7094f786828b45458bc0e621f74891a3f12e2e890bd8a846
+summary_at: '2026-05-05T11:26:43.519Z'
 ---
 **By Nitesh Anand**
 

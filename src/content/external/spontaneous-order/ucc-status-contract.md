@@ -1,15 +1,54 @@
 ---
 title: 'Uniform Civil Code: From Status to Contract'
 original_url: 'https://www.spontaneousorder.in/p/ucc-status-contract'
+author: Spontaneous Order
 published_at: '2016-07-27T18:57:40.000Z'
 ingested_at: '2026-05-05T08:31:42.549Z'
-source_hash: c37ddc625fe8dbf092ba9090bb177b84c3aef6909de18eb7550369517d97bf2c
-author: Spontaneous Order
 excerpt: >-
   “If the law is considered as ‘the enterprise of subjecting human conduct to
   the governance of rules,’ then this enterprise is being conducted, not on two
   or three fronts, but on thousands.” –Tom W Bell Recently, the government asked
   the Law Comm
+summary: >-
+  The post critiques the push for a Uniform Civil Code (UCC) in India, arguing
+  from a classical-liberal perspective that it imposes rigid state-driven
+  uniformity on personal matters like marriage, succession, and adoption,
+  disregarding diverse religious and cultural customs. While acknowledging
+  problematic elements in existing personal laws, such as discrimination against
+  women, the author contends that UCC is not inherently just, as uniformity does
+  not guarantee better outcomes and could eliminate options like the Special
+  Marriage Act, 1954, which allows opting out of religious laws. India's
+  history, from colonial respect for personal laws to the Constitution's
+  non-justiciable Directive Principle on UCC, reflects caution against
+  standardization. Codification—uniform or plural—risks entrenching norms that
+  outlast social evolution, as diverse viewpoints defy perfect codification.
+  True justice and secularism, per the liberal view, arise from accommodating
+  people's wishes rather than state intervention. The solution lies in Henry
+  Maine's progression 'from status to contract': enforce minimum standards for
+  personal law contracts while allowing individuals to negotiate their own
+  rules, enabling voluntary agreements over status-based dictates.
+key_points:
+  - >-
+    Reject Uniform Civil Code as it risks rigid codification that ignores
+    cultural diversity and people's wishes, unlike the flexible Special Marriage
+    Act, 1954.
+  - >-
+    Codification of personal laws, whether uniform or plural, can stall social
+    progress by giving permanence to evolving norms.
+  - >-
+    Shift personal laws from status-based systems determined by birth and
+    religion to contractual arrangements with minimum enforceable standards.
+  - >-
+    Legal pluralism better serves liberal rule of law by deriving law from
+    people's will rather than state plans.
+  - >-
+    Secularism in India should mean equal treatment via accommodation of
+    customs, not Western-style separation imposing indifference.
+topics:
+  - uniform-civil-code
+  - personal-laws
+  - legal-pluralism
+  - contract-freedom
 tags:
   - Legal Pluralism
   - Personal Laws
@@ -18,6 +57,9 @@ tags:
   - UCC
   - From Status to Contract
   - Henry Sumner Maine
+source_hash: c37ddc625fe8dbf092ba9090bb177b84c3aef6909de18eb7550369517d97bf2c
+summary_hash: c37ddc625fe8dbf092ba9090bb177b84c3aef6909de18eb7550369517d97bf2c
+summary_at: '2026-05-05T12:47:57.236Z'
 ---
 **By Ujwal Batra**
 

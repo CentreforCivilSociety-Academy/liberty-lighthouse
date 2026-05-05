@@ -1,20 +1,57 @@
 ---
 title: Should the Government add Ethanol to Petrol?
 original_url: 'https://www.spontaneousorder.in/p/should-the-government-add-ethanol-to-petrol'
+author: Spontaneous Order
 published_at: '2021-08-06T12:52:56.000Z'
 ingested_at: '2026-05-05T08:31:42.300Z'
-source_hash: 5cbae08a30b8e0e3ef03e9e0c790ab904f662ab075346abe1bcb97b3a5889b26
-author: Spontaneous Order
 excerpt: >-
   On 5th June 2021, World Environment Day, PM Narendra Modi released the “Report
   of the Expert Committee on Road Map for ethanol blending in India 2020-2025,”
   published by NITI Aayog. The theme for this year’s event was ‘promotion of
   biofuels for a
+summary: >-
+  The Indian government's push for 20% ethanol blending in petrol (E20) by 2025,
+  as outlined in NITI Aayog's 2021 report, promises ₹30,000 Cr annual savings on
+  import bills and lower emissions, but from a classical-liberal perspective, it
+  exemplifies flawed top-down intervention reliant on subsidies and ignoring
+  market signals. Ethanol production, mainly from water-intensive sugarcane in
+  dry Maharashtra due to subsidies, generates surplus sugar (cost ₹32/kg vs.
+  international ₹21-22/kg) but is unviable without support, distorting prices
+  set by the Cabinet Committee rather than markets. Environmentally, tailpipe
+  emission reductions (up to 20% for E10/E20) are offset by lifecycle emissions
+  exceeding petroleum, per University of Michigan studies, plus energy-intensive
+  production and groundwater depletion. Consumers suffer as 20 Cr existing
+  vehicles aren't E20-compatible, risking corrosion and lower efficiency from
+  ethanol's inferior calorific value; ex-mill ethanol costs ₹51.55-62.65/litre
+  vs. petrol's ₹41 base. SIAM deems retrofitting impossible and costly. The
+  policy embodies mercantilist errors. Instead, markets should determine
+  blending levels, starting with universal E10 where vehicles comply.
+key_points:
+  - >-
+    Ethanol blending targets exploit subsidized sugar surplus from unviable
+    production, distorting markets via government-fixed prices.
+  - >-
+    Lifecycle environmental analysis shows ethanol increases greenhouse gases
+    and depletes groundwater more than petrol.
+  - >-
+    Mandating E20 damages non-compliant vehicles (20 Cr on roads) and raises
+    consumer fuel costs due to ethanol's lower efficiency.
+  - >-
+    Prioritize universal E10 adoption before E20, and let markets signal optimal
+    blending levels.
+topics:
+  - ethanol-blending
+  - biofuels-policy
+  - agricultural-subsidies
+  - market-distortions
 tags:
   - ethanol
   - petrol
   - environment
   - economy
+source_hash: 5cbae08a30b8e0e3ef03e9e0c790ab904f662ab075346abe1bcb97b3a5889b26
+summary_hash: 5cbae08a30b8e0e3ef03e9e0c790ab904f662ab075346abe1bcb97b3a5889b26
+summary_at: '2026-05-05T11:42:26.736Z'
 ---
 **By Samrudha Surana**
 

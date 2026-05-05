@@ -2,15 +2,59 @@
 title: Chakravarti Vijayaragavachariar – The Lion from The South!
 original_url: >-
   https://www.spontaneousorder.in/p/chakravarti-vijayaragavachariar-the-lion-from-the-south
+author: Spontaneous Order
 published_at: '2020-10-07T17:05:07.000Z'
 ingested_at: '2026-05-05T08:31:42.377Z'
-source_hash: fdd1261063303dcdb3ff3a30c623e17120d02659be2a739ca6d440c260a9c447
-author: Spontaneous Order
 excerpt: >-
   The flame of democracy and its wings of fire thrive only if the feathers of
   democratic institutions function effectively. These institutions, like the
   power of the people, are entrusted in the execution apparatus of the rule of
   law and governance under ..
+summary: >-
+  Chakravarti Vijayaraghavachariar, dubbed the 'Roaring Lion of the South,'
+  exemplified classical-liberal principles in India's freedom struggle as a
+  lawyer, educator, and Indian National Congress leader from its inception in
+  1885. Born in 1852, he drafted the Congress constitution in 1888, popularized
+  it in South India, and emphasized economic and social needs. As Congress
+  President in 1920 at Nagpur, he supported Gandhi's Non-Cooperation but
+  insisted on Non-Swarajya as the goal. He championed land ownership rights
+  against colonial feudalism in 1906, advocated fundamental rights in 1919
+  influencing India's Constitution, and drafted the Swaraj Constitution in 1930
+  favoring a strong unitary central government. Vijayaraghavachariar opposed
+  repressive laws like the Rowlatt Act and Defence of India Rules, fought
+  untouchability, promoted gender equality including daughters' property rights
+  and adult marriages, and believed in decentralized governance for enlarging
+  public freedoms, liberty, and property protection. The post critiques modern
+  political parties for failing to implement constitutional schemes for
+  grassroots decentralization, urging emulation of his pragmatic liberal
+  approach to true democratic functioning. He lived to 92, passing in 1944, and
+  the article calls to celebrate the centenary of his presidency.
+key_points:
+  - >-
+    Vijayaraghavachariar drafted the Indian National Congress constitution in
+    1888 and made economic-social needs central to its agenda.
+  - >-
+    He moved key resolutions on permanent land settlement in 1906 affirming
+    people's ancient ownership rights and fundamental citizen rights in 1919
+    that shaped India's Constitution.
+  - >-
+    As Congress President in 1920, he shaped Non-Cooperation goals toward
+    Non-Swarajya while advocating decentralized governance and human rights.
+  - >-
+    He opposed colonial repressive laws and promoted social reforms like ending
+    untouchability and ensuring gender equality in property and marriage.
+  - >-
+    Modern parties must emulate his classical-liberal focus on freedoms,
+    property, and grassroots decentralization to fulfill constitutional
+    democracy.
+topics:
+  - classical-liberalism
+  - indian-national-congress
+  - decentralized-governance
+  - freedom-struggle
+source_hash: fdd1261063303dcdb3ff3a30c623e17120d02659be2a739ca6d440c260a9c447
+summary_hash: fdd1261063303dcdb3ff3a30c623e17120d02659be2a739ca6d440c260a9c447
+summary_at: '2026-05-05T09:19:33.572Z'
 ---
 **By Chandrasekaran Balakrishnan**
 

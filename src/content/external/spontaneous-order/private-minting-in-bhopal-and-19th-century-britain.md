@@ -2,21 +2,54 @@
 title: Private Minting in Bhopal and 19th Century Britain
 original_url: >-
   https://www.spontaneousorder.in/p/private-minting-in-bhopal-and-19th-century-britain
+author: Spontaneous Order
 published_at: '2013-05-10T14:14:22.000Z'
 ingested_at: '2026-05-05T08:31:42.607Z'
-source_hash: 683640016d724ed9eb45802228cb4712fbe2b9768da2a2be3ef2468a5e550b51
-author: Spontaneous Order
 excerpt: >-
   There is a very cool article in HT this week about a shop in Bhopal that is
   producing Rs. 5 coins due to a shortage in that denomination. A liquor shop
   acts as a bank that produces, issues, and redeems several of the coins for
   larger rupee denomination...
+summary: >-
+  A liquor shop in Bhopal is privately producing Rs. 5 coins due to a shortage
+  of that denomination, acting as a bank by issuing and redeeming them for
+  larger rupees, with these coins circulating as local currency. This instance
+  of private enterprise filling a monetary gap challenges the notion that only
+  governments can mint coinage. It parallels events in 1780s Britain described
+  in George Selgin's 'Good Money,' where the Royal Mint's failure to supply
+  small-denomination coins amid the Industrial Revolution prompted
+  manufacturers, like Birmingham button makers, to mint 'tradesman’s tokens.'
+  These private coins gained wide acceptance for wages and retail until the
+  Crown outlawed them in 1821. The author, from a classical-liberal viewpoint,
+  celebrates this as evidence that private initiative drives economic progress,
+  undermines government currency monopolies, and reveals universal economic
+  principles with striking parallels across time and space, from Bhopal to
+  Birmingham.
+key_points:
+  - >-
+    A Bhopal liquor shop mints Rs. 5 coins and redeems them, creating local
+    currency amid official shortages.
+  - >-
+    In 1780s Britain, private manufacturers produced tradesman’s tokens to pay
+    workers when the Royal Mint failed, fueling the Industrial Revolution until
+    banned in 1821.
+  - >-
+    Private coinage demonstrates that economic initiative thrives without
+    government monopoly, applicable to modern alternatives like digital monies.
+topics:
+  - private-minting
+  - free-banking
+  - currency-monopoly
+  - economic-history
 tags:
   - Spontaneous Order
   - dollarization
   - Privatisation
   - Minting
   - Britain
+source_hash: 683640016d724ed9eb45802228cb4712fbe2b9768da2a2be3ef2468a5e550b51
+summary_hash: 683640016d724ed9eb45802228cb4712fbe2b9768da2a2be3ef2468a5e550b51
+summary_at: '2026-05-05T11:18:18.074Z'
 ---
 **By Andrew Humphries**
 

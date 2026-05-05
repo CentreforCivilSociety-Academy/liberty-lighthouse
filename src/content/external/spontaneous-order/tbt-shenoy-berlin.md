@@ -3,15 +3,53 @@ title: >-
   #ThrowbackThursday: B R Shenoy–East and West Berlin: A Study in Free vs
   Controlled Economy (1960)
 original_url: 'https://www.spontaneousorder.in/p/tbt-shenoy-berlin'
+author: Spontaneous Order
 published_at: '2015-05-28T18:56:00.000Z'
 ingested_at: '2026-05-05T08:31:42.581Z'
-source_hash: d2c1693e85a33913fdfe646a7eaafd9b748b352c45871569ab2c427af0b9f650
-author: Spontaneous Order
 excerpt: >-
   In this article, B R Shenoy—one of India’s most prominent free-market
   economists; talks about the differences in the economic models followed by
   East and West Germany. Professor Ludwig Erhard—considered to be the architect
   of the German ‘Economic
+summary: >-
+  B R Shenoy, a prominent Indian free-market economist, contrasts the prosperity
+  of West Berlin under Ludwig Erhard's free-market policies with the drabness of
+  East Berlin under communist central planning, urging economists,
+  administrators, and Indian policymakers to witness this as proof of freedom's
+  superiority over controls and five-year plans. Post-WWII destruction was
+  equal, but West Berlin features complete rebuilding, booming shops stocked
+  with goods, heavy automobile traffic including worker-owned cars, and vibrant
+  residential areas, while East Berlin shows rubble, shabby buildings,
+  bus-dominated streets, sparse old cars, and inferior, pricier goods. East
+  Berliners cross freely to shop in the West, paying with West marks at a
+  free-market rate of 1:4.25 despite official parity, and ongoing
+  emigration—especially of 18-45-year-olds, technicians, and
+  intellectuals—depletes East Germany's population. West Germany's success isn't
+  due to foreign aid (only 6.7% of 1948-1954 investment vs. India's 23% in early
+  Second Plan) but spontaneous efforts; GNP grew 17% annually over the decade,
+  wages rose 90%, exports ranked second globally, and shares rose 28% yearly
+  amid stability. Shenoy concludes that economic freedom, not planning, drives
+  sustained progress, as seen in West Germany outpacing East since Erhard's 1948
+  deregulation.
+key_points:
+  - >-
+    West Berlin's rapid rebuilding, consumer abundance, and worker car ownership
+    starkly contrast East Berlin's rubble, shortages, and neglect under central
+    planning.
+  - >-
+    Ongoing emigration from East to West Berlin, mainly young professionals,
+    proves workers prefer freedom despite leaving assets behind.
+  - >-
+    West Germany's prosperity stems from free markets, not foreign aid (6.7% of
+    investment), with GNP up 17% annually and wages up 90%.
+  - >-
+    Indian policymakers should reject five-year plans, as Berlin demonstrates
+    freedom's superiority over controls for economic growth.
+topics:
+  - free-markets
+  - central-planning
+  - economic-freedom
+  - german-economic-miracle
 tags:
   - B R Shenoy
   - Germany
@@ -24,6 +62,9 @@ tags:
   - controlled economy
   - '#throwbackthursday'
   - Professor Erhard
+source_hash: d2c1693e85a33913fdfe646a7eaafd9b748b352c45871569ab2c427af0b9f650
+summary_hash: d2c1693e85a33913fdfe646a7eaafd9b748b352c45871569ab2c427af0b9f650
+summary_at: '2026-05-05T12:17:03.498Z'
 ---
 **By Ujwal Batra**
 

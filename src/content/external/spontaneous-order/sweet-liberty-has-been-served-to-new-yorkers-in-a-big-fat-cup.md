@@ -2,20 +2,55 @@
 title: Sweet Liberty Has Been Served to New Yorkers in a Big Fat Cup
 original_url: >-
   https://www.spontaneousorder.in/p/sweet-liberty-has-been-served-to-new-yorkers-in-a-big-fat-cup
+author: Spontaneous Order
 published_at: '2013-03-13T15:00:47.000Z'
 ingested_at: '2026-05-05T08:31:42.610Z'
-source_hash: 31bcd86d22d21d2cbf0fceb26dff65faf4b79e6dc024d79de6c6450a8b33b8df
-author: Spontaneous Order
 excerpt: >-
   The New York Supreme Court has struck down Mayor Bloomberg’s attempted ban on
   large sodas. The judgement is a ray of light peeking through the dark clouds
   of the growing nanny state. Why is it important to protect the freedom to
   drink large sugary drink
+summary: >-
+  The New York Supreme Court struck down Mayor Bloomberg’s ban on large sodas,
+  celebrated as a classical-liberal triumph piercing the gloom of the expanding
+  nanny state. Andrew Humphries argues that conceding state authority over what
+  individuals put in their bodies undermines self-ownership, opening the door to
+  total state control over every aspect of life. Responding to claims that soda
+  consumption burdens public healthcare costs, he counters that the welfare
+  state—not personal choices—fosters conflict by supplanting self-ownership,
+  personal responsibility, and mutual liberty with 'mutual plunder,' where
+  everyone lives at others' expense. The state cannot fairly manage this
+  plunder, and welfare systems shield people from choice consequences, leading
+  to economic incoherence and crises, as illustrated in Tom Palmer’s 'After the
+  Welfare State.' Ultimately, liberty means individuals bear their own
+  behavioral costs—like drinking large sodas—while keeping their money and
+  leaving others alone.
+key_points:
+  - >-
+    New York Supreme Court invalidated Mayor Bloomberg’s large soda ban,
+    defeating nanny-state overreach.
+  - >-
+    State control over personal consumption erodes self-ownership, enabling full
+    life control by authorities.
+  - >-
+    Welfare state creates healthcare cost conflicts through mutual plunder, not
+    individual behaviors like soda drinking.
+  - >-
+    True liberty requires bearing personal choice costs without state
+    intervention or imposing on others.
+topics:
+  - nanny-state
+  - self-ownership
+  - welfare-state
+  - personal-liberty
 tags:
   - New York Supreme Court
   - New York
   - Liberty
   - civil liberties
+source_hash: 31bcd86d22d21d2cbf0fceb26dff65faf4b79e6dc024d79de6c6450a8b33b8df
+summary_hash: 31bcd86d22d21d2cbf0fceb26dff65faf4b79e6dc024d79de6c6450a8b33b8df
+summary_at: '2026-05-05T12:13:53.458Z'
 ---
 **By Andrew Humphries**
 

@@ -1,21 +1,63 @@
 ---
 title: 'PPP: Balancing Equity and Efficiency'
 original_url: 'https://www.spontaneousorder.in/p/ppp-balancing-equity-and-efficiency'
+author: Spontaneous Order
 published_at: '2014-10-22T15:37:25.000Z'
 ingested_at: '2026-05-05T08:31:42.588Z'
-source_hash: 5213350560c8c8e82c6c6163c5d890948228430b99d2289e06e582843b47f283
-author: Spontaneous Order
 excerpt: >-
   We have had a long track record of bad experiences when it comes to the
   government’s ability to deliver basic services to citizen. While it is
   important for governments to ensure ‘Equity’, which means it cannot shirk its
   responsibility of delivering
+summary: >-
+  Government inefficiency and bureaucracy hinder equitable service delivery,
+  necessitating Public Private Partnerships (PPP) to balance equity—government's
+  non-discriminatory provisioning—with private sector efficiency in provision.
+  India has a strong PPP track record predating its popularity, including
+  private aided schools, infrastructure like national highways, airports, ports,
+  metro rails (758 projects worth INR 833 billion or 10% GDP as of July 2011,
+  53% in roads), Rashtriya Swasthya Bima Yojna (RSBY) offering up to INR 30,000
+  health coverage to the poor via private insurers, and telecom spectrum
+  auctions. During the 11th Five Year Plan, private investment was 36% (INR 7.4
+  trillion) of INR 20.5 trillion infrastructure spend; the 12th plan targets 50%
+  (INR 20.5 trillion). PPP extends to Aadhaar, passports, utilities, and
+  e-governance. Challenges include cronyism, poor contracts, weak enforcement;
+  solutions demand transparent bidding, official capacity building, impartial
+  enforcement, incentive-aligned checks like separate build-maintain contracts,
+  drawing on Jean Tirole's Nobel-winning insights. PPP is vital for
+  infrastructure, economic growth, smart cities, professional benchmarks,
+  accountability, enabling 'Minimum Government, Maximum Governance'.
+key_points:
+  - >-
+    PPP allows government to provision services equitably while outsourcing
+    provision to efficient private providers, as seen in RSBY covering INR
+    30,000 health costs for the poor and infrastructure projects comprising 10%
+    of GDP.
+  - >-
+    India's 758 PPP projects as of 2011, mostly roads, demonstrate success, with
+    plans scaling private infrastructure investment to 50% in the 12th Five Year
+    Plan.
+  - >-
+    Address PPP challenges through transparent bidding, foolproof contracts,
+    impartial enforcement, and split incentives like separate build-and-maintain
+    contracts to prevent cronyism.
+  - >-
+    PPP introduces professional timelines and quality to replace bureaucratic
+    secrecy, essential for goals like 100 smart cities and rapid growth.
+topics:
+  - public-private-partnerships
+  - infrastructure-development
+  - government-efficiency
+  - health-insurance
 tags:
   - allocation of resources
   - Rashtriya Swasthya Bima Yojna
   - government efficiency
   - Public Private Partnerships
   - e-governance
+source_hash: 5213350560c8c8e82c6c6163c5d890948228430b99d2289e06e582843b47f283
+summary_hash: 5213350560c8c8e82c6c6163c5d890948228430b99d2289e06e582843b47f283
+summary_at: '2026-05-05T11:16:36.528Z'
 ---
 **By Amit Chandra**
 

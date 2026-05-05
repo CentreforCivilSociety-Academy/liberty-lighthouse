@@ -2,19 +2,59 @@
 title: 'Maternal Mortality Ratio in India: How far have we come?'
 original_url: >-
   https://www.spontaneousorder.in/p/maternal-mortality-ratio-in-india-how-far-have-we-come
+author: Spontaneous Order
 published_at: '2020-12-18T16:32:29.000Z'
 ingested_at: '2026-05-05T08:31:42.360Z'
-source_hash: 163b3634aef7e812d4bb0859e3b3ad30c26650c7d527ae300c4ea02ad685b782
-author: Spontaneous Order
 excerpt: >-
   Maternal health is the building block of any developing country. Ensuring the
   well being of mothers is to ensure the progress of society in terms of health
   and development of its citizens. Universal access to quality maternal care and
   neonatal care ser...
+summary: >-
+  India's maternal mortality ratio (MMR) has declined modestly from 130 per
+  100,000 live births in 2014-2016 to 122 in 2015-2017, driven by the Janani
+  Suraksha Yojana (JSY), a 2005 conditional cash transfer program under the
+  National Rural Health Mission that boosted institutional deliveries from low
+  levels—e.g., 10% in Uttar Pradesh with 517 MMR in 2001-2003—to 72% by 2009,
+  especially among disadvantaged castes. States like Kerala exemplify success
+  with 97% institutional deliveries and 110 MMR. However, JSY's incentive
+  structure, reliant on ASHA workers, failed to improve postnatal care,
+  iron-folic acid consumption, or overall MMR, as increased workloads degraded
+  care quality and emergency response for complications. The author critiques
+  this from a classical-liberal lens, arguing that deeper barriers—women's
+  illiteracy, economic dependence, patriarchal control over reproductive
+  decisions, child marriage, and clashes between formal health institutions and
+  informal customs—undermine progress. Empowering women through education on
+  health, bodily autonomy, family planning, and safe abortions is essential. JSY
+  should incorporate counseling and monitor informal institutions like marriage
+  norms to sustainably lower MMR toward SDG targets.
+key_points:
+  - >-
+    JSY dramatically increased institutional deliveries to 72% by 2009 but did
+    not reduce MMR due to poor care quality and flawed ASHA incentives.
+  - >-
+    States with high institutional deliveries like Kerala (97%) have lower MMR
+    (110) compared to Uttar Pradesh (517 MMR with 10% deliveries in 2001-2003).
+  - >-
+    Women's education and economic status strongly correlate with better
+    maternal care utilization, necessitating empowerment to overcome patriarchal
+    barriers.
+  - >-
+    Policies like JSY must address informal institutions such as child marriage
+    and family decision-making through counseling on family planning and
+    abortions.
+topics:
+  - maternal-mortality
+  - janani-suraksha-yojana
+  - women-empowerment
+  - health-incentives
 tags:
   - maternal health
   - Healthcare
   - Governance
+source_hash: 163b3634aef7e812d4bb0859e3b3ad30c26650c7d527ae300c4ea02ad685b782
+summary_hash: 163b3634aef7e812d4bb0859e3b3ad30c26650c7d527ae300c4ea02ad685b782
+summary_at: '2026-05-05T10:51:13.980Z'
 ---
 **By Reetika Raj**
 

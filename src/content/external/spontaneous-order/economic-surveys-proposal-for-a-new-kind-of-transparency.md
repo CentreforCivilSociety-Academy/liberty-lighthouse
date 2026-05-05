@@ -2,15 +2,50 @@
 title: Economic Survey’s Proposal For A New Kind of Transparency
 original_url: >-
   https://www.spontaneousorder.in/p/economic-surveys-proposal-for-a-new-kind-of-transparency
+author: Spontaneous Order
 published_at: '2018-08-02T10:36:44.000Z'
 ingested_at: '2026-05-05T08:31:42.535Z'
-source_hash: a003f2c2d5cf54ded14916acc1ac8f22035668f30c3e00ef84336c0800173274
-author: Spontaneous Order
 excerpt: >-
   cTransparency in the functioning of government is the hallmark of a democracy
   — be it in the manner elections are held, resources managed, recruitments
   conducted, money spent, or information exchanged. The second volume of the
   Economic Survey 2016–17
+summary: >-
+  The Economic Survey 2016–17 proposes 'The Transparency of Rules Act (TORA)' to
+  address information asymmetry between citizens and government by requiring
+  departments to publish all citizen-facing rules on websites in a unified,
+  comprehensible format, with timestamps for changes; any unlisted rule is
+  deemed inapplicable. This classical-liberal reform tackles the opaque 'mesh of
+  rules' causing inefficiency, delays, corruption, and litigation—even officials
+  struggle with fragmented legal jargon in gazettes and sites. Unlike the 2005
+  RTI Act, which allows varied formats without mandating simplicity, TORA
+  ensures Wikipedia-like accessibility, complementing voluntary Citizen
+  Charters. While praising TORA's potential to empower citizens via
+  knowledge-power nexus (echoing Foucault), the author notes gaps: no
+  enforcement for time-bound services, as the 2011 'Right of Citizens for
+  Time-bound Delivery' bill lapsed without penalties up to Rs. 50,000. Instead
+  of a new Act, amend RTI to require simple formats; implement incrementally,
+  one department at a time. This reduces corruption, touts, and info divides,
+  fostering aware citizens who influence policy in a freer society.
+key_points:
+  - >-
+    Economic Survey 2016–17's TORA mandates departments to post unified,
+    comprehensible rules on websites with change timestamps, deeming unlisted
+    rules inapplicable.
+  - >-
+    TORA surpasses RTI by requiring simple formats, unlike RTI's allowance for
+    fragmented info.
+  - >-
+    Amend RTI rather than enact new TORA to enforce Wikipedia-style rule
+    presentation.
+  - >-
+    Implement incrementally, starting with one department, to achieve
+    transparency without overhaul.
+topics:
+  - transparency
+  - rti-act
+  - economic-survey
+  - government-reform
 tags:
   - Transparency of Rules Act
   - RTI
@@ -18,6 +53,9 @@ tags:
   - Economic Survey of India
   - Citizen charter
   - TORA
+source_hash: a003f2c2d5cf54ded14916acc1ac8f22035668f30c3e00ef84336c0800173274
+summary_hash: a003f2c2d5cf54ded14916acc1ac8f22035668f30c3e00ef84336c0800173274
+summary_at: '2026-05-05T09:42:27.849Z'
 ---
 **By Hinan Ali**
 

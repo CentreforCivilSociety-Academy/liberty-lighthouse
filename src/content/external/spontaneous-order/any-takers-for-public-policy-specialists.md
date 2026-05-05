@@ -1,15 +1,52 @@
 ---
 title: Any takers for Public Policy specialists?
 original_url: 'https://www.spontaneousorder.in/p/any-takers-for-public-policy-specialists'
+author: Spontaneous Order
 published_at: '2005-05-26T21:45:14.000Z'
 ingested_at: '2026-05-05T08:31:42.678Z'
-source_hash: 93fad97764e0ba33c4d700fa5d48b1a245e2f69cbafe5032ed69a555c6b61576
-author: Spontaneous Order
 excerpt: >-
   Among the excess baggage that has been handed down to us from the past is our
   esteemed IAS (Indian Administrative Service). However why, I consider it will
   be on its way out might seem interesting. IASes (the top strata of civil
   services consist of abou..
+summary: >-
+  India's IAS, comprising about 5,000 top officers, is outdated excess baggage
+  from the past, as these generalist bureaucrats—often transferred across
+  ministries like from agriculture to education—lack domain-specific expertise
+  for sound policy development and evaluation. Politicians prioritize strategic
+  voting interests, sidelining rigorous policy analysis, while India appallingly
+  lacks professional public policy institutes and think tanks abundant in the
+  developed West; current substitutes like newspaper analysts or NGOs fall short
+  of the needed rigor. The author calls for cultivating a market of domain
+  experts in sectors like transport, education, health, and telecommunications,
+  supplied by private institutes rather than a new government 'Indian Policy
+  Service.' State governments, with over a score of entities, and MPs already
+  building policy staff, can hire from this market, shifting governance from
+  politician-driven to policy-based. This market-driven approach, akin to how
+  management institutes professionalized business, addresses reform discussions'
+  neglect of 'who' implements changes, benefiting businesses interfacing with
+  policy and informed citizens.
+key_points:
+  - >-
+    IAS officers' generalist nature and frequent transfers hinder
+    sector-specific policy development.
+  - >-
+    India lacks rigorous public policy professionals compared to Western think
+    tanks.
+  - >-
+    Private institutes should create a market of domain experts for states and
+    MPs to hire.
+  - >-
+    This enables policy-based governance over politician-driven decisions, like
+    business professionalization via management schools.
+topics:
+  - public-policy
+  - ias-reform
+  - governance-markets
+  - domain-expertise
+source_hash: 93fad97764e0ba33c4d700fa5d48b1a245e2f69cbafe5032ed69a555c6b61576
+summary_hash: 93fad97764e0ba33c4d700fa5d48b1a245e2f69cbafe5032ed69a555c6b61576
+summary_at: '2026-05-05T08:57:46.481Z'
 ---
 **By Naveen Mandava**
 

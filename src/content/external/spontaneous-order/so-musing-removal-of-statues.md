@@ -1,18 +1,53 @@
 ---
 title: 'SO Musing: Removal of Statues'
 original_url: 'https://www.spontaneousorder.in/p/so-musing-removal-of-statues'
+author: Spontaneous Order
 published_at: '2020-10-23T11:03:29.000Z'
 ingested_at: '2026-05-05T08:31:42.373Z'
-source_hash: 7d42a068037aa1665632761f259e5a3128f74b8a45689fe570fae304bd2fec16
-author: Spontaneous Order
 excerpt: >-
   These are the times of ‘cancel culture’ which is quite popular among many
   left-leaning thinkers. The psychological root of this phenomenon is the
   well-meaning and moral abhorrence against racism and injustice. Although the
   root is justified, its expre
+summary: >-
+  The post critiques the post-independence Indian trend of removing statues of
+  British imperial figures as an emotional frenzy akin to modern 'cancel
+  culture,' driven by moral abhorrence against injustice but lacking reason.
+  Quoting Shri A. Ranganathan from Indian Libertarian, it argues that such acts
+  cannot change or distort history, provide no real outlet beyond passions, and
+  fail to foster racial harmony, a longstanding Indian trait—misinterpreting
+  even Gandhi's distinction between the Englishman and his system. Dr. Bhagwan
+  Das, in The Leader, highlights positive Indo-British legacies: relief from
+  pre-Victorian anarchy ('tiger and sheep drink water side by side'), founding
+  of cities like Calcutta, Bombay, Madras, hill stations such as Simla, Ooty,
+  Naini Tal, Mussoorie, Darjeeling; origins of the Congress via A.O. Hume,
+  William Wedderburn, George Yule; humanitarian efforts by missionaries like
+  C.F. Andrews and doctors. While not minimizing foreign rule's evils, the
+  classical-liberal view urges preserving historical symbols to honor
+  complexities rather than erasing them through nationalist fervor, as seen in
+  the 1857 revolt centenary's misuse.
+key_points:
+  - >-
+    Removing statues of British figures cannot alter history or promote racial
+    harmony, per A. Ranganathan.
+  - >-
+    British rule brought relief from anarchy, modern cities (Calcutta, Bombay,
+    Madras), hill stations (Simla, Ooty, etc.), and Congress origins via figures
+    like A.O. Hume.
+  - >-
+    Humanitarian contributions from missionaries like C.F. Andrews and doctors
+    should be acknowledged alongside colonial evils.
+topics:
+  - cancel-culture
+  - statue-removal
+  - colonial-legacy
+  - indian-history
 tags:
   - SO Musings
   - Indian liberals
+source_hash: 7d42a068037aa1665632761f259e5a3128f74b8a45689fe570fae304bd2fec16
+summary_hash: 7d42a068037aa1665632761f259e5a3128f74b8a45689fe570fae304bd2fec16
+summary_at: '2026-05-05T11:50:33.883Z'
 ---
 **By Spontaneous Order**
 

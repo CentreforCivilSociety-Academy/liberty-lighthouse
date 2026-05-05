@@ -1,20 +1,61 @@
 ---
 title: 'N G Ranga: Swatantra’s Peasant Leader'
 original_url: 'https://www.spontaneousorder.in/p/n-g-ranga'
+author: Spontaneous Order
 published_at: '2019-11-08T07:50:05.000Z'
 ingested_at: '2026-05-05T08:31:42.461Z'
-source_hash: e06ec6cb84a6e29eab3ebf7961d09e29cb938ac5ec34e77f81c9fece6a72ea0b
-author: Spontaneous Order
 excerpt: >-
   Like most other politicians of his generation, N G Ranga’s long public life
   saw him leading multiple ventures, all in the service of the nation and its
   people. Educated at Oxford, he began his career as an economics professor only
   to enter the regional
+summary: >-
+  N G Ranga, an Oxford-educated economist, emerged as a paradoxical peasant
+  leader in Andhra, building support through agricultural organizations and
+  emulated later by Sharad Joshi. His ideology blended oriental romanticism,
+  Gandhian self-sufficiency, Marxism—abandoned after Stalinist
+  collectivization—and liberal values from John Stuart Mill, emphasizing
+  individual freedom and property rights. Ranga promoted grassroots democracy by
+  establishing peasant political schools like the 1934 Andhra Farmers’ School,
+  modeled on British Labour Party methods, and supported anti-zamindari
+  agitations, convincing Gandhi to back them. He co-founded the All India Kisan
+  Sabha in 1936 but opposed its radicalism and Nehru’s socialist policies,
+  including land ceilings, Five-Year Plans, and cooperative farming, mobilizing
+  lakhs of peasants against the 1959 Nagpur Resolution. As Swatantra Party’s
+  first president—chosen by Rajaji over Minoo Masani for his rural appeal—Ranga
+  embodied its pro-market outlook, delivering a rousing 1964 parliamentary
+  speech that defeated the 17th Amendment’s uncompensated land acquisition.
+  Nehru acknowledged Ranga’s protective role for peasants. Despite this liberal
+  legacy defending property rights against state overreach, Ranga’s 1971
+  electoral defeat led to his baffling defection to Indira Gandhi’s Congress and
+  support for the Emergency, meriting further research.
+key_points:
+  - >-
+    Ranga founded peasant political schools in 1934 to foster grassroots
+    participation and political consciousness among Andhra farmers.
+  - >-
+    He opposed Nehru's socialist land reforms, Five-Year Plans, and cooperative
+    farming, mobilizing massive peasant protests to defend property rights.
+  - >-
+    As Swatantra Party's first president, Ranga's 1964 speech defeated the 17th
+    Amendment enabling uncompensated land acquisition by states.
+  - >-
+    Ranga's ideological shift from Marxism to liberalism highlighted his
+    advocacy for farmers' dignity against colonial and post-independence
+    socialist policies.
+topics:
+  - swatantra-party
+  - property-rights
+  - peasant-leadership
+  - indian-liberals
 tags:
   - N G Ranga
   - Indian Liberal Tradition
   - Indian liberals
   - IndianLiberals.in
+source_hash: e06ec6cb84a6e29eab3ebf7961d09e29cb938ac5ec34e77f81c9fece6a72ea0b
+summary_hash: e06ec6cb84a6e29eab3ebf7961d09e29cb938ac5ec34e77f81c9fece6a72ea0b
+summary_at: '2026-05-05T11:00:13.863Z'
 ---
 **By Sanjeet Kashyap**
 

@@ -1,15 +1,57 @@
 ---
 title: CCS on RTE Bill 2008
 original_url: 'https://www.spontaneousorder.in/p/ccs-on-rte-bill-2008'
+author: Spontaneous Order
 published_at: '2009-02-06T14:00:33.000Z'
 ingested_at: '2026-05-05T08:31:42.665Z'
-source_hash: 54c1762a799e6b9938999e943c1e271106979af4746e00eea50e7b9a6aa9d58b
-author: Spontaneous Order
 excerpt: >-
   Over the last few days, a series of discussions among stakeholders have
   generated a large number of suggestions for change in the Right to Education
   Bill 2008. However in light of the fact that very little time is left before
   the beginning of the new Se..
+summary: >-
+  Parth Shah of the Centre for Civil Society proposes six targeted amendments to
+  the Right to Education (RTE) Bill 2008, arguing from a classical-liberal
+  perspective that the bill undermines choice and accountability by exempting
+  government schools from standards, guaranteeing attendance rather than
+  learning, mandating unfeasible new schools without alternatives,
+  under-reimbursing private schools, weakening school management committees, and
+  discriminating against certain government schools. The changes include: (1)
+  requiring all schools, including government ones, to obtain recognition
+  certificates under Section 18; (2) mandating annual independent evaluations of
+  learning outcomes in Sections 8, 9, and 29; (3) providing financial support
+  for equivalent-quality schools if neighbourhood schools are unavailable,
+  amending Sections 3 and 6; (4) reimbursing private schools for 25% quota based
+  on total per-child costs in equivalent-quality government schools under
+  Section 12; (5) ensuring at least two-thirds of School Management Committee
+  members are women parents and granting them powers to assess staff performance
+  under Section 21; (6) allowing transfers to any school, removing exclusions
+  for specified-category schools like Kendriya Vidyalaya in Section 5. These
+  minimal tweaks promote uniform standards, learning assurance, choice via
+  vouchers, fair compensation, parental involvement, and non-discrimination,
+  aligning education with competition and accountability rather than state
+  monopoly.
+key_points:
+  - >-
+    Require all schools, including government-run ones, to obtain recognition
+    certificates meeting specified standards.
+  - >-
+    Mandate independent annual evaluations to ensure actual learning outcomes,
+    not just school attendance.
+  - >-
+    Provide financial support for children to attend equivalent-quality schools
+    if government neighbourhood schools are unavailable.
+  - >-
+    Reimburse private schools for 25% reserved seats based on total costs of
+    equivalent-quality government schools.
+  - >-
+    Empower School Management Committees with majority women parents and
+    authority to enforce teacher performance.
+topics:
+  - right-to-education
+  - school-choice
+  - education-standards
+  - private-schools
 tags:
   - Private schools
   - Parliament
@@ -17,6 +59,9 @@ tags:
   - right to schooling
   - RTE Bill
   - CCS
+source_hash: 54c1762a799e6b9938999e943c1e271106979af4746e00eea50e7b9a6aa9d58b
+summary_hash: 54c1762a799e6b9938999e943c1e271106979af4746e00eea50e7b9a6aa9d58b
+summary_at: '2026-05-05T09:17:45.756Z'
 ---
 **By Parth Shah**
 

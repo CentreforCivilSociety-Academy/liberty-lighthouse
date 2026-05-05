@@ -1,15 +1,52 @@
 ---
 title: Why BSNL needs to Hang up
 original_url: 'https://www.spontaneousorder.in/p/why-bsnl-needs-to-hang-up'
+author: Spontaneous Order
 published_at: '2019-06-26T13:03:55.000Z'
 ingested_at: '2026-05-05T08:31:42.483Z'
-source_hash: 40d950cc6056ee9b8a9d520c24a38829efd16e124580a9ed227ed5d3098f3b80
-author: Spontaneous Order
 excerpt: >-
   Bharat Sanchar Nigam Limited (BSNL), the Indian public sector undertaking in
   the field of telecommunication, has been unable to pay the Rs 850 crores in
   salaries to its 1.74 lakh employees for the month of June 2019 and has
   approached the government see..
+summary: >-
+  Bharat Sanchar Nigam Limited (BSNL), a public sector telecom undertaking,
+  faces chronic insolvency, unable to pay Rs 850 crores in salaries to its 1.74
+  lakh employees in June 2019 and seeking government bailouts amid Rs 14,000
+  crores in debt and Rs 82,000 crores in accumulated losses since its last
+  profit in 2008-09. Employee costs consume 66% of operating revenues in
+  2018-19, up from 21% in 2006-07, rendering it uncompetitive in a market-driven
+  sector. Despite holding assets worth Rs 1.32 lakh crores (2017-18), BSNL
+  refuses to liquidate them and instead requests Rs 2,500 crores in loans from
+  taxpayers to sustain operations for mere six months. Its market share has
+  plummeted to 9.7% in January 2019 from 19% in March 2009, serving just 11.62
+  crores customers out of 120 crores total subscribers. From a classical-liberal
+  viewpoint, telecom is not a public good warranting government ownership;
+  perpetuating bailouts for inefficient PSUs subsidizes high employee bonuses at
+  the expense of over 90% of non-customers, undermining competition and fiscal
+  prudence. The government must reconsider BSNL's fate, allowing market forces
+  to prevail over endless taxpayer-funded rescues.
+key_points:
+  - >-
+    BSNL's debt stands at Rs 14,000 crores with Rs 82,000 crores in accumulated
+    losses, last profitable in 2008-09.
+  - >-
+    Employee costs comprise 66% of revenues in 2018-19, making BSNL
+    uncompetitive amid private sector cost-cutting.
+  - >-
+    BSNL holds Rs 1.32 lakh crores in assets but seeks Rs 2,500 crores bailout
+    instead of liquidation.
+  - >-
+    Market share fell to 9.7% by Jan 2019; government should end taxpayer
+    subsidies for this failing PSU.
+  - >-
+    Telecom is not a public good, so privatize or shut down BSNL to foster
+    competition.
+topics:
+  - psu-reform
+  - telecom-sector
+  - government-bailouts
+  - privatization
 tags:
   - Debt
   - Telecom sector
@@ -19,6 +56,9 @@ tags:
   - Bharat Sanchar Nigam Limited
   - PSU
   - BSNL
+source_hash: 40d950cc6056ee9b8a9d520c24a38829efd16e124580a9ed227ed5d3098f3b80
+summary_hash: 40d950cc6056ee9b8a9d520c24a38829efd16e124580a9ed227ed5d3098f3b80
+summary_at: '2026-05-05T13:04:21.615Z'
 ---
 **By Sunaina Mathur**
 

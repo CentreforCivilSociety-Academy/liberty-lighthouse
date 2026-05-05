@@ -4,20 +4,62 @@ title: >-
   independent regulator, not by the home ministry
 original_url: >-
   https://www.spontaneousorder.in/p/doing-good-in-india-gets-harder-philanthropy-should-be-regulated-by-an-independent-regulator
+author: Spontaneous Order
 published_at: '2020-11-04T11:46:11.000Z'
 ingested_at: '2026-05-05T08:31:42.719Z'
-source_hash: bbab843f059c5f7e80aa02ac71a681d7f9bcdae597ba948dfe7ede1e88b94119
-author: Spontaneous Order
 excerpt: >-
   Indira Gandhi’s Emergency was a tragedy in modern India’s history. A second
   tragedy was not to have undone the terrible laws enacted during the Emergency.
   One of these is the Foreign Contributions (Regulations) Act or FCRA, which was
   amended last mont
+summary: >-
+  The recent amendment to the Foreign Contributions (Regulation) Act (FCRA), a
+  draconian law from Indira Gandhi’s Emergency era, has made philanthropy in
+  India harder by prohibiting transfers of foreign donations to other
+  organizations and capping administrative overheads at 20%, evoking the licence
+  raj and undermining the government’s ease of doing business reforms. This
+  creates panic among thousands of NGOs employing lakhs, halting collaborative
+  programs like education initiatives where international funders sub-grant to
+  local experts, scientific research, and rapid COVID-19 relief efforts for
+  migrant workers—efforts the prime minister praised. Even India’s Green
+  Revolution would have been impossible under these rules, as the Rockefeller
+  Foundation couldn’t have sub-granted for hybrid wheat implementation. From a
+  classical-liberal perspective, FCRA is unnecessary since foreign remittances
+  are already managed by the finance ministry under FEMA, terrorism is addressed
+  by FATF, and NGOs face multiple regulations like PMLA, income tax, and
+  charities commissioners. Both UPA and BJP have worsened FCRA, with the former
+  expanding its scope and the latter adding compliance burdens, while
+  hypocritically amending it for political parties. The solution: scrap FCRA or
+  shift regulation from the distrustful home ministry to an independent
+  regulator under finance ministry’s economic affairs, enabling a transparent
+  social stock exchange and embodying ‘maximum governance, minimum government’
+  to foster civil society without harassment.
+key_points:
+  - >-
+    FCRA amendment bans sub-granting foreign donations, illegalizing
+    collaborative NGO programs essential for education, research, and relief.
+  - >-
+    20% cap on overheads misclassifies capacity-building and institutional
+    expenses, threatening schools, hospitals, and training for government.
+  - >-
+    Replace home ministry oversight with independent regulator under finance
+    ministry to promote philanthropy via social stock exchange.
+  - >-
+    Scrap or reform Emergency-era FCRA, as existing laws like FEMA and FATF
+    already control funds and terrorism without harassing innocents.
+topics:
+  - fcra
+  - philanthropy-regulation
+  - ngo-funding
+  - civil-society
 tags:
   - FCRA
   - Regulation
   - philanthropy
   - Gurcharan Das
+source_hash: bbab843f059c5f7e80aa02ac71a681d7f9bcdae597ba948dfe7ede1e88b94119
+summary_hash: bbab843f059c5f7e80aa02ac71a681d7f9bcdae597ba948dfe7ede1e88b94119
+summary_at: '2026-05-05T09:36:52.814Z'
 ---
 **By Gurcharan Das**
 

@@ -1,21 +1,66 @@
 ---
 title: Jago Party & Education Reforms
 original_url: 'https://www.spontaneousorder.in/p/jago-party-education-reforms'
+author: Spontaneous Order
 published_at: '2009-04-14T18:39:46.000Z'
 ingested_at: '2026-05-05T08:31:42.662Z'
-source_hash: 9910ed3b2334ba6f6e18f0c2a4ebe44e64f750994e74901b1ae4d420be91d6b9
-author: Spontaneous Order
 excerpt: >-
   Among all parties, the Jago Party offers education reform ideas (see Q 14 and
   15 in the FAQs) that are closer to the School Choice Campaign. Well, they
   actaully go a step further and suggest privatisation of all state schools!
   They decentralise the educ..
+summary: >-
+  Parth Shah praises the Jago Party's education reforms as the closest among
+  political parties to the School Choice Campaign, going further by proposing
+  full privatization of all government schools, which are less efficient despite
+  higher teacher pay. Under their plan, students could enroll in any private
+  school, with government directly disbursing tuition, books, and other expenses
+  via vouchers, fostering competition to improve teaching standards. This
+  mirrors the successful Delhi Voucher Project by Centre for Civil Society and
+  implementations in the UK, USA, and Sweden. For higher education, soft loans
+  repayable only after employment, scholarships for poor meritorious students,
+  and corporate-sponsored training tied to job commitments are suggested. A
+  single national syllabus and one all-India class 12 board exam would
+  standardize outcomes, emphasizing skills, scientific thinking, joy of
+  learning, and cultural awareness over rote memorization. English-medium
+  instruction, paired with a local language, would build job-relevant
+  competencies without supplanting Indian culture. However, Shah critiques the
+  single board exam as reintroducing centralization, questioning its purpose and
+  urging its abolition for consistency with decentralization. From a
+  classical-liberal lens, this promotes choice, competition, and accountability
+  to transform education.
+key_points:
+  - >-
+    Privatize all government schools and disburse fees directly to private
+    schools chosen by students via vouchers to enable competition and better
+    outcomes.
+  - >-
+    Implement one national syllabus and class 12 board exam, with English-medium
+    teaching plus a local language to foster skills, innovation, and cultural
+    connection.
+  - >-
+    Provide soft loans for higher education repayable post-employment,
+    scholarships for the needy, and corporate-funded training linked to jobs.
+  - >-
+    Abolish the single national board exam to maintain full decentralization and
+    consistency with privatization.
+  - >-
+    Build on successes like CCS's Delhi Voucher Project and models in UK, USA,
+    Sweden.
+topics:
+  - school-choice
+  - education-reform
+  - privatization
+  - vouchers
 tags:
   - School Choice Campaign
   - Delhi Voucher Project
   - Jago Party
   - privatized schools
   - CCS
+source_hash: 9910ed3b2334ba6f6e18f0c2a4ebe44e64f750994e74901b1ae4d420be91d6b9
+summary_hash: 9910ed3b2334ba6f6e18f0c2a4ebe44e64f750994e74901b1ae4d420be91d6b9
+summary_at: '2026-05-05T10:33:05.036Z'
 ---
 **By Parth Shah**
 

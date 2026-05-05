@@ -1,20 +1,60 @@
 ---
 title: 'SO Musings: Morality of the Market'
 original_url: 'https://www.spontaneousorder.in/p/dhanteras-morality-of-markets'
+author: Spontaneous Order
 published_at: '2019-10-25T14:02:32.000Z'
 ingested_at: '2026-05-05T08:31:42.462Z'
-source_hash: 15893d9a2e6b6a85c9f7d8ab438b50287db86cbbea679d36c05b2389b3f17def
-author: Spontaneous Order
 excerpt: >-
   This article, written by Parth Shah, President of the Centre for Civil
   Society, first appeared in The Economic Times on 14 November 2001. I am
   writing this column on Dhanteras, the beginning of the five-day festival of
   Deepavali. (Dhan: wealth and Teras..
+summary: >-
+  On Dhanteras, the festival celebrating wealth (dhan) through purchases and
+  worship of Lakshmi, society honors the goddess and material wealth but ignores
+  its creators—businessmen and women. Parth Shah argues that no national awards
+  exist for wealth creators, unlike those for bravery, sports, arts, or
+  literature, portraying wealth as a natural phenomenon rather than human
+  achievement. Businessmen are viewed as a 'necessary evil'—useful
+  post-communism but morally suspect—contrasted with corrupt politicians who
+  receive societal excuses as reflections of popular will. Cultural depictions
+  in literature, plays, and films cast businessmen as villains, demanding
+  perfection while rationalizing political corruption. Shah defends bourgeois
+  virtues—politeness, enterprise, trustworthiness—fostered by unfettered market
+  competition, where voluntary transactions moralize greed via the Invisible
+  Hand, elevating standards of living and behavior. Businessmen internalize
+  guilt, prizing philanthropy over production, yet their enterprises sustainably
+  alleviate poverty. From a classical-liberal view, laissez-faire capitalism
+  civilizes; businessmen must reject unearned guilt, embrace mercantile virtues,
+  and gain moral certitude. Shah urges adding 'Jai Vyapari' (hail the trader) to
+  slogans like Jai Jawan, Jai Kisan, Jai Vijan on this 2001 Dhanteras.
+key_points:
+  - >-
+    Society worships wealth on Dhanteras but provides no national awards or
+    honors for businessmen who create it.
+  - >-
+    Businessmen face blanket moral condemnation as exploiters, unlike
+    politicians excused as societal reflections.
+  - >-
+    Unfettered market competition instills bourgeois virtues like honesty and
+    innovation, moralizing wealth from voluntary exchanges.
+  - >-
+    Businessmen should reject guilt over profits, recognizing their factories as
+    superior poverty alleviators than charity.
+  - Add 'Jai Vyapari' to national slogans to acknowledge wealth creators.
+topics:
+  - market-morality
+  - bourgeois-virtues
+  - capitalism
+  - economic-freedom
 tags:
   - Morality of markets
   - Diwali
   - Dhanteras
   - Wealth creators
+source_hash: 15893d9a2e6b6a85c9f7d8ab438b50287db86cbbea679d36c05b2389b3f17def
+summary_hash: 15893d9a2e6b6a85c9f7d8ab438b50287db86cbbea679d36c05b2389b3f17def
+summary_at: '2026-05-05T09:32:50.351Z'
 ---
 **By Parth Shah**
 

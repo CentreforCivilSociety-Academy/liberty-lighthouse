@@ -1,20 +1,61 @@
 ---
 title: 'Section 377: A Long Way To Go'
 original_url: 'https://www.spontaneousorder.in/p/377-bill'
+author: Spontaneous Order
 published_at: '2015-12-23T16:06:30.000Z'
 ingested_at: '2026-05-05T08:31:42.566Z'
-source_hash: 3888dc086c9c584daa7488694838b4c5d1ba05d2d8f238ccbe5fdc95073b68f2
-author: Spontaneous Order
 excerpt: >-
   In a gallant effort, Congress MP Shashi Tharoor brought in a bill to
   decriminalise homosexuality last week. It is rare to see the sort of
   promptness that was evident, for a change, in our representatives—the bill was
   promptly rejected, without any discu
+summary: >-
+  Congress MP Shashi Tharoor's private bill to decriminalize homosexuality under
+  Section 377 was rejected by Parliament without discussion, exemplifying
+  legislators' disregard for debating personal rights while claiming authority
+  to vote on all matters. The author invokes Robert Nozick's principle that
+  individuals have rights no one may violate, emphasizing constitutionalism and
+  judicial checks on legislative power. The 2009 Delhi High Court ruling
+  commendably struck down Section 377 as violating rights to life, liberty,
+  privacy, and dignity, prioritizing constitutional over public morality. In
+  contrast, the 2013 Supreme Court upheld it, dismissing concerns by noting a
+  'miniscule fraction' affected and only 200 convictions in 150 years, a flawed
+  approach treating justice as numbers-based. Legislators' derision of Tharoor's
+  bill underscores the need for judiciary to enforce liberty as the principle
+  enabling diverse cultural expressions, blind to prejudices. Amid cultural
+  resistance, the author applauds liberal voices in Congress and BJP, including
+  proposals for clarificatory amendments, on this long journey toward rights
+  protection.
+key_points:
+  - >-
+    Parliament's rejection of Tharoor's Section 377 decriminalization bill
+    without debate undermines democratic discourse on individual rights.
+  - >-
+    The 2009 Delhi High Court correctly invalidated Section 377 for violating
+    constitutional rights, distinguishing it from public morality.
+  - >-
+    The 2013 Supreme Court erred by upholding Section 377 based on low
+    prosecutions (200 in 150 years) and small affected population, ignoring
+    principle-based justice.
+  - >-
+    Liberty must supersede cultural prejudices, with judiciary checking
+    legislative excesses.
+  - >-
+    Applaud and support liberal voices advocating Section 377 reform amid legal
+    and cultural challenges.
+topics:
+  - section-377
+  - lgbtq-rights
+  - judicial-review
+  - constitutionalism
 tags:
   - LGBT
   - Section 377
   - '377'
   - gay rights
+source_hash: 3888dc086c9c584daa7488694838b4c5d1ba05d2d8f238ccbe5fdc95073b68f2
+summary_hash: 3888dc086c9c584daa7488694838b4c5d1ba05d2d8f238ccbe5fdc95073b68f2
+summary_at: '2026-05-05T08:45:56.505Z'
 ---
 **By Ujwal Batra**
 

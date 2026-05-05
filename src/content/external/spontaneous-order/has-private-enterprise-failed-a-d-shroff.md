@@ -1,20 +1,64 @@
 ---
 title: 'SO Musings: Has Private Enterprise Failed?'
 original_url: 'https://www.spontaneousorder.in/p/has-private-enterprise-failed-a-d-shroff'
+author: Spontaneous Order
 published_at: '2019-11-15T15:40:37.000Z'
 ingested_at: '2026-05-05T08:31:42.459Z'
-source_hash: baf4f147680367d5628b9818cc439eebf944f69f9bcb1a2118ae9db47cbcb7ec
-author: Spontaneous Order
 excerpt: >-
   For some time past, Private Enterprise in India has been continuously under
   fire. It has been suggested that Private Enterprise is incapable of
   undertaking large-scale and rapid economic development of the country. It is
   also suggested that Private Ente..
+summary: >-
+  The author robustly defends private enterprise in India against charges of
+  failure by ministers like T.T. Krishnamachari, who claimed it lacked
+  initiative, and the Prime Minister, who deemed it incompatible with democracy.
+  Despite colonial-era handicaps like apathetic policies and discriminatory
+  tariffs, private enterprise elevated India to the eighth industrial nation
+  globally, pioneering cotton textiles (from Rs.60 crore imports to major
+  exporter), Tata Steel (largest in British Commonwealth, among cheapest
+  producers), hydroelectric power, and shipping. Post-1947, industrial
+  production rose from 100 (1946 base) to 161.5 (1955), with private sector
+  dominating: 90% of net output increase per World Bank, actual investments
+  hitting Rs.233 crore vs. public sector's Rs.57 crore. New industries like
+  rayon and steel tubes emerged. Yet, government actions—nationalizations
+  (airlines, Imperial Bank, life insurance), licensing red tape under 1951
+  Industries Act (1142/1440 licenses granted), and nationalization threats—have
+  bred uncertainty, shied capital, and stifled growth. World Bank's Eugene Black
+  urged fewer restrictions on private enterprise. No monopoly or undue power
+  concentration exists; joint-stock firms democratize ownership (e.g., 42,000
+  Tata Steel shareholders). Author concludes private enterprise thrives under
+  fair regulation, is vital for development, and aligns with democracy—thwarting
+  it endangers both.
+key_points:
+  - >-
+    Private enterprise drove India's pre-independence industrialization,
+    achieving eighth global rank despite colonial obstacles.
+  - >-
+    Post-1947 industrial output surged 61.5% by 1955, overwhelmingly from
+    private sector investments exceeding public outlays.
+  - >-
+    Government nationalizations and licensing restrictions have created
+    uncertainty, deterring investment more than any private failings.
+  - >-
+    World Bank affirms private sector's 90% contribution to output growth and
+    calls for incentives over restrictions.
+  - >-
+    Private enterprise is compatible with democracy and essential to sustain it,
+    contrary to official claims.
+topics:
+  - private-enterprise
+  - industrial-development
+  - economic-policy
+  - nationalization
 tags:
   - SO Musings
   - free enterprise
   - Forum of Free Enterprise
   - private enterprise
+source_hash: baf4f147680367d5628b9818cc439eebf944f69f9bcb1a2118ae9db47cbcb7ec
+summary_hash: baf4f147680367d5628b9818cc439eebf944f69f9bcb1a2118ae9db47cbcb7ec
+summary_at: '2026-05-05T10:09:08.565Z'
 ---
 **By Spontaneous Order**
 

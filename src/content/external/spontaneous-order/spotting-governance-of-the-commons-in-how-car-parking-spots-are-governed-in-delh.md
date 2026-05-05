@@ -4,15 +4,54 @@ title: >-
   Delhi
 original_url: >-
   https://www.spontaneousorder.in/p/spotting-governance-of-the-commons-in-how-car-parking-spots-are-governed-in-delhi
+author: Spontaneous Order
 published_at: '2024-09-14T13:07:49.000Z'
 ingested_at: '2026-05-05T08:31:42.730Z'
-source_hash: b1c1671dff74a4258a52d2dadf34562c53ebd2531c2c035fef66cfcf4eec5ebc
-author: Spontaneous Order
 excerpt: >-
   Delhi has huge car ownership. A news story found that if Delhi’s cars were
   stacked bumper-to-bumper, they would reach all the way to Chile. Parking these
   cars is a challenge. Delhi’s urban design, and its transport policy over the
   years has resulted i
+summary: >-
+  Delhi faces acute car parking shortages due to high ownership rates—enough
+  cars to stretch bumper-to-bumper to Chile—exacerbated by poor public transit
+  and walkability that incentivize private vehicles. In neighborhoods like A
+  Block Hauz Khas and Vasant Kunj, residents have spontaneously developed
+  effective governance systems for street parking, embodying Elinor Ostrom's
+  principles from 'Governing the Commons' as summarized by Derek Wall. Four key
+  principles emerge: clearly defined boundaries via gated metal doors limiting
+  access to residents; rules tailored to local contexts, varying by neighborhood
+  like Sector D Pocket 4 Vasant Kunj versus gated societies; effective
+  monitoring through signages threatening tire deflation and house-number
+  labels; and low-cost conflict resolution via WhatsApp groups for quick
+  resolutions. These polycentric, bottom-up solutions demonstrate communities'
+  capacity to manage common-pool resources without state imposition. The author,
+  from a classical-liberal perspective, urges policymakers to observe and build
+  upon such emergent orders rather than preempt them with municipal or state
+  interventions, highlighting their diversity and success across global
+  neighborhoods.
+key_points:
+  - >-
+    Delhi neighborhoods self-govern street parking using Ostrom's principles:
+    defined boundaries, local-fit rules, monitoring, and low-cost conflict
+    resolution.
+  - >-
+    Gated doors and signages like 'tyres will be deflated' enforce resident-only
+    access and norms.
+  - >-
+    WhatsApp groups enable rapid, low-cost resolution of parking disputes among
+    residents.
+  - >-
+    Classical-liberal policy should prioritize observing and improving
+    spontaneous parking orders over state takeovers.
+topics:
+  - governance-of-commons
+  - urban-parking
+  - spontaneous-order
+  - elinor-ostrom
+source_hash: b1c1671dff74a4258a52d2dadf34562c53ebd2531c2c035fef66cfcf4eec5ebc
+summary_hash: b1c1671dff74a4258a52d2dadf34562c53ebd2531c2c035fef66cfcf4eec5ebc
+summary_at: '2026-05-05T12:09:04.459Z'
 ---
 **By Saurabh Modi**
 

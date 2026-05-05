@@ -2,18 +2,60 @@
 title: The Challenge of Taking Street Food Online in a Pandemic
 original_url: >-
   https://www.spontaneousorder.in/p/the-challenge-of-taking-street-food-online-in-a-pandemic
+author: Spontaneous Order
 published_at: '2020-12-24T16:20:08.000Z'
 ingested_at: '2026-05-05T08:31:42.358Z'
-source_hash: ceaa133d751c31de8eb21d9d8051ef7c621ed40b85dad1b70ff58558d7b9d4de
-author: Spontaneous Order
 excerpt: >-
   Covid-19 has made us pivot to a different style of living, one where we think
   about whether or not what we’re eating/touching/drinking will infect us with
   the virus. Though we’re not in lockdown anymore, people are still hesitant to
   drop by their favo
+summary: >-
+  The COVID-19 pandemic devastated India's $65 billion foodservice market, with
+  unorganized street vendors—comprising 63% or $41 billion—suffering Rs 48,960
+  crore losses in just 36 days, prompting the MoHUA's PM SVAnidhi scheme
+  offering collateral-free loans up to Rs 10,000 (2 million applications, 7 lakh
+  sanctioned, 2 lakh disbursed). A novel partnership with Swiggy pilots
+  onboarding 250 vendors in five cities, providing PAN/FSSAI registration, tech
+  training, and hygiene support, now scaling to 36,000 vendors across 125
+  cities. From a classical-liberal view, this enables private sector innovation
+  to digitize an overregulated street vending space, aiding vendors' recovery by
+  bringing customers online safely and reducing harassment risks. However,
+  challenges persist: Swiggy's weekly payments clash with vendors' daily wage
+  needs; commissions of 18-40% risk exploitation without fixed terms; high
+  transaction costs (FSSAI compliance, packaging) and solo operations hinder
+  sustained use; government partnership invites overregulation; and a separate
+  'Street Vendors' app category may deter cautious post-pandemic consumers.
+  Success hinges on transparent data, vendor incentives, tech support, airtight
+  contracts, and minimal bureaucracy to foster genuine market progress.
+key_points:
+  - >-
+    PM SVAnidhi-Swiggy partnership onboards street vendors online, starting with
+    a successful pilot of 250 in five cities and expanding to 36,000 in 125
+    cities.
+  - >-
+    High Swiggy commissions (18-40%) and weekly payments must be fixed and
+    adapted for daily-wage street vendors to prevent exploitation.
+  - >-
+    Sustained platform use requires incentives, ongoing tech assistance, and low
+    transaction costs amid FSSAI and packaging demands.
+  - >-
+    Private sector entry into overregulated vending promises recovery and
+    reduced extortion, but government involvement risks stifling innovation.
+  - >-
+    Separate 'Street Vendors' app category may limit demand from
+    hygiene-conscious post-COVID consumers.
+topics:
+  - street-vending
+  - pm-svanidhi
+  - food-delivery
+  - market-regulation
 tags:
   - food
   - street vendors
+source_hash: ceaa133d751c31de8eb21d9d8051ef7c621ed40b85dad1b70ff58558d7b9d4de
+summary_hash: ceaa133d751c31de8eb21d9d8051ef7c621ed40b85dad1b70ff58558d7b9d4de
+summary_at: '2026-05-05T12:21:11.838Z'
 ---
 **By Swati Singh**
 

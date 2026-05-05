@@ -1,18 +1,49 @@
 ---
 title: 'Impact of Think tanks: How do we know?'
 original_url: 'https://www.spontaneousorder.in/p/impact-of-think-tanks-how-do-we-know'
+author: Spontaneous Order
 published_at: '2009-01-19T22:24:44.000Z'
 ingested_at: '2026-05-05T08:31:42.667Z'
-source_hash: fe79fc58143894be5215a4baa43fde4eacba17611d37aa3e20a6af5e4ce440e4
-author: Spontaneous Order
 excerpt: >-
   Jason Saul provides an interesting way to think about the question that
   worries all nonprofits, particularly think tanks: How do we know whether we
   are making an impact? What convinced to read more of his writings was how he
   began in the piece: “…it
+summary: >-
+  Parth Shah highlights Jason Saul's framework for think tanks and nonprofits to
+  assess impact by asking the right questions, shifting from effectiveness or
+  accountability to performance—what works best. Saul, founder-CEO of Mission
+  Measurement and co-founder of the Center for What Works in 1994, argues that
+  nonprofits operate in a $1 trillion social capital market of donors,
+  foundations, corporations, governments, and consumers allocating resources to
+  social outcomes. Measurement serves as the currency proxy for created value:
+  positive social outcomes. Social investors should prioritize performance and
+  results over downside risks or basic efficacy. Funders must transition from
+  financing activities to purchasing results, while nonprofits move from
+  fundraising to selling outcomes. This market-oriented approach aligns with
+  classical-liberal emphases on choice, competition, and accountability, urging
+  think tanks like the Centre for Civil Society to benchmark and demonstrate
+  superior impact to attract resources effectively.
+key_points:
+  - >-
+    Nonprofits and think tanks should measure performance (what works best)
+    rather than just effectiveness or accountability.
+  - >-
+    The social sector functions as a $1 trillion market where measurement acts
+    as currency for value in positive social outcomes.
+  - Funders need to shift from financing activities to purchasing results.
+  - Nonprofits must reorient from fundraising to selling outcomes.
+topics:
+  - think-tanks
+  - impact-measurement
+  - nonprofit-performance
+  - social-capital-markets
 tags:
   - Jason Saul
   - measuring imact
+source_hash: fe79fc58143894be5215a4baa43fde4eacba17611d37aa3e20a6af5e4ce440e4
+summary_hash: fe79fc58143894be5215a4baa43fde4eacba17611d37aa3e20a6af5e4ce440e4
+summary_at: '2026-05-05T10:16:26.816Z'
 ---
 **By Parth Shah**
 

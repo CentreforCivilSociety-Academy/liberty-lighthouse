@@ -1,20 +1,59 @@
 ---
 title: Semi-hope for Semiconductors
 original_url: 'https://www.spontaneousorder.in/p/semi-hope-for-semiconductors'
+author: Spontaneous Order
 published_at: '2021-10-22T14:47:45.000Z'
 ingested_at: '2026-05-05T08:31:42.287Z'
-source_hash: b7695fe108f93f4b5cf97c6d313d33e75cf38c0f90cb80aebdaf10ab0235d22b
-author: Spontaneous Order
 excerpt: >-
   The usual fanfare around festival discounts for automobiles and electronic
   gadgets seems relatively mellow this year. Reason: the semiconductor crisis.
   But why deem it a crisis? The spill-over has affected a significant number of
   industries, their conse..
+summary: >-
+  The global semiconductor shortage, projected by Gartner to persist until
+  mid-2022, stems from a demand-supply mismatch triggered by the pandemic: auto
+  demand plummeted while laptop and tablet demand surged 200% and 90%
+  respectively, prompting manufacturers to reprioritize. This disrupted
+  industries, with Maruti Suzuki slashing production by 60% and Hyundai sales
+  dropping 34.2% in September 2021. Semiconductor production takes 26 weeks,
+  amplifying vulnerabilities. Private innovation shines as tech giants like
+  Apple (M1 processor), Tesla, and Baidu develop custom chips to bypass
+  shortages. Asia dominates with 60% of global sales, led by South Korea (19%),
+  Taiwan (6%), China (5%), and Japan (5%), while the US holds 47% revenue.
+  Governments are subsidizing aggressively: Taiwan covers half of
+  land/construction and 25% equipment costs; China plans $200 billion by 2025;
+  the US $52 billion. In India, high R&D costs and policy inconsistency deter
+  investors, but classical-liberals advocate starting with ATMPs (Assembly,
+  Testing, Marking, Packaging) to attract firms like Intel and Samsung,
+  alongside MeitY's SPECS offering 25% capital incentives and a potential $7.5
+  billion Taiwan deal for self-reliance. Global knowledge-sharing is essential
+  to resolve the crisis without perpetuating distortions.
+key_points:
+  - >-
+    Pandemic-driven demand shift from automobiles to electronics caused
+    manufacturers to deprioritize auto chips, leading to shortages.
+  - >-
+    Tech firms like Apple and Tesla are innovating custom semiconductors to
+    evade mass shortages.
+  - >-
+    Governments worldwide, including US ($52B), China ($200B by 2025), and
+    Taiwan, are heavily subsidizing chip production.
+  - >-
+    India should prioritize low-investment ATMP facilities via SPECS incentives
+    (25% capex) and a $7.5B Taiwan deal to enter the sector.
+topics:
+  - semiconductors
+  - chip-shortage
+  - government-subsidies
+  - indian-industrial-policy
 tags:
   - India
   - semiconductors
   - free trade
   - technology
+source_hash: b7695fe108f93f4b5cf97c6d313d33e75cf38c0f90cb80aebdaf10ab0235d22b
+summary_hash: b7695fe108f93f4b5cf97c6d313d33e75cf38c0f90cb80aebdaf10ab0235d22b
+summary_at: '2026-05-05T11:37:18.396Z'
 ---
 **By Anushka Das Sharma**
 

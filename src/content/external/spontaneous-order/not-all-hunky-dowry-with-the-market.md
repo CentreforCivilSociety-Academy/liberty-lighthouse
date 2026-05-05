@@ -1,15 +1,56 @@
 ---
 title: Not all hunky “dowry” with the market?
 original_url: 'https://www.spontaneousorder.in/p/not-all-hunky-dowry-with-the-market'
+author: Spontaneous Order
 published_at: '2005-05-14T21:28:34.000Z'
 ingested_at: '2026-05-05T08:31:42.683Z'
-source_hash: 222dfd3c24df164539cf2a3ad815568a6e7bbecf7827f9fc5ab3c998101374ff
-author: Spontaneous Order
 excerpt: >-
   A boy is selling himself and the bride’s father is willing to pay — isn’t this
   what the market’s about? Image courtesy South Asian Women’s Forum Sunanda K
   Datta Ray makes this point in his article in Business Standard The big deal
   about dowry. O
+summary: >-
+  Naveen Mandava argues that dowry in Indian marriages is not a true market
+  exchange, as it fails the classical-liberal test of voluntary transactions
+  between property rights holders. In a genuine market, the bride (A) and groom
+  (B) would negotiate directly, but dowry involves fathers (D) dictating terms,
+  treating the groom as a commodity sold by the bride's father. This violates
+  property rights, leading to exploitation rather than mutual agreement.
+  Historically, dowry likely arose because women couldn't physically secure
+  property, prompting fathers to transfer daughters' shares indirectly to
+  grooms. Its form reflected economic scarcities: scooters and fridges in
+  shortage eras, gold amid inflation, real estate under regulations, or
+  influence for access. In a liberalized economy enabling wealth pursuit,
+  women's economic independence, rule of law protecting intangible assets, and
+  groom choice by brides will transform dowry. Parents' pressure diminishes,
+  shifting negotiations to partners themselves, advised by parents, making it
+  voluntary. Legislation drives it underground, akin to state-imposed choices
+  like the landline telephone privilege, failing to address root property rights
+  issues.
+key_points:
+  - >-
+    Dowry marriages are not true markets because they exclude property rights
+    holders (bride and groom) from voluntary exchange, involving parental
+    negotiations instead.
+  - >-
+    Dowry's prevalence stemmed from women's historical inability to secure
+    property, with forms adapting to scarcities like regulated goods, gold, or
+    influence.
+  - >-
+    A liberalized economy with women's independence and rule of law will evolve
+    dowry into voluntary partner agreements, reducing parental dominance.
+  - >-
+    Anti-dowry laws push the practice underground without resolving property
+    rights violations, similar to failed state interventions like landline
+    allocations.
+topics:
+  - dowry
+  - property-rights
+  - free-markets
+  - indian-economy
+source_hash: 222dfd3c24df164539cf2a3ad815568a6e7bbecf7827f9fc5ab3c998101374ff
+summary_hash: 222dfd3c24df164539cf2a3ad815568a6e7bbecf7827f9fc5ab3c998101374ff
+summary_at: '2026-05-05T11:05:52.194Z'
 ---
 **By Naveen Mandava**
 

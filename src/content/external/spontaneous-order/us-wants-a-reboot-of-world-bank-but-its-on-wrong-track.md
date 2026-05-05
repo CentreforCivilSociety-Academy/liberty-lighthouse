@@ -2,15 +2,55 @@
 title: US wants a reboot of World Bank but it’s on wrong track
 original_url: >-
   https://www.spontaneousorder.in/p/us-wants-a-reboot-of-world-bank-but-its-on-wrong-track
+author: Spontaneous Order
 published_at: '2022-05-06T11:40:43.000Z'
 ingested_at: '2026-05-05T08:31:42.266Z'
-source_hash: 71a9ba3ff18835a8c1a6249bb516d1f84c4be38f70c823ec30bd27502016484a
-author: Spontaneous Order
 excerpt: >-
   At the spring meeting of the World Bank and International Monetary Fund, US
   Treasury Secretary Janet Yellen, and Deputy Secretary of State Daleep Singh
   called for a total overhaul of the two institutions. Daleep Singh said the
   Bank was too conservative ..
+summary: >-
+  US Treasury Secretary Janet Yellen and Deputy Secretary Daleep Singh advocate
+  overhauling the World Bank and IMF, criticizing the Bank for conservative
+  lending obsessed with its AAA rating, but author Swaminathan SA Aiyer, a
+  former Bank staffer, counters that the Bank lends recklessly to meet internal
+  targets, accumulating huge bad debts written off repeatedly. Far from
+  relevance, the Bank is a 'pygmy' today: India receives mere billions annually
+  from it versus $65 billion in FDI, up to $80 billion in commercial loans, and
+  $87 billion in remittances. Post-WWII, the Bank filled a capital markets void
+  for reconstruction and development, but by the 1970s markets recovered, and
+  post-2000 a global savings glut—led by China—drove trillions into risky
+  ventures like Argentina's perpetual bonds, Chinese lending surpassing the
+  Bank, and over 100 Indian/1,000 Chinese unicorns. Private capital obviates the
+  need for Bank expansion into riskier areas amid a new debt cliff with Sri
+  Lanka's default. From a classical-liberal view, the Bank should downsize to a
+  'knowledge bank' offering expertise and financing only to the poorest and
+  war-torn regions, conserving funds for debt relief rather than competing with
+  abundant private flows.
+key_points:
+  - >-
+    World Bank is not too conservative but lends recklessly to repeat
+    delinquents, leading to massive bad debt write-offs.
+  - >-
+    Private capital markets have rendered the World Bank irrelevant for most
+    developing countries, as seen in India's $65B FDI, $80B commercial loans,
+    and $87B remittances dwarfing Bank aid.
+  - >-
+    Amid a global savings glut and debt crisis, the Bank should conserve funds
+    for defaulters rather than expand into riskier lending harnessed with
+    private capital.
+  - >-
+    Bank's future role lies in downsized expertise as a development consultant
+    and financier for the poorest and war-devastated areas.
+topics:
+  - world-bank
+  - development-finance
+  - private-capital
+  - debt-crisis
+source_hash: 71a9ba3ff18835a8c1a6249bb516d1f84c4be38f70c823ec30bd27502016484a
+summary_hash: 71a9ba3ff18835a8c1a6249bb516d1f84c4be38f70c823ec30bd27502016484a
+summary_at: '2026-05-05T12:51:48.934Z'
 ---
 **By Swaminathan SA Aiyer**
 

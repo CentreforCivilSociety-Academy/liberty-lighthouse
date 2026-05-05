@@ -1,20 +1,65 @@
 ---
 title: Keeping up with Technological Advancements
 original_url: 'https://www.spontaneousorder.in/p/keeping-up-with-technological-advancements'
+author: Spontaneous Order
 published_at: '2022-01-17T16:05:40.000Z'
 ingested_at: '2026-05-05T08:31:42.280Z'
-source_hash: ece4f19468a188cd1ecf3d3f361577264d2445c89beb6307245d358042560566
-author: Spontaneous Order
 excerpt: >-
   AI, cryptocurrency, social media apps, gene editing, multinational e-commerce,
   fintech companies and more – today, technological advancements outpace the
   political system’s ability to bring in laws that deal with the ethical
   challenges they may pose.
+summary: >-
+  Technological advancements like AI, cryptocurrency, social media, gene
+  editing, and fintech outpace India's political and legal systems, creating
+  ethical and regulatory gaps in areas such as data privacy, fraud, and
+  anti-competitive practices. In fintech, RBI's data localisation norms and
+  consent requirements emerged as catch-up measures to multi-tenant cloud
+  services and payment platforms. Tech giants like Google, accused of
+  anti-competitive practices in mobile OS markets, and Facebook, exposed in the
+  Cambridge Analytica scandal, have often evaded accountability due to
+  inadequate laws like the outdated IT Act 2000, with India's personal data
+  protection bill still under discussion. Amazon exemplifies how current
+  antitrust frameworks, focused on short-term consumer welfare via prices, fail
+  to address predatory pricing and market power in e-commerce. Bans, such as on
+  cryptocurrencies amid speculation, money laundering, and energy concerns, risk
+  stifling blockchain innovations in food security and land records, driving
+  activities underground rather than fostering transparent, decentralized
+  systems. From a classical-liberal viewpoint, governments should prioritize
+  least intrusive interventions through ongoing consultative processes involving
+  experts and stakeholders, robust parliamentary committees, periodic law
+  reviews, and scrutiny of executive overreach to balance rights protection with
+  innovation space.
+key_points:
+  - >-
+    Technological innovations outpace laws, necessitating consultative
+    stakeholder involvement to craft balanced regulations.
+  - >-
+    Current antitrust doctrines inadequately address tech giants' predatory
+    pricing and dominance beyond short-term prices.
+  - >-
+    Cryptocurrency bans would harm blockchain applications in non-financial
+    sectors like land records and food security.
+  - >-
+    Parliaments must strengthen independent scrutiny via committees to prevent
+    half-baked laws and executive dominance.
+  - >-
+    Governments should opt for least intrusive policies, with mechanisms for
+    periodic law updates to sustain innovation.
+topics:
+  - tech-regulation
+  - data-privacy
+  - antitrust
+  - cryptocurrency
+  - parliamentary-scrutiny
 tags:
   - Data Protection
   - data privacy
   - Amazon
   - technology
+source_hash: ece4f19468a188cd1ecf3d3f361577264d2445c89beb6307245d358042560566
+summary_hash: ece4f19468a188cd1ecf3d3f361577264d2445c89beb6307245d358042560566
+summary_at: '2026-05-05T10:36:20.453Z'
 ---
 **By Arindam Goswami**
 

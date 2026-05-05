@@ -1,19 +1,60 @@
 ---
 title: The Amartya Sen Fallacy
 original_url: 'https://www.spontaneousorder.in/p/the-amartya-sen-fallacy'
+author: Spontaneous Order
 published_at: '2004-08-12T22:31:24.000Z'
 ingested_at: '2026-05-05T08:31:42.700Z'
-source_hash: 41ac53ce1835c558b9edd62892fe8a98e4cc96f636e313bc32228518d22192a9
-author: Spontaneous Order
 excerpt: >-
   Hello, this is Aftab and it isn’t my real name. If you’ve been reading the
   Indian blogosphere, you probably know my real name and have plans of hunting
   down and killing me, so I thought it prudent to post under an assumed name. So
   here’s my first po
+summary: >-
+  The post identifies the 'Amartya Sen Fallacy,' a recurring error in government
+  policy-making where officials justify public provision of a service because
+  private alternatives are inadequate, then, upon public failure, blame and ban
+  private competition to protect the public option. Amartya Sen exemplified this
+  by arguing for government schools over private ones, then proposing to ban
+  private tuitions that siphon resources from failing government schools.
+  Similarly, Nehru built a massive unproductive public sector while imposing
+  industrial licensing to prevent private factories from competing. In Mumbai,
+  private company buses, after dropping employees, cannot legally pick up
+  commuters to their destinations because that would compete with government
+  BEST buses, forcing empty returns and delaying tired workers despite the
+  city's transport shortages. From a classical-liberal viewpoint, this fallacy
+  ensures government boondoggles not only waste money but expand to prohibit
+  private initiatives that could provide useful services, perpetuating
+  inefficiency under the guise of avoiding competitive wastefulness.
+key_points:
+  - >-
+    The Amartya Sen Fallacy occurs when government establishes a failing public
+    service and then bans private competition to protect it.
+  - >-
+    Amartya Sen advocated banning private tuitions because they divert resources
+    from underperforming government schools.
+  - >-
+    Nehru's public sector was shielded from private competition through
+    industrial licensing that blocked needed factories.
+  - >-
+    In Mumbai, private buses are restricted from carrying extra passengers to
+    avoid competing with government bus services, leading to empty runs and
+    commuter delays.
+  - >-
+    Government interventions under this fallacy waste resources and block
+    private solutions that could address shortages effectively.
+topics:
+  - government-failure
+  - private-competition
+  - education-policy
+  - public-transport
+  - industrial-licensing
 tags:
   - unproductive public sector
   - government policy making
   - Amartya Sen
+source_hash: 41ac53ce1835c558b9edd62892fe8a98e4cc96f636e313bc32228518d22192a9
+summary_hash: 41ac53ce1835c558b9edd62892fe8a98e4cc96f636e313bc32228518d22192a9
+summary_at: '2026-05-05T12:17:51.830Z'
 ---
 **By Aftab**
 

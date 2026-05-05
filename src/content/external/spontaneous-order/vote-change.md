@@ -1,20 +1,57 @@
 ---
 title: 'When people are angry, they vote for change'
 original_url: 'https://www.spontaneousorder.in/p/vote-change'
+author: Spontaneous Order
 published_at: '2016-05-03T20:25:22.000Z'
 ingested_at: '2026-05-05T08:31:42.554Z'
-source_hash: 4740b9109d35ece71da507c81f024e8dd93da8d94a028e296f37978f203e93a3
-author: Spontaneous Order
 excerpt: >-
   A lot has been said about the level of intolerance in India. We are not alone
   and we see the same in the other great pillar of democracy on this planet –
   the US. What does this imply for the future of democracy and why have
   differences of views become s
+summary: >-
+  Polarization in democracies like India and the US stems from two harmful
+  responses to conflict: avoiding sensitive topics for political correctness or
+  demonizing opponents, both undermining discourse essential for
+  problem-solving. Referencing Franklin & Marshall College's 'Democracy and
+  Disagreement' course by Stephen Medvic, the author advocates fostering
+  appreciation of differing views amid shouting matches in US primaries, Indian
+  Parliament disruptions, and street violence. In the US, Donald Trump's appeal
+  exploits widespread humiliation from 9/11, lost wars in Afghanistan and Iraq,
+  wage stagnation, 2008 crash, and social shifts. Similarly, in India, public
+  frustration with corruption and decelerating growth elected Narendra Modi in
+  2014 as an anti-establishment outsider promising national greatness, mirroring
+  Trump's rhetoric. From a classical-liberal perspective, anger drives votes for
+  change—which need not be negative—but fuels intolerance and agitation. The
+  solution lies in tackling root causes: creating jobs and controlling inflation
+  to restore fairness perceptions, reduce rage, and secure re-election in 2019,
+  prioritizing economic realities over media-amplified outrage.
+key_points:
+  - >-
+    Avoidance and demonization of opponents both erode democratic discourse by
+    preventing appreciation of conflicting ideas.
+  - >-
+    Trump's rise taps into American humiliation from events like 9/11, failed
+    wars, wage stagnation, and 2008 crisis.
+  - >-
+    Modi's 2014 victory stemmed from Indian anger over corruption and economic
+    slowdown, positioning him as an outsider promising greatness.
+  - >-
+    Address public anger by creating jobs and controlling inflation to mitigate
+    frustration and ensure political longevity.
+topics:
+  - democracy
+  - political-polarization
+  - populism
+  - economic-growth
 tags:
   - Elections
   - Politics
   - Donald Trump
   - intolerance
+source_hash: 4740b9109d35ece71da507c81f024e8dd93da8d94a028e296f37978f203e93a3
+summary_hash: 4740b9109d35ece71da507c81f024e8dd93da8d94a028e296f37978f203e93a3
+summary_at: '2026-05-05T12:53:42.919Z'
 ---
 **By Luis Miranda**
 

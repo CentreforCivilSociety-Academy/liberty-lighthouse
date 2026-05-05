@@ -2,11 +2,51 @@
 title: Anti-cheating Act Does Not Reduce the Incentive to Cheat in Exams
 original_url: >-
   https://www.spontaneousorder.in/p/anti-cheating-act-does-not-reduce-the-incentive-to-cheat-in-exams
+author: Spontaneous Order
 published_at: '2024-08-05T16:36:51.000Z'
 ingested_at: '2026-05-05T08:31:42.712Z'
-source_hash: f36bca0136f7eec2705a80a508469cfe8389d949c3bafce8dfcbab4532469140
-author: Spontaneous Order
 excerpt: Anti-cheating Act Does Not Reduce the Incentive to Cheat in Exams
+summary: >-
+  The Public Examination (Prevention of Unfair Means) Act 2024, passed by the
+  Indian Parliament in February 2024, targets unfair practices in exams
+  conducted by bodies like UPSC, SSC, RRB, and NTA, but fails to reduce
+  incentives to cheat. From a classical-liberal lens, human behavior hinges on
+  weighing rewards against costs; the Act imposes punishments post-offense—fines
+  up to ₹1 crore and imprisonment up to 10 years—but does little to raise
+  cheating costs upfront or lower rewards like government jobs and elite
+  admissions. It claims to 'prevent' yet offers no preventive measures, merely
+  deterring after vulnerabilities are exploited, requiring effective detection
+  and proof. States like Rajasthan, Haryana, Bihar, Gujarat, and Uttarakhand
+  with similar laws still suffer rampant paper leaks and cheating, exposing a
+  broken system. Root causes persist: over-reliance on high-stakes exams amid
+  poor education quality fuels coaching culture and cheating incentives. The
+  government bears liability for breaching candidates' trust, wasting their time
+  and money. Punishment alone cannot disincentivize cheating; preventive reforms
+  addressing systemic flaws are essential.
+key_points:
+  - >-
+    The Act lists offences and punishments but does not alter cost-reward
+    incentives driving candidates to cheat.
+  - >-
+    Similar state anti-cheating laws in Rajasthan, Haryana, Bihar, Gujarat, and
+    Uttarakhand have failed to curb paper leaks and rampant cheating.
+  - >-
+    High exam stakes for jobs and admissions, coupled with poor education
+    quality and coaching proliferation, sustain strong cheating incentives.
+  - >-
+    Government is liable for exam breaches, as candidates entrust it with fair
+    conduct after paying fees.
+  - >-
+    Prevention measures, beyond post-facto deterrence, are needed to truly stop
+    unfair means in public exams.
+topics:
+  - public-exams
+  - exam-cheating
+  - incentives
+  - education-reform
+source_hash: f36bca0136f7eec2705a80a508469cfe8389d949c3bafce8dfcbab4532469140
+summary_hash: f36bca0136f7eec2705a80a508469cfe8389d949c3bafce8dfcbab4532469140
+summary_at: '2026-05-05T08:57:04.938Z'
 ---
 **By Meena Kumari**
 

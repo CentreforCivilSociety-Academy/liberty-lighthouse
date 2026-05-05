@@ -1,19 +1,59 @@
 ---
 title: 'Explained: What is Universal Basic Income?'
 original_url: 'https://www.spontaneousorder.in/p/explained-what-is-universal-basic-income'
+author: Spontaneous Order
 published_at: '2019-02-15T10:36:40.000Z'
 ingested_at: '2026-05-05T08:31:42.505Z'
-source_hash: c9a27b0eb659759a9ca6f698051e125da59c2fb5c66eec82f38c171c8213b92e
-author: Spontaneous Order
 excerpt: >-
   In the 2016-2017 Economic Survey of India, the then Chief Economic Advisor,
   Arvind Subramanian had floated the idea of a possible Universal Basic Income
   (UBI) in the near future. In fact, the survey had an entire chapter dedicated
   to it titled “Universa
+summary: >-
+  The post explains Universal Basic Income (UBI) as a classical-liberal inspired
+  alternative to India's inefficient, leaky welfare schemes like PDS (40%
+  beneficiaries miss out) and MGNREGS (65% non-receipt), proposing universal,
+  unconditional direct cash transfers to combat poverty affecting 22% of the
+  population (second largest globally after Nigeria). Drawing from the 2016-2017
+  Economic Survey, it highlights UBI's potential to meet basic needs, empower
+  the poor by enabling job choices away from hazardous work, act as insurance
+  against shocks (50% rural households affected), and address future automation
+  displacing 15-30% of workforce. Experiments in Kenya, Canada, India (tribal
+  villages: 73% debt reduction, women empowerment), and others show improved
+  food security, health, education, cognitive function, and no labor supply drop
+  or rise in 'temptation goods'. Affordability is key: 1.6% GDP to halve poverty
+  to 9%, funded by reallocating 5% GDP from targeted schemes that poorly serve
+  the poorest districts. Countering moral hazard fears, evidence from
+  Switzerland referendum critiques and global studies supports feasibility.
+  Rahul Gandhi's 2019 minimum income promise warrants scrutiny on targeting and
+  delivery. The way forward: more Indian pilots to tailor UBI amid
+  socio-economic inequalities, prioritizing efficiency over paternalism.
+key_points:
+  - >-
+    UBI reduces poverty by providing direct cash to all, bypassing inefficient
+    schemes where 40% of PDS and 65% of MGNREGS benefits fail to reach targets.
+  - >-
+    Experiments in Kenya, Canada, and Indian villages demonstrate UBI boosts
+    health, education, empowerment, and farm investments without cutting labor
+    supply.
+  - >-
+    UBI costs 1.6% of GDP to cut India's poverty from 22% to 9%, fundable by
+    reallocating from 5% GDP welfare and middle-class subsidies.
+  - >-
+    Myths of increased vices or laziness are debunked by meta-analyses and
+    Economic Survey data showing opposite effects.
+topics:
+  - universal-basic-income
+  - poverty-alleviation
+  - welfare-reform
+  - economic-policy
 tags:
   - UBI
   - Universal Basic Income
   - Economic Survey of India
+source_hash: c9a27b0eb659759a9ca6f698051e125da59c2fb5c66eec82f38c171c8213b92e
+summary_hash: c9a27b0eb659759a9ca6f698051e125da59c2fb5c66eec82f38c171c8213b92e
+summary_at: '2026-05-05T09:49:59.421Z'
 ---
 **By Spontaneous Order**
 

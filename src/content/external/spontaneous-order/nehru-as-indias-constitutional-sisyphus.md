@@ -1,15 +1,57 @@
 ---
 title: Nehru as India’s Constitutional Sisyphus
 original_url: 'https://www.spontaneousorder.in/p/nehru-as-indias-constitutional-sisyphus'
+author: Spontaneous Order
 published_at: '2023-12-12T10:31:17.000Z'
 ingested_at: '2026-05-05T08:31:42.234Z'
-source_hash: d59bf7828cf99bf9ea1394a6f1eb05b6d9323c7fab098b8c9529f116d728492c
-author: Spontaneous Order
 excerpt: >-
   Jawaharlal Nehru played a luminous role in planting the Kalpavriksha of
   constitutionalism in India, but by steering the First Amendment, he cut the
   very taproot of it. We must respect the judiciary, the Supreme Court and the
   other High Courts in the lan..
+summary: >-
+  Jawaharlal Nehru championed constitutionalism in India's founding,
+  contributing to the 1931 Karachi Resolution demanding free speech, the 1946-47
+  Objective Resolution emphasizing popular sovereignty and freedoms, and
+  praising judicial independence in 1949. However, he undermined this by
+  piloting the Constitution (First Amendment) Act of 1951, invalidating Supreme
+  Court rulings just 16 months after the Constitution's adoption. Courts had
+  struck down bans on magazines like Romesh Thapar's Crossroads (Madras, 1950)
+  and K.R. Malkani's Organizer (Delhi, 1949) under public order laws, and deemed
+  sedition (IPC Section 124A) unconstitutional in Tara Singh v. State of Punjab
+  (1951), upholding Article 19(2) limits strictly. Nehru's amendment expanded
+  restrictions to include 'security of the State,' 'friendly relations with
+  foreign states,' and 'public order,' introduced the Ninth Schedule shielding
+  laws from review, and passed 228-20 despite opposition warning of
+  authoritarianism. The author frames this as Nehru cutting the 'taproot' of
+  constitutionalism—a social contract limiting state power via judicial review
+  and rights supremacy—turning him into a Sisyphus who planted the Kalpavriksha
+  only to uproot it, enabling repressive laws and parliamentary dominance over
+  fundamental rights.
+key_points:
+  - >-
+    Nehru's First Amendment invalidated Supreme Court protections of free speech
+    in Crossroads and Organizer cases, expanding Article 19(2) restrictions.
+  - >-
+    The Ninth Schedule emasculated judicial review, shielding laws from
+    constitutional scrutiny.
+  - >-
+    Early court rulings, including Tara Singh (1951), struck down sedition and
+    broad public order curbs as violating Article 19.
+  - >-
+    Opponents like Shyama Prasad Mookerji and HN Kunzru warned the amendment
+    effectively repealed free speech guarantees.
+  - >-
+    President Rajendra Prasad lamented the assault on Part III Fundamental
+    Rights, foundational to constitutionalism.
+topics:
+  - constitutionalism
+  - first-amendment
+  - free-speech
+  - judicial-review
+source_hash: d59bf7828cf99bf9ea1394a6f1eb05b6d9323c7fab098b8c9529f116d728492c
+summary_hash: d59bf7828cf99bf9ea1394a6f1eb05b6d9323c7fab098b8c9529f116d728492c
+summary_at: '2026-05-05T11:01:47.479Z'
 ---
 **By Faisal C K**
 

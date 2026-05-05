@@ -2,20 +2,56 @@
 title: 'Global Financial Crisis: A Perspective from India'
 original_url: >-
   https://www.spontaneousorder.in/p/global-financial-crisis-a-perspective-from-india
+author: Spontaneous Order
 published_at: '2009-12-10T22:55:16.000Z'
 ingested_at: '2026-05-05T08:31:42.658Z'
-source_hash: 9236a9456c0c581509c6df25acd703d4c966611d369b372718aed05b9408614a
-author: Spontaneous Order
 excerpt: >-
   In the last two years we’ve heard a lot about the global financial crisis. Two
   years hence we now need to ask how the global financial crisis effected India
   and why? The global financial crisis effected India in one way and in a
   another way it did not.
+summary: >-
+  The 2008 global financial crisis adversely impacted India through a 12.1%
+  year-on-year export drop in Q2 2008—the first in seven years—straining the
+  textile sector (17% of exports), a $12 billion foreign institutional
+  investment outflow hitting stocks, and credit shortages affecting SMEs,
+  infrastructure, real estate, and IT reliant on banking. Despite this, India
+  achieved ~6% growth across three quarters post-2007-08's 9%, exceeding World
+  Bank's 4% forecast for 2009, with over-borrowed corporates surviving sans
+  bailouts and stocks rebounding from 8,160 (March 2009) to 17,223 (October
+  2009), drawing $1 billion inflows in May 2009. Resilience stemmed primarily
+  from banks avoiding toxic US mortgage-backed securities and credit default
+  swaps, high forex reserves cushioning outflows, well-capitalized firms, stable
+  remittances and FDI, and unaffected public/private banks preserving payments.
+  Government responses included RBI rate cuts, rupee depreciation (Rs40-52/$),
+  eased borrowing, excise duty cut, and three stimulus packages (~$204B budget)
+  funneled to rural schemes like NREGS, PMGSY, JNNURM—sectors minimally
+  hit—raising doubts on fiscal stimulus efficacy amid forward/backward linkages.
+  From a classical-liberal lens, structural market strengths, not expansive
+  deficits, blunted the crisis; future safeguards demand probing crisis roots.
+key_points:
+  - >-
+    India's exports fell 12.1% in Q2 2008 due to global demand drop, hitting
+    textiles hardest.
+  - >-
+    India sustained 6% growth post-crisis, outperforming forecasts, thanks to
+    avoidance of toxic assets and strong reserves.
+  - >-
+    Fiscal stimulus targeted rural/infrastructure sectors largely unaffected by
+    crisis, questioning its causal role in recovery.
+topics:
+  - global-financial-crisis
+  - indian-economy
+  - fiscal-stimulus
+  - economic-resilience
 tags:
   - NREGS
   - PMGSY
   - global financial crisis
   - fiscal budget
+source_hash: 9236a9456c0c581509c6df25acd703d4c966611d369b372718aed05b9408614a
+summary_hash: 9236a9456c0c581509c6df25acd703d4c966611d369b372718aed05b9408614a
+summary_at: '2026-05-05T10:03:48.008Z'
 ---
 **By Shreya**
 

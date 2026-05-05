@@ -1,15 +1,55 @@
 ---
 title: 'Right Act, Wrong Tack'
 original_url: 'https://www.spontaneousorder.in/p/right-act-wrong-tack'
+author: Spontaneous Order
 published_at: '2005-05-17T21:27:44.000Z'
 ingested_at: '2026-05-05T08:31:42.682Z'
-source_hash: e1574ac06c735f71b91920688847dbddb6b4734fa1ff75ccb4abffe0896a931f
-author: Spontaneous Order
 excerpt: >-
   CCS was invited by the Indian Express to comment on the Right to Information
   Bill, 2005 that was passed recently. The article printed on May 16, 2005 is
   reproduced over here. Right Act, Wrong TackUnder the new law the state’s duty
   to publish information
+summary: >-
+  The Right to Information (RTI) Bill, 2005, is a significant achievement but
+  takes the wrong tack by emphasizing the government's Duty to Furnish (DTF)
+  information on request rather than Duty to Publish (DTP) proactively, as
+  argued from a classical-liberal perspective prioritizing citizen empowerment
+  through automatic transparency. Section 4(b) mandates suo moto disclosure of
+  organizational functions and employee rules but omits critical items like
+  public contracts, disaster management projects, and official travel expenses.
+  In developed democracies, RTI works because most information is already
+  public, not due to penalties or adjudication. Ironically, the RTI Bill itself
+  was unavailable online or at departments post-passage on May 16, 2005,
+  requiring a request to access it. The Delhi RTI Act demonstrated DTP's impact:
+  public disclosure of ration supply details improved shop operations, prompting
+  monthly automatic publication and eliminating individual requests. Deletion of
+  Section 4(e), which required prior public notification of policies and
+  schemes, further weakens proactive disclosure. Civil society and
+  reformer-bureaucrats must push to integrate actionable DTP, ensuring the state
+  publishes all citizen-affecting information without prompting, transforming
+  RTI from a paper right into a high-quality democratic tool.
+key_points:
+  - >-
+    RTI Bill 2005 prioritizes Duty to Furnish on request over Duty to Publish
+    suo moto, omitting disclosures like contracts, disaster projects, and travel
+    expenses.
+  - >-
+    Delhi RTI Act's public ration supply data improved delivery, leading to
+    automatic monthly publication without individual requests.
+  - >-
+    Deletion of Section 4(e) removed prior public notification of government
+    actions like policies and schemes.
+  - >-
+    Civil society must advocate to make DTP actionable, committing government to
+    proactive publication of all relevant information.
+topics:
+  - rti-act
+  - transparency
+  - government-disclosure
+  - civil-society-advocacy
+source_hash: e1574ac06c735f71b91920688847dbddb6b4734fa1ff75ccb4abffe0896a931f
+summary_hash: e1574ac06c735f71b91920688847dbddb6b4734fa1ff75ccb4abffe0896a931f
+summary_at: '2026-05-05T11:27:26.711Z'
 ---
 **By Naveen Mandava**
 

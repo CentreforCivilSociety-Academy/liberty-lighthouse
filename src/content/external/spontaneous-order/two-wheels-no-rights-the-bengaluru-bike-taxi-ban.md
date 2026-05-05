@@ -2,20 +2,58 @@
 title: 'Two Wheels, No Rights: The Bengaluru Bike-Taxi Ban'
 original_url: >-
   https://www.spontaneousorder.in/p/two-wheels-no-rights-the-bengaluru-bike-taxi-ban
+author: Spontaneous Order
 published_at: '2026-03-13T11:48:49.000Z'
 ingested_at: '2026-05-05T08:31:42.217Z'
-source_hash: 2df3e1f55e9c50a4d449606a1a4eea0accd0a777f7c92a93b68303ed0bf4ba43
-author: Spontaneous Order
 excerpt: >-
   The recent controversy about the bike-taxi platforms in Bengaluru,
   particularly the case of Rapido, reveals a deeper conflict between
   technological innovation, giving autonomy to individuals seeking flexible
   work, v/s the interests of a few individuals ..
+summary: >-
+  The Karnataka High Court's ban on bike-taxi services like Rapido in Bengaluru,
+  due to the absence of notified rules under Section 93 of the Motor Vehicles
+  Act, exemplifies regulatory capture by auto-rickshaw and taxi unions
+  protecting their market privileges against innovative competition, as warned
+  by Adam Smith. This decision halted operations within six weeks, immediately
+  devastating over 1.2 lakh lower-income gig workers who earned ₹800–1,000 daily
+  by monetizing their motorcycles, forcing many into parcel delivery at half the
+  wages. Drawing on Hernando de Soto, the author argues this prevents the poor
+  from converting personal assets into productive capital, trapping wealth as
+  'dead' capital. Echoing Amartya Sen, such policies curtail human capabilities
+  and economic freedoms for gig workers and consumers like students, low-income
+  commuters, and women seeking affordable mobility. The classical-liberal
+  critique frames the conflict as prioritizing incumbent lobbies over individual
+  autonomy, innovation, and public choice, urging regulations that foster
+  competition and participation without foreclosing livelihoods for the least
+  powerful.
+key_points:
+  - >-
+    Karnataka High Court ruled bike-taxis illegal absent Section 93
+    notification, ordering halt within six weeks.
+  - >-
+    Over 1.2 lakh gig workers lost ₹800–1,000 daily earnings, shifting to
+    half-wage delivery jobs.
+  - >-
+    Transport unions pressure government to block competition, exemplifying
+    Smith's warnings on merchant monopolies.
+  - 'Bans prevent poor from using motorcycles as productive capital, per de Soto.'
+  - >-
+    Policies should expand freedoms for gig workers and consumers via
+    competition, not protectionism.
+topics:
+  - bike-taxis
+  - gig-economy
+  - regulatory-capture
+  - economic-freedom
 tags:
   - regulatory barriers
   - market
   - economic freedom
   - individual freedom
+source_hash: 2df3e1f55e9c50a4d449606a1a4eea0accd0a777f7c92a93b68303ed0bf4ba43
+summary_hash: 2df3e1f55e9c50a4d449606a1a4eea0accd0a777f7c92a93b68303ed0bf4ba43
+summary_at: '2026-05-05T12:47:42.372Z'
 ---
 **By Abhinav Bhatia**
 

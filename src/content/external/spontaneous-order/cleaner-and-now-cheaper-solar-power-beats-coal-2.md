@@ -2,17 +2,53 @@
 title: 'Cleaner, and now cheaper: Solar power beats coal'
 original_url: >-
   https://www.spontaneousorder.in/p/cleaner-and-now-cheaper-solar-power-beats-coal-2
+author: Spontaneous Order
 published_at: '2021-05-31T10:05:24.000Z'
 ingested_at: '2026-05-05T08:31:42.315Z'
-source_hash: bcd4eaa278d8b969158311d6e086a15b76fe31cdf37923892ad5ed052eb24b1c
-author: Spontaneous Order
 excerpt: >-
   The Covid crisis has diverted attention from a major breakthrough that should
   leave all smiling. The latest auction for 400 MW of solar power, including
   storage, has been won by ReNew Power with a levelised tariff of Rs 3.52/unit
   over 15 years. The equi..
+summary: >-
+  Solar power with storage has achieved a breakthrough by winning a 400 MW
+  auction at a levelised tariff of Rs 3.52 per unit over 15 years, beating
+  coal-based thermal power's Rs 4.5 per unit even without coal taxes or cesses,
+  enabling a market-driven shift to renewables without subsidies. This deal by
+  ReNew Power includes lithium-ion batteries for 80% annual capacity utilisation
+  (not less than 70% monthly), matching thermal efficiency while being cheaper,
+  unlike earlier auctions like Bhadla's Rs 2.44 per unit without storage. From a
+  classical-liberal viewpoint, falling solar panel prices and storage
+  advancements make solar the future of bulk power generation, with coal limited
+  to backup and old inefficient plants replaced by efficient ones, implying
+  stable emissions without carbon taxes. Thermal plants' forced back-down to
+  55-58% utilisation from 75% necessitates new tariff formulas for idled
+  capacity. High Indian interest rates of 10-11% (vs 4% in Middle East) inflate
+  costs; cheaper finance via World Bank loans to PFC/REC, guarantees, BRICS
+  Bank, and AIIB could drop tariffs to Rs 2 per unit, boosting competitiveness.
+key_points:
+  - >-
+    ReNew Power won 400 MW solar-plus-storage at Rs 3.52/unit, cheaper than
+    thermal power's Rs 4.5/unit without subsidies.
+  - >-
+    Solar with storage achieves 80% capacity utilisation, matching thermal
+    plants economically.
+  - >-
+    India's shift to solar requires no carbon taxes; coal serves only as backup
+    with stable emissions.
+  - >-
+    High 10-11% interest rates burden solar; tap World Bank loans and guarantees
+    for cheaper finance to reach Rs 2/unit.
+topics:
+  - solar-power
+  - renewable-energy
+  - energy-policy
+  - power-financing
 tags:
   - Solar Energy
+source_hash: bcd4eaa278d8b969158311d6e086a15b76fe31cdf37923892ad5ed052eb24b1c
+summary_hash: bcd4eaa278d8b969158311d6e086a15b76fe31cdf37923892ad5ed052eb24b1c
+summary_at: '2026-05-05T09:23:30.495Z'
 ---
 **By Swaminathan SA Aiyer**
 

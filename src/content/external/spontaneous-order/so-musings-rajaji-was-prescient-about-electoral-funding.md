@@ -2,15 +2,57 @@
 title: 'SO Musings: Rajaji Was Prescient About Electoral Funding'
 original_url: >-
   https://www.spontaneousorder.in/p/so-musings-rajaji-was-prescient-about-electoral-funding
+author: Spontaneous Order
 published_at: '2020-06-12T15:29:49.000Z'
 ingested_at: '2026-05-05T08:31:42.411Z'
-source_hash: 35bc68a76a48dacd41797adb5833c0afe375eae6f3e460a92d92648c2c78f0c7
-author: Spontaneous Order
 excerpt: >-
   The post-1947 polity in India was characterised by the dominance of a single
   party or the ‘Congress System’, as the political scientist Rajni Kothari
   termed it. The single-party dominated democracy went together with the
   state-controlled planned econo
+summary: >-
+  In post-1947 India, the Congress System dominated politics alongside a
+  state-controlled planned economy, where corporate houses funded the ruling
+  party through donations in exchange for favors via the permit-license-raj,
+  stifling competition in both electoral and economic spheres. This win-win for
+  big business and Congress persisted until 1967 but risked totalitarianism, as
+  warned by critics like C. Rajagopalachari (Rajaji). In his 1968 column, Rajaji
+  presciently argued that expensive elections force candidates to depend on
+  wealthy parties, entrenching the ruling party's nexus with business and
+  eroding legislative independence, as Edmund Burke advocated. To foster good
+  government, he insisted on immediate reforms to make elections 'dead cheap,'
+  enabling poor but meritorious, public-spirited independents to contest without
+  begging funds. Key proposals: Shift candidate expenses (like those the state
+  should bear) to public funding under an autonomous election board independent
+  of the executive, leveraging India's judiciary; discourage party dominance
+  absent from the Constitution; form an expert panel of retired officials to
+  devise measures, including preferential voting if needed. This
+  classical-liberal vision prioritizes merit over party machinery, checking the
+  'permit-licence-raj' and promoting true democracy amid India's poverty.
+key_points:
+  - >-
+    Expensive elections in India created dependence on wealthy parties,
+    perpetuating the Congress-ruling elite nexus via state controls like the
+    permit-license-raj.
+  - >-
+    Rajaji urged making elections inexpensive to enable independent, meritorious
+    candidates regardless of wealth, reducing party dominance.
+  - >-
+    State should bear candidate expenses through an autonomous board,
+    safeguarding against ruling party blandishments.
+  - >-
+    An expert panel of officials must immediately devise reforms, potentially
+    including preferential voting, to prioritize national welfare over
+    administrative ease.
+  - >-
+    Political parties, unmentioned in the Constitution, hinder India's
+    democracy; independents should be encouraged to prevent politics becoming a
+    preserve of the rich.
+topics:
+  - electoral-reform
+  - political-funding
+  - license-raj
+  - rajagopalachari
 tags:
   - SO Musings
   - Rajaji
@@ -19,6 +61,9 @@ tags:
   - Indian Liberal Tradition
   - Indian liberals
   - C Rajagopalachari
+source_hash: 35bc68a76a48dacd41797adb5833c0afe375eae6f3e460a92d92648c2c78f0c7
+summary_hash: 35bc68a76a48dacd41797adb5833c0afe375eae6f3e460a92d92648c2c78f0c7
+summary_at: '2026-05-05T12:00:20.980Z'
 ---
 **By Spontaneous Order**
 

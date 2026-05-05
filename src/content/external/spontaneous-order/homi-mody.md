@@ -1,15 +1,52 @@
 ---
 title: 'Homi Mody’s Liberalism: From Pro-Business to Pro-Market'
 original_url: 'https://www.spontaneousorder.in/p/homi-mody'
+author: Spontaneous Order
 published_at: '2020-03-12T12:26:42.000Z'
 ingested_at: '2026-05-05T08:31:42.436Z'
-source_hash: 0dc52284470385d067edc1f6d6d8a5edb1c03a3284323f1eb26f346b4d2e3b67
-author: Spontaneous Order
 excerpt: >-
   On the ideological inclinations of Indian business houses in the colonial era,
   Political Scientist Stanley Kochanek makes an interesting generalisation. The
   Bombay-based business houses sought to cooperate with the British Raj while
   the Marwaris were mo..
+summary: >-
+  Homi Mody, a Parsi businessman and constitutionalist liberal, represented
+  Bombay business interests during the colonial era, advocating protectionism,
+  tariff protections, and economic nationalism against free-market arguments, as
+  seen in the Mody-Lees Pact cartelizing textiles and his FICCI speeches
+  dismissing consumer interests. Influenced by mentors like Pherozeshah Mehta,
+  he prioritized constitutionalism over Gandhian mass politics, cooperating with
+  the Raj while protesting select policies like the Simon Commission.
+  Post-independence, amid rising state socialism via the 1948 Industrial Policy
+  Resolution, Second Five-Year Plan, and license-permit Raj, Mody shifted
+  critically, attacking excessive regulations, planning ambitions, and Nehru's
+  foreign policy in 1953-1965 speeches. He joined the Swatantra Party in 1959 as
+  treasurer, aligning with Rajaji and Masani to champion economic freedom,
+  democratic principles, and pro-Western stances against Congress dominance.
+  From the classical-liberal perspective, Mody's evolution from pro-business
+  protectionism to pro-market opposition reflects pragmatic adaptation to
+  statist threats, maintaining his core liberal instincts and wit amid risks to
+  business ties.
+key_points:
+  - >-
+    Homi Mody championed protectionism and economic nationalism in colonial
+    legislatures, criticizing free-trade consumer arguments as bogeys against
+    national industries.
+  - >-
+    Post-1947, Mody criticized the license-permit Raj, labor laws, and
+    overambitious Five-Year Plans for stifling private enterprise.
+  - >-
+    As Swatantra Party treasurer from 1959, Mody publicly opposed Congress
+    planning failures, socialist tones, and non-aligned foreign policy.
+  - >-
+    Mody's shift from pro-business to pro-market liberalism stemmed from
+    practical responses to India's statist turn, guided by unchanging
+    constitutionalist convictions.
+topics:
+  - swatantra-party
+  - indian-liberals
+  - pro-business
+  - economic-nationalism
 tags:
   - Minoo Masani
   - Homi Mody
@@ -17,6 +54,9 @@ tags:
   - Indian liberals
   - Swatantra Party
   - IndianLiberals.in
+source_hash: 0dc52284470385d067edc1f6d6d8a5edb1c03a3284323f1eb26f346b4d2e3b67
+summary_hash: 0dc52284470385d067edc1f6d6d8a5edb1c03a3284323f1eb26f346b4d2e3b67
+summary_at: '2026-05-05T10:10:27.325Z'
 ---
 **By Sanjeet Kashyap**
 

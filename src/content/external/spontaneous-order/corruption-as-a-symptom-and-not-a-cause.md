@@ -1,15 +1,56 @@
 ---
 title: Corruption as a symptom and not a cause!
 original_url: 'https://www.spontaneousorder.in/p/corruption-as-a-symptom-and-not-a-cause'
+author: Spontaneous Order
 published_at: '2005-05-13T21:30:16.000Z'
 ingested_at: '2026-05-05T08:31:42.683Z'
-source_hash: cc4f02d61814702849b10b5d2eb6aed120fab560ecae71f655c5030880298919
-author: Spontaneous Order
 excerpt: >-
   For long, CCS has argued most corruption in public affairs is an outcome of
   poorly designed rules and regulations, or rules which should have not been
   there in the first place. Education World, the only magazine on education in
   India takes a hard look a..
+summary: >-
+  CCS argues that corruption in Indian education is primarily a symptom of
+  poorly designed or unnecessary rules and regulations, rather than an inherent
+  moral failing, echoing a classical-liberal view that government monopoly in a
+  non-competitive market fosters flouting of rules. Drawing from Education
+  World, the post distinguishes financial corruption—such as kickbacks in
+  government school construction leading to shabby infrastructure, teachers'
+  salaries consuming 85-90% of meager outlays, and opaque budgets with per
+  capita spending of Rs.2,940 annually (Rs.245 monthly, $5.45; disputed by
+  author)—from extensive regulatory corruption including license-permit barriers
+  to private schools, textbook rackets from vernacular mandates, teacher
+  appointment/transfer bribes, inspection shakedowns, exam leaks, admission
+  rackets, merit hoax fueling coaching booms, obsolete syllabi, and 25% teacher
+  absenteeism (1 million daily). The author contends that regulatory causes
+  dominate because a single government agency controls the undeveloped market,
+  enabling 'jiski lathi uski bhains' (might is right). Efforts to curb financial
+  corruption are insufficient without addressing regulatory flaws and
+  introducing competition to undermine the monopoly.
+key_points:
+  - >-
+    Most corruption in education stems from regulatory barriers like licenses
+    and inspections rather than just financial graft.
+  - >-
+    Government monopoly in schooling creates non-competitive conditions where
+    rules are routinely flouted.
+  - >-
+    Private schools face stifling regulations despite demand from middle class,
+    blocking competition.
+  - >-
+    Teacher absenteeism affects 25% (1 million) in government schools daily due
+    to unaccountability.
+  - >-
+    Reform requires dismantling poor rules to enable market competition, not
+    just anti-corruption drives.
+topics:
+  - education
+  - corruption
+  - regulation
+  - government-monopoly
+source_hash: cc4f02d61814702849b10b5d2eb6aed120fab560ecae71f655c5030880298919
+summary_hash: cc4f02d61814702849b10b5d2eb6aed120fab560ecae71f655c5030880298919
+summary_at: '2026-05-05T09:26:19.031Z'
 ---
 **By Naveen Mandava**
 

@@ -2,18 +2,60 @@
 title: India’s trade policy is affecting agricultural trade
 original_url: >-
   https://www.spontaneousorder.in/p/indias-trade-policy-is-affecting-agricultural-trade
+author: Spontaneous Order
 published_at: '2021-01-29T11:45:02.000Z'
 ingested_at: '2026-05-05T08:31:42.352Z'
-source_hash: 05fb6a35980961f1862fda023aa2db416eef20ae97dd2a2ad025cb03f706835c
-author: Spontaneous Order
 excerpt: >-
   Recently, the final session of India’s seventh Trade Policy Review (TPR)
   concluded at the World Trade Organization (WTO) in Geneva, Switzerland. The
   TPR is an important mechanism under the WTO’s monitoring function in which
   member countries’ trade a
+summary: >-
+  India's seventh WTO Trade Policy Review (TPR) in 2021, following the 2015
+  review, reveals unchanged reliance on License Raj remnants like tariffs,
+  export taxes, minimum import prices, import/export restrictions, and
+  licensing, creating uncertainty for international traders through frequent
+  changes. The Essential Commodities Act classifies farm produce like onions as
+  essential, enabling annual export bans—such as the 2020 halt of in-transit
+  shipments to Bangladesh—damaging India's reliability as an exporter and
+  disincentivizing trade partnerships. WTO recommends ending 'stop and start'
+  policies on agricultural exports/imports to allow farmers objective crop
+  sowing decisions. Domestically, Minimum Support Price (MSP) procurement,
+  robust in Punjab and Haryana but weak elsewhere, distorts cropping patterns
+  toward government-procured wheat, rice, cotton, and sugar, away from pulses,
+  coarse grains, and oilseeds, exacerbating regional disparities. Fragmented
+  markets and poor infrastructure ensure farmers receive only a fraction of
+  consumer prices, with intermediaries capturing the rest. From a
+  classical-liberal viewpoint, these protectionist measures, designed for a
+  famine-hit era, undermine farmers' livelihoods and India's global trade
+  position; urgent reforms are needed.
+key_points:
+  - >-
+    India's trade policy instruments like tariffs and restrictions create trader
+    uncertainty via frequent changes, as noted in the 2021 WTO TPR.
+  - >-
+    Essential Commodities Act enables repeated onion export bans, harming
+    India's exporter reputation, e.g., 2020 Bangladesh shipments.
+  - >-
+    MSP procurement favors wheat and rice in states like Punjab and Haryana,
+    distorting cropping away from pulses and oilseeds.
+  - >-
+    WTO advises against erratic export/import policies to enable farmers'
+    rational crop decisions.
+  - >-
+    Protectionist policies rooted in food security harm farmers and trade;
+    reforms are essential.
+topics:
+  - trade-policy
+  - agricultural-trade
+  - minimum-support-price
+  - wto-review
 tags:
   - trade tariffs
   - WTO
+source_hash: 05fb6a35980961f1862fda023aa2db416eef20ae97dd2a2ad025cb03f706835c
+summary_hash: 05fb6a35980961f1862fda023aa2db416eef20ae97dd2a2ad025cb03f706835c
+summary_at: '2026-05-05T10:24:28.626Z'
 ---
 **By Swati Singh**
 
