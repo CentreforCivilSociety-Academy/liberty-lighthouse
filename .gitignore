@@ -15,7 +15,11 @@ pnpm-debug.log*
 
 # environment variables
 .env
+.env.local
 .env.production
+
+# fetcher output (regenerable; see scripts/ingest/spontaneous-order-fetch.ts)
+backlog.json
 
 # macOS-specific files
 .DS_Store
