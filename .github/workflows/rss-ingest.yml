@@ -1,0 +1,74 @@
+name: RSS ingest — Spontaneous Order
+
+# Currently manual-only. Once SPONTANEOUS_ORDER_RSS_URL is set as a repo secret
+# (or hardcoded below) and the importer is verified end-to-end, uncomment the
+# `schedule:` block to enable autonomous polling.
+on:
+  workflow_dispatch:
+    inputs:
+      rss_url:
+        description: "RSS feed URL (overrides the SPONTANEOUS_ORDER_RSS_URL secret)"
+        required: false
+        type: string
+      limit:
+        description: "Maximum number of items to ingest this run"
+        required: false
+        default: "100"
+        type: string
+      dry_run:
+        description: "Print what would be written, don't write files"
+        required: false
+        default: false
+        type: boolean
+  # schedule:
+  #   - cron: "0 * * * *"  # hourly
+
+permissions:
+  contents: write
+
+concurrency:
+  group: rss-ingest
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run ingester
+        env:
+          RSS_URL: ${{ github.event.inputs.rss_url || secrets.SPONTANEOUS_ORDER_RSS_URL }}
+          LIMIT: ${{ github.event.inputs.limit || '100' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          if [ -z "$RSS_URL" ]; then
+            echo "::error::No RSS URL provided. Set SPONTANEOUS_ORDER_RSS_URL repo secret or pass rss_url input."
+            exit 1
+          fi
+          ARGS="--rss-url $RSS_URL --limit $LIMIT"
+          if [ "$DRY_RUN" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          npm run ingest:rss -- $ARGS
+
+      - name: Commit and push if changed
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name "liberty-lighthouse-bot"
+          git config user.email "bot@liberty-lighthouse.local"
+          if [ -n "$(git status --porcelain src/content/external/spontaneous-order)" ]; then
+            git add src/content/external/spontaneous-order
+            git commit -m "Ingest Spontaneous Order RSS — $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No changes."
+          fi

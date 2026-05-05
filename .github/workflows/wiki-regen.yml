@@ -1,0 +1,81 @@
+name: Wiki regeneration
+
+# Manual-only until OPENROUTER_API_KEY is set as a repo secret and the
+# synthesise() function in scripts/ingest/wiki-regen.ts is implemented.
+# Then uncomment the `schedule:` block to enable autonomous regeneration.
+on:
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "Source filter: faqs, videos, glossary, spontaneous-order, ccs-books, or all"
+        required: false
+        default: "all"
+        type: string
+      limit:
+        description: "Maximum number of source files to process this run"
+        required: false
+        default: "50"
+        type: string
+      model:
+        description: "OpenRouter model id"
+        required: false
+        default: "openrouter/anthropic/claude-sonnet-4.6"
+        type: string
+      dry_run:
+        description: "Print what would be written, don't write files"
+        required: false
+        default: false
+        type: boolean
+  # schedule:
+  #   - cron: "0 4 * * *"  # daily at 04:00 UTC
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wiki-regen
+  cancel-in-progress: false
+
+jobs:
+  regen:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run wiki regenerator
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          SOURCE: ${{ github.event.inputs.source || 'all' }}
+          LIMIT: ${{ github.event.inputs.limit || '50' }}
+          MODEL: ${{ github.event.inputs.model || 'openrouter/anthropic/claude-sonnet-4.6' }}
+          DRY_RUN: ${{ github.event.inputs.dry_run || 'false' }}
+        run: |
+          if [ -z "$OPENROUTER_API_KEY" ]; then
+            echo "::warning::OPENROUTER_API_KEY not set. Script will run but won't synthesise anything."
+          fi
+          ARGS="--source $SOURCE --limit $LIMIT --model $MODEL"
+          if [ "$DRY_RUN" = "true" ]; then ARGS="$ARGS --dry-run"; fi
+          npm run ingest:wiki -- $ARGS
+
+      - name: Commit and push if changed
+        if: ${{ github.event.inputs.dry_run != 'true' }}
+        run: |
+          git config user.name "liberty-lighthouse-bot"
+          git config user.email "bot@liberty-lighthouse.local"
+          if [ -n "$(git status --porcelain src/content/wiki)" ]; then
+            git add src/content/wiki
+            git commit -m "Wiki regen — $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "No changes."
+          fi
