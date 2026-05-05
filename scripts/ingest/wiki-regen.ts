@@ -56,10 +56,31 @@ interface SourceFile {
   path: string;
 }
 
+async function walkMdxFiles(
+  dir: string,
+  onFile: (filePath: string, relPath: string) => Promise<void>,
+  base = dir,
+): Promise<void> {
+  const { readdir } = await import('node:fs/promises');
+  let entries: { name: string; isDirectory(): boolean; isFile(): boolean }[] = [];
+  try {
+    entries = await readdir(dir, { withFileTypes: true });
+  } catch {
+    return;
+  }
+  for (const e of entries) {
+    const full = join(dir, e.name);
+    const rel = full.slice(base.length + 1);
+    if (e.isDirectory()) await walkMdxFiles(full, onFile, base);
+    else if (e.isFile() && full.endsWith('.mdx')) await onFile(full, rel);
+  }
+}
+
 async function collectSources(filter: string): Promise<SourceFile[]> {
   const out: SourceFile[] = [];
-  const wanted =
-    filter === 'all' ? Object.keys(SOURCE_DIRS) : [filter];
+  const wanted = filter === 'all' ? Object.keys(SOURCE_DIRS) : [filter];
+  const { readFile } = await import('node:fs/promises');
+
   for (const collection of wanted) {
     const rel = SOURCE_DIRS[collection];
     if (!rel) {
@@ -67,19 +88,21 @@ async function collectSources(filter: string): Promise<SourceFile[]> {
       continue;
     }
     const dir = join(ROOT, rel);
-    const hashes = await loadFrontmatterHashes(dir);
-    // For sources without source_hash in frontmatter (e.g. internal collections
-    // we authored by hand), hash the raw file content instead.
-    const idsSeen = new Set(hashes.keys());
-    for (const [id, hash] of hashes) {
-      out.push({ collection, id, hash, path: join(dir, `${id}.mdx`) });
-    }
-    // Note: this scaffold does not walk the directory for files missing
-    // source_hash. The wiki regen on the internal corpus would need to
-    // hash file contents directly — left as a TODO until the LLM call lands.
-    if (idsSeen.size === 0) {
-      logStep(`(${collection}: no source_hash entries — internal-corpus hashing is a TODO)`);
-    }
+    const fmHashes = await loadFrontmatterHashes(dir);
+
+    let count = 0;
+    await walkMdxFiles(dir, async (path, relPath) => {
+      const id = relPath.replace(/\.mdx$/, '');
+      const fmHash = fmHashes.get(id);
+      // Prefer the source_hash recorded by the ingester (which hashes the
+      // upstream HTML, so it survives reformatting). Fall back to hashing the
+      // local file contents for hand-authored sources.
+      const hash = fmHash ?? sha256(await readFile(path, 'utf8'));
+      out.push({ collection, id, hash, path });
+      count++;
+    });
+
+    logStep(`${collection}: ${count} source file(s)`);
   }
   return out;
 }
@@ -95,31 +118,155 @@ interface WikiEntry {
   sources: string[];
 }
 
-/**
- * Placeholder: synthesise wiki entries from a source file.
- *
- * Real implementation should:
- *   - Load OpenRouter API key from env (OPENROUTER_API_KEY).
- *   - POST to https://openrouter.ai/api/v1/chat/completions with a system
- *     prompt asking for a JSON array of WikiEntry objects.
- *   - Parse, validate, and return.
- *
- * Until that's wired up, this stub returns [] so the rest of the pipeline
- * (hash-skip, file I/O) can be exercised end-to-end without spending tokens.
- */
+const SYNTH_SYSTEM_PROMPT = `You are an autonomous wiki-builder for Liberty Lighthouse, a classical-liberal public-education project by the Centre for Civil Society in India. Your job is to read one source document at a time and propose distinct WIKI ENTITY pages — concepts, persons, institutions, policies, or events that deserve a standalone wiki entry because they appear (or are likely to appear) across multiple sources in the corpus.
+
+Output a JSON array of entity objects. Schema for each:
+{
+  "slug": "kebab-case-slug",   // unique, stable across runs
+  "name": "Canonical Name",     // human-readable
+  "type": "entity",             // always "entity" for now
+  "description": "One sentence (max 200 chars).",
+  "body": "200-400 word markdown summary, neutral tone, no editorial framing beyond what the source provides.",
+  "related_terms": ["related-glossary-slug-1", ...],   // optional
+  "related_faqs": ["topic/faq-slug", ...]              // optional
+}
+
+Hard rules:
+- Output ONLY a JSON array. No prose before or after. No markdown code fences.
+- Do NOT propose entity pages for trivial mentions. Each entity should be substantive enough that an agent looking for it would expect a dedicated page.
+- Aim for 0–4 entities per source. A source can legitimately produce zero.
+- Body must be self-contained: an agent reading just the body should understand what the entity is.
+- Slugs are kebab-case English, ASCII-only.
+- Do not invent facts. If a source mentions an entity in passing without enough detail to write 200 words, skip it.
+
+If the source contributes no new entities, return: []`;
+
+interface OpenRouterResponse {
+  choices?: Array<{ message?: { content?: string } }>;
+  error?: { message?: string };
+}
+
+async function readSourceText(source: SourceFile): Promise<string> {
+  try {
+    const { readFile } = await import('node:fs/promises');
+    const raw = await readFile(source.path, 'utf8');
+    const matter = (await import('gray-matter')).default;
+    const parsed = matter(raw);
+    const fmText = JSON.stringify(parsed.data, null, 2);
+    return `Source: ${source.collection}/${source.id}\n\n# Frontmatter\n${fmText}\n\n# Body\n${parsed.content}`;
+  } catch (err) {
+    logWarn(`could not read source ${source.path}: ${(err as Error).message}`);
+    return '';
+  }
+}
+
+function parseSynthOutput(raw: string): WikiEntry[] {
+  // Lenient parser: tolerate code fences, leading/trailing prose, and a
+  // single object instead of an array (some models will return that even
+  // when asked for an array).
+  let text = raw.trim();
+  const fence = /```(?:json)?\s*([\s\S]*?)```/.exec(text);
+  if (fence) text = fence[1].trim();
+
+  let parsed: unknown = null;
+  // Try array first.
+  const arrStart = text.indexOf('[');
+  const arrEnd = text.lastIndexOf(']');
+  if (arrStart !== -1 && arrEnd > arrStart) {
+    try {
+      parsed = JSON.parse(text.slice(arrStart, arrEnd + 1));
+    } catch {}
+  }
+  // Fall back to a single object.
+  if (parsed === null) {
+    const objStart = text.indexOf('{');
+    const objEnd = text.lastIndexOf('}');
+    if (objStart !== -1 && objEnd > objStart) {
+      try {
+        const obj = JSON.parse(text.slice(objStart, objEnd + 1));
+        // The model may wrap in {entities: [...]} too.
+        if (obj && Array.isArray(obj.entities)) parsed = obj.entities;
+        else if (obj) parsed = [obj];
+      } catch {}
+    }
+  }
+  if (parsed === null) return [];
+  const list = Array.isArray(parsed) ? parsed : [parsed];
+
+  return list
+    .filter(
+      (e: any) =>
+        e &&
+        typeof e.slug === 'string' &&
+        typeof e.name === 'string' &&
+        typeof e.description === 'string' &&
+        typeof e.body === 'string',
+    )
+    .map((e: any) => ({
+      type: e.type === 'topic_summary' || e.type === 'comparison' ? e.type : 'entity',
+      slug: String(e.slug),
+      name: String(e.name),
+      description: String(e.description),
+      body: String(e.body),
+      related_terms: Array.isArray(e.related_terms) ? e.related_terms.map(String) : [],
+      related_faqs: Array.isArray(e.related_faqs) ? e.related_faqs.map(String) : [],
+      sources: [],
+    }));
+}
+
 async function synthesise(
   source: SourceFile,
-  _model: string,
+  model: string,
   apiKey: string | undefined,
 ): Promise<WikiEntry[]> {
   if (!apiKey) {
     logStep(`(no OPENROUTER_API_KEY set — skipping LLM synthesis for ${source.collection}/${source.id})`);
     return [];
   }
-  // TODO: implement OpenRouter call. See scripts/ingest/README.md for the
-  // prompt design once finalised.
-  logStep(`(synthesise stub — would call LLM for ${source.collection}/${source.id})`);
-  return [];
+  const sourceText = await readSourceText(source);
+  if (!sourceText) return [];
+
+  const r = await fetch('https://openrouter.ai/api/v1/chat/completions', {
+    method: 'POST',
+    headers: {
+      Authorization: `Bearer ${apiKey}`,
+      'Content-Type': 'application/json',
+      'HTTP-Referer': 'https://liberty-lighthouse.vercel.app',
+      'X-Title': 'Liberty Lighthouse wiki-regen',
+    },
+    body: JSON.stringify({
+      model,
+      messages: [
+        { role: 'system', content: SYNTH_SYSTEM_PROMPT },
+        { role: 'user', content: sourceText },
+      ],
+      temperature: 0.2,
+      // We want an array; json_object would coerce some providers to a single
+      // object. Rely on the prompt instead and parse leniently.
+    }),
+  });
+
+  if (!r.ok) {
+    const text = await r.text().catch(() => '');
+    logWarn(`OpenRouter ${r.status} for ${source.collection}/${source.id}: ${text.slice(0, 200)}`);
+    return [];
+  }
+  const data = (await r.json()) as OpenRouterResponse;
+  if (data.error) {
+    logWarn(`OpenRouter error for ${source.collection}/${source.id}: ${data.error.message}`);
+    return [];
+  }
+  const content = data.choices?.[0]?.message?.content ?? '';
+  if (process.env.WIKI_REGEN_DEBUG) {
+    logStep(`raw LLM response for ${source.collection}/${source.id}:`);
+    // eslint-disable-next-line no-console
+    console.log(content);
+  }
+  const entries = parseSynthOutput(content);
+  if (entries.length === 0) {
+    logStep(`(no entities synthesised from ${source.collection}/${source.id})`);
+  }
+  return entries;
 }
 
 async function main() {
