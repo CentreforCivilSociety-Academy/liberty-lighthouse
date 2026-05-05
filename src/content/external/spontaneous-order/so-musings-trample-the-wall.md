@@ -1,0 +1,47 @@
+---
+title: 'SO Musings: Trample the Wall'
+original_url: 'https://www.spontaneousorder.in/p/so-musings-trample-the-wall'
+published_at: '2020-05-08T12:45:40.000Z'
+ingested_at: '2026-05-05T08:31:42.421Z'
+source_hash: ed2fecb83a919f3cc05552498287664a5ef081c19ef882046ebbd1df328cb51b
+author: Spontaneous Order
+excerpt: >-
+  The recent rise of right-wing strongmen and left-wing populists around the
+  globe threaten the liberal world order premised on free trade, rule of law,
+  human rights, and individual liberty. In the US, both the left-wing Bernie
+  Sanders and right-wing Dona..
+tags:
+  - SO Musings
+  - Germany
+  - West Berlin
+  - Communism
+  - Indian Liberal Tradition
+  - Indian liberals
+  - East Berlin
+  - Capitalism
+---
+**By Spontaneous Order**
+
+* * *
+
+*The recent rise of right-wing strongmen and left-wing populists around the globe threaten the liberal world order premised on free trade, rule of law, human rights, and individual liberty. In the US, [both](http://bleedingheartlibertarians.com/2018/09/in-defense-of-openness-excerpt/) the left-wing Bernie Sanders and right-wing Donald Trump oppose the free movement of immigrants and by extension their bid for a dignified life.*
+
+*As the liberal values of freedom come under attack with the erection of walls on borders and hostile public discourse, it is imperative for liberals to push back. And what better way to do that than offering a lesson from history? Produced below is an excerpt from the 1962 reportage on the Berlin Wall published in the Freedom First magazine.* 
+
+*BK Desai recounts the life at the forefront of the Cold War in Berlin as the Berlin Wall had recently sprung up to divide the city between the capitalist and communist sphere of influence. The economic dynamism of the Western part in contrast to the staid Eastern Berlin offered a miniature natural experiment in history on the efficacy of Capitalism and Communism as an economic system. The reportage also captures the horrendous pain suffered by the Berliners as they sought to escape the misery of Communism even at the expense of putting their lives at risk.*
+
+A week before our arrival in West Berlin, the city was convulsed by the sudden explosion of an orgy of riots in which, for four days, thousands of West Berliners hurled rocks at East Berlin border guards, stoned Russian soldiers and shouted insults at American troops. The cause of this sudden outburst of violence was the tragic death of an eighteen-year-old East Berliner, Peter Fechter, who, while trying to cross the Wall, was shot by East Berlin border guards. Wounded by the bullets, he fell down from the Wall and was allowed slowly to bleed to death in full view of the crowd gathered on the Western side of the Wall who could do nothing but hopelessly watch his slow untended death from his wounds. Fechter was the fiftieth East German known to have been killed while trying to escape across the Wall. But the horrifying manner of his death suddenly spotlighted, for the West Berliners, the inhuman misery in which their 16 million countrymen were living behind the Wall, and the utter hopelessness of their own situation in the face of the brute power that was determined to retain its stranglehold over their countrymen in the Eastern zone.
+
+Fechter’s death also exposed the flabbiness of the Western position in Berlin. The American troops at the Checkpoint Charlie could have, if permitted, given medical aid to Fechter who was moaning helplessly for about half an hour before he succumbed to his injuries. But the fear of possible consequences of such an act rendered the American military authorities on the spot powerless. They refused, inspite of repeated requests from West Berliners, to extend the dying boy any medical assistance. This exaggerated fear of provoking the Soviet authorities into retaliatory measures has always paralysed the Western power at critical times and put them on the defensive. This has forced them to reduce their commitments in Berlin to the barest minimum and given the Soviets a free hand to accomplish their designs of piecemeal annexation of Berlin into the Soviet bloc.
+
+*The full text can be accessed [here](http://www.freedomfirst.in/uploads/issues/pdf/125.pdf)*.
+
+*[IndianLiberals.in](http://indianliberals.in/) is an online library of all Indian liberal writings, lectures and other materials in English and other Indian regional languages. The material that has been collected so far contains liberal commentary dating from the early 19th century till the present. The portal helps preserve an often unknown but very rich Indian liberal tradition and explain the relevance of the writings in today’s context.*
+
+Read more: [SO Musings: Replace the GDP](https://spontaneousorder.in/so-musing-replace-the-gdp/)
+
+* * *
+
+**About Spontaneous Order**
+
+A peep into modern Indian history by some of the finest liberal minds, who sought to shred the banality of pseudo-socialism in Independent India. In a country dominated by false political values, which had, in fact, no basis of existence neither in the independence movement or the native soil, SO brings out the dynamics of a political order that could have changed the country forever.

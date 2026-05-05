@@ -1,0 +1,78 @@
+---
+title: 'Policy Talks: Dushyant Chautala on MSMEs, Jobs and Migrant Labour'
+original_url: >-
+  https://www.spontaneousorder.in/p/policy-talks-dushyant-chautala-on-msmes-jobs-and-migrant-labour
+published_at: '2020-06-19T18:18:54.000Z'
+ingested_at: '2026-05-05T08:31:42.408Z'
+source_hash: 95d03d4ad1eb80f8a800c89b460661782eea3e743e29508854efe1d64afc60b3
+author: Spontaneous Order
+excerpt: >-
+  Intro: Haryana’s dynamic Deputy Chief Minister, Dushyant Chautala, is a young
+  man of action. He has set out to turn the Coronavirus pandemic into an
+  opportunity by introducing some of the most far-reaching reforms in
+  agriculture and industry. In an exha
+tags:
+  - small-scale private enterprise
+  - policymaking
+  - farmers' woes
+  - haryana
+  - free enterprise
+  - policy talks
+  - private enterprise
+  - labor emigration
+---
+**By Spontaneous Order**
+
+* * *
+
+**Intro:** Haryana’s dynamic Deputy Chief Minister, Dushyant Chautala, is a young man of action. He has set out to turn the Coronavirus pandemic into an opportunity by introducing some of the most far-reaching reforms in agriculture and industry. In an exhaustive interview with the Chief Executive Officer of the Centre for Civil Society (CSS), Yatish Rajawat, he outlines the steps taken by the state government to increase revenue, bailout MSMEs and pull the state back from the brink of a COVID-19 induced stupor.  
+
+**Yatish Rajawat:** Wheat procurement is in full swing but the process of lifting from the *mandis* is very slow. Since the farmers are paid only when wheat reaches the godowns, their payments have been delayed by a month. What are you doing to speed up this process?
+
+**Dushyant Chautala:** The question is very important because for the first time Haryana has changed its payment method. It was a one-way traffic with the *arthiyas* (commission agents) settling payments with the farmers. The system worked like this: *arthiyas* used to give the farmers small amounts whenever required, settling the whole payment due only after the procurement season, which lasted for one-and-a-half months or more. For the first time, a change was introduced to this system of payment by Haryana, which the central government had been pursuing for the last four years. In Haryana now, if the *arthiyas* have a settlement to conclude, the farmers can go ahead and conclude the transaction on their own. We had changed the system with the introduction of an application that provides for a processing period of two days for the *arthiyas* and another three days for them to settle the transactions and transfer money to the farmers. In the initial stages of this application, certain changes were requested by the *arthiyas* to make the process more seamless. Hence, it took us about 10 days to make the required changes to the software and the application.
+
+But now we’re back on track at full throttle, having paid our farmers till the 13th of this month with a set target to pay the rest till the 20th. Now, if you go check the online application *“Meri Fasal, Mera Byora”* you’ll notice that till very recently, wheat worth more than about ₹12,000 crores was received. Out of which more than approximately ₹9,000 crores was transferred to the *arthiyas.* Of this amount*,* ₹6,200 crores was further transferred to the farmers. Farmers have informed me personally that their due amounts of ₹2 lakhs, ₹4 lakhs etc. are being received by them, which is a big deal for our state. For the first time in the state’s history, farmers are getting full amounts for their crop within a period of just 10 to 15 days, which will be soon brought down to seven days. This was our target and we have finally achieved it. 
+
+Yes, there is a clause introduced by the Food Corporation of India (FCI), which states that if a farmer comes to the *mandi* to drop off wheat, the payment would not be made immediately. The farmer would first have to generate an i-form, which will permit the producer to be transferred from the *mandi* to the warehouse and once it’s been stacked up in the warehouse, the government will account for it as procured wheat. This delayed process came to our attention when we noted that four lakh metric tonnes (mt) of wheat was stored in warehouses. This is where I would like to thank the Government of India, as history was made when about 270-plus trains in a short span of 20 days, picked up the wheat product from our godowns and distributed it all across India. I believe this number would increase to about 315 trains in the next two days owing to the free distribution of foodgrain policy to the public distribution system (PDS) and non-PDS beneficiaries under the “Atma Nirbhar Bharat Abhiyan”. With this, Haryana has recorded a historic outflow of wheat by trains, i.e. approximately 19 trains sent in one day.
+
+Usually, changes made to the system such as these are not welcomed by the people and are criticised. But, in the last 25 days, we have received positive feedback from the people, which makes me believe that this was the first step towards meeting the goal of doubling farmers’ income that the PM has been emphasizing for the past five years.
+
+**YR:** Considering that the *arthiyas* act as middlemen between the government and the farmers that delays transactions, do you envisage a scenario in which a direct transfer of payment to the farmers is a possibility, somewhat similar to direct cash transfers that take place in schemes such as MNREGA ?
+
+**DC:** You must understand that not all farmers are connected with the *arthiyas.* There are several cases in which the farmers prefer to deal with the agencies independently due to which I had to assign MNREGA workers to perform the tasks of lifting and stacking up wheat bags. It is easier for us to make a direct transfer of payment in cases of direct procurements. But in cases of farmers who deliver us procurements through the *arthiyas* channel, the interest of the agents, who receive a commission of 2 % for their efforts, also needs to be taken into consideration.   
+
+**YR:** The only backward area of Haryana is Mewat district, where roughly 70,000 households are registered to be Below the Poverty Line (BPL), out of 1,92, 388 households. Mewat has also been declared a red zone. How do these families access PDS for their daily ration needs? Instead of distributing rations, has the government considered direct cash transfers?
+
+**DC:** This decision would lie with the Central Government since it comes under the National Food Security Act, 2013 (NFSA). We don’t just provide for the BPL families, but also the Antodaya Anna Yojana (AAY) and Other Priority Household (OPH) families. Now, after the proposal made by Haryana, the Central Government has initiated the Distress Ration Token (DRT) to offer free rations to non-residents of Haryana who don’t own ration cards. To consider direct cash transfers instead of distributing rations, the NFSA itself would require an amendment, the process for which can’t be taken up by the state government. Instead, we have streamlined the distribution process using a biometric system and e-Public Distribution System (Ration Card Management System). These are major changes. Due to COVID-19 we had to shut down our contact-enabled biometric systems and we are looking to iris scanners in the future. Now, the major obstacle in our way is to bring the other states within the system’s loop. 
+
+**YR:** There has been a mass exodus of migrant workers via Shramik trains and buses arranged by the government, as a result of which there is a severe shortage of labour especially in MSMEs, sowing and harvesting of crops and other industries that depend upon migrant workers. What steps will you take to bring these workers back?
+
+**DC:** This is a pan India crisis. This mass movement of migrant workers has led to high unemployment rates in a number of states, leaving many of them with a labour deficit. It’s too early to talk about paddy sowing and yielding at the moment because every year after the wheat season, workers migrate back to their hometowns and then return to Haryana during the paddy season in July. So, we still have a month to determine whether they would be returning. MSME is one sector where we need to push for migrant workers to come back. We have requested other states to provide us with data of workers, who are likely to return. After the introduction of the national portal providing e-passes, the interstate movement of these workers has eased. That has brought a large number of people back to work in the construction and industrial sector, online trade and e-commerce. About 50,000 such applications have been processed by us. We have received a large number of applications to resume business, out of which 33,00,000 people have already been permitted. While permissions have been granted, it would be an impossible task for us to scrutinise the actual number of workers who are turning up for work in every factory. The one good thing that did come out of the pandemic is that we have collected sufficient data about government workers. We will be launching the Rojgar portal in the next few days, which will help the unemployed who did not get an opportunity to work with private firms.
+
+**YR:** The lockdown has led to increased reduction in supply and demand of goods and thus the state income. What is the estimated state revenue? It was pegged at ₹22,350 crore at the beginning of the year. Considering that we have already lost out on a bulk of revenue in the first few months and with the economic crisis at hand, what is your anticipation of the state revenue and expenditure for the coming financial year?
+
+**DC:** This again is a nation-wide crisis and yes, we are looking for alternatives to tackle this situation. We have introduced a new enterprise promotion policy, which we need to draft for the years 2020-25. It will enable bigger industries to invest in our market, who, in turn, can generate about 10,000 jobs per industry. Recently, the Italian ambassador requested a webinar to discuss the prospects of Italian food processing units investing in Haryana. We’re planning on leasing out large chunks of land under the HSIIDC instead of just selling them off to industries. We have also been talking to panchayats with more than 500 acres of non-cultivable land lying vacant that could be leased out for a period of 20 years to gain additional revenues and to generate more jobs. We have also recently signed an MOU with a Chinese company that produces lithium-ion batteries called Amperex Technology Limited (ATL). This company wants to invest ₹7,500 crore in the Sohna district. We are also planning an aviation hub in Hisar after receiving clearance from the Directorate General of Civil Aviation (DGCA). Haryana, with the help of the central government, is going to build a railway corridor along the Kundli-Manesar-Palwal (KMP) Expressway, which will, again, lead to an industrial boost in the Haryana districts surrounding Delhi. These are some of the inputs and alternatives that we will use to boost our state revenue.
+
+**YR:** Talking about state expenditure, do you anticipate a different approach by the state government or will the central government step up its support to you? 
+
+**DC:** I feel that the Centre does need to step in times such as these, but the states also need to individually make cuts in their respective budgets. We have decided to reduce most of our miscellaneous expenditure. We understand, however, that states need to earn their own revenues since we cannot bank wholly on the central government to fund everything.
+
+**YC:** Many small industries facing the challenges of acquiring immediate liquidity, burdened by the inability to pay salaries and mounting labour deficit, would find it harder to get back on track as compared to the bigger industries. Is Haryana planning measures to alleviate hardships faced by MSMEs?
+
+**DC:** Our state has created a four-member committee with two additional members at the state level and a special directorate for MSMEs. At the district level, we have asked all our deputy commissioners to create a committee with people from GM industry, HSIIDC, Labour Department, local MSME members and a lead member representing all the banks in the district. This way, there will be a push towards continuous coordination between the banks and the MSMEs. We have also extended support to the banks in the form of extra working capital as they usually tend to overlook the smaller industries and focus on larger sectors. In addition, there is a provision introduced by the central government and the Reserve Bank of India that at least 25% of all the loans need to be diverted towards the agriculture sector and MSMEs. I believe these are the few steps that can help MSMEs.
+
+**YR:** One of the challenges faced by MSMEs is in the ease of doing business. The Union government has done a fair bit of work towards improving in that direction. Have you applied your government’s resources towards reforming the situation? 
+
+**DC:** Yes, absolutely. I am happy to state that Haryana is in the second position in The Ease of Doing Business ranking in India and we aim to occupy the top spot this year by introducing the Enterprise Promotion Policy. For MSME sectors, we will create 22 clusters in 22 districts, which will provide the special thrust needed. For example, Ambala produces scientific equipment, Rewari manufactures copper utensils, Yamunanagar produces plywood, etc. Looking at the current COVID-19 scenario, we can appoint one district to focus on a medical cluster that will get the government’s support in the form of finance and equipment. The district could work towards production of medical equipment and utilities and safety kits such as PPES, among others. This is how we are planning to support small sector industries.
+
+**YR:** Haryana’s unemployment rate has jumped to 18.1 percentage points, rising to 43.2% in April, which was greater than the national rate of 23.5%. Will the lockdown and pandemic affect the unemployment rate further? What are the strategies that the government is planning to prevent loss of jobs?
+
+DC: I have never understood how such derivatives are calculated. According to our statistics, we have registered about 2,000,000 people in the industrial sector and have listed about 5,00,000 unemployed workers who had never been registered before. These are registrations made by the industrial, construction and e-commerce sectors to resume their activities and are not those enlisted with the employment exchange or Saksham Yuva. We have directed the Employment and Skill Development Department and other industries to jointly form a task force with the help of the Rojgar Portal. We are looking at making it mandatory for each Haryana resident to apply for an employee exchange number to keep track of all employees in different sectors that will help in securing accurate unemployment data. Thus, I disagree with the numbers until the aforementioned steps are taken. 
+
+**YR:** Thank you for joining us today Dushyant *ji.* You have helped us understand how Haryana is coping with the pandemic and how it foresees the situation in the coming future. We wish all the very best in your endeavours. 
+
+* * *
+
+**About Spontaneous Order**
+
+A peep into modern Indian history by some of the finest liberal minds, who sought to shred the banality of pseudo-socialism in Independent India. In a country dominated by false political values, which had, in fact, no basis of existence neither in the independence movement or the native soil, SO brings out the dynamics of a political order that could have changed the country forever.

@@ -1,0 +1,37 @@
+---
+title: 'OUT OF SYNC: State as the organised manifestation of connoisseurs of art'
+original_url: >-
+  https://www.spontaneousorder.in/p/out-of-sync-state-as-the-organised-manifestation-of-connoisseurs-of-art
+published_at: '2005-05-23T22:01:29.000Z'
+ingested_at: '2026-05-05T08:31:42.679Z'
+source_hash: f38e253fabca2e7d14c9ff74757b6189678243c9180c87b6ef17328314eba60d
+author: Spontaneous Order
+excerpt: >-
+  “In a democratic regime, the arts can derive their sustenance only from the
+  people, and the state, as the organized manifestation of the people’s will,
+  must, therefore, undertake … maintenance and development [of arts] as one of
+  [its] first responsi
+---
+**By Sruthijith**
+
+* * *
+
+> “In a democratic regime, the arts can derive their sustenance only from the people, and the state, as the organized manifestation of the people’s will, must, therefore, undertake … maintenance and development \[of arts\] as one of \[its\] first responsibilities…” – Maulana Abdul Kalam Azad, Union Minister for Education, January 28, 1953 at the inauguration of Sangeet Natak Academy.
+
+Of late, drama has taken precedence over dance and music at the Indian state’s agency that is the vanguard of our cultural
+
+[
+
+![Sonal Mansingh](http://web.archive.org/web/20051122082142/http://www.motionsound.com/images/dances/indian/2odissi.jpg "Sonal Mansingh")
+
+
+
+](http://web.archive.org/web/20051122082142/http://www.motionsound.com/images/dances/indian/2odissi.jpg)
+
+heritage and through which it seeks to promote dance, music and drama. A spate of resignations by high profile artists who are office bearers of the academy have revealed that all isn’t song and dance at the Sangeet Natak Academy. The imbroglio, it appears, is over the chairman, the odissi exponent, padmabhushan Sonal Mansingh. A flurry of allegations have thrown up a lot of dirt this far with carnatic maestro Balamuralikrishna and the vice chairman of SNA, the ace playwright Kavalam Narayana Panicker putting in their papers over the highhandedness of Sonal in running the academy’s affairs. The artistic and creative community has also been divided on the issue with many standing by and others crucifying Sonal. Allegations of corruption, nepotism, arbitrariness and highhandedness have been raised against Sonal, who claims that she is being made a scapegoat by a nexus that is trying to run the academy as their personal fiefdom, for trying to clear up the mess that the academy has become. While it is hard to make out who is right and who is wrong or even if there is a right and a wrong at all, it is anybody’s guess that our state run institutions are plagued by ills that have aggravated beyond the convenient cures of stop-gap measures.
+
+[More..](http://web.archive.org/web/20051122082142/http://blog.ccsindia.org/mt/archives/2005/05/out_of_sync_sta.html#more)
+
+* * *
+
+**About Sruthijith**

@@ -1,0 +1,34 @@
+---
+title: CCS in Forbes India
+original_url: 'https://www.spontaneousorder.in/p/ccs-in-forbes-india'
+published_at: '2012-07-18T15:43:27.000Z'
+ingested_at: '2026-05-05T08:31:42.614Z'
+source_hash: a8fec3476e68b1d5b849567e2599280145dba010d7c3f9853029e9e5ebc3a582
+author: Spontaneous Order
+excerpt: >-
+  An article in Forbes India by Vipin P. Veetil and Bill Glod cite information
+  gathered at CCS among other sources. Echoing arguments I made in an earlier
+  post, they argue against Abhijit Banerjee and Esther Duflo of Poor Economics,
+  who “argue that govern
+tags:
+  - Forbes
+  - market economy
+  - CCS
+---
+**By Andrew Humphries**
+
+* * *
+
+An [article](http://forbesindia.com/article/special/mass-exit-from-poverty/33350/1) in Forbes India by Vipin P. Veetil and Bill Glod cite information gathered at CCS among other sources.
+
+Echoing arguments I made in an [earlier post](https://spontaneousorder.in/is-freedom-just-another-word/), they argue against Abhijit Banerjee and Esther Duflo of Poor Economics, who “argue that government intervention circumscribing choices can be beneficial and that ‘we are kidding ourselves if we think that these \[small\] businesses can pave the way for a mass exit from poverty.’ ”
+
+On the contrary, “cognitive limitation is not a cause of market failure. It is the very condition by which markets work….\[M\]arkets reduce the need for complete self-reliance in light of our limitations” and “allow specialisation that relieves a given actor of the need to make a plethora of decisions taxing her willpower and develop expertise in a particular area of decision making.” “Saying markets fail because of human cognitive limitations is akin to saying aircraft crash because of gravity.”
+
+Somehow people in Western Europe and North America became prosperous while other countries lagged behind.  [Overall experience](http://www.freetheworld.com/) confirms economic theory in showing that it is not markets that make people poor, but institutions that get in the way of or fail to facilitate markets in production and exchange.   Taking the example of water, the authors show that government failure, not market failure, is retarding the progress of poor people in Delhi.
+
+Read the whole of their article [here](http://forbesindia.com/article/special/mass-exit-from-poverty/33350/1).
+
+* * *
+
+**About Andrew Humphries**

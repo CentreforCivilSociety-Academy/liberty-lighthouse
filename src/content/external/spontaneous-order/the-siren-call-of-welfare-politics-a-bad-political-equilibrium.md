@@ -1,0 +1,71 @@
+---
+title: 'The Siren Call of Welfare Politics: A Bad Political Equilibrium'
+original_url: >-
+  https://www.spontaneousorder.in/p/the-siren-call-of-welfare-politics-a-bad-political-equilibrium
+published_at: '2023-06-06T17:06:35.000Z'
+ingested_at: '2026-05-05T08:31:42.242Z'
+source_hash: 6b996ef2185ebf705c8e8c9131e4e88ee15e4a3248bbf75fb7dce6412aaaee23
+author: Spontaneous Order
+excerpt: >-
+  The Indian National Congress’s (INC) recent victory in the Karnataka
+  elections, buoyed by an aggressive welfare agenda, has drawn applause from
+  many quarters. Supporters are touting this as a blueprint for success in the
+  2024 national elections, calling
+---
+**By Vibhu Vikramaditya**
+
+* * *
+
+The Indian National Congress’s (INC) recent victory in the Karnataka elections, buoyed by an aggressive [welfare](https://www.msn.com/en-in/news/other/karnataka-polls-people-of-state-have-decided-to-choose-welfare-oriented-govt-mallikarjun-kharge/ar-AA1aYLXf) agenda, has drawn applause from many quarters. [Supporters](https://www.thequint.com/opinion/welfare-politics-over-gandhis-karnataka-win-must-guide-congresss-2024-plan) are touting this as a blueprint for success in the 2024 national elections, calling for a nationwide extension of the welfare policies espoused in Karnataka.
+
+After Congress had won its decisive victory in Karnataka, its party leader Rahul [Gandhi](https://timesofindia.indiatimes.com/videos/toi-original/rahul-gandhi-vows-to-keep-the-5-promises-congress-made-in-election-rallies/videoshow/100211915.cms?from=mdr) reaffirmed the guarantees that were part of the party’s manifesto. The guarantees include free bus rides to women, ₹ 2,000 per month to women heads of families, ₹ 3,000 unemployment allowance to graduates, and ₹ 1,500 to diploma holders. The party will also give every household 10 kg of rice and 200 units of free power every month. Such commitments, while undoubtedly appealing to the public, foreshadow a considerable potential financial burden and potential inflationary pressures that could exert a destabilizing effect on the economy.
+
+The current scenario bears an uncanny resemblance to the political landscape during the transition from the Vajpayee-led Bharatiya Janata Party government to the INC-led United Progressive Alliance (UPA) government. The early Vajpayee years focused on structural reforms, fiscal consolidation, and infrastructure development. However, the INC’s welfare-oriented rhetoric in the subsequent elections outshone these efforts. The UPA government swept to power on the back of extensive welfare promises. It implemented several wide-ranging schemes that, while beneficial in the short term, led to fiscal strains and systemic inefficiencies, as mentioned previously. 
+
+***Welfare Politics: A Race to the Bottom***
+
+India, an emerging economic giant and the world’s largest democracy, boasts a complex and diverse political landscape. The country’s history is marked by a deep-rooted commitment to social welfare, inextricably linked to its political ethos. Welfare policies have often been used as powerful tools for political mobilization, shaping electoral dynamics, and influencing governance paradigms. However, it often leads to bad political equilibrium—a state of affairs compromising efficient economic decision-making and hampering long-term development.
+
+The period from 2004 to 2012 under the UPA, was a significant phase in the Indian political economy. This period was marked by an increase in subsidy-based politics, which, although intended to provide a safety net for the underprivileged, resulted in substantial fiscal strain and exacerbated systemic issues such as bureaucratic corruption and indebtedness. 
+
+Two major initiatives of the UPA government, the Mahatma Gandhi National Rural Employment Guarantee Act ([MGNREGA](https://mnregaweb4.nic.in/netnrega/MISreport4.aspx)) and the [Food Security Bill](https://prsindia.org/billtrack/the-national-food-security-bill-2011) epitomized their approach toward subsidy-based politics. While these initiatives were perceived as steps toward social equity, a deeper analysis reveals a more complicated picture. MGNREGA, which guarantees 100 days of wage employment in a year to every rural household, was hailed as a revolutionary step toward eliminating rural distress. However, the costs associated with the scheme were substantial, rising from around 0.3% of the gross domestic product (GDP) in 2006-07 to 0.6% in 2009-10, per the [Reserve Bank of India’s report](https://www.rbi.org.in/scripts/AnnualReportPublications.aspx?Id=1048).
+
+Furthermore, benefits from MGNREGA were often marginal because of systemic inefficiencies and corruption. The National Council for Applied Economic Research [found](https://www.ncaer.org/ncaer-microsites) that only about 32% of the total funds were actually received by poverty-stricken individuals in 2010. The rest were lost in leakages and misappropriation at various levels, indicating rampant low-level bureaucratic [corruption](https://www.jstor.org/stable/25664171).  Since 2010, the Indian government has introduced several measures to curb these leakages, especially in key welfare programs like MGNREGA and PDS such as the introduction of Aadhaar, a biometric-based unique identification number for individuals, and Direct Benefit Transfer with Adhar linked bank accounts. 
+
+However, the [implementation](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3045235) of this system, far from facilitating seamless access to benefits, has created additional hurdles for beneficiaries such as biometric failures and network issues that have denied rightful beneficiaries their entitlements, effectively contributing to the very leakage the system sought to prevent.
+
+The Food Security Bill aimed to provide subsidized food grains for approximately two-thirds of India’s [1.2](https://egazette.nic.in/WriteReadData/2013/E_29_2013_429.pdf) billion population. The estimated annual food subsidy bill was projected at around [1.25](https://timesofindia.indiatimes.com/india/Govt-defers-promulgation-of-ordinance-on-Food-Security-Bill/articleshow/20569710.cms) lakh crore, approximately 1% of India’s GDP. However, a Comptroller and Auditor General of India [report](https://www.cag.gov.in/uploads/download_audit_report/2016/Union_Civil_National_Food_Security_Report_54_of_2015.pdf) for 2015 found that around 15% of the total food grains did not reach the intended beneficiaries from 2009-2011 because of leakages.
+
+Such high expenditure on subsidies had far-reaching implications for India’s fiscal health. From a fiscal deficit of 4.5% of GDP in 2007-08, the deficit widened to [6.5%](https://www.indiabudget.gov.in/budget2011-2012/es2010-11/estat1.pdf) in 2009-10. This increase was primarily financed through borrowing, significantly increasing public debt. The public debt-to-GDP ratio rose from 66.3% in 2007-08 to 68.6% in 2012-13, which had major implications.
+
+First, it raised the interest burden. Interest payments as a percentage of total revenue receipts of the central government rose from 33% in 2007-08 to [36%](https://www.insightsonindia.com/2014/07/09/download-economic-survey-2013-2014-pdf/) in 2012-13. This left less fiscal space for the government for capital expenditure, which is crucial for long-term growth. Second, the high fiscal deficit and debt had a bearing on India’s current account deficit. 
+
+However, Welfare politics is not solely a strategy used by the INC. The BJP has extensively employed welfare politics in its governed states, manifesting in populous policies for electoral gains. In Uttar Pradesh, the BJP implemented measures such as farm loan waivers, free housing, and electricity connections [increasing](https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/STATEFINANCE2021227C651261B0DD463396E448E1D6528D88.PDF) the fiscal strain. Similarly, Assam, under BJP rule, introduced populist measures, including direct cash transfers and free rice provision causing a [surge](https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/STATEFINANCE2021227C651261B0DD463396E448E1D6528D88.PDF) in the state’s debt-GSDP ratio to 21.9%.
+
+The practice of welfare politics by different political parties across India is increasingly leading to fiscal profligacy, as states continue to make populist promises that strain their financial resources.  India’s widespread welfare politics, seen in initiatives like Tamil Nadu’s ‘Amma Canteens’ by AIADMK and Telangana’s ‘Rythu Bandhu’ scheme by TRS, is straining states’ finances. The 2022-23 RBI [report](https://rbidocs.rbi.org.in/rdocs/Publications/PDFs/0STATEFINANCE2022233E17F212337844888755EFDBCC661812.PDF)  highlights Tamil Nadu’s significant debt and 4.4% fiscal deficit, and  Telangana’s 3.9% deficit, both breaching the FRBM-prescribed 3% threshold. Further AAP’s populist policies like free electricity and water have also led to financial issues.Its gross deficits while still at 1.6% is relatively high for the capital in comparison with its past. 
+
+***Welfare Politics in Punjab: Assessing the Long-term Fallout***
+
+Once a beacon of prosperity and a symbol of the successful Green Revolution, Punjab presently tells a cautionary tale. Punjab’s success story started gradually fraying around the edges, their increasing reliance on welfare politics being a major contributing factor. While initially popular, policies such as free electricity for farmers and various subsidies started distorting their economic and environmental equilibrium. The free electricity policy, for instance, led to excessive groundwater extraction as farmers had little incentive to conserve energy or [water](https://link.springer.com/book/10.1007/978-94-007-5709-7). This resulted in a significant drop in the water table, threatening the long-term sustainability of agriculture in the state. 
+
+The Green Revolution in the 1960s and 1970s significantly shifted Punjab’s agricultural landscape, introducing high-yield variety seeds, primarily wheat, and paddy. This was met with initial resistance, skepticism, and [rejection](https://academic.oup.com/book/40846) from the government and bureaucracy. However, entrepreneurial risk-taking farmers utilized them and were rewarded for their enterprising attitude. Upon being encouraged by its success, the state later implemented a minimum support price (MSP) and free electricity for groundwater extraction, encouraging all farmers to increasingly adopt paddy cultivation. This gradually led to a monoculture, with paddy and wheat dominating Punjab’s agricultural landscape.
+
+However, paddy (primarily suited to the Gangetic plains) is a water-intensive crop ill-suited to Punjab’s semi-arid climate. The artificial competitiveness of paddy, fueled by subsidies, has led to the over-extraction of groundwater. Studies show that Punjab is extracting groundwater at [165%](http://cgwb.gov.in/GW-Assessment/GWRA-2017-National-Compilation.pdf) of its natural recharge capacity, leading to a severe water crisis.
+
+The over-reliance on subsidies had another unintended consequence of discouraging entrepreneurial spirit among Punjab’s farmers. Instead of diversifying their crop production or venturing into allied activities like livestock, farmers are caught in a wheat-paddy cultivation cycle owing to the assurance of receiving the MSP. Research shows that farm incomes in Punjab could increase up to [60%](https://www.cabdirect.org/cabdirect/abstract/19921899690) if farmers diversified their crops and adopted modern farming practices. However, the safety net of subsidies and MSP discourages such endeavors. Consequently, [farmers](https://journals.sagepub.com/doi/abs/10.1177/09767479211031312?journalCode=atha) are more vulnerable to price shocks and changes in government policy, potentially having devastating consequences for their livelihoods.
+
+Punjab’s agricultural practices have further led to significant environmental consequences, such as soil nutrient depletion and declining yields. Burning paddy stubble, a common practice, contributes significantly to air pollution. Excessive farm subsidies have resulted in a cycle of indebtedness, with [86%](https://www.jstor.org/stable/44166175) of farmers trapped in debt averaging *₹ 5.52 lakh per household*. Despite its previous prosperity, Punjab now grapples with economic stagnation, environmental degradation, and a notable trend of emigration. It serves as yet another warning in the long line of failures where the political parties played with the future of their constituents by relying on welfare politics to meet their short-term political agenda.
+
+***Conclusion***
+
+ In conclusion, the overemphasis on welfare politics in India has shown it can undermine economic health and stunt long-term development, as seen in the UPA regime and in Punjab. Governments should refocus efforts on fostering an environment conducive to individual productivity and self-sustainability. This involves promoting and upholding civil society and property rights, thus allowing the inherent entrepreneurship and creativity of the people to flourish. By ensuring these rights, we encourage personal investment in the economy, leading to prosperity emerging from the grassroots level. 
+
+This transition should be accompanied by reforms to make welfare schemes more efficient and accountable, reduce dependency, and ensure their integration with broader economic and environmental goals. 
+
+Read more: [Congestion Pricing: Road to a Better Living?](https://spontaneousorder.in/congestion-pricing-road-to-a-better-living/)
+
+* * *
+
+**About Vibhu Vikramaditya**
+
+Vibhu Vikramaditya is a don lavoie fellow at Mercatus Center, George Mason University, with research interests in capital theory, monetary theory, and business cycles. He writes about events in the economy from a legal and economic standpoint with a pro-liberty outlook and believes that safeguarding the liberty and rights of each individual is the most important action toward peace, prosperity, and growth. His other works can be found at the Econ Lib, Mises.org: https://mises.org/profile/vibhu-vikramaditya, Libertarian Institute, the Austrian Economic Center, Swarajya, and The Print. He can be reached at Vibhu3333@gmail.com and on Twitter (@vibhu3333).
