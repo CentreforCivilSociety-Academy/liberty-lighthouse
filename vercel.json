@@ -9,5 +9,10 @@
         }
       ]
     }
-  ]
+  ],
+  "functions": {
+    "api/v1/*.ts": {
+      "includeFiles": "src/content/{topics,glossary,faqs,videos}/**"
+    }
+  }
 }
