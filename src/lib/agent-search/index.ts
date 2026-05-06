@@ -8,3 +8,4 @@
 export * from './types.js';
 export { tokenize } from './tokenize.js';
 export { scoreDoc, computeIdf, DEFAULT_BM25, type BM25Opts } from './bm25.js';
+export { extractSnippet } from './snippet.js';
