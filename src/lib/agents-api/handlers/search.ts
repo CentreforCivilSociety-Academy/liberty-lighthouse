@@ -10,8 +10,6 @@ import { search, InvalidKindError } from '../../agent-search/index.js';
 import { AgentError } from '../errors.js';
 import type { SearchInput, SearchPayload } from '../types.js';
 
-const MAX_K = 25;
-
 export async function handleSearch(
   input: SearchInput,
 ): Promise<SearchPayload> {
@@ -33,7 +31,7 @@ export async function handleSearch(
   let hits;
   try {
     hits = await search(query, {
-      k: input.k !== undefined ? Math.min(MAX_K, input.k) : undefined,
+      k: input.k,
       kinds: input.kinds,
     });
   } catch (err) {

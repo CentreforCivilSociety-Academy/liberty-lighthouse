@@ -12,8 +12,8 @@ import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
 import type { TopicsPayload } from '../types.js';
+import { getDefaultSite } from '../site.js';
 
-const DEFAULT_SITE = 'https://liberty-lighthouse.vercel.app';
 const DEFAULT_CONTENT_DIR = resolve(
   dirname(fileURLToPath(import.meta.url)),
   '../../../content',
@@ -51,7 +51,7 @@ export async function handleListTopics(
   opts: HandleOpts = {},
 ): Promise<TopicsPayload> {
   const contentDir = opts.contentDir ?? DEFAULT_CONTENT_DIR;
-  const siteUrl = (opts.siteUrl ?? DEFAULT_SITE).replace(/\/$/, '');
+  const siteUrl = (opts.siteUrl ?? getDefaultSite());
   const dir = join(contentDir, 'topics');
 
   let files: string[];

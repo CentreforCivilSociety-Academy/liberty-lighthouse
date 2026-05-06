@@ -41,7 +41,7 @@ npm test -- tests/agents-api/   # full handler+wrapper coverage
 
 There is no local equivalent of the Vercel function runtime in this phase. Phase 3's MCP transport will share the same handlers and is testable via `npx @modelcontextprotocol/inspector`.
 
-## Future: OPTIONS preflight
+## OPTIONS preflight
 
 The wrappers handle `OPTIONS` preflight requests (returning 204 + CORS headers) so browser callers from cross-origin pages work without preflight failures.
 

@@ -9,14 +9,12 @@
  */
 import matter from 'gray-matter';
 import { AgentError } from '../errors.js';
+import { getDefaultSite } from '../site.js';
 import type { FetchInput, FetchPayload } from '../types.js';
 import type { Citation, ContentKind } from '../../agent-search/types.js';
 
-const DEFAULT_BASE = 'https://liberty-lighthouse.vercel.app';
-
 function getBaseHostname(): string {
-  const base = process.env.LIGHTHOUSE_BASE_URL ?? DEFAULT_BASE;
-  return new URL(base).hostname;
+  return new URL(getDefaultSite()).hostname;
 }
 
 function isOnSite(url: string): boolean {
