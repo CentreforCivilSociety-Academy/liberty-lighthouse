@@ -101,13 +101,21 @@ export default function CommentForm({ pageType, pageId }: Props) {
           body: trimmedBody,
         }),
       });
-      const data: { error?: string; ok?: boolean } = await resp.json().catch(() => ({}));
+      const data: {
+        error?: string;
+        ok?: boolean;
+        github_status?: number;
+        detail?: string;
+      } = await resp.json().catch(() => ({}));
       if (resp.ok && data.ok) {
         setStatus('success');
         setBody('');
       } else {
         setStatus('error');
-        setErrorMsg(data.error || `Submission failed (HTTP ${resp.status})`);
+        const parts = [data.error || `Submission failed (HTTP ${resp.status})`];
+        if (data.github_status) parts.push(`GitHub returned ${data.github_status}`);
+        if (data.detail) parts.push(data.detail.slice(0, 200));
+        setErrorMsg(parts.join(' — '));
         if (resp.status === 401) {
           window.sessionStorage.removeItem(TOKEN_KEY);
           setToken(null);
