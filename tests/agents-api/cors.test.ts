@@ -6,8 +6,9 @@ describe('CORS_HEADERS', () => {
     expect(CORS_HEADERS['Access-Control-Allow-Origin']).toBe('*');
   });
 
-  it('allows GET and OPTIONS', () => {
+  it('allows GET, POST, and OPTIONS', () => {
     expect(CORS_HEADERS['Access-Control-Allow-Methods']).toContain('GET');
+    expect(CORS_HEADERS['Access-Control-Allow-Methods']).toContain('POST');
     expect(CORS_HEADERS['Access-Control-Allow-Methods']).toContain('OPTIONS');
   });
 });
