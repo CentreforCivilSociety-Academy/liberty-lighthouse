@@ -1,0 +1,103 @@
+---
+// Server-rendered list of approved comments for one page. Reads the
+// `comments` content collection at build time, filters by status + page,
+// sorts oldest-first.
+import { getCollection } from 'astro:content';
+
+interface Props {
+  pageType: 'faq' | 'video' | 'glossary';
+  pageId: string;
+}
+const { pageType, pageId } = Astro.props;
+
+const all = await getCollection(
+  'comments',
+  ({ data }) =>
+    data.status === 'approved' && data.page_type === pageType && data.page_id === pageId,
+);
+
+const sorted = all.sort((a, b) =>
+  (a.data.submitted_at || '').localeCompare(b.data.submitted_at || ''),
+);
+
+const dateFmt = new Intl.DateTimeFormat('en-IN', {
+  year: 'numeric',
+  month: 'short',
+  day: 'numeric',
+});
+---
+
+{sorted.length > 0 && (
+  <ol class="comment-list" aria-label="Approved comments">
+    {sorted.map((c) => {
+      const date = c.data.submitted_at ? dateFmt.format(new Date(c.data.submitted_at)) : '';
+      return (
+        <li class="comment" id={`comment-${c.data.issue_number ?? c.id}`}>
+          <header class="comment-meta">
+            <strong class="comment-name">{c.data.name}</strong>
+            <a
+              class="comment-handle"
+              href={`https://github.com/${c.data.github_username}`}
+              target="_blank"
+              rel="noopener noreferrer nofollow"
+            >@{c.data.github_username}</a>
+            {date && (
+              <time class="comment-date" datetime={c.data.submitted_at}>{date}</time>
+            )}
+          </header>
+          <div class="comment-body">{c.data.body}</div>
+        </li>
+      );
+    })}
+  </ol>
+)}
+
+<style>
+  .comment-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+  }
+  .comment {
+    border: 1px solid var(--color-border-default);
+    border-radius: var(--radius-md);
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: var(--color-bg-card);
+  }
+  .comment-meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: var(--spacing-sm);
+    margin-bottom: var(--spacing-sm);
+    font-size: 0.9375rem;
+  }
+  .comment-name {
+    color: var(--color-text-primary);
+    font-weight: 600;
+  }
+  .comment-handle {
+    color: var(--color-text-tertiary);
+    text-decoration: none;
+    font-family: var(--font-mono);
+    font-size: 0.875rem;
+  }
+  .comment-handle:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+  }
+  .comment-date {
+    color: var(--color-text-muted);
+    font-size: 0.875rem;
+    margin-left: auto;
+  }
+  .comment-body {
+    color: var(--color-text-primary);
+    white-space: pre-wrap;
+    line-height: 1.55;
+    word-break: break-word;
+  }
+</style>

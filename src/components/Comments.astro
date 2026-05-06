@@ -1,0 +1,152 @@
+---
+// Comments section — renders at the bottom of FAQ / video / glossary pages.
+// Approved comments are server-rendered; the form is a Preact island that
+// hydrates only when the comments section scrolls into view.
+import CommentsList from './CommentsList.astro';
+import CommentForm from './CommentForm.tsx';
+
+interface Props {
+  pageType: 'faq' | 'video' | 'glossary';
+  pageId: string;
+}
+const { pageType, pageId } = Astro.props;
+---
+
+<section class="comments-section" id="comments" aria-labelledby="comments-heading">
+  <h2 id="comments-heading">Comments</h2>
+  <p class="comments-policy">
+    Discussion is moderated. Sign in with GitHub to leave a comment — comments are reviewed
+    by the Centre for Civil Society team before publishing. To request removal of a comment,
+    email <a href="mailto:contact@ccs.in">contact@ccs.in</a>.
+  </p>
+  <CommentsList pageType={pageType} pageId={pageId} />
+  <CommentForm client:visible pageType={pageType} pageId={pageId} />
+</section>
+
+<style>
+  .comments-section {
+    margin-top: var(--spacing-2xl);
+    padding-top: var(--spacing-xl);
+    border-top: 1px solid var(--color-border-default);
+  }
+  .comments-section h2 {
+    margin-bottom: var(--spacing-sm);
+    font-family: var(--font-display);
+  }
+  .comments-policy {
+    color: var(--color-text-secondary);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    margin-bottom: var(--spacing-lg);
+    max-width: var(--prose-max-width);
+  }
+  .comments-policy a {
+    color: var(--color-primary);
+  }
+
+  /* Form / sign-in shell + child elements. Scoped global so they apply to
+     the Preact island's emitted markup. */
+  :global(.comment-form-shell) {
+    margin-top: var(--spacing-xl);
+    padding: var(--spacing-lg);
+    background: var(--color-bg-section);
+    border: 1px solid var(--color-border-default);
+    border-radius: var(--radius-md);
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+    max-width: var(--prose-max-width);
+  }
+  :global(.comment-form-intro) {
+    margin: 0;
+    color: var(--color-text-secondary);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+  }
+  :global(.comment-signin) {
+    align-self: flex-start;
+    padding: 0.625rem 1.125rem;
+    background: var(--color-text-primary);
+    color: var(--color-bg-page);
+    border: 1px solid var(--color-border-default);
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9375rem;
+  }
+  :global(.comment-signin:hover) {
+    background: var(--color-text-secondary);
+  }
+  :global(.comment-field) {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+  }
+  :global(.comment-field-label) {
+    font-weight: 600;
+    color: var(--color-text-primary);
+    font-size: 0.9375rem;
+  }
+  :global(.comment-field input),
+  :global(.comment-field textarea) {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--color-border-default);
+    border-radius: var(--radius-sm);
+    background: var(--color-bg-card);
+    color: var(--color-text-primary);
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.5;
+  }
+  :global(.comment-field textarea) {
+    resize: vertical;
+    min-height: 6rem;
+  }
+  :global(.comment-field input:focus),
+  :global(.comment-field textarea:focus) {
+    outline: 2px solid var(--color-border-focus);
+    outline-offset: 2px;
+  }
+  :global(.comment-hint) {
+    margin: 0;
+    font-size: 0.8125rem;
+    color: var(--color-text-tertiary);
+    line-height: 1.5;
+  }
+  :global(.comment-actions) {
+    display: flex;
+    gap: var(--spacing-sm);
+    align-items: center;
+  }
+  :global(.comment-actions button) {
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-sm);
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 0.9375rem;
+  }
+  :global(.comment-actions button[type="submit"]) {
+    background: var(--color-primary);
+    color: var(--color-text-on-dark);
+    border: 1px solid var(--color-primary);
+  }
+  :global(.comment-actions button[type="submit"]:disabled) {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+  :global(.comment-signout) {
+    background: transparent;
+    color: var(--color-text-secondary);
+    border: 1px solid var(--color-border-default);
+  }
+  :global(.comment-success) {
+    margin: 0;
+    color: var(--color-success);
+    font-size: 0.9375rem;
+  }
+  :global(.comment-error) {
+    margin: 0;
+    color: var(--color-error);
+    font-size: 0.9375rem;
+  }
+</style>
