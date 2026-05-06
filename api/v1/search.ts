@@ -8,6 +8,7 @@ import {
   respondJson,
   respondError,
   respondUnknown,
+  respondPreflight,
   singleString,
   type VercelReq,
   type VercelRes,
@@ -17,6 +18,10 @@ export default async function handler(
   req: VercelReq,
   res: VercelRes,
 ): Promise<void> {
+  if (req.method === 'OPTIONS') {
+    respondPreflight(res);
+    return;
+  }
   try {
     const q = singleString(req.query, 'q') ?? '';
     const kRaw = singleString(req.query, 'k');

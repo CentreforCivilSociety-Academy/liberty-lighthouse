@@ -77,3 +77,12 @@ export function respondUnknown(res: VercelRes, err: unknown): void {
   // Force status 500 instead of 502 for truly unexpected errors.
   res.status(500).json(errorPayload(wrapped));
 }
+
+/**
+ * Respond to a CORS preflight (OPTIONS request). Returns 204 No Content
+ * with the CORS headers attached.
+ */
+export function respondPreflight(res: VercelRes): void {
+  attachCors(res);
+  res.status(204).end();
+}
