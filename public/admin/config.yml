@@ -868,3 +868,85 @@ collections:
         widget: "markdown"
         required: false
         hint: "Optional — full editorial explanation shown only on the term's own page. Leave blank if the short definition is enough; the page will still look complete."
+
+  # ─────────────────────────────────────────────
+  # Comments — Reader Submissions Awaiting Review
+  # ─────────────────────────────────────────────
+  - name: "comments"
+    label: "Comments"
+    label_singular: "Comment"
+    description: |
+      Reader comments submitted via the GitHub-login form on FAQ, video, and glossary pages. They arrive here as PENDING. Nothing is published to the site until you change a comment's status to APPROVED.
+
+      About the three moderation choices:
+      • APPROVE  — change status to "approved" and save. The site rebuilds within ~30 seconds and the comment goes live.
+      • REJECT (KEEP)  — change status to "rejected" and save. The comment stays hidden from the site but the file remains in the repo as an audit trail. Use this for off-topic, low-quality, or obvious-but-non-abusive submissions.
+      • DELETE  — use the trash icon (top-right of the editor). The file is removed from the repo entirely. Use this for abuse, harassment, doxxing, spam, or anything that shouldn't persist anywhere visible. Note: the original GitHub Issue at /issues/<number> may still contain the original submission body — for severe content, also delete that issue manually on GitHub.
+    folder: "src/content/comments"
+    extension: "md"
+    format: "frontmatter"
+    create: false
+    delete: true
+    sortable_fields: ["submitted_at", "status"]
+    view_filters:
+      - label: "Pending"
+        field: "status"
+        pattern: "pending"
+      - label: "Approved"
+        field: "status"
+        pattern: "approved"
+      - label: "Rejected"
+        field: "status"
+        pattern: "rejected"
+    summary: "{{status | upper}} · {{name}} (@{{github_username}}) on {{page_type}}/{{page_id}}"
+    fields:
+      - label: "Status"
+        name: "status"
+        widget: "select"
+        options: ["pending", "approved", "rejected"]
+        default: "pending"
+        hint: "Set to 'approved' to publish. 'rejected' hides while keeping the file as audit trail. For abuse content, delete the entire entry instead (trash icon, top-right)."
+      - label: "Page type"
+        name: "page_type"
+        widget: "select"
+        options: ["faq", "video", "glossary"]
+        hint: "Which kind of page this comment is attached to."
+      - label: "Page ID"
+        name: "page_id"
+        widget: "string"
+        hint: "Stable identifier for the page. e.g. 'agriculture/why-msp' for an FAQ, 'msp' for a glossary term. Don't edit unless you're moving a comment between pages."
+      - label: "Display name"
+        name: "name"
+        widget: "string"
+        hint: "Shown publicly above the comment."
+      - label: "GitHub username"
+        name: "github_username"
+        widget: "string"
+        hint: "Verified by the submission API at the time of posting; shown as @handle next to the comment. Don't edit."
+      - label: "Body"
+        name: "body"
+        widget: "text"
+        pattern: ['^[\s\S]{2,5000}$', "Must be 2–5000 characters."]
+        hint: "The comment text. Plain text only — markdown is not rendered. Edit lightly if needed (typo fixes), or reject/delete instead of substantively rewriting."
+      - label: "Submitted at"
+        name: "submitted_at"
+        widget: "datetime"
+        format: "YYYY-MM-DDTHH:mm:ssZ"
+        hint: "When the comment was submitted (UTC)."
+      - label: "Approved at"
+        name: "approved_at"
+        widget: "datetime"
+        format: "YYYY-MM-DDTHH:mm:ssZ"
+        required: false
+        hint: "Optional — set automatically by the workflow on first approval."
+      - label: "Issue number"
+        name: "issue_number"
+        widget: "number"
+        value_type: "int"
+        required: false
+        hint: "GitHub Issue number this comment was submitted from. Useful for tracing back to the original submission event."
+      - label: "Parent comment ID"
+        name: "parent_id"
+        widget: "string"
+        required: false
+        hint: "Reserved for future threaded replies. Leave blank."
