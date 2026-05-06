@@ -38,7 +38,17 @@ export default function CommentForm({ pageType, pageId }: Props) {
     }
     function onMessage(e: MessageEvent) {
       if (typeof e.data !== 'string') return;
-      if (e.data.startsWith('authorizing:github')) return;
+      // Handshake: when the callback popup posts "authorizing:github" to
+      // announce itself, we have to post anything back. The callback at
+      // api/callback.js uses e.origin from our response to know where to
+      // target the eventual access-token postMessage. Without this the
+      // popup hangs blank (which is exactly what happened in production).
+      if (e.data === 'authorizing:github') {
+        if (e.source && typeof (e.source as Window).postMessage === 'function') {
+          (e.source as Window).postMessage('github:auth-handshake', e.origin || '*');
+        }
+        return;
+      }
       const m = /^authorization:github:success:(.+)$/.exec(e.data);
       if (!m) return;
       try {
