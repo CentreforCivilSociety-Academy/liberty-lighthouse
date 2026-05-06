@@ -25,14 +25,29 @@ const VALID_KINDS: ReadonlySet<ContentKind> = new Set([
   'syllabus',
 ] satisfies ContentKind[] as ContentKind[]);
 
+/**
+ * Thrown by `search()` (via `assertValidKinds`) when an unknown kind is
+ * passed in `opts.kinds`. Consumers should catch this and surface a
+ * 400/VALIDATION_ERROR rather than letting it bubble as a 500.
+ */
+export class InvalidKindError extends Error {
+  constructor(
+    public readonly kind: string,
+    public readonly validKinds: readonly ContentKind[],
+  ) {
+    super(
+      `agent-search: invalid kind "${kind}". ` +
+        `Valid kinds: ${validKinds.join(', ')}.`,
+    );
+    this.name = 'InvalidKindError';
+  }
+}
+
 function assertValidKinds(kinds: readonly ContentKind[] | undefined): void {
   if (!kinds) return;
   for (const k of kinds) {
     if (!VALID_KINDS.has(k)) {
-      throw new Error(
-        `agent-search: invalid kind "${k}". ` +
-          `Valid kinds: ${[...VALID_KINDS].join(', ')}.`,
-      );
+      throw new InvalidKindError(k, [...VALID_KINDS]);
     }
   }
 }
