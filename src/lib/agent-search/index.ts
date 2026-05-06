@@ -10,3 +10,4 @@ export { tokenize } from './tokenize.js';
 export { scoreDoc, computeIdf, DEFAULT_BM25, type BM25Opts } from './bm25.js';
 export { extractSnippet } from './snippet.js';
 export { readCollections } from './read-collections.js';
+export { buildIndex } from './build-index.js';
