@@ -6,3 +6,4 @@
  * and loaded lazily at runtime. See docs/agents-api.md §9 for design.
  */
 export * from './types.js';
+export { tokenize } from './tokenize.js';
