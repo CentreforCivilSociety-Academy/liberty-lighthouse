@@ -122,6 +122,13 @@ const ccsBooks = defineCollection({
 // Moderated in Decap CMS (/admin/) — admin sets status=approved to publish,
 // status=rejected to hide while keeping audit trail, or deletes the file
 // entirely for abuse content. Only status=approved entries render.
+// YAML 1.1 (which gray-matter and Decap CMS both use) auto-types unquoted
+// ISO-8601 timestamps as Date objects. We accept both forms and normalize
+// to ISO strings so downstream renderers don't have to care.
+const isoString = z
+  .union([z.string(), z.date()])
+  .transform((v) => (v instanceof Date ? v.toISOString() : v));
+
 const comments = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/comments' }),
   schema: z.object({
@@ -133,11 +140,13 @@ const comments = defineCollection({
     page_id: z.string(),
     name: z.string().min(1).max(120),
     github_username: z.string().min(1).max(120),
-    body: z.string().min(1).max(5000),
-    submitted_at: z.string(),
-    approved_at: z.string().optional(),
+    submitted_at: isoString,
+    approved_at: isoString.optional(),
     issue_number: z.number().int().optional(),
     parent_id: z.string().nullable().default(null),
+    // The comment text lives below the frontmatter as the markdown body.
+    // Astro exposes it via entry.body automatically — it is NOT a frontmatter
+    // field and must not appear in this schema.
   }),
 });
 
