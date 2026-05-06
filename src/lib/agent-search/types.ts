@@ -5,6 +5,16 @@
  * and fetch response in the public API carries this shape.
  */
 
+/**
+ * The set of content kinds an agent can search and cite.
+ *
+ * Note: `'syllabus'` is reserved for future syllabus-as-doc indexing.
+ * Topics currently embed their syllabus in the `guidedSyllabus` frontmatter
+ * field, so syllabi aren't indexed as separate docs yet. The kind exists
+ * in the type so Phase 2's HTTP filter API has a stable shape — when we
+ * add a syllabus CollectionSpec, callers won't need to update their kind
+ * lists.
+ */
 export type ContentKind =
   | 'topic'
   | 'faq'

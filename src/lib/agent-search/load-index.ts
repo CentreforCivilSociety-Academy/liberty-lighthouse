@@ -29,7 +29,12 @@ export function loadIndex(): Promise<AgentIndex> {
         with: { type: 'json' },
       })) as { default: AgentIndex };
       return mod.default;
-    })();
+    })().catch((err) => {
+      // Clear the failed cache entry so a subsequent call can retry
+      // (e.g. after running `npm run build:agent-index` in dev).
+      inflight = null;
+      throw err;
+    });
   }
   return inflight;
 }

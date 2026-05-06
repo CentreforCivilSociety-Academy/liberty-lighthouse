@@ -96,4 +96,10 @@ describe('search()', () => {
     expect(first.map((h) => h.title)).toEqual(second.map((h) => h.title));
     expect(first.map((h) => h.kind)).toEqual(second.map((h) => h.kind));
   });
+
+  it('throws on invalid kinds rather than silently returning []', async () => {
+    await expect(
+      search('msp', { kinds: ['evil-kind' as never] }),
+    ).rejects.toThrow(/invalid kind "evil-kind"/);
+  });
 });
