@@ -35,7 +35,10 @@ export async function search(
     const score = scoreDoc(queryTokens, doc, idx.idf, idx.meta.avg_doc_length);
     if (score > 0) scored.push({ score, docIdx: i });
   }
-  scored.sort((a, b) => b.score - a.score);
+  // Sort by score descending; tie-break by docIdx ascending so the order is
+  // deterministic across runs and platforms (V8's sort is stable on modern
+  // Node, but pinning the secondary key makes the contract explicit).
+  scored.sort((a, b) => b.score - a.score || a.docIdx - b.docIdx);
 
   return scored.slice(0, k).map(({ score, docIdx }, i) => {
     const doc = idx.docs[docIdx];

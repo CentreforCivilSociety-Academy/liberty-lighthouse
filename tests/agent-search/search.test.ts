@@ -77,4 +77,23 @@ describe('search()', () => {
     const elapsed = performance.now() - t0;
     expect(elapsed).toBeLessThan(50);
   });
+
+  it('concurrent first calls return the same index instance', async () => {
+    // Calling loadIndex twice in parallel must not trigger two imports.
+    // The promise-cache pattern means both awaits resolve to the same value.
+    const { loadIndex } = await import('../../src/lib/agent-search/load-index');
+    const [a, b] = await Promise.all([loadIndex(), loadIndex()]);
+    expect(a).toBe(b);
+  });
+
+  it('breaks score ties deterministically', async () => {
+    // For a query token that appears with identical tf and length in two docs,
+    // BM25 produces equal scores. The tie-break (docIdx ascending) must keep
+    // ordering stable. Use a token shared by faq and wiki — both have "msp"
+    // and similar shapes — and assert ordering is consistent across runs.
+    const first = await search('msp', { k: 10 });
+    const second = await search('msp', { k: 10 });
+    expect(first.map((h) => h.title)).toEqual(second.map((h) => h.title));
+    expect(first.map((h) => h.kind)).toEqual(second.map((h) => h.kind));
+  });
 });
