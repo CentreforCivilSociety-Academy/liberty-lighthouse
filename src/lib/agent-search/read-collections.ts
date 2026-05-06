@@ -40,7 +40,8 @@ interface CollectionSpec {
 }
 
 interface ParsedEntry {
-  /** Slug-style relative path under the collection's directory, e.g. "msp" or "agriculture/why-msp". */
+  /** Slug-style relative path under the collection's directory, e.g. "msp" or
+   *  "agriculture/why-msp". Always forward-slash separated, even on Windows. */
   relPath: string;
   /** Full filesystem path. */
   fullPath: string;
@@ -96,7 +97,7 @@ const COLLECTIONS: CollectionSpec[] = [
       // FAQs live as "<topic>/<slug>" — exactly two path segments. URL
       // construction below assumes flat; deeper nesting would produce
       // 404'ing canonical URLs. Assert and fail loudly.
-      const parts = relPath.split(sep);
+      const parts = relPath.split('/');
       if (parts.length !== 2) {
         throw new Error(
           `agent-search: unexpected faq path "${relPath}" — ` +
@@ -119,7 +120,7 @@ const COLLECTIONS: CollectionSpec[] = [
     kind: 'video',
     exts: ['.mdx', '.md'],
     shape: ({ relPath, data, siteUrl }) => {
-      const parts = relPath.split(sep);
+      const parts = relPath.split('/');
       if (parts.length !== 2) {
         throw new Error(
           `agent-search: unexpected video path "${relPath}" — ` +
