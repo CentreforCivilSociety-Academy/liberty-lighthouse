@@ -1,0 +1,195 @@
+name: Comments — convert pending issue to markdown
+
+# Triggered when a new comment-pending issue is opened (by the submit
+# endpoint) or when an arbitrary issue is labelled 'comment-pending' (e.g.
+# someone uses the issue template directly). The job parses the structured
+# JSON block in the issue body, writes a pending markdown file under
+# src/content/comments/, then closes the issue. Admin moderates only in
+# /admin/ from there on.
+#
+# Pre-moderation invariant: this workflow only ever writes status: pending.
+# The path from pending to approved goes through Decap CMS (admin edits the
+# status field). There is no automation that can publish a comment.
+
+on:
+  issues:
+    types: [opened, labeled]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: comments-ingest-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  ingest:
+    if: ${{ contains(github.event.issue.labels.*.name, 'comment-pending') }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Skip if already converted
+        id: gate
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const labels = (context.payload.issue.labels || []).map(l => l.name);
+            if (labels.includes('comment-converted')) {
+              core.notice('Issue already converted; skipping.');
+              core.setOutput('skip', 'true');
+            } else {
+              core.setOutput('skip', 'false');
+            }
+
+      - name: Checkout
+        if: steps.gate.outputs.skip != 'true'
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Convert issue → markdown
+        if: steps.gate.outputs.skip != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('node:fs/promises');
+            const path = require('node:path');
+
+            const issue = context.payload.issue;
+            const body = issue.body || '';
+
+            // Parse the JSON block emitted by api/comments/submit.js.
+            const m = body.match(/<!--comment-data:start-->\s*```(?:json)?\s*([\s\S]*?)```\s*<!--comment-data:end-->/);
+            if (!m) {
+              core.warning('Issue does not contain a structured comment-data block; labelling malformed.');
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: ['comment-malformed'],
+              });
+              return;
+            }
+            let data;
+            try {
+              data = JSON.parse(m[1]);
+            } catch (err) {
+              core.warning(`comment-data JSON parse failed: ${err.message}`);
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: ['comment-malformed'],
+              });
+              return;
+            }
+
+            const required = ['page_type', 'page_id', 'name', 'github_username', 'submitted_at', 'body'];
+            for (const k of required) {
+              if (!data[k]) {
+                core.warning(`comment-data missing required field "${k}"`);
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: ['comment-malformed'],
+                });
+                return;
+              }
+            }
+
+            // Trust github_username from the issue creator, NOT the body —
+            // the issue creator is verified by GitHub. The body's
+            // github_username is included for redundancy but the trustworthy
+            // source is issue.user.login.
+            const verifiedUsername = issue.user.login;
+
+            // Derive a filesystem-safe filename: <ISO-no-colons>-issue-<n>.md.
+            const ts = (data.submitted_at || new Date().toISOString())
+              .replace(/[:.]/g, '-')
+              .replace(/T/, 'T');
+            const fileName = `${ts}-issue-${issue.number}.md`;
+            const filePath = path.join('src/content/comments', fileName);
+
+            // YAML escape: wrap multi-line / unsafe strings in quoted blocks.
+            const yaml = (k, v) => {
+              if (v === null || v === undefined) return `${k}: null`;
+              if (typeof v === 'number') return `${k}: ${v}`;
+              const s = String(v);
+              if (/[\n"'\\:#&*?{}[\],%@`!|>]/.test(s) || s.includes('\n')) {
+                return `${k}: ${JSON.stringify(s)}`;
+              }
+              return `${k}: ${s}`;
+            };
+
+            const fm = [
+              '---',
+              yaml('status', 'pending'),
+              yaml('page_type', data.page_type),
+              yaml('page_id', data.page_id),
+              yaml('name', data.name),
+              yaml('github_username', verifiedUsername),
+              yaml('submitted_at', data.submitted_at),
+              yaml('issue_number', issue.number),
+              'parent_id: null',
+              '---',
+              '',
+            ].join('\n');
+
+            const fileContent = fm + data.body.trim() + '\n';
+
+            await fs.mkdir(path.dirname(filePath), { recursive: true });
+            await fs.writeFile(filePath, fileContent, 'utf8');
+
+            core.setOutput('file_path', filePath);
+            core.setOutput('issue_number', issue.number);
+
+      - name: Commit + push
+        if: steps.gate.outputs.skip != 'true'
+        run: |
+          if [ -n "$(git status --porcelain src/content/comments)" ]; then
+            git config user.name "liberty-lighthouse-bot"
+            git config user.email "bot@liberty-lighthouse.local"
+            git add src/content/comments
+            git commit -m "Comment from issue #${{ github.event.issue.number }} (pending moderation)"
+            git push
+          else
+            echo "No file changes (issue was malformed)."
+          fi
+
+      - name: Mark issue converted + close
+        if: steps.gate.outputs.skip != 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const issue_number = context.payload.issue.number;
+            // Only close + label converted if we actually wrote a file.
+            // We detect that by checking the previous step's success and the
+            // absence of a 'comment-malformed' label.
+            const issue = await github.rest.issues.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+            });
+            const labels = issue.data.labels.map(l => l.name);
+            if (labels.includes('comment-malformed')) return;
+
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              body: 'Auto-converted to a pending comment file. Moderation happens in `/admin/`. Closing this issue — it stays in history for audit.',
+            });
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              labels: ['comment-converted'],
+            });
+            await github.rest.issues.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number,
+              state: 'closed',
+              state_reason: 'completed',
+            });

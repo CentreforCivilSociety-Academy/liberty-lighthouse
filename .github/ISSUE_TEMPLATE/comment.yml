@@ -1,0 +1,24 @@
+name: Comment submission
+description: This template is used internally by the comment form on the public site. It is not meant for direct opens — please leave a comment via the relevant FAQ / video / glossary page instead.
+title: "Comment submission"
+labels: ["comment", "comment-pending"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Comments on Liberty Lighthouse are submitted via the comment form at the bottom of FAQ, video, and glossary pages. This issue template exists only as a fallback. If you opened an issue here directly, your input is not in the format the moderation pipeline expects — the team will close it.
+
+        For genuine bug reports or content corrections, email contact@ccs.in.
+  - type: textarea
+    id: comment-data
+    attributes:
+      label: Comment data (do not edit)
+      description: Internal — populated by the comment form.
+      value: |
+        <!--comment-data:start-->
+        ```json
+        {}
+        ```
+        <!--comment-data:end-->
+    validations:
+      required: true
