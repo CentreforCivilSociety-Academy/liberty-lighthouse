@@ -11,3 +11,4 @@ export * from './errors.js';
 export { CORS_HEADERS, withCors } from './cors.js';
 export { handleReadIndex } from './handlers/read-index.js';
 export { handleSearch } from './handlers/search.js';
+export { handleFetch } from './handlers/fetch.js';
