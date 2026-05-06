@@ -7,7 +7,7 @@
  *
  * See docs/agents-api.md §5.5.
  */
-import { readdirSync, readFileSync, statSync } from 'node:fs';
+import { readdirSync, readFileSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
@@ -27,13 +27,10 @@ interface HandleOpts {
 function countNonDraft(dir: string): number {
   let n = 0;
   try {
-    for (const f of readdirSync(dir)) {
-      const p = join(dir, f);
-      const s = statSync(p);
-      if (s.isFile() && /\.mdx?$/.test(f)) {
-        const { data } = matter(readFileSync(p, 'utf8'));
-        if (!(data as Record<string, unknown>).draft) n++;
-      }
+    for (const ent of readdirSync(dir, { withFileTypes: true })) {
+      if (!ent.isFile() || !/\.mdx?$/.test(ent.name)) continue;
+      const { data } = matter(readFileSync(join(dir, ent.name), 'utf8'));
+      if (!(data as Record<string, unknown>).draft) n++;
     }
   } catch {
     // missing dir = 0
@@ -46,6 +43,8 @@ interface TopicFile {
   slug: string;
   description: string;
   order: number;
+  /** Optional ISO date; if absent, citations fall back to today. */
+  updatedAt?: string;
 }
 
 export async function handleListTopics(
@@ -83,7 +82,7 @@ export async function handleListTopics(
         markdown_url: `${siteUrl}/topics/${data.slug}.md`,
         title: data.title,
         kind: 'topic',
-        last_modified: new Date().toISOString().slice(0, 10),
+        last_modified: data.updatedAt ?? new Date().toISOString().slice(0, 10),
       },
     })),
   };
