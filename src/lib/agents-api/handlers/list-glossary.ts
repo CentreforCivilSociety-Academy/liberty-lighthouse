@@ -17,8 +17,8 @@ import type {
   ListGlossaryInput,
 } from '../types.js';
 import type { Citation } from '../../agent-search/types.js';
+import { getDefaultSite } from '../site.js';
 
-const DEFAULT_SITE = 'https://liberty-lighthouse.vercel.app';
 // Anchored to this file's location — see read-index.ts for rationale.
 const DEFAULT_CONTENT_DIR = resolve(
   dirname(fileURLToPath(import.meta.url)),
@@ -35,7 +35,7 @@ export async function handleListGlossary(
   opts: HandleOpts = {},
 ): Promise<GlossaryPayload> {
   const contentDir = opts.contentDir ?? DEFAULT_CONTENT_DIR;
-  const siteUrl = (opts.siteUrl ?? DEFAULT_SITE).replace(/\/$/, '');
+  const siteUrl = (opts.siteUrl ?? getDefaultSite());
   const dir = join(contentDir, 'glossary');
 
   let files: string[];
