@@ -39,4 +39,13 @@ describe('api/v1/topics wrapper (integration shape)', () => {
     const body = res._state.body as { topics: unknown[] };
     expect(Array.isArray(body.topics)).toBe(true);
   });
+
+  it('responds 204 + CORS headers to OPTIONS preflight', async () => {
+    const req: VercelReq = { query: {}, method: 'OPTIONS' };
+    const res = makeRes();
+    await topicsHandler(req, res);
+    expect(res._state.status).toBe(204);
+    expect(res._state.headers['Access-Control-Allow-Origin']).toBe('*');
+    expect(res._state.body).toBeNull(); // .end() doesn't call .json()
+  });
 });

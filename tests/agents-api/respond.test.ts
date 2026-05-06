@@ -3,6 +3,7 @@ import {
   respondJson,
   respondError,
   respondUnknown,
+  respondPreflight,
 } from '../../api/v1/_lib/respond';
 import { AgentError } from '../../src/lib/agents-api/errors';
 
@@ -65,5 +66,15 @@ describe('respondUnknown', () => {
     expect(res.body).toMatchObject({
       error: { code: 'UPSTREAM_ERROR' },
     });
+  });
+});
+
+describe('respondPreflight', () => {
+  it('writes 204 + CORS headers + ends without body', () => {
+    const res = makeRes();
+    respondPreflight(res as never);
+    expect(res.statusCode).toBe(204);
+    expect(res.headers['Access-Control-Allow-Origin']).toBe('*');
+    expect(res.body).toBeNull(); // .end() does not invoke .json()
   });
 });

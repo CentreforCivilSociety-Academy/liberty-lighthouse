@@ -7,6 +7,7 @@ import {
   respondJson,
   respondError,
   respondUnknown,
+  respondPreflight,
   singleString,
   type VercelReq,
   type VercelRes,
@@ -16,6 +17,10 @@ export default async function handler(
   req: VercelReq,
   res: VercelRes,
 ): Promise<void> {
+  if (req.method === 'OPTIONS') {
+    respondPreflight(res);
+    return;
+  }
   try {
     const payload = await handleListGlossary({
       filter: singleString(req.query, 'filter'),

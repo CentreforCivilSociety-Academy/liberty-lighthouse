@@ -8,14 +8,19 @@ import {
   respondJson,
   respondError,
   respondUnknown,
+  respondPreflight,
   type VercelReq,
   type VercelRes,
 } from './_lib/respond.js';
 
 export default async function handler(
-  _req: VercelReq,
+  req: VercelReq,
   res: VercelRes,
 ): Promise<void> {
+  if (req.method === 'OPTIONS') {
+    respondPreflight(res);
+    return;
+  }
   try {
     const payload = await handleReadIndex();
     respondJson(res, payload);
