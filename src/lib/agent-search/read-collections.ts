@@ -227,8 +227,10 @@ export function readCollections(opts: ReaderOpts): IndexedDoc[] {
       const data = parsed.data as Record<string, unknown>;
       if (data.draft) continue;
       const relRaw = relative(dirRoot, fullPath);
-      // Strip extension to derive a slug-style relPath.
-      const relPath = relRaw.replace(/\.(mdx?|json)$/, '');
+      // Strip extension AND normalize to forward slashes for URL safety on Windows
+      // (where `relative()` returns backslash separators that would otherwise get
+      // percent-encoded when fed to new URL()).
+      const relPath = relRaw.replace(/\.(mdx?|json)$/, '').split(sep).join('/');
       const entry: ParsedEntry = {
         relPath,
         fullPath,
