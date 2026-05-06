@@ -63,6 +63,23 @@ To raise a question, write to [contact@ccs.in](mailto:contact@ccs.in).
 
 Some pages embed YouTube videos via \`lite-youtube-embed\`. The YouTube embed loads only after you click play. Until you do, no request is made to YouTube and no YouTube cookies are set. Once you click play, YouTube's own privacy policy applies.
 
+## Comments
+
+FAQ, video, and glossary pages have a comments section at the bottom. To leave a comment you sign in with GitHub. We ask GitHub for the smallest permission scope that lets us post on your behalf — \`public_repo\` — which lets us file your comment as a GitHub Issue on this site's public repository. We never see your password.
+
+What's stored when you submit a comment:
+
+- Your GitHub username and the display name you chose (both shown publicly above your comment).
+- Your comment text (shown publicly once approved).
+- The submission timestamp and the page you commented on.
+- The GitHub Issue number created at submission time. The issue itself is automatically closed but remains in the repository's issue history as an audit record.
+
+What we do *not* store: your email, any tracking cookies, or any data shared with third parties. Your GitHub session token is held in your browser's \`sessionStorage\` only; it is cleared when you close the tab and is never sent anywhere except to \`github.com\` (during sign-in) and to \`liberty-lighthouse.vercel.app/api/comments/submit\` (during submission).
+
+Comments are reviewed by the Centre for Civil Society team before they appear on the site. We may approve, hide, or delete a comment at our discretion — for example, comments containing abuse, harassment, doxxing, or spam are deleted entirely.
+
+To request removal of one of your own comments, email [contact@ccs.in](mailto:contact@ccs.in) with the comment URL and we will delete the file from the repository. Note that the original submission may still appear in the GitHub repository's issue history; for severe cases we will also delete the corresponding issue.
+
 ## Hosting
 
 The site is statically generated and hosted on Vercel. Vercel may collect standard server access logs (IP, user-agent, timestamp) for reliability and abuse prevention. These logs are retained for a limited window per Vercel's policies and are not used for marketing.
