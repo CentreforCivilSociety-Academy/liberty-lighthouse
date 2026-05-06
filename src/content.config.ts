@@ -116,6 +116,31 @@ const ccsBooks = defineCollection({
   }),
 });
 
+// Reader comments. Submitted via the GitHub-login comment form on FAQ /
+// video / glossary pages, ingested as a GitHub Issue, then converted to a
+// pending markdown file by .github/workflows/comments-ingest.yml.
+// Moderated in Decap CMS (/admin/) — admin sets status=approved to publish,
+// status=rejected to hide while keeping audit trail, or deletes the file
+// entirely for abuse content. Only status=approved entries render.
+const comments = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/comments' }),
+  schema: z.object({
+    status: z.enum(['pending', 'approved', 'rejected']).default('pending'),
+    page_type: z.enum(['faq', 'video', 'glossary']),
+    // Stable identifier for the page being commented on. Format:
+    //   faq, video: "<topic-slug>/<page-slug>" (e.g. "agriculture/why-msp")
+    //   glossary:   "<term-slug>"              (e.g. "msp")
+    page_id: z.string(),
+    name: z.string().min(1).max(120),
+    github_username: z.string().min(1).max(120),
+    body: z.string().min(1).max(5000),
+    submitted_at: z.string(),
+    approved_at: z.string().optional(),
+    issue_number: z.number().int().optional(),
+    parent_id: z.string().nullable().default(null),
+  }),
+});
+
 // LLM-generated wiki layer (Karpathy's "compounding artifact"). Entity pages,
 // topic summaries, and comparisons synthesised from raw sources by
 // scripts/ingest/wiki-regen.ts. These DO render as public HTML — humans can
@@ -144,5 +169,6 @@ export const collections = {
   settings,
   spontaneousOrder,
   ccsBooks,
+  comments,
   wiki,
 };
