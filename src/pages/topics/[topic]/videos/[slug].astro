@@ -7,6 +7,7 @@ import ChatAboutThis from '../../../../components/ui/ChatAboutThis.astro';
 import { getCollection, render } from 'astro:content';
 import RelatedContent from '../../../../components/crosslinks/RelatedContent.astro';
 import DefinedOnThisPage from '../../../../components/global/DefinedOnThisPage.astro';
+import Comments from '../../../../components/Comments.astro';
 import { getSlugFromId, getTopicBySlug, resolveRelatedFAQs, resolveRelatedVideos } from '../../../../lib/collections';
 import { buildVideoSchema, buildBreadcrumbSchema } from '../../../../lib/structured-data';
 
@@ -152,6 +153,10 @@ const breadcrumbSchema = buildBreadcrumbSchema([
         </div>
       </Fragment>
     )}
+
+    <div class="max-w-[var(--prose-max-width)] mx-auto">
+      <Comments pageType="video" pageId={`${topicSlug}/${getSlugFromId(entry.id)}`} />
+    </div>
   </div>
 </PageLayout>
 

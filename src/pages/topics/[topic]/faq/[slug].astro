@@ -5,6 +5,7 @@ import RelatedContent from '../../../../components/crosslinks/RelatedContent.ast
 import CopyAsMarkdown from '../../../../components/ui/CopyAsMarkdown.astro';
 import ChatAboutThis from '../../../../components/ui/ChatAboutThis.astro';
 import DefinedOnThisPage from '../../../../components/global/DefinedOnThisPage.astro';
+import Comments from '../../../../components/Comments.astro';
 import { getCollection, render } from 'astro:content';
 import { getSlugFromId, getTopicBySlug, resolveRelatedFAQs, resolveRelatedVideos } from '../../../../lib/collections';
 import { buildFAQSchema, buildBreadcrumbSchema } from '../../../../lib/structured-data';
@@ -76,4 +77,6 @@ const breadcrumbSchema = buildBreadcrumbSchema([
   <DefinedOnThisPage body={entry.body || ''} />
 
   <RelatedContent faqs={relatedFAQs} videos={relatedVideos}  />
+
+  <Comments pageType="faq" pageId={`${topicSlug}/${getSlugFromId(entry.id)}`} />
 </ProseLayout>
