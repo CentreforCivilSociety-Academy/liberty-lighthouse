@@ -12,3 +12,5 @@ export { CORS_HEADERS, withCors } from './cors.js';
 export { handleReadIndex } from './handlers/read-index.js';
 export { handleSearch } from './handlers/search.js';
 export { handleFetch } from './handlers/fetch.js';
+export { handleListGlossary } from './handlers/list-glossary.js';
+export { handleListTopics } from './handlers/list-topics.js';
