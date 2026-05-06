@@ -5,9 +5,12 @@
  * The transport delegates JSON-RPC handling and SSE streams to the
  * underlying @modelcontextprotocol/sdk machinery.
  *
- * The transport works directly with Node's IncomingMessage/ServerResponse
- * (Vercel's Node runtime supplies real Node HTTP objects with `body`
- * pre-parsed when Content-Type is JSON).
+ * Platform coupling: this handler relies on Vercel's Node runtime to
+ * pre-parse the request body for JSON content types. If you redeploy
+ * this file under a different adapter (Netlify Functions, raw node:http,
+ * AWS Lambda + API Gateway, etc.), `req.body` will be undefined on POST
+ * and the SDK transport will hang trying to read an already-consumed
+ * stream. The defensive log below makes that failure mode observable.
  *
  * See docs/agents-api.md §7 (endpoints) and the operator README at
  * api/v1/README.md.
@@ -38,6 +41,17 @@ export default async function handler(
   }
 
   attachCors(res);
+
+  if (req.method === 'POST' && req.body === undefined) {
+    // Defensive: surface a debuggable signal if body parsing isn't
+    // happening (wrong adapter, missing Content-Type header, etc.).
+    // The transport would otherwise hang trying to read the stream.
+    // eslint-disable-next-line no-console
+    console.warn(
+      '[mcp] POST request has undefined req.body — body parsing may not be configured. ' +
+        'The Streamable HTTP transport will likely hang or 400.',
+    );
+  }
 
   const server = createMcpServer();
   const transport = new StreamableHTTPServerTransport({
