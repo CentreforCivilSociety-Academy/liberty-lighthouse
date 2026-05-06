@@ -9,6 +9,8 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
+    "prebuild": "npm run build:agent-index",
+    "build:agent-index": "tsx src/lib/agent-search/build-index.ts",
     "preview": "astro preview",
     "astro": "astro",
     "test": "vitest run",
