@@ -45,7 +45,7 @@ const dateFmt = new Intl.DateTimeFormat('en-IN', {
               <time class="comment-date" datetime={c.data.submitted_at}>{date}</time>
             )}
           </header>
-          <div class="comment-body">{c.data.body}</div>
+          <div class="comment-body">{c.body}</div>
         </li>
       );
     })}
