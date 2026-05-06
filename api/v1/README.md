@@ -48,3 +48,38 @@ The wrappers handle `OPTIONS` preflight requests (returning 204 + CORS headers) 
 ## Future: POST endpoints
 
 Currently all endpoints are GET. When POST endpoints are added (e.g. for Phase 3's MCP transport at `/api/v1/mcp`), the OPTIONS preflight handling already in place will continue to work — the `Access-Control-Allow-Methods` header lists `GET, OPTIONS` today and would need `POST` added at that point.
+
+## MCP transport
+
+`POST /api/v1/mcp` is a Streamable HTTP MCP transport exposing the same five tools (`read_index`, `search`, `fetch`, `list_glossary`, `list_topics`). Stateless mode — each request gets its own `McpServer` instance.
+
+### Verifying the deployed endpoint
+
+```bash
+npx @modelcontextprotocol/inspector https://liberty-lighthouse.vercel.app/api/v1/mcp
+```
+
+The inspector will list 5 tools and let you invoke each. Smoke-test each one and confirm the JSON payloads match the `read_index` / `search` / etc. shapes documented in `docs/agents-api.md` §5.
+
+### Connecting a client
+
+**Claude Desktop / Claude Code (HTTP transport, when supported):** add to the MCP config:
+
+```json
+{
+  "mcpServers": {
+    "liberty-lighthouse": {
+      "transport": "http",
+      "url": "https://liberty-lighthouse.vercel.app/api/v1/mcp"
+    }
+  }
+}
+```
+
+**Cursor / Cline / Continue:** consult the tool's docs for HTTP MCP transport configuration. Most accept the URL directly.
+
+**claude.com/connectors:** submit `https://liberty-lighthouse.vercel.app/api/v1/mcp` for one-click installation. Anonymous access (no auth header required).
+
+### Stdio variant
+
+A separate stdio-based MCP server lives at [mcp/server.ts](../mcp/server.ts) and continues to work as-is. It uses an older substring search and a slightly different tool surface (six tools including `list_topic_content`). Until that file is refactored to share this phase's tool registry, prefer the HTTP transport for new integrations.
