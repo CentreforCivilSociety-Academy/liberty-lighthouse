@@ -108,6 +108,23 @@ describe('readCollections', () => {
     expect(chapter.id).toBe('external/ccs-books/jeevan/chapter-1-introduction');
   });
 
+  it('faqs and videos parse correctly under slash-normalized relPath', () => {
+    // After cross-platform slash normalization, the faq/video shape functions
+    // must split relPath on "/" literal, not on path.sep — otherwise on
+    // Windows ('\\' sep) every faq/video would throw because the normalized
+    // relPath contains "/" not "\\".
+    const docs = readCollections({
+      contentDir: FIXTURES,
+      siteUrl: 'https://example.com',
+    });
+    const faq = docs.find((d) => d.id === 'faq/agriculture/why-msp')!;
+    expect(faq).toBeDefined();
+    expect(faq.kind).toBe('faq');
+    const video = docs.find((d) => d.kind === 'video')!;
+    expect(video).toBeDefined();
+    expect(video.id).toBe('video/agriculture/contract-farming');
+  });
+
   it('uses ingested_at as last_modified for ccs-books', () => {
     const docs = readCollections({
       contentDir: FIXTURES,
