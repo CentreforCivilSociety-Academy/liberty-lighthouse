@@ -14,6 +14,11 @@ describe('tokenize', () => {
     expect(tokenize("don't can't")).toEqual(["don't", "can't"]);
   });
 
+  it('normalizes curly apostrophes to match straight ones', () => {
+    // U+2019 (right single quotation mark) → U+0027 (apostrophe)
+    expect(tokenize("don’t can’t")).toEqual(["don't", "can't"]);
+  });
+
   it('handles hyphenated terms by splitting on hyphen', () => {
     expect(tokenize('voucher-system school-choice')).toEqual([
       'voucher',
