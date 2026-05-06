@@ -6,7 +6,7 @@
  *
  * See docs/agents-api.md §5.2.
  */
-import { search } from '../../agent-search/search.js';
+import { search, InvalidKindError } from '../../agent-search/index.js';
 import { AgentError } from '../errors.js';
 import type { SearchInput, SearchPayload } from '../types.js';
 
@@ -37,11 +37,11 @@ export async function handleSearch(
       kinds: input.kinds,
     });
   } catch (err) {
-    if (err instanceof Error && err.message.includes('invalid kind')) {
+    if (err instanceof InvalidKindError) {
       throw new AgentError(
         'VALIDATION_ERROR',
         err.message,
-        input.kinds ? { kinds: input.kinds } : undefined,
+        { kind: err.kind, valid_kinds: err.validKinds },
       );
     }
     throw err;

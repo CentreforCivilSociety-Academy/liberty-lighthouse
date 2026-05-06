@@ -12,4 +12,4 @@ export { extractSnippet } from './snippet.js';
 export { readCollections } from './read-collections.js';
 export { buildIndex } from './build-index.js';
 export { loadIndex } from './load-index.js';
-export { search } from './search.js';
+export { search, InvalidKindError } from './search.js';

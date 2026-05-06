@@ -49,6 +49,11 @@ describe('handleSearch', () => {
     await expect(handleSearch({ query: '   ' })).rejects.toThrowError(
       AgentError,
     );
+    try {
+      await handleSearch({ query: '   ' });
+    } catch (err) {
+      expect((err as AgentError).code).toBe('BAD_REQUEST');
+    }
   });
 
   it('throws VALIDATION_ERROR on invalid kind', async () => {
