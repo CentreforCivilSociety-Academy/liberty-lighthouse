@@ -15,12 +15,36 @@ import { loadIndex } from './load-index.js';
 const MAX_K = 25;
 const DEFAULT_K = 10;
 
+const VALID_KINDS: ReadonlySet<ContentKind> = new Set([
+  'topic',
+  'faq',
+  'video',
+  'glossary',
+  'wiki',
+  'external',
+  'syllabus',
+] satisfies ContentKind[] as ContentKind[]);
+
+function assertValidKinds(kinds: readonly ContentKind[] | undefined): void {
+  if (!kinds) return;
+  for (const k of kinds) {
+    if (!VALID_KINDS.has(k)) {
+      throw new Error(
+        `agent-search: invalid kind "${k}". ` +
+          `Valid kinds: ${[...VALID_KINDS].join(', ')}.`,
+      );
+    }
+  }
+}
+
 export async function search(
   query: string,
   opts: SearchOptions = {},
 ): Promise<SearchHit[]> {
   const queryTokens = tokenize(query);
   if (queryTokens.length === 0) return [];
+
+  assertValidKinds(opts.kinds);
 
   const idx = await loadIndex();
   const k = Math.min(MAX_K, Math.max(1, opts.k ?? DEFAULT_K));
