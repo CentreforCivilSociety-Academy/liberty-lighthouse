@@ -1,5 +1,7 @@
 # build output
 dist/
+# generated BM25 index (rebuilt by `npm run build:agent-index`)
+src/lib/agent-search/_generated/
 # generated types
 .astro/
 
