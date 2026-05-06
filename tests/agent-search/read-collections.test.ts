@@ -93,6 +93,21 @@ describe('readCollections', () => {
     );
   });
 
+  it('uses forward slashes in nested ccs-books URLs (cross-platform safety)', () => {
+    const docs = readCollections({
+      contentDir: FIXTURES,
+      siteUrl: 'https://example.com',
+    });
+    const chapter = docs.find((d) => d.kind === 'external' && d.id.includes('jeevan'))!;
+    // Both URL fields must use forward slashes only — no percent-encoded
+    // backslashes from Windows path separators.
+    expect(chapter.citation.canonical_url).not.toContain('%5C');
+    expect(chapter.citation.markdown_url).not.toContain('%5C');
+    expect(chapter.citation.markdown_url).toContain('/jeevan/chapter-1-introduction.md');
+    // Doc id should also be slash-separated (slug-style) on all platforms.
+    expect(chapter.id).toBe('external/ccs-books/jeevan/chapter-1-introduction');
+  });
+
   it('uses ingested_at as last_modified for ccs-books', () => {
     const docs = readCollections({
       contentDir: FIXTURES,
