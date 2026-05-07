@@ -8,7 +8,14 @@
  * Refactored from src/pages/llms.txt.ts. Mirrors the pattern at
  * src/lib/agents-doc.ts:buildAgentsDoc.
  */
-import { abs } from '../markdown-export.js';
+// Inlined to keep the agents-api package self-contained and avoid
+// crossing the src/lib/ boundary that Vercel's cloud builder mishandles
+// (it drops .js extensions during TS compilation, breaking Node ESM
+// at runtime). See src/lib/agents-doc.ts for the same workaround.
+const SITE_URL = 'https://liberty-lighthouse.vercel.app';
+function abs(path: string): string {
+  return new URL(path, SITE_URL).href;
+}
 
 export interface CorpusInputs {
   topics: ReadonlyArray<{
