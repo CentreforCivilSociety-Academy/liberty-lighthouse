@@ -1,0 +1,459 @@
+---
+import PageLayout from '../layouts/PageLayout.astro';
+import Breadcrumbs from '../components/global/Breadcrumbs.astro';
+
+const MCP_URL = 'https://liberty-lighthouse.vercel.app/api/v1/mcp';
+
+const statusItems: Array<{
+  phase: string;
+  label: string;
+  state: 'live' | 'planned' | 'next';
+  note: string;
+}> = [
+  {
+    phase: 'Phase 1',
+    label: 'BM25 search core',
+    state: 'live',
+    note: '1,148 docs indexed across topics, FAQs, videos, glossary, wiki, Spontaneous Order, CCS Books.',
+  },
+  {
+    phase: 'Phase 2',
+    label: 'Public HTTP API',
+    state: 'live',
+    note: '/api/v1/{index,search,fetch,glossary,topics} — anonymous, CORS-open, cited responses.',
+  },
+  {
+    phase: 'Phase 3',
+    label: 'Streamable HTTP MCP',
+    state: 'live',
+    note: 'POST /api/v1/mcp — five tools, stateless serverless, ready for any MCP client.',
+  },
+  {
+    phase: 'Phase 4',
+    label: 'OpenAPI spec + ChatGPT Action',
+    state: 'next',
+    note: 'BM25-backed Custom GPT (the existing browsing-based GPT works today).',
+  },
+  {
+    phase: 'Phase 5',
+    label: 'This /ai page',
+    state: 'live',
+    note: 'You are here.',
+  },
+  {
+    phase: 'Phase 6+',
+    label: 'Telemetry, admin dashboard, listings',
+    state: 'planned',
+    note: 'Anonymous usage stats; submission to claude.com/connectors and the GPT Store.',
+  },
+];
+
+const tools: Array<{
+  name: string;
+  blurb: string;
+}> = [
+  { name: 'read_index', blurb: 'Curated index, schema, and corpus summary. Always call first.' },
+  { name: 'search', blurb: 'BM25 over the full corpus. Returns ranked hits with snippets and citations.' },
+  { name: 'fetch', blurb: 'Markdown body of any page on the site, with frontmatter parsed into a citation.' },
+  { name: 'list_glossary', blurb: 'Enumerate terms with short definitions. Optional substring filter.' },
+  { name: 'list_topics', blurb: 'Top-level policy topics with FAQ + video counts.' },
+];
+---
+
+<PageLayout
+  title="AI access — Liberty Lighthouse"
+  description="Plug Liberty Lighthouse into ChatGPT, Claude, Cursor, or any MCP client. Public, anonymous, citation-grounded. Built on Karpathy's LLM Wiki pattern."
+>
+  <!-- HERO -->
+  <section class="ai-hero relative bg-[var(--color-bg-dark)] overflow-hidden">
+    <div class="absolute inset-0 opacity-[0.03]" style="background-image: url('data:image/svg+xml,%3Csvg viewBox=%220 0 256 256%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noise%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.9%22 numOctaves=%224%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noise)%22/%3E%3C/svg%3E'); background-size: 256px 256px;"></div>
+    <div class="ai-horizon absolute bottom-0 left-0 right-0 h-[55%] pointer-events-none" aria-hidden="true"></div>
+
+    <div class="relative z-10 max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)] md:py-[3.5rem]">
+      <div class="max-w-[56rem] mx-auto text-center">
+        <p class="text-[0.75rem] md:text-[0.8125rem] font-[600] uppercase tracking-[0.18em] text-[var(--color-accent)] mb-[var(--spacing-lg)] fade-up"
+           style="font-family: var(--font-body);">
+          For Agents · For LLMs · For Researchers
+        </p>
+
+        <h1
+          class="font-[800] tracking-[-0.025em] leading-[1.05] text-[var(--color-text-on-dark)] mb-[var(--spacing-xl)] fade-up fade-up-delay-1"
+          style="font-family: var(--font-display); font-optical-sizing: auto; text-wrap: balance; font-size: clamp(2rem, calc(4vw + 1.5rem), 4rem);"
+        >
+          The corpus,<br/><em class="not-italic" style="color: var(--color-accent);">readable by your AI.</em>
+        </h1>
+
+        <div class="flex items-center justify-center gap-[0.75rem] mb-[var(--spacing-xl)] fade-up fade-up-delay-1" aria-hidden="true">
+          <span class="ai-rule-line block h-[1px] w-[3.5rem] md:w-[5rem] bg-[var(--color-accent)] origin-left"></span>
+          <span class="block w-[5px] h-[5px] rotate-45 bg-[var(--color-accent)] opacity-80"></span>
+          <span class="ai-rule-line block h-[1px] w-[3.5rem] md:w-[5rem] bg-[var(--color-accent)] origin-right"></span>
+        </div>
+
+        <p class="text-[1.0625rem] md:text-[1.1875rem] text-[var(--color-text-on-dark)] opacity-65 leading-[1.7] mb-[var(--spacing-xl)] max-w-[42rem] mx-auto fade-up fade-up-delay-2"
+           style="font-family: var(--font-body); text-wrap: pretty;">
+          Plug Liberty Lighthouse into the AI tool you already use. No account, no API key, no rate limits. Every answer comes back with a citation to the canonical URL.
+        </p>
+
+        <!-- MCP URL pill -->
+        <div class="fade-up fade-up-delay-3 inline-flex items-center gap-[0.625rem] px-[1rem] py-[0.625rem] rounded-full border border-[var(--color-accent)]/30 bg-[var(--color-accent)]/[0.08] backdrop-blur-sm">
+          <span class="inline-block w-[7px] h-[7px] rounded-full bg-[#5dd39e] shadow-[0_0_8px_rgba(93,211,158,0.6)] animate-pulse"></span>
+          <span class="text-[0.875rem] font-[600] text-[var(--color-accent)] uppercase tracking-[0.1em]" style="font-family: var(--font-body);">Live</span>
+          <span class="block w-px h-4 bg-[var(--color-text-on-dark)]/20"></span>
+          <code class="text-[0.8125rem] md:text-[0.9375rem] text-[var(--color-text-on-dark)]/85 select-all" style="font-family: var(--monospace-font, ui-monospace, monospace);">{MCP_URL}</code>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- BREADCRUMBS -->
+  <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] pt-[var(--spacing-lg)]">
+    <Breadcrumbs items={[{ label: 'AI access' }]} />
+  </div>
+
+  <!-- INTEGRATIONS -->
+  <section class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    <header class="max-w-[44rem] mb-[var(--spacing-2xl)]">
+      <p class="text-[0.75rem] font-[600] uppercase tracking-[0.16em] text-[var(--color-accent-text)] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">Use it with</p>
+      <h2 class="font-[700] tracking-[-0.02em] leading-[1.15] text-[var(--color-text-primary)] mb-[var(--spacing-md)]"
+          style="font-family: var(--font-display); font-size: clamp(1.75rem, calc(2vw + 1.25rem), 2.5rem);">
+        Five paths in, depending on your tool.
+      </h2>
+      <p class="text-[1rem] md:text-[1.0625rem] text-[var(--color-text-secondary)] leading-[1.7]" style="font-family: var(--font-body);">
+        The endpoint is the same; only the wiring differs.
+      </p>
+    </header>
+
+    <div class="grid gap-[var(--spacing-lg)] md:grid-cols-2 lg:grid-cols-3">
+
+      <!-- Card: claude.ai -->
+      <article class="ai-card relative bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[12px] p-[var(--spacing-xl)] transition-all duration-300">
+        <div class="ai-card-icon mb-[var(--spacing-md)]">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="text-[var(--color-accent)]" aria-hidden="true">
+            <rect x="3" y="3" width="18" height="18" rx="3"/>
+            <path d="m9 12 2 2 4-4"/>
+          </svg>
+        </div>
+        <h3 class="text-[1.125rem] font-[700] text-[var(--color-text-primary)] mb-[0.375rem]" style="font-family: var(--font-display);">claude.ai</h3>
+        <p class="text-[0.875rem] text-[var(--color-text-tertiary)] mb-[var(--spacing-md)] uppercase tracking-[0.08em]" style="font-family: var(--font-body);">Pro · Team · Max · Enterprise</p>
+        <ol class="text-[0.9375rem] text-[var(--color-text-secondary)] leading-[1.65] space-y-[0.375rem] mb-[var(--spacing-md)]">
+          <li>1. Settings → Connectors → <em>Add custom</em></li>
+          <li>2. Paste the URL above. Auth: <em>none</em>.</li>
+          <li>3. Save and start asking.</li>
+        </ol>
+        <p class="text-[0.875rem] text-[var(--color-text-tertiary)] italic" style="font-family: var(--font-body);">"What does CCS think about MSP?" — Claude composes <code>read_index → search → fetch</code>.</p>
+      </article>
+
+      <!-- Card: Claude Desktop / Cursor / Cline -->
+      <article class="ai-card relative bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[12px] p-[var(--spacing-xl)] transition-all duration-300">
+        <div class="ai-card-icon mb-[var(--spacing-md)]">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="text-[var(--color-accent)]" aria-hidden="true">
+            <polyline points="16 18 22 12 16 6"/>
+            <polyline points="8 6 2 12 8 18"/>
+          </svg>
+        </div>
+        <h3 class="text-[1.125rem] font-[700] text-[var(--color-text-primary)] mb-[0.375rem]" style="font-family: var(--font-display);">Claude Desktop · Cursor · Cline · Continue</h3>
+        <p class="text-[0.875rem] text-[var(--color-text-tertiary)] mb-[var(--spacing-md)] uppercase tracking-[0.08em]" style="font-family: var(--font-body);">JSON config</p>
+        <pre class="text-[0.75rem] bg-[var(--color-bg-section)] border border-[var(--color-border-subtle)] rounded-[6px] p-[0.75rem] overflow-x-auto leading-[1.5] mb-[var(--spacing-md)]" style="font-family: var(--monospace-font, ui-monospace, monospace);"><code>{`"liberty-lighthouse": {
+  "transport": "http",
+  "url": "${MCP_URL}"
+}`}</code></pre>
+        <p class="text-[0.875rem] text-[var(--color-text-tertiary)] italic" style="font-family: var(--font-body);">Add inside <code>mcpServers</code>. Restart the client. Five tools appear.</p>
+      </article>
+
+      <!-- Card: MCP Inspector -->
+      <article class="ai-card relative bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[12px] p-[var(--spacing-xl)] transition-all duration-300">
+        <div class="ai-card-icon mb-[var(--spacing-md)]">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="text-[var(--color-accent)]" aria-hidden="true">
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.3-4.3"/>
+          </svg>
+        </div>
+        <h3 class="text-[1.125rem] font-[700] text-[var(--color-text-primary)] mb-[0.375rem]" style="font-family: var(--font-display);">MCP Inspector</h3>
+        <p class="text-[0.875rem] text-[var(--color-text-tertiary)] mb-[var(--spacing-md)] uppercase tracking-[0.08em]" style="font-family: var(--font-body);">Quickest sanity check · 2 min</p>
+        <pre class="text-[0.75rem] bg-[var(--color-bg-section)] border border-[var(--color-border-subtle)] rounded-[6px] p-[0.75rem] overflow-x-auto leading-[1.5] mb-[var(--spacing-md)]" style="font-family: var(--monospace-font, ui-monospace, monospace);"><code>npx @modelcontextprotocol/inspector \
+  {MCP_URL}</code></pre>
+        <p class="text-[0.875rem] text-[var(--color-text-tertiary)] italic" style="font-family: var(--font-body);">Browser UI lists all five tools. Click, fill, run. No setup needed.</p>
+      </article>
+
+      <!-- Card: ChatGPT (browsing-based) -->
+      <article class="ai-card relative bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[12px] p-[var(--spacing-xl)] transition-all duration-300">
+        <div class="ai-card-icon mb-[var(--spacing-md)]">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="text-[var(--color-accent)]" aria-hidden="true">
+            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+          </svg>
+        </div>
+        <h3 class="text-[1.125rem] font-[700] text-[var(--color-text-primary)] mb-[0.375rem]" style="font-family: var(--font-display);">ChatGPT</h3>
+        <p class="text-[0.875rem] text-[var(--color-text-tertiary)] mb-[var(--spacing-md)] uppercase tracking-[0.08em]" style="font-family: var(--font-body);">Plus · Custom GPT (browsing-based)</p>
+        <p class="text-[0.9375rem] text-[var(--color-text-secondary)] leading-[1.65] mb-[var(--spacing-md)]">Build a Custom GPT that fetches our <code>.md</code> URLs directly via ChatGPT's web browsing capability. Setup checklist in the repo.</p>
+        <p class="text-[0.875rem] text-[var(--color-text-tertiary)] italic mb-[var(--spacing-sm)]" style="font-family: var(--font-body);">An Action-based variant calling our BM25 endpoints is on the roadmap (Phase 4).</p>
+        <a href="https://github.com/CentreforCivilSociety-Academy/liberty-lighthouse/blob/main/docs/distribution/custom-gpt.md" class="text-[0.875rem] text-[var(--color-accent-text)] underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)] transition-colors">Setup checklist →</a>
+      </article>
+
+      <!-- Card: Raw HTTP / build your own -->
+      <article class="ai-card relative bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[12px] p-[var(--spacing-xl)] transition-all duration-300">
+        <div class="ai-card-icon mb-[var(--spacing-md)]">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="text-[var(--color-accent)]" aria-hidden="true">
+            <polyline points="4 17 10 11 4 5"/>
+            <line x1="12" y1="19" x2="20" y2="19"/>
+          </svg>
+        </div>
+        <h3 class="text-[1.125rem] font-[700] text-[var(--color-text-primary)] mb-[0.375rem]" style="font-family: var(--font-display);">Raw HTTP</h3>
+        <p class="text-[0.875rem] text-[var(--color-text-tertiary)] mb-[var(--spacing-md)] uppercase tracking-[0.08em]" style="font-family: var(--font-body);">curl · fetch · whatever</p>
+        <pre class="text-[0.75rem] bg-[var(--color-bg-section)] border border-[var(--color-border-subtle)] rounded-[6px] p-[0.75rem] overflow-x-auto leading-[1.5] mb-[var(--spacing-md)]" style="font-family: var(--monospace-font, ui-monospace, monospace);"><code>GET /api/v1/search?q=msp
+GET /api/v1/fetch?url=…
+GET /api/v1/index</code></pre>
+        <p class="text-[0.875rem] text-[var(--color-text-tertiary)] italic" style="font-family: var(--font-body);">Anonymous, CORS-open, JSON, citation blocks on every response.</p>
+      </article>
+
+      <!-- Card: llms.txt / static markdown -->
+      <article class="ai-card relative bg-[var(--color-bg-card)] border border-[var(--color-border-default)] rounded-[12px] p-[var(--spacing-xl)] transition-all duration-300">
+        <div class="ai-card-icon mb-[var(--spacing-md)]">
+          <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" class="text-[var(--color-accent)]" aria-hidden="true">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+            <polyline points="14 2 14 8 20 8"/>
+          </svg>
+        </div>
+        <h3 class="text-[1.125rem] font-[700] text-[var(--color-text-primary)] mb-[0.375rem]" style="font-family: var(--font-display);">Anything that reads <code>llms.txt</code></h3>
+        <p class="text-[0.875rem] text-[var(--color-text-tertiary)] mb-[var(--spacing-md)] uppercase tracking-[0.08em]" style="font-family: var(--font-body);">Crawlers · Skills · Static fetchers</p>
+        <p class="text-[0.9375rem] text-[var(--color-text-secondary)] leading-[1.65] mb-[var(--spacing-md)]">Every public page has a markdown sibling. Append <code>.md</code> to any URL. Howard-spec index at <a href="/llms.txt" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">/llms.txt</a>; full corpus dump at <a href="/llms-full.txt" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">/llms-full.txt</a>.</p>
+        <p class="text-[0.875rem] text-[var(--color-text-tertiary)] italic" style="font-family: var(--font-body);">Schema and citation rules at <a href="/AGENTS.md" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">/AGENTS.md</a>.</p>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- TOOLS -->
+  <section class="bg-[var(--color-bg-section)] border-y border-[var(--color-border-subtle)]">
+    <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+      <header class="max-w-[44rem] mb-[var(--spacing-2xl)]">
+        <p class="text-[0.75rem] font-[600] uppercase tracking-[0.16em] text-[var(--color-accent-text)] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">The five tools</p>
+        <h2 class="font-[700] tracking-[-0.02em] leading-[1.15] text-[var(--color-text-primary)] mb-[var(--spacing-md)]"
+            style="font-family: var(--font-display); font-size: clamp(1.75rem, calc(2vw + 1.25rem), 2.5rem);">
+          Primitives, not menus.
+        </h2>
+        <p class="text-[1rem] md:text-[1.0625rem] text-[var(--color-text-secondary)] leading-[1.7]" style="font-family: var(--font-body);">
+          Five small tools that compose. The agent decides what to call, in what order. Every result carries a citation.
+        </p>
+      </header>
+
+      <div class="grid gap-[var(--spacing-md)] md:grid-cols-2">
+        {tools.map((t) => (
+          <div class="flex items-baseline gap-[var(--spacing-md)] py-[var(--spacing-md)] border-b border-[var(--color-border-subtle)]/60 last:border-b-0">
+            <code class="text-[0.9375rem] font-[700] text-[var(--color-primary)] flex-shrink-0" style="font-family: var(--monospace-font, ui-monospace, monospace);">{t.name}</code>
+            <p class="text-[0.9375rem] text-[var(--color-text-secondary)] leading-[1.65]" style="font-family: var(--font-body);">{t.blurb}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- METHODOLOGY -->
+  <section class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    <header class="max-w-[44rem] mb-[var(--spacing-2xl)]">
+      <p class="text-[0.75rem] font-[600] uppercase tracking-[0.16em] text-[var(--color-accent-text)] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">Methodology</p>
+      <h2 class="font-[700] tracking-[-0.02em] leading-[1.15] text-[var(--color-text-primary)] mb-[var(--spacing-md)]"
+          style="font-family: var(--font-display); font-size: clamp(1.75rem, calc(2vw + 1.25rem), 2.5rem);">
+        Markdown, not embeddings.<br/><span class="text-[var(--color-text-secondary)]">The LLM is the ranker.</span>
+      </h2>
+    </header>
+
+    <div class="prose max-w-[44rem] mx-auto md:mx-0">
+      <p>
+        The architecture is deliberately old-school. The corpus lives as plain markdown in a git repository. A build-time job constructs a BM25 index. There are no embeddings, no vector store, no RAG pipeline. Search returns ranked candidates; the LLM that called us does the actual reasoning.
+      </p>
+
+      <p>
+        This isn't austerity for its own sake. It's a wager about where intelligence belongs.
+      </p>
+
+      <blockquote class="ai-pullquote my-[var(--spacing-xl)] py-[var(--spacing-lg)] px-[var(--spacing-xl)] border-l-[3px] border-[var(--color-accent)]/60 bg-[var(--color-bg-elevated)]">
+        <p class="text-[1.0625rem] md:text-[1.1875rem] leading-[1.6] text-[var(--color-text-primary)] italic mb-[var(--spacing-sm)]" style="font-family: var(--font-display);">
+          "Treat the LLM as a compiler that reads raw source documents and produces a structured, interlinked wiki. Don't rely on complex RAG pipelines or vector databases."
+        </p>
+        <footer class="text-[0.875rem] text-[var(--color-text-tertiary)] not-italic" style="font-family: var(--font-body);">
+          — Andrej Karpathy, on the <a href="https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">LLM Wiki pattern</a>
+        </footer>
+      </blockquote>
+
+      <p>
+        Karpathy's insight is that vector embeddings — for all their cleverness — are a black box. You can't read what the embedding "thinks" the passage is about. You can't edit it. When the model retrieves the wrong thing, you can't trace why. Markdown files, by contrast, are auditable. Every claim made by the AI traces back to a specific <code>.md</code> file that a human can open, read, edit, or delete.
+      </p>
+
+      <p>
+        At the scale of this corpus — about 1,150 documents — Karpathy's prescription is: an index file (<code>llms.txt</code>) is enough; beyond a few hundred pages, add BM25; only consider vectors if recall is genuinely failing. We're at the BM25 stage. We may never need the next one.
+      </p>
+
+      <h3>A kindred spirit: <span style="color: var(--color-accent);">falsafa.ai</span></h3>
+
+      <p>
+        We're not the only ones building this way. <a href="https://falsafa.ai" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">falsafa.ai</a> applies the same pattern to a very different corpus: classical and philosophical works. Same architectural shape — markdown source, agent-readable tools (<code>search_corpus</code>, <code>read_chapter</code>, <code>get_passage</code>), an LLM-synthesized wiki layer for navigation, and stable citation handles that an agent or human can verify against the original passage.
+      </p>
+
+      <p>
+        It's a quiet movement. Build the corpus carefully. Expose it cleanly to agents. Let the LLM ecosystem do the rest. Falsafa for philosophy, Liberty Lighthouse for policy. The pattern generalizes; the corpora don't.
+      </p>
+
+      <h3>How this lands in practice</h3>
+
+      <p>Every response from this site carries a structured citation block:</p>
+
+      <pre class="text-[0.8125rem]" style="font-family: var(--monospace-font, ui-monospace, monospace);"><code>{`{
+  "canonical_url": "https://liberty-lighthouse.vercel.app/glossary/msp/",
+  "markdown_url":  "https://liberty-lighthouse.vercel.app/glossary/msp.md",
+  "title":         "MSP",
+  "kind":          "glossary",
+  "last_modified": "2026-04-26"
+}`}</code></pre>
+
+      <p>
+        Cite by <code>canonical_url</code> — the human-readable HTML page. The <code>markdown_url</code> is the agent's traversal handle. The <code>kind</code> tells the agent what shape of content it's dealing with. The <code>last_modified</code> lets it check freshness. These five fields are the contract; everything else flows from them.
+      </p>
+
+      <p>
+        The corpus presents a classical-liberal perspective, explicitly. When agents summarize contested policy questions, the right move is to surface the framing rather than present it as neutral consensus. Both Karpathy's pattern and the citation contract make this honest by default — every paraphrase has a paper trail back to the source.
+      </p>
+    </div>
+  </section>
+
+  <!-- STATUS -->
+  <section class="bg-[var(--color-bg-dark)] text-[var(--color-text-on-dark)]">
+    <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+      <header class="max-w-[44rem] mb-[var(--spacing-2xl)]">
+        <p class="text-[0.75rem] font-[600] uppercase tracking-[0.16em] text-[var(--color-accent)] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">Status</p>
+        <h2 class="font-[700] tracking-[-0.02em] leading-[1.15] mb-[var(--spacing-md)]"
+            style="font-family: var(--font-display); font-size: clamp(1.75rem, calc(2vw + 1.25rem), 2.5rem); color: var(--color-text-on-dark);">
+          Where we are.
+        </h2>
+        <p class="text-[1rem] md:text-[1.0625rem] opacity-65 leading-[1.7]" style="font-family: var(--font-body);">
+          The MVP is live. The polish is sequenced.
+        </p>
+      </header>
+
+      <ol class="ai-status-list space-y-[var(--spacing-md)]">
+        {statusItems.map((item) => (
+          <li class={`ai-status ai-status--${item.state} flex gap-[var(--spacing-md)] py-[var(--spacing-md)] border-l-[3px] pl-[var(--spacing-md)]`}>
+            <div class="ai-status-marker flex-shrink-0 mt-[0.25rem]" aria-hidden="true">
+              {item.state === 'live' && (
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="text-[#5dd39e]">
+                  <path d="M20 6 9 17l-5-5"/>
+                </svg>
+              )}
+              {item.state === 'next' && (
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[var(--color-accent)]">
+                  <circle cx="12" cy="12" r="10"/>
+                  <polyline points="12 6 12 12 16 14"/>
+                </svg>
+              )}
+              {item.state === 'planned' && (
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-[var(--color-text-on-dark)]/40">
+                  <circle cx="12" cy="12" r="10"/>
+                </svg>
+              )}
+            </div>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-baseline gap-[var(--spacing-sm)] mb-[0.25rem] flex-wrap">
+                <span class="text-[0.6875rem] font-[700] uppercase tracking-[0.12em] opacity-50" style="font-family: var(--font-body);">{item.phase}</span>
+                {item.state === 'live' && <span class="text-[0.6875rem] font-[700] uppercase tracking-[0.12em] text-[#5dd39e]">Live</span>}
+                {item.state === 'next' && <span class="text-[0.6875rem] font-[700] uppercase tracking-[0.12em] text-[var(--color-accent)]">Next</span>}
+                {item.state === 'planned' && <span class="text-[0.6875rem] font-[700] uppercase tracking-[0.12em] opacity-50">Planned</span>}
+              </div>
+              <h3 class="text-[1.0625rem] font-[600] mb-[0.25rem] leading-[1.3]" style="font-family: var(--font-display); color: var(--color-text-on-dark);">{item.label}</h3>
+              <p class="text-[0.9375rem] opacity-65 leading-[1.55]" style="font-family: var(--font-body);">{item.note}</p>
+            </div>
+          </li>
+        ))}
+      </ol>
+
+      <p class="mt-[var(--spacing-2xl)] text-[0.875rem] opacity-50 max-w-[44rem]" style="font-family: var(--font-body);">
+        The corpus updates continuously. The BM25 index rebuilds on every deploy. Agents don't need to be told when content changes — the next call returns fresh.
+      </p>
+    </div>
+  </section>
+
+  <!-- FOOTER NOTES -->
+  <section class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+    <div class="grid md:grid-cols-2 gap-[var(--spacing-2xl)]">
+      <div>
+        <p class="text-[0.75rem] font-[600] uppercase tracking-[0.16em] text-[var(--color-accent-text)] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">Limits & privacy</p>
+        <h3 class="text-[1.25rem] font-[700] text-[var(--color-text-primary)] mb-[var(--spacing-md)]" style="font-family: var(--font-display);">No account, no key, no logs.</h3>
+        <p class="text-[0.9375rem] text-[var(--color-text-secondary)] leading-[1.7] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">
+          The agents API is public and anonymous. We don't require authentication, don't issue API keys, and don't log query content or IPs. When telemetry lands (Phase 6), it'll be daily aggregate counters — invocations, sessions, questions — and nothing else. No PII, ever.
+        </p>
+        <p class="text-[0.875rem]" style="font-family: var(--font-body);"><a href="/privacy/" class="text-[var(--color-accent-text)] underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">Privacy policy →</a></p>
+      </div>
+
+      <div>
+        <p class="text-[0.75rem] font-[600] uppercase tracking-[0.16em] text-[var(--color-accent-text)] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">Build your own</p>
+        <h3 class="text-[1.25rem] font-[700] text-[var(--color-text-primary)] mb-[var(--spacing-md)]" style="font-family: var(--font-display);">Roll your own integration.</h3>
+        <p class="text-[0.9375rem] text-[var(--color-text-secondary)] leading-[1.7] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">
+          Schema, citation rules, and frontmatter conventions live at <a href="/AGENTS.md" class="text-[var(--color-accent-text)] underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">/AGENTS.md</a>. Source code, including the BM25 search library and MCP tool registry, is on <a href="https://github.com/CentreforCivilSociety-Academy/liberty-lighthouse" class="text-[var(--color-accent-text)] underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">GitHub</a>. Operator notes for the API itself are at <code>api/v1/README.md</code>.
+        </p>
+        <p class="text-[0.875rem]" style="font-family: var(--font-body);"><a href="https://github.com/CentreforCivilSociety-Academy/liberty-lighthouse" class="text-[var(--color-accent-text)] underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">View source →</a></p>
+      </div>
+    </div>
+  </section>
+</PageLayout>
+
+<style>
+  /* Hero horizon glow — matches Hero.astro */
+  .ai-horizon {
+    background: radial-gradient(
+      ellipse 100% 80% at 50% 100%,
+      rgba(196, 112, 60, 0.07) 0%,
+      rgba(196, 112, 60, 0.025) 40%,
+      transparent 70%
+    );
+  }
+
+  .ai-rule-line {
+    animation: aiRuleDrawIn 600ms cubic-bezier(0.16, 1, 0.3, 1) both;
+    animation-delay: 400ms;
+    transform: scaleX(0);
+  }
+
+  @keyframes aiRuleDrawIn {
+    from { transform: scaleX(0); opacity: 0; }
+    to   { transform: scaleX(1); opacity: 1; }
+  }
+
+  /* Integration cards — subtle lift on hover */
+  .ai-card {
+    will-change: transform;
+  }
+  .ai-card:hover {
+    transform: translateY(-2px);
+    border-color: var(--color-accent);
+    box-shadow: 0 10px 30px -12px rgba(196, 112, 60, 0.15);
+  }
+  .ai-card-icon {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(196, 112, 60, 0.08);
+  }
+
+  /* Status timeline marker borders */
+  .ai-status--live   { border-color: rgba(93, 211, 158, 0.5); }
+  .ai-status--next   { border-color: var(--color-accent); }
+  .ai-status--planned { border-color: rgba(250, 247, 244, 0.15); }
+
+  /* Pull-quote — slight serif texture */
+  .ai-pullquote p {
+    font-size: 1.125rem;
+    line-height: 1.55;
+  }
+
+  /* Reduced-motion respect */
+  @media (prefers-reduced-motion: reduce) {
+    .ai-rule-line {
+      animation: none !important;
+      transform: scaleX(1);
+      opacity: 1;
+    }
+    .ai-card { transition: none !important; }
+    .ai-card:hover { transform: none !important; }
+  }
+</style>
