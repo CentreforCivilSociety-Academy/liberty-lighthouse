@@ -61,7 +61,7 @@ const tools: Array<{
 ---
 
 <PageLayout
-  title="AI access — Liberty Lighthouse"
+  title="AI/MCP access — Liberty Lighthouse"
   description="Plug Liberty Lighthouse into ChatGPT, Claude, Cursor, or any MCP client. Public, anonymous, citation-grounded. Built on Karpathy's LLM Wiki pattern."
 >
   <!-- HERO -->
@@ -91,7 +91,7 @@ const tools: Array<{
 
         <p class="text-[1.0625rem] md:text-[1.1875rem] text-[var(--color-text-on-dark)] opacity-65 leading-[1.7] mb-[var(--spacing-xl)] max-w-[42rem] mx-auto fade-up fade-up-delay-2"
            style="font-family: var(--font-body); text-wrap: pretty;">
-          Plug Liberty Lighthouse into the AI tool you already use. No account, no API key, no rate limits. Every answer comes back with a citation to the canonical URL.
+          Use Liberty Lighthouse from inside whichever AI tool you already have open. There's no signup or API key, and every answer carries a URL back to the page it cited.
         </p>
 
         <!-- MCP URL pill -->
@@ -105,9 +105,32 @@ const tools: Array<{
     </div>
   </section>
 
-  <!-- BREADCRUMBS -->
-  <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] pt-[var(--spacing-lg)]">
-    <Breadcrumbs items={[{ label: 'AI access' }]} />
+  <!-- BREADCRUMBS + MD ACTIONS -->
+  <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] pt-[var(--spacing-lg)] flex items-center justify-between gap-[var(--spacing-md)] flex-wrap">
+    <Breadcrumbs items={[{ label: 'AI/MCP access' }]} />
+    <div data-ai-md-actions class="flex items-center gap-[var(--spacing-sm)] text-[0.8125rem]" style="font-family: var(--font-body);">
+      <a
+        href="/ai.md"
+        class="inline-flex items-center gap-[0.375rem] px-[0.625rem] py-[0.375rem] rounded-[6px] border border-[var(--color-border-subtle)] text-[var(--color-text-secondary)] hover:text-[var(--color-primary)] hover:border-[var(--color-accent)] transition-colors no-underline"
+      >
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+          <polyline points="14 2 14 8 20 8"/>
+        </svg>
+        View as Markdown
+      </a>
+      <button
+        type="button"
+        data-md-copy
+        class="inline-flex items-center gap-[0.375rem] px-[0.625rem] py-[0.375rem] rounded-[6px] border border-[var(--color-border-subtle)] text-[var(--color-text-secondary)] hover:text-[var(--color-primary)] hover:border-[var(--color-accent)] transition-colors bg-transparent cursor-pointer"
+      >
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <rect x="9" y="9" width="13" height="13" rx="2" ry="2"/>
+          <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"/>
+        </svg>
+        <span data-md-copy-label>Copy</span>
+      </button>
+    </div>
   </div>
 
   <!-- INTEGRATIONS -->
@@ -116,10 +139,10 @@ const tools: Array<{
       <p class="text-[0.75rem] font-[600] uppercase tracking-[0.16em] text-[var(--color-accent-text)] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">Use it with</p>
       <h2 class="font-[700] tracking-[-0.02em] leading-[1.15] text-[var(--color-text-primary)] mb-[var(--spacing-md)]"
           style="font-family: var(--font-display); font-size: clamp(1.75rem, calc(2vw + 1.25rem), 2.5rem);">
-        Five paths in, depending on your tool.
+        Pick whichever fits your tool.
       </h2>
       <p class="text-[1rem] md:text-[1.0625rem] text-[var(--color-text-secondary)] leading-[1.7]" style="font-family: var(--font-body);">
-        The endpoint is the same; only the wiring differs.
+        It's the same endpoint underneath. What changes is the setup.
       </p>
     </header>
 
@@ -249,10 +272,10 @@ GET /api/v1/index</code></pre>
         <p class="text-[0.75rem] font-[600] uppercase tracking-[0.16em] text-[var(--color-accent-text)] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">The five tools</p>
         <h2 class="font-[700] tracking-[-0.02em] leading-[1.15] text-[var(--color-text-primary)] mb-[var(--spacing-md)]"
             style="font-family: var(--font-display); font-size: clamp(1.75rem, calc(2vw + 1.25rem), 2.5rem);">
-          Primitives, not menus.
+          Five small tools.
         </h2>
         <p class="text-[1rem] md:text-[1.0625rem] text-[var(--color-text-secondary)] leading-[1.7]" style="font-family: var(--font-body);">
-          Five small tools that compose. The agent decides what to call, in what order. Every result carries a citation.
+          They're meant to compose. The agent picks the order; every result comes back with a citation block attached.
         </p>
       </header>
 
@@ -273,17 +296,20 @@ GET /api/v1/index</code></pre>
       <p class="text-[0.75rem] font-[600] uppercase tracking-[0.16em] text-[var(--color-accent-text)] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">Methodology</p>
       <h2 class="font-[700] tracking-[-0.02em] leading-[1.15] text-[var(--color-text-primary)] mb-[var(--spacing-md)]"
           style="font-family: var(--font-display); font-size: clamp(1.75rem, calc(2vw + 1.25rem), 2.5rem);">
-        Markdown, not embeddings.<br/><span class="text-[var(--color-text-secondary)]">The LLM is the ranker.</span>
+        A markdown corpus and a BM25 index.<br/><span class="text-[var(--color-text-secondary)]">The model that calls the API does the rest.</span>
       </h2>
+      <p class="text-[0.9375rem] text-[var(--color-text-tertiary)] leading-[1.6]" style="font-family: var(--font-body);">
+        by <a href="https://meetadnan.com" class="text-[var(--color-accent-text)] underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">Adnan Abbasi</a> · <a href="https://github.com/adoistic" class="text-[var(--color-accent-text)] underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">github.com/adoistic</a>
+      </p>
     </header>
 
     <div class="prose max-w-[44rem] mx-auto md:mx-0">
       <p>
-        The architecture is deliberately old-school. The corpus lives as plain markdown in a git repository. A build-time job constructs a BM25 index. There are no embeddings, no vector store, no RAG pipeline. Search returns ranked candidates; the LLM that called us does the actual reasoning.
+        The setup is unfashionable. The corpus is plain markdown in a git repository. A build job tokenizes it into a BM25 index, which is a JSON blob the API loads into memory on cold start. There's no vector store and no retrieval pipeline. When a search call comes in, BM25 picks the candidates; the model that asked does the rest of the thinking.
       </p>
 
       <p>
-        This isn't austerity for its own sake. It's a wager about where intelligence belongs.
+        That choice came from reading Karpathy on what he calls the LLM Wiki pattern.
       </p>
 
       <blockquote class="ai-pullquote my-[var(--spacing-xl)] py-[var(--spacing-lg)] px-[var(--spacing-xl)] border-l-[3px] border-[var(--color-accent)]/60 bg-[var(--color-bg-elevated)]">
@@ -296,30 +322,30 @@ GET /api/v1/index</code></pre>
       </blockquote>
 
       <p>
-        Karpathy's insight is that vector embeddings — for all their cleverness — are a black box. You can't read what the embedding "thinks" the passage is about. You can't edit it. When the model retrieves the wrong thing, you can't trace why. Markdown files, by contrast, are auditable. Every claim made by the AI traces back to a specific <code>.md</code> file that a human can open, read, edit, or delete.
+        His point: an embedding is opaque. You can't read it, and when retrieval surfaces the wrong page you can't really say why. A markdown file isn't opaque. If an answer cites <code>/glossary/msp.md</code>, you open the file and see exactly what the model was reading.
       </p>
 
       <p>
-        At the scale of this corpus — about 1,150 documents — Karpathy's prescription is: an index file (<code>llms.txt</code>) is enough; beyond a few hundred pages, add BM25; only consider vectors if recall is genuinely failing. We're at the BM25 stage. We may never need the next one.
+        The scale rule he gives is roughly: under a few hundred pages, an <code>llms.txt</code> index by itself is enough. Past that, add BM25. Only reach for vectors when BM25 starts missing things. The corpus is around 1,150 documents, so I'm at the BM25 step, and I haven't hit a recall problem yet.
       </p>
 
       <h3>A pattern, applied twice: <span style="color: var(--color-accent);">falsafa.ai</span></h3>
 
       <p>
-        This is the second corpus we've built this way. The first was <a href="https://falsafa.ai" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">falsafa.ai</a> — the same architecture applied to classical and philosophical works. Markdown source of truth, agent-readable tools (<code>search_corpus</code>, <code>read_chapter</code>, <code>get_passage</code>), an LLM-synthesized wiki layer for navigation, and stable citation handles that an agent or human can verify against the original passage.
+        I built <a href="https://falsafa.ai" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">falsafa.ai</a> (<a href="https://github.com/adoistic/falsafa" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">source</a>) before this. Same setup, applied to classical and philosophical works: markdown as the source, three small read tools (<code>search_corpus</code>, <code>read_chapter</code>, <code>get_passage</code>), a synthesised wiki layer for navigation, and citation handles that take you back to the original passage. Liberty Lighthouse is that pattern run again on a different body of text.
       </p>
 
       <p>
-        The reason for repeating it: the pattern generalizes; the corpora don't. Philosophy and policy share nothing in common as subjects, but they share everything as <em>knowledge artifacts</em> — bounded text, internal cross-references, contested interpretations, the need for an agent to cite specifically rather than gesture vaguely. Build the corpus carefully. Expose it cleanly. Trust the LLM ecosystem to do the rest.
+        Repeating the pattern is the point. The texts don't transfer. Philosophy and Indian policy aren't comparable subjects. But the shape of the work is the same: bounded bodies of text with internal references and contested readings, where an agent that wants to engage seriously has to cite a specific passage rather than gesture at the corpus.
       </p>
 
       <p>
-        Liberty Lighthouse benefits from everything we learned wrestling falsafa.ai into shape: the citation contract, the markdown-as-source-of-truth discipline, the deliberate refusal to host inference ourselves. If you're building something in the same shape, the architecture is open — read <a href="/AGENTS.md" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">/AGENTS.md</a>, browse the source on <a href="https://github.com/CentreforCivilSociety-Academy/liberty-lighthouse" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">GitHub</a>, copy what's useful.
+        A lot of what's here is salvaged from the falsafa.ai work: the citation block on every response, the rule that every page has a markdown sibling, the choice not to host any inference on the server. If you want to build something similar, the source is on <a href="https://github.com/CentreforCivilSociety-Academy/liberty-lighthouse" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">GitHub</a> and the schema is at <a href="/AGENTS.md" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">/AGENTS.md</a>.
       </p>
 
-      <h3>How this lands in practice</h3>
+      <h3>What the agent gets back</h3>
 
-      <p>Every response from this site carries a structured citation block:</p>
+      <p>Every response carries a citation block like this:</p>
 
       <pre class="text-[0.8125rem]" style="font-family: var(--monospace-font, ui-monospace, monospace);"><code>{`{
   "canonical_url": "https://liberty-lighthouse.vercel.app/glossary/msp/",
@@ -330,11 +356,11 @@ GET /api/v1/index</code></pre>
 }`}</code></pre>
 
       <p>
-        Cite by <code>canonical_url</code> — the human-readable HTML page. The <code>markdown_url</code> is the agent's traversal handle. The <code>kind</code> tells the agent what shape of content it's dealing with. The <code>last_modified</code> lets it check freshness. These five fields are the contract; everything else flows from them.
+        An agent should quote the answer and cite <code>canonical_url</code> so the user lands on the human page. The <code>markdown_url</code> is for traversal to the next document, <code>kind</code> labels the shape (faq, glossary, video, topic, wiki, external_post, external_book_chapter), and <code>last_modified</code> exists so the agent can decide whether a cached answer is still current. Those five fields are the entire contract.
       </p>
 
       <p>
-        The corpus presents a classical-liberal perspective, explicitly. When agents summarize contested policy questions, the right move is to surface the framing rather than present it as neutral consensus. Both Karpathy's pattern and the citation contract make this honest by default — every paraphrase has a paper trail back to the source.
+        The corpus is openly classical-liberal. On contested policy questions, an agent summarising it should say so rather than present the position as neutral consensus. The citation block helps with that, since every paraphrase points at a specific file you can open and verify against.
       </p>
     </div>
   </section>
@@ -346,10 +372,10 @@ GET /api/v1/index</code></pre>
         <p class="text-[0.75rem] font-[600] uppercase tracking-[0.16em] text-[var(--color-accent)] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">Status</p>
         <h2 class="font-[700] tracking-[-0.02em] leading-[1.15] mb-[var(--spacing-md)]"
             style="font-family: var(--font-display); font-size: clamp(1.75rem, calc(2vw + 1.25rem), 2.5rem); color: var(--color-text-on-dark);">
-          Where we are.
+          Where things stand.
         </h2>
         <p class="text-[1rem] md:text-[1.0625rem] opacity-65 leading-[1.7]" style="font-family: var(--font-body);">
-          The MVP is live. The polish is sequenced.
+          Phases 1–3 (the actual API surface) are running. The rest is queued in roughly this order.
         </p>
       </header>
 
@@ -389,7 +415,7 @@ GET /api/v1/index</code></pre>
       </ol>
 
       <p class="mt-[var(--spacing-2xl)] text-[0.875rem] opacity-50 max-w-[44rem]" style="font-family: var(--font-body);">
-        The corpus updates continuously. The BM25 index rebuilds on every deploy. Agents don't need to be told when content changes — the next call returns fresh.
+        Content edits ship through the regular site deploy, which also rebuilds the BM25 index. There's no cache for the agent to bust; the next call sees the new state.
       </p>
     </div>
   </section>
@@ -399,9 +425,9 @@ GET /api/v1/index</code></pre>
     <div class="grid md:grid-cols-2 gap-[var(--spacing-2xl)]">
       <div>
         <p class="text-[0.75rem] font-[600] uppercase tracking-[0.16em] text-[var(--color-accent-text)] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">Limits & privacy</p>
-        <h3 class="text-[1.25rem] font-[700] text-[var(--color-text-primary)] mb-[var(--spacing-md)]" style="font-family: var(--font-display);">No account, no key, no logs.</h3>
+        <h3 class="text-[1.25rem] font-[700] text-[var(--color-text-primary)] mb-[var(--spacing-md)]" style="font-family: var(--font-display);">Anonymous, unauthenticated, no query logs.</h3>
         <p class="text-[0.9375rem] text-[var(--color-text-secondary)] leading-[1.7] mb-[var(--spacing-md)]" style="font-family: var(--font-body);">
-          The agents API is public and anonymous. We don't require authentication, don't issue API keys, and don't log query content or IPs. When telemetry lands (Phase 6), it'll be daily aggregate counters — invocations, sessions, questions — and nothing else. No PII, ever.
+          There's no auth on the API. Query strings and IPs aren't logged. When the Phase 6 telemetry work ships, it'll record aggregate daily counters (how many invocations, how many sessions, how many distinct questions) and won't touch the content of those queries.
         </p>
         <p class="text-[0.875rem]" style="font-family: var(--font-body);"><a href="/privacy/" class="text-[var(--color-accent-text)] underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">Privacy policy →</a></p>
       </div>
@@ -481,3 +507,27 @@ GET /api/v1/index</code></pre>
     .ai-card:hover { transform: none !important; }
   }
 </style>
+
+<script>
+  // Copy the canonical /ai.md to the clipboard. The .md file is generated
+  // post-build from the rendered page (see src/integrations/ai-page-markdown.ts),
+  // so it always reflects the current page content.
+  const btn = document.querySelector<HTMLButtonElement>('[data-md-copy]');
+  const label = document.querySelector<HTMLSpanElement>('[data-md-copy-label]');
+  btn?.addEventListener('click', async () => {
+    if (!label) return;
+    const original = label.textContent;
+    try {
+      const res = await fetch('/ai.md', { headers: { accept: 'text/markdown' } });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const text = await res.text();
+      await navigator.clipboard.writeText(text);
+      label.textContent = 'Copied';
+    } catch {
+      label.textContent = 'Failed';
+    }
+    setTimeout(() => {
+      if (label) label.textContent = original ?? 'Copy';
+    }, 1800);
+  });
+</script>
