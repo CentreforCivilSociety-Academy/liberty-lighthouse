@@ -283,14 +283,18 @@ GET /api/v1/index</code></pre>
         At the scale of this corpus — about 1,150 documents — Karpathy's prescription is: an index file (<code>llms.txt</code>) is enough; beyond a few hundred pages, add BM25; only consider vectors if recall is genuinely failing. We're at the BM25 stage. We may never need the next one.
       </p>
 
-      <h3>A kindred spirit: <span style="color: var(--color-accent);">falsafa.ai</span></h3>
+      <h3>A pattern, applied twice: <span style="color: var(--color-accent);">falsafa.ai</span></h3>
 
       <p>
-        We're not the only ones building this way. <a href="https://falsafa.ai" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">falsafa.ai</a> applies the same pattern to a very different corpus: classical and philosophical works. Same architectural shape — markdown source, agent-readable tools (<code>search_corpus</code>, <code>read_chapter</code>, <code>get_passage</code>), an LLM-synthesized wiki layer for navigation, and stable citation handles that an agent or human can verify against the original passage.
+        This is the second corpus we've built this way. The first was <a href="https://falsafa.ai" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">falsafa.ai</a> — the same architecture applied to classical and philosophical works. Markdown source of truth, agent-readable tools (<code>search_corpus</code>, <code>read_chapter</code>, <code>get_passage</code>), an LLM-synthesized wiki layer for navigation, and stable citation handles that an agent or human can verify against the original passage.
       </p>
 
       <p>
-        It's a quiet movement. Build the corpus carefully. Expose it cleanly to agents. Let the LLM ecosystem do the rest. Falsafa for philosophy, Liberty Lighthouse for policy. The pattern generalizes; the corpora don't.
+        The reason for repeating it: the pattern generalizes; the corpora don't. Philosophy and policy share nothing in common as subjects, but they share everything as <em>knowledge artifacts</em> — bounded text, internal cross-references, contested interpretations, the need for an agent to cite specifically rather than gesture vaguely. Build the corpus carefully. Expose it cleanly. Trust the LLM ecosystem to do the rest.
+      </p>
+
+      <p>
+        Liberty Lighthouse benefits from everything we learned wrestling falsafa.ai into shape: the citation contract, the markdown-as-source-of-truth discipline, the deliberate refusal to host inference ourselves. If you're building something in the same shape, the architecture is open — read <a href="/AGENTS.md" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">/AGENTS.md</a>, browse the source on <a href="https://github.com/CentreforCivilSociety-Academy/liberty-lighthouse" class="underline decoration-[var(--color-accent)]/40 hover:decoration-[var(--color-accent)]">GitHub</a>, copy what's useful.
       </p>
 
       <h3>How this lands in practice</h3>
