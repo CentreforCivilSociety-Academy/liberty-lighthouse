@@ -31,23 +31,49 @@ function isOnSite(url: string): boolean {
   }
 }
 
+function pickString(data: Record<string, unknown>, keys: string[]): string | undefined {
+  for (const k of keys) {
+    const v = data[k];
+    if (typeof v === 'string' && v.length > 0) return v;
+  }
+  return undefined;
+}
+
 function citationFromFrontmatter(data: Record<string, unknown>): Citation {
-  const canonical_url = data.canonical_url as string | undefined;
-  const markdown_url = data.markdown_url as string | undefined;
-  const title = data.title as string | undefined;
+  const canonical_url = pickString(data, ['canonical_url']);
+  const markdown_url = pickString(data, ['markdown_url']);
+  // Title varies by content kind:
+  //   topic/video/spontaneous-order: title
+  //   glossary: term
+  //   faq: question
+  //   wiki: name
+  //   ccs-books: chapter_title
+  const title = pickString(data, [
+    'title',
+    'term',
+    'question',
+    'name',
+    'chapter_title',
+  ]);
   if (!canonical_url || !markdown_url || !title) {
     throw new AgentError(
       'UPSTREAM_ERROR',
       'fetched markdown missing required frontmatter (canonical_url/markdown_url/title)',
     );
   }
-  // Type guess: try to infer kind from URL shape.
   const kind: ContentKind = inferKind(canonical_url);
+  // Date varies too:
+  //   most pages: updated_at (snake_case in YAML)
+  //   external/spontaneous-order: published_at
+  //   already-built citations passing through: last_modified
+  //   legacy/camelCase: updatedAt
   const last_modified =
-    (data.last_modified as string | undefined) ??
-    (data.updatedAt as string | undefined) ??
-    (data.published_at as string | undefined) ??
-    new Date().toISOString().slice(0, 10);
+    pickString(data, [
+      'last_modified',
+      'updated_at',
+      'updatedAt',
+      'published_at',
+    ]) ?? new Date().toISOString().slice(0, 10);
   return { canonical_url, markdown_url, title, kind, last_modified };
 }
 
