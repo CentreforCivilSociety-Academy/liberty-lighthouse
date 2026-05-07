@@ -9,7 +9,7 @@ import {
   COLORS_DEFAULTS,
   buildGoogleFontsUrl,
   buildFontFamilyValue,
-} from './fonts';
+} from './fonts.js';
 
 export async function getTypographySettings() {
   const settings = await getCollection('settings');

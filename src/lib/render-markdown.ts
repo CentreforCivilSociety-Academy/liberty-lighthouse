@@ -2,8 +2,8 @@ import { unified } from 'unified';
 import remarkParse from 'remark-parse';
 import remarkRehype from 'remark-rehype';
 import rehypeStringify from 'rehype-stringify';
-import rehypeGlossary from './rehype-glossary';
-import { getAllGlossary, getSlugFromId } from './collections';
+import rehypeGlossary from './rehype-glossary.js';
+import { getAllGlossary, getSlugFromId } from './collections.js';
 
 let cachedEntries: { slug: string; term: string; aliases: string[] }[] | null = null;
 
