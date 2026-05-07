@@ -27,6 +27,7 @@ Liberty Lighthouse is a public-education site published by the [Centre for Civil
 3. Descend into FAQs, videos, or syllabus from the topic page's links.
 4. For a single-fetch dump of an entire topic, use \`/topics/{slug}/llms-full.txt\`.
 5. For the entire corpus in one fetch, use [\`/llms-full.txt\`](${abs('/llms-full.txt')}) (current size fits within most context windows).
+6. **Claude users without a connector:** install [\`/SKILL.md\`](${abs('/SKILL.md')}) — a Claude skill that wraps the same HTTP API. **MCP clients:** point at \`${abs('/api/v1/mcp')}\` (Streamable HTTP, same tool surface).
 
 ## URL conventions
 
