@@ -1,4 +1,12 @@
-import { abs } from './markdown-export.js';
+// Inlined to avoid a cross-file import. Vercel's serverless function
+// bundler in the cloud has been observed dropping the `.js` extension
+// during TypeScript compilation, breaking Node ESM resolution at runtime
+// (`ERR_MODULE_NOT_FOUND` on '/var/task/src/lib/markdown-export'). This
+// keeps agents-doc.ts self-contained and reachable by Vercel functions.
+const SITE_URL = 'https://liberty-lighthouse.vercel.app';
+function abs(path: string): string {
+  return new URL(path, SITE_URL).href;
+}
 
 // Body of /AGENTS.md and /.well-known/agents.md. Lives in lib/ so the two
 // endpoints can share it; they exist at distinct URL paths but serve the
