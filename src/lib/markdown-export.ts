@@ -1,6 +1,6 @@
 import matter from 'gray-matter';
 import type { CollectionEntry } from 'astro:content';
-import { getSlugFromId } from './collections';
+import { getSlugFromId } from './collections.js';
 
 export const SITE_URL = 'https://liberty-lighthouse.vercel.app';
 

@@ -1,4 +1,4 @@
-import { abs } from './markdown-export';
+import { abs } from './markdown-export.js';
 
 // Body of /AGENTS.md and /.well-known/agents.md. Lives in lib/ so the two
 // endpoints can share it; they exist at distinct URL paths but serve the

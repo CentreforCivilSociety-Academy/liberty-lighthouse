@@ -1,7 +1,7 @@
 import type { Root, Element, Text, ElementContent, Nodes } from 'hast';
 import type { VFile } from 'vfile';
 import { findAndReplace } from 'hast-util-find-and-replace';
-import { escapeRegExp } from './text';
+import { escapeRegExp } from './text.js';
 
 /**
  * Glossary auto-link rehype plugin.
