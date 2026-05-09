@@ -7,13 +7,18 @@ export function stripMarkdown(md: string): string {
   return md
     .replace(/```[\s\S]*?```/g, ' ')          // fenced code blocks
     .replace(/`([^`]+)`/g, '$1')               // inline code
-    .replace(/!\[[^\]]*\]\([^)]*\)/g, ' ')     // images
-    .replace(/\[([^\]]+)\]\([^)]*\)/g, '$1')   // links → keep label
+    // Images and links allow ONE level of balanced parens inside the URL,
+    // so Wikipedia/academic-style URLs like `[Act](https://x.com/Foo%20(Bar).pdf)`
+    // strip cleanly instead of leaking URL fragments into the output.
+    .replace(/!\[[^\]]*\]\((?:[^()]|\([^()]*\))*\)/g, ' ')   // images
+    .replace(/\[([^\]]+)\]\((?:[^()]|\([^()]*\))*\)/g, '$1') // links → keep label
     .replace(/^#{1,6}\s+/gm, '')               // headings
     .replace(/^>\s?/gm, '')                    // blockquotes
     .replace(/(\*\*|__)(.+?)\1/g, '$2')        // bold
     .replace(/(\*|_)(.+?)\1/g, '$2')           // italic
-    .replace(/<[^>]+>/g, ' ')                  // HTML/JSX tags
+    // Match HTML/JSX tags only (start with letter or "/letter"), so prose with
+    // raw inequalities like "GDP < 5%" or "inflation > 3%" is preserved intact.
+    .replace(/<\/?[A-Za-z][^>]*>/g, ' ')       // HTML/JSX tags
     .replace(/\s+/g, ' ')                      // collapse whitespace
     .trim();
 }
