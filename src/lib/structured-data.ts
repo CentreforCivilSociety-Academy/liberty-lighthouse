@@ -1,5 +1,14 @@
 // JSON-LD structured data helpers for Liberty Lighthouse
 
+import { stripMarkdown } from './text';
+
+// Convert an FAQ MDX body to plain text for the FAQPage `acceptedAnswer.text` field.
+// Returns '' when the body is missing or strips to whitespace; the caller should
+// then skip emitting the FAQPage schema rather than emit an empty answer.
+export function buildFaqAnswer(body: string | undefined): string {
+  return stripMarkdown(body ?? '');
+}
+
 // 1. Organization schema for Centre for Civil Society
 export function buildOrganizationSchema(siteUrl: string) {
   return {
