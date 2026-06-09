@@ -22,6 +22,10 @@
       })
       .then(function(yamlText) {
         var config = jsyaml.load(yamlText);
+        // We pass the config in manually, so tell Decap NOT to also auto-load
+        // /admin/config.yml on its own — otherwise it merges the two copies and
+        // every collection is duplicated ("collections names must be unique").
+        config.load_config_file = false;
         window.CMS.init({ config: config });
       })
       .catch(function(err) {
