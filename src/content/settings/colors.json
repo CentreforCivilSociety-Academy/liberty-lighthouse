@@ -11,10 +11,10 @@
   "radiusSm": 4,
   "radiusLg": 12,
   "colorAccent": "#C4703C",
-  "colorTextPrimary": "#1A1612",
+  "colorTextPrimary": "#ffffff",
   "colorBorderDefault": "#E8E2DC",
   "colorBgElevated": "#FFF9F4",
-  "colorBgPage": "#FDFBF9",
+  "colorBgPage": "#06064b",
   "colorPrimaryLight": "#8B5E3C",
   "colorAccentSoft": "#D4924F",
   "colorBgCard": "#FFFFFF",
@@ -25,5 +25,5 @@
   "colorBorderSubtle": "#F0EBE6",
   "colorBgSection": "#F7F3EF",
   "colorBgDark": "#1A1612",
-  "colorPrimary": "#1afc2a"
+  "colorPrimary": "#6b3a1f"
 }
