@@ -45,6 +45,56 @@ const currentYear = new Date().getFullYear();
 
     </div>
 
+    <!--
+      Publisher and funder. The Atlas mark is inline so its wordmark inherits
+      the footer's ink; it carries one green accent of its own. CCS ships as a
+      PNG because that is the only form available — worth replacing with an
+      official vector when CCS supplies one.
+    -->
+    <div class="mt-[var(--spacing-2xl)] pt-[var(--spacing-lg)] border-t border-[var(--color-text-on-dark)]/10">
+      <!--
+        On a light plate, not on the dark footer. The CCS wordmark is #333234,
+        which measures 1.41:1 against the footer background and is effectively
+        invisible; on paper it is 12.35:1. Partner marks have to render as
+        their owners drew them.
+      -->
+      <div class="inline-flex flex-wrap items-center gap-[var(--spacing-xl)] bg-[var(--color-bg-page)] text-[var(--color-text-primary)] px-[var(--spacing-lg)] py-[var(--spacing-md)]">
+        <div>
+          <p class="text-[0.6875rem] uppercase tracking-[0.1em] text-[var(--color-text-secondary)] mb-[var(--spacing-sm)]">
+            A project of
+          </p>
+          <a href="https://ccs.in" target="_blank" rel="noopener noreferrer" class="inline-block opacity-90 hover:opacity-100 transition-opacity duration-[var(--duration-fast)]">
+            <img
+              src="/images/logos/ccs.png"
+              alt="Centre for Civil Society"
+              width="470"
+              height="212"
+              loading="lazy"
+              decoding="async"
+              class="h-[2.25rem] w-auto"
+            />
+          </a>
+        </div>
+
+        <div>
+          <p class="text-[0.6875rem] uppercase tracking-[0.1em] text-[var(--color-text-secondary)] mb-[var(--spacing-sm)]">
+            Member of
+          </p>
+          <a href="https://www.atlasnetwork.org" target="_blank" rel="noopener noreferrer" class="inline-block opacity-90 hover:opacity-100 transition-opacity duration-[var(--duration-fast)]">
+            <img
+              src="/images/logos/atlas-network.svg"
+              alt="Atlas Network"
+              width="441"
+              height="148"
+              loading="lazy"
+              decoding="async"
+              class="h-[1.75rem] w-auto"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+
     <!-- Divider + Copyright -->
     <div class="mt-[var(--spacing-2xl)] pt-[var(--spacing-lg)] border-t border-[var(--color-text-on-dark)]/10 flex flex-wrap items-center justify-between gap-[var(--spacing-md)]">
       <p class="text-[0.75rem] text-[var(--color-text-on-dark)] opacity-70">
