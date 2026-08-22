@@ -22,18 +22,6 @@ const { theme } = Astro.props;
  */
 const ledger = [
   `${theme.questions} ${theme.questions === 1 ? 'question' : 'questions'}`,
-  theme.entries !== theme.questions ? `${theme.entries} entries` : null,
-  theme.videos > 0 ? `${theme.videos} ${theme.videos === 1 ? 'video' : 'videos'}` : null,
-  theme.hasSyllabus ? 'reading path' : null,
-].filter(Boolean);
-
-/*
- * What the theme page has that this section does not. Same honesty rule as the
- * ledger: name only what exists, so a theme with no video says nothing about
- * video rather than showing a dead door.
- */
-const beyond = [
-  `${theme.questions} ${theme.questions === 1 ? 'question' : 'questions'}`,
   theme.videos > 0 ? `${theme.videos} ${theme.videos === 1 ? 'video' : 'videos'}` : null,
   theme.hasSyllabus ? 'reading list' : null,
 ].filter(Boolean) as string[];
@@ -84,6 +72,6 @@ const beyond = [
   -->
   <a class="section-foot" href={theme.href}>
     <span class="section-foot-go">All {theme.title}</span>
-    <span class="section-foot-has">{beyond.join(' · ')}</span>
+    <span class="section-foot-has">{ledger.join(' · ')}</span>
   </a>
 </section>
