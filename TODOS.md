@@ -38,7 +38,3 @@ Deferred items, all non-blocking. Captured during the glossary feature reviews
 **Why:** Tests don't protect what they don't run on. Solo-dev discipline-grade today.
 **When:** When a CI workflow lands for this repo.
 
-## T8 — Fix existing FAQ JSON-LD bug: answer = question (P2)
-**What:** [src/pages/topics/[topic]/faq/[slug].astro:31](src/pages/topics/%5Btopic%5D/faq/%5Bslug%5D.astro:31) currently sets `answer: entry.data.question` — answer is set to the question, not the body. Codex caught this during the glossary review; out of scope for that PR but real.
-**Why:** Search engines will index every FAQ as "the answer is the question" — that's wrong and degrades the FAQPage rich result.
-**Where to start:** Render `entry.body` to plain text via `stripMarkdown` and pass that as `answer`.
