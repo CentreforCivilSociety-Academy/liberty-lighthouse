@@ -1,0 +1,68 @@
+---
+/**
+ * One theme: its head, its ledger, and every one of its questions.
+ *
+ * Nothing here is truncated and there is no ellipsis anywhere. The section
+ * shows the corpus rather than a description of it, which is the whole
+ * argument of the page.
+ */
+import type { CorpusTheme } from '../../lib/corpus';
+
+interface Props {
+  theme: CorpusTheme;
+}
+
+const { theme } = Astro.props;
+
+/*
+ * The ledger names only what exists. Because it is a list rather than a fixed
+ * set of slots, a theme with no videos simply does not mention videos — it
+ * does not render an empty third door. Seven of ten themes have no video, and
+ * under the old three-badge frame every one of them read as broken.
+ */
+const ledger = [
+  `${theme.questions} ${theme.questions === 1 ? 'question' : 'questions'}`,
+  theme.entries !== theme.questions ? `${theme.entries} entries` : null,
+  theme.videos > 0 ? `${theme.videos} ${theme.videos === 1 ? 'video' : 'videos'}` : null,
+  theme.hasSyllabus ? 'reading path' : null,
+].filter(Boolean);
+---
+
+<section
+  class="section"
+  id={theme.anchor}
+  style={`--theme-ink:${theme.ink}`}
+  aria-labelledby={`${theme.anchor}-title`}
+>
+  <div class="section-head">
+    <hr class="section-rule" />
+    <p class="section-label" style={`color:${theme.ink}`}>
+      {theme.section} &middot; <a href={theme.href} style={`color:${theme.ink}`}>All {theme.title}</a>
+    </p>
+    <h2 class="section-title" id={`${theme.anchor}-title`}>{theme.title}</h2>
+    <p class="ledger">{ledger.join(' · ')}</p>
+    <p class="section-desc">{theme.description}</p>
+  </div>
+
+  <ol class="index">
+    {theme.rows.map((row) => (
+      <li class="index-row">
+        <a class="index-link" href={row.href}>
+          <span class="index-folio">{row.folio}</span>
+          <span class="index-question">{row.question}</span>
+        </a>
+        {row.parts.length > 0 && (
+          <p class="index-parts">
+            Parts{' '}
+            {row.parts.map((part, i) => (
+              <>
+                {i > 0 && ' · '}
+                <a href={part.href}>{part.label}</a>
+              </>
+            ))}
+          </p>
+        )}
+      </li>
+    ))}
+  </ol>
+</section>

@@ -1,0 +1,48 @@
+---
+/**
+ * The institution's sentence, at mid-scale on purpose.
+ *
+ * The count is read from the corpus, never written down: publish question 135
+ * and this says 135 on the next build. The site's current byline promises
+ * "10 themes" as a literal string, which is the bug this rule exists to stop.
+ *
+ * The h1 carries .hero-title because the CMS injects an unlayered
+ * `h1:not(.hero-title)` font-size rule that no class or utility can outrank.
+ */
+import type { Corpus } from '../../lib/corpus';
+
+interface Props {
+  corpus: Corpus;
+}
+
+const { corpus } = Astro.props;
+---
+
+<header class="masthead">
+  <p class="eyebrow">Centre for Civil Society · Index of questions</p>
+
+  <h1 class="hero-title">
+    {corpus.totalQuestions} questions about how India is actually governed
+  </h1>
+
+  <p class="standfirst">
+    A resource to understand Indian policy across {corpus.totalThemes} themes,
+    through FAQs, videos and syllabi.
+  </p>
+
+  <form class="search" action="/search/" method="get" role="search">
+    <label class="sr-only" for="q">Search questions</label>
+    <input
+      type="search"
+      id="q"
+      name="q"
+      placeholder="Search all questions…"
+      autocomplete="off"
+    />
+    <button type="submit">Search</button>
+  </form>
+
+  <p class="search-note">
+    Searches every question, video and glossary entry
+  </p>
+</header>

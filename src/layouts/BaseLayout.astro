@@ -196,11 +196,16 @@ const designSystemCSS = `
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <slot />
     <script>
-      import { initGlossaryHover } from '../components/global/GlossaryHover';
       import { initCookieConsent } from '../components/global/CookieConsent';
       if (typeof window !== 'undefined') {
-        initGlossaryHover();
         initCookieConsent();
+        // Glossary hover binds to [data-glossary] terms inside prose. Pages
+        // that render no prose — the homepage index is 126 question links —
+        // have nothing for it to bind to, so it is loaded on demand rather
+        // than shipped to every page.
+        if (document.querySelector('a.glossary-term[data-glossary-slug]')) {
+          import('../components/global/GlossaryHover').then((m) => m.initGlossaryHover());
+        }
       }
     </script>
     <script is:inline>

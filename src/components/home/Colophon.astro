@@ -1,0 +1,23 @@
+---
+/**
+ * A full-bleed dark band closing the page. Every figure is derived, so this
+ * is a truthful reading of the corpus rather than a fixed line of copy.
+ */
+import type { Corpus } from '../../lib/corpus';
+
+interface Props {
+  corpus: Corpus;
+}
+
+const { corpus } = Astro.props;
+---
+
+<section class="colophon" aria-label="About this index">
+  <p>
+    {corpus.totalQuestions} questions · {corpus.totalEntries} entries ·
+    {corpus.totalThemes} themes · {corpus.totalVideos} videos ·
+    {corpus.totalSyllabi} reading paths<br />
+    A project of the <a href="https://ccs.in">Centre for Civil Society</a> ·
+    <a href="/about/">About</a> · <a href="/ai/">AI &amp; MCP access</a>
+  </p>
+</section>
