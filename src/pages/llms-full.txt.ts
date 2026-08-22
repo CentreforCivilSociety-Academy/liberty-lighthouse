@@ -27,7 +27,7 @@ export const GET: APIRoute = async () => {
   const lines: string[] = [
     '# Liberty Lighthouse — Full Content',
     '',
-    "> Complete content dump for LLM ingestion. All FAQs, videos, glossary, and syllabi from Liberty Lighthouse, a classical liberal resource for understanding India's policy landscape. A project of the Centre for Civil Society.",
+    "> Complete content dump for LLM ingestion. All FAQs, videos, glossary, and syllabi from Liberty Lighthouse, a resource for understanding Indian policy. A project of the Centre for Civil Society.",
     '',
     `Site: ${abs('/')}`,
     `Schema for agents: ${abs('/AGENTS.md')}`,

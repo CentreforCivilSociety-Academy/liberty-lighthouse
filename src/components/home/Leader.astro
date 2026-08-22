@@ -1,0 +1,43 @@
+---
+/**
+ * One question at display scale, two beside it, then the heaviest rule on the
+ * page — which appears exactly once.
+ *
+ * These three are chosen by a person through the CMS. An earlier design picked
+ * them by hashing the build date, which meant nobody at CCS controlled their
+ * own front page and three themes could never appear on it at all.
+ */
+import type { Leader } from '../../lib/leader';
+
+interface Props {
+  leader: Leader;
+}
+
+const { leader } = Astro.props;
+const { lead, shoulders } = leader;
+---
+
+<section class="leader" aria-label="Featured questions">
+  <p class="leader-label" style={`color:${lead.theme.ink}`}>{lead.theme.title}</p>
+
+  <h2 class="leader-question">
+    <a href={lead.row.href}>{lead.row.question}</a>
+  </h2>
+
+  <p class="leader-more">Read the answer &rarr;</p>
+
+  {shoulders.length > 0 && (
+    <ul class="shoulders">
+      {shoulders.map((slot) => (
+        <li>
+          <p class="section-label" style={`color:${slot.theme.ink}`}>{slot.theme.title}</p>
+          <p class="shoulder-question">
+            <a href={slot.row.href}>{slot.row.question}</a>
+          </p>
+        </li>
+      ))}
+    </ul>
+  )}
+</section>
+
+<hr class="leader-rule" />

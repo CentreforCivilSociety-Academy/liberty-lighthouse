@@ -1,0 +1,4 @@
+{
+  "_comment": "Pins invariants that would otherwise change silently. caseFoldedRows is the number of FAQ files absorbed into a stem question by the case-insensitive (Part N) collapse. The corpus mixes '(Part 2)' and '(part 3)'; a case-sensitive collapse yields a different index length with no error. If content legitimately changes, update this number in the same commit.",
+  "caseFoldedRows": 8
+}

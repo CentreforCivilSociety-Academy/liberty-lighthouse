@@ -416,8 +416,8 @@ const MONO_FONTS: Record<string, FontEntry> = {
 // ── Defaults ──
 
 export const TYPOGRAPHY_DEFAULTS = {
-  displayFont: 'Fraunces',
-  bodyFont: 'Source Sans 3',
+  displayFont: 'EB Garamond',
+  bodyFont: 'Roboto',
   monoFont: 'JetBrains Mono',
   baseFontSize: 106.25,
   baseLineHeight: 1.7,
@@ -431,12 +431,12 @@ export const COLORS_DEFAULTS = {
   colorPrimary: '#6B3A1F',
   colorPrimaryLight: '#8B5E3C',
   colorAccent: '#C4703C',
-  colorAccentText: '#A96032',
+  colorAccentText: '#A35C30',
   colorAccentSoft: '#D4924F',
   colorTextPrimary: '#1A1612',
   colorTextSecondary: '#5C524A',
-  colorTextTertiary: '#7D726A',
-  colorTextMuted: '#A89E96',
+  colorTextTertiary: '#695F59',
+  colorTextMuted: '#786C63',
   colorTextOnDark: '#FAF7F4',
   colorBgPage: '#FDFBF9',
   colorBgSection: '#F7F3EF',
@@ -463,19 +463,92 @@ function getFontEntry(name: string): FontEntry | undefined {
   return DISPLAY_FONTS[name] || BODY_FONTS[name] || MONO_FONTS[name];
 }
 
+// ── Self-hosted families ──
+// These three ship from /public/fonts as variable woff2 and never touch a
+// third-party origin. Each has a metric-matched fallback face declared in
+// src/styles/fonts.css, so swapping in the real font causes no layout shift.
+// Any other family the CMS offers still resolves through Google Fonts.
+
+export type SelfHostedFont = {
+  /** @font-face family holding the variable binary */
+  varFamily: string;
+  /** metric-matched fallback @font-face, or null when the generic already matches */
+  fallbackFamily: string | null;
+  /** generic family, last resort */
+  generic: string;
+  /** public path, used for preloading */
+  file: string;
+};
+
+export const SELF_HOSTED_FONTS: Record<string, SelfHostedFont> = {
+  'EB Garamond': {
+    varFamily: 'EB Garamond Var',
+    fallbackFamily: 'EB Garamond Fallback',
+    generic: 'serif',
+    file: '/fonts/eb-garamond-var.woff2',
+  },
+  'Roboto': {
+    varFamily: 'Roboto Var',
+    fallbackFamily: 'Roboto Fallback',
+    generic: 'sans-serif',
+    file: '/fonts/roboto-var.woff2',
+  },
+  'JetBrains Mono': {
+    varFamily: 'JetBrains Mono Var',
+    // No metric-matched face: the monospace generic is already within 0.34%.
+    fallbackFamily: null,
+    generic: 'monospace',
+    file: '/fonts/jetbrains-mono-var.woff2',
+  },
+};
+
+/** Generic family for a catalogue font, derived from which register it sits in. */
+function genericFor(fontName: string): string {
+  if (MONO_FONTS[fontName]) return 'monospace';
+  if (DISPLAY_FONTS[fontName]) return 'serif';
+  return 'sans-serif';
+}
+
 export function buildGoogleFontsUrl(displayFont: string, bodyFont: string, monoFont: string): string {
   const families = new Set<string>();
 
   for (const fontName of [displayFont, bodyFont, monoFont]) {
+    if (SELF_HOSTED_FONTS[fontName]) continue;
     const entry = getFontEntry(fontName);
     if (entry) {
       families.add(entry.param);
     }
   }
 
+  // Every selected family is self-hosted — no stylesheet, no preconnects.
+  if (families.size === 0) return '';
+
   return `https://fonts.googleapis.com/css2?${[...families].map(f => `family=${f}`).join('&')}&display=swap`;
 }
 
+/** woff2 files to preload, in the order they matter for first paint. */
+export function selfHostedPreloads(displayFont: string, bodyFont: string, monoFont: string): string[] {
+  const files: string[] = [];
+  for (const fontName of [displayFont, bodyFont, monoFont]) {
+    const sh = SELF_HOSTED_FONTS[fontName];
+    if (sh && !files.includes(sh.file)) files.push(sh.file);
+  }
+  return files;
+}
+
 export function buildFontFamilyValue(fontName: string): string {
-  return `'${fontName}'`;
+  const selfHosted = SELF_HOSTED_FONTS[fontName];
+  if (selfHosted) {
+    const stack = [`'${selfHosted.varFamily}'`];
+    if (selfHosted.fallbackFamily) stack.push(`'${selfHosted.fallbackFamily}'`);
+    // Georgia is named explicitly so the metric-matched face has something to
+    // match; where it is absent the generic takes over unadjusted.
+    if (selfHosted.generic === 'serif') stack.push('Georgia');
+    stack.push(selfHosted.generic);
+    return stack.join(', ');
+  }
+  // Catalogue fonts still get a real fallback, which they previously did not:
+  // buildFontFamilyValue returned a bare quoted name, so a failed webfont left
+  // the browser on its unstyled default.
+  return `'${fontName}', ${genericFor(fontName)}`;
 }

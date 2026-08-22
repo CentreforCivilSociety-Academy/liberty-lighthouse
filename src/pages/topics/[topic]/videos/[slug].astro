@@ -42,7 +42,7 @@ const videoSchema = buildVideoSchema({
   duration: entry.data.duration,
 });
 const breadcrumbSchema = buildBreadcrumbSchema([
-  { name: 'Topics', url: new URL('/topics/', Astro.site).href },
+  { name: 'Topics', url: new URL('/', Astro.site).href },
   { name: topic?.data.title || topicSlug!, url: new URL(`/topics/${topicSlug}/`, Astro.site).href },
   { name: 'Videos', url: new URL(`/topics/${topicSlug}/videos/`, Astro.site).href },
   { name: entry.data.title, url: pageUrl },
@@ -52,7 +52,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 <PageLayout title={entry.data.title} description={entry.data.description}>
   <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
     <Breadcrumbs items={[
-      { label: 'Topics', href: '/topics/' },
+      { label: 'Topics', href: '/' },
       { label: topic?.data.title || topicSlug!, href: `/topics/${topicSlug}/` },
       { label: 'Videos', href: `/topics/${topicSlug}/videos/` },
       { label: entry.data.title },

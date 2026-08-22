@@ -13,17 +13,15 @@ export const GET: APIRoute = async () => {
 
   const body = `# About Liberty Lighthouse
 
-Liberty Lighthouse is an open educational platform created by the **Centre for Civil Society** (CCS), one of India's most respected independent think tanks. Our mission is to make rigorous policy research accessible to students, educators, journalists, policymakers, and engaged citizens.
-
-We believe that India's most pressing policy challenges — in education, agriculture, healthcare, governance, and livelihoods — deserve clear, evidence-based analysis grounded in the principles of individual liberty, free markets, rule of law, and limited government.
+Liberty Lighthouse is an open educational platform created by the **Centre for Civil Society** (CCS), one of India's leading think tanks. Our mission is to make rigorous policy research accessible to students, educators, journalists, and engaged citizens.
 
 ## What you'll find here
 
 Liberty Lighthouse organises knowledge across policy topics through three complementary formats:
 
 - **Frequently Asked Questions** — concise, expert-written answers to common policy questions, each grounded in research and evidence.
-- **Video Curricula** — curated video resources from leading scholars and practitioners, organised into structured learning sequences.
-- **Guided Syllabi** — step-by-step learning paths that guide you through a topic, combining readings, key concepts, and discussion questions.
+- **Video Curricula** — video resources to simplify Indian policies.
+- **Guided Learning** — for those who want to go further, recommended books and readings.
 
 ## About the Centre for Civil Society
 

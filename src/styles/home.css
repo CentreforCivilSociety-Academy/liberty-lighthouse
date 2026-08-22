@@ -1,0 +1,570 @@
+/*
+ * The homepage: four lanes, one system.
+ *
+ * Deliberately not inside @layer. The CMS injects an unlayered <style> block
+ * that sets h1/h2/h3 font-size, and unlayered rules beat every layer no matter
+ * their specificity — a Tailwind text-* utility on a heading has never once
+ * applied on this site. Everything here is class-based and unlayered so it
+ * competes on ordinary specificity and wins.
+ *
+ * One rule generates every boundary: a track opens at the smallest width where
+ * the surplus right margin alone pays for it. No track ever takes width from
+ * the reading column.
+ *
+ *   sheet       < 646     one column, minimum margins
+ *   wide sheet  646-773   the margin grows
+ *   page        774-1223  the mark gutter opens at its floor
+ *   plate      >= 1224    the contents nav relocates into a pinned census
+ *
+ * Each boundary is solved, not chosen: it is the smallest width at which the
+ * surplus right margin alone pays for the new track, so the reading column is
+ * never made narrower by a viewport getting wider. Round numbers failed this —
+ * at a 565px breakpoint the field went from 522px to 497px.
+ *
+ *   wide sheet  edge 34*2 + field 578                      = 646
+ *   page        edge 51*2 + mark 59.5 + field 612          = 774
+ *   plate       edge 51*2 + spine 319 + mark 102 + field 701 = 1224
+ *
+ * These are px because the root font-size is CMS-driven (106.25% = 17px) while
+ * media-query em is always 16px. Narrowing that CMS field is a prerequisite for
+ * these staying correct.
+ *
+ * Every element sets its own line-height. html{line-height} comes from a CMS
+ * field and inheriting it silently added ~23px to first-screen budgets.
+ */
+
+.home {
+  --edge: 1.25rem;
+  --field-max: 34rem;
+  --folio-w: 1.75rem;
+  --mark-w: 0;
+  --spine-w: 0;
+  --row-gap: 0.75rem;
+
+  --ink: var(--color-text-primary);
+  --muted: var(--color-text-secondary);
+  --rule: var(--color-border-default);
+  --rule-strong: var(--color-border-strong);
+
+  display: grid;
+  /*
+   * A right edge track is not optional. Without it `rag` collapses to zero at
+   * narrow widths and the reading column runs flush to the viewport edge —
+   * the search button was being clipped at 360px.
+   */
+  grid-template-columns:
+    [edge] var(--edge)
+    [spine] var(--spine-w)
+    [mark] var(--mark-w)
+    [field] minmax(0, var(--field-max))
+    [rag] minmax(0, 1fr)
+    [redge] var(--edge) [end];
+  column-gap: 0;
+  align-items: start;
+}
+
+/* Everything sits on one left edge. Nothing on this page is centred. */
+.home > * {
+  grid-column: field;
+  min-width: 0;
+}
+
+/* ── Index head ─────────────────────────────────────────── */
+/*
+ * Sits below the leader. The page previously opened with an eyebrow, a
+ * headline, a standfirst, a search field and a search note before reaching
+ * the one piece of display type — five stacked blocks of small text in front
+ * of the thing worth looking at.
+ */
+
+.index-head {
+  padding-block: 0 2rem;
+}
+
+/* .hero-title escapes the CMS h1 rule, so the size is ours to set. */
+.index-head .hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.375rem, 4.4vw, 1.75rem);
+  font-weight: 600;
+  line-height: 1.16;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+  text-wrap: balance;
+  margin: 0 0 1.125rem;
+}
+
+/* ── Search: a plain GET form, no JS, no index on this page ── */
+
+.search {
+  display: flex;
+  align-items: stretch;
+  gap: 0.5rem;
+  border-bottom: 2px solid var(--rule-strong);
+  padding-bottom: 0.5rem;
+  margin: 0;
+}
+
+.search input {
+  flex: 1;
+  min-width: 0;
+  border: 0;
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.5;
+  color: var(--ink);
+  padding: 0.25rem 0;
+}
+
+.search input::placeholder { color: var(--color-text-muted); }
+.search input:focus { outline: none; }
+.search:focus-within { border-bottom-color: var(--color-border-focus); }
+
+.search button {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  background: none;
+  border: 0;
+  cursor: pointer;
+  padding: 0 0.25rem;
+}
+
+.search button:hover { color: var(--ink); }
+
+/* ── Leader ─────────────────────────────────────────────── */
+
+.leader { padding-block: 2.5rem 2rem; }
+
+.leader-label,
+.section-label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 0 0.625rem;
+}
+
+.leader-question {
+  font-family: var(--font-display);
+  /* The one piece of display type on the page, and it is a question. */
+  font-size: clamp(1.875rem, 8.5vw, 3.25rem);
+  font-weight: 400;
+  line-height: 1.02;
+  letter-spacing: -0.022em;
+  margin: 0 0 1rem;
+  text-wrap: balance;
+}
+
+.leader-question a { color: var(--ink); text-decoration: none; }
+.leader-question a:hover { text-decoration: underline; text-underline-offset: 0.08em; }
+
+.leader-more {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0;
+}
+
+.shoulders {
+  list-style: none;
+  margin: 2rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 1.5rem;
+  border-top: 1px solid var(--rule);
+  padding-top: 1.5rem;
+}
+
+.shoulder-question {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.22;
+  letter-spacing: -0.008em;
+  margin: 0;
+  text-wrap: pretty;
+}
+
+.shoulder-question a { color: var(--ink); text-decoration: none; }
+.shoulder-question a:hover { text-decoration: underline; text-underline-offset: 0.08em; }
+
+/* The heaviest mark on the page, and it appears exactly once. */
+.leader-rule {
+  grid-column: field;
+  border: 0;
+  border-top: 3px solid var(--ink);
+  margin: 0 0 2rem;
+}
+
+/* ── Contents / census: ONE element, two lives ──────────── */
+/*
+ * Named .contents-nav, not .contents: Tailwind ships a `.contents` utility
+ * that sets `display: contents`, which erases the element's box. The element
+ * rendered with a 0x0 rect and the whole left column came up empty.
+ */
+
+.contents-nav {
+  margin-block: 0 2.5rem;
+}
+
+.contents-title {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin: 0 0 0.75rem;
+}
+
+.contents-list { list-style: none; margin: 0; padding: 0; }
+
+.contents-row { border-top: 1px solid var(--rule); }
+.contents-row:last-child { border-bottom: 1px solid var(--rule); }
+
+.contents-link {
+  display: grid;
+  grid-template-columns: 1.75rem 1fr auto;
+  align-items: baseline;
+  gap: 0.5rem;
+  padding: 0.5rem 0;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.contents-num,
+.contents-count {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text-muted);
+}
+
+.contents-name {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.contents-link:hover .contents-name { color: var(--theme-ink, var(--ink)); }
+
+/* Proportional bar. Width is a share of the largest theme, from the data. */
+.contents-bar {
+  grid-column: 2;
+  height: 2px;
+  background: var(--theme-ink, var(--ink));
+  opacity: 0.34;
+  width: calc(var(--share) * 100%);
+  align-self: center;
+}
+
+.contents-link:hover .contents-bar { opacity: 0.75; }
+
+/* `:target` gives the census a persistent "you are here" with zero JS. */
+.contents-row[data-current='true'] .contents-name { color: var(--theme-ink); }
+.contents-row[data-current='true'] .contents-bar { opacity: 1; }
+
+.contents-totals {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  line-height: 1.7;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  font-variant-numeric: tabular-nums;
+  margin: 0.875rem 0 0;
+}
+
+/* ── Sections ───────────────────────────────────────────── */
+
+.section { scroll-margin-top: calc(var(--nav-height) + 0.5rem); }
+
+.section-head { padding-block: 2rem 1rem; }
+
+/* Bleeds to the viewport edge on wide screens; see the plate lane. */
+.section-rule {
+  border: 0;
+  border-top: 2px solid var(--theme-ink);
+  margin: 0 0 1rem;
+}
+
+.section-title {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 5vw, 2rem);
+  font-weight: 600;
+  line-height: 1.14;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+  margin: 0 0 0.5rem;
+}
+
+/* The ledger: a list of what exists, never a grid of empty slots. */
+.ledger {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  line-height: 1.6;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  margin: 0;
+}
+
+.section-desc {
+  font-family: var(--font-body);
+  font-size: 0.9375rem;
+  line-height: 1.55;
+  color: var(--muted);
+  margin: 0.75rem 0 0;
+  max-width: 42em;
+}
+
+/* ── Index rows ─────────────────────────────────────────── */
+
+.index { list-style: none; margin: 0; padding: 0; }
+
+.index-row { border-top: 1px solid var(--rule); }
+.index-row:last-child { border-bottom: 1px solid var(--rule); }
+
+.index-link {
+  display: grid;
+  grid-template-columns: var(--folio-w) 1fr;
+  gap: 0 0.5rem;
+  align-items: baseline;
+  padding: var(--row-gap) 0;
+  text-decoration: none;
+  color: var(--ink);
+}
+
+.index-folio {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  line-height: 1.7;
+  font-variant-numeric: tabular-nums;
+  color: var(--color-text-muted);
+}
+
+.index-question {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.3;
+  letter-spacing: -0.004em;
+  text-wrap: pretty;
+}
+
+.index-link:hover .index-question {
+  text-decoration: underline;
+  text-underline-offset: 0.1em;
+  text-decoration-thickness: 1px;
+}
+
+/* Continuation parts sit beside the row, never nested inside its anchor —
+   an <a> inside an <a> is invalid and browsers unnest it unpredictably. */
+.index-parts {
+  grid-column: 2;
+  font-family: var(--font-mono);
+  font-size: 0.625rem;
+  line-height: 1.6;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin: 0.25rem 0 var(--row-gap);
+  padding-left: calc(var(--folio-w) + 0.5rem);
+}
+
+.index-parts a { color: var(--muted); text-decoration: none; }
+.index-parts a:hover { color: var(--theme-ink); text-decoration: underline; }
+
+/* ── Section foot ───────────────────────────────────────── */
+/*
+ * The route to a theme's videos and reading list. The label above the
+ * questions stays deliberately small; this is the one that has to carry, and
+ * it sits where a reader actually finishes — at the end of the list.
+ */
+
+.section-foot {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 0.875rem;
+  margin-top: 1.25rem;
+  padding: 0.875rem 1rem;
+  text-decoration: none;
+  border: 1px solid var(--theme-ink);
+  color: var(--theme-ink);
+}
+
+.section-foot:hover {
+  background: var(--theme-ink);
+  color: var(--color-bg-page);
+}
+
+.section-foot-go {
+  font-family: var(--font-display);
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.section-foot-go::after {
+  content: ' \2192';
+}
+
+.section-foot-has {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  line-height: 1.6;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+  opacity: 0.8;
+  margin-left: auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .section-foot { transition: background 90ms ease-out, color 90ms ease-out; }
+}
+
+/* ── Colophon ───────────────────────────────────────────── */
+
+.colophon {
+  grid-column: edge / end;
+  background: var(--color-bg-dark);
+  color: var(--color-text-on-dark);
+  margin-top: 3rem;
+  padding: 2.5rem var(--edge);
+}
+
+.colophon p {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+  margin: 0;
+  opacity: 0.72;
+}
+
+.colophon a { color: var(--color-text-on-dark); }
+
+/* ══ WIDE SHEET — 565px up ══════════════════════════════ */
+
+@media (min-width: 646px) {
+  .home {
+    --edge: 2rem;
+    --folio-w: 2rem;
+  }
+  .shoulders { grid-template-columns: 1fr 1fr; gap: 1.75rem; }
+  .leader { padding-block: 3rem 2rem; }
+}
+
+/* ══ PAGE — 814px up: the mark gutter opens at its floor ══ */
+
+@media (min-width: 774px) {
+  .home {
+    --edge: 3rem;
+    --mark-w: 3.5rem;
+    --field-max: 36rem;
+  }
+  /* Below 56px the row pitch drops under 5 CSS px and the mark greys into a
+     smudge, so it does not render at all until there is room for it. */
+  .index-mark { display: block; }
+  .section-rule { margin-right: calc(-1 * var(--edge)); }
+  .leader-question { font-size: clamp(3rem, 6vw, 4.25rem); }
+  .shoulder-question { font-size: 1.375rem; }
+}
+
+/* ══ PLATE — 1161px up: contents relocates into a pinned census ══ */
+
+@media (min-width: 1224px) {
+  .home {
+    --edge: clamp(3rem, 4vw, 12.5rem);
+    --spine-w: 18.75rem;
+    --mark-w: 6rem;
+    --field-max: 41.25rem;
+    column-gap: 0;
+  }
+
+  .home > * { grid-column: field; }
+
+  /*
+   * The same <nav id="contents"> that was an in-flow contents page on the
+   * phone becomes a permanent census here. One DOM node, two lives — no
+   * duplicated markup and no desktop-only DOM shipped to mobile.
+   */
+  .contents-nav {
+    grid-column: spine;
+    /*
+     * Span every row the page actually has. `1 / -1` is wrong here: -1 counts
+     * back from the last EXPLICIT grid line, and this grid declares only
+     * columns, so every row is implicit and -1 collapses to line 1 — which
+     * stretched row 1 to the census's own height and opened a 253px hole under
+     * the masthead. The count comes from the page, so it is exact rather than
+     * a guessed `span 40` that leaves empty implicit rows behind.
+     */
+    grid-row: 1 / span var(--home-rows, 14);
+    position: sticky;
+    top: calc(var(--nav-height) + 1.5rem);
+    align-self: start;
+    margin: 0;
+    padding-right: 2rem;
+    border-right: 1px solid var(--rule);
+    max-height: calc(100vh - var(--nav-height) - 3rem);
+    overflow: hidden;
+  }
+
+  .leader { padding-block: 3.5rem 2.25rem; }
+  .leader-question { font-size: clamp(4.25rem, 5.4vw, 6.5rem); line-height: 0.98; }
+  .shoulder-question { font-size: 1.5rem; }
+  .index-question { font-size: 1.375rem; }
+  .section-title { font-size: 2.375rem; }
+
+  /* Ten 2px theme rules run into the fore-edge, one every section. A margin
+     that coloured rules cross is paper; a margin nothing touches is a void. */
+  .section-rule { grid-column: field / end; margin-right: 0; }
+
+  .colophon { padding-inline: var(--edge); }
+}
+
+/* Short viewports: a 1366x768 laptop with a taskbar is ~1092x494. The census
+   must not become taller than the screen it is pinned to. */
+@media (min-width: 1224px) and (max-height: 760px) {
+  .contents-nav { font-size: 0.9375em; }
+  .contents-link { padding: 0.3125rem 0; }
+  .leader { padding-block: 2rem 1.5rem; }
+  .leader-question { font-size: clamp(3.25rem, 4.4vw, 4.75rem); }
+}
+
+/* ══ Motion ═════════════════════════════════════════════ */
+
+.contents-name,
+.contents-bar,
+.index-question {
+  transition: color 90ms ease-out, opacity 90ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .contents-name,
+  .contents-bar,
+  .index-question {
+    transition: none;
+  }
+}

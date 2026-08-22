@@ -21,7 +21,7 @@ const faqs = await getFaqsByTopic(topicSlug!);
 const videos = await getVideosByTopic(topicSlug!);
 
 const breadcrumbSchema = buildBreadcrumbSchema([
-  { name: 'Topics', url: new URL('/topics/', Astro.site).href },
+  { name: 'Topics', url: new URL('/', Astro.site).href },
   { name: topicData.title, url: Astro.url.href },
 ]);
 ---

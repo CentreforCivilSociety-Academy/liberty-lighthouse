@@ -10,6 +10,25 @@
   to = "/admin/index.html"
   status = 200
 
+# The separate topics index is gone — the homepage IS the index of every
+# question. Existing links and search results are sent there permanently.
+# Per-theme pages (/topics/<slug>/) stay: they carry videos and the reading
+# path, which the homepage does not.
+[[redirects]]
+  from = "/topics"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/topics.md"
+  to = "/index.md"
+  status = 301
+
 [[redirects]]
   from = "/*"
   to = "/404"

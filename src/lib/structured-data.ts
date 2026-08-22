@@ -18,7 +18,7 @@ export function buildWebSiteSchema(siteUrl: string) {
     '@type': 'WebSite',
     name: 'Liberty Lighthouse',
     url: siteUrl,
-    description: "A classical liberal resource for understanding India's policy landscape.",
+    description: "A resource for understanding Indian policy through FAQs, videos and reading paths.",
     publisher: { '@type': 'Organization', name: 'Centre for Civil Society' },
     potentialAction: {
       '@type': 'SearchAction',

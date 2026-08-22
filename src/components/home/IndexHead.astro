@@ -1,0 +1,42 @@
+---
+/**
+ * The index head: what the corpus is, and the way into it.
+ *
+ * This sits *below* the leader deliberately. The page used to open with an
+ * eyebrow, a headline, a standfirst, a search field and a search note — five
+ * blocks of small type stacked in front of the one thing worth looking at.
+ * The question leads now, and this introduces the index beneath it.
+ *
+ * The count is read from the corpus, never written down: publish question 135
+ * and this says 135 on the next build. The site's old byline promised
+ * "10 themes" as a literal string, which is the bug this rule exists to stop.
+ *
+ * The h1 carries .hero-title because the CMS injects an unlayered
+ * `h1:not(.hero-title)` font-size rule that no class or utility can outrank.
+ */
+import type { Corpus } from '../../lib/corpus';
+
+interface Props {
+  corpus: Corpus;
+}
+
+const { corpus } = Astro.props;
+---
+
+<header class="index-head">
+  <h1 class="hero-title">
+    {corpus.totalQuestions} questions about how India is actually governed
+  </h1>
+
+  <form class="search" action="/search/" method="get" role="search">
+    <label class="sr-only" for="q">Search questions</label>
+    <input
+      type="search"
+      id="q"
+      name="q"
+      placeholder="Search questions"
+      autocomplete="off"
+    />
+    <button type="submit">Search</button>
+  </form>
+</header>

@@ -1,18 +1,54 @@
 ---
+/**
+ * The homepage is the contents page of a book that does not exist yet.
+ *
+ * A leader, a hard rule, and then the entire corpus: every published question,
+ * every theme, numbered, ruled and honestly counted. Nothing truncated, no
+ * ellipsis, no empty slots where content does not exist.
+ *
+ * Ships zero JavaScript. Every destination is a plain anchor, so the page is
+ * shareable, back-button-safe, keyboard-native and works with scripts off.
+ */
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Navbar from '../components/global/Navbar.astro';
 import Footer from '../components/global/Footer.astro';
-import Hero from '../components/home/Hero.astro';
-import TopicsGrid from '../components/home/TopicsGrid.astro';
-import AboutSnippet from '../components/home/AboutSnippet.astro';
+import IndexHead from '../components/home/IndexHead.astro';
+import Leader from '../components/home/Leader.astro';
+import Contents from '../components/home/Contents.astro';
+import ThemeSection from '../components/home/ThemeSection.astro';
+import Colophon from '../components/home/Colophon.astro';
+import { getCorpus } from '../lib/corpus';
+import { resolveLeader } from '../lib/leader';
+import { getCollection } from 'astro:content';
+import '../styles/home.css';
+
+const corpus = await getCorpus();
+
+const settings = await getCollection('settings');
+const frontpage = (settings.find((s) => s.id === 'frontpage')?.data ?? {}) as Record<string, string>;
+const leader = resolveLeader(corpus, [frontpage.lead, frontpage.shoulderA, frontpage.shoulderB]);
+
+if (leader.usedFallback) {
+  console.warn(
+    '[frontpage] one or more leader slots fell back — check src/content/settings/frontpage.json',
+  );
+}
+
+const description = `An index of ${corpus.totalQuestions} questions about Indian policy across ${corpus.totalThemes} themes, with FAQs, videos and reading paths. A project of the Centre for Civil Society.`;
 ---
 
-<BaseLayout title="Liberty Lighthouse" description="A classical liberal resource for understanding India's policy landscape. Explore ideas that advance freedom, markets, and the rule of law.">
+<BaseLayout title="Liberty Lighthouse" description={description}>
   <Navbar />
-  <main id="main-content">
-    <Hero />
-    <TopicsGrid />
-    <AboutSnippet />
+  <main
+    id="main-content"
+    class="home"
+    style={`--home-rows:${corpus.themes.length + 4}`}
+  >
+    <Leader leader={leader} />
+    <IndexHead corpus={corpus} />
+    <Contents corpus={corpus} />
+    {corpus.themes.map((theme) => <ThemeSection theme={theme} />)}
+    <Colophon corpus={corpus} />
   </main>
   <Footer />
 </BaseLayout>

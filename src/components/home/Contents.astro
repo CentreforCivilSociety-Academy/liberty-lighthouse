@@ -1,0 +1,46 @@
+---
+/**
+ * The contents page and the desktop census are the same DOM element.
+ *
+ * On a phone this is an in-flow contents page, one flick down. At the plate
+ * breakpoint the identical <nav> is placed into the left column of the grid
+ * and pinned for the whole visit, where the bars turn it into a census of the
+ * corpus. Nothing is duplicated and no desktop-only markup ships to mobile.
+ *
+ * Bar widths are a share of the largest theme, read from the data, so the
+ * comparison the page is making cannot lie without the content changing.
+ */
+import type { Corpus } from '../../lib/corpus';
+
+interface Props {
+  corpus: Corpus;
+}
+
+const { corpus } = Astro.props;
+const { themes, maxEntries } = corpus;
+---
+
+<nav class="contents-nav" id="contents" aria-labelledby="contents-title">
+  <h2 class="contents-title" id="contents-title">Contents</h2>
+
+  <ol class="contents-list">
+    {themes.map((theme) => (
+      <li
+        class="contents-row"
+        style={`--theme-ink:${theme.ink}; --share:${theme.entries / maxEntries}`}
+      >
+        <a class="contents-link" href={`#${theme.anchor}`}>
+          <span class="contents-num">{theme.section}</span>
+          <span class="contents-name">{theme.title}</span>
+          <span class="contents-count">{theme.entries}</span>
+          <span class="contents-bar" aria-hidden="true"></span>
+        </a>
+      </li>
+    ))}
+  </ol>
+
+  <p class="contents-totals">
+    {corpus.totalQuestions} questions · {corpus.totalThemes} themes<br />
+    {corpus.totalVideos} videos · {corpus.totalSyllabi} reading lists
+  </p>
+</nav>

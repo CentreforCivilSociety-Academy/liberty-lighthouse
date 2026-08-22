@@ -1,0 +1,199 @@
+---
+/**
+ * Onward navigation from a question.
+ *
+ * The homepage is an index of every question, so it sends readers straight to
+ * leaves — and a leaf had no way onward. `relatedFAQs` is populated on 0 of 134
+ * entries, so the only internal links on a question page were breadcrumbs.
+ * An index that promises the whole corpus and then dead-ends is a trap.
+ *
+ * This needs no curation and stays correct as content is added: the sequence
+ * is the theme's own order, straight from the corpus.
+ */
+import { getCorpus } from '../../lib/corpus';
+
+interface Props {
+  topicSlug: string;
+  /** The current entry's FAQ id, e.g. "agriculture/why-farms-are-small". */
+  entryId: string;
+}
+
+const { topicSlug, entryId } = Astro.props;
+const slug = entryId.split('/').pop();
+
+const corpus = await getCorpus();
+const theme = corpus.themes.find((t) => t.slug === topicSlug);
+
+// Match the row this page belongs to, including when it is a continuation part.
+const index = theme
+  ? theme.rows.findIndex(
+      (r) => r.href.includes(`/faq/${slug}/`) || r.parts.some((p) => p.href.includes(`/faq/${slug}/`)),
+    )
+  : -1;
+
+const previous = index > 0 ? theme!.rows[index - 1] : null;
+const next = index >= 0 && index < (theme?.rows.length ?? 0) - 1 ? theme!.rows[index + 1] : null;
+const position = index >= 0 ? index + 1 : null;
+
+/* Name only what the theme page actually has — same rule as the ledger. */
+const beyond = theme
+  ? ([
+      `${theme.questions} ${theme.questions === 1 ? 'question' : 'questions'}`,
+      theme.videos > 0 ? `${theme.videos} ${theme.videos === 1 ? 'video' : 'videos'}` : null,
+      theme.hasSyllabus ? 'reading list' : null,
+    ].filter(Boolean) as string[])
+  : [];
+---
+
+{theme && index >= 0 && (
+  <nav class="pager" aria-label={`More in ${theme.title}`} style={`--theme-ink:${theme.ink}`}>
+    <p class="pager-where">
+      <a href={`/#${theme.anchor}`}>{theme.title}</a>
+      <span aria-hidden="true"> · </span>
+      <span>{position} of {theme.entries}</span>
+    </p>
+
+    <ul class="pager-links">
+      {previous && (
+        <li class="pager-prev">
+          <a href={previous.href}>
+            <span class="pager-dir">Previous</span>
+            <span class="pager-q">{previous.question}</span>
+          </a>
+        </li>
+      )}
+      {next && (
+        <li class="pager-next">
+          <a href={next.href}>
+            <span class="pager-dir">Next</span>
+            <span class="pager-q">{next.question}</span>
+          </a>
+        </li>
+      )}
+    </ul>
+
+    <!--
+      The theme page is where the videos and the reading list are. A question
+      page that only offers "next question" hides half the material.
+    -->
+    <a class="pager-theme" href={theme.href}>
+      <span class="pager-theme-go">All {theme.title}</span>
+      <span class="pager-theme-has">{beyond.join(' · ')}</span>
+    </a>
+
+    <p class="pager-all">
+      <a href={`/#${theme.anchor}`}>This theme on the index</a>
+      <span aria-hidden="true"> · </span>
+      <a href="/">Every question</a>
+    </p>
+  </nav>
+)}
+
+<style>
+  .pager {
+    margin-top: 2.5rem;
+    padding-top: 1.25rem;
+    border-top: 2px solid var(--theme-ink);
+  }
+
+  .pager-where,
+  .pager-all {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1.6;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+
+  .pager-where a,
+  .pager-all a {
+    color: var(--theme-ink);
+    text-decoration: none;
+  }
+
+  .pager-where a:hover,
+  .pager-all a:hover { text-decoration: underline; }
+
+  .pager-links {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+    display: grid;
+    gap: 1rem;
+  }
+
+  @media (min-width: 646px) {
+    .pager-links { grid-template-columns: 1fr 1fr; }
+    /* Keep Next on the right even when there is no Previous. */
+    .pager-next:only-child { grid-column: 2; text-align: right; }
+  }
+
+  .pager-links a {
+    display: block;
+    text-decoration: none;
+    color: var(--color-text-primary);
+  }
+
+  .pager-dir {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    line-height: 1.6;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-bottom: 0.25rem;
+  }
+
+  .pager-q {
+    display: block;
+    font-family: var(--font-display);
+    font-size: 1.0625rem;
+    line-height: 1.3;
+    text-wrap: pretty;
+  }
+
+  .pager-links a:hover .pager-q {
+    text-decoration: underline;
+    text-underline-offset: 0.1em;
+  }
+
+  .pager-theme {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 0.875rem;
+    margin: 0 0 0.875rem;
+    padding: 0.875rem 1rem;
+    text-decoration: none;
+    border: 1px solid var(--theme-ink);
+    color: var(--theme-ink);
+  }
+
+  .pager-theme:hover {
+    background: var(--theme-ink);
+    color: var(--color-bg-page);
+  }
+
+  .pager-theme-go {
+    font-family: var(--font-display);
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .pager-theme-go::after { content: ' \2192'; }
+
+  .pager-theme-has {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1.6;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums;
+    opacity: 0.8;
+    margin-left: auto;
+  }
+</style>
