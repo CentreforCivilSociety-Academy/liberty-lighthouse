@@ -26,7 +26,7 @@ const syllabusHtml = topicData.guidedSyllabus
 
 const pageUrl = Astro.url.href;
 const breadcrumbSchema = buildBreadcrumbSchema([
-  { name: 'Topics', url: new URL('/topics/', Astro.site).href },
+  { name: 'Topics', url: new URL('/', Astro.site).href },
   { name: topicData.title, url: new URL(`/topics/${topicSlug}/`, Astro.site).href },
   { name: 'Syllabus', url: pageUrl },
 ]);

@@ -12,7 +12,7 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Navbar from '../components/global/Navbar.astro';
 import Footer from '../components/global/Footer.astro';
-import Masthead from '../components/home/Masthead.astro';
+import IndexHead from '../components/home/IndexHead.astro';
 import Leader from '../components/home/Leader.astro';
 import Contents from '../components/home/Contents.astro';
 import ThemeSection from '../components/home/ThemeSection.astro';
@@ -44,8 +44,8 @@ const description = `An index of ${corpus.totalQuestions} questions about Indian
     class="home"
     style={`--home-rows:${corpus.themes.length + 4}`}
   >
-    <Masthead corpus={corpus} />
     <Leader leader={leader} />
+    <IndexHead corpus={corpus} />
     <Contents corpus={corpus} />
     {corpus.themes.map((theme) => <ThemeSection theme={theme} />)}
     <Colophon corpus={corpus} />

@@ -38,7 +38,7 @@ const faqSchema = buildFAQSchema([
   { question: entry.data.question, answer: stripMarkdown(entry.body || '') },
 ]);
 const breadcrumbSchema = buildBreadcrumbSchema([
-  { name: 'Topics', url: new URL('/topics/', Astro.site).href },
+  { name: 'Topics', url: new URL('/', Astro.site).href },
   { name: topic?.data.title || topicSlug!, url: new URL(`/topics/${topicSlug}/`, Astro.site).href },
   { name: 'FAQ', url: new URL(`/topics/${topicSlug}/faq/`, Astro.site).href },
   { name: entry.data.question, url: pageUrl },
@@ -49,7 +49,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
   title={entry.data.question}
   description={`FAQ: ${entry.data.question}`}
   breadcrumbs={[
-    { label: 'Topics', href: '/topics/' },
+    { label: 'Topics', href: '/' },
     { label: topic?.data.title || topicSlug!, href: `/topics/${topicSlug}/` },
     { label: 'FAQ', href: `/topics/${topicSlug}/faq/` },
     { label: entry.data.question },

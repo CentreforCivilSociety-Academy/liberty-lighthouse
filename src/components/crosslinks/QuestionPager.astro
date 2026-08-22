@@ -34,6 +34,15 @@ const index = theme
 const previous = index > 0 ? theme!.rows[index - 1] : null;
 const next = index >= 0 && index < (theme?.rows.length ?? 0) - 1 ? theme!.rows[index + 1] : null;
 const position = index >= 0 ? index + 1 : null;
+
+/* Name only what the theme page actually has — same rule as the ledger. */
+const beyond = theme
+  ? ([
+      `${theme.questions} ${theme.questions === 1 ? 'question' : 'questions'}`,
+      theme.videos > 0 ? `${theme.videos} ${theme.videos === 1 ? 'video' : 'videos'}` : null,
+      theme.hasSyllabus ? 'reading list' : null,
+    ].filter(Boolean) as string[])
+  : [];
 ---
 
 {theme && index >= 0 && (
@@ -63,8 +72,17 @@ const position = index >= 0 ? index + 1 : null;
       )}
     </ul>
 
+    <!--
+      The theme page is where the videos and the reading list are. A question
+      page that only offers "next question" hides half the material.
+    -->
+    <a class="pager-theme" href={theme.href}>
+      <span class="pager-theme-go">All {theme.title}</span>
+      <span class="pager-theme-has">{beyond.join(' · ')}</span>
+    </a>
+
     <p class="pager-all">
-      <a href={`/#${theme.anchor}`}>All {theme.entries} questions in {theme.title}</a>
+      <a href={`/#${theme.anchor}`}>This theme on the index</a>
       <span aria-hidden="true"> · </span>
       <a href="/">Every question</a>
     </p>
@@ -140,5 +158,42 @@ const position = index >= 0 ? index + 1 : null;
   .pager-links a:hover .pager-q {
     text-decoration: underline;
     text-underline-offset: 0.1em;
+  }
+
+  .pager-theme {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 0.875rem;
+    margin: 0 0 0.875rem;
+    padding: 0.875rem 1rem;
+    text-decoration: none;
+    border: 1px solid var(--theme-ink);
+    color: var(--theme-ink);
+  }
+
+  .pager-theme:hover {
+    background: var(--theme-ink);
+    color: var(--color-bg-page);
+  }
+
+  .pager-theme-go {
+    font-family: var(--font-display);
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  .pager-theme-go::after { content: ' \2192'; }
+
+  .pager-theme-has {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1.6;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-variant-numeric: tabular-nums;
+    opacity: 0.8;
+    margin-left: auto;
   }
 </style>
