@@ -39,3 +39,6 @@ skills-lock.json
 
 # Source docx files (not needed in deployment)
 /Content/
+
+# Local agent worktrees
+.claude/worktrees/

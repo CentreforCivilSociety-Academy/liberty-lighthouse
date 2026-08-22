@@ -148,6 +148,36 @@ extents have real line boxes of 20–22px, a **+23.5px** first-screen error.
 
 **Rule: every element on this page sets an explicit `line-height`. No exceptions.**
 
+### 3.5 The cascade — verified empirically, and it constrains everything
+
+`designSystemCSS` is injected as an **unlayered** `<style>` in `<head>`. All Astro and
+Tailwind CSS is inside `@layer properties/theme/base/components/utilities`. **Unlayered
+declarations beat every layer**, regardless of specificity or source order.
+
+Measured in a real browser against the running dev server:
+
+| probe | computed (17px root) | verdict |
+|---|---|---|
+| `<h2>` bare | 25.5px | CMS unlayered rule wins |
+| `<h2 class="text-[1.75rem]">` (Tailwind, layered) | **25.5px** | **utility loses** |
+| `<h2>` + unlayered class rule | **29.75px** | unlayered class wins |
+| `<h1>` bare | 34px | CMS `h1:not(.hero-title)` applies |
+| `<h1 class="hero-title">` | 17px (inherit) | **escape hatch works** |
+
+**Implementation rules that follow:**
+
+1. **Tailwind text-size utilities cannot set heading sizes on this site.** Never rely on
+   `text-*` on `h1`–`h3`.
+2. **Homepage type must be set in Astro component `<style>` blocks**, which are scoped and
+   unlayered, giving `h2[data-astro-cid-…]` specificity (0,1,1) — beating the CMS `h2` at
+   (0,0,1).
+3. **Never put homepage type sizing in `@layer base`.** It will lose silently.
+4. `h1` uses the `.hero-title` escape hatch and the component supplies its own size.
+
+**Live bug this proves:** `TopicsGrid.astro:16` declares `md:text-[1.75rem]` on its h2. That
+utility is in `@layer utilities` and has therefore **never applied at any viewport width**.
+The heading has always rendered at 1.5rem.
+
 ---
 
 ## 4. The dynamic contract
@@ -491,7 +521,10 @@ plate bug, and an entire class of "usually right".
    the topic slugs.
 4. **Self-host the three font families.** §3.3.
 5. **`src/content/corpus.lock.json`** — new, pinning `caseFoldedRows: 4`.
-6. **Every consumer of `question:` must use a YAML parser.** §3.1.
+6. ~~Every consumer of `question:` must use a YAML parser.~~ **Resolved — no change needed.**
+   Verified: no site code extracts frontmatter by regex. Astro content collections already
+   parse YAML correctly, so `entry.data.question` has always been right. The truncation in
+   §3.1 affected *analysis tooling only*. Any new analysis script must still use a parser.
 7. **Verify the unlayered cascade escape** from `BaseLayout.astro:72–74` in a throwaway
    branch before anything else. Everything downstream depends on it.
 

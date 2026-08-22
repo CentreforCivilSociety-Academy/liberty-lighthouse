@@ -57,6 +57,9 @@
   --spacing-2xl: 4rem;
   --spacing-3xl: 6rem;
 
+  /* Chrome */
+  --nav-height: 4rem;
+
   /* Content Width */
   --content-max-width: 72rem;
   --prose-max-width: 42rem;

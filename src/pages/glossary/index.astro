@@ -71,7 +71,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
       <>
         <nav
           aria-label="Jump to letter"
-          class="sticky top-[4rem] z-10 -mx-[var(--spacing-lg)] px-[var(--spacing-lg)] py-[var(--spacing-sm)] mb-[var(--spacing-xl)] bg-[var(--color-bg-page)]/95 backdrop-blur-sm border-b border-[var(--color-border-subtle)] fade-up fade-up-delay-3"
+          class="sticky top-[var(--nav-height)] z-10 -mx-[var(--spacing-lg)] px-[var(--spacing-lg)] py-[var(--spacing-sm)] mb-[var(--spacing-xl)] bg-[var(--color-bg-page)] border-b border-[var(--color-border-subtle)] fade-up fade-up-delay-3"
         >
           <ul class="flex flex-wrap items-center gap-x-[0.625rem] gap-y-[0.25rem]">
             {allLetters.map((l) => (

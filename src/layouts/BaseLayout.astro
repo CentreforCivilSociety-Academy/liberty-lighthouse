@@ -151,18 +151,32 @@ const designSystemCSS = `
     <!-- Google Analytics 4 (Consent Mode v2: default-deny until banner accepted) -->
     <Analytics />
 
-    <!-- Netlify Identity widget (needed to handle invite/confirmation tokens) -->
-    <script is:inline src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    <!--
+      Netlify Identity widget. Loaded only where it is actually needed: inside /admin/,
+      or on any page carrying an identity token in the hash (invite and confirmation
+      links land on the site root). Everywhere else this kept a third-origin script on
+      the render path of every content page to serve a handful of editors.
+    -->
     <script is:inline>
-      if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-          if (!user) {
-            window.netlifyIdentity.on("login", () => {
-              document.location.href = "/admin/";
-            });
-          }
-        });
-      }
+      (function () {
+        var needed =
+          location.pathname.indexOf('/admin') === 0 ||
+          /(invite_token|confirmation_token|recovery_token|email_change_token)=/.test(location.hash);
+        if (!needed) return;
+        var s = document.createElement('script');
+        s.src = 'https://identity.netlify.com/v1/netlify-identity-widget.js';
+        s.onload = function () {
+          if (!window.netlifyIdentity) return;
+          window.netlifyIdentity.on('init', function (user) {
+            if (!user) {
+              window.netlifyIdentity.on('login', function () {
+                document.location.href = '/admin/';
+              });
+            }
+          });
+        };
+        document.head.appendChild(s);
+      })();
     </script>
   </head>
   <body>
