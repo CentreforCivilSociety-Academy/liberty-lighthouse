@@ -9,6 +9,7 @@ import {
   COLORS_DEFAULTS,
   buildGoogleFontsUrl,
   buildFontFamilyValue,
+  selfHostedPreloads,
 } from './fonts.js';
 
 export async function getTypographySettings() {
@@ -37,6 +38,7 @@ export async function getTypographySettings() {
     h2Size,
     h3Size,
     fontsUrl: buildGoogleFontsUrl(displayFont, bodyFont, monoFont),
+    fontPreloads: selfHostedPreloads(displayFont, bodyFont, monoFont),
     displayFontFamily: buildFontFamilyValue(displayFont),
     bodyFontFamily: buildFontFamilyValue(bodyFont),
     monoFontFamily: buildFontFamilyValue(monoFont),

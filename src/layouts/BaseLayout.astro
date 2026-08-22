@@ -103,10 +103,23 @@ const designSystemCSS = `
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={new URL(ogImage, Astro.site)} />
 
-    <!-- Fonts (loaded dynamically from CMS settings) -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href={typo.fontsUrl} />
+    <!--
+      Fonts. Self-hosted variable woff2 are preloaded from this origin so the
+      request starts immediately, rather than waiting on a render-blocking
+      third-party stylesheet to be fetched and parsed first. The Google Fonts
+      path is kept only for catalogue families that are not self-hosted, and
+      its preconnects are emitted only when it is actually used.
+    -->
+    {typo.fontPreloads.map((href: string) => (
+      <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />
+    ))}
+    {typo.fontsUrl && (
+      <>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="stylesheet" href={typo.fontsUrl} />
+      </>
+    )}
 
     <!-- Design System Overrides (CMS-driven) -->
     <Fragment set:html={`<style>${designSystemCSS}</style>`} />

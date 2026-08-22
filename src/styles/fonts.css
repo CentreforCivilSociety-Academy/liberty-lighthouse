@@ -1,0 +1,101 @@
+/*
+ * Self-hosted variable fonts.
+ *
+ * Previously the site fetched a render-blocking stylesheet from
+ * fonts.googleapis.com, parsed it, and only then requested binaries from
+ * fonts.gstatic.com — two sequential third-party round-trips before any text
+ * could render in the right face. Measured cost: 133.8 KB over 5 requests to
+ * 2 origins, with EB Garamond served as legacy .woff.
+ *
+ * These are the same three families, self-hosted as variable woff2, same
+ * origin, preloadable. Variable also restores the full weight range: the
+ * Google request served no EB Garamond 500, no Roboto 600 and no JetBrains
+ * Mono 600/700, so any design specifying those got synthetic bold.
+ *
+ * The `-Fallback` faces are metric-matched so text laid out in the fallback
+ * occupies the same space as the real face, giving no layout shift on swap.
+ * size-adjust values are measured, not guessed: average advance width over the
+ * actual distribution of characters in the FAQ corpus (10,998 chars, 70
+ * distinct), webfont measured from the binary with fontTools, fallback
+ * measured in-browser via canvas.
+ *
+ *   family           webfont     fallback generic   size-adjust
+ *   EB Garamond      0.38645em   serif 0.41079      94.07%
+ *   Roboto           0.44832em   sans-serif 0.45207 99.17%
+ *   JetBrains Mono   0.60000em   monospace 0.60205  99.66%
+ *
+ * ascent/descent overrides are the real hhea metrics divided by size-adjust:
+ *   EB Garamond     upem 1000  asc 1007  desc -298
+ *   Roboto          upem 2048  asc 1900  desc -500
+ *   JetBrains Mono  upem 1000  asc 1020  desc -300
+ */
+
+/* ── EB Garamond (display) ── */
+@font-face {
+  font-family: 'EB Garamond Var';
+  font-style: normal;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/eb-garamond-var.woff2') format('woff2');
+}
+
+/*
+ * Targets Georgia specifically rather than the serif generic, and only
+ * Georgia. A multi-name local() list is a trap here: the first available name
+ * wins, but one size-adjust cannot be correct for several fallbacks of
+ * different widths. Measured, an earlier version tuned to the serif generic
+ * (0.41079em) but matching Georgia (0.45000em) drifted +11.63% — worse than
+ * applying no adjustment at all, which drifts +5.55%.
+ *
+ * Where Georgia is absent — notably Android, the priority platform — this
+ * face simply does not match and the stack falls through to serif unadjusted,
+ * which is no worse than before. Fixing Android properly needs Noto Serif
+ * metrics measured on a real device; until then this is honest rather than
+ * confidently wrong.
+ */
+@font-face {
+  font-family: 'EB Garamond Fallback';
+  src: local('Georgia');
+  size-adjust: 85.88%;
+  ascent-override: 117.26%;
+  descent-override: 34.70%;
+  line-gap-override: 0%;
+}
+
+/* ── Roboto (body) ── */
+@font-face {
+  font-family: 'Roboto Var';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('/fonts/roboto-var.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Roboto Fallback';
+  src: local('Helvetica Neue'), local('Arial'), local('Roboto'), local('sans-serif');
+  size-adjust: 99.17%;
+  ascent-override: 93.55%;
+  descent-override: 24.62%;
+  line-gap-override: 0%;
+}
+
+/* ── JetBrains Mono (ledger, folios, micro-labels) ── */
+@font-face {
+  font-family: 'JetBrains Mono Var';
+  font-style: normal;
+  font-weight: 100 800;
+  font-display: swap;
+  src: url('/fonts/jetbrains-mono-var.woff2') format('woff2');
+}
+
+/*
+ * No fallback face for JetBrains Mono, deliberately.
+ *
+ * Measured, the monospace generic already sits within 0.34% of JetBrains Mono
+ * (0.60205em against 0.60000em) — monospace faces converge on half-em advances,
+ * so there is nothing to correct. An earlier version declared one anyway; its
+ * local() names matched nothing, the family failed to resolve, and text fell
+ * all the way back to the default serif at −31.71%. A fallback face that can
+ * fail is worse than a generic that cannot.
+ */

@@ -1,6 +1,7 @@
 /* Google Fonts are loaded dynamically via BaseLayout.astro based on CMS settings */
 
 @import "tailwindcss";
+@import "./fonts.css";
 
 /* ── Design Tokens ── */
 @theme {
@@ -8,14 +9,14 @@
   --color-primary: #6B3A1F;
   --color-primary-light: #8B5E3C;
   --color-accent: #C4703C;
-  --color-accent-text: #A96032;
+  --color-accent-text: #A35C30;
   --color-accent-soft: #D4924F;
 
   /* Text Hierarchy */
   --color-text-primary: #1A1612;
   --color-text-secondary: #5C524A;
-  --color-text-tertiary: #7D726A;
-  --color-text-muted: #A89E96;
+  --color-text-tertiary: #695F59;
+  --color-text-muted: #786C63;
   --color-text-on-dark: #FAF7F4;
 
   /* Surfaces & Backgrounds */
