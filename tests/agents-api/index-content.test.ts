@@ -30,7 +30,7 @@ describe('buildLlmsTxt', () => {
   it('starts with the Howard-spec H1 + tagline', () => {
     const txt = buildLlmsTxt(CORPUS);
     expect(txt).toMatch(/^# Liberty Lighthouse\n/);
-    expect(txt).toContain('> A classical liberal resource');
+    expect(txt).toContain('> A resource for understanding Indian policy');
   });
 
   it('lists topics in `order` order', () => {
