@@ -4,6 +4,7 @@
  * and returns ready-to-use CSS values with fallbacks to defaults.
  */
 import { getCollection } from 'astro:content';
+import { assertColours, HIGH_CONTRAST_TEXT } from './colour-guard.js';
 import {
   TYPOGRAPHY_DEFAULTS,
   COLORS_DEFAULTS,
@@ -50,33 +51,47 @@ export async function getColorSettings() {
   const entry = settings.find((s) => s.id === 'colors');
   const data = entry?.data ?? {};
 
-  return {
-    colorPrimary: data.colorPrimary ?? COLORS_DEFAULTS.colorPrimary,
-    colorPrimaryLight: data.colorPrimaryLight ?? COLORS_DEFAULTS.colorPrimaryLight,
-    colorAccent: data.colorAccent ?? COLORS_DEFAULTS.colorAccent,
-    colorAccentText: data.colorAccentText ?? COLORS_DEFAULTS.colorAccentText,
-    colorAccentSoft: data.colorAccentSoft ?? COLORS_DEFAULTS.colorAccentSoft,
-    colorTextPrimary: data.colorTextPrimary ?? COLORS_DEFAULTS.colorTextPrimary,
-    colorTextSecondary: data.colorTextSecondary ?? COLORS_DEFAULTS.colorTextSecondary,
-    colorTextTertiary: data.colorTextTertiary ?? COLORS_DEFAULTS.colorTextTertiary,
-    colorTextMuted: data.colorTextMuted ?? COLORS_DEFAULTS.colorTextMuted,
-    colorTextOnDark: data.colorTextOnDark ?? COLORS_DEFAULTS.colorTextOnDark,
-    colorBgPage: data.colorBgPage ?? COLORS_DEFAULTS.colorBgPage,
-    colorBgSection: data.colorBgSection ?? COLORS_DEFAULTS.colorBgSection,
-    colorBgCard: data.colorBgCard ?? COLORS_DEFAULTS.colorBgCard,
-    colorBgElevated: data.colorBgElevated ?? COLORS_DEFAULTS.colorBgElevated,
-    colorBgDark: data.colorBgDark ?? COLORS_DEFAULTS.colorBgDark,
-    colorBgDarkSoft: data.colorBgDarkSoft ?? COLORS_DEFAULTS.colorBgDarkSoft,
-    colorBorderDefault: data.colorBorderDefault ?? COLORS_DEFAULTS.colorBorderDefault,
-    colorBorderStrong: data.colorBorderStrong ?? COLORS_DEFAULTS.colorBorderStrong,
-    colorBorderSubtle: data.colorBorderSubtle ?? COLORS_DEFAULTS.colorBorderSubtle,
-    colorBorderFocus: data.colorBorderFocus ?? COLORS_DEFAULTS.colorBorderFocus,
-    colorSuccess: data.colorSuccess ?? COLORS_DEFAULTS.colorSuccess,
-    colorWarning: data.colorWarning ?? COLORS_DEFAULTS.colorWarning,
-    colorError: data.colorError ?? COLORS_DEFAULTS.colorError,
-    radiusSm: data.radiusSm ?? COLORS_DEFAULTS.radiusSm,
-    radiusMd: data.radiusMd ?? COLORS_DEFAULTS.radiusMd,
-    radiusLg: data.radiusLg ?? COLORS_DEFAULTS.radiusLg,
-    themeColor: data.themeColor ?? COLORS_DEFAULTS.themeColor,
+  /*
+   * The palette lives in code. What the CMS still offers is a contrast mode,
+   * because both of its options are solved and measured; 21 free colour
+   * pickers were not, and produced a broken live site the one time they were
+   * used in anger.
+   */
+  const highContrast = data.contrastMode === 'high';
+  const text = highContrast ? HIGH_CONTRAST_TEXT : COLORS_DEFAULTS;
+
+  const colours = {
+    colorPrimary: COLORS_DEFAULTS.colorPrimary,
+    colorPrimaryLight: COLORS_DEFAULTS.colorPrimaryLight,
+    colorAccent: COLORS_DEFAULTS.colorAccent,
+    colorAccentText: text.colorAccentText,
+    colorAccentSoft: COLORS_DEFAULTS.colorAccentSoft,
+    colorTextPrimary: COLORS_DEFAULTS.colorTextPrimary,
+    colorTextSecondary: text.colorTextSecondary,
+    colorTextTertiary: text.colorTextTertiary,
+    colorTextMuted: text.colorTextMuted,
+    colorTextOnDark: COLORS_DEFAULTS.colorTextOnDark,
+    colorBgPage: COLORS_DEFAULTS.colorBgPage,
+    colorBgSection: COLORS_DEFAULTS.colorBgSection,
+    colorBgCard: COLORS_DEFAULTS.colorBgCard,
+    colorBgElevated: COLORS_DEFAULTS.colorBgElevated,
+    colorBgDark: COLORS_DEFAULTS.colorBgDark,
+    colorBgDarkSoft: COLORS_DEFAULTS.colorBgDarkSoft,
+    colorBorderDefault: COLORS_DEFAULTS.colorBorderDefault,
+    colorBorderStrong: COLORS_DEFAULTS.colorBorderStrong,
+    colorBorderSubtle: COLORS_DEFAULTS.colorBorderSubtle,
+    colorBorderFocus: COLORS_DEFAULTS.colorBorderFocus,
+    colorSuccess: COLORS_DEFAULTS.colorSuccess,
+    colorWarning: COLORS_DEFAULTS.colorWarning,
+    colorError: COLORS_DEFAULTS.colorError,
+    radiusSm: COLORS_DEFAULTS.radiusSm,
+    radiusMd: COLORS_DEFAULTS.radiusMd,
+    radiusLg: COLORS_DEFAULTS.radiusLg,
+    themeColor: COLORS_DEFAULTS.themeColor,
   };
+
+  // Fails the deploy rather than shipping unreadable text.
+  assertColours(colours);
+
+  return colours;
 }
