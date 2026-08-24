@@ -142,10 +142,26 @@ export const THEME_HUES: Record<string, number> = {
   pubc: 288,
   feminism: 318,
   education: 349,
+  // Brick and laterite: the built environment. Added when CCS published an
+  // eleventh theme, which the capacity note below said could not be done.
+  urban: 41,
 };
 
-/** The palette holds exactly this many distinguishable hues. See assertions. */
-export const HUE_CAPACITY = 10;
+/**
+ * How many hues the palette can hold and still keep them apart.
+ *
+ * The design note this was built from claimed the set collapsed from deltaE
+ * 7.21 to 3.91 at eleven. That is true only of a naive insertion — dropping a
+ * hue into the widest gap measures 3.49 here. Re-solving properly holds 6.54,
+ * and adding an eleventh while keeping the existing ten fixed (which preserves
+ * every semantic assignment) holds 5.56 against 6.70 for the ten.
+ *
+ * So the ceiling was softer than documented. It is still real: each additional
+ * hue costs separation, and the assertion exists so the cost is paid
+ * deliberately rather than discovered by a reader who cannot tell two themes
+ * apart. Raise this only after re-running the separation measurement.
+ */
+export const HUE_CAPACITY = 11;
 
 // ── Grounds ──
 

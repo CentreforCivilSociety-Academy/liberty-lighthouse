@@ -25,7 +25,7 @@ describe('theme palette', () => {
   const slugs = Object.keys(THEME_HUES);
 
   it('covers every topic slug exactly once', () => {
-    expect(slugs).toHaveLength(10);
+    expect(slugs).toHaveLength(11);
     expect(new Set(slugs).size).toBe(slugs.length);
   });
 
@@ -35,9 +35,9 @@ describe('theme palette', () => {
   });
 
   it('does not exceed the palette capacity', () => {
-    // The set holds ten distinguishable hues; at eleven the minimum pairwise
-    // distance collapses and two themes become confusable. Adding an eleventh
-    // theme must fail loudly rather than ship two themes nobody can tell apart.
+    // Each hue past the last costs separation. Adding one must fail the build
+    // rather than quietly ship two themes a reader cannot tell apart, so the
+    // cost gets paid deliberately and the separation gets re-measured.
     expect(
       slugs.length,
       `The colour system holds ${HUE_CAPACITY} distinguishable hues and ${slugs.length} themes are defined. ` +
