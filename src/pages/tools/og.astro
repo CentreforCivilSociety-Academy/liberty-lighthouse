@@ -1,0 +1,369 @@
+---
+/**
+ * The OG card maker.
+ *
+ * Type anything, get a Liberty Lighthouse card, download the PNG, upload it
+ * wherever it is needed. A manual tool for the cases the batch job cannot
+ * cover — a campaign, a newsletter, a talk, a page that does not exist yet.
+ *
+ * Deliberately unlisted: noindex on the page, excluded from the sitemap, and
+ * disallowed in robots.txt. It is a staff utility, not a page for readers.
+ *
+ * Drawn on a canvas rather than rendered as HTML and screenshotted, because a
+ * canvas can be exported straight to PNG with the real fonts already loaded on
+ * this origin. It reproduces src/lib/og-design.ts; the two are kept in step by
+ * a test that compares the values both sides use.
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navbar from '../../components/global/Navbar.astro';
+import { getCorpus } from '../../lib/corpus';
+import { OG_WIDTH, OG_HEIGHT, OG_COLOURS } from '../../lib/og-design';
+
+const corpus = await getCorpus();
+const themes = corpus.themes.map((t) => ({ title: t.title, ink: t.ink }));
+---
+
+<BaseLayout
+  title="OG card maker"
+  description="Internal tool for generating Liberty Lighthouse share images."
+  noindex
+>
+  <Navbar />
+
+  <main id="main-content" class="tool">
+    <header>
+      <p class="tool-eyebrow">Internal tool · not linked from the site</p>
+      <h1 class="hero-title">OG card maker</h1>
+      <p class="tool-note">
+        Type the text, pick a theme colour, download the PNG. 1200 × 630, the
+        size every platform expects.
+      </p>
+    </header>
+
+    <div class="tool-grid">
+      <form class="tool-form" id="form" autocomplete="off">
+        <label>
+          <span>Eyebrow</span>
+          <input type="text" id="eyebrow" value="Liberty Lighthouse" maxlength="60" />
+        </label>
+
+        <label>
+          <span>Headline</span>
+          <textarea id="title" rows="3" maxlength="220">Can Indians get rich before getting old?</textarea>
+          <em id="titleCount"></em>
+        </label>
+
+        <label>
+          <span>Button</span>
+          <input type="text" id="cta" value="Read the answer" maxlength="34" />
+        </label>
+
+        <fieldset>
+          <legend>Colour</legend>
+          <div class="swatches" id="swatches">
+            <button type="button" data-ink={OG_COLOURS.ink} style={`--sw:${OG_COLOURS.ink}`} aria-label="Ink" aria-pressed="true"></button>
+            {themes.map((t) => (
+              <button type="button" data-ink={t.ink} style={`--sw:${t.ink}`} aria-label={t.title} aria-pressed="false"></button>
+            ))}
+          </div>
+        </fieldset>
+
+        <div class="tool-actions">
+          <button type="button" id="download">Download PNG</button>
+          <span id="status" role="status"></span>
+        </div>
+      </form>
+
+      <div class="tool-preview">
+        <canvas id="canvas" width={OG_WIDTH} height={OG_HEIGHT}></canvas>
+      </div>
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .tool {
+    max-width: 74rem;
+    margin: 0 auto;
+    padding: 2.5rem var(--spacing-lg) 4rem;
+  }
+
+  .tool-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1.4;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin: 0 0 0.75rem;
+  }
+
+  .tool .hero-title {
+    font-family: var(--font-display);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1.15;
+    margin: 0 0 0.5rem;
+  }
+
+  .tool-note {
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    line-height: 1.55;
+    color: var(--color-text-secondary);
+    margin: 0 0 2rem;
+    max-width: 34rem;
+  }
+
+  .tool-grid {
+    display: grid;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  @media (min-width: 900px) {
+    .tool-grid { grid-template-columns: 20rem 1fr; }
+  }
+
+  .tool-form label {
+    display: block;
+    margin-bottom: 1.25rem;
+  }
+
+  .tool-form span,
+  .tool-form legend {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    line-height: 1.4;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-text-secondary);
+    margin-bottom: 0.5rem;
+    padding: 0;
+  }
+
+  .tool-form input[type='text'],
+  .tool-form textarea {
+    width: 100%;
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.5;
+    color: var(--color-text-primary);
+    background: var(--color-bg-page);
+    border: 1px solid var(--color-border-strong);
+    padding: 0.5rem 0.625rem;
+    resize: vertical;
+  }
+
+  .tool-form input:focus-visible,
+  .tool-form textarea:focus-visible {
+    outline: 2px solid var(--color-border-focus);
+    outline-offset: 1px;
+  }
+
+  .tool-form em {
+    display: block;
+    font-family: var(--font-mono);
+    font-style: normal;
+    font-size: 0.625rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-top: 0.375rem;
+  }
+
+  .tool-form fieldset { border: 0; padding: 0; margin: 0 0 1.5rem; }
+
+  .swatches { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+
+  .swatches button {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--color-border-default);
+    background: var(--sw);
+    cursor: pointer;
+    padding: 0;
+  }
+
+  .swatches button[aria-pressed='true'] {
+    outline: 2px solid var(--color-text-primary);
+    outline-offset: 2px;
+  }
+
+  .tool-actions { display: flex; align-items: center; gap: 1rem; }
+
+  #download {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--color-bg-page);
+    background: var(--color-text-primary);
+    border: 0;
+    padding: 0.75rem 1.25rem;
+    cursor: pointer;
+  }
+
+  #status {
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+  }
+
+  .tool-preview canvas {
+    width: 100%;
+    height: auto;
+    border: 1px solid var(--color-border-default);
+    display: block;
+  }
+</style>
+
+<script>
+  import { OG_WIDTH, OG_HEIGHT, OG_COLOURS, titleSize, MARK_PATHS } from '../../lib/og-design';
+
+  const canvas = document.getElementById('canvas') as HTMLCanvasElement;
+  const ctx = canvas.getContext('2d')!;
+  const $ = <T extends HTMLElement>(id: string) => document.getElementById(id) as T;
+
+  const eyebrow = $<HTMLInputElement>('eyebrow');
+  const title = $<HTMLTextAreaElement>('title');
+  const cta = $<HTMLInputElement>('cta');
+  const titleCount = $<HTMLElement>('titleCount');
+  const status = $<HTMLElement>('status');
+  let accent = OG_COLOURS.ink;
+
+  const DISPLAY = "'EB Garamond Var', Georgia, serif";
+  const MONO = "'JetBrains Mono Var', monospace";
+
+  /** Greedy wrap, the same shape satori uses for the batch cards. */
+  function wrap(text: string, maxWidth: number): string[] {
+    const words = text.split(/\s+/).filter(Boolean);
+    const lines: string[] = [];
+    let line = '';
+    for (const word of words) {
+      const next = line ? `${line} ${word}` : word;
+      if (ctx.measureText(next).width > maxWidth && line) {
+        lines.push(line);
+        line = word;
+      } else {
+        line = next;
+      }
+    }
+    if (line) lines.push(line);
+    return lines;
+  }
+
+  function draw() {
+    const text = title.value.trim() || ' ';
+    titleCount.textContent = `${title.value.length} characters`;
+
+    ctx.fillStyle = OG_COLOURS.paper;
+    ctx.fillRect(0, 0, OG_WIDTH, OG_HEIGHT);
+
+    const pad = 72;
+
+    // Eyebrow
+    ctx.font = `500 22px ${MONO}`;
+    ctx.fillStyle = accent;
+    ctx.textBaseline = 'alphabetic';
+    ctx.letterSpacing = '2.6px';
+    ctx.fillText(eyebrow.value.toUpperCase(), pad, 64 + 22);
+    ctx.letterSpacing = '0px';
+
+    // Headline, fitted then wrapped
+    const size = titleSize(text);
+    ctx.font = `400 ${size}px ${DISPLAY}`;
+    ctx.fillStyle = OG_COLOURS.ink;
+    const lines = wrap(text, OG_WIDTH - pad * 2);
+    const lh = size * 1.08;
+    // Sits in the optical middle, between eyebrow and footer rule.
+    let y = 168 + lh * 0.78;
+    for (const line of lines.slice(0, 5)) {
+      ctx.fillText(line, pad, y);
+      y += lh;
+    }
+
+    // Footer rule
+    const ruleY = OG_HEIGHT - 152;
+    ctx.fillStyle = accent;
+    ctx.fillRect(pad, ruleY, OG_WIDTH - pad * 2, 3);
+
+    // Mark + wordmark
+    const markY = ruleY + 26;
+    ctx.save();
+    ctx.translate(pad, markY);
+    ctx.scale(34 / 24, 34 / 24);
+    ctx.fillStyle = OG_COLOURS.ink;
+    ctx.fill(new Path2D(MARK_PATHS.square));
+    ctx.strokeStyle = OG_COLOURS.ink;
+    ctx.lineWidth = 1.4;
+    ctx.lineCap = 'round';
+    ctx.stroke(new Path2D(MARK_PATHS.beams));
+    ctx.restore();
+
+    ctx.font = `400 30px ${DISPLAY}`;
+    ctx.fillStyle = OG_COLOURS.ink;
+    ctx.fillText('Liberty Lighthouse', pad + 46, markY + 26);
+
+    // Call to action, right aligned
+    const label = (cta.value || 'Read the answer').toUpperCase();
+    ctx.font = `500 19px ${MONO}`;
+    ctx.letterSpacing = '1.6px';
+    const w = ctx.measureText(label).width;
+    const boxW = w + 40;
+    const boxH = 44;
+    const boxX = OG_WIDTH - pad - boxW;
+    ctx.fillStyle = accent;
+    ctx.fillRect(boxX, markY, boxW, boxH);
+    ctx.fillStyle = OG_COLOURS.paper;
+    ctx.fillText(label, boxX + 20, markY + 29);
+    ctx.letterSpacing = '0px';
+  }
+
+  async function ready() {
+    // Both faces must be loaded or the canvas silently falls back.
+    await Promise.all([
+      (document as any).fonts.load(`400 82px ${DISPLAY}`),
+      (document as any).fonts.load(`500 22px ${MONO}`),
+    ]);
+    await (document as any).fonts.ready;
+    draw();
+  }
+
+  for (const el of [eyebrow, title, cta]) el.addEventListener('input', draw);
+
+  document.getElementById('swatches')!.addEventListener('click', (event) => {
+    const button = (event.target as HTMLElement).closest('button');
+    if (!button) return;
+    accent = button.dataset.ink!;
+    document
+      .querySelectorAll('#swatches button')
+      .forEach((b) => b.setAttribute('aria-pressed', String(b === button)));
+    draw();
+  });
+
+  $<HTMLButtonElement>('download').addEventListener('click', () => {
+    canvas.toBlob((blob) => {
+      if (!blob) return;
+      const slug =
+        title.value
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, '-')
+          .replace(/^-|-$/g, '')
+          .slice(0, 60) || 'og-card';
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${slug}.png`;
+      a.click();
+      URL.revokeObjectURL(url);
+      status.textContent = 'Downloaded';
+      setTimeout(() => (status.textContent = ''), 2500);
+    }, 'image/png');
+  });
+
+  ready();
+</script>

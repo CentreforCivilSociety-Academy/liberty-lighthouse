@@ -4,13 +4,16 @@ interface Props {
   description?: string;
   ogImage?: string;
   canonicalUrl?: string;
+  /** Keeps a page out of search results. Staff tools, not reader pages. */
+  noindex?: boolean;
 }
 
 const {
   title,
   description = 'A resource for understanding Indian policy through FAQs, videos and syllabuses.',
-  ogImage = '/og-image.png',
+  ogImage = '/og/page/home.png',
   canonicalUrl,
+  noindex = false,
 } = Astro.props;
 
 const siteTitle = 'Liberty Lighthouse';
@@ -86,6 +89,8 @@ const designSystemCSS = `
 
     <title>{fullTitle}</title>
     <meta name="description" content={description} />
+
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
 
     <!-- Canonical -->
     <link rel="canonical" href={canonical} />

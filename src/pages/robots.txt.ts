@@ -25,6 +25,9 @@ export const GET: APIRoute = async ({ site }) => {
     '',
     'User-agent: *',
     'Allow: /',
+    // Staff utilities and the build manifest they read. Not reader pages.
+    'Disallow: /tools/',
+    'Disallow: /og-manifest.json',
     '',
   ];
 

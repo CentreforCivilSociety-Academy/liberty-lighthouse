@@ -59,7 +59,9 @@ export default defineConfig({
       // Federated external content lives at /external/ for agent ingestion
       // only. Exclude from sitemap to keep it out of search engine indexes
       // (paired with robots.txt Disallow rules in src/pages/robots.txt.ts).
-      filter: (page) => !page.includes('/external/'),
+      // /tools/ holds staff utilities (the OG card maker). Excluded here and
+      // disallowed in robots.txt; the pages also carry a noindex meta tag.
+      filter: (page) => !page.includes('/external/') && !page.includes('/tools/'),
     }),
     aiPageMarkdown(),
   ],

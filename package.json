@@ -21,7 +21,8 @@
     "ingest:summarize": "tsx scripts/ingest/summarize.ts",
     "ingest:wiki": "tsx scripts/ingest/wiki-regen.ts",
     "mcp:start": "tsx mcp/server.ts",
-    "mcp:test": "tsx mcp/test-client.ts"
+    "mcp:test": "tsx mcp/test-client.ts",
+    "og": "astro build && tsx scripts/og/generate.ts"
   },
   "dependencies": {
     "@astrojs/mdx": "^5.0.0",
@@ -49,14 +50,17 @@
     "vfile": "^6.0.3"
   },
   "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/preact": "^3.2.4",
     "@types/turndown": "^5.0.5",
     "dotenv": "^17.2.3",
     "happy-dom": "^20.9.0",
     "rss-parser": "^3.13.0",
+    "satori": "^0.33.3",
     "tsx": "^4.20.0",
     "turndown": "^7.2.1",
-    "vitest": "^4.1.5"
+    "vitest": "^4.1.5",
+    "wawoff2": "^2.0.1"
   }
 }
