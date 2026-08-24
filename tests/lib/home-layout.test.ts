@@ -72,6 +72,42 @@ describe('homepage lane arithmetic', () => {
     }
   });
 
+  it('grows the page with the screen instead of padding it', () => {
+    /*
+     * The measure cap is a count of characters, so scaling the type scales the
+     * column and characters-per-line stays put. Without this the design simply
+     * stopped at 1156 and added margin: a 2560px display got byte-identical
+     * content with 753px of nothing on each side.
+     *
+     * --u must be a length. clamp() cannot mix a unitless number with a
+     * length; written that way the declaration is invalid, the variable never
+     * resolves, and the grid collapses.
+     */
+    const plate = css.slice(css.indexOf('@media (min-width: 1156px)'));
+    expect(plate).toMatch(/--u:\s*clamp\(1rem,\s*calc\(1rem \+ \(100vw - 1156px\) \/ \d+\),\s*1\.4rem\)/);
+    // Type and tracks must both key off it, or the measure drifts.
+    for (const sel of ['.index-question', '.section-title', '.shoulder-question']) {
+      const rule = new RegExp(`\\${sel}\\s*\\{\\s*font-size:\\s*calc\\([\\d.]+ \\* var\\(--u\\)\\)`);
+      expect(rule.test(plate), `${sel} does not scale with --u`).toBe(true);
+    }
+    // A fixed-rem override later in the file silently beat the scaled rule once.
+    expect(plate).not.toMatch(/\.index-question\s*\{\s*font-size:\s*[\d.]+rem/);
+  });
+
+  it('centres the plate once it is terminal, rather than pinning it left', () => {
+    /*
+     * The field is at the measure ceiling, so nothing in the reading apparatus
+     * grows past the plate. Letting all surplus fall right made the right
+     * margin 789px at 1920 and 1,404px at 2560 against a 740px row — wider
+     * than the thing it surrounded, which is a void rather than a margin.
+     */
+    const plate = css.slice(css.indexOf('@media (min-width: 1156px)'));
+    expect(plate).toMatch(/--plate-w:\s*calc\(/);
+    expect(plate).toMatch(/--edge:\s*max\(3rem,\s*calc\(\(100% - var\(--plate-w\)\) \/ 2\)\)/);
+    // A rule bleeding only rightward would lean the page again.
+    expect(plate).not.toMatch(/\.section-rule\s*\{[^}]*grid-column:\s*field \/ end/);
+  });
+
   it('no longer reserves a gutter for the deleted margin rule', () => {
     // The rule encoded question length and was cut; its width went back to
     // the margins rather than into the field, which is already at the measure
@@ -119,8 +155,11 @@ describe('homepage lane arithmetic', () => {
     expect(tokenAt('--field-max', null)).toBeCloseTo(rem(34), 1);
     expect(tokenAt('--edge', 646)).toBeCloseTo(rem(2), 1);
     expect(tokenAt('--field-max', 714)).toBeCloseTo(rem(36), 1);
-    expect(tokenAt('--spine-w', 1156)).toBeCloseTo(rem(18.75), 1);
-    expect(tokenAt('--field-max', 1156)).toBeCloseTo(rem(41.25), 1);
+    // Above the plate these become multiples of --u rather than fixed rem, so
+    // the block grows with the screen while the measure stays fixed.
+    const plate = css.slice(css.indexOf('@media (min-width: 1156px)'));
+    expect(plate).toMatch(/--spine-w:\s*calc\(18\.75 \* var\(--u\)\)/);
+    expect(plate).toMatch(/--field-max:\s*calc\(41\.25 \* var\(--u\)\)/);
   });
 
   it('the census spans a row count supplied by the page, not a guess', () => {

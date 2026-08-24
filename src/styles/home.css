@@ -592,12 +592,78 @@
 
 @media (min-width: 1156px) {
   .home {
-    --edge: clamp(3rem, 4vw, 12.5rem);
     --spine-w: 18.75rem;
     --gutter: 2rem;
     --field-max: 41.25rem;
+
+    /*
+     * The plate is terminal: nothing in the reading apparatus grows past this,
+     * because the field is already at the measure ceiling. So the surplus is
+     * split evenly and the block sits centred rather than pinned left.
+     *
+     * It used to let all surplus fall right as a fore-edge, which the design
+     * defended on one test: a margin narrower than the widest object it
+     * surrounds is a margin, wider is a void. Reclaiming the mark gutter
+     * pushed it past that — at 1920 the right margin reached 789px against a
+     * 740px row, and by 2560 it was 1,404px. The page read as tilted left
+     * because it was.
+     *
+     * Elements inside the plate still share one left edge. That rule was
+     * always about the composition's internals, not about where the block
+     * sits on the glass.
+     */
+    --plate-w: calc(var(--spine-w) + var(--gutter) + var(--field-max));
+    --edge: max(3rem, calc((100% - var(--plate-w)) / 2));
     column-gap: 0;
   }
+
+  /*
+   * Above the plate the page grows with the screen instead of being padded.
+   *
+   * The measure rule is a count of characters, not pixels: the field is capped
+   * at 2.5 alphabets. So if the type scales, the column scales with it and
+   * characters-per-line stays constant — a 2560px display gets a bigger page,
+   * not the same page with 753px of nothing on each side.
+   */
+  .home {
+    /*
+     * The plate's unit. A length, not a ratio: clamp() cannot mix a unitless
+     * number with a length, and written that way the declaration is invalid,
+     * the variable never resolves, and the whole grid collapses.
+     *
+     * Runs 1rem at 1156 up to 1.4rem by about 2400. Every track and every
+     * type size below is a multiple of this one number, which is what keeps
+     * the measure fixed while the block grows.
+     */
+    --u: clamp(1rem, calc(1rem + (100vw - 1156px) / 223), 1.4rem);
+
+    --spine-w: calc(18.75 * var(--u));
+    --gutter: calc(2 * var(--u));
+    --field-max: calc(41.25 * var(--u));
+    --folio-w: calc(2 * var(--u));
+  }
+
+  .index-head .hero-title { font-size: calc(1.75 * var(--u)); }
+  .leader-question { font-size: clamp(calc(4.25 * var(--u)), 5.4vw, calc(6.5 * var(--u))); }
+  .shoulder-question { font-size: calc(1.5 * var(--u)); }
+  .index-question { font-size: calc(1.375 * var(--u)); }
+  .section-title { font-size: calc(2.375 * var(--u)); }
+  .byline { font-size: var(--u); }
+  .section-desc { font-size: calc(0.9375 * var(--u)); }
+  .search input { font-size: calc(1.0625 * var(--u)); }
+
+  .contents-name { font-size: calc(0.75 * var(--u)); }
+  .contents-num,
+  .contents-count,
+  .contents-title,
+  .contents-totals,
+  .ledger,
+  .leader-label,
+  .section-label,
+  .leader-more,
+  .index-folio { font-size: calc(0.6875 * var(--u)); }
+
+  .index-meta { font-size: calc(0.625 * var(--u)); }
 
   .home > * { grid-column: field; }
 
@@ -628,14 +694,11 @@
   }
 
   .leader { padding-block: 3.5rem 2.25rem; }
-  .leader-question { font-size: clamp(4.25rem, 5.4vw, 6.5rem); line-height: 0.98; }
-  .shoulder-question { font-size: 1.5rem; }
-  .index-question { font-size: 1.375rem; }
-  .section-title { font-size: 2.375rem; }
+  .leader-question { line-height: 0.98; }
 
-  /* Ten 2px theme rules run into the fore-edge, one every section. A margin
-     that coloured rules cross is paper; a margin nothing touches is a void. */
-  .section-rule { grid-column: field / end; margin-right: 0; }
+  /* Spans the reading column only. Bleeding it rightward made sense against a
+     fore-edge; against symmetric margins it just leans the page again. */
+  .section-rule { grid-column: field; margin-right: 0; }
 
   .colophon { padding-inline: var(--edge); }
 
