@@ -31,8 +31,8 @@ export type Leader = {
  * they are the first thing anyone sees.
  */
 export const FALLBACK_IDS = [
-  'economic-growth/map-order-1-draft-false-topic-economic-growth-question-can-indians-get-rich-before-getting-old-body-right-now-more-than-half-of-indias-population-is-under-30-https-ourworldindata-org-explorers-population-and-demography-coun',
-  'agriculture/why-are-indian-farmers-called-annadatas-rather-than-entrepre',
+  'economic-growth/can-indians-get-rich-before-getting-old',
+  'agriculture/why-are-indian-farmers-called-annadatas-rather-than-entrepreneurs',
   'education/why-do-government-schools-underperform',
 ] as const;
 

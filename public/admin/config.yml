@@ -7,6 +7,19 @@ backend:
 
 local_backend: true
 
+# How Decap turns a title into a filename, and so into a URL.
+#
+# Decap defaults to encoding: unicode, which keeps accented and non-Latin
+# characters in the filename. Astro then rewrites them when it builds the
+# route, so the file and the published URL disagree: two FAQs carried é and
+# ï into their paths, and 17 share cards were generated at addresses no page
+# asked for. Slugging to ASCII here keeps the filename, the URL and the card
+# path identical.
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
 media_folder: "public/images/content"
 public_folder: "/images/content"
 
