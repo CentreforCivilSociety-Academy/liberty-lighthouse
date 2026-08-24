@@ -8,12 +8,18 @@
  * way back, and a "go to top" control would have been two taps and would have
  * lost your place.
  *
- * This is one tap to any theme, from anywhere in the page. Zero JavaScript:
- * a scroll container of plain anchors. Themes are alphabetical, so where a
- * name sits along the rail is predictable rather than something to hunt for.
+ * This is one tap to any theme, from anywhere in the page — a scroll container
+ * of plain anchors, which work with scripts off. Themes are alphabetical, so
+ * where a name sits along the rail is predictable rather than something to
+ * hunt for.
  *
  * It costs no extra chrome: it takes the pinned slot from the navbar, which
  * un-sticks below the plate. One pinned element either way.
+ *
+ * The rail also follows the reader: the theme being read is marked and scrolled
+ * into view. That is the one job here that cannot be done in CSS — :target only
+ * reflects a tap, not free scrolling — so it is the only script on the page,
+ * it ships only with this component, and it bails out above the plate.
  */
 import type { Corpus } from '../../lib/corpus';
 
@@ -35,3 +41,86 @@ const { corpus } = Astro.props;
     ))}
   </ul>
 </nav>
+
+<script>
+  /*
+   * Keep the rail in step with what is being read.
+   *
+   * Scrolls the rail's own horizontal container rather than calling
+   * scrollIntoView, which would also move the page vertically and fight the
+   * reader. Does nothing above the plate, where the census shows position.
+   *
+   * Section offsets are measured once and compared against scrollY, so a
+   * scroll frame costs eleven numeric comparisons and no layout reads — the
+   * thing that actually matters on a low-end Android.
+   *
+   * An IntersectionObserver was the first attempt and was wrong twice: it
+   * fires on threshold crossings, so it lagged during fast scrolling, and
+   * picking from its entry list marked the section being left rather than the
+   * one being entered wherever two were in the band at once — which is every
+   * short section, Economic Growth's five questions being the clearest case.
+   */
+  const rail = document.querySelector<HTMLElement>('.theme-rail');
+  const strip = rail?.querySelector<HTMLElement>('ul');
+  const sections = [...document.querySelectorAll<HTMLElement>('.section[id]')];
+
+  if (rail && strip && sections.length) {
+    const linkFor = new Map(
+      [...rail.querySelectorAll<HTMLAnchorElement>('a')].map((a) => [
+        a.getAttribute('href')?.slice(1) ?? '',
+        a,
+      ]),
+    );
+
+    const plate = window.matchMedia('(min-width: 1224px)');
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+    let tops: { id: string; top: number }[] = [];
+    let line = 56;
+    let current: HTMLAnchorElement | null = null;
+
+    const measure = () => {
+      const y = window.scrollY;
+      tops = sections.map((s) => ({ id: s.id, top: s.getBoundingClientRect().top + y }));
+      line = rail.getBoundingClientRect().height + 8;
+    };
+
+    const mark = (id: string) => {
+      const next = linkFor.get(id);
+      if (!next || next === current) return;
+      current?.removeAttribute('aria-current');
+      next.setAttribute('aria-current', 'location');
+      current = next;
+
+      // Centre it in the strip; the browser clamps to the scrollable range.
+      const left = next.offsetLeft - (strip.clientWidth - next.offsetWidth) / 2;
+      strip.scrollTo({ left, behavior: reduced.matches ? 'auto' : 'smooth' });
+    };
+
+    const sync = () => {
+      if (plate.matches) return;
+      const edge = window.scrollY + line;
+      let id = '';
+      for (const t of tops) if (t.top <= edge) id = t.id;
+      if (id) mark(id);
+    };
+
+    let ticking = false;
+    const onScroll = () => {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        ticking = false;
+        sync();
+      });
+    };
+
+    measure();
+    sync();
+    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('resize', () => {
+      measure();
+      sync();
+    });
+  }
+</script>

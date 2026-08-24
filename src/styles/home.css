@@ -270,11 +270,12 @@
   border-bottom-color: var(--theme-ink);
 }
 
-/*
- * The section you jumped to marks itself in the rail. :target only reflects a
- * tap, not free scrolling, so this is a confirmation of where you went rather
- * than a live scroll indicator — which would need JavaScript.
- */
+/* The theme being read, marked by the rail's observer. */
+.theme-rail a[aria-current='location'] {
+  color: var(--theme-ink);
+  border-bottom-color: var(--theme-ink);
+}
+
 .section:target { scroll-margin-top: 3.25rem; }
 
 /* ── Contents / census: ONE element, two lives ──────────── */
