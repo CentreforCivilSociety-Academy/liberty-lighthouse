@@ -10,6 +10,7 @@ import preact from '@astrojs/preact';
 import sitemap from '@astrojs/sitemap';
 import rehypeExternalLinks from './src/lib/rehype-external-links.ts';
 import rehypeGlossary from './src/lib/rehype-glossary.ts';
+import rehypeTableScroll from './src/lib/rehype-table-scroll.ts';
 import { aiPageMarkdown } from './src/integrations/ai-page-markdown.ts';
 
 const siteUrl = 'https://liberty-lighthouse.vercel.app';
@@ -52,6 +53,7 @@ export default defineConfig({
       rehypePlugins: [
         [rehypeGlossary, { entries: glossaryEntries }],
         [rehypeExternalLinks, { siteHostname }],
+        rehypeTableScroll,
       ],
     }),
     preact(),
