@@ -412,7 +412,7 @@ collections:
       - label: "Answer"
         name: "body"
         widget: "markdown"
-        hint: "Use Heading 2 for sections (not Heading 1 — the question is already the main heading). See the Content Guide in Site Settings for tips on images, tables, and formatting."
+        hint: "Use Heading 2 for sections (not Heading 1 — the question is already the main heading). Every image needs a description: fill in the description field when you insert one, or put it inside the square brackets in Markdown. Without it the image is invisible to screen readers and to search engines. See the Content Guide in Site Settings."
 
   # ─────────────────────────────────────────────
   # Video Curriculum
