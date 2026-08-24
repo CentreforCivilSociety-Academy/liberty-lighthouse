@@ -341,14 +341,82 @@
     text-align: center;
   }
 
+  /*
+   * Every table is wrapped in one of these — see rehype-table-responsive.
+   * A table cannot shrink below the width its columns need, so without a
+   * scroller a wide one drags the whole page sideways on a phone.
+   */
   .table-responsive {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     margin-bottom: 1.5em;
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
   }
 
   .table-responsive table {
     margin-bottom: 0;
+    /* Shrink to the content, not to the container. Without this the table
+       stretches to 100% and the columns stay cramped even when the scroller
+       has room to give them. */
+    width: auto;
+    min-width: 100%;
+  }
+
+  /*
+   * Break a long URL or identifier rather than letting it run out of its cell.
+   *
+   * Deliberately break-word and not anywhere: `anywhere` also lets ordinary
+   * words break, which collapses the table's minimum width. The eight-column
+   * GST table then squeezed into 380px with 45px columns and headings broken
+   * mid-word — it fitted the screen and could not be read. `break-word` keeps
+   * the table at its natural width, legible, and lets the scroller carry it.
+   */
+  .table-responsive th,
+  .table-responsive td {
+    overflow-wrap: break-word;
+  }
+
+  /* Keyboard users need the focus to be visible, since the scroller is now a
+     focus stop of its own. */
+  .table-responsive:focus-visible {
+    outline: 2px solid var(--color-border-focus, currentColor);
+    outline-offset: 2px;
+  }
+
+  /*
+   * Say that it scrolls. The edge fades while there is more to the right and
+   * clears when you reach the end; base opacity is 0, so a table that already
+   * fits — where the scroll timeline is inactive — shows nothing.
+   */
+  @supports (animation-timeline: scroll()) {
+    .table-responsive {
+      position: relative;
+    }
+
+    .table-responsive::after {
+      content: '';
+      position: sticky;
+      top: 0;
+      right: 0;
+      float: right;
+      width: 2.5rem;
+      height: 100%;
+      margin-left: -2.5rem;
+      opacity: 0;
+      pointer-events: none;
+      background: linear-gradient(to right, transparent, var(--color-bg-page));
+      animation-name: table-more;
+      animation-duration: auto;
+      animation-timing-function: linear;
+      animation-fill-mode: both;
+      animation-timeline: scroll(nearest inline);
+    }
+
+    @keyframes table-more {
+      0%, 85% { opacity: 1; }
+      100% { opacity: 0; }
+    }
   }
 }
 

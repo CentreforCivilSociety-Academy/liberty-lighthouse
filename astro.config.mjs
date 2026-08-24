@@ -10,7 +10,7 @@ import preact from '@astrojs/preact';
 import sitemap from '@astrojs/sitemap';
 import rehypeExternalLinks from './src/lib/rehype-external-links.ts';
 import rehypeGlossary from './src/lib/rehype-glossary.ts';
-import rehypeTableScroll from './src/lib/rehype-table-scroll.ts';
+import rehypeTableResponsive from './src/lib/rehype-table-responsive.ts';
 import { aiPageMarkdown } from './src/integrations/ai-page-markdown.ts';
 
 const siteUrl = 'https://liberty-lighthouse.vercel.app';
@@ -48,14 +48,23 @@ const glossaryEntries = loadGlossaryEntries();
 
 export default defineConfig({
   site: siteUrl,
+  /*
+   * One plugin list, applied to Markdown and inherited by MDX.
+   *
+   * These used to be declared on the mdx() integration alone, so a .md file
+   * got none of them. Declaring them here instead means every render path
+   * behaves the same, and mdx() inherits them through extendMarkdownConfig
+   * rather than being handed a second copy to run.
+   */
+  markdown: {
+    rehypePlugins: [
+      [rehypeGlossary, { entries: glossaryEntries }],
+      [rehypeExternalLinks, { siteHostname }],
+      rehypeTableResponsive,
+    ],
+  },
   integrations: [
-    mdx({
-      rehypePlugins: [
-        [rehypeGlossary, { entries: glossaryEntries }],
-        [rehypeExternalLinks, { siteHostname }],
-        rehypeTableScroll,
-      ],
-    }),
+    mdx(),
     preact(),
     sitemap({
       // Federated external content lives at /external/ for agent ingestion
