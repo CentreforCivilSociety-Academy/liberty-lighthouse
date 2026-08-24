@@ -17,7 +17,6 @@ import Leader from '../components/home/Leader.astro';
 import Contents from '../components/home/Contents.astro';
 import ThemeRail from '../components/home/ThemeRail.astro';
 import ThemeSection from '../components/home/ThemeSection.astro';
-import Colophon from '../components/home/Colophon.astro';
 import { getCorpus } from '../lib/corpus';
 import { resolveLeader } from '../lib/leader';
 import { getCollection } from 'astro:content';
@@ -43,14 +42,13 @@ const description = `An index of ${corpus.totalQuestions} questions about Indian
   <main
     id="main-content"
     class="home"
-    style={`--home-rows:${corpus.themes.length + 5}`}
+    style={`--home-rows:${corpus.themes.length + 4}`}
   >
     <Leader leader={leader} />
     <IndexHead corpus={corpus} />
     <Contents corpus={corpus} />
     <ThemeRail corpus={corpus} />
     {corpus.themes.map((theme) => <ThemeSection theme={theme} />)}
-    <Colophon corpus={corpus} />
   </main>
   <Footer />
 </BaseLayout>

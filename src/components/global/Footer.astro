@@ -1,116 +1,321 @@
 ---
+/**
+ * The footer, treated as part of the site rather than as the place where the
+ * page stops.
+ *
+ * The partner marks get their own full-width band on paper, above the dark
+ * block. They were previously a small chip tucked inside the dark footer,
+ * which read as a compliance checkbox — and they have to be on paper anyway,
+ * since the CCS wordmark measures 1.41:1 against the dark ground.
+ *
+ * The corpus figures move here from the homepage colophon, which was a second
+ * dark band sitting immediately above this one. Every figure is derived, so
+ * this stays true as CCS publishes.
+ */
+import Mark from './Mark.astro';
+import { getCorpus } from '../../lib/corpus';
+
 const currentYear = new Date().getFullYear();
+const corpus = await getCorpus();
+
+const corpusFigures = [
+  `${corpus.totalQuestions} questions`,
+  `${corpus.totalThemes} themes`,
+  corpus.totalVideos > 0 ? `${corpus.totalVideos} videos` : null,
+  corpus.totalSyllabi > 0 ? `${corpus.totalSyllabi} syllabuses` : null,
+].filter(Boolean) as string[];
+
+const navigate = [
+  { href: '/', label: 'Index' },
+  { href: '/glossary/', label: 'Glossary' },
+  { href: '/search/', label: 'Search' },
+  { href: '/about/', label: 'About' },
+];
+
+const elsewhere = [
+  { href: '/ai/', label: 'AI and MCP access', external: false },
+  { href: '/privacy/', label: 'Privacy', external: false },
+  { href: 'https://ccs.in', label: 'ccs.in', external: true },
+];
 ---
 
-<footer class="bg-[var(--color-bg-dark)] text-[var(--color-text-on-dark)]" role="contentinfo">
-  <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
+<!--
+  Publisher and funder, on paper and at a size that reads as an association
+  rather than a footnote. CCS ships as a PNG because that is the only form
+  available; worth replacing when they supply an official vector.
+-->
+<aside class="partners" aria-label="Publisher and network">
+  <div class="partners-inner">
+    <div class="partner">
+      <p class="partner-label">Published by</p>
+      <a href="https://ccs.in" target="_blank" rel="noopener noreferrer">
+        <img
+          src="/images/logos/ccs.png"
+          alt="Centre for Civil Society"
+          width="470"
+          height="212"
+          loading="lazy"
+          decoding="async"
+          class="partner-ccs"
+        />
+      </a>
+    </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-[var(--spacing-2xl)]">
+    <div class="partner">
+      <p class="partner-label">Member of</p>
+      <a href="https://www.atlasnetwork.org" target="_blank" rel="noopener noreferrer">
+        <img
+          src="/images/logos/atlas-network.svg"
+          alt="Atlas Network"
+          width="441"
+          height="148"
+          loading="lazy"
+          decoding="async"
+          class="partner-atlas"
+        />
+      </a>
+    </div>
+  </div>
+</aside>
 
-      <!-- Brand -->
+<footer class="site-footer" role="contentinfo">
+  <div class="site-footer-inner">
+
+    <div class="footer-brand">
+      <p class="footer-wordmark">
+        <Mark size={22} />
+        <span>Liberty Lighthouse</span>
+      </p>
+      <p class="footer-blurb">
+        A resource for understanding Indian policy through FAQs, videos and
+        syllabuses.
+      </p>
+    </div>
+
+    <div class="footer-cols">
       <div>
-        <p class="text-[1.125rem] font-[600] mb-[var(--spacing-sm)]" style="font-family: var(--font-display);">
-          Liberty Lighthouse
-        </p>
-        <p class="text-[0.875rem] text-[var(--color-text-on-dark)] opacity-70 leading-relaxed max-w-[20rem]">
-          A resource for understanding Indian policy through FAQs, videos and syllabuses. A project of the Centre for Civil Society.
-        </p>
-      </div>
-
-      <!-- Navigation -->
-      <div>
-        <p class="text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-[var(--color-text-on-dark)] opacity-50 mb-[var(--spacing-md)]">
-          Navigate
-        </p>
-        <nav aria-label="Footer navigation">
-          <ul class="space-y-[var(--spacing-sm)] list-none p-0">
-            <li><a href="/" class="text-[0.875rem] text-[var(--color-text-on-dark)] opacity-80 hover:opacity-100 no-underline transition-opacity duration-[var(--duration-fast)]">Topics</a></li>
-            <li><a href="/glossary/" class="text-[0.875rem] text-[var(--color-text-on-dark)] opacity-80 hover:opacity-100 no-underline transition-opacity duration-[var(--duration-fast)]">Glossary</a></li>
-            <li><a href="/about/" class="text-[0.875rem] text-[var(--color-text-on-dark)] opacity-80 hover:opacity-100 no-underline transition-opacity duration-[var(--duration-fast)]">About</a></li>
-            <li><a href="/search/" class="text-[0.875rem] text-[var(--color-text-on-dark)] opacity-80 hover:opacity-100 no-underline transition-opacity duration-[var(--duration-fast)]">Search</a></li>
-            <li><a href="/privacy/" class="text-[0.875rem] text-[var(--color-text-on-dark)] opacity-80 hover:opacity-100 no-underline transition-opacity duration-[var(--duration-fast)]">Privacy</a></li>
-          </ul>
-        </nav>
-      </div>
-
-      <!-- CCS -->
-      <div>
-        <p class="text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-[var(--color-text-on-dark)] opacity-50 mb-[var(--spacing-md)]">
-          Centre for Civil Society
-        </p>
-        <ul class="space-y-[var(--spacing-sm)] list-none p-0">
-          <li><a href="https://ccs.in" class="text-[0.875rem] text-[var(--color-text-on-dark)] opacity-80 hover:opacity-100 no-underline transition-opacity duration-[var(--duration-fast)]" target="_blank" rel="noopener noreferrer">ccs.in</a></li>
+        <p class="footer-col-label">The corpus</p>
+        <ul class="footer-figures">
+          {corpusFigures.map((figure) => <li>{figure}</li>)}
         </ul>
       </div>
 
-    </div>
+      <nav aria-label="Footer navigation">
+        <p class="footer-col-label">Navigate</p>
+        <ul>
+          {navigate.map((link) => (
+            <li><a href={link.href}>{link.label}</a></li>
+          ))}
+        </ul>
+      </nav>
 
-    <!--
-      Publisher and funder. The Atlas mark is inline so its wordmark inherits
-      the footer's ink; it carries one green accent of its own. CCS ships as a
-      PNG because that is the only form available — worth replacing with an
-      official vector when CCS supplies one.
-    -->
-    <div class="mt-[var(--spacing-2xl)] pt-[var(--spacing-lg)] border-t border-[var(--color-text-on-dark)]/10">
-      <!--
-        On a light plate, not on the dark footer. The CCS wordmark is #333234,
-        which measures 1.41:1 against the footer background and is effectively
-        invisible; on paper it is 12.35:1. Partner marks have to render as
-        their owners drew them.
-      -->
-      <div class="inline-flex flex-wrap items-center gap-[var(--spacing-xl)] bg-[var(--color-bg-page)] text-[var(--color-text-primary)] px-[var(--spacing-lg)] py-[var(--spacing-md)]">
-        <div>
-          <p class="text-[0.6875rem] uppercase tracking-[0.1em] text-[var(--color-text-secondary)] mb-[var(--spacing-sm)]">
-            A project of
-          </p>
-          <a href="https://ccs.in" target="_blank" rel="noopener noreferrer" class="inline-block opacity-90 hover:opacity-100 transition-opacity duration-[var(--duration-fast)]">
-            <img
-              src="/images/logos/ccs.png"
-              alt="Centre for Civil Society"
-              width="470"
-              height="212"
-              loading="lazy"
-              decoding="async"
-              class="h-[2.25rem] w-auto"
-            />
-          </a>
-        </div>
-
-        <div>
-          <p class="text-[0.6875rem] uppercase tracking-[0.1em] text-[var(--color-text-secondary)] mb-[var(--spacing-sm)]">
-            Member of
-          </p>
-          <a href="https://www.atlasnetwork.org" target="_blank" rel="noopener noreferrer" class="inline-block opacity-90 hover:opacity-100 transition-opacity duration-[var(--duration-fast)]">
-            <img
-              src="/images/logos/atlas-network.svg"
-              alt="Atlas Network"
-              width="441"
-              height="148"
-              loading="lazy"
-              decoding="async"
-              class="h-[1.75rem] w-auto"
-            />
-          </a>
-        </div>
+      <div>
+        <p class="footer-col-label">Elsewhere</p>
+        <ul>
+          {elsewhere.map((link) => (
+            <li>
+              <a
+                href={link.href}
+                target={link.external ? '_blank' : undefined}
+                rel={link.external ? 'noopener noreferrer' : undefined}
+              >{link.label}</a>
+            </li>
+          ))}
+        </ul>
       </div>
     </div>
 
-    <!-- Divider + Copyright -->
-    <div class="mt-[var(--spacing-2xl)] pt-[var(--spacing-lg)] border-t border-[var(--color-text-on-dark)]/10 flex flex-wrap items-center justify-between gap-[var(--spacing-md)]">
-      <p class="text-[0.75rem] text-[var(--color-text-on-dark)] opacity-70">
-        &copy; {currentYear} Centre for Civil Society. All rights reserved. Platform built and managed by <a href="https://thothica.com" class="underline text-[var(--color-accent)] hover:text-[var(--color-accent-soft)] transition-colors duration-[var(--duration-fast)]" target="_blank" rel="noopener noreferrer">Thothica</a>.
+    <div class="footer-credits">
+      <p class="footer-copyright">
+        &copy; {currentYear} Centre for Civil Society. All rights reserved.
       </p>
-      <button
-        type="button"
-        data-cookie-settings
-        class="text-[0.75rem] text-[var(--color-text-on-dark)] opacity-70 hover:opacity-100 underline underline-offset-2 transition-opacity duration-[var(--duration-fast)] bg-transparent border-0 cursor-pointer p-0"
-      >
+      <p class="footer-built">
+        Platform built and managed by
+        <a href="https://thothica.com" target="_blank" rel="noopener noreferrer">Thothica</a>
+      </p>
+      <button type="button" data-cookie-settings class="footer-cookies">
         Cookie settings
       </button>
     </div>
 
   </div>
 </footer>
+
+<style>
+  /* ── Partner band ── */
+
+  .partners {
+    background: var(--color-bg-page);
+    border-top: 1px solid var(--color-border-default);
+  }
+
+  .partners-inner {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: 2.5rem var(--spacing-lg);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    gap: 2rem 4rem;
+  }
+
+  .partner-label {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-text-secondary);
+    margin: 0 0 0.875rem;
+  }
+
+  .partner a {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  /* Sized to the marks' own proportions, not to a shared box. */
+  .partner-ccs { height: 3.5rem; width: auto; display: block; }
+  .partner-atlas { height: 2.5rem; width: auto; display: block; }
+
+  /* ── Footer ── */
+
+  .site-footer {
+    background: var(--color-bg-dark);
+    color: var(--color-text-on-dark);
+  }
+
+  .site-footer-inner {
+    max-width: var(--content-max-width);
+    margin: 0 auto;
+    padding: 3rem var(--spacing-lg);
+  }
+
+  .footer-wordmark {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: var(--font-display);
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: 1.2;
+    letter-spacing: -0.012em;
+    margin: 0 0 0.625rem;
+  }
+
+  .footer-blurb {
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    line-height: 1.55;
+    color: var(--color-text-on-dark);
+    opacity: 0.72;
+    max-width: 26rem;
+    margin: 0;
+  }
+
+  .footer-cols {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid rgb(255 255 255 / 0.12);
+  }
+
+  @media (min-width: 646px) {
+    .footer-cols { grid-template-columns: repeat(3, 1fr); }
+  }
+
+  .footer-col-label {
+    font-family: var(--font-mono);
+    font-size: 0.6875rem;
+    font-weight: 500;
+    line-height: 1.4;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-text-on-dark);
+    opacity: 0.55;
+    margin: 0 0 0.875rem;
+  }
+
+  .footer-cols ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 0.5rem;
+  }
+
+  .footer-cols a {
+    font-family: var(--font-body);
+    font-size: 0.9375rem;
+    line-height: 1.4;
+    color: var(--color-text-on-dark);
+    opacity: 0.85;
+    text-decoration: none;
+  }
+
+  .footer-cols a:hover { opacity: 1; text-decoration: underline; }
+
+  .footer-figures li {
+    font-family: var(--font-mono);
+    font-size: 0.8125rem;
+    line-height: 1.5;
+    font-variant-numeric: tabular-nums;
+    color: var(--color-text-on-dark);
+    opacity: 0.85;
+  }
+
+  .footer-credits {
+    margin-top: 2.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid rgb(255 255 255 / 0.12);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 0.5rem 2rem;
+  }
+
+  .footer-copyright,
+  .footer-built {
+    font-family: var(--font-body);
+    /* Readable, not a footnote. The credit sat at 0.75rem and 70% opacity. */
+    font-size: 0.875rem;
+    line-height: 1.5;
+    margin: 0;
+    color: var(--color-text-on-dark);
+    opacity: 0.72;
+  }
+
+  .footer-built a {
+    color: var(--color-text-on-dark);
+    opacity: 1;
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+    text-decoration-thickness: 1px;
+  }
+
+  .footer-built a:hover { text-decoration-thickness: 2px; }
+
+  .footer-cookies {
+    margin-left: auto;
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: var(--color-text-on-dark);
+    opacity: 0.72;
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 0.18em;
+  }
+
+  .footer-cookies:hover { opacity: 1; }
+</style>
 
 <script>
   import { openCookieConsent } from './CookieConsent';
