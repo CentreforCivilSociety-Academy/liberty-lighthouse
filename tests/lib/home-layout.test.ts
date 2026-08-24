@@ -48,7 +48,36 @@ const BREAKPOINTS = [...css.matchAll(/@media \(min-width: (\d+)px\)/g)]
 
 describe('homepage lane arithmetic', () => {
   it('declares exactly three lane boundaries', () => {
-    expect(BREAKPOINTS).toEqual([646, 774, 1224]);
+    expect(BREAKPOINTS).toEqual([646, 714, 1156]);
+  });
+
+  it('the plate breakpoint agrees across every file that hardcodes it', () => {
+    /*
+     * It lives in four places and CSS cannot put a custom property in a media
+     * query, so nothing but a test keeps them in step. They drifted once
+     * already: the section headings in home.css still named 565/814/1161 after
+     * the queries had moved, which is how a rule silently failed to apply.
+     */
+    const PLATE = 1156;
+    const files: Array<[string, RegExp]> = [
+      ['src/styles/home.css', new RegExp(`@media \\(min-width: ${PLATE}px\\)`)],
+      ['src/components/global/BottomNav.astro', new RegExp(`min-width: ${PLATE}px`)],
+      ['src/components/home/ThemeRail.astro', new RegExp(`min-width: ${PLATE}px`)],
+      ['src/styles/global.css', new RegExp(`max-width: ${PLATE - 1}px`)],
+    ];
+    for (const [file, pattern] of files) {
+      const body = readFileSync(resolve(process.cwd(), file), 'utf8');
+      expect(pattern.test(body), `${file} does not use the plate breakpoint ${PLATE}`).toBe(true);
+      expect(/1224|1223|1161|1160/.test(body), `${file} still references a retired breakpoint`).toBe(false);
+    }
+  });
+
+  it('no longer reserves a gutter for the deleted margin rule', () => {
+    // The rule encoded question length and was cut; its width went back to
+    // the margins rather than into the field, which is already at the measure
+    // ceiling of 2.5 alphabets.
+    expect(rules).not.toMatch(/--mark-w/);
+    expect(rules).toMatch(/\[gutter\]\s*var\(--gutter\)/);
   });
 
   it('the grid has a right edge track, so the field never runs to the viewport edge', () => {
@@ -60,8 +89,8 @@ describe('homepage lane arithmetic', () => {
     const lanes = [
       { at: null as number | null, edge: 1.25, spine: 0, mark: 0, field: 34 },
       { at: 646, edge: 2, spine: 0, mark: 0, field: 34 },
-      { at: 774, edge: 3, spine: 0, mark: 3.5, field: 36 },
-      { at: 1224, edge: 3, spine: 18.75, mark: 6, field: 41.25 },
+      { at: 714, edge: 3, spine: 0, mark: 0, field: 36 },
+      { at: 1156, edge: 3, spine: 18.75, mark: 2, field: 41.25 },
     ];
 
     for (const lane of lanes) {
@@ -89,9 +118,9 @@ describe('homepage lane arithmetic', () => {
   it('token values in the stylesheet still match the solved arithmetic', () => {
     expect(tokenAt('--field-max', null)).toBeCloseTo(rem(34), 1);
     expect(tokenAt('--edge', 646)).toBeCloseTo(rem(2), 1);
-    expect(tokenAt('--field-max', 774)).toBeCloseTo(rem(36), 1);
-    expect(tokenAt('--spine-w', 1224)).toBeCloseTo(rem(18.75), 1);
-    expect(tokenAt('--field-max', 1224)).toBeCloseTo(rem(41.25), 1);
+    expect(tokenAt('--field-max', 714)).toBeCloseTo(rem(36), 1);
+    expect(tokenAt('--spine-w', 1156)).toBeCloseTo(rem(18.75), 1);
+    expect(tokenAt('--field-max', 1156)).toBeCloseTo(rem(41.25), 1);
   });
 
   it('the census spans a row count supplied by the page, not a guess', () => {

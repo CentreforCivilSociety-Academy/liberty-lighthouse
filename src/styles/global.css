@@ -101,7 +101,7 @@
    * Clear the fixed bottom navigation so the last of the page — the colophon,
    * the footer, the final index row — is not sitting underneath it.
    */
-  @media (max-width: 1223px) {
+  @media (max-width: 1155px) {
     body {
       padding-bottom: calc(4rem + env(safe-area-inset-bottom, 0px));
     }

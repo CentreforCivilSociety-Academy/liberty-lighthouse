@@ -12,18 +12,25 @@
  * the reading column.
  *
  *   sheet       < 646     one column, minimum margins
- *   wide sheet  646-773   the margin grows
- *   page        774-1223  the mark gutter opens at its floor
- *   plate      >= 1224    the contents nav relocates into a pinned census
+ *   wide sheet  646-713   the margin grows
+ *   page        714-1155  the measure widens
+ *   plate      >= 1156    the contents nav relocates into a pinned census
  *
  * Each boundary is solved, not chosen: it is the smallest width at which the
  * surplus right margin alone pays for the new track, so the reading column is
  * never made narrower by a viewport getting wider. Round numbers failed this —
  * at a 565px breakpoint the field went from 522px to 497px.
  *
- *   wide sheet  edge 34*2 + field 578                      = 646
- *   page        edge 51*2 + mark 59.5 + field 612          = 774
- *   plate       edge 51*2 + spine 319 + mark 102 + field 701 = 1224
+ *   wide sheet  edge 34*2 + field 578                        = 646
+ *   page        edge 51*2 + field 612                        = 714
+ *   plate       edge 51*2 + spine 319 + gutter 34 + field 701 = 1156
+ *
+ * A 3.5rem/6rem gutter used to sit between the spine and the field to hold a
+ * per-question margin rule. The rule was cut — it encoded question length,
+ * which nobody reads anything off — so the width went back to the margins.
+ * The field does not absorb it: --field-max is the measure ceiling at 2.5
+ * alphabets, and widening it would push the line past a readable length.
+ * The plate now engages 68px earlier, so more screens get the census.
  *
  * These are px because the root font-size is CMS-driven (106.25% = 17px) while
  * media-query em is always 16px. Narrowing that CMS field is a prerequisite for
@@ -37,8 +44,9 @@
   --edge: 1.25rem;
   --field-max: 34rem;
   --folio-w: 1.75rem;
-  --mark-w: 0;
   --spine-w: 0;
+  /* Separates the pinned census from the reading column, at the plate only. */
+  --gutter: 0;
   --row-gap: 0.75rem;
 
   --ink: var(--color-text-primary);
@@ -55,7 +63,7 @@
   grid-template-columns:
     [edge] var(--edge)
     [spine] var(--spine-w)
-    [mark] var(--mark-w)
+    [gutter] var(--gutter)
     [field] minmax(0, var(--field-max))
     [rag] minmax(0, 1fr)
     [redge] var(--edge) [end];
@@ -559,12 +567,11 @@
   .leader { padding-block: 3rem 2rem; }
 }
 
-/* ══ PAGE — 774px up: the mark gutter opens at its floor ══ */
+/* ══ PAGE — 714px up: the measure widens ══════════════════ */
 
-@media (min-width: 774px) {
+@media (min-width: 714px) {
   .home {
     --edge: 3rem;
-    --mark-w: 3.5rem;
     --field-max: 36rem;
   }
   .section-rule { margin-right: calc(-1 * var(--edge)); }
@@ -577,17 +584,17 @@
  * can take the top; two stacked bars would cost 104px of a 618px Android
  * viewport — 17% of the screen given to chrome, on a document this long.
  */
-@media (max-width: 1223px) {
+@media (max-width: 1155px) {
   body:has(.theme-rail) > header { position: static; }
 }
 
-/* ══ PLATE — 1224px up: contents relocates into a pinned census ══ */
+/* ══ PLATE — 1156px up: contents relocates into a pinned census ══ */
 
-@media (min-width: 1224px) {
+@media (min-width: 1156px) {
   .home {
     --edge: clamp(3rem, 4vw, 12.5rem);
     --spine-w: 18.75rem;
-    --mark-w: 6rem;
+    --gutter: 2rem;
     --field-max: 41.25rem;
     column-gap: 0;
   }
@@ -638,7 +645,7 @@
 
 /* Short viewports: a 1366x768 laptop with a taskbar is ~1092x494. The census
    must not become taller than the screen it is pinned to. */
-@media (min-width: 1224px) and (max-height: 760px) {
+@media (min-width: 1156px) and (max-height: 760px) {
   .contents-nav { font-size: 0.9375em; }
   .contents-link { padding: 0.3125rem 0; }
   .leader { padding-block: 2rem 1.5rem; }
