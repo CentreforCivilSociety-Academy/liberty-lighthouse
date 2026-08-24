@@ -6,6 +6,7 @@ import rehypeRaw from 'rehype-raw';
 import rehypeStringify from 'rehype-stringify';
 import rehypeGlossary from './rehype-glossary.js';
 import rehypeTableResponsive from './rehype-table-responsive.js';
+import rehypeImageResponsive from './rehype-image-responsive.js';
 import { getAllGlossary, getSlugFromId } from './collections.js';
 
 let cachedEntries: { slug: string; term: string; aliases: string[] }[] | null = null;
@@ -47,6 +48,7 @@ export async function renderMarkdownWithGlossary(md: string): Promise<string> {
     .use(rehypeRaw)
     .use(rehypeGlossary, { entries, resolveCurrentSlug: () => null })
     .use(rehypeTableResponsive)
+    .use(rehypeImageResponsive)
     .use(rehypeStringify, { allowDangerousHtml: true })
     .process(md);
   return String(file);

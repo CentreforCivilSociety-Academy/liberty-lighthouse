@@ -11,6 +11,7 @@ import sitemap from '@astrojs/sitemap';
 import rehypeExternalLinks from './src/lib/rehype-external-links.ts';
 import rehypeGlossary from './src/lib/rehype-glossary.ts';
 import rehypeTableResponsive from './src/lib/rehype-table-responsive.ts';
+import rehypeImageResponsive from './src/lib/rehype-image-responsive.ts';
 import { aiPageMarkdown } from './src/integrations/ai-page-markdown.ts';
 
 const siteUrl = 'https://liberty-lighthouse.vercel.app';
@@ -61,6 +62,7 @@ export default defineConfig({
       [rehypeGlossary, { entries: glossaryEntries }],
       [rehypeExternalLinks, { siteHostname }],
       rehypeTableResponsive,
+      rehypeImageResponsive,
     ],
   },
   integrations: [

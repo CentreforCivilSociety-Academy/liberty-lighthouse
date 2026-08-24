@@ -276,9 +276,23 @@
     font-size: inherit;
   }
 
-  .prose img {
+  /*
+   * Every image, not only the ones inside .prose.
+   *
+   * Scoped to .prose this held only where a layout remembered to use that
+   * class, which is a promise about markup rather than about images. An
+   * image is never allowed to be wider than the space it is in.
+   *
+   * height: auto keeps the ratio against the width and height attributes
+   * that rehype-image-responsive stamps on — those reserve the right room
+   * before the file arrives, so the text below does not jump.
+   */
+  img {
     max-width: 100%;
     height: auto;
+  }
+
+  .prose img {
     border-radius: var(--radius-md);
   }
 

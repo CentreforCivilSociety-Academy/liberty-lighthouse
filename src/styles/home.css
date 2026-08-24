@@ -406,6 +406,28 @@
   margin: 0;
 }
 
+/*
+ * The ledger reads as a label, so its entries have to say they are doors
+ * without shouting: the rule under each one does that at this size, where an
+ * underline would close up the letterspacing into a smudge.
+ */
+.ledger-link {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  /* The line is 11px, so the hit area has to come from somewhere. Vertical
+     padding on an inline element grows what a thumb can hit without moving
+     anything around it. */
+  padding: 0.5rem 0.1rem 0.1rem;
+  margin: 0 -0.1rem;
+}
+
+.ledger-link:hover,
+.ledger-link:focus-visible {
+  color: var(--theme-ink);
+  border-bottom-color: var(--theme-ink);
+}
+
 .section-desc {
   font-family: var(--font-body);
   font-size: 0.9375rem;
@@ -490,47 +512,60 @@
  * it sits where a reader actually finishes — at the end of the list.
  */
 
+/*
+ * The foot of a section: one door per destination.
+ *
+ * This was a single link to the theme page carrying a label that listed the
+ * videos and the syllabus. Naming them without pointing at them meant three
+ * clicks to reach a video the page had already told you existed.
+ */
 .section-foot {
   display: flex;
   flex-wrap: wrap;
-  align-items: baseline;
-  gap: 0.5rem 0.875rem;
+  align-items: stretch;
+  gap: 0.5rem;
   margin-top: 1.25rem;
-  padding: 0.875rem 1rem;
+}
+
+.section-go {
+  display: flex;
+  align-items: center;
+  /* 44px on the shortest side: a target a thumb can hit. */
+  min-height: 2.75rem;
+  padding: 0.625rem 1rem;
   text-decoration: none;
   border: 1px solid var(--theme-ink);
   color: var(--theme-ink);
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
 }
 
-.section-foot:hover {
+.section-go:hover,
+.section-go:focus-visible {
   background: var(--theme-ink);
   color: var(--color-bg-page);
 }
 
-.section-foot-go {
+/* The theme page is still the main way in, so it keeps the larger voice. */
+.section-go-lead {
+  flex: 1 1 14rem;
   font-family: var(--font-display);
   font-size: 1.125rem;
   font-weight: 600;
   line-height: 1.3;
+  letter-spacing: normal;
+  text-transform: none;
 }
 
-.section-foot-go::after {
+.section-go-lead::after {
   content: ' \2192';
 }
 
-.section-foot-has {
-  font-family: var(--font-mono);
-  font-size: 0.6875rem;
-  line-height: 1.6;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  font-variant-numeric: tabular-nums;
-  opacity: 0.8;
-  margin-left: auto;
-}
-
 @media (prefers-reduced-motion: no-preference) {
-  .section-foot { transition: background 90ms ease-out, color 90ms ease-out; }
+  .section-go { transition: background 90ms ease-out, color 90ms ease-out; }
 }
 
 /* ── Colophon ───────────────────────────────────────────── */

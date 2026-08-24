@@ -40,11 +40,11 @@ const elsewhere = [
 ---
 
 <!--
-  Publisher and funder, on paper and at a size that reads as an association
-  rather than a footnote. CCS ships as a PNG because that is the only form
-  available; worth replacing when they supply an official vector.
+  The publisher, on paper and at a size that reads as an association rather
+  than a footnote. CCS ships as a PNG because that is the only form available;
+  worth replacing when they supply an official vector.
 -->
-<aside class="partners" aria-label="Publisher and network">
+<aside class="partners" aria-label="Publisher">
   <div class="partners-inner">
     <div class="partner">
       <p class="partner-label">Published by</p>
@@ -57,21 +57,6 @@ const elsewhere = [
           loading="lazy"
           decoding="async"
           class="partner-ccs"
-        />
-      </a>
-    </div>
-
-    <div class="partner">
-      <p class="partner-label">Member of</p>
-      <a href="https://www.atlasnetwork.org" target="_blank" rel="noopener noreferrer">
-        <img
-          src="/images/logos/atlas-network.svg"
-          alt="Atlas Network"
-          width="441"
-          height="148"
-          loading="lazy"
-          decoding="async"
-          class="partner-atlas"
         />
       </a>
     </div>
@@ -175,9 +160,8 @@ const elsewhere = [
     text-decoration: none;
   }
 
-  /* Sized to the marks' own proportions, not to a shared box. */
+  /* Sized to the mark's own proportions, not to a shared box. */
   .partner-ccs { height: 3.5rem; width: auto; display: block; }
-  .partner-atlas { height: 2.5rem; width: auto; display: block; }
 
   /* ── Footer ── */
 

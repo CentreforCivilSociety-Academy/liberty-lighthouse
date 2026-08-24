@@ -17,14 +17,29 @@ const { theme } = Astro.props;
 /*
  * The ledger names only what exists. Because it is a list rather than a fixed
  * set of slots, a theme with no videos simply does not mention videos — it
- * does not render an empty third door. Seven of ten themes have no video, and
- * under the old three-badge frame every one of them read as broken.
+ * does not render an empty third door. Seven of eleven themes have no video,
+ * and under the old three-badge frame every one of them read as broken.
+ *
+ * Each entry is a door now. It read as a label before, so the videos and the
+ * syllabus were three clicks away through the theme page even though the page
+ * had already told you they were there.
  */
 const ledger = [
-  `${theme.questions} ${theme.questions === 1 ? 'question' : 'questions'}`,
-  theme.videos > 0 ? `${theme.videos} ${theme.videos === 1 ? 'video' : 'videos'}` : null,
-  theme.hasSyllabus ? 'syllabus' : null,
-].filter(Boolean) as string[];
+  {
+    label: `${theme.questions} ${theme.questions === 1 ? 'question' : 'questions'}`,
+    href: `/topics/${theme.slug}/faq/`,
+  },
+  theme.videos > 0
+    ? {
+        label: `${theme.videos} ${theme.videos === 1 ? 'video' : 'videos'}`,
+        href: `/topics/${theme.slug}/videos/`,
+      }
+    : null,
+  theme.hasSyllabus ? { label: 'syllabus', href: `/topics/${theme.slug}/syllabus/` } : null,
+].filter(Boolean) as Array<{ label: string; href: string }>;
+
+/** The same doors at the foot of the section, sized to be pressed. */
+const doors = ledger.slice(1);
 ---
 
 <section
@@ -39,7 +54,16 @@ const ledger = [
       {theme.section} &middot; <a href={theme.href} style={`color:${theme.ink}`}>All {theme.title}</a>
     </p>
     <h2 class="section-title" id={`${theme.anchor}-title`}>{theme.title}</h2>
-    <p class="ledger">{ledger.join(' · ')}</p>
+    <p class="ledger">
+      {ledger.map((item, i) => (
+        <>
+          {i > 0 && <span aria-hidden="true"> · </span>}
+          <a class="ledger-link" href={item.href} aria-label={`${item.label} in ${theme.title}`}>
+            {item.label}
+          </a>
+        </>
+      ))}
+    </p>
     <p class="section-desc">{theme.description}</p>
   </div>
 
@@ -79,12 +103,21 @@ const ledger = [
   </ol>
 
   <!--
-    Every section ends by pointing at its own theme page. The homepage carries
-    only the questions; the videos and the syllabus live there, and a small
-    label above 18 rows was not going to carry that.
+    Every section ends with its own doors. This was one link to the theme page,
+    which meant reaching a video took three clicks from a homepage that had
+    already named it. The videos and the syllabus are destinations in their own
+    right, so they get their own targets rather than a shared one.
+
+    A plain div, not a nav: eleven sections would put eleven more landmarks in
+    a screen reader's list. The labels carry the theme instead, so "6 videos"
+    still says which theme it belongs to when read out of context.
   -->
-  <a class="section-foot" href={theme.href}>
-    <span class="section-foot-go">All {theme.title}</span>
-    <span class="section-foot-has">{ledger.join(' · ')}</span>
-  </a>
+  <div class="section-foot">
+    <a class="section-go section-go-lead" href={theme.href}>All {theme.title}</a>
+    {doors.map((door) => (
+      <a class="section-go" href={door.href} aria-label={`${door.label} in ${theme.title}`}>
+        {door.label}
+      </a>
+    ))}
+  </div>
 </section>
