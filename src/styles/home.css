@@ -689,8 +689,66 @@
     margin: 0;
     padding-right: 2rem;
     border-right: 1px solid var(--rule);
-    max-height: calc(100vh - var(--nav-height) - 3rem);
-    overflow: hidden;
+    /*
+     * Pinned for the whole visit, so it has to fit the screen it is pinned to.
+     * This used to clip: on a short laptop the last themes and the totals were
+     * cut off the bottom with no way to reach them. It scrolls itself instead,
+     * and only when it has to — on a tall screen there is no scrollbar and
+     * nothing moves. overscroll-behavior keeps a flick inside the census from
+     * carrying on into the page behind it.
+     */
+    max-height: calc(100dvh - var(--nav-height) - 3rem);
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-width: thin;
+    scrollbar-color: var(--rule) transparent;
+  }
+
+  /* WebKit ignores scrollbar-width/color. Same thin rule, drawn by hand. */
+  .contents-nav::-webkit-scrollbar { width: 6px; }
+  .contents-nav::-webkit-scrollbar-track { background: transparent; }
+  .contents-nav::-webkit-scrollbar-thumb {
+    background: var(--rule);
+    border-radius: 3px;
+  }
+  .contents-nav:hover::-webkit-scrollbar-thumb { background: var(--color-text-muted); }
+
+  /*
+   * A cue that there is more below, for the scrollbars that are not there.
+   * macOS draws overlay scrollbars that appear only while you scroll, so a
+   * short screen gives no sign the list continues — which is how a theme and
+   * the totals could sit just past the edge unnoticed.
+   *
+   * The fade is driven by the census's own scroll position, so it shows while
+   * there is something left to reach and clears as you arrive. Base opacity is
+   * 0 deliberately: when the census fits, the timeline is inactive, the
+   * animation never applies, and the fade stays invisible rather than dimming
+   * a list that is already whole.
+   */
+  @supports (animation-timeline: scroll()) {
+    .contents-nav::after {
+      content: '';
+      display: block;
+      position: sticky;
+      bottom: 0;
+      height: 2.25rem;
+      margin-top: -2.25rem;
+      opacity: 0;
+      pointer-events: none;
+      background: linear-gradient(transparent, var(--color-bg-page));
+      /* Longhands, not the shorthand: `animation: … ` resets duration to 0s,
+         which collapses a scroll-driven animation onto its last frame. */
+      animation-name: census-more;
+      animation-duration: auto;
+      animation-timing-function: linear;
+      animation-fill-mode: both;
+      animation-timeline: scroll(nearest block);
+    }
+
+    @keyframes census-more {
+      0%, 85% { opacity: 1; }
+      100% { opacity: 0; }
+    }
   }
 
   .leader { padding-block: 3.5rem 2.25rem; }
