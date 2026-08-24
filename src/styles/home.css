@@ -352,6 +352,24 @@
 .contents-row[data-current='true'] .contents-name { color: var(--theme-ink); }
 .contents-row[data-current='true'] .contents-bar { opacity: 1; }
 
+/* Only where the rules are actually drawn — the gutter opens at 774px. */
+.contents-legend { display: none; }
+
+@media (min-width: 774px) {
+  .contents-legend {
+    display: block;
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    line-height: 1.5;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin: 0.875rem 0 0;
+    padding-top: 0.75rem;
+    border-top: 1px solid var(--rule);
+  }
+}
+
 .contents-totals {
   font-family: var(--font-mono);
   font-size: 0.6875rem;
@@ -463,6 +481,44 @@
 
 .index-parts a { color: var(--muted); text-decoration: none; }
 .index-parts a:hover { color: var(--theme-ink); text-decoration: underline; }
+
+/* ── The margin rule ────────────────────────────────────── */
+/*
+ * One hairline per question, drawn in the gutter the grid already reserves.
+ * All of them end on the same vertical line and run leftward by their own
+ * question's length, so the column reads as a ragged left edge that is a
+ * picture of the corpus.
+ *
+ * It carries one fact and can be checked by pointing at it. Most generative
+ * marks cannot: a hash goes in, a pattern comes out, and nobody can be told
+ * what it means.
+ *
+ * Absolutely positioned rather than given a grid track, so the section keeps
+ * its single left edge and the rule hangs outside it. Hidden wherever the
+ * gutter is zero — below 774px there is no room, and under about 56px the row
+ * pitch drops far enough that the whole column greys into a smudge.
+ */
+
+.index-mark { display: none; }
+
+@media (min-width: 774px) {
+  .index-row { position: relative; }
+
+  .index-mark {
+    display: block;
+    position: absolute;
+    /* Right-flush to a constant line, one gap clear of the reading column. */
+    right: calc(100% + 1.25rem);
+    /* Sits on the question's first baseline. */
+    top: 1.05em;
+    height: 1px;
+    width: calc(var(--len) * (var(--mark-w) - 1.25rem));
+    background: var(--theme-ink);
+    opacity: 0.55;
+  }
+
+  .index-link:hover .index-mark { opacity: 1; }
+}
 
 /* ── Section foot ───────────────────────────────────────── */
 /*
