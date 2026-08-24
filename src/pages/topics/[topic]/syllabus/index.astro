@@ -41,7 +41,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 
     {syllabusHtml ? (
       <article class="prose mx-auto" data-content-body>
-        <h1>{topicData.title} — Syllabus</h1>
+        <h2>Syllabus</h2>
         <Fragment set:html={syllabusHtml} />
       </article>
       <div class="max-w-[var(--prose-max-width)] mx-auto mt-[var(--spacing-xl)] flex flex-wrap items-center gap-2 border-t border-[var(--color-border-default)] pt-[var(--spacing-lg)]">

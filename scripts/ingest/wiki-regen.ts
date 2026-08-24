@@ -138,6 +138,7 @@ Hard rules:
 - Do NOT propose entity pages for trivial mentions. Each entity should be substantive enough that an agent looking for it would expect a dedicated page.
 - Aim for 0–4 entities per source. A source can legitimately produce zero.
 - Body must be self-contained: an agent reading just the body should understand what the entity is.
+- Body must NOT open with a heading repeating the name. The page renders the name as its h1; a heading in the body gives the page two.
 - Slugs are kebab-case English, ASCII-only.
 - Do not invent facts. If a source mentions an entity in passing without enough detail to write 200 words, skip it.
 
