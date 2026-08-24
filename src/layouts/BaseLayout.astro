@@ -8,7 +8,7 @@ interface Props {
 
 const {
   title,
-  description = 'A resource for understanding Indian policy through FAQs, videos and reading paths.',
+  description = 'A resource for understanding Indian policy through FAQs, videos and syllabuses.',
   ogImage = '/og-image.png',
   canonicalUrl,
 } = Astro.props;
@@ -28,6 +28,7 @@ const markdownSiblingUrl = new URL(markdownSiblingFor(Astro.url.pathname), Astro
 import '@/styles/global.css';
 import { getTypographySettings, getColorSettings } from '@/lib/design-settings';
 import Analytics from '@/components/global/Analytics.astro';
+import BottomNav from '@/components/global/BottomNav.astro';
 
 const typo = await getTypographySettings();
 const colors = await getColorSettings();
@@ -195,6 +196,7 @@ const designSystemCSS = `
   <body>
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <slot />
+    <BottomNav />
     <script>
       import { initCookieConsent } from '../components/global/CookieConsent';
       if (typeof window !== 'undefined') {

@@ -32,7 +32,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 ]);
 ---
 
-<PageLayout title={`Syllabus — ${topicData.title}`} description={`Guided learning path for ${topicData.title.toLowerCase()} policy in India.`}>
+<PageLayout title={`Syllabus — ${topicData.title}`} description={`Syllabus for ${topicData.title.toLowerCase()} policy in India.`}>
   <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
     <TopicHeader title={topicData.title} description={topicData.description} slug={topicSlug!} />
     <ResourceTabs topicSlug={topicSlug!} faqCount={counts.faqCount} videoCount={counts.videoCount} hasSyllabus={counts.hasSyllabus} activeTab="syllabus" />
@@ -41,18 +41,18 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 
     {syllabusHtml ? (
       <article class="prose mx-auto" data-content-body>
-        <h1>{topicData.title} — Guided Syllabus</h1>
+        <h1>{topicData.title} — Syllabus</h1>
         <Fragment set:html={syllabusHtml} />
       </article>
       <div class="max-w-[var(--prose-max-width)] mx-auto mt-[var(--spacing-xl)] flex flex-wrap items-center gap-2 border-t border-[var(--color-border-default)] pt-[var(--spacing-lg)]">
         <CopyAsMarkdown />
-        <ChatAboutThis title={`${topicData.title} Guided Syllabus`} contentType="syllabus" excerpt={`Guided learning path for ${topicData.title.toLowerCase()} policy in India.`} />
+        <ChatAboutThis title={`${topicData.title} Syllabus`} contentType="syllabus" excerpt={`Syllabus for ${topicData.title.toLowerCase()} policy in India.`} />
       </div>
       <div class="max-w-[var(--prose-max-width)] mx-auto">
         <DefinedOnThisPage body={topicData.guidedSyllabus} />
       </div>
     ) : (
-      <p class="text-[var(--color-text-tertiary)] text-center py-[var(--spacing-2xl)]">No guided syllabus available yet.</p>
+      <p class="text-[var(--color-text-tertiary)] text-center py-[var(--spacing-2xl)]">No syllabus available yet.</p>
     )}
   </div>
 </PageLayout>

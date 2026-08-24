@@ -13,7 +13,7 @@ export const GET: APIRoute = async () => {
   const lines: string[] = [
     '# Liberty Lighthouse',
     '',
-    "A resource for understanding Indian policy, published by the Centre for Civil Society. The site is organised by topic, with FAQs, video curricula, glossary terms, and reading paths.",
+    "A resource for understanding Indian policy, published by the Centre for Civil Society. The site is organised by topic, with FAQs, video curricula, glossary terms, and syllabuses.",
     '',
     '## Where to look',
     '',

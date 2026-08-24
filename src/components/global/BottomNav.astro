@@ -1,0 +1,126 @@
+---
+/**
+ * App-style bottom navigation, below the plate breakpoint.
+ *
+ * This replaces the hamburger outright. The hamburger sat in a header that had
+ * to un-stick so the theme rail could take the top, which meant Glossary,
+ * About and Search scrolled away with it and could only be reached by
+ * returning to the top of a ~19,000px document.
+ *
+ * A bottom bar fixes that and one more thing the header never did: it puts
+ * navigation in the thumb's reach. The top of a 740px phone is the hardest
+ * part of the screen to touch one-handed; the bottom is the easiest.
+ *
+ * It also removes JavaScript rather than adding it — the hamburger needed a
+ * toggle listener and a panel, and these are four plain anchors.
+ *
+ * Above the plate this is hidden: the header is pinned there and there is room
+ * for the links in it.
+ */
+const path = Astro.url.pathname;
+const on = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+
+const items = [
+  { href: '/', label: 'Index' },
+  { href: '/glossary/', label: 'Glossary' },
+  { href: '/search/', label: 'Search' },
+  { href: '/about/', label: 'About' },
+];
+---
+
+<nav class="bottom-nav" aria-label="Main">
+  <ul>
+    {items.map((item) => (
+      <li>
+        <a href={item.href} aria-current={on(item.href) ? 'page' : undefined}>
+          <span class="bottom-nav-icon" aria-hidden="true">
+            {item.href === '/' && (
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+                <path d="M4 6h16M4 12h16M4 18h10" />
+              </svg>
+            )}
+            {item.href === '/glossary/' && (
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round">
+                <path d="M5 4h9a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z" />
+                <path d="M17 7h2v13H8" />
+              </svg>
+            )}
+            {item.href === '/search/' && (
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+                <circle cx="11" cy="11" r="6" />
+                <path d="M15.5 15.5 20 20" />
+              </svg>
+            )}
+            {item.href === '/about/' && (
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+                <circle cx="12" cy="12" r="8.5" />
+                <path d="M12 11v5M12 8h.01" />
+              </svg>
+            )}
+          </span>
+          <span class="bottom-nav-label">{item.label}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>
+
+<style>
+  .bottom-nav {
+    position: fixed;
+    inset: auto 0 0 0;
+    z-index: 60;
+    background: var(--color-bg-page);
+    border-top: 1px solid var(--color-border-default);
+    /* Clears the iOS home indicator without stealing height where there is none. */
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .bottom-nav ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .bottom-nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1875rem;
+    /* 48px of target before padding — comfortably above the 44px minimum. */
+    padding: 0.5rem 0.25rem 0.5625rem;
+    text-decoration: none;
+    color: var(--color-text-secondary);
+  }
+
+  .bottom-nav-icon {
+    display: block;
+    width: 1.375rem;
+    height: 1.375rem;
+  }
+
+  .bottom-nav-icon :global(svg) {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .bottom-nav-label {
+    font-family: var(--font-mono);
+    font-size: 0.625rem;
+    line-height: 1.3;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  .bottom-nav a[aria-current='page'] {
+    color: var(--color-text-primary);
+  }
+
+  /* Above the plate the header is pinned and carries the links itself. */
+  @media (min-width: 1224px) {
+    .bottom-nav { display: none; }
+  }
+</style>

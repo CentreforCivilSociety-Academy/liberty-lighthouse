@@ -18,7 +18,7 @@ This page orients an autonomous agent (LLM, MCP client, custom GPT, web crawler)
 
 ## What this corpus is
 
-Liberty Lighthouse is a public-education site published by the [Centre for Civil Society](https://ccs.in). It explains India's policy landscape from a classical-liberal perspective — free markets, individual liberty, rule of law, limited government. Content is organised by topic (education, agriculture, etc.) and presented in three formats: FAQs, video curricula, and guided syllabi. A glossary defines key terms used across the corpus.
+Liberty Lighthouse is a public-education site published by the [Centre for Civil Society](https://ccs.in). It explains India's policy landscape from a classical-liberal perspective — free markets, individual liberty, rule of law, limited government. Content is organised by topic (education, agriculture, etc.) and presented in three formats: FAQs, video curricula, and syllabuses. A glossary defines key terms used across the corpus.
 
 ## Where to start
 

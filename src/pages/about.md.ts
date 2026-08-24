@@ -21,7 +21,7 @@ Liberty Lighthouse organises knowledge across policy topics through three comple
 
 - **Frequently Asked Questions** — concise, expert-written answers to common policy questions, each grounded in research and evidence.
 - **Video Curricula** — video resources to simplify Indian policies.
-- **Guided Learning** — for those who want to go further, recommended books and readings.
+- **Syllabus** — for those who want to go further, recommended books and readings.
 
 ## AI and MCP access
 

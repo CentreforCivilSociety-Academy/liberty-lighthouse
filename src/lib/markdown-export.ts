@@ -258,7 +258,7 @@ export function buildTopicMarkdown(topic: CollectionEntry<'topics'>, ctx: Export
     lines.push(`- [Videos (${topicVideos.length})](${abs(`/topics/${topic.data.slug}/videos.md`)}) — Video curriculum.`);
   }
   if (hasSyllabus) {
-    lines.push(`- [Guided Syllabus](${abs(`/topics/${topic.data.slug}/syllabus.md`)}) — Reading list of books, papers, and articles.`);
+    lines.push(`- [Syllabus](${abs(`/topics/${topic.data.slug}/syllabus.md`)}) — Syllabus of books, papers, and articles.`);
   }
   lines.push('', `Full topic dump (single file): ${abs(`/topics/${topic.data.slug}/llms-full.txt`)}`, '');
 
@@ -275,10 +275,10 @@ export function buildSyllabusMarkdown(topic: CollectionEntry<'topics'>): string 
     markdown_url: abs(`/topics/${topic.data.slug}/syllabus.md`),
   };
 
-  const lines: string[] = [`# ${topic.data.title} — Guided Syllabus`, ''];
+  const lines: string[] = [`# ${topic.data.title} — Syllabus`, ''];
   const body = topic.data.guidedSyllabus?.trim();
   if (body) lines.push(body, '');
-  else lines.push('_No guided syllabus available yet._', '');
+  else lines.push('_No syllabus available yet._', '');
 
   return matter.stringify(lines.join('\n').trimEnd() + '\n', fm);
 }

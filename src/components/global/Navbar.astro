@@ -55,53 +55,7 @@ const navLinks = [
       </a>
     </div>
 
-    <!-- Mobile Menu Button -->
-    <button
-      class="md:hidden p-2 -mr-2 text-[var(--color-text-secondary)] hover:text-[var(--color-primary)]"
-      aria-label="Open menu"
-      aria-expanded="false"
-      data-menu-toggle
-    >
-      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
-        <path d="M3 12h18M3 6h18M3 18h18" />
-      </svg>
-    </button>
   </nav>
 
-  <!-- Mobile Menu Panel -->
-  <div class="md:hidden hidden" data-menu-panel>
-    <div class="px-[var(--spacing-lg)] py-[var(--spacing-md)] border-t border-[var(--color-border-subtle)] bg-[var(--color-bg-page)]">
-      {navLinks.map((link) => (
-        <a
-          href={link.href}
-          class:list={[
-            'block py-[var(--spacing-sm)] text-[0.9375rem] font-medium no-underline',
-            isActive(link.href)
-              ? 'text-[var(--color-primary)]'
-              : 'text-[var(--color-text-secondary)]',
-          ]}
-          aria-current={isActive(link.href) ? 'page' : undefined}
-        >
-          {link.label}
-        </a>
-      ))}
-      <a
-        href="/search/"
-        class="block py-[var(--spacing-sm)] text-[0.9375rem] font-medium no-underline text-[var(--color-text-secondary)]"
-      >
-        Search
-      </a>
-    </div>
-  </div>
 </header>
 
-<script>
-  const toggle = document.querySelector('[data-menu-toggle]');
-  const panel = document.querySelector('[data-menu-panel]');
-
-  toggle?.addEventListener('click', () => {
-    const expanded = toggle.getAttribute('aria-expanded') === 'true';
-    toggle.setAttribute('aria-expanded', String(!expanded));
-    panel?.classList.toggle('hidden');
-  });
-</script>

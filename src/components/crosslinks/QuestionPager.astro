@@ -40,7 +40,7 @@ const beyond = theme
   ? ([
       `${theme.questions} ${theme.questions === 1 ? 'question' : 'questions'}`,
       theme.videos > 0 ? `${theme.videos} ${theme.videos === 1 ? 'video' : 'videos'}` : null,
-      theme.hasSyllabus ? 'reading list' : null,
+      theme.hasSyllabus ? 'syllabus' : null,
     ].filter(Boolean) as string[])
   : [];
 ---
@@ -73,7 +73,7 @@ const beyond = theme
     </ul>
 
     <!--
-      The theme page is where the videos and the reading list are. A question
+      The theme page is where the videos and the syllabus are. A question
       page that only offers "next question" hides half the material.
     -->
     <a class="pager-theme" href={theme.href}>

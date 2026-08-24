@@ -15,6 +15,7 @@ import Footer from '../components/global/Footer.astro';
 import IndexHead from '../components/home/IndexHead.astro';
 import Leader from '../components/home/Leader.astro';
 import Contents from '../components/home/Contents.astro';
+import ThemeRail from '../components/home/ThemeRail.astro';
 import ThemeSection from '../components/home/ThemeSection.astro';
 import Colophon from '../components/home/Colophon.astro';
 import { getCorpus } from '../lib/corpus';
@@ -34,7 +35,7 @@ if (leader.usedFallback) {
   );
 }
 
-const description = `An index of ${corpus.totalQuestions} questions about Indian policy across ${corpus.totalThemes} themes, with FAQs, videos and reading paths. A project of the Centre for Civil Society.`;
+const description = `An index of ${corpus.totalQuestions} questions about Indian policy across ${corpus.totalThemes} themes, with FAQs, videos and syllabuses. A project of the Centre for Civil Society.`;
 ---
 
 <BaseLayout title="Liberty Lighthouse" description={description}>
@@ -42,11 +43,12 @@ const description = `An index of ${corpus.totalQuestions} questions about Indian
   <main
     id="main-content"
     class="home"
-    style={`--home-rows:${corpus.themes.length + 4}`}
+    style={`--home-rows:${corpus.themes.length + 5}`}
   >
     <Leader leader={leader} />
     <IndexHead corpus={corpus} />
     <Contents corpus={corpus} />
+    <ThemeRail corpus={corpus} />
     {corpus.themes.map((theme) => <ThemeSection theme={theme} />)}
     <Colophon corpus={corpus} />
   </main>

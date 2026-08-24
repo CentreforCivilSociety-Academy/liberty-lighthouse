@@ -40,7 +40,7 @@ export function buildLlmsTxt(input: CorpusInputs): string {
   const lines: string[] = [
     '# Liberty Lighthouse',
     '',
-    "> A resource for understanding Indian policy through curated FAQs, video curricula, glossary terms, and reading paths. A project of the Centre for Civil Society.",
+    "> A resource for understanding Indian policy through curated FAQs, video curricula, glossary terms, and syllabuses. A project of the Centre for Civil Society.",
     '',
     '## How to use this corpus',
     '',

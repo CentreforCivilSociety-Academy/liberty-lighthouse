@@ -1,0 +1,37 @@
+---
+/**
+ * The mobile answer to "I am deep inside Public Choice and I want Feminism".
+ *
+ * On the plate the pinned census solves this: every theme is one click away
+ * for the whole visit. Below the plate there was nothing — the contents sit at
+ * the top of a ~19,000px document, so switching theme meant scrolling all the
+ * way back, and a "go to top" control would have been two taps and would have
+ * lost your place.
+ *
+ * This is one tap to any theme, from anywhere in the page. Zero JavaScript:
+ * a scroll container of plain anchors. Themes are alphabetical, so where a
+ * name sits along the rail is predictable rather than something to hunt for.
+ *
+ * It costs no extra chrome: it takes the pinned slot from the navbar, which
+ * un-sticks below the plate. One pinned element either way.
+ */
+import type { Corpus } from '../../lib/corpus';
+
+interface Props {
+  corpus: Corpus;
+}
+
+const { corpus } = Astro.props;
+---
+
+<nav class="theme-rail" aria-label="Jump to a theme">
+  <ul>
+    {corpus.themes.map((theme) => (
+      <li>
+        <a href={`#${theme.anchor}`} style={`--theme-ink:${theme.ink}`}>
+          {theme.title}
+        </a>
+      </li>
+    ))}
+  </ul>
+</nav>

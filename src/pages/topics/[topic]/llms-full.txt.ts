@@ -27,7 +27,7 @@ export const GET: APIRoute = async ({ props }) => {
   const lines: string[] = [
     `# ${topic.data.title} — Full Content`,
     '',
-    `> All ${topic.data.title} FAQs, videos, and guided syllabus from Liberty Lighthouse.`,
+    `> All ${topic.data.title} FAQs, videos, and syllabus from Liberty Lighthouse.`,
     '',
     `Source: ${abs(topicHtmlPath(topic))}`,
     `Markdown index: ${abs(`/topics/${topic.data.slug}.md`)}`,
@@ -56,7 +56,7 @@ export const GET: APIRoute = async ({ props }) => {
   }
 
   if (topic.data.guidedSyllabus && topic.data.guidedSyllabus.trim()) {
-    lines.push('## Guided Syllabus', '');
+    lines.push('## Syllabus', '');
     lines.push(topic.data.guidedSyllabus.trim(), '');
   }
 

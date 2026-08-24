@@ -23,7 +23,7 @@ const { theme } = Astro.props;
 const ledger = [
   `${theme.questions} ${theme.questions === 1 ? 'question' : 'questions'}`,
   theme.videos > 0 ? `${theme.videos} ${theme.videos === 1 ? 'video' : 'videos'}` : null,
-  theme.hasSyllabus ? 'reading list' : null,
+  theme.hasSyllabus ? 'syllabus' : null,
 ].filter(Boolean) as string[];
 ---
 
@@ -67,7 +67,7 @@ const ledger = [
 
   <!--
     Every section ends by pointing at its own theme page. The homepage carries
-    only the questions; the videos and the reading list live there, and a small
+    only the questions; the videos and the syllabus live there, and a small
     label above 18 rows was not going to carry that.
   -->
   <a class="section-foot" href={theme.href}>

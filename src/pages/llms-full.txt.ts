@@ -68,7 +68,7 @@ export const GET: APIRoute = async () => {
     }
 
     if (topic.data.guidedSyllabus && topic.data.guidedSyllabus.trim()) {
-      lines.push('## Guided Syllabus', '');
+      lines.push('## Syllabus', '');
       lines.push(topic.data.guidedSyllabus.trim(), '');
     }
   }

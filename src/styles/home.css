@@ -217,6 +217,66 @@
   margin: 0 0 2rem;
 }
 
+/* ── Theme rail: the mobile theme switcher ──────────────── */
+/*
+ * Pinned below the plate, hidden above it — the census already does this job
+ * on wide screens. Full bleed so the scroll container reaches both edges and
+ * it is obvious the strip continues past the fold.
+ */
+
+.theme-rail {
+  grid-column: edge / end;
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  background: var(--color-bg-page);
+  border-bottom: 1px solid var(--rule);
+  margin-bottom: 1.5rem;
+}
+
+.theme-rail ul {
+  display: flex;
+  gap: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0 var(--edge);
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+}
+
+.theme-rail ul::-webkit-scrollbar { display: none; }
+
+.theme-rail a {
+  display: block;
+  padding: 0.75rem 0.875rem;
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1.4;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-decoration: none;
+  color: var(--theme-ink);
+  scroll-snap-align: start;
+  /* The tap target is the full bar height, not just the text. */
+  border-bottom: 2px solid transparent;
+}
+
+.theme-rail a:hover,
+.theme-rail a:focus-visible {
+  border-bottom-color: var(--theme-ink);
+}
+
+/*
+ * The section you jumped to marks itself in the rail. :target only reflects a
+ * tap, not free scrolling, so this is a confirmation of where you went rather
+ * than a live scroll indicator — which would need JavaScript.
+ */
+.section:target { scroll-margin-top: 3.25rem; }
+
 /* ── Contents / census: ONE element, two lives ──────────── */
 /*
  * Named .contents-nav, not .contents: Tailwind ships a `.contents` utility
@@ -476,7 +536,7 @@
 
 .colophon a { color: var(--color-text-on-dark); }
 
-/* ══ WIDE SHEET — 565px up ══════════════════════════════ */
+/* ══ WIDE SHEET — 646px up ══════════════════════════════ */
 
 @media (min-width: 646px) {
   .home {
@@ -487,7 +547,7 @@
   .leader { padding-block: 3rem 2rem; }
 }
 
-/* ══ PAGE — 814px up: the mark gutter opens at its floor ══ */
+/* ══ PAGE — 774px up: the mark gutter opens at its floor ══ */
 
 @media (min-width: 774px) {
   .home {
@@ -503,7 +563,16 @@
   .shoulder-question { font-size: 1.375rem; }
 }
 
-/* ══ PLATE — 1161px up: contents relocates into a pinned census ══ */
+/*
+ * One pinned element below the plate. The navbar releases so the theme rail
+ * can take the top; two stacked bars would cost 104px of a 618px Android
+ * viewport — 17% of the screen given to chrome, on a document this long.
+ */
+@media (max-width: 1223px) {
+  body:has(.theme-rail) > header { position: static; }
+}
+
+/* ══ PLATE — 1224px up: contents relocates into a pinned census ══ */
 
 @media (min-width: 1224px) {
   .home {
@@ -553,6 +622,9 @@
   .section-rule { grid-column: field / end; margin-right: 0; }
 
   .colophon { padding-inline: var(--edge); }
+
+  /* The census is permanently on screen here, so the rail is redundant. */
+  .theme-rail { display: none; }
 }
 
 /* Short viewports: a 1366x768 laptop with a taskbar is ~1092x494. The census
