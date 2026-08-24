@@ -47,26 +47,33 @@ const ledger = [
     {theme.rows.map((row) => (
       <li class="index-row">
         <a class="index-link" href={row.href}>
-          {/*
-            The margin rule: as long as its question, right-flush to a constant
-            line, on that question's first baseline. Point at a long rule, read
-            a long question — the claim is checkable rather than decorative.
-          */}
-          <span class="index-mark" style={`--len:${row.rule}`} aria-hidden="true"></span>
           <span class="index-folio">{row.folio}</span>
           <span class="index-question">{row.question}</span>
         </a>
-        {row.parts.length > 0 && (
-          <p class="index-parts">
-            Parts{' '}
-            {row.parts.map((part, i) => (
-              <>
-                {i > 0 && ' · '}
-                <a href={part.href}>{part.label}</a>
-              </>
-            ))}
-          </p>
-        )}
+
+        {/*
+          Secondary facts about the row, on the question's own left edge and in
+          the same voice as everything else at this size. The word count sat in
+          the margin gutter before, right-aligned against nothing, which gave
+          the page a third vertical axis and read as something bolted on.
+        */}
+        <p class="index-meta">
+          <span>{row.words.toLocaleString('en-IN')} words</span>
+          {row.parts.length > 0 && (
+            <>
+              <span aria-hidden="true"> · </span>
+              <span>
+                Parts{' '}
+                {row.parts.map((part, i) => (
+                  <>
+                    {i > 0 && ' · '}
+                    <a href={part.href}>{part.label}</a>
+                  </>
+                ))}
+              </span>
+            </>
+          )}
+        </p>
       </li>
     ))}
   </ol>

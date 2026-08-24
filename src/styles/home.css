@@ -352,24 +352,6 @@
 .contents-row[data-current='true'] .contents-name { color: var(--theme-ink); }
 .contents-row[data-current='true'] .contents-bar { opacity: 1; }
 
-/* Only where the rules are actually drawn — the gutter opens at 774px. */
-.contents-legend { display: none; }
-
-@media (min-width: 774px) {
-  .contents-legend {
-    display: block;
-    font-family: var(--font-mono);
-    font-size: 0.625rem;
-    line-height: 1.5;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: var(--color-text-muted);
-    margin: 0.875rem 0 0;
-    padding-top: 0.75rem;
-    border-top: 1px solid var(--rule);
-  }
-}
-
 .contents-totals {
   font-family: var(--font-mono);
   font-size: 0.6875rem;
@@ -465,60 +447,33 @@
   text-decoration-thickness: 1px;
 }
 
-/* Continuation parts sit beside the row, never nested inside its anchor —
-   an <a> inside an <a> is invalid and browsers unnest it unpredictably. */
-.index-parts {
-  grid-column: 2;
+
+/* ── Row metadata ──────────────────────────────────────── */
+/*
+ * Word count, and the continuation parts where a question has them, on one
+ * line beneath the question and on the question's own left edge.
+ *
+ * This replaced two attempts that both sat in the margin gutter: a hairline
+ * whose length encoded question length, then the same number right-aligned in
+ * the gutter. Both introduced a third vertical axis and read as imposed on the
+ * page rather than part of it. The page already had a place for a secondary
+ * fact about a row, and this is it.
+ */
+
+.index-meta {
   font-family: var(--font-mono);
   font-size: 0.625rem;
   line-height: 1.6;
   letter-spacing: 0.08em;
   text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
   color: var(--color-text-muted);
-  margin: 0.25rem 0 var(--row-gap);
+  margin: 0.125rem 0 var(--row-gap);
   padding-left: calc(var(--folio-w) + 0.5rem);
 }
 
-.index-parts a { color: var(--muted); text-decoration: none; }
-.index-parts a:hover { color: var(--theme-ink); text-decoration: underline; }
-
-/* ── The margin rule ────────────────────────────────────── */
-/*
- * One hairline per question, drawn in the gutter the grid already reserves.
- * All of them end on the same vertical line and run leftward by their own
- * question's length, so the column reads as a ragged left edge that is a
- * picture of the corpus.
- *
- * It carries one fact and can be checked by pointing at it. Most generative
- * marks cannot: a hash goes in, a pattern comes out, and nobody can be told
- * what it means.
- *
- * Absolutely positioned rather than given a grid track, so the section keeps
- * its single left edge and the rule hangs outside it. Hidden wherever the
- * gutter is zero — below 774px there is no room, and under about 56px the row
- * pitch drops far enough that the whole column greys into a smudge.
- */
-
-.index-mark { display: none; }
-
-@media (min-width: 774px) {
-  .index-row { position: relative; }
-
-  .index-mark {
-    display: block;
-    position: absolute;
-    /* Right-flush to a constant line, one gap clear of the reading column. */
-    right: calc(100% + 1.25rem);
-    /* Sits on the question's first baseline. */
-    top: 1.05em;
-    height: 1px;
-    width: calc(var(--len) * (var(--mark-w) - 1.25rem));
-    background: var(--theme-ink);
-    opacity: 0.55;
-  }
-
-  .index-link:hover .index-mark { opacity: 1; }
-}
+.index-meta a { color: var(--muted); text-decoration: none; }
+.index-meta a:hover { color: var(--theme-ink); text-decoration: underline; }
 
 /* ── Section foot ───────────────────────────────────────── */
 /*
@@ -612,9 +567,6 @@
     --mark-w: 3.5rem;
     --field-max: 36rem;
   }
-  /* Below 56px the row pitch drops under 5 CSS px and the mark greys into a
-     smudge, so it does not render at all until there is room for it. */
-  .index-mark { display: block; }
   .section-rule { margin-right: calc(-1 * var(--edge)); }
   .leader-question { font-size: clamp(3rem, 6vw, 4.25rem); }
   .shoulder-question { font-size: 1.375rem; }

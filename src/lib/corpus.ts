@@ -13,6 +13,7 @@
 
 import { getCollection } from 'astro:content';
 import { THEME_HUES, HUE_CAPACITY, themePalette } from './palette';
+import { countWords } from './word-count';
 import lock from '../content/corpus.lock.json';
 
 /**
@@ -32,19 +33,14 @@ export type CorpusRow = {
   /** Stable anchor, derived from the theme slug — never from a section number. */
   id: string;
   question: string;
-  /** Characters in the question. */
-  chars: number;
   /**
-   * The margin rule's length, 0..1.
+   * Words in the answer, markup excluded — see countWords.
    *
-   * Normalised across the corpus between the shortest question and the 95th
-   * percentile, not against the longest. One 260-character outlier against a
-   * 77-character median squashed every rule into a fifth of the gutter and
-   * made the column unreadable. The few questions past p95 clamp to full
-   * length, which is honest: the rule says "long", and beyond a point longer
-   * is not a distinction anyone reads off a hairline.
+   * Summed across the question's continuation parts where it has them, since
+   * the row stands for the whole question and the parts are the rest of the
+   * same answer.
    */
-  rule: number;
+  words: number;
   href: string;
   /** Position within its theme, 1-based, unpadded. */
   folio: number;
@@ -81,8 +77,8 @@ export type Corpus = {
   totalSyllabi: number;
   /** Denominator for census bar widths — the largest theme, not a constant. */
   maxEntries: number;
-  /** Reported for the legend, so the scale can be stated rather than guessed. */
-  maxQuestionChars: number;
+  /** Words across the whole corpus. */
+  totalWords: number;
 };
 
 function stemOf(question: string): string {
@@ -119,18 +115,6 @@ export async function getCorpus(
 
   const palette = themePalette();
 
-  // Rule lengths are normalised across the whole corpus so a length means the
-  // same thing in every section. Computed before the themes are built.
-  const allChars = publishedFaqs
-    .map((f) => stemOf(f.data.question).length)
-    .sort((a, b) => a - b);
-  const floorChars = allChars[0] ?? 1;
-  const capChars = allChars[Math.floor(allChars.length * 0.95)] ?? floorChars + 1;
-  const span = Math.max(1, capChars - floorChars);
-  // Shortest still gets a visible mark; nothing renders as an empty row.
-  const ruleFor = (chars: number) =>
-    0.18 + 0.82 * Math.min(1, Math.max(0, (chars - floorChars) / span));
-
   const themes: CorpusTheme[] = sorted.map((topic, index) => {
     const slug = topic.data.slug;
     const mine = publishedFaqs.filter((f) => f.data.topic === slug);
@@ -157,11 +141,13 @@ export async function getCorpus(
       // A part without its stem would otherwise vanish from the index.
       const primary = group.stem ?? group.parts[0];
       const question = group.stem ? stem : primary.data.question;
+      const words =
+        countWords(primary.body ?? '') +
+        group.parts.reduce((n, part) => n + countWords(part.body ?? ''), 0);
       return {
         id: `q-${slug}-${rowIndex + 1}`,
         question,
-        chars: question.length,
-        rule: ruleFor(question.length),
+        words,
         href: `/topics/${slug}/faq/${primary.id.split('/').pop()}/`,
         folio: rowIndex + 1,
         parts: group.parts
@@ -203,9 +189,9 @@ export async function getCorpus(
     totalVideos: themes.reduce((n, t) => n + t.videos, 0),
     totalSyllabi: themes.filter((t) => t.hasSyllabus).length,
     maxEntries: Math.max(1, ...themes.map((t) => t.entries)),
-    maxQuestionChars: Math.max(
-      1,
-      ...themes.flatMap((t) => t.rows.map((r) => r.chars)),
+    totalWords: themes.reduce(
+      (n, t) => n + t.rows.reduce((m, r) => m + r.words, 0),
+      0,
     ),
   };
 
