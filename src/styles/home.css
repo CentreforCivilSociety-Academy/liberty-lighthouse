@@ -93,6 +93,17 @@
   margin: 0 0 1.125rem;
 }
 
+.byline {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.55;
+  color: var(--muted);
+  max-width: 36em;
+  margin: 0 0 1.25rem;
+  text-wrap: pretty;
+}
+
 /* ── Search: a plain GET form, no JS, no index on this page ── */
 
 .search {
