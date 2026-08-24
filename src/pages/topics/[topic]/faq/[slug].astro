@@ -48,7 +48,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 <ProseLayout
   title={entry.data.question}
   description={`FAQ: ${entry.data.question}`}
-  ogImage={`/og/faq/${topicSlug}/${getSlugFromId(entry.id)}.png`}
+  ogImage={entry.data.ogImage ?? `/og/faq/${topicSlug}/${getSlugFromId(entry.id)}.png`}
   breadcrumbs={[
     { label: 'Topics', href: '/' },
     { label: topic?.data.title || topicSlug!, href: `/topics/${topicSlug}/` },

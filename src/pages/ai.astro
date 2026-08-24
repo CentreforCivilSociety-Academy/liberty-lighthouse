@@ -1,5 +1,6 @@
 ---
 import PageLayout from '../layouts/PageLayout.astro';
+import { shareImageFor } from '../lib/share-image';
 import Breadcrumbs from '../components/global/Breadcrumbs.astro';
 
 const MCP_URL = 'https://liberty-lighthouse.vercel.app/api/v1/mcp';
@@ -69,7 +70,7 @@ const tools: Array<{
 <PageLayout
   title="AI/MCP access — Liberty Lighthouse"
   description="Plug Liberty Lighthouse into ChatGPT, Claude, Cursor, or any MCP client. Public, anonymous, citation-grounded. Built on Karpathy's LLM Wiki pattern."
-  ogImage="/og/page/ai.png"
+  ogImage={await shareImageFor('ai')}
 >
   <!-- HERO -->
   <section class="ai-hero relative bg-[var(--color-bg-dark)] overflow-hidden">

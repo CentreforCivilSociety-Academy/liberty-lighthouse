@@ -18,6 +18,16 @@ collections:
     label: "Site Settings"
     description: "Customize the site's visual identity — fonts, colors, and layout. Changes take effect after the next site build."
     files:
+      - label: "Share images"
+        name: "share-images"
+        file: "src/content/settings/share-images.json"
+        description: "Optional overrides for the share cards on the main pages. Leave a field empty to use the card generated automatically. Make one at /tools/og, download the PNG, then upload it here."
+        fields:
+          - { label: "Home", name: "home", widget: "image", required: false, media_folder: "/public/images/og-uploads", public_folder: "/images/og-uploads" }
+          - { label: "About", name: "about", widget: "image", required: false, media_folder: "/public/images/og-uploads", public_folder: "/images/og-uploads" }
+          - { label: "Glossary", name: "glossary", widget: "image", required: false, media_folder: "/public/images/og-uploads", public_folder: "/images/og-uploads" }
+          - { label: "Search", name: "search", widget: "image", required: false, media_folder: "/public/images/og-uploads", public_folder: "/images/og-uploads" }
+          - { label: "AI and MCP", name: "ai", widget: "image", required: false, media_folder: "/public/images/og-uploads", public_folder: "/images/og-uploads" }
       # ── Typography & Fonts ──
       - name: "typography"
         label: "Typography & Fonts"
@@ -582,6 +592,13 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - label: "Share image"
+        name: "ogImage"
+        widget: "image"
+        required: false
+        media_folder: "/public/images/og-uploads"
+        public_folder: "/images/og-uploads"
+        hint: "Optional. A card is generated automatically — only upload here to override it. Make one at /tools/og, download the PNG, then upload it. 1200x630."
       - label: "Topic Name"
         name: "title"
         widget: "string"
@@ -642,6 +659,13 @@ collections:
     slug: "{{slug}}"
     path: "{{topic}}/{{slug}}"
     fields:
+      - label: "Share image"
+        name: "ogImage"
+        widget: "image"
+        required: false
+        media_folder: "/public/images/og-uploads"
+        public_folder: "/images/og-uploads"
+        hint: "Optional. A card is generated automatically — only upload here to override it. Make one at /tools/og, download the PNG, then upload it. 1200x630."
       - label: "Topic"
         name: "topic"
         widget: "relation"
@@ -705,6 +729,13 @@ collections:
     slug: "{{slug}}"
     path: "{{topic}}/{{slug}}"
     fields:
+      - label: "Share image"
+        name: "ogImage"
+        widget: "image"
+        required: false
+        media_folder: "/public/images/og-uploads"
+        public_folder: "/images/og-uploads"
+        hint: "Optional. A card is generated automatically — only upload here to override it. Make one at /tools/og, download the PNG, then upload it. 1200x630."
       - label: "Topic"
         name: "topic"
         widget: "relation"

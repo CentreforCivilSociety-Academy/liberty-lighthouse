@@ -1,5 +1,6 @@
 ---
 import PageLayout from '../../layouts/PageLayout.astro';
+import { shareImageFor } from '../../lib/share-image';
 import Breadcrumbs from '../../components/global/Breadcrumbs.astro';
 import { getAllGlossary, getSlugFromId, getGlossaryUrl } from '../../lib/collections';
 import { buildDefinedTermSetSchema, buildBreadcrumbSchema } from '../../lib/structured-data';
@@ -42,7 +43,7 @@ const breadcrumbSchema = buildBreadcrumbSchema([
 <PageLayout
   title="Glossary"
   description="Definitions of policy, economics, and civil-society terms used across Liberty Lighthouse."
-  ogImage="/og/page/glossary.png"
+  ogImage={await shareImageFor('glossary')}
 >
   <script type="application/ld+json" set:html={JSON.stringify(definedTermSetSchema)} />
   <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />

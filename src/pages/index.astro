@@ -19,6 +19,7 @@ import ThemeRail from '../components/home/ThemeRail.astro';
 import ThemeSection from '../components/home/ThemeSection.astro';
 import { getCorpus } from '../lib/corpus';
 import { resolveLeader } from '../lib/leader';
+import { shareImageFor } from '../lib/share-image';
 import { getCollection } from 'astro:content';
 import '../styles/home.css';
 
@@ -37,7 +38,7 @@ if (leader.usedFallback) {
 const description = `An index of ${corpus.totalQuestions} questions about Indian policy across ${corpus.totalThemes} themes, with FAQs, videos and syllabuses. A project of the Centre for Civil Society.`;
 ---
 
-<BaseLayout title="Liberty Lighthouse" description={description} ogImage="/og/page/home.png">
+<BaseLayout title="Liberty Lighthouse" description={description} ogImage={await shareImageFor('home')}>
   <Navbar />
   <main
     id="main-content"

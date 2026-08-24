@@ -2,9 +2,10 @@
 import PageLayout from '../layouts/PageLayout.astro';
 import Breadcrumbs from '../components/global/Breadcrumbs.astro';
 import Button from '../components/ui/Button.astro';
+import { shareImageFor } from '../lib/share-image';
 ---
 
-<PageLayout title="About" description="About Liberty Lighthouse and the Centre for Civil Society." ogImage="/og/page/about.png">
+<PageLayout title="About" description="About Liberty Lighthouse and the Centre for Civil Society." ogImage={await shareImageFor('about')}>
   <div class="max-w-[var(--content-max-width)] mx-auto px-[var(--spacing-lg)] py-[var(--spacing-2xl)]">
     <Breadcrumbs items={[{ label: 'About' }]} />
 

@@ -10,6 +10,8 @@ const topics = defineCollection({
     icon: z.string().optional(),
     order: z.number(),
     guidedSyllabus: z.string().default(""),
+    /** Optional override for the generated share card. See scripts/og. */
+    ogImage: z.string().optional(),
   }),
 });
 
@@ -24,6 +26,8 @@ const faqs = defineCollection({
     relatedFAQs: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
     updatedAt: z.string().optional(),
+    /** Optional override for the generated share card. See scripts/og. */
+    ogImage: z.string().optional(),
   }),
 });
 
@@ -43,6 +47,8 @@ const videos = defineCollection({
     relatedVideos: z.array(z.string()).default([]),
     draft: z.boolean().default(false),
     updatedAt: z.string().optional(),
+    /** Optional override for the generated share card. See scripts/og. */
+    ogImage: z.string().optional(),
   }),
 });
 
