@@ -355,6 +355,12 @@ collections:
     format: "frontmatter"
     extension: "mdx"
     create: true
+    # Decap builds {{slug}} from the collection's identifier field, which
+    # defaults to "title". This collection has no field by that name, so
+    # Decap fell back to serialising the whole entry: 114 FAQs were created
+    # at paths like map-order-1-draft-false-topic-gst-question-... and were
+    # published at 250-character URLs. Naming the field fixes it.
+    identifier_field: "question"
     slug: "{{slug}}"
     path: "{{topic}}/{{slug}}"
     fields:
@@ -532,6 +538,9 @@ collections:
     format: "frontmatter"
     extension: "mdx"
     create: true
+    # Same reason as faqs: no top-level "title" field here either. The
+    # "title" at the bottom of this collection belongs to a nested widget.
+    identifier_field: "term"
     slug: "{{slug}}"
     fields:
       - label: "Term"

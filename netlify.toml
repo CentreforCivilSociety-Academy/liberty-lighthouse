@@ -29,6 +29,680 @@
   to = "/index.md"
   status = 301
 
+# The FAQ slugs were serialised entry objects, not slugs: the CMS could not
+# find an identifier field, so 114 questions published at 250-character URLs
+# beginning map-order-1-draft-false-. They are now named after the question.
+# These send the old paths to the new ones.
+[[redirects]]
+  from = "/topics/agriculture/faq/are-input-subsidies-for-fertiliser-power-and-water-a-safety/"
+  to = "/topics/agriculture/faq/are-input-subsidies-for-fertiliser-power-and-water-a-safety-net-or-a-trap/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/agriculture/faq/how-can-policy-treat-farmers-as-entrepreneurs-who-are-free-t/"
+  to = "/topics/agriculture/faq/how-can-policy-treat-farmers-as-entrepreneurs-who-are-free-to-stay-free-to-leave-and-free-to-trade/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/agriculture/faq/why-are-farmers-in-developed-countries-wealthier-than-indian/"
+  to = "/topics/agriculture/faq/why-are-farmers-in-developed-countries-wealthier-than-indian-farmers/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/agriculture/faq/why-are-farmers-still-required-or-nudged-to-sell-in-governme/"
+  to = "/topics/agriculture/faq/why-are-farmers-still-required-or-nudged-to-sell-in-government-mandis/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/agriculture/faq/why-are-farms-in-india-so-small-and-fragmented-and-why-does/"
+  to = "/topics/agriculture/faq/why-are-farms-in-india-so-small-and-fragmented-and-why-does-that-matter/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/agriculture/faq/why-are-indian-farmers-called-annadatas-rather-than-entrepre/"
+  to = "/topics/agriculture/faq/why-are-indian-farmers-called-annadatas-rather-than-entrepreneurs/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/agriculture/faq/why-cant-farmers-freely-buy-sell-or-lease-their-land-like-ot/"
+  to = "/topics/agriculture/faq/why-cant-farmers-freely-buy-sell-or-lease-their-land-like-other-property-owners/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/agriculture/faq/why-do-consumer-prices-keep-rising-even-when-farmers-earn-so/"
+  to = "/topics/agriculture/faq/why-do-consumer-prices-keep-rising-even-when-farmers-earn-so-little/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/agriculture/faq/why-do-farmers-remain-poor-even-though-india-is-a-top-produc/"
+  to = "/topics/agriculture/faq/why-do-farmers-remain-poor-even-though-india-is-a-top-producer-of-food/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/agriculture/faq/why-do-many-farmers-say-they-would-leave-agriculture-if-they/"
+  to = "/topics/agriculture/faq/why-do-many-farmers-say-they-would-leave-agriculture-if-they-could/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/agriculture/faq/why-do-so-many-farmers-grow-waterhungry-crops-in-dry-regions/"
+  to = "/topics/agriculture/faq/why-do-so-many-farmers-grow-water-hungry-crops-in-dry-regions/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/agriculture/faq/why-does-the-food-corporation-of-india-buy-and-hold-such-lar/"
+  to = "/topics/agriculture/faq/why-does-the-food-corporation-of-india-buy-and-hold-such-large-grain-stocks/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/agriculture/faq/why-is-agricultural-trade-policy-so-unpredictable-and-what-d/"
+  to = "/topics/agriculture/faq/why-is-agricultural-trade-policy-so-unpredictable-and-what-does-that-do-to-investment/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/agriculture/faq/why-is-it-hard-to-shift-farmland-to-nonagricultural-use-or-u/"
+  to = "/topics/agriculture/faq/why-is-it-hard-to-shift-farmland-to-non-agricultural-use-or-use-it-as-collateral/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-question-how-has-our-constitutional-law-evolved-in-the-last-75-years-part-2-topic-constitutionalism-body-case-indra-sawhney-v-union-of-india-1992-is-a-modern-interpretation-of-affirmative-actio/"
+  to = "/topics/constitutionalism/faq/how-has-our-constitutional-law-evolved-in-the-last-75-years-part-2/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-how-has-our-constitutional-law-evolved-in-the-last-75-years-body-n-tto-understand-how-our-constitution-has-fared-in-the-last-75-years-of-its-existence-we-need-to-look/"
+  to = "/topics/constitutionalism/faq/how-has-our-constitutional-law-evolved-in-the-last-75-years/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-how-has-our-constitutional-law-evolved-in-the-last-75-years-part-3-body-case-the-tata-cellular-v-union-of-india-1994-case-concerns-an-arbitrary-government-tende/"
+  to = "/topics/constitutionalism/faq/what-are-rights-to-freedoms-how-has-the-right-to-freedom-of-speech-and-expression-fared-in-india/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-how-has-our-constitutional-law-evolved-in-the-last-75-years-part-3-body-n-case-the-tata-cellular-v-union-of-india-1994-case-concerns-an-arbitrary-government/"
+  to = "/topics/constitutionalism/faq/how-has-our-constitutional-law-evolved-in-the-last-75-years-part-3/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-what-are-rights-to-freedoms-how-has-the-right-to-freedom-of-speech-and-expression-fared-in-india-part-2-body-free-speech-expression-internet-freedom-n-n-case/"
+  to = "/topics/constitutionalism/faq/what-are-rights-to-freedoms-how-has-the-right-to-freedom-of-speech-and-expression-fared-in-india-part-2/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-what-are-rights-to-freedoms-how-has-the-right-to-freedom-of-speech-and-expression-fared-in-india-part-3-body-case-association-for-democratic-reforms-v-union-of-i/"
+  to = "/topics/constitutionalism/faq/what-are-rights-to-freedoms-how-has-the-right-to-freedom-of-speech-and-expression-fared-in-india-part-3/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-what-are-some-of-the-significant-elements-of-the-rule-of-law-where-would-one-find-them-in-the-constitution-of-india-body-n-n-separation-of-powers-between-the-legislat/"
+  to = "/topics/constitutionalism/faq/what-are-some-of-the-significant-elements-of-the-rule-of-law-where-would-one-find-them-in-the-part-2/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-what-are-some-of-the-significant-elements-of-the-rule-of-law-where-would-one-find-them-in-the-constitution-of-india-body-supremacy-of-established-law-as-opposed-to-ar/"
+  to = "/topics/constitutionalism/faq/what-are-some-of-the-significant-elements-of-the-rule-of-law-where-would-one-find-them-in-the/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-what-are-the-fundamental-rights-in-indias-constitution-what-is-the-relationship-between-the-fundamental-rights-and-directive-principles-of-state-policy-body-rule-of-la/"
+  to = "/topics/constitutionalism/faq/what-are-the-fundamental-rights-in-indias-constitution-what-is-the-relationship-between-the/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-what-ideologies-and-influences-shaped-the-drafting-of-the-indian-constitution-body-india-gained-independence-from-britain-on-15-august-1947-the-constitution-of-india-was/"
+  to = "/topics/constitutionalism/faq/what-ideologies-and-influences-shaped-the-drafting-of-the-indian-constitution/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-what-is-the-basic-philosophy-behind-indias-constitution-is-it-a-liberal-one-body-a-constitution-isnt-just-a-set-of-rules-for-running-a-government-every-constitutio-1/"
+  to = "/topics/constitutionalism/faq/what-is-the-basic-philosophy-behind-indias-constitution-is-it-a-liberal-one/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-what-is-the-basic-philosophy-behind-indias-constitution-is-it-a-liberal-one-body-a-constitution-isnt-just-a-set-of-rules-for-running-a-government-every-constitutio/"
+  to = "/topics/constitutionalism/faq/the-rule-of-law-is-a-core-value-in-the-indian-constitution-what-does-rule-of-law-mean/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-what-is-the-basic-structure-doctrine-of-the-constitution-of-india-body-what-is-the-basic-structure-doctrine-of-the-constitution-of-india-n-n-tthe-term-basic-structu/"
+  to = "/topics/constitutionalism/faq/what-is-the-basic-structure-doctrine-of-the-constitution-of-india/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-what-is-the-right-to-life-and-liberty-how-has-this-right-evolved-through-the-history-of-the-indian-constitution-body-n-procedural-safeguards-for-protecting-right-to-l/"
+  to = "/topics/constitutionalism/faq/what-is-the-right-to-life-and-liberty-how-has-this-right-evolved-through-the-history-of-the-indian-part-2/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-what-is-the-right-to-life-and-liberty-how-has-this-right-evolved-through-the-history-of-the-indian-constitution-body-n-t-article-21-enshrines-a-significant-rule-of/"
+  to = "/topics/constitutionalism/faq/what-is-the-right-to-life-and-liberty-how-has-this-right-evolved-through-the-history-of-the-indian/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-what-is-the-right-to-life-and-liberty-how-has-this-right-evolved-through-the-history-of-the-indian-constitution-part-3-body-expansion-of-right-to-life-and-personal-li/"
+  to = "/topics/constitutionalism/faq/what-is-the-right-to-life-and-liberty-how-has-this-right-evolved-through-the-history-of-the-indian-part-3/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/constitutionalism/faq/map-order-1-draft-false-topic-constitutionalism-question-what-is-the-right-to-life-and-liberty-how-has-this-right-evolved-through-the-history-of-the-indian-constitution-part-4-body-right-to-privacy-t-n-t-n-case-ta/"
+  to = "/topics/constitutionalism/faq/what-is-the-right-to-life-and-liberty-how-has-this-right-evolved-through-the-history-of-the-indian-part-4/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/economic-growth/faq/map-order-1-draft-false-topic-economic-growth-question-can-indians-get-rich-before-getting-old-body-right-now-more-than-half-of-indias-population-is-under-30-https-ourworldindata-org-explorers-population-and-demography-coun/"
+  to = "/topics/economic-growth/faq/can-indians-get-rich-before-getting-old/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/economic-growth/faq/map-order-1-draft-false-topic-economic-growth-question-how-did-other-countries-get-rich-body-in-1945-japan-lay-in-ruins-allied-bombing-had-flattened-most-of-its-cities-per-capita-income-had-fallen-by-more-than-40-from-pre-w/"
+  to = "/topics/economic-growth/faq/how-did-other-countries-get-rich/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/economic-growth/faq/map-order-1-draft-false-topic-economic-growth-question-what-is-economic-growth-and-why-does-it-matter-body-if-we-were-born-in-india-in-the-1950s-or-1960s-our-life-would-have-been-shaped-almost-entirely-by-scarcity-there-would/"
+  to = "/topics/economic-growth/faq/what-is-economic-growth-and-why-does-it-matter/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/economic-growth/faq/map-order-1-draft-false-topic-economic-growth-question-what-is-the-best-way-to-measure-economic-growth-body-when-we-care-about-progress-we-care-about-children-surviving-past-the-age-of-five-whether-a-young-person-from-a-small/"
+  to = "/topics/economic-growth/faq/what-is-the-best-way-to-measure-economic-growth/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/economic-growth/faq/map-order-1-draft-false-topic-economic-growth-question-why-is-india-the-5th-largest-economy-yet-indians-are-still-poor-body-india-is-regularly-described-as-the-worlds-fifth-largest-economy-https-www-imf-org-external-datamap/"
+  to = "/topics/economic-growth/faq/why-is-india-the-5th-largest-economy-yet-indians-are-still-poor/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/education/faq/how-can-the-government-ensure-that-private-schools-deliver-q/"
+  to = "/topics/education/faq/how-can-the-government-ensure-that-private-schools-deliver-quality/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/education/faq/how-can-we-realise-the-right-to-free-education-for-all-child/"
+  to = "/topics/education/faq/how-can-we-realise-the-right-to-free-education-for-all-children/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/education/faq/private-schools-have-made-education-a-business-how-do-we-che/"
+  to = "/topics/education/faq/private-schools-have-made-education-a-business-how-do-we-check-against-that/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/education/faq/private-schools-may-be-better-than-government-schools-but-th/"
+  to = "/topics/education/faq/private-schools-may-be-better-than-government-schools-but-their-quality-is-still-poor-why/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/education/faq/why-do-many-still-pay-for-school-education-when-we-have-a-fu/"
+  to = "/topics/education/faq/why-do-many-still-pay-for-school-education-when-we-have-a-fundamental-right-to-free-education/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/education/faq/would-pumping-more-resources-into-government-schools-help-im/"
+  to = "/topics/education/faq/would-pumping-more-resources-into-government-schools-help-improve-them/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/feminism/faq/map-order-1-draft-false-topic-feminism-question-are-policies-like-menstrual-leave-empowering-or-do-they-unintentionally-disadvantage-women-in-hiring-body-the-intent-behind-menstrual-leave-policies-is-easy-to-respect-they-ackn/"
+  to = "/topics/feminism/faq/are-policies-like-menstrual-leave-empowering-or-do-they-unintentionally-disadvantage-women-in-hiring/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/feminism/faq/map-order-1-draft-false-topic-feminism-question-can-the-state-correct-gender-norms-in-society-body-a-common-assumption-in-policy-debates-is-that-social-norms-constraining-womens-economic-participation-are-a-private-problem-requi/"
+  to = "/topics/feminism/faq/can-the-state-correct-gender-norms-in-society/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/feminism/faq/map-order-1-draft-false-topic-feminism-question-can-you-be-a-feminist-and-pro-free-market-at-the-same-time-body-the-assumption-that-you-cannot-usually-rests-on-a-conflation-worth-unpacking-it-mixes-up-two-different-things-exi/"
+  to = "/topics/feminism/faq/can-you-be-a-feminist-and-pro-free-market-at-the-same-time/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/feminism/faq/map-order-1-draft-false-topic-feminism-question-do-reservations-and-quotas-help-women-body-it-depends-on-what-kind-and-where-the-evidence-points-in-different-directions-depending-on-the-mechanism-and-the-mechanism-matters-mor/"
+  to = "/topics/feminism/faq/do-reservations-and-quotas-help-women/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/feminism/faq/map-order-1-draft-false-topic-feminism-question-how-has-womens-participation-in-work-and-public-life-changed-over-the-years-body-the-pattern-is-consistent-enough-to-amount-to-a-principle-where-legal-and-institutional-barriers-t/"
+  to = "/topics/feminism/faq/how-has-womens-participation-in-work-and-public-life-changed-over-the-years/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/feminism/faq/map-order-1-draft-false-topic-feminism-question-how-have-markets-and-trade-shaped-womens-lives-historically-body-consider-what-daily-life-looked-like-for-a-woman-in-1800-several-hours-of-every-day-went-toward-tasks-that-are-now/"
+  to = "/topics/feminism/faq/how-have-markets-and-trade-shaped-womens-lives-historically/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/feminism/faq/map-order-1-draft-false-topic-feminism-question-is-feminism-only-about-women-body-at-its-core-the-argument-for-womens-equal-participation-in-work-and-public-life-is-not-a-demand-for-special-treatment-it-is-an-argument-about-w/"
+  to = "/topics/feminism/faq/is-feminism-only-about-women/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/feminism/faq/map-order-1-draft-false-topic-feminism-question-what-does-economic-freedom-actually-mean-for-women-body-we-tend-to-think-of-freedom-in-political-terms-the-right-to-vote-to-speak-to-move-but-the-more-immediate-constraint/"
+  to = "/topics/feminism/faq/what-does-economic-freedom-actually-mean-for-women/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/feminism/faq/map-order-1-draft-false-topic-feminism-question-what-effect-do-indias-labour-laws-have-on-women-body-laws-designed-to-protect-women-in-the-workplace-can-end-up-reducing-their-access-to-it-understanding-why-requires-looking-a/"
+  to = "/topics/feminism/faq/what-effect-do-indias-labour-laws-have-on-women/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/feminism/faq/map-order-1-draft-false-topic-feminism-question-what-is-the-gender-pay-gap-and-does-it-exist-body-the-gender-pay-gap-is-the-difference-in-average-earnings-between-women-and-men-in-india-it-is-large-and-documented-a-2022-aud/"
+  to = "/topics/feminism/faq/what-is-the-gender-pay-gap-and-does-it-exist/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/feminism/faq/map-order-1-draft-false-topic-feminism-question-what-would-genuinely-free-economic-opportunity-look-like-for-women-in-india-and-how-far-are-we-from-it-body-start-with-a-simple-test-can-a-woman-in-india-work-where-she-choo/"
+  to = "/topics/feminism/faq/what-would-genuinely-free-economic-opportunity-look-like-for-women-in-india-and-how-far-are-we-from/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/feminism/faq/map-order-1-draft-false-topic-feminism-question-why-do-more-educated-women-in-india-often-participate-less-in-the-labour-force-rather-than-more-body-the-relationship-between-education-and-womens-work-is-not-linear-participati/"
+  to = "/topics/feminism/faq/why-do-more-educated-women-in-india-often-participate-less-in-the-labour-force-rather-than-more/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-body-a-gujarat-tax-tribunal-once-had-to-rule-on-what-a-paratha-is-a-plain-roti-was-taxed-at-5-a-frozen-paratha-the-bench-decided-must-be-heated-before-it-can-be-eaten-which-made-it-a-different-foodtaxable-at/"
+  to = "/topics/gst/faq/why-do-tax-reformers-keep-repeating-broad-base-low-rate-simple-rules/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-body-a-tax-system-is-good-if-it-raises-the-money-a-state-needs-with-minimum-collateral-damage-it-is-hard-to-dodge-reasonably-fair-and-does-not-push-people-into-wasteful-behaviour-most-arguments-about-taxes-are/"
+  to = "/topics/gst/faq/what-makes-a-tax-system-good/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-body-by-the-obvious-measure-gst-looks-like-a-triumph-monthly-collections-now-routinely-cross-2-lakh-crore-and-touched-a-record-2-36-lakh-crore-in-april-2025-the-full-financial-year-2024-25-brought-in-about/"
+  to = "/topics/gst/faq/how-has-gst-performed-as-a-source-of-revenue/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-question-has-gst-delivered-on-its-promise-topic-gst-body-the-gst-was-sold-as-a-clean-up-address-the-pernicious-cascading-taxes-remove-the-barriers-at-state-borders-and-create-a-unified-pan-india-market/"
+  to = "/topics/gst/faq/has-gst-delivered-on-its-promise/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-question-if-something-is-gstexempt-why-isnt-it-cheaper-topic-gst-body-formal-education-is-exempt-from-gst-so-a-school-charges-no-tax-on-its-fees-yet-part-of-what-you-pay-in-those-fees-is-still-ta/"
+  to = "/topics/gst/faq/if-something-is-gst-exempt-why-isnt-it-cheaper/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-question-shouldnt-essential-goods-be-taxed-at-lower-rates-to-help-the-poor-topic-gst-body-rice-cooking-oil-a-bar-of-soapthese-are-essential-things-no-household-can-do-without-and-on-which-the-po/"
+  to = "/topics/gst/faq/shouldnt-essential-goods-be-taxed-at-lower-rates-to-help-the-poor/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-topic-gst-body-gst-replaced-a-fractured-indirect-tax-system-with-one-designed-to-be-predictable-easy-to-comply-with-and-efficient-to-see-why-that-mattered-look-at-the-system-it-replaced-n-nbefore-2017-ind/"
+  to = "/topics/gst/faq/why-was-gst-seen-as-a-landmark-reform-in-2017/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-topic-gst-body-if-a-lower-rate-on-essentials-mostly-benefits-the-rich-as-the-last-question-argued-how-should-a-tax-system-protect-the-poor-the-worry-rests-on-the-assumption-that-for-the-tax-system-as-a-whole/"
+  to = "/topics/gst/faq/how-should-the-tax-system-help-the-poor/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-topic-gst-body-the-gst-is-a-value-added-tax-in-design-this-means-it-is-levied-at-multiple-stages-of-production-and-distribution-but-tax-paid-on-inputs-is-credited-against-tax-due-on-output-so-each-firm-effect/"
+  to = "/topics/gst/faq/how-does-gst-work/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-topic-gst-question-did-gst-really-create-one-nation-one-market-body-before-2017-a-truck-driving-from-gurugram-to-chennai-could-expect-to-stop-a-dozen-times-at-each-state-border-it-joined-a-queue/"
+  to = "/topics/gst/faq/did-gst-really-create-one-nation-one-market/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-topic-gst-question-does-gst-help-small-businesses-or-crush-them-with-compliance-body-for-many-small-businesses-gst-does-not-feel-like-the-good-and-simple-tax-it-was-sold-as-in-july-2025-a-vegetabl/"
+  to = "/topics/gst/faq/does-gst-help-small-businesses-or-crush-them-with-compliance/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-topic-gst-question-is-indias-gst-a-real-vat--or-vat-in-form-not-in-function-body-indias-gst-has-the-shape-of-a-modern-value-added-tax-tax-at-every-stage-with-credit-for-the-tax-paid-on-inputs/"
+  to = "/topics/gst/faq/is-indias-gst-a-real-vat-or-vat-in-form-not-in-function/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-topic-gst-question-isnt-a-consumption-tax-like-gst-regressive-since-the-poor-spend-more-of-what-they-earn-body-gst-is-a-tax-on-what-people-spend-not-on-what-they-earn-or-save-and-here-the-poor-and-t/"
+  to = "/topics/gst/faq/isnt-a-consumption-tax-like-gst-regressive-since-the-poor-spend-more-of-what-they-earn/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-topic-gst-question-the-gst-is-levied-on-the-formal-economy-how-does-informality-influence-gsts-actual-impact-on-society-body-one-of-the-most-important-nuances-when-analysing-the-effects-of-the-gst-is/"
+  to = "/topics/gst/faq/the-gst-is-levied-on-the-formal-economy-how-does-informality-influence-gsts-actual-impact-on-society/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-topic-gst-question-what-was-gst-2-0-and-was-it-a-step-in-the-right-direction-body-for-its-first-eight-years-indias-gst-had-too-many-rates-0-5-12-18-and-28-plus-cesses-which-made-it-in-the-imfs/"
+  to = "/topics/gst/faq/what-was-gst-2-0-and-was-it-a-step-in-the-right-direction/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-topic-gst-question-when-you-buy-from-another-state-which-government-gets-the-tax-body-if-you-buy-a-car-through-a-dealer-in-punjab-that-was-built-in-tamil-nadu-two-governments-could-tax-it-tamil-nadu-w/"
+  to = "/topics/gst/faq/when-you-buy-from-another-state-which-government-gets-the-tax/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-topic-gst-question-who-runs-gst-and-why-does-the-gst-council-matter-so-much-body-gst-is-meant-to-be-one-tax-for-one-national-market-so-why-isnt-it-simply-run-by-delhi-like-the-income-tax-because-a-bro/"
+  to = "/topics/gst/faq/who-runs-gst-and-why-does-the-gst-council-matter-so-much/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-topic-gst-question-why-are-exemptions-considered-cancer-in-the-vat-system-body-maurice-laur%C3%A9-the-french-tax-official-credited-with-inventing-the-first-full-value-added-tax-introduced-in-france-in-1954/"
+  to = "/topics/gst/faq/why-are-exemptions-considered-cancer-in-the-vat-system/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/gst/faq/map-order-1-draft-false-topic-gst-question-why-are-petrol-power-and-property-still-outside-gst-and-why-does-it-matter-body-gst-was-meant-to-be-one-tax-on-everything-yet-four-of-the-biggest-things-indians-spend-on-never-came/"
+  to = "/topics/gst/faq/why-are-petrol-power-and-property-still-outside-gst-and-why-does-it-matter/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/labor/faq/map-order-1-draft-false-topic-labor-question-how-do-indias-manufacturing-prospects-compare-with-those-of-competing-manufacturing-economies-body-indias-biggest-advantage-in-attracting-global-manufacturing-is-competitive-wages/"
+  to = "/topics/labor/faq/how-do-indias-manufacturing-prospects-compare-with-those-of-competing-manufacturing-economies/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/labor/faq/map-order-1-draft-false-topic-labor-question-how-do-labour-regulations-affect-womens-access-to-manufacturing-jobs-body-manufacturing-jobs-pay-https-www-ilo-org-sites-default-files-wcmsp5-groups-public-asia-ro-bangkok-sro/"
+  to = "/topics/labor/faq/how-do-labour-regulations-affect-womens-access-to-manufacturing-jobs/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/labor/faq/map-order-1-draft-false-topic-labor-question-how-do-working-hour-regulations-limit-what-a-factory-worker-can-actually-earn-body-a-factory-workers-earnings-depend-not-only-on-the-wage-rate-but-also-on-the-number-of-hours-worked/"
+  to = "/topics/labor/faq/how-do-working-hour-regulations-limit-what-a-factory-worker-can-actually-earn/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/labor/faq/map-order-1-draft-false-topic-labor-question-how-is-indias-labour-regulatory-framework-structured-body-indias-labour-regulatory-framework-comprises-https-cdn-static-teamleaseregtech-com-static-pdf-white_paper_labour_day-pdf/"
+  to = "/topics/labor/faq/how-is-indias-labour-regulatory-framework-structured/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/labor/faq/map-order-1-draft-false-topic-labor-question-what-does-indias-manufacturing-sector-actually-look-like-body-indias-manufacturing-sector-employs-https-www-pib-gov-in-pressreleaseshare-aspx-prid-1814547-reg-3-lang-2-over-6/"
+  to = "/topics/labor/faq/what-does-indias-manufacturing-sector-actually-look-like/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/labor/faq/map-order-1-draft-false-topic-labor-question-what-drives-firms-to-prefer-contract-workers-over-permanent-employees-and-who-bears-the-cost-body-indian-manufacturing-firms-employ-two-broad-categories-of-workers-permanent-employe/"
+  to = "/topics/labor/faq/what-drives-firms-to-prefer-contract-workers-over-permanent-employees-and-who-bears-the-cost/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/labor/faq/map-order-1-draft-false-topic-labor-question-why-do-laws-designed-to-protect-workers-end-up-restricting-them-instead-body-the-legislators-who-drafted-indias-labour-laws-were-not-indifferent-to-workers-welfare-the-overtime-premi/"
+  to = "/topics/labor/faq/why-do-laws-designed-to-protect-workers-end-up-restricting-them-instead/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/labor/faq/map-order-1-draft-false-topic-labor-question-why-does-so-much-manufacturing-employment-sit-outside-formal-arrangements-and-what-does-that-mean-for-workers-body-a-formal-manufacturing-job-comes-with-a-defined-set-of-protections/"
+  to = "/topics/labor/faq/why-does-so-much-manufacturing-employment-sit-outside-formal-arrangements-and-what-does-that-mean/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/labor/faq/map-order-1-draft-false-topic-labor-question-why-has-indias-rapid-economic-growth-not-translated-into-more-or-better-manufacturing-jobs-body-the-economic-transformations-of-east-asia-offer-the-most-instructive-point-of-compariso/"
+  to = "/topics/labor/faq/why-has-indias-rapid-economic-growth-not-translated-into-more-or-better-manufacturing-jobs/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-question-can-the-government-ban-a-peaceful-livelihood-just-because-it-disapproves-of-it-body-no-a-constitution-need-not-protect-every-way-of-making-money-but-it-should-protect-every-peaceful-way-of-making-a-l/"
+  to = "/topics/livelihoods/faq/can-the-government-ban-a-peaceful-livelihood-just-because-it-disapproves-of-it/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-question-i-keep-seeing-more-cars-and-motorcycles-on-delhis-roads-but-people-say-there-cannot-be-too-many-auto-rickshaws-who-decides-how-many-autos-are-allowed-and-why-is-there-no-similar-limit-on-private-vehicles/"
+  to = "/topics/livelihoods/faq/i-keep-seeing-more-cars-and-motorcycles-on-delhis-roads-but-people-say-there-cannot-be-too-many-auto/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-body-the-law-says-the-vendor-does-not-own-the-pavement-and-the-law-is-right-the-street-belongs-to-the-public-with-the-municipality-holding-it-in-trust-a-vendor-is-not-a-shopkeeper-with-a-ti/"
+  to = "/topics/livelihoods/faq/if-public-land-belongs-to-everyone-why-do-vendors-sit-at-the-same-spot-every-day-as-if-it-belongs-to/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-alcohol-tobacco-gambling-sex-work-when-a-trade-is-thought-immoral-can-the-state-declare-it-is-not-really-a-trade-at-all-body-the-constitution-lets-the-state-regulate-harmfu/"
+  to = "/topics/livelihoods/faq/alcohol-tobacco-gambling-sex-work-when-a-trade-is-thought-immoral-can-the-state-declare-it-is-not/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-does-the-constitution-protect-only-formal-businesses-or-also-informal-workers-body-the-constitution-protects-informal-work-too-and-the-word-that-does-the-lifting-is-occupati/"
+  to = "/topics/livelihoods/faq/does-the-constitution-protect-only-formal-businesses-or-also-informal-workers/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-domestic-workers-depend-on-several-households-for-their-income-often-with-no-written-contract-no-fixed-leave-and-no-clear-protection-against-mistreatment-are-they-protected-as-work/"
+  to = "/topics/livelihoods/faq/domestic-workers-depend-on-several-households-for-their-income-often-with-no-written-contract-no/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-how-do-vendors-decide-where-to-sit-when-there-is-no-official-vending-plan-body-they-work-it-out-among-themselves-and-the-result-is-not-chaos-it-is-order-that-grew-rather-than/"
+  to = "/topics/livelihoods/faq/how-do-vendors-decide-where-to-sit-when-there-is-no-official-vending-plan/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-i-rarely-see-cycle-rickshaws-or-e-rickshaws-in-lutyens-delhi-or-much-of-south-delhi-are-they-banned-there-if-congestion-is-the-concern-why-are-large-private-cars-and-suvs-allowed-in/"
+  to = "/topics/livelihoods/faq/i-rarely-see-cycle-rickshaws-or-e-rickshaws-in-lutyens-delhi-or-much-of-south-delhi-are-they-banned/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-i-see-so-many-e-rickshaws-and-auto-rickshaws-on-the-road-but-theyre-all-run-by-individual-drivers-why-dont-companies-run-them-like-they-run-cabs-or-airlines-body-because-india/"
+  to = "/topics/livelihoods/faq/i-see-so-many-e-rickshaws-and-auto-rickshaws-on-the-road-but-theyre-all-run-by-individual-drivers/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-if-vendors-already-manage-space-among-themselves-why-do-we-need-government-rules-at-all-body-informal-order-works-until-the-stakes-rise-and-then-it-needs-backing-in-a-settled/"
+  to = "/topics/livelihoods/faq/if-vendors-already-manage-space-among-themselves-why-do-we-need-government-rules-at-all/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-if-vendors-occupy-public-space-why-should-the-law-protect-them-what-about-pedestrians-residents-shopkeepers-buses-and-delivery-workers-who-also-need-the-street-body-the-p/"
+  to = "/topics/livelihoods/faq/if-vendors-occupy-public-space-why-should-the-law-protect-them-what-about-pedestrians-residents/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-if-we-dont-cap-the-number-of-street-vendors-wont-every-pavement-and-market-lane-become-impossible-to-walk-through-body-the-act-already-caps-them-and-the-cap-is-the-problem-t/"
+  to = "/topics/livelihoods/faq/if-we-dont-cap-the-number-of-street-vendors-wont-every-pavement-and-market-lane-become-impossible-to/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-should-street-vending-be-allowed-only-for-poor-people-who-have-no-other-source-of-income-body-no-vending-is-not-a-poverty-relief-scheme-and-the-right-to-trade-should-not-depen/"
+  to = "/topics/livelihoods/faq/should-street-vending-be-allowed-only-for-poor-people-who-have-no-other-source-of-income/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-shouldnt-the-government-move-street-vendors-out-of-busy-streets-and-into-designated-vending-zones-body-the-question-rests-on-a-misunderstanding-that-a-vending-zone-means-a/"
+  to = "/topics/livelihoods/faq/shouldnt-the-government-move-street-vendors-out-of-busy-streets-and-into-designated-vending-zones/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-what-does-it-mean-to-have-a-right-to-carry-on-a-trade-business-or-occupation-in-india-body-the-right-means-you-can-earn-a-living-without-first-asking-the-states-permission-to/"
+  to = "/topics/livelihoods/faq/what-does-it-mean-to-have-a-right-to-carry-on-a-trade-business-or-occupation-in-india/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-when-i-book-an-auto-through-an-app-i-know-the-fare-before-the-ride-but-a-metered-auto-on-the-road-often-refuses-to-go-by-the-meter-if-meters-are-legally-required-why-do-they-matte/"
+  to = "/topics/livelihoods/faq/when-i-book-an-auto-through-an-app-i-know-the-fare-before-the-ride-but-a-metered-auto-on-the-road/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-when-many-people-use-public-space-for-private-purposes-who-should-decide-who-gets-to-use-it-where-and-when-body-decisions-about-a-street-should-be-made-as-close-to-that-stree/"
+  to = "/topics/livelihoods/faq/when-many-people-use-public-space-for-private-purposes-who-should-decide-who-gets-to-use-it-where/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-who-should-decide-how-many-vendors-sit-in-a-market-and-where-exactly-they-sit-body-the-act-hands-this-job-mainly-to-town-vending-committees-and-that-is-a-better-default-than/"
+  to = "/topics/livelihoods/faq/who-should-decide-how-many-vendors-sit-in-a-market-and-where-exactly-they-sit/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/livelihoods/faq/map-order-1-draft-false-topic-livelihoods-question-why-are-street-vendors-allowed-to-sell-on-footpaths-and-roads-arent-streets-for-walking-and-traffic-body-streets-are-for-walking-and-traffic-they-are-also-for-a-hundred-things/"
+  to = "/topics/livelihoods/faq/why-are-street-vendors-allowed-to-sell-on-footpaths-and-roads-arent-streets-for-walking-and-traffic/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/pubc/faq/map-order-1-draft-false-question-why-is-it-so-difficult-to-hold-politicians-accountable-for-what-they-actually-deliver-topic-pubc-body-indian-voters-throw-incumbents-out-all-the-time-and-yet-poor-policy-persists-that-paradox-i/"
+  to = "/topics/pubc/faq/why-is-it-so-difficult-to-hold-politicians-accountable-for-what-they-actually-deliver/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/pubc/faq/map-order-1-draft-false-topic-pubc-question-why-are-government-officials-rarely-rewarded-or-penalised-based-on-their-performance-body-in-most-organisations-performance-shapes-careers-people-who-deliver-results-advance-those-w/"
+  to = "/topics/pubc/faq/why-are-government-officials-rarely-rewarded-or-penalised-based-on-their-performance/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/pubc/faq/map-order-1-draft-false-topic-pubc-question-why-can-a-policy-seem-good-and-still-cause-harm-body-most-policies-are-judged-by-what-they-set-out-to-do-a-scheme-that-promises-to-help-farmers-improve-health-or-create-jobs-s/"
+  to = "/topics/pubc/faq/why-can-a-policy-seem-good-and-still-cause-harm/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/pubc/faq/map-order-1-draft-false-topic-pubc-question-why-do-good-policies-so-often-fail-at-the-point-of-implementation-body-the-usual-explanation-is-that-officials-are-incompetent-or-corrupt-both-can-be-true-but-neither-is-the-deep-pro/"
+  to = "/topics/pubc/faq/why-do-good-policies-so-often-fail-at-the-point-of-implementation/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/pubc/faq/map-order-1-draft-false-topic-pubc-question-why-do-governments-offer-subsidies-and-freebies-especially-around-elections-body-subsidies-make-good-political-sense-even-when-they-are-bad-fiscal-policy-to-see-why-start-with-the/"
+  to = "/topics/pubc/faq/why-do-governments-offer-subsidies-and-freebies-especially-around-elections/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/pubc/faq/map-order-1-draft-false-topic-pubc-question-why-do-politicians-announce-new-schemes-when-similar-ones-already-exist-instead-of-fixing-the-existing-scheme-body-because-a-new-scheme-is-visible-and-a-repair-is-not-announcing-a-pr/"
+  to = "/topics/pubc/faq/why-do-politicians-announce-new-schemes-when-similar-ones-already-exist-instead-of-fixing-the/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/pubc/faq/map-order-1-draft-false-topic-pubc-question-why-do-politicians-focus-on-visible-short-term-actions-rather-than-long-term-reforms-body-a-politician-who-may-not-hold-the-seat-in-five-years-has-little-reason-to-begin-something-tha/"
+  to = "/topics/pubc/faq/why-do-politicians-focus-on-visible-short-term-actions-rather-than-long-term-reforms/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/pubc/faq/map-order-1-draft-false-topic-pubc-question-why-do-some-government-projects-in-india-take-far-longer-and-cost-far-more-than-expected-body-government-projects-overrun-so-reliably-that-overruns-have-become-the-norm-rather-than-the/"
+  to = "/topics/pubc/faq/why-do-some-government-projects-in-india-take-far-longer-and-cost-far-more-than-expected/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/pubc/faq/map-order-1-draft-false-topic-pubc-question-why-does-the-government-keep-running-loss-making-public-enterprises-body-because-the-people-who-benefit-from-keeping-them-open-are-not-the-people-paying-for-the-losses-n-nbefore-askin/"
+  to = "/topics/pubc/faq/why-does-the-government-keep-running-loss-making-public-enterprises/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-question-india-exports-more-software-than-clothes-how-did-that-happen-and-does-it-matter-topic-trade-body-india-earns-close-to-200-billion-a-year-from-software-and-back-office-work-several-times-what/"
+  to = "/topics/trade/faq/india-exports-more-software-than-clothes-how-did-that-happen-and-does-it-matter/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-body-when-an-indian-consumer-buys-an-imported-phone-an-indian-producer-loses-a-sale-multiply-that-choice-across-thousands-of-consumers-and-workers-at-indian-factories-lose-their-jobs-those-job-lo/"
+  to = "/topics/trade/faq/if-cheap-imports-can-shut-indian-factories-why-do-economists-still-support-free-trade/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-question-after-the-tariff-wars-and-the-new-deals-what-is-the-smart-trade-strategy-from-here-body-indias-fastest-growth-came-when-the-world-was-open-and-india-was-only-partly-so-between-1991/"
+  to = "/topics/trade/faq/after-the-tariff-wars-and-the-new-deals-what-is-the-smart-trade-strategy-from-here/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-question-cheap-chinese-imports-destroyed-factory-jobs-across-the-west-did-that-really-happen-and-could-it-happen-to-india-body-this-claim-gets-repeated-so-often-it-sounds-like-a-slogan-it-h/"
+  to = "/topics/trade/faq/cheap-chinese-imports-destroyed-factory-jobs-across-the-west-did-that-really-happen-and-could-it/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-question-china-subsidises-undervalues-its-currency-forces-tech-transfer-isnt-free-trade-with-china-just-na%C3%AFve-body-the-suspicion-is-right-china-does-not-compete-like-an-ordinary-tradi/"
+  to = "/topics/trade/faq/china-subsidises-undervalues-its-currency-forces-tech-transfer-isnt-free-trade-with-china-just-naive/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-question-does-the-rupees-value-decide-whether-india-can-compete-body-every-few-months-the-rupee-touches-a-record-low-against-the-dollar-and-the-number-leads-the-bulletins-as-though-a-verdict/"
+  to = "/topics/trade/faq/does-the-rupees-value-decide-whether-india-can-compete/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-question-every-rich-country-protected-its-young-industries-once-why-is-it-wrong-for-india-to-do-the-same-body-sceptics-of-trade-liberalisation-point-out-that-britain-and-america-both-taxed-i/"
+  to = "/topics/trade/faq/every-rich-country-protected-its-young-industries-once-why-is-it-wrong-for-india-to-do-the-same/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-question-if-we-buy-far-more-from-a-country-than-we-sell-it-are-we-losing-body-india-buys-far-more-from-china-than-it-sells-back-and-the-gap-has-run-to-the-better-part-of-a-hundred-billion-d/"
+  to = "/topics/trade/faq/if-we-buy-far-more-from-a-country-than-we-sell-it-are-we-losing/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-question-india-gets-called-the-tariff-king-why-are-indian-tariffs-so-sticky-do-they-benefit-the-economy-body-india-taxes-imports-more-heavily-than-almost-any-other-large-economy-several/"
+  to = "/topics/trade/faq/india-gets-called-the-tariff-king-why-are-indian-tariffs-so-sticky-do-they-benefit-the-economy/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-question-india-tried-to-make-everything-itself-for-40-years-then-opened-up-in-1991-what-did-that-journey-teach-us-body-for-forty-years-after-independence-the-most-valuable-thing-an-indian-c/"
+  to = "/topics/trade/faq/india-tried-to-make-everything-itself-for-40-years-then-opened-up-in-1991-what-did-that-journey/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-question-make-in-india-pays-firms-crores-to-build-here-is-it-working-or-just-subsidising-assembly-of-chinese-parts-body-the-phone-in-your-pocket-was-very-likely-put-together-in-a-plant-o/"
+  to = "/topics/trade/faq/make-in-india-pays-firms-crores-to-build-here-is-it-working-or-just-subsidising-assembly-of-chinese/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-question-opening-up-made-india-richer-so-why-are-hundreds-of-millions-of-us-still-poor-body-india-after-1991-is-a-different-country-and-most-indians-now-live-better-than-their-parents-did-y/"
+  to = "/topics/trade/faq/opening-up-made-india-richer-so-why-are-hundreds-of-millions-of-us-still-poor/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-question-the-government-is-making-imports-meet-indian-quality-standards-surely-keeping-out-shoddy-goods-is-a-good-thing-body-at-first-hearing-yes-nobody-wants-dangerous-toys-or-explodi/"
+  to = "/topics/trade/faq/the-government-is-making-imports-meet-indian-quality-standards-surely-keeping-out-shoddy-goods-is-a/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-question-what-decides-what-a-country-makes-well-and-can-that-change-body-india-has-hundreds-of-millions-of-workers-willing-to-work-for-wages-no-european-would-accept-walk-into-an-indian-shop/"
+  to = "/topics/trade/faq/what-decides-what-a-country-makes-well-and-can-that-change/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/trade/faq/map-order-1-draft-false-topic-trade-question-when-we-depend-on-a-rival-for-chips-solar-panels-medicine-ingredients-how-worried-should-we-be-body-when-covid-closed-borders-india-the-pharmacy-of-the-world-discovered-how/"
+  to = "/topics/trade/faq/when-we-depend-on-a-rival-for-chips-solar-panels-medicine-ingredients-how-worried-should-we-be/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/urban/faq/map-order-1-draft-false-topic-urban-question-can-indian-cities-be-made-to-look-beautiful-more-organised-and-less-chaotic-body-yes-cities-can-be-beautiful-but-that-beauty-is-not-the-same-as-the-beauty-of-a-work-of-art-a-city/"
+  to = "/topics/urban/faq/can-indian-cities-be-made-to-look-beautiful-more-organised-and-less-chaotic/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/urban/faq/map-order-1-draft-false-topic-urban-question-should-we-be-concerned-about-slums-in-cities-body-the-answer-depends-on-what-we-mean-to-protect-the-people-living-in-slums-or-the-structures-themselves-if-we-care-about-people-we/"
+  to = "/topics/urban/faq/should-we-be-concerned-about-slums-in-cities/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/urban/faq/map-order-1-draft-false-topic-urban-question-why-are-there-so-few-open-spaces-and-parks-in-indian-cities-body-every-city-faces-the-same-choice-once-land-runs-scarce-and-land-always-runs-scarce-in-a-city-a-government-can-use-la/"
+  to = "/topics/urban/faq/why-are-there-so-few-open-spaces-and-parks-in-indian-cities/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/urban/faq/map-order-1-draft-false-topic-urban-question-why-do-potholes-never-stop-emerging-and-what-prevents-timely-repairs-body-the-word-pothole-undersells-the-problem-it-captures-none-of-the-frustration-the-hazard-and-the-hardsh/"
+  to = "/topics/urban/faq/why-do-potholes-never-stop-emerging-and-what-prevents-timely-repairs/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/urban/faq/map-order-1-draft-false-topic-urban-question-why-do-some-cities-become-unsafe-after-sunset-body-free-movement-and-a-mix-of-uses-buildings-that-combine-commercial-entertainment-occupational-and-residential-purposes-make-a-ne/"
+  to = "/topics/urban/faq/why-do-some-cities-become-unsafe-after-sunset/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/urban/faq/map-order-1-draft-false-topic-urban-question-why-is-flooding-a-norm-in-indian-cities-body-indian-cities-swing-between-two-water-crises-rain-floods-them-and-summer-drains-them-dry-the-root-cause-behind-both-is-simple-indian-c/"
+  to = "/topics/urban/faq/why-is-flooding-a-norm-in-indian-cities/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/urban/faq/map-order-1-draft-false-topic-urban-question-why-is-there-so-much-traffic-on-city-roads-and-highways-body-road-space-is-a-scarce-commodity-and-in-most-indian-cities-drivers-pay-nothing-to-use-it-a-driver-in-an-alto-uses-far/"
+  to = "/topics/urban/faq/why-is-there-so-much-traffic-on-city-roads-and-highways/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/urban/faq/map-order-1-draft-false-topic-urban-question-why-is-walking-in-our-cities-so-difficult-body-india-is-a-country-of-walkers-a-2019-survey-found-that-indians-made-63-of-all-journeys-on-foot-and-other-estimates-suggest-that-about/"
+  to = "/topics/urban/faq/why-is-walking-in-our-cities-so-difficult/"
+  status = 301
+
+[[redirects]]
+  from = "/topics/urban/faq/map-order-1-draft-false-topic-urban-question-why-is-your-house-rent-so-high-body-rent-depends-on-where-a-resident-chooses-to-live-in-the-city-the-search-for-decent-affordable-housing-though-keeps-pushing-city-residents-furth/"
+  to = "/topics/urban/faq/why-is-your-house-rent-so-high/"
+  status = 301
+
 [[redirects]]
   from = "/*"
   to = "/404"
