@@ -121,7 +121,7 @@ export function solveForContrast(
   return { ...best, ratio: contrastRatio(best.hex, bg) };
 }
 
-// ── The ten hues ──
+// ── The pinned hues ──
 //
 // Not picked by eye and not evenly spaced. All 360 hues were generated in
 // three renditions and a search maximised the minimum pairwise OKLab distance
@@ -130,6 +130,12 @@ export function solveForContrast(
 // registers a change, 30 in violet to magenta where it registers a lot.
 //
 // Keyed by topic `slug`, which is also the FAQ folder name.
+//
+// This map is the registry of hues that are already published and must never
+// move: a reader learns a theme by its colour, so an assignment that has
+// shipped is frozen here. A theme that is NOT in this map still gets a hue —
+// assignHues below solves for one — but pinning it makes it permanent. Pin a
+// new theme once you are happy with the colour it was given.
 
 export const THEME_HUES: Record<string, number> = {
   livelihoods: 21,
@@ -145,10 +151,14 @@ export const THEME_HUES: Record<string, number> = {
   // Brick and laterite: the built environment. Added when CCS published an
   // eleventh theme, which the capacity note below said could not be done.
   urban: 41,
+  // Deep blue, the widest remaining gap. Chosen by assignHues when CCS
+  // published a twelfth theme, then pinned so it stops moving. It costs the
+  // set 5.77 → 5.54 min separation, measured on the two rendered renditions.
+  property: 248,
 };
 
 /**
- * How many hues the palette can hold and still keep them apart.
+ * The separation below which two themes stop being reliably tellable apart.
  *
  * The design note this was built from claimed the set collapsed from deltaE
  * 7.21 to 3.91 at eleven. That is true only of a naive insertion — dropping a
@@ -156,12 +166,22 @@ export const THEME_HUES: Record<string, number> = {
  * and adding an eleventh while keeping the existing ten fixed (which preserves
  * every semantic assignment) holds 5.56 against 6.70 for the ten.
  *
- * So the ceiling was softer than documented. It is still real: each additional
- * hue costs separation, and the assertion exists so the cost is paid
- * deliberately rather than discovered by a reader who cannot tell two themes
- * apart. Raise this only after re-running the separation measurement.
+ * So the ceiling was softer than documented, and it is a slope rather than a
+ * cliff. There is no count at which the palette abruptly stops working; each
+ * additional hue just costs separation. Measured on the current pinned set,
+ * letting assignHues solve for the rest:
+ *
+ *     12 themes  5.54      16 themes  4.21
+ *     13 themes  4.60      17 themes  4.07
+ *     14 themes  4.48      18 themes  3.99   <- first breach
+ *     15 themes  4.37      20 themes  3.18
+ *
+ * So this floor first speaks at eighteen, six beyond where the corpus stands.
+ * It warns rather than throws: a published theme going uncoloured, or a whole
+ * site left unbuilt, is a worse outcome for a reader than two themes sitting
+ * closer together than the design would like.
  */
-export const HUE_CAPACITY = 11;
+export const SEPARATION_FLOOR = 4.0;
 
 // ── Grounds ──
 
@@ -192,12 +212,139 @@ export type ThemeColours = {
   fillChroma: number;
 };
 
-let cache: Record<string, ThemeColours> | null = null;
+// ── Hues for themes that have not been pinned ──
+//
+// The CMS can publish a theme; it cannot edit this file. So a hue has to be
+// available for a slug nobody has assigned one to, or an editor doing their
+// job takes the site's build down. These solve for one.
+//
+// The search is the same one that produced the pinned set: walk all 360 hues
+// and take the one whose closest rendered neighbour is furthest away. It runs
+// against every pinned hue, not just the themes currently being rendered, so
+// the answer does not depend on which subset of the corpus a caller asks for.
+//
+// Assignment is deterministic — same slugs in, same hues out, every build.
+// It is stable under append, and only under append: pending slugs are taken in
+// alphabetical order, so a new theme sorting *before* an existing unpinned one
+// shifts that one's colour. Pinning is what makes a colour permanent, which is
+// why an assignment that has shipped belongs in THEME_HUES.
 
-export function themePalette(): Record<string, ThemeColours> {
-  if (cache) return cache;
+type Lab = [number, number, number];
+
+const HUE_STEPS = 360;
+
+function oklabOf(hex: string): Lab {
+  const h = hex.replace('#', '');
+  const [r, g, b] = [0, 2, 4].map((i) => srgbToLinear(parseInt(h.slice(i, i + 2), 16) / 255));
+  const l = Math.cbrt(0.4122214708 * r + 0.5363325363 * g + 0.0514459929 * b);
+  const m = Math.cbrt(0.2119034982 * r + 0.6806995451 * g + 0.1073969566 * b);
+  const s = Math.cbrt(0.0883024619 * r + 0.2817188376 * g + 0.6299787005 * b);
+  return [
+    0.2104542553 * l + 0.793617785 * m - 0.0040720468 * s,
+    1.9779984951 * l - 0.2428592205 * m + 0.4505937099 * s,
+    0.0259040371 * l + 0.7827717662 * m - 0.808675766 * s,
+  ];
+}
+
+/**
+ * Both renditions of every hue, in OKLab.
+ *
+ * Built once and only when something actually needs assigning — 720 contrast
+ * solves is real work, and a corpus whose themes are all pinned never does it.
+ */
+let renditions: Lab[][] | null = null;
+function renditionTable(): Lab[][] {
+  if (renditions) return renditions;
+  const table: Lab[][] = [];
+  for (let h = 0; h < HUE_STEPS; h += 1) {
+    table.push([
+      oklabOf(solveForContrast(h, INK_CHROMA, INK_TARGET, SECTION).hex),
+      oklabOf(solveForContrast(h, FILL_CHROMA, FILL_TARGET, SECTION).hex),
+    ]);
+  }
+  renditions = table;
+  return table;
+}
+
+const labDistance = (a: Lab, b: Lab): number => Math.hypot(a[0] - b[0], a[1] - b[1], a[2] - b[2]);
+
+/**
+ * Perceptual distance between two hues, in OKLab units x100.
+ *
+ * Measured on the rendered hex of both renditions and reported as the closer
+ * of the two, because two themes are only as distinguishable as their most
+ * similar appearance. Comparing hue angles instead would call 226 and 258 far
+ * apart while their clipped inks sit almost on top of each other.
+ */
+export function hueDistance(a: number, b: number): number {
+  const table = renditionTable();
+  const x = table[((a % HUE_STEPS) + HUE_STEPS) % HUE_STEPS];
+  const y = table[((b % HUE_STEPS) + HUE_STEPS) % HUE_STEPS];
+  return Math.min(labDistance(x[0], y[0]), labDistance(x[1], y[1])) * 100;
+}
+
+/** The closest any two hues in a set come to each other. */
+export function minSeparation(hues: number[]): number {
+  let min = Infinity;
+  for (let i = 0; i < hues.length; i += 1) {
+    for (let j = i + 1; j < hues.length; j += 1) {
+      const d = hueDistance(hues[i], hues[j]);
+      if (d < min) min = d;
+    }
+  }
+  return min;
+}
+
+/**
+ * Hues for every slug given, pinned ones unchanged and the rest solved for.
+ *
+ * Ties go to the lower hue angle, so the result is reproducible rather than
+ * dependent on iteration order.
+ */
+export function assignHues(slugs: Iterable<string>): Record<string, number> {
+  const out: Record<string, number> = { ...THEME_HUES };
+  const pending = [...new Set(slugs)].filter((slug) => out[slug] === undefined).sort();
+  if (pending.length === 0) return out;
+
+  const taken = new Set(Object.values(out));
+  for (const slug of pending) {
+    let bestHue = 0;
+    let bestSeparation = -1;
+    for (let h = 0; h < HUE_STEPS; h += 1) {
+      if (taken.has(h)) continue;
+      let closest = Infinity;
+      for (const t of taken) {
+        const d = hueDistance(h, t);
+        if (d < closest) closest = d;
+      }
+      if (closest > bestSeparation) {
+        bestSeparation = closest;
+        bestHue = h;
+      }
+    }
+    out[slug] = bestHue;
+    taken.add(bestHue);
+  }
+  return out;
+}
+
+const cache = new Map<string, Record<string, ThemeColours>>();
+
+/**
+ * Colours for the given theme slugs. Omit them and only the pinned themes
+ * come back, which is what a caller that just wants the registry wants.
+ */
+export function themePalette(slugs?: Iterable<string>): Record<string, ThemeColours> {
+  const hues = slugs === undefined ? { ...THEME_HUES } : assignHues(slugs);
+  const key = Object.entries(hues)
+    .map(([slug, hue]) => `${slug}:${hue}`)
+    .sort()
+    .join(',');
+  const hit = cache.get(key);
+  if (hit) return hit;
+
   const out: Record<string, ThemeColours> = {};
-  for (const [slug, hue] of Object.entries(THEME_HUES)) {
+  for (const [slug, hue] of Object.entries(hues)) {
     const ink = solveForContrast(hue, INK_CHROMA, INK_TARGET, SECTION);
     const fill = solveForContrast(hue, FILL_CHROMA, FILL_TARGET, SECTION);
     out[slug] = {
@@ -212,13 +359,13 @@ export function themePalette(): Record<string, ThemeColours> {
       fillRatioOnSection: contrastRatio(fill.hex, SECTION),
     };
   }
-  cache = out;
+  cache.set(key, out);
   return out;
 }
 
 /** Emitted into the stylesheet as literal hex, one block per theme. */
-export function themeCss(): string {
-  const palette = themePalette();
+export function themeCss(slugs?: Iterable<string>): string {
+  const palette = themePalette(slugs);
   return Object.entries(palette)
     .map(
       ([slug, c]) =>

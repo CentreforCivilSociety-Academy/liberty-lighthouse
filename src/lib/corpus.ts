@@ -12,7 +12,7 @@
  */
 
 import { getCollection } from 'astro:content';
-import { THEME_HUES, HUE_CAPACITY, themePalette } from './palette';
+import { SEPARATION_FLOOR, THEME_HUES, minSeparation, themePalette } from './palette';
 import { countWords } from './word-count';
 import lock from '../content/corpus.lock.json';
 
@@ -113,7 +113,8 @@ export async function getCorpus(
     a.data.title.trim().localeCompare(b.data.title.trim(), 'en'),
   );
 
-  const palette = themePalette();
+  // Pass every slug, so a theme the CMS added without a pinned hue still gets one.
+  const palette = themePalette(sorted.map((topic) => topic.data.slug));
 
   const themes: CorpusTheme[] = sorted.map((topic, index) => {
     const slug = topic.data.slug;
@@ -170,7 +171,7 @@ export async function getCorpus(
       section: index + 1,
       anchor: `s-${slug}`,
       href: `/topics/${slug}/`,
-      hue: THEME_HUES[slug],
+      hue: themeColours?.hue ?? 0,
       ink: themeColours?.ink ?? '#000000',
       fill: themeColours?.fill ?? '#000000',
       questions: mine.length,
@@ -180,6 +181,18 @@ export async function getCorpus(
       rows,
     };
   });
+
+  // A solved hue is provisional: it holds until a theme sorting before it is
+  // added, and then it moves. Pinning is what makes it permanent, so print the
+  // line that does it rather than leaving the next person to work it out.
+  const unpinned = themes.filter((theme) => THEME_HUES[theme.slug] === undefined);
+  if (unpinned.length > 0) {
+    console.info(
+      `[corpus] ${unpinned.length} theme(s) are running on a solved hue. Paste these into ` +
+        'THEME_HUES in src/lib/palette.ts to freeze them:\n' +
+        unpinned.map((theme) => `  ${JSON.stringify(theme.slug)}: ${theme.hue},`).join('\n'),
+    );
+  }
 
   const corpus: Corpus = {
     themes,
@@ -211,22 +224,22 @@ export function assertCorpus(
   const problems: string[] = [];
 
   for (const theme of corpus.themes) {
-    if (THEME_HUES[theme.slug] === undefined) {
-      problems.push(
-        `Theme "${theme.slug}" has no hue. The colour system holds ${HUE_CAPACITY} distinguishable ` +
-          'hues; add one deliberately in src/lib/palette.ts or group this theme under an existing one.',
-      );
-    }
     if (theme.title !== theme.title.trim()) {
       problems.push(`Theme "${theme.slug}" title has leading or trailing whitespace.`);
     }
   }
 
-  if (corpus.totalThemes > HUE_CAPACITY) {
-    problems.push(
-      `${corpus.totalThemes} themes are defined but the colour system holds ${HUE_CAPACITY} ` +
-        'distinguishable hues. Two themes would render in colours a reader cannot tell apart. ' +
-        'Extend the palette deliberately, or group the new theme under an existing one.',
+  // A theme with no pinned hue gets a solved one rather than stopping the
+  // build — see assignHues. An editor publishing a theme is doing their job,
+  // and taking the deploy down for it costs the reader more than a pair of
+  // close colours does. The cost still gets said out loud when it is real.
+  const separation = minSeparation(corpus.themes.map((theme) => theme.hue));
+  if (Number.isFinite(separation) && separation < SEPARATION_FLOOR) {
+    console.warn(
+      `[corpus] ${corpus.totalThemes} themes, closest pair ${separation.toFixed(2)} apart, ` +
+        `under the ${SEPARATION_FLOOR} floor. Two themes are rendering in colours a reader may ` +
+        'not tell apart: group one under an existing theme, or re-solve the pinned set in ' +
+        'src/lib/palette.ts.',
     );
   }
 

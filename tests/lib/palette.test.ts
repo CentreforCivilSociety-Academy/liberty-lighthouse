@@ -1,7 +1,10 @@
 import { describe, expect, it } from 'vitest';
 import {
   THEME_HUES,
-  HUE_CAPACITY,
+  SEPARATION_FLOOR,
+  assignHues,
+  hueDistance,
+  minSeparation,
   themePalette,
   contrastRatio,
   relativeLuminance,
@@ -25,7 +28,7 @@ describe('theme palette', () => {
   const slugs = Object.keys(THEME_HUES);
 
   it('covers every topic slug exactly once', () => {
-    expect(slugs).toHaveLength(11);
+    expect(slugs).toHaveLength(12);
     expect(new Set(slugs).size).toBe(slugs.length);
   });
 
@@ -34,15 +37,15 @@ describe('theme palette', () => {
     expect(new Set(hues).size, 'two themes share a hue').toBe(hues.length);
   });
 
-  it('does not exceed the palette capacity', () => {
-    // Each hue past the last costs separation. Adding one must fail the build
-    // rather than quietly ship two themes a reader cannot tell apart, so the
-    // cost gets paid deliberately and the separation gets re-measured.
+  it('the pinned set stays clear of the separation floor', () => {
+    // Each hue past the last costs separation. The build no longer stops when
+    // a theme arrives without a hue, so this is what keeps the pinned set
+    // honest: the shipped colours must sit well above the floor.
+    const separation = minSeparation(Object.values(THEME_HUES));
     expect(
-      slugs.length,
-      `The colour system holds ${HUE_CAPACITY} distinguishable hues and ${slugs.length} themes are defined. ` +
-        'Extend the palette deliberately or group the new theme under an existing one.',
-    ).toBeLessThanOrEqual(HUE_CAPACITY);
+      separation,
+      `the closest pinned pair is ${separation.toFixed(2)} apart`,
+    ).toBeGreaterThan(SEPARATION_FLOOR);
   });
 
   it('ink clears AAA on both grounds', () => {
@@ -63,7 +66,7 @@ describe('theme palette', () => {
     }
   });
 
-  it('all ten inks are the same darkness, which is what stops ten hues reading as a toy shop', () => {
+  it('every ink is the same darkness, which is what stops a dozen hues reading as a toy shop', () => {
     const lums = Object.values(palette).map((c) => relativeLuminance(c.ink));
     const spread = (Math.max(...lums) + 0.05) / (Math.min(...lums) + 0.05);
     expect(spread, `ink luminance spread ${spread.toFixed(4)}:1`).toBeLessThan(1.05);
@@ -106,5 +109,69 @@ describe('theme palette', () => {
 
   it('the two grounds are the ones the tokens actually use', () => {
     expect(contrastRatio(PAPER, SECTION)).toBeLessThan(1.2);
+  });
+});
+
+/**
+ * The CMS can publish a theme but cannot edit palette.ts, so an unpinned slug
+ * has to resolve to something. These assert the properties that make the
+ * automatic answer safe to ship: it covers, it does not collide, it stays
+ * apart, and it does not move between builds.
+ */
+describe('hues for unpinned themes', () => {
+  const pinned = Object.keys(THEME_HUES);
+
+  it('gives every unpinned slug a hue', () => {
+    const hues = assignHues([...pinned, 'housing', 'energy']);
+    expect(hues.housing, 'housing went uncoloured').toBeTypeOf('number');
+    expect(hues.energy, 'energy went uncoloured').toBeTypeOf('number');
+  });
+
+  it('never moves a pinned hue', () => {
+    const hues = assignHues([...pinned, 'housing', 'energy', 'water']);
+    for (const slug of pinned) {
+      expect(hues[slug], `${slug} was reassigned`).toBe(THEME_HUES[slug]);
+    }
+  });
+
+  it('does not hand out a hue twice', () => {
+    const hues = assignHues([...pinned, 'housing', 'energy', 'water', 'health']);
+    const values = Object.values(hues);
+    expect(new Set(values).size, 'two themes share a hue').toBe(values.length);
+  });
+
+  it('keeps an assigned theme clear of the floor', () => {
+    const hues = assignHues([...pinned, 'housing']);
+    for (const slug of pinned) {
+      expect(
+        hueDistance(hues.housing, THEME_HUES[slug]),
+        `assigned hue sits on top of ${slug}`,
+      ).toBeGreaterThan(SEPARATION_FLOOR);
+    }
+  });
+
+  it('is deterministic — the same slugs give the same hues every build', () => {
+    const a = assignHues([...pinned, 'housing', 'energy']);
+    const b = assignHues(['energy', 'housing', ...pinned].reverse());
+    expect(b).toEqual(a);
+  });
+
+  it('is stable when a later-sorting theme is appended', () => {
+    // Pinning is what freezes a colour, but appending must not disturb what is
+    // already there, or every new theme would repaint the last one.
+    const before = assignHues([...pinned, 'housing']);
+    const after = assignHues([...pinned, 'housing', 'water']);
+    expect(after.housing).toBe(before.housing);
+  });
+
+  it('the palette carries assigned themes through to colours', () => {
+    const palette = themePalette([...pinned, 'housing']);
+    expect(palette.housing, 'housing has no colours').toBeDefined();
+    expect(palette.housing.inkRatioOnSection).toBeGreaterThanOrEqual(AAA_TEXT);
+    expect(palette.housing.fillRatioOnSection).toBeGreaterThanOrEqual(AA_TEXT);
+  });
+
+  it('asking for only the pinned themes changes nothing', () => {
+    expect(assignHues(pinned)).toEqual(THEME_HUES);
   });
 });

@@ -24,7 +24,7 @@ export const GET: APIRoute = async () => {
     getCollection('videos').catch(() => []),
   ]);
 
-  const palette = themePalette();
+  const palette = themePalette(topics.map((t) => t.data.slug));
   const titleOf = new Map(topics.map((t) => [t.data.slug, t.data.title.trim()]));
   const inkOf = (slug: string) => palette[slug]?.ink;
 

@@ -69,7 +69,7 @@ describe('published FAQ slugs', () => {
     );
 
   it('reads the whole collection', () => {
-    expect(files.length).toBe(143);
+    expect(files.length).toBe(153);
   });
 
   it('are lowercase words joined by single hyphens', () => {

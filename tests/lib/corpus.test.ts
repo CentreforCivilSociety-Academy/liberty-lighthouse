@@ -150,10 +150,20 @@ describe('corpus', () => {
     expect(corpus.themes.find((t) => t.slug === 'agriculture')!.hasSyllabus).toBe(true);
   });
 
-  it('fails the build when a theme has no hue', async () => {
+  it('colours a theme that has no pinned hue rather than stopping the build', async () => {
+    // The CMS can publish a theme; it cannot edit palette.ts. An editor doing
+    // their job must not be able to take the deploy down.
     TOPICS.push(topic('healthcare', 'Healthcare'));
     const { getCorpus } = await loadCorpus();
-    await expect(getCorpus()).rejects.toThrow(/has no hue/);
+    const corpus = await getCorpus();
+
+    const healthcare = corpus.themes.find((t) => t.slug === 'healthcare')!;
+    expect(healthcare.hue, 'the new theme went uncoloured').toBeTypeOf('number');
+    expect(healthcare.ink).toMatch(/^#[0-9A-F]{6}$/);
+    expect(healthcare.fill).toMatch(/^#[0-9A-F]{6}$/);
+
+    const others = corpus.themes.filter((t) => t.slug !== 'healthcare').map((t) => t.hue);
+    expect(others, 'the assigned hue collided with a pinned one').not.toContain(healthcare.hue);
   });
 
   it('fails the build when the part collapse count moves', async () => {
@@ -164,19 +174,32 @@ describe('corpus', () => {
     await expect(getCorpus()).rejects.toThrow(/Multi-part collapse folded/);
   });
 
-  it('fails the build past the hue capacity', async () => {
+  it('warns, but does not throw, when themes crowd the separation floor', async () => {
+    // Twelve hues one degree apart is the degenerate case: a reader could not
+    // tell these themes apart. It is still not worth an unpublished site, so
+    // it is said out loud in the build log instead of thrown.
     const { assertCorpus } = await loadCorpus();
-    const themes = Array.from({ length: 11 }, (_, i) => ({
+    const themes = Array.from({ length: 12 }, (_, i) => ({
       slug: `t${i}`, title: `T${i}`, description: '', section: i + 1, anchor: `s-t${i}`,
       href: '/', hue: i, ink: '#000', fill: '#000', questions: 1, entries: 1,
       videos: 0, hasSyllabus: false, rows: [],
     }));
+    const warn = vi.spyOn(console, 'warn').mockImplementation(() => {});
+
     expect(() =>
-      assertCorpus({
-        themes: themes as never,
-        totalQuestions: 11, totalEntries: 11, totalThemes: 11,
-        totalVideos: 0, totalSyllabi: 0, maxEntries: 1,
-      }),
-    ).toThrow(/distinguishable hues/);
+      assertCorpus(
+        {
+          themes: themes as never,
+          totalQuestions: 12, totalEntries: 12, totalThemes: 12,
+          totalVideos: 0, totalSyllabi: 0, maxEntries: 1,
+        },
+        { expectedFoldedRows: 0 },
+      ),
+    ).not.toThrow();
+
+    expect(warn, 'crowding passed without a word in the log').toHaveBeenCalledWith(
+      expect.stringMatching(/under the .* floor/),
+    );
+    warn.mockRestore();
   });
 });
