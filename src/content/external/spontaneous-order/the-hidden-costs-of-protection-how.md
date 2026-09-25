@@ -1,0 +1,43 @@
+---
+title: >-
+  The Hidden Costs of Protection: How Trade Barriers Hold Back India's Textile
+  Industry 
+original_url: 'https://www.spontaneousorder.in/p/the-hidden-costs-of-protection-how'
+published_at: '2026-09-24T08:56:48.258Z'
+ingested_at: '2026-09-25T09:08:16.500Z'
+source_hash: 7f1ebc36331355c0b314792332ab489888948d329e46ee1050156bbfef28b292
+author: Spontaneous Order
+---
+By: Amol Asthana
+
+As you walk through the bustling garment and apparel manufacturing hubs of Tirupur and Noida, you see an industry vibrating with dynamism. Thousands of workers cut, stitch, and pack garments destined for export to different corners of the globe. The Indian textile industry is a centrepiece of the Indian economy, [employing roughly 45 million people](https://www.iiad.edu.in/the-circle/the-textile-industry-in-india/). Despite the sector’s potential, its performance since 2011 has stagnated, and [India’s global share in textiles and apparel hovers stubbornly between 3.9% and 4.1%](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2089508&reg=48&lang=2). This has coincided with Bangladesh and Vietnam capturing a greater share of textiles and apparel exports. One part of the explanation lies in India’s protection of key inputs used by textile manufacturers.
+
+[
+
+![](https://substackcdn.com/image/fetch/$s_!MJCV!,w_1456,c_limit,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7413d85e-aa26-43ea-b416-dae012972dae_1672x941.png)
+
+
+
+](https://substackcdn.com/image/fetch/$s_!MJCV!,f_auto,q_auto:good,fl_progressive:steep/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F7413d85e-aa26-43ea-b416-dae012972dae_1672x941.png)
+
+The decline in India’s clothing sector largely stems from its inability to compete in the man-made fibre sector. A key input for producing synthetic fibres such as polyester is a chemical called purified terephthalic acid (PTA). The problems began in 2010, when domestic PTA production declined while [demand for PTA increased by 140%](https://preserve.jgu.edu.in/index.php/preserve/preprint/view/30/37).
+
+Imports fell around the same time that domestic production declined. But why? One important reason was the decision to impose anti-dumping duties on PTA imports from major exporters, [ranging from $24 to $117 a tonne in 2014](https://preserve.jgu.edu.in/index.php/preserve/preprint/view/30/37), to protect two domestic producers (Reliance Industries Ltd. and Mitsubishi Chemical Corporation India Ltd.). An anti-dumping duty is a tariff a government imposes to protect local industries from imported goods sold below the price they charge in the home market. The stated goal of imposing the anti-dumping duty is to level the playing field for Indian firms and prevent foreign producers from undercutting Indian firms.
+
+The problem was that the benefits of the protection granted by the Indian state were concentrated amongst two producers who already accounted for a large market share for PTA. At the same time, rising PTA costs had a cascading effect on downstream fibre-making and apparel industries, making their products costlier and less competitive in the international market. This is the second-order effect of protectionism that Friedman and Bastiat frequently brought into economic debates. The higher cost of PTA reduced polyester capacity utilisation, which in turn lowered gross value added per worker (constant PPP).
+
+This was further worsened by the Indian government’s decision to [hike the import tariff on PTA from 7.5% to 10%](https://preserve.jgu.edu.in/index.php/preserve/preprint/view/30/37). Raising the tariff on key inputs increased production costs for domestic firms, further reducing their export competitiveness and the ability to penetrate global markets. Furthermore, the protectionism offered by the government under the push for “Make in India” had a knock-on effect, creating a perverse political asymmetry where firms from other sectors would then lobby for protection. Public choice gives us the valuable insight that policies such as tariffs may create deadweight loss, but they offer benefits concentrated among a relatively small group of producers. Those producers then have a strong incentive to organise, hire lawyers, file complaints, and lobby for protection. The costs are spread across thousands of firms and millions of consumers. Each paying a little more.
+
+The PTA case isn’t an isolated episode; it’s one case study among hundreds of misdirected trade policy interventions that end up hurting Indian firms. Another case of protectionist measures backfiring is viscose staple fibre (VSF), another important input for India’s textile industry. When the ASEAN-India Free Trade Agreement was signed in January 2010, India committed to eliminating tariffs on a wide variety of intermediate inputs, including VSF. The promised liberalisation did not last, as anti-dumping duties (ADD), Most Favoured Nation tariff adjustments, administrative extensions, and, ultimately, quality control orders (QCOs) undermined tariff elimination on VSF. This effectively taxed downstream competitive, labour-intensive yarn and garment industries. Abhisekh Anand and Naveen Thomas argue that deploying protectionist measures to protect a single dominant VSF [generated roughly US$2.5-3.1 billion in rents for that producer](https://pure.jgu.edu.in/id/eprint/10749/1/Free%20Trade%20on%20Paper%2C%20Protection%20in%20Practice.pdf). In other words, protection created a substantial gain for the protected producer, while firms further down the value chain bore the higher VSF price. India’s share of [global viscose-based yarn exports fell from 13.2% in 2011 to 8.7% in 2024. Its share of viscose-based garment exports also declined, from 5.0% in 2017 to 3.9% in 2024.](https://pure.jgu.edu.in/id/eprint/10749/1/Free%20Trade%20on%20Paper%2C%20Protection%20in%20Practice.pdf)
+
+The cost of protection goes deeper than lost employment or higher production costs. At its core, protectionism is a barrier to knowledge spillover—the sharing of best ideas and practices that enable productivity gains. Hayek’s broader insight that no policymaker or central planner can know in advance which production methods, technologies, or business models will allow firms to compete against other entities in the market is relevant here. Firms can discover knowledge only when they face competition and must respond. Protected firms have weaker incentives to reduce costs or improve product quality, especially when state capacity is weak and many interest groups are involved. A foreign competitor that can produce the same input more cheaply while ensuring better quality is not merely a threat to an Indian producer; it is also a source of information about what is technically and commercially possible. For Indian firms to achieve higher productivity, internationalisation through the dismantling of tariff and non-tariff barriers is critical to tap into global state-of-the-art knowledge.
+
+Some lessons have been learned, as the anti-dumping duty on PTA was removed in 2020. More recently, in April 2026, [customs duties on textile inputs, including PTA, were removed](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2256300&reg=48&lang=2) to ensure availability at competitive prices for downstream industries. Yet protectionism hasn’t completely disappeared, with the Indian government in [November 2025 deciding to extend its anti-dumping duty on flax fabric from China and Hong Kong for another 5 years](https://www.fibre2fashion.com/news/fabrics-news/india-extends-anti-dumping-duty-on-flax-fabric-from-china-hong-kong-306370-newsdetails.htm).
+
+In conclusion, India’s textile industry does not need shielding from competition; it needs a chance to integrate into global markets. The experience of PTA and VSF shows how protectionism benefits few producers at the cost of increasing production costs for firms further down the supply chain, weakening the very industry it seeks to strengthen. As Hazlitt and Bastiat remind us, th policy often shows up in what remains unseen. Removing barriers may be painful for certain interest groups or firms in the short run; in the long run, it creates an incentive to be as competitive as possible.
+
+* * *
+
+About the author:
+
+Amol Asthana is a Political Science and History student at Delhi University with an interest in economics, political economy, comparative development experiences, and international affairs. His interests include free markets, institutions, incentives, and the role of economic policy in shaping development outcomes. He writes on economic and policy issues, with a particular interest in free trade and political economy.
