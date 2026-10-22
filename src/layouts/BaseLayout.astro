@@ -6,6 +6,12 @@ interface Props {
   canonicalUrl?: string;
   /** Keeps a page out of search results. Staff tools, not reader pages. */
   noindex?: boolean;
+  /**
+   * A class for <body>. Lets one page retheme the shared chrome — the navbar,
+   * bottom bar and footer all read the colour custom properties, so a page can
+   * redefine them on body without forking those components.
+   */
+  bodyClass?: string;
 }
 
 const {
@@ -14,6 +20,7 @@ const {
   ogImage = '/og/page/home.png',
   canonicalUrl,
   noindex = false,
+  bodyClass,
 } = Astro.props;
 
 const siteTitle = 'Liberty Lighthouse';
@@ -198,7 +205,7 @@ const designSystemCSS = `
       })();
     </script>
   </head>
-  <body>
+  <body class={bodyClass}>
     <a href="#main-content" class="skip-link">Skip to main content</a>
     <slot />
     <BottomNav />

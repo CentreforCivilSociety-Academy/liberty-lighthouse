@@ -40,6 +40,20 @@
 }
 
 /*
+ * The true italic. Until this face existed every italic EB Garamond on the
+ * site was the roman slanted by the browser. Not preloaded: it is fetched only
+ * by a page that actually sets italic EB Garamond (48 KB, Latin subset, from
+ * @fontsource-variable/eb-garamond like the roman).
+ */
+@font-face {
+  font-family: 'EB Garamond Var';
+  font-style: italic;
+  font-weight: 400 800;
+  font-display: swap;
+  src: url('/fonts/eb-garamond-italic-var.woff2') format('woff2');
+}
+
+/*
  * Targets Georgia specifically rather than the serif generic, and only
  * Georgia. A multi-name local() list is a trap here: the first available name
  * wins, but one size-adjust cannot be correct for several fallbacks of

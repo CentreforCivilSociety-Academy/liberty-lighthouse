@@ -1,0 +1,90 @@
+---
+/**
+ * Review tooling, not design: a small fixed bar on /preview/<slug>/ pages that
+ * says which direction is on screen and switches between the three.
+ *
+ * It is deliberately neutral — the same plain white pill on every direction —
+ * so nobody mistakes it for part of the design being judged. It never renders
+ * on /, which shows a direction exactly as it would ship.
+ */
+import { DIRECTIONS, type DirectionSlug } from './directions';
+
+interface Props {
+  current: DirectionSlug;
+}
+
+const { current } = Astro.props;
+const here = DIRECTIONS.find((d) => d.slug === current)!;
+---
+
+<nav class="preview-bar" aria-label="Design preview">
+  <span class="preview-bar-label">
+    Preview {here.letter}: <strong>{here.name}</strong>
+  </span>
+  <ul>
+    {DIRECTIONS.map((d) => (
+      <li>
+        <a
+          href={`/preview/${d.slug}/`}
+          aria-current={d.slug === current ? 'page' : undefined}
+          aria-label={`Direction ${d.letter}: ${d.name}`}
+        >{d.letter}</a>
+      </li>
+    ))}
+    <li><a href="/preview/">Compare</a></li>
+  </ul>
+</nav>
+
+<style>
+  .preview-bar {
+    position: fixed;
+    left: 0.75rem;
+    bottom: calc(4.5rem + env(safe-area-inset-bottom, 0px));
+    z-index: 70;
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+    padding: 0.3125rem 0.3125rem 0.3125rem 0.875rem;
+    background: #fff;
+    color: #1d1d1b;
+    border: 1px solid rgb(0 0 0 / 0.14);
+    border-radius: 999px;
+    box-shadow: 0 6px 20px rgb(0 0 0 / 0.18);
+    font: 500 0.8125rem/1.2 system-ui, -apple-system, 'Segoe UI', sans-serif;
+  }
+
+  @media (min-width: 1156px) {
+    .preview-bar { bottom: 1rem; left: 1rem; }
+  }
+
+  .preview-bar-label strong { font-weight: 650; }
+
+  .preview-bar ul {
+    display: flex;
+    gap: 0.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .preview-bar a {
+    display: grid;
+    place-items: center;
+    min-width: 2rem;
+    height: 2rem;
+    padding: 0 0.625rem;
+    border-radius: 999px;
+    color: inherit;
+    text-decoration: none;
+    background: #f1f1ee;
+  }
+
+  .preview-bar a:hover { background: #e4e4df; }
+  .preview-bar a[aria-current='page'] { background: #1d1d1b; color: #fff; }
+  .preview-bar a:focus-visible { outline: 2px solid #1d1d1b; outline-offset: 2px; }
+
+  @media (max-width: 420px) {
+    .preview-bar-label { display: none; }
+    .preview-bar { padding-left: 0.3125rem; }
+  }
+</style>
