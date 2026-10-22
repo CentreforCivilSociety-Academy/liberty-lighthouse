@@ -1,0 +1,1001 @@
+---
+/**
+ * Direction B — Sector Light.
+ *
+ * A sector light is a lighthouse lamp that shows a different colour in each
+ * direction, so a ship can tell from the colour alone which water it is in.
+ * Here the twelve topics are the sectors, and every published question is a
+ * point of light inside its topic's sector. Turning the beam lights a topic:
+ * its points brighten, the readout names it, and one of its real questions is
+ * picked to read next — a different one each time, so a return visit turns up
+ * something new.
+ *
+ * The metaphor carries the information architecture rather than decorating
+ * it: sectors are the taxonomy, the points are the corpus, and the "list of
+ * lights" under the instrument — the publication a navigator keeps of every
+ * light on a coast — is the plain, accessible topic list.
+ *
+ * Motion is one orchestrated moment: the lamp sweeps once on arrival and
+ * comes to rest. After that the light only moves when a reader moves it.
+ * Reduced motion skips the sweep entirely.
+ *
+ * Without JavaScript the instrument is a still picture with the lead topic
+ * lit, and the list of lights does all of the navigation.
+ */
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Navbar from '../../global/Navbar.astro';
+import Footer from '../../global/Footer.astro';
+import PreviewBar from '../PreviewBar.astro';
+import { getHomepage, listOf, plural, NIGHT } from '../../../lib/homepage';
+import { shareImageFor } from '../../../lib/share-image';
+
+interface Props {
+  preview?: boolean;
+}
+
+const { preview = false } = Astro.props;
+const home = await getHomepage();
+const { topics, totals, lead } = home;
+
+// ── Instrument geometry, in a 1000-unit square around the lamp ──
+const C = 500;
+const R_LAMP = 40;
+const R_IN = 96;
+const R_OUT = 436;
+const R_RIM = 452;
+const SPAN = 360 / topics.length;
+
+/** 0° is north and angles run clockwise, as on a compass rose. */
+const polar = (deg: number, r: number): [number, number] => {
+  const rad = ((deg - 90) * Math.PI) / 180;
+  return [+(C + r * Math.cos(rad)).toFixed(2), +(C + r * Math.sin(rad)).toFixed(2)];
+};
+
+const wedge = (a0: number, a1: number, rIn: number, rOut: number) => {
+  const [x0, y0] = polar(a0, rOut);
+  const [x1, y1] = polar(a1, rOut);
+  const [x2, y2] = polar(a1, rIn);
+  const [x3, y3] = polar(a0, rIn);
+  const large = a1 - a0 > 180 ? 1 : 0;
+  return `M${x3} ${y3}L${x0} ${y0}A${rOut} ${rOut} 0 ${large} 1 ${x1} ${y1}L${x2} ${y2}A${rIn} ${rIn} 0 ${large} 0 ${x3} ${y3}Z`;
+};
+
+/** FNV-1a, so a question's point sits in the same place on every build. */
+const hash = (s: string) => {
+  let h = 0x811c9dc5;
+  for (let i = 0; i < s.length; i += 1) {
+    h ^= s.charCodeAt(i);
+    h = Math.imul(h, 0x01000193);
+  }
+  return (h >>> 0) / 0xffffffff;
+};
+
+/*
+ * Points spread evenly over the sector's area (radius by square root), on the
+ * two flanks only: the bisector carries the topic's name, and a point sitting
+ * under a letter reads as a typo.
+ */
+const sectors = topics.map((topic, i) => {
+  const a0 = i * SPAN;
+  const mid = a0 + SPAN / 2;
+  const m = topic.rows.length;
+  const points = topic.rows.map((row, k) => {
+    const frac = (k + 0.5) / m;
+    const r = R_IN + 34 + (R_OUT - R_IN - 58) * Math.sqrt(frac) + (hash(row.href) - 0.5) * 14;
+    const side = k % 2 === 0 ? -1 : 1;
+    const off = 4.2 + ((k * 0.618034 + hash(row.href + 'a')) % 1) * (SPAN / 2 - 6.4);
+    const [x, y] = polar(mid + side * off, r);
+    return { x, y, href: row.href };
+  });
+  const labelAngle = mid;
+  const right = labelAngle <= 180;
+  const [lx, ly] = polar(labelAngle, R_OUT - 6);
+  return {
+    topic,
+    path: wedge(a0, a0 + SPAN, R_IN, R_RIM),
+    boundary: [polar(a0, R_IN), polar(a0, R_RIM)],
+    points,
+    label: {
+      x: lx,
+      y: ly,
+      rotate: right ? labelAngle - 90 : labelAngle - 270,
+      anchor: right ? 'end' : 'start',
+    },
+  };
+});
+
+const ticks = Array.from({ length: 72 }, (_, i) => {
+  const a = i * 5;
+  const long = a % SPAN === 0;
+  return { a: polar(a, R_RIM), b: polar(a, R_RIM + (long ? 22 : 9)), long };
+});
+
+const [beamL, beamR] = [polar(-16, 474), polar(16, 474)];
+const beamPath = `M${C} ${C}L${beamL[0]} ${beamL[1]}A474 474 0 0 1 ${beamR[0]} ${beamR[1]}Z`;
+
+const startIndex = Math.max(0, topics.findIndex((t) => t.slug === lead.topic.slug));
+const start = topics[startIndex];
+
+const factsFor = (topic: (typeof topics)[number]) =>
+  listOf([
+    plural(topic.questions, 'question'),
+    ...(topic.videos > 0 ? [plural(topic.videos, 'short video')] : []),
+    ...(topic.hasSyllabus ? ['a syllabus'] : []),
+  ]);
+
+/** Everything the script needs, and nothing it does not. */
+const data = topics.map((topic, i) => ({
+  slug: topic.slug,
+  title: topic.title,
+  href: topic.href,
+  light: topic.light,
+  facts: factsFor(topic),
+  questions: topic.rows.map((row, k) => ({ q: row.question, href: row.href, x: sectors[i].points[k].x, y: sectors[i].points[k].y })),
+}));
+
+const startQuestion = lead;
+const startPoint = sectors[startIndex].points.find((p) => p.href === lead.href) ?? sectors[startIndex].points[0];
+
+const description = `Find your bearings on the questions India argues about: ${totals.questions} plain, sourced answers across ${totals.topics} topics, free from the Centre for Civil Society.`;
+---
+
+<BaseLayout
+  title="Liberty Lighthouse"
+  description={description}
+  ogImage={await shareImageFor('home')}
+  noindex={preview}
+  bodyClass="night"
+>
+  <Navbar topicsHref={preview ? '#topics' : undefined} />
+
+  <main id="main-content" class="sl" style={`--night:${NIGHT}`}>
+    <!--
+      Three areas, in the order a phone needs them: the words, the instrument,
+      then the readout directly under the light it describes. On a wide screen
+      the instrument moves to the right and spans both text areas.
+    -->
+    <section class="sl-hero" aria-labelledby="sl-title">
+      <div class="sl-head">
+        <h1 class="sl-title hero-title" id="sl-title">Find your bearings on the questions India argues about.</h1>
+
+        <p class="sl-intro">
+          Liberty Lighthouse answers {totals.questions} questions about India’s
+          economy, laws and government in plain, sourced language, free, from
+          the Centre for Civil Society. Each point of light is a question, and
+          each colour is a topic.
+        </p>
+      </div>
+
+      <div class="sl-stage">
+        <div
+          class="sl-instrument"
+          id="sl-instrument"
+          data-start={startIndex}
+          aria-label="Topic light"
+          aria-describedby="sl-hint"
+        >
+          <svg viewBox="0 0 1000 1000" aria-hidden="true" focusable="false">
+            <defs>
+              <radialGradient id="sl-beam-grad" cx="500" cy="500" r="474" gradientUnits="userSpaceOnUse">
+                <stop offset="0" stop-color="#FFF1CF" stop-opacity="0.62" />
+                <stop offset="0.45" stop-color="#FFF1CF" stop-opacity="0.2" />
+                <stop offset="1" stop-color="#FFF1CF" stop-opacity="0" />
+              </radialGradient>
+              <radialGradient id="sl-lamp-grad">
+                <stop offset="0" stop-color="#FFF1CF" stop-opacity="0.95" />
+                <stop offset="0.35" stop-color="#FFE7AE" stop-opacity="0.35" />
+                <stop offset="1" stop-color="#FFE7AE" stop-opacity="0" />
+              </radialGradient>
+            </defs>
+
+            <circle class="sl-ring-line" cx="500" cy="500" r="190" />
+            <circle class="sl-ring-line" cx="500" cy="500" r="320" />
+            <circle class="sl-rim" cx="500" cy="500" r={R_RIM} />
+            {ticks.map((t) => (
+              <line class:list={['sl-tick', { 'sl-tick-long': t.long }]} x1={t.a[0]} y1={t.a[1]} x2={t.b[0]} y2={t.b[1]} />
+            ))}
+
+            {sectors.map((s, i) => (
+              <g class="sl-sector" data-index={i} data-lit={i === startIndex ? '' : undefined} style={`--light:${s.topic.light}`}>
+                <path class="sl-wedge" d={s.path} />
+                <line class="sl-boundary" x1={s.boundary[0][0]} y1={s.boundary[0][1]} x2={s.boundary[1][0]} y2={s.boundary[1][1]} />
+                <g class="sl-points">
+                  {s.points.map((p) => <circle class="sl-point" cx={p.x} cy={p.y} r="5" />)}
+                </g>
+                <text
+                  class="sl-label"
+                  x={s.label.x}
+                  y={s.label.y}
+                  text-anchor={s.label.anchor}
+                  dominant-baseline="middle"
+                  transform={`rotate(${s.label.rotate.toFixed(2)} ${s.label.x} ${s.label.y})`}
+                >{s.topic.title}</text>
+              </g>
+            ))}
+
+            <g class="sl-beam" style={`transform: rotate(${startIndex * SPAN + SPAN / 2}deg)`}>
+              <path class="sl-beam-light" d={beamPath} fill="url(#sl-beam-grad)" />
+              <path class="sl-beam-tint" d={beamPath} style={`fill:${start.light}`} />
+            </g>
+
+            <g class="sl-marker" style={`transform: translate(${startPoint.x}px, ${startPoint.y}px)`}>
+              <circle r="15" />
+            </g>
+
+            <circle cx="500" cy="500" r="120" fill="url(#sl-lamp-grad)" class="sl-glow" />
+            <g class="sl-lamp" transform="translate(500 500)">
+              <rect x="-11" y="-11" width="22" height="22" />
+              <path d="M0-24V-40M0 24V40M-24 0H-40M24 0H40M-17-17-28-28M17 17 28 28M17-17 28-28M-17 17-28 28" />
+            </g>
+          </svg>
+        </div>
+        <p class="sl-hint" id="sl-hint">
+          <span class="sl-hint-fine">Turn the light: point at a colour, or use the arrow keys.</span>
+          <span class="sl-hint-coarse">Turn the light: drag around the lamp, or tap a colour.</span>
+        </p>
+      </div>
+
+      <div class="sl-side">
+        <div class="sl-readout" id="sl-readout" style={`--light:${start.light}`}>
+          <p class="sl-lit-name">
+            <span class="sl-swatch" aria-hidden="true"></span>
+            <a href={start.href} data-bind="topic">{start.title}</a>
+          </p>
+          <p class="sl-lit-facts" data-bind="facts">{factsFor(start)}</p>
+          <p class="sl-lit-q"><a href={startQuestion.href} data-bind="question">{startQuestion.question}</a></p>
+          <div class="sl-controls">
+            <a class="sl-go" href={start.href} data-bind="go">Explore {start.title}</a>
+            <button type="button" class="sl-step" data-step="-1" aria-label="Previous topic" hidden>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 6 8.5 12l6 6" /></svg>
+            </button>
+            <button type="button" class="sl-step" data-step="1" aria-label="Next topic" hidden>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 6 6 6-6 6" /></svg>
+            </button>
+          </div>
+        </div>
+        <p class="sr-only" aria-live="polite" id="sl-live"></p>
+      </div>
+    </section>
+
+    <section class="sl-lights" id="topics" aria-labelledby="sl-lights-title">
+      <div class="sl-lights-head">
+        <h2 class="sl-h2" id="sl-lights-title">The list of lights</h2>
+        <p class="sl-lights-note">
+          On a chart, the list of lights tells a navigator what every light on
+          the coast means. This one describes every topic: what is in it, and a
+          question to start with.
+        </p>
+      </div>
+
+      <ol class="sl-list">
+        {topics.map((topic, i) => (
+          <li class="sl-row" data-index={i} style={`--light:${topic.light}`}>
+            <a class="sl-row-topic" href={topic.href}>
+              <svg class="sl-row-glyph" viewBox="0 0 40 40" aria-hidden="true">
+                <path d="M20 36 7 6A32 32 0 0 1 33 6Z" />
+              </svg>
+              <span class="sl-row-name">{topic.title}</span>
+            </a>
+            <p class="sl-row-facts">{factsFor(topic)}</p>
+            <p class="sl-row-q"><a href={topic.teaser.href}>{topic.teaser.question}</a></p>
+          </li>
+        ))}
+      </ol>
+    </section>
+
+    <section class="sl-close" aria-labelledby="sl-close-title">
+      <h2 class="sl-h2" id="sl-close-title">Looking for something specific?</h2>
+      <div class="sl-close-actions">
+        <form class="sl-search" action="/search/" method="get" role="search">
+          <label class="sr-only" for="sl-q">Search the questions</label>
+          <input type="search" id="sl-q" name="q" placeholder="Search the questions" autocomplete="off" />
+          <button type="submit">Search</button>
+        </form>
+        <a class="sl-all" href="/questions/">See all {totals.questions} questions</a>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+  {preview && <PreviewBar current="sector-light" />}
+
+  <script type="application/json" id="sl-data" set:html={JSON.stringify({ span: SPAN, topics: data })} />
+</BaseLayout>
+
+<script>
+  /*
+   * The instrument: turning the beam, and what turns it.
+   *
+   * One piece of state — which topic is lit — and four ways to change it:
+   * pointing (mouse), dragging (touch), the arrow keys and the step buttons,
+   * plus the list of lights below, whose rows turn the beam when hovered or
+   * focused. The readout and the screen-reader announcement follow from it.
+   */
+  type Q = { q: string; href: string; x: number; y: number };
+  type T = { slug: string; title: string; href: string; light: string; facts: string; questions: Q[] };
+
+  const dataEl = document.getElementById('sl-data');
+  const instrument = document.getElementById('sl-instrument');
+  const readout = document.getElementById('sl-readout');
+  const live = document.getElementById('sl-live');
+
+  if (dataEl && instrument && readout && live) {
+    const { span, topics } = JSON.parse(dataEl.textContent || '{}') as { span: number; topics: T[] };
+    const n = topics.length;
+    const svg = instrument.querySelector('svg')!;
+    const beam = svg.querySelector<SVGGElement>('.sl-beam')!;
+    const tint = svg.querySelector<SVGPathElement>('.sl-beam-tint')!;
+    const marker = svg.querySelector<SVGGElement>('.sl-marker')!;
+    const sectors = [...svg.querySelectorAll<SVGGElement>('.sl-sector')];
+    const bind = (k: string) => readout.querySelector<HTMLAnchorElement | HTMLElement>(`[data-bind="${k}"]`)!;
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+
+    let index = Number(instrument.dataset.start) || 0;
+    let angle = index * span + span / 2;
+    let shown: string | null = null;
+    /** Set by any reader input, so the arrival sweep never overrides a choice. */
+    let touched = false;
+
+    // The instrument becomes a slider once there is a script to drive it.
+    instrument.setAttribute('role', 'slider');
+    instrument.setAttribute('tabindex', '0');
+    instrument.setAttribute('aria-valuemin', '1');
+    instrument.setAttribute('aria-valuemax', String(n));
+    readout.querySelectorAll<HTMLButtonElement>('.sl-step').forEach((b) => (b.hidden = false));
+
+    const turnTo = (a: number, ms: number) => {
+      beam.style.transition = ms ? `transform ${reduced.matches ? 0 : ms}ms cubic-bezier(.25,.7,.2,1)` : 'none';
+      beam.style.transform = `rotate(${a}deg)`;
+      angle = a;
+    };
+
+    /** The shortest way round to a topic's bisector, from wherever the beam is. */
+    const towards = (i: number) => {
+      const target = i * span + span / 2;
+      const delta = ((((target - angle) % 360) + 540) % 360) - 180;
+      return angle + delta;
+    };
+
+    const pick = (t: T) => {
+      const pool = t.questions.filter((q) => q.href !== shown);
+      return pool[Math.floor(Math.random() * pool.length)] ?? t.questions[0];
+    };
+
+    const light = (i: number, opts: { announce?: boolean; turn?: number; question?: Q } = {}) => {
+      index = ((i % n) + n) % n;
+      const t = topics[index];
+      const q = opts.question ?? pick(t);
+      shown = q.href;
+
+      sectors.forEach((s, k) => s.toggleAttribute('data-lit', k === index));
+      tint.style.fill = t.light;
+      marker.style.transform = `translate(${q.x}px, ${q.y}px)`;
+      if (opts.turn !== undefined) turnTo(towards(index), opts.turn);
+
+      readout.style.setProperty('--light', t.light);
+      const topicLink = bind('topic') as HTMLAnchorElement;
+      topicLink.textContent = t.title;
+      topicLink.href = t.href;
+      bind('facts').textContent = t.facts;
+      const qLink = bind('question') as HTMLAnchorElement;
+      qLink.textContent = q.q;
+      qLink.href = q.href;
+      const go = bind('go') as HTMLAnchorElement;
+      go.textContent = `Explore ${t.title}`;
+      go.href = t.href;
+
+      instrument.setAttribute('aria-valuenow', String(index + 1));
+      instrument.setAttribute('aria-valuetext', `${t.title}: ${t.facts}`);
+      if (opts.announce) live.textContent = `${t.title}. ${t.facts}. ${q.q}`;
+    };
+
+    /** Compass angle of a pointer from the lamp, 0° north, clockwise. */
+    const bearing = (e: PointerEvent) => {
+      const r = svg.getBoundingClientRect();
+      const dx = e.clientX - (r.left + r.width / 2);
+      const dy = e.clientY - (r.top + r.height / 2);
+      return ((Math.atan2(dy, dx) * 180) / Math.PI + 90 + 360) % 360;
+    };
+
+    const sectorAt = (b: number) => Math.floor(b / span) % n;
+
+    /** Keep the cumulative angle continuous, so following never spins the long way. */
+    const follow = (b: number) => {
+      const delta = ((((b - angle) % 360) + 540) % 360) - 180;
+      turnTo(angle + delta, 0);
+      const i = sectorAt(b);
+      if (i !== index) light(i);
+    };
+
+    // ── Mouse: the beam follows the pointer; leaving settles it on a topic.
+    // Clicking lights the topic under the pointer, and clicking again draws
+    // another of its questions.
+    /*
+     * Scrolling under a resting mouse makes the browser fire pointer events
+     * that did not move — focusing a row in the list below scrolls the page,
+     * and those phantom moves would drag the beam back to whatever sits under
+     * the cursor. A move only counts if the pointer's position changed. (Not
+     * movementX: synthetic and some real events report it as 0.)
+     */
+    let px = NaN;
+    let py = NaN;
+    let real = false;
+    document.addEventListener(
+      'pointermove',
+      (e) => {
+        real = e.clientX !== px || e.clientY !== py;
+        px = e.clientX;
+        py = e.clientY;
+      },
+      { capture: true, passive: true },
+    );
+
+    instrument.addEventListener('pointermove', (e) => {
+      if (e.pointerType !== 'mouse' || !real) return;
+      touched = true;
+      follow(bearing(e));
+    });
+    instrument.addEventListener('pointerleave', (e) => {
+      if (e.pointerType === 'mouse') turnTo(towards(index), 380);
+    });
+
+    // ── Touch: drag around the lamp; release settles on the nearest topic.
+    // A tap without a drag is left to the click handler, so it is handled once.
+    let dragging = false;
+    let dragged = false;
+    let swallowClick = false;
+    instrument.addEventListener('pointerdown', (e) => {
+      touched = true;
+      if (e.pointerType === 'mouse') return;
+      dragging = true;
+      dragged = false;
+      instrument.setPointerCapture(e.pointerId);
+    });
+    instrument.addEventListener('pointermove', (e) => {
+      if (!dragging || e.pointerType === 'mouse') return;
+      e.preventDefault();
+      dragged = true;
+      follow(bearing(e));
+    });
+    const release = () => {
+      if (!dragging) return;
+      dragging = false;
+      if (!dragged) return;
+      swallowClick = true;
+      light(index, { announce: true, turn: 320 });
+    };
+    instrument.addEventListener('pointerup', release);
+    instrument.addEventListener('pointercancel', release);
+
+    instrument.addEventListener('click', (e) => {
+      if (swallowClick) {
+        swallowClick = false;
+        return;
+      }
+      light(sectorAt(bearing(e as PointerEvent)), { announce: true, turn: 380 });
+    });
+
+    // ── Keyboard: a slider over the topics; Enter opens the lit one.
+    instrument.addEventListener('keydown', (e) => {
+      touched = true;
+      const step = ({ ArrowRight: 1, ArrowDown: 1, ArrowLeft: -1, ArrowUp: -1 } as Record<string, number>)[e.key];
+      if (step) {
+        e.preventDefault();
+        light(index + step, { announce: true, turn: 420 });
+      } else if (e.key === 'Home' || e.key === 'End') {
+        e.preventDefault();
+        light(e.key === 'Home' ? 0 : n - 1, { announce: true, turn: 420 });
+      } else if (e.key === 'Enter') {
+        window.location.href = topics[index].href;
+      }
+    });
+
+    readout.querySelectorAll<HTMLButtonElement>('.sl-step').forEach((b) =>
+      b.addEventListener('click', () => {
+        touched = true;
+        light(index + Number(b.dataset.step), { announce: true, turn: 420 });
+      }),
+    );
+
+    // ── The list of lights turns the beam too, for hover and for keyboard focus.
+    document.querySelectorAll<HTMLElement>('.sl-row').forEach((row) => {
+      const i = Number(row.dataset.index);
+      const show = () => {
+        touched = true;
+        if (i !== index) light(i, { turn: 420 });
+      };
+      row.addEventListener('pointermove', (e) => { if (e.pointerType === 'mouse' && real) show(); });
+      row.addEventListener('focusin', show);
+    });
+
+    // ── Arrival: one sweep round the whole lamp, landing on a topic picked at
+    // random, so a second visit opens somewhere new. Skipped for reduced
+    // motion, and abandoned the moment a reader takes the light themselves.
+    const landing = Math.floor(Math.random() * n);
+    if (reduced.matches) {
+      light(landing, { turn: 0 });
+    } else {
+      const bisector = landing * span + span / 2;
+      // At least one full turn forward from where the still picture stood.
+      const target = bisector + 360 * Math.ceil((angle + 360 - bisector) / 360);
+      requestAnimationFrame(() =>
+        requestAnimationFrame(() => {
+          if (touched) return;
+          turnTo(target, 3200);
+          window.setTimeout(() => { if (!touched) light(landing); }, 2700);
+        }),
+      );
+    }
+  }
+</script>
+
+<style is:global>
+  /*
+   * Night chrome. The navbar, bottom bar and footer read the colour custom
+   * properties, so redefining them on body puts the whole page at sea without
+   * forking those components. The partner band keeps paper: the CCS wordmark
+   * is a dark PNG and measures 1.41:1 on a dark ground.
+   */
+  html:has(body.night) { background: #0C1A26; color-scheme: dark; }
+
+  body.night {
+    --color-bg-page: #0C1A26;
+    --color-border-subtle: rgb(232 238 243 / 0.1);
+    --color-border-default: rgb(232 238 243 / 0.14);
+    --color-text-primary: #E8EEF3;
+    --color-text-secondary: #A9B8C5;
+    --color-primary: #FFF1CF;
+    --color-border-focus: #FFF1CF;
+    background: #0C1A26;
+    color: #E8EEF3;
+  }
+
+  body.night .partners {
+    --color-bg-page: #FDFBF9;
+    --color-border-default: #E8E2DC;
+    --color-text-secondary: #5C524A;
+  }
+
+  body.night .site-footer { background: #08131C; }
+</style>
+
+<style>
+  .sl {
+    --text: #E8EEF3;
+    --text-2: #A9B8C5;
+    --line: rgb(232 238 243 / 0.12);
+    --lamp: #FFF1CF;
+    --serif: var(--font-display);
+    --sans: var(--font-body);
+    color: var(--text);
+    background: var(--night);
+    overflow-x: clip;
+  }
+
+  /* ── Hero: words and readout beside the instrument ──── */
+  .sl-hero {
+    display: grid;
+    gap: 1.5rem;
+    padding: 2.25rem 1.25rem 3rem;
+    max-width: 82rem;
+    margin: 0 auto;
+  }
+
+  .sl-title.hero-title {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: clamp(2.25rem, 8.6vw, 4.25rem);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    color: var(--text);
+    text-wrap: balance;
+    margin: 0;
+    max-width: 16ch;
+  }
+
+  .sl-intro {
+    font-family: var(--serif);
+    font-size: 1.1875rem;
+    line-height: 1.5;
+    color: var(--text-2);
+    margin: 1.25rem 0 0;
+    max-width: 34rem;
+    text-wrap: pretty;
+  }
+
+  /* ── Readout ─────────────────────────────────────────── */
+  .sl-readout {
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--line);
+    max-width: 34rem;
+  }
+
+  .sl-lit-name {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin: 0;
+    font-family: var(--serif);
+    font-size: clamp(1.75rem, 5vw, 2.25rem);
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+  }
+
+  .sl-lit-name a { color: var(--light); text-decoration: none; }
+  .sl-lit-name a:hover { text-decoration: underline; text-underline-offset: 0.15em; text-decoration-thickness: 1px; }
+
+  .sl-swatch {
+    flex: none;
+    width: 0.9rem;
+    height: 0.9rem;
+    border-radius: 50%;
+    background: var(--light);
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--light) 18%, transparent), 0 0 18px var(--light);
+  }
+
+  .sl-lit-facts {
+    font-family: var(--sans);
+    font-size: 0.9375rem;
+    line-height: 1.5;
+    color: var(--text-2);
+    margin: 0.375rem 0 0;
+  }
+
+  /* Room for the longer questions, so drawing one does not move the buttons
+     under the reader's finger: two lines on a phone, three beside the lamp. */
+  .sl-lit-q {
+    margin: 1rem 0 0;
+    min-height: calc(2 * 1.3 * 1.375rem);
+  }
+
+  .sl-lit-q a {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.375rem;
+    line-height: 1.3;
+    color: var(--text);
+    text-decoration: none;
+    text-wrap: pretty;
+  }
+
+  .sl-lit-q a:hover { text-decoration: underline; text-decoration-color: var(--light); text-underline-offset: 0.18em; }
+
+  .sl-controls {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+  }
+
+  .sl-go {
+    display: inline-flex;
+    align-items: center;
+    min-height: 2.875rem;
+    padding: 0 1.25rem;
+    margin-right: auto;
+    background: var(--light);
+    color: #0C1A26;
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 0.9375rem;
+    text-decoration: none;
+    border-radius: 999px;
+  }
+
+  .sl-go:hover { color: #0C1A26; filter: brightness(1.08); }
+
+  .sl-step {
+    width: 2.875rem;
+    height: 2.875rem;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--line);
+    background: transparent;
+    color: var(--text);
+    cursor: pointer;
+  }
+
+  .sl-step[hidden] { display: none; }
+  .sl-step:hover { border-color: var(--text-2); }
+
+  .sl-step svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+  }
+
+  .sl-go:focus-visible,
+  .sl-step:focus-visible,
+  .sl-instrument:focus-visible {
+    outline: 2px solid var(--lamp);
+    outline-offset: 3px;
+  }
+
+  /* ── The instrument ──────────────────────────────────── */
+  .sl-stage { min-width: 0; }
+
+  .sl-instrument {
+    position: relative;
+    width: min(100%, 40rem);
+    margin: 0 auto;
+    aspect-ratio: 1;
+    touch-action: none;
+    cursor: crosshair;
+    border-radius: 50%;
+  }
+
+  .sl-instrument svg { display: block; width: 100%; height: 100%; overflow: visible; }
+
+  .sl-ring-line { fill: none; stroke: var(--line); stroke-width: 1; }
+  .sl-rim { fill: none; stroke: rgb(232 238 243 / 0.28); stroke-width: 1.5; }
+  .sl-tick { stroke: rgb(232 238 243 / 0.22); stroke-width: 1.5; }
+  .sl-tick-long { stroke: rgb(232 238 243 / 0.45); }
+
+  .sl-wedge {
+    fill: var(--light);
+    fill-opacity: 0.035;
+    transition: fill-opacity 300ms ease-out;
+  }
+
+  .sl-boundary { stroke: rgb(232 238 243 / 0.1); stroke-width: 1; }
+
+  .sl-point {
+    fill: var(--light);
+    fill-opacity: 0.38;
+    transition: fill-opacity 300ms ease-out;
+  }
+
+  .sl-label {
+    fill: var(--light);
+    fill-opacity: 0.55;
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 23px;
+    letter-spacing: 0.01em;
+    transition: fill-opacity 300ms ease-out;
+    pointer-events: none;
+  }
+
+  .sl-sector[data-lit] .sl-wedge { fill-opacity: 0.13; }
+  .sl-sector[data-lit] .sl-point { fill-opacity: 1; }
+  .sl-sector[data-lit] .sl-points { filter: drop-shadow(0 0 5px var(--light)); }
+  .sl-sector[data-lit] .sl-label { fill-opacity: 1; }
+
+  .sl-beam {
+    transform-box: view-box;
+    transform-origin: 50% 50%;
+    pointer-events: none;
+  }
+
+  .sl-beam-light { mix-blend-mode: screen; }
+
+  .sl-beam-tint {
+    fill-opacity: 0.16;
+    mix-blend-mode: screen;
+    transition: fill 300ms ease-out;
+  }
+
+  .sl-marker {
+    transition: transform 420ms cubic-bezier(.25, .7, .2, 1);
+    pointer-events: none;
+  }
+
+  .sl-marker circle {
+    fill: none;
+    stroke: var(--lamp);
+    stroke-width: 2;
+  }
+
+  .sl-glow { pointer-events: none; }
+  .sl-lamp rect { fill: var(--lamp); }
+  .sl-lamp path { fill: none; stroke: var(--lamp); stroke-width: 4; stroke-linecap: round; }
+
+  .sl-hint {
+    text-align: center;
+    font-family: var(--sans);
+    font-size: 0.875rem;
+    color: var(--text-2);
+    margin: 1rem 0 0;
+  }
+
+  .sl-hint-coarse { display: none; }
+
+  @media (pointer: coarse) {
+    .sl-hint-fine { display: none; }
+    .sl-hint-coarse { display: inline; }
+  }
+
+  /* On a phone the names would be too small to read round the rim; the
+     readout names the lit topic instead. */
+  @media (max-width: 600px) {
+    .sl-label { display: none; }
+  }
+
+  /* ── List of lights ──────────────────────────────────── */
+  .sl-lights,
+  .sl-close {
+    max-width: 82rem;
+    margin: 0 auto;
+    padding: 4rem 1.25rem 0;
+    scroll-margin-top: calc(var(--nav-height) + 1rem);
+  }
+
+  .sl-h2 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: clamp(1.75rem, 5vw, 2.5rem);
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+    color: var(--text);
+    text-transform: none;
+    margin: 0;
+  }
+
+  .sl-lights-note {
+    font-family: var(--serif);
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: var(--text-2);
+    max-width: 36rem;
+    margin: 0.75rem 0 2rem;
+  }
+
+  .sl-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    border-top: 1px solid var(--line);
+  }
+
+  .sl-row {
+    display: grid;
+    gap: 0.25rem 2rem;
+    padding: 1.25rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .sl-row-topic {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: var(--light);
+    text-decoration: none;
+    font-family: var(--serif);
+    font-size: 1.625rem;
+    line-height: 1.15;
+    min-height: 2.75rem;
+  }
+
+  .sl-row-topic:hover .sl-row-name { text-decoration: underline; text-underline-offset: 0.15em; text-decoration-thickness: 1px; }
+
+  .sl-row-glyph { width: 1.5rem; height: 1.5rem; flex: none; }
+  .sl-row-glyph path { fill: var(--light); opacity: 0.85; }
+
+  .sl-row-facts {
+    font-family: var(--sans);
+    font-size: 0.875rem;
+    color: var(--text-2);
+    margin: 0;
+  }
+
+  .sl-row-q { margin: 0.375rem 0 0; }
+
+  .sl-row-q a {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.1875rem;
+    line-height: 1.3;
+    color: var(--text);
+    text-decoration: none;
+  }
+
+  .sl-row-q a:hover { text-decoration: underline; text-decoration-color: var(--light); text-underline-offset: 0.16em; }
+
+  .sl-row a:focus-visible { outline: 2px solid var(--lamp); outline-offset: 3px; border-radius: 2px; }
+
+  /* ── Close ───────────────────────────────────────────── */
+  .sl-close { padding-bottom: 5rem; }
+
+  .sl-close-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem 2rem;
+    margin-top: 1.5rem;
+  }
+
+  .sl-search {
+    display: flex;
+    flex: 1 1 18rem;
+    max-width: 30rem;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 0.25rem 0.25rem 0.25rem 1.25rem;
+  }
+
+  .sl-search:focus-within { border-color: var(--lamp); }
+
+  .sl-search input {
+    flex: 1;
+    min-width: 0;
+    min-height: 2.75rem;
+    border: 0;
+    background: transparent;
+    color: var(--text);
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.125rem;
+  }
+
+  .sl-search input::placeholder { color: var(--text-2); }
+  .sl-search input:focus { outline: none; }
+
+  .sl-search button {
+    border: 0;
+    border-radius: 999px;
+    padding: 0 1.25rem;
+    background: var(--lamp);
+    color: #0C1A26;
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 0.9375rem;
+    cursor: pointer;
+  }
+
+  .sl-all {
+    font-family: var(--serif);
+    font-size: 1.25rem;
+    color: var(--text);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+  }
+
+  .sl-all:hover { color: var(--lamp); }
+
+  /* ── Wide screens ────────────────────────────────────── */
+  @media (min-width: 760px) {
+    .sl-hero { padding-inline: 2.5rem; }
+    .sl-lights, .sl-close { padding-inline: 2.5rem; }
+    .sl-row {
+      grid-template-columns: minmax(14rem, 1.1fr) minmax(0, 2fr);
+      align-items: baseline;
+    }
+    .sl-row-topic { grid-row: 1 / span 2; }
+    .sl-row-facts { grid-column: 2; }
+    .sl-row-q { grid-column: 2; margin: 0; }
+  }
+
+  @media (min-width: 1024px) {
+    .sl-hero {
+      grid-template-columns: minmax(0, 5fr) minmax(0, 6.5fr);
+      grid-template-areas:
+        'head stage'
+        'side stage';
+      grid-template-rows: auto auto;
+      align-content: center;
+      column-gap: 3rem;
+      row-gap: 2rem;
+      min-height: calc(100svh - var(--nav-height));
+      padding-block: 2rem 3rem;
+    }
+    .sl-head { grid-area: head; align-self: end; }
+    .sl-side { grid-area: side; align-self: start; }
+    .sl-stage { grid-area: stage; align-self: center; }
+    .sl-lit-q { min-height: calc(3 * 1.3 * 1.375rem); }
+    .sl-instrument { width: min(100%, calc(100svh - var(--nav-height) - 7rem)); }
+    .sl-list { grid-template-columns: 1fr 1fr; column-gap: 3.5rem; }
+    .sl-row { grid-template-columns: 1fr; }
+    .sl-row-topic { grid-row: auto; }
+    .sl-row-facts, .sl-row-q { grid-column: 1; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .sl-wedge, .sl-point, .sl-label, .sl-beam-tint, .sl-marker { transition: none; }
+  }
+</style>
