@@ -28,6 +28,9 @@ export const GET: APIRoute = async ({ site }) => {
     // Staff utilities and the build manifest they read. Not reader pages.
     'Disallow: /tools/',
     'Disallow: /og-manifest.json',
+    // Homepage designs under review. Each also carries noindex; removed with
+    // the routes once a design is chosen.
+    'Disallow: /preview/',
     '',
   ];
 

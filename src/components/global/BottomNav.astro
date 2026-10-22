@@ -16,12 +16,16 @@
  *
  * Above the plate this is hidden: the header is pinned there and there is room
  * for the links in it.
+ *
+ * Five doors since the index moved to /questions/: the homepage introduces the
+ * site and the index is its own destination, so both need to be one tap away.
  */
 const path = Astro.url.pathname;
 const on = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
 
 const items = [
-  { href: '/', label: 'Index' },
+  { href: '/', label: 'Home' },
+  { href: '/questions/', label: 'Questions' },
   { href: '/glossary/', label: 'Glossary' },
   { href: '/search/', label: 'Search' },
   { href: '/about/', label: 'About' },
@@ -35,6 +39,12 @@ const items = [
         <a href={item.href} aria-current={on(item.href) ? 'page' : undefined}>
           <span class="bottom-nav-icon" aria-hidden="true">
             {item.href === '/' && (
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+                <rect x="9.75" y="9.75" width="4.5" height="4.5" fill="currentColor" stroke="none" />
+                <path d="M12 6V3M12 18v3M6 12H3M18 12h3M7.8 7.8 5.7 5.7M16.2 16.2l2.1 2.1M16.2 7.8l2.1-2.1M7.8 16.2l-2.1 2.1" />
+              </svg>
+            )}
+            {item.href === '/questions/' && (
               <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
                 <path d="M4 6h16M4 12h16M4 18h10" />
               </svg>
@@ -78,7 +88,7 @@ const items = [
 
   .bottom-nav ul {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     list-style: none;
     margin: 0;
     padding: 0;

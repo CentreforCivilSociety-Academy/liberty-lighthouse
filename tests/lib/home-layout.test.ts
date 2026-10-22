@@ -86,7 +86,7 @@ describe('homepage lane arithmetic', () => {
     const plate = css.slice(css.indexOf('@media (min-width: 1156px)'));
     expect(plate).toMatch(/--u:\s*clamp\(1rem,\s*calc\(1rem \+ \(100vw - 1156px\) \/ \d+\),\s*1\.4rem\)/);
     // Type and tracks must both key off it, or the measure drifts.
-    for (const sel of ['.index-question', '.section-title', '.shoulder-question']) {
+    for (const sel of ['.index-question', '.section-title']) {
       const rule = new RegExp(`\\${sel}\\s*\\{\\s*font-size:\\s*calc\\([\\d.]+ \\* var\\(--u\\)\\)`);
       expect(rule.test(plate), `${sel} does not scale with --u`).toBe(true);
     }

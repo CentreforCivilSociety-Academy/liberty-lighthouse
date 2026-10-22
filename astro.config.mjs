@@ -74,7 +74,10 @@ export default defineConfig({
       // (paired with robots.txt Disallow rules in src/pages/robots.txt.ts).
       // /tools/ holds staff utilities (the OG card maker). Excluded here and
       // disallowed in robots.txt; the pages also carry a noindex meta tag.
-      filter: (page) => !page.includes('/external/') && !page.includes('/tools/'),
+      // /preview/ holds the homepage designs under review: noindex, and out of
+      // the sitemap until one is chosen and the rest are deleted.
+      filter: (page) =>
+        !page.includes('/external/') && !page.includes('/tools/') && !page.includes('/preview/'),
     }),
     aiPageMarkdown(),
   ],

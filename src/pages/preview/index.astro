@@ -1,0 +1,263 @@
+---
+/**
+ * The review page: the three homepage directions side by side, for CCS.
+ *
+ * Tooling, not design. It explains each direction in a sentence, says what to
+ * try, shows each first screen at phone and laptop size, and links to the
+ * real thing. noindex, disallowed in robots.txt, out of the sitemap; deleted
+ * with /preview/<slug>/ once a direction is chosen.
+ */
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Navbar from '../../components/global/Navbar.astro';
+import Footer from '../../components/global/Footer.astro';
+import { DIRECTIONS, DEFAULT_DIRECTION } from '../../components/directions/directions';
+import { getHomepage } from '../../lib/homepage';
+
+const home = await getHomepage();
+const { totals } = home;
+
+/** What a reviewer should try on each, in the order they will meet it. */
+const TRY: Record<string, string[]> = {
+  'reading-room': [
+    'Read the headline sentence: every subject is a link, and the small number counts its questions.',
+    'On a laptop, point at a subject in that sentence: its opening question appears in the margin.',
+    'The lead question is set with the first lines of its real answer.',
+    'Scroll to see every subject introduced by one of its questions.',
+  ],
+  'sector-light': [
+    'Watch the lamp sweep once and settle on a topic.',
+    'Turn the light: point at a colour on a laptop, drag around the lamp on a phone, or use the arrow keys.',
+    'Each time a topic is lit, the readout draws a different question from it.',
+    'The list of lights below is the plain topic list; focusing a row turns the beam to it.',
+  ],
+  'question-deck': [
+    'Draw another question, swipe the card, or press the arrow keys.',
+    'Choose a topic in "From" to draw only from that deck.',
+    'Press "Peek at the answer" to flip the card and read how the answer begins.',
+    'Below, each topic is a deck; the thicker the deck, the more questions it holds.',
+  ],
+};
+---
+
+<BaseLayout
+  title="Homepage directions"
+  description="Three homepage directions for Liberty Lighthouse, for review."
+  noindex
+>
+  <Navbar />
+  <main id="main-content" class="rv">
+    <header class="rv-head">
+      <p class="rv-kicker">For review by the Centre for Civil Society</p>
+      <h1 class="rv-title">Three homepage directions</h1>
+      <p class="rv-lede">
+        CCS asked for a homepage that introduces Liberty Lighthouse, makes the
+        topics the main way in, keeps search and the full list of questions one
+        click away, and works as well on a phone as on a laptop, with nothing
+        that needs a mouse to understand. Here are three different answers,
+        each a working homepage built on the live content: {totals.questions}
+        questions, {totals.topics} topics and {totals.videos} videos.
+      </p>
+      <p class="rv-lede">
+        Open each one on your phone as well as a laptop. Nothing here is public:
+        these pages are hidden from search engines, and the live site at
+        libertylighthouse.in is unchanged.
+      </p>
+    </header>
+
+    <ol class="rv-list">
+      {DIRECTIONS.map((d) => (
+        <li class="rv-item">
+          <div class="rv-text">
+            <p class="rv-letter">Direction {d.letter}</p>
+            <h2 class="rv-name">{d.name}</h2>
+            <p class="rv-idea">{d.idea}</p>
+            <h3 class="rv-try-title">What to try</h3>
+            <ul class="rv-try">
+              {TRY[d.slug].map((t) => <li>{t}</li>)}
+            </ul>
+            <a class="rv-open" href={`/preview/${d.slug}/`}>Open {d.name}</a>
+          </div>
+          <div class="rv-shots">
+            <img
+              class="rv-shot rv-shot-desktop"
+              src={`/preview/${d.slug}-desktop.webp`}
+              width="1200"
+              height="750"
+              alt={`${d.name} on a laptop: the first screen.`}
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              class="rv-shot rv-shot-mobile"
+              src={`/preview/${d.slug}-mobile.webp`}
+              width="780"
+              height="1688"
+              alt={`${d.name} on a phone: the first screen.`}
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </li>
+      ))}
+    </ol>
+
+    <section class="rv-common" aria-labelledby="rv-common-title">
+      <h2 class="rv-h2" id="rv-common-title">The same in all three</h2>
+      <ul>
+        <li>The topics, counts and questions are read from the content, so a topic or question published in the CMS appears on the next build, in any direction.</li>
+        <li>Search works as before, and "See all questions" opens the full index, which used to be the homepage and now lives at <a href="/questions/">/questions/</a>.</li>
+        <li>Topic pages, answers, videos and syllabuses are unchanged.</li>
+        <li>Keyboard, screen reader and reduced-motion settings are supported throughout; nothing depends on hovering.</li>
+      </ul>
+      <p>
+        The site's root, <a href="/">/</a>, currently shows Direction
+        {DIRECTIONS.find((d) => d.slug === DEFAULT_DIRECTION)?.letter} exactly as
+        it would ship. Once CCS chooses, that direction becomes the homepage and
+        the other two are removed.
+      </p>
+    </section>
+  </main>
+  <Footer />
+</BaseLayout>
+
+<style>
+  .rv {
+    max-width: 76rem;
+    margin: 0 auto;
+    padding: 2.5rem 1.25rem 4rem;
+    font-family: var(--font-body);
+    color: var(--color-text-primary);
+  }
+
+  .rv-head { max-width: 46rem; }
+
+  .rv-kicker {
+    font-size: 0.9375rem;
+    color: var(--color-text-secondary);
+    margin: 0 0 0.5rem;
+  }
+
+  .rv-title {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: clamp(2.25rem, 7vw, 3.5rem);
+    line-height: 1.05;
+    letter-spacing: -0.015em;
+    margin: 0 0 1.25rem;
+  }
+
+  .rv-lede {
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    margin: 0 0 1rem;
+    color: var(--color-text-primary);
+  }
+
+  .rv-list {
+    list-style: none;
+    margin: 3rem 0 0;
+    padding: 0;
+    display: grid;
+    gap: 4rem;
+  }
+
+  .rv-item {
+    display: grid;
+    gap: 1.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border-default);
+  }
+
+  .rv-letter {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    margin: 0;
+  }
+
+  .rv-name {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 2.25rem;
+    line-height: 1.1;
+    letter-spacing: -0.01em;
+    margin: 0.25rem 0 0.75rem;
+  }
+
+  .rv-idea {
+    font-size: 1.0625rem;
+    line-height: 1.6;
+    margin: 0 0 1.25rem;
+  }
+
+  .rv-try-title {
+    font-family: var(--font-body);
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: none;
+    letter-spacing: 0;
+    margin: 0 0 0.5rem;
+  }
+
+  .rv-try {
+    margin: 0 0 1.5rem;
+    padding-left: 1.125rem;
+    display: grid;
+    gap: 0.375rem;
+    line-height: 1.5;
+  }
+
+  .rv-open {
+    display: inline-flex;
+    align-items: center;
+    min-height: 3rem;
+    padding: 0 1.375rem;
+    border-radius: 999px;
+    background: var(--color-text-primary);
+    color: var(--color-bg-page);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .rv-open:hover { color: var(--color-bg-page); opacity: 0.88; }
+
+  .rv-shots {
+    display: grid;
+    grid-template-columns: minmax(0, 3.2fr) minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .rv-shot {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 0.5rem;
+    border: 1px solid var(--color-border-default);
+    box-shadow: 0 10px 30px -18px rgb(0 0 0 / 0.4);
+  }
+
+  .rv-shot-mobile { border-radius: 1rem; }
+
+  .rv-common {
+    margin-top: 4rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--color-border-default);
+    max-width: 46rem;
+  }
+
+  .rv-h2 {
+    font-family: var(--font-display);
+    font-weight: 500;
+    font-size: 1.75rem;
+    margin: 0 0 1rem;
+  }
+
+  .rv-common ul { padding-left: 1.125rem; display: grid; gap: 0.5rem; line-height: 1.55; margin: 0 0 1rem; }
+  .rv-common p { line-height: 1.6; }
+
+  @media (min-width: 980px) {
+    .rv { padding-inline: 2.5rem; }
+    .rv-item { grid-template-columns: minmax(0, 1fr) minmax(0, 1.55fr); gap: 3rem; align-items: start; }
+  }
+</style>

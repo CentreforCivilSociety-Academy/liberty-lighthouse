@@ -2,13 +2,29 @@
 import Mark from './Mark.astro';
 const currentPath = Astro.url.pathname;
 
+interface Props {
+  /**
+   * Where "Topics" points. The homepage is the topic directory, so by default
+   * it is the topic section there; a homepage under review passes "#topics"
+   * so the link stays on the design being looked at.
+   */
+  topicsHref?: string;
+}
+
+const { topicsHref = '/#topics' } = Astro.props;
+
 function isActive(path: string): boolean {
-  if (path === '/') return currentPath === '/';
+  if (path.includes('#')) return false;
   return currentPath.startsWith(path);
 }
 
+/*
+ * "All questions" is a first-class destination now that the homepage is an
+ * introduction rather than the index itself.
+ */
 const navLinks = [
-  { href: '/', label: 'Topics' },
+  { href: topicsHref, label: 'Topics' },
+  { href: '/questions/', label: 'All questions' },
   { href: '/glossary/', label: 'Glossary' },
   { href: '/about/', label: 'About' },
 ];

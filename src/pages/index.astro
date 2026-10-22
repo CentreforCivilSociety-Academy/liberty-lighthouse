@@ -1,55 +1,18 @@
 ---
 /**
- * The homepage is the contents page of a book that does not exist yet.
+ * The homepage.
  *
- * A leader, a hard rule, and then the entire corpus: every published question,
- * every theme, numbered, ruled and honestly counted. Nothing truncated, no
- * ellipsis, no empty slots where content does not exist.
- *
- * Ships zero JavaScript. Every destination is a plain anchor, so the page is
- * shareable, back-button-safe, keyboard-native and works with scripts off.
+ * CCS asked for a homepage that introduces Liberty Lighthouse and leads with
+ * its topics, instead of opening straight onto the question index (which now
+ * lives at /questions/). Three directions are under review at /preview/; this
+ * renders whichever one DEFAULT_DIRECTION names, exactly as it would ship.
  */
-import BaseLayout from '../layouts/BaseLayout.astro';
-import Navbar from '../components/global/Navbar.astro';
-import Footer from '../components/global/Footer.astro';
-import IndexHead from '../components/home/IndexHead.astro';
-import Leader from '../components/home/Leader.astro';
-import Contents from '../components/home/Contents.astro';
-import ThemeRail from '../components/home/ThemeRail.astro';
-import ThemeSection from '../components/home/ThemeSection.astro';
-import { getCorpus } from '../lib/corpus';
-import { resolveLeader } from '../lib/leader';
-import { shareImageFor } from '../lib/share-image';
-import { getCollection } from 'astro:content';
-import '../styles/home.css';
-
-const corpus = await getCorpus();
-
-const settings = await getCollection('settings');
-const frontpage = (settings.find((s) => s.id === 'frontpage')?.data ?? {}) as Record<string, string>;
-const leader = resolveLeader(corpus, [frontpage.lead, frontpage.shoulderA, frontpage.shoulderB]);
-
-if (leader.usedFallback) {
-  console.warn(
-    '[frontpage] one or more leader slots fell back — check src/content/settings/frontpage.json',
-  );
-}
-
-const description = `An index of ${corpus.totalQuestions} questions about Indian policy across ${corpus.totalThemes} themes, with FAQs, videos and syllabuses. A project of the Centre for Civil Society.`;
+import ReadingRoom from '../components/directions/reading-room/ReadingRoom.astro';
+import SectorLight from '../components/directions/sector-light/SectorLight.astro';
+import QuestionDeck from '../components/directions/question-deck/QuestionDeck.astro';
+import { DEFAULT_DIRECTION } from '../components/directions/directions';
 ---
 
-<BaseLayout title="Liberty Lighthouse" description={description} ogImage={await shareImageFor('home')}>
-  <Navbar />
-  <main
-    id="main-content"
-    class="home"
-    style={`--home-rows:${corpus.themes.length + 4}`}
-  >
-    <Leader leader={leader} />
-    <IndexHead corpus={corpus} />
-    <Contents corpus={corpus} />
-    <ThemeRail corpus={corpus} />
-    {corpus.themes.map((theme) => <ThemeSection theme={theme} />)}
-  </main>
-  <Footer />
-</BaseLayout>
+{DEFAULT_DIRECTION === 'reading-room' && <ReadingRoom />}
+{DEFAULT_DIRECTION === 'sector-light' && <SectorLight />}
+{DEFAULT_DIRECTION === 'question-deck' && <QuestionDeck />}

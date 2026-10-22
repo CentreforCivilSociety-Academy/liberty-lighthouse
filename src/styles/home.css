@@ -1,5 +1,6 @@
 /*
- * The homepage: four lanes, one system.
+ * The question index (/questions/, formerly the homepage): four lanes, one
+ * system. The file keeps its old name because tests read it by path.
  *
  * Deliberately not inside @layer. The CMS injects an unlayered <style> block
  * that sets h1/h2/h3 font-size, and unlayered rules beat every layer no matter
@@ -155,11 +156,8 @@
 
 .search button:hover { color: var(--ink); }
 
-/* ── Leader ─────────────────────────────────────────────── */
+/* ── Section labels ─────────────────────────────────────── */
 
-.leader { padding-block: 2.5rem 2rem; }
-
-.leader-label,
 .section-label {
   font-family: var(--font-mono);
   font-size: 0.6875rem;
@@ -168,61 +166,6 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   margin: 0 0 0.625rem;
-}
-
-.leader-question {
-  font-family: var(--font-display);
-  /* The one piece of display type on the page, and it is a question. */
-  font-size: clamp(1.875rem, 8.5vw, 3.25rem);
-  font-weight: 400;
-  line-height: 1.02;
-  letter-spacing: -0.022em;
-  margin: 0 0 1rem;
-  text-wrap: balance;
-}
-
-.leader-question a { color: var(--ink); text-decoration: none; }
-.leader-question a:hover { text-decoration: underline; text-underline-offset: 0.08em; }
-
-.leader-more {
-  font-family: var(--font-mono);
-  font-size: 0.6875rem;
-  line-height: 1.4;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--muted);
-  margin: 0;
-}
-
-.shoulders {
-  list-style: none;
-  margin: 2rem 0 0;
-  padding: 0;
-  display: grid;
-  gap: 1.5rem;
-  border-top: 1px solid var(--rule);
-  padding-top: 1.5rem;
-}
-
-.shoulder-question {
-  font-family: var(--font-display);
-  font-size: 1.25rem;
-  font-weight: 400;
-  line-height: 1.22;
-  letter-spacing: -0.008em;
-  margin: 0;
-  text-wrap: pretty;
-}
-
-.shoulder-question a { color: var(--ink); text-decoration: none; }
-.shoulder-question a:hover { text-decoration: underline; text-underline-offset: 0.08em; }
-
-/* The heaviest mark on the page, and it appears exactly once. */
-.leader-rule {
-  grid-column: field;
-  border: 0;
-  border-top: 3px solid var(--ink);
-  margin: 0 0 2rem;
 }
 
 /* ── Theme rail: the mobile theme switcher ──────────────── */
@@ -598,8 +541,6 @@
     --edge: 2rem;
     --folio-w: 2rem;
   }
-  .shoulders { grid-template-columns: 1fr 1fr; gap: 1.75rem; }
-  .leader { padding-block: 3rem 2rem; }
 }
 
 /* ══ PAGE — 714px up: the measure widens ══════════════════ */
@@ -610,8 +551,6 @@
     --field-max: 36rem;
   }
   .section-rule { margin-right: calc(-1 * var(--edge)); }
-  .leader-question { font-size: clamp(3rem, 6vw, 4.25rem); }
-  .shoulder-question { font-size: 1.375rem; }
 }
 
 /*
@@ -679,8 +618,6 @@
   }
 
   .index-head .hero-title { font-size: calc(1.75 * var(--u)); }
-  .leader-question { font-size: clamp(calc(4.25 * var(--u)), 5.4vw, calc(6.5 * var(--u))); }
-  .shoulder-question { font-size: calc(1.5 * var(--u)); }
   .index-question { font-size: calc(1.375 * var(--u)); }
   .section-title { font-size: calc(2.375 * var(--u)); }
   .byline { font-size: var(--u); }
@@ -693,9 +630,7 @@
   .contents-title,
   .contents-totals,
   .ledger,
-  .leader-label,
   .section-label,
-  .leader-more,
   .index-folio { font-size: calc(0.6875 * var(--u)); }
 
   .index-meta { font-size: calc(0.625 * var(--u)); }
@@ -786,9 +721,6 @@
     }
   }
 
-  .leader { padding-block: 3.5rem 2.25rem; }
-  .leader-question { line-height: 0.98; }
-
   /* Spans the reading column only. Bleeding it rightward made sense against a
      fore-edge; against symmetric margins it just leans the page again. */
   .section-rule { grid-column: field; margin-right: 0; }
@@ -804,8 +736,6 @@
 @media (min-width: 1156px) and (max-height: 760px) {
   .contents-nav { font-size: 0.9375em; }
   .contents-link { padding: 0.3125rem 0; }
-  .leader { padding-block: 2rem 1.5rem; }
-  .leader-question { font-size: clamp(3.25rem, 4.4vw, 4.75rem); }
 }
 
 /* ══ Motion ═════════════════════════════════════════════ */

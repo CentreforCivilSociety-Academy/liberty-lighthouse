@@ -1,0 +1,22 @@
+---
+/**
+ * One homepage direction under review, at /preview/<slug>/.
+ *
+ * Each renders with the review bar and noindex; / renders the default one
+ * without either. Deleted, with directions.ts, once CCS has chosen.
+ */
+import ReadingRoom from '../../components/directions/reading-room/ReadingRoom.astro';
+import SectorLight from '../../components/directions/sector-light/SectorLight.astro';
+import QuestionDeck from '../../components/directions/question-deck/QuestionDeck.astro';
+import { DIRECTIONS } from '../../components/directions/directions';
+
+export function getStaticPaths() {
+  return DIRECTIONS.map((d) => ({ params: { direction: d.slug } }));
+}
+
+const { direction } = Astro.params;
+---
+
+{direction === 'reading-room' && <ReadingRoom preview />}
+{direction === 'sector-light' && <SectorLight preview />}
+{direction === 'question-deck' && <QuestionDeck preview />}
