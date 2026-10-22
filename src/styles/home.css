@@ -86,8 +86,9 @@
  * of the thing worth looking at.
  */
 
+/* It opens the page now, so it brings the top space the leader used to. */
 .index-head {
-  padding-block: 0 2rem;
+  padding-block: 2.5rem 2rem;
 }
 
 /* .hero-title escapes the CMS h1 rule, so the size is ours to set. */
