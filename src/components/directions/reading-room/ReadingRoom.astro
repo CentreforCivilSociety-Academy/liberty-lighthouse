@@ -717,7 +717,11 @@ const peekCss = [
     .rr {
       --margin-w: 15rem;
       --gap: 3.5rem;
-      --edge: max(3rem, calc((100vw - 76rem) / 2));
+      /* A centred page, margin plus one text column, narrow enough that
+         every block in the column runs its full width: no ragged right
+         edges and no empty band beside them. */
+      --edge: max(3rem, calc((100vw - 63rem) / 2));
+      --measure: none;
     }
 
     .rr-opening { row-gap: 1.375rem; padding-top: 3.25rem; }
@@ -732,15 +736,20 @@ const peekCss = [
     .rr-title.hero-title { grid-column: text-start / text-end; grid-row: 1; }
     .rr-subjects { grid-column: text-start / text-end; grid-row: 2; }
     .rr-note--counts { grid-column: margin-start / margin-end; grid-row: 2; align-self: start; padding-top: 0.6rem; }
-    .rr-peeks { display: grid; grid-column: margin-start / margin-end; grid-row: 2; align-self: start; padding-top: 0.6rem; }
+    /* Zero height so the longest preview never stretches the subjects row;
+       a preview runs on into the empty margin beside the paragraph below. */
+    .rr-peeks { display: grid; grid-column: margin-start / margin-end; grid-row: 2; align-self: start; padding-top: 0.6rem; height: 0; overflow: visible; }
     .rr-intro { grid-column: text-start / text-end; grid-row: 3; }
 
     /* Sized for a laptop's first screen: the headline in two lines, the
        subjects in about five, and the ways in (all questions, search) still
        above the fold at 1280×720. */
     .rr-title.hero-title { font-size: clamp(3.25rem, 4.3vw, 4.25rem); max-width: 20ch; }
-    .rr-subjects { font-size: clamp(1.5rem, 1.9vw, 1.875rem); }
+    .rr-subjects { font-size: clamp(1.5rem, 1.9vw, 1.875rem); max-width: none; }
     .rr-intro p { font-size: 1.125rem; }
+    /* The lead question reads as a chapter heading under the headline, not a
+       second headline. */
+    .rr-chapter-title { font-size: clamp(2.5rem, 3.2vw, 3rem); max-width: 24ch; }
 
     .rr-lead > .rr-margin { grid-column: margin-start / margin-end; flex-direction: column; padding-top: 0.75rem; }
     .rr-lead > .rr-chapter { grid-column: text-start / text-end; }
