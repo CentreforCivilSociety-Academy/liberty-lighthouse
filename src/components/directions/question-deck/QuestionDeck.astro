@@ -1006,8 +1006,10 @@ const description = `Draw a question about how India works: ${totals.questions} 
 
   /* ── Wider ───────────────────────────────────────────── */
   @media (min-width: 720px) {
-    .qd-hero, .qd-decks, .qd-watch { padding-inline: 2.5rem; }
-    .qd-film { margin-inline: -2.5rem; padding-inline: 2.5rem; grid-auto-columns: 12rem; }
+    /* The navbar's container, so the page's edges line up with the logo and
+       the search button above it. */
+    .qd-hero, .qd-decks, .qd-watch { max-width: var(--content-max-width); padding-inline: var(--spacing-lg); }
+    .qd-film { margin-inline: calc(-1 * var(--spacing-lg)); padding-inline: var(--spacing-lg); grid-auto-columns: 12rem; }
     .qd-deck-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.5rem 1.5rem; }
   }
 
@@ -1023,6 +1025,11 @@ const description = `Draw a question about how India works: ${totals.questions} 
     .qd-intro { margin-top: 1.25rem; }
     .qd-find { margin-top: 1.75rem; }
     .qd-stack { width: min(23rem, 38vw); }
+    /* The deck and its controls end where the search button above does. */
+    .qd-table { justify-items: end; }
+    /* The cards under the top one are turned and stick out about 33px. */
+    .qd-stack { margin-right: 33px; }
+    .qd-controls { justify-content: flex-end; }
     .qd-deck-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
     .qd-deck-face { min-height: 15rem; }
   }

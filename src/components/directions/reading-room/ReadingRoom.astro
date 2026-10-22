@@ -708,7 +708,9 @@ const peekCss = [
 
   /* ── Wider screens: the margin opens ──────────────────── */
   @media (min-width: 720px) {
-    .rr { --edge: 2.5rem; }
+    /* The grid's outer edges are the navbar's content edges: the margin notes
+       start under the logo and the text column ends under the search button. */
+    .rr { --edge: max(var(--spacing-lg), calc((100vw - var(--content-max-width)) / 2 + var(--spacing-lg))); }
     .rr-topics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
     .rr-ways-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   }
@@ -717,10 +719,8 @@ const peekCss = [
     .rr {
       --margin-w: 15rem;
       --gap: 3.5rem;
-      /* A centred page, margin plus one text column, narrow enough that
-         every block in the column runs its full width: no ragged right
-         edges and no empty band beside them. */
-      --edge: max(3rem, calc((100vw - 63rem) / 2));
+      /* Margin plus one text column, which every block runs the full width
+         of: no ragged right edges and no empty band beside them. */
       --measure: none;
     }
 

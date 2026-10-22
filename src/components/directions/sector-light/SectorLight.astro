@@ -573,7 +573,7 @@ const description = `Find your bearings on the questions India argues about: ${t
     display: grid;
     gap: 1.25rem;
     padding: 1.5rem 1.25rem 3rem;
-    max-width: 82rem;
+    max-width: var(--content-max-width);
     margin: 0 auto;
   }
 
@@ -863,7 +863,7 @@ const description = `Find your bearings on the questions India argues about: ${t
   /* ── List of lights ──────────────────────────────────── */
   .sl-lights,
   .sl-close {
-    max-width: 82rem;
+    max-width: var(--content-max-width);
     margin: 0 auto;
     padding: 4rem 1.25rem 0;
     scroll-margin-top: calc(var(--nav-height) + 1rem);
@@ -1004,8 +1004,9 @@ const description = `Find your bearings on the questions India argues about: ${t
 
   /* ── Wide screens ────────────────────────────────────── */
   @media (min-width: 760px) {
-    .sl-hero { padding-inline: 2.5rem; }
-    .sl-lights, .sl-close { padding-inline: 2.5rem; }
+    /* The navbar's container, so the page's edges line up with the logo and
+       the search button above it. */
+    .sl-hero, .sl-lights, .sl-close { padding-inline: var(--spacing-lg); }
     .sl-row {
       grid-template-columns: minmax(14rem, 1.1fr) minmax(0, 2fr);
       align-items: baseline;
@@ -1030,10 +1031,14 @@ const description = `Find your bearings on the questions India argues about: ${t
     }
     .sl-head { grid-area: head; align-self: end; }
     .sl-side { grid-area: side; align-self: start; }
-    .sl-stage { grid-area: stage; align-self: center; }
+    .sl-stage { grid-area: stage; align-self: center; --lamp-size: min(100%, 36rem, calc(100svh - var(--nav-height) - 6rem)); }
+    /* The lamp's circle ends where the search button above does: the rim is
+       drawn 48 units in from the edge of the 1000-unit picture. */
+    .sl-instrument { margin-right: calc(var(--lamp-size) * -0.048); }
+    .sl-hint { width: var(--lamp-size); margin-left: auto; }
     .sl-title.hero-title { font-size: clamp(2.5rem, 3.7vw, 3.5rem); max-width: 18ch; }
     .sl-intro { font-size: 1.125rem; }
-    .sl-instrument { width: min(100%, 38rem, calc(100svh - var(--nav-height) - 6rem)); }
+    .sl-instrument { width: var(--lamp-size); }
     .sl-list { grid-template-columns: 1fr 1fr; column-gap: 3.5rem; }
     .sl-row { grid-template-columns: 1fr; }
     .sl-row-topic { grid-row: auto; }
