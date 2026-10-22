@@ -17,7 +17,6 @@
 import { getCollection } from 'astro:content';
 import { getCorpus, type Corpus, type CorpusRow, type CorpusTheme } from './corpus';
 import { resolveLeader, type Leader } from './leader';
-import { solveForContrast } from './palette';
 import { stripMarkdown } from './text';
 
 /**
@@ -26,12 +25,6 @@ import { stripMarkdown } from './text';
  * school students, so the estimate errs long rather than short.
  */
 export const WORDS_PER_MINUTE = 200;
-
-/**
- * The night ground of the Sector Light direction, kept here because the
- * topic lights below are solved against it.
- */
-export const NIGHT = '#0C1A26';
 
 export type HomeQuestion = {
   question: string;
@@ -59,8 +52,6 @@ export type HomeTopic = {
   ink: string;
   /** Ground colour that carries paper-coloured text, from palette.ts. */
   fill: string;
-  /** The same hue solved as a light on the night ground (7:1 against NIGHT). */
-  light: string;
   /** Published question files, as the old index counts them. */
   questions: number;
   videos: number;
@@ -188,9 +179,6 @@ export async function getHomepage(): Promise<Homepage> {
       href: theme.href,
       ink: theme.ink,
       fill: theme.fill,
-      // Lowest lightness at this hue that still clears 7:1 against the night
-      // ground: the most saturated light that stays readable as text.
-      light: solveForContrast(theme.hue, 0.13, 7, NIGHT, false).hex,
       questions: theme.questions,
       videos: theme.videos,
       hasSyllabus: theme.hasSyllabus,

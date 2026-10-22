@@ -26,7 +26,7 @@ import BaseLayout from '../../../layouts/BaseLayout.astro';
 import Navbar from '../../global/Navbar.astro';
 import Footer from '../../global/Footer.astro';
 import PreviewBar from '../PreviewBar.astro';
-import { getHomepage, listOf, plural, NIGHT } from '../../../lib/homepage';
+import { getHomepage, listOf, plural } from '../../../lib/homepage';
 import { shareImageFor } from '../../../lib/share-image';
 
 interface Props {
@@ -128,7 +128,7 @@ const data = topics.map((topic, i) => ({
   slug: topic.slug,
   title: topic.title,
   href: topic.href,
-  light: topic.light,
+  light: topic.ink,
   facts: factsFor(topic),
   count: topic.questions,
   videos: topic.videos,
@@ -151,11 +151,10 @@ const description = `Find your bearings on the questions India argues about: ${t
   description={description}
   ogImage={await shareImageFor('home')}
   noindex={preview}
-  bodyClass="night"
 >
   <Navbar topicsHref={preview ? '#topics' : undefined} />
 
-  <main id="main-content" class="sl" style={`--night:${NIGHT}`}>
+  <main id="main-content" class="sl">
     <!--
       Three areas, in the order a phone needs them: the words, the instrument,
       then the readout directly under the light it describes. On a wide screen
@@ -186,14 +185,14 @@ const description = `Find your bearings on the questions India argues about: ${t
           <svg viewBox="0 0 1000 1000" aria-hidden="true" focusable="false">
             <defs>
               <radialGradient id="sl-beam-grad" cx="500" cy="500" r="474" gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#FFF1CF" stop-opacity="0.62" />
-                <stop offset="0.45" stop-color="#FFF1CF" stop-opacity="0.2" />
-                <stop offset="1" stop-color="#FFF1CF" stop-opacity="0" />
+                <stop offset="0" stop-color="#F2B23C" stop-opacity="0.5" />
+                <stop offset="0.45" stop-color="#F2B23C" stop-opacity="0.16" />
+                <stop offset="1" stop-color="#F2B23C" stop-opacity="0" />
               </radialGradient>
               <radialGradient id="sl-lamp-grad">
-                <stop offset="0" stop-color="#FFF1CF" stop-opacity="0.95" />
-                <stop offset="0.35" stop-color="#FFE7AE" stop-opacity="0.35" />
-                <stop offset="1" stop-color="#FFE7AE" stop-opacity="0" />
+                <stop offset="0" stop-color="#FFD27A" stop-opacity="0.85" />
+                <stop offset="0.35" stop-color="#FFDF9E" stop-opacity="0.35" />
+                <stop offset="1" stop-color="#FFDF9E" stop-opacity="0" />
               </radialGradient>
             </defs>
 
@@ -205,7 +204,7 @@ const description = `Find your bearings on the questions India argues about: ${t
             ))}
 
             {sectors.map((s, i) => (
-              <g class="sl-sector" data-index={i} data-lit={i === startIndex ? '' : undefined} style={`--light:${s.topic.light}`}>
+              <g class="sl-sector" data-index={i} data-lit={i === startIndex ? '' : undefined} style={`--light:${s.topic.ink}`}>
                 <path class="sl-wedge" d={s.path} />
                 <line class="sl-boundary" x1={s.boundary[0][0]} y1={s.boundary[0][1]} x2={s.boundary[1][0]} y2={s.boundary[1][1]} />
                 <g class="sl-points">
@@ -224,7 +223,7 @@ const description = `Find your bearings on the questions India argues about: ${t
 
             <g class="sl-beam" style={`transform: rotate(${startIndex * SPAN + SPAN / 2}deg)`}>
               <path class="sl-beam-light" d={beamPath} fill="url(#sl-beam-grad)" />
-              <path class="sl-beam-tint" d={beamPath} style={`fill:${start.light}`} />
+              <path class="sl-beam-tint" d={beamPath} style={`fill:${start.ink}`} />
             </g>
 
             <g class="sl-marker" style={`transform: translate(${startPoint.x}px, ${startPoint.y}px)`}>
@@ -245,7 +244,7 @@ const description = `Find your bearings on the questions India argues about: ${t
       </div>
 
       <div class="sl-side">
-        <div class="sl-readout" id="sl-readout" style={`--light:${start.light}`}>
+        <div class="sl-readout" id="sl-readout" style={`--light:${start.ink}`}>
           <!-- The step buttons sit beside the name, so they stay put while
                the questions under them change length. -->
           <div class="sl-lit-head">
@@ -285,7 +284,7 @@ const description = `Find your bearings on the questions India argues about: ${t
 
       <ol class="sl-list">
         {topics.map((topic, i) => (
-          <li class="sl-row" data-index={i} style={`--light:${topic.light}`}>
+          <li class="sl-row" data-index={i} style={`--light:${topic.ink}`}>
             <a class="sl-row-topic" href={topic.href}>
               <svg class="sl-row-glyph" viewBox="0 0 40 40" aria-hidden="true">
                 <path d="M20 36 7 6A32 32 0 0 1 33 6Z" />
@@ -554,46 +553,18 @@ const description = `Find your bearings on the questions India argues about: ${t
   }
 </script>
 
-<style is:global>
-  /*
-   * Night chrome. The navbar, bottom bar and footer read the colour custom
-   * properties, so redefining them on body puts the whole page at sea without
-   * forking those components. The partner band keeps paper: the CCS wordmark
-   * is a dark PNG and measures 1.41:1 on a dark ground.
-   */
-  html:has(body.night) { background: #0C1A26; color-scheme: dark; }
-
-  body.night {
-    --color-bg-page: #0C1A26;
-    --color-border-subtle: rgb(232 238 243 / 0.1);
-    --color-border-default: rgb(232 238 243 / 0.14);
-    --color-text-primary: #E8EEF3;
-    --color-text-secondary: #A9B8C5;
-    --color-primary: #FFF1CF;
-    --color-border-focus: #FFF1CF;
-    background: #0C1A26;
-    color: #E8EEF3;
-  }
-
-  body.night .partners {
-    --color-bg-page: #FDFBF9;
-    --color-border-default: #E8E2DC;
-    --color-text-secondary: #5C524A;
-  }
-
-  body.night .site-footer { background: #08131C; }
-</style>
-
 <style>
   .sl {
-    --text: #E8EEF3;
-    --text-2: #A9B8C5;
-    --line: rgb(232 238 243 / 0.12);
-    --lamp: #FFF1CF;
+    --text: var(--color-text-primary);
+    --text-2: var(--color-text-secondary);
+    --line: var(--color-border-default);
+    /* The lamp and its beam: a warm light on paper. Never text. */
+    --lamp: #D9911A;
+    --focus: var(--color-border-focus);
     --serif: var(--font-display);
     --sans: var(--font-body);
     color: var(--text);
-    background: var(--night);
+    background: var(--color-bg-page);
     overflow-x: clip;
   }
 
@@ -655,7 +626,7 @@ const description = `Find your bearings on the questions India argues about: ${t
     height: 0.9rem;
     border-radius: 50%;
     background: var(--light);
-    box-shadow: 0 0 0 4px color-mix(in srgb, var(--light) 18%, transparent), 0 0 18px var(--light);
+    box-shadow: 0 0 0 4px color-mix(in srgb, var(--light) 18%, transparent);
   }
 
   .sl-lit-facts {
@@ -681,9 +652,11 @@ const description = `Find your bearings on the questions India argues about: ${t
     border-top: 1px solid var(--line);
   }
 
-  .sl-lit-qs li { border-bottom: 1px solid var(--line); }
+  /* :global because the script rebuilds these items, which then carry no
+     scope attribute. */
+  .sl-lit-qs :global(li) { border-bottom: 1px solid var(--line); }
 
-  .sl-lit-qs a {
+  .sl-lit-qs :global(a) {
     display: block;
     padding: 0.625rem 0;
     font-family: var(--serif);
@@ -695,8 +668,8 @@ const description = `Find your bearings on the questions India argues about: ${t
     text-wrap: pretty;
   }
 
-  .sl-lit-qs a:hover { color: var(--light); }
-  .sl-lit-qs a:focus-visible { outline: 2px solid var(--lamp); outline-offset: 2px; border-radius: 2px; }
+  .sl-lit-qs :global(a:hover) { color: var(--light); }
+  .sl-lit-qs :global(a:focus-visible) { outline: 2px solid var(--focus); outline-offset: 2px; border-radius: 2px; }
 
   .sl-controls {
     display: flex;
@@ -726,7 +699,7 @@ const description = `Find your bearings on the questions India argues about: ${t
   }
 
   .sl-ways a { color: var(--text); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
-  .sl-ways a:hover { color: var(--lamp); }
+  .sl-ways a:hover { color: var(--text-2); }
 
   .sl-go {
     display: inline-flex;
@@ -734,7 +707,7 @@ const description = `Find your bearings on the questions India argues about: ${t
     min-height: 2.875rem;
     padding: 0 1.25rem;
     background: var(--light);
-    color: #0C1A26;
+    color: #fff;
     font-family: var(--sans);
     font-weight: 600;
     font-size: 0.9375rem;
@@ -742,7 +715,7 @@ const description = `Find your bearings on the questions India argues about: ${t
     border-radius: 999px;
   }
 
-  .sl-go:hover { color: #0C1A26; filter: brightness(1.08); }
+  .sl-go:hover { color: #fff; filter: brightness(1.12); }
 
   .sl-step {
     width: 2.875rem;
@@ -772,7 +745,7 @@ const description = `Find your bearings on the questions India argues about: ${t
   .sl-go:focus-visible,
   .sl-step:focus-visible,
   .sl-instrument:focus-visible {
-    outline: 2px solid var(--lamp);
+    outline: 2px solid var(--focus);
     outline-offset: 3px;
   }
 
@@ -797,17 +770,17 @@ const description = `Find your bearings on the questions India argues about: ${t
   .sl-instrument svg { display: block; width: 100%; height: 100%; overflow: visible; }
 
   .sl-ring-line { fill: none; stroke: var(--line); stroke-width: 1; }
-  .sl-rim { fill: none; stroke: rgb(232 238 243 / 0.28); stroke-width: 1.5; }
-  .sl-tick { stroke: rgb(232 238 243 / 0.22); stroke-width: 1.5; }
-  .sl-tick-long { stroke: rgb(232 238 243 / 0.45); }
+  .sl-rim { fill: none; stroke: rgb(28 24 20 / 0.3); stroke-width: 1.5; }
+  .sl-tick { stroke: rgb(28 24 20 / 0.2); stroke-width: 1.5; }
+  .sl-tick-long { stroke: rgb(28 24 20 / 0.45); }
 
   .sl-wedge {
     fill: var(--light);
-    fill-opacity: 0.035;
+    fill-opacity: 0.03;
     transition: fill-opacity 300ms ease-out;
   }
 
-  .sl-boundary { stroke: rgb(232 238 243 / 0.1); stroke-width: 1; }
+  .sl-boundary { stroke: rgb(28 24 20 / 0.1); stroke-width: 1; }
 
   .sl-point {
     fill: var(--light);
@@ -817,7 +790,7 @@ const description = `Find your bearings on the questions India argues about: ${t
 
   .sl-label {
     fill: var(--light);
-    fill-opacity: 0.72;
+    fill-opacity: 0.8;
     font-family: var(--font-display);
     font-style: italic;
     font-size: 29px;
@@ -826,11 +799,10 @@ const description = `Find your bearings on the questions India argues about: ${t
     pointer-events: none;
   }
 
-  .sl-sector[data-lit] .sl-wedge { fill-opacity: 0.13; }
+  .sl-sector[data-lit] .sl-wedge { fill-opacity: 0.09; }
   .sl-sector[data-lit] .sl-point { fill-opacity: 1; }
-  .sl-sector[data-lit] .sl-points { filter: drop-shadow(0 0 5px var(--light)); }
   .sl-sector[data-lit] .sl-label { fill-opacity: 1; }
-  .sl-sector[data-hover]:not([data-lit]) .sl-wedge { fill-opacity: 0.09; }
+  .sl-sector[data-hover]:not([data-lit]) .sl-wedge { fill-opacity: 0.06; }
   .sl-sector[data-hover] .sl-label { fill-opacity: 1; }
 
   .sl-beam {
@@ -839,11 +811,11 @@ const description = `Find your bearings on the questions India argues about: ${t
     pointer-events: none;
   }
 
-  .sl-beam-light { mix-blend-mode: screen; }
+  .sl-beam-light { mix-blend-mode: multiply; }
 
   .sl-beam-tint {
-    fill-opacity: 0.16;
-    mix-blend-mode: screen;
+    fill-opacity: 0.1;
+    mix-blend-mode: multiply;
     transition: fill 300ms ease-out;
   }
 
@@ -854,7 +826,7 @@ const description = `Find your bearings on the questions India argues about: ${t
 
   .sl-marker circle {
     fill: none;
-    stroke: var(--lamp);
+    stroke: var(--text);
     stroke-width: 2;
   }
 
@@ -969,7 +941,7 @@ const description = `Find your bearings on the questions India argues about: ${t
 
   .sl-row-q a:hover { text-decoration: underline; text-decoration-color: var(--light); text-underline-offset: 0.16em; }
 
-  .sl-row a:focus-visible { outline: 2px solid var(--lamp); outline-offset: 3px; border-radius: 2px; }
+  .sl-row a:focus-visible { outline: 2px solid var(--focus); outline-offset: 3px; border-radius: 2px; }
 
   /* ── Close ───────────────────────────────────────────── */
   .sl-close { padding-bottom: 5rem; }
@@ -991,7 +963,7 @@ const description = `Find your bearings on the questions India argues about: ${t
     padding: 0.25rem 0.25rem 0.25rem 1.25rem;
   }
 
-  .sl-search:focus-within { border-color: var(--lamp); }
+  .sl-search:focus-within { border-color: var(--text); }
 
   .sl-search input {
     flex: 1;
@@ -1012,8 +984,8 @@ const description = `Find your bearings on the questions India argues about: ${t
     border: 0;
     border-radius: 999px;
     padding: 0 1.25rem;
-    background: var(--lamp);
-    color: #0C1A26;
+    background: var(--text);
+    color: var(--color-bg-page);
     font-family: var(--sans);
     font-weight: 600;
     font-size: 0.9375rem;
@@ -1028,7 +1000,7 @@ const description = `Find your bearings on the questions India argues about: ${t
     text-underline-offset: 0.18em;
   }
 
-  .sl-all:hover { color: var(--lamp); }
+  .sl-all:hover { color: var(--text-2); }
 
   /* ── Wide screens ────────────────────────────────────── */
   @media (min-width: 760px) {
