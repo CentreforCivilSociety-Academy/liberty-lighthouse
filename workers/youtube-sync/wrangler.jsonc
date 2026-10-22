@@ -1,0 +1,54 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // The dev deployment. It runs in stage mode until a GITHUB_TOKEN secret is
+  // set (see README.md), so it can be deployed and watched without writing
+  // anything to the content repo.
+  "name": "liberty-lighthouse-youtube-sync-dev",
+  "main": "src/index.ts",
+  // This Worker sits inside the Astro site's repository. Naming its own
+  // tsconfig keeps the bundler from consulting the site's.
+  "tsconfig": "./tsconfig.json",
+  // The newest date the bundled workerd (1.20261019.1) supports, so that
+  // `wrangler dev` runs the same runtime the deployment will.
+  "compatibility_date": "2026-10-19",
+  // No compatibility_flags: the Worker uses only fetch, Web Crypto and KV, so
+  // nodejs_compat is not needed.
+
+  // Every six hours. The channel uploads a Short every two days or so, and
+  // the feed holds the latest 15, so a missed run is caught by the next one.
+  "triggers": {
+    "crons": ["0 */6 * * *"]
+  },
+
+  // Each run writes one JSON log line per step; keep all of them.
+  "observability": {
+    "enabled": true,
+    "head_sampling_rate": 1
+  },
+
+  // The workers.dev URL only serves GET /status and POST /run, and only to a
+  // caller holding ADMIN_TOKEN. Without that secret every request is a 404.
+  "workers_dev": true,
+
+  // The run ledger: one record per video, the last run summaries, the blob
+  // caches and the run lock. A namespace id is not a secret. For another
+  // account or a production copy, create one with
+  //   npx wrangler kv namespace create LEDGER
+  // and put the id it prints here.
+  "kv_namespaces": [
+    { "binding": "LEDGER", "id": "b8c2a091e20747b8a4bb8169f5d8a10c" }
+  ],
+
+  // Non-secret settings. Secrets (OPENROUTER_API_KEY, GITHUB_TOKEN,
+  // ADMIN_TOKEN) are set with `wrangler secret put`, never here.
+  "vars": {
+    "CHANNEL_ID": "UCF5Yih_yIqBwO0LX_qcdQgA",
+    "GITHUB_REPO": "CentreforCivilSociety-Academy/liberty-lighthouse",
+    "TARGET_BRANCH": "feat/liberty-lighthouse-redesign-automation",
+    "PUBLISH_MODE": "review",
+    "JEV_MODEL": "typesafe/jev-1.14",
+    "AUTO_CONFIDENCE": "0.9",
+    "MAX_VIDEOS_PER_RUN": "4",
+    "ALLOW_MAIN": "false"
+  }
+}

@@ -1,0 +1,16 @@
+# The Worker's secrets, by name. For `wrangler dev`, copy this file to
+# .dev.vars (git-ignored) and fill in what you need; an empty value counts
+# as unset. In production, set each one with `npx wrangler secret put NAME`.
+#
+# `npm run types` also reads this file, and only this file, to learn the
+# secret names, so type generation never opens a real .dev.vars.
+
+# Required. Without it a run stops before reading the feed.
+OPENROUTER_API_KEY=
+
+# Optional. Unset means stage mode: would-be files are kept in the ledger
+# and nothing is written to GitHub. Needs contents:write on the repository.
+GITHUB_TOKEN=
+
+# Optional. Unset means no HTTP surface: every request gets a 404.
+ADMIN_TOKEN=

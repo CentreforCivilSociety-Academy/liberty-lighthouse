@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCRxDadH2Wx54OG1Mgxzpc1w"/>
+ <id>yt:channel:RxDadH2Wx54OG1Mgxzpc1w</id>
+ <yt:channelId>RxDadH2Wx54OG1Mgxzpc1w</yt:channelId>
+ <title>libertylighthouse</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCRxDadH2Wx54OG1Mgxzpc1w"/>
+ <author>
+  <name>libertylighthouse</name>
+  <uri>https://www.youtube.com/channel/UCRxDadH2Wx54OG1Mgxzpc1w</uri>
+ </author>
+ <published>2010-04-22T09:08:42+00:00</published>
+ <entry>
+  <id>yt:video:U7nau4OmYa4</id>
+  <yt:videoId>U7nau4OmYa4</yt:videoId>
+  <yt:channelId>UCRxDadH2Wx54OG1Mgxzpc1w</yt:channelId>
+  <title>FiveFarms Supervalu</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=U7nau4OmYa4"/>
+  <author>
+   <name>libertylighthouse</name>
+   <uri>https://www.youtube.com/channel/UCRxDadH2Wx54OG1Mgxzpc1w</uri>
+  </author>
+  <published>2019-12-10T07:40:49+00:00</published>
+  <updated>2026-10-01T22:12:37+00:00</updated>
+  <media:group>
+   <media:title>FiveFarms Supervalu</media:title>
+   <media:content url="https://www.youtube.com/v/U7nau4OmYa4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/U7nau4OmYa4/hqdefault.jpg" width="480" height="360"/>
+   <media:description></media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="6"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:etbiU_dh8XE</id>
+  <yt:videoId>etbiU_dh8XE</yt:videoId>
+  <yt:channelId>UCRxDadH2Wx54OG1Mgxzpc1w</yt:channelId>
+  <title>Tequila Traveler 3.mp4</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=etbiU_dh8XE"/>
+  <author>
+   <name>libertylighthouse</name>
+   <uri>https://www.youtube.com/channel/UCRxDadH2Wx54OG1Mgxzpc1w</uri>
+  </author>
+  <published>2010-08-04T08:07:56+00:00</published>
+  <updated>2026-10-03T21:36:58+00:00</updated>
+  <media:group>
+   <media:title>Tequila Traveler 3.mp4</media:title>
+   <media:content url="https://www.youtube.com/v/etbiU_dh8XE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/etbiU_dh8XE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Casa Noble featured on The Tequila Traveler part 2</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="160"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:S9PFtYjJGcc</id>
+  <yt:videoId>S9PFtYjJGcc</yt:videoId>
+  <yt:channelId>UCRxDadH2Wx54OG1Mgxzpc1w</yt:channelId>
+  <title>Tequila Traveler Episode 2.mp4</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=S9PFtYjJGcc"/>
+  <author>
+   <name>libertylighthouse</name>
+   <uri>https://www.youtube.com/channel/UCRxDadH2Wx54OG1Mgxzpc1w</uri>
+  </author>
+  <published>2010-08-04T07:38:30+00:00</published>
+  <updated>2026-10-04T04:00:11+00:00</updated>
+  <media:group>
+   <media:title>Tequila Traveler Episode 2.mp4</media:title>
+   <media:content url="https://www.youtube.com/v/S9PFtYjJGcc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/S9PFtYjJGcc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Casa Noble featured on The Tequila Traveler part 1</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="179"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:j4TEF0QK25E</id>
+  <yt:videoId>j4TEF0QK25E</yt:videoId>
+  <yt:channelId>UCRxDadH2Wx54OG1Mgxzpc1w</yt:channelId>
+  <title>VG_Video.MP4</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=j4TEF0QK25E"/>
+  <author>
+   <name>libertylighthouse</name>
+   <uri>https://www.youtube.com/channel/UCRxDadH2Wx54OG1Mgxzpc1w</uri>
+  </author>
+  <published>2010-08-02T05:00:08+00:00</published>
+  <updated>2026-10-05T04:25:23+00:00</updated>
+  <media:group>
+   <media:title>VG_Video.MP4</media:title>
+   <media:content url="https://www.youtube.com/v/j4TEF0QK25E?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/j4TEF0QK25E/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Van Gogh Premium Vodka's (No Sound)</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="9"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7wgD2V7JGhk</id>
+  <yt:videoId>7wgD2V7JGhk</yt:videoId>
+  <yt:channelId>UCRxDadH2Wx54OG1Mgxzpc1w</yt:channelId>
+  <title>VGBlue.mov</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7wgD2V7JGhk"/>
+  <author>
+   <name>libertylighthouse</name>
+   <uri>https://www.youtube.com/channel/UCRxDadH2Wx54OG1Mgxzpc1w</uri>
+  </author>
+  <published>2010-08-02T04:53:03+00:00</published>
+  <updated>2026-10-01T01:34:27+00:00</updated>
+  <media:group>
+   <media:title>VGBlue.mov</media:title>
+   <media:content url="https://www.youtube.com/v/7wgD2V7JGhk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/7wgD2V7JGhk/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Van Gogh Blue Vodka (No Sound)</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="504"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ngL862sPHp4</id>
+  <yt:videoId>ngL862sPHp4</yt:videoId>
+  <yt:channelId>UCRxDadH2Wx54OG1Mgxzpc1w</yt:channelId>
+  <title>Armagnac marks 700th birthday.mp4</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ngL862sPHp4"/>
+  <author>
+   <name>libertylighthouse</name>
+   <uri>https://www.youtube.com/channel/UCRxDadH2Wx54OG1Mgxzpc1w</uri>
+  </author>
+  <published>2010-06-08T02:11:10+00:00</published>
+  <updated>2026-10-05T01:41:25+00:00</updated>
+  <media:group>
+   <media:title>Armagnac marks 700th birthday.mp4</media:title>
+   <media:content url="https://www.youtube.com/v/ngL862sPHp4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/ngL862sPHp4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Armagnac marks 700th birthday</media:description>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="22"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>

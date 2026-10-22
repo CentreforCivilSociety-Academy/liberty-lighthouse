@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns:yt="http://www.youtube.com/xml/schemas/2015" xmlns:media="http://search.yahoo.com/mrss/" xmlns="http://www.w3.org/2005/Atom">
+ <link rel="self" href="http://www.youtube.com/feeds/videos.xml?channel_id=UCF5Yih_yIqBwO0LX_qcdQgA"/>
+ <id>yt:channel:F5Yih_yIqBwO0LX_qcdQgA</id>
+ <yt:channelId>F5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+ <title>TheCCSAcademy</title>
+ <link rel="alternate" href="https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA"/>
+ <author>
+  <name>TheCCSAcademy</name>
+  <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+ </author>
+ <published>2026-07-02T09:29:20+00:00</published>
+ <entry>
+  <id>yt:video:wQ9M95FK6l0</id>
+  <yt:videoId>wQ9M95FK6l0</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Why Economists Got Excited About a Tax Reform</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/wQ9M95FK6l0"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-31T04:41:18+00:00</published>
+  <updated>2026-10-01T22:16:28+00:00</updated>
+  <media:group>
+   <media:title>Why Economists Got Excited About a Tax Reform</media:title>
+   <media:content url="https://www.youtube.com/v/wQ9M95FK6l0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/wQ9M95FK6l0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Before GST, every time a part changed hands between businesses it was taxed again, tax on tax, all the way through the supply chain. This short explains how that quietly pushed firms to make their own parts badly rather than buy better ones from a specialist, and why GST's real win wasn't collecting more revenue, it was letting businesses build things the way that actually made sense.</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="40"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Zac758HPfjg</id>
+  <yt:videoId>Zac758HPfjg</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Why Cutting GST on Food Helps the Rich, Not the Poor</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/Zac758HPfjg"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-30T08:38:23+00:00</published>
+  <updated>2026-10-04T06:03:54+00:00</updated>
+  <media:group>
+   <media:title>Why Cutting GST on Food Helps the Rich, Not the Poor</media:title>
+   <media:content url="https://www.youtube.com/v/Zac758HPfjg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Zac758HPfjg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Cutting GST on food sounds like an obvious way to help poor families. This short explains why it often does the opposite: the poorest households buy essentials from unregistered street vendors who never charge GST in the first place, while it's wealthier families shopping at supermarkets who actually pay it, and stand to gain the most when it's cut.</media:description>
+   <media:community>
+    <media:starRating count="2" average="5.00" min="1" max="5"/>
+    <media:statistics views="36"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Fip-j7Uqbh0</id>
+  <yt:videoId>Fip-j7Uqbh0</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Why You Can Lose Money to Someone Else's GST Fraud</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/Fip-j7Uqbh0"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-28T04:33:06+00:00</published>
+  <updated>2026-10-03T20:33:17+00:00</updated>
+  <media:group>
+   <media:title>Why You Can Lose Money to Someone Else's GST Fraud</media:title>
+   <media:content url="https://www.youtube.com/v/Fip-j7Uqbh0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/Fip-j7Uqbh0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Under GST, you can be denied a tax credit you're owed, not because you did anything wrong, but because your supplier vanished, faked an invoice, or never deposited the tax they collected. This short explains how a system built to tax only the consumer ends up trapping tax inside honest businesses instead, and why India's GST works like a VAT on paper more often than it does in practice.</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="38"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:zq7h9cU-ZMU</id>
+  <yt:videoId>zq7h9cU-ZMU</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Why a Profit Motive Can Create Better Schools</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/zq7h9cU-ZMU"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-26T02:30:25+00:00</published>
+  <updated>2026-10-04T17:25:59+00:00</updated>
+  <media:group>
+   <media:title>Why a Profit Motive Can Create Better Schools</media:title>
+   <media:content url="https://www.youtube.com/v/zq7h9cU-ZMU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/zq7h9cU-ZMU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A  businessman trying to make money sounds like the last person you'd trust with a child's education. This short explains why the opposite is often true: a private school survives only as long as parents keep choosing it, which forces it to respond to what they actually want. And it isn't just for the rich, nearly half of India's private school students pay under ₹500 a month.</media:description>
+   <media:community>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="43"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:eBkMjmGB7aU</id>
+  <yt:videoId>eBkMjmGB7aU</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Why Indian Trucks Suddenly Started Moving Faster</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/eBkMjmGB7aU"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-24T03:25:20+00:00</published>
+  <updated>2026-10-05T14:25:42+00:00</updated>
+  <media:group>
+   <media:title>Why Indian Trucks Suddenly Started Moving Faster</media:title>
+   <media:content url="https://www.youtube.com/v/eBkMjmGB7aU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/eBkMjmGB7aU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>After GST, Indian trucks started covering 33% more distance every day, without a single new road or faster engine. This short explains why: before GST, trucks lost hours at state borders paying entry taxes and octroi, effectively crossing internal customs posts every time they crossed a state line. It also looks at how far India's &quot;one nation, one market&quot; promise has actually gone, and where it still falls short.</media:description>
+   <media:community>
+    <media:starRating count="7" average="5.00" min="1" max="5"/>
+    <media:statistics views="167"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-q05TW2BXGs</id>
+  <yt:videoId>-q05TW2BXGs</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Why Removing GST Can Make Things More Expensive</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/-q05TW2BXGs"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-21T11:17:10+00:00</published>
+  <updated>2026-10-03T11:57:03+00:00</updated>
+  <media:group>
+   <media:title>Why Removing GST Can Make Things More Expensive</media:title>
+   <media:content url="https://www.youtube.com/v/-q05TW2BXGs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-q05TW2BXGs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Education is exempt from GST, so schools don't charge it on their fees. That sounds like a win for parents. But the school still pays GST on everything it buys, computers, furniture, security, maintenance, and because it's exempt, it can't claim that back. This short explains the difference between an exemption, which quietly builds hidden tax into the price, and zero-rating, which actually removes it, and why the two get confused far too often.</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="87"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:KjYBW-Uf-jg</id>
+  <yt:videoId>KjYBW-Uf-jg</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Can Overtime Rates Actually Reduce Income?</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/KjYBW-Uf-jg"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-19T03:59:41+00:00</published>
+  <updated>2026-10-04T08:13:38+00:00</updated>
+  <media:group>
+   <media:title>Can Overtime Rates Actually Reduce Income?</media:title>
+   <media:content url="https://www.youtube.com/v/KjYBW-Uf-jg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/KjYBW-Uf-jg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>India mandates double pay for overtime work, among the highest overtime premiums anywhere in the world. It sounds like a clear win for workers. This short explains why it often isn't: when overtime costs employers too much, many simply stop offering it rather than pay the higher rate, leaving workers with the same base pay and fewer hours to earn more.</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="41"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:LPkrQOrwh10</id>
+  <yt:videoId>LPkrQOrwh10</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Why Government Teachers Are Paid More but Teach Less</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/LPkrQOrwh10"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-17T06:00:37+00:00</published>
+  <updated>2026-10-01T03:49:40+00:00</updated>
+  <media:group>
+   <media:title>Why Government Teachers Are Paid More but Teach Less</media:title>
+   <media:content url="https://www.youtube.com/v/LPkrQOrwh10?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LPkrQOrwh10/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Government school teachers in India are often paid more than private school teachers, with better training, job security, and benefits. Yet private school students frequently learn more. This short explains why: salary and incentive aren't the same thing, and a teacher whose job is secure no matter what happens in the classroom has less reason to improve than one whose contract depends on outcomes.</media:description>
+   <media:community>
+    <media:starRating count="14" average="5.00" min="1" max="5"/>
+    <media:statistics views="308"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:kJhib23XYnU</id>
+  <yt:videoId>kJhib23XYnU</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Why Spending ₹20,000 Crore Might Not Help the Economy</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/kJhib23XYnU"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-16T02:30:07+00:00</published>
+  <updated>2026-10-05T00:18:58+00:00</updated>
+  <media:group>
+   <media:title>Why Spending ₹20,000 Crore Might Not Help the Economy</media:title>
+   <media:content url="https://www.youtube.com/v/kJhib23XYnU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i4.ytimg.com/vi/kJhib23XYnU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A government announces ₹20,000 crore in spending and thousands of new jobs. It sounds like an obvious win. This short explains why it isn't that simple: every rupee spent is a rupee taken from someone else first, and the businesses, jobs, and ideas that money would have funded never make it onto camera.</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="89"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:LYoNBT1fT3I</id>
+  <yt:videoId>LYoNBT1fT3I</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Why Doing Less Made India Richer</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/LYoNBT1fT3I"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-14T02:30:09+00:00</published>
+  <updated>2026-10-03T16:43:23+00:00</updated>
+  <media:group>
+   <media:title>Why Doing Less Made India Richer</media:title>
+   <media:content url="https://www.youtube.com/v/LYoNBT1fT3I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/LYoNBT1fT3I/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Should a country that's better at everything still make everything itself? In 1817 David Ricardo showed why not. This short uses India and Bangladesh to explain comparative advantage, and how India's own post-1991 trade liberalisation, with exports rising from $18 billion to over $430 billion, proved the same point at national scale.</media:description>
+   <media:community>
+    <media:starRating count="4" average="5.00" min="1" max="5"/>
+    <media:statistics views="79"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Uv8ToPbxju8</id>
+  <yt:videoId>Uv8ToPbxju8</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Why More School Funding Hasn't Fixed Indian Education</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/Uv8ToPbxju8"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-12T04:55:16+00:00</published>
+  <updated>2026-10-02T05:07:01+00:00</updated>
+  <media:group>
+   <media:title>Why More School Funding Hasn't Fixed Indian Education</media:title>
+   <media:content url="https://www.youtube.com/v/Uv8ToPbxju8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Uv8ToPbxju8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Government school spending in India rose 78% between 2014 and 2023, and Delhi now spends close to ₹90,000 a year per child, more than most private schools charge. Yet roughly a third of Class 5 students still can't read a Class 2 text, a number that has barely moved in a decade. This short explores why the money keeps buying buildings and enrolment while nobody in the system is actually judged on whether a child can read.</media:description>
+   <media:community>
+    <media:starRating count="28" average="5.00" min="1" max="5"/>
+    <media:statistics views="497"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-OnRbHarcMg</id>
+  <yt:videoId>-OnRbHarcMg</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Competitive Wages May Not Be Enough To Attract Investment</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/-OnRbHarcMg"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-10T02:30:12+00:00</published>
+  <updated>2026-10-01T18:23:33+00:00</updated>
+  <media:group>
+   <media:title>Competitive Wages May Not Be Enough To Attract Investment</media:title>
+   <media:content url="https://www.youtube.com/v/-OnRbHarcMg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-OnRbHarcMg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Indian wages are considerably lower than wages in China. So why don't more companies move factories to India? Because wage is only one part of the cost. This short explores all the other cost and regulatory challenges that limit India's abiliity to become a manufacturing powerhouse.</media:description>
+   <media:community>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="44"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:lANiSBGrobs</id>
+  <yt:videoId>lANiSBGrobs</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Why So Many Indian Farmers Want to Quit</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/lANiSBGrobs"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-07T02:30:16+00:00</published>
+  <updated>2026-09-30T14:13:00+00:00</updated>
+  <media:group>
+   <media:title>Why So Many Indian Farmers Want to Quit</media:title>
+   <media:content url="https://www.youtube.com/v/lANiSBGrobs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i1.ytimg.com/vi/lANiSBGrobs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Around three out of four Indian farmers say they would leave farming if they could, not because they dislike it, but because tiny plots and thin margins mean it barely pays. This short explores why no country has grown rich with half its workforce on one-hectare farms, and why the answer is better jobs outside agriculture rather than trapping more people in it.</media:description>
+   <media:community>
+    <media:starRating count="6" average="5.00" min="1" max="5"/>
+    <media:statistics views="47"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:v209Etn-c24</id>
+  <yt:videoId>v209Etn-c24</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Why India Stores Grain It Can't Use</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/v209Etn-c24"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-05T02:30:33+00:00</published>
+  <updated>2026-10-03T01:48:14+00:00</updated>
+  <media:group>
+   <media:title>Why India Stores Grain It Can't Use</media:title>
+   <media:content url="https://www.youtube.com/v/v209Etn-c24?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/v209Etn-c24/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The Food Corporation of India holds two to three times the grain the government says it needs for food security. This short explores how a policy of near-unlimited procurement at the Minimum Support Price leaves taxpayers paying tens of thousands of crores to store surplus grain that sometimes rots before it is used.</media:description>
+   <media:community>
+    <media:starRating count="3" average="5.00" min="1" max="5"/>
+    <media:statistics views="48"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:r6VCoPrI4h0</id>
+  <yt:videoId>r6VCoPrI4h0</yt:videoId>
+  <yt:channelId>UCF5Yih_yIqBwO0LX_qcdQgA</yt:channelId>
+  <title>Why Good Policies Fail Even When They're Sensible</title>
+  <link rel="alternate" href="https://www.youtube.com/shorts/r6VCoPrI4h0"/>
+  <author>
+   <name>TheCCSAcademy</name>
+   <uri>https://www.youtube.com/channel/UCF5Yih_yIqBwO0LX_qcdQgA</uri>
+  </author>
+  <published>2026-08-03T06:03:51+00:00</published>
+  <updated>2026-10-04T21:40:55+00:00</updated>
+  <media:group>
+   <media:title>Why Good Policies Fail Even When They're Sensible</media:title>
+   <media:content url="https://www.youtube.com/v/r6VCoPrI4h0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i3.ytimg.com/vi/r6VCoPrI4h0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>The 2020 lockdown let food trucks keep moving, yet they stopped anyway, because policy didn't allow the dhabas and repair shops to stay open. This short explores how governments fix the big visible thing, the truck, the toilet, and miss the small thing that actually makes it work.</media:description>
+   <media:community>
+    <media:starRating count="5" average="5.00" min="1" max="5"/>
+    <media:statistics views="27"/>
+   </media:community>
+  </media:group>
+ </entry>
+</feed>
