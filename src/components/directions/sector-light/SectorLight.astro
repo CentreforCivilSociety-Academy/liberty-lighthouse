@@ -6,9 +6,9 @@
  * direction, so a ship can tell from the colour alone which water it is in.
  * Here the twelve topics are the sectors, and every published question is a
  * point of light inside its topic's sector. Turning the beam lights a topic:
- * its points brighten, the readout names it, and one of its real questions is
- * picked to read next — a different one each time, so a return visit turns up
- * something new.
+ * its points brighten, and the readout names it and lists three of its real
+ * questions — different ones each time, so a return visit turns up something
+ * new.
  *
  * The metaphor carries the information architecture rather than decorating
  * it: sectors are the taxonomy, the points are the corpus, and the "list of
@@ -130,12 +130,18 @@ const data = topics.map((topic, i) => ({
   href: topic.href,
   light: topic.light,
   facts: factsFor(topic),
+  count: topic.questions,
   videos: topic.videos,
   questions: topic.rows.map((row, k) => ({ q: row.question, href: row.href, x: sectors[i].points[k].x, y: sectors[i].points[k].y })),
 }));
 
-const startQuestion = lead;
-const startPoint = sectors[startIndex].points.find((p) => p.href === lead.href) ?? sectors[startIndex].points[0];
+/** How many of the lit topic's questions the readout lists. */
+const SHOWN = 3;
+const startQuestions = [
+  ...start.rows.filter((row) => row.href === lead.href),
+  ...start.rows.filter((row) => row.href !== lead.href),
+].slice(0, SHOWN);
+const startPoint = sectors[startIndex].points.find((p) => p.href === startQuestions[0].href) ?? sectors[startIndex].points[0];
 
 const description = `Find your bearings on the questions India argues about: ${totals.questions} plain, sourced answers across ${totals.topics} topics, free from the Centre for Civil Society.`;
 ---
@@ -160,10 +166,12 @@ const description = `Find your bearings on the questions India argues about: ${t
         <h1 class="sl-title hero-title" id="sl-title">Find your bearings on the questions India argues about.</h1>
 
         <p class="sl-intro">
-          Liberty Lighthouse answers {totals.questions} questions about India’s
-          economy, laws and government, in plain, sourced writing and short
-          videos, free, from the Centre for Civil Society. Each point of light
-          is a question, and each colour is a topic.
+          Plain, sourced answers to {totals.questions} questions about India’s
+          economy, laws and government, free from the Centre for Civil Society.
+          Each colour on the lamp is a topic: choose one to see its questions.
+        </p>
+        <p class="sl-ways">
+          Or <a href="/search/">search</a>, or <a href="/questions/">see all {totals.questions} questions</a>.
         </p>
       </div>
 
@@ -231,30 +239,34 @@ const description = `Find your bearings on the questions India argues about: ${t
           </svg>
         </div>
         <p class="sl-hint" id="sl-hint">
-          <span class="sl-hint-fine">Turn the light: point at a colour, or use the arrow keys.</span>
-          <span class="sl-hint-coarse">Turn the light: swipe across the lamp, or tap a colour.</span>
+          <span class="sl-hint-fine">Click a colour to turn the light to it, or use the arrow keys.</span>
+          <span class="sl-hint-coarse">Tap a colour, swipe across the lamp, or use the arrows.</span>
         </p>
       </div>
 
       <div class="sl-side">
         <div class="sl-readout" id="sl-readout" style={`--light:${start.light}`}>
-          <p class="sl-lit-name">
-            <span class="sl-swatch" aria-hidden="true"></span>
-            <a href={start.href} data-bind="topic">{start.title}</a>
-          </p>
-          <p class="sl-lit-facts" data-bind="facts">{factsFor(start)}</p>
-          <p class="sl-lit-q"><a href={startQuestion.href} data-bind="question">{startQuestion.question}</a></p>
-          <p class="sl-lit-watch" data-bind="watch-line" hidden={start.videos === 0}>
-            <a href={`/topics/${start.slug}/videos/`} data-bind="watch">Watch its {plural(start.videos, 'short video')}</a>
-          </p>
-          <div class="sl-controls">
-            <a class="sl-go" href={start.href} data-bind="go">Explore {start.title}</a>
+          <!-- The step buttons sit beside the name, so they stay put while
+               the questions under them change length. -->
+          <div class="sl-lit-head">
+            <p class="sl-lit-name">
+              <span class="sl-swatch" aria-hidden="true"></span>
+              <a href={start.href} data-bind="topic">{start.title}</a>
+            </p>
             <button type="button" class="sl-step" data-step="-1" aria-label="Previous topic" hidden>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 6 8.5 12l6 6" /></svg>
             </button>
             <button type="button" class="sl-step" data-step="1" aria-label="Next topic" hidden>
               <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m9.5 6 6 6-6 6" /></svg>
             </button>
+          </div>
+          <p class="sl-lit-facts" data-bind="facts">{factsFor(start)}</p>
+          <ul class="sl-lit-qs" data-bind="questions">
+            {startQuestions.map((row) => <li><a href={row.href}>{row.question}</a></li>)}
+          </ul>
+          <div class="sl-controls">
+            <a class="sl-go" href={start.href} data-bind="go">All {plural(start.questions, 'question')} in {start.title}</a>
+            <a class="sl-watch" href={`/topics/${start.slug}/videos/`} data-bind="watch" hidden={start.videos === 0}>Watch {plural(start.videos, 'short video')}</a>
           </div>
         </div>
         <p class="sr-only" aria-live="polite" id="sl-live"></p>
@@ -303,7 +315,7 @@ const description = `Find your bearings on the questions India argues about: ${t
   <Footer />
   {preview && <PreviewBar current="sector-light" />}
 
-  <script type="application/json" id="sl-data" set:html={JSON.stringify({ span: SPAN, topics: data })} />
+  <script type="application/json" id="sl-data" set:html={JSON.stringify({ span: SPAN, shown: SHOWN, topics: data })} />
 </BaseLayout>
 
 <script>
@@ -311,12 +323,14 @@ const description = `Find your bearings on the questions India argues about: ${t
    * The instrument: turning the beam, and what turns it.
    *
    * One piece of state — which topic is lit — and four ways to change it:
-   * pointing (mouse), dragging (touch), the arrow keys and the step buttons,
-   * plus the list of lights below, whose rows turn the beam when hovered or
-   * focused. The readout and the screen-reader announcement follow from it.
+   * clicking or tapping a colour, swiping across the lamp, the arrow keys and
+   * the step buttons, plus the list of lights below, whose rows turn the beam
+   * when focused. Hovering only highlights a colour: the readout changes when
+   * the reader chooses, never because the mouse passed over the lamp on its
+   * way to the readout. The readout and the announcement follow the state.
    */
   type Q = { q: string; href: string; x: number; y: number };
-  type T = { slug: string; title: string; href: string; light: string; facts: string; videos: number; questions: Q[] };
+  type T = { slug: string; title: string; href: string; light: string; facts: string; count: number; videos: number; questions: Q[] };
 
   const dataEl = document.getElementById('sl-data');
   const instrument = document.getElementById('sl-instrument');
@@ -324,7 +338,7 @@ const description = `Find your bearings on the questions India argues about: ${t
   const live = document.getElementById('sl-live');
 
   if (dataEl && instrument && readout && live) {
-    const { span, topics } = JSON.parse(dataEl.textContent || '{}') as { span: number; topics: T[] };
+    const { span, shown: perTopic, topics } = JSON.parse(dataEl.textContent || '{}') as { span: number; shown: number; topics: T[] };
     const n = topics.length;
     const svg = instrument.querySelector('svg')!;
     const beam = svg.querySelector<SVGGElement>('.sl-beam')!;
@@ -336,7 +350,7 @@ const description = `Find your bearings on the questions India argues about: ${t
 
     let index = Number(instrument.dataset.start) || 0;
     let angle = index * span + span / 2;
-    let shown: string | null = null;
+    let shown = new Set<string>();
     /** Set by any reader input, so the arrival sweep never overrides a choice. */
     let touched = false;
 
@@ -345,6 +359,9 @@ const description = `Find your bearings on the questions India argues about: ${t
     instrument.setAttribute('tabindex', '0');
     instrument.setAttribute('aria-valuemin', '1');
     instrument.setAttribute('aria-valuemax', String(n));
+    // The topic the page opened with, which the readout already shows.
+    instrument.setAttribute('aria-valuenow', String(index + 1));
+    instrument.setAttribute('aria-valuetext', `${topics[index].title}: ${topics[index].facts}`);
     readout.querySelectorAll<HTMLButtonElement>('.sl-step').forEach((b) => (b.hidden = false));
 
     const turnTo = (a: number, ms: number) => {
@@ -360,16 +377,22 @@ const description = `Find your bearings on the questions India argues about: ${t
       return angle + delta;
     };
 
+    const plural = (k: number, word: string) => `${k} ${word}${k === 1 ? '' : 's'}`;
+
+    /** A few of the topic's questions at random, preferring ones not just shown. */
     const pick = (t: T) => {
-      const pool = t.questions.filter((q) => q.href !== shown);
-      return pool[Math.floor(Math.random() * pool.length)] ?? t.questions[0];
+      const order = [...t.questions].sort(() => Math.random() - 0.5);
+      const fresh = order.filter((q) => !shown.has(q.href));
+      return [...fresh, ...order.filter((q) => shown.has(q.href))].slice(0, perTopic);
     };
 
-    const light = (i: number, opts: { announce?: boolean; turn?: number; question?: Q } = {}) => {
+    const list = bind('questions');
+    const light = (i: number, opts: { announce?: boolean; turn?: number } = {}) => {
       index = ((i % n) + n) % n;
       const t = topics[index];
-      const q = opts.question ?? pick(t);
-      shown = q.href;
+      const qs = pick(t);
+      const q = qs[0];
+      shown = new Set(qs.map((x) => x.href));
 
       sectors.forEach((s, k) => s.toggleAttribute('data-lit', k === index));
       tint.style.fill = t.light;
@@ -381,21 +404,28 @@ const description = `Find your bearings on the questions India argues about: ${t
       topicLink.textContent = t.title;
       topicLink.href = t.href;
       bind('facts').textContent = t.facts;
-      const qLink = bind('question') as HTMLAnchorElement;
-      qLink.textContent = q.q;
-      qLink.href = q.href;
+      list.replaceChildren(
+        ...qs.map((x) => {
+          const li = document.createElement('li');
+          const a = document.createElement('a');
+          a.href = x.href;
+          a.textContent = x.q;
+          li.append(a);
+          return li;
+        }),
+      );
       const go = bind('go') as HTMLAnchorElement;
-      go.textContent = `Explore ${t.title}`;
+      go.textContent = `All ${plural(t.count, 'question')} in ${t.title}`;
       go.href = t.href;
       // Only topics that have videos offer them, and say how many.
-      bind('watch-line').hidden = t.videos === 0;
       const watch = bind('watch') as HTMLAnchorElement;
-      watch.textContent = `Watch its ${t.videos} short ${t.videos === 1 ? 'video' : 'videos'}`;
+      watch.hidden = t.videos === 0;
+      watch.textContent = `Watch ${plural(t.videos, 'short video')}`;
       watch.href = `/topics/${t.slug}/videos/`;
 
       instrument.setAttribute('aria-valuenow', String(index + 1));
       instrument.setAttribute('aria-valuetext', `${t.title}: ${t.facts}`);
-      if (opts.announce) live.textContent = `${t.title}. ${t.facts}. ${q.q}`;
+      if (opts.announce) live.textContent = `${t.title}. ${t.facts}.`;
     };
 
     /** Compass angle of a pointer from the lamp, 0° north, clockwise. */
@@ -416,37 +446,13 @@ const description = `Find your bearings on the questions India argues about: ${t
       if (i !== index) light(i);
     };
 
-    // ── Mouse: the beam follows the pointer; leaving settles it on a topic.
-    // Clicking lights the topic under the pointer, and clicking again draws
-    // another of its questions.
-    /*
-     * Scrolling under a resting mouse makes the browser fire pointer events
-     * that did not move — focusing a row in the list below scrolls the page,
-     * and those phantom moves would drag the beam back to whatever sits under
-     * the cursor. A move only counts if the pointer's position changed. (Not
-     * movementX: synthetic and some real events report it as 0.)
-     */
-    let px = NaN;
-    let py = NaN;
-    let real = false;
-    document.addEventListener(
-      'pointermove',
-      (e) => {
-        real = e.clientX !== px || e.clientY !== py;
-        px = e.clientX;
-        py = e.clientY;
-      },
-      { capture: true, passive: true },
-    );
-
+    // ── Mouse: hovering highlights the colour under the pointer; clicking
+    // turns the light to it (see the click handler below).
+    const hover = (i: number | null) => sectors.forEach((s, k) => s.toggleAttribute('data-hover', k === i));
     instrument.addEventListener('pointermove', (e) => {
-      if (e.pointerType !== 'mouse' || !real) return;
-      touched = true;
-      follow(bearing(e));
+      if (e.pointerType === 'mouse') hover(sectorAt(bearing(e)));
     });
-    instrument.addEventListener('pointerleave', (e) => {
-      if (e.pointerType === 'mouse') turnTo(towards(index), 380);
-    });
+    instrument.addEventListener('pointerleave', () => hover(null));
 
     // ── Touch: swipe across the lamp; release settles on the nearest topic.
     // Vertical swipes scroll the page (touch-action: pan-y), which cancels the
@@ -525,32 +531,23 @@ const description = `Find your bearings on the questions India argues about: ${t
       }),
     );
 
-    // ── The list of lights turns the beam too, for hover and for keyboard focus.
+    // ── The list of lights turns the beam too, for keyboard focus.
     document.querySelectorAll<HTMLElement>('.sl-row').forEach((row) => {
       const i = Number(row.dataset.index);
-      const show = () => {
+      row.addEventListener('focusin', () => {
         touched = true;
         if (i !== index) light(i, { turn: 420 });
-      };
-      row.addEventListener('pointermove', (e) => { if (e.pointerType === 'mouse' && real) show(); });
-      row.addEventListener('focusin', show);
+      });
     });
 
-    // ── Arrival: one sweep round the whole lamp, landing on a topic picked at
-    // random, so a second visit opens somewhere new. Skipped for reduced
-    // motion, and abandoned the moment a reader takes the light themselves.
-    const landing = Math.floor(Math.random() * n);
-    if (reduced.matches) {
-      light(landing, { turn: 0 });
-    } else {
-      const bisector = landing * span + span / 2;
-      // At least one full turn forward from where the still picture stood.
-      const target = bisector + 360 * Math.ceil((angle + 360 - bisector) / 360);
+    // ── Arrival: one sweep round the whole lamp, coming to rest on the topic
+    // the readout already shows, so nothing the reader has started reading
+    // changes under them. Skipped for reduced motion, and abandoned the
+    // moment a reader takes the light themselves.
+    if (!reduced.matches) {
       requestAnimationFrame(() =>
         requestAnimationFrame(() => {
-          if (touched) return;
-          turnTo(target, 3200);
-          window.setTimeout(() => { if (!touched) light(landing); }, 2700);
+          if (!touched) turnTo(angle + 360, 2200);
         }),
       );
     }
@@ -603,8 +600,8 @@ const description = `Find your bearings on the questions India argues about: ${t
   /* ── Hero: words and readout beside the instrument ──── */
   .sl-hero {
     display: grid;
-    gap: 1.5rem;
-    padding: 2.25rem 1.25rem 3rem;
+    gap: 1.25rem;
+    padding: 1.5rem 1.25rem 3rem;
     max-width: 82rem;
     margin: 0 auto;
   }
@@ -612,7 +609,7 @@ const description = `Find your bearings on the questions India argues about: ${t
   .sl-title.hero-title {
     font-family: var(--serif);
     font-weight: 500;
-    font-size: clamp(2.25rem, 8.6vw, 4.25rem);
+    font-size: clamp(2rem, 8vw, 4.25rem);
     line-height: 1.02;
     letter-spacing: -0.02em;
     color: var(--text);
@@ -623,10 +620,10 @@ const description = `Find your bearings on the questions India argues about: ${t
 
   .sl-intro {
     font-family: var(--serif);
-    font-size: 1.1875rem;
+    font-size: 1.0625rem;
     line-height: 1.5;
     color: var(--text-2);
-    margin: 1.25rem 0 0;
+    margin: 0.875rem 0 0;
     max-width: 34rem;
     text-wrap: pretty;
   }
@@ -669,31 +666,47 @@ const description = `Find your bearings on the questions India argues about: ${t
     margin: 0.375rem 0 0;
   }
 
-  /* Room for the longer questions, so drawing one does not move the buttons
-     under the reader's finger: two lines on a phone, three beside the lamp. */
-  .sl-lit-q {
-    margin: 1rem 0 0;
-    min-height: calc(2 * 1.3 * 1.375rem);
+  .sl-lit-head {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
   }
 
-  .sl-lit-q a {
+  .sl-lit-head .sl-lit-name { flex: 1; min-width: 0; }
+
+  .sl-lit-qs {
+    list-style: none;
+    margin: 1rem 0 0;
+    padding: 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .sl-lit-qs li { border-bottom: 1px solid var(--line); }
+
+  .sl-lit-qs a {
+    display: block;
+    padding: 0.625rem 0;
     font-family: var(--serif);
     font-style: italic;
-    font-size: 1.375rem;
+    font-size: 1.1875rem;
     line-height: 1.3;
     color: var(--text);
     text-decoration: none;
     text-wrap: pretty;
   }
 
-  .sl-lit-q a:hover { text-decoration: underline; text-decoration-color: var(--light); text-underline-offset: 0.18em; }
+  .sl-lit-qs a:hover { color: var(--light); }
+  .sl-lit-qs a:focus-visible { outline: 2px solid var(--lamp); outline-offset: 2px; border-radius: 2px; }
 
-  .sl-lit-watch { margin: 0.5rem 0 0; }
-  /* Keeps its line when a topic has no videos, so the buttons below never
-     jump between topics; visibility also takes it out of the tab order. */
-  .sl-lit-watch[hidden] { display: block; visibility: hidden; }
+  .sl-controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.75rem 1.25rem;
+    margin-top: 1.25rem;
+  }
 
-  .sl-lit-watch a {
+  .sl-watch {
     font-family: var(--sans);
     font-size: 0.9375rem;
     font-weight: 500;
@@ -703,19 +716,23 @@ const description = `Find your bearings on the questions India argues about: ${t
     text-underline-offset: 0.2em;
   }
 
-  .sl-controls {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-top: 1.25rem;
+  .sl-watch[hidden] { display: none; }
+
+  .sl-ways {
+    font-family: var(--sans);
+    font-size: 0.9375rem;
+    color: var(--text-2);
+    margin: 0.75rem 0 0;
   }
+
+  .sl-ways a { color: var(--text); text-underline-offset: 0.2em; text-decoration-thickness: 1px; }
+  .sl-ways a:hover { color: var(--lamp); }
 
   .sl-go {
     display: inline-flex;
     align-items: center;
     min-height: 2.875rem;
     padding: 0 1.25rem;
-    margin-right: auto;
     background: var(--light);
     color: #0C1A26;
     font-family: var(--sans);
@@ -764,14 +781,16 @@ const description = `Find your bearings on the questions India argues about: ${t
 
   .sl-instrument {
     position: relative;
-    width: min(100%, 40rem);
+    /* Small enough on a phone that the readout under it starts on the
+       first screen. */
+    width: min(100%, 13rem);
     margin: 0 auto;
     aspect-ratio: 1;
     /* Vertical swipes stay the page's: the lamp is nearly as wide as a phone,
        and a thumb scrolling past it must not get caught turning the beam.
        Sideways swipes and taps turn the light. */
     touch-action: pan-y;
-    cursor: crosshair;
+    cursor: pointer;
     border-radius: 50%;
   }
 
@@ -798,10 +817,10 @@ const description = `Find your bearings on the questions India argues about: ${t
 
   .sl-label {
     fill: var(--light);
-    fill-opacity: 0.55;
+    fill-opacity: 0.72;
     font-family: var(--font-display);
     font-style: italic;
-    font-size: 23px;
+    font-size: 29px;
     letter-spacing: 0.01em;
     transition: fill-opacity 300ms ease-out;
     pointer-events: none;
@@ -811,6 +830,8 @@ const description = `Find your bearings on the questions India argues about: ${t
   .sl-sector[data-lit] .sl-point { fill-opacity: 1; }
   .sl-sector[data-lit] .sl-points { filter: drop-shadow(0 0 5px var(--light)); }
   .sl-sector[data-lit] .sl-label { fill-opacity: 1; }
+  .sl-sector[data-hover]:not([data-lit]) .sl-wedge { fill-opacity: 0.09; }
+  .sl-sector[data-hover] .sl-label { fill-opacity: 1; }
 
   .sl-beam {
     transform-box: view-box;
@@ -857,9 +878,14 @@ const description = `Find your bearings on the questions India argues about: ${t
   }
 
   /* On a phone the names would be too small to read round the rim; the
-     readout names the lit topic instead. */
+     readout names the lit topic instead. The hint goes too: the intro says
+     to choose a colour, and the readout under the lamp has to start on the
+     first screen. */
   @media (max-width: 600px) {
     .sl-label { display: none; }
+    .sl-hint { display: none; }
+    .sl-hero { gap: 1rem; }
+    .sl-lit-name { font-size: 1.625rem; }
   }
 
   /* ── List of lights ──────────────────────────────────── */
@@ -1019,22 +1045,23 @@ const description = `Find your bearings on the questions India argues about: ${t
 
   @media (min-width: 1024px) {
     .sl-hero {
-      grid-template-columns: minmax(0, 5fr) minmax(0, 6.5fr);
+      grid-template-columns: minmax(0, 5fr) minmax(0, 5.5fr);
       grid-template-areas:
         'head stage'
         'side stage';
       grid-template-rows: auto auto;
       align-content: center;
       column-gap: 3rem;
-      row-gap: 2rem;
+      row-gap: 1.5rem;
       min-height: calc(100svh - var(--nav-height));
-      padding-block: 2rem 3rem;
+      padding-block: 1.5rem 2rem;
     }
     .sl-head { grid-area: head; align-self: end; }
     .sl-side { grid-area: side; align-self: start; }
     .sl-stage { grid-area: stage; align-self: center; }
-    .sl-lit-q { min-height: calc(3 * 1.3 * 1.375rem); }
-    .sl-instrument { width: min(100%, calc(100svh - var(--nav-height) - 7rem)); }
+    .sl-title.hero-title { font-size: clamp(2.5rem, 3.7vw, 3.5rem); max-width: 18ch; }
+    .sl-intro { font-size: 1.125rem; }
+    .sl-instrument { width: min(100%, 38rem, calc(100svh - var(--nav-height) - 6rem)); }
     .sl-list { grid-template-columns: 1fr 1fr; column-gap: 3.5rem; }
     .sl-row { grid-template-columns: 1fr; }
     .sl-row-topic { grid-row: auto; }
