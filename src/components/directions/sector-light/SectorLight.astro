@@ -130,6 +130,7 @@ const data = topics.map((topic, i) => ({
   href: topic.href,
   light: topic.light,
   facts: factsFor(topic),
+  videos: topic.videos,
   questions: topic.rows.map((row, k) => ({ q: row.question, href: row.href, x: sectors[i].points[k].x, y: sectors[i].points[k].y })),
 }));
 
@@ -160,9 +161,9 @@ const description = `Find your bearings on the questions India argues about: ${t
 
         <p class="sl-intro">
           Liberty Lighthouse answers {totals.questions} questions about India’s
-          economy, laws and government in plain, sourced language, free, from
-          the Centre for Civil Society. Each point of light is a question, and
-          each colour is a topic.
+          economy, laws and government, in plain, sourced writing and short
+          videos, free, from the Centre for Civil Society. Each point of light
+          is a question, and each colour is a topic.
         </p>
       </div>
 
@@ -243,6 +244,9 @@ const description = `Find your bearings on the questions India argues about: ${t
           </p>
           <p class="sl-lit-facts" data-bind="facts">{factsFor(start)}</p>
           <p class="sl-lit-q"><a href={startQuestion.href} data-bind="question">{startQuestion.question}</a></p>
+          <p class="sl-lit-watch" data-bind="watch-line" hidden={start.videos === 0}>
+            <a href={`/topics/${start.slug}/videos/`} data-bind="watch">Watch its {plural(start.videos, 'short video')}</a>
+          </p>
           <div class="sl-controls">
             <a class="sl-go" href={start.href} data-bind="go">Explore {start.title}</a>
             <button type="button" class="sl-step" data-step="-1" aria-label="Previous topic" hidden>
@@ -312,7 +316,7 @@ const description = `Find your bearings on the questions India argues about: ${t
    * focused. The readout and the screen-reader announcement follow from it.
    */
   type Q = { q: string; href: string; x: number; y: number };
-  type T = { slug: string; title: string; href: string; light: string; facts: string; questions: Q[] };
+  type T = { slug: string; title: string; href: string; light: string; facts: string; videos: number; questions: Q[] };
 
   const dataEl = document.getElementById('sl-data');
   const instrument = document.getElementById('sl-instrument');
@@ -383,6 +387,11 @@ const description = `Find your bearings on the questions India argues about: ${t
       const go = bind('go') as HTMLAnchorElement;
       go.textContent = `Explore ${t.title}`;
       go.href = t.href;
+      // Only topics that have videos offer them, and say how many.
+      bind('watch-line').hidden = t.videos === 0;
+      const watch = bind('watch') as HTMLAnchorElement;
+      watch.textContent = `Watch its ${t.videos} short ${t.videos === 1 ? 'video' : 'videos'}`;
+      watch.href = `/topics/${t.slug}/videos/`;
 
       instrument.setAttribute('aria-valuenow', String(index + 1));
       instrument.setAttribute('aria-valuetext', `${t.title}: ${t.facts}`);
@@ -659,6 +668,21 @@ const description = `Find your bearings on the questions India argues about: ${t
   }
 
   .sl-lit-q a:hover { text-decoration: underline; text-decoration-color: var(--light); text-underline-offset: 0.18em; }
+
+  .sl-lit-watch { margin: 0.5rem 0 0; }
+  /* Keeps its line when a topic has no videos, so the buttons below never
+     jump between topics; visibility also takes it out of the tab order. */
+  .sl-lit-watch[hidden] { display: block; visibility: hidden; }
+
+  .sl-lit-watch a {
+    font-family: var(--sans);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--light);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.2em;
+  }
 
   .sl-controls {
     display: flex;
