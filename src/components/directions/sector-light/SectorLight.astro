@@ -455,17 +455,34 @@ const description = `Find your bearings on the questions India argues about: ${t
     let dragging = false;
     let dragged = false;
     let swallowClick = false;
+    let startX = 0;
+    let startY = 0;
     instrument.addEventListener('pointerdown', (e) => {
       touched = true;
       if (e.pointerType === 'mouse') return;
       dragging = true;
       dragged = false;
-      instrument.setPointerCapture(e.pointerId);
+      startX = e.clientX;
+      startY = e.clientY;
     });
     instrument.addEventListener('pointermove', (e) => {
       if (!dragging || e.pointerType === 'mouse') return;
+      // The browser takes a moment to decide a gesture is a scroll, and the
+      // first moves arrive here meanwhile. Nothing turns until the finger has
+      // moved 10px, and only if it moved mostly sideways; a vertical swipe is
+      // left to the page.
+      if (!dragged) {
+        const dx = e.clientX - startX;
+        const dy = e.clientY - startY;
+        if (Math.hypot(dx, dy) < 10) return;
+        if (Math.abs(dy) > Math.abs(dx)) {
+          dragging = false;
+          return;
+        }
+        dragged = true;
+        instrument.setPointerCapture(e.pointerId);
+      }
       e.preventDefault();
-      dragged = true;
       follow(bearing(e));
     });
     const release = () => {
