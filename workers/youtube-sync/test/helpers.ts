@@ -1,8 +1,8 @@
 /**
- * Fakes for everything outside the Worker: KV, YouTube's feed, GitHub's
- * REST API and OpenRouter's Decisions API, routed by one fetch function.
- * Each fake records what it was asked, so tests can assert on the calls
- * (no Jev request, no PUT) as well as on the outcome.
+ * Fakes for everything outside the Worker: KV, YouTube (the RSS feed and the
+ * Data API), GitHub's REST API and OpenRouter's Decisions API, routed by one
+ * fetch function. Each fake records what it was asked, so tests can assert on
+ * the calls (no Jev request, no PUT) as well as on the outcome.
  */
 
 import type { Config, Secrets } from '../src/config';
@@ -11,8 +11,13 @@ import { DECISIONS_URL } from '../src/jev';
 import type { KvStore, VideoRecord } from '../src/ledger';
 import { type RunDeps, runSync } from '../src/run';
 import feedFixture from './fixtures/ccs-feed.xml?raw';
+import playlistItemsFixture from './fixtures/youtube-api/playlist-items.json?raw';
+import videosFixture from './fixtures/youtube-api/videos.json?raw';
 
-export { feedFixture };
+export { feedFixture, playlistItemsFixture, videosFixture };
+
+/** A fake YouTube Data API key, shaped like a real one (39 characters). */
+export const API_KEY = 'AIzaSyTEST-fake-key-0000000000000000000';
 
 export const REPO = 'CentreforCivilSociety-Academy/liberty-lighthouse';
 export const BRANCH = 'feat/liberty-lighthouse-redesign-automation';
@@ -66,10 +71,61 @@ export interface Call {
 const json = (body: unknown, status = 200, headers: Record<string, string> = {}) =>
   new Response(JSON.stringify(body), { status, headers: { 'content-type': 'application/json', ...headers } });
 
+export function toCall(url: string, init: RequestInit | undefined): Call {
+  const headers: Record<string, string> = {};
+  new Headers(init?.headers).forEach((value, key) => {
+    headers[key] = value;
+  });
+  return { method: init?.method ?? 'GET', url, headers, body: typeof init?.body === 'string' ? init.body : undefined };
+}
+
+export type Responder = (init: RequestInit | undefined) => Response | Promise<Response>;
+
+/**
+ * An error in the shape the YouTube Data API sends: Google's standard error
+ * envelope, with the newer `details` entry when a detail reason is given (an
+ * invalid key comes back as reason "badRequest" plus "API_KEY_INVALID").
+ */
+export function googleError(code: number, reason: string, message: string, detailReason?: string): Response {
+  const error: Record<string, unknown> = {
+    code,
+    message,
+    errors: [{ message, domain: reason === 'quotaExceeded' ? 'youtube.quota' : 'global', reason }],
+  };
+  if (detailReason) {
+    error.status = code === 400 ? 'INVALID_ARGUMENT' : 'PERMISSION_DENIED';
+    error.details = [
+      {
+        '@type': 'type.googleapis.com/google.rpc.ErrorInfo',
+        reason: detailReason,
+        domain: 'googleapis.com',
+        metadata: { service: 'youtube.googleapis.com' },
+      },
+    ];
+  }
+  return json({ error }, code);
+}
+
+/**
+ * YouTube: the RSS feed, and the two Data API calls the sync makes. The API
+ * answers with the documented-shape fixtures in test/fixtures/youtube-api,
+ * built from the real feed's videos (13 public uploads plus a private and a
+ * deleted placeholder), and refuses any request whose parameters differ from
+ * the documented ones, so a changed request fails loudly.
+ */
 export class FakeYouTube {
-  /** Statuses for the next requests; once they run out, every request gets the feed. */
+  /** RSS: statuses for the next requests; once they run out, every request gets the feed. */
   failures: number[] = [];
   requests = 0;
+  /** Data API requests as full URLs. The key travels in a header, so it is never in these. */
+  readonly apiRequests: string[] = [];
+  /** The X-Goog-Api-Key header of each Data API request, in order. */
+  readonly apiKeys: Array<string | null> = [];
+  /** Responses for the next playlistItems.list / videos.list calls; once used up, the fixtures answer. */
+  readonly playlistQueue: Responder[] = [];
+  readonly videosQueue: Responder[] = [];
+  playlist: { items: Array<Record<string, unknown>> } & Record<string, unknown> = JSON.parse(playlistItemsFixture);
+  videos: { items: Array<{ id: string } & Record<string, unknown>> } & Record<string, unknown> = JSON.parse(videosFixture);
 
   constructor(public xml: string = feedFixture) {}
 
@@ -78,6 +134,37 @@ export class FakeYouTube {
     const status = this.failures.shift();
     if (status !== undefined) return new Response('<html><body>Error</body></html>', { status });
     return new Response(this.xml, { status: 200, headers: { 'content-type': 'text/xml; charset=UTF-8' } });
+  }
+
+  handleApi(call: Call, init: RequestInit | undefined): Response | Promise<Response> {
+    this.apiRequests.push(call.url);
+    const key = new Headers(init?.headers).get('x-goog-api-key');
+    this.apiKeys.push(key);
+    const url = new URL(call.url);
+    const params = url.searchParams;
+    // Like Google: the key may come in the header (preferred) or as key=.
+    if ((key ?? params.get('key')) !== API_KEY) {
+      return googleError(400, 'badRequest', 'API key not valid. Please pass a valid API key.', 'API_KEY_INVALID');
+    }
+    if (url.pathname === '/youtube/v3/playlistItems') {
+      const expected =
+        params.get('part') === 'snippet,contentDetails,status' &&
+        params.get('maxResults') === '15' &&
+        params.get('playlistId') === 'UUF5Yih_yIqBwO0LX_qcdQgA';
+      if (!expected) return googleError(400, 'invalidParameter', 'Unexpected playlistItems.list parameters');
+      const next = this.playlistQueue.shift();
+      return next ? next(init) : json(this.playlist);
+    }
+    if (url.pathname === '/youtube/v3/videos') {
+      const expected = params.get('part') === 'contentDetails,player' && params.get('maxWidth') === '1000';
+      if (!expected) return googleError(400, 'invalidParameter', 'Unexpected videos.list parameters');
+      const next = this.videosQueue.shift();
+      if (next) return next(init);
+      const ids = new Set((params.get('id') ?? '').split(','));
+      const items = this.videos.items.filter((item) => ids.has(item.id));
+      return json({ ...this.videos, items, pageInfo: { totalResults: items.length, resultsPerPage: items.length } });
+    }
+    return googleError(404, 'notFound', 'Not Found');
   }
 }
 
@@ -287,18 +374,10 @@ export function createWorld(branch: string = BRANCH): World {
   seedRepository(github);
   const calls: Call[] = [];
   const fetch: FetchFn = async (url, init) => {
-    const headers: Record<string, string> = {};
-    new Headers(init?.headers).forEach((value, key) => {
-      headers[key] = value;
-    });
-    const call: Call = {
-      method: init?.method ?? 'GET',
-      url,
-      headers,
-      body: typeof init?.body === 'string' ? init.body : undefined,
-    };
+    const call = toCall(url, init);
     calls.push(call);
     if (url.startsWith('https://www.youtube.com/feeds/videos.xml')) return youtube.handle();
+    if (url.startsWith('https://www.googleapis.com/youtube/v3/')) return youtube.handleApi(call, init);
     if (url.startsWith('https://api.github.com/')) return github.handle(call);
     if (url === DECISIONS_URL) return jev.handle(call, init);
     throw new Error(`unexpected request: ${call.method} ${url}`);
@@ -370,9 +449,13 @@ export const COMMIT_SECRETS: Secrets = {
   openrouterApiKey: 'sk-or-test-0000000000',
   githubToken: 'github-test-token-0000',
   adminToken: undefined,
+  youtubeApiKey: undefined,
 };
 
 export const STAGE_SECRETS: Secrets = { ...COMMIT_SECRETS, githubToken: undefined };
+
+/** Commit mode, detecting through the YouTube Data API. */
+export const API_SECRETS: Secrets = { ...COMMIT_SECRETS, youtubeApiKey: API_KEY };
 
 export interface Harness {
   world: World;

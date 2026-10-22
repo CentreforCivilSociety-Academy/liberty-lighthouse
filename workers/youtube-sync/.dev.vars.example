@@ -14,3 +14,9 @@ GITHUB_TOKEN=
 
 # Optional. Unset means no HTTP surface: every request gets a 404.
 ADMIN_TOKEN=
+
+# Optional. Unset means new uploads are found through the public RSS feed,
+# which has been failing for this channel. Set, the YouTube Data API v3 is
+# used (two quota units a run) and the feed becomes the fallback. Create it
+# in Google Cloud with the YouTube Data API v3 enabled, restricted to that API.
+YOUTUBE_API_KEY=

@@ -1,7 +1,9 @@
 /**
  * One sync run, start to finish.
  *
- *   1. Detect    read the channel's feed, riding out its flakiness
+ *   1. Detect    list the channel's latest uploads: through the YouTube Data
+ *                API when a YOUTUBE_API_KEY is set, otherwise (or when the
+ *                API is unusable this run) through the RSS feed
  *   2. Filter    drop videos the ledger has already settled
  *   3. Interlock in commit mode, refuse a production branch
  *   4. Snapshot  list the branch: the videos it holds and its topics
@@ -22,7 +24,7 @@
  * in, so the tests run whole runs against fakes.
  */
 
-import { type Config, type Mode, type Secrets, modeOf } from './config';
+import { type Config, type DetectionSource, type Mode, type Secrets, detectionOf, modeOf } from './config';
 import { decide } from './decide';
 import { type FeedEntry, fetchFeed } from './feed';
 import { type GitHubClient, createGitHub } from './github';
@@ -46,6 +48,7 @@ import {
 import { commitMessage, renderVideoMdx, videoPath, videoSlug } from './mdx';
 import { type RepoSnapshot, extractYoutubeId, loadSnapshot } from './repo';
 import { cleanDescription } from './text';
+import { fetchUploads } from './youtube-api';
 
 /** The Workers free plan's fetch limit per invocation. */
 export const SUBREQUEST_LIMIT = 50;
@@ -82,13 +85,14 @@ interface Run {
 
 type Ask = (entry: FeedEntry) => Promise<JevResult>;
 
-export function emptySummary(trigger: Trigger, startedAt: Date, mode: Mode): RunSummary {
+/** A summary with nothing done yet. `source` is the detection path the run will try first. */
+export function emptySummary(trigger: Trigger, startedAt: Date, mode: Mode, source: DetectionSource): RunSummary {
   return {
     trigger,
     startedAt: startedAt.toISOString(),
     finishedAt: startedAt.toISOString(),
     mode,
-    feed: { ok: false, attempts: 0, entries: 0 },
+    feed: { ok: false, source, attempts: 0, entries: 0 },
     newVideos: 0,
     classified: 0,
     committed: 0,
@@ -110,7 +114,7 @@ export async function runSync(
 ): Promise<RunSummary> {
   const startedAt = deps.now();
   const mode = modeOf(secrets);
-  const summary = emptySummary(trigger, startedAt, mode);
+  const summary = emptySummary(trigger, startedAt, mode, detectionOf(secrets));
   const budget = new SubrequestBudget(SUBREQUEST_LIMIT);
   const http = budget.wrap(deps.fetch);
   const runId = summary.startedAt;
@@ -143,7 +147,7 @@ export async function runSync(
   }
 
   try {
-    await pipeline(run, secrets.openrouterApiKey);
+    await pipeline(run, secrets);
   } catch (error) {
     run.fail(
       error instanceof BudgetExhausted
@@ -181,25 +185,27 @@ export async function runSync(
   return summary;
 }
 
-async function pipeline(run: Run, apiKey: string | undefined): Promise<void> {
+async function pipeline(run: Run, secrets: Secrets): Promise<void> {
   const { config, deps, summary } = run;
+  const apiKey = secrets.openrouterApiKey;
   if (!apiKey) {
     run.fail('OPENROUTER_API_KEY is not set, so nothing can be classified');
     return;
   }
 
   // 1. Detect.
-  const feed = await fetchFeed(run.http, config.channelId, {
-    sleep: deps.sleep,
-    random: deps.random,
-    onAttemptFailed: (attempt, reason) => run.log('feed.retry', { attempt, reason }, 'warn'),
-  });
-  summary.feed = { ok: feed.ok, attempts: feed.attempts, entries: feed.ok ? feed.entries.length : 0 };
+  const feed = await detect(run, secrets.youtubeApiKey);
+  summary.feed = {
+    ok: feed.ok,
+    source: feed.source,
+    attempts: feed.attempts,
+    entries: feed.ok ? feed.entries.length : 0,
+  };
   if (!feed.ok) {
     run.fail(feed.error, 'warn');
     return;
   }
-  run.log('feed.ok', { attempts: feed.attempts, entries: feed.entries.length });
+  run.log('feed.ok', { source: feed.source, attempts: feed.attempts, entries: feed.entries.length });
 
   // 2. Filter. Reading the ledger first means a run with nothing new makes
   // no GitHub calls at all.
@@ -281,6 +287,36 @@ async function pipeline(run: Run, apiKey: string | undefined): Promise<void> {
     }
     if ((await processVideo(run, entry, record, snapshot, ask)) === 'stop') break;
   }
+}
+
+type Detection =
+  | { ok: true; source: DetectionSource; attempts: number; entries: FeedEntry[] }
+  | { ok: false; source: DetectionSource; attempts: number; error: string };
+
+/**
+ * Step 1. The Data API when there is a key, the RSS feed when there is not.
+ * If the API cannot be used this run (a bad key, the day's quota spent, the
+ * API not enabled for the key's project, or Google failing twice), the run
+ * says why and falls back to the feed, so a broken key costs a warning
+ * rather than a run.
+ */
+async function detect(run: Run, youtubeApiKey: string | undefined): Promise<Detection> {
+  const { config, deps } = run;
+  if (youtubeApiKey) {
+    const uploads = await fetchUploads(run.http, config.channelId, youtubeApiKey, {
+      sleep: deps.sleep,
+      random: deps.random,
+      log: (event, fields, level) => run.log(event, fields, level),
+    });
+    if (uploads.ok) return { ok: true, source: 'api', attempts: uploads.requests, entries: uploads.entries };
+    run.fail(`YouTube Data API unusable this run (${uploads.reason}); reading the RSS feed instead`, 'warn');
+  }
+  const feed = await fetchFeed(run.http, config.channelId, {
+    sleep: deps.sleep,
+    random: deps.random,
+    onAttemptFailed: (attempt, reason) => run.log('feed.retry', { attempt, reason }, 'warn'),
+  });
+  return { ...feed, source: 'rss' };
 }
 
 function needsWork(record: VideoRecord | null, mode: Mode, now: Date): boolean {
@@ -591,7 +627,7 @@ function save(run: Run, record: VideoRecord): Promise<VideoRecord> {
  */
 function redact(text: string, secrets: Secrets): string {
   let clean = text;
-  for (const secret of [secrets.openrouterApiKey, secrets.githubToken, secrets.adminToken]) {
+  for (const secret of [secrets.openrouterApiKey, secrets.githubToken, secrets.adminToken, secrets.youtubeApiKey]) {
     if (secret && secret.length >= 8) clean = clean.split(secret).join('[redacted]');
   }
   return clean;

@@ -1,0 +1,763 @@
+{
+  "kind": "youtube#playlistItemListResponse",
+  "etag": "xVTG06y9IwQ1xUYMB8pdfL1xsvc",
+  "nextPageToken": "EAAaBlBUOkNBOA",
+  "items": [
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "sg7ygng8AbuEwGUq3R6u8AUTRbg",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLndROU05NUZLNmww",
+      "snippet": {
+        "publishedAt": "2026-08-31T04:41:18Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Why Economists Got Excited About a Tax Reform",
+        "description": "Before GST, every time a part changed hands between businesses it was taxed again, tax on tax, all the way through the supply chain. This short explains how that quietly pushed firms to make their own parts badly rather than buy better ones from a specialist, and why GST's real win wasn't collecting more revenue, it was letting businesses build things the way that actually made sense.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wQ9M95FK6l0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wQ9M95FK6l0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wQ9M95FK6l0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/wQ9M95FK6l0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/wQ9M95FK6l0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 0,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "wQ9M95FK6l0"
+        },
+        "videoOwnerChannelTitle": "TheCCSAcademy",
+        "videoOwnerChannelId": "UCF5Yih_yIqBwO0LX_qcdQgA"
+      },
+      "contentDetails": {
+        "videoId": "wQ9M95FK6l0",
+        "videoPublishedAt": "2026-08-31T04:41:18Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "j0AqlLaSRFduwWR2UYAbux9FxJk",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLlhxM1ZiOUxtUDBz",
+      "snippet": {
+        "publishedAt": "2026-08-30T12:00:00Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Private video",
+        "description": "This video is private.",
+        "thumbnails": {},
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 1,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Xq3Vb9LmP0s"
+        }
+      },
+      "contentDetails": {
+        "videoId": "Xq3Vb9LmP0s"
+      },
+      "status": {
+        "privacyStatus": "private"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "dUWTfRaj2XXZY0yjj5jSDFssygs",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLlphYzc1OEhQZmpn",
+      "snippet": {
+        "publishedAt": "2026-08-30T08:38:23Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Why Cutting GST on Food Helps the Rich, Not the Poor",
+        "description": "Cutting GST on food sounds like an obvious way to help poor families. This short explains why it often does the opposite: the poorest households buy essentials from unregistered street vendors who never charge GST in the first place, while it's wealthier families shopping at supermarkets who actually pay it, and stand to gain the most when it's cut.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Zac758HPfjg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Zac758HPfjg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Zac758HPfjg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Zac758HPfjg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Zac758HPfjg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 2,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Zac758HPfjg"
+        },
+        "videoOwnerChannelTitle": "TheCCSAcademy",
+        "videoOwnerChannelId": "UCF5Yih_yIqBwO0LX_qcdQgA"
+      },
+      "contentDetails": {
+        "videoId": "Zac758HPfjg",
+        "videoPublishedAt": "2026-08-30T08:38:23Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "thbFYJUxqKXy9b6eSyzV-DoXWAo",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLkZpcC1qN1VxYmgw",
+      "snippet": {
+        "publishedAt": "2026-08-28T04:33:06Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Why You Can Lose Money to Someone Else's GST Fraud",
+        "description": "Under GST, you can be denied a tax credit you're owed, not because you did anything wrong, but because your supplier vanished, faked an invoice, or never deposited the tax they collected. This short explains how a system built to tax only the consumer ends up trapping tax inside honest businesses instead, and why India's GST works like a VAT on paper more often than it does in practice.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Fip-j7Uqbh0/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Fip-j7Uqbh0/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Fip-j7Uqbh0/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Fip-j7Uqbh0/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Fip-j7Uqbh0/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 3,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Fip-j7Uqbh0"
+        },
+        "videoOwnerChannelTitle": "TheCCSAcademy",
+        "videoOwnerChannelId": "UCF5Yih_yIqBwO0LX_qcdQgA"
+      },
+      "contentDetails": {
+        "videoId": "Fip-j7Uqbh0",
+        "videoPublishedAt": "2026-08-28T04:33:06Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "WGXsM8C8bxEvOJuujIU4t_VcYHc",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLnpxN2g5Y1UtWk1V",
+      "snippet": {
+        "publishedAt": "2026-08-26T02:30:25Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Why a Profit Motive Can Create Better Schools",
+        "description": "A  businessman trying to make money sounds like the last person you'd trust with a child's education. This short explains why the opposite is often true: a private school survives only as long as parents keep choosing it, which forces it to respond to what they actually want. And it isn't just for the rich, nearly half of India's private school students pay under ₹500 a month.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/zq7h9cU-ZMU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/zq7h9cU-ZMU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/zq7h9cU-ZMU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/zq7h9cU-ZMU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/zq7h9cU-ZMU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 4,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "zq7h9cU-ZMU"
+        },
+        "videoOwnerChannelTitle": "TheCCSAcademy",
+        "videoOwnerChannelId": "UCF5Yih_yIqBwO0LX_qcdQgA"
+      },
+      "contentDetails": {
+        "videoId": "zq7h9cU-ZMU",
+        "videoPublishedAt": "2026-08-26T02:30:25Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "_yN3PipRRMQc1Xt0xeiEq1E6IqI",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLmVCa01qbUdCN2FV",
+      "snippet": {
+        "publishedAt": "2026-08-24T03:25:20Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Why Indian Trucks Suddenly Started Moving Faster",
+        "description": "After GST, Indian trucks started covering 33% more distance every day, without a single new road or faster engine. This short explains why: before GST, trucks lost hours at state borders paying entry taxes and octroi, effectively crossing internal customs posts every time they crossed a state line. It also looks at how far India's \"one nation, one market\" promise has actually gone, and where it still falls short.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/eBkMjmGB7aU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/eBkMjmGB7aU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/eBkMjmGB7aU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/eBkMjmGB7aU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/eBkMjmGB7aU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 5,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "eBkMjmGB7aU"
+        },
+        "videoOwnerChannelTitle": "TheCCSAcademy",
+        "videoOwnerChannelId": "UCF5Yih_yIqBwO0LX_qcdQgA"
+      },
+      "contentDetails": {
+        "videoId": "eBkMjmGB7aU",
+        "videoPublishedAt": "2026-08-24T03:25:20Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "cQtVvBYNlRl0840wY_y6P95VhYI",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLmRMN2NRMm5Xa3pF",
+      "snippet": {
+        "publishedAt": "2026-08-22T09:30:00Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Deleted video",
+        "description": "This video is unavailable.",
+        "thumbnails": {},
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 6,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "dL7cQ2nWkzE"
+        }
+      },
+      "contentDetails": {
+        "videoId": "dL7cQ2nWkzE"
+      },
+      "status": {
+        "privacyStatus": "privacyStatusUnspecified"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "eYVFJSqs331gP7U9vOW324zgC4U",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLi1xMDVUVzJCWEdz",
+      "snippet": {
+        "publishedAt": "2026-08-21T11:17:10Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Why Removing GST Can Make Things More Expensive",
+        "description": "Education is exempt from GST, so schools don't charge it on their fees. That sounds like a win for parents. But the school still pays GST on everything it buys, computers, furniture, security, maintenance, and because it's exempt, it can't claim that back. This short explains the difference between an exemption, which quietly builds hidden tax into the price, and zero-rating, which actually removes it, and why the two get confused far too often.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-q05TW2BXGs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-q05TW2BXGs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-q05TW2BXGs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-q05TW2BXGs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-q05TW2BXGs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 7,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "-q05TW2BXGs"
+        },
+        "videoOwnerChannelTitle": "TheCCSAcademy",
+        "videoOwnerChannelId": "UCF5Yih_yIqBwO0LX_qcdQgA"
+      },
+      "contentDetails": {
+        "videoId": "-q05TW2BXGs",
+        "videoPublishedAt": "2026-08-21T11:17:10Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "x2HUOm-gqhjm37A4Ijo_2qKbD5w",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLktqWUJXLVVmLWpn",
+      "snippet": {
+        "publishedAt": "2026-08-19T03:59:41Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Can Overtime Rates Actually Reduce Income?",
+        "description": "India mandates double pay for overtime work, among the highest overtime premiums anywhere in the world. It sounds like a clear win for workers. This short explains why it often isn't: when overtime costs employers too much, many simply stop offering it rather than pay the higher rate, leaving workers with the same base pay and fewer hours to earn more.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/KjYBW-Uf-jg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/KjYBW-Uf-jg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/KjYBW-Uf-jg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/KjYBW-Uf-jg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/KjYBW-Uf-jg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 8,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "KjYBW-Uf-jg"
+        },
+        "videoOwnerChannelTitle": "TheCCSAcademy",
+        "videoOwnerChannelId": "UCF5Yih_yIqBwO0LX_qcdQgA"
+      },
+      "contentDetails": {
+        "videoId": "KjYBW-Uf-jg",
+        "videoPublishedAt": "2026-08-19T03:59:41Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "pAttoU8zF41cdaZDIMaQZnFiJ1c",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLkxQa3JRT3J3aDEw",
+      "snippet": {
+        "publishedAt": "2026-08-17T06:00:37Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Why Government Teachers Are Paid More but Teach Less",
+        "description": "Government school teachers in India are often paid more than private school teachers, with better training, job security, and benefits. Yet private school students frequently learn more. This short explains why: salary and incentive aren't the same thing, and a teacher whose job is secure no matter what happens in the classroom has less reason to improve than one whose contract depends on outcomes.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LPkrQOrwh10/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LPkrQOrwh10/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LPkrQOrwh10/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LPkrQOrwh10/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LPkrQOrwh10/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 9,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "LPkrQOrwh10"
+        },
+        "videoOwnerChannelTitle": "TheCCSAcademy",
+        "videoOwnerChannelId": "UCF5Yih_yIqBwO0LX_qcdQgA"
+      },
+      "contentDetails": {
+        "videoId": "LPkrQOrwh10",
+        "videoPublishedAt": "2026-08-17T06:00:37Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "yjDc9vkqfnd6v92L3p86Kah_5PQ",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLmtKaGliMjNYWW5V",
+      "snippet": {
+        "publishedAt": "2026-08-16T02:30:07Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Why Spending ₹20,000 Crore Might Not Help the Economy",
+        "description": "A government announces ₹20,000 crore in spending and thousands of new jobs. It sounds like an obvious win. This short explains why it isn't that simple: every rupee spent is a rupee taken from someone else first, and the businesses, jobs, and ideas that money would have funded never make it onto camera.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kJhib23XYnU/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kJhib23XYnU/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kJhib23XYnU/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/kJhib23XYnU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/kJhib23XYnU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 10,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "kJhib23XYnU"
+        },
+        "videoOwnerChannelTitle": "TheCCSAcademy",
+        "videoOwnerChannelId": "UCF5Yih_yIqBwO0LX_qcdQgA"
+      },
+      "contentDetails": {
+        "videoId": "kJhib23XYnU",
+        "videoPublishedAt": "2026-08-16T02:30:07Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "QfihkDe5iQTn98qofngLnD69ZL8",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLkxZb05CVDFmVDNJ",
+      "snippet": {
+        "publishedAt": "2026-08-14T02:30:09Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Why Doing Less Made India Richer",
+        "description": "Should a country that's better at everything still make everything itself? In 1817 David Ricardo showed why not. This short uses India and Bangladesh to explain comparative advantage, and how India's own post-1991 trade liberalisation, with exports rising from $18 billion to over $430 billion, proved the same point at national scale.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/LYoNBT1fT3I/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/LYoNBT1fT3I/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/LYoNBT1fT3I/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/LYoNBT1fT3I/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/LYoNBT1fT3I/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 11,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "LYoNBT1fT3I"
+        },
+        "videoOwnerChannelTitle": "TheCCSAcademy",
+        "videoOwnerChannelId": "UCF5Yih_yIqBwO0LX_qcdQgA"
+      },
+      "contentDetails": {
+        "videoId": "LYoNBT1fT3I",
+        "videoPublishedAt": "2026-08-14T02:30:09Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "_TFlFMRFN3HeOmJV0u0i9ZDrKjM",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLlV2OFRvUGJ4anU4",
+      "snippet": {
+        "publishedAt": "2026-08-12T04:55:16Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Why More School Funding Hasn't Fixed Indian Education",
+        "description": "Government school spending in India rose 78% between 2014 and 2023, and Delhi now spends close to ₹90,000 a year per child, more than most private schools charge. Yet roughly a third of Class 5 students still can't read a Class 2 text, a number that has barely moved in a decade. This short explores why the money keeps buying buildings and enrolment while nobody in the system is actually judged on whether a child can read.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Uv8ToPbxju8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Uv8ToPbxju8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Uv8ToPbxju8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/Uv8ToPbxju8/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/Uv8ToPbxju8/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 12,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "Uv8ToPbxju8"
+        },
+        "videoOwnerChannelTitle": "TheCCSAcademy",
+        "videoOwnerChannelId": "UCF5Yih_yIqBwO0LX_qcdQgA"
+      },
+      "contentDetails": {
+        "videoId": "Uv8ToPbxju8",
+        "videoPublishedAt": "2026-08-12T04:55:16Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "x5T4z3JQTPujaqkQ80-7kLKls8Q",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLi1PblJiSGFyY01n",
+      "snippet": {
+        "publishedAt": "2026-08-10T02:30:12Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Competitive Wages May Not Be Enough To Attract Investment",
+        "description": "Indian wages are considerably lower than wages in China. So why don't more companies move factories to India? Because wage is only one part of the cost. This short explores all the other cost and regulatory challenges that limit India's abiliity to become a manufacturing powerhouse.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-OnRbHarcMg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-OnRbHarcMg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-OnRbHarcMg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/-OnRbHarcMg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/-OnRbHarcMg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 13,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "-OnRbHarcMg"
+        },
+        "videoOwnerChannelTitle": "TheCCSAcademy",
+        "videoOwnerChannelId": "UCF5Yih_yIqBwO0LX_qcdQgA"
+      },
+      "contentDetails": {
+        "videoId": "-OnRbHarcMg",
+        "videoPublishedAt": "2026-08-10T02:30:12Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    },
+    {
+      "kind": "youtube#playlistItem",
+      "etag": "PkdQxOLTEnRlpHz1MH8x4_sEee0",
+      "id": "VVVGNVlpaF95SXFCd08wTFhfcWNkUWdBLmxBTmlTQkdyb2Jz",
+      "snippet": {
+        "publishedAt": "2026-08-07T02:30:16Z",
+        "channelId": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "title": "Why So Many Indian Farmers Want to Quit",
+        "description": "Around three out of four Indian farmers say they would leave farming if they could, not because they dislike it, but because tiny plots and thin margins mean it barely pays. This short explores why no country has grown rich with half its workforce on one-hectare farms, and why the answer is better jobs outside agriculture rather than trapping more people in it.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/lANiSBGrobs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/lANiSBGrobs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/lANiSBGrobs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/lANiSBGrobs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/lANiSBGrobs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "TheCCSAcademy",
+        "playlistId": "UUF5Yih_yIqBwO0LX_qcdQgA",
+        "position": 14,
+        "resourceId": {
+          "kind": "youtube#video",
+          "videoId": "lANiSBGrobs"
+        },
+        "videoOwnerChannelTitle": "TheCCSAcademy",
+        "videoOwnerChannelId": "UCF5Yih_yIqBwO0LX_qcdQgA"
+      },
+      "contentDetails": {
+        "videoId": "lANiSBGrobs",
+        "videoPublishedAt": "2026-08-07T02:30:16Z"
+      },
+      "status": {
+        "privacyStatus": "public"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 41,
+    "resultsPerPage": 15
+  }
+}

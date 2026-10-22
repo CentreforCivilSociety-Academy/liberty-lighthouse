@@ -1,6 +1,8 @@
 import { describe, expect, it } from 'vitest';
 import { cleanDescription } from '../src/text';
 import {
+  API_KEY,
+  API_SECRETS,
   BRANCH,
   COMMIT_SECRETS,
   type FeedVideo,
@@ -8,6 +10,7 @@ import {
   buildFeed,
   createHarness,
   feedFixture,
+  googleError,
   jevError,
   jevResponse,
   readFrontmatter,
@@ -550,5 +553,88 @@ describe('the run lock and history', () => {
     expect(history).toHaveLength(20);
     expect(history[0]?.startedAt).toBe(JSON.parse(h.kv.data.get('run:last') ?? '{}').startedAt);
     expect((history[0]?.startedAt ?? '') > (history[19]?.startedAt ?? '')).toBe(true);
+  });
+});
+
+describe('detection through the YouTube Data API', () => {
+  it('lists uploads through the API when YOUTUBE_API_KEY is set, and never asks the feed', async () => {
+    const h = createHarness();
+    const summary = await h.run(testConfig(), API_SECRETS);
+
+    expect(summary.feed).toEqual({ ok: true, source: 'api', attempts: 2, entries: 13 });
+    expect(h.world.youtube.requests).toBe(0);
+    expect(summary).toMatchObject({ newVideos: 13, classified: 4, committed: 4, errors: [] });
+    expect(h.kv.record('lANiSBGrobs')?.status).toBe('exists');
+    expect(h.kv.record('Xq3Vb9LmP0s')).toBeUndefined();
+    expect(h.world.github.puts.map((put) => put.path)).toEqual([
+      'src/content/videos/labor/competitive-wages-may-not-be-enough-to-attract-investment.mdx',
+      'src/content/videos/education/why-more-school-funding-hasnt-fixed-indian-education.mdx',
+      'src/content/videos/pubc/why-doing-less-made-india-richer.mdx',
+      'src/content/videos/pubc/why-spending-20-000-crore-might-not-help-the-economy.mdx',
+    ]);
+    const spending = h.world.github.puts[3];
+    expect(readFrontmatter(spending?.content ?? '')).toMatchObject({ format: 'short', orientation: 'vertical', youtubeId: 'kJhib23XYnU' });
+    expect(spending?.message).toContain('YouTube: https://www.youtube.com/shorts/kJhib23XYnU\n');
+    // 2 API calls + interlock + tree + 11 blobs + (Jev + PUT) for each of 4 videos.
+    expect(summary.subrequests).toBe(2 + 1 + 1 + 11 + 4 * 2);
+  });
+
+  it('falls back to the RSS feed in the same run when the API answers 403 quotaExceeded', async () => {
+    const h = createHarness();
+    h.world.youtube.playlistQueue.push(() =>
+      googleError(403, 'quotaExceeded', 'The request cannot be completed because you have exceeded your <a href="/youtube/v3/getting-started#quota">quota</a>.'),
+    );
+    const summary = await h.run(testConfig(), API_SECRETS);
+
+    expect(summary.feed).toEqual({ ok: true, source: 'rss', attempts: 1, entries: 15 });
+    expect(summary.errors).toEqual([
+      'YouTube Data API unusable this run (playlistItems.list 403: quotaExceeded); reading the RSS feed instead',
+    ]);
+    expect(summary.committed).toBe(4);
+    expect(h.world.youtube.apiRequests).toHaveLength(1);
+    expect(h.world.youtube.requests).toBe(1);
+    expect(h.events.find((event) => event.event === 'run.error')).toMatchObject({ level: 'warn' });
+  });
+
+  it('falls back to the feed when Google fails twice, within the subrequest budget', async () => {
+    const h = createHarness();
+    h.world.youtube.playlistQueue.push(
+      () => googleError(500, 'backendError', 'Backend Error'),
+      () => googleError(500, 'backendError', 'Backend Error'),
+    );
+    h.world.youtube.failures = Array<number>(7).fill(500);
+    const summary = await h.run(testConfig(), API_SECRETS);
+    expect(summary.feed).toEqual({ ok: true, source: 'rss', attempts: 8, entries: 15 });
+    expect(summary.errors[0]).toContain('(playlistItems.list 500: backendError)');
+    expect(summary.subrequests).toBeLessThanOrEqual(50);
+    expect(h.world.calls).toHaveLength(summary.subrequests);
+  });
+
+  it('records the source in the summary: "rss" when there is no key', async () => {
+    const h = createHarness();
+    const summary = await h.run();
+    expect(summary.feed.source).toBe('rss');
+    expect(h.world.youtube.apiRequests).toHaveLength(0);
+    expect(JSON.parse(h.kv.data.get('run:last') ?? '{}').feed.source).toBe('rss');
+  });
+
+  it('never lets the key into a log line, the ledger or a run summary', async () => {
+    const h = createHarness();
+    await h.run(testConfig(), API_SECRETS);
+    // Next run, a runtime whose network errors quote the request, key and all.
+    const quoteTheRequest = () => {
+      throw new TypeError(`fetch failed: ${h.world.youtube.apiRequests[0] ?? ''} x-goog-api-key: ${API_KEY}`);
+    };
+    h.world.youtube.playlistQueue.push(quoteTheRequest, quoteTheRequest);
+    const second = await h.run(testConfig(), API_SECRETS);
+    expect(second.feed.source).toBe('rss');
+
+    // The key really was sent, in its header on every request and never in a URL...
+    expect(h.world.youtube.apiKeys).toEqual([API_KEY, API_KEY, API_KEY, API_KEY]);
+    expect(h.world.youtube.apiRequests.some((url) => url.includes(API_KEY))).toBe(false);
+    // ...and appears nowhere else: not in any log line, KV value or summary.
+    const everything = [JSON.stringify(h.events), JSON.stringify(second), ...h.kv.data.values()].join('\n');
+    expect(everything).not.toContain(API_KEY);
+    expect(everything).not.toMatch(/key=AIza/);
   });
 });

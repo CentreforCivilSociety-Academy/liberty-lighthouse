@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest';
-import { ConfigError, DEFAULTS, modeOf, publicConfig, readConfig, readSecrets } from '../src/config';
+import { ConfigError, DEFAULTS, detectionOf, modeOf, publicConfig, readConfig, readSecrets } from '../src/config';
 import wranglerConfig from '../wrangler.jsonc?raw';
-import { BRANCH, REPO } from './helpers';
+import { API_KEY, BRANCH, REPO } from './helpers';
 
 // The vars exactly as wrangler.jsonc sets them.
 const vars = {
@@ -74,22 +74,33 @@ describe('readConfig', () => {
 
 describe('secrets', () => {
   it('treats missing and empty secrets as unset', () => {
-    expect(readSecrets({ OPENROUTER_API_KEY: '  ', GITHUB_TOKEN: '' })).toEqual({
+    expect(readSecrets({ OPENROUTER_API_KEY: '  ', GITHUB_TOKEN: '', YOUTUBE_API_KEY: '' })).toEqual({
       openrouterApiKey: undefined,
       githubToken: undefined,
       adminToken: undefined,
+      youtubeApiKey: undefined,
     });
     expect(readSecrets({ OPENROUTER_API_KEY: 42 })).toMatchObject({ openrouterApiKey: undefined });
+    expect(readSecrets({ YOUTUBE_API_KEY: ` ${API_KEY} ` })).toMatchObject({ youtubeApiKey: API_KEY });
   });
 
-  it('picks the mode from GITHUB_TOKEN alone', () => {
+  it('picks the mode from GITHUB_TOKEN alone, and the detection path from YOUTUBE_API_KEY alone', () => {
     expect(modeOf(readSecrets({ OPENROUTER_API_KEY: 'k' }))).toBe('stage');
     expect(modeOf(readSecrets({ OPENROUTER_API_KEY: 'k', GITHUB_TOKEN: 't' }))).toBe('commit');
+    expect(detectionOf(readSecrets({ OPENROUTER_API_KEY: 'k' }))).toBe('rss');
+    expect(detectionOf(readSecrets({ OPENROUTER_API_KEY: 'k', YOUTUBE_API_KEY: API_KEY }))).toBe('api');
   });
 
-  it('keeps secrets out of the public config', () => {
-    const shown = JSON.stringify(publicConfig(readConfig(vars).config, 'commit'));
+  it('keeps secrets out of the public config, showing only what they switch on', () => {
+    const secrets = readSecrets({
+      OPENROUTER_API_KEY: 'sk-or-must-not-appear',
+      GITHUB_TOKEN: 'github-must-not-appear',
+      ADMIN_TOKEN: 'admin-must-not-appear',
+      YOUTUBE_API_KEY: API_KEY,
+    });
+    const shown = JSON.stringify(publicConfig(readConfig(vars).config, secrets));
     expect(shown).toContain('"mode":"commit"');
-    expect(shown).not.toMatch(/OPENROUTER|GITHUB_TOKEN|ADMIN_TOKEN|apiKey|token/i);
+    expect(shown).toContain('"detection":"api"');
+    expect(shown).not.toMatch(/must-not-appear|AIza|OPENROUTER|GITHUB_TOKEN|ADMIN_TOKEN|apiKey|token/i);
   });
 });

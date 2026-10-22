@@ -1,7 +1,7 @@
 import { afterEach, describe, expect, it, vi } from 'vitest';
 import worker from '../src/index';
 import type { RunSummary, VideoRecord } from '../src/ledger';
-import { BRANCH, MemoryKv, REPO, createWorld } from './helpers';
+import { API_KEY, BRANCH, MemoryKv, REPO, createWorld } from './helpers';
 
 const VARS = {
   CHANNEL_ID: 'UCF5Yih_yIqBwO0LX_qcdQgA',
@@ -138,8 +138,24 @@ describe('the HTTP surface', () => {
     expect(response.status).toBe(200);
     const summary = (await response.json()) as RunSummary;
     expect(summary).toMatchObject({ trigger: 'manual', mode: 'stage', staged: 4, committed: 0, errors: [] });
+    expect(summary.feed).toEqual({ ok: true, source: 'rss', attempts: 1, entries: 15 });
     expect(JSON.parse(kv.data.get('run:last') ?? 'null')).toEqual(summary);
     expect(world.calls.some((call) => call.method !== 'GET' && call.url.startsWith('https://api.github.com/'))).toBe(false);
+  });
+
+  it('detects through the Data API when YOUTUBE_API_KEY is set, and /status says so without showing the key', async () => {
+    const world = createWorld();
+    vi.stubGlobal('fetch', world.fetch);
+    const { env } = testEnv({ ADMIN_TOKEN: ADMIN, OPENROUTER_API_KEY: 'sk-or-test-0000000000', YOUTUBE_API_KEY: API_KEY });
+
+    const summary = (await (await send(env, 'POST', '/run', `Bearer ${ADMIN}`)).json()) as RunSummary;
+    expect(summary.feed).toEqual({ ok: true, source: 'api', attempts: 2, entries: 13 });
+
+    const text = await (await send(env, 'GET', '/status?full=1', `Bearer ${ADMIN}`)).text();
+    expect(text).not.toContain(API_KEY);
+    const status = JSON.parse(text) as StatusBody;
+    expect(status.config).toMatchObject({ mode: 'stage', detection: 'api' });
+    expect(status.lastRun?.feed).toMatchObject({ source: 'api' });
   });
 
   it('answers 409 on POST /run while another run holds the lock', async () => {

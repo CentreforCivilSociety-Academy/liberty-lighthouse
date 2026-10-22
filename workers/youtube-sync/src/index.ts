@@ -11,7 +11,7 @@
  * as an unknown path.
  */
 
-import { ConfigError, modeOf, publicConfig, readConfig, readSecrets } from './config';
+import { ConfigError, detectionOf, modeOf, publicConfig, readConfig, readSecrets } from './config';
 import {
   type RunSummary,
   STATUSES,
@@ -60,7 +60,10 @@ async function runFromEnv(env: Env, trigger: Trigger): Promise<RunSummary> {
   } catch (error) {
     if (!(error instanceof ConfigError)) throw error;
     // Saved like any other run, so /status shows why nothing happened.
-    const summary = { ...emptySummary(trigger, new Date(), modeOf(secrets)), errors: [`config: ${error.message}`] };
+    const summary = {
+      ...emptySummary(trigger, new Date(), modeOf(secrets), detectionOf(secrets)),
+      errors: [`config: ${error.message}`],
+    };
     await saveRunSummary(env.LEDGER, summary);
     log('run.error', { message: summary.errors[0] }, 'error');
     return summary;
@@ -93,7 +96,7 @@ const log: Logger = (event, fields, level) => {
 async function statusReport(env: Env, full: boolean): Promise<Record<string, unknown>> {
   let config: Record<string, unknown>;
   try {
-    config = publicConfig(readConfig(env).config, modeOf(readSecrets(env)));
+    config = publicConfig(readConfig(env).config, readSecrets(env));
   } catch (error) {
     config = { error: error instanceof ConfigError ? error.message : 'the configuration could not be read' };
   }

@@ -21,7 +21,8 @@
 /** The narrow fetch every module uses, so tests can pass in a router. */
 export type FetchFn = (url: string, init?: RequestInit) => Promise<Response>;
 
-export type Service = 'feed' | 'github' | 'openrouter';
+/** "feed" is the RSS feed; "youtube" is the YouTube Data API. */
+export type Service = 'feed' | 'youtube' | 'github' | 'openrouter';
 
 export class UpstreamError extends Error {
   override name = 'UpstreamError';
@@ -129,8 +130,20 @@ export function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null && !Array.isArray(value);
 }
 
-/** A short, single-line description of an error, for logs and the ledger. */
+/**
+ * A short, single-line description of an error, for logs and the ledger.
+ *
+ * A runtime's own network-error text can quote the URL it was fetching. The
+ * YouTube key travels in a header, never in a URL, but as a backstop any key=
+ * query parameter is blanked here, whatever produced the message. (The run
+ * also redacts each secret's exact value; this catches the parameter whatever
+ * its value.)
+ */
 export function describeError(error: unknown): string {
   const text = error instanceof Error ? error.message : String(error);
-  return text.replace(/\s+/g, ' ').trim().slice(0, 300);
+  return text
+    .replace(/([?&]key=)[^&\s"'#]+/gi, '$1[redacted]')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .slice(0, 300);
 }

@@ -32,6 +32,9 @@ export type PublishMode = 'review' | 'auto';
 /** "stage" keeps would-be files in the ledger; "commit" writes them to GitHub. */
 export type Mode = 'stage' | 'commit';
 
+/** Where new uploads are detected: the YouTube Data API, or the public RSS feed. */
+export type DetectionSource = 'api' | 'rss';
+
 export interface Config {
   channelId: string;
   githubRepo: string;
@@ -47,6 +50,7 @@ export interface Secrets {
   openrouterApiKey: string | undefined;
   githubToken: string | undefined;
   adminToken: string | undefined;
+  youtubeApiKey: string | undefined;
 }
 
 export const DEFAULTS = {
@@ -132,16 +136,17 @@ function required(value: string | undefined, name: string, pattern: RegExp): str
 }
 
 /**
- * The three secrets, each of which may be absent:
+ * The four secrets, each of which may be absent:
  *
  *   OPENROUTER_API_KEY  needed to classify; without it a run stops at once
  *   GITHUB_TOKEN        absent means stage mode: nothing is written to GitHub
  *   ADMIN_TOKEN         absent means no HTTP surface: every request is a 404
+ *   YOUTUBE_API_KEY     absent means new uploads are found through the RSS feed
  *
  * They are read by name and checked here, rather than trusted from the Env
  * type. `wrangler types` lists them as plain strings (it learns the names
  * from .dev.vars.example), but at runtime an unset secret is simply missing,
- * and two of these are meant to be unset in some deployments. An empty value
+ * and three of these are meant to be unset in some deployments. An empty value
  * also counts as unset, so a copy of .dev.vars.example means "not configured".
  */
 export function readSecrets(env: object): Secrets {
@@ -153,6 +158,7 @@ export function readSecrets(env: object): Secrets {
     openrouterApiKey: read('OPENROUTER_API_KEY'),
     githubToken: read('GITHUB_TOKEN'),
     adminToken: read('ADMIN_TOKEN'),
+    youtubeApiKey: read('YOUTUBE_API_KEY'),
   };
 }
 
@@ -160,7 +166,12 @@ export function modeOf(secrets: Secrets): Mode {
   return secrets.githubToken ? 'commit' : 'stage';
 }
 
-/** The settings /status may show: vars and the mode, never secrets. */
-export function publicConfig(config: Config, mode: Mode): Record<string, unknown> {
-  return { ...config, mode };
+/** The detection path a run starts with; it falls back to RSS if the API is unusable that run. */
+export function detectionOf(secrets: Secrets): DetectionSource {
+  return secrets.youtubeApiKey ? 'api' : 'rss';
+}
+
+/** The settings /status may show: vars, the mode and the detection path. Never a secret's value. */
+export function publicConfig(config: Config, secrets: Secrets): Record<string, unknown> {
+  return { ...config, mode: modeOf(secrets), detection: detectionOf(secrets) };
 }

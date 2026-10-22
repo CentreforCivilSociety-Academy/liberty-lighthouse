@@ -26,7 +26,7 @@
  * README.md).
  */
 
-import type { Mode } from './config';
+import type { DetectionSource, Mode } from './config';
 import type { ReviewReason, RunnerUp } from './decide';
 import type { FeedEntry } from './feed';
 
@@ -111,7 +111,12 @@ export interface RunSummary {
   startedAt: string;
   finishedAt: string;
   mode: Mode;
-  feed: { ok: boolean; attempts: number; entries: number };
+  /**
+   * Detection. `source` is where the uploads were read from: "api" (the
+   * YouTube Data API) or "rss" (the public feed, used without a key or when
+   * the API was unusable this run). `attempts` counts requests to that source.
+   */
+  feed: { ok: boolean; source: DetectionSource; attempts: number; entries: number };
   /** Feed entries the ledger had never seen before this run. */
   newVideos: number;
   /** Videos whose answers from Jev passed validation. */

@@ -16,11 +16,18 @@ anything is published.
 The cron trigger runs every six hours (`0 */6 * * *`); `POST /run` runs it on
 demand.
 
-1. **Detect.** Read the channel's public Atom feed, which lists the 15 latest
-   uploads. The feed is unreliable (in our measurements only 20–30% of requests
-   got a 200), so it is retried up to eight times with short jittered pauses,
-   under 15 seconds of waiting in all. If every attempt fails, the run records
-   that and stops; the next run reads the same uploads.
+1. **Detect.** List the channel's 15 latest uploads.
+   - **With a `YOUTUBE_API_KEY`**, through the YouTube Data API v3 (see
+     [Detection](#detection)): `playlistItems.list` on the channel's uploads
+     playlist, keeping only public videos, then `videos.list` to tell Shorts
+     (vertical, at most three minutes) from regular videos. If the API is
+     unusable this run (a bad key, the quota spent, the API not enabled), the
+     run logs why and reads the RSS feed instead.
+   - **Without a key**, through the public Atom feed. It is unreliable: once
+     only 20–30% of requests got a 200, and in later live runs it failed 20
+     times in 20. So it is retried up to eight times with short jittered
+     pauses, under 15 seconds of waiting in all. If every attempt fails, the
+     run records that and stops; the next run reads the same uploads.
 2. **Filter.** Skip every video the ledger has already settled. When nothing is
    new, the run ends here, having made no GitHub or OpenRouter calls at all.
 3. **Interlock.** In commit mode, refuse to write to a production branch (see
@@ -189,12 +196,20 @@ stored or returned by `/status`:
 
 | Secret | Needed | Without it |
 | --- | --- | --- |
-| `OPENROUTER_API_KEY` | Yes | A run stops before reading the feed. |
+| `OPENROUTER_API_KEY` | Yes | A run stops before doing anything else. |
+| `YOUTUBE_API_KEY` | Recommended | New uploads are found through the RSS feed, which has been failing for this channel. |
 | `GITHUB_TOKEN` | No | Stage mode: nothing is written to GitHub. |
 | `ADMIN_TOKEN` | No | No HTTP surface: every request gets a 404. |
 
 For `GITHUB_TOKEN`, use a fine-grained token limited to this repository with
 **Contents: Read and write** and nothing else.
+
+For `YOUTUBE_API_KEY`, create an API key in a Google Cloud project with the
+**YouTube Data API v3** enabled, and under *API restrictions* limit it to that
+API. Leave *Application restrictions* at none: Cloudflare's outbound addresses
+are not fixed. The Worker sends the key in the `X-Goog-Api-Key` header, never
+in a URL; it never logs a URL either, keeps only Google's reason code from an
+error, and blanks any `key=` value an error message might quote.
 
 ## Modes
 
@@ -212,6 +227,25 @@ Moving between them:
 - **review → auto:** set `PUBLISH_MODE` to `"auto"` in `wrangler.jsonc` and
   deploy.
 - **back to stage:** `npx wrangler secret delete GITHUB_TOKEN`.
+
+### Detection
+
+| Path | Set by | What happens |
+| --- | --- | --- |
+| **api** | `YOUTUBE_API_KEY` set | `playlistItems.list` on the uploads playlist (the channel id with `UC` changed to `UU`), public videos only, then `videos.list` for duration and player shape. Two requests a run; a 5xx or a timeout gets one quick retry. |
+| **rss** | no `YOUTUBE_API_KEY` | The public Atom feed, retried up to eight times. |
+
+With a key, a run whose API calls cannot work (a 400 or 403 such as
+`keyInvalid`, `quotaExceeded` or `accessNotConfigured`, or Google failing
+twice) logs the reason and reads the RSS feed instead, in the same run, so a
+broken key costs a warning rather than a run. If `videos.list` alone fails, the
+uploads are still used, but a video counts as a Short only when its title or
+description says `#shorts`, and the log says so. Either way the run summary
+records the path used as `feed.source` (`"api"` or `"rss"`), and `/status`
+shows the configured path as `config.detection`.
+
+Switch with `npx wrangler secret put YOUTUBE_API_KEY` or
+`npx wrangler secret delete YOUTUBE_API_KEY`; nothing else changes.
 
 ## The safety interlock
 
@@ -233,6 +267,7 @@ npm install
 #   npx wrangler kv namespace create LEDGER
 
 npx wrangler secret put OPENROUTER_API_KEY
+npx wrangler secret put YOUTUBE_API_KEY      # recommended: the RSS feed has been failing
 npx wrangler secret put ADMIN_TOKEN          # optional: e.g. the output of `openssl rand -base64 32`
 # npx wrangler secret put GITHUB_TOKEN       # optional: leave unset for stage mode
 
@@ -245,7 +280,8 @@ yet; deploying first and adding secrets afterwards works too.
 ## Inspecting a deployment
 
 ```sh
-# Settings (no secrets), the last run, counts by status, and every video record
+# Settings (no secrets; config.detection is "api" or "rss"), the last run
+# (lastRun.feed.source says which path it used), counts by status, and every video record
 curl -H "Authorization: Bearer $ADMIN_TOKEN" https://liberty-lighthouse-youtube-sync-dev.<subdomain>.workers.dev/status
 # ...including the full MDX of staged files
 curl -H "Authorization: Bearer $ADMIN_TOKEN" "https://.../status?full=1"
@@ -275,20 +311,31 @@ dashboard.
   input tokens, **$0.000043 a video**, so well under a cent a month at the
   channel's pace (see [EVALUATION.md](EVALUATION.md)). Each run summary
   records the cost OpenRouter reports.
+- **YouTube Data API:** no charge. A run uses two quota units (one per list
+  call; a retry costs one more), so four runs a day use 8 of the free 10,000
+  units a day.
 - **Cloudflare:** runs on the Workers free plan. Cron triggers are free, and a
   run is designed to stay inside the free plan's 50 subrequests per invocation:
   every fetch is counted, and a video is only started if the worst case for it
-  still fits. A run makes about 20 KV reads and a handful of writes, far inside
-  the free tier (100,000 reads and 1,000 writes a day).
+  still fits. Detection takes 2 subrequests through the API (at most 4 with
+  retries, plus up to 8 more if it falls back to the feed). A run makes about
+  20 KV reads and a handful of writes, far inside the free tier (100,000 reads
+  and 1,000 writes a day).
 - **GitHub:** nothing.
 
 ## Limitations
 
 - **No transcripts.** Classification sees only the title and description.
-- **The feed is flaky, and short.** A run whose eight feed attempts all fail
-  does nothing; the next one catches up. But the feed holds only the 15 latest
-  uploads, so a video that falls out of it before it is processed is not seen
-  again. That would take weeks of failed runs at the channel's pace.
+- **Without an API key, detection depends on a flaky feed.** A run whose eight
+  feed attempts all fail does nothing; the next one catches up. Set
+  `YOUTUBE_API_KEY` and the feed is only the fallback.
+- **The window is the 15 latest uploads**, through either path. A video that
+  drops out of it before it is processed is not seen again. That would take
+  weeks of failed runs at the channel's pace.
+- **Shorts by hashtag, sometimes.** When `videos.list` fails, a video counts as
+  a Short only if it says `#shorts`; this channel's descriptions do not, so its
+  Shorts would be filed as regular, horizontal videos until an editor fixes the
+  draft. The log flags every such run.
 - **KV is eventually consistent.** The run lock is best-effort, so two runs
   that start within a minute of each other can overlap. The create-only write
   is the real guard against duplicate files, and the saved classification
@@ -329,7 +376,8 @@ real requests to YouTube, GitHub and OpenRouter.
 | --- | --- |
 | `src/index.ts` | The cron and HTTP entry points, admin auth, `/status` |
 | `src/run.ts` | One run, start to finish |
-| `src/feed.ts` | The feed: retries and a small parser |
+| `src/youtube-api.ts` | Detection through the YouTube Data API v3 |
+| `src/feed.ts` | The RSS feed: retries and a small parser |
 | `src/repo.ts` | What the branch holds: videos for dedupe, topics for the taxonomy |
 | `src/jev.ts` | The Decisions API request and its retry policy |
 | `src/decide.ts` | Validation and the outcome rules (pure) |
