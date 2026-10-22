@@ -199,10 +199,18 @@ stored or returned by `/status`:
 | `OPENROUTER_API_KEY` | Yes | A run stops before doing anything else. |
 | `YOUTUBE_API_KEY` | Recommended | New uploads are found through the RSS feed, which has been failing for this channel. |
 | `GITHUB_TOKEN` | No | Stage mode: nothing is written to GitHub. |
+| `GITHUB_READ_TOKEN` | In stage mode on Cloudflare | GitHub refuses most of stage mode's unsigned reads from Cloudflare (see [Limitations](#limitations)). Never used to write; unused once `GITHUB_TOKEN` is set. |
 | `ADMIN_TOKEN` | No | No HTTP surface: every request gets a 404. |
 
 For `GITHUB_TOKEN`, use a fine-grained token limited to this repository with
-**Contents: Read and write** and nothing else.
+**Contents: Read and write** and nothing else. Its owner has to be a member of
+the CentreforCivilSociety-Academy organisation: GitHub lets an outside
+collaborator write only with a classic token, whose `public_repo` scope
+reaches every public repository they can push to.
+
+For `GITHUB_READ_TOKEN`, a fine-grained token with no permissions at all is
+enough, because every token can read public repositories and this one is
+public. It needs no approval from the organisation and cannot write anywhere.
 
 For `YOUTUBE_API_KEY`, create an API key in a Google Cloud project with the
 **YouTube Data API v3** enabled, and under *API restrictions* limit it to that
@@ -215,7 +223,7 @@ error, and blanks any `key=` value an error message might quote.
 
 | Mode | Set by | What happens |
 | --- | --- | --- |
-| **stage** | no `GITHUB_TOKEN` | Classifies and keeps each would-be file (path and MDX) in the ledger. Writes nothing. The dev deployment runs like this, though from Cloudflare GitHub often refuses its unauthenticated reads (see [Limitations](#limitations)). |
+| **stage** | no `GITHUB_TOKEN` | Classifies and keeps each would-be file (path and MDX) in the ledger. Writes nothing. The dev deployment runs like this; on Cloudflare it needs `GITHUB_READ_TOKEN` (see [Limitations](#limitations)). |
 | **review** | `GITHUB_TOKEN` set, `PUBLISH_MODE` `review` | Creates every file on the branch as `draft: true`. |
 | **auto** | `GITHUB_TOKEN` set, `PUBLISH_MODE` `auto` | Creates `confident` files as `draft: false`; everything else is still a draft. |
 
@@ -270,6 +278,7 @@ npx wrangler secret put OPENROUTER_API_KEY
 npx wrangler secret put YOUTUBE_API_KEY      # recommended: the RSS feed has been failing
 npx wrangler secret put ADMIN_TOKEN          # optional: e.g. the output of `openssl rand -base64 32`
 # npx wrangler secret put GITHUB_TOKEN       # optional: leave unset for stage mode
+# npx wrangler secret put GITHUB_READ_TOKEN  # stage mode: lets GitHub accept its reads from Cloudflare
 
 npm run deploy
 ```
@@ -340,17 +349,17 @@ dashboard.
   that start within a minute of each other can overlap. The create-only write
   is the real guard against duplicate files, and the saved classification
   limits duplicate Jev calls.
-- **Stage mode reads GitHub without a token, and from Cloudflare that often
-  fails.** GitHub allows 60 unauthenticated requests an hour per IP address,
-  and a Worker shares its outbound addresses with every other Worker. In the
-  dev Worker's first run that got past detection (22 October 2026), GitHub
-  refused the very first call with a rate-limit 403. A refused run stops
-  before Jev is asked and before any video is recorded, so it costs nothing
-  and the next run starts afresh, but a deployed Worker only works dependably
-  with `GITHUB_TOKEN`; stage mode is most useful under `wrangler dev` on an
-  ordinary connection. When it does get through, the first run reads about 30
-  files; after that the caches keep it to one call per run that has new
-  videos.
+- **Unsigned GitHub reads fail from Cloudflare.** GitHub allows 60
+  unauthenticated requests an hour per IP address, and a Worker shares its
+  outbound addresses with every other Worker. On 22 October 2026 the dev
+  Worker's three runs that got past detection (two manual, one cron, from
+  three different addresses) were each refused on their very first GitHub
+  call with a rate-limit 403. A refused run stops before Jev is asked and
+  before any video is recorded, so it costs nothing, but nothing gets done
+  either. So stage mode on Cloudflare needs `GITHUB_READ_TOKEN` (5,000 signed
+  requests an hour); commit mode signs with `GITHUB_TOKEN`. The first run
+  reads about 30 files; after that the caches keep it to one call per run
+  that has new videos.
 - **The first runs are slow on purpose.** A cold start spends much of the
   subrequest budget reading the repository, so the first run may classify only
   a video or two. The backlog clears over the following runs.

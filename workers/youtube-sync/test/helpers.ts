@@ -448,6 +448,7 @@ export function testConfig(overrides: Partial<Config> = {}): Config {
 export const COMMIT_SECRETS: Secrets = {
   openrouterApiKey: 'sk-or-test-0000000000',
   githubToken: 'github-test-token-0000',
+  githubReadToken: undefined,
   adminToken: undefined,
   youtubeApiKey: undefined,
 };

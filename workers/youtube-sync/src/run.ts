@@ -127,7 +127,13 @@ export async function runSync(
     summary,
     budget,
     http,
-    github: createGitHub({ http, repo: config.githubRepo, branch: config.targetBranch, token: secrets.githubToken }),
+    // Only GITHUB_TOKEN makes this commit mode; the read token just signs stage mode's reads.
+    github: createGitHub({
+      http,
+      repo: config.githubRepo,
+      branch: config.targetBranch,
+      token: secrets.githubToken ?? secrets.githubReadToken,
+    }),
     log,
     fail: (message, level = 'error') => {
       const clean = safe(message);
@@ -627,7 +633,13 @@ function save(run: Run, record: VideoRecord): Promise<VideoRecord> {
  */
 function redact(text: string, secrets: Secrets): string {
   let clean = text;
-  for (const secret of [secrets.openrouterApiKey, secrets.githubToken, secrets.adminToken, secrets.youtubeApiKey]) {
+  for (const secret of [
+    secrets.openrouterApiKey,
+    secrets.githubToken,
+    secrets.githubReadToken,
+    secrets.adminToken,
+    secrets.youtubeApiKey,
+  ]) {
     if (secret && secret.length >= 8) clean = clean.split(secret).join('[redacted]');
   }
   return clean;

@@ -323,6 +323,8 @@ describe('the safety interlock', () => {
 });
 
 describe('stage mode (no GITHUB_TOKEN)', () => {
+  const READ_TOKEN = 'github-read-token-0000';
+
   it('keeps each would-be file in the ledger and never writes to GitHub', async () => {
     const h = createHarness();
     const summary = await h.run(testConfig(), STAGE_SECRETS);
@@ -340,6 +342,27 @@ describe('stage mode (no GITHUB_TOKEN)', () => {
       staged: { path: 'src/content/videos/pubc/why-spending-20-000-crore-might-not-help-the-economy.mdx', draft: true },
     });
     expect(readFrontmatter(record?.staged?.mdx ?? '')).toMatchObject({ youtubeId: 'kJhib23XYnU', topic: 'pubc', draft: true });
+  });
+
+  it('signs its reads with GITHUB_READ_TOKEN, and still never writes', async () => {
+    const h = createHarness();
+    const summary = await h.run(testConfig(), { ...STAGE_SECRETS, githubReadToken: READ_TOKEN });
+    expect(summary).toMatchObject({ mode: 'stage', staged: 4, committed: 0, errors: [] });
+
+    const github = h.world.calls.filter((call) => call.url.startsWith('https://api.github.com/'));
+    expect(github.length).toBeGreaterThan(0);
+    expect(github.every((call) => call.method === 'GET' && call.headers.authorization === `Bearer ${READ_TOKEN}`)).toBe(true);
+    expect(h.world.github.puts).toEqual([]);
+    expect([JSON.stringify(h.events), JSON.stringify(summary), ...h.kv.data.values()].join('\n')).not.toContain(READ_TOKEN);
+  });
+
+  it('uses GITHUB_TOKEN for every call once both tokens are set', async () => {
+    const h = createHarness();
+    h.world.youtube.xml = buildFeed([GST_VIDEO]);
+    const summary = await h.run(testConfig(), { ...COMMIT_SECRETS, githubReadToken: READ_TOKEN });
+    expect(summary).toMatchObject({ mode: 'commit', committed: 1 });
+    const github = h.world.calls.filter((call) => call.url.startsWith('https://api.github.com/'));
+    expect(github.every((call) => call.headers.authorization === 'Bearer github-test-token-0000')).toBe(true);
   });
 
   it('leaves staged videos alone on later stage-mode runs', async () => {

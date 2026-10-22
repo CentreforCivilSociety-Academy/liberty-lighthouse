@@ -49,6 +49,7 @@ export interface Config {
 export interface Secrets {
   openrouterApiKey: string | undefined;
   githubToken: string | undefined;
+  githubReadToken: string | undefined;
   adminToken: string | undefined;
   youtubeApiKey: string | undefined;
 }
@@ -136,17 +137,20 @@ function required(value: string | undefined, name: string, pattern: RegExp): str
 }
 
 /**
- * The four secrets, each of which may be absent:
+ * The five secrets, each of which may be absent:
  *
  *   OPENROUTER_API_KEY  needed to classify; without it a run stops at once
  *   GITHUB_TOKEN        absent means stage mode: nothing is written to GitHub
+ *   GITHUB_READ_TOKEN   signs stage mode's reads, because GitHub refuses most
+ *                       unsigned ones from Cloudflare; never a reason to write,
+ *                       and unused once GITHUB_TOKEN is set
  *   ADMIN_TOKEN         absent means no HTTP surface: every request is a 404
  *   YOUTUBE_API_KEY     absent means new uploads are found through the RSS feed
  *
  * They are read by name and checked here, rather than trusted from the Env
  * type. `wrangler types` lists them as plain strings (it learns the names
  * from .dev.vars.example), but at runtime an unset secret is simply missing,
- * and three of these are meant to be unset in some deployments. An empty value
+ * and four of these are meant to be unset in some deployments. An empty value
  * also counts as unset, so a copy of .dev.vars.example means "not configured".
  */
 export function readSecrets(env: object): Secrets {
@@ -157,6 +161,7 @@ export function readSecrets(env: object): Secrets {
   return {
     openrouterApiKey: read('OPENROUTER_API_KEY'),
     githubToken: read('GITHUB_TOKEN'),
+    githubReadToken: read('GITHUB_READ_TOKEN'),
     adminToken: read('ADMIN_TOKEN'),
     youtubeApiKey: read('YOUTUBE_API_KEY'),
   };

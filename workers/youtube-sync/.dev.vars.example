@@ -12,6 +12,12 @@ OPENROUTER_API_KEY=
 # and nothing is written to GitHub. Needs contents:write on the repository.
 GITHUB_TOKEN=
 
+# Optional. Signs stage mode's GitHub reads, which GitHub otherwise refuses
+# from Cloudflare's shared addresses. Never used to write, and unused once
+# GITHUB_TOKEN is set. A fine-grained token with no permissions is enough:
+# every token can read public repositories.
+GITHUB_READ_TOKEN=
+
 # Optional. Unset means no HTTP surface: every request gets a 404.
 ADMIN_TOKEN=
 

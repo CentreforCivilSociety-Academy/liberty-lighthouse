@@ -74,9 +74,10 @@ describe('readConfig', () => {
 
 describe('secrets', () => {
   it('treats missing and empty secrets as unset', () => {
-    expect(readSecrets({ OPENROUTER_API_KEY: '  ', GITHUB_TOKEN: '', YOUTUBE_API_KEY: '' })).toEqual({
+    expect(readSecrets({ OPENROUTER_API_KEY: '  ', GITHUB_TOKEN: '', GITHUB_READ_TOKEN: ' ', YOUTUBE_API_KEY: '' })).toEqual({
       openrouterApiKey: undefined,
       githubToken: undefined,
+      githubReadToken: undefined,
       adminToken: undefined,
       youtubeApiKey: undefined,
     });
@@ -87,6 +88,8 @@ describe('secrets', () => {
   it('picks the mode from GITHUB_TOKEN alone, and the detection path from YOUTUBE_API_KEY alone', () => {
     expect(modeOf(readSecrets({ OPENROUTER_API_KEY: 'k' }))).toBe('stage');
     expect(modeOf(readSecrets({ OPENROUTER_API_KEY: 'k', GITHUB_TOKEN: 't' }))).toBe('commit');
+    // A read token never switches on writing.
+    expect(modeOf(readSecrets({ OPENROUTER_API_KEY: 'k', GITHUB_READ_TOKEN: 'r' }))).toBe('stage');
     expect(detectionOf(readSecrets({ OPENROUTER_API_KEY: 'k' }))).toBe('rss');
     expect(detectionOf(readSecrets({ OPENROUTER_API_KEY: 'k', YOUTUBE_API_KEY: API_KEY }))).toBe('api');
   });
@@ -95,6 +98,7 @@ describe('secrets', () => {
     const secrets = readSecrets({
       OPENROUTER_API_KEY: 'sk-or-must-not-appear',
       GITHUB_TOKEN: 'github-must-not-appear',
+      GITHUB_READ_TOKEN: 'read-must-not-appear',
       ADMIN_TOKEN: 'admin-must-not-appear',
       YOUTUBE_API_KEY: API_KEY,
     });
