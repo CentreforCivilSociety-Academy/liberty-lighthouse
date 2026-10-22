@@ -72,7 +72,8 @@ to pick thresholds per model from labelled data. Two were set from this run:
   is written, so a GitHub failure never pays for a second request.
 - Cloudflare: one Worker, a cron every six hours and one KV namespace fit the
   Workers free plan (100,000 requests and 1,000 KV writes a day). The YouTube
-  feed and the GitHub API are free.
+  feed and the GitHub API are free, and the YouTube Data API, when a key is
+  set, uses 8 of its free 10,000 quota units a day.
 
 ## Limits
 
