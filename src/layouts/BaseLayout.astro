@@ -12,6 +12,12 @@ interface Props {
    * redefine them on body without forking those components.
    */
   bodyClass?: string;
+  /**
+   * Self-hosted fonts this page sets in its first screen beyond the three the
+   * CMS chooses — preloaded so they arrive before first paint instead of
+   * swapping in and shifting the text.
+   */
+  extraFontPreloads?: string[];
 }
 
 const {
@@ -21,6 +27,7 @@ const {
   canonicalUrl,
   noindex = false,
   bodyClass,
+  extraFontPreloads = [],
 } = Astro.props;
 
 const siteTitle = 'Liberty Lighthouse';
@@ -123,7 +130,7 @@ const designSystemCSS = `
       path is kept only for catalogue families that are not self-hosted, and
       its preconnects are emitted only when it is actually used.
     -->
-    {typo.fontPreloads.map((href: string) => (
+    {[...typo.fontPreloads, ...extraFontPreloads].map((href: string) => (
       <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />
     ))}
     {typo.fontsUrl && (
