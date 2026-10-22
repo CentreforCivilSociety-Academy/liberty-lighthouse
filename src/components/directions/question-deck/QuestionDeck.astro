@@ -1,0 +1,1040 @@
+---
+/**
+ * Direction C — Question Deck.
+ *
+ * Curiosity as play. The homepage deals one real question at a time, like a
+ * deck of flashcards: draw another, go back one, or choose which topic's deck
+ * to draw from. The point is the moment a question lands that you did not
+ * know you wanted answered, so the deck is shuffled on every visit.
+ *
+ * Under it the topics are decks too, and a deck's thickness is the number of
+ * questions in it — the honest way to say "there is more here than there".
+ * Then the Shorts as a filmstrip, for the visitor who would rather watch.
+ *
+ * Type is Anek Latin, from Ek Type in Mumbai: a variable family drawn for
+ * Indian scripts, whose width axis lets a question set condensed and heavy on
+ * a card the size of a hand. It is the one family on the page.
+ *
+ * Motion only answers the reader: a card leaves when you deal, the next one
+ * steps up. Reduced motion turns both into a plain swap.
+ */
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Navbar from '../../global/Navbar.astro';
+import Footer from '../../global/Footer.astro';
+import PreviewBar from '../PreviewBar.astro';
+import { getHomepage, listOf, plural } from '../../../lib/homepage';
+import { shareImageFor } from '../../../lib/share-image';
+
+interface Props {
+  preview?: boolean;
+}
+
+const { preview = false } = Astro.props;
+const home = await getHomepage();
+const { topics, totals, minutes, lead, videos } = home;
+
+/** Every question, as the dealer sees it. */
+const cards = topics.flatMap((topic) =>
+  topic.rows.map((row) => ({
+    q: row.question,
+    href: row.href,
+    t: topic.slug,
+    m: row.minutes,
+    a: row.opening,
+  })),
+);
+
+const topicMeta = Object.fromEntries(
+  topics.map((t) => [t.slug, { title: t.title, fill: t.fill, videos: t.videos }]),
+);
+
+const first = cards.find((c) => c.href === lead.href) ?? cards[0];
+const firstTopic = topicMeta[first.t];
+
+/**
+ * A long question set at the size of a short one overflows the card, so the
+ * size steps down with length. Buckets rather than fitting text with script:
+ * it has to be right before any script runs.
+ */
+const sizeFor = (q: string) => (q.length <= 60 ? 'xl' : q.length <= 100 ? 'l' : q.length <= 145 ? 'm' : 's');
+
+/** Card edges under a deck: one per four questions, so 19 reads as thick. */
+const edgesFor = (n: number) => Math.min(6, Math.max(1, Math.ceil(n / 4)));
+
+const description = `Draw a question about how India works: ${totals.questions} plain, sourced answers across ${totals.topics} topics, free from the Centre for Civil Society.`;
+---
+
+<BaseLayout
+  title="Liberty Lighthouse"
+  description={description}
+  ogImage={await shareImageFor('home')}
+  noindex={preview}
+  bodyClass="deck-page"
+>
+  <Navbar topicsHref={preview ? '#topics' : undefined} />
+
+  <main id="main-content" class="qd">
+    <section class="qd-hero" aria-labelledby="qd-title">
+      <div class="qd-words">
+        <h1 class="qd-title hero-title" id="qd-title">Draw a question about how India works.</h1>
+        <p class="qd-intro">
+          Liberty Lighthouse answers {totals.questions} of them, about the economy,
+          laws and government, in plain and sourced language. Most answers take
+          about {plural(minutes.median, 'minute')} to read. Keep drawing until
+          one makes you curious.
+        </p>
+        <div class="qd-find">
+          <form class="qd-search" action="/search/" method="get" role="search">
+            <label class="sr-only" for="qd-q">Search the questions</label>
+            <input type="search" id="qd-q" name="q" placeholder="Or search for one" autocomplete="off" />
+            <button type="submit">Search</button>
+          </form>
+          <a class="qd-all" href="/questions/">See all {totals.questions} questions</a>
+        </div>
+      </div>
+
+      <div class="qd-table" id="qd-table">
+        <script type="application/json" id="qd-data" set:html={JSON.stringify({ cards, topics: topicMeta })} />
+        <div class="qd-stack" id="qd-stack" aria-roledescription="deck of questions">
+          <!--
+            Three cards for the whole visit. The two beneath are face down —
+            inert, hidden from assistive tech, showing only the colour of what
+            comes next — so a keyboard or screen reader meets exactly one card.
+          -->
+          <a class="qd-card" data-pos="2" inert aria-hidden="true" tabindex="-1" draggable="false"></a>
+          <a class="qd-card" data-pos="1" inert aria-hidden="true" tabindex="-1" draggable="false"></a>
+          <a
+            class="qd-card"
+            data-pos="0"
+            draggable="false"
+            href={first.href}
+            style={`--fill:${firstTopic.fill}`}
+            data-href={first.href}
+          >
+            <span class="qd-inner">
+              <span class="qd-face qd-front">
+                <span class="qd-card-topic">{firstTopic.title}</span>
+                <span class={`qd-card-q qd-q-${sizeFor(first.q)}`}>{first.q}</span>
+                <span class="qd-card-foot">
+                  <span>{plural(first.m, 'minute')} to read</span>
+                  <span class="qd-card-go" aria-hidden="true">Read</span>
+                </span>
+              </span>
+              <span class="qd-face qd-back" aria-hidden="true">
+                <span class="qd-back-label">How the answer begins</span>
+                <span class="qd-back-text">{first.a}</span>
+                <span class="qd-back-go">Read the whole answer</span>
+              </span>
+            </span>
+          </a>
+        </div>
+        <!--
+          Deals the opening card from a fresh shuffle before the first paint,
+          so a returning reader does not meet the same question first and
+          nobody sees one question swapped for another. Also defines the one
+          painter both this and the dealer below use.
+        -->
+        <script is:inline>
+          (function () {
+            var sizes = function (q) { return q.length <= 60 ? 'xl' : q.length <= 100 ? 'l' : q.length <= 145 ? 'm' : 's'; };
+            window.qdPaint = function (el, c, topics) {
+              var meta = topics[c.t];
+              el.style.setProperty('--fill', meta.fill);
+              el.setAttribute('href', c.href);
+              el.dataset.href = c.href;
+              el.removeAttribute('data-flipped');
+              el.innerHTML = '<span class="qd-inner"><span class="qd-face qd-front"><span class="qd-card-topic"></span>' +
+                '<span class="qd-card-q qd-q-' + sizes(c.q) + '"></span><span class="qd-card-foot"><span></span>' +
+                '<span class="qd-card-go" aria-hidden="true">Read</span></span></span>' +
+                '<span class="qd-face qd-back" aria-hidden="true"><span class="qd-back-label">How the answer begins</span>' +
+                '<span class="qd-back-text"></span><span class="qd-back-go">Read the whole answer</span></span></span>';
+              el.querySelector('.qd-card-topic').textContent = meta.title;
+              el.querySelector('.qd-card-q').textContent = c.q;
+              el.querySelector('.qd-card-foot > span').textContent = c.m + (c.m === 1 ? ' minute' : ' minutes') + ' to read';
+              el.querySelector('.qd-back-text').textContent = c.a;
+            };
+            try {
+              var data = JSON.parse(document.getElementById('qd-data').textContent);
+              var c = data.cards[Math.floor(Math.random() * data.cards.length)];
+              window.qdPaint(document.querySelector('.qd-card[data-pos="0"]'), c, data.topics);
+            } catch (e) {}
+          })();
+        </script>
+
+        <div class="qd-controls">
+          <button type="button" class="qd-btn qd-btn-back" data-act="back" disabled hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 7 5 12l5 5M5.5 12H19" /></svg>
+            <span>Back</span>
+          </button>
+          <button type="button" class="qd-btn qd-btn-flip" data-act="flip" aria-pressed="false" hidden>
+            <span>Peek at the answer</span>
+          </button>
+          <button type="button" class="qd-btn qd-btn-next" data-act="next" hidden>
+            <span>Draw another</span>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h11l-3-3M20 17H9l3 3" /></svg>
+          </button>
+          <label class="qd-from" hidden>
+            <span class="qd-from-label">From</span>
+            <select id="qd-from">
+              <option value="">every topic</option>
+              {topics.map((t) => <option value={t.slug}>{t.title}</option>)}
+            </select>
+          </label>
+        </div>
+        <p class="qd-hint" hidden>Swipe the card, or press the arrow keys.</p>
+        <p class="sr-only" aria-live="polite" id="qd-live"></p>
+      </div>
+    </section>
+
+    <section class="qd-decks" id="topics" aria-labelledby="qd-decks-title">
+      <h2 class="qd-h2" id="qd-decks-title">Or pick a deck</h2>
+      <p class="qd-sub">One deck per topic. The thicker the deck, the more questions it holds.</p>
+      <ul class="qd-deck-grid">
+        {topics.map((topic) => (
+          <li class="qd-deck" style={`--fill:${topic.fill}; --edges:${edgesFor(topic.questions)}`}>
+            <div class="qd-deck-pile">
+              <span class="qd-deck-edges" aria-hidden="true">
+                {Array.from({ length: edgesFor(topic.questions) }, (_, k) => <span style={`--k:${k + 1}`}></span>)}
+              </span>
+              <a class="qd-deck-face" href={topic.href}>
+                <span class="qd-deck-name">{topic.title}</span>
+                <span class="qd-deck-q">{topic.teaser.question}</span>
+                <span class="qd-deck-facts">
+                  {listOf([
+                    plural(topic.questions, 'question'),
+                    ...(topic.videos > 0 ? [plural(topic.videos, 'video')] : []),
+                  ])}
+                </span>
+              </a>
+            </div>
+            <button type="button" class="qd-deck-draw" data-topic={topic.slug} hidden>
+              Draw from {topic.title}
+            </button>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    {videos.length > 0 && (
+      <section class="qd-watch" aria-labelledby="qd-watch-title">
+        <div class="qd-watch-head">
+          <h2 class="qd-h2" id="qd-watch-title">Rather watch?</h2>
+          <p class="qd-sub">
+            {plural(videos.length, 'short vertical video')}, made for a phone, from{' '}
+            {listOf(topics.filter((t) => t.videos > 0).map((t) => t.title))}.
+          </p>
+        </div>
+        <ul class="qd-film">
+          {videos.map((v) => (
+            <li style={`--fill:${topicMeta[v.topic].fill}`}>
+              <a href={v.href} class="qd-frame">
+                <img
+                  src={`https://i.ytimg.com/vi/${v.youtubeId}/hqdefault.jpg`}
+                  alt=""
+                  width="480"
+                  height="360"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <span class="qd-frame-topic">{v.topicTitle}</span>
+                <!-- CCS letters each title into its thumbnail, so the text here
+                     is for screen readers; on screen it would say it twice. -->
+                <span class="sr-only">{v.title}</span>
+              </a>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </main>
+
+  <Footer />
+  {preview && <PreviewBar current="question-deck" />}
+
+</BaseLayout>
+
+<script>
+  /*
+   * The dealer.
+   *
+   * Three card elements serve the whole visit: the one being read (pos 0) and
+   * two face down beneath it (pos 1, 2). Dealing throws pos 0 off the table,
+   * turns pos 1 face up, and recycles the thrown card to the bottom. The queue
+   * is a shuffle of the chosen deck, topped up as it runs low, so every
+   * question turns up once before any turns up twice.
+   */
+  type Card = { q: string; href: string; t: string; m: number; a: string };
+  type Meta = { title: string; fill: string; videos: number };
+  type Painter = (el: HTMLElement, c: Card, topics: Record<string, Meta>) => void;
+
+  const dataEl = document.getElementById('qd-data');
+  const stack = document.getElementById('qd-stack');
+  const table = document.getElementById('qd-table');
+  const live = document.getElementById('qd-live');
+  const paintWith = (window as unknown as { qdPaint?: Painter }).qdPaint;
+
+  if (dataEl && stack && table && live && paintWith) {
+    const { cards, topics } = JSON.parse(dataEl.textContent || '{}') as { cards: Card[]; topics: Record<string, Meta> };
+    const reduced = window.matchMedia('(prefers-reduced-motion: reduce)');
+    const els = [...stack.querySelectorAll<HTMLAnchorElement>('.qd-card')];
+    const select = document.getElementById('qd-from') as HTMLSelectElement;
+    const backBtn = table.querySelector<HTMLButtonElement>('[data-act="back"]')!;
+    const nextBtn = table.querySelector<HTMLButtonElement>('[data-act="next"]')!;
+    const flipBtn = table.querySelector<HTMLButtonElement>('[data-act="flip"]')!;
+
+    const at = (pos: string) => els.find((e) => e.dataset.pos === pos)!;
+    const paint = (el: HTMLElement, c: Card) => paintWith(el, c, topics);
+
+    const shuffle = <T,>(a: T[]) => {
+      const out = a.slice();
+      for (let i = out.length - 1; i > 0; i -= 1) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [out[i], out[j]] = [out[j], out[i]];
+      }
+      return out;
+    };
+
+    let from = '';
+    let queue: Card[] = [];
+    const history: Card[] = [];
+    let current: Card = cards.find((c) => c.href === at('0').dataset.href) ?? cards[0];
+
+    /** Top the queue up to k cards from the chosen deck, never shifting it. */
+    const ensure = (k: number) => {
+      for (let guard = 0; queue.length < k && guard < 4; guard += 1) {
+        const pool = cards.filter((c) => (!from || c.t === from) && c.href !== current.href && !queue.includes(c));
+        if (!pool.length) break;
+        queue.push(...shuffle(pool));
+      }
+    };
+
+    /** Face up and in reach, or face down and out of every tree. */
+    const place = (el: HTMLElement, pos: string) => {
+      el.dataset.pos = pos;
+      const up = pos === '0';
+      el.toggleAttribute('inert', !up);
+      if (up) {
+        el.removeAttribute('aria-hidden');
+        el.removeAttribute('tabindex');
+      } else {
+        el.setAttribute('aria-hidden', 'true');
+        el.setAttribute('tabindex', '-1');
+      }
+    };
+
+    /** The face-down cards show the colour of what comes next. */
+    const prime = () => {
+      ensure(2);
+      if (queue[0]) paint(at('1'), queue[0]);
+      if (queue[1]) paint(at('2'), queue[1]);
+    };
+
+    const announce = (c: Card) => {
+      live.textContent = `${topics[c.t].title}. ${c.q}`;
+    };
+
+    /*
+     * The flip CCS asked about, done by tap and keyboard rather than hover:
+     * the back of the card is how the real answer begins. Whichever face is
+     * away from the reader is hidden from assistive tech too.
+     */
+    const flip = (on: boolean) => {
+      const card = at('0');
+      card.toggleAttribute('data-flipped', on);
+      card.querySelector('.qd-front')?.setAttribute('aria-hidden', String(on));
+      card.querySelector('.qd-back')?.setAttribute('aria-hidden', String(!on));
+      flipBtn.setAttribute('aria-pressed', String(on));
+      flipBtn.querySelector('span')!.textContent = on ? 'Back to the question' : 'Peek at the answer';
+      if (on) live.textContent = `How the answer begins: ${current.a}`;
+    };
+
+    const deal = (direction: 1 | -1, incoming?: Card) => {
+      ensure(1);
+      const c = incoming ?? queue.shift();
+      if (!c) return;
+      const leaving = at('0');
+      const rising = at('1');
+      const beneath = at('2');
+      const hadFocus = leaving.contains(document.activeElement);
+
+      history.push(current);
+      current = c;
+      flip(false);
+
+      leaving.style.setProperty('--throw', String(direction));
+      place(leaving, 'gone');
+      paint(rising, c);
+      place(rising, '0');
+      place(beneath, '1');
+      if (hadFocus) rising.focus({ preventScroll: true });
+
+      const recycle = () => {
+        leaving.classList.add('is-resetting');
+        leaving.style.removeProperty('--throw');
+        leaving.style.removeProperty('--dx');
+        place(leaving, '2');
+        prime();
+        requestAnimationFrame(() => requestAnimationFrame(() => leaving.classList.remove('is-resetting')));
+      };
+      if (reduced.matches) recycle();
+      else window.setTimeout(recycle, 420);
+
+      backBtn.disabled = history.length === 0;
+      announce(c);
+    };
+
+    const back = () => {
+      const prev = history.pop();
+      if (!prev) return;
+      queue.unshift(current);
+      current = prev;
+      flip(false);
+      paint(at('0'), prev);
+      prime();
+      backBtn.disabled = history.length === 0;
+      announce(prev);
+    };
+
+    // ── Swipe: drag the face-up card; past the threshold it is dealt the way
+    // it was thrown. A drag never also follows the link.
+    for (const card of els) {
+      let startX = 0;
+      let dx = 0;
+      let down = false;
+      let moved = false;
+      // A mouse drag on a link starts the browser's own link drag, which
+      // cancels the pointer stream; the card is dragged by us instead.
+      card.addEventListener('dragstart', (e) => e.preventDefault());
+      card.addEventListener('pointerdown', (e) => {
+        if (e.button !== 0 || card.dataset.pos !== '0') return;
+        down = true;
+        moved = false;
+        startX = e.clientX;
+        dx = 0;
+      });
+      card.addEventListener('pointermove', (e) => {
+        if (!down) return;
+        dx = e.clientX - startX;
+        if (!moved && Math.abs(dx) > 8) {
+          moved = true;
+          card.setPointerCapture(e.pointerId);
+          card.classList.add('is-dragging');
+        }
+        if (moved) card.style.setProperty('--dx', `${dx}px`);
+      });
+      const end = () => {
+        if (!down) return;
+        down = false;
+        card.classList.remove('is-dragging');
+        if (moved && Math.abs(dx) > 90) deal(dx < 0 ? -1 : 1);
+        else card.style.removeProperty('--dx');
+      };
+      card.addEventListener('pointerup', end);
+      card.addEventListener('pointercancel', end);
+      card.addEventListener('click', (e) => {
+        if (moved) {
+          e.preventDefault();
+          moved = false;
+        }
+      });
+    }
+
+    // ── Controls appear only once there is a script to drive them.
+    prime();
+    for (const el of table.querySelectorAll<HTMLElement>('.qd-btn, .qd-from, .qd-hint')) el.hidden = false;
+
+    nextBtn.addEventListener('click', () => deal(-1));
+    flipBtn.addEventListener('click', () => flip(!at('0').hasAttribute('data-flipped')));
+    backBtn.addEventListener('click', back);
+    select.addEventListener('change', () => {
+      from = select.value;
+      queue = [];
+      deal(-1);
+    });
+
+    table.addEventListener('keydown', (e) => {
+      if ((e.target as HTMLElement).tagName === 'SELECT') return;
+      if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        deal(-1);
+      } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
+        back();
+      }
+    });
+
+    for (const b of document.querySelectorAll<HTMLButtonElement>('.qd-deck-draw')) {
+      b.hidden = false;
+      b.addEventListener('click', () => {
+        select.value = b.dataset.topic || '';
+        select.dispatchEvent(new Event('change'));
+        table.scrollIntoView({ behavior: reduced.matches ? 'auto' : 'smooth', block: 'center' });
+        at('0').focus({ preventScroll: true });
+      });
+    }
+  }
+</script>
+
+<style is:global>
+  @font-face {
+    font-family: 'Anek Latin';
+    font-style: normal;
+    font-weight: 100 800;
+    font-stretch: 75% 125%;
+    font-display: swap;
+    /* Ek Type's Anek Latin, subset to Basic Latin plus typographic quotes,
+       dashes and ellipsis with both axes kept: 64 KB, from the 101 KB file in
+       @fontsource-variable/anek-latin. */
+    src: url('/fonts/anek-latin-var.woff2') format('woff2');
+  }
+
+  body.deck-page {
+    --color-bg-page: #F7F7F4;
+    background: #F7F7F4;
+  }
+</style>
+
+<style>
+  .qd {
+    --ground: #F7F7F4;
+    --ink: #191917;
+    --ink-2: #55534E;
+    --line: #DAD8D1;
+    --paper: #FFFDF8;
+    --anek: 'Anek Latin', var(--font-body);
+    font-family: var(--anek);
+    color: var(--ink);
+    background: var(--ground);
+    overflow-x: clip;
+  }
+
+  /* ── Hero ────────────────────────────────────────────── */
+  /*
+   * On a phone the deck has to be on the first screen, so the words unwrap
+   * (display: contents) and the deck is ordered in after the headline, ahead
+   * of the intro and search. On a wide screen the words regroup on the left.
+   */
+  .qd-hero {
+    display: grid;
+    gap: 1.5rem;
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 1.75rem 1.25rem 3.5rem;
+  }
+
+  .qd-words { display: contents; }
+  .qd-title.hero-title { order: 1; }
+  .qd-table { order: 2; }
+  .qd-intro { order: 3; }
+  .qd-find { order: 4; }
+
+  .qd-title.hero-title {
+    font-family: var(--anek);
+    font-weight: 800;
+    font-stretch: 78%;
+    font-size: clamp(2.75rem, 11.5vw, 6.5rem);
+    line-height: 0.9;
+    letter-spacing: -0.012em;
+    color: var(--ink);
+    margin: 0;
+    text-wrap: balance;
+    max-width: 11ch;
+  }
+
+  .qd-intro {
+    font-size: 1.1875rem;
+    line-height: 1.45;
+    font-weight: 450;
+    color: var(--ink-2);
+    margin: 0;
+    max-width: 30rem;
+    text-wrap: pretty;
+  }
+
+  .qd-find {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.875rem 1.5rem;
+  }
+
+  .qd-search {
+    display: flex;
+    flex: 1 1 16rem;
+    max-width: 22rem;
+    background: #fff;
+    border: 2px solid var(--ink);
+    border-radius: 999px;
+    padding: 0.1875rem 0.1875rem 0.1875rem 1.125rem;
+  }
+
+  .qd-search input {
+    flex: 1;
+    min-width: 0;
+    min-height: 2.75rem;
+    border: 0;
+    background: transparent;
+    font: 500 1.0625rem var(--anek);
+    color: var(--ink);
+  }
+
+  .qd-search input::placeholder { color: #75736C; }
+  .qd-search input:focus { outline: none; }
+  .qd-search:focus-within { box-shadow: 0 0 0 3px var(--ground), 0 0 0 5px var(--ink); }
+
+  .qd-search button {
+    border: 0;
+    border-radius: 999px;
+    padding: 0 1.125rem;
+    background: var(--ink);
+    color: var(--paper);
+    font: 650 1rem var(--anek);
+    cursor: pointer;
+  }
+
+  .qd-all {
+    font: 650 1.0625rem var(--anek);
+    color: var(--ink);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+  }
+
+  .qd-all:hover { color: var(--ink-2); }
+
+  /* ── The table, the stack and the cards ──────────────── */
+  .qd-table {
+    display: grid;
+    justify-items: center;
+    gap: 1.25rem;
+  }
+
+  /* On a phone the card is shorter than a playing card, so the deck and the
+     button that deals it both fit the first screen. */
+  .qd-stack {
+    position: relative;
+    width: min(20rem, 82vw);
+    aspect-ratio: 4 / 5;
+  }
+
+  @media (min-width: 720px) {
+    .qd-stack { width: min(21rem, 86vw); aspect-ratio: 5 / 7; }
+  }
+
+  .qd-card {
+    position: absolute;
+    inset: 0;
+    display: block;
+    perspective: 1400px;
+    border-radius: 1.375rem;
+    background: var(--fill, #444);
+    color: var(--paper);
+    text-decoration: none;
+    /* Card stock: a crisp contact shadow and a short drop, not a glow. */
+    box-shadow:
+      inset 0 0 0 1px rgb(255 255 255 / 0.14),
+      0 1px 0 rgb(0 0 0 / 0.18),
+      0 18px 28px -18px rgb(0 0 0 / 0.55);
+    transform-origin: 50% 110%;
+    transition:
+      transform 420ms cubic-bezier(.2, .8, .2, 1),
+      opacity 420ms ease-out,
+      background-color 200ms ease-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: pan-y;
+  }
+
+  /* Face up, the faces carry the colour; face down, the card stock does. */
+  .qd-card[data-pos='0'] { z-index: 3; background: transparent; transform: translateX(var(--dx, 0px)) rotate(calc(var(--dx, 0px) / 22)); cursor: grab; }
+  .qd-card[data-pos='1'] { z-index: 2; transform: translate(0.5rem, 0.625rem) rotate(2.4deg); }
+  .qd-card[data-pos='2'] { z-index: 1; transform: translate(-0.375rem, 1.125rem) rotate(-2.2deg); }
+
+  /* Dealt: thrown off the table the way it was swiped. */
+  .qd-card[data-pos='gone'] {
+    z-index: 4;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateX(calc(var(--throw, -1) * 120%)) rotate(calc(var(--throw, -1) * 16deg));
+  }
+
+  .qd-card.is-dragging { transition: none; cursor: grabbing; }
+
+  /*
+   * A card's insides are written by script on every deal, and elements made
+   * with innerHTML do not carry Astro's scoping attribute — so these rules
+   * reach them through :global(), anchored on the scoped card.
+   */
+  .qd-card[data-pos='1'] > :global(*),
+  .qd-card[data-pos='2'] > :global(*) { visibility: hidden; }
+
+  .qd-card :global(.qd-inner) {
+    position: absolute;
+    inset: 0;
+    transform-style: preserve-3d;
+    transition: transform 560ms cubic-bezier(.2, .7, .2, 1);
+  }
+
+  .qd-card[data-flipped] :global(.qd-inner) { transform: rotateY(180deg); }
+
+  .qd-card :global(.qd-face) {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 0.75rem;
+    padding: 1.375rem 1.375rem 1.25rem;
+    border-radius: 1.375rem;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+  }
+
+  .qd-card :global(.qd-front) { background: var(--fill); color: var(--paper); }
+
+  /* The back is printed on plain stock: the answer's first lines, in ink. */
+  .qd-card :global(.qd-back) {
+    background: var(--paper);
+    color: var(--ink);
+    transform: rotateY(180deg);
+    box-shadow: inset 0 0 0 3px var(--fill);
+  }
+
+  .qd-card :global(.qd-back-label) { color: var(--fill); font-weight: 700; font-size: 1rem; }
+
+  .qd-card :global(.qd-back-text) {
+    align-self: center;
+    font-size: 1.1875rem;
+    line-height: 1.38;
+    font-weight: 500;
+    text-wrap: pretty;
+  }
+
+  .qd-card :global(.qd-back-go) {
+    justify-self: start;
+    padding: 0.4375rem 0.9375rem;
+    border-radius: 999px;
+    background: var(--fill);
+    color: var(--paper);
+    font-weight: 700;
+  }
+
+  .qd-card :global(.qd-card-topic) {
+    font-size: 1rem;
+    font-weight: 600;
+    font-stretch: 100%;
+    opacity: 0.92;
+  }
+
+  .qd-card :global(.qd-card-q) {
+    align-self: center;
+    font-weight: 700;
+    font-stretch: 80%;
+    line-height: 1.02;
+    letter-spacing: -0.005em;
+    text-wrap: balance;
+  }
+
+  .qd-card :global(.qd-q-xl) { font-size: 2.6rem; }
+  .qd-card :global(.qd-q-l) { font-size: 2.15rem; }
+  .qd-card :global(.qd-q-m) { font-size: 1.75rem; }
+  .qd-card :global(.qd-q-s) { font-size: 1.45rem; line-height: 1.08; }
+
+  .qd-card :global(.qd-card-foot) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9375rem;
+    font-weight: 500;
+  }
+
+  .qd-card :global(.qd-card-go) {
+    padding: 0.375rem 0.875rem;
+    border-radius: 999px;
+    background: var(--paper);
+    color: var(--fill);
+    font-weight: 700;
+  }
+
+  /* Back from a throw without flying across the table. */
+  .qd-card.is-resetting { transition: none; }
+
+  .qd-card:focus-visible {
+    outline: 3px solid var(--ink);
+    outline-offset: 4px;
+  }
+
+  /* ── Controls ────────────────────────────────────────── */
+  .qd-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    margin-top: 1rem;
+  }
+
+  .qd-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    min-height: 3rem;
+    padding: 0 1.25rem;
+    border-radius: 999px;
+    border: 2px solid var(--ink);
+    background: transparent;
+    color: var(--ink);
+    font: 650 1.0625rem var(--anek);
+    cursor: pointer;
+  }
+
+  .qd-btn[hidden] { display: none; }
+  .qd-btn svg { width: 1.25rem; height: 1.25rem; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
+  .qd-btn-next { background: var(--ink); color: var(--paper); }
+  .qd-btn-next:hover { background: #3A3935; }
+  .qd-btn-back:hover:not(:disabled) { background: #ECEBE6; }
+  .qd-btn:disabled { opacity: 0.35; cursor: default; }
+  .qd-btn:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+
+  .qd-from {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    min-height: 3rem;
+    padding: 0 0.5rem 0 1.125rem;
+    border-radius: 999px;
+    background: #ECEBE6;
+    font: 500 1rem var(--anek);
+  }
+
+  .qd-from[hidden] { display: none; }
+  .qd-from-label { color: var(--ink-2); }
+
+  .qd-from select {
+    border: 0;
+    background: transparent;
+    font: 650 1rem var(--anek);
+    color: var(--ink);
+    min-height: 2.75rem;
+    padding-right: 0.5rem;
+    max-width: 12rem;
+  }
+
+  .qd-from:focus-within { outline: 3px solid var(--ink); outline-offset: 3px; }
+  .qd-from select:focus { outline: none; }
+
+  .qd-hint {
+    margin: 0;
+    font-size: 0.9375rem;
+    color: var(--ink-2);
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .qd-hint { display: none; }
+  }
+
+  /* ── Decks ───────────────────────────────────────────── */
+  .qd-decks,
+  .qd-watch {
+    max-width: 80rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.25rem 0;
+    scroll-margin-top: calc(var(--nav-height) + 1rem);
+  }
+
+  .qd-h2 {
+    font-family: var(--anek);
+    font-weight: 800;
+    font-stretch: 80%;
+    font-size: clamp(2.25rem, 7vw, 3.5rem);
+    line-height: 0.95;
+    letter-spacing: -0.01em;
+    color: var(--ink);
+    text-transform: none;
+    margin: 0;
+  }
+
+  .qd-sub {
+    font-size: 1.125rem;
+    line-height: 1.45;
+    color: var(--ink-2);
+    margin: 0.5rem 0 1.75rem;
+    max-width: 36rem;
+  }
+
+  .qd-deck-grid {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem 1rem;
+  }
+
+  .qd-deck {
+    display: grid;
+    align-content: start;
+    gap: 0.375rem;
+  }
+
+  /* The face and the cards beneath it. The margin is the room their edges
+     need, so the thicker deck really does stand taller. */
+  .qd-deck-pile {
+    position: relative;
+    margin-bottom: calc(var(--edges) * 0.3rem);
+  }
+
+  .qd-deck-edges > span {
+    position: absolute;
+    inset: 0;
+    border-radius: 1rem;
+    background: var(--fill);
+    filter: brightness(calc(1 - var(--k) * 0.07));
+    transform: translateY(calc(var(--k) * 0.3rem));
+    box-shadow: 0 1px 0 rgb(0 0 0 / 0.25);
+  }
+
+  .qd-deck-face {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 0.75rem;
+    min-height: 13rem;
+    padding: 1rem 1rem 0.875rem;
+    border-radius: 1rem;
+    background: var(--fill);
+    color: var(--paper);
+    text-decoration: none;
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.14);
+    transition: transform 180ms ease-out;
+  }
+
+  .qd-deck-face:hover { transform: translateY(-0.25rem) rotate(-0.6deg); color: var(--paper); }
+  .qd-deck-face:focus-visible { outline: 3px solid var(--ink); outline-offset: 4px; }
+
+  .qd-deck-name {
+    font-weight: 800;
+    font-stretch: 80%;
+    font-size: 1.625rem;
+    line-height: 0.98;
+  }
+
+  .qd-deck-q {
+    font-weight: 600;
+    font-size: 1.125rem;
+    line-height: 1.25;
+    opacity: 0.96;
+  }
+
+  .qd-deck-facts {
+    font-size: 0.875rem;
+    font-weight: 600;
+    opacity: 0.92;
+  }
+
+  .qd-deck-draw {
+    justify-self: start;
+    min-height: 2.75rem;
+    padding: 0 0.25rem;
+    border: 0;
+    background: none;
+    font: 650 0.9375rem var(--anek);
+    color: var(--ink);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.2em;
+    cursor: pointer;
+  }
+
+  .qd-deck-draw[hidden] { display: none; }
+  .qd-deck-draw:focus-visible { outline: 3px solid var(--ink); outline-offset: 2px; border-radius: 4px; }
+
+  /* ── Filmstrip ───────────────────────────────────────── */
+  .qd-watch { padding-bottom: 5rem; }
+
+  .qd-film {
+    list-style: none;
+    margin: 0 -1.25rem;
+    padding: 0.25rem 1.25rem 1rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 10.5rem;
+    gap: 0.875rem;
+    overflow-x: auto;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x mandatory;
+    scrollbar-width: thin;
+  }
+
+  .qd-film li { scroll-snap-align: start; }
+
+  .qd-frame {
+    position: relative;
+    display: block;
+    aspect-ratio: 9 / 16;
+    border-radius: 1rem;
+    overflow: hidden;
+    background: var(--fill);
+    color: #fff;
+    text-decoration: none;
+  }
+
+  /* A Short's hqdefault frame is the vertical video letterboxed in 4:3; the
+     middle of it is the whole picture, so cover crops only the bars. */
+  .qd-frame img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.02);
+  }
+
+  .qd-frame-topic {
+    position: absolute;
+    z-index: 1;
+    top: 0.625rem;
+    left: 0.625rem;
+    padding: 0.25rem 0.5rem;
+    border-radius: 999px;
+    background: var(--fill);
+    font-size: 0.8125rem;
+    font-weight: 600;
+  }
+
+  .qd-frame:focus-visible { outline: 3px solid var(--ink); outline-offset: 3px; }
+
+  /* ── Wider ───────────────────────────────────────────── */
+  @media (min-width: 720px) {
+    .qd-hero, .qd-decks, .qd-watch { padding-inline: 2.5rem; }
+    .qd-film { margin-inline: -2.5rem; padding-inline: 2.5rem; grid-auto-columns: 12rem; }
+    .qd-deck-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 2.5rem 1.5rem; }
+  }
+
+  @media (min-width: 1024px) {
+    .qd-hero {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+      align-items: center;
+      gap: 2.5rem;
+      min-height: calc(100svh - var(--nav-height) - 2rem);
+      padding-block: 2rem 4rem;
+    }
+    .qd-words { display: block; }
+    .qd-intro { margin-top: 1.25rem; }
+    .qd-find { margin-top: 1.75rem; }
+    .qd-stack { width: min(23rem, 38vw); }
+    .qd-deck-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+    .qd-deck-face { min-height: 15rem; }
+  }
+
+  /* Phone card sizes, after the base card rules so they win. */
+  @media (max-width: 719px) {
+    .qd-card :global(.qd-back-text) { font-size: 1.0625rem; line-height: 1.34; }
+    .qd-card :global(.qd-q-xl) { font-size: 2.35rem; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .qd-card, .qd-deck-face { transition: none; }
+    .qd-card :global(.qd-inner) { transition: none; }
+    .qd-card[data-pos='gone'] { transform: none; }
+  }
+</style>
