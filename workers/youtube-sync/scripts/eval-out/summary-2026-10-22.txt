@@ -1,0 +1,57 @@
+model typesafe/jev-1.14-20261014; auto-confidence 0.9; 184 requests in 15.5s
+cost $0.007907; input tokens 188266 (mean 1023/request)
+
+## site-videos: 18 examples
+top-1 correct 17/18 (94.4%); acceptable 94.4%
+confident 9 → correct 9 (100.0%), acceptable 100.0%
+needs_review 9 → correct 8; reasons {"low_confidence":9}
+invalid 0
+  NO  labor → feminism  [needs_review/low_confidence c=0.7 in=0.57 2nd=labor:0.28]  How Good Intentions Can Reduce Jobs for Women
+
+## new-shorts: 12 examples
+top-1 correct 12/12 (100.0%); acceptable 100.0%
+confident 9 → correct 9 (100.0%), acceptable 100.0%
+needs_review 3 → correct 3; reasons {"low_confidence":3}
+invalid 0
+  OK  gst → gst  [confident c=1 in=0.92 2nd=agriculture:0.00]  Why Economists Got Excited About a Tax Reform
+  OK  gst → gst  [confident c=0.99 in=0.94 2nd=pubc:0.01]  Why Cutting GST on Food Helps the Rich, Not the Poor
+  OK  gst → gst  [confident c=1 in=0.97 2nd=agriculture:0.00]  Why You Can Lose Money to Someone Else's GST Fraud
+  OK  education → education  [needs_review/low_confidence c=1 in=0.78 2nd=agriculture:0.00]  Why a Profit Motive Can Create Better Schools
+  OK  gst → gst  [confident c=1 in=0.97 2nd=agriculture:0.00]  Why Indian Trucks Suddenly Started Moving Faster
+  OK  gst → gst  [needs_review/low_confidence c=1 in=0.43 2nd=agriculture:0.00]  Why Removing GST Can Make Things More Expensive
+  OK  labor → labor  [confident c=1 in=0.97 2nd=agriculture:0.00]  Can Overtime Rates Actually Reduce Income?
+  OK  education → education  [confident c=0.91 in=0.95 2nd=pubc:0.08]  Why Government Teachers Are Paid More but Teach Less
+  OK  pubc → pubc  [needs_review/low_confidence c=0.65 in=0.96 2nd=economic-growth:0.32]  Why Spending ₹20,000 Crore Might Not Help the Economy
+  OK  trade → trade  [confident c=1 in=0.93 2nd=agriculture:0.00]  Why Doing Less Made India Richer
+  OK  education → education  [confident c=0.97 in=0.96 2nd=pubc:0.03]  Why More School Funding Hasn't Fixed Indian Education
+  OK  labor → labor  [confident c=0.98 in=0.93 2nd=economic-growth:0.01]  Competitive Wages May Not Be Enough To Attract Investment
+
+## negatives: 9 examples
+top-1 correct 9/9 (100.0%); acceptable 100.0%
+confident 0 → correct 0 (—), acceptable —
+needs_review 9 → correct 9; reasons {"out_of_scope":9}
+invalid 0
+
+## faq-proxies: 145 examples
+top-1 correct 135/145 (93.1%); acceptable 93.1%
+confident 77 → correct 76 (98.7%), acceptable 98.7%
+needs_review 68 → correct 59; reasons {"low_confidence":62,"out_of_scope":6}
+invalid 0
+  NO  agriculture → property  [needs_review/low_confidence c=0.77 in=0.94 2nd=agriculture:0.21]  Why can't farmers freely buy, sell, or lease their land like other property owne
+  NO  agriculture → property  [needs_review/low_confidence c=0.83 in=0.94 2nd=agriculture:0.16]  Why is it hard to shift farmland to non-agricultural use or use it as collateral
+  NO  labor → feminism  [needs_review/low_confidence c=0.56 in=0.93 2nd=labor:0.41]  How do labour regulations affect women's access to manufacturing jobs?
+  NO  livelihoods → constitutionalism  [needs_review/low_confidence c=0.86 in=0.89 2nd=livelihoods:0.13]  Alcohol, tobacco, gambling, sex work: when a trade is thought immoral, can the s
+  NO  livelihoods → urban  [needs_review/low_confidence c=0.8 in=0.94 2nd=livelihoods:0.14]  I keep seeing more cars and motorcycles on Delhi's roads, but people say there c
+  NO  livelihoods → urban  [confident c=0.97 in=0.91 2nd=livelihoods:0.02]  I rarely see cycle-rickshaws or e-rickshaws in Lutyens' Delhi or much of South D
+  NO  livelihoods → pubc  [needs_review/low_confidence c=0.44 in=0.74 2nd=urban:0.40]  When I book an auto through an app, I know the fare before the ride. But a meter
+  NO  livelihoods → urban  [needs_review/low_confidence c=1 in=0.63 2nd=agriculture:0.00]  When many people use public space for private purposes, who should decide who ge
+  NO  property → constitutionalism  [needs_review/low_confidence c=0.89 in=0.94 2nd=property:0.10]  What is the Ninth Schedule of the Constitution ?
+  NO  trade → labor  [needs_review/low_confidence c=0.44 in=0.91 2nd=pubc:0.25]  "Make in India" pays firms crores to build here. Is it working or just subsidisi
+
+## accuracy by confidence band (all sets)
+  [0.00, 0.50)  n=4  correct 50.0%
+  [0.50, 0.70)  n=5  correct 80.0%
+  [0.70, 0.80)  n=14  correct 85.7%
+  [0.80, 0.90)  n=21  correct 81.0%
+  [0.90, 0.95)  n=8  correct 100.0%
+  [0.95, 1.00]  n=123  correct 98.4%

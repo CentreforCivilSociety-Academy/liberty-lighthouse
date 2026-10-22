@@ -1,0 +1,15 @@
+{
+  "_comment": "Hand labels for the channel's recent Shorts that are not yet on the site (feed fixture, 2026-08). Labelled by reading each title and description against the site's topic descriptions, before seeing Jev's answers. 'alternatives' are topics a careful editor could also defend.",
+  "wQ9M95FK6l0": { "topic": "gst", "note": "GST as a reform: cascading taxes before GST." },
+  "Zac758HPfjg": { "topic": "gst", "note": "GST rates on food and who benefits." },
+  "Fip-j7Uqbh0": { "topic": "gst", "note": "Input tax credit denied because of a supplier's fraud." },
+  "zq7h9cU-ZMU": { "topic": "education", "note": "Profit motive and school quality." },
+  "eBkMjmGB7aU": { "topic": "gst", "alternatives": ["trade"], "note": "Trucks faster after GST removed border check-posts; 'one nation, one market'." },
+  "-q05TW2BXGs": { "topic": "gst", "alternatives": ["education"], "note": "Exemption vs zero-rating, using school fees as the example." },
+  "KjYBW-Uf-jg": { "topic": "labor", "note": "Mandated overtime premium reduces hours offered." },
+  "LPkrQOrwh10": { "topic": "education", "note": "Government teachers paid more, teach less." },
+  "kJhib23XYnU": { "topic": "pubc", "alternatives": ["economic-growth"], "note": "Seen and unseen costs of government spending (Bastiat)." },
+  "LYoNBT1fT3I": { "topic": "trade", "note": "Comparative advantage, Ricardo, India after 1991." },
+  "Uv8ToPbxju8": { "topic": "education", "note": "School spending rose, outcomes did not." },
+  "-OnRbHarcMg": { "topic": "labor", "alternatives": ["trade"], "note": "Low wages are not enough to attract manufacturing." }
+}
