@@ -101,6 +101,28 @@ const TRY: Record<string, string[]> = {
       ))}
     </ol>
 
+    <section class="rv-common" aria-labelledby="rv-auto-title">
+      <h2 class="rv-h2" id="rv-auto-title">New videos, filed automatically</h2>
+      <p>
+        CCS asked whether new videos on the channel could appear on the site by
+        themselves. A small automation now checks the channel every six hours,
+        asks a classification model which existing topic each new Short belongs
+        to, and adds it to the site. It publishes a video only when the model is
+        confident; anything less certain arrives as a draft for an editor to
+        check in the CMS, and anything that is not a policy explainer is left
+        out.
+      </p>
+      <p>
+        In a test on the channel's twelve newest Shorts, it filed every one under
+        the topic a person had chosen beforehand: nine were confident enough to
+        publish, and three wait as drafts. You can see the result on a separate
+        preview, where Goods and Services Tax, Education, Labour and
+        manufacturing, and Trade now have videos:
+        <a href="https://automation-videos.liberty-lighthouse-preview.pages.dev/topics/gst/videos/">the automation preview</a>.
+        Nothing reaches the live site until CCS switches it on.
+      </p>
+    </section>
+
     <section class="rv-common" aria-labelledby="rv-common-title">
       <h2 class="rv-h2" id="rv-common-title">The same in all three</h2>
       <ul>
