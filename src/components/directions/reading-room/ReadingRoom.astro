@@ -1,0 +1,759 @@
+---
+/**
+ * Direction A — The Reading Room.
+ *
+ * The homepage reads like the opening of a good book about how India works.
+ *
+ * The headline makes the promise, and the sentence under it is the topic list
+ * itself: every subject named in running prose, each name a link in its own
+ * ink with a footnote-style count of its questions. Topics are the primary way
+ * in, so they are the hero rather than a grid underneath one.
+ *
+ * Then the lead question — the one frontpage.json names — is set as a chapter
+ * opening with the real first lines of its answer, because the most honest
+ * introduction to a reading site is a page of its reading. Then every subject
+ * again, this time opened by a question.
+ *
+ * Calm is the concept, so there is no motion and no JavaScript. Structure comes
+ * from scale and space: no boxes, no shadows, no all-caps labels, and almost
+ * no rules. The only colour is the twelve topic inks.
+ */
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Navbar from '../../global/Navbar.astro';
+import Footer from '../../global/Footer.astro';
+import PreviewBar from '../PreviewBar.astro';
+import { getHomepage, listOf, plural } from '../../../lib/homepage';
+import { shareImageFor } from '../../../lib/share-image';
+
+interface Props {
+  preview?: boolean;
+}
+
+const { preview = false } = Astro.props;
+const home = await getHomepage();
+const { topics, totals, minutes, lead, leader } = home;
+
+const WORDS = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten', 'eleven', 'twelve'];
+/** Numbers in running prose are words up to twelve, as a book would set them. */
+const words = (n: number) => WORDS[n] ?? String(n);
+const Words = (n: number) => {
+  const w = words(n);
+  return w.charAt(0).toUpperCase() + w.slice(1);
+};
+
+const withVideos = topics.filter((t) => t.videos > 0);
+const shoulders = leader.shoulders.map((slot) => ({
+  question: slot.row.question,
+  href: slot.row.href,
+  topic: topics.find((t) => t.slug === slot.theme.slug)!,
+}));
+
+/** Two more questions per topic, after the teaser, in the editors' order. */
+const moreFrom = (topic: (typeof topics)[number]) =>
+  topic.rows.filter((row) => row.href !== topic.teaser.href).slice(0, 2);
+
+const description = `Plain, sourced answers to ${totals.questions} questions about how India works, across ${totals.topics} subjects from agriculture to urbanism. A free library from the Centre for Civil Society.`;
+
+/*
+ * One rule per subject, because CSS cannot match a data attribute against
+ * another element's: "the peek whose slug equals the hovered item's slug" has
+ * to be written out. Generated from the topic list, so a new subject gets its
+ * rule on the next build.
+ */
+const peekCss = [
+  '.rr-opening:has(.rr-item:is(:hover,:focus-within)) .rr-note--counts{opacity:0}',
+  ...topics.map(
+    (t) =>
+      `.rr-opening:has(.rr-item[data-slug="${t.slug}"]:is(:hover,:focus-within)) .rr-peek[data-slug="${t.slug}"]{opacity:1;transform:none}`,
+  ),
+].join('');
+---
+
+<BaseLayout
+  title="Liberty Lighthouse"
+  description={description}
+  ogImage={await shareImageFor('home')}
+  noindex={preview}
+>
+  <Navbar topicsHref={preview ? '#topics' : undefined} />
+
+  <main id="main-content" class="rr">
+    <!-- ── The promise, and the subjects as one sentence ── -->
+    <header class="rr-opening">
+      <p class="rr-note rr-note--publisher">
+        Liberty Lighthouse is a free library of questions and answers from the
+        Centre for Civil Society, an independent, non-partisan think tank
+        founded in 1997.
+      </p>
+      <!-- Source order puts the note first so it leads the margin on desktop;
+           CSS moves it to the end of the opening on a phone. -->
+
+      <h1 class="rr-title hero-title">Ask why India works the way it does.</h1>
+
+      <!--
+        One line per item on purpose: a line break inside an item prints as a
+        space before its comma. The count sits outside the link so the
+        underline stops at the word.
+      -->
+      <p class="rr-subjects" id="topics">
+        <span class="rr-subjects-lead">Start with </span>{topics.map((topic, i) => (
+          <span class="rr-item" data-slug={topic.slug} style={`--ink:${topic.ink}`}><a href={topic.href} class="rr-subject">{topic.title}<span class="sr-only">, {plural(topic.questions, 'question')}</span></a><sup class="rr-count" aria-hidden="true">{topic.questions}</sup>{i < topics.length - 2 ? <span class="rr-joint">, </span> : i === topics.length - 2 ? <span class="rr-joint"> or </span> : <span class="rr-joint">.</span>}</span>
+        ))}
+      </p>
+
+      <p class="rr-note rr-note--counts" aria-hidden="true">
+        The small numbers count the questions in each subject.
+      </p>
+
+      <!--
+        Marginalia that answer your reading: point at a subject in the sentence
+        and its opening question appears here, in the margin beside it. Pure
+        CSS (:has), desktop only, and aria-hidden because the link it mirrors
+        already carries the content. On a phone there is no margin and no hover,
+        and nothing is lost: the subjects list below shows the same questions.
+      -->
+      <div class="rr-peeks" aria-hidden="true">
+        {topics.map((topic) => (
+          <p class="rr-peek" data-slug={topic.slug} style={`--ink:${topic.ink}`}>
+            <span class="rr-peek-topic">{topic.title}</span>
+            <span class="rr-peek-q">{topic.teaser.question}</span>
+            <span class="rr-peek-facts">{plural(topic.questions, 'question')}{topic.videos > 0 ? `, ${plural(topic.videos, 'video')}` : ''}</span>
+          </p>
+        ))}
+      </div>
+      <Fragment set:html={`<style>${peekCss}</style>`} />
+
+      <div class="rr-intro">
+        <p>
+          Every question gets a short answer, written to be understood without a
+          background in economics or law, and linked to its sources so you can
+          check it. Most take about {words(minutes.median)} minutes to read. Some
+          come with a short video, and {words(totals.syllabi)} subjects have a
+          syllabus for going further.
+        </p>
+
+        <div class="rr-actions">
+          <a class="rr-button" href="/questions/">See all {totals.questions} questions</a>
+          <form class="rr-search" action="/search/" method="get" role="search">
+            <label class="sr-only" for="rr-q">Search the questions</label>
+            <input type="search" id="rr-q" name="q" placeholder="Search the questions" autocomplete="off" />
+            <button type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </header>
+
+    <!-- ── The lead question, set as a chapter opening ── -->
+    <section class="rr-lead" aria-labelledby="rr-lead-title" style={`--ink:${lead.topic.ink}`}>
+      <div class="rr-margin">
+        <p class="rr-note">Where to begin</p>
+        <p class="rr-note"><a href={lead.topic.href} class="rr-note-link">{lead.topic.title}</a></p>
+        <p class="rr-note">{plural(lead.minutes, 'minute')} to read</p>
+      </div>
+
+      <div class="rr-chapter">
+        <h2 class="rr-chapter-title" id="rr-lead-title">
+          <a href={lead.href}>{lead.question}</a>
+        </h2>
+        <div class="rr-excerpt">
+          {lead.excerpt.map((paragraph) => <p>{paragraph}</p>)}
+        </div>
+        <p class="rr-more"><a href={lead.href}>Keep reading</a></p>
+
+        {shoulders.length > 0 && (
+          <div class="rr-shoulders">
+            <p class="rr-shoulders-label">Two more to begin with</p>
+            <ul>
+              {shoulders.map((s) => (
+                <li style={`--ink:${s.topic.ink}`}>
+                  <a href={s.href}>{s.question}</a>
+                  <span class="rr-shoulder-topic">{s.topic.title}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    </section>
+
+    <!-- ── Every subject, opened by a question ── -->
+    <section class="rr-subjects-section" aria-labelledby="rr-subjects-title">
+      <h2 class="rr-section-title" id="rr-subjects-title">Every subject, opened by a question</h2>
+
+      <ul class="rr-topics">
+        {topics.map((topic) => (
+          <li class="rr-topic" style={`--ink:${topic.ink}`}>
+            <h3 class="rr-topic-name"><a href={topic.href}>{topic.title}</a></h3>
+            <p class="rr-topic-facts">
+              {listOf([
+                plural(topic.questions, 'question'),
+                ...(topic.videos > 0 ? [plural(topic.videos, 'short video')] : []),
+                ...(topic.hasSyllabus ? ['a syllabus'] : []),
+              ])}
+            </p>
+            <p class="rr-topic-teaser"><a href={topic.teaser.href}>{topic.teaser.question}</a></p>
+            <ul class="rr-topic-more">
+              {moreFrom(topic).map((row) => (
+                <li><a href={row.href}>{row.question}</a></li>
+              ))}
+            </ul>
+            <p class="rr-topic-all">
+              <a href={`/topics/${topic.slug}/faq/`}>All {topic.title} questions</a>
+            </p>
+          </li>
+        ))}
+      </ul>
+    </section>
+
+    <!-- ── Read, watch, go further ── -->
+    <section class="rr-ways" aria-labelledby="rr-ways-title">
+      <h2 class="rr-section-title" id="rr-ways-title">Read, watch, go further</h2>
+      <div class="rr-ways-grid">
+        <div>
+          <h3 class="rr-way">Read</h3>
+          <p>
+            Each answer stands on its own and links to its sources. Most take
+            about {words(minutes.median)} minutes; the longest takes {words(minutes.longest)}.
+            <a href="/questions/">Browse every question</a>.
+          </p>
+        </div>
+        {withVideos.length > 0 && (
+          <div>
+            <h3 class="rr-way">Watch</h3>
+            <p>
+              {Words(totals.videos)} short vertical videos, the kind made for a
+              phone, explain ideas from{' '}
+              {withVideos.map((t, i) => (
+                <span><a href={`/topics/${t.slug}/videos/`} style={`--ink:${t.ink}`} class="rr-inline-topic">{t.title}</a>{i < withVideos.length - 2 ? ', ' : i === withVideos.length - 2 ? ' and ' : '.'}</span>
+              ))}
+            </p>
+          </div>
+        )}
+        <div>
+          <h3 class="rr-way">Go further</h3>
+          <p>
+            {Words(totals.syllabi)} subjects come with a syllabus: the books,
+            papers and lectures worth reading next. You will find it on each
+            subject's page.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <Footer />
+  {preview && <PreviewBar current="reading-room" />}
+</BaseLayout>
+
+<style>
+  /*
+   * Tokens. Paper and ink are the site's own; the twelve topic inks arrive per
+   * element as --ink, solved to AAA on this paper by palette.ts.
+   */
+  .rr {
+    --paper: var(--color-bg-page);
+    --ink-0: var(--color-text-primary);
+    --ink-2: var(--color-text-secondary);
+    --ink-3: var(--color-text-tertiary);
+    --serif: var(--font-display);
+    --sans: var(--font-body);
+
+    /* One column of text and a margin beside it, like a book page. */
+    --edge: 1.25rem;
+    --margin-w: 0;
+    --gap: 0;
+    --measure: 40rem;
+
+    display: grid;
+    grid-template-columns:
+      [full-start] var(--edge)
+      [margin-start] var(--margin-w)
+      [margin-end] var(--gap)
+      [text-start] minmax(0, 1fr)
+      [text-end] var(--edge) [full-end];
+    row-gap: 0;
+    color: var(--ink-0);
+    font-family: var(--serif);
+    padding-bottom: 4rem;
+  }
+
+  /*
+   * Columns are set per element, never with a `> *` rule: Astro scopes a
+   * child combinator by adding its attribute to both sides, which outranks
+   * every per-element override and pulls them all back into one span.
+   */
+  .rr-opening,
+  .rr-lead,
+  .rr-subjects-section,
+  .rr-ways { grid-column: margin-start / text-end; }
+
+  /* ── Margin notes ─────────────────────────────────────── */
+  .rr-note {
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: var(--ink-2);
+    margin: 0;
+  }
+
+  .rr-note-link { color: var(--ink); text-decoration: none; }
+  .rr-note-link:hover { text-decoration: underline; text-underline-offset: 0.15em; }
+
+  /* ── Opening ──────────────────────────────────────────── */
+  .rr-opening {
+    display: grid;
+    grid-template-columns: subgrid;
+    padding-top: 2.75rem;
+    row-gap: 1.25rem;
+  }
+
+  .rr-note--publisher,
+  .rr-title.hero-title,
+  .rr-subjects,
+  .rr-note--counts,
+  .rr-intro { grid-column: margin-start / text-end; }
+
+  /* On a phone the publisher line closes the opening rather than sitting
+     above the headline as a label. */
+  .rr-note--publisher { max-width: 26rem; order: 5; }
+
+  .rr-title.hero-title {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: clamp(2.6rem, 9.6vw, 6.25rem);
+    line-height: 0.98;
+    letter-spacing: -0.025em;
+    text-wrap: balance;
+    margin: 0.25rem 0 0;
+    max-width: 14ch;
+    color: var(--ink-0);
+  }
+
+  .rr-subjects {
+    scroll-margin-top: calc(var(--nav-height) + 1.5rem);
+    font-size: clamp(1.55rem, 4.6vw, 2.75rem);
+    line-height: 1.2;
+    letter-spacing: -0.012em;
+    margin: 0.5rem 0 0;
+    max-width: 34ch;
+    text-wrap: pretty;
+  }
+
+  .rr-subjects-lead,
+  .rr-joint { color: var(--ink-3); }
+
+  .rr-subject {
+    color: var(--ink);
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.045em;
+    text-underline-offset: 0.16em;
+    text-decoration-color: color-mix(in srgb, var(--ink) 35%, transparent);
+    /* A thumb-sized target without spacing the sentence apart. */
+    padding-block: 0.1em;
+    transition: text-decoration-color 120ms ease-out, text-decoration-thickness 120ms ease-out;
+  }
+
+  .rr-subject:hover,
+  .rr-subject:focus-visible {
+    color: var(--ink);
+    text-decoration-color: var(--ink);
+    text-decoration-thickness: 0.08em;
+  }
+
+  /* Footnote numerals: the count of questions in the subject. */
+  .rr-count {
+    color: var(--ink);
+    font-size: 0.42em;
+    font-weight: 500;
+    letter-spacing: 0;
+    margin-left: 0.08em;
+    vertical-align: super;
+    line-height: 0;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: var(--sans);
+    opacity: 0.8;
+  }
+
+  .rr-note--counts { font-size: 0.9375rem; transition: opacity 160ms ease-out; }
+
+  /* Hidden until the margin exists; see the desktop block. */
+  .rr-peeks { display: none; }
+
+  .rr-peek {
+    grid-area: 1 / 1;
+    margin: 0;
+    opacity: 0;
+    transform: translateY(0.25rem);
+    transition: opacity 160ms ease-out, transform 160ms ease-out;
+    font-family: var(--serif);
+    pointer-events: none;
+  }
+
+  .rr-peek-topic {
+    display: block;
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--ink);
+    margin-bottom: 0.25rem;
+  }
+
+  .rr-peek-q {
+    display: block;
+    font-size: 1.1875rem;
+    line-height: 1.25;
+    color: var(--ink-0);
+    text-wrap: pretty;
+  }
+
+  .rr-peek-facts {
+    display: block;
+    font-style: italic;
+    font-size: 0.9375rem;
+    color: var(--ink-2);
+    margin-top: 0.375rem;
+  }
+
+  .rr-intro {
+    margin-top: 1rem;
+    max-width: var(--measure);
+  }
+
+  .rr-intro p {
+    font-size: 1.25rem;
+    line-height: 1.55;
+    color: var(--ink-0);
+    margin: 0;
+    text-wrap: pretty;
+  }
+
+  .rr-actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem 1.5rem;
+    margin-top: 1.75rem;
+  }
+
+  .rr-button {
+    display: inline-flex;
+    align-items: center;
+    min-height: 3rem;
+    padding: 0 1.375rem;
+    background: var(--ink-0);
+    color: var(--paper);
+    font-family: var(--sans);
+    font-size: 1rem;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 2px;
+  }
+
+  .rr-button:hover { background: #3a332c; color: var(--paper); }
+
+  .rr-search {
+    display: flex;
+    align-items: stretch;
+    flex: 1 1 17rem;
+    max-width: 24rem;
+    border-bottom: 1px solid var(--ink-3);
+  }
+
+  .rr-search:focus-within { border-bottom-color: var(--ink-0); }
+
+  .rr-search input {
+    flex: 1;
+    min-width: 0;
+    min-height: 3rem;
+    border: 0;
+    background: transparent;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: 1.125rem;
+    color: var(--ink-0);
+  }
+
+  .rr-search input::placeholder { color: var(--ink-3); }
+  .rr-search input:focus { outline: none; }
+  .rr-search:focus-within { outline: 2px solid var(--color-border-focus); outline-offset: 4px; }
+
+  .rr-search button {
+    border: 0;
+    background: none;
+    font-family: var(--sans);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    color: var(--ink-2);
+    padding: 0 0 0 0.75rem;
+    cursor: pointer;
+  }
+
+  .rr-search button:hover { color: var(--ink-0); }
+
+  /* ── The lead, as a chapter opening ───────────────────── */
+  .rr-lead {
+    display: grid;
+    grid-template-columns: subgrid;
+    margin-top: 5rem;
+    row-gap: 1rem;
+  }
+
+  .rr-lead > .rr-margin { grid-column: margin-start / text-end; display: flex; flex-wrap: wrap; gap: 0.25rem 1rem; }
+  .rr-lead > .rr-chapter { grid-column: margin-start / text-end; }
+
+  .rr-chapter-title {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: clamp(2rem, 6.4vw, 3.75rem);
+    line-height: 1.02;
+    letter-spacing: -0.02em;
+    text-wrap: balance;
+    max-width: 18ch;
+    margin: 0 0 1.75rem;
+    color: var(--ink-0);
+    text-transform: none;
+  }
+
+  .rr-chapter-title a { color: inherit; text-decoration: none; }
+  .rr-chapter-title a:hover { text-decoration: underline; text-decoration-thickness: 0.04em; text-underline-offset: 0.12em; }
+
+  .rr-excerpt { max-width: var(--measure); }
+
+  .rr-excerpt p {
+    font-size: 1.25rem;
+    line-height: 1.6;
+    margin: 0 0 1em;
+    text-wrap: pretty;
+    hanging-punctuation: first;
+  }
+
+  /* A three-line initial in the topic's ink. */
+  .rr-excerpt p:first-child::first-letter {
+    float: left;
+    font-size: 4.1em;
+    line-height: 0.78;
+    padding: 0.08em 0.08em 0 0;
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  @supports (initial-letter: 3) or (-webkit-initial-letter: 3) {
+    .rr-excerpt p:first-child::first-letter {
+      float: none;
+      font-size: inherit;
+      line-height: inherit;
+      padding: 0 0.1em 0 0;
+      -webkit-initial-letter: 3;
+      initial-letter: 3;
+    }
+  }
+
+  .rr-more { margin: 0; }
+
+  .rr-more a,
+  .rr-topic-all a {
+    font-style: italic;
+    font-size: 1.1875rem;
+    color: var(--ink-0);
+    text-decoration-thickness: 1px;
+    text-underline-offset: 0.18em;
+  }
+
+  .rr-more a:hover,
+  .rr-topic-all a:hover { color: var(--ink); }
+
+  .rr-shoulders {
+    margin-top: 2.5rem;
+    max-width: var(--measure);
+  }
+
+  .rr-shoulders-label {
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--ink-2);
+    margin: 0 0 0.5rem;
+  }
+
+  .rr-shoulders ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.75rem; }
+
+  .rr-shoulders a {
+    font-size: 1.375rem;
+    line-height: 1.25;
+    color: var(--ink-0);
+    text-decoration: none;
+  }
+
+  .rr-shoulders a:hover { text-decoration: underline; text-decoration-color: var(--ink); text-underline-offset: 0.15em; }
+
+  .rr-shoulder-topic {
+    display: block;
+    font-style: italic;
+    font-size: 0.9375rem;
+    color: var(--ink);
+    margin-top: 0.125rem;
+  }
+
+  /* ── Subjects ─────────────────────────────────────────── */
+  .rr-subjects-section,
+  .rr-ways { margin-top: 5.5rem; }
+
+  .rr-section-title {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: clamp(1.75rem, 5vw, 2.5rem);
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+    margin: 0 0 2rem;
+    color: var(--ink-0);
+    text-transform: none;
+  }
+
+  .rr-topics {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 3rem 4rem;
+  }
+
+  .rr-topic { min-width: 0; }
+
+  .rr-topic-name {
+    font-family: var(--serif);
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+    text-transform: none;
+    margin: 0;
+  }
+
+  .rr-topic-name a { color: var(--ink); text-decoration: none; }
+  .rr-topic-name a:hover { text-decoration: underline; text-decoration-thickness: 0.05em; text-underline-offset: 0.14em; }
+
+  .rr-topic-facts {
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--ink-2);
+    margin: 0.25rem 0 0.875rem;
+  }
+
+  .rr-topic-teaser {
+    margin: 0 0 0.625rem;
+  }
+
+  .rr-topic-teaser a {
+    font-size: 1.5rem;
+    line-height: 1.22;
+    letter-spacing: -0.008em;
+    color: var(--ink-0);
+    text-decoration: none;
+    text-wrap: pretty;
+  }
+
+  .rr-topic-more {
+    list-style: none;
+    margin: 0 0 0.75rem;
+    padding: 0;
+    display: grid;
+    gap: 0.375rem;
+  }
+
+  .rr-topic-more a {
+    font-size: 1.125rem;
+    line-height: 1.3;
+    color: var(--ink-2);
+    text-decoration: none;
+  }
+
+  .rr-topic-teaser a:hover,
+  .rr-topic-more a:hover {
+    color: var(--ink-0);
+    text-decoration: underline;
+    text-decoration-color: var(--ink);
+    text-underline-offset: 0.15em;
+  }
+
+  .rr-topic-all { margin: 0; }
+  .rr-topic-all a { font-size: 1.0625rem; }
+
+  /* ── Read, watch, go further ──────────────────────────── */
+  .rr-ways-grid {
+    display: grid;
+    gap: 2rem 3rem;
+  }
+
+  .rr-way {
+    font-family: var(--serif);
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.5rem;
+    letter-spacing: 0;
+    text-transform: none;
+    color: var(--ink-0);
+    margin: 0 0 0.5rem;
+  }
+
+  .rr-ways p {
+    font-size: 1.1875rem;
+    line-height: 1.55;
+    color: var(--ink-0);
+    margin: 0;
+    text-wrap: pretty;
+  }
+
+  .rr-ways a { color: var(--ink-0); text-underline-offset: 0.16em; text-decoration-thickness: 1px; }
+  .rr-ways a.rr-inline-topic { color: var(--ink); }
+
+  /* ── Wider screens: the margin opens ──────────────────── */
+  @media (min-width: 720px) {
+    .rr { --edge: 2.5rem; }
+    .rr-topics { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .rr-ways-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  }
+
+  @media (min-width: 1100px) {
+    .rr {
+      --margin-w: 15rem;
+      --gap: 3.5rem;
+      --edge: max(3rem, calc((100vw - 76rem) / 2));
+    }
+
+    .rr-opening { row-gap: 1.375rem; padding-top: 3.25rem; }
+
+    /*
+     * The publisher note and the count note sit in the margin, level with
+     * what they annotate. Rows are explicit: left to auto-placement, a margin
+     * item that follows a text item drops to the next row, under the thing it
+     * was meant to sit beside.
+     */
+    .rr-note--publisher { grid-column: margin-start / margin-end; grid-row: 1; align-self: end; padding-bottom: 0.9rem; order: 0; }
+    .rr-title.hero-title { grid-column: text-start / text-end; grid-row: 1; }
+    .rr-subjects { grid-column: text-start / text-end; grid-row: 2; }
+    .rr-note--counts { grid-column: margin-start / margin-end; grid-row: 2; align-self: start; padding-top: 0.6rem; }
+    .rr-peeks { display: grid; grid-column: margin-start / margin-end; grid-row: 2; align-self: start; padding-top: 0.6rem; }
+    .rr-intro { grid-column: text-start / text-end; grid-row: 3; }
+
+    .rr-title.hero-title { font-size: clamp(4.25rem, 6.2vw, 5.75rem); }
+    .rr-subjects { font-size: clamp(2.1rem, 2.85vw, 2.6rem); }
+
+    .rr-lead > .rr-margin { grid-column: margin-start / margin-end; flex-direction: column; padding-top: 0.75rem; }
+    .rr-lead > .rr-chapter { grid-column: text-start / text-end; }
+
+    /* The two lists below the lead break out across the margin, as a book's
+       back matter runs the full measure; their headings share that left edge. */
+    .rr-topics { gap: 3.5rem 4.5rem; }
+  }
+
+  /* On a phone each subject shows its opening question only; the other two
+     made the page about nine screens longer for no new way in. */
+  @media (max-width: 719px) {
+    .rr-topic-more { display: none; }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .rr-subject,
+    .rr-note--counts,
+    .rr-peek { transition: none; }
+  }
+</style>
