@@ -18,6 +18,7 @@ import {
   videoMdx,
 } from './helpers';
 import { parseFeed } from '../src/feed';
+import { SNAPSHOT_KEY } from '../src/snapshot-repo';
 
 const BOT = { name: 'liberty-lighthouse-bot', email: 'bot@liberty-lighthouse.local' };
 
@@ -385,6 +386,40 @@ describe('stage mode (no GITHUB_TOKEN)', () => {
     expect(h.world.jev.requests).toHaveLength(1);
     expect(h.world.github.puts.map((put) => put.path)).toEqual([GST_PATH]);
     expect(h.kv.record(GST_VIDEO.id)?.staged).toBeUndefined();
+  });
+});
+
+describe('snapshot source (REPO_SOURCE "snapshot")', () => {
+  /** What `npm run snapshot` would store: the branch's content files, with stand-in SHAs. */
+  const copyRepo = (h: ReturnType<typeof createHarness>) =>
+    h.kv.data.set(
+      SNAPSHOT_KEY,
+      JSON.stringify({
+        ref: 'origin/test',
+        commit: 'c0ffee',
+        createdAt: '2026-10-22T00:00:00Z',
+        files: [...h.world.github.files]
+          .filter(([path]) => path.startsWith('src/content/'))
+          .map(([path, content], index) => ({ path, sha: `blob${index}`, content })),
+      }),
+    );
+
+  it('reads the KV copy instead of GitHub, and stays in stage mode even with a token', async () => {
+    const h = createHarness();
+    copyRepo(h);
+    const summary = await h.run(testConfig({ repoSource: 'snapshot' }), COMMIT_SECRETS);
+    expect(summary).toMatchObject({ mode: 'stage', staged: 4, committed: 0, errors: [] });
+    expect(h.world.calls.some((call) => call.url.startsWith('https://api.github.com/'))).toBe(false);
+    expect(h.events.find((event) => event.event === 'repo.copy')).toMatchObject({ ref: 'origin/test', commit: 'c0ffee' });
+    // Dedupe still works from the copy: the videos it holds are never sent to Jev.
+    expect(h.world.jev.requests.every((request) => !JSON.stringify(request).includes('B_edehvdfIM'))).toBe(true);
+  });
+
+  it('stops before asking Jev when there is no copy', async () => {
+    const h = createHarness();
+    const summary = await h.run(testConfig({ repoSource: 'snapshot' }), STAGE_SECRETS);
+    expect(summary.errors).toEqual([expect.stringContaining('no repository snapshot in KV')]);
+    expect(h.world.jev.requests).toHaveLength(0);
   });
 });
 

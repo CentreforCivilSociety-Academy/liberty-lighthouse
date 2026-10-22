@@ -22,6 +22,7 @@ export const VAR_NAMES = [
   'AUTO_CONFIDENCE',
   'MAX_VIDEOS_PER_RUN',
   'ALLOW_MAIN',
+  'REPO_SOURCE',
 ] as const;
 
 export type EnvVars = Partial<Record<(typeof VAR_NAMES)[number], string>>;
@@ -31,6 +32,12 @@ export type PublishMode = 'review' | 'auto';
 
 /** "stage" keeps would-be files in the ledger; "commit" writes them to GitHub. */
 export type Mode = 'stage' | 'commit';
+
+/**
+ * Where the repository's topics and videos are read: GitHub, or a copy kept
+ * in KV by `npm run snapshot`, for a deployment that never calls GitHub.
+ */
+export type RepoSource = 'github' | 'snapshot';
 
 /** Where new uploads are detected: the YouTube Data API, or the public RSS feed. */
 export type DetectionSource = 'api' | 'rss';
@@ -44,6 +51,7 @@ export interface Config {
   autoConfidence: number;
   maxVideosPerRun: number;
   allowMain: boolean;
+  repoSource: RepoSource;
 }
 
 export interface Secrets {
@@ -93,7 +101,16 @@ export function readConfig(env: EnvVars): { config: Config; warnings: string[] }
     autoConfidence: DEFAULTS.autoConfidence,
     maxVideosPerRun: DEFAULTS.maxVideosPerRun,
     allowMain: env.ALLOW_MAIN?.trim() === 'true',
+    repoSource: 'github',
   };
+
+  // Where to read, so a bad value stops the run rather than being guessed.
+  const repoSource = env.REPO_SOURCE?.trim();
+  if (repoSource === 'snapshot') {
+    config.repoSource = 'snapshot';
+  } else if (repoSource && repoSource !== 'github') {
+    throw new ConfigError(`REPO_SOURCE "${repoSource}" is not "github" or "snapshot"`);
+  }
 
   const publishMode = env.PUBLISH_MODE?.trim();
   if (publishMode === 'review' || publishMode === 'auto') {
@@ -167,8 +184,9 @@ export function readSecrets(env: object): Secrets {
   };
 }
 
-export function modeOf(secrets: Secrets): Mode {
-  return secrets.githubToken ? 'commit' : 'stage';
+/** Commit mode needs GITHUB_TOKEN and GitHub as the source: a snapshot deployment never writes. */
+export function modeOf(secrets: Secrets, repoSource: RepoSource = 'github'): Mode {
+  return repoSource === 'github' && secrets.githubToken ? 'commit' : 'stage';
 }
 
 /** The detection path a run starts with; it falls back to RSS if the API is unusable that run. */
@@ -178,5 +196,5 @@ export function detectionOf(secrets: Secrets): DetectionSource {
 
 /** The settings /status may show: vars, the mode and the detection path. Never a secret's value. */
 export function publicConfig(config: Config, secrets: Secrets): Record<string, unknown> {
-  return { ...config, mode: modeOf(secrets), detection: detectionOf(secrets) };
+  return { ...config, mode: modeOf(secrets, config.repoSource), detection: detectionOf(secrets) };
 }

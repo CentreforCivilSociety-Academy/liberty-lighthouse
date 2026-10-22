@@ -27,6 +27,7 @@ describe('readConfig', () => {
         autoConfidence: 0.9,
         maxVideosPerRun: 4,
         allowMain: false,
+        repoSource: 'github',
       },
       warnings: [],
     });
@@ -72,6 +73,14 @@ describe('readConfig', () => {
   });
 });
 
+describe('REPO_SOURCE', () => {
+  it('reads GitHub unless told to read the snapshot, and refuses anything else', () => {
+    expect(readConfig(vars).config.repoSource).toBe('github');
+    expect(readConfig({ ...vars, REPO_SOURCE: ' snapshot ' }).config.repoSource).toBe('snapshot');
+    expect(() => readConfig({ ...vars, REPO_SOURCE: 'gitlab' })).toThrow(ConfigError);
+  });
+});
+
 describe('secrets', () => {
   it('treats missing and empty secrets as unset', () => {
     expect(readSecrets({ OPENROUTER_API_KEY: '  ', GITHUB_TOKEN: '', GITHUB_READ_TOKEN: ' ', YOUTUBE_API_KEY: '' })).toEqual({
@@ -88,7 +97,8 @@ describe('secrets', () => {
   it('picks the mode from GITHUB_TOKEN alone, and the detection path from YOUTUBE_API_KEY alone', () => {
     expect(modeOf(readSecrets({ OPENROUTER_API_KEY: 'k' }))).toBe('stage');
     expect(modeOf(readSecrets({ OPENROUTER_API_KEY: 'k', GITHUB_TOKEN: 't' }))).toBe('commit');
-    // A read token never switches on writing.
+    // A read token never switches on writing, and neither does any token with a snapshot source.
+    expect(modeOf(readSecrets({ OPENROUTER_API_KEY: 'k', GITHUB_TOKEN: 't' }), 'snapshot')).toBe('stage');
     expect(modeOf(readSecrets({ OPENROUTER_API_KEY: 'k', GITHUB_READ_TOKEN: 'r' }))).toBe('stage');
     expect(detectionOf(readSecrets({ OPENROUTER_API_KEY: 'k' }))).toBe('rss');
     expect(detectionOf(readSecrets({ OPENROUTER_API_KEY: 'k', YOUTUBE_API_KEY: API_KEY }))).toBe('api');

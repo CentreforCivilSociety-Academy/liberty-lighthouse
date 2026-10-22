@@ -186,9 +186,10 @@ Settings are `vars` in `wrangler.jsonc`, so a change is a reviewed commit.
 | `AUTO_CONFIDENCE` | `0.9` | Topic confidence needed for `confident`. |
 | `MAX_VIDEOS_PER_RUN` | `4` | Videos classified or written per run. |
 | `ALLOW_MAIN` | `false` | Must be `true` to write to `main` or the default branch. |
+| `REPO_SOURCE` | `github` (`snapshot` in the standalone deployment) | Where topics and existing videos are read; see [Without GitHub](#without-github). |
 
-A missing or invalid `CHANNEL_ID`, `GITHUB_REPO` or `TARGET_BRANCH` stops the
-run. An invalid optional value falls back to its default, which is always the
+A missing or invalid `CHANNEL_ID`, `GITHUB_REPO`, `TARGET_BRANCH` or
+`REPO_SOURCE` stops the run. An invalid optional value falls back to its default, which is always the
 cautious one, and the run summary says so.
 
 Secrets are set with `npx wrangler secret put <NAME>` and are never logged,
@@ -285,6 +286,31 @@ npm run deploy
 
 `wrangler secret put` offers to create the Worker if it has not been deployed
 yet; deploying first and adding secrets afterwards works too.
+
+## Without GitHub
+
+A second deployment, `liberty-lighthouse-youtube-sync-standalone`, never
+calls GitHub. It is the `standalone` environment in `wrangler.jsonc`, with
+its own KV namespace and `REPO_SOURCE` `"snapshot"`: the topics and existing
+videos come from a copy of the repository's content files kept in its KV,
+and it always runs in stage mode, so it writes nothing anywhere even if a
+`GITHUB_TOKEN` is set on it. Everything else (detection, Jev, validation,
+the ledger, `/status`, `/run`) is the same.
+
+```sh
+npm run deploy:standalone   # deploy, then refresh the copy
+npm run snapshot            # refresh the copy alone: the content files of
+                            # origin/feat/liberty-lighthouse-redesign-automation
+npx wrangler secret put OPENROUTER_API_KEY --env standalone
+npx wrangler secret put ADMIN_TOKEN --env standalone
+```
+
+`npm run snapshot` reads the local clone, so `git fetch` first. The copy is
+only as fresh as its last refresh: a topic added in the CMS since then is not
+offered to Jev, and a video added by hand since then would be staged again.
+Each run logs the copy's ref, commit and date as `repo.copy`. Its first runs
+on 22 October 2026 staged all 12 new Shorts under the topics labelled by hand
+(9 confident, 3 for review) for $0.00052, with no GitHub calls.
 
 ## Inspecting a deployment
 

@@ -47,6 +47,7 @@ import {
 } from './ledger';
 import { commitMessage, renderVideoMdx, videoPath, videoSlug } from './mdx';
 import { type RepoSnapshot, extractYoutubeId, loadSnapshot } from './repo';
+import { createSnapshotRepo } from './snapshot-repo';
 import { cleanDescription } from './text';
 import { fetchUploads } from './youtube-api';
 
@@ -76,6 +77,8 @@ interface Run {
   budget: SubrequestBudget;
   http: FetchFn;
   github: GitHubClient;
+  /** Set when REPO_SOURCE is "snapshot": the KV copy that stands in for GitHub. */
+  repoCopy: ReturnType<typeof createSnapshotRepo> | null;
   log: (event: string, fields?: Record<string, unknown>, level?: LogLevel) => void;
   /** Record an error in the run summary (and the log). */
   fail: (message: string, level?: LogLevel) => void;
@@ -113,13 +116,14 @@ export async function runSync(
   warnings: string[] = [],
 ): Promise<RunSummary> {
   const startedAt = deps.now();
-  const mode = modeOf(secrets);
+  const mode = modeOf(secrets, config.repoSource);
   const summary = emptySummary(trigger, startedAt, mode, detectionOf(secrets));
   const budget = new SubrequestBudget(SUBREQUEST_LIMIT);
   const http = budget.wrap(deps.fetch);
   const runId = summary.startedAt;
   const log: Run['log'] = (event, fields = {}, level = 'info') => deps.log(event, { run: runId, ...fields }, level);
   const safe = (error: unknown) => redact(describeError(error), secrets);
+  const repoCopy = config.repoSource === 'snapshot' ? createSnapshotRepo(deps.kv) : null;
   const run: Run = {
     config,
     deps,
@@ -128,12 +132,15 @@ export async function runSync(
     budget,
     http,
     // Only GITHUB_TOKEN makes this commit mode; the read token just signs stage mode's reads.
-    github: createGitHub({
-      http,
-      repo: config.githubRepo,
-      branch: config.targetBranch,
-      token: secrets.githubToken ?? secrets.githubReadToken,
-    }),
+    github:
+      repoCopy ??
+      createGitHub({
+        http,
+        repo: config.githubRepo,
+        branch: config.targetBranch,
+        token: secrets.githubToken ?? secrets.githubReadToken,
+      }),
+    repoCopy,
     log,
     fail: (message, level = 'error') => {
       const clean = safe(message);
@@ -235,6 +242,7 @@ async function pipeline(run: Run, secrets: Secrets): Promise<void> {
   }
 
   // 4. Snapshot.
+  if (run.repoCopy) run.log('repo.copy', await run.repoCopy.describe());
   const snapshot = await loadSnapshot(run.github, deps.kv);
   for (const warning of snapshot.warnings) run.log('repo.warning', { message: warning }, 'warn');
   run.log('repo.snapshot', {

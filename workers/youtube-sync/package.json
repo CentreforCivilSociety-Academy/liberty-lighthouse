@@ -8,7 +8,9 @@
     "test": "vitest run",
     "types": "wrangler types --strict-vars=false --env-file .dev.vars.example",
     "typecheck": "npm run types && tsc --noEmit",
-    "deploy": "wrangler deploy"
+    "deploy": "wrangler deploy",
+    "snapshot": "node scripts/repo-snapshot.mjs origin/feat/liberty-lighthouse-redesign-automation .wrangler/repo-snapshot.json && wrangler kv key put repo:snapshot --path .wrangler/repo-snapshot.json --binding LEDGER --env standalone --remote",
+    "deploy:standalone": "wrangler deploy --env standalone && npm run snapshot"
   },
   "devDependencies": {
     "typescript": "^7.0.2",

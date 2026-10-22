@@ -440,6 +440,7 @@ export function testConfig(overrides: Partial<Config> = {}): Config {
     autoConfidence: 0.9,
     maxVideosPerRun: 4,
     allowMain: false,
+    repoSource: 'github',
     ...overrides,
   };
 }

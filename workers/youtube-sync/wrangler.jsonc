@@ -50,5 +50,36 @@
     "AUTO_CONFIDENCE": "0.9",
     "MAX_VIDEOS_PER_RUN": "4",
     "ALLOW_MAIN": "false"
+  },
+
+  // A second, separate deployment that never calls GitHub:
+  //   npm run deploy:standalone
+  // It reads the repository's topics and videos from a copy in its own KV
+  // namespace (REPO_SOURCE "snapshot", refreshed by `npm run snapshot`) and
+  // always runs in stage mode, so it writes nothing anywhere, even if a
+  // GITHUB_TOKEN is ever set on it. Its secrets are set with --env standalone.
+  // vars and kv_namespaces are not inherited by an environment, so they are
+  // repeated here.
+  "env": {
+    "standalone": {
+      "name": "liberty-lighthouse-youtube-sync-standalone",
+      "triggers": {
+        "crons": ["0 */6 * * *"]
+      },
+      "kv_namespaces": [
+        { "binding": "LEDGER", "id": "56954ab206bf46c4b1b6188cf3e168ce" }
+      ],
+      "vars": {
+        "CHANNEL_ID": "UCF5Yih_yIqBwO0LX_qcdQgA",
+        "GITHUB_REPO": "CentreforCivilSociety-Academy/liberty-lighthouse",
+        "TARGET_BRANCH": "feat/liberty-lighthouse-redesign-automation",
+        "PUBLISH_MODE": "review",
+        "JEV_MODEL": "typesafe/jev-1.14",
+        "AUTO_CONFIDENCE": "0.9",
+        "MAX_VIDEOS_PER_RUN": "4",
+        "ALLOW_MAIN": "false",
+        "REPO_SOURCE": "snapshot"
+      }
+    }
   }
 }
