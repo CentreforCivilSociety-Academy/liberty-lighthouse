@@ -215,7 +215,7 @@ error, and blanks any `key=` value an error message might quote.
 
 | Mode | Set by | What happens |
 | --- | --- | --- |
-| **stage** | no `GITHUB_TOKEN` | Classifies and keeps each would-be file (path and MDX) in the ledger. Writes nothing. The dev deployment runs like this. |
+| **stage** | no `GITHUB_TOKEN` | Classifies and keeps each would-be file (path and MDX) in the ledger. Writes nothing. The dev deployment runs like this, though from Cloudflare GitHub often refuses its unauthenticated reads (see [Limitations](#limitations)). |
 | **review** | `GITHUB_TOKEN` set, `PUBLISH_MODE` `review` | Creates every file on the branch as `draft: true`. |
 | **auto** | `GITHUB_TOKEN` set, `PUBLISH_MODE` `auto` | Creates `confident` files as `draft: false`; everything else is still a draft. |
 
@@ -340,11 +340,17 @@ dashboard.
   that start within a minute of each other can overlap. The create-only write
   is the real guard against duplicate files, and the saved classification
   limits duplicate Jev calls.
-- **Stage mode reads GitHub without a token.** GitHub allows 60 unauthenticated
-  requests an hour per IP address, and Cloudflare's outbound addresses are
-  shared. The first run reads about 30 files; after that the caches keep it to
-  one call per run that has new videos. A rate-limited run stops cleanly and the
-  next continues.
+- **Stage mode reads GitHub without a token, and from Cloudflare that often
+  fails.** GitHub allows 60 unauthenticated requests an hour per IP address,
+  and a Worker shares its outbound addresses with every other Worker. In the
+  dev Worker's first run that got past detection (22 October 2026), GitHub
+  refused the very first call with a rate-limit 403. A refused run stops
+  before Jev is asked and before any video is recorded, so it costs nothing
+  and the next run starts afresh, but a deployed Worker only works dependably
+  with `GITHUB_TOKEN`; stage mode is most useful under `wrangler dev` on an
+  ordinary connection. When it does get through, the first run reads about 30
+  files; after that the caches keep it to one call per run that has new
+  videos.
 - **The first runs are slow on purpose.** A cold start spends much of the
   subrequest budget reading the repository, so the first run may classify only
   a video or two. The backlog clears over the following runs.
