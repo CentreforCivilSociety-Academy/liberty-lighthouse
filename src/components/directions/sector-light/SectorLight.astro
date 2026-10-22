@@ -232,7 +232,7 @@ const description = `Find your bearings on the questions India argues about: ${t
         </div>
         <p class="sl-hint" id="sl-hint">
           <span class="sl-hint-fine">Turn the light: point at a colour, or use the arrow keys.</span>
-          <span class="sl-hint-coarse">Turn the light: drag around the lamp, or tap a colour.</span>
+          <span class="sl-hint-coarse">Turn the light: swipe across the lamp, or tap a colour.</span>
         </p>
       </div>
 
@@ -448,8 +448,10 @@ const description = `Find your bearings on the questions India argues about: ${t
       if (e.pointerType === 'mouse') turnTo(towards(index), 380);
     });
 
-    // ── Touch: drag around the lamp; release settles on the nearest topic.
-    // A tap without a drag is left to the click handler, so it is handled once.
+    // ── Touch: swipe across the lamp; release settles on the nearest topic.
+    // Vertical swipes scroll the page (touch-action: pan-y), which cancels the
+    // pointer here, so only sideways movement turns the light. A tap without
+    // a drag is left to the click handler, so it is handled once.
     let dragging = false;
     let dragged = false;
     let swallowClick = false;
@@ -748,7 +750,10 @@ const description = `Find your bearings on the questions India argues about: ${t
     width: min(100%, 40rem);
     margin: 0 auto;
     aspect-ratio: 1;
-    touch-action: none;
+    /* Vertical swipes stay the page's: the lamp is nearly as wide as a phone,
+       and a thumb scrolling past it must not get caught turning the beam.
+       Sideways swipes and taps turn the light. */
+    touch-action: pan-y;
     cursor: crosshair;
     border-radius: 50%;
   }
