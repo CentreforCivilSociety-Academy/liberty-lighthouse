@@ -1,0 +1,100 @@
+WEBVTT
+
+00:00:00.410 --> 00:00:03.677
+In this video, we'll add a video to the site.
+
+00:00:03.677 --> 00:00:09.994
+The site plays videos from YouTube, so first upload the video to CCS's YouTube channel.
+
+00:00:09.994 --> 00:00:13.770
+In the CMS, you then add an entry that points to it.
+
+00:00:14.340 --> 00:00:17.140
+Open Quick add, and choose Video.
+
+00:00:20.167 --> 00:00:24.332
+Pick its topic, and give it a title, as it should appear on the site.
+
+00:00:24.332 --> 00:00:26.927
+It doesn't have to match the YouTube title.
+
+00:00:28.035 --> 00:00:34.375
+The site needs only the video's code, eleven letters and numbers, not its full link.
+
+00:00:34.375 --> 00:00:37.771
+In a normal link, it's what follows v equals.
+
+00:00:37.771 --> 00:00:41.469
+In a Shorts link, it's what follows shorts slash.
+
+00:00:41.469 --> 00:00:44.035
+Leave out anything after the code.
+
+00:00:44.590 --> 00:00:48.785
+Here's the most common mistake: pasting the whole link.
+
+00:00:48.785 --> 00:00:53.590
+When you try to publish, it's refused, and the field turns red.
+
+00:00:54.146 --> 00:00:56.946
+So replace it with just the code.
+
+00:00:57.499 --> 00:01:04.171
+Format: choose Video for an ordinary YouTube video, or Short for a YouTube Short.
+
+00:01:04.171 --> 00:01:05.819
+This one is a Short.
+
+00:01:06.371 --> 00:01:10.021
+Orientation only matters for ordinary videos.
+
+00:01:10.021 --> 00:01:13.021
+Choose Vertical for a portrait video.
+
+00:01:13.021 --> 00:01:15.211
+Shorts are always vertical.
+
+00:01:15.767 --> 00:01:19.207
+The short description shows on the video's card.
+
+00:01:22.639 --> 00:01:29.720
+Duration is optional, but it must be minutes and seconds, like zero colon fifty-eight.
+
+00:01:29.720 --> 00:01:32.519
+Fifty-eight on its own is refused.
+
+00:01:33.073 --> 00:01:35.273
+So we'll write it properly.
+
+00:01:35.825 --> 00:01:37.587
+Speaker is optional.
+
+00:01:37.587 --> 00:01:42.345
+Display order sets its place in the list, as for FAQs.
+
+00:01:42.897 --> 00:01:46.457
+Related FAQs work as they do on an FAQ.
+
+00:01:48.667 --> 00:01:51.112
+And extended notes are optional.
+
+00:01:51.112 --> 00:01:55.545
+Use them for timestamps, key takeaways or further reading.
+
+00:01:55.545 --> 00:01:58.907
+They use the same editor as an FAQ's answer.
+
+00:01:59.458 --> 00:02:00.534
+Publish now.
+
+00:02:00.534 --> 00:02:07.618
+Videos use the same Draft switch, Publish menu and Delete entry button as FAQs.
+
+00:02:08.331 --> 00:02:14.891
+Here's the video's page on the site, with the player, its description, and the related FAQ.
+
+00:02:15.603 --> 00:02:18.683
+And it's in the topic's list of videos.
+
+00:02:19.399 --> 00:02:23.039
+Next: topics, and their guided syllabi.

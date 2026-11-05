@@ -1,0 +1,259 @@
+WEBVTT
+
+00:00:00.410 --> 00:00:05.683
+In this video, we'll add a practice FAQ, from a blank form to a live page.
+
+00:00:05.683 --> 00:00:11.810
+Along the way we'll use every formatting tool once, so you can see what each one does.
+
+00:00:12.370 --> 00:00:15.239
+Open FAQs, and click New FAQ.
+
+00:00:15.239 --> 00:00:19.690
+You can also use Quick add, at the top right.
+
+00:00:20.243 --> 00:00:21.608
+A blank FAQ opens.
+
+00:00:21.608 --> 00:00:27.523
+The fields are on the left, and the preview on the right fills in as you type.
+
+00:00:28.080 --> 00:00:29.414
+First, the topic.
+
+00:00:29.414 --> 00:00:33.650
+Click the box, and pick the topic this FAQ belongs to.
+
+00:00:33.650 --> 00:00:36.160
+You can type to filter the list.
+
+00:00:36.714 --> 00:00:38.029
+Next, the question.
+
+00:00:38.029 --> 00:00:43.218
+Write it in full, with its question mark, exactly as readers should see it.
+
+00:00:43.218 --> 00:00:49.514
+It also sets the page's web address, so get it right before you publish for the first time.
+
+00:00:50.066 --> 00:00:54.472
+Display order decides where it sits in the topic's list.
+
+00:00:54.472 --> 00:00:56.439
+Lower numbers come first.
+
+00:00:56.439 --> 00:01:02.103
+Number in tens, ten, twenty, thirty, so you can slot a new FAQ in later.
+
+00:01:02.103 --> 00:01:06.666
+For practice, we'll use ninety-nine, to put it at the end.
+
+00:01:07.217 --> 00:01:08.540
+Now switch Draft on.
+
+00:01:08.540 --> 00:01:15.817
+You can publish as often as you like while you write, and nothing appears on the site until you switch it off.
+
+00:01:16.373 --> 00:01:22.510
+Related FAQs and Related videos add a Related Resources box at the foot of the page.
+
+00:01:22.510 --> 00:01:23.752
+They're optional.
+
+00:01:23.752 --> 00:01:27.552
+Start typing a question, then pick the one you want.
+
+00:01:27.552 --> 00:01:29.013
+You can add several.
+
+00:01:29.576 --> 00:01:31.543
+Videos work the same way.
+
+00:01:31.543 --> 00:01:33.667
+Chosen links show as chips.
+
+00:01:33.667 --> 00:01:36.736
+Click the cross on a chip to remove it.
+
+00:01:37.302 --> 00:01:38.623
+Now the answer.
+
+00:01:38.623 --> 00:01:49.982
+Its toolbar has bold, italic and the other text styles, a link button, headings, quotes and lists, and Add Component, for images.
+
+00:01:50.538 --> 00:01:53.233
+Write as you would in a word processor.
+
+00:01:53.233 --> 00:01:55.236
+Enter starts a new paragraph.
+
+00:01:55.236 --> 00:02:01.178
+If you paste from Word or Google Docs, check the formatting in the preview afterwards.
+
+00:02:01.731 --> 00:02:06.182
+For a section heading, open Headings and choose Heading 2.
+
+00:02:06.182 --> 00:02:08.100
+Use Heading 3 below that.
+
+00:02:08.100 --> 00:02:13.011
+Never use Heading 1: the question is already the page's heading.
+
+00:02:13.562 --> 00:02:19.362
+Bold works as usual: click Bold, type, and click it again to stop.
+
+00:02:21.561 --> 00:02:24.623
+To add a link, select the words first.
+
+00:02:24.623 --> 00:02:26.798
+Then click the link button.
+
+00:02:26.798 --> 00:02:29.457
+A small box asks for the address.
+
+00:02:29.457 --> 00:02:34.130
+Paste the full address, starting with https, and click OK.
+
+00:02:34.130 --> 00:02:38.481
+Links to other websites open in a new tab on the site.
+
+00:02:39.037 --> 00:02:44.917
+For a list, click Bulleted list, and press Enter twice to finish it.
+
+00:02:45.644 --> 00:02:48.250
+Before adding an image, prepare it.
+
+00:02:48.250 --> 00:02:54.950
+It should be eight hundred to twelve hundred pixels wide, and under two hundred kilobytes.
+
+00:02:54.950 --> 00:02:58.524
+Use a JPG for photographs, and a PNG for charts.
+
+00:02:59.091 --> 00:03:02.323
+Click Add Component, and choose Image.
+
+00:03:02.323 --> 00:03:05.811
+An image block appears inside the answer.
+
+00:03:06.364 --> 00:03:07.981
+Click Choose an image.
+
+00:03:07.981 --> 00:03:09.744
+The image library opens.
+
+00:03:09.744 --> 00:03:15.844
+Click Upload to add a picture from your computer, or pick one that's already there.
+
+00:03:16.400 --> 00:03:18.591
+Your upload is selected.
+
+00:03:18.591 --> 00:03:20.600
+Click Choose selected.
+
+00:03:21.181 --> 00:03:22.554
+Then the alt text.
+
+00:03:22.554 --> 00:03:29.268
+This is what a blind reader hears in place of the picture, and what search engines read.
+
+00:03:29.268 --> 00:03:33.006
+Describe what the image shows and its main point.
+
+00:03:33.006 --> 00:03:35.981
+Chart, or the file name, is not enough.
+
+00:03:36.541 --> 00:03:38.821
+The title is optional.
+
+00:03:39.616 --> 00:03:42.144
+Never upload a picture of a table.
+
+00:03:42.144 --> 00:03:46.827
+A picture can't be read aloud, searched, or resized on a phone.
+
+00:03:46.827 --> 00:03:53.369
+Instead, paste the image into ChatGPT, Claude or Gemini, and ask for a plain HTML table.
+
+00:03:53.369 --> 00:03:56.046
+The exact prompt is in the handbook.
+
+00:03:56.046 --> 00:04:02.216
+Check the numbers against the original, because AI tools sometimes misread a digit.
+
+00:04:02.780 --> 00:04:07.481
+To paste it in, flip the answer's switch from Rich Text to Markdown.
+
+00:04:07.481 --> 00:04:09.900
+The answer now shows as plain text.
+
+00:04:10.455 --> 00:04:13.526
+Click where the table should go, and paste.
+
+00:04:13.526 --> 00:04:20.095
+This is also where you add the source line under an image: in italics, starting with Source.
+
+00:04:20.659 --> 00:04:22.278
+Flip back to Rich Text.
+
+00:04:22.278 --> 00:04:26.501
+The table's code stays visible as plain lines in the editor.
+
+00:04:26.501 --> 00:04:27.486
+That's normal.
+
+00:04:27.486 --> 00:04:30.794
+The preview, and the site, show a proper table.
+
+00:04:30.794 --> 00:04:33.539
+Edit those lines only in Markdown mode.
+
+00:04:34.094 --> 00:04:35.047
+Now publish.
+
+00:04:35.047 --> 00:04:37.828
+The Publish menu has three choices.
+
+00:04:37.828 --> 00:04:40.052
+Publish now saves the entry.
+
+00:04:40.052 --> 00:04:45.374
+The other two also open a blank entry, or a copy, to carry on with.
+
+00:04:45.954 --> 00:04:47.554
+Choose Publish now.
+
+00:04:47.554 --> 00:04:53.114
+The status reads Changes saved, and the button now says Published.
+
+00:04:53.916 --> 00:04:58.581
+Because Draft is on, the page doesn't exist on the site yet.
+
+00:04:58.581 --> 00:05:02.236
+Readers who try its address see Page not found.
+
+00:05:02.953 --> 00:05:05.913
+When the FAQ is ready, switch Draft off.
+
+00:05:05.913 --> 00:05:10.353
+The status turns to Unsaved changes until you publish again.
+
+00:05:10.918 --> 00:05:13.838
+Publish now, once more.
+
+00:05:17.528 --> 00:05:19.328
+And here it is on the site.
+
+00:05:19.328 --> 00:05:24.061
+On the live site this takes about two minutes, while the site rebuilds.
+
+00:05:24.061 --> 00:05:27.128
+Read it through once, to check it looks right.
+
+00:05:27.846 --> 00:05:33.249
+It also appears in the topic's list of FAQs, in the place its display order gives it.
+
+00:05:33.249 --> 00:05:39.606
+Each FAQ also gets its own share card automatically, the picture shown when someone shares the link.
+
+00:05:40.350 --> 00:05:45.230
+Next: editing, hiding and deleting an FAQ.

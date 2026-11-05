@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Liberty Lighthouse Video Guides</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Roboto:wght@400;500;700&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: the player and what is playing on the left, the whole series on the
+   right (below on phones). Colours and faces are the handbook's, which are
+   Liberty Lighthouse's own. */
+:root {
+  --bg: #FDFBF9; --bg-sunk: #F7F3EF; --card: #FFFFFF;
+  --fg: #1A1612; --fg-2: #5C524A; --fg-3: #7D726A; --line: #E8E2DC;
+  --accent: #A96032; --accent-strong: #8E4D24; --accent-soft: #F6E9DF; --on-accent: #FFFFFF;
+  --done: #2F6B45;
+  --display: "EB Garamond", "Iowan Old Style", Georgia, serif;
+  --body: "Roboto", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #16130F; --bg-sunk: #1E1A15; --card: #221D18; --fg: #EFE8E0; --fg-2: #C7BCB1; --fg-3: #9C9086;
+    --line: #3A332C; --accent: #E09A6A; --accent-strong: #F0B288; --accent-soft: #3A281C; --on-accent: #1A1612;
+    --done: #8FD1A6; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #16130F; --bg-sunk: #1E1A15; --card: #221D18; --fg: #EFE8E0; --fg-2: #C7BCB1; --fg-3: #9C9086;
+  --line: #3A332C; --accent: #E09A6A; --accent-strong: #F0B288; --accent-soft: #3A281C; --on-accent: #1A1612;
+  --done: #8FD1A6; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 400 16px/1.6 var(--body); }
+a { color: var(--accent); text-underline-offset: 3px; }
+button { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+
+.page { max-width: 1320px; margin: 0 auto; padding: 32px max(16px, env(safe-area-inset-right, 0px)) 80px max(16px, env(safe-area-inset-left, 0px)); }
+.masthead { display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between; gap: 18px 32px; padding-bottom: 24px; border-bottom: 1px solid var(--line); margin-bottom: 28px; }
+.eyebrow { font: 600 11.5px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+h1 { font: 600 clamp(34px, 5vw, 52px)/1.05 var(--display); margin: 12px 0 10px; letter-spacing: -.01em; }
+.lede { margin: 0; color: var(--fg-2); font-size: 17px; max-width: 60ch; }
+.actions { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { display: inline-flex; align-items: center; gap: 9px; border-radius: 999px; padding: 12px 20px; font-weight: 500; font-size: 15.5px; text-decoration: none; cursor: pointer; border: 1px solid var(--line); background: var(--card); color: var(--fg); white-space: nowrap; }
+.btn:hover { border-color: var(--fg-3); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.btn.primary:hover { background: var(--accent-strong); border-color: var(--accent-strong); }
+.btn svg { width: 18px; height: 18px; flex: none; }
+
+.layout { display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 36px; align-items: start; }
+@media (max-width: 1020px) { .layout { grid-template-columns: minmax(0, 1fr); gap: 28px; } }
+
+/* player */
+.player { background: #000; border-radius: 12px; overflow: hidden; aspect-ratio: 16 / 9; box-shadow: 0 1px 2px rgba(26,22,18,.06), 0 14px 36px -18px rgba(26,22,18,.4); position: relative; }
+.player video { display: block; width: 100%; height: 100%; background: #000; }
+.endcard { position: absolute; inset: 0; display: none; place-content: center; text-align: center; gap: 14px; padding: 24px; background: rgba(20,17,14,.96); color: #fff; }
+.endcard.on { display: grid; }
+.endcard .k { font: 600 12px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: #E9B08A; }
+.endcard .t { font: 600 clamp(24px, 3.4vw, 36px)/1.15 var(--display); }
+.endcard .row { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.endcard .btn { border-color: rgba(255,255,255,.35); background: transparent; color: #fff; }
+.endcard .btn.primary { background: #C9773F; border-color: #C9773F; color: #fff; }
+
+.controls { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 18px; margin: 14px 0 0; color: var(--fg-2); font-size: 14.5px; }
+.controls label { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; }
+.controls input[type=checkbox] { width: 18px; height: 18px; accent-color: var(--accent); }
+.controls select { font: inherit; color: var(--fg); background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 5px 8px; }
+.controls .spacer { flex: 1; }
+.nav { display: inline-flex; gap: 8px; }
+.nav button { border: 1px solid var(--line); background: var(--card); border-radius: 999px; padding: 6px 14px; cursor: pointer; font-size: 14.5px; }
+.nav button:disabled { opacity: .45; cursor: default; }
+
+.now { margin-top: 22px; }
+.now .k { font: 600 11.5px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--fg-3); }
+.now h2 { font: 600 clamp(26px, 3.4vw, 34px)/1.15 var(--display); margin: 8px 0 6px; }
+.now .summary { color: var(--fg-2); margin: 0 0 18px; max-width: 64ch; }
+.sections { border: 1px solid var(--line); border-radius: 10px; background: var(--card); padding: 6px; max-width: 720px; }
+.sections .label { padding: 10px 12px 6px; font: 600 11.5px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--fg-3); }
+.sections ol { list-style: none; margin: 0; padding: 0; }
+.sections button { width: 100%; display: grid; grid-template-columns: 58px 1fr; align-items: baseline; gap: 8px; text-align: left; background: none; border: 0; padding: 9px 12px; border-radius: 7px; cursor: pointer; }
+.sections button:hover { background: var(--bg-sunk); }
+.sections button.on { background: var(--accent-soft); }
+.sections .ts { font: 400 13px/1 var(--mono); color: var(--fg-3); }
+.handbook { display: inline-block; margin-top: 16px; font-size: 15px; }
+
+/* the series */
+.series { position: sticky; top: 20px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); overflow: hidden; }
+@media (max-width: 1020px) { .series { position: static; } }
+.series header { padding: 16px 18px 12px; border-bottom: 1px solid var(--line); }
+.series header b { font: 600 22px/1.2 var(--display); }
+.series header span { display: block; color: var(--fg-3); font-size: 14px; margin-top: 2px; }
+.series ol { list-style: none; margin: 0; padding: 6px; max-height: calc(100vh - 140px); overflow-y: auto; }
+@media (max-width: 1020px) { .series ol { max-height: none; } }
+.series li button { width: 100%; display: grid; grid-template-columns: 112px 1fr; gap: 12px; align-items: center; text-align: left; background: none; border: 0; padding: 8px; border-radius: 9px; cursor: pointer; }
+.series li button:hover { background: var(--bg-sunk); }
+.series li button[aria-current="true"] { background: var(--accent-soft); }
+.thumb { position: relative; border-radius: 6px; overflow: hidden; aspect-ratio: 16 / 9; background: var(--bg-sunk); }
+.thumb img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.thumb .dur { position: absolute; right: 4px; bottom: 4px; background: rgba(0,0,0,.78); color: #fff; font: 500 11.5px/1 var(--mono); padding: 3px 5px; border-radius: 4px; }
+.thumb .bar { position: absolute; left: 0; bottom: 0; height: 3px; background: var(--accent); }
+.meta .n { font: 600 11px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--fg-3); display: flex; gap: 8px; align-items: center; }
+.meta .n .done { color: var(--done); letter-spacing: .04em; }
+.meta .t { display: block; font-weight: 500; font-size: 15px; line-height: 1.3; margin-top: 4px; color: var(--fg); }
+.foot { margin-top: 40px; color: var(--fg-3); font-size: 13.5px; }
+.noscript { padding: 16px; border: 1px solid var(--line); border-radius: 10px; }
+</style>
+
+<div class="page">
+  <header class="masthead">
+    <div>
+      <div class="eyebrow">Liberty Lighthouse · Content management</div>
+      <h1>Video guides</h1>
+      <p class="lede">Every task in the CMS, shown on screen and explained step by step. Watch them in order, or jump to the one you need.</p>
+    </div>
+    <div class="actions">
+      <button class="btn primary" id="playAll" type="button"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13l10.5-6.5L8 5.5Z"/></svg>Play all from the start</button>
+      <a class="btn" href="../handbook/">Read the handbook instead</a>
+    </div>
+  </header>
+
+  <noscript><p class="noscript">This page needs JavaScript to play the videos. Every video is also listed here as a file: <span id="files"></span></p></noscript>
+
+  <div class="layout">
+    <div>
+      <div class="player">
+        <video id="video" controls playsinline preload="metadata" crossorigin="anonymous"></video>
+        <div class="endcard" id="endcard" role="status">
+          <div class="k" id="endK">Up next</div>
+          <div class="t" id="endT"></div>
+          <div class="row">
+            <button class="btn primary" id="endPlay" type="button">Play next video</button>
+            <button class="btn" id="endReplay" type="button">Watch again</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <label><input type="checkbox" id="auto" checked> Play the next video automatically</label>
+        <label>Speed <select id="speed" aria-label="Playback speed">
+          <option value="0.75">0.75×</option><option value="1" selected>1×</option>
+          <option value="1.25">1.25×</option><option value="1.5">1.5×</option>
+        </select></label>
+        <span class="spacer"></span>
+        <span class="nav"><button type="button" id="prev">← Previous</button><button type="button" id="next">Next →</button></span>
+      </div>
+
+      <section class="now" aria-live="polite">
+        <div class="k" id="nowK"></div>
+        <h2 id="nowT"></h2>
+        <p class="summary" id="nowS"></p>
+        <div class="sections"><div class="label">In this video</div><ol id="sections"></ol></div>
+        <a class="handbook" id="nowH" href="../handbook/">Read this in the handbook →</a>
+      </section>
+    </div>
+
+    <aside class="series" aria-label="All videos">
+      <header><b>All videos</b><span id="total"></span></header>
+      <ol id="list"></ol>
+    </aside>
+  </div>
+
+  <p class="foot">Captions are on by default: use the CC button in the player to turn them off. Liberty Lighthouse is a project of the Centre for Civil Society. Platform built and managed by Thothica.</p>
+</div>
+
+<script>
+const VIDEOS = [{"id": "01-welcome", "number": 1, "title": "Welcome and signing in", "summary": "What the CMS is, what happens when you click Publish, and how to sign in.", "duration": 163.9, "sections": [{"title": "What the CMS is", "start": 11}, {"title": "What Publish does", "start": 31.9}, {"title": "Signing in", "start": 83.8}, {"title": "Signing out", "start": 140.6}], "handbook": "#start", "src": "01-welcome.mp4", "captions": "01-welcome.vtt", "poster": "01-welcome.jpg"}, {"id": "02-around", "number": 2, "title": "Finding your way around", "summary": "The dashboard, collections, search, Quick add, and the editor with its preview.", "duration": 170.08, "sections": [{"title": "The dashboard", "start": 7.8}, {"title": "A collection", "start": 48}, {"title": "The editor", "start": 94.9}], "handbook": "#around", "src": "02-around.mp4", "captions": "02-around.vtt", "poster": "02-around.jpg"}, {"id": "03-faq", "number": 3, "title": "Adding an FAQ", "summary": "A practice FAQ from a blank form to a live page, using every formatting tool once.", "duration": 347.14, "sections": [{"title": "Start a new FAQ", "start": 12.4}, {"title": "Topic, question and order", "start": 28.1}, {"title": "Related FAQs and videos", "start": 76.4}, {"title": "Writing the answer", "start": 97.3}, {"title": "Images", "start": 165.5}, {"title": "Tables and Markdown mode", "start": 219.5}, {"title": "Publish and check", "start": 274.1}], "handbook": "#faq", "src": "03-faq.mp4", "captions": "03-faq.vtt", "poster": "03-faq.jpg"}, {"id": "04-manage", "number": 4, "title": "Editing, hiding and deleting", "summary": "Change an FAQ, copy it, take it down for a while, or remove it for good.", "duration": 168.51, "sections": [{"title": "Edit", "start": 10.2}, {"title": "Duplicate", "start": 55.7}, {"title": "When the CMS refuses to save", "start": 71.9}, {"title": "Hide a page", "start": 106.6}, {"title": "Delete", "start": 126.5}], "handbook": "#manage", "src": "04-manage.mp4", "captions": "04-manage.vtt", "poster": "04-manage.jpg"}, {"id": "05-videos", "number": 5, "title": "Videos", "summary": "Point a video entry at a YouTube video or Short, with the right ID, format and details.", "duration": 144.94, "sections": [{"title": "Start a video entry", "start": 14.3}, {"title": "The YouTube ID", "start": 27.8}, {"title": "Format and details", "start": 57.5}, {"title": "Publish and check", "start": 119.5}], "handbook": "#videos", "src": "05-videos.mp4", "captions": "05-videos.vtt", "poster": "05-videos.jpg"}, {"id": "06-topics", "number": 6, "title": "Topics and guided syllabi", "summary": "Add a topic, choose its URL slug once, and write its guided syllabus.", "duration": 151.78, "sections": [{"title": "A new topic", "start": 23.4}, {"title": "The guided syllabus", "start": 78.3}, {"title": "Publish and check", "start": 114.9}], "handbook": "#topics", "src": "06-topics.mp4", "captions": "06-topics.vtt", "poster": "06-topics.jpg"}, {"id": "07-glossary", "number": 7, "title": "Glossary", "summary": "Add a term with its definition and aliases, and watch it link itself across the site.", "duration": 144.53, "sections": [{"title": "Term and definition", "start": 18.7}, {"title": "Aliases", "start": 43.5}, {"title": "Related links and reading", "start": 68.8}, {"title": "On the site", "start": 93.2}], "handbook": "#glossary", "src": "07-glossary.mp4", "captions": "07-glossary.vtt", "poster": "07-glossary.jpg"}, {"id": "08-comments", "number": 8, "title": "Moderating comments", "summary": "Approve, reject or delete what readers write under FAQs, videos and terms.", "duration": 119.63, "sections": [{"title": "The comments list", "start": 33.4}, {"title": "Approve", "start": 45.4}, {"title": "Reject or delete", "start": 69.8}], "handbook": "#comments", "src": "08-comments.mp4", "captions": "08-comments.vtt", "poster": "08-comments.jpg"}, {"id": "09-media-settings", "number": 9, "title": "Images, Media and Site Settings", "summary": "The shared image library, the five settings pages, and making a share card.", "duration": 179.49, "sections": [{"title": "The Media library", "start": 8}, {"title": "Site Settings", "start": 62}, {"title": "Share images", "start": 122.7}], "handbook": "#media", "src": "09-media-settings.mp4", "captions": "09-media-settings.vtt", "poster": "09-media-settings.jpg"}, {"id": "10-help", "number": 10, "title": "When things go wrong, and cleaning up", "summary": "What updates itself, what to do when something goes wrong, and removing practice entries.", "duration": 198.53, "sections": [{"title": "What happens on its own", "start": 9.5}, {"title": "When something goes wrong", "start": 46.8}, {"title": "Cleaning up after practice", "start": 118.8}], "handbook": "#automatic", "src": "10-help.mp4", "captions": "10-help.vtt", "poster": "10-help.jpg"}];
+
+(function () {
+  'use strict';
+  const $ = (id) => document.getElementById(id);
+  const video = $('video');
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem('llv:' + k); return v === null ? d : JSON.parse(v); } catch { return d; } },
+    set(k, v) { try { localStorage.setItem('llv:' + k, JSON.stringify(v)); } catch {} },
+  };
+  const clock = (s) => { s = Math.floor(s); const m = Math.floor(s / 60); return m + ':' + String(s % 60).padStart(2, '0'); };
+  const total = VIDEOS.reduce((a, v) => a + v.duration, 0);
+  $('total').textContent = VIDEOS.length + ' videos · ' + Math.round(total / 60) + ' minutes in all';
+
+  let current = -1;
+  const progress = store.get('progress', {});   // id → seconds watched
+  const watched = store.get('watched', {});     // id → true
+
+  // The series list
+  const items = VIDEOS.map((v, i) => {
+    const li = document.createElement('li');
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.innerHTML = '<span class="thumb"><img alt="" loading="lazy"><span class="dur"></span><span class="bar"></span></span>' +
+      '<span class="meta"><span class="n"><span class="num"></span><span class="done"></span></span><span class="t"></span></span>';
+    b.querySelector('img').src = v.poster;
+    b.querySelector('.dur').textContent = clock(v.duration);
+    b.querySelector('.num').textContent = 'Video ' + v.number;
+    b.querySelector('.t').textContent = v.title;
+    b.addEventListener('click', () => { load(i, { play: true }); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+    li.appendChild(b);
+    $('list').appendChild(li);
+    return b;
+  });
+  function paintProgress() {
+    VIDEOS.forEach((v, i) => {
+      const pct = watched[v.id] ? 100 : Math.min(100, ((progress[v.id] || 0) / v.duration) * 100);
+      items[i].querySelector('.bar').style.width = pct + '%';
+      items[i].querySelector('.done').textContent = watched[v.id] ? '✓ Watched' : '';
+    });
+  }
+
+  function load(i, { play = false, at = 0 } = {}) {
+    if (i < 0 || i >= VIDEOS.length) return;
+    const v = VIDEOS[i];
+    current = i;
+    $('endcard').classList.remove('on');
+    video.innerHTML = '';
+    video.src = v.src;
+    video.poster = v.poster;
+    const track = document.createElement('track');
+    Object.assign(track, { kind: 'captions', srclang: 'en', label: 'English', src: v.captions, default: true });
+    video.appendChild(track);
+    video.addEventListener('loadedmetadata', function once() {
+      video.removeEventListener('loadedmetadata', once);
+      if (at) video.currentTime = at;
+      video.playbackRate = Number($('speed').value);
+      if (video.textTracks[0]) video.textTracks[0].mode = 'showing';
+    });
+    if (play) video.play().catch(() => {});
+    $('nowK').textContent = 'Video ' + v.number + ' of ' + VIDEOS.length + ' · ' + clock(v.duration);
+    $('nowT').textContent = v.title;
+    $('nowS').textContent = v.summary;
+    $('nowH').href = '../handbook/' + v.handbook;
+    const ol = $('sections');
+    ol.innerHTML = '';
+    [{ title: 'Introduction', start: 0 }, ...v.sections].forEach((s) => {
+      const li = document.createElement('li');
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.dataset.start = s.start;
+      b.innerHTML = '<span class="ts"></span><span></span>';
+      b.firstChild.textContent = clock(s.start);
+      b.lastChild.textContent = s.title;
+      b.addEventListener('click', () => { video.currentTime = s.start; video.play().catch(() => {}); });
+      li.appendChild(b); ol.appendChild(li);
+    });
+    items.forEach((b, j) => b.setAttribute('aria-current', j === i ? 'true' : 'false'));
+    $('prev').disabled = i === 0;
+    $('next').disabled = i === VIDEOS.length - 1;
+    history.replaceState(null, '', '#' + v.id);
+    document.title = v.title + ' · Liberty Lighthouse Video Guides';
+    store.set('last', v.id);
+  }
+
+  video.addEventListener('timeupdate', () => {
+    const v = VIDEOS[current];
+    if (!v) return;
+    const t = video.currentTime;
+    if (t > (progress[v.id] || 0)) { progress[v.id] = t; store.set('progress', progress); }
+    const btns = [...$('sections').querySelectorAll('button')];
+    let on = 0;
+    btns.forEach((b, j) => { if (t + 0.25 >= Number(b.dataset.start)) on = j; });
+    btns.forEach((b, j) => b.classList.toggle('on', j === on));
+    paintProgress();
+  });
+  video.addEventListener('ended', () => {
+    const v = VIDEOS[current];
+    watched[v.id] = true; store.set('watched', watched); paintProgress();
+    if (current === VIDEOS.length - 1) {
+      $('endK').textContent = 'That’s every video';
+      $('endT').textContent = 'You’ve reached the end of the series';
+      $('endPlay').textContent = 'Start again from video 1';
+      $('endcard').classList.add('on');
+      return;
+    }
+    if ($('auto').checked) { load(current + 1, { play: true }); return; }
+    $('endK').textContent = 'Up next · Video ' + VIDEOS[current + 1].number;
+    $('endT').textContent = VIDEOS[current + 1].title;
+    $('endPlay').textContent = 'Play next video';
+    $('endcard').classList.add('on');
+  });
+  $('endPlay').addEventListener('click', () => load(current === VIDEOS.length - 1 ? 0 : current + 1, { play: true }));
+  $('endReplay').addEventListener('click', () => load(current, { play: true }));
+  $('prev').addEventListener('click', () => load(current - 1, { play: true }));
+  $('next').addEventListener('click', () => load(current + 1, { play: true }));
+  $('speed').addEventListener('change', () => { video.playbackRate = Number($('speed').value); store.set('speed', $('speed').value); });
+  $('auto').addEventListener('change', () => store.set('auto', $('auto').checked));
+  $('playAll').addEventListener('click', () => { $('auto').checked = true; store.set('auto', true); load(0, { play: true }); });
+
+  $('speed').value = store.get('speed', '1');
+  $('auto').checked = store.get('auto', true);
+  paintProgress();
+  const fromHash = VIDEOS.findIndex((v) => '#' + v.id === location.hash);
+  const fromLast = VIDEOS.findIndex((v) => v.id === store.get('last', ''));
+  const start = fromHash >= 0 ? fromHash : (fromLast >= 0 ? fromLast : 0);
+  const resume = progress[VIDEOS[start].id] || 0;
+  load(start, { at: resume > 5 && resume < VIDEOS[start].duration - 5 ? resume : 0 });
+  window.addEventListener('hashchange', () => {
+    const i = VIDEOS.findIndex((v) => '#' + v.id === location.hash);
+    if (i >= 0 && i !== current) load(i, { play: true });
+  });
+})();
+</script>
+</html>

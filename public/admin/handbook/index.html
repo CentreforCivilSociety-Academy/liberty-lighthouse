@@ -119,6 +119,13 @@ figcaption { margin-top: 9px; font-size: 14px; line-height: 1.55; color: var(--f
 .pair figure.shot { margin-right: 0; }
 @media (max-width: 700px) { .pair { grid-template-columns: minmax(0, 1fr); } }
 
+/* links to the video guides */
+a.watch { justify-self: start; display: inline-flex; align-items: center; gap: 8px; margin-top: 6px; padding: 6px 13px 6px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--fg); font-size: 14px; text-decoration: none; }
+a.watch:hover { border-color: var(--accent); }
+a.watch::before { content: ""; width: 0; height: 0; border-style: solid; border-width: 5px 0 5px 8px; border-color: transparent transparent transparent var(--accent); }
+a.watch span { color: var(--fg-3); }
+.watch-all { margin: 18px 0 0; font-size: 16px; color: var(--fg-2); }
+
 /* callouts */
 .note { border: 1px solid var(--line); border-left-width: 4px; border-radius: 8px; padding: 14px 18px; margin: 18px 0 22px; background: var(--card); }
 .note > :last-child { margin-bottom: 0; }
@@ -194,16 +201,17 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
   <div class="eyebrow">Liberty Lighthouse · Content management</div>
   <h1>Editor’s Handbook</h1>
   <p class="lede">How to add and look after everything on Liberty Lighthouse: FAQs, videos, topics and their syllabi, glossary terms, reader comments, images and site settings. Every step here was carried out for real in the CMS, and every screenshot shows what happened.</p>
+  <p class="watch-all">Prefer to watch? Every chapter is also a short narrated video: <a href="../videos/">open the video guides</a>.</p>
   <div class="byline">Prepared by Adnan, Thothica, for the Centre for Civil Society · November 2026</div>
 </header>
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="start">
-<header><span class="chno">Chapter 1</span><h2>Before you start</h2></header>
+<header><span class="chno">Chapter 1</span><h2>Before you start</h2><a class="watch" href="../videos/#01-welcome">Watch the video <span>3 min</span></a></header>
 
 <p>Liberty Lighthouse has a content management system (the CMS) at <code>/admin</code> on the site. You use it to write and change everything readers see. You never need to touch code or files.</p>
 
-<div class="note tip"><span class="title">This handbook lives in the CMS</span><p>Click <span class="ui">Handbook</span> in the CMS’s top bar, or the <span class="ui">Editor’s Handbook</span> link under the sign-in button, and it opens in a new tab. Its address is <code>/admin/handbook/</code> on the site.</p></div>
+<div class="note tip"><span class="title">This handbook, and the videos, live in the CMS</span><p>Click <span class="ui">Handbook</span> or <span class="ui">Videos</span> in the CMS’s top bar, or the links under the sign-in button, and they open in a new tab. Their addresses are <code>/admin/handbook/</code> and <code>/admin/videos/</code> on the site.</p></div>
 
 <h3>What happens when you click Publish</h3>
 <p>The CMS keeps every entry in CCS’s GitHub account, the same place the website’s code lives. Publishing saves your entry there, and the site then rebuilds itself with your change.</p>
@@ -244,7 +252,7 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="signin">
-<header><span class="chno">Chapter 2</span><h2>Signing in</h2></header>
+<header><span class="chno">Chapter 2</span><h2>Signing in</h2><a class="watch" href="../videos/#01-welcome">Watch the video <span>3 min</span></a></header>
 
 <h3>What you need</h3>
 <p>You sign in with a <b>GitHub account that has write access</b> to CCS’s Liberty Lighthouse repository (<code>CentreforCivilSociety-Academy/liberty-lighthouse</code>). CCS’s editors currently use the shared <b>CentreforCivilSociety-Academy</b> account. A new team member either uses that account or has their own GitHub account added to the repository with the <b>Write</b> role. Whoever manages CCS’s GitHub account does this, under the repository’s <span class="ui">Settings → Collaborators and teams</span>.</p>
@@ -265,7 +273,7 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="around">
-<header><span class="chno">Chapter 3</span><h2>Finding your way around</h2></header>
+<header><span class="chno">Chapter 3</span><h2>Finding your way around</h2><a class="watch" href="../videos/#02-around">Watch the video <span>3 min</span></a></header>
 <p>After signing in you land on the dashboard. The numbers in the orange circles on each screenshot match the numbers in its caption.</p>
 <figure class="shot"><div class="frame"><img src="img/02-tour--01-dashboard.webp" width="1800" height="1125" loading="lazy" alt="The dashboard: Contents and Media tabs (1), the collections (2), Quick add (3) and your account menu (4)"></div><figcaption>The dashboard: Contents and Media tabs (1), the collections (2), Quick add (3) and your account menu (4)</figcaption></figure>
 <p>Click a collection to see its entries. Each collection has the same controls.</p>
@@ -274,7 +282,7 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 <figure class="shot"><div class="frame"><img src="img/02-tour--03-sort-menu.webp" width="1800" height="1125" loading="lazy" alt="Sort by sorts the list. The choices depend on the collection."></div><figcaption>Sort by sorts the list. The choices depend on the collection.</figcaption></figure>
 <figure class="shot"><div class="frame"><img src="img/02-tour--05-quick-add.webp" width="1800" height="1125" loading="lazy" alt="Quick add starts a new Topic, FAQ, Video or glossary Term from anywhere"></div><figcaption>Quick add starts a new Topic, FAQ, Video or glossary Term from anywhere</figcaption></figure>
 </div>
-<figure class="shot"><div class="frame"><img src="img/02-tour--04-search.webp" width="1800" height="1125" loading="lazy" alt="Search all looks through every collection at once"></div><figcaption>Search all looks through every collection at once</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/02-tour--04-search.webp" width="1800" height="1125" loading="lazy" alt="Type in the search box, then choose All Collections in its menu to search everything. Pressing Enter searches only the collection you have open."></div><figcaption>Type in the search box, then choose All Collections in its menu to search everything. Pressing Enter searches only the collection you have open.</figcaption></figure>
 
 <h3>The editor</h3>
 <p>Clicking an entry opens the editor. The left side holds the fields, each with a short hint underneath. The right side is a preview of how the entry will look, updated as you type.</p>
@@ -294,7 +302,7 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="faq">
-<header><span class="chno">Chapter 4</span><h2>Adding an FAQ</h2></header>
+<header><span class="chno">Chapter 4</span><h2>Adding an FAQ</h2><a class="watch" href="../videos/#03-faq">Watch the video <span>6 min</span></a></header>
 <p>This chapter follows one practice FAQ from a blank form to a live page. It uses every formatting tool once, so you can see what each one does.</p>
 
 <h3>Start a new FAQ</h3>
@@ -372,7 +380,7 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="manage">
-<header><span class="chno">Chapter 5</span><h2>Editing, hiding and deleting</h2></header>
+<header><span class="chno">Chapter 5</span><h2>Editing, hiding and deleting</h2><a class="watch" href="../videos/#04-manage">Watch the video <span>3 min</span></a></header>
 <h3>Edit</h3>
 <figure class="shot"><div class="frame"><img src="img/04-faq-manage--01-find-entry.webp" width="1800" height="1125" loading="lazy" alt="To edit an entry, find it in its collection or with Search all, then click it"></div><figcaption>To edit an entry, find it in its collection or with Search all, then click it</figcaption></figure>
 <figure class="shot"><div class="frame"><img src="img/04-faq-manage--02-edited.webp" width="1800" height="1125" loading="lazy" alt="Change any field. The status turns to UNSAVED CHANGES (1) and the button back to Publish (2)."></div><figcaption>Change any field. The status turns to UNSAVED CHANGES (1) and the button back to Publish (2).</figcaption></figure>
@@ -401,7 +409,7 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="videos">
-<header><span class="chno">Chapter 6</span><h2>Videos</h2></header>
+<header><span class="chno">Chapter 6</span><h2>Videos</h2><a class="watch" href="../videos/#05-videos">Watch the video <span>2 min</span></a></header>
 <p>The site plays videos from YouTube, so upload the video to CCS’s YouTube channel first. In the CMS you add an entry that points to it.</p>
 <figure class="shot"><div class="frame"><img src="img/05-video--01-quick-add-video.webp" width="1800" height="1125" loading="lazy" alt="Quick add → Video starts a new video entry"></div><figcaption>Quick add → Video starts a new video entry</figcaption></figure>
 <figure class="shot"><div class="frame"><img src="img/05-video--02-topic-title.webp" width="1800" height="1125" loading="lazy" alt="Topic (1) and Title (2): the title as it should appear on the site, not necessarily the YouTube title"></div><figcaption>Topic (1) and Title (2): the title as it should appear on the site, not necessarily the YouTube title</figcaption></figure>
@@ -439,7 +447,7 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="topics">
-<header><span class="chno">Chapter 7</span><h2>Topics and guided syllabi</h2></header>
+<header><span class="chno">Chapter 7</span><h2>Topics and guided syllabi</h2><a class="watch" href="../videos/#06-topics">Watch the video <span>3 min</span></a></header>
 <p>A topic is a theme, such as Education or Agriculture. Every FAQ and video belongs to one. You will mostly come here to edit a topic’s <b>guided syllabus</b>, its reading list. Add a new topic only when CCS starts a new theme.</p>
 <figure class="shot"><div class="frame"><img src="img/06-topic--01-topics-list.webp" width="1800" height="1125" loading="lazy" alt="Topics are the themes everything else hangs from. Add one only when CCS starts a new theme."></div><figcaption>Topics are the themes everything else hangs from. Add one only when CCS starts a new theme.</figcaption></figure>
 
@@ -476,7 +484,7 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="glossary">
-<header><span class="chno">Chapter 8</span><h2>Glossary</h2></header>
+<header><span class="chno">Chapter 8</span><h2>Glossary</h2><a class="watch" href="../videos/#07-glossary">Watch the video <span>2 min</span></a></header>
 <p>A glossary term does two jobs. It gets its own page under <code>/glossary/</code>. And wherever the term or one of its aliases appears in an FAQ or a video’s notes, the site turns it into a link with a pop-up definition, automatically.</p>
 <figure class="shot"><div class="frame"><img src="img/07-glossary--01-glossary-list.webp" width="1800" height="1125" loading="lazy" alt="Glossary terms. Each one gets its own page, and wherever the term appears in an FAQ or video, it becomes a link with a pop-up definition."></div><figcaption>Glossary terms. Each one gets its own page, and wherever the term appears in an FAQ or video, it becomes a link with a pop-up definition.</figcaption></figure>
 <figure class="shot"><div class="frame"><img src="img/07-glossary--02-definition-too-long.webp" width="1800" height="1125" loading="lazy" alt="The short definition has a 280-character limit. Anything longer is refused."></div><figcaption>The short definition has a 280-character limit. Anything longer is refused.</figcaption></figure>
@@ -505,7 +513,7 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="comments">
-<header><span class="chno">Chapter 9</span><h2>Moderating comments</h2></header>
+<header><span class="chno">Chapter 9</span><h2>Moderating comments</h2><a class="watch" href="../videos/#08-comments">Watch the video <span>2 min</span></a></header>
 <p>Readers can comment under any FAQ, video or glossary term after signing in with GitHub. <b>Nothing appears until someone at CCS approves it.</b></p>
 <h3>How a comment reaches you</h3>
 <ol class="steps">
@@ -539,7 +547,7 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="media">
-<header><span class="chno">Chapter 10</span><h2>Images and the Media library</h2></header>
+<header><span class="chno">Chapter 10</span><h2>Images and the Media library</h2><a class="watch" href="../videos/#09-media-settings">Watch the video <span>3 min</span></a></header>
 <p>The <span class="ui">Media</span> tab at the top holds the site’s shared images, the folder the earlier FAQs’ images live in.</p>
 <figure class="shot"><div class="frame"><img src="img/09-media-settings--01-media-tab.webp" width="1800" height="1125" loading="lazy" alt="Media holds the images in the shared folder: Upload (1) adds one, Search (2) finds one by file name"></div><figcaption>Media holds the images in the shared folder: Upload (1) adds one, Search (2) finds one by file name</figcaption></figure>
 <figure class="shot"><div class="frame"><img src="img/09-media-settings--02-media-selected.webp" width="1800" height="1125" loading="lazy" alt="Click an image to select it. Copy (1) copies its address, to paste into Insert from URL. Download (2) saves it. Delete selected (3) removes it."></div><figcaption>Click an image to select it. Copy (1) copies its address, to paste into Insert from URL. Download (2) saves it. Delete selected (3) removes it.</figcaption></figure>
@@ -555,7 +563,7 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="settings">
-<header><span class="chno">Chapter 11</span><h2>Site Settings and share images</h2></header>
+<header><span class="chno">Chapter 11</span><h2>Site Settings and share images</h2><a class="watch" href="../videos/#09-media-settings">Watch the video <span>3 min</span></a></header>
 <p>Site Settings change the whole site at once, at the next rebuild. Most never need touching. Change one thing at a time, then check the site.</p>
 <figure class="shot"><div class="frame"><img src="img/09-media-settings--03-settings.webp" width="1800" height="1125" loading="lazy" alt="Site Settings: five pages of settings that apply across the whole site"></div><figcaption>Site Settings: five pages of settings that apply across the whole site</figcaption></figure>
 <figure class="shot"><div class="frame"><img src="img/09-media-settings--05-settings-typography-fonts.webp" width="1800" height="1125" loading="lazy" alt="Typography &amp; Fonts: the site’s fonts are fixed to the CCS faces. Sizes and line spacing can be adjusted here. Change them sparingly."></div><figcaption>Typography &amp; Fonts: the site’s fonts are fixed to the CCS faces. Sizes and line spacing can be adjusted here. Change them sparingly.</figcaption></figure>
@@ -581,7 +589,7 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="automatic">
-<header><span class="chno">Chapter 12</span><h2>What happens on its own</h2></header>
+<header><span class="chno">Chapter 12</span><h2>What happens on its own</h2><a class="watch" href="../videos/#10-help">Watch the video <span>3 min</span></a></header>
 <p>Some parts of the site update themselves or are managed by Thothica. You will see their changes in the site’s history under the name <b>liberty-lighthouse-bot</b>. Leave them alone.</p>
 <div class="table-wrap"><table>
 <thead><tr><th>What</th><th>When</th><th>What it does</th></tr></thead>
@@ -596,7 +604,7 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="trouble">
-<header><span class="chno">Chapter 13</span><h2>When something goes wrong</h2></header>
+<header><span class="chno">Chapter 13</span><h2>When something goes wrong</h2><a class="watch" href="../videos/#10-help">Watch the video <span>3 min</span></a></header>
 <div class="table-wrap"><table>
 <thead><tr><th>What you see</th><th>What to do</th></tr></thead>
 <tbody>
@@ -617,11 +625,18 @@ footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--li
 
 <!-- ─────────────────────────────────────────────── -->
 <section class="chapter" id="practice">
-<header><span class="chno">Chapter 14</span><h2>Practising, then cleaning up</h2></header>
+<header><span class="chno">Chapter 14</span><h2>Practising, then cleaning up</h2><a class="watch" href="../videos/#10-help">Watch the video <span>3 min</span></a></header>
 <p>The best way to learn the CMS is to repeat this handbook with your own practice entries. Start each title with “Practice” so they are easy to find afterwards, and keep <span class="ui">Draft</span> on so readers never see them. Then delete them:</p>
-<figure class="shot"><div class="frame"><img src="img/10-cleanup--01-find-practice.webp" width="1800" height="1125" loading="lazy" alt="Search all for “Practice” to find every practice entry, whatever collection it is in"></div><figcaption>Search all for “Practice” to find every practice entry, whatever collection it is in</figcaption></figure>
-<figure class="shot"><div class="frame"><img src="img/10-cleanup--02-delete-practice.webp" width="1800" height="1125" loading="lazy" alt="Open each one and click Delete entry, then confirm"></div><figcaption>Open each one and click Delete entry, then confirm</figcaption></figure>
-<figure class="shot"><div class="frame"><img src="img/10-cleanup--03-all-clean.webp" width="1800" height="1125" loading="lazy" alt="Search again: nothing is left"></div><figcaption>Search again: nothing is left</figcaption></figure>
+<ol class="steps">
+  <li><span>Type <span class="type">Practice</span> into the search box at the top of the collections.</span></li>
+  <li><span>A menu opens under the box. Choose <span class="ui">All Collections</span>. (Pressing Enter instead searches only the collection you have open.)</span></li>
+  <li><span>Your practice entries are the results whose title starts with “Practice”, each with its collection above it. Other entries that only mention the word in their text, such as the Content Guide, also appear: leave them alone.</span></li>
+  <li><span>Open each practice entry and click <span class="ui">Delete entry</span>, then <span class="ui">OK</span>. Search again: when no result’s title starts with “Practice”, you are done.</span></li>
+</ol>
+<figure class="shot"><div class="frame"><img src="img/10-cleanup--01-search-menu.webp" width="1800" height="1125" loading="lazy" alt="Type “Practice” in the search box, then choose All Collections in the menu"></div><figcaption>Type “Practice” in the search box, then choose All Collections in the menu</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/10-cleanup--02-find-practice.webp" width="1800" height="1125" loading="lazy" alt="Your practice entries are the ones whose title starts with “Practice”, each with its collection above it. Entries that only mention the word in their text, such as the Content Guide, stay."></div><figcaption>Your practice entries are the ones whose title starts with “Practice”, each with its collection above it. Entries that only mention the word in their text, such as the Content Guide, stay.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/10-cleanup--03-delete-practice.webp" width="1800" height="1125" loading="lazy" alt="Open each one and click Delete entry, then confirm"></div><figcaption>Open each one and click Delete entry, then confirm</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/10-cleanup--04-all-clean.webp" width="1800" height="1125" loading="lazy" alt="Search all collections again: what is left only mentions the word “practice”. No title starts with “Practice”, so the cleanup is done."></div><figcaption>Search all collections again: what is left only mentions the word “practice”. No title starts with “Practice”, so the cleanup is done.</figcaption></figure>
 <p>Also delete any practice images from <span class="ui">Media</span>, and any practice comment. Delete a practice topic last, after the practice FAQs and videos in it.</p>
 <a class="back" href="#toc">↑ Contents</a>
 </section>

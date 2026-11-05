@@ -1,0 +1,97 @@
+WEBVTT
+
+00:00:00.417 --> 00:00:07.457
+In this video, we'll look at the media library, the site settings, and how to make your own share card.
+
+00:00:08.010 --> 00:00:12.773
+The Media tab, at the top, holds the site's shared images.
+
+00:00:12.773 --> 00:00:17.290
+Upload adds one, and Search finds one by its file name.
+
+00:00:17.847 --> 00:00:21.207
+Let's upload a practice image, and find it.
+
+00:00:25.104 --> 00:00:27.474
+Click an image to select it.
+
+00:00:27.474 --> 00:00:33.824
+Copy copies its address, Download saves it, and Delete selected removes it.
+
+00:00:34.541 --> 00:00:41.091
+An image you upload inside an FAQ's answer is stored with that FAQ, so it doesn't appear here.
+
+00:00:41.091 --> 00:00:48.755
+To reuse an image from Media in an answer, copy its address here, then use Insert from URL in the image block.
+
+00:00:48.755 --> 00:00:56.141
+And delete an image from Media only when you're sure no page uses it, or that page shows a broken picture.
+
+00:00:56.696 --> 00:01:01.456
+This practice image isn't used anywhere, so we'll delete it.
+
+00:01:02.163 --> 00:01:06.616
+Site Settings change the whole site at once, at the next rebuild.
+
+00:01:06.616 --> 00:01:08.877
+Most of them never need touching.
+
+00:01:08.877 --> 00:01:14.083
+If you do change something, change one thing at a time, then check the site.
+
+00:01:14.791 --> 00:01:16.353
+Typography and fonts.
+
+00:01:16.353 --> 00:01:24.237
+The fonts themselves are fixed to the site's faces, but sizes and line spacing can move within set limits.
+
+00:01:24.237 --> 00:01:29.071
+Each hint gives the default value, so you can always put it back.
+
+00:01:29.784 --> 00:01:34.271
+Colours and theme has one choice: comfortable, or high contrast.
+
+00:01:34.271 --> 00:01:36.584
+Both are checked for readability.
+
+00:01:37.312 --> 00:01:42.394
+AI and search crawlers lets you allow or block each AI company's bots.
+
+00:01:42.394 --> 00:01:49.363
+Some learn from the site, and others fetch pages to answer people's questions, with a link back.
+
+00:01:49.363 --> 00:01:55.752
+Allowing all of them helps CCS's work reach people who ask AI tools about Indian policy.
+
+00:01:56.465 --> 00:02:00.132
+The content guide is a quick reference for editors.
+
+00:02:00.132 --> 00:02:02.145
+Nothing in it needs editing.
+
+00:02:02.858 --> 00:02:11.969
+Every page gets a share card automatically: the picture shown when someone posts its link on WhatsApp, LinkedIn or X.
+
+00:02:11.969 --> 00:02:15.473
+To make your own, open /tools/og on the site.
+
+00:02:15.473 --> 00:02:21.858
+Type the eyebrow, headline and button text, pick a colour, and click Download PNG.
+
+00:02:22.653 --> 00:02:28.958
+Then upload it to the Share image field, at the top of that FAQ, video or topic.
+
+00:02:28.958 --> 00:02:35.579
+For the home, about, glossary, search and AI pages, use Site Settings, Share images.
+
+00:02:35.579 --> 00:02:41.333
+Note that WhatsApp and LinkedIn remember a link's old card for some days.
+
+00:02:42.053 --> 00:02:44.210
+This is that Share images page.
+
+00:02:44.210 --> 00:02:48.453
+Leave a box empty to keep the card that's made automatically.
+
+00:02:49.180 --> 00:02:57.580
+Next, and last: what happens on its own, what to do when something goes wrong, and cleaning up after practice.

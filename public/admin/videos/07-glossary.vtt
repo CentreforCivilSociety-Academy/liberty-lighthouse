@@ -1,0 +1,91 @@
+WEBVTT
+
+00:00:00.389 --> 00:00:02.555
+A glossary term does two jobs.
+
+00:00:02.555 --> 00:00:04.071
+It gets its own page.
+
+00:00:04.071 --> 00:00:13.456
+And wherever the term appears in an FAQ or a video's notes, the site turns it into a link with a pop-up definition, automatically.
+
+00:00:13.456 --> 00:00:18.149
+In this video, we'll add a practice term, and see it link itself.
+
+00:00:18.705 --> 00:00:21.845
+Open Glossary, and click New Term.
+
+00:00:21.845 --> 00:00:24.985
+Type the term as it should appear.
+
+00:00:25.648 --> 00:00:29.987
+The short definition shows in the pop-up, and in the glossary list.
+
+00:00:29.987 --> 00:00:36.528
+It has a limit of two hundred and eighty characters, and anything longer is refused when you publish.
+
+00:00:37.086 --> 00:00:40.206
+So keep it to one or two lines.
+
+00:00:43.538 --> 00:00:47.053
+Aliases are the other ways the term is written.
+
+00:00:47.053 --> 00:00:48.773
+Click Add for each one.
+
+00:00:48.773 --> 00:00:50.418
+Capitals don't matter.
+
+00:00:51.132 --> 00:00:53.225
+One rule matters a lot here.
+
+00:00:53.225 --> 00:00:55.991
+An alias can belong to only one term.
+
+00:00:55.991 --> 00:01:04.215
+If two terms share a word, the site can't be rebuilt, and nobody's changes go live until the clash is removed.
+
+00:01:04.215 --> 00:01:08.252
+So before adding an alias, search the glossary for it.
+
+00:01:08.812 --> 00:01:15.132
+Related terms, FAQs and videos are hand-picked links for the term's own page.
+
+00:01:17.699 --> 00:01:20.594
+Recommended reading works the same way.
+
+00:01:20.594 --> 00:01:25.939
+Click Add, then fill in the title, the full web address, and the author.
+
+00:01:26.587 --> 00:01:32.147
+The long explanation is optional, and shows only on the term's own page.
+
+00:01:33.218 --> 00:01:34.578
+Publish now.
+
+00:01:39.614 --> 00:01:48.774
+This is the term's page, with its definition, explanation, related links and reading list, and the FAQs that mention it.
+
+00:01:49.482 --> 00:01:52.679
+And here's an FAQ that mentions absenteeism.
+
+00:01:52.679 --> 00:01:56.820
+The site has turned the first mention into a dotted link.
+
+00:01:56.820 --> 00:02:00.162
+Point at it, and the short definition pops up.
+
+00:02:00.875 --> 00:02:07.113
+Only the first mention on each page becomes a link, so pages don't fill up with underlines.
+
+00:02:07.113 --> 00:02:11.569
+Mentions inside headings, existing links and code are left alone.
+
+00:02:11.569 --> 00:02:14.037
+And draft terms don't link anywhere.
+
+00:02:14.037 --> 00:02:18.835
+The handbook explains how to stop one particular mention from linking.
+
+00:02:19.544 --> 00:02:22.624
+Next: moderating reader comments.

@@ -1,0 +1,121 @@
+WEBVTT
+
+00:00:00.400 --> 00:00:08.960
+In this last video: what the site does on its own, what to do when something goes wrong, and how to clean up after practising.
+
+00:00:09.600 --> 00:00:12.509
+Some parts of the site update themselves.
+
+00:00:12.509 --> 00:00:22.940
+Every day, at about half past nine in the morning, new posts from CCS's Spontaneous Order Substack are copied in, and the wiki pages are refreshed.
+
+00:00:22.940 --> 00:00:24.855
+Neither appears in the CMS.
+
+00:00:24.855 --> 00:00:30.674
+In the site's history, these changes appear under the name liberty-lighthouse-bot.
+
+00:00:30.674 --> 00:00:31.880
+Leave them alone.
+
+00:00:32.500 --> 00:00:38.818
+Share cards, site search, and the pages for AI tools rebuild themselves from your content.
+
+00:00:38.818 --> 00:00:44.224
+And the three FAQs featured at the top of the homepage aren't set in the CMS.
+
+00:00:44.224 --> 00:00:46.260
+To change them, ask Thothica.
+
+00:00:46.900 --> 00:00:52.016
+If your change isn't on the site, wait two to three minutes, then refresh.
+
+00:00:52.016 --> 00:00:55.059
+On a phone, close the tab and open it again.
+
+00:00:55.059 --> 00:00:56.718
+Check that Draft is off.
+
+00:00:56.718 --> 00:01:03.770
+If nobody's changes are going live, a rebuild has failed, and the site stays on its last good version.
+
+00:01:03.770 --> 00:01:07.573
+The usual cause is two glossary terms sharing an alias.
+
+00:01:07.573 --> 00:01:11.860
+Think about what was published just before, and tell Thothica.
+
+00:01:12.600 --> 00:01:17.455
+If a field won't accept what you typed, read the red message under it.
+
+00:01:17.455 --> 00:01:21.755
+If Login with GitHub does nothing, allow pop-ups for the site.
+
+00:01:21.755 --> 00:01:27.443
+If you're signed in but can't save, your GitHub account may not have write access.
+
+00:01:27.443 --> 00:01:35.280
+And if two people edit the same entry, the second save can fail, or overwrite the first, so agree who edits what.
+
+00:01:36.000 --> 00:01:41.937
+If the site's address doesn't load, use liberty-lighthouse.vercel.app, and tell Thothica.
+
+00:01:41.937 --> 00:01:48.407
+If you delete something by mistake, tell Thothica straight away, with its title and roughly when.
+
+00:01:48.407 --> 00:01:52.677
+Every change is kept in GitHub's history, so it can be restored.
+
+00:01:52.677 --> 00:01:58.280
+For anything else, send Thothica the page's address, what you did, and a screenshot.
+
+00:01:58.800 --> 00:02:05.157
+The best way to learn the CMS is to repeat these videos with your own practice entries.
+
+00:02:05.157 --> 00:02:08.810
+Start each title with Practice, and keep Draft on.
+
+00:02:08.810 --> 00:02:15.240
+Afterwards, type Practice into the search box, and choose All Collections from the menu.
+
+00:02:15.800 --> 00:02:20.262
+Your practice entries are the ones whose titles start with Practice.
+
+00:02:20.262 --> 00:02:25.118
+Entries that only mention the word, like the content guide, are not yours.
+
+00:02:25.118 --> 00:02:25.840
+Leave them.
+
+00:02:27.000 --> 00:02:31.878
+Open each one, click Delete entry, and click OK.
+
+00:02:31.878 --> 00:02:34.520
+First, the practice video.
+
+00:02:35.300 --> 00:02:38.500
+Then the practice glossary term.
+
+00:02:40.400 --> 00:02:42.400
+And the practice comment.
+
+00:02:45.500 --> 00:02:50.980
+Delete a practice topic last, after the practice FAQs and videos in it.
+
+00:02:51.700 --> 00:02:54.065
+Search all collections again.
+
+00:02:54.065 --> 00:02:58.142
+No title starts with Practice now, so you're done.
+
+00:02:58.142 --> 00:03:02.300
+Last of all, delete any practice images from Media.
+
+00:03:04.000 --> 00:03:05.151
+That's everything.
+
+00:03:05.151 --> 00:03:14.169
+Every step in these videos is also written up in the Editor's Handbook, which you can open from the top bar of the CMS, next to these videos.
+
+00:03:14.169 --> 00:03:15.640
+Thank you for watching.

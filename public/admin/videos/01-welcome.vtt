@@ -1,0 +1,106 @@
+WEBVTT
+
+00:00:00.436 --> 00:00:03.726
+Welcome to the Liberty Lighthouse video guides.
+
+00:00:03.726 --> 00:00:10.236
+This first video explains what the CMS is, what happens when you publish, and how to sign in.
+
+00:00:10.951 --> 00:00:17.890
+Liberty Lighthouse has a content management system, the CMS, at /admin on the site.
+
+00:00:17.890 --> 00:00:28.174
+You use it to write and change everything readers see: FAQs, videos, topics, glossary terms, comments, images and settings.
+
+00:00:28.174 --> 00:00:31.351
+You never need to touch code or files.
+
+00:00:32.064 --> 00:00:39.503
+When you click Publish, the CMS saves your entry in CCS's GitHub account, where the website itself lives.
+
+00:00:39.503 --> 00:00:45.384
+The site then rebuilds itself, and about two minutes later readers see your change.
+
+00:00:45.937 --> 00:00:47.729
+There is no review step.
+
+00:00:47.729 --> 00:00:49.148
+Publish means live.
+
+00:00:49.148 --> 00:00:54.526
+If something isn't ready, switch on its Draft switch before you publish.
+
+00:00:54.526 --> 00:00:57.737
+A draft is saved, but readers can't see it.
+
+00:00:58.463 --> 00:01:00.247
+A few habits matter most.
+
+00:01:00.247 --> 00:01:02.673
+Use Draft for anything unfinished.
+
+00:01:02.673 --> 00:01:05.813
+Check the page on the site after publishing.
+
+00:01:05.813 --> 00:01:08.453
+Describe every image in its alt text.
+
+00:01:08.453 --> 00:01:11.093
+Never use Heading 1 inside an answer.
+
+00:01:11.093 --> 00:01:17.657
+Get an FAQ's question right before you first publish it, because it sets the page's address.
+
+00:01:17.657 --> 00:01:23.223
+And practise freely: make an entry with Practice in its title, then delete it.
+
+00:01:23.784 --> 00:01:27.114
+To sign in, open /admin on the site.
+
+00:01:27.114 --> 00:01:33.959
+If the main address doesn't load, use liberty-lighthouse.vercel.app/admin.
+
+00:01:33.959 --> 00:01:35.624
+It's the same CMS.
+
+00:01:36.176 --> 00:01:41.694
+You need a GitHub account with write access to CCS's Liberty Lighthouse repository.
+
+00:01:41.694 --> 00:01:50.536
+The editors use the shared Centre for Civil Society Academy account, or a team member's own account can be added with the Write role.
+
+00:01:51.089 --> 00:01:52.884
+Click Login with GitHub.
+
+00:01:52.884 --> 00:01:54.455
+A small window opens.
+
+00:01:54.455 --> 00:02:02.009
+If nothing happens, your browser has blocked the pop-up: allow pop-ups for the site, and click again.
+
+00:02:02.697 --> 00:02:08.217
+In that window, sign in to GitHub with the account's username and password.
+
+00:02:08.768 --> 00:02:15.979
+The very first time, GitHub asks you to authorise Liberty Lighthouse CMS to use your account.
+
+00:02:15.979 --> 00:02:17.219
+Click Authorize.
+
+00:02:17.219 --> 00:02:20.088
+The window closes, and the CMS opens.
+
+00:02:20.766 --> 00:02:23.093
+This is the CMS once you're in.
+
+00:02:23.093 --> 00:02:25.646
+The next video takes a tour of it.
+
+00:02:26.199 --> 00:02:33.764
+To sign out, click the round account icon at the top right, then Log Out.
+
+00:02:33.764 --> 00:02:37.599
+Always sign out on a shared computer.
+
+00:02:38.426 --> 00:02:41.986
+Next: finding your way around the CMS.
