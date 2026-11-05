@@ -1,0 +1,715 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Liberty Lighthouse Editor's Handbook</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600;700&family=Roboto:ital,wght@0,400;0,500;0,700;1,400&family=JetBrains+Mono:wght@400;600&display=swap">
+<style>
+/* Layout: a handbook. Sticky contents rail on the left, one reading column,
+   screenshots allowed slightly wider than the text. Colours and faces are
+   Liberty Lighthouse's own, so the guide looks like the site it explains. */
+:root {
+  --bg: #FDFBF9;
+  --bg-sunk: #F7F3EF;
+  --card: #FFFFFF;
+  --fg: #1A1612;
+  --fg-2: #5C524A;
+  --fg-3: #7D726A;
+  --line: #E8E2DC;
+  --accent: #A96032;
+  --accent-soft: #F6E9DF;
+  --mark: #D2461C;          /* the orange of the numbered boxes in the screenshots */
+  --warn-bg: #FBEFD9; --warn-fg: #6B4A0E; --warn-line: #E9C987;
+  --stop-bg: #FBE4DE; --stop-fg: #7A2410; --stop-line: #EBA897;
+  --tip-bg: #E7F0EA;  --tip-fg: #1F4A31;  --tip-line: #A9C9B3;
+  --display: "EB Garamond", "Iowan Old Style", Georgia, serif;
+  --body: "Roboto", -apple-system, "Segoe UI", Helvetica, Arial, sans-serif;
+  --mono: "JetBrains Mono", ui-monospace, Menlo, Consolas, monospace;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #16130F; --bg-sunk: #1E1A15; --card: #221D18; --fg: #EFE8E0; --fg-2: #C7BCB1; --fg-3: #9C9086;
+    --line: #3A332C; --accent: #E09A6A; --accent-soft: #3A281C; --mark: #F07A4E;
+    --warn-bg: #33270F; --warn-fg: #F2D594; --warn-line: #6B5420;
+    --stop-bg: #3A1C14; --stop-fg: #F6B9A6; --stop-line: #7A3524;
+    --tip-bg: #16281D; --tip-fg: #B5DEC2; --tip-line: #335A42;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #16130F; --bg-sunk: #1E1A15; --card: #221D18; --fg: #EFE8E0; --fg-2: #C7BCB1; --fg-3: #9C9086;
+  --line: #3A332C; --accent: #E09A6A; --accent-soft: #3A281C; --mark: #F07A4E;
+  --warn-bg: #33270F; --warn-fg: #F2D594; --warn-line: #6B5420;
+  --stop-bg: #3A1C14; --stop-fg: #F6B9A6; --stop-line: #7A3524;
+  --tip-bg: #16281D; --tip-fg: #B5DEC2; --tip-line: #335A42;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 24px; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+body { background: var(--bg); color: var(--fg); font: 400 16.5px/1.7 var(--body); }
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible, summary:focus-visible, button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 3px; }
+
+.page {
+  display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 56px;
+  max-width: 1280px; margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 40px 96px;
+}
+@media (max-width: 960px) { .page { grid-template-columns: minmax(0, 1fr); gap: 24px; padding-block: 24px 72px; } }
+
+/* contents rail */
+.rail { position: sticky; top: max(24px, env(safe-area-inset-top, 0px)); align-self: start; max-height: calc(100vh - 48px); overflow-y: auto; }
+.rail .label { font: 600 11px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--fg-3); margin-bottom: 12px; }
+.rail ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 2px; counter-reset: ch; }
+.rail li a { display: grid; grid-template-columns: 26px 1fr; padding: 5px 8px; border-radius: 6px; color: var(--fg-2); text-decoration: none; font-size: 14.5px; line-height: 1.35; }
+.rail li a::before { counter-increment: ch; content: counter(ch, decimal-leading-zero); font: 400 11.5px/1.6 var(--mono); color: var(--fg-3); }
+.rail li a:hover { background: var(--bg-sunk); color: var(--fg); }
+.rail li.appendix a::before { content: "A"; counter-increment: none; }
+@media (max-width: 960px) {
+  .rail { position: static; max-height: none; border: 1px solid var(--line); border-radius: 10px; padding: 4px 14px; background: var(--card); }
+}
+.rail summary { cursor: pointer; padding: 10px 0; font: 600 12px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--fg-2); list-style: none; }
+.rail summary::-webkit-details-marker { display: none; }
+@media (min-width: 961px) { .rail summary { display: none; } }
+@media (max-width: 960px) { .rail .label { display: none; } }
+
+/* reading column */
+main { min-width: 0; max-width: 820px; }
+.masthead { padding-bottom: 32px; border-bottom: 1px solid var(--line); margin-bottom: 8px; }
+.eyebrow { font: 600 11.5px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--accent); }
+h1 { font: 600 clamp(38px, 6vw, 58px)/1.04 var(--display); letter-spacing: -.01em; margin: 14px 0 16px; text-wrap: balance; }
+.lede { font-size: 19px; line-height: 1.6; color: var(--fg-2); max-width: 62ch; margin: 0; }
+.byline { margin-top: 20px; font: 400 13px/1.5 var(--mono); color: var(--fg-3); }
+
+section.chapter { padding-top: 56px; }
+.chapter > header { display: grid; gap: 6px; margin-bottom: 18px; }
+.chno { font: 600 11.5px/1 var(--mono); letter-spacing: .14em; text-transform: uppercase; color: var(--fg-3); }
+h2 { font: 600 clamp(28px, 4vw, 36px)/1.12 var(--display); margin: 0; text-wrap: balance; }
+h3 { font: 600 23px/1.25 var(--display); margin: 40px 0 8px; text-wrap: balance; }
+h4 { font: 700 15px/1.4 var(--body); margin: 28px 0 4px; }
+p, li { max-width: 68ch; }
+p { margin: 0 0 14px; }
+ul, ol { padding-left: 22px; margin: 0 0 16px; }
+li { margin-bottom: 6px; }
+li::marker { color: var(--fg-3); }
+ol.steps { list-style: none; padding: 0; counter-reset: step; display: grid; gap: 10px; }
+ol.steps > li { counter-increment: step; display: grid; grid-template-columns: 30px minmax(0, 1fr); gap: 4px 10px; margin: 0; }
+ol.steps > li::before { content: counter(step); font: 600 13px/26px var(--mono); width: 26px; height: 26px; text-align: center; border-radius: 50%; background: var(--accent-soft); color: var(--accent); margin-top: 1px; }
+
+/* UI words and things to type */
+.ui { font: 500 .92em/1 var(--body); background: var(--bg-sunk); border: 1px solid var(--line); border-radius: 5px; padding: 2px 6px; white-space: nowrap; color: var(--fg); }
+code, .type { font: 400 .86em/1 var(--mono); background: var(--bg-sunk); border-radius: 4px; padding: 2px 5px; word-break: break-word; }
+pre { font: 400 13.5px/1.6 var(--mono); background: var(--bg-sunk); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; overflow-x: auto; margin: 0 0 18px; }
+.num { display: inline-grid; place-items: center; min-width: 20px; height: 20px; padding: 0 5px; border-radius: 10px; background: var(--mark); color: #fff; font: 700 11.5px/1 var(--body); vertical-align: 2px; }
+
+/* screenshots */
+figure.shot { margin: 20px 0 26px; }
+@media (min-width: 1200px) { figure.shot { margin-right: -120px; } }
+.frame { border: 1px solid var(--line); border-radius: 10px; overflow: hidden; background: var(--card); box-shadow: 0 1px 2px rgba(26,22,18,.05), 0 8px 24px -12px rgba(26,22,18,.18); }
+.frame img { display: block; width: 100%; height: auto; }
+figure.tall .frame { max-height: 720px; overflow-y: auto; }
+figcaption { margin-top: 9px; font-size: 14px; line-height: 1.55; color: var(--fg-2); max-width: 72ch; }
+.pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.pair figure.shot { margin-right: 0; }
+@media (max-width: 700px) { .pair { grid-template-columns: minmax(0, 1fr); } }
+
+/* callouts */
+.note { border: 1px solid var(--line); border-left-width: 4px; border-radius: 8px; padding: 14px 18px; margin: 18px 0 22px; background: var(--card); }
+.note > :last-child { margin-bottom: 0; }
+.note .title { display: block; font: 600 11.5px/1 var(--mono); letter-spacing: .12em; text-transform: uppercase; margin-bottom: 8px; }
+.note.stop { background: var(--stop-bg); border-color: var(--stop-line); color: var(--stop-fg); }
+.note.warn { background: var(--warn-bg); border-color: var(--warn-line); color: var(--warn-fg); }
+.note.tip { background: var(--tip-bg); border-color: var(--tip-line); color: var(--tip-fg); }
+.note.stop a, .note.warn a, .note.tip a { color: inherit; }
+.note .ui, .note code { background: color-mix(in srgb, var(--card) 60%, transparent); border-color: currentColor; }
+
+/* golden rules */
+.rules { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 22px 0 8px; padding: 0; list-style: none; }
+.rules li { margin: 0; max-width: none; background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; font-size: 15px; line-height: 1.55; }
+.rules b { display: block; font: 600 18px/1.3 var(--display); margin-bottom: 4px; }
+@media (max-width: 700px) { .rules { grid-template-columns: minmax(0, 1fr); } }
+
+/* flow diagram */
+.flow { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; margin: 22px 0 26px; }
+.flow div { position: relative; padding: 14px 16px 14px; background: var(--card); border: 1px solid var(--line); font-size: 14px; line-height: 1.45; color: var(--fg-2); }
+.flow div + div { border-left: 0; }
+.flow div:first-child { border-radius: 10px 0 0 10px; }
+.flow div:last-child { border-radius: 0 10px 10px 0; }
+.flow b { display: block; font: 600 17px/1.25 var(--display); color: var(--fg); margin-bottom: 4px; }
+.flow .t { display: block; font: 600 11px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+@media (max-width: 700px) {
+  .flow { grid-template-columns: minmax(0, 1fr); }
+  .flow div + div { border-left: 1px solid var(--line); border-top: 0; }
+  .flow div:first-child { border-radius: 10px 10px 0 0; }
+  .flow div:last-child { border-radius: 0 0 10px 10px; }
+}
+
+/* tables */
+.table-wrap { overflow-x: auto; margin: 14px 0 22px; border: 1px solid var(--line); border-radius: 10px; background: var(--card); }
+table { border-collapse: collapse; width: 100%; font-size: 14.5px; line-height: 1.5; }
+th, td { text-align: left; vertical-align: top; padding: 10px 14px; border-bottom: 1px solid var(--line); }
+tr:last-child td { border-bottom: 0; }
+th { font: 600 11px/1.3 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--fg-3); background: var(--bg-sunk); }
+td:first-child { font-weight: 500; white-space: nowrap; }
+td .req { font: 600 10.5px/1 var(--mono); letter-spacing: .06em; color: var(--accent); text-transform: uppercase; display: block; margin-top: 3px; }
+
+.back { display: inline-block; margin-top: 18px; font: 400 12.5px/1 var(--mono); color: var(--fg-3); text-decoration: none; }
+.back:hover { color: var(--accent); }
+footer.end { margin-top: 72px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 13.5px; color: var(--fg-3); }
+</style>
+
+<div class="page">
+<nav class="rail" aria-label="Contents">
+  <details open id="toc">
+    <summary>Contents</summary>
+    <div class="label">Contents</div>
+    <ol>
+      <li><a href="#start">Before you start</a></li>
+      <li><a href="#signin">Signing in</a></li>
+      <li><a href="#around">Finding your way around</a></li>
+      <li><a href="#faq">Adding an FAQ</a></li>
+      <li><a href="#manage">Editing, hiding and deleting</a></li>
+      <li><a href="#videos">Videos</a></li>
+      <li><a href="#topics">Topics and guided syllabi</a></li>
+      <li><a href="#glossary">Glossary</a></li>
+      <li><a href="#comments">Moderating comments</a></li>
+      <li><a href="#media">Images and the Media library</a></li>
+      <li><a href="#settings">Site Settings and share images</a></li>
+      <li><a href="#automatic">What happens on its own</a></li>
+      <li><a href="#trouble">When something goes wrong</a></li>
+      <li><a href="#practice">Practising, then cleaning up</a></li>
+      <li class="appendix"><a href="#fields">Every field, explained</a></li>
+    </ol>
+  </details>
+</nav>
+
+<main>
+<header class="masthead">
+  <div class="eyebrow">Liberty Lighthouse · Content management</div>
+  <h1>Editor’s Handbook</h1>
+  <p class="lede">How to add and look after everything on Liberty Lighthouse: FAQs, videos, topics and their syllabi, glossary terms, reader comments, images and site settings. Every step here was carried out for real in the CMS, and every screenshot shows what happened.</p>
+  <div class="byline">Prepared by Adnan, Thothica, for the Centre for Civil Society · November 2026</div>
+</header>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="start">
+<header><span class="chno">Chapter 1</span><h2>Before you start</h2></header>
+
+<p>Liberty Lighthouse has a content management system (the CMS) at <code>/admin</code> on the site. You use it to write and change everything readers see. You never need to touch code or files.</p>
+
+<div class="note tip"><span class="title">This handbook lives in the CMS</span><p>Click <span class="ui">Handbook</span> in the CMS’s top bar, or the <span class="ui">Editor’s Handbook</span> link under the sign-in button, and it opens in a new tab. Its address is <code>/admin/handbook/</code> on the site.</p></div>
+
+<h3>What happens when you click Publish</h3>
+<p>The CMS keeps every entry in CCS’s GitHub account, the same place the website’s code lives. Publishing saves your entry there, and the site then rebuilds itself with your change.</p>
+<div class="flow" role="list">
+  <div role="listitem"><span class="t">You</span><b>Click Publish</b>The CMS saves the entry.</div>
+  <div role="listitem"><span class="t">Seconds</span><b>Saved to GitHub</b>Recorded under your account, with the date and what changed.</div>
+  <div role="listitem"><span class="t">About 2 minutes</span><b>Site rebuilds</b>Vercel, the host, rebuilds every page.</div>
+  <div role="listitem"><span class="t">Done</span><b>Live</b>Readers see the change. Refresh the page to see it.</div>
+</div>
+
+<div class="note stop"><span class="title">Important</span>
+<p>There is no review step. <b>Publish means live</b>, about two minutes later. The CMS’s own notes mention a “Draft → In Review → Publish” workflow, but that review stage is not switched on. To work on something privately, switch on its <span class="ui">Draft</span> switch before you publish. A draft is saved but readers cannot see it.</p>
+</div>
+
+<h3>The rules that matter most</h3>
+<ul class="rules">
+  <li><b>Draft first</b>Switch <span class="ui">Draft</span> on for anything unfinished. Readers never see drafts.</li>
+  <li><b>Check the site after publishing</b>Wait two minutes, open the page on the site and read it once.</li>
+  <li><b>Describe every image</b>Fill in the image’s <span class="ui">Alt text</span>. Without it the image is invisible to blind readers and search engines.</li>
+  <li><b>Never Heading 1</b>The question or title is already the page heading. Use Heading 2 for sections and Heading 3 below that.</li>
+  <li><b>Get the question right first</b>An FAQ’s web address comes from its question the first time it is published, and never changes after that.</li>
+  <li><b>Practise freely</b>Make a practice entry with “Practice” in its title, keep it as a draft, and delete it afterwards (chapter 14).</li>
+</ul>
+
+<h3>What you can manage</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Collection</th><th>What it is</th><th>On the site</th></tr></thead>
+<tbody>
+<tr><td>FAQs</td><td>A question and a full answer, under one topic. Most of the site.</td><td><code>/topics/education/faq/…</code></td></tr>
+<tr><td>Videos</td><td>A YouTube video or Short, with a description and optional notes.</td><td><code>/topics/education/videos/…</code></td></tr>
+<tr><td>Topics</td><td>The themes (Education, Agriculture…), each with a guided syllabus.</td><td><code>/topics/education/</code></td></tr>
+<tr><td>Glossary</td><td>Terms with short definitions. They link themselves wherever they are mentioned.</td><td><code>/glossary/msp/</code></td></tr>
+<tr><td>Comments</td><td>Reader comments waiting for approval.</td><td>Under each FAQ, video and term</td></tr>
+<tr><td>Site Settings</td><td>Share images, text sizes, contrast, AI crawler permissions.</td><td>Across the whole site</td></tr>
+</tbody></table></div>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="signin">
+<header><span class="chno">Chapter 2</span><h2>Signing in</h2></header>
+
+<h3>What you need</h3>
+<p>You sign in with a <b>GitHub account that has write access</b> to CCS’s Liberty Lighthouse repository (<code>CentreforCivilSociety-Academy/liberty-lighthouse</code>). CCS’s editors currently use the shared <b>CentreforCivilSociety-Academy</b> account. A new team member either uses that account or has their own GitHub account added to the repository with the <b>Write</b> role. Whoever manages CCS’s GitHub account does this, under the repository’s <span class="ui">Settings → Collaborators and teams</span>.</p>
+
+<h3>Steps</h3>
+<ol class="steps">
+  <li><span>Open <code>www.libertylighthouse.in/admin/</code>. If that address does not load, use <code>liberty-lighthouse.vercel.app/admin/</code>, which is the same CMS.</span></li>
+  <li><span>Click <span class="ui">Login with GitHub</span>. A small window opens. If nothing happens, your browser blocked the pop-up: allow pop-ups for the site and click again.</span></li>
+  <li><span>Sign in to GitHub in that window.</span></li>
+  <li><span>The first time only, GitHub asks you to authorise <b>Liberty Lighthouse CMS</b> to use your account. Click <span class="ui">Authorize</span>. The window closes and the CMS opens.</span></li>
+</ol>
+<figure class="shot"><div class="frame"><img src="img/01-login--01-admin-login.webp" width="1800" height="1125" loading="lazy" alt="The sign-in screen at liberty-lighthouse.vercel.app/admin"></div><figcaption>The sign-in screen at liberty-lighthouse.vercel.app/admin</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/01-login--02-github-signin.webp" width="1800" height="1368" loading="lazy" alt="GitHub’s sign-in window. It names Liberty Lighthouse CMS, so you know the request comes from the CMS."></div><figcaption>GitHub’s sign-in window. It names Liberty Lighthouse CMS, so you know the request comes from the CMS.</figcaption></figure>
+
+<div class="note tip"><span class="title">Signing out</span><p>Click the round account icon at the top right, then <span class="ui">Log Out</span>. Sign out on shared computers.</p></div>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="around">
+<header><span class="chno">Chapter 3</span><h2>Finding your way around</h2></header>
+<p>After signing in you land on the dashboard. The numbers in the orange circles on each screenshot match the numbers in its caption.</p>
+<figure class="shot"><div class="frame"><img src="img/02-tour--01-dashboard.webp" width="1800" height="1125" loading="lazy" alt="The dashboard: Contents and Media tabs (1), the collections (2), Quick add (3) and your account menu (4)"></div><figcaption>The dashboard: Contents and Media tabs (1), the collections (2), Quick add (3) and your account menu (4)</figcaption></figure>
+<p>Click a collection to see its entries. Each collection has the same controls.</p>
+<figure class="shot"><div class="frame"><img src="img/02-tour--02-faq-list.webp" width="1800" height="1125" loading="lazy" alt="A collection: the add button (1), Sort by (2), list or grid view (3), and every entry (4)"></div><figcaption>A collection: the add button (1), Sort by (2), list or grid view (3), and every entry (4)</figcaption></figure>
+<div class="pair">
+<figure class="shot"><div class="frame"><img src="img/02-tour--03-sort-menu.webp" width="1800" height="1125" loading="lazy" alt="Sort by sorts the list. The choices depend on the collection."></div><figcaption>Sort by sorts the list. The choices depend on the collection.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/02-tour--05-quick-add.webp" width="1800" height="1125" loading="lazy" alt="Quick add starts a new Topic, FAQ, Video or glossary Term from anywhere"></div><figcaption>Quick add starts a new Topic, FAQ, Video or glossary Term from anywhere</figcaption></figure>
+</div>
+<figure class="shot"><div class="frame"><img src="img/02-tour--04-search.webp" width="1800" height="1125" loading="lazy" alt="Search all looks through every collection at once"></div><figcaption>Search all looks through every collection at once</figcaption></figure>
+
+<h3>The editor</h3>
+<p>Clicking an entry opens the editor. The left side holds the fields, each with a short hint underneath. The right side is a preview of how the entry will look, updated as you type.</p>
+<figure class="shot"><div class="frame"><img src="img/02-tour--06-editor.webp" width="1800" height="1125" loading="lazy" alt="An existing FAQ: back to the list (1), save status (2), the Published menu (3), a field with its hint (4), the live preview (5) and Delete entry (6)"></div><figcaption>An existing FAQ: back to the list (1), save status (2), the Published menu (3), a field with its hint (4), the live preview (5) and Delete entry (6)</figcaption></figure>
+<p>The status under the collection name tells you where you stand:</p>
+<ul>
+  <li><b>CHANGES SAVED</b> (green): everything on screen is saved.</li>
+  <li><b>UNSAVED CHANGES</b> (red): you changed something that is not saved yet. Publish to save it. If you leave the page, the browser asks “Are you sure you want to leave this page?”. Answer <span class="ui">Cancel</span> to stay and keep your work.</li>
+</ul>
+<div class="pair">
+<figure class="shot"><div class="frame"><img src="img/02-tour--07-preview-controls.webp" width="1800" height="1125" loading="lazy" alt="Hide or show the preview (1) and keep both sides scrolling together (2)"></div><figcaption>Hide or show the preview (1) and keep both sides scrolling together (2)</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/02-tour--08-published-menu.webp" width="1800" height="1125" loading="lazy" alt="On a published entry the menu offers Duplicate: a copy to start a similar entry from"></div><figcaption>On a published entry the menu offers Duplicate: a copy to start a similar entry from</figcaption></figure>
+</div>
+<div class="note warn"><span class="title">The preview is a guide</span><p>The preview shows the content and its formatting, but not exactly the finished page. Always check the real page on the site after publishing. Topic previews, for example, show the syllabus as plain text with its <code>##</code> marks.</p></div>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="faq">
+<header><span class="chno">Chapter 4</span><h2>Adding an FAQ</h2></header>
+<p>This chapter follows one practice FAQ from a blank form to a live page. It uses every formatting tool once, so you can see what each one does.</p>
+
+<h3>Start a new FAQ</h3>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--01-new-faq-button.webp" width="1800" height="1125" loading="lazy" alt="Open FAQs and click + FAQ (or use Quick add → FAQ)"></div><figcaption>Open FAQs and click + FAQ (or use Quick add → FAQ)</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--02-empty-form.webp" width="1800" height="1125" loading="lazy" alt="A blank FAQ. The fields are on the left, and the preview on the right fills in as you type."></div><figcaption>A blank FAQ. The fields are on the left, and the preview on the right fills in as you type.</figcaption></figure>
+
+<h3>Topic, question and order</h3>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--03-topic-open.webp" width="1800" height="1125" loading="lazy" alt="Topic: click the box and pick the topic this FAQ belongs to. You can type to filter the list."></div><figcaption>Topic: click the box and pick the topic this FAQ belongs to. You can type to filter the list.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--04-question-order.webp" width="1800" height="1125" loading="lazy" alt="Question (1): type it exactly as readers should see it. Display order (2): lower numbers come first."></div><figcaption>Question (1): type it exactly as readers should see it. Display order (2): lower numbers come first.</figcaption></figure>
+<ul>
+  <li><b>Question.</b> Write it in full, with its question mark, exactly as readers should see it. It also sets the page’s web address, so get it right before the first publish. <code>Why do government schools underperform?</code> becomes <code>/topics/education/faq/why-do-government-schools-underperform/</code>.</li>
+  <li><b>Display order.</b> Lower numbers come first in the topic’s list. Number in tens (10, 20, 30) so you can slot a new FAQ in later without renumbering the others.</li>
+</ul>
+
+<h3>Draft</h3>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--05-draft-on.webp" width="1800" height="1125" loading="lazy" alt="Draft switched on: the entry is saved but readers cannot see it"></div><figcaption>Draft switched on: the entry is saved but readers cannot see it</figcaption></figure>
+<p>Switch Draft on while you write. You can publish as often as you like and nothing appears on the site until you switch it off.</p>
+
+<h3>Related FAQs and videos</h3>
+<p>These add a <b>Related Resources</b> box at the foot of the page. They are optional. You can link to any FAQ or video, in any topic.</p>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--06-related-faqs-search.webp" width="1800" height="1125" loading="lazy" alt="Related FAQs: start typing a question, then click the one you want. You can add several."></div><figcaption>Related FAQs: start typing a question, then click the one you want. You can add several.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--07-related-chosen.webp" width="1800" height="1125" loading="lazy" alt="Chosen links show as chips. Click the × on a chip to remove it."></div><figcaption>Chosen links show as chips. Click the × on a chip to remove it.</figcaption></figure>
+
+<h3>Writing the answer</h3>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--08-toolbar.webp" width="1800" height="1125" loading="lazy" alt="The Answer toolbar: Bold, Italic, Strikethrough, Code, Link (1), Headings (2), Quote and lists (3), Add Component (4) for images, and Rich Text / Markdown (5)"></div><figcaption>The Answer toolbar: Bold, Italic, Strikethrough, Code, Link (1), Headings (2), Quote and lists (3), Add Component (4) for images, and Rich Text / Markdown (5)</figcaption></figure>
+<p>Write as you would in a word processor: Enter starts a new paragraph. If you paste from Word or Google Docs, check the formatting in the preview afterwards, especially headings.</p>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--09-headings-menu.webp" width="1800" height="1125" loading="lazy" alt="Headings: use Heading 2 for sections and Heading 3 for sub-sections. Never Heading 1: the question is already the page heading."></div><figcaption>Headings: use Heading 2 for sections and Heading 3 for sub-sections. Never Heading 1: the question is already the page heading.</figcaption></figure>
+
+<h4>Links</h4>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--10-link-select.webp" width="1800" height="1125" loading="lazy" alt="To add a link, select the words first, then click Link. A small box asks for the address: paste it and press OK."></div><figcaption>To add a link, select the words first, then click Link. A small box asks for the address: paste it and press OK.</figcaption></figure>
+<ol class="steps">
+  <li><span>Select the words that should become the link.</span></li>
+  <li><span>Click the Link button (the chain icon).</span></li>
+  <li><span>A small box from your browser asks “Enter the URL of the link”. Paste the full address, starting with <code>https://</code>, and click <span class="ui">OK</span>.</span></li>
+</ol>
+<p>Links to other websites open in a new tab on the site automatically.</p>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--11-formatted.webp" width="1800" height="1125" loading="lazy" alt="Heading, bold, link and a list in the editor (1) and in the preview (2)"></div><figcaption>Heading, bold, link and a list in the editor (1) and in the preview (2)</figcaption></figure>
+
+<h4>Images</h4>
+<p>Prepare the image first: <b>800 to 1200 pixels wide</b> and <b>under 200 KB</b>. A JPG suits photographs and a PNG suits charts.</p>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--12-add-component.webp" width="1800" height="1125" loading="lazy" alt="To add an image, click Add Component and choose Image"></div><figcaption>To add an image, click Add Component and choose Image</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--13-image-block.webp" width="1800" height="1125" loading="lazy" alt="An image block appears inside the answer, with its own image picker (1), Alt text (2) and Title (3)"></div><figcaption>An image block appears inside the answer, with its own image picker (1), Alt text (2) and Title (3)</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--14-media-library.webp" width="1800" height="1125" loading="lazy" alt="The image library. Click Upload to add a picture from your computer, or click one already there."></div><figcaption>The image library. Click Upload to add a picture from your computer, or click one already there.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--15-uploaded.webp" width="1800" height="1125" loading="lazy" alt="The upload is selected (1). Click Choose selected (2)."></div><figcaption>The upload is selected (1). Click Choose selected (2).</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--16-alt-text.webp" width="1800" height="1125" loading="lazy" alt="Alt text (1) describes what the image shows, for screen readers and search engines. Never leave it empty. Title (2) is optional."></div><figcaption>Alt text (1) describes what the image shows, for screen readers and search engines. Never leave it empty. Title (2) is optional.</figcaption></figure>
+<div class="note stop"><span class="title">Write real alt text</span><p>Alt text is what a blind reader hears in place of the picture, and what search engines read. Describe what the image shows and its main point. “A bar chart showing that 70 per cent of families pay less than 1,000 rupees a month in school fees” is useful. “Chart” or the file name is not.</p></div>
+<p>Put the image’s source on its own line straight after it, in italics, starting with <i>Source:</i>. Link the source’s name to where it came from, as the existing FAQs do.</p>
+
+<h4>Tables</h4>
+<p>Never upload a picture of a table. A picture cannot be read aloud, searched or resized on a phone. Turn it into a real table instead:</p>
+<ol class="steps">
+  <li><span>Paste the table image into ChatGPT, Claude or Gemini with this prompt:</span></li>
+</ol>
+<pre>Convert this table image into a plain HTML table. Only output the &lt;table&gt; element with &lt;thead&gt;, &lt;tbody&gt;, &lt;th&gt;, and &lt;td&gt; tags. Do not include any CSS, classes, or styling attributes.</pre>
+<ol class="steps" start="2" style="counter-reset: step 1">
+  <li><span>Check the numbers against the original. AI tools sometimes misread a digit.</span></li>
+  <li><span>In the answer, flip the <span class="ui">Rich Text / Markdown</span> switch to Markdown, click where the table should go, and paste.</span></li>
+  <li><span>Flip back to Rich Text. The table’s code stays visible as plain lines in the editor, which is normal. The preview and the site show a proper table. Leave those lines alone in Rich Text mode, and edit them only in Markdown mode.</span></li>
+</ol>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--17-markdown-mode.webp" width="1800" height="1125" loading="lazy" alt="Markdown mode (1) shows the answer as plain text (2). Use it to paste a table as HTML and to add the italic Source line under an image."></div><figcaption>Markdown mode (1) shows the answer as plain text (2). Use it to paste a table as HTML and to add the italic Source line under an image.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--18-preview-full.webp" width="1800" height="1125" loading="lazy" alt="Back in Rich Text. The preview shows the image, its source line and the table."></div><figcaption>Back in Rich Text. The preview shows the image, its source line and the table.</figcaption></figure>
+
+<h3>Publish</h3>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--19-publish-menu.webp" width="1800" height="1125" loading="lazy" alt="Publish now saves the entry. Publish and create new saves it and opens a blank one. Publish and duplicate saves it and opens a copy."></div><figcaption>Publish now saves the entry. Publish and create new saves it and opens a blank one. Publish and duplicate saves it and opens a copy.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--20-published.webp" width="1800" height="1125" loading="lazy" alt="Saved. The status reads CHANGES SAVED and the button now says Published."></div><figcaption>Saved. The status reads CHANGES SAVED and the button now says Published.</figcaption></figure>
+<p>Because Draft was on, the page does not exist on the site yet:</p>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--21-site-draft.webp" width="1800" height="1125" loading="lazy" alt="With Draft on, the FAQ’s address shows Page Not Found: readers cannot reach it"></div><figcaption>With Draft on, the FAQ’s address shows Page Not Found: readers cannot reach it</figcaption></figure>
+<p>When the FAQ is ready, switch Draft off and publish again:</p>
+<figure class="shot"><div class="frame"><img src="img/03-faq-create--22-draft-off.webp" width="1800" height="1125" loading="lazy" alt="When it is ready, switch Draft off (1). The status turns to UNSAVED CHANGES (2) until you publish."></div><figcaption>When it is ready, switch Draft off (1). The status turns to UNSAVED CHANGES (2) until you publish.</figcaption></figure>
+<figure class="shot tall"><div class="frame"><img src="img/03-faq-create--23-site-live.webp" width="1300" height="3283" loading="lazy" alt="Published with Draft off: the FAQ is on the site. On the live site this takes about two minutes, while the site rebuilds."></div><figcaption>Published with Draft off: the FAQ is on the site. On the live site this takes about two minutes, while the site rebuilds.</figcaption></figure>
+<figure class="shot tall"><div class="frame"><img src="img/03-faq-create--24-site-list.webp" width="1300" height="2143" loading="lazy" alt="It also appears in the topic’s FAQ list, in the place its Display order gives it"></div><figcaption>It also appears in the topic’s FAQ list, in the place its Display order gives it</figcaption></figure>
+<div class="note tip"><span class="title">Share images are automatic</span><p>Each FAQ gets its own share card, the picture shown when someone posts the link on WhatsApp, LinkedIn or X. Leave the <span class="ui">Share image</span> field at the top of the form empty unless you want to replace that card (chapter 11).</p></div>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="manage">
+<header><span class="chno">Chapter 5</span><h2>Editing, hiding and deleting</h2></header>
+<h3>Edit</h3>
+<figure class="shot"><div class="frame"><img src="img/04-faq-manage--01-find-entry.webp" width="1800" height="1125" loading="lazy" alt="To edit an entry, find it in its collection or with Search all, then click it"></div><figcaption>To edit an entry, find it in its collection or with Search all, then click it</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/04-faq-manage--02-edited.webp" width="1800" height="1125" loading="lazy" alt="Change any field. The status turns to UNSAVED CHANGES (1) and the button back to Publish (2)."></div><figcaption>Change any field. The status turns to UNSAVED CHANGES (1) and the button back to Publish (2).</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/04-faq-manage--03-edit-saved.webp" width="1800" height="1125" loading="lazy" alt="Saved. Editing the question does not change the page address: it keeps the one it was given when first published."></div><figcaption>Saved. Editing the question does not change the page address: it keeps the one it was given when first published.</figcaption></figure>
+<p>The address keeping its original form is deliberate: links people have already shared keep working. If an address really must change, tell Thothica, who can add a redirect from the old address.</p>
+<p>Changing an FAQ’s <b>Topic</b> moves it to the new topic’s list and changes its address to the new topic.</p>
+
+<h3>Duplicate</h3>
+<figure class="shot"><div class="frame"><img src="img/04-faq-manage--04-duplicate-menu.webp" width="1800" height="1125" loading="lazy" alt="Duplicate opens a copy with every field filled in. Handy when a new FAQ is close to an existing one."></div><figcaption>Duplicate opens a copy with every field filled in. Handy when a new FAQ is close to an existing one.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/04-faq-manage--05-duplicate-copy.webp" width="1800" height="1125" loading="lazy" alt="The copy is a new, unsaved entry. Change the question before publishing, or it gets a confusing address."></div><figcaption>The copy is a new, unsaved entry. Change the question before publishing, or it gets a confusing address.</figcaption></figure>
+
+<h3>When the CMS refuses to save</h3>
+<figure class="shot"><div class="frame"><img src="img/04-faq-manage--06-missing-field.webp" width="1800" height="1125" loading="lazy" alt="If a required field is empty, nothing is saved. The CMS shows a red notice and marks the field. Fill it in and publish again."></div><figcaption>If a required field is empty, nothing is saved. The CMS shows a red notice and marks the field. Fill it in and publish again.</figcaption></figure>
+<p>The notice reads “Oops, you’ve missed a required field. Please complete before saving.” Scroll up to find the field marked in red. Fields refuse a value in the wrong format in the same way, for example a full YouTube link where only the code belongs. The message under the field says what it wants.</p>
+
+<h3>Hide or delete</h3>
+<ul>
+  <li><b>To take a page down for now</b>, switch on <span class="ui">Draft</span> and publish. The page disappears from the site, and you can bring it back by switching Draft off.</li>
+  <li><b>To remove it for good</b>, use <span class="ui">Delete entry</span>. The browser asks “Are you sure you want to delete this published entry?”. Click <span class="ui">OK</span>.</li>
+</ul>
+<figure class="shot"><div class="frame"><img src="img/04-faq-manage--07-delete-button.webp" width="1800" height="1125" loading="lazy" alt="Delete entry removes the FAQ from the site. Use Draft instead if you might want it back."></div><figcaption>Delete entry removes the FAQ from the site. Use Draft instead if you might want it back.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/04-faq-manage--08-after-delete.webp" width="1800" height="1125" loading="lazy" alt="Back in the list: the FAQ is gone. On the live site its page disappears at the next rebuild, about two minutes later."></div><figcaption>Back in the list: the FAQ is gone. On the live site its page disappears at the next rebuild, about two minutes later.</figcaption></figure>
+<div class="note warn"><span class="title">Deleting is a last resort</span><p>Every link to the deleted page, from other sites and from shared messages, then lands on “Page not found”. Images uploaded into the FAQ are not deleted with it. If a deletion was a mistake, Thothica can restore the entry from GitHub’s history.</p></div>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="videos">
+<header><span class="chno">Chapter 6</span><h2>Videos</h2></header>
+<p>The site plays videos from YouTube, so upload the video to CCS’s YouTube channel first. In the CMS you add an entry that points to it.</p>
+<figure class="shot"><div class="frame"><img src="img/05-video--01-quick-add-video.webp" width="1800" height="1125" loading="lazy" alt="Quick add → Video starts a new video entry"></div><figcaption>Quick add → Video starts a new video entry</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/05-video--02-topic-title.webp" width="1800" height="1125" loading="lazy" alt="Topic (1) and Title (2): the title as it should appear on the site, not necessarily the YouTube title"></div><figcaption>Topic (1) and Title (2): the title as it should appear on the site, not necessarily the YouTube title</figcaption></figure>
+
+<h3>The YouTube ID</h3>
+<p>The site needs only the video’s 11-character code, not its full link.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>Link from YouTube</th><th>Paste only</th></tr></thead>
+<tbody>
+<tr><td><code>youtube.com/watch?v=<b>dQw4w9WgXcQ</b></code></td><td><code>dQw4w9WgXcQ</code></td></tr>
+<tr><td><code>youtu.be/<b>dQw4w9WgXcQ</b></code></td><td><code>dQw4w9WgXcQ</code></td></tr>
+<tr><td><code>youtube.com/shorts/<b>09GvULQCxF0</b></code></td><td><code>09GvULQCxF0</code></td></tr>
+</tbody></table></div>
+<p>Leave out anything after the code, such as <code>&amp;t=30s</code> or <code>?si=…</code>.</p>
+<div class="pair">
+<figure class="shot"><div class="frame"><img src="img/05-video--03-youtube-id-wrong.webp" width="1800" height="1125" loading="lazy" alt="Pasting the whole YouTube link is refused: the field wants only the 11-character code"></div><figcaption>Pasting the whole YouTube link is refused: the field wants only the 11-character code</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/05-video--04-youtube-id-right.webp" width="1800" height="1125" loading="lazy" alt="Just the code. For youtube.com/watch?v=CODE take what follows v=. For youtube.com/shorts/CODE take what follows shorts/."></div><figcaption>Just the code. For youtube.com/watch?v=CODE take what follows v=. For youtube.com/shorts/CODE take what follows shorts/.</figcaption></figure>
+</div>
+
+<h3>Format, orientation and details</h3>
+<div class="pair">
+<figure class="shot"><div class="frame"><img src="img/05-video--05-format.webp" width="1800" height="1125" loading="lazy" alt="Format: Video for ordinary YouTube videos, Short for YouTube Shorts"></div><figcaption>Format: Video for ordinary YouTube videos, Short for YouTube Shorts</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/05-video--06-orientation.webp" width="1800" height="1125" loading="lazy" alt="Orientation only matters for Videos. Choose Vertical for a portrait video. Shorts are always vertical."></div><figcaption>Orientation only matters for Videos. Choose Vertical for a portrait video. Shorts are always vertical.</figcaption></figure>
+</div>
+<figure class="shot"><div class="frame"><img src="img/05-video--07-duration-wrong.webp" width="1800" height="1125" loading="lazy" alt="Duration must be minutes and seconds, like 0:58 or 18:42, or hours too, like 1:05:30. “58” on its own is refused."></div><figcaption>Duration must be minutes and seconds, like 0:58 or 18:42, or hours too, like 1:05:30. “58” on its own is refused.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/05-video--08-details.webp" width="1800" height="1125" loading="lazy" alt="Short description (1) shows on the video card. Duration (2) and Speaker (3) are optional. Display order (4) sets the position in the list."></div><figcaption>Short description (1) shows on the video card. Duration (2) and Speaker (3) are optional. Display order (4) sets the position in the list.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/05-video--09-related-notes.webp" width="1800" height="1125" loading="lazy" alt="Related FAQs and videos (1) work as on an FAQ. Extended notes (2) are optional and use the same editor as an FAQ answer."></div><figcaption>Related FAQs and videos (1) work as on an FAQ. Extended notes (2) are optional and use the same editor as an FAQ answer.</figcaption></figure>
+
+<h3>Publish and check</h3>
+<figure class="shot"><div class="frame"><img src="img/05-video--11-site-video.webp" width="1800" height="1125" loading="lazy" alt="The video page on the site, with the player, description and related FAQ"></div><figcaption>The video page on the site, with the player, description and related FAQ</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/05-video--12-site-video-list.webp" width="1300" height="1406" loading="lazy" alt="Education now has a Videos list"></div><figcaption>Education now has a Videos list</figcaption></figure>
+<p>Videos use the same <span class="ui">Draft</span> switch, Publish menu and Delete entry button as FAQs (chapter 5).</p>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="topics">
+<header><span class="chno">Chapter 7</span><h2>Topics and guided syllabi</h2></header>
+<p>A topic is a theme, such as Education or Agriculture. Every FAQ and video belongs to one. You will mostly come here to edit a topic’s <b>guided syllabus</b>, its reading list. Add a new topic only when CCS starts a new theme.</p>
+<figure class="shot"><div class="frame"><img src="img/06-topic--01-topics-list.webp" width="1800" height="1125" loading="lazy" alt="Topics are the themes everything else hangs from. Add one only when CCS starts a new theme."></div><figcaption>Topics are the themes everything else hangs from. Add one only when CCS starts a new theme.</figcaption></figure>
+
+<h3>A new topic</h3>
+<figure class="shot"><div class="frame"><img src="img/06-topic--02-slug-wrong.webp" width="1800" height="1125" loading="lazy" alt="URL slug becomes part of the web address. Capitals and spaces are refused."></div><figcaption>URL slug becomes part of the web address. Capitals and spaces are refused.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/06-topic--03-name-slug-description.webp" width="1800" height="1125" loading="lazy" alt="Topic name (1), URL slug in lowercase with hyphens (2), and a one- or two-sentence description (3)"></div><figcaption>Topic name (1), URL slug in lowercase with hyphens (2), and a one- or two-sentence description (3)</figcaption></figure>
+<div class="note stop"><span class="title">Choose the URL slug once</span><p>The URL slug is in the address of the topic and of every FAQ and video under it. Use the topic name in lowercase, with hyphens for spaces: <code>property-rights</code>, not <code>Property Rights</code>. Never change it after FAQs have been added to the topic, or all their addresses change.</p></div>
+<div class="pair">
+<figure class="shot"><div class="frame"><img src="img/06-topic--04-icon.webp" width="1800" height="1125" loading="lazy" alt="Icon: pick the one closest to the theme"></div><figcaption>Icon: pick the one closest to the theme</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/06-topic--05-order.webp" width="1800" height="1125" loading="lazy" alt="Display order sets where the topic sits on the homepage and the topics list. Lower numbers come first."></div><figcaption>Display order sets where the topic sits on the homepage and the topics list. Lower numbers come first.</figcaption></figure>
+</div>
+
+<h3>Writing the guided syllabus</h3>
+<p>Follow the pattern the existing syllabi use: a Heading 2 for each kind of resource, then a numbered list. Each item is the title as a link, then a dash and the author.</p>
+<pre>## Books
+
+1. [The Beautiful Tree](https://www.amazon.in/dp/B00ELPRLC0) — James Tooley
+
+## Academic Papers
+
+1. [Teacher Absence in India: A Snapshot](https://academic.oup.com/…) — Michael Kremer and others</pre>
+<p>Use the section names the other topics use, so the syllabi read alike: <b>Books</b>, <b>Academic Papers</b>, <b>Reports</b>, <b>Articles &amp; Blog Posts</b> and <b>Podcasts &amp; Videos</b>, plus <b>Legal Cases</b> or <b>Legal Statutes</b> where a topic needs them. Do not make a heading bold as well: it is already a heading.</p>
+<figure class="shot"><div class="frame"><img src="img/06-topic--06-syllabus-markdown.webp" width="1800" height="1125" loading="lazy" alt="The guided syllabus in Markdown mode: a Heading 2 for each kind of resource, then a numbered list of links with the author after a dash"></div><figcaption>The guided syllabus in Markdown mode: a Heading 2 for each kind of resource, then a numbered list of links with the author after a dash</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/06-topic--07-syllabus-rich.webp" width="1800" height="1125" loading="lazy" alt="The same syllabus in Rich Text mode. Write it in whichever mode you prefer. Images are switched off here."></div><figcaption>The same syllabus in Rich Text mode. Write it in whichever mode you prefer. Images are switched off here.</figcaption></figure>
+
+<h3>On the site</h3>
+<div class="pair">
+<figure class="shot"><div class="frame"><img src="img/06-topic--10-site-topic.webp" width="1300" height="1230" loading="lazy" alt="The topic’s own page. FAQs and videos appear here once they are given this topic."></div><figcaption>The topic’s own page. FAQs and videos appear here once they are given this topic.</figcaption></figure>
+<figure class="shot tall"><div class="frame"><img src="img/06-topic--11-site-syllabus.webp" width="1300" height="1660" loading="lazy" alt="The guided syllabus page"></div><figcaption>The guided syllabus page</figcaption></figure>
+</div>
+<div class="note warn"><span class="title">Before deleting a topic</span><p>Move its FAQs and videos to another topic, or delete them, first. When the practice deletion was tested, the topic’s FAQ pages stayed online but vanished from every list, so readers could reach them only by direct link or search.</p></div>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="glossary">
+<header><span class="chno">Chapter 8</span><h2>Glossary</h2></header>
+<p>A glossary term does two jobs. It gets its own page under <code>/glossary/</code>. And wherever the term or one of its aliases appears in an FAQ or a video’s notes, the site turns it into a link with a pop-up definition, automatically.</p>
+<figure class="shot"><div class="frame"><img src="img/07-glossary--01-glossary-list.webp" width="1800" height="1125" loading="lazy" alt="Glossary terms. Each one gets its own page, and wherever the term appears in an FAQ or video, it becomes a link with a pop-up definition."></div><figcaption>Glossary terms. Each one gets its own page, and wherever the term appears in an FAQ or video, it becomes a link with a pop-up definition.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/07-glossary--02-definition-too-long.webp" width="1800" height="1125" loading="lazy" alt="The short definition has a 280-character limit. Anything longer is refused."></div><figcaption>The short definition has a 280-character limit. Anything longer is refused.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/07-glossary--03-term-definition.webp" width="1800" height="1125" loading="lazy" alt="Term (1): the name as it should appear. Short definition (2): one or two lines, shown in the pop-up and the glossary list."></div><figcaption>Term (1): the name as it should appear. Short definition (2): one or two lines, shown in the pop-up and the glossary list.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/07-glossary--04-aliases.webp" width="1800" height="1125" loading="lazy" alt="Aliases: other ways the term is written. Click Add for each one. Matching ignores capitals."></div><figcaption>Aliases: other ways the term is written. Click Add for each one. Matching ignores capitals.</figcaption></figure>
+<div class="note stop"><span class="title">An alias can belong to only one term</span><p>If two terms share a word, for example two terms both listing “Minimum Support Price”, the site cannot be rebuilt. It stays on its last good version, and <b>nobody’s changes go live</b> until the clash is removed. Before adding an alias, search the Glossary for it. This was tested: the clash stopped the build with “alias collision”.</p></div>
+<figure class="shot"><div class="frame"><img src="img/07-glossary--05-related.webp" width="1800" height="1125" loading="lazy" alt="Related terms (1), FAQs (2) and videos (3) are hand-picked links for the term’s page"></div><figcaption>Related terms (1), FAQs (2) and videos (3) are hand-picked links for the term’s page</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/07-glossary--06-citations.webp" width="1800" height="1125" loading="lazy" alt="Recommended reading: click Add, then fill in the title, the full web address starting with https://, and the author"></div><figcaption>Recommended reading: click Add, then fill in the title, the full web address starting with https://, and the author</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/07-glossary--07-long-explanation.webp" width="1800" height="1125" loading="lazy" alt="Long explanation: optional, shown only on the term’s own page"></div><figcaption>Long explanation: optional, shown only on the term’s own page</figcaption></figure>
+
+<h3>On the site</h3>
+<figure class="shot"><div class="frame"><img src="img/07-glossary--08-site-term.webp" width="1800" height="1125" loading="lazy" alt="The term’s page, with its definition, explanation, related links, reading list and the FAQs that mention it"></div><figcaption>The term’s page, with its definition, explanation, related links, reading list and the FAQs that mention it</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/07-glossary--09-site-autolink.webp" width="1800" height="1125" loading="lazy" alt="On an FAQ that mentions “absenteeism”, the first mention is now a dotted link. Hovering shows the short definition."></div><figcaption>On an FAQ that mentions “absenteeism”, the first mention is now a dotted link. Hovering shows the short definition.</figcaption></figure>
+
+<h3>How the automatic links behave</h3>
+<ul>
+  <li>Only the <b>first mention</b> on each page becomes a link, so pages do not fill up with dotted underlines.</li>
+  <li>Capitals do not matter: <i>MSP</i>, <i>msp</i> and <i>Msp</i> all match.</li>
+  <li>Mentions inside headings, existing links and code are left alone.</li>
+  <li>A term never links to itself on its own page.</li>
+  <li>Draft terms do not link anywhere.</li>
+  <li>To stop one mention linking, so the link falls on a better mention further down, switch the answer to Markdown mode and wrap the words like this: <code>&lt;span data-no-gloss&gt;MSP&lt;/span&gt;</code>.</li>
+</ul>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="comments">
+<header><span class="chno">Chapter 9</span><h2>Moderating comments</h2></header>
+<p>Readers can comment under any FAQ, video or glossary term after signing in with GitHub. <b>Nothing appears until someone at CCS approves it.</b></p>
+<h3>How a comment reaches you</h3>
+<ol class="steps">
+  <li><span>A reader writes a comment on the site and submits it.</span></li>
+  <li><span>Within a minute or two, an automatic process files it in the CMS under <span class="ui">Comments</span>, marked <b>PENDING</b>.</span></li>
+  <li><span>You approve, reject or delete it. Check for pending comments regularly: readers are told comments are reviewed.</span></li>
+</ol>
+<figure class="shot"><div class="frame"><img src="img/08-comments--01-comments-list.webp" width="1800" height="1125" loading="lazy" alt="New comments arrive here marked PENDING. Nothing is shown on the site until you approve it."></div><figcaption>New comments arrive here marked PENDING. Nothing is shown on the site until you approve it.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/08-comments--02-filter.webp" width="1800" height="1125" loading="lazy" alt="Filter by narrows the list to Pending, Approved or Rejected comments"></div><figcaption>Filter by narrows the list to Pending, Approved or Rejected comments</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/08-comments--03-comment-open.webp" width="1800" height="1125" loading="lazy" alt="A comment: its status (1), the page it was left on (2), who wrote it (3) and the text (4)"></div><figcaption>A comment: its status (1), the page it was left on (2), who wrote it (3) and the text (4)</figcaption></figure>
+
+<h3>The three choices</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Choice</th><th>How</th><th>Use it for</th></tr></thead>
+<tbody>
+<tr><td>Approve</td><td>Set Status to <b>approved</b>, then Publish. Live in about two minutes.</td><td>Comments that are on topic and civil, including ones that disagree with CCS.</td></tr>
+<tr><td>Reject</td><td>Set Status to <b>rejected</b>, then Publish. Stays hidden, and a record is kept.</td><td>Off-topic or low-quality comments that are not abusive.</td></tr>
+<tr><td>Delete</td><td><span class="ui">Delete entry</span>, then OK. Removed from the CMS entirely.</td><td>Spam, abuse, harassment, personal details, anything that should not be kept.</td></tr>
+</tbody></table></div>
+<figure class="shot"><div class="frame"><img src="img/08-comments--04-status-menu.webp" width="1800" height="1125" loading="lazy" alt="To publish it, set Status to approved"></div><figcaption>To publish it, set Status to approved</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/08-comments--06-site-comment.webp" width="1800" height="1125" loading="lazy" alt="The approved comment under the FAQ"></div><figcaption>The approved comment under the FAQ</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/08-comments--07-delete-comment.webp" width="1800" height="1125" loading="lazy" alt="For spam, abuse or anything personal, use Delete entry to remove the comment completely. To hide one but keep a record, set Status to rejected instead."></div><figcaption>For spam, abuse or anything personal, use Delete entry to remove the comment completely. To hide one but keep a record, set Status to rejected instead.</figcaption></figure>
+<ul>
+  <li>Comments are plain text. Formatting marks show as typed.</li>
+  <li>You may fix an obvious typo in the Body field. Never rewrite what someone said. Reject or delete instead.</li>
+  <li>Leave the page, name, GitHub username and dates as they are.</li>
+  <li>For severe content, also ask the GitHub account’s manager to delete the original submission on GitHub. Its number is in the comment’s <b>Issue number</b> field. Deleting in the CMS does not remove that copy.</li>
+</ul>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="media">
+<header><span class="chno">Chapter 10</span><h2>Images and the Media library</h2></header>
+<p>The <span class="ui">Media</span> tab at the top holds the site’s shared images, the folder the earlier FAQs’ images live in.</p>
+<figure class="shot"><div class="frame"><img src="img/09-media-settings--01-media-tab.webp" width="1800" height="1125" loading="lazy" alt="Media holds the images in the shared folder: Upload (1) adds one, Search (2) finds one by file name"></div><figcaption>Media holds the images in the shared folder: Upload (1) adds one, Search (2) finds one by file name</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/09-media-settings--02-media-selected.webp" width="1800" height="1125" loading="lazy" alt="Click an image to select it. Copy (1) copies its address, to paste into Insert from URL. Download (2) saves it. Delete selected (3) removes it."></div><figcaption>Click an image to select it. Copy (1) copies its address, to paste into Insert from URL. Download (2) saves it. Delete selected (3) removes it.</figcaption></figure>
+<h3>Where images end up</h3>
+<ul>
+  <li>An image uploaded with <span class="ui">Choose an image</span> inside an FAQ answer is stored alongside that FAQ. It does not appear in the Media tab.</li>
+  <li>To reuse an image from the Media tab in an answer, select it in Media, click <span class="ui">Copy Path</span>, then in the image block click <span class="ui">Insert from URL</span> and paste.</li>
+  <li>Share images (chapter 11) go in a folder of their own.</li>
+  <li>Deleting an entry does not delete its images. Delete an image from Media only when you are sure no page uses it: a page using a deleted image shows a broken picture.</li>
+</ul>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="settings">
+<header><span class="chno">Chapter 11</span><h2>Site Settings and share images</h2></header>
+<p>Site Settings change the whole site at once, at the next rebuild. Most never need touching. Change one thing at a time, then check the site.</p>
+<figure class="shot"><div class="frame"><img src="img/09-media-settings--03-settings.webp" width="1800" height="1125" loading="lazy" alt="Site Settings: five pages of settings that apply across the whole site"></div><figcaption>Site Settings: five pages of settings that apply across the whole site</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/09-media-settings--05-settings-typography-fonts.webp" width="1800" height="1125" loading="lazy" alt="Typography &amp; Fonts: the site’s fonts are fixed to the CCS faces. Sizes and line spacing can be adjusted here. Change them sparingly."></div><figcaption>Typography &amp; Fonts: the site’s fonts are fixed to the CCS faces. Sizes and line spacing can be adjusted here. Change them sparingly.</figcaption></figure>
+<p>The fonts are fixed to the site’s faces (EB Garamond for headings, Roboto for text). The sizes can move within set limits. Each hint says which parts of the site a setting affects, and gives its default value so you can put it back.</p>
+<figure class="shot"><div class="frame"><img src="img/09-media-settings--06-settings-colors-theme.webp" width="1800" height="1125" loading="lazy" alt="Colors &amp; Theme: one choice, Comfortable or High contrast. Both are checked for readability."></div><figcaption>Colors &amp; Theme: one choice, Comfortable or High contrast. Both are checked for readability.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/09-media-settings--08-settings-ai-search-crawlers.webp" width="1800" height="1125" loading="lazy" alt="AI &amp; Search Crawlers: allow or block each AI company’s bots. Allowing all is recommended."></div><figcaption>AI &amp; Search Crawlers: allow or block each AI company’s bots. Allowing all is recommended.</figcaption></figure>
+<p>There are two kinds of bot. <b>Training bots</b> learn from the site to improve AI models. <b>Search and chat bots</b> fetch pages to answer someone’s question, with a link back to the site. Allowing all of them helps CCS’s work reach people who ask AI tools about Indian policy. Blocking Google-Extended does not affect Google Search.</p>
+<figure class="shot"><div class="frame"><img src="img/09-media-settings--07-settings-content-guide.webp" width="1800" height="1125" loading="lazy" alt="Content Guide: a quick reference for editors. Nothing here needs editing."></div><figcaption>Content Guide: a quick reference for editors. Nothing here needs editing.</figcaption></figure>
+
+<h3>Share images</h3>
+<p>Every page gets a share card made automatically. You can replace one with your own design:</p>
+<ol class="steps">
+  <li><span>Open <code>/tools/og</code> on the site (for example <code>liberty-lighthouse.vercel.app/tools/og</code>).</span></li>
+  <li><span>Type the eyebrow, headline and button text, and pick a colour.</span></li>
+  <li><span>Click <span class="ui">Download PNG</span>. The card is 1200 × 630 pixels, the size every platform expects.</span></li>
+  <li><span>Upload it to the <span class="ui">Share image</span> field at the top of the FAQ, video or topic. For the home, about, glossary, search and AI pages, use <span class="ui">Site Settings → Share images</span> instead.</span></li>
+</ol>
+<figure class="shot"><div class="frame"><img src="img/09-media-settings--09-og-tool.webp" width="1800" height="1125" loading="lazy" alt="The share-card maker at /tools/og. Choose a page, adjust the card, download the PNG, then upload it to the Share image box."></div><figcaption>The share-card maker at /tools/og. Choose a page, adjust the card, download the PNG, then upload it to the Share image box.</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/09-media-settings--04-settings-share-images.webp" width="1800" height="1125" loading="lazy" alt="Share images: the picture shown when a main page is shared on WhatsApp, LinkedIn or X. Leave a box empty to use the card made automatically."></div><figcaption>Share images: the picture shown when a main page is shared on WhatsApp, LinkedIn or X. Leave a box empty to use the card made automatically.</figcaption></figure>
+<p>WhatsApp and LinkedIn remember a link’s card for some days, so a new card may not show at once in places where the link was shared before.</p>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="automatic">
+<header><span class="chno">Chapter 12</span><h2>What happens on its own</h2></header>
+<p>Some parts of the site update themselves or are managed by Thothica. You will see their changes in the site’s history under the name <b>liberty-lighthouse-bot</b>. Leave them alone.</p>
+<div class="table-wrap"><table>
+<thead><tr><th>What</th><th>When</th><th>What it does</th></tr></thead>
+<tbody>
+<tr><td>Daily update</td><td>Every day, about 9:30 IST</td><td>Copies new posts from CCS’s Spontaneous Order Substack and refreshes the site’s wiki pages. Neither appears in the CMS.</td></tr>
+<tr><td>Comment intake</td><td>Whenever a reader comments</td><td>Files the comment as Pending (chapter 9). Never approves anything.</td></tr>
+<tr><td>Homepage features</td><td>When asked</td><td>The three FAQs featured at the top of the homepage are not set in the CMS. Ask Thothica to change them.</td></tr>
+<tr><td>Share cards, search, AI pages</td><td>Every rebuild</td><td>Share cards, site search, the sitemap and the plain-text copies for AI tools (<code>/llms.txt</code>) rebuild themselves from your content.</td></tr>
+</tbody></table></div>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="trouble">
+<header><span class="chno">Chapter 13</span><h2>When something goes wrong</h2></header>
+<div class="table-wrap"><table>
+<thead><tr><th>What you see</th><th>What to do</th></tr></thead>
+<tbody>
+<tr><td>My change is not on the site</td><td>Wait two to three minutes, then refresh. On a phone, close and reopen the tab. Check that Draft is off. If it is still missing after ten minutes, the rebuild may have failed (next row).</td></tr>
+<tr><td>Nobody’s changes are going live</td><td>A rebuild failed. The site stays on its last good version. The usual cause is two glossary terms sharing an alias (chapter 8). Think about what was published just before the problem started, and tell Thothica.</td></tr>
+<tr><td>“Oops, you’ve missed a required field”</td><td>A required field is empty. Scroll up to the field marked in red.</td></tr>
+<tr><td>A field will not accept what I typed</td><td>Read the red message under it. Usual causes: a full YouTube link instead of the code, a duration not in 18:42 form, a slug with capitals or spaces, a definition over 280 characters, a web address without <code>https://</code>.</td></tr>
+<tr><td>Login with GitHub does nothing</td><td>Allow pop-ups for the site in your browser, then try again.</td></tr>
+<tr><td>I am signed in but cannot save</td><td>Your GitHub account may not have write access to the repository. Ask whoever manages CCS’s GitHub account.</td></tr>
+<tr><td>Two of us edited the same entry</td><td>The second save can fail or overwrite the first. Agree who edits what. Reload an entry before editing it if a colleague may have changed it.</td></tr>
+<tr><td>The site address does not load</td><td>Use <code>liberty-lighthouse.vercel.app</code>, which is the same site and the same CMS, and tell Thothica.</td></tr>
+<tr><td>An image does not appear</td><td>Check the image block has an image chosen, not only alt text. Check it was not deleted from Media.</td></tr>
+<tr><td>I deleted something by mistake</td><td>Tell Thothica straight away, with the title and roughly when. Every change is kept in GitHub’s history, so it can be restored.</td></tr>
+</tbody></table></div>
+<p>For anything else, contact Thothica with the page’s address, what you did, and a screenshot.</p>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="practice">
+<header><span class="chno">Chapter 14</span><h2>Practising, then cleaning up</h2></header>
+<p>The best way to learn the CMS is to repeat this handbook with your own practice entries. Start each title with “Practice” so they are easy to find afterwards, and keep <span class="ui">Draft</span> on so readers never see them. Then delete them:</p>
+<figure class="shot"><div class="frame"><img src="img/10-cleanup--01-find-practice.webp" width="1800" height="1125" loading="lazy" alt="Search all for “Practice” to find every practice entry, whatever collection it is in"></div><figcaption>Search all for “Practice” to find every practice entry, whatever collection it is in</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/10-cleanup--02-delete-practice.webp" width="1800" height="1125" loading="lazy" alt="Open each one and click Delete entry, then confirm"></div><figcaption>Open each one and click Delete entry, then confirm</figcaption></figure>
+<figure class="shot"><div class="frame"><img src="img/10-cleanup--03-all-clean.webp" width="1800" height="1125" loading="lazy" alt="Search again: nothing is left"></div><figcaption>Search again: nothing is left</figcaption></figure>
+<p>Also delete any practice images from <span class="ui">Media</span>, and any practice comment. Delete a practice topic last, after the practice FAQs and videos in it.</p>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<!-- ─────────────────────────────────────────────── -->
+<section class="chapter" id="fields">
+<header><span class="chno">Appendix</span><h2>Every field, explained</h2></header>
+<p>Every field in the CMS, what it does and what it accepts.</p>
+
+<h3>FAQ</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Field</th><th>What it does</th><th>Accepts</th></tr></thead>
+<tbody>
+<tr><td>Share image</td><td>Replaces the automatic share card.</td><td>A 1200 × 630 PNG from /tools/og. Usually left empty.</td></tr>
+<tr><td>Topic<span class="req">Required</span></td><td>The theme the FAQ sits under. Part of its address.</td><td>One topic from the list.</td></tr>
+<tr><td>Question<span class="req">Required</span></td><td>The page heading. Sets the address at first publish.</td><td>The full question, with its question mark.</td></tr>
+<tr><td>Display order<span class="req">Required</span></td><td>Position in the topic’s list.</td><td>A whole number from 1. Lower comes first.</td></tr>
+<tr><td>Draft</td><td>Hides the FAQ from readers.</td><td>On or off.</td></tr>
+<tr><td>Related FAQs</td><td>Links in the Related Resources box.</td><td>Any number of FAQs.</td></tr>
+<tr><td>Related videos</td><td>Links in the Related Resources box.</td><td>Any number of videos.</td></tr>
+<tr><td>Answer<span class="req">Required</span></td><td>The body of the page.</td><td>Rich text: Heading 2 and 3, bold, italics, links, lists, quotes, images, HTML tables.</td></tr>
+</tbody></table></div>
+
+<h3>Video</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Field</th><th>What it does</th><th>Accepts</th></tr></thead>
+<tbody>
+<tr><td>Share image</td><td>Replaces the automatic share card.</td><td>As for FAQs.</td></tr>
+<tr><td>Topic<span class="req">Required</span></td><td>The theme the video sits under.</td><td>One topic.</td></tr>
+<tr><td>Title<span class="req">Required</span></td><td>The video’s heading on the site. Sets the address.</td><td>Text.</td></tr>
+<tr><td>YouTube video ID<span class="req">Required</span></td><td>Which YouTube video to play.</td><td>Exactly 11 characters: letters, numbers, - and _.</td></tr>
+<tr><td>Format</td><td>Ordinary video or Short.</td><td>Video or Short. Default Video.</td></tr>
+<tr><td>Orientation</td><td>Shape of the player, for Videos.</td><td>Horizontal or Vertical. Shorts are always vertical.</td></tr>
+<tr><td>Short description<span class="req">Required</span></td><td>Shown on the video’s card and page.</td><td>One to three sentences.</td></tr>
+<tr><td>Duration</td><td>Shown on the card.</td><td>MM:SS or H:MM:SS, such as 18:42 or 1:05:30.</td></tr>
+<tr><td>Speaker</td><td>Who speaks in the video.</td><td>A name, such as Dr. Parth Shah.</td></tr>
+<tr><td>Display order<span class="req">Required</span></td><td>Position in the topic’s video list.</td><td>A whole number from 1.</td></tr>
+<tr><td>Draft</td><td>Hides the video.</td><td>On or off.</td></tr>
+<tr><td>Related FAQs / videos</td><td>Links in Related Resources.</td><td>Any number.</td></tr>
+<tr><td>Extended notes</td><td>Text under the video.</td><td>Rich text, as for an answer. Optional.</td></tr>
+</tbody></table></div>
+
+<h3>Topic</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Field</th><th>What it does</th><th>Accepts</th></tr></thead>
+<tbody>
+<tr><td>Share image</td><td>Replaces the automatic share card.</td><td>As for FAQs.</td></tr>
+<tr><td>Topic name<span class="req">Required</span></td><td>The theme’s name everywhere on the site.</td><td>Text, such as Agriculture.</td></tr>
+<tr><td>URL slug<span class="req">Required</span></td><td>The topic’s part of every address under it.</td><td>Lowercase letters, numbers and hyphens only.</td></tr>
+<tr><td>Description<span class="req">Required</span></td><td>Shown under the topic’s name.</td><td>One or two sentences.</td></tr>
+<tr><td>Icon</td><td>A small symbol for the topic.</td><td>One of twelve icons.</td></tr>
+<tr><td>Display order<span class="req">Required</span></td><td>Position among the topics.</td><td>A whole number from 1.</td></tr>
+<tr><td>Guided syllabus</td><td>The topic’s reading list page.</td><td>Rich text without images: Heading 2 sections and numbered lists of links.</td></tr>
+</tbody></table></div>
+
+<h3>Glossary term</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Field</th><th>What it does</th><th>Accepts</th></tr></thead>
+<tbody>
+<tr><td>Term<span class="req">Required</span></td><td>The term’s name. Sets its address and is matched in text.</td><td>Text, such as MSP.</td></tr>
+<tr><td>Short definition<span class="req">Required</span></td><td>The pop-up, the glossary list and search results.</td><td>Up to 280 characters.</td></tr>
+<tr><td>Aliases</td><td>Other forms that also link.</td><td>Any number, each up to 60 characters, none used by another term.</td></tr>
+<tr><td>Related terms / FAQs / videos</td><td>Hand-picked links on the term’s page. The page also finds every FAQ that mentions the term by itself.</td><td>Any number.</td></tr>
+<tr><td>Recommended reading</td><td>A reading list on the term’s page.</td><td>Title, a web address starting with https://, and an optional author, for each item.</td></tr>
+<tr><td>Draft</td><td>Hides the term and stops it linking.</td><td>On or off.</td></tr>
+<tr><td>Long explanation</td><td>Fuller text on the term’s own page.</td><td>Rich text. Optional.</td></tr>
+</tbody></table></div>
+
+<h3>Comment</h3>
+<div class="table-wrap"><table>
+<thead><tr><th>Field</th><th>What it does</th><th>Accepts</th></tr></thead>
+<tbody>
+<tr><td>Status</td><td>Whether the comment shows.</td><td>pending, approved or rejected. Only approved shows.</td></tr>
+<tr><td>Page type, Page ID</td><td>Which page the comment belongs to.</td><td>Filled in automatically. Do not change.</td></tr>
+<tr><td>Display name, GitHub username</td><td>Who wrote it, shown with the comment.</td><td>Filled in automatically. Do not change.</td></tr>
+<tr><td>Body</td><td>The comment.</td><td>Plain text, 2 to 5,000 characters. Typo fixes only.</td></tr>
+<tr><td>Submitted at, Approved at</td><td>Dates.</td><td>Filled in automatically.</td></tr>
+<tr><td>Issue number</td><td>The original submission on GitHub.</td><td>Filled in automatically.</td></tr>
+<tr><td>Parent comment ID</td><td>Reserved for replies in future.</td><td>Leave empty.</td></tr>
+</tbody></table></div>
+<a class="back" href="#toc">↑ Contents</a>
+</section>
+
+<footer class="end">Liberty Lighthouse is a project of the Centre for Civil Society. Platform built and managed by Thothica. The screenshots were taken on a copy of the site, so no practice entry ever reached the live site.</footer>
+</main>
+</div>
+<script>
+  // Phones get the contents list folded so the handbook opens on its title;
+  // on wider screens it stays open beside the text.
+  if (window.matchMedia('(max-width: 960px)').matches) document.getElementById('toc').open = false;
+</script>
