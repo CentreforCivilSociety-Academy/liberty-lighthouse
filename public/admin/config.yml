@@ -413,7 +413,7 @@ collections:
         widget: "relation"
         collection: "faqs"
         search_fields: ["question"]
-        value_field: "{{topic}}/{{slug}}"
+        value_field: "{{slug}}"
         display_fields: ["question"]
         multiple: true
         required: false
@@ -423,7 +423,7 @@ collections:
         widget: "relation"
         collection: "videos"
         search_fields: ["title"]
-        value_field: "{{topic}}/{{slug}}"
+        value_field: "{{slug}}"
         display_fields: ["title"]
         multiple: true
         required: false
@@ -519,7 +519,7 @@ collections:
         widget: "relation"
         collection: "faqs"
         search_fields: ["question"]
-        value_field: "{{topic}}/{{slug}}"
+        value_field: "{{slug}}"
         display_fields: ["question"]
         multiple: true
         required: false
@@ -529,7 +529,7 @@ collections:
         widget: "relation"
         collection: "videos"
         search_fields: ["title"]
-        value_field: "{{topic}}/{{slug}}"
+        value_field: "{{slug}}"
         display_fields: ["title"]
         multiple: true
         required: false
@@ -586,7 +586,7 @@ collections:
         widget: "relation"
         collection: "faqs"
         search_fields: ["question"]
-        value_field: "{{topic}}/{{slug}}"
+        value_field: "{{slug}}"
         display_fields: ["question"]
         multiple: true
         required: false
@@ -596,7 +596,7 @@ collections:
         widget: "relation"
         collection: "videos"
         search_fields: ["title"]
-        value_field: "{{topic}}/{{slug}}"
+        value_field: "{{slug}}"
         display_fields: ["title"]
         multiple: true
         required: false
